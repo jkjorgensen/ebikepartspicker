@@ -34,66 +34,69 @@ function best(opt){
 }
 function optPrice(opt){ var b = best(opt); return b ? b.p : 0; }
 
-/* 'yes' | 'likely' | 'no' */
+/* list-level fit used to filter dropdowns: 'yes' | 'likely' | 'unknown' | 'no'
+   'likely' needs sourced evidence; unsourced "likely" lists are 'unknown'. */
 function fitLevel(opt, bikeId){
   if(opt.hidden) return 'no'; /* retired listing */
   if(!opt.fits || opt.fits==='universal') return 'yes';
+  var d = fitEvidence(opt.pid, bikeId);
+  if(d && d.s==='not_compatible') return 'no';
   if(opt.fits.indexOf(bikeId) !== -1) return 'yes';
-  if(opt.likely && opt.likely.indexOf(bikeId) !== -1) return 'likely';
   if(opt.no && opt.no.indexOf(bikeId) !== -1) return 'no';
+  if(d){
+    var src = d.u && d.u.length;
+    if(src && /^confirmed/.test(d.s)) return 'yes';
+    if(src) return 'likely';
+    return 'unknown';
+  }
+  if(opt.likely && opt.likely.indexOf(bikeId) !== -1) return 'unknown';
   var b = bikeById(bikeId);
-  if(b && b.sparse) return 'likely'; /* new bike, fitment not researched yet — show as verify */
+  if(b && b.sparse) return 'unknown'; /* new bike, fitment not researched yet */
   return 'no';
 }
+window.fitLevel = fitLevel;
 
 /* ---------- compatibility rules engine ----------
-   Deterministic: unknown fitment NEVER returns a confirmed fit.
-   Statuses: direct_fit | fits_with_hardware | requires_modification |
-             incompatible | unverified */
+   Deterministic: nothing is CONFIRMED without a fitment source.
+   Statuses: confirmed | likely_verify | requires_mod | no_fit | unknown */
 var FIT_LABEL = {
-  direct_fit:'Direct fit', fits_with_hardware:'Fits with hardware',
-  requires_modification:'Fits with modification', incompatible:'Not compatible',
-  unverified:'Unverified fitment'
+  confirmed:'Confirmed fit', likely_verify:'Likely fit \u2014 verify',
+  requires_mod:'Requires modification', no_fit:'Does not fit', unknown:'Unknown fit'
 };
-var FIT_ICON = {
-  direct_fit:'\u2713', fits_with_hardware:'\u25CB', requires_modification:'\u25CB',
-  incompatible:'\u2717', unverified:'?'
-};
+var FIT_ICON = { confirmed:'\u2713', likely_verify:'\u25CB', requires_mod:'\u25B3', no_fit:'\u2717', unknown:'?' };
+window.FIT_LABEL = FIT_LABEL;
 function fitEvidence(pid, bikeId){
   if(!pid || !window.FITMENT) return null;
   return window.FITMENT[pid+'|'+bikeId] || null;
 }
+function sellerUrls(opt){
+  return (opt.prices||[]).filter(function(p){ return p.url; }).map(function(p){ return p.url; }).slice(0,3);
+}
+function fitRes(status, reason, ev){ return {status:status, reasons:[reason], evidence:ev||[], checked:CHECKED}; }
 function checkFit(bikeId, opt){
-  if(!opt || !opt.pid) return {status:'unverified',
-    reasons:['No fitment data for this entry.'], evidence:[], checked:CHECKED};
-  if(opt.fits === 'universal') return {status:'direct_fit',
-    reasons:['Seller lists this as a universal-fit part.'], evidence:[], checked:CHECKED};
+  if(!opt || !opt.pid) return fitRes('unknown','No fitment data for this entry.');
+  if(opt.hidden) return fitRes('no_fit','This listing has been retired.');
+  if(opt.fits === 'universal' || !opt.fits) return fitRes('confirmed','Seller lists this as a universal-fit part.', sellerUrls(opt));
   var d = fitEvidence(opt.pid, bikeId);
   if(d){
-    var ev = d.u || [];
-    if(d.s === 'confirmed_direct_fit') return {status:'direct_fit',
-      reasons:[d.n || 'Seller documents fitment for this exact bike.'], evidence:ev, checked:CHECKED};
-    if(d.s === 'confirmed_fit_with_adapter') return {status:'fits_with_hardware',
-      reasons:[d.n || 'Fits with the adapter/hardware noted by the seller.'], evidence:ev, checked:CHECKED};
-    if(d.s === 'confirmed_fit_with_modifications') return {status:'requires_modification',
-      reasons:[d.n || 'Fits with the modifications noted by the seller.'], evidence:ev, checked:CHECKED};
-    if(d.s === 'not_compatible') return {status:'incompatible',
-      reasons:[d.n || 'Known fitment conflict for this bike.'], evidence:ev, checked:CHECKED};
-    return {status:'unverified',
-      reasons:[d.n || 'Fitment not confirmed — verify before buying.'], evidence:ev, checked:CHECKED};
+    var ev = d.u || [], src = ev.length > 0;
+    if(d.s === 'not_compatible') return fitRes('no_fit', d.n || 'Known fitment conflict for this bike.', ev);
+    if(d.s === 'confirmed_direct_fit' && src) return fitRes('confirmed', d.n || 'Seller documents fitment for this exact bike.', ev);
+    if((d.s === 'confirmed_fit_with_adapter' || d.s === 'confirmed_fit_with_modifications') && src)
+      return fitRes('requires_mod', d.n || 'Fits with the adapter or modifications noted by the seller.', ev);
+    if(src) return fitRes('likely_verify', d.n || 'Seller wording suggests a fit but does not name this exact model \u2014 verify before buying.', ev);
+    if(opt.fits.indexOf(bikeId) === -1)
+      return fitRes('unknown', (d.n ? d.n+'. ' : '')+'No fitment source on file \u2014 confirm with the seller.');
   }
-  if(opt.fits && opt.fits.indexOf(bikeId) !== -1) return {status:'direct_fit',
-    reasons:['Listed as compatible with this bike.'], evidence:[], checked:CHECKED};
-  if(opt.likely && opt.likely.indexOf(bikeId) !== -1) return {status:'unverified',
-    reasons:['Likely fits but not confirmed — verify before buying.'], evidence:[], checked:CHECKED};
-  if(opt.no && opt.no.indexOf(bikeId) !== -1) return {status:'incompatible',
-    reasons:['Not compatible with this bike.'], evidence:[], checked:CHECKED};
+  if(opt.fits.indexOf(bikeId) !== -1) return fitRes('confirmed','The seller listing names this bike as compatible.', sellerUrls(opt));
+  if(opt.no && opt.no.indexOf(bikeId) !== -1) return fitRes('no_fit','Not compatible with this bike.');
+  if(opt.likely && opt.likely.indexOf(bikeId) !== -1)
+    return fitRes('unknown','Probably shares parts with a listed bike, but no source confirms it \u2014 ask the seller before buying.');
   var b = bikeById(bikeId);
-  if(b && b.sparse) return {status:'unverified',
-    reasons:['Fitment not yet researched for this bike.'], evidence:[], checked:CHECKED};
-  return {status:'unverified',
-    reasons:['No fitment information for this bike — not confirmed.'], evidence:[], checked:CHECKED};
+  if(b && b.sparse) return fitRes('unknown','Fitment not yet researched for this bike.');
+  return fitRes('unknown','No fitment information for this bike.');
 }
+window.checkFit = checkFit;
 function previewSrc(){
   var b = bike();
   /* Stock photo only: the AI part-swap composites had mangled spokes/hubs,
@@ -101,27 +104,47 @@ function previewSrc(){
   return bikeImgSrc(b.id);
 }
 
-/* left-column summary: every upgraded part, its price, one-tap remove */
+/* left-column summary: every upgraded part, fit status, price, one-tap remove, totals */
 function renderBuildSum(){
   var host = $('buildSum'); if(!host) return; host.innerHTML='';
-  var rows = [];
+  var b = bike(), rows = [];
   CATEGORIES.forEach(function(c){ if(state.sel[c.id]) rows.push(c); });
   if(!rows.length){ host.hidden = true; return; }
   host.hidden = false;
   var h = document.createElement('div'); h.className='bsum-head';
   h.textContent = 'Your upgrades ('+rows.length+')'; host.appendChild(h);
+  var sub = 0, noPrice = 0, flags = 0;
   rows.forEach(function(c){
-    var o = catOption(c), p = optPrice(o);
+    var o = catOption(c), bp = best(o), fr = checkFit(b.id, o);
+    if(bp && bp.p!=null) sub += bp.p; else noPrice++;
+    if(fr.status!=='confirmed') flags++;
     var r = document.createElement('div'); r.className='bsum-row';
     var t = document.createElement('span'); t.className='bsum-name';
     var k = document.createElement('small'); k.textContent = c.name; t.appendChild(k);
     t.appendChild(document.createTextNode(o.name));
-    var pr = document.createElement('span'); pr.className='bsum-price'; pr.textContent = (best(o) && best(o).p!=null) ? money(p) : 'Price TBD';
+    var chip = document.createElement('span'); chip.className='bsum-fit fit-'+fr.status;
+    chip.textContent = FIT_ICON[fr.status]+' '+FIT_LABEL[fr.status]; chip.title = fr.reasons[0];
+    t.appendChild(chip);
+    var pr = document.createElement('span'); pr.className='bsum-price'; pr.textContent = (bp && bp.p!=null) ? money(bp.p) : 'Price TBD';
     var x = document.createElement('button'); x.type='button'; x.className='bsum-x'; x.textContent='\u00d7';
     x.setAttribute('aria-label','Remove '+o.name);
     x.addEventListener('click', function(){ state.sel[c.id]=0; render(); saveHash(); });
     r.appendChild(t); r.appendChild(pr); r.appendChild(x); host.appendChild(r);
   });
+  var f = document.createElement('div'); f.className='bsum-foot';
+  function line(label, val, cls){
+    var l = document.createElement('div'); l.className='bsum-line'+(cls?' '+cls:'');
+    var a1 = document.createElement('span'); a1.textContent = label;
+    var a2 = document.createElement('span'); a2.textContent = val;
+    l.appendChild(a1); l.appendChild(a2); f.appendChild(l);
+  }
+  line(b.name, b.price!=null ? money(b.price) : 'Price TBD');
+  line('Upgrades', money(sub)+(noPrice ? ' + '+noPrice+' TBD' : ''));
+  line('Build total', (b.price!=null ? money(b.price+sub) : 'TBD')+(noPrice ? '+' : ''), 'bsum-total');
+  var n = document.createElement('p'); n.className='bsum-note';
+  n.textContent = (flags ? flags+' part'+(flags>1?'s':'')+' not confirmed for the '+b.name+' \u2014 check the fit notes before buying. ' : '')+
+    'Prices checked '+CHECKED+'; shipping and tax not included.';
+  f.appendChild(n); host.appendChild(f);
 }
 
 function totals(){
@@ -398,7 +421,8 @@ function optMeta(o, fl){
   if(o.wtKg!=null) parts.push((o.wtKg*2.20462).toFixed(1)+' lb');
   if(o.battKwh!=null) parts.push(o.battKwh.toFixed(2)+' kWh');
   if(o.battPeakKw!=null) parts.push(o.battPeakKw+' kW peak');
-  if(fl==='likely') parts.push('verify fit');
+  if(fl==='likely') parts.push('likely fit — verify');
+  if(fl==='unknown') parts.push('fit unknown');
   return parts.join(' · ');
 }
 /* battery class: long range (>=4.5 kWh) vs high output (>=40 kW peak). A pack can be both. */
@@ -492,7 +516,7 @@ function renderPick(c, b, host){
     }
     if(co.stock){
       var sb = document.createElement('span'); sb.className='tier stock-'+co.stock.replace(/_/g,'-');
-      sb.textContent = co.stock.replace(/_/g,' ');
+      sb.textContent = co.stock==='verify' ? 'stock: check' : co.stock.replace(/_/g,' ');
       pl.appendChild(sb);
     }
     row.appendChild(pl);
@@ -537,7 +561,7 @@ function renderPick(c, b, host){
     if(bb && co.prices.length>1){
       var alts = document.createElement('div'); alts.className='alts';
       alts.textContent = 'Also at: '+co.prices.filter(function(p){return p!==bb;})
-        .map(function(p){return p.v+' '+money(p.p);}).join(' · ')+' — checked '+CHECKED;
+        .map(function(p){return p.v+' '+(p.p!=null?money(p.p):'price TBD')+(p.chk?'':' (not re-checked)');}).join(' · ')+' — prices checked '+CHECKED;
       wrap.appendChild(alts);
     }
     } /* end if(shown) */
