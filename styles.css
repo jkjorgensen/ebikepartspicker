@@ -351,7 +351,7 @@ details.more[open]{padding-bottom:14px}
 .sgactions .buy{flex:1;text-align:center}
 
 @media(max-width:900px){
-  .builder-grid{grid-template-columns:1fr}
+  .builder-grid{grid-template-columns:minmax(0,1fr)}
   /* flatten the left column so the metrics bar can stick for the whole scroll */
   .bcol-left{display:contents}
   .metrics{position:sticky;top:0;z-index:40;background:var(--bg);padding:10px 0 12px;margin:0}
@@ -609,9 +609,33 @@ details.more[open]{padding-bottom:14px}
 .card li .rb{display:inline-block;margin-left:6px;background:var(--accent-soft);border:1px solid var(--accent);color:var(--accent-hi);
   padding:2px 8px;border-radius:7px;font-size:11.5px;font-weight:700;text-decoration:none}
 
-/* ---------- part overlays on the builder bike ---------- */
-.ovlbox{position:absolute;pointer-events:none;z-index:1}
-.ovlbox .ovl{position:absolute;transform:translate(-50%,-50%);height:auto;max-height:none;
-  -webkit-mask-image:none;mask-image:none;animation:ovlIn .35s ease-out}
-.badges{z-index:2}
-@keyframes ovlIn{from{opacity:0;transform:translate(-50%,-50%) scale(.96)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
+/* ---------- selected-part tray on the builder bike ---------- */
+.ptray{position:absolute;right:12px;bottom:12px;display:flex;gap:6px;z-index:2;max-width:calc(100% - 24px)}
+.ptray:empty{display:none}
+.ptray .pt{position:relative;width:48px;height:48px;border-radius:12px;padding:0;cursor:pointer;
+  background:#fff;border:1px solid #ffffff2e;box-shadow:0 3px 12px #0009;overflow:hidden;flex:none;
+  transition:transform .15s,border-color .15s}
+.ptray .pt img{width:100%;height:100%;object-fit:contain;display:block;-webkit-mask-image:none;mask-image:none;max-height:none}
+.ptray .pt:hover,.ptray .pt:focus-visible{transform:translateY(-2px);border-color:var(--accent)}
+.ptray .pt .tip{position:absolute;right:0;bottom:56px;white-space:nowrap;background:#000000e6;color:#fff;
+  font:600 12px var(--body);padding:6px 9px;border-radius:8px;pointer-events:none;opacity:0;transition:opacity .15s}
+.ptray .pt:hover .tip,.ptray .pt:focus-visible .tip{opacity:1}
+.ptray .pt{overflow:visible}
+.ptray .pt img{border-radius:11px}
+.ptray .more{background:#000000c4;color:#fff;font:800 13px var(--body);display:flex;align-items:center;justify-content:center}
+@media (max-width:640px){
+  .ptray{right:8px;bottom:8px;gap:5px}
+  .ptray .pt{width:36px;height:36px;border-radius:9px}
+  .ptray .pt img{border-radius:8px}
+  .ptray .pt .tip{bottom:42px;font-size:11px}
+}
+
+/* keep long part names from widening the grid on mobile */
+.builder-grid > *{min-width:0}
+@media(max-width:640px){
+  .topbar{flex-wrap:wrap;padding:10px 14px;gap:8px}
+  .tabs{order:3;width:100%;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{padding:8px 14px;font-size:13px;white-space:nowrap;flex:none}
+  .suggestbtn{padding:7px 12px;font-size:12px}
+}

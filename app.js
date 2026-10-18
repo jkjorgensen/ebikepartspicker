@@ -602,7 +602,7 @@ function render(){
   var img = $('bikeImg'), src = previewSrc();
   if(img.getAttribute('src')!==src) img.src = src;
   img.alt = b.name + ' e-moto';
-  if(typeof renderOverlays==='function'){ renderOverlays(b.id, state.sel); img.onload = function(){ renderOverlays(bike().id, state.sel); }; }
+  renderPartTray();
   var bbx = $('bikeBuy'); if(bbx){ bbx.innerHTML=''; var be = buyBikeEl(b.id, b.name); if(be) bbx.appendChild(be); }
 
   var badges = $('badges'); badges.innerHTML='';
@@ -993,5 +993,39 @@ if(location.hash){
   $('start').hidden = true; $('app').hidden = false;
   render(); window.scrollTo(0,0);
 }
-window.addEventListener('resize', function(){ if(typeof renderOverlays==='function') renderOverlays(bike().id, state.sel); });
+
+/* ---------- selected-part tray: real product photos of non-stock picks ---------- */
+function goToCat(cid){
+  for(var i=0;i<GROUPS.length;i++){ if(GROUPS[i].cats.indexOf(cid)>=0){ state.step=i; break; } }
+  render();
+  var p = document.querySelector('.bcol-right'); if(p && window.innerWidth<900) p.scrollIntoView({behavior:'smooth'});
+}
+function renderPartTray(){
+  var tray = $('partTray'); if(!tray) return;
+  tray.innerHTML = '';
+  var picks = [];
+  CATEGORIES.forEach(function(c){
+    var idx = state.sel[c.id]||0; if(!idx) return;
+    var o = c.options[idx]; if(o && o.img) picks.push({c:c, o:o});
+  });
+  var MAX = window.innerWidth < 640 ? 3 : 4, shown = picks.length > MAX ? MAX-1 : picks.length;
+  picks.slice(0, shown).forEach(function(p){
+    var b = document.createElement('button'); b.className='pt'; b.type='button';
+    b.setAttribute('aria-label', p.c.name+': '+p.o.name);
+    var im = document.createElement('img'); im.src = p.o.img; im.alt = ''; im.loading='lazy';
+    var tip = document.createElement('span'); tip.className='tip'; tip.textContent = p.o.name;
+    b.appendChild(im); b.appendChild(tip);
+    b.addEventListener('click', function(){ goToCat(p.c.id); });
+    tray.appendChild(b);
+  });
+  if(picks.length > shown){
+    var m = document.createElement('button'); m.className='pt more'; m.type='button';
+    m.textContent = '+'+(picks.length-shown);
+    var rest = picks.slice(shown).map(function(p){ return p.o.name; }).join(', ');
+    m.setAttribute('aria-label', 'More parts: '+rest); m.title = rest;
+    m.addEventListener('click', function(){ state.step = GROUPS.length; render(); });
+    tray.appendChild(m);
+  }
+}
+window.addEventListener('resize', function(){ renderPartTray(); });
 })();
