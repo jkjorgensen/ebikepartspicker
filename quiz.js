@@ -525,7 +525,7 @@ function recCard(picks, kind, a){
   card.appendChild(el('div','qkicker', kicker));
   var top = el('div','qrec-top');
   var img = document.createElement('img');
-  img.src = 'img/bike-'+bike.id+'.png'+(typeof IMGV!=='undefined'?'?v='+IMGV:''); img.alt = bike.name+' e-moto'; img.loading='lazy';
+  img.src = bikeImgSrc(bike.id,1); img.alt = bike.name+' e-moto'; img.loading='lazy';
   img.onerror = function(){ img.style.display='none'; };
   top.appendChild(img);
   var info = el('div','qrec-info');
