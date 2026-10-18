@@ -516,7 +516,7 @@ function renderPick(c, b, host){
     }
     if(co.stock){
       var sb = document.createElement('span'); sb.className='tier stock-'+co.stock.replace(/_/g,'-');
-      sb.textContent = co.stock==='verify' ? 'stock: check' : co.stock.replace(/_/g,' ');
+      sb.textContent = (co.stock==='verify' ? 'stock: check' : co.stock.replace(/_/g,' '))+(co.stockChk ? ' \u00b7 checked '+co.stockChk : '');
       pl.appendChild(sb);
     }
     row.appendChild(pl);
