@@ -348,7 +348,8 @@ function initBikePicker(inputId, listId, onPick){
   });
 }
 function bikeSrcText(b){
-  if(b.src==='charged') return 'Bike price via Charged Cycle Works';
+  if(b.src==='charged' || b.src==='charged_cycle_works') return 'Bike price via Charged Cycle Works (checked '+CHECKED+')';
+  if(b.src==='dealer') return 'Bike price: dealer listing';
   if(b.src==='msrp') return 'Bike price: MSRP';
   return 'Coming soon — price TBD';
 }

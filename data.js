@@ -2,14 +2,14 @@
    Catalog v3.10.6, last researched 2026-10-12.
    Do not edit by hand; edit the JSON source files and rebuild. */
 
-var CHECKED = 'Oct 12, 2026';
+var CHECKED = 'Oct 18, 2026'; /* per-price chk = date that price was confirmed on the retailer page */
 
 var BIKES = [
   {id:'ventus-plus', name:'Ventus One Plus', price:5999, src:'msrp', weight:152, kw:28, size:'mid'},
   {id:'ventus-evo', name:'Ventus V1+ EVO', price:5599, src:'charged_cycle_works', weight:159, kw:32, size:'mid'},
   {id:'lightbee', name:'Sur-Ron Light Bee X', price:4999, src:'msrp', weight:130, kw:10, size:'light'},
   {id:'ultrabee', name:'Sur-Ron Ultra Bee 24.5kW', price:6999, src:'msrp', weight:195, kw:24.5, size:'mid'},
-  {id:'ss20', name:'E Ride Pro SS 2.0', price:4599, src:'charged_cycle_works', weight:139, kw:12, size:'light'},
+  {id:'ss20', name:'E Ride Pro SS 2.0', price:4299, src:'charged_cycle_works', weight:139, kw:12, size:'light'},
   {id:'ss30', name:'E Ride Pro SS 3.0', price:4999, src:'msrp', weight:167, kw:16, size:'mid'},
   {id:'ss40', name:'E Ride Pro SS 4.0', price:4999, src:'charged_cycle_works', weight:167, kw:18, size:'mid'},
   {id:'sr', name:'E Ride Pro SR', price:5599, src:'msrp', weight:183, kw:25, size:'mid'},
@@ -103,9 +103,9 @@ var CATEGORIES = [
     {name:'Stock motor', prices:[]},
     {name:'EBMX XLB-60 Motor', pid:'ebmx-xlb-60', tier:'premium',
      prices:[
-      {v:'TB Electric Moto', p:999.89, url:'https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor'},
+      {v:'TB Electric Moto', p:999.89, url:'https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'Electric Cycle Rider', p:1249.99, url:'https://parts.electriccyclerider.com/products/ebmx-xlb-60-race-motor-kit'},
+      {v:'Electric Cycle Rider', p:1249.99, url:'https://parts.electriccyclerider.com/products/ebmx-xlb-60-race-motor-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20","ss30","sr"], likely:["ss40","arctic-xd","bonnell-805rx","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -113,9 +113,9 @@ var CATEGORIES = [
     },
     {name:'Sotion FW01 Motor', pid:'sotion-fw01', tier:'mid',
      prices:[
-      {v:'TB Electric Moto', p:739, url:'https://tbelectricmoto.com/products/sotion-motor-upgrade-for-surron-light-bee-e-moto'},
+      {v:'TB Electric Moto', p:739, url:'https://tbelectricmoto.com/products/sotion-motor-upgrade-for-surron-light-bee-e-moto', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'Darwin EV', p:789, url:'https://darwinev.com/products/sotion-motor-upgrade-sur-ron-electric-motorbikes'},
+      {v:'Darwin EV', p:789, url:'https://darwinev.com/products/sotion-motor-upgrade-sur-ron-electric-motorbikes', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee"], likely:[], no:[],
@@ -123,9 +123,9 @@ var CATEGORIES = [
     },
     {name:'EBMX XTA-60 Talaria Motor', pid:'ebmx-xta-60', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit'},
+      {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'TB Electric Moto', p:1034.1, url:'https://tbelectricmoto.com/products/ebmx-xta-60-upgraded-talaria-motor'},
+      {v:'TB Electric Moto', p:1034.1, url:'https://tbelectricmoto.com/products/ebmx-xta-60-upgraded-talaria-motor', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4","mx5"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -133,7 +133,7 @@ var CATEGORIES = [
     },
     {name:'Sotion FW02 Talaria Motor', pid:'sotion-fw02', tier:'mid',
      prices:[
-      {v:'TB Electric Moto', p:739, url:'https://tbelectricmoto.com/products/sotion-motor-upgrade-for-talaria-sting-e-moto-24kw-god-mode'},
+      {v:'TB Electric Moto', p:739, url:'https://tbelectricmoto.com/products/sotion-motor-upgrade-for-talaria-sting-e-moto-24kw-god-mode', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:[], no:[],
@@ -141,7 +141,7 @@ var CATEGORIES = [
     },
     {name:'VTB 41kW Ultra Bee Motor', pid:'vtb-41kw-ultra-bee', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/ventus-41-kw-ultra-bee-motor'},
+      {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/ventus-41-kw-ultra-bee-motor', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -149,7 +149,7 @@ var CATEGORIES = [
     },
     {name:'VTB 28kW Light E-moto Motor', pid:'vtb-28kw-light', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:799, url:'https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor'},
+      {v:'Charged Cycle Works', p:799, url:'https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20","ss30"], likely:["ultrabee","storm-bee","mx4","mx5","komodo","sr","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd"], no:[],
@@ -157,9 +157,9 @@ var CATEGORIES = [
     },
     {name:'Ventus Ryuga 81kW Motor', pid:'ventus-ryuga-81kw', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:1399, url:'https://chargedcycleworks.com/products/ventus-ryuga-81kw-motor'},
+      {v:'Charged Cycle Works', p:1399, url:'https://chargedcycleworks.com/products/ventus-ryuga-81kw-motor', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'TB Electric Moto', p:1399, url:'https://tbelectricmoto.com/products/ventus-ryuga-81kw-ultra-bee'},
+      {v:'TB Electric Moto', p:1399, url:'https://tbelectricmoto.com/products/ventus-ryuga-81kw-ultra-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -167,7 +167,7 @@ var CATEGORIES = [
     },
     {name:'Ventus Ryuga 52kW Motor', pid:'ventus-ryuga-52kw', tier:'premium',
      prices:[
-      {v:'TB Electric Moto', p:1199, url:'https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1'},
+      {v:'TB Electric Moto', p:1199, url:'https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["ss20","ss30","ventus-plus","ventus-evo"], no:[],
@@ -175,9 +175,9 @@ var CATEGORIES = [
     },
     {name:'TORP TM25 Motor', pid:'torp-tm25', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:915, url:'https://chargedcycleworks.com/products/torp-tm25-motor'},
+      {v:'Charged Cycle Works', p:915, url:'https://chargedcycleworks.com/products/torp-tm25-motor', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'Darwin EV', p:950, url:'https://darwinev.com/products/torp-motor-tm25-sur-ron-light-bee'},
+      {v:'Darwin EV', p:950, url:'https://darwinev.com/products/torp-motor-tm25-sur-ron-light-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -185,9 +185,9 @@ var CATEGORIES = [
     },
     {name:'TORP TM40 Pro Motor', pid:'torp-tm40-pro', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:1260, url:'https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee'},
+      {v:'Charged Cycle Works', p:1260, url:'https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'E-Moto USA', p:1289.99, url:'https://e-motousa.com/product/torp-tm40pro-motor-for-surron-light-bee/'},
+      {v:'E-Moto USA', p:1289.99, url:'https://e-motousa.com/product/torp-tm40pro-motor-for-surron-light-bee/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
       {v:'TORP Motors', p:1299, url:'https://webshop.torpmotors.com/product/torp-tm40pro-motor-for-surron-light-bee/'},
       /* AFFILIATE: replace with affiliate link */
@@ -204,7 +204,7 @@ var CATEGORIES = [
     },
     {name:'Torp TM50 Off Road Torque Motor for Sur-Ron Ultra Bee', pid:'torp-tm50-offroad-torque-ultrabee', tier:'performance',
      prices:[
-      {v:'Charged Cycle Works', p:1325, url:'https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee'},
+      {v:'Charged Cycle Works', p:1325, url:'https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -212,7 +212,7 @@ var CATEGORIES = [
     },
     {name:'Torp TM50 Pro High Top Speed Motor for Sur-Ron Ultra Bee', pid:'torp-tm50-pro-topspeed-ultrabee', tier:'performance',
      prices:[
-      {v:'Charged Cycle Works', p:1499, url:'https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee'},
+      {v:'Charged Cycle Works', p:1499, url:'https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -220,7 +220,7 @@ var CATEGORIES = [
     },
     {name:'Torp TM50 Speed Motor for Sur-Ron Ultra Bee', pid:'torp-tm50-speed-ultrabee', tier:'performance',
      prices:[
-      {v:'Charged Cycle Works', p:1499, url:'https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee'},
+      {v:'Charged Cycle Works', p:1499, url:'https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -233,9 +233,9 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:1164, url:'https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'REV Rides', p:1164, url:'https://revrides.com/products/ebmx-x-9000-v3-controller'},
+      {v:'REV Rides', p:1164, url:'https://revrides.com/products/ebmx-x-9000-v3-controller', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'Charged Powersports', p:1199, url:'https://chargedpowersports.com/products/ebmx-x-9000-v3-kit'},
+      {v:'Charged Powersports', p:1199, url:'https://chargedpowersports.com/products/ebmx-x-9000-v3-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr"], likely:["komodo","ss40","arctic-xd","bonnell-805rx","storm-bee","ventus-plus","ventus-evo"], no:[],
@@ -253,7 +253,7 @@ var CATEGORIES = [
      prices:[
       {v:'TORP Motors', p:1295, url:'https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'Darwin EV', p:1295, url:'https://darwinev.com/products/torp-tc1000-2-controller-sur-ron-light-bee'},
+      {v:'Darwin EV', p:1295, url:'https://darwinev.com/products/torp-tc1000-2-controller-sur-ron-light-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -263,7 +263,7 @@ var CATEGORIES = [
      prices:[
       {v:'TORP Motors', p:929.99, url:'https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'E-Moto USA', p:929.99, url:'https://e-motousa.com/product/torp-tc500-2-x-controller-kit-for-surron-talaria/'},
+      {v:'E-Moto USA', p:929.99, url:'https://e-motousa.com/product/torp-tc500-2-x-controller-kit-for-surron-talaria/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -271,7 +271,7 @@ var CATEGORIES = [
     },
     {name:'VTB V9600 Aetos Pro Gen.2 Controller', pid:'vtb-aetos-pro', tier:'premium',
      prices:[
-      {v:'Ventus Bikes USA', p:1099, url:'https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike'},
+      {v:'Ventus Bikes USA', p:1099, url:'https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee","ss20","ss30","sr","mx4","mx5"], likely:["ss40","storm-bee","komodo","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd"], no:[],
@@ -279,7 +279,7 @@ var CATEGORIES = [
     },
     {name:'VTB Aetos Gen.2 Bike-Specific Harness Kit', pid:'vtb-aetos-gen2-harness', tier:'accessory',
      prices:[
-      {v:'TB Electric Moto', p:60, url:'https://tbelectricmoto.com/products/ventus-aetos-harness-kits'},
+      {v:'TB Electric Moto', p:60, url:'https://tbelectricmoto.com/products/ventus-aetos-harness-kits', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr"], likely:["ss40","storm-bee","komodo","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd"], no:[],
@@ -294,7 +294,7 @@ var CATEGORIES = [
     },
     {name:'VTB Aetos Max Controller', pid:'ctrl-ventus-aetos-max', tier:'premium',
      prices:[
-      {v:'Ventus Bikes USA', p:1199, url:'https://ventusbikes.us/products/ventus-aetos-max-controller'},
+      {v:'Ventus Bikes USA', p:1199, url:'https://ventusbikes.us/products/ventus-aetos-max-controller', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["ventus-evo"], no:[],
@@ -302,7 +302,7 @@ var CATEGORIES = [
     },
     {name:'Torp TC1000 V1 Controller for Sur-Ron Ultra Bee', pid:'torp-tc1000-v1-ultrabee', tier:'performance',
      prices:[
-      {v:'Charged Cycle Works', p:1249, url:'https://chargedcycleworks.com/products/torp-tc1000-controller'},
+      {v:'Charged Cycle Works', p:1249, url:'https://chargedcycleworks.com/products/torp-tc1000-controller', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -310,7 +310,7 @@ var CATEGORIES = [
     },
     {name:'Torp TC1000 V2 Controller for Sur-Ron Ultra Bee', pid:'torp-tc1000-v2-ultrabee', tier:'performance',
      prices:[
-      {v:'Charged Cycle Works', p:1299, url:'https://chargedcycleworks.com/products/torp-tc1000-controller'},
+      {v:'Charged Cycle Works', p:1299, url:'https://chargedcycleworks.com/products/torp-tc1000-controller', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -318,7 +318,7 @@ var CATEGORIES = [
     },
     {name:'Ventus Aetos Ultra Controller for 118V Batteries', pid:'ventus-aetos-ultra', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:1399, url:'https://chargedcycleworks.com/products/ventus-aetos-ultra-controller'},
+      {v:'Charged Cycle Works', p:1399, url:'https://chargedcycleworks.com/products/ventus-aetos-ultra-controller', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -326,21 +326,21 @@ var CATEGORIES = [
     },
     {name:"Sur-Ron Ultra Bee 74V OEM Controller", pid:'voro-ultrabee-74v-controller', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:699.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F74v-controller-for-ultra-bee', aff:1},
+      {v:'VORO Motors', p:699.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F74v-controller-for-ultra-bee', aff:1, chk:'2026-10-18'},
      ],
      fits:["ultrabee"], likely:[], no:[],
      ctrlMaxKw:24.5, badge:'OEM', stock:'in_stock'
     },
     {name:"E Ride Pro SS 72V OEM Controller (E7003)", pid:'voro-eride-ss-72v-controller', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:360.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F72v-controller-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:360.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F72v-controller-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      ctrlMaxKw:12, badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-72v-controller.webp'
     },
     {name:"Altis Sigma 98V OEM Controller", pid:'voro-altis-sigma-98v-controller', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:999.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F98v-controller-for-altis-sigma', aff:1},
+      {v:'VORO Motors', p:999.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F98v-controller-for-altis-sigma', aff:1, chk:'2026-10-18'},
      ],
      fits:["altis-sigma"], likely:[], no:[],
      ctrlMaxKw:25, badge:'OEM', stock:'in_stock'
@@ -350,9 +350,9 @@ var CATEGORIES = [
     {name:'Stock fork', prices:[]},
     {name:'EXT Ferro E-MX Fork', pid:'ext-ferro', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:1599, url:'https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria'},
+      {v:'Charged Cycle Works', p:1599, url:'https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'TB Electric Moto', p:1599, url:'https://tbelectricmoto.com/products/ext-ferro'},
+      {v:'TB Electric Moto', p:1599, url:'https://tbelectricmoto.com/products/ext-ferro', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee","mx4","mx5","komodo","ss20","ss30","ss40","sr","ventus-plus","ventus-evo"], likely:["storm-bee"], no:[],
@@ -360,7 +360,7 @@ var CATEGORIES = [
     },
     {name:'Fastace Fork 2.0', pid:'fastace-20', tier:'mid',
      prices:[
-      {v:'Luna Cycle', p:775, url:'https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/'},
+      {v:'Luna Cycle', p:775, url:'https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee","storm-bee","mx4","mx5","komodo"], likely:["ss20","ss30","ss40","sr"], no:[],
@@ -368,7 +368,7 @@ var CATEGORIES = [
     },
     {name:'Sirris F43 CMX Fork', pid:'sirris-f43-cmx-light-bee', tier:'premium',
      prices:[
-      {v:'REV Rides', p:2250, url:'https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-surron-light-bee-x'},
+      {v:'REV Rides', p:2250, url:'https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-surron-light-bee-x', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4"], likely:[], no:[],
@@ -376,7 +376,7 @@ var CATEGORIES = [
     },
     {name:'KKE 37MM Aluminum Front Fork Suspension Kit', pid:'kke-37mm-fork-kit', tier:'mid',
      prices:[
-      {v:'Howling Moto', p:799, url:'https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective'},
+      {v:'Howling Moto', p:799, url:'https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20","mx4"], likely:[], no:[],
@@ -384,7 +384,9 @@ var CATEGORIES = [
     },
     {name:'KKE 35MM Upgraded 5.5 Front Suspension Fork', pid:'kke-35mm-55', tier:'mid',
      prices:[
-      {v:'REV Rides', p:699, url:'https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective'},
+      {v:'REV Rides', p:699, url:'https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r', chk:'2026-10-18'},
+      {v:'Charged Cycle Works', p:699, url:'https://chargedcycleworks.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective', chk:'2026-10-18'},
+      {v:'TB Electric Moto', p:699, url:'https://tbelectricmoto.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20","mx4"], likely:[], no:[],
@@ -392,7 +394,7 @@ var CATEGORIES = [
     },
     {name:'FASTACE ALX13RC 2.0 Front Fork', pid:'fastace-alx13rc-2', tier:'budget',
      prices:[
-      {v:'FASTACE', p:499, url:'https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike'},
+      {v:'FASTACE', p:499, url:'https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4","ss20","ventus-plus"], likely:[], no:["ss30"],
@@ -400,7 +402,7 @@ var CATEGORIES = [
     },
     {name:'RFLOXA Hawk32 Front Fork', pid:'rfloxa-hawk32', tier:'mid',
      prices:[
-      {v:'RFLOXA', p:599, url:'https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross'},
+      {v:'RFLOXA', p:599, url:'https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4","ss20"], likely:[], no:[],
@@ -408,9 +410,9 @@ var CATEGORIES = [
     },
     {name:'RFLOXA Hawk31 PRO Front Fork', pid:'rfloxa-hawk31-pro', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/rfloxa-hawk31-pro'},
+      {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/rfloxa-hawk31-pro', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'RFLOXA', p:863, url:'https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload'},
+      {v:'RFLOXA', p:863, url:'https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4","ss20","ventus-plus"], likely:[], no:[],
@@ -418,7 +420,7 @@ var CATEGORIES = [
     },
     {name:'FASTACE AHX12RV Front Fork', pid:'fastace-ahx12rv', tier:'mid',
      prices:[
-      {v:'FASTACE', p:899, url:'https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0'},
+      {v:'FASTACE', p:899, url:'https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4","ss20","ventus-plus"], likely:[], no:["ss30"],
@@ -426,7 +428,7 @@ var CATEGORIES = [
     },
     {name:'Sirris F43 Fork (Ultra Bee)', pid:'sirris-f43-ultra-bee', tier:'premium',
      prices:[
-      {v:'Darwin EV', p:2250, url:'https://darwinev.com/products/sirris-f43-fork-suspension-upgrade-surron-ultra-bee'},
+      {v:'Darwin EV', p:2250, url:'https://darwinev.com/products/sirris-f43-fork-suspension-upgrade-surron-ultra-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -434,9 +436,9 @@ var CATEGORIES = [
     },
     {name:'RFLOXA Ultra43 Front Fork', pid:'rfloxa-ultra43', tier:'premium',
      prices:[
-      {v:'Alien Rides', p:1526, url:'https://alienrides.com/products/rfloxa-ultra43'},
+      {v:'Alien Rides', p:1526, url:'https://alienrides.com/products/rfloxa-ultra43', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'Charged Cycle Works', p:1526, url:'https://chargedcycleworks.com/products/rfloxa-ultra43'},
+      {v:'Charged Cycle Works', p:1526, url:'https://chargedcycleworks.com/products/rfloxa-ultra43', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -444,7 +446,7 @@ var CATEGORIES = [
     },
     {name:'PURE Racing TRAXION Fork', pid:'pure-traxion', tier:'premium',
      prices:[
-      {v:'Modded Moto Co', p:1499, url:'https://moddedmotoco.com/products/untitled-nov4_12-25'},
+      {v:'Modded Moto Co', p:1499, url:'https://moddedmotoco.com/products/untitled-nov4_12-25', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee","komodo"], likely:[], no:[],
@@ -452,7 +454,7 @@ var CATEGORIES = [
     },
     {name:'OEM KKE Front Fork Assembly (2025 Light Bee)', pid:'oem-light-bee-kke', tier:'stock_replacement',
      prices:[
-      {v:'Lithium Powersports', p:763, url:'https://lithiumpowersports.com/products/surron-light-bee-x-oem-front-fork-assy-kke-25my-51000-y029a-0000'},
+      {v:'Lithium Powersports', p:763, url:'https://lithiumpowersports.com/products/surron-light-bee-x-oem-front-fork-assy-kke-25my-51000-y029a-0000', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:[], no:[],
@@ -467,7 +469,7 @@ var CATEGORIES = [
     },
     {name:'Suspension/Fork (Left) Black — Komodo OEM', pid:'komodo-fork-left-oem', tier:'OEM',
      prices:[
-      {v:'eMoto Bykes', p:444.61, url:'https://emotobykes.com/parts/talaria/frkl186/'},
+      {v:'eMoto Bykes', p:444.61, url:'https://emotobykes.com/parts/talaria/frkl186/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
@@ -475,7 +477,7 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS Adjustable RST OEM Fork (E7024)", pid:'voro-eride-ss-rst-fork', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:669.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fadjustable-rst-suspension-fork-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:669.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fadjustable-rst-suspension-fork-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-rst-fork.webp'
@@ -485,7 +487,7 @@ var CATEGORIES = [
     {name:'Stock shock', prices:[]},
     {name:'KKE Performance Rear Shock', pid:'kke-performance', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:249.99, url:'https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock'},
+      {v:'Charged Cycle Works', p:249.99, url:'https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:[], no:[],
@@ -493,7 +495,7 @@ var CATEGORIES = [
     },
     {name:'OEM KKE Rear Shock (white spring)', pid:'oem-kke-white', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:278, url:'https://chargedcycleworks.com/products/light-bee-kke-rear-shock-absorber-white-spring'},
+      {v:'Charged Cycle Works', p:278, url:'https://chargedcycleworks.com/products/light-bee-kke-rear-shock-absorber-white-spring', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:[], no:[],
@@ -501,7 +503,7 @@ var CATEGORIES = [
     },
     {name:'DNM Rear Shock 250x70', pid:'dnm-250x70', tier:'budget',
      prices:[
-      {v:'GoldenMotor.bike', p:299.99, url:'https://goldenmotor.bike/collections/oem-talaria-sting-mx4-suspension/products/rear-shock-dnm-250x70mm-talaria-sting-mx3-mx4-sur-ron-segway-shorter'},
+      {v:'GoldenMotor.bike', p:299.99, url:'https://goldenmotor.bike/collections/oem-talaria-sting-mx4-suspension/products/rear-shock-dnm-250x70mm-talaria-sting-mx3-mx4-sur-ron-segway-shorter', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4"], likely:["mx5"], no:[],
@@ -509,7 +511,7 @@ var CATEGORIES = [
     },
     {name:'TECH ER30 Rear Shock (283x80)', pid:'tech-er30-283', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:979, url:'https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee'},
+      {v:'Charged Cycle Works', p:979, url:'https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["ventus-evo"], no:[],
@@ -517,9 +519,9 @@ var CATEGORIES = [
     },
     {name:'EXT Arma MX Rear Shock', pid:'ext-arma-mx', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:950, url:'https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron'},
+      {v:'Charged Cycle Works', p:950, url:'https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'TB Electric Moto', p:950, url:'https://tbelectricmoto.com/products/ext-arma'},
+      {v:'TB Electric Moto', p:950, url:'https://tbelectricmoto.com/products/ext-arma', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4","mx5","komodo","ss20","ss30","ss40","sr","ventus-plus"], likely:["ventus-evo"], no:[],
@@ -527,7 +529,7 @@ var CATEGORIES = [
     },
     {name:'Shock Absorber Black — Komodo OEM', pid:'komodo-shock-absorber-oem', tier:'OEM',
      prices:[
-      {v:'eMoto Bykes', p:316.52, url:'https://emotobykes.com/parts/talaria/shk219/'},
+      {v:'eMoto Bykes', p:316.52, url:'https://emotobykes.com/parts/talaria/shk219/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
@@ -535,7 +537,7 @@ var CATEGORIES = [
     },
     {name:'RFloXa RAF55RV Rear Shock for Surron Ultra Bee', pid:'rfloxa-raf55rv-ultrabee', tier:'performance',
      prices:[
-      {v:'Charged Cycle Works', p:650, url:'https://chargedcycleworks.com/products/rfloxa-raf55rv'},
+      {v:'Charged Cycle Works', p:650, url:'https://chargedcycleworks.com/products/rfloxa-raf55rv', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -543,7 +545,7 @@ var CATEGORIES = [
     },
     {name:'Sirris R46 Shock for Surron Ultra Bee', pid:'sirris-r46-ultrabee', tier:'performance',
      prices:[
-      {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/sirris-r46-shock-for-surron-ultra-bee'},
+      {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/sirris-r46-shock-for-surron-ultra-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -551,7 +553,7 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM Rear Shock (E7025)", pid:'voro-eride-ss-rear-shock', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:80.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Frear-suspension-shock-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:80.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Frear-suspension-shock-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-rear-shock.webp'
@@ -561,7 +563,7 @@ var CATEGORIES = [
     {name:'Stock wheels', prices:[]},
     {name:'Warp 9 16/19 Wheelset', pid:'warp9-1619', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:806, url:'https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9'},
+      {v:'Charged Cycle Works', p:806, url:'https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","ss40","sr","ventus-plus","ventus-evo"], likely:["storm-bee","komodo","bonnell-805rx"], no:[],
@@ -569,7 +571,7 @@ var CATEGORIES = [
     },
     {name:'17" Supermoto Wheelset', pid:'supermoto-17', tier:'mid',
      prices:[
-      {v:'MX Wraps', p:439, url:'https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus'},
+      {v:'MX Wraps', p:439, url:'https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20","ss30","ss40","sr","ventus-plus","ventus-evo"], likely:[], no:[],
@@ -577,8 +579,8 @@ var CATEGORIES = [
     },
     {name:'KKE Light Bee 16/19-Inch Wheel Rim Kit', pid:'wheels-kke-lightbee-16-19', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:569, url:'https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective'},
-      {v:'TB Electric Moto', p:569, url:'https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective'},
+      {v:'Charged Cycle Works', p:569, url:'https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective', chk:'2026-10-18'},
+      {v:'TB Electric Moto', p:569, url:'https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -586,7 +588,7 @@ var CATEGORIES = [
     },
     {name:'ION 16/19-Inch Wheelset for Sur-Ron Light Bee / E Ride Pro 2.0', pid:'wheels-ion-lightbee-eride20', tier:'midrange',
      prices:[
-      {v:'eMotoZone', p:599.99, url:'https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset'},
+      {v:'eMotoZone', p:599.99, url:'https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20"], likely:["ultrabee","storm-bee","ventus-plus","ventus-evo","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -594,7 +596,7 @@ var CATEGORIES = [
     },
     {name:'ION E Ride Pro 3.0 / SR 16/19-Inch Wheelset', pid:'wheels-ion-eride30-sr-1619', tier:'midrange',
      prices:[
-      {v:'Electrix Moto', p:599, url:'https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset'},
+      {v:'Electrix Moto', p:599, url:'https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss30","sr"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss40","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -609,7 +611,7 @@ var CATEGORIES = [
     },
     {name:'Supermoto Front & Rear Wheel Set for Komodo', pid:'komodo-supermoto-wheelset', tier:'OEM',
      prices:[
-      {v:'eMoto Bykes', p:746.78, url:'https://emotobykes.com/parts/talaria/frws007/'},
+      {v:'eMoto Bykes', p:746.78, url:'https://emotobykes.com/parts/talaria/frws007/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
@@ -617,7 +619,7 @@ var CATEGORIES = [
     },
     {name:'21" Wheel Upgrade for Surron Ultra Bee (Front Wheel Only)', pid:'charged-21-front-wheel-ultrabee', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:299, url:'https://chargedcycleworks.com/products/21-wheel-upgrade-for-surron-ultra-bee'},
+      {v:'Charged Cycle Works', p:299, url:'https://chargedcycleworks.com/products/21-wheel-upgrade-for-surron-ultra-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -625,7 +627,7 @@ var CATEGORIES = [
     },
     {name:'ION - 18/21" Wheelset for Surron Ultra Bee', pid:'ion-18-21-ultrabee', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:599, url:'https://chargedcycleworks.com/products/ion-ultra-bee-18-21-wheelset'},
+      {v:'Charged Cycle Works', p:599, url:'https://chargedcycleworks.com/products/ion-ultra-bee-18-21-wheelset', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -633,7 +635,7 @@ var CATEGORIES = [
     },
     {name:'KKE 18/21 Wheels for Surron Ultra Bee (NO TIRES)', pid:'kke-18-21-ultrabee', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:599, url:'https://chargedcycleworks.com/products/kke-21-18-e-motor-wheels-rims-fit-surron-ultra-bee-collective'},
+      {v:'Charged Cycle Works', p:599, url:'https://chargedcycleworks.com/products/kke-21-18-e-motor-wheels-rims-fit-surron-ultra-bee-collective', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -641,7 +643,7 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM Wheel Assembly (per wheel: 19\" F / 19\" R / 18\" R)", pid:'voro-eride-ss-wheel-assembly', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:139.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fwheel-assembly-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:139.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fwheel-assembly-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-wheel-assembly.webp'
@@ -651,7 +653,7 @@ var CATEGORIES = [
     {name:'Stock brakes', prices:[]},
     {name:'Magura MT5E (per wheel)', pid:'magura-mt5e', tier:'budget',
      prices:[
-      {v:'HPC Bikes', p:179, url:'https://hpcbikes.com/products/magura-mt5-e-brake-kit'},
+      {v:'HPC Bikes', p:179, url:'https://hpcbikes.com/products/magura-mt5-e-brake-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd"], likely:[], no:[],
@@ -675,7 +677,7 @@ var CATEGORIES = [
     },
     {name:'E7094 Front Brake Assembly - Pro-S / SS 2.0', pid:'brakes-eride-e7094-front', tier:'OEM',
      prices:[
-      {v:'E Ride Pro', p:109, url:'https://www.eridepro.com/products/e7094'},
+      {v:'E Ride Pro', p:109, url:'https://www.eridepro.com/products/e7094', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20"], likely:["ss30","ss40","sr","ventus-plus","ventus-evo","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -683,7 +685,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Light Bee Moto Foot Brake Kit', pid:'brakes-factoryz-lightbee-foot', tier:'premium',
      prices:[
-      {v:'FactoryZ', p:349.99, url:'https://factoryz.co/products/surron-moto-foot-brake-kit'},
+      {v:'FactoryZ', p:349.99, url:'https://factoryz.co/products/surron-moto-foot-brake-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -691,7 +693,7 @@ var CATEGORIES = [
     },
     {name:'Rear Brake Pads — Komodo OEM', pid:'komodo-rear-brake-pads', tier:'OEM',
      prices:[
-      {v:'eMoto Bykes', p:29.86, url:'https://emotobykes.com/parts/talaria/bpr090/'},
+      {v:'eMoto Bykes', p:29.86, url:'https://emotobykes.com/parts/talaria/bpr090/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
@@ -699,7 +701,7 @@ var CATEGORIES = [
     },
     {name:'Rear Brake Caliper — Komodo OEM', pid:'komodo-rear-brake-caliper', tier:'OEM',
      prices:[
-      {v:'eMoto Bykes', p:75.25, url:'https://emotobykes.com/parts/talaria/bpcfr002/'},
+      {v:'eMoto Bykes', p:75.25, url:'https://emotobykes.com/parts/talaria/bpcfr002/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
@@ -707,7 +709,7 @@ var CATEGORIES = [
     },
     {name:'Front Brake Lever — Komodo OEM', pid:'komodo-front-brake-lever', tier:'OEM',
      prices:[
-      {v:'eMoto Bykes', p:22.97, url:'https://emotobykes.com/parts/talaria/brlvf158/'},
+      {v:'eMoto Bykes', p:22.97, url:'https://emotobykes.com/parts/talaria/brlvf158/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
@@ -715,7 +717,7 @@ var CATEGORIES = [
     },
     {name:'Emoto Folding Brake Levers', pid:'brakes-ventus-folding-levers', tier:'budget',
      prices:[
-      {v:'Ventus Bikes USA', p:46, url:'https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective'},
+      {v:'Ventus Bikes USA', p:46, url:'https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["ventus-evo"], no:[],
@@ -723,7 +725,7 @@ var CATEGORIES = [
     },
     {name:'Warp 9 E-Moto Folding Brake Lever Type 2', pid:'brakes-warp9-folding-lever', tier:'midrange',
      prices:[
-      {v:'GritShift', p:46.89, url:'https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro'},
+      {v:'GritShift', p:46.89, url:'https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["bonnell-805rx"], no:[],
@@ -731,7 +733,7 @@ var CATEGORIES = [
     },
     {name:'Performance Brake Pads for eMoto', pid:'charged-brake-pads-emoto', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/performance-brake-pads-for-emoto'},
+      {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/performance-brake-pads-for-emoto', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4","ss20","ventus-plus"], likely:["ss30","sr","mx5","ultrabee"], no:[],
@@ -739,7 +741,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 Surron Ultra Bee 260mm Front Brake Bracket', pid:'warp9-260mm-bracket-ultrabee', tier:'performance',
      prices:[
-      {v:'Charged Cycle Works', p:42, url:'https://chargedcycleworks.com/products/surron-ultra-bee-260mm-front-brake-bracket'},
+      {v:'Charged Cycle Works', p:42, url:'https://chargedcycleworks.com/products/surron-ultra-bee-260mm-front-brake-bracket', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -747,7 +749,7 @@ var CATEGORIES = [
     },
     {name:'Surron Light Bee | Talaria MX4 LBN "Ultra Bee" Brake Upgrade Kit', pid:'lbn-ultrab-bee-brake-kit', tier:'performance',
      prices:[
-      {v:'Charged Cycle Works', p:250, url:'https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto'},
+      {v:'Charged Cycle Works', p:250, url:'https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4"], likely:[], no:[],
@@ -755,7 +757,7 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Front Brake Assembly', pid:'ultrabee-oem-front-brake', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:240, url:'https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly'},
+      {v:'Charged Cycle Works', p:240, url:'https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -763,28 +765,28 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS 2.0 OEM Brake Pad Kit (E7193)", pid:'voro-eride-ss20-brake-pads', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:19.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:19.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:[], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss20-brake-pads.webp'
     },
     {name:"E Ride Pro SS 3.0 OEM Brake Pad Kit (SHE7067)", pid:'voro-eride-ss30-brake-pads', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:27.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss-3-0', aff:1},
+      {v:'VORO Motors', p:27.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss-3-0', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss30"], likely:[], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss30-brake-pads.webp'
     },
     {name:"Altis Sigma OEM Brake Pads", pid:'voro-altis-sigma-brake-pads', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:16.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-altis-sigma', aff:1},
+      {v:'VORO Motors', p:16.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-altis-sigma', aff:1, chk:'2026-10-18'},
      ],
      fits:["altis-sigma"], likely:[], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-altis-sigma-brake-pads.webp'
     },
     {name:"Brake Pads — Arctic Leopard XE Pro R / Sur-Ron Ultra Bee", pid:'voro-xepror-ultrabee-brake-pads', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:59.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-xe-pro-r', aff:1},
+      {v:'VORO Motors', p:59.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-xe-pro-r', aff:1, chk:'2026-10-18'},
      ],
      fits:["arctic-leopard-xe-pro-r", "ultrabee"], likely:[], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-xepror-ultrabee-brake-pads.webp'
@@ -794,7 +796,7 @@ var CATEGORIES = [
     {name:'Stock plastics', prices:[]},
     {name:'Guts Racing Seat Cover', pid:'guts-seat-cover', tier:'budget',
      prices:[
-      {v:'TB Electric Moto', p:79.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover'},
+      {v:'TB Electric Moto', p:79.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee","ss20","ss30","ss40","sr","ventus-plus","ventus-evo","mx4","mx5"], likely:["komodo","storm-bee"], no:[],
@@ -802,7 +804,7 @@ var CATEGORIES = [
     },
     {name:'Luna Float Seat', pid:'luna-float-seat', tier:'budget',
      prices:[
-      {v:'Luna Cycle', p:55, url:'https://lunacycle.com/sur-ron-float-seat/'},
+      {v:'Luna Cycle', p:55, url:'https://lunacycle.com/sur-ron-float-seat/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:[], no:[],
@@ -810,7 +812,7 @@ var CATEGORIES = [
     },
     {name:'Ventus OEM Graphics Kit', pid:'ventus-graphics', tier:'budget',
      prices:[
-      {v:'Ventus Bikes US', p:40, url:'https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem'},
+      {v:'Ventus Bikes US', p:40, url:'https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo"], likely:[], no:[],
@@ -818,7 +820,7 @@ var CATEGORIES = [
     },
     {name:'Talaria Sting R MX4 OEM Graphic Kit', pid:'plastics-talaria-mx4-oem-graphics', tier:'budget',
      prices:[
-      {v:'Talaria Canada', p:59.99, url:'https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html'},
+      {v:'Talaria Canada', p:59.99, url:'https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:["arctic-xd","bonnell-805rx","komodo","mx5","ventus-plus","ventus-evo"], no:[],
@@ -826,7 +828,7 @@ var CATEGORIES = [
     },
     {name:'Pre-Designed Ultra Bee Graphics Kit - Plastics Only', pid:'plastics-ultrabee-graphics', tier:'midrange',
      prices:[
-      {v:'ThrottleCo', p:120, url:'https://throttleco.store/products/pre-designed-ultrabee-graphics-kit-plastics-only'},
+      {v:'ThrottleCo', p:120, url:'https://throttleco.store/products/pre-designed-ultrabee-graphics-kit-plastics-only', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","ventus-plus","ventus-evo"], no:[],
@@ -834,7 +836,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Light Bee Front Number Plate', pid:'plastics-lightbee-numberplate', tier:'budget',
      prices:[
-      {v:'Sur-Ron', p:3.5, url:'https://shop.sur-ron.com/products/sur-ron-light-bee-front-number-plate'},
+      {v:'Sur-Ron', p:3.5, url:'https://shop.sur-ron.com/products/sur-ron-light-bee-front-number-plate', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","lightbee","storm-bee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -842,7 +844,7 @@ var CATEGORIES = [
     },
     {name:'ECD Customs Ultra Bee Solid Color Frame Wrap', pid:'ecd-wrap-ultrabee-solid', tier:'mid',
      prices:[
-      {v:'TB Electric', p:110, url:'https://tbelectricmoto.com/products/surron-ultra-bee-solid-color-frame-wrap'},
+      {v:'TB Electric', p:110, url:'https://tbelectricmoto.com/products/surron-ultra-bee-solid-color-frame-wrap', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -850,7 +852,7 @@ var CATEGORIES = [
     },
     {name:'ECD Customs Talaria Sting MX3/MX4 Solid Color Frame Wrap', pid:'ecd-wrap-talaria-solid', tier:'mid',
      prices:[
-      {v:'TB Electric', p:110, url:'https://tbelectricmoto.com/products/talaria-sting-solid-color-frame-wrap'},
+      {v:'TB Electric', p:110, url:'https://tbelectricmoto.com/products/talaria-sting-solid-color-frame-wrap', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:[], no:[],
@@ -858,7 +860,7 @@ var CATEGORIES = [
     },
     {name:'ECD Customs Surron LBX Solid Color Frame Wrap', pid:'ecd-wrap-lbx-solid', tier:'mid',
      prices:[
-      {v:'TB Electric', p:110, url:'https://tbelectricmoto.com/products/surron-lbx-solid-color-frame-wrap'},
+      {v:'TB Electric', p:110, url:'https://tbelectricmoto.com/products/surron-lbx-solid-color-frame-wrap', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:[], no:[],
@@ -866,7 +868,7 @@ var CATEGORIES = [
     },
     {name:'ECD Customs 79Bike Falcon Solid Color Frame Wrap', pid:'ecd-wrap-79bike-solid', tier:'mid',
      prices:[
-      {v:'TB Electric', p:110, url:'https://tbelectricmoto.com/products/79bike-solid-color-frame-wrap-m-pro-gt-ventus'},
+      {v:'TB Electric', p:110, url:'https://tbelectricmoto.com/products/79bike-solid-color-frame-wrap-m-pro-gt-ventus', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["falcon-pro","falcon-gt"], likely:[], no:[],
@@ -874,7 +876,7 @@ var CATEGORIES = [
     },
     {name:'ECD Customs RIDGE Frame Wrap — 79Bike / Ventus One+', pid:'ecd-wrap-ridge', tier:'mid',
      prices:[
-      {v:'ECD Wraps', p:null, url:'https://ecdwraps.com/products/79bike-ventusone-ridge'},
+      {v:'ECD Wraps', p:175, url:'https://ecdwraps.com/products/79bike-ventusone-ridge', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["falcon-pro","falcon-gt","ventus-plus"], likely:[], no:[],
@@ -882,7 +884,7 @@ var CATEGORIES = [
     },
     {name:'ArmySCTV 100% Custom Graphics Kit — Talaria MX3/MX4', pid:'armysctv-talaria-custom', tier:'mid',
      prices:[
-      {v:'ArmySCTV', p:null, url:'https://armysctv.com/en/products/kit-deco-100-perso-talaria-sting-mx3-r-mx4'},
+      {v:'ArmySCTV', p:170, url:'https://armysctv.com/en/products/kit-deco-100-perso-talaria-sting-mx3-r-mx4', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:[], no:[],
@@ -890,7 +892,7 @@ var CATEGORIES = [
     },
     {name:'ECR Graphics Kit (180 Decals) — Talaria MX3/MX4', pid:'ecr-graphics-talaria', tier:'mid',
      prices:[
-      {v:'Electric Cycle Rider', p:null, url:'https://parts.electriccyclerider.com/products/180-decals-graphics-for-talaria-sting-mx3-mx4'},
+      {v:'Electric Cycle Rider', p:139.99, url:'https://parts.electriccyclerider.com/products/180-decals-graphics-for-talaria-sting-mx3-mx4', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:[], no:[],
@@ -898,7 +900,7 @@ var CATEGORIES = [
     },
     {name:'Rawrr 72V Mantis Graphic Kit', pid:'rawrr-mantis-graphic-kit', tier:'mid',
      prices:[
-      {v:'Rawrr', p:199.99, url:'https://www.riderawrr.com/product/mantis-graphic-kit'},
+      {v:'Rawrr', p:199.99, url:'https://www.riderawrr.com/product/mantis-graphic-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["rawrr-mantis-72v"], likely:[], no:[],
@@ -914,14 +916,14 @@ var CATEGORIES = [
     },
     {name:"Sur-Ron Ultra Bee OEM Side Fairings (L+R)", pid:'voro-ultrabee-side-fairings', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:45.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fside-fairings-for-ultra-bee', aff:1},
+      {v:'VORO Motors', p:45.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fside-fairings-for-ultra-bee', aff:1, chk:'2026-10-18'},
      ],
      fits:["ultrabee"], likely:[], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-ultrabee-side-fairings.webp'
     },
     {name:"Sur-Ron Ultra Bee OEM Decal Set", pid:'voro-ultrabee-decal-set', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:119.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdecal-set-for-ultra-bee', aff:1},
+      {v:'VORO Motors', p:119.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdecal-set-for-ultra-bee', aff:1, chk:'2026-10-18'},
      ],
      fits:["ultrabee"], likely:[], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-ultrabee-decal-set.webp'
@@ -931,7 +933,7 @@ var CATEGORIES = [
     {name:'Stock batteries', prices:[]},
     {name:'DHS 72V 65Ah Race Battery (61kW)', pid:'dhs-72v-65ah-ub', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:2599, url:'https://chargedcycleworks.com/products/dhs-72v-65ah-rs50-61kw-battery-for-surron-ultra-bee'},
+      {v:'Charged Cycle Works', p:2599, url:'https://chargedcycleworks.com/products/dhs-72v-65ah-rs50-61kw-battery-for-surron-ultra-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -939,7 +941,7 @@ var CATEGORIES = [
     },
     {name:'DHS 80V 45Ah Race Battery (44kW)', pid:'dhs-80v-45ah-lbx', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:2299, url:'https://chargedcycleworks.com/products/dhs-rs50-80v-45ah-battery-for-surron-light-bee'},
+      {v:'Charged Cycle Works', p:2299, url:'https://chargedcycleworks.com/products/dhs-rs50-80v-45ah-battery-for-surron-light-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ventus-plus","ventus-evo"], likely:[], no:[],
@@ -947,9 +949,9 @@ var CATEGORIES = [
     },
     {name:'eWatt 72V 63Ah Race Battery', pid:'ewatt-72v-63ah-t', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:3000, url:'https://chargedcycleworks.com/products/ewatt-72v-63ah-race-battery-for-talaria-sting'},
+      {v:'Charged Cycle Works', p:3000, url:'https://chargedcycleworks.com/products/ewatt-72v-63ah-race-battery-for-talaria-sting', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'E-WATT USA', p:2990, url:'https://ewattusa.com/product/l7263h/'},
+      {v:'E-WATT USA', p:2990, url:'https://ewattusa.com/product/l7263h/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4","mx5","lightbee"], likely:[], no:[],
@@ -957,7 +959,7 @@ var CATEGORIES = [
     },
     {name:'Ventus EVO GT 72V 50Ah Battery', pid:'ventus-evo-gt-72v', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:2200, url:'https://chargedcycleworks.com/products/ventus-battery-evo-gt-72v-50ah-surron-light-bee'},
+      {v:'Charged Cycle Works', p:2200, url:'https://chargedcycleworks.com/products/ventus-battery-evo-gt-72v-50ah-surron-light-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:[], no:[],
@@ -965,7 +967,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Ultra Bee 74V 60Ah OEM Battery (2025)', pid:'ultrabee-2025-oem-battery', tier:'OEM',
      prices:[
-      {v:'Peak Power E-Motos', p:1869, url:'https://peakpoweremotos.com/parts/ultra-bee-battery'},
+      {v:'Peak Power E-Motos', p:1869, url:'https://peakpoweremotos.com/parts/ultra-bee-battery', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -973,7 +975,7 @@ var CATEGORIES = [
     },
     {name:'E7271 72V 50Ah Battery - SS3.0 Type A / SS2.0 / Pro-S', pid:'eride-e7271-battery', tier:'OEM',
      prices:[
-      {v:'E Ride Pro', p:2099, url:'https://www.eridepro.com/products/e7271'},
+      {v:'E Ride Pro', p:2099, url:'https://www.eridepro.com/products/e7271', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20","ss30"], likely:["sr","arctic-xd","bonnell-805rx","ss40","komodo","ventus-plus","ventus-evo"], no:[],
@@ -981,7 +983,7 @@ var CATEGORIES = [
     },
     {name:'E Ride Pro 4.0 72V 50Ah Pouch Cell Battery', pid:'eride-pro40-oem-battery', tier:'OEM',
      prices:[
-      {v:'E Ride Pro', p:2099, url:'https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0'},
+      {v:'E Ride Pro', p:2099, url:'https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss40"], likely:["ss30","sr","arctic-xd","bonnell-805rx","ss20","komodo","ventus-plus","ventus-evo"], no:[],
@@ -989,7 +991,7 @@ var CATEGORIES = [
     },
     {name:'DHS 88V 60Ah Race Battery w RS50 cells producing 75kw peak!', pid:'dhs-88v-60ah-ultrabee', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:2899, url:'https://chargedcycleworks.com/products/dhs-88v-60ah-race-battery-for-surron-ultra-bee-rs50-cells-75kw'},
+      {v:'Charged Cycle Works', p:2899, url:'https://chargedcycleworks.com/products/dhs-88v-60ah-race-battery-for-surron-ultra-bee-rs50-cells-75kw', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -997,7 +999,7 @@ var CATEGORIES = [
     },
     {name:'Ventus Ultra Bee Battery 96V 56AH', pid:'ventus-ultrabee-96v-56ah', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:3499, url:'https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah'},
+      {v:'Charged Cycle Works', p:3499, url:'https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -1005,7 +1007,7 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS 72V 40Ah OEM Battery (E7001)", pid:'voro-eride-ss-72v-40ah-battery', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:1999.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F72v-40ah-battery-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:1999.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F72v-40ah-battery-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      battKwh:2.88, badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-72v-40ah-battery.webp'
@@ -1015,7 +1017,7 @@ var CATEGORIES = [
     {name:'Stock handlebar', prices:[]},
     {name:'Warp 9 3" Rise Handlebar', pid:'warp9-3in-rise', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:87, url:'https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria'},
+      {v:'Charged Cycle Works', p:87, url:'https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20","ss30","ss40","sr","mx4","mx5"], likely:["ultrabee","storm-bee","ventus-plus","ventus-evo","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1023,7 +1025,7 @@ var CATEGORIES = [
     },
     {name:'Prickly 50mm Rise Handlebar (31.8mm)', pid:'prickly-50mm-318', tier:'midrange',
      prices:[
-      {v:'TB Electric Moto', p:100, url:'https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars'},
+      {v:'TB Electric Moto', p:100, url:'https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20","ss30","ss40","sr","mx4","mx5","ventus-plus"], likely:["ventus-evo","ultrabee","storm-bee","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1031,7 +1033,7 @@ var CATEGORIES = [
     },
     {name:'Prickly 50mm Rise Handlebar (35mm)', pid:'prickly-50mm-35', tier:'midrange',
      prices:[
-      {v:'TB Electric Moto', p:100, url:'https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars'},
+      {v:'TB Electric Moto', p:100, url:'https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20","ss30","ss40","sr","mx4","mx5"], likely:[], no:[],
@@ -1039,7 +1041,7 @@ var CATEGORIES = [
     },
     {name:'FactoryZ 3" Rise Handlebar', pid:'factoryz-3in-rise', tier:'budget',
      prices:[
-      {v:'FactoryZ', p:59.99, url:'https://factoryz.co/products/surron-handlebar-3-inch-rise'},
+      {v:'FactoryZ', p:59.99, url:'https://factoryz.co/products/surron-handlebar-3-inch-rise', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20","ss30","sr","mx4","mx5"], likely:["ventus-plus","ss40","ultrabee","storm-bee","ventus-evo","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1047,7 +1049,7 @@ var CATEGORIES = [
     },
     {name:'Rippin Moto RISE3 E-Moto Handlebars', pid:'rippin-moto-rise3', tier:'budget',
      prices:[
-      {v:'TB Electric Moto', p:89, url:'https://tbelectricmoto.com/products/rise3-e-moto-handlebars'},
+      {v:'TB Electric Moto', p:89, url:'https://tbelectricmoto.com/products/rise3-e-moto-handlebars', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4","mx5","ss30","sr","ventus-plus"], likely:[], no:[],
@@ -1055,7 +1057,7 @@ var CATEGORIES = [
     },
     {name:'Renthal FatBar Lite 35', pid:'renthal-fatbar-lite-35', tier:'budget',
      prices:[
-      {v:'TB Electric Moto', p:91.26, url:'https://tbelectricmoto.com/products/renthal-fatbar-lite-35-40mm-rise-gold'},
+      {v:'TB Electric Moto', p:91.26, url:'https://tbelectricmoto.com/products/renthal-fatbar-lite-35-40mm-rise-gold', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee","mx4","mx5","ss30","sr","ventus-plus"], likely:[], no:[],
@@ -1063,7 +1065,7 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM Handlebar (E7083)", pid:'voro-eride-ss-handlebar', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:39.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fhandlebar-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:39.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fhandlebar-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-handlebar.webp'
@@ -1073,7 +1075,7 @@ var CATEGORIES = [
     {name:'Stock charger', prices:[]},
     {name:'OEM 67.2V 10A Charger for Surron Light Bee', pid:'surron-lightbee-oem-charger', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:339, url:'https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger'},
+      {v:'Charged Cycle Works', p:339, url:'https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
@@ -1081,8 +1083,8 @@ var CATEGORIES = [
     },
     {name:'E7305 72V UL-Certified Charger - Pro-S / SS2.0 / SS3.0 / SR', pid:'eride-e7305-charger', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:306.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F84v-charger-for-e-ride-pro-ss', aff:1},
-      {v:'E Ride Pro', p:299, url:'https://www.eridepro.com/products/e7305'},
+      {v:'VORO Motors', p:306.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F84v-charger-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
+      {v:'E Ride Pro', p:299, url:'https://www.eridepro.com/products/e7305', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20","ss30","sr"], likely:["ss40","arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
@@ -1090,7 +1092,7 @@ var CATEGORIES = [
     },
     {name:'Talaria Sting R MX4 OEM Battery Charger (110V)', pid:'talaria-mx4-oem-charger', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:285, url:'https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v'},
+      {v:'Charged Cycle Works', p:285, url:'https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:["komodo","mx5","arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
@@ -1101,7 +1103,7 @@ var CATEGORIES = [
     {name:'Stock cockpit', prices:[]},
     {name:'Sur-Ron Light Bee OEM Replacement Throttle', pid:'cockpit-surron-oem-throttle', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:69, url:'https://chargedcycleworks.com/products/oem-replacement-throttle-for-surron-light-bee'},
+      {v:'Charged Cycle Works', p:69, url:'https://chargedcycleworks.com/products/oem-replacement-throttle-for-surron-light-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -1109,7 +1111,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Light Bee Handle Grips (Left and Right)', pid:'cockpit-surron-oem-grips', tier:'budget',
      prices:[
-      {v:'Sur-Ron', p:7, url:'https://shop.sur-ron.com/products/handle-gripleft-or-right-use'},
+      {v:'Sur-Ron', p:7, url:'https://shop.sur-ron.com/products/handle-gripleft-or-right-use', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -1117,7 +1119,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Light Bee Stem', pid:'cockpit-surron-stem', tier:'budget',
      prices:[
-      {v:'Sur-Ron', p:23.6, url:'https://shop.sur-ron.com/products/%E8%BD%BB%E8%9C%82%E9%85%8D%E4%BB%B6-%E6%8A%8A%E7%AB%8B'},
+      {v:'Sur-Ron', p:23.6, url:'https://shop.sur-ron.com/products/%E8%BD%BB%E8%9C%82%E9%85%8D%E4%BB%B6-%E6%8A%8A%E7%AB%8B', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -1125,7 +1127,7 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM Twist Throttle (E7084)", pid:'voro-eride-ss-twist-throttle', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:69.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ftwist-throttle-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:69.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ftwist-throttle-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-twist-throttle.webp'
@@ -1135,7 +1137,7 @@ var CATEGORIES = [
     {name:'Stock cooling', prices:[]},
     {name:'EBMX X-9000 V3 Air-Cooled Heatsink', pid:'cooling-ebmx-x9000-air-heatsink', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:65, url:'https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1'},
+      {v:'Charged Cycle Works', p:65, url:'https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr"], likely:["storm-bee","ventus-plus","ventus-evo","ss40","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1143,7 +1145,7 @@ var CATEGORIES = [
     },
     {name:'VTB Aetos Heatsink', pid:'cooling-ventus-aetos-heatsink', tier:'midrange',
      prices:[
-      {v:'Ventus Bikes USA', p:89, url:'https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-heatsink'},
+      {v:'Ventus Bikes USA', p:89, url:'https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-heatsink', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["ventus-evo"], no:[],
@@ -1151,7 +1153,7 @@ var CATEGORIES = [
     },
     {name:'Ventus Handlebar Fan', pid:'cooling-ventus-handlebar-fan', tier:'budget',
      prices:[
-      {v:'Ventus Bikes USA', p:89, url:'https://ventusbikes.us/products/ventus-handlebar-fan'},
+      {v:'Ventus Bikes USA', p:89, url:'https://ventusbikes.us/products/ventus-handlebar-fan', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["lightbee"], no:[],
@@ -1162,7 +1164,7 @@ var CATEGORIES = [
     {name:'Stock drivetrain', prices:[]},
     {name:'SHE8011 420 Chain Drive Set - SS2.0 / SS3.0 / SR', pid:'drivetrain-eride-chain-kit', tier:'midrange',
      prices:[
-      {v:'E Ride Pro', p:99, url:'https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr'},
+      {v:'E Ride Pro', p:99, url:'https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20","ss30","sr"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss40","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1170,8 +1172,8 @@ var CATEGORIES = [
     },
     {name:'E7004 Upgraded Drive Belt Pulley - Pro-S / SS2.0', pid:'drivetrain-eride-belt-pulley', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:49.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-pulley-for-e-ride-pro-ss', aff:1},
-      {v:'E Ride Pro', p:89, url:'https://www.eridepro.com/products/e7004'},
+      {v:'VORO Motors', p:49.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-pulley-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
+      {v:'E Ride Pro', p:89, url:'https://www.eridepro.com/products/e7004', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1179,7 +1181,7 @@ var CATEGORIES = [
     },
     {name:'E7006 Drive Belt - Pro-S / SS2.0', pid:'drivetrain-eride-belt', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:64.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:64.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1187,7 +1189,7 @@ var CATEGORIES = [
     },
     {name:'O-ring Chain 520-108 — Komodo OEM', pid:'komodo-chain-520', tier:'OEM',
      prices:[
-      {v:'eMoto Bykes', p:63.19, url:'https://emotobykes.com/parts/talaria/chn120/'},
+      {v:'eMoto Bykes', p:63.19, url:'https://emotobykes.com/parts/talaria/chn120/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
@@ -1195,7 +1197,7 @@ var CATEGORIES = [
     },
     {name:'Ventus Primary Chain Drive Conversion Kit', pid:'drivetrain-ventus-chain-kit', tier:'midrange',
      prices:[
-      {v:'Ventus Bikes USA', p:79, url:'https://ventusbikes.us/products/ventus-primary-chain-drive-kit-ventus-oem'},
+      {v:'Ventus Bikes USA', p:79, url:'https://ventusbikes.us/products/ventus-primary-chain-drive-kit-ventus-oem', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["ventus-evo"], no:[],
@@ -1203,14 +1205,14 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM Gold Chain (114 or 112 link)", pid:'voro-eride-ss-gold-chain', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:39.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F114-link-gold-chain-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:39.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F114-link-gold-chain-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-gold-chain.webp'
     },
     {name:"E Ride Pro SS OEM Sprocket (14T $13.95 / 55T $34.95)", pid:'voro-eride-ss-sprockets', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:13.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fsprockets-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:13.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fsprockets-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-sprockets.webp'
@@ -1227,7 +1229,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Light Bee Replacement Dashboard', pid:'electrical-surron-oem-dashboard', tier:'budget',
      prices:[
-      {v:'Sur-Ron', p:56, url:'https://shop.sur-ron.com/products/light-bee-replacement-dashboard'},
+      {v:'Sur-Ron', p:56, url:'https://shop.sur-ron.com/products/light-bee-replacement-dashboard', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","lightbee","storm-bee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -1235,7 +1237,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Light Bee OEM Horn', pid:'electrical-surron-horn', tier:'budget',
      prices:[
-      {v:'Sur-Ron', p:8, url:'https://shop.sur-ron.com/products/light-bee-horn'},
+      {v:'Sur-Ron', p:8, url:'https://shop.sur-ron.com/products/light-bee-horn', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","lightbee","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -1243,7 +1245,7 @@ var CATEGORIES = [
     },
     {name:'GiGigo Gi02-S Headlight', pid:'electrical-gigigo-headlight', tier:'midrange',
      prices:[
-      {v:'Ventus Bikes USA', p:199, url:'https://ventusbikes.us/products/gigigo-gi02-s-headlight'},
+      {v:'Ventus Bikes USA', p:199, url:'https://ventusbikes.us/products/gigigo-gi02-s-headlight', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["ventus-evo"], no:[],
@@ -1251,14 +1253,14 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM LCD Display (E7023)", pid:'voro-eride-ss-lcd-display', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:169.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Flcd-display-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:169.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Flcd-display-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-lcd-display.webp'
     },
     {name:"E Ride Pro SS OEM LED Headlight Bar (E7045)", pid:'voro-eride-ss-headlight-bar', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:39.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fheadlight-led-light-bar-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:39.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fheadlight-led-light-bar-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-headlight-bar.webp'
@@ -1268,8 +1270,8 @@ var CATEGORIES = [
     {name:'Stock guards', prices:[]},
     {name:'E7020 Motor Protection Guard — Pro-S / SS2.0', pid:'guards-eride-motor-guard', tier:'stock_replacement',
      prices:[
-      {v:'VORO Motors', p:14.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fmotor-protection-guard-for-e-ride-pro-ss', aff:1},
-      {v:'E Ride Pro', p:9, url:'https://www.eridepro.com/products/e7020'},
+      {v:'VORO Motors', p:14.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fmotor-protection-guard-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
+      {v:'E Ride Pro', p:9, url:'https://www.eridepro.com/products/e7020', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20"], likely:["ventus-plus","ventus-evo","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1277,7 +1279,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Ultra Bee OEM Skid Plate', pid:'guards-ultrabee-skid', tier:'stock_replacement',
      prices:[
-      {v:'Charged Cycle Works', p:42, url:'https://chargedcycleworks.com/products/skid-plate'},
+      {v:'Charged Cycle Works', p:42, url:'https://chargedcycleworks.com/products/skid-plate', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:["storm-bee","ventus-plus","ventus-evo","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1285,7 +1287,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Light Bee Upper Chain Guard', pid:'guards-lightbee-chain', tier:'stock_replacement',
      prices:[
-      {v:'Sur-Ron', p:7.8, url:'https://shop.sur-ron.com/products/sur-ron-chain-protection-box'},
+      {v:'Sur-Ron', p:7.8, url:'https://shop.sur-ron.com/products/sur-ron-chain-protection-box', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1293,7 +1295,7 @@ var CATEGORIES = [
     },
     {name:'Storm Bee Upgrade Parts (Brake Levers / Guards)', pid:'stormbee-upgrade-parts-kit', tier:'budget',
      prices:[
-      {v:'MXpartshop', p:59.9, url:'https://mxpartshop.com/products/for-surron-storm-bee-brake-levers-frame-slider-chain-adjuster-foot-pegs-caliper-guard-disc-guard'},
+      {v:'MXpartshop', p:59.9, url:'https://mxpartshop.com/products/for-surron-storm-bee-brake-levers-frame-slider-chain-adjuster-foot-pegs-caliper-guard-disc-guard', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["storm-bee"], no:[],
@@ -1301,7 +1303,7 @@ var CATEGORIES = [
     },
     {name:'Prickly Motor Cover', pid:'guards-prickly-motor-cover', tier:'midrange',
      prices:[
-      {v:'Ventus Bikes USA', p:80, url:'https://ventusbikes.us/products/prickly-motor-cover'},
+      {v:'Ventus Bikes USA', p:80, url:'https://ventusbikes.us/products/prickly-motor-cover', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["ventus-evo"], no:[],
@@ -1309,7 +1311,7 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM Motor Skid Plate (E7229)", pid:'voro-eride-ss-motor-skid-plate', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:39.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fmotor-skid-plate-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:39.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fmotor-skid-plate-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-motor-skid-plate.webp'
@@ -1319,7 +1321,7 @@ var CATEGORIES = [
     {name:'Stock linkage', prices:[]},
     {name:'EBMX Upgraded OEM Linkage for Sur-Ron Ultra Bee', pid:'linkage-ultrabeemx', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:105, url:'https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee'},
+      {v:'Charged Cycle Works', p:105, url:'https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1327,7 +1329,7 @@ var CATEGORIES = [
     },
     {name:'Ultra Bee Rear Suspension Linkage & Triangle Upgrade Kit', pid:'linkage-ultrabee-emx', tier:'budget',
      prices:[
-      {v:'EMXDesigns', p:114.99, url:'https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit'},
+      {v:'EMXDesigns', p:114.99, url:'https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1335,7 +1337,7 @@ var CATEGORIES = [
     },
     {name:'Rippin Moto Rear Suspension Linkage Kit for Talaria MX3/MX4', pid:'linkage-talaria-mx34', tier:'midrange',
      prices:[
-      {v:'Rippin Moto', p:99.99, url:'https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4'},
+      {v:'Rippin Moto', p:99.99, url:'https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:["lightbee","storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1343,7 +1345,7 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM Rear Progression Triangle (E7026)", pid:'voro-eride-ss-progression-triangle', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:59.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Frear-progression-triangle-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:59.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Frear-progression-triangle-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-progression-triangle.webp'
@@ -1353,7 +1355,7 @@ var CATEGORIES = [
     {name:'Stock maintenance', prices:[]},
     {name:'Sur-Ron Light Bee Tapered Roller Bearing Headset Kit', pid:'maintenance-lightbee-headset', tier:'midrange',
      prices:[
-      {v:'Sur-Ron', p:20, url:'https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset'},
+      {v:'Sur-Ron', p:20, url:'https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1361,7 +1363,7 @@ var CATEGORIES = [
     },
     {name:'Headset Roller Bearing Kit — E Ride Pro SS / Sur-Ron Light Bee / Talaria MX', pid:'maintenance-eride-surron-talaria-headset', tier:'midrange',
      prices:[
-      {v:'The Ride Guru', p:29.95, url:'https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet'},
+      {v:'The Ride Guru', p:29.95, url:'https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20","lightbee","mx4"], likely:["storm-bee","ultrabee","ventus-plus","ventus-evo","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1369,7 +1371,7 @@ var CATEGORIES = [
     },
     {name:'IZI Brothers Titanium Swingarm Pivot Axle — Sur-Ron Light Bee', pid:'maintenance-lightbee-swingarm-axle', tier:'premium',
      prices:[
-      {v:'IZI Brothers', p:null, url:'https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee'},
+      {v:'IZI Brothers', p:109, url:'https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1380,8 +1382,8 @@ var CATEGORIES = [
     {name:'Stock foot pegs', prices:[]},
     {name:'KKE Billet Foot Pegs for Sur-Ron Ultra Bee', pid:'pegs-kke-ultrabee', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective'},
-      {v:'TB Electric Moto', p:59.99, url:'https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective'},
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective', chk:'2026-10-18'},
+      {v:'TB Electric Moto', p:59.99, url:'https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","ventus-plus","ventus-evo"], no:[],
@@ -1389,7 +1391,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Ultra Bee OEM Pegs & Brackets', pid:'pegs-ultrabee-oem-brackets', tier:'budget',
      prices:[
-      {v:'VORO Motors', p:99.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffoot-pegs-with-mounts-for-ultra-bee', aff:1},
+      {v:'VORO Motors', p:99.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffoot-pegs-with-mounts-for-ultra-bee', aff:1, chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","ventus-plus","ventus-evo"], no:[],
@@ -1397,7 +1399,7 @@ var CATEGORIES = [
     },
     {name:'Prickly Foot Pegs Wide', pid:'pegs-prickly-wide', tier:'premium',
      prices:[
-      {v:'Ventus Bikes USA', p:170, url:'https://ventusbikes.us/products/prickly-foot-pegs-wide'},
+      {v:'Ventus Bikes USA', p:170, url:'https://ventusbikes.us/products/prickly-foot-pegs-wide', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["ventus-evo"], no:[],
@@ -1405,7 +1407,7 @@ var CATEGORIES = [
     },
     {name:'Prickly Foot Pegs MX', pid:'pegs-prickly-mx', tier:'premium',
      prices:[
-      {v:'Ventus Bikes USA', p:170, url:'https://ventusbikes.us/products/prickly-foot-pegs-mx'},
+      {v:'Ventus Bikes USA', p:170, url:'https://ventusbikes.us/products/prickly-foot-pegs-mx', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["ventus-evo"], no:[],
@@ -1413,7 +1415,7 @@ var CATEGORIES = [
     },
     {name:'Surron LBX Foot Pegs (Collective)', pid:'pegs-ventus-lbx', tier:'midrange',
      prices:[
-      {v:'Ventus Bikes USA', p:117, url:'https://ventusbikes.us/products/surron-lbx-foot-pegs-collective'},
+      {v:'Ventus Bikes USA', p:117, url:'https://ventusbikes.us/products/surron-lbx-foot-pegs-collective', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["lightbee"], no:[],
@@ -1430,7 +1432,7 @@ var CATEGORIES = [
     {name:'Stock seats', prices:[]},
     {name:'Guts Seat Cover - Sur-Ron Light Bee', pid:'seat-guts-lightbee-cover', tier:'premium',
      prices:[
-      {v:'TB Electric Moto', p:79.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover'},
+      {v:'TB Electric Moto', p:79.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -1438,7 +1440,7 @@ var CATEGORIES = [
     },
     {name:'SHE8022 Long Seat Kit - SS2.0 / SS3.0 / SR', pid:'seat-eride-long-kit', tier:'premium',
      prices:[
-      {v:'E Ride Pro', p:490, url:'https://www.eridepro.com/products/she8022-long-seat-kits'},
+      {v:'E Ride Pro', p:490, url:'https://www.eridepro.com/products/she8022-long-seat-kits', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss30","sr","ss20"], likely:["arctic-xd","bonnell-805rx","ss40","komodo","mx5","ventus-plus","ventus-evo"], no:[],
@@ -1446,7 +1448,7 @@ var CATEGORIES = [
     },
     {name:'Talaria Sting MX3/MX4 Replacement Seat', pid:'seat-talaria-mx34-oem', tier:'budget',
      prices:[
-      {v:'Zeal Racing', p:40.99, url:'https://zealracing.com/products/seat-r-mx4'},
+      {v:'Zeal Racing', p:40.99, url:'https://zealracing.com/products/seat-r-mx4', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:["arctic-xd","bonnell-805rx","komodo","mx5","ventus-plus","ventus-evo"], no:[],
@@ -1454,7 +1456,7 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM Seat (E7165)", pid:'voro-eride-ss-seat', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:44.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fseat-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:44.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fseat-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-seat.webp'
@@ -1464,7 +1466,7 @@ var CATEGORIES = [
     {name:'Stock street', prices:[]},
     {name:'Sur-Ron Light Bee X Street Legal Kit', pid:'street-lightbee-street-kit', tier:'midrange',
      prices:[
-      {v:'Rare Form Company', p:310, url:'https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit'},
+      {v:'Rare Form Company', p:310, url:'https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["storm-bee","ultrabee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1472,7 +1474,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Light Bee OEM Horn', pid:'street-surron-oem-horn', tier:'stock_replacement',
      prices:[
-      {v:'Sur-Ron', p:8, url:'https://shop.sur-ron.com/products/light-bee-horn'},
+      {v:'Sur-Ron', p:8, url:'https://shop.sur-ron.com/products/light-bee-horn', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["lightbee","storm-bee","ultrabee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1480,7 +1482,7 @@ var CATEGORIES = [
     },
     {name:'Tusk Plug and Play Turn Signal Kit', pid:'street-tusk-signal-kit', tier:'midrange',
      prices:[
-      {v:'TB Electric Moto', p:169.99, url:'https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit'},
+      {v:'TB Electric Moto', p:169.99, url:'https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr","ventus-plus","ventus-evo"], no:[],
@@ -1488,7 +1490,7 @@ var CATEGORIES = [
     },
     {name:'Project 9 Talaria Sting MX4/MX5 Turn Signal Kit', pid:'street-project9-talaria', tier:'midrange',
      prices:[
-      {v:'TB Electric Moto', p:195.95, url:'https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit'},
+      {v:'TB Electric Moto', p:195.95, url:'https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["mx4","mx5"], no:[],
@@ -1502,7 +1504,7 @@ var CATEGORIES = [
     },
     {name:"Sur-Ron Ultra Bee OEM Front Turn Signals", pid:'voro-ultrabee-front-turn-signals', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:49.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffront-turn-signals-for-ultra-bee', aff:1},
+      {v:'VORO Motors', p:49.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffront-turn-signals-for-ultra-bee', aff:1, chk:'2026-10-18'},
      ],
      fits:["ultrabee"], likely:[], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-ultrabee-front-turn-signals.webp'
@@ -1512,7 +1514,7 @@ var CATEGORIES = [
     {name:'Stock swingarm', prices:[]},
     {name:'Sur-Ron Light Bee Replacement Swingarm', pid:'swingarm-surron-oem', tier:'stock_replacement',
      prices:[
-      {v:'Electric Cycle Rider', p:399, url:'https://parts.electriccyclerider.com/products/surron-light-bee-swingarm'},
+      {v:'Electric Cycle Rider', p:399, url:'https://parts.electriccyclerider.com/products/surron-light-bee-swingarm', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1520,7 +1522,7 @@ var CATEGORIES = [
     },
     {name:'EBMX Extended Swingarm', pid:'swingarm-ebmx-extended', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:789, url:'https://chargedpowersports.com/products/ebmx-extended-swingarm'},
+      {v:'Charged Cycle Works', p:789, url:'https://chargedpowersports.com/products/ebmx-extended-swingarm', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20","ss30","sr"], likely:[], no:[],
@@ -1528,7 +1530,7 @@ var CATEGORIES = [
     },
     {name:'E Ride Pro OEM Swingarm — SS3.0 / SR', pid:'swingarm-eride-oem', tier:'stock_replacement',
      prices:[
-      {v:'Electric Cycle Rider', p:499, url:'https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2'},
+      {v:'Electric Cycle Rider', p:499, url:'https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss30","sr"], likely:["ss20","ventus-plus","ventus-evo","ss40","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1543,7 +1545,7 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM Swingarm (E7008)", pid:'voro-eride-ss-swingarm', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:349.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fswingarm-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:349.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fswingarm-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-swingarm.webp'
@@ -1553,7 +1555,7 @@ var CATEGORIES = [
     {name:'Stock tires & tubes', prices:[]},
     {name:'Sur-Ron 70/100-19 OEM Front Tire', pid:'tire-surron-oem-70100-19', tier:'OEM',
      prices:[
-      {v:'Scooterworks USA', p:45, url:'https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000'},
+      {v:'Scooterworks USA', p:45, url:'https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ventus-plus","ventus-evo","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
@@ -1561,7 +1563,7 @@ var CATEGORIES = [
     },
     {name:'E Ride Pro 18-Inch Fatty Rear Tire', pid:'tire-eride-fatty-rear-1009018', tier:'OEM',
      prices:[
-      {v:'E Ride Pro', p:79, url:'https://www.eridepro.com/products/e7235-1'},
+      {v:'E Ride Pro', p:79, url:'https://www.eridepro.com/products/e7235-1', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss30","sr","ventus-plus","lightbee","ultrabee","ss40","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","falcon-gt","stark-vargex","ultrabee-21kw","yvolt-surge-v"], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
@@ -1569,7 +1571,7 @@ var CATEGORIES = [
     },
     {name:'Rippin Moto 70/100-19 Performance Duty Inner Tube', pid:'tube-rippin-70100-19', tier:'midrange',
      prices:[
-      {v:'Rippin Moto', p:20.99, url:'https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria'},
+      {v:'Rippin Moto', p:20.99, url:'https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20","ss30","sr","ss40","lightbee","mx4","ventus-plus","ventus-evo","ultrabee","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
@@ -1577,7 +1579,7 @@ var CATEGORIES = [
     },
     {name:'Talaria Sting MX3/MX4 OEM CST Front Tire', pid:'tire-talaria-cst-70100-19', tier:'OEM',
      prices:[
-      {v:'Zeal Racing', p:94.99, url:'https://zealracing.com/products/front-wheel'},
+      {v:'Zeal Racing', p:94.99, url:'https://zealracing.com/products/front-wheel', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4","ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
@@ -1585,7 +1587,7 @@ var CATEGORIES = [
     },
     {name:'Plews MX2 Matterly GP Rear Tire', pid:'tires-plews-mx2-rear', tier:'midrange',
      prices:[
-      {v:'Ventus Bikes USA', p:99, url:'https://ventusbikes.us/products/plews-tires-mx2-matterly-gp-intermediate-all-terrain-motocross-rear-tire'},
+      {v:'Ventus Bikes USA', p:99, url:'https://ventusbikes.us/products/plews-tires-mx2-matterly-gp-intermediate-all-terrain-motocross-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-evo","supermach-sm62"], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
@@ -1595,7 +1597,7 @@ var CATEGORIES = [
      prices:[
       {v:'Rocky Mountain ATV/MC', p:59, url:'https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'Charged Cycle Works', p:59, url:'https://chargedcycleworks.com/products/shinko-244-dual-sport-tires'},
+      {v:'Charged Cycle Works', p:59.46, url:'https://chargedcycleworks.com/products/shinko-244-dual-sport-tires', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
@@ -1699,7 +1701,7 @@ var CATEGORIES = [
     },
     {name:'CST OEM Take-Off Tire 70/100-19', pid:'tire-cst-takeoff-70100-19', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:20, url:'https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway'},
+      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
@@ -1723,7 +1725,7 @@ var CATEGORIES = [
     },
     {name:'Kenda Washougal III Tire', pid:'tire-kenda-washougal3-ccw', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/kenda-k7102-washougal-iii'},
+      {v:'Charged Cycle Works', p:54.95, url:'https://chargedcycleworks.com/products/kenda-k7102-washougal-iii', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
@@ -1731,7 +1733,7 @@ var CATEGORIES = [
     },
     {name:'Mitas Terra Force-MX 16" Rear Tire', pid:'tire-mitas-terraforce-16-ccw', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:87, url:'https://chargedcycleworks.com/products/mitas-terra-force-mx-super-light-16-rear-tire'},
+      {v:'Charged Cycle Works', p:86.9, url:'https://chargedcycleworks.com/products/mitas-terra-force-mx-super-light-16-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-evo","supermach-sm62"], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
@@ -1739,7 +1741,7 @@ var CATEGORIES = [
     },
     {name:'IRC VE33 Rear Tire', pid:'tire-irc-ve33-ccw', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:83, url:'https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire'},
+      {v:'Charged Cycle Works', p:82.88, url:'https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","falcon-gt","stark-vargex","ultrabee-21kw","yvolt-surge-v"], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
@@ -1747,7 +1749,7 @@ var CATEGORIES = [
     },
     {name:'Michelin StarCross 5 Front Tire', pid:'tire-michelin-starcross5-ccw', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:68, url:'https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire'},
+      {v:'Charged Cycle Works', p:67.99, url:'https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
@@ -1755,7 +1757,7 @@ var CATEGORIES = [
     },
     {name:'Tusk T-35 Front Tire', pid:'tire-tusk-t35-front-ccw', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:26, url:'https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire'},
+      {v:'Charged Cycle Works', p:26.27, url:'https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
@@ -1763,7 +1765,7 @@ var CATEGORIES = [
     },
     {name:'Tusk T-35 Rear Tire', pid:'tire-tusk-t35-rear-ccw', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:36, url:'https://chargedcycleworks.com/collections/surron-tires/products/tusk-t-35-soft-intermediate-terrain-rear-16-tire'},
+      {v:'Charged Cycle Works', p:36.17, url:'https://chargedcycleworks.com/collections/surron-tires/products/tusk-t-35-soft-intermediate-terrain-rear-16-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-evo","supermach-sm62"], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
@@ -1771,7 +1773,7 @@ var CATEGORIES = [
     },
     {name:'Tusk Recon Sticky Tire', pid:'tire-tusk-recon-ccw', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:50, url:'https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway'},
+      {v:'Charged Cycle Works', p:49.88, url:'https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
@@ -1779,7 +1781,7 @@ var CATEGORIES = [
     },
     {name:'Tusk Ground Wire eMoto Tire', pid:'tire-tusk-groundwire-ccw', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:51, url:'https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire'},
+      {v:'Charged Cycle Works', p:50.88, url:'https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
@@ -1795,7 +1797,7 @@ var CATEGORIES = [
     },
     {name:'Bridgestone M204 Rear Tire', pid:'tire-bridgestone-m204-ccw', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:52, url:'https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire'},
+      {v:'Charged Cycle Works', p:51.97, url:'https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-evo","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","supermach-sm62"], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
@@ -1803,7 +1805,7 @@ var CATEGORIES = [
     },
     {name:'Bridgestone Battlecross X30 Tire', pid:'tire-bridgestone-x30-ccw', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:64, url:'https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16'},
+      {v:'Charged Cycle Works', p:64, url:'https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
@@ -1819,7 +1821,7 @@ var CATEGORIES = [
     },
     {name:'Dunlop MX53 Tire', pid:'tire-dunlop-mx53-ccw', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:63, url:'https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires'},
+      {v:'Charged Cycle Works', p:63, url:'https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
@@ -1827,7 +1829,7 @@ var CATEGORIES = [
     },
     {name:'Shinko SR241 Trials Tire', pid:'tire-shinko-sr241-ccw', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19'},
+      {v:'Charged Cycle Works', p:54.95, url:'https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
@@ -1835,7 +1837,7 @@ var CATEGORIES = [
     },
     {name:'IRC IX-09 Gekkota Gummy Tire', pid:'tire-irc-ix09-gekkota-ccw', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:90, url:'https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16'},
+      {v:'Charged Cycle Works', p:89.88, url:'https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","falcon-gt","stark-vargex","ultrabee-21kw","yvolt-surge-v","supermach-sm62"], likely:[], no:["ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01"],
@@ -1843,14 +1845,14 @@ var CATEGORIES = [
     },
     {name:"CST 80/100-19 OEM Tire — E Ride Pro SS (E7207)", pid:'voro-eride-ss-cst-80100-19', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:49.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fcst-80-100-19-tire-for-e-ride-pro-ss', aff:1},
+      {v:'VORO Motors', p:49.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fcst-80-100-19-tire-for-e-ride-pro-ss', aff:1, chk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-eride-ss-cst-80100-19.webp'
     },
     {name:"Altis Sigma OEM Tire (19\" F $45 / 19\" R $50 / 16\" R $55)", pid:'voro-altis-sigma-tire', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:45.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fouter-tire-for-altis-sigma', aff:1},
+      {v:'VORO Motors', p:45.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fouter-tire-for-altis-sigma', aff:1, chk:'2026-10-18'},
      ],
      fits:["altis-sigma"], likely:[], no:[],
      badge:'OEM', stock:'in_stock', img:'img/parts/voro-altis-sigma-tire.webp'
@@ -1876,7 +1878,7 @@ var CATEGORIES = [
     },
     {name:'Titanium Surron Full Body Bolt Kit — E-Ride Pro 2.0/3.0/SR', pid:'ti-full-kit-erp', tier:'premium',
      prices:[
-      {v:'Titanium Surron', p:244.99, url:'https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp'},
+      {v:'Titanium Surron', p:244.99, url:'https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20","ss30","sr"], likely:[], no:[],
@@ -1908,7 +1910,7 @@ var CATEGORIES = [
     },
     {name:'Warp 9 Titanium Chassis Kit — Ultra Bee', pid:'warp9-chassis-kit-ultrabee', tier:'premium',
      prices:[
-      {v:'Faster Minis', p:399, url:'https://faster-minis.com/products/warp9-titanium-chassis-kit-surron-ultra-bee'},
+      {v:'Faster Minis', p:399, url:'https://faster-minis.com/products/warp9-titanium-chassis-kit-surron-ultra-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -1916,7 +1918,7 @@ var CATEGORIES = [
     },
     {name:'Titanium Wheel Bolt Kit — Multi-bike (REVRides)', pid:'ti-wheel-kit-revrides', tier:'mid',
      prices:[
-      {v:'REVRides', p:89.99, url:'https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro'},
+      {v:'REVRides', p:89.99, url:'https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4","altis-sigma","ss20"], likely:[], no:["mx5"],
@@ -1932,7 +1934,7 @@ var CATEGORIES = [
     },
     {name:'Titanium Direct Mount Stem Bolt Kit (M6x20, 8 pc)', pid:'ti-stem-bolts', tier:'mid',
      prices:[
-      {v:'Titanium Surron', p:34.99, url:'https://titaniumsurron.com/products/custom-titanium-direct-mount-stem-bolt-kit'},
+      {v:'Titanium Surron', p:34.99, url:'https://titaniumsurron.com/products/custom-titanium-direct-mount-stem-bolt-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4"], likely:[], no:[],
@@ -1940,7 +1942,7 @@ var CATEGORIES = [
     },
     {name:'Warp 9 Bar Mount Titanium Bolt Kit', pid:'warp9-bar-mount-ti', tier:'mid',
      prices:[
-      {v:'Warp 9 Racing', p:69, url:'https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit'},
+      {v:'Warp 9 Racing', p:69, url:'https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4"], likely:[], no:[],
@@ -1948,7 +1950,7 @@ var CATEGORIES = [
     },
     {name:'Warp 9 Boost Spacer Front Rotor Bolts (M5x16, 6 pc)', pid:'warp9-rotor-bolts-boost', tier:'mid',
      prices:[
-      {v:'Warp 9 Racing', p:33, url:'https://warp9racing.com/products/surron-talaria-boost-spacer-front-rotor-bolts'},
+      {v:'Warp 9 Racing', p:33, url:'https://warp9racing.com/products/surron-talaria-boost-spacer-front-rotor-bolts', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4"], likely:[], no:[],
@@ -1956,7 +1958,7 @@ var CATEGORIES = [
     },
     {name:'Titanium Motor Mount Bolt Kit — E-Ride Pro (4 pc)', pid:'ti-motor-bolts-erp', tier:'mid',
      prices:[
-      {v:'Titanium Surron', p:29.99, url:'https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro'},
+      {v:'Titanium Surron', p:29.99, url:'https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20","ss30","sr"], likely:[], no:[],
@@ -1964,7 +1966,7 @@ var CATEGORIES = [
     },
     {name:'Titanium RST Fork Bolt Kit', pid:'ti-fork-kit-rst', tier:'mid',
      prices:[
-      {v:'Titanium Surron', p:44.99, url:'https://titaniumsurron.com/products/rst-fork-titanium-bolt-kit'},
+      {v:'Titanium Surron', p:44.99, url:'https://titaniumsurron.com/products/rst-fork-titanium-bolt-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20"], likely:[], no:[],
@@ -1972,7 +1974,7 @@ var CATEGORIES = [
     },
     {name:'Titanium Rear Linkage Bolt Kit — E-Ride Pro (8 pc)', pid:'ti-linkage-kit-erp', tier:'mid',
      prices:[
-      {v:'Titanium Surron', p:49.99, url:'https://titaniumsurron.com/products/rear-suspension-linkage-bolt-kit-for-e-ride-pro-erp'},
+      {v:'Titanium Surron', p:44.99, url:'https://titaniumsurron.com/products/rear-suspension-linkage-bolt-kit-for-e-ride-pro-erp', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20","ss30"], likely:[], no:[],
@@ -1980,7 +1982,7 @@ var CATEGORIES = [
     },
     {name:'MXBolts Talaria Sting MX Titanium Bolt Kit', pid:'mxbolts-talaria-kit', tier:'mid',
      prices:[
-      {v:'MXBolts', p:149.99, url:'https://mxbolts.us/products/talaria-sting-mx-titanium-bolt-kit'},
+      {v:'MXBolts', p:149.99, url:'https://mxbolts.us/products/talaria-sting-mx-titanium-bolt-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:[], no:[],
