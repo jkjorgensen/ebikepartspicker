@@ -1664,3 +1664,35 @@ ti-motor-bolts-erp,ss30,fits,confirmed,https://titaniumsurron.com/products/titan
 ti-fork-kit-rst,ss20,fits,unknown (listing does not name this bike),
 ti-linkage-kit-erp,ss20,fits,confirmed,https://titaniumsurron.com/products/rear-suspension-linkage-bolt-kit-for-e-ride-pro-erp
 ti-linkage-kit-erp,ss30,fits,unknown (listing does not name this bike),
+wheels-ion-eride30-sr-1619,mx5,confirmed (audit),unknown,https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset
+tire-dunlop-mx53-ccw,mx5,confirmed (audit),unknown,
+tire-shinko-sr241-ccw,mx5,confirmed (audit),unknown,
+rfloxa-hawk31-pro,ventus-plus,confirmed (audit),requires_mod (8mm spacer),https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload
+kke-35mm-55,ventus-plus,unknown,confirmed_direct_fit,https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r
+kke-35mm-55,ss30,unknown,confirmed_direct_fit,https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r
+kke-35mm-55,sr,unknown,confirmed_direct_fit,https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r
+kke-performance,ss20,unknown,confirmed_direct_fit,https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock
+kke-performance,mx5,unknown,confirmed_direct_fit,https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock
+kke-performance,ss30,unknown,confirmed_direct_fit,https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock
+kke-performance,sr,unknown,confirmed_direct_fit,https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock
+tech-er30-283,ss20,unknown,confirmed_direct_fit,https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee
+tech-er30-283,ventus-plus,unknown,confirmed_direct_fit,https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee
+tech-er30-283,ss30,unknown,confirmed_direct_fit,https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee
+tech-er30-283,sr,unknown,confirmed_direct_fit,https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee
+ext-arma-mx,sr,unknown,confirmed_direct_fit,https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron
+wheels-ion-eride30-sr-1619,ss30,unknown,confirmed_direct_fit,https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset
+brakes-fxt-ultrabee-rear-kit,ss20,unknown,confirmed_direct_fit,https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro
+brakes-ventus-folding-levers,mx5,unknown,confirmed_direct_fit,https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective
+brakes-warp9-folding-lever,mx5,unknown,confirmed_direct_fit,https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro
+charged-brake-pads-emoto,ss20,unknown,confirmed_direct_fit,https://chargedcycleworks.com/products/performance-brake-pads-for-emoto
+charged-brake-pads-emoto,ss30,unknown,confirmed_direct_fit,https://chargedcycleworks.com/products/performance-brake-pads-for-emoto
+prickly-50mm-318,ss30,unknown,confirmed_direct_fit,https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars
+prickly-50mm-35,ss30,unknown,confirmed_direct_fit,https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars
+rippin-moto-rise3,ss20,unknown,confirmed_direct_fit,https://tbelectricmoto.com/products/rise3-e-moto-handlebars
+rfloxa-hawk32,ventus-plus,unknown,confirmed_fit_with_adapter,https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross
+brakes-fxt-ultrabee-rear-kit,ss30,unknown,confirmed_fit_with_modifications,https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro
+brakes-ventus-folding-levers,ss30,unknown,verify,https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective
+brakes-ventus-folding-levers,sr,unknown,verify,https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective
+brakes-warp9-folding-lever,ss30,unknown,verify,https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro
+brakes-warp9-folding-lever,sr,unknown,verify,https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro
+lbn-ultrab-bee-brake-kit,mx5,unknown,not_compatible,https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto
