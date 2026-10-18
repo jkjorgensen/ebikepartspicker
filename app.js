@@ -891,7 +891,13 @@ function summary(){
 function toast(msg){ var t=$('toast'); t.textContent=msg; t.style.display='block';
   clearTimeout(t._h); t._h=setTimeout(function(){ t.style.display='none'; }, 3200); }
 function saveHash(){
-  history.replaceState(null,'','#'+encodeURIComponent(JSON.stringify({b:state.bike, s:state.sel})));
+  /* save parts by stable part id (pid), not list position, so shared builds survive catalog updates */
+  var s = {};
+  CATEGORIES.forEach(function(c){
+    var i = state.sel[c.id]; if(!i) return;
+    var o = c.options[i]; s[c.id] = (o && o.pid) ? o.pid : i;
+  });
+  history.replaceState(null,'','#'+encodeURIComponent(JSON.stringify({b:state.bike, s:s})));
 }
 function loadHash(){
   try{
@@ -899,7 +905,8 @@ function loadHash(){
       var h = JSON.parse(decodeURIComponent(location.hash.slice(1)));
       if(h.b && bikeById(h.b)) state.bike = h.b;
       if(h.s) CATEGORIES.forEach(function(c){
-        var i = h.s[c.id];
+        var v = h.s[c.id], i = v;
+        if(typeof v === 'string'){ i = -1; c.options.forEach(function(o,k){ if(o.pid===v) i=k; }); }
         if(Number.isInteger(i) && i>=0 && i<c.options.length) state.sel[c.id]=i;
       });
     }
