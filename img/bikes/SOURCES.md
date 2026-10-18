@@ -16,7 +16,7 @@ Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed 
 | sr | https://voromotors.com/products/e-ride-pro-sr-25kw-power-e-dirt-bike | https://cdn.shopify.com/s/files/1/2476/0976/files/Untitleddesign_83.webp?v=1761284538 |
 | mx4 | https://ezrides.ca/products/talaria-sting-r-mx4-electric-dirt-bike | https://cdn.shopify.com/s/files/1/0590/5340/8356/files/ezrides-talaria-sport-bike-talaria-sting-r-mx4-30868754694244.png?v=1791557145 |
 | mx5 | https://ezrides.ca/products/talaria-mx5-pro-electric-dirtbike | https://cdn.shopify.com/s/files/1/0590/5340/8356/files/ezrides-talaria-pre-order-talaria-sting-mx5-pro-34262200877156.png?v=1791557134 |
-| komodo | https://tbelectricmoto.com/products/talaria-komodo-32kw-96v-electric-dirt-bike | product gallery image |
+| komodo | https://talaria.cn/d/tanli/uploadimg/202504/3_20250425.png | official Talaria manufacturer side-profile cut-out (talaria.cn); replaces dealer photo that had a K&S Electric watermark |
 | bonnell-805rx | https://ridebonnell.com/products/805 | https://cdn.shopify.com/s/files/1/0861/5883/6028/files/805_Website_BarelyWhite.png?v=1788216738 |
 | arctic-xd | https://arctic-leopard.com/produit/x%c2%b7d-pro/ | manufacturer side-profile photo (wp-content/uploads/2026/09/04.png), cut out, tire contact shadows added |
 | rerode-rx | https://rerode.bike/pages/rx-new | https://rerode.bike/cdn/shop/files/Untitled_design_-_2026-09-26T235213.703.png?v=1790488254&amp;width=2000 |
