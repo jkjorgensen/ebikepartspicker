@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.pages.dev'; V='4.8.0'; IMGV='4.2.0'; TODAY='2026-10-18'
+BASE='https://ebikepartspicker.pages.dev'; V='4.8.1'; IMGV='4.2.0'; TODAY='2026-10-18'
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else ''
 CAT={c['id']:c for c in D['cats']}; BK={b['id']:b for b in D['bikes']}
@@ -139,7 +139,7 @@ cats_done=[u for u in urls if '/parts/' in u]
 li=''.join(f'<li><a href="{u.replace(BASE,"")}">{e(CAT[u.rstrip("/").split("/")[-1]]["name"])}</a></li>' for u in cats_done)
 urls.append(page('/parts/','E-Moto Parts by Category | eBikePartsPicker','Aftermarket e-moto parts by category, with the bikes each part is confirmed to fit.',f'<h1>Parts by category</h1><ul class="seo-links">{li}</ul>',[('Home','/'),('Parts','/parts/')]))
 static=['/','/about.html','/fitment-methodology.html','/affiliate-disclosure.html','/contact.html','/privacy.html','/terms.html','/report-a-part.html','/submission-guidelines.html']
-allu=[BASE+s for s in static if os.path.exists(os.path.join(ROOT,s.strip('/') or 'index.html'))]+urls
+allu=[BASE+(s[:-5] if s.endswith('.html') else s) for s in static if os.path.exists(os.path.join(ROOT,s.strip('/') or 'index.html'))]+urls
 open(os.path.join(ROOT,'sitemap.xml'),'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod></url>\n' for u in allu)+'</urlset>\n')
 open(os.path.join(ROOT,'robots.txt'),'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n')
 print(len(allu),'urls')
