@@ -608,3 +608,10 @@ details.more[open]{padding-bottom:14px}
 .brow .rb:hover,.card li .rb:hover{background:var(--accent);color:var(--accent-ink);text-decoration:none}
 .card li .rb{display:inline-block;margin-left:6px;background:var(--accent-soft);border:1px solid var(--accent);color:var(--accent-hi);
   padding:2px 8px;border-radius:7px;font-size:11.5px;font-weight:700;text-decoration:none}
+
+/* ---------- part overlays on the builder bike ---------- */
+.ovlbox{position:absolute;pointer-events:none;z-index:1}
+.ovlbox .ovl{position:absolute;transform:translate(-50%,-50%);height:auto;max-height:none;
+  -webkit-mask-image:none;mask-image:none;animation:ovlIn .35s ease-out}
+.badges{z-index:2}
+@keyframes ovlIn{from{opacity:0;transform:translate(-50%,-50%) scale(.96)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}

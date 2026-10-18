@@ -602,6 +602,7 @@ function render(){
   var img = $('bikeImg'), src = previewSrc();
   if(img.getAttribute('src')!==src) img.src = src;
   img.alt = b.name + ' e-moto';
+  if(typeof renderOverlays==='function'){ renderOverlays(b.id, state.sel); img.onload = function(){ renderOverlays(bike().id, state.sel); }; }
   var bbx = $('bikeBuy'); if(bbx){ bbx.innerHTML=''; var be = buyBikeEl(b.id, b.name); if(be) bbx.appendChild(be); }
 
   var badges = $('badges'); badges.innerHTML='';
@@ -992,4 +993,5 @@ if(location.hash){
   $('start').hidden = true; $('app').hidden = false;
   render(); window.scrollTo(0,0);
 }
+window.addEventListener('resize', function(){ if(typeof renderOverlays==='function') renderOverlays(bike().id, state.sel); });
 })();
