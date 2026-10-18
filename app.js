@@ -371,6 +371,7 @@ function initBikePicker(inputId, listId, onPick){
   });
 }
 function bikeSrcText(b){
+  if(b.src==='voro') return 'Bike price at Voro Motors (checked '+CHECKED+')';
   if(b.src==='charged' || b.src==='charged_cycle_works') return 'Bike price via Charged Cycle Works (checked '+CHECKED+')';
   if(b.src==='dealer') return 'Bike price: dealer listing';
   if(b.src==='msrp') return 'Bike price: MSRP';
@@ -646,7 +647,9 @@ function render(){
   });
   t = totals();
   syncBikeInputs();
-  $('bikeSrc').textContent = bikeSrcText(b);
+  var bsEl = $('bikeSrc'); bsEl.textContent = bikeSrcText(b);
+  if(b.src==='voro' && b.srcUrl){ bsEl.textContent=''; var va=document.createElement('a'); va.href=b.srcUrl; va.target='_blank'; va.rel='noopener sponsored';
+    va.textContent='Bike price at Voro Motors'; bsEl.appendChild(va); bsEl.appendChild(document.createTextNode(' (checked '+CHECKED+(b.msrp?'; MSRP '+money(b.msrp):'')+')')); }
 
   var img = $('bikeImg'), src = previewSrc();
   if(img.getAttribute('src')!==src) img.src = src;
@@ -804,6 +807,79 @@ function resolveGuide(gd){
   return {issues:issues, rows:rows, bike:b};
 }
 window.resolveGuide = resolveGuide;
+function bikePriceTag(b){ return b.src==='msrp' ? ' (MSRP)' : b.src==='voro' ? ' (at Voro Motors)' : ''; }
+/* est. system power for a set of rows: min of rated battery/controller/motor, stock kW for the rest */
+var PT = {batteries:['battMaxKw','battery'], controller:['ctrlMaxKw','controller'], motor:['motorPeakKw','motor']};
+function ptEstimate(b, rows){
+  var lim = [];
+  Object.keys(PT).forEach(function(cid){
+    var x = rows.find(function(y){ return y.cat.id===cid; });
+    var kw = x ? x.opt[PT[cid][0]] : b.kw;
+    if(kw!=null) lim.push({kw:kw, name:(x?'':'stock ')+PT[cid][1]});
+  });
+  if(!lim.length) return null;
+  return lim.reduce(function(p,q){ return q.kw<p.kw?q:p; });
+}
+function renderPower(){
+  var host = $('powerList'); if(!host) return; host.innerHTML='';
+  (window.POWER||[]).forEach(function(pw){
+    var r = resolveGuide({bike:pw.bike, pids:pw.pids}), b = r.bike;
+    if(!b || r.issues.length){ if(window.console) console.info('Power combo hidden ('+pw.bike+'):', r.issues.join('; ')); return; }
+    var sub = r.rows.reduce(function(t,x){ return t+x.bp.p; }, 0), est = ptEstimate(b, r.rows);
+    var card = document.createElement('section'); card.className='pcard'; card.id='power-'+b.id;
+    var hd = document.createElement('div'); hd.className='pc-head';
+    var im = document.createElement('img'); im.src=bikeImgSrc(b.id,1); im.alt=b.name+' electric dirt bike'; im.loading='lazy'; im.width=800; im.height=500;
+    var ht = document.createElement('div');
+    var k = document.createElement('div'); k.className='owner'; k.textContent=b.name; ht.appendChild(k);
+    var h = document.createElement('h3'); h.textContent=pw.title; ht.appendChild(h);
+    if(est){ var pe=document.createElement('div'); pe.className='gpower';
+      pe.textContent='Est. system power: '+est.kw+' kW, limited by the '+est.name+' rating (stock '+b.kw+' kW)'; ht.appendChild(pe); }
+    hd.appendChild(im); hd.appendChild(ht); card.appendChild(hd);
+    var ul = document.createElement('ul'); ul.className='gparts';
+    r.rows.forEach(function(x){
+      var li=document.createElement('li');
+      var n=document.createElement('span'); n.className='gp-name';
+      var sm=document.createElement('small'); sm.textContent=x.cat.name; n.appendChild(sm);
+      n.appendChild(document.createTextNode(x.opt.name));
+      var meta=document.createElement('div'); meta.className='feat-meta';
+      var chip=document.createElement('span'); chip.className='bsum-fit fit-'+x.fit.status; chip.textContent=FIT_ICON[x.fit.status]+' '+FIT_LABEL[x.fit.status]; meta.appendChild(chip);
+      if(x.fit.evidence && x.fit.evidence[0]){ var ev=document.createElement('a'); ev.className='pc-src'; ev.href=x.fit.evidence[0]; ev.target='_blank'; ev.rel='noopener';
+        try{ ev.textContent='Fit source: '+new URL(x.fit.evidence[0]).hostname.replace(/^www\./,''); }catch(e){ ev.textContent='Fit source'; } meta.appendChild(ev); }
+      n.appendChild(meta);
+      var note=document.createElement('p'); note.className='pc-note'; note.textContent=x.fit.reasons[0]; n.appendChild(note);
+      if(x.bp.url){ var bw=document.createElement('div'); bw.className='gp-buy'; var pa=document.createElement('a'); pa.className='rb'; pa.href=x.bp.url; pa.target='_blank';
+        pa.rel='noopener'+(x.bp.aff?' sponsored':''); pa.textContent='Buy at '+x.bp.v; bw.appendChild(pa); n.appendChild(bw); }
+      var pr=document.createElement('span'); pr.className='gp-price'; pr.textContent=money(x.bp.p);
+      li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
+    });
+    card.appendChild(ul);
+    var tot=document.createElement('div'); tot.className='gtotals';
+    [['Power parts', money(sub)],[b.name+bikePriceTag(b)+' + power', money(b.price+sub)]].forEach(function(l,i){
+      var d=document.createElement('div'); d.className='gtl'+(i===1?' gtl-total':'');
+      var x1=document.createElement('span'); x1.textContent=l[0]; var x2=document.createElement('span'); x2.textContent=l[1];
+      d.appendChild(x1); d.appendChild(x2); tot.appendChild(d); });
+    card.appendChild(tot);
+    var pc=document.createElement('div'); pc.className='gpc';
+    [['Why it works',pw.why,'gpros'],['Watch out',pw.watch,'gcons']].forEach(function(z){
+      var col=document.createElement('div'); col.className=z[2]; var hh=document.createElement('strong'); hh.textContent=z[0]; col.appendChild(hh);
+      var l=document.createElement('ul'); z[1].forEach(function(t){ var li=document.createElement('li'); li.textContent=t; l.appendChild(li); }); col.appendChild(l); pc.appendChild(col); });
+    card.appendChild(pc);
+    var nt=document.createElement('p'); nt.className='gnote'; nt.textContent='Prices checked '+CHECKED+' on the retailer pages; shipping, tax and install not included. Power is an estimate from the part ratings, not a dyno number.';
+    card.appendChild(nt);
+    var btn=document.createElement('button'); btn.className='copybtn'; btn.textContent='Customize this build';
+    btn.addEventListener('click', function(){ copyBuild(b.id, r.rows.map(function(x){ return {cat:x.cat.id, opt:x.idx}; })); window.scrollTo(0,0); });
+    card.appendChild(btn);
+    host.appendChild(card);
+  });
+}
+function openPower(hash){
+  $('start').hidden = true; $('app').hidden = false;
+  showTab('power');
+  var el = hash && hash.length>7 ? document.getElementById(hash.slice(1)) : null;
+  if(el) el.scrollIntoView(); else window.scrollTo(0,0);
+}
+(function(){ var pb=$('powerBack'); if(pb) pb.addEventListener('click', function(e){ e.preventDefault(); history.replaceState(null,'',location.pathname); showTab('builds'); }); })();
+window.addEventListener('hashchange', function(){ if(/^#power/.test(location.hash)) openPower(location.hash); });
 var TIER_LABEL = {budget:'Budget', smart:'Smart money', dream:'Dream'};
 function guideCard(host, gd, r){
   var b = r.bike, sub = 0;
@@ -833,30 +909,24 @@ function guideCard(host, gd, r){
     li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
   });
   body.appendChild(ul);
-  /* estimated system power when the guide changes the powertrain: min of rated parts, stock kW for the rest */
-  var PT = {batteries:['battMaxKw','Battery'], controller:['ctrlMaxKw','Controller'], motor:['motorPeakKw','Motor']};
-  var ptRows = r.rows.filter(function(x){ return PT[x.cat.id]; });
-  if(ptRows.length){
-    var lim = [];
-    Object.keys(PT).forEach(function(cid){
-      var x = ptRows.find(function(y){ return y.cat.id===cid; });
-      var kw = x ? x.opt[PT[cid][0]] : b.kw;
-      if(kw!=null) lim.push({kw:kw, name: x ? PT[cid][1] : 'Stock '+PT[cid][1].toLowerCase()});
-    });
-    if(lim.length){
-      var lo = lim.reduce(function(p,q){ return q.kw<p.kw?q:p; });
-      var pw = document.createElement('div'); pw.className='gpower';
-      pw.textContent = 'Est. system power: '+lo.kw+' kW (limited by '+lo.name.toLowerCase()+' rating; stock '+b.kw+' kW)';
-      body.appendChild(pw);
-    }
-  }
   var tot = document.createElement('div'); tot.className='gtotals';
-  [[b.name+(b.src==='msrp'?' (MSRP)':''), money(b.price)],['Parts', money(sub)],['Total', money(b.price+sub)]].forEach(function(l,i){
+  [[b.name+bikePriceTag(b), money(b.price)],['Parts', money(sub)],['Total', money(b.price+sub)]].forEach(function(l,i){
     var d=document.createElement('div'); d.className='gtl'+(i===2?' gtl-total':'');
     var x1=document.createElement('span'); x1.textContent=l[0]; var x2=document.createElement('span'); x2.textContent=l[1];
     d.appendChild(x1); d.appendChild(x2); tot.appendChild(d);
   });
   body.appendChild(tot);
+  if(gd.power){
+    var pwr = (window.POWER||[]).find(function(x){ return x.bike===gd.power; });
+    var pr2 = pwr ? resolveGuide({bike:gd.power, pids:pwr.pids}) : null;
+    if(pr2 && !pr2.issues.length){
+      var psub = pr2.rows.reduce(function(t,x){ return t+x.bp.p; }, 0), est = ptEstimate(b, pr2.rows);
+      var pl = document.createElement('div'); pl.className='gpowlink';
+      var t1 = document.createElement('span'); t1.textContent = 'With the power upgrade: '+money(b.price+sub+psub)+' (+'+money(psub)+(est?', est. '+est.kw+' kW':'')+')';
+      var a1 = document.createElement('a'); a1.href='#power-'+gd.power; a1.textContent='See power upgrades \u2192';
+      pl.appendChild(t1); pl.appendChild(a1); body.appendChild(pl);
+    }
+  }
   var pc = document.createElement('div'); pc.className='gpc';
   [['Pros',gd.pros,'gpros'],['Cons',gd.cons,'gcons']].forEach(function(z){
     if(!z[1] || !z[1].length) return;
@@ -890,6 +960,8 @@ function showTab(which){
   var qp = $('quizPane'); if(qp) qp.hidden = which!=='quiz';
   var cp = $('comparePane'); if(cp) cp.hidden = which!=='compare';
   var up = $('usedPane'); if(up) up.hidden = which!=='used';
+  var pp = $('powerPane'); if(pp) pp.hidden = which!=='power';
+  if(which==='power'){ $('tabBuilds').classList.add('on'); renderPower(); }
   if(which==='builds') renderBuilds();
   if(which==='upcoming') renderUpcoming();
   if(which==='used' && typeof renderUsed==='function') renderUsed();
@@ -1202,7 +1274,7 @@ initSizeChips('startSizeChips');
   });
   body.appendChild(ul);
   var tot = document.createElement('div'); tot.className='gtotals';
-  [[b.name+(b.src==='msrp'?' (MSRP)':''), b.price!=null?money(b.price):'TBD'],['Parts', money(sub)],['Total', b.price!=null?money(b.price+sub):'TBD']].forEach(function(l,i){
+  [[b.name+bikePriceTag(b), b.price!=null?money(b.price):'TBD'],['Parts', money(sub)],['Total', b.price!=null?money(b.price+sub):'TBD']].forEach(function(l,i){
     var d=document.createElement('div'); d.className='gtl'+(i===2?' gtl-total':'');
     var x1=document.createElement('span'); x1.textContent=l[0]; var x2=document.createElement('span'); x2.textContent=l[1];
     d.appendChild(x1); d.appendChild(x2); tot.appendChild(d);
@@ -1237,7 +1309,8 @@ syncBikeInputs();
   }
 })();
 /* shared build link? skip the start page */
-if(location.hash){
+if(/^#power/.test(location.hash)){ openPower(location.hash); }
+else if(location.hash){
   $('start').hidden = true; $('app').hidden = false;
   render(); window.scrollTo(0,0);
 }
