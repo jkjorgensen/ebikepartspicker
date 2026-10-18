@@ -718,3 +718,20 @@ details.more[open]{padding-bottom:14px}
 .gpc ul li span:last-child{font:inherit;white-space:normal}
 .gparts li .gp-name{font:inherit;white-space:normal}
 .gp-buy{margin-top:4px}.gp-buy .rb{margin-left:0!important;font-size:12px}
+
+/* homepage featured build */
+.featured{width:min(1100px,94vw);margin:28px auto 10px}
+.featured[hidden]{display:none}
+.feat-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--bg2,#12161b);text-align:left}
+.feat-fig{margin:0;background:var(--studio);display:flex;flex-direction:column;justify-content:center}
+.feat-fig img{width:100%;height:auto;aspect-ratio:16/10;object-fit:contain;padding:10px}
+.feat-fig figcaption{font-size:11px;color:#667;padding:0 12px 8px;text-align:right}
+.feat-body{padding:18px 20px;display:flex;flex-direction:column;gap:8px}
+.feat-body h3{margin:0;font:700 20px/1.2 var(--display)}
+.feat-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:3px}
+.feat-nv{display:block;font-weight:500;font-size:11px;color:#f0c96a}
+.feat-body .copybtn{align-self:flex-start}
+@media (max-width:760px){.feat-card{grid-template-columns:1fr}}
+.feat-body .rb{display:inline-block;background:var(--accent-soft);border:1px solid var(--accent);color:var(--accent-hi);border-radius:20px;padding:2px 10px;font-size:12px;font-weight:600;text-decoration:none}
+.feat-body .rb:hover{background:var(--accent);color:var(--accent-ink)}
+.feat-body .gparts li{align-items:flex-start}
