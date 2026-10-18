@@ -2151,4 +2151,7 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'warp9-1619|ss20':{s:'confirmed_direct_fit',n:'CCW: designed to fit the E Ride Pro SS and Pro S',u:['https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9']},
   'warp9-1619|mx4':{s:'confirmed_fit_with_modifications',n:'CCW: Talaria needs an adapter, which voids the Warp 9 wheel warranty; Talaria-specific wheels are sold separately',u:['https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9']},
   'warp9-1619|mx5':{s:'confirmed_fit_with_modifications',n:'CCW: Talaria needs an adapter, which voids the Warp 9 wheel warranty; Talaria-specific wheels are sold separately',u:['https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9']},
+  /* owner-verified: Josh (site owner) runs these on his own Ventus One Plus */
+  'warp9-1619|ventus-plus':{s:'confirmed_direct_fit',ov:1,n:'Owner-verified install (site owner\'s bike), Oct 18, 2026',u:[]},
+  'warp9-pegs-lbx-ventus|ventus-plus':{s:'confirmed_direct_fit',ov:1,n:'Owner-verified install (site owner\'s bike), Oct 18, 2026',u:[]},
 });

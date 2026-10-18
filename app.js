@@ -44,7 +44,7 @@ function fitLevel(opt, bikeId){
   if(opt.fits.indexOf(bikeId) !== -1) return 'yes';
   if(opt.no && opt.no.indexOf(bikeId) !== -1) return 'no';
   if(d){
-    var src = d.u && d.u.length;
+    var src = (d.u && d.u.length) || d.ov; /* ov = owner-verified install */
     if(src && /^confirmed/.test(d.s)) return 'yes';
     if(src) return 'likely';
     return 'unknown';
@@ -79,7 +79,7 @@ function checkFit(bikeId, opt){
   if(opt.fits === 'universal' || !opt.fits) return fitRes('confirmed','Seller lists this as a universal-fit part.', sellerUrls(opt));
   var d = fitEvidence(opt.pid, bikeId);
   if(d){
-    var ev = d.u || [], src = ev.length > 0;
+    var ev = d.u || [], src = ev.length > 0 || !!d.ov; /* ov = owner-verified install */
     if(d.s === 'not_compatible') return fitRes('no_fit', d.n || 'Known fitment conflict for this bike.', ev);
     if(d.s === 'confirmed_direct_fit' && src) return fitRes('confirmed', d.n || 'Seller documents fitment for this exact bike.', ev);
     if((d.s === 'confirmed_fit_with_adapter' || d.s === 'confirmed_fit_with_modifications') && src)
@@ -1209,7 +1209,7 @@ initSizeChips('startSizeChips');
   });
   body.appendChild(tot);
   var note = document.createElement('p'); note.className='gnote';
-  note.textContent = (unconf ? unconf+' of '+rows.length+' parts are not confirmed by a seller listing for the '+b.name+'. ' : '')+
+  note.textContent = (unconf ? unconf+' of '+rows.length+' parts are not a confirmed fit for the '+b.name+'. ' : '')+
     (unver ? unver+' price'+(unver>1?'s':'')+' not verified. ' : '')+'Prices checked '+CHECKED+'; shipping, tax and install not included.';
   body.appendChild(note);
   var btn = document.createElement('button'); btn.type='button'; btn.className='copybtn'; btn.textContent='Customize this build';
