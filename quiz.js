@@ -311,6 +311,7 @@ function pickRecommendations(scored, a){
 /* ---------- upgrade suggestions (compatible, never pre-selected) ---------- */
 var UPGRADE_CATS = ['batteries','controller','motor','fork','shock','brakes','seat','handlebar','plastics','wheels','tires','pegs','cockpit'];
 function optFitsBike(opt, bike){
+  if(window.fitLevel){ var f = window.fitLevel(opt, bike.id); return f==='unknown' ? 'no' : f; } /* suggestions: sourced fits only */
   if(opt.hidden) return 'no';
   if(!opt.fits || opt.fits==='universal') return 'yes';
   if(opt.fits.indexOf(bike.id)!==-1) return 'yes';

@@ -1991,7 +1991,7 @@ var CATEGORIES = [
   ]},
 ];
 
-var FITMENT = {
+Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'voro-ultrabee-74v-controller|ultrabee':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/74v-controller-for-ultra-bee']},
   'voro-eride-ss-72v-controller|ss20':{s:'confirmed_direct_fit',n:'VORO Motors lists fitment',u:['https://voromotors.com/products/72v-controller-for-e-ride-pro-ss']},
   'voro-eride-ss-72v-controller|ss30':{s:'verify',n:'Voro lists "E Ride Pro SS" — confirm for SS 3.0',u:['https://voromotors.com/products/72v-controller-for-e-ride-pro-ss']},
@@ -2076,4 +2076,4 @@ var FITMENT = {
   'ti-stem-bolts|lightbee':{s:'confirmed_direct_fit',n:'Generic Talaria Sting fitment mapped to MX4',u:[]},
   'ti-stem-bolts|mx4':{s:'confirmed_direct_fit',n:'Generic Talaria Sting fitment mapped to MX4',u:[]},
   'mxbolts-talaria-kit|mx4':{s:'confirmed_direct_fit',n:'MXBolts lists this titanium kit for the Talaria Sting MX platform.',u:['https://mxbolts.us/products/talaria-sting-mx-titanium-bolt-kit']},
-};
+});
