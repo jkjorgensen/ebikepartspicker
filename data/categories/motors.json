@@ -1165,41 +1165,6 @@
       "image": "img/parts/torp-tm40-pro.webp"
     },
     {
-      "id": "stormbee-motor-oem",
-      "name": "Storm Bee Motor Assembly",
-      "brand": "Sur-Ron",
-      "category": "motor",
-      "price_usd": 2099.99,
-      "vendor": "SurronMotos",
-      "buy_url": "https://surronmotos.com/shop/storm-bee-motor-assembly-3/",
-      "tier": "OEM",
-      "is_upgrade": false,
-      "stock_status": "in_stock",
-      "notes": "OEM Storm Bee motor assembly. PMSM, liquid-cooled, 22.5 kW peak / 10 kW nominal, 520 Nm at rear wheel, 96V system, ~24 kg, IP67. Vendor lists Storm Bee MX/Enduro/Road/Youth — F variant not explicitly named, verify F fitment, model year and connector before ordering.",
-      "source_urls": [
-        "https://surronmotos.com/shop/storm-bee-motor-assembly-3/"
-      ],
-      "last_checked": "2026-10-12",
-      "weight_kg": 24,
-      "power_change_kw": 22.5,
-      "_fit": {
-        "Sur-Ron Storm Bee F": "verify"
-      },
-      "_fit_src": {
-        "storm-bee": "https://surronmotos.com/shop/storm-bee-motor-assembly-3/"
-      },
-      "vendors": [
-        {
-          "vendor": "SurronMotos",
-          "price_usd": 2099.99,
-          "buy_url": "https://surronmotos.com/shop/storm-bee-motor-assembly-3/"
-        }
-      ],
-      "motor_peak_kw": 22.5,
-      "weight_delta_kg": null,
-      "image": "img/parts/stormbee-motor-oem.jpg"
-    },
-    {
       "id": "torp-tm50-offroad-torque-ultrabee",
       "name": "Torp TM50 Off Road Torque Motor for Sur-Ron Ultra Bee",
       "brand": "Torp",

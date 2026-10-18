@@ -118,9 +118,7 @@
       "is_upgrade": false,
       "stock_status": "in_stock",
       "notes": "OEM replacement drive belt (belt only) for Pro-S/SS2.0. Check belt length/tooth profile and pulley revision.",
-      "source_urls": [
-        "https://www.eridepros.com/product-page/drive-belt"
-      ],
+      "source_urls": [],
       "last_checked": "2026-10-12",
       "weight_kg": null,
       "power_change_kw": null,
@@ -141,7 +139,7 @@
         "Arctic Leopard XD": "verify"
       },
       "_fit_src": {
-        "ss20": "https://www.eridepros.com/product-page/drive-belt"
+        "ss20": null
       },
       "vendors": [
         {
@@ -149,11 +147,6 @@
           "price_usd": 64.95,
           "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-for-e-ride-pro-ss",
           "affiliate": true
-        },
-        {
-          "vendor": "E Ride Pro",
-          "price_usd": 66,
-          "buy_url": "https://www.eridepros.com/product-page/drive-belt"
         }
       ],
       "weight_delta_kg": null
@@ -506,9 +499,7 @@
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.eridepros.com/product-page/drive-belt"
-      ],
+      "fitment_source_urls": [],
       "notes": ""
     },
     {

@@ -955,41 +955,6 @@
       "image": "img/parts/vtb-aetos-gen2-harness.webp"
     },
     {
-      "id": "stormbee-controller-oem",
-      "name": "Storm Bee FOC Sine Wave Controller",
-      "brand": "Sur-Ron",
-      "category": "controller",
-      "price_usd": 1779.99,
-      "vendor": "SurronMotos",
-      "buy_url": "https://surronmotos.com/shop/storm-bee-foc-sine-wave-controller-3/",
-      "tier": "OEM",
-      "is_upgrade": false,
-      "stock_status": "in_stock",
-      "notes": "OEM stock-replacement FOC sine wave controller (encoder MCU). 96V nominal, 104V/55A aluminum case, up to 22.5 kW peak, CAN bus, IP67, factory plug-and-play. On sale $1,779.99 (reg $2,079.99). Verify F variant, battery voltage and harness before ordering.",
-      "source_urls": [
-        "https://surronmotos.com/shop/storm-bee-foc-sine-wave-controller-3/"
-      ],
-      "last_checked": "2026-10-12",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Sur-Ron Storm Bee F": "verify"
-      },
-      "_fit_src": {
-        "storm-bee": "https://surronmotos.com/shop/storm-bee-foc-sine-wave-controller-3/"
-      },
-      "vendors": [
-        {
-          "vendor": "SurronMotos",
-          "price_usd": 1779.99,
-          "buy_url": "https://surronmotos.com/shop/storm-bee-foc-sine-wave-controller-3/"
-        }
-      ],
-      "controller_max_kw": 22.5,
-      "weight_delta_kg": null,
-      "image": "img/parts/stormbee-controller-oem.jpg"
-    },
-    {
       "id": "ctrl-ventus-aetos-max",
       "name": "VTB Aetos Max Controller",
       "brand": "VTB",

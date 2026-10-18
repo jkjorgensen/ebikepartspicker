@@ -5,36 +5,6 @@
   },
   "products": [
     {
-      "id": "electrical-torp-egg-rider",
-      "name": "TORP EggRider Display",
-      "brand": "TORP",
-      "category": "electrical",
-      "badge": "Display",
-      "tier": "midrange",
-      "price_usd": 110.0,
-      "vendor": "Sur Ron USA",
-      "buy_url": "https://ridesurronusa.com/product/torp-egg-rider-display/",
-      "stock_status": "in_stock",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "is_upgrade": true,
-      "source_urls": [
-        "https://ridesurronusa.com/product/torp-egg-rider-display/"
-      ],
-      "last_checked": "2026-10-12",
-      "notes": "Price verified $110 in stock (input had no price). TORP-controller accessory, not universal OEM display. Connects to TORP controller wiring loom; some Light Bee/Ultra Bee loom revisions need the 5-connector replacement wiring loom. Compatible with TORP TC500 (LBX, MX4) and TC1000 (LBX, Ultra Bee).",
-      "variant": null,
-      "vendors": [
-        {
-          "vendor": "Sur Ron USA",
-          "price_usd": 110.0,
-          "buy_url": "https://ridesurronusa.com/product/torp-egg-rider-display/"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": "img/parts/electrical-torp-egg-rider.png"
-    },
-    {
       "id": "electrical-surron-oem-dashboard",
       "name": "Sur-Ron Light Bee Replacement Dashboard",
       "brand": "Sur-Ron",
