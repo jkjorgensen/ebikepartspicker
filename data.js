@@ -171,7 +171,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["ss20","ss30","ventus-plus","ventus-evo"], no:[],
-     badge:'Ryuga 52kW', motorKw:52.5, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ventus-ryuga-52kw.jpg'
+     badge:'Ryuga 52kW', motorKw:52.5, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ventus-ryuga-52kw.webp'
     },
     {name:'TORP TM25 Motor', pid:'torp-tm25', tier:'midrange',
      prices:[
@@ -239,7 +239,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr","bonnell-805rx","komodo","storm-bee","ventus-plus"], likely:["ss40","arctic-xd","ventus-evo"], no:[],
-     badge:'X-9000', ctrlMaxKw:60, stock:'in_stock', img:'img/parts/ebmx-x-9000-v3.jpg'
+     badge:'X-9000', ctrlMaxKw:60, stock:'in_stock'
     },
     {name:'VTB Controller w/ Aetos cover', pid:'vtb-aetos', tier:'mid',
      prices:[
@@ -351,7 +351,7 @@ var CATEGORIES = [
       {v:'REV Rides', p:1199, url:'https://revrides.com/products/ebmx-x-9000-v3-controller-full-kit-sur-ron-talaria-e-ride-pro-altis-sigma?variant=50076992831778', chk:'2026-10-18'},
      ],
      fits:["mx4","mx5"], likely:[], no:[],
-     badge:'X-9000 V3', ctrlMaxKw:60, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ebmx-x-9000-v3.jpg'
+     badge:'X-9000 V3', ctrlMaxKw:60, stock:'in_stock', stockChk:'2026-10-18'
     },
   ]},
   {id:'fork', name:'Fork', blurb:'Front suspension — dictates how the bike handles braking bumps, rocks, and landings.', tips:['Axle size and triple-clamp fitment must match your bike','Spring rate should suit your weight — ask the vendor','More travel isn\'t always better if the geometry suffers'], options:[
@@ -372,7 +372,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4"], likely:["ss20","ss30","ss40","sr","komodo","storm-bee","ultrabee"], no:["mx5"],
-     badge:'Fastace', stock:'in_stock', img:'img/parts/fastace-20.jpg'
+     badge:'Fastace', stock:'in_stock', img:'img/parts/fastace-20.webp'
     },
     {name:'Sirris F43 CMX Fork', pid:'sirris-f43-cmx-light-bee', tier:'premium',
      prices:[
@@ -398,7 +398,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20","mx4"], likely:[], no:[],
-     badge:'KKE', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/kke-35mm-55.jpg'
+     badge:'KKE', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/kke-35mm-55.webp'
     },
     {name:'FASTACE ALX13RC 2.0 Front Fork', pid:'fastace-alx13rc-2', tier:'budget',
      prices:[
@@ -473,7 +473,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["storm-bee"], no:[],
-     stock:'in_stock', wtKg:4.2, img:'img/parts/stormbee-fork-right-kke.jpg'
+     stock:'in_stock', wtKg:4.2, img:'img/parts/stormbee-fork-right-kke.webp'
     },
     {name:'Suspension/Fork (Left) Black — Komodo OEM', pid:'komodo-fork-left-oem', tier:'OEM',
      prices:[
@@ -515,7 +515,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:["mx5","lightbee"], no:[],
-     badge:'DNM', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/dnm-250x70.jpg'
+     badge:'DNM', stock:'in_stock', stockChk:'2026-10-18'
     },
     {name:'TECH ER30 Rear Shock (283x80)', pid:'tech-er30-283', tier:'premium',
      prices:[
@@ -592,7 +592,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ss20","ventus-plus"], likely:["storm-bee","ventus-evo","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
-     stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/wheels-kke-lightbee-16-19.jpg'
+     stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/wheels-kke-lightbee-16-19.webp'
     },
     {name:'ION 16/19-Inch Wheelset for Sur-Ron Light Bee / E Ride Pro 2.0', pid:'wheels-ion-lightbee-eride20', tier:'midrange',
      prices:[
@@ -615,7 +615,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["storm-bee"], no:[],
-     stock:'in_stock', img:'img/parts/stormbee-supermoto-wheels.jpg'
+     stock:'in_stock', img:'img/parts/stormbee-supermoto-wheels.webp'
     },
     {name:'Supermoto Front & Rear Wheel Set for Komodo', pid:'komodo-supermoto-wheelset', tier:'OEM',
      prices:[
@@ -816,7 +816,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:[], no:[],
-     badge:'Float Seat', stock:'in_stock', img:'img/parts/luna-float-seat.jpg'
+     badge:'Float Seat', stock:'in_stock', img:'img/parts/luna-float-seat.webp'
     },
     {name:'Ventus OEM Graphics Kit', pid:'ventus-graphics', tier:'budget',
      prices:[
@@ -832,7 +832,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4","komodo","mx5"], likely:["arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
-     badge:'Graphics', variant:'custom', stock:'in_stock', img:'img/parts/plastics-talaria-mx4-oem-graphics.jpg'
+     badge:'Graphics', variant:'custom', stock:'in_stock', img:'img/parts/plastics-talaria-mx4-oem-graphics.webp'
     },
     {name:'Pre-Designed Ultra Bee Graphics Kit - Plastics Only', pid:'plastics-ultrabee-graphics', tier:'midrange',
      prices:[
@@ -1570,7 +1570,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["storm-bee"], no:[],
-     stock:'in_stock', img:'img/parts/stormbee-swingarm-oem.jpg'
+     stock:'in_stock', img:'img/parts/stormbee-swingarm-oem.webp'
     },
     {name:"E Ride Pro SS OEM Swingarm (E7008)", pid:'voro-eride-ss-swingarm', tier:'OEM',
      prices:[

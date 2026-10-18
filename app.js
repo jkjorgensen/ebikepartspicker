@@ -848,7 +848,7 @@ function renderPower(){
       n.appendChild(meta);
       var note=document.createElement('p'); note.className='pc-note'; note.textContent=x.fit.reasons[0]; n.appendChild(note);
       if(x.bp.url){ var bw=document.createElement('div'); bw.className='gp-buy'; var pa=document.createElement('a'); pa.className='rb'; pa.href=x.bp.url; pa.target='_blank';
-        pa.rel='noopener'+(x.bp.aff?' sponsored':''); pa.textContent='Buy at '+x.bp.v; bw.appendChild(pa); n.appendChild(bw); }
+        pa.rel='noopener'+(x.bp.aff?' sponsored':''); if(x.bp.aff) pa.className+=' rb-voro'; pa.textContent='Buy at '+x.bp.v; bw.appendChild(pa); n.appendChild(bw); }
       var pr=document.createElement('span'); pr.className='gp-price'; pr.textContent=money(x.bp.p);
       li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
     });
@@ -859,6 +859,7 @@ function renderPower(){
       var x1=document.createElement('span'); x1.textContent=l[0]; var x2=document.createElement('span'); x2.textContent=l[1];
       d.appendChild(x1); d.appendChild(x2); tot.appendChild(d); });
     card.appendChild(tot);
+    if(b.src==='voro' && b.srcUrl){ var vb=document.createElement('a'); vb.className='rb rb-voro gvoro'; vb.href=b.srcUrl; vb.target='_blank'; vb.rel='noopener sponsored'; vb.textContent='Buy the '+b.name+' at Voro Motors ('+money(b.price)+')'; card.appendChild(vb); }
     var pc=document.createElement('div'); pc.className='gpc';
     [['Why it works',pw.why,'gpros'],['Watch out',pw.watch,'gcons']].forEach(function(z){
       var col=document.createElement('div'); col.className=z[2]; var hh=document.createElement('strong'); hh.textContent=z[0]; col.appendChild(hh);
@@ -905,7 +906,7 @@ function guideCard(host, gd, r){
     if(x.opt.stock==='out_of_stock'){ var so=document.createElement('em'); so.className='gp-oos'; so.textContent=' \u00b7 out of stock at last check'; n.appendChild(so); }
     var pr = document.createElement('span'); pr.className='gp-price'; pr.textContent=money(x.bp.p);
     if(x.bp.url){ var pa=document.createElement('a'); pa.className='rb'; pa.href=x.bp.url; pa.target='_blank';
-      pa.rel='noopener'+(x.bp.aff?' sponsored':''); pa.textContent='Buy at '+x.bp.v; var bw=document.createElement('div'); bw.className='gp-buy'; bw.appendChild(pa); n.appendChild(bw); }
+      pa.rel='noopener'+(x.bp.aff?' sponsored':''); if(x.bp.aff) pa.className+=' rb-voro'; pa.textContent='Buy at '+x.bp.v; var bw=document.createElement('div'); bw.className='gp-buy'; bw.appendChild(pa); n.appendChild(bw); }
     li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
   });
   body.appendChild(ul);
@@ -916,6 +917,7 @@ function guideCard(host, gd, r){
     d.appendChild(x1); d.appendChild(x2); tot.appendChild(d);
   });
   body.appendChild(tot);
+  if(b.src==='voro' && b.srcUrl){ var vb=document.createElement('a'); vb.className='rb rb-voro gvoro'; vb.href=b.srcUrl; vb.target='_blank'; vb.rel='noopener sponsored'; vb.textContent='Buy the '+b.name+' at Voro Motors'; body.appendChild(vb); }
   if(gd.power){
     var pwr = (window.POWER||[]).find(function(x){ return x.bike===gd.power; });
     var pr2 = pwr ? resolveGuide({bike:gd.power, pids:pwr.pids}) : null;
@@ -1018,7 +1020,7 @@ function renderUpcoming(){
 
 /* ---------- submit-your-part modal ---------- */
 var SUBMIT_EMAIL = 'ebikepartspicker@gmail.com'; /* inbox for vendor part submissions */
-var IMGV = '4.0.0'; /* bump when bike images change so browsers refetch */
+var IMGV = '4.1.0'; /* bump when bike images change so browsers refetch */
 /* real manufacturer/dealer photos, background removed, standardized 1600x1000 (16:10); small=800x500 */
 function bikeImgSrc(id, small){ return 'img/bikes/'+id+(small?'-800':'')+'.webp?v='+IMGV; }
 window.bikeImgSrc = bikeImgSrc; /* used by quiz.js / compare.js */
@@ -1240,7 +1242,7 @@ initSizeChips('startSizeChips');
   var fig = document.createElement('figure'); fig.className='feat-fig';
   var im = document.createElement('img'); im.src=bikeImgSrc(b.id,1); im.alt=b.name+' electric dirt bike';
   im.loading='lazy'; im.decoding='async'; im.width=800; im.height=500; fig.appendChild(im);
-  var cap = document.createElement('figcaption'); cap.textContent='Stock '+b.name+' photo'; fig.appendChild(cap);
+  var cap = document.createElement('figcaption'); cap.textContent=(b.id==='ventus-plus'?'Studio render of the '+b.name:'Stock '+b.name+' photo'); fig.appendChild(cap);
   card.appendChild(fig);
   var body = document.createElement('div'); body.className='feat-body';
   var k = document.createElement('div'); k.className='owner'; k.textContent='Featured build \u00b7 '+fb.owner; body.appendChild(k);
@@ -1268,7 +1270,7 @@ initSizeChips('startSizeChips');
       sub += bp.p; pr.textContent = money(bp.p);
       if(!bp.chk){ unver++; var nv=document.createElement('small'); nv.className='feat-nv'; nv.textContent='price not verified'; pr.appendChild(nv); }
       if(bp.url){ var bw=document.createElement('div'); bw.className='gp-buy'; var pa=document.createElement('a'); pa.className='rb';
-        pa.href=bp.url; pa.target='_blank'; pa.rel='noopener'+(bp.aff?' sponsored':''); pa.textContent='Buy at '+bp.v; bw.appendChild(pa); n.appendChild(bw); }
+        pa.href=bp.url; pa.target='_blank'; pa.rel='noopener'+(bp.aff?' sponsored':''); if(bp.aff) pa.className+=' rb-voro'; pa.textContent='Buy at '+bp.v; bw.appendChild(pa); n.appendChild(bw); }
     } else { pr.textContent='Price TBD'; unver++; }
     li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
   });
@@ -1280,6 +1282,7 @@ initSizeChips('startSizeChips');
     d.appendChild(x1); d.appendChild(x2); tot.appendChild(d);
   });
   body.appendChild(tot);
+  if(b.src==='voro' && b.srcUrl){ var vb=document.createElement('a'); vb.className='rb rb-voro gvoro'; vb.href=b.srcUrl; vb.target='_blank'; vb.rel='noopener sponsored'; vb.textContent='Buy the '+b.name+' at Voro Motors'; body.appendChild(vb); }
   var note = document.createElement('p'); note.className='gnote';
   note.textContent = (unconf ? unconf+' of '+rows.length+' parts are not a confirmed fit for the '+b.name+'. ' : '')+
     (unver ? unver+' price'+(unver>1?'s':'')+' not verified. ' : '')+'Prices checked '+CHECKED+'; shipping, tax and install not included.';
