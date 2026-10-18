@@ -108,7 +108,7 @@ var CATEGORIES = [
       {v:'Electric Cycle Rider', p:1249.99, url:'https://parts.electriccyclerider.com/products/ebmx-xlb-60-race-motor-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","ss30","sr"], likely:["ss40","arctic-xd","bonnell-805rx","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:["lightbee","ss20","ss30"], likely:["ss40","arctic-xd","bonnell-805rx","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo","sr"], no:[],
      badge:'XLB-60', motorKw:41, motorPeakKw:50, stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/ebmx-xlb-60.webp'
     },
     {name:'Sotion FW01 Motor', pid:'sotion-fw01', tier:'mid',
@@ -152,7 +152,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:799, url:'https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","ss30"], likely:["ultrabee","storm-bee","mx4","mx5","komodo","sr","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["lightbee","ss20"], likely:["ultrabee","storm-bee","mx4","mx5","komodo","sr","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd","ss30"], no:[],
      badge:'VTB 28kW', motorKw:28, motorPeakKw:28, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-28kw-light.webp'
     },
     {name:'Ventus Ryuga 81kW Motor', pid:'ventus-ryuga-81kw', tier:'premium',
@@ -192,7 +192,7 @@ var CATEGORIES = [
       {v:'TORP Motors', p:1299, url:'https://webshop.torpmotors.com/product/torp-tm40pro-motor-for-surron-light-bee/'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:["lightbee","mx4","mx5","ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","ventus-plus","ventus-evo"], no:[],
      motorKw:50, motorPeakKw:50, dw:11.07, stock:'in_stock', wtKg:12.02, img:'img/parts/torp-tm40-pro.webp'
     },
     {name:'Storm Bee Motor Assembly', pid:'stormbee-motor-oem', hidden:1, /* retired: only seller was a copycat store */ tier:'OEM',
@@ -238,7 +238,7 @@ var CATEGORIES = [
       {v:'Charged Powersports', p:1199, url:'https://chargedpowersports.com/products/ebmx-x-9000-v3-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr"], likely:["komodo","ss40","arctic-xd","bonnell-805rx","storm-bee","ventus-plus","ventus-evo"], no:[],
+     fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr","bonnell-805rx","komodo","storm-bee","ventus-plus"], likely:["ss40","arctic-xd","ventus-evo"], no:[],
      badge:'X-9000', ctrlMaxKw:60, stock:'in_stock', img:'img/parts/ebmx-x-9000-v3.jpg'
     },
     {name:'VTB Controller w/ Aetos cover', pid:'vtb-aetos', tier:'mid',
@@ -246,7 +246,7 @@ var CATEGORIES = [
       {v:'Ventus (stock part)', p:300, url:''},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo"], likely:[], no:[],
+     fits:[], likely:["ventus-evo","ventus-plus"], no:[],
      badge:'VTB', ctrlMaxKw:28, stock:'unknown'
     },
     {name:'TORP TC1000 2.X Controller Kit', pid:'torp-tc1000-2x', tier:'premium',
@@ -256,7 +256,7 @@ var CATEGORIES = [
       {v:'Darwin EV', p:1295, url:'https://darwinev.com/products/torp-tc1000-2-controller-sur-ron-light-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:["lightbee","mx4","mx5"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","komodo","ventus-plus","ventus-evo"], no:[],
      ctrlMaxKw:50, stock:'in_stock', img:'img/parts/torp-tc1000-2x.jpg'
     },
     {name:'TORP TC500 2.X Controller Kit', pid:'torp-tc500-2x', tier:'midrange',
@@ -266,7 +266,7 @@ var CATEGORIES = [
       {v:'E-Moto USA', p:929.99, url:'https://e-motousa.com/product/torp-tc500-2-x-controller-kit-for-surron-talaria/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:["lightbee","komodo","mx4","mx5"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","ventus-plus","ventus-evo"], no:[],
      ctrlMaxKw:30, stock:'in_stock', img:'img/parts/torp-tc500-2x.jpg'
     },
     {name:'VTB V9600 Aetos Pro Gen.2 Controller', pid:'vtb-aetos-pro', tier:'premium',
@@ -274,7 +274,7 @@ var CATEGORIES = [
       {v:'Ventus Bikes USA', p:1099, url:'https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ultrabee","ss20","ss30","sr","mx4","mx5"], likely:["ss40","storm-bee","komodo","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["lightbee","ultrabee","mx4"], likely:["ss40","storm-bee","komodo","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd","mx5","sr","ss20","ss30"], no:[],
      ctrlMaxKw:76, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-aetos-pro.webp'
     },
     {name:'VTB Aetos Gen.2 Bike-Specific Harness Kit', pid:'vtb-aetos-gen2-harness', hidden:1, /* moved to Electrical as vtb-aetos-gen2-harness-kit */ tier:'accessory',
@@ -371,7 +371,7 @@ var CATEGORIES = [
       {v:'Luna Cycle', p:775, url:'https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ultrabee","storm-bee","mx4","mx5","komodo"], likely:["ss20","ss30","ss40","sr"], no:[],
+     fits:["lightbee","mx4"], likely:["ss20","ss30","ss40","sr","komodo","storm-bee","ultrabee"], no:["mx5"],
      badge:'Fastace', stock:'in_stock', img:'img/parts/fastace-20.jpg'
     },
     {name:'Sirris F43 CMX Fork', pid:'sirris-f43-cmx-light-bee', tier:'premium',
@@ -514,7 +514,7 @@ var CATEGORIES = [
       {v:'GoldenMotor.bike', p:299.99, url:'https://goldenmotor.bike/collections/oem-talaria-sting-mx4-suspension/products/rear-shock-dnm-250x70mm-talaria-sting-mx3-mx4-sur-ron-segway-shorter', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4"], likely:["mx5"], no:[],
+     fits:["mx4"], likely:["mx5","lightbee"], no:[],
      badge:'DNM', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/dnm-250x70.jpg'
     },
     {name:'TECH ER30 Rear Shock (283x80)', pid:'tech-er30-283', tier:'premium',
@@ -532,7 +532,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:950, url:'https://tbelectricmoto.com/products/ext-arma', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","mx5","komodo","ss20","ss30","ss40","sr","ventus-plus"], likely:["ventus-evo"], no:[],
+     fits:["lightbee","mx4","mx5","ss20","ss30","ventus-plus"], likely:["ventus-evo","komodo","sr","ss40"], no:[],
      badge:'EXT Arma', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ext-arma-mx.webp'
     },
     {name:'Shock Absorber Black — Komodo OEM', pid:'komodo-shock-absorber-oem', tier:'OEM',
@@ -582,7 +582,7 @@ var CATEGORIES = [
       {v:'MX Wraps', p:439, url:'https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","ss30","ss40","sr","ventus-plus","ventus-evo"], likely:[], no:[],
+     fits:["lightbee","ss20","ventus-plus"], likely:["sr","ss30","ss40","ventus-evo"], no:[],
      badge:'Supermoto', variant:'warp9', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/supermoto-17.webp'
     },
     {name:'KKE Light Bee 16/19-Inch Wheel Rim Kit', pid:'wheels-kke-lightbee-16-19', tier:'midrange',
@@ -591,7 +591,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:569, url:'https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["lightbee","ss20","ventus-plus"], likely:["storm-bee","ventus-evo","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/wheels-kke-lightbee-16-19.jpg'
     },
     {name:'ION 16/19-Inch Wheelset for Sur-Ron Light Bee / E Ride Pro 2.0', pid:'wheels-ion-lightbee-eride20', tier:'midrange',
@@ -607,7 +607,7 @@ var CATEGORIES = [
       {v:'Electrix Moto', p:599, url:'https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss30","sr"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss40","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["sr","mx5"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss40","mx4","komodo","bonnell-805rx","arctic-xd","ss30"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/wheels-ion-eride30-sr-1619.webp'
     },
     {name:'Storm Bee Supermoto Wheel Kit', pid:'stormbee-supermoto-wheels', hidden:1, /* retired: only seller was a copycat store */ tier:'midrange',
@@ -664,7 +664,7 @@ var CATEGORIES = [
       {v:'HPC Bikes', p:179, url:'https://hpcbikes.com/products/magura-mt5-e-brake-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd"], likely:[], no:[],
+     fits:[], likely:["arctic-xd","bonnell-805rx","komodo","lightbee","mx4","mx5","sr","ss20","ss30","ss40","storm-bee","ultrabee","ventus-evo","ventus-plus"], no:[],
      badge:'Magura MT5E', stock:'in_stock', stockChk:'2026-10-18', wtKg:0.26, img:'img/parts/magura-mt5e.webp'
     },
     {name:'Magura MT7 Pro (F+R)', pid:'magura-mt7', tier:'mid',
@@ -672,7 +672,7 @@ var CATEGORIES = [
       {v:'Jenson USA', p:349, url:'https://www.jensonusa.com/Magura-MT7-Pro-Brakeset'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd"], likely:[], no:[],
+     fits:[], likely:["arctic-xd","bonnell-805rx","komodo","lightbee","mx4","mx5","sr","ss20","ss30","ss40","storm-bee","ultrabee","ventus-evo","ventus-plus"], no:[],
      badge:'Magura MT7', stock:'in_stock'
     },
     {name:'OEM Ultra Bee Rear Brake Upgrade Kit for Sur-Ron LBX / E Ride Pro', pid:'brakes-fxt-ultrabee-rear-kit', tier:'midrange',
@@ -680,7 +680,7 @@ var CATEGORIES = [
       {v:'FXT Racing', p:229.99, url:'https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","ss30","sr","ventus-evo"], likely:["ventus-plus","ss40","ultrabee","storm-bee","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["lightbee","sr","ultrabee"], likely:["ventus-plus","ss40","storm-bee","mx4","mx5","komodo","bonnell-805rx","arctic-xd","ss20","ss30","ventus-evo"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/brakes-fxt-ultrabee-rear-kit.webp'
     },
     {name:'E7094 Front Brake Assembly - Pro-S / SS 2.0', pid:'brakes-eride-e7094-front', tier:'OEM',
@@ -736,7 +736,7 @@ var CATEGORIES = [
       {v:'GritShift', p:46.89, url:'https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["bonnell-805rx"], no:[],
+     fits:["bonnell-805rx"], likely:[], no:[],
      badge:'Brake Levers', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/brakes-warp9-folding-lever.webp'
     },
     {name:'Performance Brake Pads for eMoto', pid:'charged-brake-pads-emoto', tier:'budget',
@@ -744,7 +744,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/performance-brake-pads-for-emoto', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","ss20","ventus-plus"], likely:["ss30","sr","mx5","ultrabee"], no:[],
+     fits:["lightbee","mx4","mx5","sr","ultrabee"], likely:["ss30","ss20","ventus-plus"], no:[],
      badge:'Pads', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/charged-brake-pads-emoto.webp'
     },
     {name:'Warp9 Surron Ultra Bee 260mm Front Brake Bracket', pid:'warp9-260mm-bracket-ultrabee', tier:'performance',
@@ -796,7 +796,7 @@ var CATEGORIES = [
      prices:[
       {v:'VORO Motors', p:59.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-xe-pro-r', aff:1, chk:'2026-10-18'},
      ],
-     fits:["arctic-leopard-xe-pro-r", "ultrabee"], likely:[], no:[],
+     fits:["arctic-leopard-xe-pro-r","ultrabee"], likely:[], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/voro-xepror-ultrabee-brake-pads.webp'
     },
   ]},
@@ -831,7 +831,7 @@ var CATEGORIES = [
       {v:'Talaria Canada', p:59.99, url:'https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["mx4"], likely:["arctic-xd","bonnell-805rx","komodo","mx5","ventus-plus","ventus-evo"], no:[],
+     fits:["mx4","komodo","mx5"], likely:["arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
      badge:'Graphics', variant:'custom', stock:'in_stock', img:'img/parts/plastics-talaria-mx4-oem-graphics.jpg'
     },
     {name:'Pre-Designed Ultra Bee Graphics Kit - Plastics Only', pid:'plastics-ultrabee-graphics', tier:'midrange',
@@ -847,7 +847,7 @@ var CATEGORIES = [
       {v:'Sur-Ron', p:3.5, url:'https://shop.sur-ron.com/products/sur-ron-light-bee-front-number-plate', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","lightbee","storm-bee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
      badge:'Number Plate', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/plastics-lightbee-numberplate.webp'
     },
     {name:'ECD Customs Ultra Bee Solid Color Frame Wrap', pid:'ecd-wrap-ultrabee-solid', tier:'mid',
@@ -952,7 +952,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:2299, url:'https://chargedcycleworks.com/products/dhs-rs50-80v-45ah-battery-for-surron-light-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ventus-plus","ventus-evo"], likely:[], no:[],
+     fits:["lightbee"], likely:["ventus-evo","ventus-plus"], no:[],
      badge:'DHS 45Ah', battMaxKw:24, battPeakKw:44, battKwh:3.6, dw:16.42, stock:'in_stock', stockChk:'2026-10-18', wtKg:19.05, img:'img/parts/dhs-80v-45ah-lbx.webp'
     },
     {name:'eWatt 72V 63Ah Race Battery', pid:'ewatt-72v-63ah-t', tier:'premium',
@@ -994,7 +994,7 @@ var CATEGORIES = [
       {v:'E Ride Pro', p:2099, url:'https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss40"], likely:["ss30","sr","arctic-xd","bonnell-805rx","ss20","komodo","ventus-plus","ventus-evo"], no:[],
+     fits:[], likely:["ss30","sr","arctic-xd","bonnell-805rx","ss20","komodo","ventus-plus","ventus-evo","ss40"], no:[],
      battKwh:3.6, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/eride-pro40-oem-battery.webp'
     },
     {name:'DHS 88V 60Ah Race Battery w RS50 cells producing 75kw peak!', pid:'dhs-88v-60ah-ultrabee', tier:'premium',
@@ -1028,7 +1028,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:87, url:'https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","ss30","ss40","sr","mx4","mx5"], likely:["ultrabee","storm-bee","ventus-plus","ventus-evo","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["lightbee","mx4"], likely:["ultrabee","storm-bee","ventus-plus","ventus-evo","komodo","bonnell-805rx","arctic-xd","mx5","sr","ss20","ss30","ss40"], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/warp9-3in-rise.webp'
     },
     {name:'Prickly 50mm Rise Handlebar (31.8mm)', pid:'prickly-50mm-318', tier:'midrange',
@@ -1036,7 +1036,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:100, url:'https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","ss30","ss40","sr","mx4","mx5","ventus-plus"], likely:["ventus-evo","ultrabee","storm-bee","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["lightbee","ss20","sr","mx4","mx5","ventus-plus"], likely:["ventus-evo","ultrabee","storm-bee","komodo","bonnell-805rx","arctic-xd","ss30","ss40"], no:[],
      badge:'Prickly', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/prickly-50mm-318.webp'
     },
     {name:'Prickly 50mm Rise Handlebar (35mm)', pid:'prickly-50mm-35', tier:'midrange',
@@ -1044,7 +1044,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:100, url:'https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","ss30","ss40","sr","mx4","mx5"], likely:[], no:[],
+     fits:["lightbee","ss20","sr","mx4","mx5"], likely:["ss30","ss40"], no:[],
      badge:'Prickly', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/prickly-50mm-35.webp'
     },
     {name:'FactoryZ 3" Rise Handlebar', pid:'factoryz-3in-rise', tier:'budget',
@@ -1052,7 +1052,7 @@ var CATEGORIES = [
       {v:'FactoryZ', p:59.99, url:'https://factoryz.co/products/surron-handlebar-3-inch-rise', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","ss30","sr","mx4","mx5"], likely:["ventus-plus","ss40","ultrabee","storm-bee","ventus-evo","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["lightbee","ss20","mx4","mx5"], likely:["ventus-plus","ss40","ultrabee","storm-bee","ventus-evo","komodo","bonnell-805rx","arctic-xd","sr","ss30"], no:[],
      badge:'FactoryZ', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/factoryz-3in-rise.webp'
     },
     {name:'Rippin Moto RISE3 E-Moto Handlebars', pid:'rippin-moto-rise3', tier:'budget',
@@ -1068,7 +1068,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:91.26, url:'https://tbelectricmoto.com/products/renthal-fatbar-lite-35-40mm-rise-gold', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ultrabee","mx4","mx5","ss30","sr","ventus-plus"], likely:[], no:[],
+     fits:[], likely:["lightbee","mx4","mx5","sr","ss30","ultrabee","ventus-plus"], no:[],
      badge:'Renthal', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/renthal-fatbar-lite-35.webp'
     },
     {name:"E Ride Pro SS OEM Handlebar (E7083)", pid:'voro-eride-ss-handlebar', tier:'OEM',
@@ -1095,7 +1095,7 @@ var CATEGORIES = [
       {v:'E Ride Pro', p:299, url:'https://www.eridepro.com/products/e7305', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20","ss30","sr"], likely:["ss40","arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
+     fits:["ss20"], likely:["ss40","arctic-xd","bonnell-805rx","ventus-plus","ventus-evo","sr","ss30"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/eride-e7305-charger.webp'
     },
     {name:'Talaria Sting R MX4 OEM Battery Charger (110V)', pid:'talaria-mx4-oem-charger', tier:'OEM',
@@ -1155,7 +1155,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:65, url:'https://chargedcycleworks.com/products/ebmx-x-9000-controller-air-cooled-heat-sink-1', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr"], likely:["storm-bee","ventus-plus","ventus-evo","ss40","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:[], likely:["storm-bee","ventus-plus","ventus-evo","ss40","komodo","bonnell-805rx","arctic-xd","lightbee","mx4","mx5","sr","ss20","ss30","ultrabee"], no:[],
      badge:'EBMX', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/cooling-ebmx-x9000-air-heatsink.png'
     },
     {name:'VTB Aetos Heatsink', pid:'cooling-ventus-aetos-heatsink', tier:'midrange',
@@ -1171,7 +1171,7 @@ var CATEGORIES = [
       {v:'Ventus Bikes USA', p:89, url:'https://ventusbikes.us/products/ventus-handlebar-fan', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["lightbee"], no:[],
+     fits:["lightbee"], likely:[], no:[],
      badge:'Fan', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/cooling-ventus-handlebar-fan.webp'
     },
   ]},
@@ -1247,7 +1247,7 @@ var CATEGORIES = [
       {v:'Sur-Ron', p:56, url:'https://shop.sur-ron.com/products/light-bee-replacement-dashboard', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","lightbee","storm-bee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
      badge:'Dashboard', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/electrical-surron-oem-dashboard.webp'
     },
     {name:'Sur-Ron Light Bee OEM Horn', pid:'electrical-surron-horn', tier:'budget',
@@ -1320,7 +1320,7 @@ var CATEGORIES = [
       {v:'MXpartshop', p:59.9, url:'https://mxpartshop.com/products/for-surron-storm-bee-brake-levers-frame-slider-chain-adjuster-foot-pegs-caliper-guard-disc-guard', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["storm-bee"], no:[],
+     fits:["storm-bee"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/stormbee-upgrade-parts-kit.webp'
     },
     {name:'Prickly Motor Cover', pid:'guards-prickly-motor-cover', tier:'midrange',
@@ -1380,7 +1380,7 @@ var CATEGORIES = [
       {v:'Sur-Ron', p:20, url:'https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["lightbee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd","mx4"], no:[],
      badge:'Sur-Ron', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/maintenance-lightbee-headset.webp'
     },
     {name:'Headset Roller Bearing Kit — E Ride Pro SS / Sur-Ron Light Bee / Talaria MX', pid:'maintenance-eride-surron-talaria-headset', tier:'midrange',
@@ -1388,7 +1388,7 @@ var CATEGORIES = [
       {v:'The Ride Guru', p:29.95, url:'https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20","lightbee","mx4"], likely:["storm-bee","ultrabee","ventus-plus","ventus-evo","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["ss20","lightbee"], likely:["storm-bee","ultrabee","ventus-plus","ventus-evo","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd","mx4"], no:[],
      badge:'The Ride Guru', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/maintenance-eride-surron-talaria-headset.webp'
     },
     {name:'IZI Brothers Titanium Swingarm Pivot Axle — Sur-Ron Light Bee', pid:'maintenance-lightbee-swingarm-axle', tier:'premium',
@@ -1440,7 +1440,7 @@ var CATEGORIES = [
       {v:'Ventus Bikes USA', p:117, url:'https://ventusbikes.us/products/surron-lbx-foot-pegs-collective', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["lightbee"], no:[],
+     fits:["lightbee"], likely:[], no:[],
      badge:'Foot Pegs', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/pegs-ventus-lbx.webp'
     },
     {name:'CNC Billet Foot Pegs for Sur-Ron Light Bee LBX', pid:'pegs-tarazon-walmart', tier:'budget',
@@ -1464,7 +1464,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:79.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:["lightbee","mx4","mx5","sr","ss20","ss30","ultrabee","ventus-plus"], likely:["arctic-xd","bonnell-805rx","ss40","storm-bee","komodo","ventus-evo"], no:[],
      badge:'Seat Cover', variant:'custom', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/seat-guts-lightbee-cover.webp'
     },
     {name:'SHE8022 Long Seat Kit - SS2.0 / SS3.0 / SR', pid:'seat-eride-long-kit', tier:'premium',
@@ -1472,7 +1472,7 @@ var CATEGORIES = [
       {v:'E Ride Pro', p:490, url:'https://www.eridepro.com/products/she8022-long-seat-kits', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss30","sr","ss20"], likely:["arctic-xd","bonnell-805rx","ss40","komodo","mx5","ventus-plus","ventus-evo"], no:[],
+     fits:[], likely:["arctic-xd","bonnell-805rx","ss40","komodo","mx5","ventus-plus","ventus-evo","sr","ss20","ss30"], no:[],
      badge:'Long Seat Kit', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/seat-eride-long-kit.webp'
     },
     {name:'Talaria Sting MX3/MX4 Replacement Seat', pid:'seat-talaria-mx34-oem', tier:'budget',
@@ -1514,7 +1514,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:169.99, url:'https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr","ventus-plus","ventus-evo"], no:[],
+     fits:["lightbee","mx4","sr","ss20"], likely:["ultrabee","mx5","ss30","ventus-plus","ventus-evo"], no:[],
      badge:'Turn Signals', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/street-tusk-signal-kit.webp'
     },
     {name:'Project 9 Talaria Sting MX4/MX5 Turn Signal Kit', pid:'street-project9-talaria', tier:'midrange',
@@ -1522,7 +1522,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:195.95, url:'https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["mx4","mx5"], no:[],
+     fits:["mx4","mx5"], likely:[], no:[],
      badge:'Turn Signals', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/street-project9-talaria.webp'
     },
     {name:'TARAZON LED Street Legal Turn Signal Kit', pid:'street-tarazon-walmart', tier:'budget',
@@ -1562,7 +1562,7 @@ var CATEGORIES = [
       {v:'Electric Cycle Rider', p:499, url:'https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss30","sr"], likely:["ss20","ventus-plus","ventus-evo","ss40","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["ss30","sr","ss20"], likely:["ventus-plus","ventus-evo","ss40","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
      badge:'E Ride Pro', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/swingarm-eride-oem.webp'
     },
     {name:'Storm Bee Swingarm Assembly', pid:'stormbee-swingarm-oem', hidden:1, /* retired: only seller was a copycat store */ tier:'OEM',
@@ -1587,7 +1587,7 @@ var CATEGORIES = [
       {v:'Scooterworks USA', p:45, url:'https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ventus-plus","ventus-evo","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:["lightbee"], likely:["altis-sigma","falcon-gt","falcon-pro","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/tire-surron-oem-70100-19.webp'
     },
     {name:'E Ride Pro 18-Inch Fatty Rear Tire', pid:'tire-eride-fatty-rear-1009018', tier:'OEM',
@@ -1595,7 +1595,7 @@ var CATEGORIES = [
       {v:'E Ride Pro', p:79, url:'https://www.eridepro.com/products/e7235-1', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss30","sr","ventus-plus","lightbee","ultrabee","ss40","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","falcon-gt","stark-vargex","ultrabee-21kw","yvolt-surge-v"], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
+     fits:["ss30","sr"], likely:["arctic-xd","bonnell-805rx","falcon-gt","komodo","lightbee","rerode-rx","ss40","stark-vargex","storm-bee","ultrabee","ultrabee-21kw","ventus-plus","yvolt-surge-v"], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-eride-fatty-rear-1009018.webp'
     },
     {name:'Rippin Moto 70/100-19 Performance Duty Inner Tube', pid:'tube-rippin-70100-19', tier:'midrange',
@@ -1603,7 +1603,7 @@ var CATEGORIES = [
       {v:'Rippin Moto', p:20.99, url:'https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20","ss30","sr","ss40","lightbee","mx4","ventus-plus","ventus-evo","ultrabee","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:["ss20","ss30","sr","lightbee","mx4","altis-sigma"], likely:["falcon-gt","falcon-pro","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      stock:'in_stock', stockChk:'2026-10-18', wtKg:0.5, img:'img/parts/tube-rippin-70100-19.webp'
     },
     {name:'Talaria Sting MX3/MX4 OEM CST Front Tire', pid:'tire-talaria-cst-70100-19', tier:'OEM',
@@ -1611,7 +1611,7 @@ var CATEGORIES = [
       {v:'Zeal Racing', p:94.99, url:'https://zealracing.com/products/front-wheel', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["mx4","ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:["mx4"], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-talaria-cst-70100-19.webp'
     },
     {name:'Plews MX2 Matterly GP Rear Tire', pid:'tires-plews-mx2-rear', tier:'midrange',
@@ -1619,7 +1619,7 @@ var CATEGORIES = [
       {v:'Ventus Bikes USA', p:99, url:'https://ventusbikes.us/products/plews-tires-mx2-matterly-gp-intermediate-all-terrain-motocross-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-evo","supermach-sm62"], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
+     fits:[], likely:["supermach-sm62","ventus-evo"], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
      badge:'Tire', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tires-plews-mx2-rear.webp'
     },
     {name:'Shinko 244 Dual Sport Tire', pid:'tire-shinko-244-dualsport', tier:'budget',
@@ -1629,7 +1629,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:59.46, url:'https://chargedcycleworks.com/products/shinko-244-dual-sport-tires', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Shinko', stock:'unknown', img:'img/parts/tire-shinko-244-dualsport.webp'
     },
     {name:'Kenda K270 Dual Sport Tire', pid:'tire-kenda-k270-dualsport', tier:'budget',
@@ -1637,7 +1637,7 @@ var CATEGORIES = [
       {v:'RevZilla', p:48, url:'https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
      badge:'Kenda', stock:'unknown', img:'img/parts/tire-kenda-k270-dualsport.webp'
     },
     {name:'Tusk Dsport Adventure Tire', pid:'tire-tusk-dsport-adventure', tier:'budget',
@@ -1645,7 +1645,7 @@ var CATEGORIES = [
       {v:'Rocky Mountain ATV/MC', p:70, url:'https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-gt","rtr-xl","rtr-xl-alpha","yozma-in10-pro","stark-vargex","ultrabee-21kw","yvolt-surge-v"], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","yozma-in10","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
+     fits:[], likely:["arctic-xd","bonnell-805rx","falcon-gt","komodo","lightbee","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-xl","rtr-xl-alpha","sr","ss30","ss40","stark-vargex","storm-bee","ultrabee","ultrabee-21kw","ventus-plus","yozma-in10-pro","yvolt-surge-v"], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","yozma-in10","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
      badge:'Tusk', stock:'unknown'
     },
     {name:'Kenda Millville II K785 Tire', pid:'tire-kenda-millville2-k785', tier:'budget',
@@ -1653,7 +1653,7 @@ var CATEGORIES = [
       {v:'Cycle Gear', p:35, url:'https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
      badge:'Kenda', stock:'unknown', img:'img/parts/tire-kenda-millville2-k785.webp'
     },
     {name:'Shinko 525 Cheater Rear Tire', pid:'tire-shinko-525-cheater', tier:'budget',
@@ -1661,7 +1661,7 @@ var CATEGORIES = [
       {v:'MotoSport', p:120, url:'https://www.motosport.com/shinko-r525-cheater-rear-tire'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Shinko', stock:'unknown', img:'img/parts/tire-shinko-525-cheater.webp'
     },
     {name:'Dunlop Geomax MX34 Tire', pid:'tire-dunlop-mx34', tier:'mid',
@@ -1669,7 +1669,7 @@ var CATEGORIES = [
       {v:'RevZilla', p:115, url:'https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
      badge:'Dunlop', stock:'unknown', img:'img/parts/tire-dunlop-mx34.webp'
     },
     {name:'Michelin StarCross 6 Medium Soft Tire', pid:'tire-michelin-starcross6-ms', tier:'premium',
@@ -1677,7 +1677,7 @@ var CATEGORIES = [
       {v:'Rocky Mountain ATV/MC', p:130, url:'https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Michelin', stock:'unknown'
     },
     {name:'Pirelli Scorpion MX32 Mid Soft Tire', pid:'tire-pirelli-mx32-midsoft', tier:'premium',
@@ -1685,7 +1685,7 @@ var CATEGORIES = [
       {v:'RevZilla', p:110, url:'https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
      badge:'Pirelli', stock:'unknown', img:'img/parts/tire-pirelli-mx32-midsoft.webp'
     },
     {name:'Kenda K760 Trakmaster II Tire', pid:'tire-kenda-k760-trakmaster', tier:'budget',
@@ -1693,7 +1693,7 @@ var CATEGORIES = [
       {v:'RevZilla', p:85, url:'https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
      badge:'Kenda', stock:'unknown', img:'img/parts/tire-kenda-k760-trakmaster.webp'
     },
     {name:'Bridgestone Battlecross X31 Tire', pid:'tire-bridgestone-x31', tier:'premium',
@@ -1701,7 +1701,7 @@ var CATEGORIES = [
       {v:'RevZilla', p:115, url:'https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Bridgestone', stock:'unknown', img:'img/parts/tire-bridgestone-x31.webp'
     },
     {name:'Maxxis Maxxcross MX-SI Tire', pid:'tire-maxxis-mxsi', tier:'mid',
@@ -1709,7 +1709,7 @@ var CATEGORIES = [
       {v:'RevZilla', p:110, url:'https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
      badge:'Maxxis', stock:'unknown', img:'img/parts/tire-maxxis-mxsi.webp'
     },
     {name:'IRC M5B EVO Soft Terrain Tire', pid:'tire-irc-m5b-evo', tier:'mid',
@@ -1717,7 +1717,7 @@ var CATEGORIES = [
       {v:'Rocky Mountain ATV/MC', p:100, url:'https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"], likely:[], no:["ventus-evo","rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","supermach-sm62"],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","ultrabee","ultrabee-21kw","ventus-plus","yvolt-surge-v"], no:["ventus-evo","rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","supermach-sm62"],
      badge:'IRC', stock:'unknown'
     },
     {name:'Sur-Ron 19" Off-Road Tire (OEM)', pid:'tire-surron-oem-19', tier:'OEM',
@@ -1725,7 +1725,7 @@ var CATEGORIES = [
       {v:'Surron Canada', p:79, url:'https://surron.ca/products/light-bee-off-road-tire'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:["lightbee"], likely:["altis-sigma","falcon-gt","falcon-pro","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'Sur-Ron', stock:'in_stock', stockChk:'2026-10-18'
     },
     {name:'CST OEM Take-Off Tire 70/100-19', pid:'tire-cst-takeoff-70100-19', tier:'OEM',
@@ -1733,7 +1733,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:[], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'CST', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/tire-cst-takeoff-70100-19.webp'
     },
     {name:'CST CM713 80/100-19 Rear Tire (Talaria OEM)', pid:'tire-cst-cm713-80100-19', tier:'OEM',
@@ -1741,7 +1741,7 @@ var CATEGORIES = [
       {v:'Ghostbikes', p:99, url:'https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20","mx4","mx5","rawrr-mantis-72v","falcon-pro","altis-sigma","supermach-sm01"], likely:[], no:["ventus-plus","ventus-evo","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","ultrabee-21kw","yvolt-surge-v","supermach-sm62"],
+     fits:["mx4"], likely:["altis-sigma","falcon-pro","mx5","rawrr-mantis-72v","ss20","supermach-sm01"], no:["ventus-plus","ventus-evo","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","ultrabee-21kw","yvolt-surge-v","supermach-sm62"],
      badge:'CST', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-cst-cm713-80100-19.webp'
     },
     {name:'CST OEM Off-Road Tire 70/100-19', pid:'tire-cst-oem-70100-19-eu', tier:'OEM',
@@ -1749,7 +1749,7 @@ var CATEGORIES = [
       {v:'ELMOX', p:58, url:'https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:["lightbee"], likely:["altis-sigma","falcon-gt","falcon-pro","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'CST', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/tire-cst-oem-70100-19-eu.webp'
     },
     {name:'Kenda Washougal III Tire', pid:'tire-kenda-washougal3-ccw', tier:'mid',
@@ -1757,7 +1757,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:54.95, url:'https://chargedcycleworks.com/products/kenda-k7102-washougal-iii', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Kenda', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/tire-kenda-washougal3-ccw.webp'
     },
     {name:'Mitas Terra Force-MX 16" Rear Tire', pid:'tire-mitas-terraforce-16-ccw', tier:'mid',
@@ -1765,7 +1765,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:86.9, url:'https://chargedcycleworks.com/products/mitas-terra-force-mx-super-light-16-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-evo","supermach-sm62"], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
+     fits:[], likely:["supermach-sm62","ventus-evo"], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
      badge:'Mitas', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-mitas-terraforce-16-ccw.webp'
     },
     {name:'IRC VE33 Rear Tire', pid:'tire-irc-ve33-ccw', tier:'mid',
@@ -1773,7 +1773,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:82.88, url:'https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","falcon-gt","stark-vargex","ultrabee-21kw","yvolt-surge-v"], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
+     fits:["lightbee","ultrabee","ultrabee-21kw"], likely:["arctic-xd","bonnell-805rx","falcon-gt","komodo","rerode-rx","ss40","stark-vargex","storm-bee","ventus-plus","yvolt-surge-v"], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62","sr","ss30"],
      badge:'IRC', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-irc-ve33-ccw.webp'
     },
     {name:'Michelin StarCross 5 Front Tire', pid:'tire-michelin-starcross5-ccw', tier:'premium',
@@ -1781,7 +1781,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:67.99, url:'https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:["lightbee"], likely:["altis-sigma","falcon-gt","falcon-pro","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'Michelin', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-michelin-starcross5-ccw.webp'
     },
     {name:'Tusk T-35 Front Tire', pid:'tire-tusk-t35-front-ccw', tier:'budget',
@@ -1789,7 +1789,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:26.27, url:'https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-tusk-t35-front-ccw.webp'
     },
     {name:'Tusk T-35 Rear Tire', pid:'tire-tusk-t35-rear-ccw', tier:'budget',
@@ -1797,7 +1797,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:36.17, url:'https://chargedcycleworks.com/collections/surron-tires/products/tusk-t-35-soft-intermediate-terrain-rear-16-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-evo","supermach-sm62"], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
+     fits:[], likely:["supermach-sm62","ventus-evo"], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-tusk-t35-rear-ccw.webp'
     },
     {name:'Tusk Recon Sticky Tire', pid:'tire-tusk-recon-ccw', tier:'budget',
@@ -1805,7 +1805,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:49.88, url:'https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:[], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-tusk-recon-ccw.webp'
     },
     {name:'Tusk Ground Wire eMoto Tire', pid:'tire-tusk-groundwire-ccw', tier:'budget',
@@ -1813,7 +1813,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:50.88, url:'https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:["ss20"], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-tusk-groundwire-ccw.webp'
     },
     {name:'Bridgestone M203 Front Tire', pid:'tire-bridgestone-m203-ccw', tier:'mid',
@@ -1821,7 +1821,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:48, url:'https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","stark-vargex"],
+     fits:[], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","stark-vargex"],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-bridgestone-m203-ccw.webp'
     },
     {name:'Bridgestone M204 Rear Tire', pid:'tire-bridgestone-m204-ccw', tier:'mid',
@@ -1829,7 +1829,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:51.97, url:'https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-evo","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","supermach-sm62"], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
+     fits:[], likely:["rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","supermach-sm62","tuttio-soleil01","ventus-evo","yozma-in10","yozma-in10-pro"], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-bridgestone-m204-ccw.webp'
     },
     {name:'Bridgestone Battlecross X30 Tire', pid:'tire-bridgestone-x30-ccw', tier:'mid',
@@ -1837,7 +1837,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:64, url:'https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:[], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-bridgestone-x30-ccw.webp'
     },
     {name:'Dunlop MX33 Tire', pid:'tire-dunlop-mx33-ccw', tier:'premium',
@@ -1845,7 +1845,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:[], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-dunlop-mx33-ccw.webp'
     },
     {name:'Dunlop MX53 Tire', pid:'tire-dunlop-mx53-ccw', tier:'mid',
@@ -1853,7 +1853,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:63, url:'https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:["mx5"], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-dunlop-mx53-ccw.webp'
     },
     {name:'Shinko SR241 Trials Tire', pid:'tire-shinko-sr241-ccw', tier:'budget',
@@ -1861,7 +1861,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:54.95, url:'https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01","supermach-sm62"], likely:[], no:[],
+     fits:["lightbee","mx4","mx5"], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
      badge:'Shinko', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-shinko-sr241-ccw.webp'
     },
     {name:'IRC IX-09 Gekkota Gummy Tire', pid:'tire-irc-ix09-gekkota-ccw', tier:'mid',
@@ -1869,7 +1869,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:89.88, url:'https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","falcon-gt","stark-vargex","ultrabee-21kw","yvolt-surge-v","supermach-sm62"], likely:[], no:["ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01"],
+     fits:[], likely:["arctic-xd","bonnell-805rx","falcon-gt","komodo","lightbee","rerode-rx","sr","ss30","ss40","stark-vargex","storm-bee","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01"],
      badge:'IRC', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-irc-ix09-gekkota-ccw.webp'
     },
     {name:"CST 80/100-19 OEM Tire — E Ride Pro SS (E7207)", pid:'voro-eride-ss-cst-80100-19', tier:'OEM',
@@ -1910,7 +1910,7 @@ var CATEGORIES = [
       {v:'Titanium Surron', p:244.99, url:'https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20","ss30","sr"], likely:[], no:[],
+     fits:["ss30","sr"], likely:["ss20"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ti-full-kit-erp.webp'
     },
     {name:'Titanium Surron Full Body Bolt Kit — Talaria MX3/MX4/MX5', pid:'ti-full-kit-talaria-mx', tier:'premium',
@@ -1950,7 +1950,7 @@ var CATEGORIES = [
       {v:'REVRides', p:89.99, url:'https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","altis-sigma","ss20"], likely:[], no:["mx5"],
+     fits:["lightbee","mx4","altis-sigma"], likely:["ss20"], no:["mx5"],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ti-wheel-kit-revrides.webp'
     },
     {name:'Titanium Sprocket Bolts 5-pack (M8x16)', pid:'ti-sprocket-bolts-5pk', tier:'mid',
@@ -1958,7 +1958,7 @@ var CATEGORIES = [
       {v:'REVRides', p:null, url:'https://revrides.com/products/titanium-sprocket-bolts-5-pack-for-sur-ron-e-ride-pro-talaria'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","mx5","ss20","ss30","sr","altis-sigma"], likely:[], no:[],
+     fits:["lightbee","mx4"], likely:["altis-sigma","mx5","sr","ss20","ss30"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ti-sprocket-bolts-5pk.webp'
     },
     {name:'Titanium Direct Mount Stem Bolt Kit (M6x20, 8 pc)', pid:'ti-stem-bolts', tier:'mid',
@@ -1982,7 +1982,7 @@ var CATEGORIES = [
       {v:'Warp 9 Racing', p:33, url:'https://warp9racing.com/products/surron-talaria-boost-spacer-front-rotor-bolts', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4"], likely:[], no:[],
+     fits:[], likely:["lightbee","mx4"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/warp9-rotor-bolts-boost.webp'
     },
     {name:'Titanium Motor Mount Bolt Kit — E-Ride Pro (4 pc)', pid:'ti-motor-bolts-erp', tier:'mid',
@@ -1990,7 +1990,7 @@ var CATEGORIES = [
       {v:'Titanium Surron', p:29.99, url:'https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20","ss30","sr"], likely:[], no:[],
+     fits:["ss20","ss30"], likely:["sr"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ti-motor-bolts-erp.webp'
     },
     {name:'Titanium RST Fork Bolt Kit', pid:'ti-fork-kit-rst', tier:'mid',
@@ -1998,7 +1998,7 @@ var CATEGORIES = [
       {v:'Titanium Surron', p:44.99, url:'https://titaniumsurron.com/products/rst-fork-titanium-bolt-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20"], likely:[], no:[],
+     fits:[], likely:["ss20"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ti-fork-kit-rst.webp'
     },
     {name:'Titanium Rear Linkage Bolt Kit — E-Ride Pro (8 pc)', pid:'ti-linkage-kit-erp', tier:'mid',
@@ -2006,7 +2006,7 @@ var CATEGORIES = [
       {v:'Titanium Surron', p:44.99, url:'https://titaniumsurron.com/products/rear-suspension-linkage-bolt-kit-for-e-ride-pro-erp', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20","ss30"], likely:[], no:[],
+     fits:["ss20"], likely:["ss30"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ti-linkage-kit-erp.webp'
     },
     {name:'MXBolts Talaria Sting MX Titanium Bolt Kit', pid:'mxbolts-talaria-kit', tier:'mid',
@@ -2154,4 +2154,234 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   /* owner-verified: Josh (site owner) runs these on his own Ventus One Plus */
   'warp9-1619|ventus-plus':{s:'confirmed_direct_fit',ov:1,n:'Owner-verified install (site owner\'s bike), Oct 18, 2026',u:[]},
   'warp9-pegs-lbx-ventus|ventus-plus':{s:'confirmed_direct_fit',ov:1,n:'Owner-verified install (site owner\'s bike), Oct 18, 2026',u:[]},
+  /* fitment audit Oct 18, 2026: every fits/likely bike checked against the seller listing text */
+  'ebmx-xlb-60|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor']},
+  'ebmx-xlb-60|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor']},
+  'ebmx-xlb-60|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor']},
+  'sotion-fw01|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/sotion-motor-upgrade-for-surron-light-bee-e-moto']},
+  'sotion-fw01|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://darwinev.com/products/sotion-motor-upgrade-sur-ron-electric-motorbikes']},
+  'ebmx-xta-60|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit']},
+  'sotion-fw02|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/sotion-motor-upgrade-for-talaria-sting-e-moto-24kw-god-mode']},
+  'vtb-28kw-light|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor']},
+  'vtb-28kw-light|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor']},
+  'ventus-ryuga-81kw|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ventus-ryuga-81kw-motor']},
+  'ventus-ryuga-52kw|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1']},
+  'torp-tm25|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm25-motor']},
+  'torp-tm40-pro|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee']},
+  'torp-tm40-pro|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee']},
+  'torp-tm40-pro|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://webshop.torpmotors.com/product/torp-tm40pro-motor-for-surron-light-bee/']},
+  'torp-tm40-pro|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://e-motousa.com/product/torp-tm40pro-motor-for-surron-light-bee/']},
+  'torp-tm50-offroad-torque-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee']},
+  'torp-tm50-pro-topspeed-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee']},
+  'torp-tm50-speed-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee']},
+  'ebmx-x-9000-v3|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
+  'ebmx-x-9000-v3|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
+  'ebmx-x-9000-v3|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
+  'ebmx-x-9000-v3|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
+  'ebmx-x-9000-v3|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
+  'ebmx-x-9000-v3|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://revrides.com/products/ebmx-x-9000-v3-controller']},
+  'ebmx-x-9000-v3|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
+  'ebmx-x-9000-v3|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
+  'ebmx-x-9000-v3|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee F (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
+  'ebmx-x-9000-v3|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
+  'ebmx-x-9000-v3|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
+  'torp-tc1000-2x|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/']},
+  'torp-tc1000-2x|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/']},
+  'torp-tc1000-2x|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/']},
+  'torp-tc500-2x|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://e-motousa.com/product/torp-tc500-2-x-controller-kit-for-surron-talaria/']},
+  'torp-tc500-2x|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/']},
+  'torp-tc500-2x|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/']},
+  'torp-tc500-2x|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/']},
+  'vtb-aetos-pro|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike']},
+  'vtb-aetos-pro|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike']},
+  'torp-tc1000-v1-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tc1000-controller']},
+  'torp-tc1000-v2-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tc1000-controller']},
+  'ventus-aetos-ultra|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ventus-aetos-ultra-controller']},
+  'fastace-20|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/']},
+  'fastace-20|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/']},
+  'fastace-20|mx5':{s:'not_compatible',n:'Seller listing says it does not fit the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/']},
+  'sirris-f43-cmx-light-bee|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-surron-light-bee-x']},
+  'kke-37mm-fork-kit|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective']},
+  'kke-35mm-55|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r']},
+  'kke-35mm-55|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r']},
+  'kke-35mm-55|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r']},
+  'fastace-alx13rc-2|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike']},
+  'fastace-alx13rc-2|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike']},
+  'fastace-alx13rc-2|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike']},
+  'fastace-alx13rc-2|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike']},
+  'rfloxa-hawk32|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross']},
+  'rfloxa-hawk32|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross']},
+  'rfloxa-hawk32|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross']},
+  'rfloxa-hawk31-pro|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-pro']},
+  'rfloxa-hawk31-pro|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-pro']},
+  'rfloxa-hawk31-pro|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-pro']},
+  'rfloxa-hawk31-pro|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload']},
+  'fastace-ahx12rv|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0']},
+  'fastace-ahx12rv|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0']},
+  'fastace-ahx12rv|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0']},
+  'fastace-ahx12rv|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0']},
+  'pure-traxion|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://moddedmotoco.com/products/untitled-nov4_12-25']},
+  'pure-traxion|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://moddedmotoco.com/products/untitled-nov4_12-25']},
+  'oem-light-bee-kke|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://lithiumpowersports.com/products/surron-light-bee-x-oem-front-fork-assy-kke-25my-51000-y029a-0000']},
+  'komodo-fork-left-oem|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/frkl186/']},
+  'kke-performance|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock']},
+  'oem-kke-white|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/light-bee-kke-rear-shock-absorber-white-spring']},
+  'dnm-250x70|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://goldenmotor.bike/collections/oem-talaria-sting-mx4-suspension/products/rear-shock-dnm-250x70mm-talaria-sting-mx3-mx4-sur-ron-segway-shorter']},
+  'tech-er30-283|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee']},
+  'ext-arma-mx|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron']},
+  'ext-arma-mx|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron']},
+  'ext-arma-mx|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/ext-arma']},
+  'ext-arma-mx|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/ext-arma']},
+  'komodo-shock-absorber-oem|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/shk219/']},
+  'supermoto-17|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus']},
+  'supermoto-17|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus']},
+  'supermoto-17|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus']},
+  'wheels-kke-lightbee-16-19|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective']},
+  'wheels-kke-lightbee-16-19|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective']},
+  'wheels-ion-lightbee-eride20|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset']},
+  'wheels-ion-lightbee-eride20|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset']},
+  'wheels-ion-eride30-sr-1619|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset']},
+  'wheels-ion-eride30-sr-1619|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset']},
+  'komodo-supermoto-wheelset|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/frws007/']},
+  'charged-21-front-wheel-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/21-wheel-upgrade-for-surron-ultra-bee']},
+  'kke-18-21-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/kke-21-18-e-motor-wheels-rims-fit-surron-ultra-bee-collective']},
+  'brakes-fxt-ultrabee-rear-kit|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro']},
+  'brakes-fxt-ultrabee-rear-kit|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro']},
+  'brakes-fxt-ultrabee-rear-kit|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro']},
+  'brakes-eride-e7094-front|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://www.eridepro.com/products/e7094']},
+  'brakes-factoryz-lightbee-foot|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://factoryz.co/products/surron-moto-foot-brake-kit']},
+  'komodo-rear-brake-pads|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/bpr090/']},
+  'komodo-rear-brake-caliper|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/bpcfr002/']},
+  'komodo-front-brake-lever|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/brlvf158/']},
+  'brakes-warp9-folding-lever|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (fitment audit Oct 18, 2026)',u:['https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro']},
+  'charged-brake-pads-emoto|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
+  'charged-brake-pads-emoto|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
+  'charged-brake-pads-emoto|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
+  'warp9-260mm-bracket-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/surron-ultra-bee-260mm-front-brake-bracket']},
+  'lbn-ultrab-bee-brake-kit|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto']},
+  'lbn-ultrab-bee-brake-kit|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto']},
+  'ultrabee-oem-front-brake|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly']},
+  'plastics-talaria-mx4-oem-graphics|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html']},
+  'plastics-talaria-mx4-oem-graphics|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html']},
+  'plastics-talaria-mx4-oem-graphics|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html']},
+  'plastics-ultrabee-graphics|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://throttleco.store/products/pre-designed-ultrabee-graphics-kit-plastics-only']},
+  'plastics-lightbee-numberplate|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://shop.sur-ron.com/products/sur-ron-light-bee-front-number-plate']},
+  'dhs-80v-45ah-lbx|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/dhs-rs50-80v-45ah-battery-for-surron-light-bee']},
+  'ewatt-72v-63ah-t|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://ewattusa.com/product/l7263h/']},
+  'ewatt-72v-63ah-t|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ewatt-72v-63ah-race-battery-for-talaria-sting']},
+  'ventus-evo-gt-72v|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ventus-battery-evo-gt-72v-50ah-surron-light-bee']},
+  'ultrabee-2025-oem-battery|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://peakpoweremotos.com/parts/ultra-bee-battery']},
+  'eride-e7271-battery|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://www.eridepro.com/products/e7271']},
+  'eride-e7271-battery|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://www.eridepro.com/products/e7271']},
+  'dhs-88v-60ah-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/dhs-88v-60ah-race-battery-for-surron-ultra-bee-rs50-cells-75kw']},
+  'ventus-ultrabee-96v-56ah|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah']},
+  'prickly-50mm-318|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars']},
+  'prickly-50mm-318|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars']},
+  'prickly-50mm-318|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars']},
+  'prickly-50mm-318|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars']},
+  'prickly-50mm-318|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars']},
+  'prickly-50mm-318|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars']},
+  'prickly-50mm-35|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars']},
+  'prickly-50mm-35|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars']},
+  'prickly-50mm-35|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars']},
+  'prickly-50mm-35|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars']},
+  'prickly-50mm-35|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars']},
+  'factoryz-3in-rise|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://factoryz.co/products/surron-handlebar-3-inch-rise']},
+  'factoryz-3in-rise|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://factoryz.co/products/surron-handlebar-3-inch-rise']},
+  'factoryz-3in-rise|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://factoryz.co/products/surron-handlebar-3-inch-rise']},
+  'factoryz-3in-rise|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://factoryz.co/products/surron-handlebar-3-inch-rise']},
+  'rippin-moto-rise3|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/rise3-e-moto-handlebars']},
+  'rippin-moto-rise3|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/rise3-e-moto-handlebars']},
+  'rippin-moto-rise3|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/rise3-e-moto-handlebars']},
+  'rippin-moto-rise3|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/rise3-e-moto-handlebars']},
+  'rippin-moto-rise3|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/rise3-e-moto-handlebars']},
+  'rippin-moto-rise3|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/rise3-e-moto-handlebars']},
+  'surron-lightbee-oem-charger|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger']},
+  'eride-e7305-charger|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://voromotors.com/products/84v-charger-for-e-ride-pro-ss']},
+  'talaria-mx4-oem-charger|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v']},
+  'cockpit-surron-oem-throttle|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/oem-replacement-throttle-for-surron-light-bee']},
+  'cockpit-surron-oem-grips|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://shop.sur-ron.com/products/handle-gripleft-or-right-use']},
+  'cockpit-surron-stem|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://shop.sur-ron.com/products/%E8%BD%BB%E8%9C%82%E9%85%8D%E4%BB%B6-%E6%8A%8A%E7%AB%8B']},
+  'cooling-ventus-handlebar-fan|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://ventusbikes.us/products/ventus-handlebar-fan']},
+  'drivetrain-eride-chain-kit|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr']},
+  'drivetrain-eride-chain-kit|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr']},
+  'drivetrain-eride-chain-kit|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr']},
+  'drivetrain-eride-belt-pulley|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://voromotors.com/products/drive-belt-pulley-for-e-ride-pro-ss']},
+  'drivetrain-eride-belt|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://voromotors.com/products/drive-belt-for-e-ride-pro-ss']},
+  'komodo-chain-520|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/chn120/']},
+  'electrical-surron-oem-dashboard|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://shop.sur-ron.com/products/light-bee-replacement-dashboard']},
+  'guards-eride-motor-guard|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://voromotors.com/products/motor-protection-guard-for-e-ride-pro-ss']},
+  'guards-lightbee-chain|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://shop.sur-ron.com/products/sur-ron-chain-protection-box']},
+  'stormbee-upgrade-parts-kit|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee F (fitment audit Oct 18, 2026)',u:['https://mxpartshop.com/products/for-surron-storm-bee-brake-levers-frame-slider-chain-adjuster-foot-pegs-caliper-guard-disc-guard']},
+  'linkage-ultrabeemx|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee']},
+  'linkage-ultrabee-emx|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit']},
+  'linkage-talaria-mx34|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4']},
+  'maintenance-lightbee-headset|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset']},
+  'maintenance-eride-surron-talaria-headset|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet']},
+  'maintenance-eride-surron-talaria-headset|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet']},
+  'maintenance-lightbee-swingarm-axle|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee']},
+  'pegs-ultrabee-oem-brackets|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://voromotors.com/products/foot-pegs-with-mounts-for-ultra-bee']},
+  'pegs-ventus-lbx|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://ventusbikes.us/products/surron-lbx-foot-pegs-collective']},
+  'warp9-pegs-lbx-ventus|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway']},
+  'seat-guts-lightbee-cover|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-guts-lightbee-cover|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-guts-lightbee-cover|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-guts-lightbee-cover|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-guts-lightbee-cover|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-guts-lightbee-cover|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-guts-lightbee-cover|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-talaria-mx34-oem|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://zealracing.com/products/seat-r-mx4']},
+  'street-lightbee-street-kit|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit']},
+  'street-tusk-signal-kit|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit']},
+  'street-tusk-signal-kit|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit']},
+  'street-tusk-signal-kit|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit']},
+  'street-tusk-signal-kit|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit']},
+  'street-project9-talaria|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit']},
+  'street-project9-talaria|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit']},
+  'swingarm-surron-oem|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://parts.electriccyclerider.com/products/surron-light-bee-swingarm']},
+  'swingarm-ebmx-extended|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedpowersports.com/products/ebmx-extended-swingarm']},
+  'swingarm-ebmx-extended|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://chargedpowersports.com/products/ebmx-extended-swingarm']},
+  'swingarm-ebmx-extended|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://chargedpowersports.com/products/ebmx-extended-swingarm']},
+  'swingarm-ebmx-extended|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://chargedpowersports.com/products/ebmx-extended-swingarm']},
+  'swingarm-eride-oem|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2']},
+  'swingarm-eride-oem|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2']},
+  'swingarm-eride-oem|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2']},
+  'tire-surron-oem-70100-19|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-eride-fatty-rear-1009018|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://www.eridepro.com/products/e7235-1']},
+  'tube-rippin-70100-19|altis-sigma':{s:'confirmed_direct_fit',n:'Seller listing names the Altis Sigma (fitment audit Oct 18, 2026)',u:['https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tire-talaria-cst-70100-19|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://zealracing.com/products/front-wheel']},
+  'tire-surron-oem-19|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-cst-cm713-80100-19|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19']},
+  'tire-cst-oem-70100-19-eu|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-irc-ve33-ccw|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-ve33-ccw|sr':{s:'not_compatible',n:'Seller listing says it does not fit the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-ve33-ccw|ss30':{s:'not_compatible',n:'Seller listing says it does not fit the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-ve33-ccw|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-ve33-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 21kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-michelin-starcross5-ccw|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-tusk-groundwire-ccw|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-dunlop-mx53-ccw|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-shinko-sr241-ccw|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'ti-full-kit-erp|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp']},
+  'ti-full-kit-erp|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp']},
+  'ti-full-kit-talaria-mx|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/collections/titanium-bolt-kits']},
+  'ti-full-kit-talaria-mx|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/collections/titanium-bolt-kits']},
+  'ti-full-kit-altis-sigma|altis-sigma':{s:'confirmed_direct_fit',n:'Seller listing names the Altis Sigma (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/collections/titanium-bolt-kits']},
+  'ti-full-kit-komodo|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/collections/titanium-bolt-kits']},
+  'ti-wheel-kit-revrides|altis-sigma':{s:'confirmed_direct_fit',n:'Seller listing names the Altis Sigma (fitment audit Oct 18, 2026)',u:['https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro']},
+  'ti-sprocket-bolts-5pk|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://revrides.com/products/titanium-sprocket-bolts-5-pack-for-sur-ron-e-ride-pro-talaria']},
+  'ti-sprocket-bolts-5pk|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://revrides.com/products/titanium-sprocket-bolts-5-pack-for-sur-ron-e-ride-pro-talaria']},
+  'warp9-bar-mount-ti|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit']},
+  'warp9-bar-mount-ti|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit']},
+  'ti-motor-bolts-erp|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro']},
+  'ti-motor-bolts-erp|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro']},
+  'ti-linkage-kit-erp|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/rear-suspension-linkage-bolt-kit-for-e-ride-pro-erp']},
 });
