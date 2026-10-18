@@ -4,7 +4,7 @@ Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed 
 
 | bike | source page | image |
 |---|---|---|
-| ventus-plus | https://ventusbikes.us/products/ventus-one-plus | https://cdn.shopify.com/s/files/1/0869/9186/4092/files/ventus-v1-evo-by-ventus-bikes-usa-electric-motorcycle-8965038.png?v=1784187225 |
+| ventus-plus | restored pre-overhaul image (git tag checkpoint-2026-10-18-pre-audit, img/bike-ventus-plus.png), per site owner; this is an AI-generated studio render, not a manufacturer photo |
 | ventus-evo | https://chargedcycleworks.com/products/ventus-one-plus-v1-evo-36kw-electric-motorcycle | product gallery image |
 | lightbee | https://surron.ca/pages/light-bee-x | https://cdn.shopify.com/s/files/1/0540/6644/6508/files/26WhiteLB.png |
 | ultrabee | https://voromotors.com/products/surron-ultra-bee | https://cdn.shopify.com/s/files/1/2476/0976/files/surron-ultra-bee-2026-side.jpg?v=1791573834 |
@@ -18,7 +18,7 @@ Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed 
 | mx5 | https://ezrides.ca/products/talaria-mx5-pro-electric-dirtbike | https://cdn.shopify.com/s/files/1/0590/5340/8356/files/ezrides-talaria-pre-order-talaria-sting-mx5-pro-34262200877156.png?v=1791557134 |
 | komodo | https://tbelectricmoto.com/products/talaria-komodo-32kw-96v-electric-dirt-bike | product gallery image |
 | bonnell-805rx | https://ridebonnell.com/products/805 | https://cdn.shopify.com/s/files/1/0861/5883/6028/files/805_Website_BarelyWhite.png?v=1788216738 |
-| arctic-xd | https://arctic-leopard-usa.com/?p=144 | https://arctic-leopard-usa.com/cdn/shop/files/arctic-leopard-xf-3498179.webp |
+| arctic-xd | https://arctic-leopard.bike/products/arctic-leopard-xd-pro-mx | manufacturer side-profile photo (XD PRO MX), cut out (previous image was the XF model) |
 | rerode-rx | https://rerode.bike/pages/rx-new | https://rerode.bike/cdn/shop/files/Untitled_design_-_2026-09-26T235213.703.png?v=1790488254&amp;width=2000 |
 | rawrr-mantis-72v | https://riderawrr.com/products/rawrr-mantis-all-terrain-electric-bike | https://cdn.prod.website-files.com/6675b4f433c2c32076d88aa3/69123976bbbff8d879a9c4ba_rawrr_mantis_x.webp |
 | rawrr-mantis-x-pro | https://voromotors.com/products/rawrr-mantis-x-pro | https://cdn.shopify.com/s/files/1/2476/0976/files/15_12f2f7b6-46ab-4366-a172-07191dc3b657.png?v=1759861910 |
@@ -40,11 +40,11 @@ Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed 
 | supermach-sm01 | https://www.supermach.com/products/sm01-6000-electric-off-road-vehicle | https://cdn.shopify.com/s/files/1/0626/5713/4805/files/24.png?v=1784731764 |
 | supermach-sm62 | https://www.supermach.com/products/sm62-electric-dirt-bike | https://cdn.shopify.com/s/files/1/0626/5713/4805/files/sm62-right_5dd93806-d7b8-46a5-be57-cb2050e03441.png?v=1782495032 |
 | zero-xe | https://chargedcycleworks.com/products/zero-xe | product gallery image |
-| rfn-warrior-pro | https://ride-rfn.com/products/e15-plus | product gallery image |
+| rfn-warrior-pro | https://ride-rfn.com/products/e15-plus | product gallery image (baked-in floor glow removed) |
 | arctic-leopard-xe-pro-s | https://arctic-leopard-usa.com/products/arctic-leopard-xe-pro-s | product gallery image |
 | arctic-leopard-xe-pro-r | https://arctic-leopard-usa.com/products/arctic-leopard-xe-pro-r | product gallery image |
 | arctic-leopard-xf | https://arctic-leopard-usa.com/products/arctic-leopard-xf | product gallery image |
-| altis-omega | https://voromotors.com/products/altis-omega | https://cdn.shopify.com/s/files/1/2476/0976/files/4715741adcf8b608cd84a3ce60eb44d_1.webp?v=1782934289 |
+| altis-omega | https://www.altispowersports.com/products/altis-omega | manufacturer studio photo (full frame, feathered edges; stand is in all official photos) |
 | altis-delta | https://voromotors.com/products/altis-delta | https://cdn.shopify.com/s/files/1/2476/0976/files/20251217-174750.webp?v=1766538788 |
 | rawrr-mantis-mini-r | https://voromotors.com/products/rawrr-mantis-mini-r-best-mini-electric-dirt-bike | https://cdn.shopify.com/s/files/1/2476/0976/files/19_c87224b8-51c8-46cc-9bf2-35c9bfd97c9f.webp?v=1759863379 |
 | storm-bee | kept previous site photo (re-cut) — verify | |

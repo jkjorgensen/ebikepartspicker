@@ -622,16 +622,17 @@ details.more[open]{padding-bottom:14px}
 .uempty .qsub{margin-left:auto;margin-right:auto}
 .imgph{aspect-ratio:16/10;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#1a1f25,#12161b);color:var(--faint);font:600 12.5px var(--body);letter-spacing:.3px;border-bottom:1px solid var(--line)}
 
-/* ---------- product photography: light studio backdrop, real cut-out photos, no masks ---------- */
-:root{--studio:radial-gradient(120% 100% at 50% 32%, #fdfdfe 0%, #eef0f3 58%, #dfe3e8 100%)}
+/* ---------- product photography: dark studio backdrop, real cut-out photos, no masks ---------- */
+:root{--studio:radial-gradient(ellipse 42% 7% at 50% 88%, #0000008c 0%, #00000040 45%, transparent 75%),radial-gradient(90% 80% at 50% 38%, #3b4450 0%, #2a313b 34%, #1d2229 68%, #15191f 100%);
+  --rim:drop-shadow(0 0 1px #ffffff47) drop-shadow(0 0 16px #a9bdd42e) drop-shadow(0 14px 12px #0000009e)}
 .stage{background:var(--studio);border-radius:18px;padding:10px;overflow:hidden;aspect-ratio:16/10;max-height:min(450px,48vh)}
-.stage img,.hero{-webkit-mask-image:none;mask-image:none;filter:drop-shadow(0 14px 14px #0000002b)}
+.stage img,.hero{-webkit-mask-image:none;mask-image:none;filter:var(--rim)}
 .stage img{width:100%;height:100%;max-height:none;object-fit:contain}
 .herostage{width:min(780px,94vw);margin-top:10px;background:var(--studio);border-radius:22px;aspect-ratio:16/10;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 20px 60px #0007}
 .herostage .hero{width:100%;height:100%;margin:0;object-fit:contain}
 .card img{height:auto;aspect-ratio:16/10;object-fit:contain;background:var(--studio);padding:8px}
 .gbike img,.qrec-top img,.cmp-table thead img{object-fit:contain;background:var(--studio)}
-#pprev img,.dd-thumb{object-fit:contain;background:#fff}
+#pprev img,.dd-thumb{object-fit:contain;background:var(--studio)}
 @media(max-width:900px){ .stage{max-height:none} }
 
 /* ---------- homepage: popular bikes ---------- */
@@ -723,7 +724,7 @@ details.more[open]{padding-bottom:14px}
 .featured{width:min(1100px,94vw);margin:28px auto 10px}
 .featured[hidden]{display:none}
 .feat-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--bg2,#12161b);text-align:left}
-.feat-fig{margin:0;background:var(--studio);display:flex;flex-direction:column;justify-content:center}
+.feat-fig{margin:0;background:radial-gradient(90% 70% at 50% 45%, #3b4450 0%, #2a313b 34%, #1d2229 68%, #15191f 100%);display:flex;flex-direction:column;justify-content:center}
 .feat-fig img{width:100%;height:auto;aspect-ratio:16/10;object-fit:contain;padding:10px}
 .feat-fig figcaption{font-size:11px;color:#667;padding:0 12px 8px;text-align:right}
 .feat-body{padding:18px 20px;display:flex;flex-direction:column;gap:8px}
@@ -753,3 +754,48 @@ details.more[open]{padding-bottom:14px}
 .gpowcta{margin:-4px 0 14px;font-size:13.5px}
 .pback{color:inherit}
 @media (max-width:520px){.plist{grid-template-columns:1fr}.pc-head{grid-template-columns:110px 1fr}}
+
+/* dark studio: rim light on bike cutouts so black bikes stay visible */
+.card img,.pop-card img,.gbike img,.qrec-top img,.cmp-table thead img,.feat-fig img,.pc-head img{filter:var(--rim)}
+.ptray .pt{background:var(--studio)!important}
+.ptray .pt img{filter:drop-shadow(0 0 1px #ffffff40)}
+/* static SEO pages */
+.seo-main{width:min(980px,94vw)}
+.crumbs{font-size:12.5px;color:var(--faint);margin-top:4px}.crumbs a{color:var(--muted)}
+.seo-lede{font-size:16px;color:var(--muted)}
+.seo-hero{margin:14px 0;background:var(--studio);border-radius:18px;aspect-ratio:16/10;overflow:hidden}
+.seo-hero img{width:100%;height:100%;object-fit:contain;filter:var(--rim)}
+.seo-specs{display:flex;flex-wrap:wrap;gap:10px 28px;margin:6px 0 14px}.seo-specs dt{font-size:12px;color:var(--faint)}.seo-specs dd{margin:0;color:var(--text);font-weight:600}
+.seo-cta{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.seo-cta .cta{text-decoration:none;color:var(--accent-ink)!important}
+.seo-toc{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13.5px;margin:18px 0 4px;padding:10px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.sp-list{list-style:none;padding:0;margin:8px 0 18px}
+.sp-row{display:flex;gap:14px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.sp-row img,.sp-noimg{width:72px;height:72px;flex:none;object-fit:contain;background:var(--studio);border-radius:10px}
+.sp-info{flex:1;min-width:0}.sp-info strong{display:block;color:var(--text);font-weight:600;line-height:1.35}
+.sp-cat{font-size:11.5px;text-transform:uppercase;letter-spacing:.6px;color:var(--faint)}
+.sp-price{color:var(--text);font-weight:700;margin-right:8px}.sp-chk{font-size:12.5px;color:var(--faint)}
+.sp-mod,.sp-uni{display:inline-block;font-size:11px;border-radius:6px;padding:1px 7px;margin:3px 0}
+.sp-mod{background:#3a2f14;color:#f0c96a}.sp-uni{background:#ffffff10;color:var(--muted)}
+.sp-act{display:flex;flex-direction:column;gap:6px;align-items:flex-end;flex:none}
+.sp-open{font-size:12.5px}
+.sbuy{display:inline-block;font-size:13px;font-weight:600;border:1px solid var(--line);border-radius:10px;padding:7px 12px;text-decoration:none;color:var(--text)!important;white-space:nowrap}
+.sbuy-voro{background:var(--accent,#c8f04a);border-color:transparent;color:var(--accent-ink)!important;font-weight:700}
+.seo-total{font-size:16px;color:var(--text)}
+.seo-pc{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.seo-links li{margin:6px 0}
+.seo-fine{font-size:12.5px;color:var(--faint);margin-top:28px}
+@media(max-width:600px){.sp-row{flex-wrap:wrap}.sp-act{flex-direction:row;width:100%;justify-content:flex-start;padding-left:86px}.seo-pc{grid-template-columns:1fr}}
+.rb.rb-voro{background:var(--accent);color:var(--accent-ink)!important;border-color:transparent;font-weight:700}
+.gvoro{display:inline-block;margin:10px 0 4px;text-decoration:none;padding:8px 14px;border-radius:10px}
+.tp-nav{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;width:100%;font-size:12.5px;margin-top:8px}
+.tp-nav a{color:var(--muted)}
+.sitefoot{flex-wrap:wrap}
+/* shared static-page layout (SEO + trust pages) */
+.tp-head{display:flex;justify-content:space-between;align-items:center;gap:12px;width:min(980px,94vw);margin:0 auto;padding:18px 0}
+.tp-brand{font:700 18px var(--display);color:var(--text,#fff);text-decoration:none}
+.tp-back{font-size:13.5px;color:var(--accent-hi)}
+.tp-main{width:min(820px,92vw);margin:0 auto 40px;line-height:1.65;font-size:15.5px;color:var(--muted)}
+.tp-main h1{font:700 32px/1.15 var(--display);color:var(--text,#fff);margin:10px 0 18px}
+.tp-main h2{font:700 19px var(--display);color:var(--text,#fff);margin:26px 0 8px}
+.tp-main a{color:var(--accent-hi)}
+.tp-main .sbuy-voro,.tp-main .cta{color:var(--accent-ink)!important}
