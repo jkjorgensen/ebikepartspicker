@@ -833,6 +833,23 @@ function guideCard(host, gd, r){
     li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
   });
   body.appendChild(ul);
+  /* estimated system power when the guide changes the powertrain: min of rated parts, stock kW for the rest */
+  var PT = {batteries:['battMaxKw','Battery'], controller:['ctrlMaxKw','Controller'], motor:['motorPeakKw','Motor']};
+  var ptRows = r.rows.filter(function(x){ return PT[x.cat.id]; });
+  if(ptRows.length){
+    var lim = [];
+    Object.keys(PT).forEach(function(cid){
+      var x = ptRows.find(function(y){ return y.cat.id===cid; });
+      var kw = x ? x.opt[PT[cid][0]] : b.kw;
+      if(kw!=null) lim.push({kw:kw, name: x ? PT[cid][1] : 'Stock '+PT[cid][1].toLowerCase()});
+    });
+    if(lim.length){
+      var lo = lim.reduce(function(p,q){ return q.kw<p.kw?q:p; });
+      var pw = document.createElement('div'); pw.className='gpower';
+      pw.textContent = 'Est. system power: '+lo.kw+' kW (limited by '+lo.name.toLowerCase()+' rating; stock '+b.kw+' kW)';
+      body.appendChild(pw);
+    }
+  }
   var tot = document.createElement('div'); tot.className='gtotals';
   [[b.name+(b.src==='msrp'?' (MSRP)':''), money(b.price)],['Parts', money(sub)],['Total', money(b.price+sub)]].forEach(function(l,i){
     var d=document.createElement('div'); d.className='gtl'+(i===2?' gtl-total':'');
