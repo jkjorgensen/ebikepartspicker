@@ -1,6 +1,6 @@
 # Bike photo sources
 
-Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed and centered on a 1600x1000 transparent canvas. No AI-generated images. Regenerate with /workspace/ebpp-img/proc.py.
+Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed and centered on a 1600x1000 transparent canvas. No AI-generated images. Regenerate with /workspace/ebpp-img/proc.py. White-halo edges removed with /workspace/ebpp-img/defringe.py (1px alpha choke + pymatting foreground estimation) on: altis-sigma, rerode-rx, yozma-in10-pro, rfn-warrior-pro, rawrr-mantis-72v, arctic-leopard-xe-pro-s-enduro, komodo, lightbee.
 
 | bike | source page | image |
 |---|---|---|
@@ -35,7 +35,7 @@ Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed 
 | yozma-in10-pro | https://yozmasport.com/products/in-10-pro | https://cdn.shopify.com/s/files/1/0682/5646/5034/files/IN-10_ce1750e2-9240-4270-b58d-874d431bb792.png?v=1787214786 |
 | tuttio-soleil01 | https://tuttiosport.com/products/tuttio-soleil01-electric-bike | https://cdn.shopify.com/s/files/1/0683/8196/6580/files/adult-electric-motorcycle-2000w-cheap-dirtt-bike.jpg?v=1784171477 |
 | stark-vargex | https://starkfuture.com/products/stark-varg-ex | https://assets.starkfuture.com/frontend-assets/varg/ex/red.webp |
-| altis-sigma | https://voromotors.com/products/altis-sigma-best-electric-dirt-bike-98v-35ah-e-dirt-bike | https://cdn.shopify.com/s/files/1/2476/0976/files/altis_sigma.webp?v=1775703951 |
+| altis-sigma | https://voromotors.com/products/altis-sigma-best-electric-dirt-bike-98v-35ah-e-dirt-bike | https://cdn.shopify.com/s/files/1/2476/0976/files/altis_sigma.webp?v=1775703951 (dealer cut-out of the real bike; replaces the annotated white-background shot that left white patches in the wheels; edges defringed) |
 | yvolt-surge-v | https://voromotors.com/products/yvolt-surge-v | https://cdn.shopify.com/s/files/1/2476/0976/files/Homepage_Desktop_Versions_Neon_410x729px_5.webp?v=1774572709 |
 | supermach-sm01 | https://www.supermach.com/products/sm01-6000-electric-off-road-vehicle | https://cdn.shopify.com/s/files/1/0626/5713/4805/files/24.png?v=1784731764 |
 | supermach-sm62 | https://www.supermach.com/products/sm62-electric-dirt-bike | https://cdn.shopify.com/s/files/1/0626/5713/4805/files/sm62-right_5dd93806-d7b8-46a5-be57-cb2050e03441.png?v=1782495032 |
