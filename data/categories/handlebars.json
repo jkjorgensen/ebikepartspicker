@@ -619,7 +619,7 @@
       ],
       "weight_kg": null,
       "weight_delta_kg": null,
-      "image": "img/parts/warp9-3in-rise.jpg"
+      "image": "img/parts/warp9-3in-rise.webp"
     },
     {
       "badge": "Prickly",
@@ -648,7 +648,7 @@
       ],
       "weight_kg": null,
       "weight_delta_kg": null,
-      "image": "img/parts/prickly-50mm-318.jpg"
+      "image": "img/parts/prickly-50mm-318.webp"
     },
     {
       "badge": "Prickly",
@@ -677,7 +677,7 @@
       ],
       "weight_kg": null,
       "weight_delta_kg": null,
-      "image": "img/parts/prickly-50mm-35.jpg"
+      "image": "img/parts/prickly-50mm-35.webp"
     },
     {
       "badge": "FactoryZ",
@@ -706,7 +706,7 @@
       ],
       "weight_kg": null,
       "weight_delta_kg": null,
-      "image": "img/parts/factoryz-3in-rise.jpg"
+      "image": "img/parts/factoryz-3in-rise.webp"
     },
     {
       "id": "rippin-moto-rise3",
@@ -735,7 +735,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/rippin-moto-rise3.jpg"
+      "image": "img/parts/rippin-moto-rise3.webp"
     },
     {
       "id": "renthal-fatbar-lite-35",
@@ -764,7 +764,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/renthal-fatbar-lite-35.jpg"
+      "image": "img/parts/renthal-fatbar-lite-35.webp"
     },
     {
       "id": "voro-eride-ss-handlebar",
@@ -790,7 +790,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-handlebar.jpg"
+      "image": "img/parts/voro-eride-ss-handlebar.webp"
     }
   ]
 }

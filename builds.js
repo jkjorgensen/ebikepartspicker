@@ -6,7 +6,7 @@ var BUILDS = [
   {
     owner: 'Josh',
     bike: 'ventus-plus',
-    img: 'img/bike-ventus-plus.png',
+    img: 'img/bikes/ventus-plus-800.webp',
     title: 'Ventus One Plus — full build',
     parts: [
       {cat:'wheels', opt:1},

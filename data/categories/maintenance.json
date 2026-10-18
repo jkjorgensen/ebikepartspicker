@@ -31,7 +31,7 @@
       "power_change_kw": null,
       "badge": "Sur-Ron",
       "weight_delta_kg": null,
-      "image": "img/parts/maintenance-lightbee-headset.jpg"
+      "image": "img/parts/maintenance-lightbee-headset.webp"
     },
     {
       "id": "maintenance-eride-surron-talaria-headset",
@@ -60,7 +60,7 @@
       "power_change_kw": null,
       "badge": "The Ride Guru",
       "weight_delta_kg": null,
-      "image": "img/parts/maintenance-eride-surron-talaria-headset.jpg"
+      "image": "img/parts/maintenance-eride-surron-talaria-headset.webp"
     },
     {
       "id": "maintenance-lightbee-swingarm-axle",
@@ -89,7 +89,7 @@
       "power_change_kw": null,
       "badge": "IZI Brothers",
       "weight_delta_kg": null,
-      "image": "img/parts/maintenance-lightbee-swingarm-axle.png"
+      "image": "img/parts/maintenance-lightbee-swingarm-axle.webp"
     }
   ],
   "compatibility": [

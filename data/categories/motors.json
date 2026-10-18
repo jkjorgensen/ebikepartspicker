@@ -862,7 +862,7 @@
       "weight_kg": null,
       "motor_peak_kw": 50,
       "weight_delta_kg": null,
-      "image": "img/parts/ebmx-xlb-60.png"
+      "image": "img/parts/ebmx-xlb-60.webp"
     },
     {
       "badge": "Sotion FW01",
@@ -897,7 +897,7 @@
       ],
       "weight_kg": 10.66,
       "weight_delta_kg": 3.66,
-      "image": "img/parts/sotion-fw01.jpg"
+      "image": "img/parts/sotion-fw01.webp"
     },
     {
       "id": "ebmx-xta-60",
@@ -934,7 +934,7 @@
       "last_checked": "2026-10-12",
       "motor_peak_kw": 40,
       "weight_delta_kg": null,
-      "image": "img/parts/ebmx-xta-60.png"
+      "image": "img/parts/ebmx-xta-60.webp"
     },
     {
       "id": "sotion-fw02",
@@ -963,7 +963,7 @@
       ],
       "last_checked": "2026-10-12",
       "weight_delta_kg": 2.8,
-      "image": "img/parts/sotion-fw02.jpg"
+      "image": "img/parts/sotion-fw02.webp"
     },
     {
       "id": "vtb-41kw-ultra-bee",
@@ -992,7 +992,7 @@
       ],
       "last_checked": "2026-10-12",
       "weight_delta_kg": null,
-      "image": "img/parts/vtb-41kw-ultra-bee.jpg"
+      "image": "img/parts/vtb-41kw-ultra-bee.webp"
     },
     {
       "id": "vtb-28kw-light",
@@ -1023,7 +1023,7 @@
       "last_checked": "2026-10-12",
       "motor_peak_kw": 28,
       "weight_delta_kg": null,
-      "image": "img/parts/vtb-28kw-light.jpg"
+      "image": "img/parts/vtb-28kw-light.webp"
     },
     {
       "id": "ventus-ryuga-81kw",
@@ -1058,7 +1058,7 @@
       ],
       "last_checked": "2026-10-12",
       "weight_delta_kg": null,
-      "image": "img/parts/ventus-ryuga-81kw.png"
+      "image": "img/parts/ventus-ryuga-81kw.webp"
     },
     {
       "id": "ventus-ryuga-52kw",
@@ -1122,7 +1122,7 @@
       ],
       "motor_peak_kw": 27,
       "weight_delta_kg": 2.8,
-      "image": "img/parts/torp-tm25.jpg"
+      "image": "img/parts/torp-tm25.webp"
     },
     {
       "id": "torp-tm40-pro",
@@ -1162,7 +1162,7 @@
       ],
       "motor_peak_kw": 50,
       "weight_delta_kg": 5.02,
-      "image": "img/parts/torp-tm40-pro.png"
+      "image": "img/parts/torp-tm40-pro.webp"
     },
     {
       "id": "stormbee-motor-oem",
@@ -1226,7 +1226,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/torp-tm50-offroad-torque-ultrabee.png"
+      "image": "img/parts/torp-tm50-offroad-torque-ultrabee.webp"
     },
     {
       "id": "torp-tm50-pro-topspeed-ultrabee",
@@ -1255,7 +1255,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/torp-tm50-pro-topspeed-ultrabee.png"
+      "image": "img/parts/torp-tm50-pro-topspeed-ultrabee.webp"
     },
     {
       "id": "torp-tm50-speed-ultrabee",
@@ -1284,7 +1284,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/torp-tm50-speed-ultrabee.png"
+      "image": "img/parts/torp-tm50-speed-ultrabee.webp"
     }
   ]
 }

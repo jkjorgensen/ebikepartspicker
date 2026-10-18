@@ -31,7 +31,7 @@
       "power_change_kw": null,
       "badge": "OEM",
       "weight_delta_kg": null,
-      "image": "img/parts/swingarm-surron-oem.jpg"
+      "image": "img/parts/swingarm-surron-oem.webp"
     },
     {
       "id": "swingarm-ebmx-extended",
@@ -60,7 +60,7 @@
       "power_change_kw": null,
       "badge": "EBMX",
       "weight_delta_kg": null,
-      "image": "img/parts/swingarm-ebmx-extended.png"
+      "image": "img/parts/swingarm-ebmx-extended.webp"
     },
     {
       "id": "swingarm-eride-oem",
@@ -89,7 +89,7 @@
       "power_change_kw": null,
       "badge": "E Ride Pro",
       "weight_delta_kg": null,
-      "image": "img/parts/swingarm-eride-oem.png"
+      "image": "img/parts/swingarm-eride-oem.webp"
     },
     {
       "id": "stormbee-swingarm-oem",
@@ -149,7 +149,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-swingarm.jpg"
+      "image": "img/parts/voro-eride-ss-swingarm.webp"
     }
   ],
   "compatibility": [

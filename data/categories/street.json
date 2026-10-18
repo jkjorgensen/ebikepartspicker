@@ -31,7 +31,7 @@
       "power_change_kw": null,
       "badge": "Rare Form",
       "weight_delta_kg": null,
-      "image": "img/parts/street-lightbee-street-kit.jpg"
+      "image": "img/parts/street-lightbee-street-kit.webp"
     },
     {
       "id": "street-surron-oem-horn",
@@ -60,7 +60,7 @@
       "power_change_kw": null,
       "badge": "Sur-Ron",
       "weight_delta_kg": null,
-      "image": "img/parts/street-surron-oem-horn.jpg"
+      "image": "img/parts/street-surron-oem-horn.webp"
     },
     {
       "id": "street-tusk-signal-kit",
@@ -89,7 +89,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/street-tusk-signal-kit.jpg"
+      "image": "img/parts/street-tusk-signal-kit.webp"
     },
     {
       "id": "street-project9-talaria",
@@ -118,7 +118,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/street-project9-talaria.jpg"
+      "image": "img/parts/street-project9-talaria.webp"
     },
     {
       "id": "street-tarazon-walmart",
@@ -166,7 +166,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-ultrabee-front-turn-signals.jpg"
+      "image": "img/parts/voro-ultrabee-front-turn-signals.webp"
     }
   ],
   "compatibility": [
