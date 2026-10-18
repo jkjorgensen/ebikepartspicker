@@ -633,3 +633,28 @@ details.more[open]{padding-bottom:14px}
 .gbike img,.qrec-top img,.cmp-table thead img{object-fit:contain;background:var(--studio)}
 #pprev img,.dd-thumb{object-fit:contain;background:#fff}
 @media(max-width:900px){ .stage{max-height:none} }
+
+/* ---------- homepage: popular bikes ---------- */
+.popular{width:min(1100px,94vw);margin:34px auto 10px}
+.pop-title{font:700 20px/1.2 var(--display);letter-spacing:-.4px;margin:0 0 14px;text-align:left}
+.pop-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.pop-card{display:flex;flex-direction:column;gap:4px;text-align:left;padding:0 0 12px;cursor:pointer;
+  background:var(--bg2,#12161b);border:1px solid var(--line);border-radius:16px;overflow:hidden;color:inherit;font:inherit;
+  transition:transform .15s,border-color .15s}
+.pop-card:hover,.pop-card:focus-visible{transform:translateY(-2px);border-color:var(--accent)}
+.pop-card img{width:100%;height:auto;aspect-ratio:16/10;object-fit:contain;background:var(--studio);padding:6px;margin-bottom:6px}
+.pop-card strong{font:700 14.5px/1.25 var(--body);padding:0 12px}
+.pop-card small{color:var(--muted);font-size:12.5px;padding:0 12px}
+@media(max-width:900px){.pop-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
+
+/* ---------- builder: upgrades summary ---------- */
+.bsum{margin-top:12px;border:1px solid var(--line);border-radius:14px;background:var(--bg2,#12161b);padding:6px 12px}
+.bsum[hidden]{display:none}
+.bsum-head{font:700 11px var(--body);letter-spacing:1.6px;text-transform:uppercase;color:var(--faint);padding:8px 0 4px}
+.bsum-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-top:1px solid var(--line)}
+.bsum-row:first-of-type{border-top:0}
+.bsum-name{flex:1;min-width:0;font-size:13.5px;line-height:1.3}
+.bsum-name small{display:block;color:var(--faint);font-size:11px}
+.bsum-price{font-weight:700;font-size:13.5px;white-space:nowrap}
+.bsum-x{background:none;border:1px solid var(--line);color:var(--muted);width:28px;height:28px;border-radius:8px;cursor:pointer;font-size:16px;line-height:1;flex:none}
+.bsum-x:hover,.bsum-x:focus-visible{color:#fff;border-color:var(--accent)}
