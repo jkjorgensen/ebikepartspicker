@@ -30,7 +30,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/surron-lightbee-oem-charger.jpg"
+      "image": "img/parts/surron-lightbee-oem-charger.webp"
     },
     {
       "id": "eride-e7305-charger",
@@ -64,7 +64,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/eride-e7305-charger.jpg"
+      "image": "img/parts/eride-e7305-charger.webp"
     },
     {
       "id": "talaria-mx4-oem-charger",

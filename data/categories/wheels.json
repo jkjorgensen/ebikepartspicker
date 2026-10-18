@@ -32,7 +32,7 @@
       "notes": "",
       "variant": "warp9",
       "weight_delta_kg": null,
-      "image": "img/parts/warp9-1619.jpg"
+      "image": "img/parts/warp9-1619.webp"
     },
     {
       "id": "supermoto-17",
@@ -62,7 +62,7 @@
       "notes": "",
       "variant": "warp9",
       "weight_delta_kg": null,
-      "image": "img/parts/supermoto-17.jpg"
+      "image": "img/parts/supermoto-17.webp"
     },
     {
       "id": "wheels-kke-lightbee-16-19",
@@ -157,7 +157,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/wheels-ion-lightbee-eride20.jpg"
+      "image": "img/parts/wheels-ion-lightbee-eride20.webp"
     },
     {
       "id": "wheels-ion-eride30-sr-1619",
@@ -205,7 +205,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/wheels-ion-eride30-sr-1619.jpg"
+      "image": "img/parts/wheels-ion-eride30-sr-1619.webp"
     },
     {
       "id": "stormbee-supermoto-wheels",
@@ -296,7 +296,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/charged-21-front-wheel-ultrabee.jpg"
+      "image": "img/parts/charged-21-front-wheel-ultrabee.webp"
     },
     {
       "id": "ion-18-21-ultrabee",
@@ -325,7 +325,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/ion-18-21-ultrabee.jpg"
+      "image": "img/parts/ion-18-21-ultrabee.webp"
     },
     {
       "id": "kke-18-21-ultrabee",
@@ -354,7 +354,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/kke-18-21-ultrabee.jpg"
+      "image": "img/parts/kke-18-21-ultrabee.webp"
     },
     {
       "id": "voro-eride-ss-wheel-assembly",
@@ -380,7 +380,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-wheel-assembly.jpg"
+      "image": "img/parts/voro-eride-ss-wheel-assembly.webp"
     }
   ],
   "compatibility": [

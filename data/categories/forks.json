@@ -587,7 +587,7 @@
       ],
       "weight_kg": 4.5,
       "weight_delta_kg": null,
-      "image": "img/parts/ext-ferro.jpg"
+      "image": "img/parts/ext-ferro.webp"
     },
     {
       "badge": "Fastace",
@@ -646,7 +646,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/sirris-f43-cmx-light-bee.jpg"
+      "image": "img/parts/sirris-f43-cmx-light-bee.webp"
     },
     {
       "id": "kke-37mm-fork-kit",
@@ -676,7 +676,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/kke-37mm-fork-kit.jpg"
+      "image": "img/parts/kke-37mm-fork-kit.webp"
     },
     {
       "id": "kke-35mm-55",
@@ -736,7 +736,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/fastace-alx13rc-2.jpg"
+      "image": "img/parts/fastace-alx13rc-2.webp"
     },
     {
       "id": "rfloxa-hawk32",
@@ -766,7 +766,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/rfloxa-hawk32.jpg"
+      "image": "img/parts/rfloxa-hawk32.webp"
     },
     {
       "id": "rfloxa-hawk31-pro",
@@ -802,7 +802,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/rfloxa-hawk31-pro.jpg"
+      "image": "img/parts/rfloxa-hawk31-pro.webp"
     },
     {
       "id": "fastace-ahx12rv",
@@ -832,7 +832,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/fastace-ahx12rv.jpg"
+      "image": "img/parts/fastace-ahx12rv.webp"
     },
     {
       "id": "sirris-f43-ultra-bee",
@@ -862,7 +862,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/sirris-f43-ultra-bee.jpg"
+      "image": "img/parts/sirris-f43-ultra-bee.webp"
     },
     {
       "id": "rfloxa-ultra43",
@@ -897,7 +897,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/rfloxa-ultra43.jpg"
+      "image": "img/parts/rfloxa-ultra43.webp"
     },
     {
       "id": "pure-traxion",
@@ -927,7 +927,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/pure-traxion.jpg"
+      "image": "img/parts/pure-traxion.webp"
     },
     {
       "id": "oem-light-bee-kke",
@@ -957,7 +957,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/oem-light-bee-kke.jpg"
+      "image": "img/parts/oem-light-bee-kke.webp"
     },
     {
       "id": "stormbee-fork-right-kke",
@@ -1045,7 +1045,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-rst-fork.jpg"
+      "image": "img/parts/voro-eride-ss-rst-fork.webp"
     }
   ]
 }

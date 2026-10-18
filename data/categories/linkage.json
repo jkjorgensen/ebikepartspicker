@@ -31,7 +31,7 @@
       "power_change_kw": null,
       "badge": "EBMX",
       "weight_delta_kg": null,
-      "image": "img/parts/linkage-ultrabeemx.jpg"
+      "image": "img/parts/linkage-ultrabeemx.webp"
     },
     {
       "id": "linkage-ultrabee-emx",
@@ -60,7 +60,7 @@
       "power_change_kw": null,
       "badge": "EMXDesigns",
       "weight_delta_kg": null,
-      "image": "img/parts/linkage-ultrabee-emx.jpg"
+      "image": "img/parts/linkage-ultrabee-emx.webp"
     },
     {
       "id": "linkage-talaria-mx34",
@@ -89,7 +89,7 @@
       "power_change_kw": null,
       "badge": "Rippin Moto",
       "weight_delta_kg": null,
-      "image": "img/parts/linkage-talaria-mx34.jpg"
+      "image": "img/parts/linkage-talaria-mx34.webp"
     },
     {
       "id": "voro-eride-ss-progression-triangle",
@@ -115,7 +115,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-progression-triangle.jpg"
+      "image": "img/parts/voro-eride-ss-progression-triangle.webp"
     }
   ],
   "compatibility": [

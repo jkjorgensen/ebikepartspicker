@@ -60,7 +60,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/cooling-ventus-aetos-heatsink.jpg"
+      "image": "img/parts/cooling-ventus-aetos-heatsink.webp"
     },
     {
       "id": "cooling-ventus-handlebar-fan",
@@ -89,7 +89,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/cooling-ventus-handlebar-fan.png"
+      "image": "img/parts/cooling-ventus-handlebar-fan.webp"
     }
   ],
   "compatibility": [

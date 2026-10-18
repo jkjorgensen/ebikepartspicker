@@ -63,7 +63,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/electrical-surron-oem-dashboard.jpg"
+      "image": "img/parts/electrical-surron-oem-dashboard.webp"
     },
     {
       "id": "electrical-surron-horn",
@@ -94,7 +94,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/electrical-surron-horn.jpg"
+      "image": "img/parts/electrical-surron-horn.webp"
     },
     {
       "id": "electrical-gigigo-headlight",
@@ -123,7 +123,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/electrical-gigigo-headlight.jpg"
+      "image": "img/parts/electrical-gigigo-headlight.webp"
     },
     {
       "id": "voro-eride-ss-lcd-display",
@@ -149,7 +149,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-lcd-display.jpg"
+      "image": "img/parts/voro-eride-ss-lcd-display.webp"
     },
     {
       "id": "voro-eride-ss-headlight-bar",
@@ -175,7 +175,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-headlight-bar.jpg"
+      "image": "img/parts/voro-eride-ss-headlight-bar.webp"
     }
   ],
   "compatibility": [

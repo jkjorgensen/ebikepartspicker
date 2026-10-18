@@ -49,7 +49,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/tire-surron-oem-70100-19.jpg",
+      "image": "img/parts/tire-surron-oem-70100-19.webp",
       "sizes": [
         "70/100-19"
       ],
@@ -101,7 +101,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/tire-eride-fatty-rear-1009018.jpg",
+      "image": "img/parts/tire-eride-fatty-rear-1009018.webp",
       "sizes": [
         "100/90-18"
       ],
@@ -157,7 +157,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/tube-rippin-70100-19.jpg",
+      "image": "img/parts/tube-rippin-70100-19.webp",
       "sizes": [
         "70/100-19"
       ],
@@ -208,7 +208,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/tire-talaria-cst-70100-19.png",
+      "image": "img/parts/tire-talaria-cst-70100-19.webp",
       "sizes": [
         "70/100-19"
       ],
@@ -241,7 +241,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/tires-plews-mx2-rear.jpg",
+      "image": "img/parts/tires-plews-mx2-rear.webp",
       "sizes": [
         "16"
       ],
@@ -1425,7 +1425,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-cst-80100-19.jpg"
+      "image": "img/parts/voro-eride-ss-cst-80100-19.webp"
     },
     {
       "id": "voro-altis-sigma-tire",
@@ -1451,7 +1451,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-altis-sigma-tire.jpg"
+      "image": "img/parts/voro-altis-sigma-tire.webp"
     }
   ],
   "compatibility": [

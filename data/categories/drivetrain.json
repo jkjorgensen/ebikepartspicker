@@ -51,7 +51,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/drivetrain-eride-chain-kit.jpg"
+      "image": "img/parts/drivetrain-eride-chain-kit.webp"
     },
     {
       "id": "drivetrain-eride-belt-pulley",
@@ -104,7 +104,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/drivetrain-eride-belt-pulley.jpg"
+      "image": "img/parts/drivetrain-eride-belt-pulley.webp"
     },
     {
       "id": "drivetrain-eride-belt",
@@ -213,7 +213,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/drivetrain-ventus-chain-kit.png"
+      "image": "img/parts/drivetrain-ventus-chain-kit.webp"
     },
     {
       "id": "voro-eride-ss-gold-chain",
@@ -239,7 +239,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-gold-chain.jpg"
+      "image": "img/parts/voro-eride-ss-gold-chain.webp"
     },
     {
       "id": "voro-eride-ss-sprockets",
@@ -265,7 +265,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-sprockets.jpg"
+      "image": "img/parts/voro-eride-ss-sprockets.webp"
     }
   ],
   "compatibility": [

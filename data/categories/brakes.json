@@ -32,7 +32,7 @@
       "notes": "",
       "variant": null,
       "weight_delta_kg": null,
-      "image": "img/parts/magura-mt5e.png"
+      "image": "img/parts/magura-mt5e.webp"
     },
     {
       "id": "magura-mt7",
@@ -112,7 +112,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/brakes-fxt-ultrabee-rear-kit.jpg"
+      "image": "img/parts/brakes-fxt-ultrabee-rear-kit.webp"
     },
     {
       "id": "brakes-eride-e7094-front",
@@ -159,7 +159,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/brakes-eride-e7094-front.jpg"
+      "image": "img/parts/brakes-eride-e7094-front.webp"
     },
     {
       "id": "brakes-factoryz-lightbee-foot",
@@ -206,7 +206,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/brakes-factoryz-lightbee-foot.jpg"
+      "image": "img/parts/brakes-factoryz-lightbee-foot.webp"
     },
     {
       "id": "komodo-rear-brake-pads",
@@ -319,7 +319,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/brakes-ventus-folding-levers.png"
+      "image": "img/parts/brakes-ventus-folding-levers.webp"
     },
     {
       "id": "brakes-warp9-folding-lever",
@@ -348,7 +348,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/brakes-warp9-folding-lever.png"
+      "image": "img/parts/brakes-warp9-folding-lever.webp"
     },
     {
       "id": "charged-brake-pads-emoto",
@@ -377,7 +377,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/charged-brake-pads-emoto.jpg"
+      "image": "img/parts/charged-brake-pads-emoto.webp"
     },
     {
       "id": "warp9-260mm-bracket-ultrabee",
@@ -406,7 +406,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/warp9-260mm-bracket-ultrabee.jpg"
+      "image": "img/parts/warp9-260mm-bracket-ultrabee.webp"
     },
     {
       "id": "lbn-ultrab-bee-brake-kit",
@@ -435,7 +435,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/lbn-ultrab-bee-brake-kit.png"
+      "image": "img/parts/lbn-ultrab-bee-brake-kit.webp"
     },
     {
       "id": "ultrabee-oem-front-brake",
@@ -490,7 +490,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss20-brake-pads.jpg"
+      "image": "img/parts/voro-eride-ss20-brake-pads.webp"
     },
     {
       "id": "voro-eride-ss30-brake-pads",
@@ -516,7 +516,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss30-brake-pads.jpg"
+      "image": "img/parts/voro-eride-ss30-brake-pads.webp"
     },
     {
       "id": "voro-altis-sigma-brake-pads",
@@ -542,7 +542,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-altis-sigma-brake-pads.jpg"
+      "image": "img/parts/voro-altis-sigma-brake-pads.webp"
     },
     {
       "id": "voro-xepror-ultrabee-brake-pads",
@@ -568,7 +568,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-xepror-ultrabee-brake-pads.jpg"
+      "image": "img/parts/voro-xepror-ultrabee-brake-pads.webp"
     }
   ],
   "compatibility": [
