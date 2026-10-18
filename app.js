@@ -1137,6 +1137,72 @@ initSizeChips('startSizeChips');
     host.appendChild(btn);
   });
 })();
+/* homepage: featured owner build. Shows CURRENT fit / price / stock for every
+   part and labels anything unconfirmed honestly (no publishing gate: it's a real bike). */
+(function(){
+  var host = $('featBuild'); if(!host || typeof BUILDS==='undefined' || !BUILDS.length) return;
+  var fb = BUILDS[0], b = bikeById(fb.bike); if(!b || !fb.pids) return;
+  var rows = [];
+  fb.pids.forEach(function(pid){
+    CATEGORIES.forEach(function(c){ c.options.forEach(function(o,i){ if(o.pid===pid && !rows.some(function(r){return r.o.pid===pid;})) rows.push({c:c,o:o,i:i}); }); });
+  });
+  if(!rows.length) return;
+  var card = document.createElement('div'); card.className='feat-card';
+  var fig = document.createElement('figure'); fig.className='feat-fig';
+  var im = document.createElement('img'); im.src=bikeImgSrc(b.id,1); im.alt=b.name+' electric dirt bike';
+  im.loading='lazy'; im.decoding='async'; im.width=800; im.height=500; fig.appendChild(im);
+  var cap = document.createElement('figcaption'); cap.textContent='Stock '+b.name+' photo'; fig.appendChild(cap);
+  card.appendChild(fig);
+  var body = document.createElement('div'); body.className='feat-body';
+  var k = document.createElement('div'); k.className='owner'; k.textContent='Featured build \u00b7 '+fb.owner; body.appendChild(k);
+  var h = document.createElement('h3'); h.textContent=fb.title; body.appendChild(h);
+  if(fb.blurb){ var p=document.createElement('p'); p.className='blurb'; p.textContent=fb.blurb; body.appendChild(p); }
+  var ul = document.createElement('ul'); ul.className='gparts';
+  var sub = 0, unver = 0, unconf = 0;
+  rows.forEach(function(r){
+    var fr = checkFit(b.id, r.o), bp = best(r.o);
+    if(fr.status!=='confirmed') unconf++;
+    var li = document.createElement('li');
+    var n = document.createElement('span'); n.className='gp-name';
+    var sm = document.createElement('small'); sm.textContent=r.c.name; n.appendChild(sm);
+    n.appendChild(document.createTextNode(r.o.name));
+    var chip = document.createElement('span'); chip.className='bsum-fit fit-'+fr.status;
+    chip.textContent=FIT_ICON[fr.status]+' '+FIT_LABEL[fr.status]; chip.title=fr.reasons[0];
+    var meta = document.createElement('div'); meta.className='feat-meta'; meta.appendChild(chip);
+    if(r.o.stock==='out_of_stock' || r.o.stock==='unknown' || !r.o.stock){
+      var st=document.createElement('em'); st.className='gp-oos';
+      st.textContent = r.o.stock==='out_of_stock' ? 'out of stock at last check' : 'stock unknown'; meta.appendChild(st);
+    }
+    n.appendChild(meta);
+    var pr = document.createElement('span'); pr.className='gp-price';
+    if(bp && bp.p!=null){
+      sub += bp.p; pr.textContent = money(bp.p);
+      if(!bp.chk){ unver++; var nv=document.createElement('small'); nv.className='feat-nv'; nv.textContent='price not verified'; pr.appendChild(nv); }
+      if(bp.url){ var bw=document.createElement('div'); bw.className='gp-buy'; var pa=document.createElement('a'); pa.className='rb';
+        pa.href=bp.url; pa.target='_blank'; pa.rel='noopener'+(bp.aff?' sponsored':''); pa.textContent='Buy at '+bp.v; bw.appendChild(pa); n.appendChild(bw); }
+    } else { pr.textContent='Price TBD'; unver++; }
+    li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
+  });
+  body.appendChild(ul);
+  var tot = document.createElement('div'); tot.className='gtotals';
+  [[b.name+(b.src==='msrp'?' (MSRP)':''), b.price!=null?money(b.price):'TBD'],['Parts', money(sub)],['Total', b.price!=null?money(b.price+sub):'TBD']].forEach(function(l,i){
+    var d=document.createElement('div'); d.className='gtl'+(i===2?' gtl-total':'');
+    var x1=document.createElement('span'); x1.textContent=l[0]; var x2=document.createElement('span'); x2.textContent=l[1];
+    d.appendChild(x1); d.appendChild(x2); tot.appendChild(d);
+  });
+  body.appendChild(tot);
+  var note = document.createElement('p'); note.className='gnote';
+  note.textContent = (unconf ? unconf+' of '+rows.length+' parts are not confirmed by a seller listing for the '+b.name+'. ' : '')+
+    (unver ? unver+' price'+(unver>1?'s':'')+' not verified. ' : '')+'Prices checked '+CHECKED+'; shipping, tax and install not included.';
+  body.appendChild(note);
+  var btn = document.createElement('button'); btn.type='button'; btn.className='copybtn'; btn.textContent='Customize this build';
+  btn.addEventListener('click', function(){
+    $('start').hidden = true; $('app').hidden = false;
+    copyBuild(b.id, rows.map(function(r){ return {cat:r.c.id, opt:r.i}; })); window.scrollTo(0,0);
+  });
+  body.appendChild(btn);
+  card.appendChild(body); host.appendChild(card); host.hidden = false;
+})();
 initSizeChips('builderSizeChips');
 syncBikeInputs();
 /* start-page live stats: real catalog counts, or hide the row — never dashes */

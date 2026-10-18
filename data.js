@@ -145,7 +145,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
-     badge:'VTB 41kW', motorKw:48, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-41kw-ultra-bee.webp'
+     badge:'VTB 41kW', motorKw:48, motorPeakKw:48, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-41kw-ultra-bee.webp'
     },
     {name:'VTB 28kW Light E-moto Motor', pid:'vtb-28kw-light', tier:'budget',
      prices:[
@@ -277,7 +277,7 @@ var CATEGORIES = [
      fits:["lightbee","ultrabee","ss20","ss30","sr","mx4","mx5"], likely:["ss40","storm-bee","komodo","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd"], no:[],
      ctrlMaxKw:76, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-aetos-pro.webp'
     },
-    {name:'VTB Aetos Gen.2 Bike-Specific Harness Kit', pid:'vtb-aetos-gen2-harness', tier:'accessory',
+    {name:'VTB Aetos Gen.2 Bike-Specific Harness Kit', pid:'vtb-aetos-gen2-harness', hidden:1, /* moved to Electrical as vtb-aetos-gen2-harness-kit */ tier:'accessory',
      prices:[
       {v:'TB Electric Moto', p:60, url:'https://tbelectricmoto.com/products/ventus-aetos-harness-kits', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
@@ -344,6 +344,14 @@ var CATEGORIES = [
      ],
      fits:["altis-sigma"], likely:[], no:[],
      ctrlMaxKw:25, badge:'OEM', stock:'out_of_stock', stockChk:'2026-10-18'
+    },
+    {name:'EBMX X-9000 V3 Controller Kit with Talaria MX3/MX4/MX5 Harness', pid:'ebmx-x9000-v3-kit-talaria', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:1199, url:'https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=50927732457688', chk:'2026-10-18'},
+      {v:'REV Rides', p:1199, url:'https://revrides.com/products/ebmx-x-9000-v3-controller-full-kit-sur-ron-talaria-e-ride-pro-altis-sigma?variant=50076992831778', chk:'2026-10-18'},
+     ],
+     fits:["mx4","mx5"], likely:[], no:[],
+     badge:'X-9000 V3', ctrlMaxKw:60, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ebmx-x-9000-v3.jpg'
     },
   ]},
   {id:'fork', name:'Fork', blurb:'Front suspension — dictates how the bike handles braking bumps, rocks, and landings.', tips:['Axle size and triple-clamp fitment must match your bike','Spring rate should suit your weight — ask the vendor','More travel isn\'t always better if the geometry suffers'], options:[
@@ -566,7 +574,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:806, url:'https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","ss40","sr","ventus-plus","ventus-evo"], likely:["storm-bee","komodo","bonnell-805rx"], no:[],
+     fits:["lightbee","mx4","mx5","ss20"], likely:["storm-bee","komodo","bonnell-805rx","ultrabee","ss30","ss40","sr","ventus-plus","ventus-evo"], no:[],
      badge:'Warp 9', variant:'warp9', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/warp9-1619.webp'
     },
     {name:'17" Supermoto Wheelset', pid:'supermoto-17', tier:'mid',
@@ -955,7 +963,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4","mx5","lightbee"], likely:[], no:[],
-     badge:'eWatt 63Ah', battPeakKw:28, battKwh:4.54, dw:16.67, stock:'in_stock', wtKg:20.41, img:'img/parts/ewatt-72v-63ah-t.webp'
+     badge:'eWatt 63Ah', battPeakKw:28, battKwh:4.54, dw:16.67, battMaxKw:28, stock:'in_stock', wtKg:20.41, img:'img/parts/ewatt-72v-63ah-t.webp'
     },
     {name:'Ventus EVO GT 72V 50Ah Battery', pid:'ventus-evo-gt-72v', tier:'premium',
      prices:[
@@ -1097,6 +1105,13 @@ var CATEGORIES = [
      ],
      fits:["mx4"], likely:["komodo","mx5","arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
      stock:'out_of_stock', stockChk:'2026-10-18'
+    },
+    {name:'Charged Cycle Works 72V 15A Fast Charger (for eWatt / CCW 72V batteries)', pid:'ccw-fast-charger-72v-15a', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:160, url:'https://chargedcycleworks.com/products/fast-chargers-for-charged-cycle-works-batteries-up-to-150-faster-charging?variant=52372529709272', chk:'2026-10-18'},
+     ],
+     fits:["mx4"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-10-18'
     },
   ]},
   {id:'cockpit', name:'Cockpit', blurb:'Grips, throttles, and displays — the details you touch every ride.', tips:['Throttle type must match your controller','Lock-on grips stay put; slip-ons are cheaper'], options:[
@@ -1265,6 +1280,13 @@ var CATEGORIES = [
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/voro-eride-ss-headlight-bar.webp'
     },
+    {name:'VTB Aetos Gen.2 Bike-Specific Harness Kit (for Aetos Pro / Max / Ultra)', pid:'vtb-aetos-gen2-harness-kit', tier:'accessory',
+     prices:[
+      {v:'TB Electric Moto', p:60, url:'https://tbelectricmoto.com/products/ventus-aetos-harness-kits', chk:'2026-10-18'},
+     ],
+     fits:["lightbee","ultrabee","mx4","mx5"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-aetos-gen2-harness.webp'
+    },
   ]},
   {id:'guards', name:'Guards', blurb:'Cheap insurance — frame, rotor, and case protection that pays for itself the first crash.', tips:['Bike-specific fitment','Rotor guards need caliper clearance'], options:[
     {name:'Stock guards', prices:[]},
@@ -1426,6 +1448,13 @@ var CATEGORIES = [
      ],
      fits:[], likely:["lightbee"], no:[],
      badge:'Foot Pegs', stock:'verify'
+    },
+    {name:'Warp 9 Foot Pegs (Light Bee / Ventus One / E Ride Pro)', pid:'warp9-pegs-lbx-ventus', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway', chk:'2026-10-18'},
+     ],
+     fits:["lightbee"], likely:["ventus-plus","ventus-evo","ss20","ss30","sr"], no:[],
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-10-18'
     },
   ]},
   {id:'seats', name:'Seats', blurb:'Where you spend the whole ride — comfort and control.', tips:['Tall seats help taller riders; standard keeps footing easy','Gripper covers for aggressive riding, smooth for moving around'], options:[
@@ -2105,4 +2134,21 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'ext-ferro|sr':{s:'confirmed_fit_with_adapter',n:'TB Electric Moto: requires a front hub boost spacer for the brake rotor',u:['https://tbelectricmoto.com/products/ext-ferro']},
   'ext-ferro|ventus-plus':{s:'confirmed_fit_with_adapter',n:'TB Electric Moto: requires a front hub boost spacer for the brake rotor',u:['https://tbelectricmoto.com/products/ext-ferro']},
   'ext-ferro|ventus-evo':{s:'confirmed_fit_with_adapter',n:'TB Electric Moto: requires a front hub boost spacer for the brake rotor',u:['https://tbelectricmoto.com/products/ext-ferro']},
+  /* Oct 18, 2026: power-upgrade combos (seller evidence) */
+  'vtb-41kw-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW: direct drop-in for the Ultra Bee; pairs with the VTB V9600 controller (M12 connector for V9600); 48-100V',u:['https://chargedcycleworks.com/products/ventus-41-kw-ultra-bee-motor']},
+  'vtb-aetos-pro|ultrabee':{s:'confirmed_direct_fit',n:'Ventus: V9600 Gen.2 compatible with the Ultra Bee; 72V/81V rated, 12s-22s batteries; bike-specific harness sold separately',u:['https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike']},
+  'vtb-aetos-gen2-harness-kit|ultrabee':{s:'confirmed_direct_fit',n:'TB Electric Moto: Ultra Bee version of the Gen.2 harness for Aetos Pro/Max/Ultra',u:['https://tbelectricmoto.com/products/ventus-aetos-harness-kits?variant=52509563289899']},
+  'vtb-aetos-gen2-harness-kit|lightbee':{s:'confirmed_direct_fit',n:'TB Electric Moto: Light Bee version of the Gen.2 harness for Aetos Pro/Max/Ultra',u:['https://tbelectricmoto.com/products/ventus-aetos-harness-kits?variant=52509557489963']},
+  'vtb-aetos-gen2-harness-kit|mx4':{s:'confirmed_direct_fit',n:'TB Electric Moto: Talaria Sting MX3/4/5 version of the Gen.2 harness',u:['https://tbelectricmoto.com/products/ventus-aetos-harness-kits?variant=52509563322667']},
+  'vtb-aetos-gen2-harness-kit|mx5':{s:'confirmed_direct_fit',n:'TB Electric Moto: Talaria Sting MX3/4/5 version of the Gen.2 harness',u:['https://tbelectricmoto.com/products/ventus-aetos-harness-kits?variant=52509563322667']},
+  'dhs-72v-65ah-ub|ultrabee':{s:'confirmed_direct_fit',n:'CCW: OEM-size drop-in for the Ultra Bee; plug works with OEM or upgraded controllers; 72V (84V full), 61kW peak / 43.2kW continuous',u:['https://chargedcycleworks.com/products/72v-65ah-battery-for-surron-ultra-bee']},
+  'ebmx-xta-60|mx4':{s:'confirmed_direct_fit',n:'EBMX/CCW: includes hardware for Talaria MX3 and MX4; pairs with the EBMX X-9000',u:['https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit']},
+  'ebmx-x9000-v3-kit-talaria|mx4':{s:'confirmed_direct_fit',n:'CCW: X-9000 V3 kit, Talaria MX3/MX4/MX5 harness variant',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=50927732457688']},
+  'ebmx-x9000-v3-kit-talaria|mx5':{s:'confirmed_direct_fit',n:'CCW: X-9000 V3 kit, Talaria MX3/MX4/MX5 harness variant',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=50927732457688']},
+  'ewatt-72v-63ah-t|mx4':{s:'confirmed_direct_fit',n:'CCW: for the Talaria Sting MX3/MX4/MX5; pair with an X-9000 and the XTA-60; needs an aftermarket controller and a 72V charger; taller lid included',u:['https://chargedcycleworks.com/products/ewatt-72v-63ah-race-battery-for-talaria-sting']},
+  'ccw-fast-charger-72v-15a|mx4':{s:'confirmed_direct_fit',n:'Only with a 72V eWatt/CCW battery: CCW says it will not work with OEM batteries',u:['https://chargedcycleworks.com/products/fast-chargers-for-charged-cycle-works-batteries-up-to-150-faster-charging?variant=52372529709272']},
+  'warp9-1619|lightbee':{s:'confirmed_fit_with_adapter',n:'CCW: Light Bee X needs front and rear 220mm brake rotor adaptors',u:['https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9']},
+  'warp9-1619|ss20':{s:'confirmed_direct_fit',n:'CCW: designed to fit the E Ride Pro SS and Pro S',u:['https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9']},
+  'warp9-1619|mx4':{s:'confirmed_fit_with_modifications',n:'CCW: Talaria needs an adapter, which voids the Warp 9 wheel warranty; Talaria-specific wheels are sold separately',u:['https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9']},
+  'warp9-1619|mx5':{s:'confirmed_fit_with_modifications',n:'CCW: Talaria needs an adapter, which voids the Warp 9 wheel warranty; Talaria-specific wheels are sold separately',u:['https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9']},
 });

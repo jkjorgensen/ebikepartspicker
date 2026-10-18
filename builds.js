@@ -6,16 +6,9 @@ var BUILDS = [
   {
     owner: 'Josh',
     bike: 'ventus-plus',
-    img: 'img/bikes/ventus-plus-800.webp',
-    title: 'Ventus One Plus — full build',
-    parts: [
-      {cat:'wheels', opt:1},
-      {cat:'fork', opt:1},
-      {cat:'shock', opt:5},
-      {cat:'controller', opt:2},
-      {cat:'plastics', opt:3}
-    ],
-    extras: [{name:'Warp 9 foot pegs', price:109}]
+    title: 'Josh\u2019s Ventus One Plus build',
+    blurb: 'Full EXT suspension, Warp 9 wheels and pegs, VTB controller.',
+    pids: ['warp9-1619','ext-ferro','ext-arma-mx','vtb-aetos','ventus-graphics','warp9-pegs-lbx-ventus']
   }
 ];
 
