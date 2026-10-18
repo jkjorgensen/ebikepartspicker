@@ -1020,7 +1020,7 @@ function renderUpcoming(){
 
 /* ---------- submit-your-part modal ---------- */
 var SUBMIT_EMAIL = 'ebikepartspicker@gmail.com'; /* inbox for vendor part submissions */
-var IMGV = '4.3.0'; /* bump when bike images change so browsers refetch */
+var IMGV = '4.4.0'; /* bump when bike images change so browsers refetch */
 /* real manufacturer/dealer photos, background removed, standardized 1600x1000 (16:10); small=800x500 */
 function bikeImgSrc(id, small){ return 'img/bikes/'+id+(small?'-800':'')+'.webp?v='+IMGV; }
 window.bikeImgSrc = bikeImgSrc; /* used by quiz.js / compare.js */

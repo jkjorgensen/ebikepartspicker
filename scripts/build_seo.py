@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.pages.dev'; V='4.8.1'; IMGV='4.3.0'; TODAY='2026-10-18'
+BASE='https://ebikepartspicker.pages.dev'; V='4.8.1'; IMGV='4.4.0'; TODAY='2026-10-18'
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else ''
 CAT={c['id']:c for c in D['cats']}; BK={b['id']:b for b in D['bikes']}
