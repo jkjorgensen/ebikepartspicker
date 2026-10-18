@@ -607,7 +607,7 @@ var CATEGORIES = [
       {v:'Electrix Moto', p:599, url:'https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["sr","mx5"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss40","mx4","komodo","bonnell-805rx","arctic-xd","ss30"], no:[],
+     fits:["sr"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss40","mx4","komodo","bonnell-805rx","arctic-xd","ss30","mx5"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/wheels-ion-eride30-sr-1619.webp'
     },
     {name:'Storm Bee Supermoto Wheel Kit', pid:'stormbee-supermoto-wheels', hidden:1, /* retired: only seller was a copycat store */ tier:'midrange',
@@ -1853,7 +1853,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:63, url:'https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["mx5"], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v","mx5"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-dunlop-mx53-ccw.webp'
     },
     {name:'Shinko SR241 Trials Tire', pid:'tire-shinko-sr241-ccw', tier:'budget',
@@ -1861,7 +1861,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:54.95, url:'https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","mx5"], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
+     fits:["lightbee","mx4"], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v","mx5"], no:[],
      badge:'Shinko', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-shinko-sr241-ccw.webp'
     },
     {name:'IRC IX-09 Gekkota Gummy Tire', pid:'tire-irc-ix09-gekkota-ccw', tier:'mid',
@@ -2215,7 +2215,7 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'rfloxa-hawk31-pro|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-pro']},
   'rfloxa-hawk31-pro|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-pro']},
   'rfloxa-hawk31-pro|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-pro']},
-  'rfloxa-hawk31-pro|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload']},
+  'rfloxa-hawk31-pro|ventus-plus':{s:'confirmed_fit_with_adapter',n:'Seller listing: Ventus One Plus needs an 8mm spacer for install',u:['https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload']},
   'fastace-ahx12rv|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0']},
   'fastace-ahx12rv|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0']},
   'fastace-ahx12rv|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0']},
@@ -2240,7 +2240,7 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'wheels-kke-lightbee-16-19|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective']},
   'wheels-ion-lightbee-eride20|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset']},
   'wheels-ion-lightbee-eride20|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset']},
-  'wheels-ion-eride30-sr-1619|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset']},
+  'wheels-ion-eride30-sr-1619|mx5':{s:'verify',n:'Correction Oct 18, 2026: the listing mentions a Dunlop MX53 tire, not the Talaria MX5; no source names the MX5',u:[]},
   'wheels-ion-eride30-sr-1619|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset']},
   'komodo-supermoto-wheelset|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/frws007/']},
   'charged-21-front-wheel-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/21-wheel-upgrade-for-surron-ultra-bee']},
@@ -2366,10 +2366,10 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'tire-irc-ve33-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 21kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
   'tire-michelin-starcross5-ccw|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
   'tire-tusk-groundwire-ccw|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
-  'tire-dunlop-mx53-ccw|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|mx5':{s:'verify',n:'Correction Oct 18, 2026: the listing mentions a Dunlop MX53 tire, not the Talaria MX5; no source names the MX5',u:[]},
   'tire-shinko-sr241-ccw|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
   'tire-shinko-sr241-ccw|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
-  'tire-shinko-sr241-ccw|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|mx5':{s:'verify',n:'Correction Oct 18, 2026: the listing mentions a Dunlop MX53 tire, not the Talaria MX5; no source names the MX5',u:[]},
   'ti-full-kit-erp|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp']},
   'ti-full-kit-erp|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp']},
   'ti-full-kit-talaria-mx|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/collections/titanium-bolt-kits']},
@@ -2384,4 +2384,35 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'ti-motor-bolts-erp|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro']},
   'ti-motor-bolts-erp|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro']},
   'ti-linkage-kit-erp|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/rear-suspension-linkage-bolt-kit-for-e-ride-pro-erp']},
+});
+/* targeted fitment re-check Oct 18, 2026 (key categories for SS 2.0/3.0, SR, MX5, Ventus One Plus, Komodo) */
+Object.assign(FITMENT,{
+  'kke-35mm-55|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (re-check Oct 18, 2026)',u:['https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r']},
+  'kke-35mm-55|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (re-check Oct 18, 2026)',u:['https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r']},
+  'kke-35mm-55|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (re-check Oct 18, 2026)',u:['https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r']},
+  'kke-performance|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (re-check Oct 18, 2026)',u:['https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock']},
+  'kke-performance|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (re-check Oct 18, 2026)',u:['https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock']},
+  'kke-performance|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (re-check Oct 18, 2026)',u:['https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock']},
+  'kke-performance|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (re-check Oct 18, 2026)',u:['https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock']},
+  'tech-er30-283|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (re-check Oct 18, 2026)',u:['https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee']},
+  'tech-er30-283|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (re-check Oct 18, 2026)',u:['https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee']},
+  'tech-er30-283|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (re-check Oct 18, 2026)',u:['https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee']},
+  'tech-er30-283|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (re-check Oct 18, 2026)',u:['https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee']},
+  'ext-arma-mx|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (re-check Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron']},
+  'wheels-ion-eride30-sr-1619|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (re-check Oct 18, 2026)',u:['https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset']},
+  'brakes-fxt-ultrabee-rear-kit|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (re-check Oct 18, 2026)',u:['https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro']},
+  'brakes-ventus-folding-levers|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (re-check Oct 18, 2026)',u:['https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective']},
+  'brakes-warp9-folding-lever|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (re-check Oct 18, 2026)',u:['https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro']},
+  'charged-brake-pads-emoto|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (re-check Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
+  'charged-brake-pads-emoto|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (re-check Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
+  'prickly-50mm-318|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (re-check Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars']},
+  'prickly-50mm-35|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (re-check Oct 18, 2026)',u:['https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars']},
+  'rippin-moto-rise3|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (re-check Oct 18, 2026)',u:['https://tbelectricmoto.com/products/rise3-e-moto-handlebars']},
+  'rfloxa-hawk32|ventus-plus':{s:'confirmed_fit_with_adapter',n:'Seller listing: Ventus One Plus needs an 8mm spacer for install',u:['https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross']},
+  'brakes-fxt-ultrabee-rear-kit|ss30':{s:'confirmed_fit_with_modifications',n:'Seller listing: E-Ride Pro 3.0 needs a new rotor (stock rotor not compatible) and a bracket modification',u:['https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro']},
+  'brakes-ventus-folding-levers|ss30':{s:'verify',n:'Seller lists the 2025 E Ride Pro SS 3.0 with type 2 brakes; check your model year and brake type',u:['https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective']},
+  'brakes-ventus-folding-levers|sr':{s:'verify',n:'Seller lists the 2025 E Ride Pro SR with type 2 brakes; check your model year and brake type',u:['https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective']},
+  'brakes-warp9-folding-lever|ss30':{s:'verify',n:'Seller lists the 2025 E Ride Pro SS 3.0 with type 2 brakes; check your model year and brake type',u:['https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro']},
+  'brakes-warp9-folding-lever|sr':{s:'verify',n:'Seller lists the 2025 E Ride Pro SR with type 2 brakes; check your model year and brake type',u:['https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro']},
+  'lbn-ultrab-bee-brake-kit|mx5':{s:'not_compatible',n:'Seller listing: not compatible with MX5',u:['https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto']}
 });
