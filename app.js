@@ -769,14 +769,94 @@ function renderBuilds(){
   s2.className = 'gstep';
   s2.innerHTML = '<span class="gnum">2</span> Pick one of the 3 options for the '+bikeById(state.guideBike).name;
   g.appendChild(s2);
-  var n = 0;
+  var grid = document.createElement('div'); grid.className='ggrid'; g.appendChild(grid);
   GUIDES.forEach(function(gd){
     if(gd.bike!==state.guideBike) return;
-    n++;
-    var b = bikeById(gd.bike);
-    partCard({host:g, kicker:'Option '+n+' · '+b.name, title:gd.name, blurb:gd.blurb,
-      img:bikeImgSrc(gd.bike,1), parts:gd.parts, bikeId:gd.bike});
+    var r = resolveGuide(gd);
+    if(r.issues.length){ if(window.console) console.info('Guide hidden ('+gd.bike+'/'+gd.tier+'):', r.issues.join('; ')); return; }
+    guideCard(grid, gd, r);
   });
+  if(!grid.children.length){
+    var em=document.createElement('p'); em.className='blurb';
+    em.textContent='No guide for this bike passes our fit and price checks yet.'; g.appendChild(em);
+  }
+}
+
+/* ---------- build guides: resolve + publish gate ----------
+   A guide is shown only when every part is a CONFIRMED fit for the bike,
+   has a price that was checked on the retailer page, and the bike has a price. */
+function resolveGuide(gd){
+  var b = bikeById(gd.bike), issues = [], rows = [], cats = {};
+  if(!b) return {issues:['unknown bike'], rows:[]};
+  if(b.price==null) issues.push('bike price unknown');
+  (gd.pids||[]).forEach(function(pid){
+    var hit = null;
+    CATEGORIES.forEach(function(c){ c.options.forEach(function(o,i){ if(!hit && o.pid===pid) hit={c:c,o:o,i:i}; }); });
+    if(!hit){ issues.push(pid+': not in catalog'); return; }
+    if(cats[hit.c.id]){ issues.push(pid+': two parts in '+hit.c.id); return; }
+    cats[hit.c.id] = 1;
+    var fr = checkFit(b.id, hit.o), bp = best(hit.o);
+    if(fr.status!=='confirmed') issues.push(pid+': fit '+fr.status);
+    if(!bp || bp.p==null) issues.push(pid+': no price');
+    else if(!bp.chk) issues.push(pid+': price not re-checked');
+    rows.push({cat:hit.c, opt:hit.o, idx:hit.i, fit:fr, bp:bp});
+  });
+  return {issues:issues, rows:rows, bike:b};
+}
+window.resolveGuide = resolveGuide;
+var TIER_LABEL = {budget:'Budget', smart:'Smart money', dream:'Dream'};
+function guideCard(host, gd, r){
+  var b = r.bike, sub = 0;
+  r.rows.forEach(function(x){ sub += x.bp.p; });
+  var card = document.createElement('div'); card.className='card gcard gtier-'+gd.tier;
+  var img = document.createElement('img'); img.src=bikeImgSrc(b.id,1); img.alt=b.name+' electric dirt bike';
+  img.loading='lazy'; img.decoding='async'; img.width=800; img.height=500; card.appendChild(img);
+  var body = document.createElement('div'); body.className='body';
+  var k = document.createElement('div'); k.className='owner'; k.textContent=TIER_LABEL[gd.tier]+' \u00b7 '+money(sub)+' in parts';
+  body.appendChild(k);
+  var h = document.createElement('h3'); h.textContent=gd.name; body.appendChild(h);
+  var bl = document.createElement('p'); bl.className='blurb'; bl.textContent=gd.blurb; body.appendChild(bl);
+  var conf = document.createElement('div'); conf.className='gconf';
+  conf.textContent='\u2713 All '+r.rows.length+' parts: Confirmed fit for the '+b.name;
+  conf.title='Each part\u2019s seller listing names this bike. Tap "Why?" in the builder for sources.';
+  body.appendChild(conf);
+  var ul = document.createElement('ul'); ul.className='gparts';
+  r.rows.forEach(function(x){
+    var li = document.createElement('li');
+    var n = document.createElement('span'); n.className='gp-name';
+    var sm = document.createElement('small'); sm.textContent=x.cat.name; n.appendChild(sm);
+    n.appendChild(document.createTextNode(x.opt.name));
+    if(x.opt.stock==='out_of_stock'){ var so=document.createElement('em'); so.className='gp-oos'; so.textContent=' \u00b7 out of stock at last check'; n.appendChild(so); }
+    var pr = document.createElement('span'); pr.className='gp-price'; pr.textContent=money(x.bp.p);
+    if(x.bp.url){ var pa=document.createElement('a'); pa.className='rb'; pa.href=x.bp.url; pa.target='_blank';
+      pa.rel='noopener'+(x.bp.aff?' sponsored':''); pa.textContent='Buy at '+x.bp.v; var bw=document.createElement('div'); bw.className='gp-buy'; bw.appendChild(pa); n.appendChild(bw); }
+    li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
+  });
+  body.appendChild(ul);
+  var tot = document.createElement('div'); tot.className='gtotals';
+  [[b.name+(b.src==='msrp'?' (MSRP)':''), money(b.price)],['Parts', money(sub)],['Total', money(b.price+sub)]].forEach(function(l,i){
+    var d=document.createElement('div'); d.className='gtl'+(i===2?' gtl-total':'');
+    var x1=document.createElement('span'); x1.textContent=l[0]; var x2=document.createElement('span'); x2.textContent=l[1];
+    d.appendChild(x1); d.appendChild(x2); tot.appendChild(d);
+  });
+  body.appendChild(tot);
+  var pc = document.createElement('div'); pc.className='gpc';
+  [['Pros',gd.pros,'gpros'],['Cons',gd.cons,'gcons']].forEach(function(z){
+    if(!z[1] || !z[1].length) return;
+    var col=document.createElement('div'); col.className=z[2];
+    var hh=document.createElement('strong'); hh.textContent=z[0]; col.appendChild(hh);
+    var l=document.createElement('ul'); z[1].forEach(function(t){ var li=document.createElement('li'); li.textContent=t; l.appendChild(li); });
+    col.appendChild(l); pc.appendChild(col);
+  });
+  body.appendChild(pc);
+  var note = document.createElement('p'); note.className='gnote';
+  note.textContent='Prices checked '+CHECKED+' on the retailer pages; shipping, tax and install not included.';
+  body.appendChild(note);
+  var btn = document.createElement('button'); btn.className='copybtn'; btn.textContent='Customize this build';
+  btn.addEventListener('click', function(){ copyBuild(b.id, r.rows.map(function(x){ return {cat:x.cat.id, opt:x.idx}; })); });
+  body.appendChild(btn);
+  var gbb = buyBikeEl(b.id, b.name, true); if(gbb) body.appendChild(gbb);
+  card.appendChild(body); host.appendChild(card);
 }
 
 /* ---------- tabs / start ---------- */

@@ -103,14 +103,6 @@ var QUESTIONS = [
       {v:'balanced', t:'Balanced', d:'Strong pull without being scary'},
       {v:'aggressive', t:'Aggressive', d:'Maximum hit, I can handle it'}
     ]},
-  { id:'handling', title:'Pick your handling style.',
-    sub:'Light bikes turn and flick; big bikes stay planted at speed.',
-    type:'single', def:'balanced',
-    opts:[
-      {v:'nimble', t:'Light & nimble', d:'Easy to throw around'},
-      {v:'balanced', t:'Balanced', d:'A bit of both'},
-      {v:'planted', t:'Big & planted', d:'Stable, full-size feel'}
-    ]},
   { id:'priorities', title:'Thinking about upgrades down the road?',
     sub:'Optional — helps us suggest parts after your recommendations. Pick any.',
     type:'multi', optional:true, def:[],
@@ -305,7 +297,14 @@ function pickRecommendations(scored, a){
            (!best || r.bike.id!==best.bike.id) && r.pct >= (best?best.pct:0)-8;
   });
   if(overPool.length) stretch = overPool[0];
-  return { best:best, value:value?value.rec:null, perf:perf, stretch:stretch };
+  /* always three DIFFERENT bikes: drop duplicates, backfill with the next-highest match */
+  var used = [], out = { stretch:stretch };
+  [['best',best],['value',value?value.rec:null],['perf',perf]].forEach(function(kv){
+    var r = kv[1];
+    if(!r || used.indexOf(r.bike.id)!==-1) r = scored.find(function(x){ return used.indexOf(x.bike.id)===-1 && (!stretch || x.bike.id!==stretch.bike.id); }) || null;
+    if(r){ used.push(r.bike.id); out[kv[0]] = r; out[kv[0]+'Backfill'] = r!==kv[1]; }
+  });
+  return out;
 }
 
 /* ---------- upgrade suggestions (compatible, never pre-selected) ---------- */
@@ -501,12 +500,13 @@ function compromises(rec, a){
   if(bike.price!=null && max!==Infinity && bike.price>max)
     out.push(money(bike.price-max)+' over your '+BUDGET_LABEL[a.budget]+' budget');
   if(bike.price==null) out.push('Price not in the catalog yet');
-  if(bike.weight==null) out.push('Weight unverified');
-  if(bike.kw==null) out.push('Power output unverified');
+  if(bike.weight==null) out.push('Weight unverified — size scored neutral (50%)');
+  if(bike.kw==null) out.push('Power output unverified — power scored neutral (50%)');
   if(d.experience.flags.indexOf('power-warning')!==-1) out.push('More power than ideal for your experience — respect the learning curve');
   if(d.size.s < 0.45 && bike.weight!=null) out.push('Size is off your ideal — sit on one before buying');
   if(d.range && d.range.s < 0.6 && QUIZ_RANGE[bike.id]!=null)
     out.push('Est. ~'+QUIZ_RANGE[bike.id]+' mi range is short for your typical rides');
+  if(QUIZ_RANGE[bike.id]==null) out.push('No range estimate yet — range scored neutral (50%)');
   if(bike.sparse) out.push('New to the catalog — parts fitment still being researched');
   return out;
 }
@@ -523,7 +523,7 @@ function recCard(picks, kind, a){
   if(!rec) return null;
   var bike = rec.bike;
   var card = el('div','qrec');
-  var kicker = kind==='best' ? 'Best overall match' : kind==='value' ? 'Best value' : 'Best performance';
+  var kicker = kind==='best' ? 'Best overall match' : picks[kind+'Backfill'] ? 'Next best match' : kind==='value' ? 'Best value' : 'Best performance';
   card.appendChild(el('div','qkicker', kicker));
   var top = el('div','qrec-top');
   var img = document.createElement('img');
@@ -597,6 +597,22 @@ function renderResults(wrap){
   wrap.appendChild(el('div','qstep','Your matches'));
   wrap.appendChild(el('h2','qtitle','Three bikes worth a look.'));
   wrap.appendChild(el('p','qsub','Match % is a weighted score of budget fit, size & control, power match, experience safety, riding style and estimated range — the bars under each bike show exactly how it earned its number. Nothing here is sponsored; rankings never follow commissions.'));
+
+  var how = document.createElement('details'); how.className='qhow';
+  how.appendChild(el('summary','','How we score'));
+  var hl = el('ul','');
+  var FDESC = { budget:'1.0 inside your budget, 0.55 up to 15% over, 0 beyond that; price TBD scores 0.4.',
+    size:'How close the bike\u2019s weight is to an ideal for the rider\u2019s height/weight (and age).',
+    power:'Rated kW against your power preference; mellow riders lose points for too much, aggressive riders for too little.',
+    experience:'Penalizes high power for newer riders, kids and teens.',
+    style:'How well weight and power suit the riding you picked.',
+    range:'Estimated range against your typical ride length.' };
+  Object.keys(FACTORS).forEach(function(k){
+    var wt = (qstate.weights||WEIGHTS)[k]||0;
+    hl.appendChild(el('li','', FACTOR_LABEL[k]+' \u2014 '+Math.round(wt*100)+'%: '+FDESC[k]));
+  });
+  hl.appendChild(el('li','','Unknown specs (weight, power, range) score a neutral 50% and are flagged on the card, never filled in.'));
+  how.appendChild(hl); wrap.appendChild(how);
 
   var grid = el('div','qgrid');
   ['best','value','perf'].forEach(function(k){
