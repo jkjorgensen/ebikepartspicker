@@ -760,10 +760,18 @@ function renderUpcoming(){
   UPCOMING.forEach(function(u){
     if(u.status==='shipping') return; /* released bikes don't belong in Upcoming */
     var card = document.createElement('div'); card.className='card';
-    var img = document.createElement('img');
-    img.src = u.bikeId ? 'img/bike-'+u.bikeId+'.png?v='+IMGV : 'img/bike-lightbee.png?v='+IMGV;
-    img.alt = u.name + ' e-moto'; img.loading='lazy';
-    card.appendChild(img);
+    /* never show a different bike's photo: no catalog photo = neutral placeholder */
+    if(u.bikeId || u.img){
+      var img = document.createElement('img');
+      img.src = u.img || bikeImgSrc(u.bikeId);
+      img.alt = u.name + ' electric dirt bike'; img.loading='lazy'; img.decoding='async';
+      img.width = 800; img.height = 500;
+      card.appendChild(img);
+    } else {
+      var ph = document.createElement('div'); ph.className='imgph';
+      ph.textContent = 'Official photo not released yet';
+      card.appendChild(ph);
+    }
     var body = document.createElement('div'); body.className='body';
     var top = document.createElement('div'); top.className='urow';
     var h = document.createElement('h3'); h.textContent = u.name; top.appendChild(h);
@@ -791,6 +799,7 @@ function renderUpcoming(){
 /* ---------- submit-your-part modal ---------- */
 var SUBMIT_EMAIL = 'ebikepartspicker@gmail.com'; /* inbox for vendor part submissions */
 var IMGV = '3.10.7'; /* bump when bike images change so browsers refetch */
+function bikeImgSrc(id){ return 'img/bike-'+id+'.png?v='+IMGV; }
 (function(){
   var overlay = $('suggestOverlay');
   if(!overlay) return;
