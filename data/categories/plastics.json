@@ -32,7 +32,7 @@
       "notes": "Made to order — pick bike + colors",
       "variant": "custom",
       "weight_delta_kg": null,
-      "image": "img/parts/guts-seat-cover.png"
+      "image": "img/parts/guts-seat-cover.webp"
     },
     {
       "id": "luna-float-seat",
@@ -92,7 +92,7 @@
       "notes": "OEM decal kit",
       "variant": "custom",
       "weight_delta_kg": null,
-      "image": "img/parts/ventus-graphics.png"
+      "image": "img/parts/ventus-graphics.webp"
     },
     {
       "id": "plastics-talaria-mx4-oem-graphics",
@@ -152,7 +152,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/plastics-ultrabee-graphics.jpg"
+      "image": "img/parts/plastics-ultrabee-graphics.webp"
     },
     {
       "id": "plastics-lightbee-numberplate",
@@ -182,7 +182,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/plastics-lightbee-numberplate.jpg"
+      "image": "img/parts/plastics-lightbee-numberplate.webp"
     },
     {
       "id": "ecd-wrap-ultrabee-solid",
@@ -478,7 +478,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-ultrabee-side-fairings.jpg"
+      "image": "img/parts/voro-ultrabee-side-fairings.webp"
     },
     {
       "id": "voro-ultrabee-decal-set",
@@ -504,7 +504,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-ultrabee-decal-set.jpg"
+      "image": "img/parts/voro-ultrabee-decal-set.webp"
     }
   ],
   "compatibility": [

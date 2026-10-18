@@ -449,7 +449,7 @@
       ],
       "weight_kg": 24.04,
       "weight_delta_kg": 3.84,
-      "image": "img/parts/dhs-72v-65ah-ub.jpg",
+      "image": "img/parts/dhs-72v-65ah-ub.webp",
       "batt_max_kw": 43.2,
       "batt_peak_kw": 61,
       "batt_rating_source": "600A continuous / 850A peak @ 72V, Charged Cycle Works"
@@ -481,7 +481,7 @@
       ],
       "weight_kg": 19.05,
       "weight_delta_kg": 7.45,
-      "image": "img/parts/dhs-80v-45ah-lbx.jpg",
+      "image": "img/parts/dhs-80v-45ah-lbx.webp",
       "batt_max_kw": 24,
       "batt_peak_kw": 44,
       "batt_rating_source": "300A continuous / 550A peak @ 80V, Charged Cycle Works"
@@ -519,7 +519,7 @@
       ],
       "weight_kg": 20.41,
       "weight_delta_kg": 7.56,
-      "image": "img/parts/ewatt-72v-63ah-t.jpg",
+      "image": "img/parts/ewatt-72v-63ah-t.webp",
       "batt_peak_kw": 28,
       "batt_rating_source": "peak-only rating published by eWatt; no continuous rating"
     },
@@ -548,7 +548,7 @@
       ],
       "weight_kg": null,
       "weight_delta_kg": null,
-      "image": "img/parts/ventus-evo-gt-72v.jpg",
+      "image": "img/parts/ventus-evo-gt-72v.webp",
       "batt_max_kw": 19.2,
       "batt_peak_kw": 32,
       "batt_rating_source": "VTB spec sheet: 19.2 kW standard / 400A peak @ 72V"
@@ -606,7 +606,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/eride-e7271-battery.jpg"
+      "image": "img/parts/eride-e7271-battery.webp"
     },
     {
       "id": "eride-pro40-oem-battery",
@@ -634,7 +634,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/eride-pro40-oem-battery.jpg"
+      "image": "img/parts/eride-pro40-oem-battery.webp"
     },
     {
       "id": "dhs-88v-60ah-ultrabee",
@@ -663,7 +663,7 @@
         }
       ],
       "weight_delta_kg": 4.75,
-      "image": "img/parts/dhs-88v-60ah-ultrabee.jpg",
+      "image": "img/parts/dhs-88v-60ah-ultrabee.webp",
       "batt_max_kw": 52.8,
       "batt_peak_kw": 74.8,
       "batt_rating_source": "600A continuous / 850A peak @ 88V, Charged Cycle Works"
@@ -695,7 +695,7 @@
         }
       ],
       "weight_delta_kg": 4.8,
-      "image": "img/parts/ventus-ultrabee-96v-56ah.jpg",
+      "image": "img/parts/ventus-ultrabee-96v-56ah.webp",
       "batt_max_kw": 26.9,
       "batt_peak_kw": 76.8,
       "batt_max_kw_est": true,
@@ -725,7 +725,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-72v-40ah-battery.jpg"
+      "image": "img/parts/voro-eride-ss-72v-40ah-battery.webp"
     }
   ]
 }

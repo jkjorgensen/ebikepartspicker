@@ -67,7 +67,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/pegs-ultrabee-oem-brackets.jpg"
+      "image": "img/parts/pegs-ultrabee-oem-brackets.webp"
     },
     {
       "id": "pegs-prickly-wide",
@@ -96,7 +96,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/pegs-prickly-wide.jpg"
+      "image": "img/parts/pegs-prickly-wide.webp"
     },
     {
       "id": "pegs-prickly-mx",
@@ -125,7 +125,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/pegs-prickly-mx.jpg"
+      "image": "img/parts/pegs-prickly-mx.webp"
     },
     {
       "id": "pegs-ventus-lbx",
@@ -154,7 +154,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/pegs-ventus-lbx.jpg"
+      "image": "img/parts/pegs-ventus-lbx.webp"
     },
     {
       "id": "pegs-tarazon-walmart",

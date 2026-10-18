@@ -32,7 +32,7 @@
       "notes": "Price verified $79.99. Gripper cover only - stock or aftermarket seat base required, not a complete seat. Multiple color/rib variants at $79.99.",
       "variant": "custom",
       "weight_delta_kg": null,
-      "image": "img/parts/seat-guts-lightbee-cover.png"
+      "image": "img/parts/seat-guts-lightbee-cover.webp"
     },
     {
       "id": "seat-eride-long-kit",
@@ -62,7 +62,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/seat-eride-long-kit.jpg"
+      "image": "img/parts/seat-eride-long-kit.webp"
     },
     {
       "id": "seat-talaria-mx34-oem",
@@ -92,7 +92,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/seat-talaria-mx34-oem.png"
+      "image": "img/parts/seat-talaria-mx34-oem.webp"
     },
     {
       "id": "voro-eride-ss-seat",
@@ -118,7 +118,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-seat.jpg"
+      "image": "img/parts/voro-eride-ss-seat.webp"
     }
   ],
   "compatibility": [

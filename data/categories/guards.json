@@ -37,7 +37,7 @@
       "power_change_kw": null,
       "badge": "E Ride Pro",
       "weight_delta_kg": null,
-      "image": "img/parts/guards-eride-motor-guard.png"
+      "image": "img/parts/guards-eride-motor-guard.webp"
     },
     {
       "id": "guards-ultrabee-skid",
@@ -95,7 +95,7 @@
       "power_change_kw": null,
       "badge": "Sur-Ron",
       "weight_delta_kg": null,
-      "image": "img/parts/guards-lightbee-chain.png"
+      "image": "img/parts/guards-lightbee-chain.webp"
     },
     {
       "id": "stormbee-upgrade-parts-kit",
@@ -129,7 +129,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/stormbee-upgrade-parts-kit.jpg"
+      "image": "img/parts/stormbee-upgrade-parts-kit.webp"
     },
     {
       "id": "guards-prickly-motor-cover",
@@ -158,7 +158,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/guards-prickly-motor-cover.jpg"
+      "image": "img/parts/guards-prickly-motor-cover.webp"
     },
     {
       "id": "voro-eride-ss-motor-skid-plate",
@@ -184,7 +184,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-motor-skid-plate.jpg"
+      "image": "img/parts/voro-eride-ss-motor-skid-plate.webp"
     }
   ],
   "compatibility": [

@@ -32,7 +32,7 @@
       "notes": "Verified $69 in stock. Two variants: 2024-and-earlier ($69, no grip) and 2025 ($99, vulcanized grip, OOS). Grip not included on older variant. Do not assume 2026 compatibility.",
       "variant": null,
       "weight_delta_kg": null,
-      "image": "img/parts/cockpit-surron-oem-throttle.png"
+      "image": "img/parts/cockpit-surron-oem-throttle.webp"
     },
     {
       "id": "cockpit-surron-oem-grips",
@@ -62,7 +62,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/cockpit-surron-oem-grips.jpg"
+      "image": "img/parts/cockpit-surron-oem-grips.webp"
     },
     {
       "id": "cockpit-surron-stem",
@@ -92,7 +92,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/cockpit-surron-stem.jpg"
+      "image": "img/parts/cockpit-surron-stem.webp"
     },
     {
       "id": "voro-eride-ss-twist-throttle",
@@ -118,7 +118,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-twist-throttle.jpg"
+      "image": "img/parts/voro-eride-ss-twist-throttle.webp"
     }
   ],
   "compatibility": [

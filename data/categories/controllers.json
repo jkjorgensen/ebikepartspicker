@@ -924,7 +924,7 @@
       ],
       "weight_delta_kg": null,
       "controller_max_kw": 76.0,
-      "image": "img/parts/vtb-aetos-pro.png"
+      "image": "img/parts/vtb-aetos-pro.webp"
     },
     {
       "id": "vtb-aetos-gen2-harness",
@@ -952,7 +952,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/vtb-aetos-gen2-harness.jpg"
+      "image": "img/parts/vtb-aetos-gen2-harness.webp"
     },
     {
       "id": "stormbee-controller-oem",
@@ -1017,7 +1017,7 @@
       ],
       "weight_delta_kg": null,
       "controller_max_kw": 76.0,
-      "image": "img/parts/ctrl-ventus-aetos-max.png"
+      "image": "img/parts/ctrl-ventus-aetos-max.webp"
     },
     {
       "id": "torp-tc1000-v1-ultrabee",
@@ -1047,7 +1047,7 @@
       ],
       "weight_delta_kg": null,
       "controller_max_kw": 50.0,
-      "image": "img/parts/torp-tc1000-v1-ultrabee.png"
+      "image": "img/parts/torp-tc1000-v1-ultrabee.webp"
     },
     {
       "id": "torp-tc1000-v2-ultrabee",
@@ -1077,7 +1077,7 @@
       ],
       "weight_delta_kg": null,
       "controller_max_kw": 58.0,
-      "image": "img/parts/torp-tc1000-v2-ultrabee.png"
+      "image": "img/parts/torp-tc1000-v2-ultrabee.webp"
     },
     {
       "id": "ventus-aetos-ultra",
@@ -1107,7 +1107,7 @@
       ],
       "weight_delta_kg": null,
       "controller_max_kw": 76.0,
-      "image": "img/parts/ventus-aetos-ultra.png"
+      "image": "img/parts/ventus-aetos-ultra.webp"
     },
     {
       "id": "voro-ultrabee-74v-controller",
@@ -1159,7 +1159,7 @@
           "affiliate": true
         }
       ],
-      "image": "img/parts/voro-eride-ss-72v-controller.jpg"
+      "image": "img/parts/voro-eride-ss-72v-controller.webp"
     },
     {
       "id": "voro-altis-sigma-98v-controller",
