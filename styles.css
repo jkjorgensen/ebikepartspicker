@@ -639,3 +639,4 @@ details.more[open]{padding-bottom:14px}
   .tab{padding:8px 14px;font-size:13px;white-space:nowrap;flex:none}
   .suggestbtn{padding:7px 12px;font-size:12px}
 }
+@media(max-width:640px){ .stage .badges{display:none} }
