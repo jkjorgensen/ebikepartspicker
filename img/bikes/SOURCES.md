@@ -48,4 +48,4 @@ Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed 
 | altis-delta | https://voromotors.com/products/altis-delta | https://cdn.shopify.com/s/files/1/2476/0976/files/20251217-174750.webp?v=1766538788 |
 | rawrr-mantis-mini-r | https://voromotors.com/products/rawrr-mantis-mini-r-best-mini-electric-dirt-bike | https://cdn.shopify.com/s/files/1/2476/0976/files/19_c87224b8-51c8-46cc-9bf2-35c9bfd97c9f.webp?v=1759863379 |
 | storm-bee | kept previous site photo (re-cut) — verify | |
-| arctic-leopard-xe-pro-s-enduro | kept previous site photo (re-cut) — verify | |
+| arctic-leopard-xe-pro-s-enduro | https://arctic-leopard.com/produit/xe-pro-s-enduro/ | https://arctic-leopard.com/wp-content/uploads/2026/09/DSC1894-scaled.png (official manufacturer side-profile cut-out, Enduro-only gallery image: 21/18 wheels, gold KKE fork, PRO S panel; edges defringed) |
