@@ -65,53 +65,6 @@
       "image": "img/parts/supermoto-17.webp"
     },
     {
-      "id": "wheels-kke-lightbee-16-19",
-      "name": "KKE Light Bee 16/19-Inch Wheel Rim Kit",
-      "brand": "KKE",
-      "category": "wheels",
-      "price_usd": 505,
-      "vendor": "Surron USA",
-      "buy_url": "https://sur-ron.us.com/product/light-bee-16-19-wheel-rim-kit-kke/",
-      "tier": "midrange",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "Wheelset: front 1.6x19, rear 1.85x16; hubs, rims, spokes, bearings, seals, spacers included. Seller lists Light Bee 2019-2023; stock brake discs and sprocket reusable.",
-      "source_urls": [
-        "https://sur-ron.us.com/product/light-bee-16-19-wheel-rim-kit-kke/"
-      ],
-      "last_checked": "2026-10-12",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Sur-Ron Light Bee X": "direct_fit",
-        "Sur-Ron Ultra Bee": "not_compatible",
-        "Sur-Ron Storm Bee F": "verify",
-        "Ventus One Plus": "verify",
-        "Ventus V1+ EVO": "verify",
-        "E Ride Pro SS 2.0": "verify",
-        "E Ride Pro 3.0": "verify",
-        "E Ride Pro 4.0": "verify",
-        "E Ride Pro SR": "verify",
-        "Talaria Sting R MX4": "verify",
-        "Talaria MX5 Pro": "verify",
-        "Talaria Komodo": "verify",
-        "Bonnell 805 RX": "verify",
-        "Arctic Leopard XD": "verify"
-      },
-      "_fit_src": {
-        "lightbee": "https://sur-ron.us.com/product/light-bee-16-19-wheel-rim-kit-kke/"
-      },
-      "vendors": [
-        {
-          "vendor": "Surron USA",
-          "price_usd": 505,
-          "buy_url": "https://sur-ron.us.com/product/light-bee-16-19-wheel-rim-kit-kke/"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": "img/parts/wheels-kke-lightbee-16-19.jpg"
-    },
-    {
       "id": "wheels-ion-lightbee-eride20",
       "name": "ION 16/19-Inch Wheelset for Sur-Ron Light Bee / E Ride Pro 2.0",
       "brand": "ION",
@@ -206,40 +159,6 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/wheels-ion-eride30-sr-1619.webp"
-    },
-    {
-      "id": "stormbee-supermoto-wheels",
-      "name": "Storm Bee Supermoto Wheel Kit",
-      "brand": "Sur-Ron",
-      "category": "wheels",
-      "price_usd": 889.0,
-      "vendor": "SurronMotos",
-      "buy_url": "https://surronmotos.com/shop/storm-bee-supermoto-wheel-kit-2/",
-      "tier": "midrange",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "Genuine Storm Bee 17-inch supermoto conversion kit: front+rear rims with stainless spokes, CST street tires (110/70-17 front, 140/60-17 rear), tubes, 270mm front / 240mm rear discs, sensor gears, 52T sprocket. Verify F trim before purchase.",
-      "source_urls": [
-        "https://surronmotos.com/shop/storm-bee-supermoto-wheel-kit-2/"
-      ],
-      "last_checked": "2026-10-12",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Sur-Ron Storm Bee F": "verify"
-      },
-      "_fit_src": {
-        "storm-bee": "https://surronmotos.com/shop/storm-bee-supermoto-wheel-kit-2/"
-      },
-      "vendors": [
-        {
-          "vendor": "SurronMotos",
-          "price_usd": 889.0,
-          "buy_url": "https://surronmotos.com/shop/storm-bee-supermoto-wheel-kit-2/"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": "img/parts/stormbee-supermoto-wheels.jpg"
     },
     {
       "id": "komodo-supermoto-wheelset",
@@ -583,9 +502,7 @@
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://sur-ron.us.com/product/light-bee-16-19-wheel-rim-kit-kke/"
-      ],
+      "fitment_source_urls": [],
       "notes": ""
     },
     {

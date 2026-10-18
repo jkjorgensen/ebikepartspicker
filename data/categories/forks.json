@@ -960,40 +960,6 @@
       "image": "img/parts/oem-light-bee-kke.webp"
     },
     {
-      "id": "stormbee-fork-right-kke",
-      "name": "Storm Bee Front Right Fork (KKE)",
-      "brand": "KKE",
-      "category": "fork",
-      "price_usd": 649.99,
-      "vendor": "SurronMotos",
-      "buy_url": "https://surronmotos.com/shop/storm-bee-front-right-fork-kke-3/",
-      "tier": "OEM",
-      "is_upgrade": false,
-      "stock_status": "in_stock",
-      "notes": "OEM-spec KKE fork — RIGHT side single leg only, not a pair. Inverted, rebound + compression adjustable, forged aluminum, ~4.2 kg. Verify F-variant and model-year fitment.",
-      "source_urls": [
-        "https://surronmotos.com/shop/storm-bee-front-right-fork-kke-3/"
-      ],
-      "last_checked": "2026-10-12",
-      "weight_kg": 4.2,
-      "power_change_kw": null,
-      "_fit": {
-        "Sur-Ron Storm Bee F": "verify"
-      },
-      "_fit_src": {
-        "storm-bee": "https://surronmotos.com/shop/storm-bee-front-right-fork-kke-3/"
-      },
-      "vendors": [
-        {
-          "vendor": "SurronMotos",
-          "price_usd": 649.99,
-          "buy_url": "https://surronmotos.com/shop/storm-bee-front-right-fork-kke-3/"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": "img/parts/stormbee-fork-right-kke.jpg"
-    },
-    {
       "id": "komodo-fork-left-oem",
       "name": "Suspension/Fork (Left) Black — Komodo OEM",
       "brand": "Talaria",

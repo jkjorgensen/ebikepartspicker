@@ -195,9 +195,8 @@ var CATEGORIES = [
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
      motorKw:50, motorPeakKw:50, dw:11.07, stock:'in_stock', wtKg:12.02, img:'img/parts/torp-tm40-pro.webp'
     },
-    {name:'Storm Bee Motor Assembly', pid:'stormbee-motor-oem', tier:'OEM',
+    {name:'Storm Bee Motor Assembly', pid:'stormbee-motor-oem', hidden:1, /* retired: only seller was a copycat store */ tier:'OEM',
      prices:[
-      {v:'SurronMotos', p:2099.99, url:'https://surronmotos.com/shop/storm-bee-motor-assembly-3/'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["storm-bee"], no:[],
@@ -286,9 +285,8 @@ var CATEGORIES = [
      fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr"], likely:["ss40","storm-bee","komodo","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd"], no:[],
      stock:'in_stock', img:'img/parts/vtb-aetos-gen2-harness.webp'
     },
-    {name:'Storm Bee FOC Sine Wave Controller', pid:'stormbee-controller-oem', tier:'OEM',
+    {name:'Storm Bee FOC Sine Wave Controller', pid:'stormbee-controller-oem', hidden:1, /* retired: only seller was a copycat store */ tier:'OEM',
      prices:[
-      {v:'SurronMotos', p:1779.99, url:'https://surronmotos.com/shop/storm-bee-foc-sine-wave-controller-3/'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["storm-bee"], no:[],
@@ -460,9 +458,8 @@ var CATEGORIES = [
      fits:["lightbee"], likely:[], no:[],
      stock:'in_stock', img:'img/parts/oem-light-bee-kke.webp'
     },
-    {name:'Storm Bee Front Right Fork (KKE)', pid:'stormbee-fork-right-kke', tier:'OEM',
+    {name:'Storm Bee Front Right Fork (KKE)', pid:'stormbee-fork-right-kke', hidden:1, /* retired: only seller was a copycat store */ tier:'OEM',
      prices:[
-      {v:'SurronMotos', p:649.99, url:'https://surronmotos.com/shop/storm-bee-front-right-fork-kke-3/'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["storm-bee"], no:[],
@@ -580,7 +577,8 @@ var CATEGORIES = [
     },
     {name:'KKE Light Bee 16/19-Inch Wheel Rim Kit', pid:'wheels-kke-lightbee-16-19', tier:'midrange',
      prices:[
-      {v:'Surron USA', p:505, url:'https://sur-ron.us.com/product/light-bee-16-19-wheel-rim-kit-kke/'},
+      {v:'Charged Cycle Works', p:569, url:'https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective'},
+      {v:'TB Electric Moto', p:569, url:'https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -602,9 +600,8 @@ var CATEGORIES = [
      fits:["ss30","sr"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss40","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
      stock:'out_of_stock', img:'img/parts/wheels-ion-eride30-sr-1619.webp'
     },
-    {name:'Storm Bee Supermoto Wheel Kit', pid:'stormbee-supermoto-wheels', tier:'midrange',
+    {name:'Storm Bee Supermoto Wheel Kit', pid:'stormbee-supermoto-wheels', hidden:1, /* retired: only seller was a copycat store */ tier:'midrange',
      prices:[
-      {v:'SurronMotos', p:889, url:'https://surronmotos.com/shop/storm-bee-supermoto-wheel-kit-2/'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["storm-bee"], no:[],
@@ -1093,7 +1090,7 @@ var CATEGORIES = [
     },
     {name:'Talaria Sting R MX4 OEM Battery Charger (110V)', pid:'talaria-mx4-oem-charger', tier:'OEM',
      prices:[
-      {v:'Talaria USA', p:250, url:'https://talariaebikebrand.com/product/talaria-mx4-charger-110v/'},
+      {v:'Charged Cycle Works', p:285, url:'https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:["komodo","mx5","arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
@@ -1183,7 +1180,6 @@ var CATEGORIES = [
     {name:'E7006 Drive Belt - Pro-S / SS2.0', pid:'drivetrain-eride-belt', tier:'OEM',
      prices:[
       {v:'VORO Motors', p:64.95, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-for-e-ride-pro-ss', aff:1},
-      {v:'E Ride Pro', p:66, url:'https://www.eridepros.com/product-page/drive-belt'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
@@ -1222,9 +1218,8 @@ var CATEGORIES = [
   ]},
   {id:'electrical', name:'Electrical', blurb:'Dashboards, lights, and wiring that tie the build together.', tips:['Check voltage compatibility with your battery','Plug-and-play beats splicing — look for bike-specific kits'], options:[
     {name:'Stock electrical', prices:[]},
-    {name:'TORP EggRider Display', pid:'electrical-torp-egg-rider', tier:'midrange',
+    {name:'TORP EggRider Display', pid:'electrical-torp-egg-rider', hidden:1, /* retired: only seller was a copycat store */ tier:'midrange',
      prices:[
-      {v:'Sur Ron USA', p:110, url:'https://ridesurronusa.com/product/torp-egg-rider-display/'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee","mx4"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","ventus-plus","ventus-evo"], no:[],
@@ -1385,7 +1380,8 @@ var CATEGORIES = [
     {name:'Stock foot pegs', prices:[]},
     {name:'KKE Billet Foot Pegs for Sur-Ron Ultra Bee', pid:'pegs-kke-ultrabee', tier:'midrange',
      prices:[
-      {v:'SURRON Canada', p:79.99, url:'https://sur-ronglobal.com/product/ultra-bee-foot-pegs-kke/'},
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective'},
+      {v:'TB Electric Moto', p:59.99, url:'https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","ventus-plus","ventus-evo"], no:[],
@@ -1394,7 +1390,6 @@ var CATEGORIES = [
     {name:'Sur-Ron Ultra Bee OEM Pegs & Brackets', pid:'pegs-ultrabee-oem-brackets', tier:'budget',
      prices:[
       {v:'VORO Motors', p:99.0, url:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffoot-pegs-with-mounts-for-ultra-bee', aff:1},
-      {v:'SurRonshop', p:89, url:'https://surronshop.world/collections/ultra-bee/products/ultra-bee-pegs-brackets'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","ventus-plus","ventus-evo"], no:[],
@@ -1539,9 +1534,8 @@ var CATEGORIES = [
      fits:["ss30","sr"], likely:["ss20","ventus-plus","ventus-evo","ss40","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
      badge:'E Ride Pro', stock:'in_stock', img:'img/parts/swingarm-eride-oem.webp'
     },
-    {name:'Storm Bee Swingarm Assembly', pid:'stormbee-swingarm-oem', tier:'OEM',
+    {name:'Storm Bee Swingarm Assembly', pid:'stormbee-swingarm-oem', hidden:1, /* retired: only seller was a copycat store */ tier:'OEM',
      prices:[
-      {v:'SurronMotos', p:589.99, url:'https://surronmotos.com/shop/buy-storm-bee-swingarm-assembly-2/'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["storm-bee"], no:[],

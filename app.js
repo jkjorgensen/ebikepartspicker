@@ -36,6 +36,7 @@ function optPrice(opt){ var b = best(opt); return b ? b.p : 0; }
 
 /* 'yes' | 'likely' | 'no' */
 function fitLevel(opt, bikeId){
+  if(opt.hidden) return 'no'; /* retired listing */
   if(!opt.fits || opt.fits==='universal') return 'yes';
   if(opt.fits.indexOf(bikeId) !== -1) return 'yes';
   if(opt.likely && opt.likely.indexOf(bikeId) !== -1) return 'likely';
@@ -1038,7 +1039,7 @@ syncBikeInputs();
   var row = document.querySelector('.stats');
   try{
     if(typeof BIKES==='undefined' || typeof CATEGORIES==='undefined' || !BIKES.length) throw 0;
-    var pc = CATEGORIES.reduce(function(n,c){ return n + Math.max(0, c.options.length-1); }, 0);
+    var pc = CATEGORIES.reduce(function(n,c){ return n + c.options.filter(function(o,i){ return i>0 && !o.hidden; }).length; }, 0);
     var sb=$('statBikes'), sp=$('statParts'), sc=$('statCats');
     if(sb) sb.textContent = BIKES.length;
     if(sp) sp.textContent = pc;

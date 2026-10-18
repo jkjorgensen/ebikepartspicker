@@ -92,40 +92,6 @@
       "image": "img/parts/swingarm-eride-oem.webp"
     },
     {
-      "id": "stormbee-swingarm-oem",
-      "name": "Storm Bee Swingarm Assembly",
-      "brand": "Sur-Ron",
-      "category": "swingarm",
-      "price_usd": 589.99,
-      "vendor": "SurronMotos",
-      "buy_url": "https://surronmotos.com/shop/buy-storm-bee-swingarm-assembly-2/",
-      "tier": "OEM",
-      "is_upgrade": false,
-      "stock_status": "in_stock",
-      "notes": "OEM Storm Bee swingarm assembly: reinforced aluminum, factory geometry, pre-installed pivot bearings, axle/shock mounts pre-drilled. Confirm F trim and model year.",
-      "source_urls": [
-        "https://surronmotos.com/shop/buy-storm-bee-swingarm-assembly-2/"
-      ],
-      "last_checked": "2026-10-12",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Sur-Ron Storm Bee F": "verify"
-      },
-      "_fit_src": {
-        "storm-bee": "https://surronmotos.com/shop/buy-storm-bee-swingarm-assembly-2/"
-      },
-      "vendors": [
-        {
-          "vendor": "SurronMotos",
-          "price_usd": 589.99,
-          "buy_url": "https://surronmotos.com/shop/buy-storm-bee-swingarm-assembly-2/"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": "img/parts/stormbee-swingarm-oem.jpg"
-    },
-    {
       "id": "voro-eride-ss-swingarm",
       "name": "E Ride Pro SS OEM Swingarm (E7008)",
       "brand": "OEM",

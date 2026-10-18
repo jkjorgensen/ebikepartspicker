@@ -14,7 +14,7 @@ var BUY_URLS = {
   "sr": {"url":"https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fe-ride-pro-sr-25kw-power-e-dirt-bike","source":"VORO Motors","alt":"https://www.atvwholesaleoutlet.com/e-ride-pro-sacramento-dealer/sr/","altSource":"ATV Wholesale Outlet (authorized dealer, Sacramento CA)"},
   "mx4": {"url":"https://emotobykes.com/bikes/talaria/sting-r-mx4/","source":"eMoto Bykes (authorized US dealer, San Jose CA)"},
   "mx5": {"url":"https://www.atvwholesaleoutlet.com/talaria-sacramento-dealer/sting-mx5-pro/","source":"ATV Wholesale Outlet (authorized dealer, Sacramento CA)"},
-  "komodo": {"url":"https://talariaebikebrand.com/product/talaria-komodo/","source":"Talaria USA official"},
+  "komodo": {"url":"https://tbelectricmoto.com/products/talaria-komodo-32kw-96v-electric-dirt-bike","source":"TB Electric Moto"},
   "bonnell-805rx": {"url":"https://ridebonnell.com/products/805","source":"Bonnell official"},
   "storm-bee": {"url":"https://emotobykes.com/bikes/sur-ron/storm-bee/","source":"eMoto Bykes"},
   "arctic-xd": null,

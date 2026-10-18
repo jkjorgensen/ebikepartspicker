@@ -6,7 +6,7 @@
   "products": [
     {
       "id": "ti-full-kit-lightbee",
-      "name": "Titanium Surron Full Body Bolt Kit \u2014 Light Bee X (80+ pc)",
+      "name": "Titanium Surron Full Body Bolt Kit — Light Bee X (80+ pc)",
       "brand": "Titanium Surron",
       "category": "titanium",
       "badge": null,
@@ -36,7 +36,7 @@
     },
     {
       "id": "ti-full-kit-ultrabee",
-      "name": "Titanium Surron Full Body Bolt Kit \u2014 Ultra Bee (113/133 pc)",
+      "name": "Titanium Surron Full Body Bolt Kit — Ultra Bee (113/133 pc)",
       "brand": "Titanium Surron",
       "category": "titanium",
       "badge": null,
@@ -67,7 +67,7 @@
     },
     {
       "id": "ti-full-kit-erp",
-      "name": "Titanium Surron Full Body Bolt Kit \u2014 E-Ride Pro 2.0/3.0/SR",
+      "name": "Titanium Surron Full Body Bolt Kit — E-Ride Pro 2.0/3.0/SR",
       "brand": "Titanium Surron",
       "category": "titanium",
       "badge": null,
@@ -97,7 +97,7 @@
     },
     {
       "id": "ti-full-kit-talaria-mx",
-      "name": "Titanium Surron Full Body Bolt Kit \u2014 Talaria MX3/MX4/MX5",
+      "name": "Titanium Surron Full Body Bolt Kit — Talaria MX3/MX4/MX5",
       "brand": "Titanium Surron",
       "category": "titanium",
       "badge": null,
@@ -127,7 +127,7 @@
     },
     {
       "id": "ti-full-kit-altis-sigma",
-      "name": "Titanium Surron Full Body Bolt Kit \u2014 Altis Sigma",
+      "name": "Titanium Surron Full Body Bolt Kit — Altis Sigma",
       "brand": "Titanium Surron",
       "category": "titanium",
       "badge": null,
@@ -157,7 +157,7 @@
     },
     {
       "id": "ti-full-kit-komodo",
-      "name": "Titanium Surron Full Body Bolt Kit \u2014 Talaria Komodo",
+      "name": "Titanium Surron Full Body Bolt Kit — Talaria Komodo",
       "brand": "Titanium Surron",
       "category": "titanium",
       "badge": null,
@@ -180,14 +180,14 @@
         "https://titaniumsurron.com/collections/titanium-bolt-kits"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Grade 5 Ti-6Al-4V. Komodo-specific kit listed on Titanium Surron; price not captured \u2014 TBD.",
+      "notes": "Grade 5 Ti-6Al-4V. Komodo-specific kit listed on Titanium Surron; price not captured — TBD.",
       "variant": null,
       "weight_delta_kg": null,
       "image": null
     },
     {
       "id": "warp9-chassis-kit-ultrabee",
-      "name": "Warp 9 Titanium Chassis Kit \u2014 Ultra Bee",
+      "name": "Warp 9 Titanium Chassis Kit — Ultra Bee",
       "brand": "Warp 9",
       "category": "titanium",
       "badge": null,
@@ -217,7 +217,7 @@
     },
     {
       "id": "ti-wheel-kit-revrides",
-      "name": "Titanium Wheel Bolt Kit \u2014 Multi-bike (REVRides)",
+      "name": "Titanium Wheel Bolt Kit — Multi-bike (REVRides)",
       "brand": "Titanium Surron",
       "category": "titanium",
       "badge": null,
@@ -270,7 +270,7 @@
         "https://revrides.com/products/titanium-sprocket-bolts-5-pack-for-sur-ron-e-ride-pro-talaria"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Grade 5 Ti-6Al-4V M8x16mm. Price not captured \u2014 TBD. Check thread engagement against your sprocket.",
+      "notes": "Grade 5 Ti-6Al-4V M8x16mm. Price not captured — TBD. Check thread engagement against your sprocket.",
       "variant": null,
       "weight_delta_kg": null,
       "image": null
@@ -300,7 +300,7 @@
         "https://titaniumsurron.com/products/custom-titanium-direct-mount-stem-bolt-kit"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Grade 5 Ti-6Al-4V, eight M6x20mm bolts. Fitment determined by stem bolt spec \u2014 verify your stem uses M6x20.",
+      "notes": "Grade 5 Ti-6Al-4V, eight M6x20mm bolts. Fitment determined by stem bolt spec — verify your stem uses M6x20.",
       "variant": null,
       "weight_delta_kg": null,
       "image": null
@@ -367,7 +367,7 @@
     },
     {
       "id": "ti-motor-bolts-erp",
-      "name": "Titanium Motor Mount Bolt Kit \u2014 E-Ride Pro (4 pc)",
+      "name": "Titanium Motor Mount Bolt Kit — E-Ride Pro (4 pc)",
       "brand": "Titanium Surron",
       "category": "titanium",
       "badge": null,
@@ -427,7 +427,7 @@
     },
     {
       "id": "ti-linkage-kit-erp",
-      "name": "Titanium Rear Linkage Bolt Kit \u2014 E-Ride Pro (8 pc)",
+      "name": "Titanium Rear Linkage Bolt Kit — E-Ride Pro (8 pc)",
       "brand": "Titanium Surron",
       "category": "titanium",
       "badge": null,

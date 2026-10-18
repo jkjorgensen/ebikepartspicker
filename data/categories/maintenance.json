@@ -35,7 +35,7 @@
     },
     {
       "id": "maintenance-eride-surron-talaria-headset",
-      "name": "Headset Roller Bearing Kit \u2014 E Ride Pro SS / Sur-Ron Light Bee / Talaria MX",
+      "name": "Headset Roller Bearing Kit — E Ride Pro SS / Sur-Ron Light Bee / Talaria MX",
       "brand": "The Ride Guru",
       "category": "maintenance",
       "price_usd": 29.95,
@@ -64,7 +64,7 @@
     },
     {
       "id": "maintenance-lightbee-swingarm-axle",
-      "name": "IZI Brothers Titanium Swingarm Pivot Axle \u2014 Sur-Ron Light Bee",
+      "name": "IZI Brothers Titanium Swingarm Pivot Axle — Sur-Ron Light Bee",
       "brand": "IZI Brothers",
       "category": "maintenance",
       "price_usd": null,
@@ -80,7 +80,7 @@
       "tier": "premium",
       "is_upgrade": true,
       "stock_status": "in_stock",
-      "notes": "Price TBD \u2014 vendor lists EUR 109 (no USD price published). Grade 5 titanium (Ti-6Al-4V) pivot axle + matching nut; direct replacement for OEM Light Bee X / L1E swingarms. Torque to OEM spec.",
+      "notes": "Price TBD — vendor lists EUR 109 (no USD price published). Grade 5 titanium (Ti-6Al-4V) pivot axle + matching nut; direct replacement for OEM Light Bee X / L1E swingarms. Torque to OEM spec.",
       "source_urls": [
         "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
       ],

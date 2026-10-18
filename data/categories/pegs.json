@@ -5,35 +5,6 @@
   },
   "products": [
     {
-      "id": "pegs-kke-ultrabee",
-      "name": "KKE Billet Foot Pegs for Sur-Ron Ultra Bee",
-      "brand": "KKE",
-      "category": "pegs",
-      "badge": "Foot Pegs",
-      "tier": "midrange",
-      "price_usd": 79.99,
-      "vendor": "SURRON Canada",
-      "buy_url": "https://sur-ronglobal.com/product/ultra-bee-foot-pegs-kke/",
-      "stock_status": "in_stock",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "is_upgrade": true,
-      "source_urls": [
-        "https://sur-ronglobal.com/product/ultra-bee-foot-pegs-kke/"
-      ],
-      "last_checked": "2026-10-12",
-      "notes": "Price verified $79.99 (on sale from $81.99), in stock. 7075-T6 aluminum, 57x87mm platform. Uses OEM foot-peg spring and pin. Blue/black/purple/gold/red anodized options.",
-      "variant": "custom",
-      "vendors": [
-        {
-          "vendor": "SURRON Canada",
-          "price_usd": 79.99,
-          "buy_url": "https://sur-ronglobal.com/product/ultra-bee-foot-pegs-kke/"
-        }
-      ],
-      "weight_delta_kg": null
-    },
-    {
       "id": "pegs-ultrabee-oem-brackets",
       "name": "Sur-Ron Ultra Bee OEM Pegs & Brackets",
       "brand": "Sur-Ron",
@@ -47,9 +18,7 @@
       "weight_kg": null,
       "power_change_kw": null,
       "is_upgrade": false,
-      "source_urls": [
-        "https://surronshop.world/collections/ultra-bee/products/ultra-bee-pegs-brackets"
-      ],
+      "source_urls": [],
       "last_checked": "2026-10-12",
       "notes": "Price verified: Left foot pedal $89, Right foot pedal $85 (both in stock). OEM replacement pedal + bracket assembly; choose left or right side.",
       "variant": null,
@@ -59,11 +28,6 @@
           "price_usd": 99.0,
           "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffoot-pegs-with-mounts-for-ultra-bee",
           "affiliate": true
-        },
-        {
-          "vendor": "SurRonshop",
-          "price_usd": 89.0,
-          "buy_url": "https://surronshop.world/collections/ultra-bee/products/ultra-bee-pegs-brackets"
         }
       ],
       "weight_delta_kg": null,

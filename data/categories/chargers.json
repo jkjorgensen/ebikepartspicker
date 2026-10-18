@@ -65,33 +65,6 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eride-e7305-charger.webp"
-    },
-    {
-      "id": "talaria-mx4-oem-charger",
-      "name": "Talaria Sting R MX4 OEM Battery Charger (110V)",
-      "brand": "Talaria",
-      "category": "chargers",
-      "price_usd": 250.0,
-      "vendor": "Talaria USA",
-      "buy_url": "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/",
-      "tier": "OEM",
-      "is_upgrade": false,
-      "stock_status": "in_stock",
-      "notes": "OEM 110V AC wall charger, 60V DC output (~6A spec), BMS handshake with auto shut-off. Fits MX4 (TL4000) and Sting R Road Legal (TL50). MX3 needs dedicated charger SKU 1930; 12A fast charger (SKU 1626) roughly halves charge time. 12-month Talaria warranty.",
-      "source_urls": [
-        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
-      ],
-      "last_checked": "2026-10-12",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "vendors": [
-        {
-          "vendor": "Talaria USA",
-          "price_usd": 250.0,
-          "buy_url": "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
-        }
-      ],
-      "weight_delta_kg": null
     }
   ],
   "compatibility": [
@@ -230,9 +203,7 @@
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
-      ],
+      "fitment_source_urls": [],
       "notes": "Also fits Sting R Road Legal (TL50)"
     },
     {
@@ -240,9 +211,7 @@
       "bike_id": "komodo",
       "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
-      ],
+      "fitment_source_urls": [],
       "notes": ""
     },
     {
@@ -250,9 +219,7 @@
       "bike_id": "mx5",
       "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
-      ],
+      "fitment_source_urls": [],
       "notes": ""
     },
     {
@@ -260,9 +227,7 @@
       "bike_id": "arctic-xd",
       "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
-      ],
+      "fitment_source_urls": [],
       "notes": ""
     },
     {
@@ -270,9 +235,7 @@
       "bike_id": "bonnell-805rx",
       "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
-      ],
+      "fitment_source_urls": [],
       "notes": ""
     },
     {
@@ -280,9 +243,7 @@
       "bike_id": "ventus-plus",
       "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
-      ],
+      "fitment_source_urls": [],
       "notes": ""
     },
     {
@@ -290,9 +251,7 @@
       "bike_id": "ventus-evo",
       "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://talariaebikebrand.com/product/talaria-mx4-charger-110v/"
-      ],
+      "fitment_source_urls": [],
       "notes": ""
     }
   ]
