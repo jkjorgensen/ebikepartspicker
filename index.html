@@ -15,10 +15,12 @@
 <meta name="twitter:description" content="Build your e-moto part by part. Compare real parts, prices, weight and power in one place.">
 <meta name="twitter:image" content="https://ebikepartspicker.pages.dev/img/bikes/og-ventus-plus.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css?v=4.0.1">
+<link rel="stylesheet" href="styles.css?v=4.1.0">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
 </head>
 <body>
 
@@ -26,9 +28,8 @@
 <div id="start" class="start">
   <div class="eyebrow">The e-moto parts builder</div>
   <h1 class="display">Build your e-moto, <span>part by part.</span></h1>
-  <p class="tagline">Real parts. Real prices. Real fitment. Pick your bike and watch your build come together.</p>
-  <p class="freesub">Free. No sign-up. Pick a bike and start.</p>
-  <div class="start-cta-row">
+  <p class="tagline">Real parts, real prices, real fitment. Free, no sign-up.</p>
+    <div class="start-cta-row">
     <span class="havebike">Already have a bike?</span>
     <div class="combobox start-combo">
       <input id="startBikeInput" type="text" placeholder="Type your bike…" autocomplete="off" aria-label="Type to find your bike">
@@ -41,11 +42,15 @@
   </div>
   <div class="sizechips" id="startSizeChips" aria-label="Filter bikes by size"></div>
   <div class="stats">
-    <div class="stat"><strong id="statBikes">–</strong><small>bikes</small></div>
-    <div class="stat"><strong id="statParts">–</strong><small>parts</small></div>
-    <div class="stat"><strong id="statCats">–</strong><small>categories</small></div>
+    <div class="stat"><strong id="statBikes">45</strong><small>bikes</small></div>
+    <div class="stat"><strong id="statParts">227</strong><small>parts</small></div>
+    <div class="stat"><strong id="statCats">23</strong><small>categories</small></div>
   </div>
-  <div class="herostage"><img class="hero" id="heroImg" src="img/bikes/ventus-plus.webp?v=4.0.1" alt="Ventus One Plus electric dirt bike" width="1600" height="1000" fetchpriority="high"></div>
+  <div class="herostage"><img class="hero" id="heroImg" src="img/bikes/ventus-plus.webp?v=4.1.0" alt="Ventus One Plus electric dirt bike" width="1600" height="1000" fetchpriority="high"></div>
+  <section class="popular" aria-labelledby="popTitle">
+    <h2 id="popTitle" class="pop-title">Popular bikes</h2>
+    <div class="pop-grid" id="popGrid"></div>
+  </section>
   <div class="notify">
     <p>Get notified when new bikes and parts are added.</p>
     <div class="notify-row">
@@ -80,7 +85,7 @@
     <div class="builder-grid">
       <div class="bcol-left">
         <div class="stage">
-          <img id="bikeImg" src="img/bikes/ventus-plus.webp?v=4.0.1" alt="Ventus One Plus electric dirt bike" width="1600" height="1000">
+          <img id="bikeImg" src="img/bikes/ventus-plus.webp?v=4.1.0" alt="Ventus One Plus electric dirt bike" width="1600" height="1000">
           <div class="badges" id="badges"></div>
         </div>
         <div class="metrics">
@@ -89,6 +94,7 @@
           <div class="metric"><small>Power</small><strong id="mKw">–</strong><span class="geq" id="mGasEq"></span></div>
           <div class="metric"><small>HP</small><strong id="mHp">–</strong></div>
         </div>
+        <div class="bsum" id="buildSum" aria-live="polite"></div>
         <div id="bikeBuy"></div>
         <button id="btnShareBuild" class="ghostbtn sharebtn">Share my build</button>
         <div class="ptrain" id="ptrain">
@@ -273,13 +279,13 @@
   <span class="dot">·</span>
   <span class="fineprint">Some links may be affiliate links. Prices are estimates, verify before buying.</span>
 </footer>
-<script src="data.js?v=4.0.1"></script>
-<script src="upcoming.js?v=4.0.1"></script>
-<script src="builds.js?v=4.0.1"></script>
-<script src="buy.js?v=4.0.1"></script>
-<script src="app.js?v=4.0.1"></script>
-<script src="quiz.js?v=4.0.1"></script>
-<script src="compare.js?v=4.0.1"></script>
-<script src="used.js?v=4.0.1"></script>
+<script src="data.js?v=4.1.0"></script>
+<script src="upcoming.js?v=4.1.0"></script>
+<script src="builds.js?v=4.1.0"></script>
+<script src="buy.js?v=4.1.0"></script>
+<script src="app.js?v=4.1.0"></script>
+<script src="quiz.js?v=4.1.0"></script>
+<script src="compare.js?v=4.1.0"></script>
+<script src="used.js?v=4.1.0"></script>
 </body>
 </html>
