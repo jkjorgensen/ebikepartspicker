@@ -125,7 +125,7 @@ function renderCompare(){
     var th = document.createElement('th');
     if(b){
       var im = document.createElement('img');
-      im.src = 'img/bike-'+b.id+'.png'+(typeof IMGV!=='undefined'?'?v='+IMGV:''); im.alt = b.name+' e-moto';
+      im.src = bikeImgSrc(b.id,1); im.loading='lazy'; im.decoding='async'; im.alt = b.name+' e-moto';
       im.onerror = function(){ im.style.display='none'; };
       th.appendChild(im);
       th.appendChild(el('div','cmp-bname', b.name));

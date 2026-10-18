@@ -621,3 +621,15 @@ details.more[open]{padding-bottom:14px}
 }
 .uempty .qsub{margin-left:auto;margin-right:auto}
 .imgph{aspect-ratio:16/10;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#1a1f25,#12161b);color:var(--faint);font:600 12.5px var(--body);letter-spacing:.3px;border-bottom:1px solid var(--line)}
+
+/* ---------- product photography: light studio backdrop, real cut-out photos, no masks ---------- */
+:root{--studio:radial-gradient(120% 100% at 50% 32%, #fdfdfe 0%, #eef0f3 58%, #dfe3e8 100%)}
+.stage{background:var(--studio);border-radius:18px;padding:10px;overflow:hidden;aspect-ratio:16/10;max-height:min(450px,48vh)}
+.stage img,.hero{-webkit-mask-image:none;mask-image:none;filter:drop-shadow(0 14px 14px #0000002b)}
+.stage img{width:100%;height:100%;max-height:none;object-fit:contain}
+.herostage{width:min(780px,94vw);margin-top:10px;background:var(--studio);border-radius:22px;aspect-ratio:16/10;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 20px 60px #0007}
+.herostage .hero{width:100%;height:100%;margin:0;object-fit:contain}
+.card img{height:auto;aspect-ratio:16/10;object-fit:contain;background:var(--studio);padding:8px}
+.gbike img,.qrec-top img,.cmp-table thead img{object-fit:contain;background:var(--studio)}
+#pprev img,.dd-thumb{object-fit:contain;background:#fff}
+@media(max-width:900px){ .stage{max-height:none} }

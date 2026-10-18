@@ -97,7 +97,7 @@ function previewSrc(){
   var b = bike();
   /* Stock photo only: the AI part-swap composites had mangled spokes/hubs,
      and the standard is real stock photos, never AI lookalikes. */
-  return 'img/bike-'+b.id+'.png?v='+IMGV;
+  return bikeImgSrc(b.id);
 }
 
 function totals(){
@@ -707,7 +707,7 @@ function renderBuilds(){
     var b = bikeById(bid);
     var btn = document.createElement('button');
     btn.className = 'gbike' + (bid===state.guideBike ? ' on' : '');
-    var im = document.createElement('img'); im.src='img/bike-'+bid+'.png?v='+IMGV; im.alt=b.name+' electric dirt bike'; im.loading='lazy';
+    var im = document.createElement('img'); im.src=bikeImgSrc(bid,1); im.decoding='async'; im.alt=b.name+' electric dirt bike'; im.loading='lazy';
     var nm = document.createElement('span'); nm.textContent=b.name;
     btn.appendChild(im); btn.appendChild(nm);
     btn.addEventListener('click', function(){ state.guideBike=bid; renderBuilds(); });
@@ -724,7 +724,7 @@ function renderBuilds(){
     n++;
     var b = bikeById(gd.bike);
     partCard({host:g, kicker:'Option '+n+' · '+b.name, title:gd.name, blurb:gd.blurb,
-      img:'img/bike-'+gd.bike+'.png?v='+IMGV, parts:gd.parts, bikeId:gd.bike});
+      img:bikeImgSrc(gd.bike,1), parts:gd.parts, bikeId:gd.bike});
   });
 }
 
@@ -763,7 +763,7 @@ function renderUpcoming(){
     /* never show a different bike's photo: no catalog photo = neutral placeholder */
     if(u.bikeId || u.img){
       var img = document.createElement('img');
-      img.src = u.img || bikeImgSrc(u.bikeId);
+      img.src = u.img || bikeImgSrc(u.bikeId,1);
       img.alt = u.name + ' electric dirt bike'; img.loading='lazy'; img.decoding='async';
       img.width = 800; img.height = 500;
       card.appendChild(img);
@@ -798,8 +798,10 @@ function renderUpcoming(){
 
 /* ---------- submit-your-part modal ---------- */
 var SUBMIT_EMAIL = 'ebikepartspicker@gmail.com'; /* inbox for vendor part submissions */
-var IMGV = '3.10.7'; /* bump when bike images change so browsers refetch */
-function bikeImgSrc(id){ return 'img/bike-'+id+'.png?v='+IMGV; }
+var IMGV = '4.0.0'; /* bump when bike images change so browsers refetch */
+/* real manufacturer/dealer photos, background removed, standardized 1600x1000 (16:10); small=800x500 */
+function bikeImgSrc(id, small){ return 'img/bikes/'+id+(small?'-800':'')+'.webp?v='+IMGV; }
+window.bikeImgSrc = bikeImgSrc; /* used by quiz.js / compare.js */
 (function(){
   var overlay = $('suggestOverlay');
   if(!overlay) return;
@@ -974,7 +976,7 @@ document.addEventListener('click', function(e){
 initBikePicker('startBikeInput', 'startBikeList', function(id){
   state.bike = id; syncBikeInputs();
   var hero = $('heroImg'), b = bikeById(id);
-  if(hero && b){ hero.src = 'img/bike-'+b.id+'.png?v='+IMGV; hero.alt = b.name+' electric dirt bike'; }
+  if(hero && b){ hero.src = bikeImgSrc(b.id); hero.alt = b.name+' electric dirt bike'; }
 });
 initBikePicker('bikeSelectInput', 'bikeSelectList', function(id){
   state.bike = id; state.step = 0; syncBikeInputs(); render(); saveHash();
