@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.pages.dev'; V='4.8.1'; TODAY='2026-10-18'
+BASE='https://ebikepartspicker.pages.dev'; V='4.8.1'; IMGV='4.2.0'; TODAY='2026-10-18'
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else ''
 CAT={c['id']:c for c in D['cats']}; BK={b['id']:b for b in D['bikes']}
@@ -77,7 +77,7 @@ for b in seo_bikes:
   secs=''.join(f'<section id="{c["id"]}"><h2>{e(c["name"])} for the {e(b["name"])}</h2><ul class="sp-list">{"".join(partrow(p,bid) for p in ps)}</ul></section>' for c,ps in cats)
   body=f"""<h1>{e(b['name'])} upgrades &amp; parts</h1>
 <p class="seo-lede">{nconf} aftermarket parts that fit the {e(b['name'])}: each is either listed for this bike by the seller or manufacturer, or sold as a universal-fit part. Prices were checked on the retailer\u2019s page. Pick parts to see your build\u2019s total price, weight and estimated power.</p>
-<figure class="seo-hero"><img src="/img/bikes/{bid}.webp?v=4.1.0" alt="{e(b['name'])} electric dirt bike" width="1600" height="1000"></figure>
+<figure class="seo-hero"><img src="/img/bikes/{bid}.webp?v={IMGV}" alt="{e(b['name'])} electric dirt bike" width="1600" height="1000"></figure>
 <dl class="seo-specs">{specs}</dl>
 <p class="seo-cta"><a class="cta" href="{e(builder(bid))}">Build your {e(b['name'])}</a> {bikebuy}</p>
 {extra}<nav class="seo-toc">{toc}</nav>{secs}

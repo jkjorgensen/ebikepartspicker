@@ -18,7 +18,7 @@ Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed 
 | mx5 | https://ezrides.ca/products/talaria-mx5-pro-electric-dirtbike | https://cdn.shopify.com/s/files/1/0590/5340/8356/files/ezrides-talaria-pre-order-talaria-sting-mx5-pro-34262200877156.png?v=1791557134 |
 | komodo | https://tbelectricmoto.com/products/talaria-komodo-32kw-96v-electric-dirt-bike | product gallery image |
 | bonnell-805rx | https://ridebonnell.com/products/805 | https://cdn.shopify.com/s/files/1/0861/5883/6028/files/805_Website_BarelyWhite.png?v=1788216738 |
-| arctic-xd | https://arctic-leopard.bike/products/arctic-leopard-xd-pro-mx | manufacturer side-profile photo (XD PRO MX), cut out (previous image was the XF model) |
+| arctic-xd | https://arctic-leopard.com/produit/x%c2%b7d-pro/ | manufacturer side-profile photo (wp-content/uploads/2026/09/04.png), cut out, tire contact shadows added |
 | rerode-rx | https://rerode.bike/pages/rx-new | https://rerode.bike/cdn/shop/files/Untitled_design_-_2026-09-26T235213.703.png?v=1790488254&amp;width=2000 |
 | rawrr-mantis-72v | https://riderawrr.com/products/rawrr-mantis-all-terrain-electric-bike | https://cdn.prod.website-files.com/6675b4f433c2c32076d88aa3/69123976bbbff8d879a9c4ba_rawrr_mantis_x.webp |
 | rawrr-mantis-x-pro | https://voromotors.com/products/rawrr-mantis-x-pro | https://cdn.shopify.com/s/files/1/2476/0976/files/15_12f2f7b6-46ab-4366-a172-07191dc3b657.png?v=1759861910 |
@@ -44,7 +44,7 @@ Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed 
 | arctic-leopard-xe-pro-s | https://arctic-leopard-usa.com/products/arctic-leopard-xe-pro-s | product gallery image |
 | arctic-leopard-xe-pro-r | https://arctic-leopard-usa.com/products/arctic-leopard-xe-pro-r | product gallery image |
 | arctic-leopard-xf | https://arctic-leopard-usa.com/products/arctic-leopard-xf | product gallery image |
-| altis-omega | https://www.altispowersports.com/products/altis-omega | manufacturer studio photo (full frame, feathered edges; stand is in all official photos) |
+| altis-omega | https://www.altispowersports.com/products/altis-omega | manufacturer side-profile studio photo (343b5a4c…jpg), native crop, feathered edges; stand is in all official photos |
 | altis-delta | https://voromotors.com/products/altis-delta | https://cdn.shopify.com/s/files/1/2476/0976/files/20251217-174750.webp?v=1766538788 |
 | rawrr-mantis-mini-r | https://voromotors.com/products/rawrr-mantis-mini-r-best-mini-electric-dirt-bike | https://cdn.shopify.com/s/files/1/2476/0976/files/19_c87224b8-51c8-46cc-9bf2-35c9bfd97c9f.webp?v=1759863379 |
 | storm-bee | kept previous site photo (re-cut) — verify | |
