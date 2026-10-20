@@ -1,0 +1,188 @@
+part_id,bike_id,status,evidence_url,note
+cockpit-surron-oem-throttle,zero-xe,not_compatible,https://chargedpowersports.com/products/oem-replacement-throttle-for-surron-light-bee,Evidence listing is for Sur-Ron Light Bee only
+cockpit-surron-stem,zero-xe,not_compatible,https://shop.sur-ron.com/products/%E8%BD%BB%E8%9C%82%E9%85%8D%E4%BB%B6-%E6%8A%8A%E7%AB%8B,Evidence listing is for Sur-Ron Light Bee only
+drivetrain-eride-chain-kit,zero-xe,not_compatible,https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr,Evidence listing is E Ride Pro SS2.0/SS3.0/SR specific
+drivetrain-eride-belt-pulley,zero-xe,not_compatible,https://www.eridepro.com/products/e7004,E Ride Pro belt pulley; Zero XE is chain drive
+drivetrain-eride-belt,zero-xe,not_compatible,https://www.eridepros.com/product-page/drive-belt,E Ride Pro belt; Zero XE is chain drive
+drivetrain-ventus-chain-kit,zero-xe,not_compatible,https://ventusbikes.us/products/ventus-primary-chain-drive-kit-ventus-oem,Evidence listing is Ventus OEM specific
+electrical-surron-oem-dashboard,zero-xe,not_compatible,https://shop.sur-ron.com/products/light-bee-replacement-dashboard,Evidence listing is for Sur-Ron Light Bee only
+guards-eride-motor-guard,zero-xe,not_compatible,https://www.eridepro.com/products/e7020,Evidence listing is E Ride Pro Pro-S/SS2.0 specific
+guards-ultrabee-skid,zero-xe,not_compatible,https://chargedcycleworks.com/products/skid-plate,Evidence listing is Sur-Ron Ultra Bee specific
+guards-lightbee-chain,zero-xe,not_compatible,https://shop.sur-ron.com/products/sur-ron-chain-protection-box,Evidence listing is for Sur-Ron Light Bee only
+stormbee-upgrade-parts-kit,zero-xe,not_compatible,https://mxpartshop.com/products/for-surron-storm-bee-brake-levers-frame-slider-chain-adjuster-foot-pegs-caliper-guard-disc-guard,Evidence listing is for Sur-Ron Storm Bee only
+linkage-ultrabeemx,zero-xe,not_compatible,https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee,Evidence listing is for Sur-Ron Ultra Bee only
+linkage-ultrabee-emx,zero-xe,not_compatible,https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit,Evidence listing is Ultra Bee specific
+linkage-talaria-mx34,zero-xe,not_compatible,https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4,Evidence listing is Talaria MX3/MX4 specific
+maintenance-lightbee-headset,zero-xe,not_compatible,https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset,Evidence listing is for Sur-Ron Light Bee only
+maintenance-eride-surron-talaria-headset,zero-xe,not_compatible,https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet,Evidence listing covers E Ride Pro/Light Bee/Talaria MX only
+maintenance-lightbee-swingarm-axle,zero-xe,not_compatible,https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee,Evidence listing is for Sur-Ron Light Bee only
+ebmx-xlb-60,zero-xe,not_compatible,https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor,Evidence listing is Light Bee platform motor
+sotion-fw01,zero-xe,not_compatible,https://tbelectricmoto.com/products/sotion-motor-upgrade-for-surron-light-bee-e-moto,Evidence listing is for Sur-Ron Light Bee only
+ebmx-xta-60,zero-xe,not_compatible,https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit,Evidence listing is Talaria platform motor
+sotion-fw02,zero-xe,not_compatible,https://tbelectricmoto.com/products/sotion-motor-upgrade-for-talaria-sting-e-moto-24kw-god-mode,Evidence listing is for Talaria Sting only
+vtb-41kw-ultra-bee,zero-xe,not_compatible,https://chargedcycleworks.com/products/ventus-41-kw-ultra-bee-motor,Evidence listing is Ultra Bee specific motor
+vtb-28kw-light,zero-xe,not_compatible,https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor,Evidence listing is light e-moto/LBX-class motor
+ventus-ryuga-81kw,zero-xe,not_compatible,https://chargedcycleworks.com/products/ventus-ryuga-81kw-motor,Evidence listing is Ventus platform motor
+ventus-ryuga-52kw,zero-xe,not_compatible,https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1,Evidence listing is Ventus platform motor
+torp-tm25,zero-xe,not_compatible,https://chargedcycleworks.com/products/torp-tm25-motor,Report evidence lists motor for Sur-Ron Light Bee platform
+torp-tm40-pro,zero-xe,not_compatible,https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee,Evidence listing is for Sur-Ron Light Bee only
+torp-tm50-offroad-torque-ultrabee,zero-xe,not_compatible,https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee,Evidence listing is for Sur-Ron Ultra Bee only
+torp-tm50-pro-topspeed-ultrabee,zero-xe,not_compatible,https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee,Evidence listing is for Sur-Ron Ultra Bee only
+torp-tm50-speed-ultrabee,zero-xe,not_compatible,https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee,Evidence listing is for Sur-Ron Ultra Bee only
+pegs-ultrabee-oem-brackets,zero-xe,not_compatible,https://surronshop.world/collections/ultra-bee/products/ultra-bee-pegs-brackets,Evidence listing is Sur-Ron Ultra Bee specific
+pegs-ventus-lbx,zero-xe,not_compatible,https://ventusbikes.us/products/surron-lbx-foot-pegs-collective,Evidence listing is for Sur-Ron LBX only
+pegs-tarazon-walmart,zero-xe,not_compatible,https://www.walmart.com/ip/CNC-Billet-Footrest-Foot-Pegs-Pedals-for-Surron-Light-Bee-LBX-E-Dirt-Bike/2079782186,Evidence listing is for Sur-Ron Light Bee LBX only
+luna-float-seat,zero-xe,not_compatible,https://lunacycle.com/sur-ron-float-seat/,Evidence listing is Sur-Ron specific seat
+ventus-graphics,zero-xe,not_compatible,https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem,Evidence listing is Ventus V1 specific graphics
+plastics-talaria-mx4-oem-graphics,zero-xe,not_compatible,https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html,Evidence listing is Talaria Sting R MX4 specific
+plastics-ultrabee-graphics,zero-xe,not_compatible,https://throttleco.store/products/pre-designed-ultrabee-graphics-kit-plastics-only,Evidence listing is Ultra Bee specific graphics
+plastics-lightbee-numberplate,zero-xe,not_compatible,https://shop.sur-ron.com/products/sur-ron-light-bee-front-number-plate,Evidence listing is for Sur-Ron Light Bee only
+ecd-wrap-ultrabee-solid,zero-xe,not_compatible,https://tbelectricmoto.com/products/surron-ultra-bee-solid-color-frame-wrap,Evidence listing is Ultra Bee specific wrap template
+ecd-wrap-talaria-solid,zero-xe,not_compatible,https://tbelectricmoto.com/products/talaria-sting-solid-color-frame-wrap,Evidence listing is Talaria Sting specific wrap template
+ecd-wrap-lbx-solid,zero-xe,not_compatible,https://tbelectricmoto.com/products/surron-lbx-solid-color-frame-wrap,Evidence listing is Sur-Ron LBX specific wrap template
+ecd-wrap-79bike-solid,zero-xe,not_compatible,https://tbelectricmoto.com/products/79bike-solid-color-frame-wrap-m-pro-gt-ventus,Evidence listing is 79Bike specific wrap template
+ecd-wrap-ridge,zero-xe,not_compatible,https://ecdwraps.com/products/79bike-ventusone-ridge,Evidence listing is 79Bike/Ventus One+ specific template
+armysctv-talaria-custom,zero-xe,not_compatible,https://armysctv.com/en/products/kit-deco-100-perso-talaria-sting-mx3-r-mx4,Evidence listing is Talaria MX3/MX4 specific
+ecr-graphics-talaria,zero-xe,not_compatible,https://parts.electriccyclerider.com/products/180-decals-graphics-for-talaria-sting-mx3-mx4,Evidence listing is Talaria MX3/MX4 specific
+rawrr-mantis-graphic-kit,zero-xe,not_compatible,https://www.riderawrr.com/product/mantis-graphic-kit,Evidence listing is Rawrr Mantis specific
+seat-guts-lightbee-cover,zero-xe,not_compatible,https://www.zynxdesigns.us/products/guts-seat-cover-for-surron-light-bee-79bike,Evidence listing is for Sur-Ron Light Bee only
+seat-eride-long-kit,zero-xe,not_compatible,https://www.eridepro.com/products/she8022-long-seat-kits,Evidence listing is E Ride Pro SS2.0/SS3.0/SR specific
+seat-talaria-mx34-oem,zero-xe,not_compatible,https://zealracing.com/products/seat-r-mx4,Evidence listing is Talaria MX3/MX4 specific seat
+street-lightbee-street-kit,zero-xe,not_compatible,https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit,Evidence listing is for Sur-Ron Light Bee X only
+street-project9-talaria,zero-xe,not_compatible,https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit,Evidence listing is Talaria MX4/MX5 specific
+street-tarazon-walmart,zero-xe,not_compatible,https://www.walmart.com/ip/Complete-LED-Street-Legal-Turn-Signal-Light-Kit-for-Sur-Ron-Light-Bee-LB-X-Segway-X160-X260-E-Dirt-Bike/1777590804,Evidence listing is for Sur-Ron Light Bee LB-X/Segway only
+swingarm-surron-oem,zero-xe,not_compatible,https://parts.electriccyclerider.com/products/surron-light-bee-swingarm,Evidence listing is for Sur-Ron Light Bee only
+swingarm-ebmx-extended,zero-xe,not_compatible,https://chargedpowersports.com/products/ebmx-extended-swingarm,Report evidence lists swingarm as Light Bee platform
+swingarm-eride-oem,zero-xe,not_compatible,https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2,Evidence listing is E Ride Pro SS3.0/SR specific
+tire-surron-oem-70100-19,zero-xe,not_compatible,,70/100-19 front tire does not fit 21in front wheel
+tube-rippin-70100-19,zero-xe,not_compatible,,70/100-19 tube does not fit 21/18in wheels
+tire-talaria-cst-70100-19,zero-xe,not_compatible,,Report states 19in front tire; does not fit 21in front wheel
+tire-surron-oem-19,zero-xe,not_compatible,,19in tire does not fit 21/18in wheels
+tire-cst-takeoff-70100-19,zero-xe,not_compatible,,70/100-19 tire does not fit 21/18in wheels
+tire-cst-cm713-80100-19,zero-xe,not_compatible,,80/100-19 rear tire does not fit 18in rear wheel
+tire-cst-oem-70100-19-eu,zero-xe,not_compatible,,70/100-19 tire does not fit 21/18in wheels
+tire-mitas-terraforce-16-ccw,zero-xe,not_compatible,,16in rear tire does not fit 18in rear wheel
+tire-tusk-groundwire-ccw,zero-xe,not_compatible,,19in rear tire per listing does not fit 18in rear wheel
+tire-bridgestone-m204-ccw,zero-xe,not_compatible,,90/100-16 rear tire does not fit 18in rear wheel
+ti-full-kit-lightbee,zero-xe,not_compatible,https://titaniumsurron.com/collections/titanium-bolt-kits,Evidence listing is Light Bee X specific bolt kit
+ti-full-kit-ultrabee,zero-xe,not_compatible,https://titaniumsurron.com/collections/titanium-bolt-kits,Evidence listing is Ultra Bee specific bolt kit
+ti-full-kit-erp,zero-xe,not_compatible,https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp,Evidence listing is E Ride Pro specific bolt kit
+ti-full-kit-talaria-mx,zero-xe,not_compatible,https://titaniumsurron.com/collections/titanium-bolt-kits,Evidence listing is Talaria MX3/MX4/MX5 specific bolt kit
+ti-full-kit-altis-sigma,zero-xe,not_compatible,https://titaniumsurron.com/collections/titanium-bolt-kits,Evidence listing is Altis Sigma specific bolt kit
+ti-full-kit-komodo,zero-xe,not_compatible,https://titaniumsurron.com/collections/titanium-bolt-kits,Evidence listing is Talaria Komodo specific bolt kit
+warp9-chassis-kit-ultrabee,zero-xe,not_compatible,https://faster-minis.com/products/warp9-titanium-chassis-kit-surron-ultra-bee,Evidence listing is for Sur-Ron Ultra Bee only
+warp9-rotor-bolts-boost,zero-xe,confirmed_direct_fit,https://warp9racing.com/products/surron-talaria-boost-spacer-front-rotor-bolts,Evidence page shows M5x16 spec and fits all front hubs; universal rotor bolt
+ti-motor-bolts-erp,zero-xe,not_compatible,https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro,Evidence listing is E Ride Pro specific
+ti-linkage-kit-erp,zero-xe,not_compatible,https://titaniumsurron.com/products/rear-suspension-linkage-bolt-kit-for-e-ride-pro-erp,Evidence listing is E Ride Pro specific
+mxbolts-talaria-kit,zero-xe,not_compatible,https://mxbolts.us/products/talaria-sting-mx-titanium-bolt-kit,Evidence listing is Talaria Sting MX specific
+warp9-1619,zero-xe,not_compatible,,16/19in wheels do not match Zero XE 21/18in wheels
+supermoto-17,zero-xe,not_compatible,,17in wheels do not match Zero XE 21/18in wheels
+wheels-ion-lightbee-eride20,zero-xe,not_compatible,,16/19in wheels do not match Zero XE 21/18in wheels
+wheels-ion-eride30-sr-1619,zero-xe,not_compatible,,16/19in wheels do not match Zero XE 21/18in wheels
+surron-lightbee-oem-charger,rfn-warrior-pro,not_compatible,https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger,Evidence page confirms 67.2V output for 60V Light Bee only; RFN 74V system requires 84V charge voltage
+cockpit-surron-oem-grips,rfn-warrior-pro,confirmed_direct_fit,https://shop.sur-ron.com/products/handle-gripleft-or-right-use,Genuinely universal: standard 22.2mm grips for RFN 22mm bar ends per manual spec; evidence page shows a plain grip pair
+warp9-3in-rise,rfn-warrior-pro,not_compatible,https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria,Evidence page confirms 31.8mm center clamp vs RFN 28.5mm clamp per manual
+prickly-50mm-318,rfn-warrior-pro,not_compatible,https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars,Evidence page confirms 31.8mm center clamp vs RFN 28.5mm clamp per manual
+prickly-50mm-35,rfn-warrior-pro,not_compatible,https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars,Evidence page confirms 35mm center clamp vs RFN 28.5mm clamp per manual
+rippin-moto-rise3,rfn-warrior-pro,not_compatible,https://tbelectricmoto.com/products/rise3-e-moto-handlebars,Evidence page confirms 31.8mm center clamp vs RFN 28.5mm clamp; RFN absent from fitment list
+renthal-fatbar-lite-35,rfn-warrior-pro,not_compatible,https://tbelectricmoto.com/products/renthal-fatbar-lite-35-40mm-rise-gold,Evidence page confirms 35mm clamping diameter vs RFN 28.5mm clamp per manual
+dnm-250x70,rfn-warrior-pro,not_compatible,,250mm eye-to-eye vs RFN stock 330mm shock length per manual
+tech-er30-283,rfn-warrior-pro,not_compatible,,283mm eye-to-eye vs RFN stock 330mm shock length per manual
+tire-surron-oem-70100-19,rfn-warrior-pro,confirmed_direct_fit,https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000,Confirmed per Josh's exact-size tire rule 2026-10-20
+tire-eride-fatty-rear-1009018,rfn-warrior-pro,not_compatible,,18in bead vs RFN 16in rear rim
+tube-rippin-70100-19,rfn-warrior-pro,confirmed_direct_fit,https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria,Confirmed per Josh's exact-size tire rule 2026-10-20
+tire-talaria-cst-70100-19,rfn-warrior-pro,confirmed_direct_fit,https://zealracing.com/products/front-wheel,Confirmed per Josh's exact-size tire rule 2026-10-20
+tires-plews-mx2-rear,rfn-warrior-pro,confirmed_direct_fit,https://ventusbikes.us/products/plews-tires-mx2-matterly-gp-intermediate-all-terrain-motocross-rear-tire,Confirmed per Josh's exact-size tire rule 2026-10-20
+tire-cst-takeoff-70100-19,rfn-warrior-pro,confirmed_direct_fit,https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway,Confirmed per Josh's exact-size tire rule 2026-10-20
+tire-cst-oem-70100-19-eu,rfn-warrior-pro,confirmed_direct_fit,https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll,Confirmed per Josh's exact-size tire rule 2026-10-20
+tire-kenda-washougal3-ccw,rfn-warrior-pro,confirmed_direct_fit,https://chargedcycleworks.com/products/kenda-k7102-washougal-iii,Confirmed per Josh's exact-size tire rule 2026-10-20
+tire-irc-ve33-ccw,rfn-warrior-pro,not_compatible,,100/100-18 size vs RFN 16in rear rim
+tire-michelin-starcross5-ccw,rfn-warrior-pro,confirmed_direct_fit,https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire,Confirmed per Josh's exact-size tire rule 2026-10-20
+tire-tusk-t35-front-ccw,rfn-warrior-pro,not_compatible,,Report states 21in is the only variant vs RFN 19in front rim
+tire-bridgestone-m203-ccw,rfn-warrior-pro,confirmed_direct_fit,https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate,Confirmed per Josh's exact-size tire rule 2026-10-20
+tire-bridgestone-m204-ccw,rfn-warrior-pro,confirmed_direct_fit,https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire,Confirmed per Josh's exact-size tire rule 2026-10-20
+tire-bridgestone-x30-ccw,rfn-warrior-pro,confirmed_direct_fit,https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16,Confirmed per Josh's exact-size tire rule 2026-10-20
+tire-dunlop-mx33-ccw,rfn-warrior-pro,not_compatible,,Only 90/100-18 and 70/100-21 sizes offered; neither matches RFN 19in front or 16in rear rims
+tire-dunlop-mx53-ccw,rfn-warrior-pro,confirmed_direct_fit,https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires,Confirmed per Josh's exact-size tire rule 2026-10-20
+tire-irc-ix09-gekkota-ccw,rfn-warrior-pro,confirmed_direct_fit,https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16,Confirmed per Josh's exact-size tire rule 2026-10-20
+charged-brake-pads-emoto,arctic-leopard-xe-pro-s,confirmed_direct_fit,https://chargedcycleworks.com/products/performance-brake-pads-for-emoto,CCW fitment list explicitly names Arctic Leopard XE Pro S
+surron-lightbee-oem-charger,arctic-leopard-xe-pro-s,not_compatible,https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger,Evidence shows 67.2V charger for 60V Light Bee only; XE Pro S is a 74V system
+warp9-3in-rise,arctic-leopard-xe-pro-s,confirmed_direct_fit,https://chargedcycleworks.com/collections/arctic-leopard-xe-pro-xe-pro-s,CCW Arctic Leopard XE Pro / XE Pro S collection lists this handlebar
+guts-seat-cover,arctic-leopard-xe-pro-s,confirmed_direct_fit,https://tbelectricmoto.com/products/guts-custom-seat-cover,Seller fitment list names Arctic Leopard XE Pro S / Pro S Enduro / Pro R
+luna-float-seat,arctic-leopard-xe-pro-s,not_compatible,https://lunacycle.com/sur-ron-float-seat/,Evidence shows fitment only for Sur-Ron Light Bee X and Light Bee S
+ventus-graphics,arctic-leopard-xe-pro-s,not_compatible,https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem,Evidence shows product is Ventus V1+ OEM graphics cut for Ventus plastics
+swingarm-ebmx-extended,arctic-leopard-xe-pro-s,not_compatible,https://tbelectricmoto.com/products/ebmx-extended-swingarm-for-surron-and-e-ride-pro,Seller states not compatible with any bike not listed; XE Pro S is not listed
+tire-eride-fatty-rear-1009018,arctic-leopard-xe-pro-s,not_compatible,,Concrete dimensional contradiction: 18in tire versus 19in front and 16in rear wheels
+tire-tusk-t35-front-ccw,arctic-leopard-xe-pro-s,not_compatible,,Concrete dimensional contradiction: 21in front tire versus 19in front wheel
+drivetrain-eride-chain-kit,arctic-leopard-xe-pro-s-enduro,not_compatible,,420 chain pitch in product name vs Enduro 428 chain per manual
+drivetrain-eride-belt-pulley,arctic-leopard-xe-pro-s-enduro,not_compatible,,Belt-drive pulley part vs Enduro chain direct-drive
+drivetrain-eride-belt,arctic-leopard-xe-pro-s-enduro,not_compatible,,Drive belt part vs Enduro chain direct-drive
+komodo-chain-520,arctic-leopard-xe-pro-s-enduro,not_compatible,,520 chain pitch in product name vs Enduro 428 chain per manual
+warp9-3in-rise,arctic-leopard-xe-pro-s-enduro,confirmed_direct_fit,https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria,Evidence page shows universal 31.8mm center clamp spec; standard bar fits Enduro 31.8mm clamp
+prickly-50mm-35,arctic-leopard-xe-pro-s-enduro,not_compatible,,35mm clamp in product name vs Enduro 31.8mm stock clamp
+factoryz-3in-rise,arctic-leopard-xe-pro-s-enduro,confirmed_direct_fit,https://factoryz.co/products/surron-handlebar-3-inch-rise,Evidence page shows universal 31.8mm clamp diameter spec; standard bar fits Enduro 31.8mm clamp
+rippin-moto-rise3,arctic-leopard-xe-pro-s-enduro,confirmed_direct_fit,https://tbelectricmoto.com/products/rise3-e-moto-handlebars,Evidence page shows 31.8mm clamp and 22.2mm control ends and lists Arctic Leopard XE family; universal standard bar fit
+renthal-fatbar-lite-35,arctic-leopard-xe-pro-s-enduro,not_compatible,,35mm clamp vs Enduro 31.8mm stock clamp
+tire-surron-oem-70100-19,arctic-leopard-xe-pro-s-enduro,not_compatible,,19in tire in product name vs Enduro 21in front wheel
+tire-eride-fatty-rear-1009018,arctic-leopard-xe-pro-s-enduro,confirmed_direct_fit,https://www.eridepro.com/products/e7235-1,Confirmed per Josh's exact-size tire rule 2026-10-20
+tube-rippin-70100-19,arctic-leopard-xe-pro-s-enduro,not_compatible,,19in tube in product name vs Enduro 21/18 wheels
+tire-talaria-cst-70100-19,arctic-leopard-xe-pro-s-enduro,not_compatible,,Report states 19in Talaria OEM front tire vs Enduro 21in front wheel
+tires-plews-mx2-rear,arctic-leopard-xe-pro-s-enduro,not_compatible,,Report states 90/100-16 size vs Enduro 18in rear wheel
+tire-surron-oem-19,arctic-leopard-xe-pro-s-enduro,not_compatible,,19in tire in product name vs Enduro 21/18 wheels
+tire-cst-takeoff-70100-19,arctic-leopard-xe-pro-s-enduro,not_compatible,,19in tire in product name vs Enduro 21/18 wheels
+tire-cst-cm713-80100-19,arctic-leopard-xe-pro-s-enduro,not_compatible,,19in tire in product name vs Enduro 18in rear wheel
+tire-cst-oem-70100-19-eu,arctic-leopard-xe-pro-s-enduro,not_compatible,,19in tire in product name vs Enduro 21/18 wheels
+tire-mitas-terraforce-16-ccw,arctic-leopard-xe-pro-s-enduro,not_compatible,,16in tire in product name vs Enduro 18in rear wheel
+tire-tusk-t35-front-ccw,arctic-leopard-xe-pro-s-enduro,confirmed_direct_fit,https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire,Confirmed per Josh's exact-size tire rule 2026-10-20
+tire-tusk-t35-rear-ccw,arctic-leopard-xe-pro-s-enduro,not_compatible,,Report states 16in per product listing vs Enduro 18in rear wheel
+tire-tusk-recon-ccw,arctic-leopard-xe-pro-s-enduro,not_compatible,,Report states 19in per product listing vs Enduro 21/18 wheels
+tire-tusk-groundwire-ccw,arctic-leopard-xe-pro-s-enduro,not_compatible,,Report states 19in rear per product listing vs Enduro 18in rear wheel
+tire-bridgestone-m204-ccw,arctic-leopard-xe-pro-s-enduro,not_compatible,,Report states 90/100-16 size vs Enduro 18in rear wheel
+tire-bridgestone-x30-ccw,arctic-leopard-xe-pro-s-enduro,not_compatible,,Report states 90/100-16 size vs Enduro 18in rear wheel
+tire-shinko-sr241-ccw,arctic-leopard-xe-pro-s-enduro,not_compatible,,Report states 2.75-19 size vs Enduro 21/18 wheels
+tire-irc-ix09-gekkota-ccw,arctic-leopard-xe-pro-s-enduro,not_compatible,,Report states 90/100-16 size vs Enduro 18in rear wheel
+warp9-1619,arctic-leopard-xe-pro-s-enduro,not_compatible,,16/19 wheelset vs Enduro 21/18 wheels
+supermoto-17,arctic-leopard-xe-pro-s-enduro,not_compatible,,17in wheels vs Enduro 21/18 wheels
+wheels-ion-lightbee-eride20,arctic-leopard-xe-pro-s-enduro,not_compatible,,16/19 wheels vs Enduro 21/18 wheels
+wheels-ion-eride30-sr-1619,arctic-leopard-xe-pro-s-enduro,not_compatible,,16/19 wheels vs Enduro 21/18 wheels
+sirris-f43-cmx-light-bee,arctic-leopard-xe-pro-r,confirmed_direct_fit,https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-r,"Evidence page is a dedicated SKU naming Arctic Leopard XE Pro R exactly, with XE Pro R wheel spacers and 240mm rotor bracket"
+tire-surron-oem-70100-19,arctic-leopard-xe-pro-r,not_compatible,,19-inch front tire cannot mount on the XE Pro R 21-inch front rim
+tube-rippin-70100-19,arctic-leopard-xe-pro-r,not_compatible,,19-inch inner tube is the wrong diameter for the XE Pro R 21/18-inch wheels
+tire-talaria-cst-70100-19,arctic-leopard-xe-pro-r,not_compatible,,19-inch front tire cannot mount on the XE Pro R 21-inch front rim
+tire-surron-oem-19,arctic-leopard-xe-pro-r,not_compatible,,19-inch tire matches neither the XE Pro R 21-inch front nor 18-inch rear rim
+tire-cst-takeoff-70100-19,arctic-leopard-xe-pro-r,not_compatible,,19-inch tire matches neither the XE Pro R 21-inch front nor 18-inch rear rim
+tire-cst-cm713-80100-19,arctic-leopard-xe-pro-r,not_compatible,,19-inch rear tire cannot mount on the XE Pro R 18-inch rear rim
+tire-cst-oem-70100-19-eu,arctic-leopard-xe-pro-r,not_compatible,,19-inch tire matches neither the XE Pro R 21-inch front nor 18-inch rear rim
+tire-mitas-terraforce-16-ccw,arctic-leopard-xe-pro-r,not_compatible,,16-inch rear tire cannot mount on the XE Pro R 18-inch rear rim
+tire-tusk-t35-front-ccw,arctic-leopard-xe-pro-r,confirmed_direct_fit,https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire,"Evidence page lists an 80/100-21 variant, the exact stock front tire size for the XE Pro R (universal tire sizing)"
+tire-tusk-t35-rear-ccw,arctic-leopard-xe-pro-r,not_compatible,,16-inch rear tire (per catalog listing URL) cannot mount on the XE Pro R 18-inch rear rim
+tire-tusk-recon-ccw,arctic-leopard-xe-pro-r,not_compatible,,19-inch tire (per catalog listing URL) matches neither the XE Pro R 21-inch front nor 18-inch rear rim
+tire-tusk-groundwire-ccw,arctic-leopard-xe-pro-r,not_compatible,,19-inch rear tire (per catalog listing URL) cannot mount on the XE Pro R 18-inch rear rim
+tire-bridgestone-m204-ccw,arctic-leopard-xe-pro-r,not_compatible,,90/100-16 rear tire (per catalog listing URL) cannot mount on the XE Pro R 18-inch rear rim
+tire-bridgestone-x30-ccw,arctic-leopard-xe-pro-r,not_compatible,,90/100-16 rear tire (per catalog listing URL) cannot mount on the XE Pro R 18-inch rear rim
+tire-shinko-sr241-ccw,arctic-leopard-xe-pro-r,not_compatible,,2.75x19 tire is the wrong diameter for the XE Pro R 21/18-inch wheels
+tire-irc-ix09-gekkota-ccw,arctic-leopard-xe-pro-r,not_compatible,,90/100-16 rear tire (per catalog listing URL) cannot mount on the XE Pro R 18-inch rear rim
+warp9-260mm-bracket-ultrabee,arctic-leopard-xf,not_compatible,,Bracket for 260mm rotor vs XF 220mm front rotor - dimensional mismatch
+surron-lightbee-oem-charger,arctic-leopard-xf,not_compatible,,67.2V charger for 60V system cannot correctly charge XF 72V pack
+rippin-moto-rise3,arctic-leopard-xf,confirmed_direct_fit,https://revrides.com/products/arctic-leopard-xf-mini-electric-dirt-bike,REV Rides Arctic Leopard XF bike page offers RISE3 as a bundle option for that bike
+ext-arma-mx,arctic-leopard-xf,confirmed_direct_fit,https://revrides.com/products/ext-arma-mx-e-mx-damper-shock-surron-talaria-e-ride-pro-altis-sigma-mantis-x,REV Rides fitment list includes Arctic Leopard XF Pro and Arctic Leopard XF S
+tire-surron-oem-70100-19,arctic-leopard-xf,not_compatible,,19-inch tire cannot mount on XF 17-inch front rim
+tire-eride-fatty-rear-1009018,arctic-leopard-xf,not_compatible,,18-inch tire cannot mount on XF 14-inch rear rim
+tube-rippin-70100-19,arctic-leopard-xf,not_compatible,,19-inch tube sized for 19-inch tire; XF uses 17/14-inch tires
+tire-talaria-cst-70100-19,arctic-leopard-xf,not_compatible,,Report states 19-inch Talaria fitment; cannot mount on XF 17-inch front rim
+tire-surron-oem-19,arctic-leopard-xf,not_compatible,,19-inch tire cannot mount on XF 17-inch front rim
+tire-cst-takeoff-70100-19,arctic-leopard-xf,not_compatible,,19-inch tire cannot mount on XF 17-inch front rim
+tire-cst-cm713-80100-19,arctic-leopard-xf,not_compatible,,19-inch tire cannot mount on XF 14-inch rear rim
+tire-cst-oem-70100-19-eu,arctic-leopard-xf,not_compatible,,19-inch tire cannot mount on XF 17-inch front rim
+tire-mitas-terraforce-16-ccw,arctic-leopard-xf,not_compatible,,16-inch tire cannot mount on XF 14-inch rear rim
+tire-tusk-t35-front-ccw,arctic-leopard-xf,not_compatible,,Product specifies 21-inch front; cannot mount on XF 17-inch rim
+tire-tusk-t35-rear-ccw,arctic-leopard-xf,not_compatible,,Product specifies 16-inch rear; cannot mount on XF 14-inch rim
+tire-tusk-recon-ccw,arctic-leopard-xf,not_compatible,,Product specifies 19-inch; XF uses 17/14-inch rims
+tire-tusk-groundwire-ccw,arctic-leopard-xf,not_compatible,,Product specifies 19-inch rear; cannot mount on XF 14-inch rim
+tire-bridgestone-m204-ccw,arctic-leopard-xf,not_compatible,,Product specifies 90/100x16; cannot mount on XF 14-inch rim
+tire-bridgestone-x30-ccw,arctic-leopard-xf,not_compatible,,Product specifies 90/100x16; cannot mount on XF 14-inch rim
+tire-shinko-sr241-ccw,arctic-leopard-xf,not_compatible,,Product specifies 2.75x19; XF uses 17/14-inch rims
+tire-irc-ix09-gekkota-ccw,arctic-leopard-xf,not_compatible,,Product specifies 90/100x16; cannot mount on XF 14-inch rim
+charged-21-front-wheel-ultrabee,arctic-leopard-xf,not_compatible,,21-inch front wheel vs XF 17-inch front wheel - size mismatch
+ion-18-21-ultrabee,arctic-leopard-xf,not_compatible,,18/21-inch wheelset vs XF 17/14-inch wheels - size mismatch
+kke-18-21-ultrabee,arctic-leopard-xf,not_compatible,,18/21-inch wheels vs XF 17/14-inch wheels - size mismatch
