@@ -442,6 +442,27 @@ var CATEGORIES = [
      fits:["ultrabee"], likely:[], no:[],
      badge:'Sirris', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/sirris-f43-ultra-bee.webp'
     },
+    {name:'Sirris F43 Fork (Zero XE)', pid:'sirris-f43-zero-xe', tier:'premium',
+     prices:[
+      {v:'SIRRIS', p:2250, url:'https://ridesirris.com/products/f43-xe-trail-tune-lsc-220-mm-travel-zero-xe', chk:'2026-10-21'},
+     ],
+     fits:["zero-xe"], likely:[], no:[],
+     badge:'Sirris', stock:'out_of_stock', stockChk:'2026-10-21', wtKg:10, img:'img/parts/sirris-f43-zero-xe.webp'
+    },
+    {name:'Sirris F43 CMX Fork (Arctic Leopard XE Pro S/Enduro)', pid:'sirris-f43-cmx-arctic-leopard-xe-pro-s', tier:'premium',
+     prices:[
+      {v:'SIRRIS', p:2350, url:'https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-s', chk:'2026-10-21'},
+     ],
+     fits:["arctic-leopard-xe-pro-s","arctic-leopard-xe-pro-s-enduro"], likely:[], no:[],
+     badge:'Sirris', stock:'in_stock', stockChk:'2026-10-21', wtKg:8, img:'img/parts/sirris-f43-cmx-arctic-leopard-xe-pro-s.webp'
+    },
+    {name:'Sirris F43 CMX Fork (Arctic Leopard XE Pro R)', pid:'sirris-f43-cmx-arctic-leopard-xe-pro-r', tier:'premium',
+     prices:[
+      {v:'SIRRIS', p:2350, url:'https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-r', chk:'2026-10-21'},
+     ],
+     fits:["arctic-leopard-xe-pro-r"], likely:[], no:[],
+     badge:'Sirris', stock:'in_stock', stockChk:'2026-10-21', wtKg:8, img:'img/parts/sirris-f43-cmx-arctic-leopard-xe-pro-r.webp'
+    },
     {name:'RFLOXA Ultra43 Front Fork', pid:'rfloxa-ultra43', tier:'premium',
      prices:[
       {v:'Alien Rides', p:1526, url:'https://alienrides.com/products/rfloxa-ultra43', chk:'2026-10-18'},
@@ -558,6 +579,13 @@ var CATEGORIES = [
      ],
      fits:["ultrabee"], likely:[], no:[],
      badge:'Sirris', stock:'in_stock', stockChk:'2026-10-18', wtKg:1.76, img:'img/parts/sirris-r46-ultrabee.webp'
+    },
+    {name:'Sirris R46 Shock for Zero XE', pid:'sirris-r46-zero-xe', tier:'performance',
+     prices:[
+      {v:'SIRRIS', p:899, url:'https://ridesirris.com/products/r46-zero-xe-trail-tune-lsc-zero-xe', chk:'2026-10-21'},
+     ],
+     fits:["zero-xe"], likely:[], no:[],
+     badge:'Sirris', stock:'out_of_stock', stockChk:'2026-10-21', wtKg:1.76, img:'img/parts/sirris-r46-zero-xe.webp'
     },
     {name:"E Ride Pro SS OEM Rear Shock (E7025)", pid:'voro-eride-ss-rear-shock', tier:'OEM',
      prices:[
@@ -2564,7 +2592,6 @@ Object.assign(FITMENT,{
   'supermoto-17|arctic-leopard-xe-pro-s-enduro':{s:'not_compatible',n:'17in wheels vs Enduro 21/18 wheels',u:[]},
   'wheels-ion-lightbee-eride20|arctic-leopard-xe-pro-s-enduro':{s:'not_compatible',n:'16/19 wheels vs Enduro 21/18 wheels',u:[]},
   'wheels-ion-eride30-sr-1619|arctic-leopard-xe-pro-s-enduro':{s:'not_compatible',n:'16/19 wheels vs Enduro 21/18 wheels',u:[]},
-  'sirris-f43-cmx-light-bee|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'Evidence page is a dedicated SKU naming Arctic Leopard XE Pro R exactly, with XE Pro R wheel spacers and 240mm rotor bracket',u:['https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-r']},
   'tire-surron-oem-70100-19|arctic-leopard-xe-pro-r':{s:'not_compatible',n:'19-inch front tire cannot mount on the XE Pro R 21-inch front rim',u:[]},
   'tube-rippin-70100-19|arctic-leopard-xe-pro-r':{s:'not_compatible',n:'19-inch inner tube is the wrong diameter for the XE Pro R 21/18-inch wheels',u:[]},
   'tire-talaria-cst-70100-19|arctic-leopard-xe-pro-r':{s:'not_compatible',n:'19-inch front tire cannot mount on the XE Pro R 21-inch front rim',u:[]},
@@ -2605,4 +2632,22 @@ Object.assign(FITMENT,{
   'charged-21-front-wheel-ultrabee|arctic-leopard-xf':{s:'not_compatible',n:'21-inch front wheel vs XF 17-inch front wheel - size mismatch',u:[]},
   'ion-18-21-ultrabee|arctic-leopard-xf':{s:'not_compatible',n:'18/21-inch wheelset vs XF 17/14-inch wheels - size mismatch',u:[]},
   'kke-18-21-ultrabee|arctic-leopard-xf':{s:'not_compatible',n:'18/21-inch wheels vs XF 17/14-inch wheels - size mismatch',u:[]},
+});
+
+// 2026-10-21 import: 4 staged SIRRIS products (Zero XE F43 fork + R46 shock; dedicated CMX forks for Arctic Leopard XE Pro S/Enduro and XE Pro R)
+Object.assign(FITMENT, {
+  'sirris-f43-zero-xe|zero-xe':{s:'confirmed_direct_fit',n:'SIRRIS product page is a dedicated Zero XE SKU: "F43 XE Trail Tune | LSC | 220 mm Travel | Zero XE", described as a direct-fit upgrade for the XE platform (checked Oct 21, 2026)',u:['https://ridesirris.com/products/f43-xe-trail-tune-lsc-220-mm-travel-zero-xe']},
+  'sirris-r46-zero-xe|zero-xe':{s:'confirmed_direct_fit',n:'SIRRIS product page is a dedicated Zero XE SKU: "R46 Zero XE Trail Tune | LSC | Zero XE", described as a direct-fit upgrade developed around the XE platform (checked Oct 21, 2026)',u:['https://ridesirris.com/products/r46-zero-xe-trail-tune-lsc-zero-xe']},
+  'sirris-f43-cmx-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'SIRRIS product page names Arctic Leopard XE Pro S; description: "This fork fits both the XE Pro S and Enduro models" (checked Oct 21, 2026)',u:['https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-s']},
+  'sirris-f43-cmx-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s-enduro':{s:'confirmed_direct_fit',n:'Same SIRRIS SKU; product tagged "Arctic Leopard XE Pro S Enduro" and description states it fits both the XE Pro S and Enduro models (checked Oct 21, 2026)',u:['https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-s']},
+  'sirris-f43-cmx-arctic-leopard-xe-pro-r|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'SIRRIS product page is a dedicated SKU naming Arctic Leopard XE Pro R exactly, with XE Pro R wheel spacers and 240mm rotor bracket (checked Oct 21, 2026)',u:['https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-r']},
+});
+
+// 2026-10-21 import: 5 XE Pro S tire flips per owner exact-size rule (stock front 70/100-19, stock rear 90/100-16)
+Object.assign(FITMENT, {
+  'tire-surron-oem-70100-19|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'Stock XE Pro S front tire 70/100-19 verified Oct 21 2026; exact-size match per owner tire rule',u:['https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-cst-takeoff-70100-19|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'Stock XE Pro S front tire 70/100-19 verified Oct 21 2026; exact-size match per owner tire rule',u:['https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s']},
+  'tire-cst-oem-70100-19-eu|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'Stock XE Pro S front tire 70/100-19 verified Oct 21 2026; exact-size match per owner tire rule',u:['https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s']},
+  'tire-mitas-terraforce-16-ccw|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW states 90/100-16 = XE Pro S stock rear size; exact-size match per owner tire rule',u:['https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s','https://chargedcycleworks.com/products/mitas-terra-force-mx-super-light-16-rear-tire']},
+  'tire-tusk-t35-rear-ccw|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW lists 90/100-16 variant = XE Pro S stock rear size; exact-size match per owner tire rule',u:['https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s','https://chargedcycleworks.com/collections/surron-tires/products/tusk-t-35-soft-intermediate-terrain-rear-16-tire']},
 });
