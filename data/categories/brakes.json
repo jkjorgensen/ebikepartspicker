@@ -617,40 +617,7 @@
       "stock_status": "in_stock",
       "notes": "Fitment from the seller listing title; other bikes not verified.",
       "source_urls": [
-        "https://revrides.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts"
-      ],
-      "last_checked": "2026-10-27",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
-      },
-      "_fit_src": {
-        "ultrabee": "https://revrides.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts"
-      },
-      "vendors": [
-        {
-          "vendor": "REV Rides",
-          "price_usd": 7.99,
-          "buy_url": "https://revrides.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": "img/parts/revrides-titanium-surron-ultra-bee-brake-reservoir-cap-bolts.webp"
-    },
-    {
-      "id": "gritshift-titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee",
-      "name": "Titanium Surron Brake Reservoir Cap Bolts - Sur Ron Ultra Bee",
-      "brand": "Titanium Surron",
-      "category": "brakes",
-      "price_usd": 7.99,
-      "vendor": "GritShift",
-      "buy_url": "https://gritshift.com/products/titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee",
-      "tier": "budget",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "Fitment from the seller listing title; other bikes not verified.",
-      "source_urls": [
+        "https://revrides.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts",
         "https://gritshift.com/products/titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee"
       ],
       "last_checked": "2026-10-27",
@@ -664,13 +631,18 @@
       },
       "vendors": [
         {
+          "vendor": "REV Rides",
+          "price_usd": 7.99,
+          "buy_url": "https://revrides.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts"
+        },
+        {
           "vendor": "GritShift",
           "price_usd": 7.99,
           "buy_url": "https://gritshift.com/products/titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee"
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/gritshift-titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee.webp"
+      "image": "img/parts/revrides-titanium-surron-ultra-bee-brake-reservoir-cap-bolts.webp"
     },
     {
       "id": "howlingmoto-surron-ultra-bee-brake-caliper-pad-pin-oem-replacement-shi",
@@ -977,6 +949,140 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-ebike-garage-foot-brake-kit-for-79bike-ventus-one-formu.webp"
+    },
+    {
+      "id": "tbelectricmoto-ebike-garage-foot-brake-kit-for-79bike-ventus-one",
+      "name": "EBIKE Garage Foot Brake Kit For 79Bike / Ventus One",
+      "brand": "EBIKE GARAGE",
+      "category": "brakes",
+      "price_usd": 308.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-79bike-ventus-one",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified. Listed for Ventus One; One Plus fit is likely but not confirmed by the seller.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-79bike-ventus-one"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Ventus One Plus": "likely_fit"
+      },
+      "_fit_src": {},
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 308.0,
+          "buy_url": "https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-79bike-ventus-one"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-ebike-garage-foot-brake-kit-for-79bike-ventus-one.webp"
+    },
+    {
+      "id": "tbelectricmoto-ventus-one-brake-pads",
+      "name": "Brake Pads for Ventus One and Rerode",
+      "brand": "Ventus",
+      "category": "brakes",
+      "price_usd": 20.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/ventus-one-brake-pads",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified. Listed for Ventus One; One Plus fit is likely but not confirmed by the seller.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/ventus-one-brake-pads"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Ventus One Plus": "likely_fit"
+      },
+      "_fit_src": {},
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 20.0,
+          "buy_url": "https://tbelectricmoto.com/products/ventus-one-brake-pads"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-ventus-one-brake-pads.webp"
+    },
+    {
+      "id": "tbelectricmoto-e-ride-pro-sr-regen-brake",
+      "name": "E Ride Pro SR Regen Brake",
+      "brand": "E-Ride Pro",
+      "category": "brakes",
+      "price_usd": 25.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/e-ride-pro-sr-regen-brake",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/e-ride-pro-sr-regen-brake"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://tbelectricmoto.com/products/e-ride-pro-sr-regen-brake"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 25.0,
+          "buy_url": "https://tbelectricmoto.com/products/e-ride-pro-sr-regen-brake"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-e-ride-pro-sr-regen-brake.webp"
+    },
+    {
+      "id": "howlingmoto-eride-pro-sr-3-0-brake-pads-talaria-mx5",
+      "name": "Eride Pro SR / 3.0 Brake Pads Talaria MX5",
+      "brand": "FactoryZ",
+      "category": "brakes",
+      "price_usd": 29.99,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/eride-pro-sr-3-0-brake-pads-talaria-mx5",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/eride-pro-sr-3-0-brake-pads-talaria-mx5"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://howlingmoto.com/products/eride-pro-sr-3-0-brake-pads-talaria-mx5",
+        "sr": "https://howlingmoto.com/products/eride-pro-sr-3-0-brake-pads-talaria-mx5"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 29.99,
+          "buy_url": "https://howlingmoto.com/products/eride-pro-sr-3-0-brake-pads-talaria-mx5"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-eride-pro-sr-3-0-brake-pads-talaria-mx5.webp"
     }
   ],
   "compatibility": [

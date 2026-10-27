@@ -913,6 +913,38 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-talaria-komodo-oem-replacement-front-fender.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-fender-ventus-oem",
+      "name": "Ventus One - OEM Rear Fender",
+      "brand": "Pinned Electric",
+      "category": "plastics",
+      "price_usd": 26.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-fender-ventus-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified. Listed for Ventus One; One Plus fit is likely but not confirmed by the seller.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-fender-ventus-oem"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Ventus One Plus": "likely_fit"
+      },
+      "_fit_src": {},
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 26.0,
+          "buy_url": "https://chargedcycleworks.com/products/rear-fender-ventus-oem"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-rear-fender-ventus-oem.webp"
     }
   ],
   "compatibility": [
