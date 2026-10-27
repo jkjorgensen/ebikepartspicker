@@ -60,7 +60,7 @@
       "category": "drivetrain",
       "price_usd": 49.95,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-pulley-for-e-ride-pro-ss",
+      "buy_url": "https://voromotors.com/products/drive-belt-pulley-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": true,
       "stock_status": "in_stock",
@@ -94,8 +94,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 49.95,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-pulley-for-e-ride-pro-ss",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/drive-belt-pulley-for-e-ride-pro-ss",
+          "affiliate": false
         },
         {
           "vendor": "E Ride Pro",
@@ -113,7 +113,7 @@
       "category": "drivetrain",
       "price_usd": 64.95,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-for-e-ride-pro-ss",
+      "buy_url": "https://voromotors.com/products/drive-belt-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -145,8 +145,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 64.95,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdrive-belt-for-e-ride-pro-ss",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/drive-belt-for-e-ride-pro-ss",
+          "affiliate": false
         }
       ],
       "weight_delta_kg": null
@@ -215,7 +215,7 @@
       "category": "drivetrain",
       "price_usd": 39.95,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F114-link-gold-chain-for-e-ride-pro-ss",
+      "buy_url": "https://voromotors.com/products/114-link-gold-chain-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -228,8 +228,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 39.95,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F114-link-gold-chain-for-e-ride-pro-ss",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/114-link-gold-chain-for-e-ride-pro-ss",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-eride-ss-gold-chain.webp"
@@ -241,7 +241,7 @@
       "category": "drivetrain",
       "price_usd": 13.95,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fsprockets-for-e-ride-pro-ss",
+      "buy_url": "https://voromotors.com/products/sprockets-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -254,8 +254,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 13.95,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fsprockets-for-e-ride-pro-ss",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/sprockets-for-e-ride-pro-ss",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-eride-ss-sprockets.webp"

@@ -473,7 +473,7 @@
       "category": "brakes",
       "price_usd": 19.95,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss",
+      "buy_url": "https://voromotors.com/products/brake-pad-kit-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -486,8 +486,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 19.95,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/brake-pad-kit-for-e-ride-pro-ss",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-eride-ss20-brake-pads.webp"
@@ -499,7 +499,7 @@
       "category": "brakes",
       "price_usd": 27.0,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss-3-0",
+      "buy_url": "https://voromotors.com/products/brake-pad-kit-for-e-ride-pro-ss-3-0",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -512,8 +512,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 27.0,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pad-kit-for-e-ride-pro-ss-3-0",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/brake-pad-kit-for-e-ride-pro-ss-3-0",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-eride-ss30-brake-pads.webp"
@@ -525,7 +525,7 @@
       "category": "brakes",
       "price_usd": 16.0,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-altis-sigma",
+      "buy_url": "https://voromotors.com/products/brake-pads-for-altis-sigma",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -538,8 +538,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 16.0,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-altis-sigma",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/brake-pads-for-altis-sigma",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-altis-sigma-brake-pads.webp"
@@ -551,7 +551,7 @@
       "category": "brakes",
       "price_usd": 59.95,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-xe-pro-r",
+      "buy_url": "https://voromotors.com/products/brake-pads-for-xe-pro-r",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -564,8 +564,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 59.95,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fbrake-pads-for-xe-pro-r",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/brake-pads-for-xe-pro-r",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-xepror-ultrabee-brake-pads.webp"

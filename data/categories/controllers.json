@@ -1081,7 +1081,7 @@
       "category": "controller",
       "price_usd": 699.0,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F74v-controller-for-ultra-bee",
+      "buy_url": "https://voromotors.com/products/74v-controller-for-ultra-bee",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -1094,8 +1094,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 699.0,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F74v-controller-for-ultra-bee",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/74v-controller-for-ultra-bee",
+          "affiliate": false
         }
       ],
       "image": null
@@ -1107,7 +1107,7 @@
       "category": "controller",
       "price_usd": 360.0,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F72v-controller-for-e-ride-pro-ss",
+      "buy_url": "https://voromotors.com/products/72v-controller-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -1120,8 +1120,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 360.0,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F72v-controller-for-e-ride-pro-ss",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/72v-controller-for-e-ride-pro-ss",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-eride-ss-72v-controller.webp"
@@ -1133,7 +1133,7 @@
       "category": "controller",
       "price_usd": 999.95,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F98v-controller-for-altis-sigma",
+      "buy_url": "https://voromotors.com/products/98v-controller-for-altis-sigma",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -1146,8 +1146,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 999.95,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2F98v-controller-for-altis-sigma",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/98v-controller-for-altis-sigma",
+          "affiliate": false
         }
       ],
       "image": null
