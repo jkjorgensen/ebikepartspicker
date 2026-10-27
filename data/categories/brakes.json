@@ -569,6 +569,108 @@
         }
       ],
       "image": "img/parts/voro-xepror-ultrabee-brake-pads.webp"
+    },
+    {
+      "id": "tbelectricmoto-titanium-surron-ultra-bee-brake-reservoir-cap-bolts",
+      "name": "Titanium Surron Ultra Bee Brake Reservoir Cap Bolts",
+      "brand": "Titanium Surron",
+      "category": "brakes",
+      "price_usd": 7.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://tbelectricmoto.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 7.99,
+          "buy_url": "https://tbelectricmoto.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-titanium-surron-ultra-bee-brake-reservoir-cap-bolts.webp"
+    },
+    {
+      "id": "revrides-titanium-surron-ultra-bee-brake-reservoir-cap-bolts",
+      "name": "Titanium Brake Reservoir Bolts | Surron Ultra Bee",
+      "brand": "Titanium Surron",
+      "category": "brakes",
+      "price_usd": 7.99,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://revrides.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 7.99,
+          "buy_url": "https://revrides.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-titanium-surron-ultra-bee-brake-reservoir-cap-bolts.webp"
+    },
+    {
+      "id": "gritshift-titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee",
+      "name": "Titanium Surron Brake Reservoir Cap Bolts - Sur Ron Ultra Bee",
+      "brand": "Titanium Surron",
+      "category": "brakes",
+      "price_usd": 7.99,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://gritshift.com/products/titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://gritshift.com/products/titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 7.99,
+          "buy_url": "https://gritshift.com/products/titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/gritshift-titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee.webp"
     }
   ],
   "compatibility": [

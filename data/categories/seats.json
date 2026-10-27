@@ -119,6 +119,144 @@
         }
       ],
       "image": "img/parts/voro-eride-ss-seat.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-seat-spacer-surron-ultra-bee",
+      "name": "Warp9 Ultra Bee Seat Spacer",
+      "brand": "Warp9Racing",
+      "category": "seats",
+      "price_usd": 9.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-seat-spacer-surron-ultra-bee",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-seat-spacer-surron-ultra-bee"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://chargedcycleworks.com/products/warp9-seat-spacer-surron-ultra-bee"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-seat-spacer-surron-ultra-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-warp9-seat-spacer-surron-ultra-bee.webp"
+    },
+    {
+      "id": "tbelectricmoto-warp-9-surron-ultra-bee-seat-spacer",
+      "name": "Warp 9 Surron Ultra Bee Seat Spacer",
+      "brand": "Warp 9",
+      "category": "seats",
+      "price_usd": 9.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/warp-9-surron-ultra-bee-seat-spacer",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/warp-9-surron-ultra-bee-seat-spacer"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://tbelectricmoto.com/products/warp-9-surron-ultra-bee-seat-spacer"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 9.0,
+          "buy_url": "https://tbelectricmoto.com/products/warp-9-surron-ultra-bee-seat-spacer"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-warp-9-surron-ultra-bee-seat-spacer.webp"
+    },
+    {
+      "id": "revrides-ultra-bee-seat-catch-spacer-by-warp-9-racing",
+      "name": "Ultra Bee Seat Catch Spacer | By Warp 9 Racing",
+      "brand": "Warp 9",
+      "category": "seats",
+      "price_usd": 9.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/ultra-bee-seat-catch-spacer-by-warp-9-racing",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/ultra-bee-seat-catch-spacer-by-warp-9-racing"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://revrides.com/products/ultra-bee-seat-catch-spacer-by-warp-9-racing"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 9.0,
+          "buy_url": "https://revrides.com/products/ultra-bee-seat-catch-spacer-by-warp-9-racing"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-ultra-bee-seat-catch-spacer-by-warp-9-racing.webp"
+    },
+    {
+      "id": "eridepro-she8067-right-battery-cover-long-seat-assembly-ss2-0-ss3-0-sr",
+      "name": "SHE8067 - Right Battery Cover (Long Seat) Assembly - SS2.0/SS3.0/SR",
+      "brand": "E RIDE PRO",
+      "category": "seats",
+      "price_usd": 9.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she8067-right-battery-cover-long-seat-assembly-ss2-0-ss3-0-sr",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she8067-right-battery-cover-long-seat-assembly-ss2-0-ss3-0-sr"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/she8067-right-battery-cover-long-seat-assembly-ss2-0-ss3-0-sr",
+        "ss20": "https://www.eridepro.com/products/she8067-right-battery-cover-long-seat-assembly-ss2-0-ss3-0-sr"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 9.0,
+          "buy_url": "https://www.eridepro.com/products/she8067-right-battery-cover-long-seat-assembly-ss2-0-ss3-0-sr"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she8067-right-battery-cover-long-seat-assembly-ss2-0-ss3-0-sr.webp"
     }
   ],
   "compatibility": [

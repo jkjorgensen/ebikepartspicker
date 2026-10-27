@@ -119,6 +119,110 @@
         }
       ],
       "image": "img/parts/voro-eride-ss-twist-throttle.webp"
+    },
+    {
+      "id": "tbelectricmoto-surron-ultra-bee-cnc-brake-lever-clamp",
+      "name": "Surron Ultra Bee CNC Brake Lever Clamp",
+      "brand": "TB Electric",
+      "category": "cockpit",
+      "price_usd": 6.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/surron-ultra-bee-cnc-brake-lever-clamp",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/surron-ultra-bee-cnc-brake-lever-clamp"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://tbelectricmoto.com/products/surron-ultra-bee-cnc-brake-lever-clamp"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 6.0,
+          "buy_url": "https://tbelectricmoto.com/products/surron-ultra-bee-cnc-brake-lever-clamp"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-surron-ultra-bee-cnc-brake-lever-clamp.webp"
+    },
+    {
+      "id": "eridepro-e7479r",
+      "name": "E7479 - Right Handlebar Grip - S/SS2.0/SS3.0/SR",
+      "brand": "E RIDE PRO Global",
+      "category": "cockpit",
+      "price_usd": 8.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7479r",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7479r"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/e7479r",
+        "ss20": "https://www.eridepro.com/products/e7479r"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 8.0,
+          "buy_url": "https://www.eridepro.com/products/e7479r"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7479r.webp"
+    },
+    {
+      "id": "eridepro-she7062-front-brake-hose-clamp-kit",
+      "name": "SHE7062 - Front Brake Hose Clamp Kit - Pro SS 3.0/SR",
+      "brand": "E RIDE PRO Global",
+      "category": "cockpit",
+      "price_usd": 9.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7062-front-brake-hose-clamp-kit",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7062-front-brake-hose-clamp-kit"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/she7062-front-brake-hose-clamp-kit"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 9.0,
+          "buy_url": "https://www.eridepro.com/products/she7062-front-brake-hose-clamp-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7062-front-brake-hose-clamp-kit.webp"
     }
   ],
   "compatibility": [

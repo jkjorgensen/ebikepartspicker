@@ -791,6 +791,142 @@
         }
       ],
       "image": "img/parts/voro-eride-ss-handlebar.webp"
+    },
+    {
+      "id": "tbelectricmoto-talaria-komodo-oem-handlebar-base",
+      "name": "Talaria Komodo OEM Handlebar Base",
+      "brand": "Talaria",
+      "category": "handlebar",
+      "price_usd": 18.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-handlebar-base",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/talaria-komodo-oem-handlebar-base"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://tbelectricmoto.com/products/talaria-komodo-oem-handlebar-base"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 18.99,
+          "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-handlebar-base"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-talaria-komodo-oem-handlebar-base.webp"
+    },
+    {
+      "id": "tbelectricmoto-talaria-komodo-1-bar-risers",
+      "name": "Warp 9 Talaria Komodo 1\" Bar Risers",
+      "brand": "Warp 9",
+      "category": "handlebar",
+      "price_usd": 27.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-1-bar-risers",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/talaria-komodo-1-bar-risers"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://tbelectricmoto.com/products/talaria-komodo-1-bar-risers"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 27.0,
+          "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-1-bar-risers"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-talaria-komodo-1-bar-risers.webp"
+    },
+    {
+      "id": "gritshift-warp-9-talaria-komodo-1-inch-bar-risers",
+      "name": "Warp 9 Talaria Komodo 1 Inch Bar Risers",
+      "brand": "Warp 9 Racing",
+      "category": "handlebar",
+      "price_usd": 29.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/warp-9-talaria-komodo-1-inch-bar-risers",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://gritshift.com/products/warp-9-talaria-komodo-1-inch-bar-risers"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://gritshift.com/products/warp-9-talaria-komodo-1-inch-bar-risers"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 29.89,
+          "buy_url": "https://gritshift.com/products/warp-9-talaria-komodo-1-inch-bar-risers"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/gritshift-warp-9-talaria-komodo-1-inch-bar-risers.webp"
+    },
+    {
+      "id": "tbelectricmoto-surron-ultra-bee-bar-mount",
+      "name": "Surron Ultra Bee CNC Bar Mount",
+      "brand": "TB Electric",
+      "category": "handlebar",
+      "price_usd": 36.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/surron-ultra-bee-bar-mount",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/surron-ultra-bee-bar-mount"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://tbelectricmoto.com/products/surron-ultra-bee-bar-mount"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 36.0,
+          "buy_url": "https://tbelectricmoto.com/products/surron-ultra-bee-bar-mount"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-surron-ultra-bee-bar-mount.webp"
     }
   ]
 }

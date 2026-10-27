@@ -300,6 +300,40 @@
         }
       ],
       "image": "img/parts/voro-eride-ss-wheel-assembly.webp"
+    },
+    {
+      "id": "eridepro-e7260",
+      "name": "E7260 - Rear wheel axel bush (middle size) - S/SS2.0/3.0/SR/MINI",
+      "brand": "E RIDE PRO",
+      "category": "wheels",
+      "price_usd": 5.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7260",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7260"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/e7260"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 5.0,
+          "buy_url": "https://www.eridepro.com/products/e7260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7260.webp"
     }
   ],
   "compatibility": [

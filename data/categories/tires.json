@@ -1452,6 +1452,144 @@
         }
       ],
       "image": "img/parts/voro-altis-sigma-tire.webp"
+    },
+    {
+      "id": "eridepro-e7731-2-fatty-tube-16-ss3-0-sr",
+      "name": "E7731-2 - Fatty Tube-16'' - SS3.0/SR",
+      "brand": "E RIDE PRO",
+      "category": "tires",
+      "price_usd": 9.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7731-2-fatty-tube-16-ss3-0-sr",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7731-2-fatty-tube-16-ss3-0-sr"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/e7731-2-fatty-tube-16-ss3-0-sr"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 9.0,
+          "buy_url": "https://www.eridepro.com/products/e7731-2-fatty-tube-16-ss3-0-sr"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7731-2-fatty-tube-16-ss3-0-sr.webp"
+    },
+    {
+      "id": "eridepro-e7201-2t-fatty-front-tube-19-ss-3-0-sr",
+      "name": "E7201-2T - Fatty Front Tube-19'' - SS 3.0/SR",
+      "brand": "E RIDE PRO",
+      "category": "tires",
+      "price_usd": 9.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7201-2t-fatty-front-tube-19-ss-3-0-sr",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7201-2t-fatty-front-tube-19-ss-3-0-sr"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/e7201-2t-fatty-front-tube-19-ss-3-0-sr"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 9.0,
+          "buy_url": "https://www.eridepro.com/products/e7201-2t-fatty-front-tube-19-ss-3-0-sr"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7201-2t-fatty-front-tube-19-ss-3-0-sr.webp"
+    },
+    {
+      "id": "eridepro-e7513-2-babyfat-rear-tube-18-ss-3-0-sr",
+      "name": "(E7513-2) - Babyfat Rear Tube-18'' - SS 3.0/SR",
+      "brand": "E RIDE PRO",
+      "category": "tires",
+      "price_usd": 9.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7513-2-babyfat-rear-tube-18-ss-3-0-sr",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7513-2-babyfat-rear-tube-18-ss-3-0-sr"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/e7513-2-babyfat-rear-tube-18-ss-3-0-sr"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 9.0,
+          "buy_url": "https://www.eridepro.com/products/e7513-2-babyfat-rear-tube-18-ss-3-0-sr"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7513-2-babyfat-rear-tube-18-ss-3-0-sr.webp"
+    },
+    {
+      "id": "eridepro-e7511-2-babyfat-front-tube-19-ss-3-0-sr",
+      "name": "(E7511-2) - Babyfat Front Tube-19'' - SS2.0/SS3.0/SR",
+      "brand": "E RIDE PRO",
+      "category": "tires",
+      "price_usd": 9.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7511-2-babyfat-front-tube-19-ss-3-0-sr",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7511-2-babyfat-front-tube-19-ss-3-0-sr"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/e7511-2-babyfat-front-tube-19-ss-3-0-sr",
+        "ss20": "https://www.eridepro.com/products/e7511-2-babyfat-front-tube-19-ss-3-0-sr"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 9.0,
+          "buy_url": "https://www.eridepro.com/products/e7511-2-babyfat-front-tube-19-ss-3-0-sr"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7511-2-babyfat-front-tube-19-ss-3-0-sr.webp"
     }
   ],
   "compatibility": [

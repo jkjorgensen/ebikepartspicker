@@ -90,6 +90,142 @@
       "badge": "IZI Brothers",
       "weight_delta_kg": null,
       "image": "img/parts/maintenance-lightbee-swingarm-axle.webp"
+    },
+    {
+      "id": "revrides-e-ride-pro-ss-kickstand-magnetic-switch",
+      "name": "E Ride Pro SS Kickstand magnetic switch",
+      "brand": "E Ride Pro",
+      "category": "maintenance",
+      "price_usd": 9.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/e-ride-pro-ss-kickstand-magnetic-switch",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/e-ride-pro-ss-kickstand-magnetic-switch"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://revrides.com/products/e-ride-pro-ss-kickstand-magnetic-switch"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 9.0,
+          "buy_url": "https://revrides.com/products/e-ride-pro-ss-kickstand-magnetic-switch"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-e-ride-pro-ss-kickstand-magnetic-switch.webp"
+    },
+    {
+      "id": "tbelectricmoto-bearing-kit-suspension-triangle-surron-lbx",
+      "name": "Bearing Kit | Suspension Triangle | Surron LBX",
+      "brand": "eDirtyBike",
+      "category": "maintenance",
+      "price_usd": 11.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/bearing-kit-suspension-triangle-surron-lbx",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/bearing-kit-suspension-triangle-surron-lbx"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://tbelectricmoto.com/products/bearing-kit-suspension-triangle-surron-lbx"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 11.0,
+          "buy_url": "https://tbelectricmoto.com/products/bearing-kit-suspension-triangle-surron-lbx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-bearing-kit-suspension-triangle-surron-lbx.webp"
+    },
+    {
+      "id": "howlingmoto-sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-k",
+      "name": "Sur-Ron Light Bee LBX Suspension Triangle Needle Bearing Kit | DirtyBike",
+      "brand": "eDirtyBike",
+      "category": "maintenance",
+      "price_usd": 11.0,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-kit-dirtybike",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-kit-dirtybike"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://howlingmoto.com/products/sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-kit-dirtybike"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 11.0,
+          "buy_url": "https://howlingmoto.com/products/sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-kit-dirtybike"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-k.webp"
+    },
+    {
+      "id": "revrides-titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x2",
+      "name": "Titanium Kickstand Bolt/ Nut Set- Surron LBS LBX, Segway X160 X260",
+      "brand": "Titanium Surron",
+      "category": "maintenance",
+      "price_usd": 14.99,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 14.99,
+          "buy_url": "https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x2.webp"
     }
   ],
   "compatibility": [
