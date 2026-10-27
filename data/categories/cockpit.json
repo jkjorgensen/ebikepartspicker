@@ -325,6 +325,108 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-talaria-komodo-oem-handlebar-upper-clamp-no-headlight-m.webp"
+    },
+    {
+      "id": "eridepro-she7092-brake-1-levers",
+      "name": "SHE7092 - Brake 1 Levers - ProSS 3.0/SR",
+      "brand": "E RIDE PRO Global",
+      "category": "cockpit",
+      "price_usd": 19.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7092-brake-1-levers",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7092-brake-1-levers"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/she7092-brake-1-levers"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 19.0,
+          "buy_url": "https://www.eridepro.com/products/she7092-brake-1-levers"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7092-brake-1-levers.webp"
+    },
+    {
+      "id": "eridepro-she7853-brake-lever-2pcs-kit",
+      "name": "SHE7853 - Brake Lever 2pcs/kit - Pro S/SS 2.0/MINI/MINI R",
+      "brand": "E RIDE PRO Global",
+      "category": "cockpit",
+      "price_usd": 19.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7853-brake-lever-2pcs-kit",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7853-brake-lever-2pcs-kit"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/she7853-brake-lever-2pcs-kit"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 19.0,
+          "buy_url": "https://www.eridepro.com/products/she7853-brake-lever-2pcs-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7853-brake-lever-2pcs-kit.webp"
+    },
+    {
+      "id": "eridepro-e7215",
+      "name": "E7215 - Headlight Switch - Pro S/SS2.0",
+      "brand": "E RIDE PRO Global",
+      "category": "cockpit",
+      "price_usd": 19.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7215",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7215"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/e7215"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 19.0,
+          "buy_url": "https://www.eridepro.com/products/e7215"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7215.webp"
     }
   ],
   "compatibility": [

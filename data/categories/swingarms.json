@@ -390,6 +390,40 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-talaria-komodo-oem-rear-swingarm-bolt.webp"
+    },
+    {
+      "id": "chargedcycleworks-oem-swingarm-bearing-talaria-sting-mx3-mx4-1",
+      "name": "Talaria Sting MX3 / MX4  -  Swingarm Bearing | OEM",
+      "brand": "Charged Cycle Works",
+      "category": "swingarm",
+      "price_usd": 11.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/oem-swingarm-bearing-talaria-sting-mx3-mx4-1",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/oem-swingarm-bearing-talaria-sting-mx3-mx4-1"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx4": "https://chargedcycleworks.com/products/oem-swingarm-bearing-talaria-sting-mx3-mx4-1"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 11.99,
+          "buy_url": "https://chargedcycleworks.com/products/oem-swingarm-bearing-talaria-sting-mx3-mx4-1"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-oem-swingarm-bearing-talaria-sting-mx3-mx4-1.webp"
     }
   ],
   "compatibility": [

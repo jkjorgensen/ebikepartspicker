@@ -807,6 +807,176 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-e-ride-pro-oem-brake-pads-5pcs-set-with1-big-circlip.webp"
+    },
+    {
+      "id": "revrides-e-ride-pro-ss-brake-pads",
+      "name": "E Ride Pro SS/SS 2.0 Brake Pads",
+      "brand": "E Ride Pro",
+      "category": "brakes",
+      "price_usd": 19.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/e-ride-pro-ss-brake-pads",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/e-ride-pro-ss-brake-pads"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://revrides.com/products/e-ride-pro-ss-brake-pads"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 19.0,
+          "buy_url": "https://revrides.com/products/e-ride-pro-ss-brake-pads"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-e-ride-pro-ss-brake-pads.webp"
+    },
+    {
+      "id": "eridepro-she7852-brake-pad-kit-pros-ss2-0-mini",
+      "name": "SHE7852 - Brake Pad Kit - ProS/SS2.0/Mini/Mini R",
+      "brand": "E RIDE PRO",
+      "category": "brakes",
+      "price_usd": 19.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7852-brake-pad-kit-pros-ss2-0-mini",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7852-brake-pad-kit-pros-ss2-0-mini"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/she7852-brake-pad-kit-pros-ss2-0-mini"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 19.0,
+          "buy_url": "https://www.eridepro.com/products/she7852-brake-pad-kit-pros-ss2-0-mini"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7852-brake-pad-kit-pros-ss2-0-mini.webp"
+    },
+    {
+      "id": "eridepro-e7313",
+      "name": "E7313 - Front Brake Hose with hardware - SS2.0",
+      "brand": "E RIDE PRO Global",
+      "category": "brakes",
+      "price_usd": 19.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7313",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7313"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/e7313"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 19.0,
+          "buy_url": "https://www.eridepro.com/products/e7313"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7313.webp"
+    },
+    {
+      "id": "tbelectricmoto-ebike-garage-foot-brake-kit-for-ventus-one-plus",
+      "name": "EBIKE Garage Foot Brake Kit For Ventus One Plus / One Plus EVO",
+      "brand": "EBIKE GARAGE",
+      "category": "brakes",
+      "price_usd": 308.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-ventus-one-plus",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-ventus-one-plus"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Ventus One Plus": "direct_fit"
+      },
+      "_fit_src": {
+        "ventus-plus": "https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-ventus-one-plus"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 308.0,
+          "buy_url": "https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-ventus-one-plus"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-ebike-garage-foot-brake-kit-for-ventus-one-plus.webp"
+    },
+    {
+      "id": "tbelectricmoto-ebike-garage-foot-brake-kit-for-79bike-ventus-one-formu",
+      "name": "EBIKE Garage Foot Brake Kit For 79Bike / Ventus One // Formula Brake",
+      "brand": "EBIKE GARAGE",
+      "category": "brakes",
+      "price_usd": 313.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-79bike-ventus-one-formula-brake",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-79bike-ventus-one-formula-brake"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Ventus One Plus": "direct_fit"
+      },
+      "_fit_src": {
+        "ventus-plus": "https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-79bike-ventus-one-formula-brake"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 313.0,
+          "buy_url": "https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-79bike-ventus-one-formula-brake"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-ebike-garage-foot-brake-kit-for-79bike-ventus-one-formu.webp"
     }
   ],
   "compatibility": [

@@ -497,6 +497,176 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eridepro-e7310-primary-transmission-sprocket-14t-ss2-0.webp"
+    },
+    {
+      "id": "eridepro-she7847-primary-transmission-sprocket-14t-ss2-0",
+      "name": "SHE7847 - Primary Transmission Sprocket （14T）- SS2.0",
+      "brand": "E RIDE PRO",
+      "category": "drivetrain",
+      "price_usd": 15.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7847-primary-transmission-sprocket-14t-ss2-0",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7847-primary-transmission-sprocket-14t-ss2-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/she7847-primary-transmission-sprocket-14t-ss2-0"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 15.0,
+          "buy_url": "https://www.eridepro.com/products/she7847-primary-transmission-sprocket-14t-ss2-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7847-primary-transmission-sprocket-14t-ss2-0.webp"
+    },
+    {
+      "id": "tbelectricmoto-e-ride-pro-ss-motor-cover",
+      "name": "TB E-Ride Pro SS Belt Cover",
+      "brand": "TB Electric",
+      "category": "drivetrain",
+      "price_usd": 20.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/e-ride-pro-ss-motor-cover",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/e-ride-pro-ss-motor-cover"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://tbelectricmoto.com/products/e-ride-pro-ss-motor-cover"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 20.0,
+          "buy_url": "https://tbelectricmoto.com/products/e-ride-pro-ss-motor-cover"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-e-ride-pro-ss-motor-cover.webp"
+    },
+    {
+      "id": "gritshift-warp-9-countershaft-sprocket-talaria-komodo",
+      "name": "Warp 9 Countershaft Sprocket - Talaria Komodo",
+      "brand": "Warp 9 Racing",
+      "category": "drivetrain",
+      "price_usd": 22.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/warp-9-countershaft-sprocket-talaria-komodo",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://gritshift.com/products/warp-9-countershaft-sprocket-talaria-komodo"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://gritshift.com/products/warp-9-countershaft-sprocket-talaria-komodo"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 22.89,
+          "buy_url": "https://gritshift.com/products/warp-9-countershaft-sprocket-talaria-komodo"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/gritshift-warp-9-countershaft-sprocket-talaria-komodo.webp"
+    },
+    {
+      "id": "tbelectricmoto-ebmx-sprocket-for-e-ride-pro-sr-3-0",
+      "name": "EBMX Sprocket For E-Ride Pro SR/3.0 48T",
+      "brand": "EBMX",
+      "category": "drivetrain",
+      "price_usd": 60.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/ebmx-sprocket-for-e-ride-pro-sr-3-0",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/ebmx-sprocket-for-e-ride-pro-sr-3-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://tbelectricmoto.com/products/ebmx-sprocket-for-e-ride-pro-sr-3-0"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 60.0,
+          "buy_url": "https://tbelectricmoto.com/products/ebmx-sprocket-for-e-ride-pro-sr-3-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-ebmx-sprocket-for-e-ride-pro-sr-3-0.webp"
+    },
+    {
+      "id": "howlingmoto-dirtybike-rk-420-primary-chain-drive-conversion-kit-e-ride",
+      "name": "DirtyBike RK 420 Primary Chain Drive Conversion Kit – E Ride Pro SR",
+      "brand": "eDirtyBike",
+      "category": "drivetrain",
+      "price_usd": 99.0,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/dirtybike-rk-420-primary-chain-drive-conversion-kit-e-ride-pro-sr",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/dirtybike-rk-420-primary-chain-drive-conversion-kit-e-ride-pro-sr"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://howlingmoto.com/products/dirtybike-rk-420-primary-chain-drive-conversion-kit-e-ride-pro-sr"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 99.0,
+          "buy_url": "https://howlingmoto.com/products/dirtybike-rk-420-primary-chain-drive-conversion-kit-e-ride-pro-sr"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-dirtybike-rk-420-primary-chain-drive-conversion-kit-e-ride.webp"
     }
   ],
   "compatibility": [

@@ -425,6 +425,142 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eridepro-she7086-tailpiece-mountmud-guard.webp"
+    },
+    {
+      "id": "eridepro-e7078",
+      "name": "E7078 - Tailpiece Mount/Mud Guard - ProS/SS2.O/SS3.0/SR",
+      "brand": "E RIDE PRO Global",
+      "category": "guards",
+      "price_usd": 15.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7078",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7078"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/e7078"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 15.0,
+          "buy_url": "https://www.eridepro.com/products/e7078"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7078.webp"
+    },
+    {
+      "id": "howlingmoto-talaria-xxx-mx4-ebmx-display-guard-cnc-aluminum-screen-pro",
+      "name": "Talaria XXX, MX4, & EBMX Display Guard | CNC Aluminum Screen Protector for E-Moto Screens",
+      "brand": "Forged Racing",
+      "category": "guards",
+      "price_usd": 29.99,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/talaria-xxx-mx4-ebmx-display-guard-cnc-aluminum-screen-protector-for-e-moto-screens",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/talaria-xxx-mx4-ebmx-display-guard-cnc-aluminum-screen-protector-for-e-moto-screens"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx4": "https://howlingmoto.com/products/talaria-xxx-mx4-ebmx-display-guard-cnc-aluminum-screen-protector-for-e-moto-screens"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 29.99,
+          "buy_url": "https://howlingmoto.com/products/talaria-xxx-mx4-ebmx-display-guard-cnc-aluminum-screen-protector-for-e-moto-screens"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-talaria-xxx-mx4-ebmx-display-guard-cnc-aluminum-screen-pro.webp"
+    },
+    {
+      "id": "howlingmoto-display-protector-aluminum-talaria-mx3-mx4",
+      "name": "Display Protector | Aluminum | Talaria MX3/MX4",
+      "brand": "eDirtyBike",
+      "category": "guards",
+      "price_usd": 56.0,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/display-protector-aluminum-talaria-mx3-mx4",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/display-protector-aluminum-talaria-mx3-mx4"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx4": "https://howlingmoto.com/products/display-protector-aluminum-talaria-mx3-mx4"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 56.0,
+          "buy_url": "https://howlingmoto.com/products/display-protector-aluminum-talaria-mx3-mx4"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-display-protector-aluminum-talaria-mx3-mx4.webp"
+    },
+    {
+      "id": "revrides-psm-talaria-rotor-guard",
+      "name": "PSM Rear Rotor Guard | For Talaria Sting MX3, MX4 and XXX",
+      "brand": "Puget Sound Motorsports",
+      "category": "guards",
+      "price_usd": 79.99,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/psm-talaria-rotor-guard",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/psm-talaria-rotor-guard"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx4": "https://revrides.com/products/psm-talaria-rotor-guard"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 79.99,
+          "buy_url": "https://revrides.com/products/psm-talaria-rotor-guard"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-psm-talaria-rotor-guard.webp"
     }
   ],
   "compatibility": [

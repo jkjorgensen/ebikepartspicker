@@ -1692,6 +1692,144 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eridepro-e7511-1-babyfat-front-tire-19-w-o-tire-tube-3-0-sr.webp"
+    },
+    {
+      "id": "eridepro-she7004-babyfat-front-tire-tube-rim-stripe",
+      "name": "SHE7004 - 19\" Babyfat  Front Tire +Tube+Rim Stripe - SS2.0/SS3.0/SR",
+      "brand": "E RIDE PRO Global",
+      "category": "tires",
+      "price_usd": 79.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7004-babyfat-front-tire-tube-rim-stripe",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7004-babyfat-front-tire-tube-rim-stripe"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/she7004-babyfat-front-tire-tube-rim-stripe",
+        "ss20": "https://www.eridepro.com/products/she7004-babyfat-front-tire-tube-rim-stripe"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 79.0,
+          "buy_url": "https://www.eridepro.com/products/she7004-babyfat-front-tire-tube-rim-stripe"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7004-babyfat-front-tire-tube-rim-stripe.webp"
+    },
+    {
+      "id": "eridepro-she7969-fastace-fork-upper-and-down-crown-with-steering-tube",
+      "name": "SHE7969 - FastAce Fork Upper and Down Crown with Steering Tube - SS2.0",
+      "brand": "E RIDE PRO",
+      "category": "tires",
+      "price_usd": 118.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7969-fastace-fork-upper-and-down-crown-with-steering-tube-ss2-0",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7969-fastace-fork-upper-and-down-crown-with-steering-tube-ss2-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/she7969-fastace-fork-upper-and-down-crown-with-steering-tube-ss2-0"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 118.0,
+          "buy_url": "https://www.eridepro.com/products/she7969-fastace-fork-upper-and-down-crown-with-steering-tube-ss2-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7969-fastace-fork-upper-and-down-crown-with-steering-tube.webp"
+    },
+    {
+      "id": "eridepro-she8052-rear-hub-assy-w-o-tire-1-85-18-straight-pull-hub-ss3",
+      "name": "SHE8052 - Rear Hub Assy w/o Tire-1.85*18'' (Straight-pull Hub) - SS3.0/SR/Pro 4.0",
+      "brand": "E RIDE PRO",
+      "category": "tires",
+      "price_usd": 279.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she8052-rear-hub-assy-w-o-tire-1-85-18-straight-pull-hub-ss3-0-sr-pro-4-0",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she8052-rear-hub-assy-w-o-tire-1-85-18-straight-pull-hub-ss3-0-sr-pro-4-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/she8052-rear-hub-assy-w-o-tire-1-85-18-straight-pull-hub-ss3-0-sr-pro-4-0"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 279.0,
+          "buy_url": "https://www.eridepro.com/products/she8052-rear-hub-assy-w-o-tire-1-85-18-straight-pull-hub-ss3-0-sr-pro-4-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she8052-rear-hub-assy-w-o-tire-1-85-18-straight-pull-hub-ss3.webp"
+    },
+    {
+      "id": "eridepro-e7731-1-fatty-tire-ss-3-0-sr",
+      "name": "E7731-1 - 16\" Rear Fatty Tire - SS 3.0/SR",
+      "brand": "E RIDE PRO",
+      "category": "tires",
+      "price_usd": 85.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7731-1-fatty-tire-ss-3-0-sr",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7731-1-fatty-tire-ss-3-0-sr"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/e7731-1-fatty-tire-ss-3-0-sr"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 85.0,
+          "buy_url": "https://www.eridepro.com/products/e7731-1-fatty-tire-ss-3-0-sr"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7731-1-fatty-tire-ss-3-0-sr.webp"
     }
   ],
   "compatibility": [

@@ -716,6 +716,144 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eridepro-she7011-rear-shock.webp"
+    },
+    {
+      "id": "revrides-r38-2sc-e-ride-pro-sr",
+      "name": "Sirris R38 Rear Shock for E Ride Pro SR",
+      "brand": "Sirris Store",
+      "category": "shock",
+      "price_usd": 899.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/r38-2sc-e-ride-pro-sr",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/r38-2sc-e-ride-pro-sr"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://revrides.com/products/r38-2sc-e-ride-pro-sr"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 899.0,
+          "buy_url": "https://revrides.com/products/r38-2sc-e-ride-pro-sr"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-r38-2sc-e-ride-pro-sr.webp"
+    },
+    {
+      "id": "revrides-tech-suspension-by-formula-e-moto-rear-shock-for-talaria-stin",
+      "name": "E-Moto ER30 Rear Shock Tech Suspension by Formula  | for Altis Sigma, Talaria Sting MX3/MX4/MX5",
+      "brand": "Pinned Electric",
+      "category": "shock",
+      "price_usd": 975.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/tech-suspension-by-formula-e-moto-rear-shock-for-talaria-sting-mx3-mx4-mx5",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/tech-suspension-by-formula-e-moto-rear-shock-for-talaria-sting-mx3-mx4-mx5"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://revrides.com/products/tech-suspension-by-formula-e-moto-rear-shock-for-talaria-sting-mx3-mx4-mx5",
+        "mx4": "https://revrides.com/products/tech-suspension-by-formula-e-moto-rear-shock-for-talaria-sting-mx3-mx4-mx5"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 975.0,
+          "buy_url": "https://revrides.com/products/tech-suspension-by-formula-e-moto-rear-shock-for-talaria-sting-mx3-mx4-mx5"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-tech-suspension-by-formula-e-moto-rear-shock-for-talaria-stin.webp"
+    },
+    {
+      "id": "revrides-ebmx-rear-shock-for-eride-pro-ss",
+      "name": "EBMX Rear Shock for Eride pro SS",
+      "brand": "EBMX",
+      "category": "shock",
+      "price_usd": 989.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/ebmx-rear-shock-for-eride-pro-ss",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/ebmx-rear-shock-for-eride-pro-ss"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://revrides.com/products/ebmx-rear-shock-for-eride-pro-ss"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 989.0,
+          "buy_url": "https://revrides.com/products/ebmx-rear-shock-for-eride-pro-ss"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-ebmx-rear-shock-for-eride-pro-ss.webp"
+    },
+    {
+      "id": "chargedcycleworks-trx-shock-surron-ultra-bee",
+      "name": "PURE Racing - TRX Shock for Surron Ultra Bee",
+      "brand": "PURE RACING",
+      "category": "shock",
+      "price_usd": 599.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/trx-shock-surron-ultra-bee",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/trx-shock-surron-ultra-bee"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://chargedcycleworks.com/products/trx-shock-surron-ultra-bee"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 599.0,
+          "buy_url": "https://chargedcycleworks.com/products/trx-shock-surron-ultra-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-trx-shock-surron-ultra-bee.webp"
     }
   ]
 }

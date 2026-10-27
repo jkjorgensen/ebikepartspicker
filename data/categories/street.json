@@ -381,6 +381,114 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-gritshift-blazer-led-headlight-for-talaria-mx4-talaria.webp"
+    },
+    {
+      "id": "chargedcycleworks-gritshift-blazer-led-headlight-for-talaria-mx4-mx5",
+      "name": "GritShift Blazer LED Headlight for Talaria MX4/MX5",
+      "brand": "GritShift",
+      "category": "street",
+      "price_usd": 19.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5",
+        "mx4": "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.99,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-gritshift-blazer-led-headlight-for-talaria-mx4-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-gritshift-blinder-led-light-bar-headlight-mx4-mx5",
+      "name": "GritShift Blinder LED Light Bar Headlight MX4/MX5",
+      "brand": "GritShift",
+      "category": "street",
+      "price_usd": 32.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5",
+        "mx4": "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 32.99,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-gritshift-blinder-led-light-bar-headlight-mx4-mx5.webp"
+    },
+    {
+      "id": "tbelectricmoto-project-9-cyber-tail-light-for-talaria-sting-mx4",
+      "name": "Project 9 Cyber Tail Light for Talaria Sting MX4/MX5",
+      "brand": "Project 9",
+      "category": "street",
+      "price_usd": 59.95,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/project-9-cyber-tail-light-for-talaria-sting-mx4",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/project-9-cyber-tail-light-for-talaria-sting-mx4"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://tbelectricmoto.com/products/project-9-cyber-tail-light-for-talaria-sting-mx4",
+        "mx4": "https://tbelectricmoto.com/products/project-9-cyber-tail-light-for-talaria-sting-mx4"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 59.95,
+          "buy_url": "https://tbelectricmoto.com/products/project-9-cyber-tail-light-for-talaria-sting-mx4"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-project-9-cyber-tail-light-for-talaria-sting-mx4.webp"
     }
   ],
   "compatibility": [

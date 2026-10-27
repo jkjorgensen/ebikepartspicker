@@ -438,6 +438,180 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-e-ride-oem-rear-wheel-hugger.webp"
+    },
+    {
+      "id": "eridepro-e7077",
+      "name": "E7077 - Rear Wheel Hugger - ProS/SS2.0/SS3.0/SR",
+      "brand": "E RIDE PRO Global",
+      "category": "wheels",
+      "price_usd": 9.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7077",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7077"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/e7077",
+        "ss20": "https://www.eridepro.com/products/e7077"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 9.0,
+          "buy_url": "https://www.eridepro.com/products/e7077"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7077.webp"
+    },
+    {
+      "id": "tbelectricmoto-oem-rear-wheel-fender-black-talaria-sting-mx3-mx4-mx5",
+      "name": "OEM Rear Wheel Fender Talaria Sting MX3 / MX4 / MX5",
+      "brand": "Talaria",
+      "category": "wheels",
+      "price_usd": 14.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/oem-rear-wheel-fender-black-talaria-sting-mx3-mx4-mx5",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/oem-rear-wheel-fender-black-talaria-sting-mx3-mx4-mx5"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://tbelectricmoto.com/products/oem-rear-wheel-fender-black-talaria-sting-mx3-mx4-mx5",
+        "mx4": "https://tbelectricmoto.com/products/oem-rear-wheel-fender-black-talaria-sting-mx3-mx4-mx5"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 14.99,
+          "buy_url": "https://tbelectricmoto.com/products/oem-rear-wheel-fender-black-talaria-sting-mx3-mx4-mx5"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-oem-rear-wheel-fender-black-talaria-sting-mx3-mx4-mx5.webp"
+    },
+    {
+      "id": "eridepro-she8018-18-rear-rim-spoke-with-nipples-set10pcs-set-ss2-0",
+      "name": "SHE8018 - 18'' Rear J-Pull Rim Spoke with Nipples Set(10PCS/Set) - SS2.0",
+      "brand": "E RIDE PRO",
+      "category": "wheels",
+      "price_usd": 25.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she8018-18-rear-rim-spoke-with-nipples-set10pcs-set-ss2-0",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she8018-18-rear-rim-spoke-with-nipples-set10pcs-set-ss2-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/she8018-18-rear-rim-spoke-with-nipples-set10pcs-set-ss2-0"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 25.0,
+          "buy_url": "https://www.eridepro.com/products/she8018-18-rear-rim-spoke-with-nipples-set10pcs-set-ss2-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she8018-18-rear-rim-spoke-with-nipples-set10pcs-set-ss2-0.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-19-16-e-bike-spoked-wheels-for-talaria-sting-mx3",
+      "name": "KKE 16/19 Talaria MX3/MX4 Wheels  (NO TIRES)",
+      "brand": "KKE Racing",
+      "category": "wheels",
+      "price_usd": 569.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-19-16-e-bike-spoked-wheels-for-talaria-sting-mx3-r-mx4-collective",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-19-16-e-bike-spoked-wheels-for-talaria-sting-mx3-r-mx4-collective"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx4": "https://chargedcycleworks.com/products/kke-19-16-e-bike-spoked-wheels-for-talaria-sting-mx3-r-mx4-collective"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 569.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-19-16-e-bike-spoked-wheels-for-talaria-sting-mx3-r-mx4-collective"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-kke-19-16-e-bike-spoked-wheels-for-talaria-sting-mx3.webp"
+    },
+    {
+      "id": "tbelectricmoto-17in-premium-super-moto-wheel-set-for-talaria-sting-mx4",
+      "name": "17in Premium Super Moto Wheel Set for Talaria Sting MX4 / XXX",
+      "brand": "TB Electric",
+      "category": "wheels",
+      "price_usd": 569.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/17in-premium-super-moto-wheel-set-for-talaria-sting-mx4-xxx",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/17in-premium-super-moto-wheel-set-for-talaria-sting-mx4-xxx"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx4": "https://tbelectricmoto.com/products/17in-premium-super-moto-wheel-set-for-talaria-sting-mx4-xxx"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 569.0,
+          "buy_url": "https://tbelectricmoto.com/products/17in-premium-super-moto-wheel-set-for-talaria-sting-mx4-xxx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-17in-premium-super-moto-wheel-set-for-talaria-sting-mx4.webp"
     }
   ],
   "compatibility": [

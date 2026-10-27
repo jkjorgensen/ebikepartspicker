@@ -743,6 +743,176 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-talaria-komodo-oem-replacement-front-number-plate.webp"
+    },
+    {
+      "id": "howlingmoto-talaria-sting-mx3-mx4-carbon-fiber-plastics-kit-full-kit-o",
+      "name": "Talaria Sting MX3 / MX4 Carbon Fiber Plastics Kit – Full Kit or Individual Pieces",
+      "brand": "FactoryZ",
+      "category": "plastics",
+      "price_usd": 19.99,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/talaria-sting-mx3-mx4-carbon-fiber-plastics-kit-full-kit-or-individual-pieces",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/talaria-sting-mx3-mx4-carbon-fiber-plastics-kit-full-kit-or-individual-pieces"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx4": "https://howlingmoto.com/products/talaria-sting-mx3-mx4-carbon-fiber-plastics-kit-full-kit-or-individual-pieces"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 19.99,
+          "buy_url": "https://howlingmoto.com/products/talaria-sting-mx3-mx4-carbon-fiber-plastics-kit-full-kit-or-individual-pieces"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-talaria-sting-mx3-mx4-carbon-fiber-plastics-kit-full-kit-o.webp"
+    },
+    {
+      "id": "howlingmoto-dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-exten",
+      "name": "DirtyBike Long Rear Fender for Talaria Sting MX3 / MX4 – Extended Protection",
+      "brand": "eDirtyBike",
+      "category": "plastics",
+      "price_usd": 28.0,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-extended-protection",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-extended-protection"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx4": "https://howlingmoto.com/products/dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-extended-protection"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 28.0,
+          "buy_url": "https://howlingmoto.com/products/dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-extended-protection"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-exten.webp"
+    },
+    {
+      "id": "gritshift-dirtybike-long-rear-fender-talaria-sting-mx3-mx4",
+      "name": "DirtyBike Long Rear Fender - Talaria Sting MX3 / MX4",
+      "brand": "eDirtyBike",
+      "category": "plastics",
+      "price_usd": 28.0,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/dirtybike-long-rear-fender-talaria-sting-mx3-mx4",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://gritshift.com/products/dirtybike-long-rear-fender-talaria-sting-mx3-mx4"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx4": "https://gritshift.com/products/dirtybike-long-rear-fender-talaria-sting-mx3-mx4"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 28.0,
+          "buy_url": "https://gritshift.com/products/dirtybike-long-rear-fender-talaria-sting-mx3-mx4"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/gritshift-dirtybike-long-rear-fender-talaria-sting-mx3-mx4.webp"
+    },
+    {
+      "id": "chargedcycleworks-torp-replacement-plastic-shield-for-surron-talaria-m",
+      "name": "Torp TC500 / TC1000 Replacement Plastic Shield For Talaria MX3/MX4",
+      "brand": "Torp",
+      "category": "plastics",
+      "price_usd": 41.74,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/torp-replacement-plastic-shield-for-surron-talaria-mx3-mx4",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/torp-replacement-plastic-shield-for-surron-talaria-mx3-mx4"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx4": "https://chargedcycleworks.com/products/torp-replacement-plastic-shield-for-surron-talaria-mx3-mx4"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 41.74,
+          "buy_url": "https://chargedcycleworks.com/products/torp-replacement-plastic-shield-for-surron-talaria-mx3-mx4"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-torp-replacement-plastic-shield-for-surron-talaria-m.webp"
+    },
+    {
+      "id": "tbelectricmoto-talaria-komodo-oem-replacement-front-fender",
+      "name": "Talaria Komodo OEM Replacement Front Fender",
+      "brand": "Talaria",
+      "category": "plastics",
+      "price_usd": 29.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-front-fender",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-front-fender"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-front-fender"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 29.99,
+          "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-front-fender"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-talaria-komodo-oem-replacement-front-fender.webp"
     }
   ],
   "compatibility": [

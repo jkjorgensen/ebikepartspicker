@@ -390,6 +390,144 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eridepro-e7032.webp"
+    },
+    {
+      "id": "tbelectricmoto-talaria-komodo-oem-ignition-and-key-set",
+      "name": "Talaria Komodo OEM Ignition and Key Set",
+      "brand": "Talaria",
+      "category": "electrical",
+      "price_usd": 42.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-ignition-and-key-set",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/talaria-komodo-oem-ignition-and-key-set"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://tbelectricmoto.com/products/talaria-komodo-oem-ignition-and-key-set"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 42.99,
+          "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-ignition-and-key-set"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-talaria-komodo-oem-ignition-and-key-set.webp"
+    },
+    {
+      "id": "revrides-psm-eride-pro-ss-billet-display-cover",
+      "name": "PSM ERide Pro SS Talaria XXX Billet Display Cover",
+      "brand": "Puget Sound Motorsports",
+      "category": "electrical",
+      "price_usd": 79.99,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/psm-eride-pro-ss-billet-display-cover",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/psm-eride-pro-ss-billet-display-cover"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://revrides.com/products/psm-eride-pro-ss-billet-display-cover"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 79.99,
+          "buy_url": "https://revrides.com/products/psm-eride-pro-ss-billet-display-cover"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-psm-eride-pro-ss-billet-display-cover.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-mx3-throttle-adapter-green-connector-mx4-mx5",
+      "name": "Talaria MX3 – Throttle Wire Adapter to Green Connector (MX4/MX5/X3) | OEM",
+      "brand": "Talaria",
+      "category": "electrical",
+      "price_usd": 14.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-mx3-throttle-adapter-green-connector-mx4-mx5-x3",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-mx3-throttle-adapter-green-connector-mx4-mx5-x3"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://chargedcycleworks.com/products/talaria-mx3-throttle-adapter-green-connector-mx4-mx5-x3",
+        "mx4": "https://chargedcycleworks.com/products/talaria-mx3-throttle-adapter-green-connector-mx4-mx5-x3"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 14.99,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-mx3-throttle-adapter-green-connector-mx4-mx5-x3"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-talaria-mx3-throttle-adapter-green-connector-mx4-mx5.webp"
+    },
+    {
+      "id": "tbelectricmoto-talaria-sting-mx5-oem-replacement-display",
+      "name": "Talaria Sting MX5/ XXX Pro OEM Replacement Display",
+      "brand": "Talaria",
+      "category": "electrical",
+      "price_usd": 180.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/talaria-sting-mx5-oem-replacement-display",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/talaria-sting-mx5-oem-replacement-display"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://tbelectricmoto.com/products/talaria-sting-mx5-oem-replacement-display"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 180.0,
+          "buy_url": "https://tbelectricmoto.com/products/talaria-sting-mx5-oem-replacement-display"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-talaria-sting-mx5-oem-replacement-display.webp"
     }
   ],
   "compatibility": [
