@@ -401,6 +401,148 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eridepro-e7901-long-seat-trim-ss2-0-ss3-0-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-eride-pro-long-seat-rear-fender-ss2-ss3-sr-oem",
+      "name": "E Ride Pro SS2.0 / SS3.0 / SR – Long Seat Rear Fender | OEM",
+      "brand": "ERide Pro",
+      "category": "seats",
+      "price_usd": 29.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/eride-pro-long-seat-rear-fender-ss2-ss3-sr-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-long-seat-rear-fender-ss2-ss3-sr-oem"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://chargedcycleworks.com/products/eride-pro-long-seat-rear-fender-ss2-ss3-sr-oem",
+        "ss20": "https://chargedcycleworks.com/products/eride-pro-long-seat-rear-fender-ss2-ss3-sr-oem"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.0,
+          "buy_url": "https://chargedcycleworks.com/products/eride-pro-long-seat-rear-fender-ss2-ss3-sr-oem"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-eride-pro-long-seat-rear-fender-ss2-ss3-sr-oem.webp"
+    },
+    {
+      "id": "revrides-enjoy-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5",
+      "name": "Enjoy Gripper seat cover for Talaria Sting MX3 MX4 MX5",
+      "brand": "Enjoy Mfg.",
+      "category": "seats",
+      "price_usd": 69.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/enjoy-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/enjoy-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://revrides.com/products/enjoy-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5",
+        "mx4": "https://revrides.com/products/enjoy-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 69.0,
+          "buy_url": "https://revrides.com/products/enjoy-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-enjoy-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5.webp"
+    },
+    {
+      "id": "revrides-enjoy-ribbed-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5",
+      "name": "Enjoy Ribbed Gripper seat cover for Talaria Sting MX3 MX4 MX5 (COLOR INSIDE)",
+      "brand": "Enjoy Mfg.",
+      "category": "seats",
+      "price_usd": 79.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/enjoy-ribbed-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5-color-inside",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/enjoy-ribbed-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5-color-inside"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://revrides.com/products/enjoy-ribbed-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5-color-inside",
+        "mx4": "https://revrides.com/products/enjoy-ribbed-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5-color-inside"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 79.0,
+          "buy_url": "https://revrides.com/products/enjoy-ribbed-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5-color-inside"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-enjoy-ribbed-gripper-seat-cover-for-talaria-sting-mx3-mx4-mx5.webp"
+    },
+    {
+      "id": "tbelectricmoto-guts-seat-cover-for-talaria-komodo",
+      "name": "Guts Seat Cover for Talaria Komodo",
+      "brand": "Guts Racing",
+      "category": "seats",
+      "price_usd": 79.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/guts-seat-cover-for-talaria-komodo",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/guts-seat-cover-for-talaria-komodo"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://tbelectricmoto.com/products/guts-seat-cover-for-talaria-komodo"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 79.99,
+          "buy_url": "https://tbelectricmoto.com/products/guts-seat-cover-for-talaria-komodo"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-guts-seat-cover-for-talaria-komodo.webp"
     }
   ],
   "compatibility": [

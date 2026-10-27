@@ -362,6 +362,180 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-talaria-komodo-oem-side-kickstand-sensor.webp"
+    },
+    {
+      "id": "chargedcycleworks-swingarm-bearing-kit-talaria-sting-mx3-mx4-mx5",
+      "name": "Swingarm Bearing Kit | Talaria Sting | MX3 / MX4 / MX5",
+      "brand": "DirtyBike",
+      "category": "maintenance",
+      "price_usd": 18.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4-mx5",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4-mx5"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://chargedcycleworks.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4-mx5",
+        "mx4": "https://chargedcycleworks.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4-mx5"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 18.0,
+          "buy_url": "https://chargedcycleworks.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4-mx5"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-swingarm-bearing-kit-talaria-sting-mx3-mx4-mx5.webp"
+    },
+    {
+      "id": "revrides-bearing-kit-swingarm-12mm-shaft-e-ride-pro-sr-3-0",
+      "name": "Bearing Kit | Swingarm |12mm Shaft | E Ride Pro SR/3.0/4.0",
+      "brand": "eDirtyBike",
+      "category": "maintenance",
+      "price_usd": 18.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/bearing-kit-swingarm-12mm-shaft-e-ride-pro-sr-3-0",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/bearing-kit-swingarm-12mm-shaft-e-ride-pro-sr-3-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://revrides.com/products/bearing-kit-swingarm-12mm-shaft-e-ride-pro-sr-3-0"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 18.0,
+          "buy_url": "https://revrides.com/products/bearing-kit-swingarm-12mm-shaft-e-ride-pro-sr-3-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-bearing-kit-swingarm-12mm-shaft-e-ride-pro-sr-3-0.webp"
+    },
+    {
+      "id": "gritshift-dirtybike-swingarm-bearing-kit-talaria-sting",
+      "name": "DirtyBike Swingarm Bearing Kit - Talaria Sting MX3 / MX4 / MX5",
+      "brand": "eDirtyBike",
+      "category": "maintenance",
+      "price_usd": 18.0,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/dirtybike-swingarm-bearing-kit-talaria-sting",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://gritshift.com/products/dirtybike-swingarm-bearing-kit-talaria-sting"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://gritshift.com/products/dirtybike-swingarm-bearing-kit-talaria-sting",
+        "mx4": "https://gritshift.com/products/dirtybike-swingarm-bearing-kit-talaria-sting"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 18.0,
+          "buy_url": "https://gritshift.com/products/dirtybike-swingarm-bearing-kit-talaria-sting"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/gritshift-dirtybike-swingarm-bearing-kit-talaria-sting.webp"
+    },
+    {
+      "id": "tbelectricmoto-bearing-kit-swingarm-e-ride-pro-sr-and-3-0",
+      "name": "eDirtybike Bearing Kit | Swingarm | E Ride Pro SR and 3.0",
+      "brand": "eDirtyBike",
+      "category": "maintenance",
+      "price_usd": 18.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/bearing-kit-swingarm-e-ride-pro-sr-and-3-0",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/bearing-kit-swingarm-e-ride-pro-sr-and-3-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://tbelectricmoto.com/products/bearing-kit-swingarm-e-ride-pro-sr-and-3-0"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 18.0,
+          "buy_url": "https://tbelectricmoto.com/products/bearing-kit-swingarm-e-ride-pro-sr-and-3-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-bearing-kit-swingarm-e-ride-pro-sr-and-3-0.webp"
+    },
+    {
+      "id": "tbelectricmoto-swingarm-bearing-kit-talaria-sting-mx3-mx4",
+      "name": "Swingarm Bearing Kit | Talaria Sting | MX3 / MX4",
+      "brand": "eDirtyBike",
+      "category": "maintenance",
+      "price_usd": 18.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx4": "https://tbelectricmoto.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 18.0,
+          "buy_url": "https://tbelectricmoto.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-swingarm-bearing-kit-talaria-sting-mx3-mx4.webp"
     }
   ],
   "compatibility": [

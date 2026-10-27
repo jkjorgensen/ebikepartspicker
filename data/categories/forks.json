@@ -1116,6 +1116,108 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-tech-e39-fork-e-ride-pro-ss-3-0-sr-adapter.webp"
+    },
+    {
+      "id": "eridepro-e7024",
+      "name": "E7024 - Adjustable RST Heavy Duty Front Fork - ProS/SS2.0",
+      "brand": "E RIDE PRO Global",
+      "category": "fork",
+      "price_usd": 399.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7024",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7024"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/e7024"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 399.0,
+          "buy_url": "https://www.eridepro.com/products/e7024"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7024.webp"
+    },
+    {
+      "id": "revrides-sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-ventus-one",
+      "name": "Sirris F43 220mm Fork | CMX Tune | Tool Free LSC | Ventus One+",
+      "brand": "Sirris Store",
+      "category": "fork",
+      "price_usd": 2250.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-ventus-one",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-ventus-one"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Ventus One Plus": "direct_fit"
+      },
+      "_fit_src": {
+        "ventus-plus": "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-ventus-one"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 2250.0,
+          "buy_url": "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-ventus-one"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-ventus-one.webp"
+    },
+    {
+      "id": "revrides-sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-e-ride-pro-sr",
+      "name": "Sirris F43 220mm Fork | CMX Tune | Tool-Free LSC | E-Ride Pro SR",
+      "brand": "Sirris Store",
+      "category": "fork",
+      "price_usd": 2250.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-e-ride-pro-sr",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-e-ride-pro-sr"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-e-ride-pro-sr"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 2250.0,
+          "buy_url": "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-e-ride-pro-sr"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-e-ride-pro-sr.webp"
     }
   ]
 }

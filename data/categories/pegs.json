@@ -415,6 +415,76 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr.webp"
+    },
+    {
+      "id": "eridepro-she7066-foot-peg-mount-assembly",
+      "name": "SHE7066 - Foot Peg Mount Assembly for - PRO S/SS2.0/3.0/SR",
+      "brand": "E RIDE PRO Global",
+      "category": "pegs",
+      "price_usd": 19.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7066-foot-peg-mount-assembly",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7066-foot-peg-mount-assembly"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/she7066-foot-peg-mount-assembly"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 19.0,
+          "buy_url": "https://www.eridepro.com/products/she7066-foot-peg-mount-assembly"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7066-foot-peg-mount-assembly.webp"
+    },
+    {
+      "id": "revrides-footpeg-bracket-brace-bar-for-talaria-sting-mx3-mx4-mx5-and-x",
+      "name": "Footpeg Bracket Brace Bar for Talaria Sting MX3, MX4, MX5,",
+      "brand": "Titanium Surron",
+      "category": "pegs",
+      "price_usd": 34.99,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/footpeg-bracket-brace-bar-for-talaria-sting-mx3-mx4-mx5-and-xxx",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/footpeg-bracket-brace-bar-for-talaria-sting-mx3-mx4-mx5-and-xxx"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://revrides.com/products/footpeg-bracket-brace-bar-for-talaria-sting-mx3-mx4-mx5-and-xxx",
+        "mx4": "https://revrides.com/products/footpeg-bracket-brace-bar-for-talaria-sting-mx3-mx4-mx5-and-xxx"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 34.99,
+          "buy_url": "https://revrides.com/products/footpeg-bracket-brace-bar-for-talaria-sting-mx3-mx4-mx5-and-xxx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-footpeg-bracket-brace-bar-for-talaria-sting-mx3-mx4-mx5-and-x.webp"
     }
   ],
   "compatibility": [
