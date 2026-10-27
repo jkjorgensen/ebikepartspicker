@@ -167,6 +167,112 @@
         }
       ],
       "image": "img/parts/voro-ultrabee-front-turn-signals.webp"
+    },
+    {
+      "id": "eridepro-e70015-tail-light-mounting-bracket-ss2-0-ss3-0-sr",
+      "name": "E70015 - Tail Light Mounting Bracket - SS2.0/SS3.0/SR",
+      "brand": "E RIDE PRO",
+      "category": "street",
+      "price_usd": 9.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e70015-tail-light-mounting-bracket-ss2-0-ss3-0-sr",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e70015-tail-light-mounting-bracket-ss2-0-ss3-0-sr"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/e70015-tail-light-mounting-bracket-ss2-0-ss3-0-sr",
+        "ss20": "https://www.eridepro.com/products/e70015-tail-light-mounting-bracket-ss2-0-ss3-0-sr"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 9.0,
+          "buy_url": "https://www.eridepro.com/products/e70015-tail-light-mounting-bracket-ss2-0-ss3-0-sr"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e70015-tail-light-mounting-bracket-ss2-0-ss3-0-sr.webp"
+    },
+    {
+      "id": "tbelectricmoto-headlight-adapter-yozma-in10-to-surron-light-bee-light",
+      "name": "Headlight Adapter Yozma IN10 to Surron Light Bee Light",
+      "brand": "TB Electric",
+      "category": "street",
+      "price_usd": 9.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/headlight-adapter-yozma-in10-to-surron-light-bee-light",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/headlight-adapter-yozma-in10-to-surron-light-bee-light"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://tbelectricmoto.com/products/headlight-adapter-yozma-in10-to-surron-light-bee-light"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 9.99,
+          "buy_url": "https://tbelectricmoto.com/products/headlight-adapter-yozma-in10-to-surron-light-bee-light"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-headlight-adapter-yozma-in10-to-surron-light-bee-light.webp"
+    },
+    {
+      "id": "tbelectricmoto-headlight-adapter-talaria-sting-mx4-to-surron-light-bee",
+      "name": "Headlight Adapter Talaria Sting Mx4 to Surron Light Bee",
+      "brand": "TB Electric",
+      "category": "street",
+      "price_usd": 9.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/headlight-adapter-talaria-sting-mx4-to-surron-light-bee",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/headlight-adapter-talaria-sting-mx4-to-surron-light-bee"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://tbelectricmoto.com/products/headlight-adapter-talaria-sting-mx4-to-surron-light-bee",
+        "mx4": "https://tbelectricmoto.com/products/headlight-adapter-talaria-sting-mx4-to-surron-light-bee"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 9.99,
+          "buy_url": "https://tbelectricmoto.com/products/headlight-adapter-talaria-sting-mx4-to-surron-light-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-headlight-adapter-talaria-sting-mx4-to-surron-light-bee.webp"
     }
   ],
   "compatibility": [

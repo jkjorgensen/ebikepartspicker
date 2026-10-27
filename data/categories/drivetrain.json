@@ -259,6 +259,142 @@
         }
       ],
       "image": "img/parts/voro-eride-ss-sprockets.webp"
+    },
+    {
+      "id": "tbelectricmoto-dirtybike-final-drive-front-sprocket-surron-lbx",
+      "name": "DirtyBike Final Drive Front Sprocket Surron LBX",
+      "brand": "eDirtyBike",
+      "category": "drivetrain",
+      "price_usd": 6.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/dirtybike-final-drive-front-sprocket-surron-lbx",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/dirtybike-final-drive-front-sprocket-surron-lbx"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://tbelectricmoto.com/products/dirtybike-final-drive-front-sprocket-surron-lbx"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 6.0,
+          "buy_url": "https://tbelectricmoto.com/products/dirtybike-final-drive-front-sprocket-surron-lbx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-dirtybike-final-drive-front-sprocket-surron-lbx.webp"
+    },
+    {
+      "id": "howlingmoto-final-drive-front-sprocket-14t-surron-lbx",
+      "name": "Final Drive Front Sprocket | 14T | Surron LBX",
+      "brand": "eDirtyBike",
+      "category": "drivetrain",
+      "price_usd": 6.0,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/final-drive-front-sprocket-14t-surron-lbx",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/final-drive-front-sprocket-14t-surron-lbx"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://howlingmoto.com/products/final-drive-front-sprocket-14t-surron-lbx"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 6.0,
+          "buy_url": "https://howlingmoto.com/products/final-drive-front-sprocket-14t-surron-lbx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-final-drive-front-sprocket-14t-surron-lbx.webp"
+    },
+    {
+      "id": "revrides-dirtybike-final-drive-front-sprocket-surron-lbx",
+      "name": "DirtyBike 14T Final Drive Front Sprocket | Surron Light Bee, E Ride Pro",
+      "brand": "eDirtyBike",
+      "category": "drivetrain",
+      "price_usd": 6.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/dirtybike-final-drive-front-sprocket-surron-lbx",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/dirtybike-final-drive-front-sprocket-surron-lbx"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://revrides.com/products/dirtybike-final-drive-front-sprocket-surron-lbx"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 6.0,
+          "buy_url": "https://revrides.com/products/dirtybike-final-drive-front-sprocket-surron-lbx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-dirtybike-final-drive-front-sprocket-surron-lbx.webp"
+    },
+    {
+      "id": "tbelectricmoto-dirtybike-420-primary-chain-drive-alignment-shim-surron",
+      "name": "DirtyBike 420 Primary Chain Drive Alignment Shim Surron LBX",
+      "brand": "eDirtyBike",
+      "category": "drivetrain",
+      "price_usd": 6.95,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/dirtybike-420-primary-chain-drive-alignment-shim-surron-lbx",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/dirtybike-420-primary-chain-drive-alignment-shim-surron-lbx"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://tbelectricmoto.com/products/dirtybike-420-primary-chain-drive-alignment-shim-surron-lbx"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 6.95,
+          "buy_url": "https://tbelectricmoto.com/products/dirtybike-420-primary-chain-drive-alignment-shim-surron-lbx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-dirtybike-420-primary-chain-drive-alignment-shim-surron.webp"
     }
   ],
   "compatibility": [

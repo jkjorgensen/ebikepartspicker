@@ -505,6 +505,142 @@
         }
       ],
       "image": "img/parts/voro-ultrabee-decal-set.webp"
+    },
+    {
+      "id": "chargedcycleworks-light-bee-oem-battery-front-plate",
+      "name": "Surron Light Bee - OEM Front Number Plate",
+      "brand": "Surron",
+      "category": "plastics",
+      "price_usd": 13.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/light-bee-oem-battery-front-plate",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/light-bee-oem-battery-front-plate"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://chargedcycleworks.com/products/light-bee-oem-battery-front-plate"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 13.5,
+          "buy_url": "https://chargedcycleworks.com/products/light-bee-oem-battery-front-plate"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-light-bee-oem-battery-front-plate.webp"
+    },
+    {
+      "id": "tbelectricmoto-talaria-komodo-oem-replacement-rear-fender",
+      "name": "Talaria Komodo OEM Replacement Rear Fender",
+      "brand": "Talaria",
+      "category": "plastics",
+      "price_usd": 14.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-rear-fender",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-rear-fender"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-rear-fender"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 14.99,
+          "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-rear-fender"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-talaria-komodo-oem-replacement-rear-fender.webp"
+    },
+    {
+      "id": "tbelectricmoto-sur-ron-light-bee-rear-fender",
+      "name": "Sur-Ron Light Bee Rear Fender",
+      "brand": "Segron Universe",
+      "category": "plastics",
+      "price_usd": 16.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/sur-ron-light-bee-rear-fender",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/sur-ron-light-bee-rear-fender"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://tbelectricmoto.com/products/sur-ron-light-bee-rear-fender"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 16.0,
+          "buy_url": "https://tbelectricmoto.com/products/sur-ron-light-bee-rear-fender"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-sur-ron-light-bee-rear-fender.webp"
+    },
+    {
+      "id": "tbelectricmoto-talaria-komodo-oem-replacement-battery-cover-fender",
+      "name": "Talaria Komodo OEM Replacement Battery Cover Fender",
+      "brand": "Talaria",
+      "category": "plastics",
+      "price_usd": 17.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-battery-cover-fender",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-battery-cover-fender"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-battery-cover-fender"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 17.99,
+          "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-battery-cover-fender"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-talaria-komodo-oem-replacement-battery-cover-fender.webp"
     }
   ],
   "compatibility": [

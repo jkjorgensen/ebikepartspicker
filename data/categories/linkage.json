@@ -116,6 +116,74 @@
         }
       ],
       "image": "img/parts/voro-eride-ss-progression-triangle.webp"
+    },
+    {
+      "id": "eridepro-she7873-rear-suspension-linkage-bolts",
+      "name": "SHE7873 - Rear Suspension Linkage Bolts - ProS/SS2.0",
+      "brand": "E RIDE PRO Global",
+      "category": "linkage",
+      "price_usd": 5.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7873-rear-suspension-linkage-bolts",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7873-rear-suspension-linkage-bolts"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/she7873-rear-suspension-linkage-bolts"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 5.0,
+          "buy_url": "https://www.eridepro.com/products/she7873-rear-suspension-linkage-bolts"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7873-rear-suspension-linkage-bolts.webp"
+    },
+    {
+      "id": "revrides-stainless-bearing-shafts-sleeve-for-linkage-surron-lbx-by-pri",
+      "name": "Stainless Bearing Shafts Sleeve for Linkage | Surron LBX  | by Prickly Motorsports",
+      "brand": "Prickly Motorsports",
+      "category": "linkage",
+      "price_usd": 15.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/stainless-bearing-shafts-sleeve-for-linkage-surron-lbx-by-prickly-motorsports",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/stainless-bearing-shafts-sleeve-for-linkage-surron-lbx-by-prickly-motorsports"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://revrides.com/products/stainless-bearing-shafts-sleeve-for-linkage-surron-lbx-by-prickly-motorsports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 15.0,
+          "buy_url": "https://revrides.com/products/stainless-bearing-shafts-sleeve-for-linkage-surron-lbx-by-prickly-motorsports"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-stainless-bearing-shafts-sleeve-for-linkage-surron-lbx-by-pri.webp"
     }
   ],
   "compatibility": [

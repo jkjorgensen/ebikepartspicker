@@ -474,6 +474,142 @@
         }
       ],
       "image": "img/parts/voro-eride-ss-rear-shock.webp"
+    },
+    {
+      "id": "tbelectricmoto-kke-rear-absorber-suspension-shock-650ibs-spring-for-su",
+      "name": "KKE Rear Suspension Shock 650LBS Spring For Surron LBX, Segway",
+      "brand": "KKE Racing",
+      "category": "shock",
+      "price_usd": 49.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://tbelectricmoto.com/products/kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 49.99,
+          "buy_url": "https://tbelectricmoto.com/products/kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-kke-rear-absorber-suspension-shock-650ibs-spring-for-su.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-500lbs-rear-absorber-suspension-shock-spring-for",
+      "name": "KKE 500LBS Rear Shock Spring for Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "shock",
+      "price_usd": 71.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-500lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-500lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://chargedcycleworks.com/products/kke-500lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 71.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-500lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-kke-500lbs-rear-absorber-suspension-shock-spring-for.webp"
+    },
+    {
+      "id": "gritshift-kke-racing-rear-shock-spring-upgrade",
+      "name": "KKE Racing Rear Ultra Bee Shock Spring Upgrade",
+      "brand": "KKE Racing",
+      "category": "shock",
+      "price_usd": 79.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/kke-racing-rear-shock-spring-upgrade",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://gritshift.com/products/kke-racing-rear-shock-spring-upgrade"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://gritshift.com/products/kke-racing-rear-shock-spring-upgrade"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 79.89,
+          "buy_url": "https://gritshift.com/products/kke-racing-rear-shock-spring-upgrade"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/gritshift-kke-racing-rear-shock-spring-upgrade.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-550lbs-rear-absorber-suspension-shock-spring-for",
+      "name": "KKE 550LBS Shock Spring for Ultra Bee OEM",
+      "brand": "KKE Racing",
+      "category": "shock",
+      "price_usd": 79.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://chargedcycleworks.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-kke-550lbs-rear-absorber-suspension-shock-spring-for.webp"
     }
   ]
 }

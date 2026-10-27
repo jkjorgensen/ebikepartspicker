@@ -141,6 +141,142 @@
       "notes": "Product page exists but Walmart blocked automated price/stock verification — price shown as TBD. Listing names Light Bee LBX; verify year, pin diameter and mount fit before ordering.",
       "vendors": [],
       "weight_delta_kg": null
+    },
+    {
+      "id": "chargedcycleworks-surron-light-bee-pedal-connection-bracket-pair",
+      "name": "Surron Light Bee - OEM Foot Peg Connection Assembly",
+      "brand": "Surron-WN",
+      "category": "pegs",
+      "price_usd": 5.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-pedal-connection-bracket-pair",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-pedal-connection-bracket-pair"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://chargedcycleworks.com/products/surron-light-bee-pedal-connection-bracket-pair"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 5.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-pedal-connection-bracket-pair"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-surron-light-bee-pedal-connection-bracket-pair.webp"
+    },
+    {
+      "id": "eridepro-she7875-foot-peg-pin-and-lock-washer-s-ss2-0",
+      "name": "SHE7875 - Foot Peg Pin and Lock Washer - S/SS2.0",
+      "brand": "E RIDE PRO",
+      "category": "pegs",
+      "price_usd": 6.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7875-foot-peg-pin-and-lock-washer-s-ss2-0",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7875-foot-peg-pin-and-lock-washer-s-ss2-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/she7875-foot-peg-pin-and-lock-washer-s-ss2-0"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 6.0,
+          "buy_url": "https://www.eridepro.com/products/she7875-foot-peg-pin-and-lock-washer-s-ss2-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7875-foot-peg-pin-and-lock-washer-s-ss2-0.webp"
+    },
+    {
+      "id": "eridepro-e7518-foot-peg-bracket-bolt",
+      "name": "E7380 - Foot Peg Bracket Bolt - S/SS2.0",
+      "brand": "E RIDE PRO Global",
+      "category": "pegs",
+      "price_usd": 6.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7518-foot-peg-bracket-bolt",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7518-foot-peg-bracket-bolt"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/e7518-foot-peg-bracket-bolt"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 6.0,
+          "buy_url": "https://www.eridepro.com/products/e7518-foot-peg-bracket-bolt"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7518-foot-peg-bracket-bolt.webp"
+    },
+    {
+      "id": "revrides-e-ride-pro-ss-3-0-peg-brace-spacers-only",
+      "name": "E Ride Pro SS 3.0 4.0 SR Peg Brace Spacers Only",
+      "brand": "NTC Designs",
+      "category": "pegs",
+      "price_usd": 6.99,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/e-ride-pro-ss-3-0-peg-brace-spacers-only",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/e-ride-pro-ss-3-0-peg-brace-spacers-only"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://revrides.com/products/e-ride-pro-ss-3-0-peg-brace-spacers-only"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 6.99,
+          "buy_url": "https://revrides.com/products/e-ride-pro-ss-3-0-peg-brace-spacers-only"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-e-ride-pro-ss-3-0-peg-brace-spacers-only.webp"
     }
   ],
   "compatibility": [
