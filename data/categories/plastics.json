@@ -461,7 +461,7 @@
       "category": "plastics",
       "price_usd": 45.0,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fside-fairings-for-ultra-bee",
+      "buy_url": "https://voromotors.com/products/side-fairings-for-ultra-bee",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -474,8 +474,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 45.0,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fside-fairings-for-ultra-bee",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/side-fairings-for-ultra-bee",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-ultrabee-side-fairings.webp"
@@ -487,7 +487,7 @@
       "category": "plastics",
       "price_usd": 119.0,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdecal-set-for-ultra-bee",
+      "buy_url": "https://voromotors.com/products/decal-set-for-ultra-bee",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -500,8 +500,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 119.0,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fdecal-set-for-ultra-bee",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/decal-set-for-ultra-bee",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-ultrabee-decal-set.webp"

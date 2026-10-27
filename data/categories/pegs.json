@@ -13,7 +13,7 @@
       "tier": "budget",
       "price_usd": 99.0,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffoot-pegs-with-mounts-for-ultra-bee",
+      "buy_url": "https://voromotors.com/products/foot-pegs-with-mounts-for-ultra-bee",
       "stock_status": "in_stock",
       "weight_kg": null,
       "power_change_kw": null,
@@ -26,8 +26,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 99.0,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Ffoot-pegs-with-mounts-for-ultra-bee",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/foot-pegs-with-mounts-for-ultra-bee",
+          "affiliate": false
         }
       ],
       "weight_delta_kg": null,

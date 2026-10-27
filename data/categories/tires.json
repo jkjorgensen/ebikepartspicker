@@ -1408,7 +1408,7 @@
       "category": "tires",
       "price_usd": 49.95,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fcst-80-100-19-tire-for-e-ride-pro-ss",
+      "buy_url": "https://voromotors.com/products/cst-80-100-19-tire-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -1421,8 +1421,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 49.95,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fcst-80-100-19-tire-for-e-ride-pro-ss",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/cst-80-100-19-tire-for-e-ride-pro-ss",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-eride-ss-cst-80100-19.webp"
@@ -1434,7 +1434,7 @@
       "category": "tires",
       "price_usd": 45.0,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fouter-tire-for-altis-sigma",
+      "buy_url": "https://voromotors.com/products/outer-tire-for-altis-sigma",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -1447,8 +1447,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 45.0,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fouter-tire-for-altis-sigma",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/outer-tire-for-altis-sigma",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-altis-sigma-tire.webp"

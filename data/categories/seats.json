@@ -101,7 +101,7 @@
       "category": "seats",
       "price_usd": 44.95,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fseat-for-e-ride-pro-ss",
+      "buy_url": "https://voromotors.com/products/seat-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -114,8 +114,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 44.95,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fseat-for-e-ride-pro-ss",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/seat-for-e-ride-pro-ss",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-eride-ss-seat.webp"

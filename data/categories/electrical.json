@@ -102,7 +102,7 @@
       "category": "electrical",
       "price_usd": 169.95,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Flcd-display-for-e-ride-pro-ss",
+      "buy_url": "https://voromotors.com/products/lcd-display-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -115,8 +115,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 169.95,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Flcd-display-for-e-ride-pro-ss",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/lcd-display-for-e-ride-pro-ss",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-eride-ss-lcd-display.webp"
@@ -128,7 +128,7 @@
       "category": "electrical",
       "price_usd": 39.95,
       "vendor": "VORO Motors",
-      "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fheadlight-led-light-bar-for-e-ride-pro-ss",
+      "buy_url": "https://voromotors.com/products/headlight-led-light-bar-for-e-ride-pro-ss",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "in_stock",
@@ -141,8 +141,8 @@
         {
           "vendor": "VORO Motors",
           "price_usd": 39.95,
-          "buy_url": "https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fheadlight-led-light-bar-for-e-ride-pro-ss",
-          "affiliate": true
+          "buy_url": "https://voromotors.com/products/headlight-led-light-bar-for-e-ride-pro-ss",
+          "affiliate": false
         }
       ],
       "image": "img/parts/voro-eride-ss-headlight-bar.webp"
