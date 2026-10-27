@@ -375,40 +375,7 @@
       "stock_status": "in_stock",
       "notes": "Fitment from the seller listing title; other bikes not verified.",
       "source_urls": [
-        "https://tbelectricmoto.com/products/dirtybike-420-primary-chain-drive-alignment-shim-surron-lbx"
-      ],
-      "last_checked": "2026-10-27",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Sur-Ron Light Bee X": "direct_fit"
-      },
-      "_fit_src": {
-        "lightbee": "https://tbelectricmoto.com/products/dirtybike-420-primary-chain-drive-alignment-shim-surron-lbx"
-      },
-      "vendors": [
-        {
-          "vendor": "TB Electric Moto",
-          "price_usd": 6.95,
-          "buy_url": "https://tbelectricmoto.com/products/dirtybike-420-primary-chain-drive-alignment-shim-surron-lbx"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": "img/parts/tbelectricmoto-dirtybike-420-primary-chain-drive-alignment-shim-surron.webp"
-    },
-    {
-      "id": "howlingmoto-420-primary-chain-drive-alignment-shim-surron-lbx",
-      "name": "420 Primary Chain Drive Alignment Shim | Surron LBX",
-      "brand": "eDirtyBike",
-      "category": "drivetrain",
-      "price_usd": 6.95,
-      "vendor": "Howling Moto",
-      "buy_url": "https://howlingmoto.com/products/420-primary-chain-drive-alignment-shim-surron-lbx",
-      "tier": "budget",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "Fitment from the seller listing title; other bikes not verified.",
-      "source_urls": [
+        "https://tbelectricmoto.com/products/dirtybike-420-primary-chain-drive-alignment-shim-surron-lbx",
         "https://howlingmoto.com/products/420-primary-chain-drive-alignment-shim-surron-lbx"
       ],
       "last_checked": "2026-10-27",
@@ -422,13 +389,18 @@
       },
       "vendors": [
         {
+          "vendor": "TB Electric Moto",
+          "price_usd": 6.95,
+          "buy_url": "https://tbelectricmoto.com/products/dirtybike-420-primary-chain-drive-alignment-shim-surron-lbx"
+        },
+        {
           "vendor": "Howling Moto",
           "price_usd": 6.95,
           "buy_url": "https://howlingmoto.com/products/420-primary-chain-drive-alignment-shim-surron-lbx"
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/howlingmoto-420-primary-chain-drive-alignment-shim-surron-lbx.webp"
+      "image": "img/parts/tbelectricmoto-dirtybike-420-primary-chain-drive-alignment-shim-surron.webp"
     },
     {
       "id": "eridepro-she7876-motor-mount-bolts-kit-belt-adjustment-kit-ss2-0",
@@ -667,6 +639,76 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/howlingmoto-dirtybike-rk-420-primary-chain-drive-conversion-kit-e-ride.webp"
+    },
+    {
+      "id": "revrides-heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-f",
+      "name": "Heavy Hitter 428 Lightweight Billet Aluminum Super Sprocket | For E-Ride Pro SR / SS 3.0",
+      "brand": "GritShift",
+      "category": "drivetrain",
+      "price_usd": 48.99,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-for-e-ride-pro-sr-ss-3-0",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-for-e-ride-pro-sr-ss-3-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://revrides.com/products/heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-for-e-ride-pro-sr-ss-3-0",
+        "sr": "https://revrides.com/products/heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-for-e-ride-pro-sr-ss-3-0"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 48.99,
+          "buy_url": "https://revrides.com/products/heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-for-e-ride-pro-sr-ss-3-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-f.webp"
+    },
+    {
+      "id": "revrides-e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0",
+      "name": "E-Moto 428 Chain by Warp 9 For Altis Sigma,  Eride Pro Sr, 3.0",
+      "brand": "Warp 9",
+      "category": "drivetrain",
+      "price_usd": 83.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://revrides.com/products/e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 83.0,
+          "buy_url": "https://revrides.com/products/e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0.webp"
     }
   ],
   "compatibility": [

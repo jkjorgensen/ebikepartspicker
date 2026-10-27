@@ -427,6 +427,176 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eridepro-e7215.webp"
+    },
+    {
+      "id": "chargedcycleworks-ventus-one-plus-oem-triple-clamp-front-axle-take-off",
+      "name": "Ventus One Plus OEM Triple Clamp & Front Axle - Take-Off",
+      "brand": "Pinned Electric",
+      "category": "cockpit",
+      "price_usd": 169.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-one-plus-oem-triple-clamp-front-axle-take-off",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-one-plus-oem-triple-clamp-front-axle-take-off"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Ventus One Plus": "direct_fit"
+      },
+      "_fit_src": {
+        "ventus-plus": "https://chargedcycleworks.com/products/ventus-one-plus-oem-triple-clamp-front-axle-take-off"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 169.99,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-one-plus-oem-triple-clamp-front-axle-take-off"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-ventus-one-plus-oem-triple-clamp-front-axle-take-off.webp"
+    },
+    {
+      "id": "chargedcycleworks-ventus-throttle-with-grip-1-7-ventus-oem",
+      "name": "Ventus One / One + - OEM Throttle with Grip 1.8 / 1.9",
+      "brand": "Pinned Electric",
+      "category": "cockpit",
+      "price_usd": 79.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-throttle-with-grip-1-7-ventus-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-throttle-with-grip-1-7-ventus-oem"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Ventus One Plus": "direct_fit"
+      },
+      "_fit_src": {
+        "ventus-plus": "https://chargedcycleworks.com/products/ventus-throttle-with-grip-1-7-ventus-oem"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-throttle-with-grip-1-7-ventus-oem"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-ventus-throttle-with-grip-1-7-ventus-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-regen",
+      "name": "E Ride Pro SR - OEM Regen/Mode Switch",
+      "brand": "ERide Pro",
+      "category": "cockpit",
+      "price_usd": 25.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-regen",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-regen"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://chargedcycleworks.com/products/e-ride-pro-oem-regen"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 25.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-regen"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-regen.webp"
+    },
+    {
+      "id": "chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-pro-sr",
+      "name": "ASV F3-E Unbreakable Brake Levers for E Ride Pro SR | 3.0 (Type 1)",
+      "brand": "ASV",
+      "category": "cockpit",
+      "price_usd": 180.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-pro-sr-3-0",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-pro-sr-3-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-pro-sr-3-0"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 180.0,
+          "buy_url": "https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-pro-sr-3-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-pro-sr.webp"
+    },
+    {
+      "id": "revrides-e-ride-pro-thumb-throttle",
+      "name": "E Ride Pro Thumb Regen Throttle | For E Ride Pro SR",
+      "brand": "E Ride Pro",
+      "category": "cockpit",
+      "price_usd": 25.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/e-ride-pro-thumb-throttle",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/e-ride-pro-thumb-throttle"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://revrides.com/products/e-ride-pro-thumb-throttle"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 25.0,
+          "buy_url": "https://revrides.com/products/e-ride-pro-thumb-throttle"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-e-ride-pro-thumb-throttle.webp"
     }
   ],
   "compatibility": [

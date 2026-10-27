@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.pages.dev'; V='4.8.1'; IMGV='4.5.0'; TODAY='2026-10-18'
+BASE='https://ebikepartspicker.pages.dev'; V='4.8.2'; IMGV='4.5.0'; TODAY='2026-10-27'
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else ''
 CAT={c['id']:c for c in D['cats']}; BK={b['id']:b for b in D['bikes']}
@@ -143,3 +143,14 @@ allu=[BASE+(s[:-5] if s.endswith('.html') else s) for s in static if os.path.exi
 open(os.path.join(ROOT,'sitemap.xml'),'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod></url>\n' for u in allu)+'</urlset>\n')
 open(os.path.join(ROOT,'robots.txt'),'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n')
 print(len(allu),'urls')
+# keep site-wide additions on generated pages: click tracking + upgrades-by-goal link
+import glob as _g
+for _f in _g.glob(os.path.join(ROOT,'bikes','**','index.html'),recursive=True)+_g.glob(os.path.join(ROOT,'guides','*','index.html'))+_g.glob(os.path.join(ROOT,'parts','**','index.html'),recursive=True)+[os.path.join(ROOT,'power','index.html')]:
+  if not os.path.exists(_f): continue
+  _s=open(_f).read(); _o=_s
+  _b=os.path.basename(os.path.dirname(_f))
+  if '/bikes/' in _f and os.path.exists(os.path.join(ROOT,'upgrades',_b,'index.html')) and '/upgrades/'+_b+'/' not in _s:
+    _s=_s.replace('</p></main>',f'</p><p><a href="/upgrades/{_b}/">Upgrades by goal (power, suspension, brakes, tires) →</a></p></main>',1)
+  if 'track.js' not in _s:
+    _s=_s.replace('</body></html>','<!-- Cloudflare Web Analytics: enable in Pages project > Metrics (auto-injected, cookieless) -->\n<script src="/track.js?v=1" defer></script>\n</body></html>',1)
+  if _s!=_o: open(_f,'w').write(_s)

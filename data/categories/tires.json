@@ -1830,6 +1830,40 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eridepro-e7731-1-fatty-tire-ss-3-0-sr.webp"
+    },
+    {
+      "id": "tbelectricmoto-fattyoff-road-100-90-18-rear-tire-tube-rim-strip",
+      "name": "E-Ride Pro SR Fatty Off-Road Tire 100/90-18",
+      "brand": "E-Ride Pro",
+      "category": "tires",
+      "price_usd": 79.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/fattyoff-road-100-90-18-rear-tire-tube-rim-strip",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/fattyoff-road-100-90-18-rear-tire-tube-rim-strip"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://tbelectricmoto.com/products/fattyoff-road-100-90-18-rear-tire-tube-rim-strip"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 79.0,
+          "buy_url": "https://tbelectricmoto.com/products/fattyoff-road-100-90-18-rear-tire-tube-rim-strip"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-fattyoff-road-100-90-18-rear-tire-tube-rim-strip.webp"
     }
   ],
   "compatibility": [

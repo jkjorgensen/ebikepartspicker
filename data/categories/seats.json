@@ -133,40 +133,7 @@
       "stock_status": "in_stock",
       "notes": "Fitment from the seller listing title; other bikes not verified.",
       "source_urls": [
-        "https://chargedcycleworks.com/products/warp9-seat-spacer-surron-ultra-bee"
-      ],
-      "last_checked": "2026-10-27",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
-      },
-      "_fit_src": {
-        "ultrabee": "https://chargedcycleworks.com/products/warp9-seat-spacer-surron-ultra-bee"
-      },
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 9.0,
-          "buy_url": "https://chargedcycleworks.com/products/warp9-seat-spacer-surron-ultra-bee"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-warp9-seat-spacer-surron-ultra-bee.webp"
-    },
-    {
-      "id": "tbelectricmoto-warp-9-surron-ultra-bee-seat-spacer",
-      "name": "Warp 9 Surron Ultra Bee Seat Spacer",
-      "brand": "Warp 9",
-      "category": "seats",
-      "price_usd": 9.0,
-      "vendor": "TB Electric Moto",
-      "buy_url": "https://tbelectricmoto.com/products/warp-9-surron-ultra-bee-seat-spacer",
-      "tier": "budget",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "Fitment from the seller listing title; other bikes not verified.",
-      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-seat-spacer-surron-ultra-bee",
         "https://tbelectricmoto.com/products/warp-9-surron-ultra-bee-seat-spacer"
       ],
       "last_checked": "2026-10-27",
@@ -180,13 +147,18 @@
       },
       "vendors": [
         {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-seat-spacer-surron-ultra-bee"
+        },
+        {
           "vendor": "TB Electric Moto",
           "price_usd": 9.0,
           "buy_url": "https://tbelectricmoto.com/products/warp-9-surron-ultra-bee-seat-spacer"
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/tbelectricmoto-warp-9-surron-ultra-bee-seat-spacer.webp"
+      "image": "img/parts/chargedcycleworks-warp9-seat-spacer-surron-ultra-bee.webp"
     },
     {
       "id": "revrides-ultra-bee-seat-catch-spacer-by-warp-9-racing",
@@ -543,6 +515,38 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-guts-seat-cover-for-talaria-komodo.webp"
+    },
+    {
+      "id": "chargedcycleworks-ventus-seat-ventus-oem",
+      "name": "Ventus One - OEM Seat",
+      "brand": "Pinned Electric",
+      "category": "seats",
+      "price_usd": 60.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-seat-ventus-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified. Listed for Ventus One; One Plus fit is likely but not confirmed by the seller.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-seat-ventus-oem"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Ventus One Plus": "likely_fit"
+      },
+      "_fit_src": {},
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 60.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-seat-ventus-oem"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-ventus-seat-ventus-oem.webp"
     }
   ],
   "compatibility": [

@@ -1302,7 +1302,8 @@ syncBikeInputs();
   var row = document.querySelector('.stats');
   try{
     if(typeof BIKES==='undefined' || typeof CATEGORIES==='undefined' || !BIKES.length) throw 0;
-    var pc = CATEGORIES.reduce(function(n,c){ return n + c.options.filter(function(o,i){ return i>0 && !o.hidden; }).length; }, 0);
+    var seen = {}, pc = 0;
+    CATEGORIES.forEach(function(c){ c.options.forEach(function(o){ if(o && o.pid && !o.hidden && !seen[o.pid]){ seen[o.pid]=1; pc++; } }); });
     var sb=$('statBikes'), sp=$('statParts'), sc=$('statCats');
     if(sb) sb.textContent = BIKES.length;
     if(sp) sp.textContent = pc;

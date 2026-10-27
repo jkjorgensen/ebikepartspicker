@@ -485,6 +485,75 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/revrides-footpeg-bracket-brace-bar-for-talaria-sting-mx3-mx4-mx5-and-x.webp"
+    },
+    {
+      "id": "chargedcycleworks-ventus-foot-peg-mounting-bracket-ventus-oem",
+      "name": "Ventus One / One + - OEM Left Side Foot Peg Mounting Bracket",
+      "brand": "Pinned Electric",
+      "category": "pegs",
+      "price_usd": 45.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-foot-peg-mounting-bracket-ventus-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-foot-peg-mounting-bracket-ventus-oem"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Ventus One Plus": "direct_fit"
+      },
+      "_fit_src": {
+        "ventus-plus": "https://chargedcycleworks.com/products/ventus-foot-peg-mounting-bracket-ventus-oem"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 45.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-foot-peg-mounting-bracket-ventus-oem"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-ventus-foot-peg-mounting-bracket-ventus-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-foot-pegs-for-surron-segway",
+      "name": "Warp9 Foot Pegs for Surron Light Bee, Ventus One, and E Ride Pro",
+      "brand": "Warp9",
+      "category": "pegs",
+      "price_usd": 109.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified. Listed for Ventus One; One Plus fit is likely but not confirmed by the seller.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit",
+        "Ventus One Plus": "likely_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 109.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp"
     }
   ],
   "compatibility": [

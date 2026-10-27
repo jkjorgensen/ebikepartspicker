@@ -354,6 +354,40 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/revrides-talaria-mx3-mx4-linkage-rear-shock-mount-kit.webp"
+    },
+    {
+      "id": "revrides-prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0",
+      "name": "Prickly Linkage for Sirris R38 (E-Ride Pro SR / 3.0)",
+      "brand": "Sirris Store",
+      "category": "linkage",
+      "price_usd": 125.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SR": "direct_fit"
+      },
+      "_fit_src": {
+        "sr": "https://revrides.com/products/prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 125.0,
+          "buy_url": "https://revrides.com/products/prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0.webp"
     }
   ],
   "compatibility": [

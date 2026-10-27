@@ -866,6 +866,20 @@ var CATEGORIES = [
      fits:["mx4"], likely:[], no:[],
      badge:'Wheel', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-17in-premium-super-moto-wheel-set-for-talaria-sting-mx4.webp'
     },
+    {name:'Ventus One + (Plus) - OEM Front Wheel & Spacers', pid:'chargedcycleworks-ventus-one-plus-oem-front-wheel-spacers', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:150, url:'https://chargedcycleworks.com/products/ventus-one-plus-oem-front-wheel-spacers', chk:'2026-10-27'},
+     ],
+     fits:["ventus-plus"], likely:[], no:[],
+     badge:'Wheel', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-ventus-one-plus-oem-front-wheel-spacers.webp'
+    },
+    {name:'OEM - Surron Light Bee - 17" Supermoto Wheelset (also fits, E Ride Pro, and Ventus One)', pid:'chargedcycleworks-surron-oem-supermoto-wheelset', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:499, url:'https://chargedcycleworks.com/products/surron-oem-supermoto-wheelset', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:["ventus-plus"], no:[],
+     badge:'Wheel', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-surron-oem-supermoto-wheelset.webp'
+    },
 ]},
   {id:'brakes', name:'Brakes', blurb:'As the bike gets faster, stopping matters more. Bigger rotors and better calipers transform confidence.', tips:['Rotor size changes may need a caliper relocation bracket','Match master cylinder to caliper','Pad compound: organic for feel, sintered for bite and life'], options:[
     {name:'Stock brakes', prices:[]},
@@ -1019,16 +1033,10 @@ var CATEGORIES = [
     {name:'Titanium Brake Reservoir Bolts | Surron Ultra Bee', pid:'revrides-titanium-surron-ultra-bee-brake-reservoir-cap-bolts', tier:'budget',
      prices:[
       {v:'REV Rides', p:7.99, url:'https://revrides.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts', chk:'2026-10-27'},
-     ],
-     fits:["ultrabee"], likely:[], no:[],
-     badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-titanium-surron-ultra-bee-brake-reservoir-cap-bolts.webp'
-    },
-    {name:'Titanium Surron Brake Reservoir Cap Bolts - Sur Ron Ultra Bee', pid:'gritshift-titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee', tier:'budget',
-     prices:[
       {v:'GritShift', p:7.99, url:'https://gritshift.com/products/titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee', chk:'2026-10-27'},
      ],
      fits:["ultrabee"], likely:[], no:[],
-     badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/gritshift-titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee.webp'
+     badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-titanium-surron-ultra-bee-brake-reservoir-cap-bolts.webp'
     },
     {name:'Surron Ultra Bee Brake Caliper Pad Pin | OEM Replacement | Ships from USA', pid:'howlingmoto-surron-ultra-bee-brake-caliper-pad-pin-oem-replacement-shi', tier:'OEM',
      prices:[
@@ -1092,6 +1100,34 @@ var CATEGORIES = [
      ],
      fits:["ventus-plus"], likely:[], no:[],
      badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-ebike-garage-foot-brake-kit-for-79bike-ventus-one-formu.webp'
+    },
+    {name:'EBIKE Garage Foot Brake Kit For 79Bike / Ventus One', pid:'tbelectricmoto-ebike-garage-foot-brake-kit-for-79bike-ventus-one', tier:'premium',
+     prices:[
+      {v:'TB Electric Moto', p:308, url:'https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-79bike-ventus-one', chk:'2026-10-27'},
+     ],
+     fits:[], likely:["ventus-plus"], no:[],
+     badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-ebike-garage-foot-brake-kit-for-79bike-ventus-one.webp'
+    },
+    {name:'Brake Pads for Ventus One and Rerode', pid:'tbelectricmoto-ventus-one-brake-pads', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:20, url:'https://tbelectricmoto.com/products/ventus-one-brake-pads', chk:'2026-10-27'},
+     ],
+     fits:[], likely:["ventus-plus"], no:[],
+     badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-ventus-one-brake-pads.webp'
+    },
+    {name:'E Ride Pro SR Regen Brake', pid:'tbelectricmoto-e-ride-pro-sr-regen-brake', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:25, url:'https://tbelectricmoto.com/products/e-ride-pro-sr-regen-brake', chk:'2026-10-27'},
+     ],
+     fits:["sr"], likely:[], no:[],
+     badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-e-ride-pro-sr-regen-brake.webp'
+    },
+    {name:'Eride Pro SR / 3.0 Brake Pads Talaria MX5', pid:'howlingmoto-eride-pro-sr-3-0-brake-pads-talaria-mx5', tier:'budget',
+     prices:[
+      {v:'Howling Moto', p:29.99, url:'https://howlingmoto.com/products/eride-pro-sr-3-0-brake-pads-talaria-mx5', chk:'2026-10-27'},
+     ],
+     fits:["mx5", "sr"], likely:[], no:[],
+     badge:'Brakes', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-eride-pro-sr-3-0-brake-pads-talaria-mx5.webp'
     },
 ]},
   {id:'plastics', name:'Plastics', blurb:'Bodywork — the look of the bike plus roost protection.', tips:['Mounting is bike-specific — \'universal\' rarely is','Full kits look cleaner than piecing together','Graphics usually sold separately'], options:[
@@ -1314,6 +1350,13 @@ var CATEGORIES = [
      fits:["komodo"], likely:[], no:[],
      badge:'Plastics', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-talaria-komodo-oem-replacement-front-fender.webp'
     },
+    {name:'Ventus One - OEM Rear Fender', pid:'chargedcycleworks-rear-fender-ventus-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:26, url:'https://chargedcycleworks.com/products/rear-fender-ventus-oem', chk:'2026-10-27'},
+     ],
+     fits:[], likely:["ventus-plus"], no:[],
+     badge:'Plastics', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-rear-fender-ventus-oem.webp'
+    },
 ]},
   {id:'batteries', name:'Batteries', blurb:'Your fuel tank and your power ceiling. A weak battery chokes even the best motor and controller combo.', tips:['Continuous kW rating must meet what your controller pulls — check the Powertrain panel for bottlenecks','Voltage must match your controller\'s range','Confirm it physically fits your frame — sizes vary a lot','Swappable packs are convenient; fixed packs usually hold more capacity'], options:[
     {name:'Stock batteries', prices:[]},
@@ -1466,16 +1509,10 @@ var CATEGORIES = [
     {name:'Warp 9 Talaria Komodo 1" Bar Risers', pid:'tbelectricmoto-talaria-komodo-1-bar-risers', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:27, url:'https://tbelectricmoto.com/products/talaria-komodo-1-bar-risers', chk:'2026-10-27'},
-     ],
-     fits:["komodo"], likely:[], no:[],
-     badge:'Handlebar', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-talaria-komodo-1-bar-risers.webp'
-    },
-    {name:'Warp 9 Talaria Komodo 1 Inch Bar Risers', pid:'gritshift-warp-9-talaria-komodo-1-inch-bar-risers', tier:'budget',
-     prices:[
       {v:'GritShift', p:29.89, url:'https://gritshift.com/products/warp-9-talaria-komodo-1-inch-bar-risers', chk:'2026-10-27'},
      ],
      fits:["komodo"], likely:[], no:[],
-     badge:'Handlebar', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/gritshift-warp-9-talaria-komodo-1-inch-bar-risers.webp'
+     badge:'Handlebar', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-talaria-komodo-1-bar-risers.webp'
     },
     {name:'Surron Ultra Bee CNC Bar Mount', pid:'tbelectricmoto-surron-ultra-bee-bar-mount', tier:'budget',
      prices:[
@@ -1728,6 +1765,41 @@ var CATEGORIES = [
      fits:["ss20"], likely:[], no:[],
      badge:'Controls', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7215.webp'
     },
+    {name:'Ventus One Plus OEM Triple Clamp & Front Axle - Take-Off', pid:'chargedcycleworks-ventus-one-plus-oem-triple-clamp-front-axle-take-off', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:169.99, url:'https://chargedcycleworks.com/products/ventus-one-plus-oem-triple-clamp-front-axle-take-off', chk:'2026-10-27'},
+     ],
+     fits:["ventus-plus"], likely:[], no:[],
+     badge:'Controls', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-ventus-one-plus-oem-triple-clamp-front-axle-take-off.webp'
+    },
+    {name:'Ventus One / One + - OEM Throttle with Grip 1.8 / 1.9', pid:'chargedcycleworks-ventus-throttle-with-grip-1-7-ventus-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:79, url:'https://chargedcycleworks.com/products/ventus-throttle-with-grip-1-7-ventus-oem', chk:'2026-10-27'},
+     ],
+     fits:["ventus-plus"], likely:[], no:[],
+     badge:'Controls', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-ventus-throttle-with-grip-1-7-ventus-oem.webp'
+    },
+    {name:'E Ride Pro SR - OEM Regen/Mode Switch', pid:'chargedcycleworks-e-ride-pro-oem-regen', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-regen', chk:'2026-10-27'},
+     ],
+     fits:["sr"], likely:[], no:[],
+     badge:'Controls', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-e-ride-pro-oem-regen.webp'
+    },
+    {name:'ASV F3-E Unbreakable Brake Levers for E Ride Pro SR | 3.0 (Type 1)', pid:'chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-pro-sr', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:180, url:'https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-pro-sr-3-0', chk:'2026-10-27'},
+     ],
+     fits:["sr"], likely:[], no:[],
+     badge:'Controls', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-pro-sr.webp'
+    },
+    {name:'E Ride Pro Thumb Regen Throttle | For E Ride Pro SR', pid:'revrides-e-ride-pro-thumb-throttle', tier:'budget',
+     prices:[
+      {v:'REV Rides', p:25, url:'https://revrides.com/products/e-ride-pro-thumb-throttle', chk:'2026-10-27'},
+     ],
+     fits:["sr"], likely:[], no:[],
+     badge:'Controls', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/revrides-e-ride-pro-thumb-throttle.webp'
+    },
 ]},
   {id:'cooling', name:'Cooling', blurb:'High-power builds make serious heat. Cooling keeps your motor and controller alive when you\'re pushing hard.', tips:['Mostly needed above ~15 kW or for sustained high load','Check fitment against your specific motor'], options:[
     {name:'Stock cooling', prices:[]},
@@ -1844,16 +1916,10 @@ var CATEGORIES = [
     {name:'DirtyBike 420 Primary Chain Drive Alignment Shim Surron LBX', pid:'tbelectricmoto-dirtybike-420-primary-chain-drive-alignment-shim-surron', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:6.95, url:'https://tbelectricmoto.com/products/dirtybike-420-primary-chain-drive-alignment-shim-surron-lbx', chk:'2026-10-27'},
-     ],
-     fits:["lightbee"], likely:[], no:[],
-     badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-420-primary-chain-drive-alignment-shim-surron.webp'
-    },
-    {name:'420 Primary Chain Drive Alignment Shim | Surron LBX', pid:'howlingmoto-420-primary-chain-drive-alignment-shim-surron-lbx', tier:'budget',
-     prices:[
       {v:'Howling Moto', p:6.95, url:'https://howlingmoto.com/products/420-primary-chain-drive-alignment-shim-surron-lbx', chk:'2026-10-27'},
      ],
      fits:["lightbee"], likely:[], no:[],
-     badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-420-primary-chain-drive-alignment-shim-surron-lbx.webp'
+     badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-420-primary-chain-drive-alignment-shim-surron.webp'
     },
     {name:'SHE7876 - Motor Mount  Bolts Kit/  Belt Adjustment Kit - SS2.0', pid:'eridepro-she7876-motor-mount-bolts-kit-belt-adjustment-kit-ss2-0', tier:'budget',
      prices:[
@@ -1903,6 +1969,20 @@ var CATEGORIES = [
      ],
      fits:["sr"], likely:[], no:[],
      badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-dirtybike-rk-420-primary-chain-drive-conversion-kit-e-ride.webp'
+    },
+    {name:'Heavy Hitter 428 Lightweight Billet Aluminum Super Sprocket | For E-Ride Pro SR / SS 3.0', pid:'revrides-heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-f', tier:'budget',
+     prices:[
+      {v:'REV Rides', p:48.99, url:'https://revrides.com/products/heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-for-e-ride-pro-sr-ss-3-0', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "sr"], likely:[], no:[],
+     badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-f.webp'
+    },
+    {name:'E-Moto 428 Chain by Warp 9 For Altis Sigma,  Eride Pro Sr, 3.0', pid:'revrides-e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0', tier:'mid',
+     prices:[
+      {v:'REV Rides', p:83, url:'https://revrides.com/products/e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0', chk:'2026-10-27'},
+     ],
+     fits:["sr"], likely:[], no:[],
+     badge:'Drivetrain', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/revrides-e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0.webp'
     },
 ]},
   {id:'electrical', name:'Electrical', blurb:'Dashboards, lights, and wiring that tie the build together.', tips:['Check voltage compatibility with your battery','Plug-and-play beats splicing — look for bike-specific kits'], options:[
@@ -2164,6 +2244,13 @@ var CATEGORIES = [
      fits:["mx4"], likely:[], no:[],
      badge:'Guard', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-psm-talaria-rotor-guard.webp'
     },
+    {name:'Ventus One - OEM Rear Mud Guard', pid:'chargedcycleworks-rear-mud-guard-ventus-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:35, url:'https://chargedcycleworks.com/products/rear-mud-guard-ventus-oem', chk:'2026-10-27'},
+     ],
+     fits:[], likely:["ventus-plus"], no:[],
+     badge:'Guard', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-rear-mud-guard-ventus-oem.webp'
+    },
 ]},
   {id:'linkage', name:'Linkage', blurb:'Connects the shock to the swingarm and sets the leverage curve — subtle but noticeable.', tips:['Bike-specific fitment — no universal options','Usually chosen alongside the shock'], options:[
     {name:'Stock linkage', prices:[]},
@@ -2246,6 +2333,13 @@ var CATEGORIES = [
      ],
      fits:["mx4"], likely:[], no:[],
      badge:'Linkage', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-talaria-mx3-mx4-linkage-rear-shock-mount-kit.webp'
+    },
+    {name:'Prickly Linkage for Sirris R38 (E-Ride Pro SR / 3.0)', pid:'revrides-prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0', tier:'mid',
+     prices:[
+      {v:'REV Rides', p:125, url:'https://revrides.com/products/prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0', chk:'2026-10-27'},
+     ],
+     fits:["sr"], likely:[], no:[],
+     badge:'Linkage', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0.webp'
     },
 ]},
   {id:'maintenance', name:'Maintenance', blurb:'Consumables and shop supplies to keep the build running.', tips:['Stock up on what wears: chains, brake pads, tires'], options:[
@@ -2333,8 +2427,10 @@ var CATEGORIES = [
     {name:'Swingarm Bearing Kit | Talaria Sting | MX3 / MX4 / MX5', pid:'chargedcycleworks-swingarm-bearing-kit-talaria-sting-mx3-mx4-mx5', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:18, url:'https://chargedcycleworks.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4-mx5', chk:'2026-10-27'},
+      {v:'GritShift', p:18, url:'https://gritshift.com/products/dirtybike-swingarm-bearing-kit-talaria-sting', chk:'2026-10-27'},
+      {v:'TB Electric Moto', p:18, url:'https://tbelectricmoto.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4', chk:'2026-10-27'},
      ],
-     fits:["mx5", "mx4"], likely:[], no:[],
+     fits:["mx4", "mx5"], likely:[], no:[],
      badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-swingarm-bearing-kit-talaria-sting-mx3-mx4-mx5.webp'
     },
     {name:'Bearing Kit | Swingarm |12mm Shaft | E Ride Pro SR/3.0/4.0', pid:'revrides-bearing-kit-swingarm-12mm-shaft-e-ride-pro-sr-3-0', tier:'budget',
@@ -2344,26 +2440,12 @@ var CATEGORIES = [
      fits:["sr"], likely:[], no:[],
      badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-bearing-kit-swingarm-12mm-shaft-e-ride-pro-sr-3-0.webp'
     },
-    {name:'DirtyBike Swingarm Bearing Kit - Talaria Sting MX3 / MX4 / MX5', pid:'gritshift-dirtybike-swingarm-bearing-kit-talaria-sting', tier:'budget',
-     prices:[
-      {v:'GritShift', p:18, url:'https://gritshift.com/products/dirtybike-swingarm-bearing-kit-talaria-sting', chk:'2026-10-27'},
-     ],
-     fits:["mx5", "mx4"], likely:[], no:[],
-     badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/gritshift-dirtybike-swingarm-bearing-kit-talaria-sting.webp'
-    },
     {name:'eDirtybike Bearing Kit | Swingarm | E Ride Pro SR and 3.0', pid:'tbelectricmoto-bearing-kit-swingarm-e-ride-pro-sr-and-3-0', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:18, url:'https://tbelectricmoto.com/products/bearing-kit-swingarm-e-ride-pro-sr-and-3-0', chk:'2026-10-27'},
      ],
      fits:["sr"], likely:[], no:[],
      badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-bearing-kit-swingarm-e-ride-pro-sr-and-3-0.webp'
-    },
-    {name:'Swingarm Bearing Kit | Talaria Sting | MX3 / MX4', pid:'tbelectricmoto-swingarm-bearing-kit-talaria-sting-mx3-mx4', tier:'budget',
-     prices:[
-      {v:'TB Electric Moto', p:18, url:'https://tbelectricmoto.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4', chk:'2026-10-27'},
-     ],
-     fits:["mx4"], likely:[], no:[],
-     badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-swingarm-bearing-kit-talaria-sting-mx3-mx4.webp'
     },
 ]},
   {id:'pegs', name:'Foot Pegs', blurb:'Wider, sharper pegs mean more control — especially standing up.', tips:['Mounts are bike-specific','Titanium saves weight; steel lasts longer'], options:[
@@ -2492,6 +2574,20 @@ var CATEGORIES = [
      fits:["mx5", "mx4"], likely:[], no:[],
      badge:'Pegs', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-footpeg-bracket-brace-bar-for-talaria-sting-mx3-mx4-mx5-and-x.webp'
     },
+    {name:'Ventus One / One + - OEM Left Side Foot Peg Mounting Bracket', pid:'chargedcycleworks-ventus-foot-peg-mounting-bracket-ventus-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:45, url:'https://chargedcycleworks.com/products/ventus-foot-peg-mounting-bracket-ventus-oem', chk:'2026-10-27'},
+     ],
+     fits:["ventus-plus"], likely:[], no:[],
+     badge:'Pegs', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-ventus-foot-peg-mounting-bracket-ventus-oem.webp'
+    },
+    {name:'Warp9 Foot Pegs for Surron Light Bee, Ventus One, and E Ride Pro', pid:'chargedcycleworks-warp9-foot-pegs-for-surron-segway', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:["ventus-plus"], no:[],
+     badge:'Pegs', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp'
+    },
 ]},
   {id:'seats', name:'Seats', blurb:'Where you spend the whole ride — comfort and control.', tips:['Tall seats help taller riders; standard keeps footing easy','Gripper covers for aggressive riding, smooth for moving around'], options:[
     {name:'Stock seats', prices:[]},
@@ -2522,8 +2618,9 @@ var CATEGORIES = [
     {name:"E Ride Pro SS OEM Seat (E7165)", pid:'voro-eride-ss-seat', tier:'OEM',
      prices:[
       {v:'VORO Motors', p:44.95, url:'https://voromotors.com/products/seat-for-e-ride-pro-ss', chk:'2026-10-18'},
+      {v:'TB Electric Moto', p:9, url:'https://tbelectricmoto.com/products/warp-9-surron-ultra-bee-seat-spacer', chk:'2026-10-27'},
      ],
-     fits:["ss20"], likely:["ss30"], no:[],
+     fits:["ss20", "ultrabee"], likely:["ss30"], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/voro-eride-ss-seat.webp'
     },
       {name:'Warp9 Ultra Bee Seat Spacer', pid:'chargedcycleworks-warp9-seat-spacer-surron-ultra-bee', tier:'budget',
@@ -2532,13 +2629,6 @@ var CATEGORIES = [
      ],
      fits:["ultrabee"], likely:[], no:[],
      badge:'Seat', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-warp9-seat-spacer-surron-ultra-bee.webp'
-    },
-    {name:'Warp 9 Surron Ultra Bee Seat Spacer', pid:'tbelectricmoto-warp-9-surron-ultra-bee-seat-spacer', tier:'budget',
-     prices:[
-      {v:'TB Electric Moto', p:9, url:'https://tbelectricmoto.com/products/warp-9-surron-ultra-bee-seat-spacer', chk:'2026-10-27'},
-     ],
-     fits:["ultrabee"], likely:[], no:[],
-     badge:'Seat', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-warp-9-surron-ultra-bee-seat-spacer.webp'
     },
     {name:'Ultra Bee Seat Catch Spacer | By Warp 9 Racing', pid:'revrides-ultra-bee-seat-catch-spacer-by-warp-9-racing', tier:'budget',
      prices:[
@@ -2609,6 +2699,13 @@ var CATEGORIES = [
      ],
      fits:["komodo"], likely:[], no:[],
      badge:'Seat', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-guts-seat-cover-for-talaria-komodo.webp'
+    },
+    {name:'Ventus One - OEM Seat', pid:'chargedcycleworks-ventus-seat-ventus-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:60, url:'https://chargedcycleworks.com/products/ventus-seat-ventus-oem', chk:'2026-10-27'},
+     ],
+     fits:[], likely:["ventus-plus"], no:[],
+     badge:'Seat', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-ventus-seat-ventus-oem.webp'
     },
 ]},
   {id:'street', name:'Street', blurb:'Lights, mirrors, and signals for road-legal riding where it\'s allowed.', tips:['Legality varies wildly by state — check yours','Wiring effort ranges from plug-and-play to a full afternoon'], options:[
@@ -2786,23 +2883,11 @@ var CATEGORIES = [
     {name:'DirtyBike Swingarm Alignment Tool for Sur-Ron Ultra Bee', pid:'tbelectricmoto-dirtybike-swingarm-alignment-tool-for-sur-ron-ultra-bee', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:14, url:'https://tbelectricmoto.com/products/dirtybike-swingarm-alignment-tool-for-sur-ron-ultra-bee', chk:'2026-10-27'},
-     ],
-     fits:["ultrabee"], likely:[], no:[],
-     badge:'Swingarm', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-swingarm-alignment-tool-for-sur-ron-ultra-bee.webp'
-    },
-    {name:'Swingarm Alignment Tool | Surron Ultra Bee', pid:'howlingmoto-swingarm-alignment-tool-surron-ultra-bee', tier:'budget',
-     prices:[
       {v:'Howling Moto', p:14, url:'https://howlingmoto.com/products/swingarm-alignment-tool-surron-ultra-bee', chk:'2026-10-27'},
-     ],
-     fits:["ultrabee"], likely:[], no:[],
-     badge:'Swingarm', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-swingarm-alignment-tool-surron-ultra-bee.webp'
-    },
-    {name:'DirtyBike Swingarm Alignment Tool - Sur Ron Ultra Bee', pid:'gritshift-dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee', tier:'budget',
-     prices:[
       {v:'GritShift', p:14, url:'https://gritshift.com/products/dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee', chk:'2026-10-27'},
      ],
      fits:["ultrabee"], likely:[], no:[],
-     badge:'Swingarm', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/gritshift-dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee.webp'
+     badge:'Swingarm', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-swingarm-alignment-tool-for-sur-ron-ultra-bee.webp'
     },
     {name:'Tusk Surron Light Bee Swingarm Castle Nut Socket', pid:'tbelectricmoto-tusk-surron-light-bee-swingarm-castle-nut-socket', tier:'budget',
      prices:[
@@ -2824,6 +2909,13 @@ var CATEGORIES = [
      ],
      fits:["mx4"], likely:[], no:[],
      badge:'Swingarm', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-oem-swingarm-bearing-talaria-sting-mx3-mx4-1.webp'
+    },
+    {name:'Ventus One + - OEM Swingarm', pid:'chargedcycleworks-swing-arm-ventus-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:150, url:'https://chargedcycleworks.com/products/swing-arm-ventus-oem', chk:'2026-10-27'},
+     ],
+     fits:["ventus-plus"], likely:[], no:[],
+     badge:'Swingarm', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-swing-arm-ventus-oem.webp'
     },
 ]},
   {id:'tires', name:'Tires & Tubes', blurb:'Traction. The right tire for your terrain matters more than most upgrades.', tips:['Size must match your rims','Soft-terrain, intermediate, and hard-pack tires are very different','DOT-rated if you ride street'], options:[
@@ -3208,6 +3300,13 @@ var CATEGORIES = [
      ],
      fits:["ss30"], likely:[], no:[],
      badge:'Tire', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7731-1-fatty-tire-ss-3-0-sr.webp'
+    },
+    {name:'E-Ride Pro SR Fatty Off-Road Tire 100/90-18', pid:'tbelectricmoto-fattyoff-road-100-90-18-rear-tire-tube-rim-strip', tier:'mid',
+     prices:[
+      {v:'TB Electric Moto', p:79, url:'https://tbelectricmoto.com/products/fattyoff-road-100-90-18-rear-tire-tube-rim-strip', chk:'2026-10-27'},
+     ],
+     fits:["sr"], likely:[], no:[],
+     badge:'Tire', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-fattyoff-road-100-90-18-rear-tire-tube-rim-strip.webp'
     },
 ]},
   {id:'titanium', name:'Titanium Hardware', blurb:'Titanium bolt kits and hardware — shed grams and add color to your build.', tips:['Match thread pitch and length to your OEM bolts before ordering','Use anti-seize — titanium galls easily','Axle, brake and motor-mount bolts are safety-critical: follow torque specs','Anodized colors vary between batches — order kits together for a match'], options:[
