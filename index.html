@@ -17,7 +17,7 @@
 <meta name="twitter:description" content="Build your e-moto part by part. Compare real parts, prices, weight and power in one place.">
 <meta name="twitter:image" content="https://ebikepartspicker.pages.dev/img/bikes/og-ventus-plus.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css?v=4.8.1">
+<link rel="stylesheet" href="styles.css?v=4.8.2">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap">
@@ -291,6 +291,12 @@
   <span class="fineprint">Some links may be <a href="affiliate-disclosure.html">affiliate links</a>. Prices are estimates, verify before buying.</span>
   <nav class="tp-nav"><a href="/bikes/">Parts by bike</a><a href="/parts/">Parts by category</a><a href="/power/">Power upgrades</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms of use</a><a href="affiliate-disclosure.html">Affiliate disclosure</a><a href="fitment-methodology.html">Fitment methodology</a><a href="report-a-part.html">Report a part</a><a href="submission-guidelines.html">Submission guidelines</a></nav>
 </footer>
+<section class="alerts-box" aria-labelledby="alTitle"><h2 id="alTitle">Price &amp; stock alerts</h2>
+<p class="form-note">Get an email when parts for your bike change price or come back in stock. No account. Unsubscribe any time.</p>
+<form class="eform" data-form="alert" data-ok="You're on the list. We'll only email about price or stock changes.">
+<label>Email<input type="email" name="email" required maxlength="200" autocomplete="email"></label>
+<input type="hidden" name="bike" id="alBike"><input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button type="submit">Get alerts</button><p class="form-msg" role="status" aria-live="polite" style="grid-column:1/-1"></p></form></section>
 <script src="data.js?v=4.8.2"></script>
 <script src="upcoming.js?v=4.8.1"></script>
 <script src="builds.js?v=4.8.1"></script>
@@ -301,5 +307,6 @@
 <script src="used.js?v=4.8.1"></script>
 <!-- Cloudflare Web Analytics: enable in Pages project > Metrics (auto-injected, cookieless) -->
 <script src="/track.js?v=1" defer></script>
+<script src="/forms.js?v=1" defer></script>
 </body>
 </html>

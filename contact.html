@@ -2,7 +2,7 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Contact | eBikePartsPicker</title><meta name="description" content="How to reach eBikePartsPicker.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css?v=4.8.1">
+<link rel="stylesheet" href="styles.css?v=4.8.2">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 </head><body class="tp">
 <header class="tp-head"><a class="tp-brand" href="./">eBikePartsPicker</a><a class="tp-back" href="./">← Back to the builder</a></header>
@@ -11,8 +11,15 @@
 <p>Useful things to include:</p>
 <ul><li>A wrong price, dead link or fitment problem: the part name, the bike, and a link to the listing. You can also use <a href="report-a-part.html">Report a part</a>.</li>
 <li>A part to add: see the <a href="submission-guidelines.html">submission guidelines</a>.</li></ul>
-<p>There's no contact form that stores your message: the email links open your own email app.</p></main>
+<h2>Send a message</h2>
+<form class="eform" data-form="contact" data-ok="Thanks — message received. We'll reply by email if you left one.">
+<label>Name (optional)<input name="name" maxlength="100" autocomplete="name"></label>
+<label>Your email (optional, if you want a reply)<input type="email" name="email" maxlength="200" autocomplete="email"></label>
+<label>Message *<textarea name="message" required maxlength="2000"></textarea></label><input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button type="submit">Send</button><p class="form-msg" role="status" aria-live="polite"></p></form>
+<p class="form-note">Messages are stored privately for the site owner to read. Or email <a href="mailto:ebikepartspicker@gmail.com">ebikepartspicker@gmail.com</a>.</p></main>
 <footer class="sitefoot tp-foot"><nav class="tp-nav"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms of use</a><a href="affiliate-disclosure.html">Affiliate disclosure</a><a href="fitment-methodology.html">Fitment methodology</a><a href="report-a-part.html">Report a part</a><a href="submission-guidelines.html">Submission guidelines</a></nav></footer>
 <!-- Cloudflare Web Analytics: enable in Pages project > Metrics (auto-injected, cookieless) -->
 <script src="/track.js?v=1" defer></script>
+<script src="/forms.js?v=1" defer></script>
 </body></html>

@@ -2,7 +2,7 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Report a part | eBikePartsPicker</title><meta name="description" content="Tell us about a wrong price, dead link or fitment problem.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css?v=4.8.1">
+<link rel="stylesheet" href="styles.css?v=4.8.2">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 </head><body class="tp">
 <header class="tp-head"><a class="tp-brand" href="./">eBikePartsPicker</a><a class="tp-back" href="./">← Back to the builder</a></header>
@@ -10,8 +10,16 @@
 <p>Send an email with:</p>
 <ol><li>The part name (as shown on the site)</li><li>The bike</li><li>What’s wrong: price, link, stock, photo or fitment</li><li>A link to the source that shows the correct information (seller or manufacturer page)</li></ol>
 <p><a class="cta tp-cta" href="mailto:ebikepartspicker@gmail.com?subject=Part%20report&amp;body=Part%3A%0ABike%3A%0AWhat%27s%20wrong%3A%0ASource%20link%3A">Email a report</a></p>
-<p>We check reports against the source before changing anything. Fitment changes need a seller or manufacturer source, or a clear photo of the part installed on the bike.</p></main>
+<p>We check reports against the source before changing anything. Fitment changes need a seller or manufacturer source, or a clear photo of the part installed on the bike.</p><h2>Report it here</h2>
+<form class="eform" data-form="report" data-ok="Thanks — report received. We'll check the source and fix it.">
+<label>Part name<input name="part" maxlength="200"></label>
+<label>Bike<input name="bike" maxlength="120"></label>
+<label>What's wrong? *<textarea name="problem" required maxlength="2000" placeholder="Wrong price, dead link, doesn't fit, wrong photo…"></textarea></label>
+<label>Source link (listing that shows the correct info)<input type="url" name="source" maxlength="500"></label>
+<label>Your email (optional)<input type="email" name="email" maxlength="200" autocomplete="email"></label><input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button type="submit">Send report</button><p class="form-msg" role="status" aria-live="polite"></p></form></main>
 <footer class="sitefoot tp-foot"><nav class="tp-nav"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms of use</a><a href="affiliate-disclosure.html">Affiliate disclosure</a><a href="fitment-methodology.html">Fitment methodology</a><a href="report-a-part.html">Report a part</a><a href="submission-guidelines.html">Submission guidelines</a></nav></footer>
 <!-- Cloudflare Web Analytics: enable in Pages project > Metrics (auto-injected, cookieless) -->
 <script src="/track.js?v=1" defer></script>
+<script src="/forms.js?v=1" defer></script>
 </body></html>

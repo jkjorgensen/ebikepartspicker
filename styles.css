@@ -808,3 +808,18 @@ details.more[open]{padding-bottom:14px}
 .draftnote{font-size:12.5px;color:var(--faint)}
 .tp-main li{margin:5px 0}
 @media (max-width:560px){.tp-table th{white-space:normal;width:38%}}
+/* forms */
+.eform{display:grid;gap:12px;margin:18px 0 8px;max-width:560px}
+.eform label{display:grid;gap:5px;font-size:14px;color:var(--text,#fff)}
+.eform input,.eform textarea{background:#14171c;border:1px solid #2a2f37;border-radius:10px;color:#fff;padding:11px 12px;font:inherit;font-size:16px}
+.eform input:focus,.eform textarea:focus{outline:2px solid var(--accent-hi,#c8f04a);border-color:transparent}
+.eform textarea{min-height:110px;resize:vertical}
+.eform button{justify-self:start;background:var(--accent-hi,#c8f04a);color:#0b0d10;border:0;border-radius:10px;padding:11px 20px;font-weight:700;cursor:pointer}
+.eform button:disabled{opacity:.6}
+.eform .hp{position:absolute;left:-9999px}
+.form-msg{min-height:1.2em;font-size:14px;margin:0}
+.form-note{font-size:13px;opacity:.8}
+.alerts-box{width:min(820px,92vw);margin:30px auto;padding:22px;border:1px solid #2a2f37;border-radius:16px;background:#101317}
+.alerts-box h2{font:700 20px var(--display);color:#fff;margin:0 0 6px}
+.alerts-box .eform{grid-template-columns:1fr auto;align-items:end;max-width:none}
+@media(max-width:560px){.alerts-box .eform{grid-template-columns:1fr}}
