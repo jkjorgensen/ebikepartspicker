@@ -671,6 +671,142 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/gritshift-titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee.webp"
+    },
+    {
+      "id": "howlingmoto-surron-ultra-bee-brake-caliper-pad-pin-oem-replacement-shi",
+      "name": "Surron Ultra Bee Brake Caliper Pad Pin | OEM Replacement | Ships from USA",
+      "brand": "FactoryZ",
+      "category": "brakes",
+      "price_usd": 9.99,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/surron-ultra-bee-brake-caliper-pad-pin-oem-replacement-ships-from-usa",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/surron-ultra-bee-brake-caliper-pad-pin-oem-replacement-ships-from-usa"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://howlingmoto.com/products/surron-ultra-bee-brake-caliper-pad-pin-oem-replacement-ships-from-usa"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 9.99,
+          "buy_url": "https://howlingmoto.com/products/surron-ultra-bee-brake-caliper-pad-pin-oem-replacement-ships-from-usa"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-surron-ultra-bee-brake-caliper-pad-pin-oem-replacement-shi.webp"
+    },
+    {
+      "id": "howlingmoto-surron-ultra-bee-brake-caliper-rubber-sliders",
+      "name": "Surron Ultra Bee Brake Caliper Rubber Sliders",
+      "brand": "FactoryZ",
+      "category": "brakes",
+      "price_usd": 9.99,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/surron-ultra-bee-brake-caliper-rubber-sliders",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/surron-ultra-bee-brake-caliper-rubber-sliders"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://howlingmoto.com/products/surron-ultra-bee-brake-caliper-rubber-sliders"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 9.99,
+          "buy_url": "https://howlingmoto.com/products/surron-ultra-bee-brake-caliper-rubber-sliders"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-surron-ultra-bee-brake-caliper-rubber-sliders.webp"
+    },
+    {
+      "id": "howlingmoto-rippin-moto-performance-brake-pads-sur-ron-lbx-talaria-e-r",
+      "name": "Rippin Moto Performance Brake Pads – Sur-Ron LBX | Talaria | E-Ride PRO | Altis Sigma",
+      "brand": "Rippin Moto",
+      "category": "brakes",
+      "price_usd": 18.99,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/rippin-moto-performance-brake-pads-sur-ron-lbx-talaria-e-ride-pro-altis-sigma",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/rippin-moto-performance-brake-pads-sur-ron-lbx-talaria-e-ride-pro-altis-sigma"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://howlingmoto.com/products/rippin-moto-performance-brake-pads-sur-ron-lbx-talaria-e-ride-pro-altis-sigma"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 18.99,
+          "buy_url": "https://howlingmoto.com/products/rippin-moto-performance-brake-pads-sur-ron-lbx-talaria-e-ride-pro-altis-sigma"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-rippin-moto-performance-brake-pads-sur-ron-lbx-talaria-e-r.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-brake-pads-5pcs-set-with1-big-circlip",
+      "name": "E Ride Pro – OEM Brake Pads for SS 3.0 & SR",
+      "brand": "ERide Pro",
+      "category": "brakes",
+      "price_usd": 19.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-brake-pads-5pcs-set-with1-big-circlip-1pin-1small-circlip",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-brake-pads-5pcs-set-with1-big-circlip-1pin-1small-circlip"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://chargedcycleworks.com/products/e-ride-pro-oem-brake-pads-5pcs-set-with1-big-circlip-1pin-1small-circlip"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-brake-pads-5pcs-set-with1-big-circlip-1pin-1small-circlip"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-brake-pads-5pcs-set-with1-big-circlip.webp"
     }
   ],
   "compatibility": [

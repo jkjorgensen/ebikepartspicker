@@ -321,6 +321,110 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eridepro-she7857-motor-protection-guard-with-2-screws-ss2-0.webp"
+    },
+    {
+      "id": "tbelectricmoto-titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-m",
+      "name": "Titanium Chain Guard Bolts (Set of Two) Talaria XXX, MX3, MX4",
+      "brand": "Titanium Surron",
+      "category": "guards",
+      "price_usd": 9.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-mx4",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-mx4"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx4": "https://tbelectricmoto.com/products/titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-mx4"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 9.99,
+          "buy_url": "https://tbelectricmoto.com/products/titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-mx4"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-m.webp"
+    },
+    {
+      "id": "revrides-e-ride-pro-ss-motor-cover-protection-guard",
+      "name": "E Ride Pro SS Motor Cover (Protection Guard)",
+      "brand": "E Ride Pro",
+      "category": "guards",
+      "price_usd": 10.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/e-ride-pro-ss-motor-cover-protection-guard",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/e-ride-pro-ss-motor-cover-protection-guard"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://revrides.com/products/e-ride-pro-ss-motor-cover-protection-guard"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 10.0,
+          "buy_url": "https://revrides.com/products/e-ride-pro-ss-motor-cover-protection-guard"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-e-ride-pro-ss-motor-cover-protection-guard.webp"
+    },
+    {
+      "id": "eridepro-she7086-tailpiece-mountmud-guard",
+      "name": "SHE7086 - Tailpiece MountMud Guard w/ bolts kit - S/SS2.0/SS3.0/SR",
+      "brand": "E RIDE PRO Global",
+      "category": "guards",
+      "price_usd": 15.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7086-tailpiece-mountmud-guard",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7086-tailpiece-mountmud-guard"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/she7086-tailpiece-mountmud-guard",
+        "ss20": "https://www.eridepro.com/products/she7086-tailpiece-mountmud-guard"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 15.0,
+          "buy_url": "https://www.eridepro.com/products/she7086-tailpiece-mountmud-guard"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7086-tailpiece-mountmud-guard.webp"
     }
   ],
   "compatibility": [

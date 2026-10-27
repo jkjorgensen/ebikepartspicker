@@ -277,6 +277,144 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/revrides-e-ride-pro-ss-3-0-peg-brace-spacers-only.webp"
+    },
+    {
+      "id": "tbelectricmoto-ultra-bee-e-moto-footpeg-pins-springs-and-washers",
+      "name": "Surron Ultra Bee Footpeg Pins, Springs, and Washers",
+      "brand": "TB Electric",
+      "category": "pegs",
+      "price_usd": 12.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/ultra-bee-e-moto-footpeg-pins-springs-and-washers",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/ultra-bee-e-moto-footpeg-pins-springs-and-washers"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://tbelectricmoto.com/products/ultra-bee-e-moto-footpeg-pins-springs-and-washers"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 12.0,
+          "buy_url": "https://tbelectricmoto.com/products/ultra-bee-e-moto-footpeg-pins-springs-and-washers"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-ultra-bee-e-moto-footpeg-pins-springs-and-washers.webp"
+    },
+    {
+      "id": "tbelectricmoto-dirtybike-aluminum-foot-peg-support-brace-surron-lbx",
+      "name": "DirtyBike Aluminum Foot Peg Support Brace Surron LBX",
+      "brand": "eDirtyBike",
+      "category": "pegs",
+      "price_usd": 12.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/dirtybike-aluminum-foot-peg-support-brace-surron-lbx",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/dirtybike-aluminum-foot-peg-support-brace-surron-lbx"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://tbelectricmoto.com/products/dirtybike-aluminum-foot-peg-support-brace-surron-lbx"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 12.0,
+          "buy_url": "https://tbelectricmoto.com/products/dirtybike-aluminum-foot-peg-support-brace-surron-lbx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-dirtybike-aluminum-foot-peg-support-brace-surron-lbx.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-foot-peg-s-ss-2-0",
+      "name": "E Ride Pro - OEM Foot Pegs - S/SS 2.0",
+      "brand": "ERide Pro",
+      "category": "pegs",
+      "price_usd": 19.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-foot-peg-s-ss-2-0",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-foot-peg-s-ss-2-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://chargedcycleworks.com/products/e-ride-pro-oem-foot-peg-s-ss-2-0"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-foot-peg-s-ss-2-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-foot-peg-s-ss-2-0.webp"
+    },
+    {
+      "id": "tbelectricmoto-e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr",
+      "name": "E Ride Pro OEM Foot Peg Mount Bracket For E-Ride S/SS 1.0/SS 2.0/SS 3.0/SR",
+      "brand": "E-Ride Pro",
+      "category": "pegs",
+      "price_usd": 19.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://tbelectricmoto.com/products/e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr",
+        "ss20": "https://tbelectricmoto.com/products/e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 19.0,
+          "buy_url": "https://tbelectricmoto.com/products/e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr.webp"
     }
   ],
   "compatibility": [

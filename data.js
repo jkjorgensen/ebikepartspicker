@@ -518,6 +518,20 @@ var CATEGORIES = [
      fits:["ss30", "ss20"], likely:[], no:[],
      badge:'Fork', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7484-2.webp'
     },
+    {name:'Titanium Surron KKE OEM Fork Bolt Kit - Sur Ron LBX', pid:'gritshift-titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx', tier:'OEM',
+     prices:[
+      {v:'GritShift', p:54.99, url:'https://gritshift.com/products/titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Fork', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/gritshift-titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx.webp'
+    },
+    {name:'Tech E39 Fork E-Ride Pro SS 3.0/SR Adapter', pid:'tbelectricmoto-tech-e39-fork-e-ride-pro-ss-3-0-sr-adapter', tier:'mid',
+     prices:[
+      {v:'TB Electric Moto', p:65, url:'https://tbelectricmoto.com/products/tech-e39-fork-e-ride-pro-ss-3-0-sr-adapter', chk:'2026-10-27'},
+     ],
+     fits:["ss30"], likely:[], no:[],
+     badge:'Fork', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-tech-e39-fork-e-ride-pro-ss-3-0-sr-adapter.webp'
+    },
 ]},
   {id:'shock', name:'Shock', blurb:'Rear suspension — traction and comfort over chatter.', tips:['Eye-to-eye length and stroke must match stock','Spring rate should suit your weight','Pairs with linkage choice on some bikes'], options:[
     {name:'Stock shock', prices:[]},
@@ -629,6 +643,27 @@ var CATEGORIES = [
      fits:["ultrabee"], likely:[], no:[],
      badge:'Shock', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-kke-550lbs-rear-absorber-suspension-shock-spring-for.webp'
     },
+    {name:'KKE 550LBS Rear Absorber Suspension Shock Spring For SurRon Ultra Bee', pid:'revrides-kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-u', tier:'mid',
+     prices:[
+      {v:'REV Rides', p:79.99, url:'https://revrides.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective', chk:'2026-10-27'},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'Shock', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-u.webp'
+    },
+    {name:'E Ride Pro OEM Rear Shock Options | By FastAce and KKE | For E Ride Pro Mini, S, SS 2.0, SS 3.0 and SR', pid:'revrides-e-ride-pro-ss-rear-shock', tier:'OEM',
+     prices:[
+      {v:'REV Rides', p:159, url:'https://revrides.com/products/e-ride-pro-ss-rear-shock', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Shock', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-e-ride-pro-ss-rear-shock.webp'
+    },
+    {name:'SHE7011 - Rear Shock (w/bolts) - PRO SS2.0/SS3.0', pid:'eridepro-she7011-rear-shock', tier:'premium',
+     prices:[
+      {v:'E Ride Pro', p:265, url:'https://www.eridepro.com/products/she7011-rear-shock', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Shock', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she7011-rear-shock.webp'
+    },
 ]},
   {id:'wheels', name:'Wheels', blurb:'Lighter, stronger wheels sharpen handling and acceleration — often the best-feeling upgrade per dollar.', tips:['Hub and axle size must match your bike','Check your brake rotor bolt pattern carries over','Spoked vs billet — weight vs strength tradeoff'], options:[
     {name:'Stock wheels', prices:[]},
@@ -725,6 +760,27 @@ var CATEGORIES = [
      ],
      fits:["ss20"], likely:[], no:[],
      badge:'Wheel', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7260.webp'
+    },
+    {name:'E7259 - Rear wheel axel bush (big size) - S/SS2.0/3.0/SR/MINI', pid:'eridepro-e7259', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:6, url:'https://www.eridepro.com/products/e7259', chk:'2026-10-27'},
+     ],
+     fits:["ss20"], likely:[], no:[],
+     badge:'Wheel', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7259.webp'
+    },
+    {name:'Talaria - OEM Front Right Wheel Spacer for MX5', pid:'chargedcycleworks-fr-r-wheel-liner-talaria-sting-mx5', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:6.84, url:'https://chargedcycleworks.com/products/fr-r-wheel-liner-talaria-sting-mx5', chk:'2026-10-27'},
+     ],
+     fits:["mx5"], likely:[], no:[],
+     badge:'Wheel', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-fr-r-wheel-liner-talaria-sting-mx5.webp'
+    },
+    {name:'E Ride Pro – OEM Rear Wheel Hugger – Pro S / SS 2.0 / SS 3.0 / SR', pid:'chargedcycleworks-e-ride-oem-rear-wheel-hugger', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:9, url:'https://chargedcycleworks.com/products/e-ride-oem-rear-wheel-hugger', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Wheel', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-e-ride-oem-rear-wheel-hugger.webp'
     },
 ]},
   {id:'brakes', name:'Brakes', blurb:'As the bike gets faster, stopping matters more. Bigger rotors and better calipers transform confidence.', tips:['Rotor size changes may need a caliper relocation bracket','Match master cylinder to caliper','Pad compound: organic for feel, sintered for bite and life'], options:[
@@ -890,6 +946,34 @@ var CATEGORIES = [
      fits:["ultrabee"], likely:[], no:[],
      badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/gritshift-titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee.webp'
     },
+    {name:'Surron Ultra Bee Brake Caliper Pad Pin | OEM Replacement | Ships from USA', pid:'howlingmoto-surron-ultra-bee-brake-caliper-pad-pin-oem-replacement-shi', tier:'OEM',
+     prices:[
+      {v:'Howling Moto', p:9.99, url:'https://howlingmoto.com/products/surron-ultra-bee-brake-caliper-pad-pin-oem-replacement-ships-from-usa', chk:'2026-10-27'},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-surron-ultra-bee-brake-caliper-pad-pin-oem-replacement-shi.webp'
+    },
+    {name:'Surron Ultra Bee Brake Caliper Rubber Sliders', pid:'howlingmoto-surron-ultra-bee-brake-caliper-rubber-sliders', tier:'budget',
+     prices:[
+      {v:'Howling Moto', p:9.99, url:'https://howlingmoto.com/products/surron-ultra-bee-brake-caliper-rubber-sliders', chk:'2026-10-27'},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-surron-ultra-bee-brake-caliper-rubber-sliders.webp'
+    },
+    {name:'Rippin Moto Performance Brake Pads – Sur-Ron LBX | Talaria | E-Ride PRO | Altis Sigma', pid:'howlingmoto-rippin-moto-performance-brake-pads-sur-ron-lbx-talaria-e-r', tier:'budget',
+     prices:[
+      {v:'Howling Moto', p:18.99, url:'https://howlingmoto.com/products/rippin-moto-performance-brake-pads-sur-ron-lbx-talaria-e-ride-pro-altis-sigma', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-rippin-moto-performance-brake-pads-sur-ron-lbx-talaria-e-r.webp'
+    },
+    {name:'E Ride Pro – OEM Brake Pads for SS 3.0 & SR', pid:'chargedcycleworks-e-ride-pro-oem-brake-pads-5pcs-set-with1-big-circlip', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-brake-pads-5pcs-set-with1-big-circlip-1pin-1small-circlip', chk:'2026-10-27'},
+     ],
+     fits:["ss30"], likely:[], no:[],
+     badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-e-ride-pro-oem-brake-pads-5pcs-set-with1-big-circlip.webp'
+    },
 ]},
   {id:'plastics', name:'Plastics', blurb:'Bodywork — the look of the bike plus roost protection.', tips:['Mounting is bike-specific — \'universal\' rarely is','Full kits look cleaner than piecing together','Graphics usually sold separately'], options:[
     {name:'Stock plastics', prices:[]},
@@ -1054,6 +1138,27 @@ var CATEGORIES = [
      ],
      fits:["komodo"], likely:[], no:[],
      badge:'Plastics', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-talaria-komodo-oem-replacement-battery-cover-fender.webp'
+    },
+    {name:'Surron Light Bee Carbon Fiber Plastics Kit – Full 9-Piece Body Kit (Fits Segway X160/X260)', pid:'howlingmoto-surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-bo', tier:'budget',
+     prices:[
+      {v:'Howling Moto', p:17.99, url:'https://howlingmoto.com/products/surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-body-kit-fits-segway-x160-x260', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Plastics', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-bo.webp'
+    },
+    {name:'Surron Light Bee - Extended Rear Fender | OEM', pid:'chargedcycleworks-surron-light-bee-extended-rear-fender-carbon-gloss', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19, url:'https://chargedcycleworks.com/products/surron-light-bee-extended-rear-fender-carbon-gloss', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Plastics', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-surron-light-bee-extended-rear-fender-carbon-gloss.webp'
+    },
+    {name:'Talaria Komodo OEM Replacement Front Number Plate', pid:'tbelectricmoto-talaria-komodo-oem-replacement-front-number-plate', tier:'OEM',
+     prices:[
+      {v:'TB Electric Moto', p:19.99, url:'https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-front-number-plate', chk:'2026-10-27'},
+     ],
+     fits:["komodo"], likely:[], no:[],
+     badge:'Plastics', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-talaria-komodo-oem-replacement-front-number-plate.webp'
     },
 ]},
   {id:'batteries', name:'Batteries', blurb:'Your fuel tank and your power ceiling. A weak battery chokes even the best motor and controller combo.', tips:['Continuous kW rating must meet what your controller pulls — check the Powertrain panel for bottlenecks','Voltage must match your controller\'s range','Confirm it physically fits your frame — sizes vary a lot','Swappable packs are convenient; fixed packs usually hold more capacity'], options:[
@@ -1225,6 +1330,34 @@ var CATEGORIES = [
      fits:["ultrabee"], likely:[], no:[],
      badge:'Handlebar', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-surron-ultra-bee-bar-mount.webp'
     },
+    {name:'Surron Ultra Bee CNC Bar Mount – Black & Chrome | TB Electric', pid:'howlingmoto-surron-ultra-bee-cnc-bar-mount-black-chrome-tb-electric', tier:'budget',
+     prices:[
+      {v:'Howling Moto', p:36, url:'https://howlingmoto.com/products/surron-ultra-bee-cnc-bar-mount-black-chrome-tb-electric', chk:'2026-10-27'},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'Handlebar', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-surron-ultra-bee-cnc-bar-mount-black-chrome-tb-electric.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Handle Bar Riser', pid:'chargedcycleworks-surron-ub-oem-handlebar-riser', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:38, url:'https://chargedcycleworks.com/products/surron-ub-oem-handlebar-riser', chk:'2026-10-27'},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'Handlebar', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-surron-ub-oem-handlebar-riser.webp'
+    },
+    {name:'E Ride Pro SS Handlebar Riser Mount Bracket', pid:'revrides-e-ride-pro-ss-handlebar-riser-mount-bracket', tier:'budget',
+     prices:[
+      {v:'REV Rides', p:48, url:'https://revrides.com/products/e-ride-pro-ss-handlebar-riser-mount-bracket', chk:'2026-10-27'},
+     ],
+     fits:["ss20"], likely:[], no:[],
+     badge:'Handlebar', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-e-ride-pro-ss-handlebar-riser-mount-bracket.webp'
+    },
+    {name:'E7159 - Handlebar Riser with bolts - ProS/SS2.0/Mini/Mini R', pid:'eridepro-e7159', tier:'mid',
+     prices:[
+      {v:'E Ride Pro', p:55, url:'https://www.eridepro.com/products/e7159', chk:'2026-10-27'},
+     ],
+     fits:["ss20"], likely:[], no:[],
+     badge:'Handlebar', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7159.webp'
+    },
 ]},
   {id:'chargers', name:'Charger', blurb:'Faster charging means less downtime between rides.', tips:['Voltage must match your battery exactly','More amps = faster charging, but also more heat','Some fast chargers need 220V for full speed'], options:[
     {name:'Stock charger', prices:[]},
@@ -1288,6 +1421,27 @@ var CATEGORIES = [
      fits:["lightbee"], likely:[], no:[],
      badge:'Charger', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-warp-9-surron-light-bee-charger-extension-cord.webp'
     },
+    {name:'Warp 9 Surron Ultra Bee Charger Extension Cord', pid:'tbelectricmoto-warp-9', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:36, url:'https://tbelectricmoto.com/products/warp-9', chk:'2026-10-27'},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'Charger', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-warp-9.webp'
+    },
+    {name:'Warp 9 Surron Light Bee & Ultra Bee Wall Charger Mount', pid:'tbelectricmoto-warp-9-surron-light-bee-ultra-bee-wall-charger-mount', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:49, url:'https://tbelectricmoto.com/products/warp-9-surron-light-bee-ultra-bee-wall-charger-mount', chk:'2026-10-27'},
+     ],
+     fits:["ultrabee", "lightbee"], likely:[], no:[],
+     badge:'Charger', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-warp-9-surron-light-bee-ultra-bee-wall-charger-mount.webp'
+    },
+    {name:'E Ride Pro Battery Charger | For Pro S, SS 2.0, SS 3.0, SR, and Mini Models', pid:'revrides-e-ride-pro-ss-72v-stock-charger', tier:'premium',
+     prices:[
+      {v:'REV Rides', p:299, url:'https://revrides.com/products/e-ride-pro-ss-72v-stock-charger', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Charger', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/revrides-e-ride-pro-ss-72v-stock-charger.webp'
+    },
 ]},
   {id:'cockpit', name:'Cockpit', blurb:'Grips, throttles, and displays — the details you touch every ride.', tips:['Throttle type must match your controller','Lock-on grips stay put; slip-ons are cheaper'], options:[
     {name:'Stock cockpit', prices:[]},
@@ -1342,6 +1496,27 @@ var CATEGORIES = [
      ],
      fits:["ss30"], likely:[], no:[],
      badge:'Controls', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she7062-front-brake-hose-clamp-kit.webp'
+    },
+    {name:'Surron Light Bee - OEM Replacement Brake Levers', pid:'chargedcycleworks-replacement-brake-levers-2-lbx-x260', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:10.99, url:'https://chargedcycleworks.com/products/replacement-brake-levers-2-lbx-x260', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Controls', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-replacement-brake-levers-2-lbx-x260.webp'
+    },
+    {name:'E Ride Pro SS Handlebar Grips', pid:'revrides-e-ride-pro-ss-handlebar-grips', tier:'budget',
+     prices:[
+      {v:'REV Rides', p:14, url:'https://revrides.com/products/e-ride-pro-ss-handlebar-grips', chk:'2026-10-27'},
+     ],
+     fits:["ss20"], likely:[], no:[],
+     badge:'Controls', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-e-ride-pro-ss-handlebar-grips.webp'
+    },
+    {name:'Talaria Komodo OEM Handlebar Upper Clamp (No Headlight Mount)', pid:'tbelectricmoto-talaria-komodo-oem-handlebar-upper-clamp-no-headlight-m', tier:'OEM',
+     prices:[
+      {v:'TB Electric Moto', p:18.99, url:'https://tbelectricmoto.com/products/talaria-komodo-oem-handlebar-upper-clamp-no-headlight-mount', chk:'2026-10-27'},
+     ],
+     fits:["komodo"], likely:[], no:[],
+     badge:'Controls', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-talaria-komodo-oem-handlebar-upper-clamp-no-headlight-m.webp'
     },
 ]},
   {id:'cooling', name:'Cooling', blurb:'High-power builds make serious heat. Cooling keeps your motor and controller alive when you\'re pushing hard.', tips:['Mostly needed above ~15 kW or for sustained high load','Check fitment against your specific motor'], options:[
@@ -1463,6 +1638,27 @@ var CATEGORIES = [
      fits:["lightbee"], likely:[], no:[],
      badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-420-primary-chain-drive-alignment-shim-surron.webp'
     },
+    {name:'420 Primary Chain Drive Alignment Shim | Surron LBX', pid:'howlingmoto-420-primary-chain-drive-alignment-shim-surron-lbx', tier:'budget',
+     prices:[
+      {v:'Howling Moto', p:6.95, url:'https://howlingmoto.com/products/420-primary-chain-drive-alignment-shim-surron-lbx', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-420-primary-chain-drive-alignment-shim-surron-lbx.webp'
+    },
+    {name:'SHE7876 - Motor Mount  Bolts Kit/  Belt Adjustment Kit - SS2.0', pid:'eridepro-she7876-motor-mount-bolts-kit-belt-adjustment-kit-ss2-0', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:9, url:'https://www.eridepro.com/products/she7876-motor-mount-bolts-kit-belt-adjustment-kit-ss2-0', chk:'2026-10-27'},
+     ],
+     fits:["ss20"], likely:[], no:[],
+     badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she7876-motor-mount-bolts-kit-belt-adjustment-kit-ss2-0.webp'
+    },
+    {name:'E7310 - Primary Transmission Sprocket （14T) - SS2.0', pid:'eridepro-e7310-primary-transmission-sprocket-14t-ss2-0', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:10, url:'https://www.eridepro.com/products/e7310-primary-transmission-sprocket-14t-ss2-0', chk:'2026-10-27'},
+     ],
+     fits:["ss20"], likely:[], no:[],
+     badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7310-primary-transmission-sprocket-14t-ss2-0.webp'
+    },
 ]},
   {id:'electrical', name:'Electrical', blurb:'Dashboards, lights, and wiring that tie the build together.', tips:['Check voltage compatibility with your battery','Plug-and-play beats splicing — look for bike-specific kits'], options:[
     {name:'Stock electrical', prices:[]},
@@ -1538,6 +1734,34 @@ var CATEGORIES = [
      ],
      fits:["lightbee"], likely:[], no:[],
      badge:'Electrical', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-carbon-fiber-ignition-switch-cover-for-surron-light.webp'
+    },
+    {name:'SHE7095 - Ignition cover plate (with 2screws) - ProS/SS2.0/SS3.0/SR', pid:'eridepro-she7095-ignition-cover-plate-with-2screws-s-ss2-0-ss3-0', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:15, url:'https://www.eridepro.com/products/she7095-ignition-cover-plate-with-2screws-s-ss2-0-ss3-0', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Electrical', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she7095-ignition-cover-plate-with-2screws-s-ss2-0-ss3-0.webp'
+    },
+    {name:'OEM Ignition Bracket LBX', pid:'tbelectricmoto-oem-ignition-bracket-lbx', tier:'OEM',
+     prices:[
+      {v:'TB Electric Moto', p:23, url:'https://tbelectricmoto.com/products/oem-ignition-bracket-lbx', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Electrical', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-oem-ignition-bracket-lbx.webp'
+    },
+    {name:'TB E-Ride Pro SS Key Ignition Cover', pid:'tbelectricmoto-tb-e-ride-pro-ss-key-ignition-cover', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:24, url:'https://tbelectricmoto.com/products/tb-e-ride-pro-ss-key-ignition-cover', chk:'2026-10-27'},
+     ],
+     fits:["ss20"], likely:[], no:[],
+     badge:'Electrical', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-tb-e-ride-pro-ss-key-ignition-cover.webp'
+    },
+    {name:'E7032 - Converter - S/SS 2.0/SS3.0/SR', pid:'eridepro-e7032', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:29, url:'https://www.eridepro.com/products/e7032', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Electrical', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7032.webp'
     },
 ]},
   {id:'guards', name:'Guards', blurb:'Cheap insurance — frame, rotor, and case protection that pays for itself the first crash.', tips:['Bike-specific fitment','Rotor guards need caliper clearance'], options:[
@@ -1618,6 +1842,27 @@ var CATEGORIES = [
      fits:["ss20"], likely:[], no:[],
      badge:'Guard', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she7857-motor-protection-guard-with-2-screws-ss2-0.webp'
     },
+    {name:'Titanium Chain Guard Bolts (Set of Two) Talaria XXX, MX3, MX4', pid:'tbelectricmoto-titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-m', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:9.99, url:'https://tbelectricmoto.com/products/titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-mx4', chk:'2026-10-27'},
+     ],
+     fits:["mx4"], likely:[], no:[],
+     badge:'Guard', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-m.webp'
+    },
+    {name:'E Ride Pro SS Motor Cover (Protection Guard)', pid:'revrides-e-ride-pro-ss-motor-cover-protection-guard', tier:'budget',
+     prices:[
+      {v:'REV Rides', p:10, url:'https://revrides.com/products/e-ride-pro-ss-motor-cover-protection-guard', chk:'2026-10-27'},
+     ],
+     fits:["ss20"], likely:[], no:[],
+     badge:'Guard', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-e-ride-pro-ss-motor-cover-protection-guard.webp'
+    },
+    {name:'SHE7086 - Tailpiece MountMud Guard w/ bolts kit - S/SS2.0/SS3.0/SR', pid:'eridepro-she7086-tailpiece-mountmud-guard', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:15, url:'https://www.eridepro.com/products/she7086-tailpiece-mountmud-guard', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Guard', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she7086-tailpiece-mountmud-guard.webp'
+    },
 ]},
   {id:'linkage', name:'Linkage', blurb:'Connects the shock to the swingarm and sets the leverage curve — subtle but noticeable.', tips:['Bike-specific fitment — no universal options','Usually chosen alongside the shock'], options:[
     {name:'Stock linkage', prices:[]},
@@ -1665,6 +1910,34 @@ var CATEGORIES = [
      ],
      fits:["lightbee"], likely:[], no:[],
      badge:'Linkage', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-stainless-bearing-shafts-sleeve-for-linkage-surron-lbx-by-pri.webp'
+    },
+    {name:'Prickly Linkage Rebuild Kit For Surron Lightbee', pid:'tbelectricmoto-prickly-linkage-rebuild-kit-for-surron-lightbee', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:18, url:'https://tbelectricmoto.com/products/prickly-linkage-rebuild-kit-for-surron-lightbee', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Linkage', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-prickly-linkage-rebuild-kit-for-surron-lightbee.webp'
+    },
+    {name:'Warp 9 Ultra Bee Triangle Pivot Bolt Kit', pid:'tbelectricmoto-warp-9-ultra-bee-triangle-pivot-bolt-kit', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:21, url:'https://tbelectricmoto.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit', chk:'2026-10-27'},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'Linkage', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-warp-9-ultra-bee-triangle-pivot-bolt-kit.webp'
+    },
+    {name:'DirtyBike Aluminum Suspension Triangle Surron LBX', pid:'tbelectricmoto-dirtybike-aluminum-suspension-triangle-surron-lbx', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:42, url:'https://tbelectricmoto.com/products/dirtybike-aluminum-suspension-triangle-surron-lbx', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Linkage', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-aluminum-suspension-triangle-surron-lbx.webp'
+    },
+    {name:'PSM ERide Pro SS Adjustable Triangle', pid:'revrides-psm-eride-pro-ss-adjustable-triangle', tier:'mid',
+     prices:[
+      {v:'REV Rides', p:52.99, url:'https://revrides.com/products/psm-eride-pro-ss-adjustable-triangle', chk:'2026-10-27'},
+     ],
+     fits:["ss20"], likely:[], no:[],
+     badge:'Linkage', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-psm-eride-pro-ss-adjustable-triangle.webp'
     },
 ]},
   {id:'maintenance', name:'Maintenance', blurb:'Consumables and shop supplies to keep the build running.', tips:['Stock up on what wears: chains, brake pads, tires'], options:[
@@ -1720,6 +1993,34 @@ var CATEGORIES = [
      ],
      fits:["lightbee"], likely:[], no:[],
      badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x2.webp'
+    },
+    {name:'DirtyBike Bearing Kit Swingarm Surron LBX', pid:'tbelectricmoto-dirtybike-bearing-kit-swingarm-surron-lbx', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:16, url:'https://tbelectricmoto.com/products/dirtybike-bearing-kit-swingarm-surron-lbx', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-bearing-kit-swingarm-surron-lbx.webp'
+    },
+    {name:'DirtyBike Bearing Kit Front Wheel Surron LBX Talaria Sting', pid:'tbelectricmoto-dirtybike-bearing-kit-front-wheel-surron-lbx-talaria-st', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:16, url:'https://tbelectricmoto.com/products/dirtybike-bearing-kit-front-wheel-surron-lbx-talaria-sting', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-bearing-kit-front-wheel-surron-lbx-talaria-st.webp'
+    },
+    {name:'eDirtyBikes Surron Light Bee & E Ride Pro Swingarm Bearing Kit | Black Stripe Deep Groove Sealed', pid:'howlingmoto-edirtybikes-surron-light-bee-e-ride-pro-swingarm-bearing-k', tier:'budget',
+     prices:[
+      {v:'Howling Moto', p:16, url:'https://howlingmoto.com/products/edirtybikes-surron-light-bee-e-ride-pro-swingarm-bearing-kit-black-stripe-deep-groove-sealed', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-edirtybikes-surron-light-bee-e-ride-pro-swingarm-bearing-k.webp'
+    },
+    {name:'Talaria Komodo OEM Side Kickstand Sensor', pid:'tbelectricmoto-talaria-komodo-oem-side-kickstand-sensor', tier:'OEM',
+     prices:[
+      {v:'TB Electric Moto', p:16.39, url:'https://tbelectricmoto.com/products/talaria-komodo-oem-side-kickstand-sensor', chk:'2026-10-27'},
+     ],
+     fits:["komodo"], likely:[], no:[],
+     badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-talaria-komodo-oem-side-kickstand-sensor.webp'
     },
 ]},
   {id:'pegs', name:'Foot Pegs', blurb:'Wider, sharper pegs mean more control — especially standing up.', tips:['Mounts are bike-specific','Titanium saves weight; steel lasts longer'], options:[
@@ -1806,6 +2107,34 @@ var CATEGORIES = [
      fits:["ss30"], likely:[], no:[],
      badge:'Pegs', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-e-ride-pro-ss-3-0-peg-brace-spacers-only.webp'
     },
+    {name:'Surron Ultra Bee Footpeg Pins, Springs, and Washers', pid:'tbelectricmoto-ultra-bee-e-moto-footpeg-pins-springs-and-washers', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:12, url:'https://tbelectricmoto.com/products/ultra-bee-e-moto-footpeg-pins-springs-and-washers', chk:'2026-10-27'},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'Pegs', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-ultra-bee-e-moto-footpeg-pins-springs-and-washers.webp'
+    },
+    {name:'DirtyBike Aluminum Foot Peg Support Brace Surron LBX', pid:'tbelectricmoto-dirtybike-aluminum-foot-peg-support-brace-surron-lbx', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:12, url:'https://tbelectricmoto.com/products/dirtybike-aluminum-foot-peg-support-brace-surron-lbx', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Pegs', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-aluminum-foot-peg-support-brace-surron-lbx.webp'
+    },
+    {name:'E Ride Pro - OEM Foot Pegs - S/SS 2.0', pid:'chargedcycleworks-e-ride-pro-oem-foot-peg-s-ss-2-0', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-foot-peg-s-ss-2-0', chk:'2026-10-27'},
+     ],
+     fits:["ss20"], likely:[], no:[],
+     badge:'Pegs', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-e-ride-pro-oem-foot-peg-s-ss-2-0.webp'
+    },
+    {name:'E Ride Pro OEM Foot Peg Mount Bracket For E-Ride S/SS 1.0/SS 2.0/SS 3.0/SR', pid:'tbelectricmoto-e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr', tier:'OEM',
+     prices:[
+      {v:'TB Electric Moto', p:19, url:'https://tbelectricmoto.com/products/e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Pegs', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr.webp'
+    },
 ]},
   {id:'seats', name:'Seats', blurb:'Where you spend the whole ride — comfort and control.', tips:['Tall seats help taller riders; standard keeps footing easy','Gripper covers for aggressive riding, smooth for moving around'], options:[
     {name:'Stock seats', prices:[]},
@@ -1867,6 +2196,34 @@ var CATEGORIES = [
      ],
      fits:["ss30", "ss20"], likely:[], no:[],
      badge:'Seat', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she8067-right-battery-cover-long-seat-assembly-ss2-0-ss3-0-sr.webp'
+    },
+    {name:'SHE8068 - Left Battery Cover (Long Seat) Assembly - SS2.0/SS3.0/SR', pid:'eridepro-she8068-left-battery-cover-long-seat-assembly-ss2-0-ss3-0-sr', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:9, url:'https://www.eridepro.com/products/she8068-left-battery-cover-long-seat-assembly-ss2-0-ss3-0-sr', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Seat', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she8068-left-battery-cover-long-seat-assembly-ss2-0-ss3-0-sr.webp'
+    },
+    {name:'SHE8074 - Key Switch Cover（Long Seat）Assembly Old Version - SS2.0/SS3.0/SR', pid:'eridepro-she8074-key-switch-cover-long-seat-assembly-old-version-ss2-0', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:15, url:'https://www.eridepro.com/products/she8074-key-switch-cover-long-seat-assembly-old-version-ss2-0-ss3-0-sr', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Seat', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she8074-key-switch-cover-long-seat-assembly-old-version-ss2-0.webp'
+    },
+    {name:'SHE8066 - Key Switch Cover（Long Seat) - SS2.0/SS3.0/SR', pid:'eridepro-she8066-key-switch-cover-long-seat-ss2-0-ss3-0-sr', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:15, url:'https://www.eridepro.com/products/she8066-key-switch-cover-long-seat-ss2-0-ss3-0-sr', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Seat', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she8066-key-switch-cover-long-seat-ss2-0-ss3-0-sr.webp'
+    },
+    {name:'E7901 - Long Seat Trim - SS2.0/SS3.0/SR', pid:'eridepro-e7901-long-seat-trim-ss2-0-ss3-0-sr', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:15, url:'https://www.eridepro.com/products/e7901-long-seat-trim-ss2-0-ss3-0-sr', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Seat', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7901-long-seat-trim-ss2-0-ss3-0-sr.webp'
     },
 ]},
   {id:'street', name:'Street', blurb:'Lights, mirrors, and signals for road-legal riding where it\'s allowed.', tips:['Legality varies wildly by state — check yours','Wiring effort ranges from plug-and-play to a full afternoon'], options:[
@@ -1937,6 +2294,27 @@ var CATEGORIES = [
      fits:["lightbee", "mx4"], likely:[], no:[],
      badge:'Street', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-headlight-adapter-talaria-sting-mx4-to-surron-light-bee.webp'
     },
+    {name:'E7019 - Horn - ProS/SS2.0/SS3.0/SR', pid:'eridepro-e7019', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:13, url:'https://www.eridepro.com/products/e7019', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Street', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7019.webp'
+    },
+    {name:'SHE7049 - Horn kit - S/SS2.0/SS3.0', pid:'eridepro-she7049-horn-kit', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:15, url:'https://www.eridepro.com/products/she7049-horn-kit', chk:'2026-10-27'},
+     ],
+     fits:["ss30", "ss20"], likely:[], no:[],
+     badge:'Street', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she7049-horn-kit.webp'
+    },
+    {name:'GritShift Blazer LED Headlight for Talaria  (Talaria Sting MX4/MX5 Only)', pid:'tbelectricmoto-gritshift-blazer-led-headlight-for-talaria-mx4-talaria', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:19, url:'https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only', chk:'2026-10-27'},
+     ],
+     fits:["mx5", "mx4"], likely:[], no:[],
+     badge:'Street', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-gritshift-blazer-led-headlight-for-talaria-mx4-talaria.webp'
+    },
 ]},
   {id:'swingarm', name:'Swingarm', blurb:'A longer swingarm adds straight-line stability at speed.', tips:['Axle and linkage fitment are bike-specific','A longer arm usually means a longer chain','Check tire clearance'], options:[
     {name:'Stock swingarm', prices:[]},
@@ -2005,6 +2383,34 @@ var CATEGORIES = [
      ],
      fits:["ultrabee"], likely:[], no:[],
      badge:'Swingarm', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-swingarm-alignment-tool-for-sur-ron-ultra-bee.webp'
+    },
+    {name:'Swingarm Alignment Tool | Surron Ultra Bee', pid:'howlingmoto-swingarm-alignment-tool-surron-ultra-bee', tier:'budget',
+     prices:[
+      {v:'Howling Moto', p:14, url:'https://howlingmoto.com/products/swingarm-alignment-tool-surron-ultra-bee', chk:'2026-10-27'},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'Swingarm', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-swingarm-alignment-tool-surron-ultra-bee.webp'
+    },
+    {name:'DirtyBike Swingarm Alignment Tool - Sur Ron Ultra Bee', pid:'gritshift-dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee', tier:'budget',
+     prices:[
+      {v:'GritShift', p:14, url:'https://gritshift.com/products/dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee', chk:'2026-10-27'},
+     ],
+     fits:["ultrabee"], likely:[], no:[],
+     badge:'Swingarm', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/gritshift-dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee.webp'
+    },
+    {name:'Tusk Surron Light Bee Swingarm Castle Nut Socket', pid:'tbelectricmoto-tusk-surron-light-bee-swingarm-castle-nut-socket', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:14.99, url:'https://tbelectricmoto.com/products/tusk-surron-light-bee-swingarm-castle-nut-socket', chk:'2026-10-27'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     badge:'Swingarm', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-tusk-surron-light-bee-swingarm-castle-nut-socket.webp'
+    },
+    {name:'Talaria Komodo OEM Rear Swingarm Bolt', pid:'tbelectricmoto-talaria-komodo-oem-rear-swingarm-bolt', tier:'OEM',
+     prices:[
+      {v:'TB Electric Moto', p:23.99, url:'https://tbelectricmoto.com/products/talaria-komodo-oem-rear-swingarm-bolt', chk:'2026-10-27'},
+     ],
+     fits:["komodo"], likely:[], no:[],
+     badge:'Swingarm', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-talaria-komodo-oem-rear-swingarm-bolt.webp'
     },
 ]},
   {id:'tires', name:'Tires & Tubes', blurb:'Traction. The right tire for your terrain matters more than most upgrades.', tips:['Size must match your rims','Soft-terrain, intermediate, and hard-pack tires are very different','DOT-rated if you ride street'], options:[
@@ -2340,6 +2746,27 @@ var CATEGORIES = [
      ],
      fits:["ss30", "ss20"], likely:[], no:[],
      badge:'Tire', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7511-2-babyfat-front-tube-19-ss-3-0-sr.webp'
+    },
+    {name:'E7235-2 - Fatty Rear Tube-18\'\' - SS3.0/SR', pid:'eridepro-e7235-2-fatty-rear-tube-18-ss-3-0-sr', tier:'budget',
+     prices:[
+      {v:'E Ride Pro', p:9, url:'https://www.eridepro.com/products/e7235-2-fatty-rear-tube-18-ss-3-0-sr', chk:'2026-10-27'},
+     ],
+     fits:["ss30"], likely:[], no:[],
+     badge:'Tire', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7235-2-fatty-rear-tube-18-ss-3-0-sr.webp'
+    },
+    {name:'(E7513-1) - 18" BabyFat Rear Tire w/o Tire Tube - SS3.0/SR', pid:'eridepro-e7513-1-babyfat-rear-tire-18-w-o-tire-tube-3-0-sr', tier:'mid',
+     prices:[
+      {v:'E Ride Pro', p:69, url:'https://www.eridepro.com/products/e7513-1-babyfat-rear-tire-18-w-o-tire-tube-3-0-sr', chk:'2026-10-27'},
+     ],
+     fits:["ss30"], likely:[], no:[],
+     badge:'Tire', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7513-1-babyfat-rear-tire-18-w-o-tire-tube-3-0-sr.webp'
+    },
+    {name:'(E7511-1) - 19" BabyFat Front Tire w/o Tire Tube - SS3.0/SR', pid:'eridepro-e7511-1-babyfat-front-tire-19-w-o-tire-tube-3-0-sr', tier:'mid',
+     prices:[
+      {v:'E Ride Pro', p:69, url:'https://www.eridepro.com/products/e7511-1-babyfat-front-tire-19-w-o-tire-tube-3-0-sr', chk:'2026-10-27'},
+     ],
+     fits:["ss30"], likely:[], no:[],
+     badge:'Tire', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7511-1-babyfat-front-tire-19-w-o-tire-tube-3-0-sr.webp'
     },
 ]},
   {id:'titanium', name:'Titanium Hardware', blurb:'Titanium bolt kits and hardware — shed grams and add color to your build.', tips:['Match thread pitch and length to your OEM bolts before ordering','Use anti-seize — titanium galls easily','Axle, brake and motor-mount bolts are safety-critical: follow torque specs','Anodized colors vary between batches — order kits together for a match'], options:[

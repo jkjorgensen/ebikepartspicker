@@ -226,6 +226,142 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/revrides-titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x2.webp"
+    },
+    {
+      "id": "tbelectricmoto-dirtybike-bearing-kit-swingarm-surron-lbx",
+      "name": "DirtyBike Bearing Kit Swingarm Surron LBX",
+      "brand": "eDirtyBike",
+      "category": "maintenance",
+      "price_usd": 16.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/dirtybike-bearing-kit-swingarm-surron-lbx",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/dirtybike-bearing-kit-swingarm-surron-lbx"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://tbelectricmoto.com/products/dirtybike-bearing-kit-swingarm-surron-lbx"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 16.0,
+          "buy_url": "https://tbelectricmoto.com/products/dirtybike-bearing-kit-swingarm-surron-lbx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-dirtybike-bearing-kit-swingarm-surron-lbx.webp"
+    },
+    {
+      "id": "tbelectricmoto-dirtybike-bearing-kit-front-wheel-surron-lbx-talaria-st",
+      "name": "DirtyBike Bearing Kit Front Wheel Surron LBX Talaria Sting",
+      "brand": "eDirtyBike",
+      "category": "maintenance",
+      "price_usd": 16.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/dirtybike-bearing-kit-front-wheel-surron-lbx-talaria-sting",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/dirtybike-bearing-kit-front-wheel-surron-lbx-talaria-sting"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://tbelectricmoto.com/products/dirtybike-bearing-kit-front-wheel-surron-lbx-talaria-sting"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 16.0,
+          "buy_url": "https://tbelectricmoto.com/products/dirtybike-bearing-kit-front-wheel-surron-lbx-talaria-sting"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-dirtybike-bearing-kit-front-wheel-surron-lbx-talaria-st.webp"
+    },
+    {
+      "id": "howlingmoto-edirtybikes-surron-light-bee-e-ride-pro-swingarm-bearing-k",
+      "name": "eDirtyBikes Surron Light Bee & E Ride Pro Swingarm Bearing Kit | Black Stripe Deep Groove Sealed",
+      "brand": "eDirtyBike",
+      "category": "maintenance",
+      "price_usd": 16.0,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/edirtybikes-surron-light-bee-e-ride-pro-swingarm-bearing-kit-black-stripe-deep-groove-sealed",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/edirtybikes-surron-light-bee-e-ride-pro-swingarm-bearing-kit-black-stripe-deep-groove-sealed"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://howlingmoto.com/products/edirtybikes-surron-light-bee-e-ride-pro-swingarm-bearing-kit-black-stripe-deep-groove-sealed"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 16.0,
+          "buy_url": "https://howlingmoto.com/products/edirtybikes-surron-light-bee-e-ride-pro-swingarm-bearing-kit-black-stripe-deep-groove-sealed"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-edirtybikes-surron-light-bee-e-ride-pro-swingarm-bearing-k.webp"
+    },
+    {
+      "id": "tbelectricmoto-talaria-komodo-oem-side-kickstand-sensor",
+      "name": "Talaria Komodo OEM Side Kickstand Sensor",
+      "brand": "Talaria",
+      "category": "maintenance",
+      "price_usd": 16.39,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-side-kickstand-sensor",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/talaria-komodo-oem-side-kickstand-sensor"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://tbelectricmoto.com/products/talaria-komodo-oem-side-kickstand-sensor"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 16.39,
+          "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-side-kickstand-sensor"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-talaria-komodo-oem-side-kickstand-sensor.webp"
     }
   ],
   "compatibility": [

@@ -641,6 +641,108 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-talaria-komodo-oem-replacement-battery-cover-fender.webp"
+    },
+    {
+      "id": "howlingmoto-surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-bo",
+      "name": "Surron Light Bee Carbon Fiber Plastics Kit – Full 9-Piece Body Kit (Fits Segway X160/X260)",
+      "brand": "FactoryZ",
+      "category": "plastics",
+      "price_usd": 17.99,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-body-kit-fits-segway-x160-x260",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-body-kit-fits-segway-x160-x260"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://howlingmoto.com/products/surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-body-kit-fits-segway-x160-x260"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 17.99,
+          "buy_url": "https://howlingmoto.com/products/surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-body-kit-fits-segway-x160-x260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-bo.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-light-bee-extended-rear-fender-carbon-gloss",
+      "name": "Surron Light Bee - Extended Rear Fender | OEM",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 19.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-extended-rear-fender-carbon-gloss",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-extended-rear-fender-carbon-gloss"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://chargedcycleworks.com/products/surron-light-bee-extended-rear-fender-carbon-gloss"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-extended-rear-fender-carbon-gloss"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-surron-light-bee-extended-rear-fender-carbon-gloss.webp"
+    },
+    {
+      "id": "tbelectricmoto-talaria-komodo-oem-replacement-front-number-plate",
+      "name": "Talaria Komodo OEM Replacement Front Number Plate",
+      "brand": "Talaria",
+      "category": "plastics",
+      "price_usd": 19.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-front-number-plate",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-front-number-plate"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-front-number-plate"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 19.99,
+          "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-replacement-front-number-plate"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-talaria-komodo-oem-replacement-front-number-plate.webp"
     }
   ],
   "compatibility": [

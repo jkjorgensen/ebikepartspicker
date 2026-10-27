@@ -610,6 +610,112 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-kke-550lbs-rear-absorber-suspension-shock-spring-for.webp"
+    },
+    {
+      "id": "revrides-kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-u",
+      "name": "KKE 550LBS Rear Absorber Suspension Shock Spring For SurRon Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "shock",
+      "price_usd": 79.99,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://revrides.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 79.99,
+          "buy_url": "https://revrides.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-u.webp"
+    },
+    {
+      "id": "revrides-e-ride-pro-ss-rear-shock",
+      "name": "E Ride Pro OEM Rear Shock Options | By FastAce and KKE | For E Ride Pro Mini, S, SS 2.0, SS 3.0 and SR",
+      "brand": "E Ride Pro",
+      "category": "shock",
+      "price_usd": 159.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/e-ride-pro-ss-rear-shock",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/e-ride-pro-ss-rear-shock"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://revrides.com/products/e-ride-pro-ss-rear-shock",
+        "ss20": "https://revrides.com/products/e-ride-pro-ss-rear-shock"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 159.0,
+          "buy_url": "https://revrides.com/products/e-ride-pro-ss-rear-shock"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-e-ride-pro-ss-rear-shock.webp"
+    },
+    {
+      "id": "eridepro-she7011-rear-shock",
+      "name": "SHE7011 - Rear Shock (w/bolts) - PRO SS2.0/SS3.0",
+      "brand": "E RIDE PRO Global",
+      "category": "shock",
+      "price_usd": 265.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7011-rear-shock",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7011-rear-shock"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/she7011-rear-shock",
+        "ss20": "https://www.eridepro.com/products/she7011-rear-shock"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 265.0,
+          "buy_url": "https://www.eridepro.com/products/she7011-rear-shock"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7011-rear-shock.webp"
     }
   ]
 }

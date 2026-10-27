@@ -223,6 +223,108 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eridepro-she7062-front-brake-hose-clamp-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-replacement-brake-levers-2-lbx-x260",
+      "name": "Surron Light Bee - OEM Replacement Brake Levers",
+      "brand": "eBikeZilla",
+      "category": "cockpit",
+      "price_usd": 10.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/replacement-brake-levers-2-lbx-x260",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/replacement-brake-levers-2-lbx-x260"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://chargedcycleworks.com/products/replacement-brake-levers-2-lbx-x260"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 10.99,
+          "buy_url": "https://chargedcycleworks.com/products/replacement-brake-levers-2-lbx-x260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-replacement-brake-levers-2-lbx-x260.webp"
+    },
+    {
+      "id": "revrides-e-ride-pro-ss-handlebar-grips",
+      "name": "E Ride Pro SS Handlebar Grips",
+      "brand": "E Ride Pro",
+      "category": "cockpit",
+      "price_usd": 14.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/e-ride-pro-ss-handlebar-grips",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/e-ride-pro-ss-handlebar-grips"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://revrides.com/products/e-ride-pro-ss-handlebar-grips"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 14.0,
+          "buy_url": "https://revrides.com/products/e-ride-pro-ss-handlebar-grips"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-e-ride-pro-ss-handlebar-grips.webp"
+    },
+    {
+      "id": "tbelectricmoto-talaria-komodo-oem-handlebar-upper-clamp-no-headlight-m",
+      "name": "Talaria Komodo OEM Handlebar Upper Clamp (No Headlight Mount)",
+      "brand": "Talaria",
+      "category": "cockpit",
+      "price_usd": 18.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-handlebar-upper-clamp-no-headlight-mount",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/talaria-komodo-oem-handlebar-upper-clamp-no-headlight-mount"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://tbelectricmoto.com/products/talaria-komodo-oem-handlebar-upper-clamp-no-headlight-mount"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 18.99,
+          "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-handlebar-upper-clamp-no-headlight-mount"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-talaria-komodo-oem-handlebar-upper-clamp-no-headlight-m.webp"
     }
   ],
   "compatibility": [

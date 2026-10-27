@@ -273,6 +273,114 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-headlight-adapter-talaria-sting-mx4-to-surron-light-bee.webp"
+    },
+    {
+      "id": "eridepro-e7019",
+      "name": "E7019 - Horn - ProS/SS2.0/SS3.0/SR",
+      "brand": "E RIDE PRO Global",
+      "category": "street",
+      "price_usd": 13.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7019",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7019"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/e7019",
+        "ss20": "https://www.eridepro.com/products/e7019"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 13.0,
+          "buy_url": "https://www.eridepro.com/products/e7019"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7019.webp"
+    },
+    {
+      "id": "eridepro-she7049-horn-kit",
+      "name": "SHE7049 - Horn kit - S/SS2.0/SS3.0",
+      "brand": "E RIDE PRO Global",
+      "category": "street",
+      "price_usd": 15.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7049-horn-kit",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7049-horn-kit"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/she7049-horn-kit",
+        "ss20": "https://www.eridepro.com/products/she7049-horn-kit"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 15.0,
+          "buy_url": "https://www.eridepro.com/products/she7049-horn-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7049-horn-kit.webp"
+    },
+    {
+      "id": "tbelectricmoto-gritshift-blazer-led-headlight-for-talaria-mx4-talaria",
+      "name": "GritShift Blazer LED Headlight for Talaria  (Talaria Sting MX4/MX5 Only)",
+      "brand": "GritShift",
+      "category": "street",
+      "price_usd": 19.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit",
+        "Talaria Sting R MX4": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only",
+        "mx4": "https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 19.0,
+          "buy_url": "https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-gritshift-blazer-led-headlight-for-talaria-mx4-talaria.webp"
     }
   ],
   "compatibility": [
