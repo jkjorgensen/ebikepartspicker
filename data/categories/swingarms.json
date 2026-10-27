@@ -254,6 +254,142 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-dirtybike-swingarm-alignment-tool-for-sur-ron-ultra-bee.webp"
+    },
+    {
+      "id": "howlingmoto-swingarm-alignment-tool-surron-ultra-bee",
+      "name": "Swingarm Alignment Tool | Surron Ultra Bee",
+      "brand": "eDirtyBike",
+      "category": "swingarm",
+      "price_usd": 14.0,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/swingarm-alignment-tool-surron-ultra-bee",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://howlingmoto.com/products/swingarm-alignment-tool-surron-ultra-bee"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://howlingmoto.com/products/swingarm-alignment-tool-surron-ultra-bee"
+      },
+      "vendors": [
+        {
+          "vendor": "Howling Moto",
+          "price_usd": 14.0,
+          "buy_url": "https://howlingmoto.com/products/swingarm-alignment-tool-surron-ultra-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/howlingmoto-swingarm-alignment-tool-surron-ultra-bee.webp"
+    },
+    {
+      "id": "gritshift-dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee",
+      "name": "DirtyBike Swingarm Alignment Tool - Sur Ron Ultra Bee",
+      "brand": "eDirtyBike",
+      "category": "swingarm",
+      "price_usd": 14.0,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://gritshift.com/products/dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://gritshift.com/products/dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 14.0,
+          "buy_url": "https://gritshift.com/products/dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/gritshift-dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee.webp"
+    },
+    {
+      "id": "tbelectricmoto-tusk-surron-light-bee-swingarm-castle-nut-socket",
+      "name": "Tusk Surron Light Bee Swingarm Castle Nut Socket",
+      "brand": "Tusk",
+      "category": "swingarm",
+      "price_usd": 14.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/tusk-surron-light-bee-swingarm-castle-nut-socket",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/tusk-surron-light-bee-swingarm-castle-nut-socket"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://tbelectricmoto.com/products/tusk-surron-light-bee-swingarm-castle-nut-socket"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 14.99,
+          "buy_url": "https://tbelectricmoto.com/products/tusk-surron-light-bee-swingarm-castle-nut-socket"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-tusk-surron-light-bee-swingarm-castle-nut-socket.webp"
+    },
+    {
+      "id": "tbelectricmoto-talaria-komodo-oem-rear-swingarm-bolt",
+      "name": "Talaria Komodo OEM Rear Swingarm Bolt",
+      "brand": "Talaria",
+      "category": "swingarm",
+      "price_usd": 23.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-rear-swingarm-bolt",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/talaria-komodo-oem-rear-swingarm-bolt"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Komodo": "direct_fit"
+      },
+      "_fit_src": {
+        "komodo": "https://tbelectricmoto.com/products/talaria-komodo-oem-rear-swingarm-bolt"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 23.99,
+          "buy_url": "https://tbelectricmoto.com/products/talaria-komodo-oem-rear-swingarm-bolt"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-talaria-komodo-oem-rear-swingarm-bolt.webp"
     }
   ],
   "compatibility": [

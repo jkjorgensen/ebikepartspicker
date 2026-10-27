@@ -1048,6 +1048,74 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eridepro-e7484-2.webp"
+    },
+    {
+      "id": "gritshift-titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx",
+      "name": "Titanium Surron KKE OEM Fork Bolt Kit - Sur Ron LBX",
+      "brand": "Titanium Surron",
+      "category": "fork",
+      "price_usd": 54.99,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://gritshift.com/products/titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://gritshift.com/products/titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 54.99,
+          "buy_url": "https://gritshift.com/products/titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/gritshift-titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx.webp"
+    },
+    {
+      "id": "tbelectricmoto-tech-e39-fork-e-ride-pro-ss-3-0-sr-adapter",
+      "name": "Tech E39 Fork E-Ride Pro SS 3.0/SR Adapter",
+      "brand": "Tech",
+      "category": "fork",
+      "price_usd": 65.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/tech-e39-fork-e-ride-pro-ss-3-0-sr-adapter",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/tech-e39-fork-e-ride-pro-ss-3-0-sr-adapter"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://tbelectricmoto.com/products/tech-e39-fork-e-ride-pro-ss-3-0-sr-adapter"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 65.0,
+          "buy_url": "https://tbelectricmoto.com/products/tech-e39-fork-e-ride-pro-ss-3-0-sr-adapter"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-tech-e39-fork-e-ride-pro-ss-3-0-sr-adapter.webp"
     }
   ]
 }

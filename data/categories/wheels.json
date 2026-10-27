@@ -334,6 +334,110 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/eridepro-e7260.webp"
+    },
+    {
+      "id": "eridepro-e7259",
+      "name": "E7259 - Rear wheel axel bush (big size) - S/SS2.0/3.0/SR/MINI",
+      "brand": "E RIDE PRO",
+      "category": "wheels",
+      "price_usd": 6.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7259",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7259"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://www.eridepro.com/products/e7259"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 6.0,
+          "buy_url": "https://www.eridepro.com/products/e7259"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7259.webp"
+    },
+    {
+      "id": "chargedcycleworks-fr-r-wheel-liner-talaria-sting-mx5",
+      "name": "Talaria - OEM Front Right Wheel Spacer for MX5",
+      "brand": "eBikeZilla",
+      "category": "wheels",
+      "price_usd": 6.84,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/fr-r-wheel-liner-talaria-sting-mx5",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/fr-r-wheel-liner-talaria-sting-mx5"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Talaria Sting MX5 Pro": "direct_fit"
+      },
+      "_fit_src": {
+        "mx5": "https://chargedcycleworks.com/products/fr-r-wheel-liner-talaria-sting-mx5"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.84,
+          "buy_url": "https://chargedcycleworks.com/products/fr-r-wheel-liner-talaria-sting-mx5"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-fr-r-wheel-liner-talaria-sting-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-oem-rear-wheel-hugger",
+      "name": "E Ride Pro – OEM Rear Wheel Hugger – Pro S / SS 2.0 / SS 3.0 / SR",
+      "brand": "ERide Pro",
+      "category": "wheels",
+      "price_usd": 9.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-oem-rear-wheel-hugger",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-rear-wheel-hugger"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://chargedcycleworks.com/products/e-ride-oem-rear-wheel-hugger",
+        "ss20": "https://chargedcycleworks.com/products/e-ride-oem-rear-wheel-hugger"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-oem-rear-wheel-hugger"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-e-ride-oem-rear-wheel-hugger.webp"
     }
   ],
   "compatibility": [

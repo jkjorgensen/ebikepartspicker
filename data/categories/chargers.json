@@ -201,6 +201,112 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-warp-9-surron-light-bee-charger-extension-cord.webp"
+    },
+    {
+      "id": "tbelectricmoto-warp-9",
+      "name": "Warp 9 Surron Ultra Bee Charger Extension Cord",
+      "brand": "Warp 9",
+      "category": "chargers",
+      "price_usd": 36.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/warp-9",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/warp-9"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://tbelectricmoto.com/products/warp-9"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 36.0,
+          "buy_url": "https://tbelectricmoto.com/products/warp-9"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-warp-9.webp"
+    },
+    {
+      "id": "tbelectricmoto-warp-9-surron-light-bee-ultra-bee-wall-charger-mount",
+      "name": "Warp 9 Surron Light Bee & Ultra Bee Wall Charger Mount",
+      "brand": "Warp 9",
+      "category": "chargers",
+      "price_usd": 49.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/warp-9-surron-light-bee-ultra-bee-wall-charger-mount",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/warp-9-surron-light-bee-ultra-bee-wall-charger-mount"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit",
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee": "https://tbelectricmoto.com/products/warp-9-surron-light-bee-ultra-bee-wall-charger-mount",
+        "lightbee": "https://tbelectricmoto.com/products/warp-9-surron-light-bee-ultra-bee-wall-charger-mount"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 49.0,
+          "buy_url": "https://tbelectricmoto.com/products/warp-9-surron-light-bee-ultra-bee-wall-charger-mount"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-warp-9-surron-light-bee-ultra-bee-wall-charger-mount.webp"
+    },
+    {
+      "id": "revrides-e-ride-pro-ss-72v-stock-charger",
+      "name": "E Ride Pro Battery Charger | For Pro S, SS 2.0, SS 3.0, SR, and Mini Models",
+      "brand": "E Ride Pro",
+      "category": "chargers",
+      "price_usd": 299.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/e-ride-pro-ss-72v-stock-charger",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://revrides.com/products/e-ride-pro-ss-72v-stock-charger"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://revrides.com/products/e-ride-pro-ss-72v-stock-charger",
+        "ss20": "https://revrides.com/products/e-ride-pro-ss-72v-stock-charger"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 299.0,
+          "buy_url": "https://revrides.com/products/e-ride-pro-ss-72v-stock-charger"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/revrides-e-ride-pro-ss-72v-stock-charger.webp"
     }
   ],
   "compatibility": [

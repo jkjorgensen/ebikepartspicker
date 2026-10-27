@@ -250,6 +250,146 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-carbon-fiber-ignition-switch-cover-for-surron-light.webp"
+    },
+    {
+      "id": "eridepro-she7095-ignition-cover-plate-with-2screws-s-ss2-0-ss3-0",
+      "name": "SHE7095 - Ignition cover plate (with 2screws) - ProS/SS2.0/SS3.0/SR",
+      "brand": "E RIDE PRO Global",
+      "category": "electrical",
+      "price_usd": 15.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/she7095-ignition-cover-plate-with-2screws-s-ss2-0-ss3-0",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/she7095-ignition-cover-plate-with-2screws-s-ss2-0-ss3-0"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/she7095-ignition-cover-plate-with-2screws-s-ss2-0-ss3-0",
+        "ss20": "https://www.eridepro.com/products/she7095-ignition-cover-plate-with-2screws-s-ss2-0-ss3-0"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 15.0,
+          "buy_url": "https://www.eridepro.com/products/she7095-ignition-cover-plate-with-2screws-s-ss2-0-ss3-0"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-she7095-ignition-cover-plate-with-2screws-s-ss2-0-ss3-0.webp"
+    },
+    {
+      "id": "tbelectricmoto-oem-ignition-bracket-lbx",
+      "name": "OEM Ignition Bracket LBX",
+      "brand": "Surron",
+      "category": "electrical",
+      "price_usd": 23.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/oem-ignition-bracket-lbx",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/oem-ignition-bracket-lbx"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://tbelectricmoto.com/products/oem-ignition-bracket-lbx"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 23.0,
+          "buy_url": "https://tbelectricmoto.com/products/oem-ignition-bracket-lbx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-oem-ignition-bracket-lbx.webp"
+    },
+    {
+      "id": "tbelectricmoto-tb-e-ride-pro-ss-key-ignition-cover",
+      "name": "TB E-Ride Pro SS Key Ignition Cover",
+      "brand": "TB Electric",
+      "category": "electrical",
+      "price_usd": 24.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/tb-e-ride-pro-ss-key-ignition-cover",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/tb-e-ride-pro-ss-key-ignition-cover"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss20": "https://tbelectricmoto.com/products/tb-e-ride-pro-ss-key-ignition-cover"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 24.0,
+          "buy_url": "https://tbelectricmoto.com/products/tb-e-ride-pro-ss-key-ignition-cover"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/tbelectricmoto-tb-e-ride-pro-ss-key-ignition-cover.webp"
+    },
+    {
+      "id": "eridepro-e7032",
+      "name": "E7032 - Converter - S/SS 2.0/SS3.0/SR",
+      "brand": "E RIDE PRO Global",
+      "category": "electrical",
+      "price_usd": 29.0,
+      "vendor": "E Ride Pro",
+      "buy_url": "https://www.eridepro.com/products/e7032",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified.",
+      "source_urls": [
+        "https://www.eridepro.com/products/e7032"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "E Ride Pro SS 3.0": "direct_fit",
+        "E Ride Pro SS 2.0": "direct_fit"
+      },
+      "_fit_src": {
+        "ss30": "https://www.eridepro.com/products/e7032",
+        "ss20": "https://www.eridepro.com/products/e7032"
+      },
+      "vendors": [
+        {
+          "vendor": "E Ride Pro",
+          "price_usd": 29.0,
+          "buy_url": "https://www.eridepro.com/products/e7032"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/eridepro-e7032.webp"
     }
   ],
   "compatibility": [
