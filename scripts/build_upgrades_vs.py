@@ -9,8 +9,8 @@ BK={b['id']:b for b in D['bikes']}
 BASE='https://ebikepartspicker.pages.dev'; IMGV='4.5.0'
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else 'Not verified'
-UP=['lightbee','ss20','mx4','ultrabee','ss30','mx5']
-VS=[('lightbee','mx4'),('ultrabee','mx5'),('lightbee','ss20'),('sr','ultrabee')]
+UP=['lightbee','ss20','mx4','ultrabee','ss30','mx5','sr','ventus-plus','komodo']
+VS=[('lightbee','mx4'),('ultrabee','mx5'),('lightbee','ss20'),('sr','ultrabee'),('ultrabee','ss30'),('mx5','ss30'),('lightbee','sr'),('ss20','mx4'),('ultrabee','komodo'),('ventus-plus','ultrabee'),('storm-bee','ultrabee'),('mx4','ss30')]
 GOAL={'motor':'Power','controllers':'Power','controller':'Power','batteries':'Power','battery':'Power',
  'forks':'Suspension','fork':'Suspension','shocks':'Suspension','shock':'Suspension','linkage':'Suspension',
  'brakes':'Brakes','tires':'Wheels & tires','wheels':'Wheels & tires'}
@@ -78,8 +78,18 @@ for a,c in VS:
     amt=('${:,.0f}'.format(v) if u==' USD' else f'{round(v,1):g}{u}'); return f'<li>The {e(hi["name"])} has {"lower" if lo else "higher"} {k} by {amt}.</li>'
   h+='<h2>Key differences</h2><ul>'+diff('peak power',A.get('kw'),C.get('kw'),' kW')+diff('weight',A.get('weight'),C.get('weight'),' lb',True)+diff('price',A.get('price'),C.get('price'),' USD',True)+'</ul>'
   h+=f'<p>Specs are from manufacturer or retailer listings; ride feel, range and reliability aren’t compared here because we don’t have verified data for them.</p>'
-  h+=f'<p><a class="cta" href="/upgrades/{a}/">{e(A["name"])} upgrades</a> <a class="cta" href="/upgrades/{c}/">{e(C["name"])} upgrades</a></p>' if a in UP and c in UP else f'<p><a href="/bikes/{a}/">{e(A["name"])} parts</a> · <a href="/bikes/{c}/">{e(C["name"])} parts</a></p>'
+  h+=f'<p><a class="cta" href="/upgrades/{a}/">{e(A["name"])} upgrades</a> <a class="cta" href="/upgrades/{c}/">{e(C["name"])} upgrades</a></p>' if a in UP and c in UP else '<p>'+' · '.join(f'<a href="/{d}/{x}/">{e(BK[x]["name"])} {"upgrades" if d=="upgrades" else "parts"}</a>' for x in (a,c) for d in [('upgrades' if x in UP else 'bikes')] if os.path.exists(f'{R}/{d}/{x}/index.html'))+'</p>'
   os.makedirs(R+path,exist_ok=True); open(R+path+'index.html','w').write(h+FOOT); pages.append(path)
+# compare index + links from upgrades pages
+li=''.join(f'<li><a href="/compare/{a}-vs-{c}/">{e(BK[a]["name"])} vs {e(BK[c]["name"])}</a></li>' for a,c in VS)
+h=head('Compare E-Moto Bikes: Specs, Price & Upgrade Options | eBikePartsPicker','Side-by-side comparisons of popular e-moto bikes: price, peak power, weight, wheel sizes and fit-checked upgrade counts.','/compare/','ultrabee')+f'<h1>Compare bikes</h1><ul>{li}</ul>'
+os.makedirs(R+'/compare',exist_ok=True); open(R+'/compare/index.html','w').write(h+FOOT); pages.append('/compare/')
+for bid in UP:
+  cs=[(a,c) for a,c in VS if bid in (a,c)]
+  if not cs: continue
+  f=R+f'/upgrades/{bid}/index.html'; s=open(f).read()
+  s=s.replace('<p class="seo-fine">','<h2>Compare</h2><ul>'+''.join(f'<li><a href="/compare/{a}-vs-{c}/">{e(BK[a]["name"])} vs {e(BK[c]["name"])}</a></li>' for a,c in cs)+'</ul><p class="seo-fine">',1)
+  open(f,'w').write(s)
 sm=open(R+'/sitemap.xml').read()
 add=''.join(f'<url><loc>{BASE}{p}</loc></url>\n' for p in pages if BASE+p not in sm)
 open(R+'/sitemap.xml','w').write(sm.replace('</urlset>',add+'</urlset>'))

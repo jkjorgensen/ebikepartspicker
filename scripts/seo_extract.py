@@ -1,7 +1,7 @@
 """Extract site data via the real app logic (checkFit/resolveGuide) for static SEO pages."""
 import json,sys
 from playwright.sync_api import sync_playwright
-ROOT='/workspace/ebpp-ro/'
+ROOT=__import__('os').path.dirname(__import__('os').path.dirname(__import__('os').path.abspath(__file__)))+'/'
 JS=r"""()=>{
  const best=o=>{if(!o.prices||!o.prices.length)return null;const af=o.prices.filter(p=>p.aff);if(af.length)return af[0];return o.prices.reduce((a,b)=>b.p<a.p?b:a)};
  const out={checked:CHECKED,bikes:[],cats:CATEGORIES.map(c=>({id:c.id,name:c.name,blurb:c.blurb||''})),guides:[],power:[]};
