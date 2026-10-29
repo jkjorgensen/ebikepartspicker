@@ -1081,3 +1081,17 @@ html.ux-lock,html.ux-lock body{overflow:hidden}
 .ux-shelf{position:relative;z-index:2}
 .ux-shelf{width:min(1100px,94vw);max-width:none;padding:0;margin:26px auto 10px;box-sizing:border-box}
 .ux-shelf-h{font:700 20px/1.2 var(--display);letter-spacing:-.4px;text-transform:none;color:inherit;margin:0 0 12px}
+/* follow-up fixes */
+.gp-name small,.gnote{color:var(--muted)}
+.tp-nav a{display:inline-flex;align-items:center;min-height:24px;padding:0 2px}
+.pp-fit td a,.pp-fit td a:visited{color:#e8eaed;text-decoration:none;font-weight:600;background:none}
+.pp-fit td a:hover{color:var(--accent-hi,#c8f04a);text-decoration:underline}
+.pp-fit tr.ux-mine td{background:none}
+.pp-fit tr.ux-mine{box-shadow:inset 3px 0 0 #c8f04a}
+.pp-fit tr.ux-mine td:first-child{padding-left:12px}
+.ux-undo{background:#15181c;color:#eef1f4;border:1px solid #c8f04a55;box-shadow:0 14px 40px #000c,0 0 0 1px #0008;-webkit-backdrop-filter:none;backdrop-filter:none}
+.ux-undo-b{background:#c8f04a;color:#0a0b0c}
+@media(max-width:899px){
+  body.ux-has-mbar .ux-undo{bottom:calc(86px + env(safe-area-inset-bottom));left:12px;right:12px;transform:none;max-width:none;justify-content:space-between}
+}
+.pp-fit tr.ux-mine td{padding-left:12px}
