@@ -4,7 +4,7 @@ from playwright.sync_api import sync_playwright
 R=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JS=r"""()=>({bikes:BIKES.map(b=>({id:b.id,name:b.name,price:b.price,src:b.src,weight:b.weight,kw:b.kw,size:b.size})),
  cats:CATEGORIES.map(c=>({id:c.id,name:c.name,opts:c.options.filter(o=>o.pid&&!o.hidden).map(o=>({pid:o.pid,name:o.name,img:o.img||'',
-  prices:(o.prices||[]).map(p=>({v:p.v,p:p.p,url:p.url,chk:p.chk||''})),fit:Object.fromEntries(BIKES.map(b=>[b.id,checkFit(b.id,o).status])),stock:o.stock||''}))}))})"""
+  prices:(o.prices||[]).map(p=>({v:p.v,p:p.p,url:p.url,chk:p.chk||''})),fit:Object.fromEntries(BIKES.map(b=>[b.id,checkFit(b.id,o).status])),stock:o.stock||'',stockChk:o.stockChk||'',tier:o.tier||'',badge:o.badge||'',spec:{wtKg:o.wtKg,motorKw:o.motorKw,motorPeakKw:o.motorPeakKw,ctrlMaxKw:o.ctrlMaxKw,battKwh:o.battKwh,battPeakKw:o.battPeakKw,battMaxKw:o.battMaxKw},why:Object.fromEntries(BIKES.map(b=>[b.id,checkFit(b.id,o)]).filter(x=>x[1].status!='unknown').map(x=>[x[0],x[1].reasons[0]]))}))})),checked:CHECKED})"""
 with sync_playwright() as p:
   b=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-sandbox']);pg=b.new_page()
   pg.goto('file://'+R+'/index.html',wait_until='commit');pg.wait_for_function('typeof checkFit=="function" && typeof CATEGORIES!="undefined"')
