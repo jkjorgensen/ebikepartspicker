@@ -17,7 +17,7 @@
 <meta name="twitter:description" content="Build your e-moto part by part. Compare real parts, prices, weight and power in one place.">
 <meta name="twitter:image" content="https://ebikepartspicker.pages.dev/img/bikes/og-ventus-plus.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css?v=4.8.2">
+<link rel="stylesheet" href="styles.css?v=4.8.3">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap">
@@ -25,6 +25,7 @@
 <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
 </head>
 <body>
+<div id="polishProgress" aria-hidden="true"></div>
 
 <!-- START PAGE -->
 <div id="start" class="start">
@@ -52,6 +53,11 @@
   <section class="popular" aria-labelledby="popTitle">
     <h2 id="popTitle" class="pop-title">Popular bikes</h2>
     <div class="pop-grid" id="popGrid"></div>
+  </section>
+  <section class="voltband">
+    <div class="volt-eyebrow">No guessing.</div>
+    <h2>Just fitment.</h2>
+    <p>Pick your bike. Add real parts. See the total.</p>
   </section>
   <section class="featured" id="featBuild" aria-label="Featured build" hidden></section>
   <div class="notify">
@@ -305,6 +311,7 @@
 <script src="quiz.js?v=4.8.1"></script>
 <script src="compare.js?v=4.8.1"></script>
 <script src="used.js?v=4.8.1"></script>
+<script src="polish.js?v=1"></script>
 <!-- Cloudflare Web Analytics: enable in Pages project > Metrics (auto-injected, cookieless) -->
 <script src="/track.js?v=1" defer></script>
 <script src="/forms.js?v=1" defer></script>

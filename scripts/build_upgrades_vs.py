@@ -31,7 +31,7 @@ def head(title,desc,path,img):
 <link rel="canonical" href="{BASE}{path}"><meta property="og:type" content="article"><meta property="og:site_name" content="eBikePartsPicker"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{BASE}{path}"><meta property="og:image" content="{BASE}/img/bikes/{img}-800.webp">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="/styles.css?v=4.8.2">
+<link rel="stylesheet" href="/styles.css?v=4.8.3">
 </head><body class="tp">
 <header class="tp-head"><a class="tp-brand" href="/">eBikePartsPicker</a><a class="tp-back" href="/">← Back to the builder</a></header>
 <main class="tp-main">'''

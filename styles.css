@@ -823,3 +823,32 @@ details.more[open]{padding-bottom:14px}
 .alerts-box h2{font:700 20px var(--display);color:#fff;margin:0 0 6px}
 .alerts-box .eform{grid-template-columns:1fr auto;align-items:end;max-width:none}
 @media(max-width:560px){.alerts-box .eform{grid-template-columns:1fr}}
+
+/* ---------- design polish (2026-10-29) ---------- */
+/* Scroll progress bar (width set by polish.js; stays 0 without JS) */
+#polishProgress{position:fixed;top:0;left:0;height:3px;width:0;z-index:50;
+  background:linear-gradient(90deg,var(--accent-hi),var(--accent))}
+/* Bigger display type */
+.display{font:700 clamp(54px,8.5vw,96px)/1.02 var(--display);letter-spacing:-3px}
+/* Bigger stats */
+.stat strong{font:700 36px/1 var(--display);letter-spacing:-1px}
+/* Volt statement band (the lime block) */
+.voltband{width:min(1100px,94vw);margin:34px auto 10px;padding:clamp(28px,5vw,56px);
+  background:linear-gradient(180deg,var(--accent-hi),var(--accent));
+  color:var(--accent-ink);border-radius:22px;text-align:left;
+  box-shadow:0 20px 60px #0007}
+.volt-eyebrow{font:700 11.5px/1 var(--body);letter-spacing:3px;text-transform:uppercase;opacity:.75}
+.voltband h2{font:700 clamp(34px,5.5vw,64px)/1 var(--display);letter-spacing:-2px;margin:10px 0 12px}
+.voltband p{font-size:clamp(15px,2vw,18px);line-height:1.5;margin:0;max-width:560px;opacity:.85}
+/* Scroll reveals (class added by polish.js; no-JS keeps everything visible) */
+.rv{opacity:0;transform:translateY(56px) scale(.92);filter:blur(8px);
+  transition:opacity 1s ease,transform 1s ease,filter 1s ease}
+.rv.in{opacity:1;transform:none;filter:none}
+/* Glass header deepens once scrolled (topbar is already sticky + glass) */
+.topbar.polish-scrolled{background:#0b0d10f2;box-shadow:0 8px 30px #00000040}
+/* Anchor clearance under the sticky header */
+html{scroll-padding-top:90px}
+@media (prefers-reduced-motion: reduce){
+  .rv,.rv.in{opacity:1;transform:none;filter:none;transition:none}
+  html{scroll-behavior:auto}
+}
