@@ -7,11 +7,11 @@ var state = { bike: 'ventus-plus', sel: {}, step: 0 };
 function totalSteps(){ return GROUPS.length + 1; } /* parts + review */
 /* Builder steps, grouped so there are 7 pages instead of 22. Little parts live in Extras at the end. */
 var GROUPS = [
-  {name:'Powertrain', cats:['motor','controller','batteries','charger','cooling','electrical']},
+  {name:'Powertrain', cats:['motor','controller','batteries','chargers','cooling','electrical']},
   {name:'Suspension', cats:['fork','shock','linkage']},
   {name:'Wheels & Brakes', cats:['wheels','tires','brakes']},
   {name:'Drivetrain', cats:['drivetrain','swingarm']},
-  {name:'Body', cats:['plastics','seat','guards']},
+  {name:'Body', cats:['plastics','seats','guards']},
   {name:'Cockpit', cats:['handlebar','cockpit','pegs']},
   {name:'Extras', cats:['street','maintenance','titanium']},
 ];

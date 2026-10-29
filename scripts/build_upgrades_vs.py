@@ -31,14 +31,14 @@ def head(title,desc,path,img):
 <link rel="canonical" href="{BASE}{path}"><meta property="og:type" content="article"><meta property="og:site_name" content="eBikePartsPicker"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{BASE}{path}"><meta property="og:image" content="{BASE}/img/bikes/{img}-800.webp">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="/styles.css?v=4.11.0">
+<link rel="stylesheet" href="/styles.css?v=4.11.1">
 </head><body class="tp">
 <header class="tp-head"><a class="tp-brand" href="/">eBikePartsPicker</a><div class="ux-tools"><button type="button" class="ux-sbtn" data-ux-search aria-label="Search parts, bikes and categories"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="ux-sbtn-t">Search</span><kbd>/</kbd></button><button type="button" class="ux-bike" data-ux-bike><span class="ux-bike-t">Pick your bike</span></button></div><a class="tp-back" href="/">← Back to the builder</a></header>
 <main class="tp-main">'''
 FOOT='''<p class="seo-fine">Prices were checked on the retailer’s page on the date shown and can change. Fit status comes from the seller or manufacturer listing; confirm fitment, price and stock before you buy. Some links on this site are affiliate links (<a href="/affiliate-disclosure.html">disclosure</a>).</p></main>
 <footer class="sitefoot tp-foot"><nav class="tp-nav"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms of use</a><a href="/affiliate-disclosure.html">Affiliate disclosure</a><a href="/fitment-methodology.html">Fitment methodology</a><a href="/report-a-part.html">Report a part</a></nav></footer>
 <script src="/track.js?v=1" defer></script>
-<script src="/ux.js?v=4.11.0" defer></script>
+<script src="/ux.js?v=4.11.1" defer></script>
 </body></html>'''
 def spec(bid):
   b=BK[bid]; s=BJ.get(bid,{}).get('stock_specs',{})

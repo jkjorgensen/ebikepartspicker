@@ -5,7 +5,7 @@
    local /search-index.json. */
 (function(){
 'use strict';
-var V = '4.11.0';
+var V = '4.11.1';
 var NS = 'ebpp.';
 function lsGet(k, d){ try{ var v = localStorage.getItem(NS+k); return v==null ? d : JSON.parse(v); }catch(e){ return d; } }
 function lsSet(k, v){ try{ localStorage.setItem(NS+k, JSON.stringify(v)); }catch(e){} }
@@ -149,7 +149,7 @@ function openPicker(fromChip){
   h.appendChild(tt); h.appendChild(x); pickCard.appendChild(h);
   var box = el('div','ux-pick-box');
   var inp = el('input'); inp.type='text'; inp.placeholder='Type your bike, e.g. Light Bee'; inp.setAttribute('aria-label','Your bike'); inp.autocomplete='off';
-  var list = el('div','ux-pick-list'); list.setAttribute('role','listbox');
+  var list = el('div','ux-pick-list'); list.setAttribute('role','listbox'); list.setAttribute('aria-label','Bikes');
   box.appendChild(inp); box.appendChild(list); pickCard.appendChild(box);
   var foot = el('div','ux-pick-f');
   var skip = el('button','ux-link','Not now'); skip.type='button';
