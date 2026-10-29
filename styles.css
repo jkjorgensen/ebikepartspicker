@@ -852,3 +852,36 @@ html{scroll-padding-top:90px}
   .rv,.rv.in{opacity:1;transform:none;filter:none;transition:none}
   html{scroll-behavior:auto}
 }
+
+/* ---------- premium scroll motion v2 (2026-10-29) ---------- */
+/* All motion is scrubbed by scroll position (polish.js sets --p vars). No-JS and reduced
+   motion: .m-on is never added, so everything below the .m-on guard stays static and visible. */
+.hero-pin{width:min(780px,94vw);margin-top:10px}
+.hero-pin .herostage{width:100%;position:relative;isolation:isolate}
+.hz-glow{position:absolute;inset:-20%;z-index:-1;pointer-events:none;
+  background:radial-gradient(45% 40% at 50% 60%,color-mix(in srgb,var(--accent) 22%,transparent),transparent 70%)}
+.hz-floor{position:absolute;left:12%;right:12%;bottom:6%;height:10%;pointer-events:none;border-radius:50%;
+  background:radial-gradient(closest-side,#000a,transparent)}
+.herostage .hero{position:relative;z-index:1}
+.display span{background:linear-gradient(90deg,var(--accent),var(--accent)) no-repeat 0 92%/var(--sweep,100%) .12em;padding-bottom:.04em}
+.volt-pin{width:100%}
+.m-on .hero-pin{height:150vh}
+.m-on .hero-pin .herostage{position:sticky;top:max(16px,calc(50svh - 31vw));will-change:transform}
+@media(min-width:780px){.m-on .hero-pin .herostage{top:calc(50svh - 245px)}}
+.m-on .hz-glow,.m-on .herostage .hero,.m-on .hz-floor{will-change:transform}
+.m-on .volt-pin{height:170vh}
+.m-on .voltband{position:sticky;top:calc(50svh - 160px);will-change:clip-path;
+  clip-path:inset(0 calc(var(--vw,0) * 1%) 0 0 round 22px);transform:translate3d(calc(var(--vx,0) * 1px),0,0)}
+.m-on .popular{position:relative}
+.m-on .pop-title{position:sticky;top:12px;z-index:3;padding:10px 0;
+  background:linear-gradient(180deg,var(--bg,#0b0d10) 70%,transparent)}
+.m-on .w{display:inline-block;opacity:var(--o,0);transform:translate3d(0,calc((1 - var(--o,0)) * .6em),0)}
+.m-on .pop-grid>*{opacity:var(--o,0);transform:translate3d(0,calc((1 - var(--o,0)) * 60px),0) scale(calc(.94 + var(--o,0) * .06))}
+.m-on .stats .stat,.m-on .notify{opacity:var(--o,1);transform:translate3d(0,calc((1 - var(--o,1)) * 30px),0)}
+@media (prefers-reduced-motion: reduce){
+  .m-on .hero-pin,.m-on .volt-pin{height:auto}
+  .m-on .herostage,.m-on .voltband,.m-on .pop-title{position:static}
+  .m-on .voltband{clip-path:none;transform:none}
+  .m-on .w,.m-on .pop-grid>*,.m-on .stats .stat,.m-on .notify{opacity:1;transform:none}
+}
+.m-on .start{overflow:visible;overflow-x:clip}
