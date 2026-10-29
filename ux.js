@@ -5,7 +5,7 @@
    local /search-index.json. */
 (function(){
 'use strict';
-var V = '4.10.0';
+var V = '4.11.0';
 var NS = 'ebpp.';
 function lsGet(k, d){ try{ var v = localStorage.getItem(NS+k); return v==null ? d : JSON.parse(v); }catch(e){ return d; } }
 function lsSet(k, v){ try{ localStorage.setItem(NS+k, JSON.stringify(v)); }catch(e){} }
@@ -361,8 +361,9 @@ function changed(c, prev, next){
   if(!A) return;
   var on = c.options[next], off = c.options[prev];
   var msg = next===0 ? 'Removed '+off.name : prev===0 ? 'Added '+on.name : 'Swapped to '+on.name;
-  showUndo(msg, function(){ A.state.sel[c.id] = prev; A.render(); A.saveHash(); });
+  showUndo(msg, function(){ A.state.sel[c.id] = prev; A.render(); A.saveHash(); saveBuild(); });
   if(next!==0) snap(c.id);
+  saveBuild();
 }
 function showUndo(msg, fn){
   if(!undoEl){
@@ -379,7 +380,83 @@ function showUndo(msg, fn){
   clearTimeout(undoT); undoT = setTimeout(hideUndo, 5000);
 }
 function hideUndo(){ if(undoEl){ undoEl.classList.remove('in'); undoEl.hidden = true; } }
-function snap(){ /* batch B: micro-motion hook */ }
+/* snap-in: a quick settle on the part you just added + the running total (skipped for reduced motion) */
+function snap(cid){
+  if(REDUCED) return;
+  requestAnimationFrame(function(){
+    var t = [$('.ppick[data-cat="'+cid+'"] .dd-btn'), mbar && !mbar.hidden ? $('.ux-mbar-t', mbar) : null];
+    t.forEach(function(x){ if(!x) return; x.classList.remove('ux-snap'); void x.offsetWidth; x.classList.add('ux-snap'); });
+  });
+}
+
+/* ---------- my builds + recently viewed (this device only, no account) ---------- */
+function saveBuild(){
+  if(!A) return;
+  var st = A.state, s = {}, n = 0;
+  CATEGORIES.forEach(function(c){ var i = st.sel[c.id]; if(!i) return; var o = c.options[i]; s[c.id] = (o&&o.pid)?o.pid:i; n++; });
+  var L = lsGet('builds', []).filter(function(x){ return x.b!==st.bike; });
+  if(n){ var t = A.totals(); L.unshift({b:st.bike, s:s, n:n, p:t.tbd?null:t.price, at:Date.now()}); }
+  lsSet('builds', L.slice(0,6));
+}
+function addRecent(it){
+  var L = lsGet('recent', []).filter(function(x){ return x.u!==it.u; });
+  L.unshift(it); lsSet('recent', L.slice(0,8));
+}
+function trackPage(){
+  var pp = $('[data-ux-part]');
+  if(pp) addRecent({k:'p', n:pp.getAttribute('data-name'), u:pp.getAttribute('data-url'), i:pp.getAttribute('data-img')||''});
+  var bp = $('[data-ux-pagebike]');
+  if(bp) addRecent({k:'b', n:bp.getAttribute('data-name'), u:location.pathname, i:'img/bikes/'+bp.getAttribute('data-ux-pagebike')+'-800.webp'});
+}
+function renderShelf(){
+  var host = document.getElementById('uxShelf'); if(!host || !A) return;
+  host.innerHTML = '';
+  var B = lsGet('builds', []).filter(function(x){ return A.bikeById(x.b); }), R = lsGet('recent', []);
+  if(!B.length && !R.length){ host.hidden = true; return; }
+  host.hidden = false;
+  function sec(title, items, mk){
+    if(!items.length) return;
+    var s = el('section','ux-shelf-s'); s.appendChild(el('h2','ux-shelf-h',title));
+    var row = el('div','ux-shelf-row'); items.forEach(function(x){ row.appendChild(mk(x)); }); s.appendChild(row); host.appendChild(s);
+  }
+  sec('My builds', B, function(x){
+    var b = A.bikeById(x.b), a = el('a','ux-card');
+    a.href = '/#'+encodeURIComponent(JSON.stringify({b:x.b, s:x.s}));
+    var im = el('img'); im.src = '/img/bikes/'+x.b+'-800.webp'; im.alt = ''; im.width = 160; im.height = 100; im.loading = 'lazy'; im.decoding = 'async';
+    a.appendChild(im); a.appendChild(el('strong',null,b.name));
+    a.appendChild(el('small',null, x.n+' upgrade'+(x.n>1?'s':'')+' \u00b7 '+(x.p!=null?A.money(x.p):'Total TBD')));
+    a.addEventListener('click', function(e){ e.preventDefault(); location.hash = a.getAttribute('href').slice(1); location.reload(); });
+    return a;
+  });
+  sec('Recently viewed', R, function(x){
+    var a = el('a','ux-card ux-card-s'); a.href = x.u;
+    if(x.i){ var im = el('img'); im.src = '/'+x.i.replace(/^\//,''); im.alt = ''; im.width = 160; im.height = 100; im.decoding = 'async'; a.appendChild(im); }
+    a.appendChild(el('strong',null,x.n)); a.appendChild(el('small',null, x.k==='b'?'Bike':'Part'));
+    return a;
+  });
+  var clr = el('button','ux-shelf-x','Clear history'); clr.type = 'button';
+  clr.addEventListener('click', function(){ lsSet('builds', []); lsSet('recent', []); renderShelf(); });
+  host.appendChild(clr);
+}
+
+/* ---------- part page photo zoom ---------- */
+function wireZoom(){
+  $$('[data-ux-zoom]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      e.preventDefault();
+      var ov = el('div','ux-zoom'); ov.setAttribute('role','dialog'); ov.setAttribute('aria-label','Photo');
+      var im = el('img'); im.src = a.getAttribute('href'); im.alt = ($('img',a)||{}).alt||'';
+      var x = el('button','ux-zoom-x','\u00d7'); x.type='button'; x.setAttribute('aria-label','Close photo');
+      ov.appendChild(im); ov.appendChild(x); document.body.appendChild(ov);
+      document.documentElement.classList.add('ux-lock');
+      im.addEventListener('click', function(ev){ ev.stopPropagation(); im.classList.toggle('z2'); });
+      function close(){ ov.remove(); document.documentElement.classList.remove('ux-lock'); document.removeEventListener('keydown', k); }
+      function k(ev){ if(ev.key==='Escape') close(); }
+      ov.addEventListener('click', close); x.addEventListener('click', close); document.addEventListener('keydown', k);
+      x.focus();
+    });
+  });
+}
 function toastMsg(m){
   if(A){ A.toast(m); return; }
   var t = $('.ux-toast') || document.body.appendChild(el('div','toast ux-toast'));
@@ -401,6 +478,7 @@ function wire(){
   if(needIdx && myBike() && typeof BIKES==='undefined') loadIndex().then(function(){ paintBikeChips(); applyStaticFit(); });
   applyStaticFit();
   maybeFirstVisit();
+  trackPage(); wireZoom(); renderShelf();
   if(A){ updateBar(); window.addEventListener('resize', updateBar);
     ['tabBuilder','tabQuiz','tabBuilds','tabCompare','tabUpcoming','tabUsed'].forEach(function(id){ var t = document.getElementById(id); if(t) t.addEventListener('click', function(){ setTimeout(updateBar, 0); }); });
     var bs = document.getElementById('btnStart'); if(bs) bs.addEventListener('click', function(){ setTimeout(updateBar, 0); });
@@ -410,5 +488,10 @@ window.__ux = {
   myBike: myBike, changed: changed, rendered: function(){ updateBar(); }, openSearch: openSearch, openPicker: function(){ openPicker(true); }
 };
 function init(){ A = window.__app || null; wire(); }
-if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', init); else init();
+/* with deferred scripts app.js runs after this file: wait for it on the builder page */
+var started = false;
+function start(){ if(started) return; started = true; init(); }
+if(document.getElementById('app')){
+  if(window.__app) start(); else { document.addEventListener('ebpp:app', start); document.addEventListener('DOMContentLoaded', start); }
+} else if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', start); else start();
 })();

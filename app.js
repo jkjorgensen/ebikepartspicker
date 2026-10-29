@@ -61,7 +61,7 @@ window.fitLevel = fitLevel;
    Statuses: confirmed | likely_verify | requires_mod | no_fit | unknown */
 var FIT_LABEL = {
   confirmed:'Confirmed fit', likely_verify:'Likely fit \u2014 verify',
-  requires_mod:'Requires modification', no_fit:'Does not fit', unknown:'Unknown fit'
+  requires_mod:'Requires modification', no_fit:'Does not fit', unknown:'Not verified'
 };
 var FIT_ICON = { confirmed:'\u2713', likely_verify:'\u25CB', requires_mod:'\u25B3', no_fit:'\u2717', unknown:'?' };
 window.FIT_LABEL = FIT_LABEL;
@@ -109,7 +109,10 @@ function renderBuildSum(){
   var host = $('buildSum'); if(!host) return; host.innerHTML='';
   var b = bike(), rows = [];
   CATEGORIES.forEach(function(c){ if(state.sel[c.id]) rows.push(c); });
-  if(!rows.length){ host.hidden = true; return; }
+  if(!rows.length){ host.hidden = false;
+    var em = document.createElement('div'); em.className='bsum-empty';
+    em.innerHTML = '<strong>No upgrades yet</strong><span>Your '+b.name+' is stock. Tap a part to add it \u2014 your build saves in the link.</span>';
+    host.appendChild(em); return; }
   host.hidden = false;
   var h = document.createElement('div'); h.className='bsum-head';
   h.textContent = 'Your upgrades ('+rows.length+')'; host.appendChild(h);
@@ -435,7 +438,7 @@ function battClass(o){
   return out;
 }
 function renderPick(c, b, host){
-    var wrap = document.createElement('div'); wrap.className='ppick';
+    var wrap = document.createElement('div'); wrap.className='ppick'; wrap.setAttribute('data-cat', c.id);
     var vis = [];
     c.options.forEach(function(o,i){
       if(fitLevel(o, b.id)==='no') return; /* don't show parts that don't fit, at all */
@@ -563,6 +566,21 @@ function renderPick(c, b, host){
         var ck=document.createElement('p'); ck.className='fitchecked';
         ck.textContent='Catalog checked '+fr.checked+'. Fitment is a research snapshot, not live inventory.';
         det.appendChild(ck);
+        if(fr.status!=='confirmed'){
+          var alts=[]; c.options.forEach(function(o,k){ if(k && o.pid && !o.hidden && o!==co && checkFit(b.id,o).status==='confirmed') alts.push({o:o,k:k}); });
+          var ah=document.createElement('p'); ah.className='fitalt-h';
+          if(alts.length){
+            ah.textContent='Confirmed alternatives for the '+b.name+':'; det.appendChild(ah);
+            var al=document.createElement('div'); al.className='fitalts';
+            alts.slice(0,3).forEach(function(a){ var bb2=best(a.o);
+              var ab=document.createElement('button'); ab.type='button'; ab.className='fitalt';
+              ab.textContent=a.o.name+(bb2&&bb2.p!=null?' \u00b7 '+money(bb2.p):'');
+              ab.addEventListener('click',function(e){ e.stopPropagation(); var prev=state.sel[c.id]||0; state.sel[c.id]=a.k; render(); saveHash(); if(window.__ux) window.__ux.changed(c,prev,a.k); });
+              al.appendChild(ab); });
+            det.appendChild(al);
+          } else { ah.textContent='No other '+c.name+' option in our catalog is confirmed for the '+b.name+' yet.'; det.appendChild(ah); }
+        }
+        if(fr.status!=='confirmed') det.hidden=false;
         why.addEventListener('click', function(e){ e.stopPropagation(); det.hidden=!det.hidden; });
         fl.appendChild(why); fl.appendChild(det);
         wrap.appendChild(fl);
@@ -661,7 +679,7 @@ function render(){
     va.textContent='Bike price at Voro Motors'; bsEl.appendChild(va); bsEl.appendChild(document.createTextNode(' (checked '+CHECKED+(b.msrp?'; MSRP '+money(b.msrp):'')+')')); }
 
   var img = $('bikeImg'), src = previewSrc();
-  if(img.getAttribute('src')!==src) img.src = src;
+  if(img.getAttribute('src')!==src){ img.removeAttribute('srcset'); img.src = src; }
   img.alt = b.name + ' e-moto';
   renderPartTray();
   var bbx = $('bikeBuy'); if(bbx){ bbx.innerHTML=''; var be = buyBikeEl(b.id, b.name); if(be) bbx.appendChild(be); }
@@ -1117,7 +1135,7 @@ function summary(){
     var idx=state.sel[c.id]||0;
     if(idx!==0) lines.push(c.name+': '+catOption(c).name);
   });
-  lines.push('', 'Estimates checked '+CHECKED+' — verify before buying.', 'Build: '+location.href);
+  lines.push('', 'Estimates checked '+CHECKED+' — verify before buying.', 'Build: '+location.origin+'/b/'+state.bike+'/'+location.hash);
   return lines.join('\n');
 }
 function toast(msg){ var t=$('toast'); t.textContent=msg; t.style.display='block';
@@ -1176,7 +1194,7 @@ $('btnNext').addEventListener('click', function(){
 var shb = $('btnShareBuild');
 if(shb) shb.addEventListener('click', function(){
   saveHash();
-  var url = location.href;
+  var url = location.origin+'/b/'+state.bike+'/'+location.hash;
   function done(){ toast('Build link copied — share it anywhere.'); }
   if(navigator.clipboard && navigator.clipboard.writeText){
     navigator.clipboard.writeText(url).then(done, function(){ toast('Copy failed — copy the address bar link instead.'); });
@@ -1216,7 +1234,7 @@ document.addEventListener('click', function(e){
 initBikePicker('startBikeInput', 'startBikeList', function(id){
   state.bike = id; syncBikeInputs();
   var hero = $('heroImg'), b = bikeById(id);
-  if(hero && b){ hero.src = bikeImgSrc(b.id); hero.alt = b.name+' electric dirt bike'; }
+  if(hero && b){ hero.removeAttribute('srcset'); hero.src = bikeImgSrc(b.id); hero.alt = b.name+' electric dirt bike'; }
 });
 initBikePicker('bikeSelectInput', 'bikeSelectList', function(id){
   state.bike = id; state.step = 0; syncBikeInputs(); render(); saveHash();
@@ -1224,7 +1242,7 @@ initBikePicker('bikeSelectInput', 'bikeSelectList', function(id){
 initSizeChips('startSizeChips');
 /* homepage: popular bikes (real photos) -> one tap into the builder */
 (function(){
-  var host = $('popGrid'); if(!host) return;
+  var host = $('popGrid'); if(!host) return; host.innerHTML='';
   ['bonnell-805rx','ultrabee','lightbee','ss20','sr','komodo','ventus-plus','altis-sigma'].forEach(function(id){
     var b = bikeById(id); if(!b) return;
     var btn = document.createElement('button'); btn.type='button'; btn.className='pop-card';
@@ -1377,7 +1395,7 @@ window.__app = {
     if(any) return;
     state.bike = id; syncBikeInputs();
     var hero = $('heroImg'), b = bikeById(id);
-    if(hero && b && !$('start').hidden){ hero.srcset=''; hero.src = bikeImgSrc(b.id); hero.alt = b.name+' electric dirt bike'; }
+    if(hero && b && !$('start').hidden){ hero.removeAttribute('srcset'); hero.src = bikeImgSrc(b.id); hero.alt = b.name+' electric dirt bike'; }
     if(!$('app').hidden){ state.step = 0; render(); saveHash(); }
   }
 };
