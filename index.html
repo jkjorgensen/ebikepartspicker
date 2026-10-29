@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>eBikePartsPicker — E-Moto Parts Builder & Bike Finder</title>
 <meta name="description" content="Build your e-moto part by part. Compare real parts, prices, weight and power in one place.">
 <meta property="og:title" content="eBikePartsPicker — E-Moto Parts Builder">
@@ -17,7 +17,7 @@
 <meta name="twitter:description" content="Build your e-moto part by part. Compare real parts, prices, weight and power in one place.">
 <meta name="twitter:image" content="https://ebikepartspicker.pages.dev/img/bikes/og-ventus-plus.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css?v=4.9.0">
+<link rel="stylesheet" href="styles.css?v=4.10.0">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap">
@@ -29,6 +29,7 @@
 
 <!-- START PAGE -->
 <div id="start" class="start">
+  <div class="ux-strip"><a class="logo ux-logo" href="/" aria-label="eBikePartsPicker home"><span class="logo-mark"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" fill="currentColor"/></svg></span><span class="wordmark">ebikepartspicker</span></a><div class="ux-tools"><button type="button" class="ux-sbtn" data-ux-search aria-label="Search parts, bikes and categories"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="ux-sbtn-t">Search</span><kbd>/</kbd></button><button type="button" class="ux-bike" data-ux-bike><span class="ux-bike-t">Pick your bike</span></button></div></div>
   <div class="eyebrow">The e-moto parts builder</div>
   <h1 class="display">Build your e-moto, <span>part by part.</span></h1>
   <p class="tagline">Real parts, real prices, real fitment. Free, no sign-up.</p>
@@ -86,6 +87,7 @@
       <button id="tabUsed" class="tab">Used Parts</button>
       <a class="tab" href="mailto:ebikepartspicker@gmail.com?subject=eBikePartsPicker">Contact</a>
     </nav>
+    <div class="ux-tools"><button type="button" class="ux-sbtn" data-ux-search aria-label="Search parts, bikes and categories"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="ux-sbtn-t">Search</span><kbd>/</kbd></button><button type="button" class="ux-bike" data-ux-bike><span class="ux-bike-t">Pick your bike</span></button></div>
     <button id="btnSuggest" class="suggestbtn">Submit your part</button>
   </header>
 
@@ -307,7 +309,8 @@
 <script src="upcoming.js?v=4.8.1"></script>
 <script src="builds.js?v=4.8.4"></script>
 <script src="buy.js?v=4.8.1"></script>
-<script src="app.js?v=4.8.3"></script>
+<script src="ux.js?v=4.10.0"></script>
+<script src="app.js?v=4.10.0"></script>
 <script src="quiz.js?v=4.8.1"></script>
 <script src="compare.js?v=4.8.1"></script>
 <script src="used.js?v=4.8.1"></script>

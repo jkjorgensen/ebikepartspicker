@@ -1,9 +1,15 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.pages.dev'; V='4.9.0'; IMGV='4.5.0'; TODAY='2026-10-29'
+BASE='https://ebikepartspicker.pages.dev'; V='4.10.0'; IMGV='4.5.0'; TODAY='2026-10-29'
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else ''
+SNAP=json.load(open(os.path.join(ROOT,'data','seo-fit-snapshot.json')))
+FIT={o['pid']:o['fit'] for c in SNAP['cats'] for o in c['opts']}
+def fitattrs(pid):
+  f=FIT.get(pid,{}); g=lambda st:' '.join(k for k,v in f.items() if v==st)
+  return f' data-pid="{e(pid)}" data-fit="{g("confirmed")}" data-mod="{g("requires_mod")}" data-no="{g("no_fit")}"'
+TOOLS='<div class="ux-tools"><button type="button" class="ux-sbtn" data-ux-search aria-label="Search parts, bikes and categories"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="ux-sbtn-t">Search</span><kbd>/</kbd></button><button type="button" class="ux-bike" data-ux-bike><span class="ux-bike-t">Pick your bike</span></button></div>'
 CAT={c['id']:c for c in D['cats']}; BK={b['id']:b for b in D['bikes']}
 TIER={'budget':'Budget','smart':'Smart money','dream':'Dream'}
 def host(u):
@@ -38,10 +44,11 @@ def page(path,title,desc,body,crumbs,img=None,ld_extra=None):
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <script type="application/ld+json">{json.dumps(lds if len(lds)>1 else bl,ensure_ascii=False)}</script>
 </head><body class="tp seo">
-<header class="tp-head"><a class="tp-brand" href="/">eBikePartsPicker</a><a class="tp-back" href="/">Open the parts builder \u2192</a></header>
+<header class="tp-head"><a class="tp-brand" href="/">eBikePartsPicker</a>{TOOLS}<a class="tp-back" href="/">Open the parts builder \u2192</a></header>
 <main class="tp-main seo-main"><nav class="crumbs">{cr}</nav>{body}
 <p class="seo-fine">Prices and stock were checked on the retailer\u2019s page on the date shown and can change. Confirm fitment, price and stock before you buy. Some links are affiliate links{AFF}.</p></main>
 <footer class="sitefoot tp-foot"><nav class="tp-nav">{nav}</nav></footer>
+<script src="/ux.js?v={V}" defer></script>
 </body></html>
 """
   d=os.path.join(ROOT,path.strip('/')); os.makedirs(d,exist_ok=True); open(os.path.join(d,'index.html'),'w').write(out)
@@ -74,10 +81,10 @@ for b in seo_bikes:
   gl=''.join(f'<li><a href="/guides/{bid}-{g["tier"]}/">{e(b["name"])} {e(TIER.get(g["tier"],g["tier"]))} build</a></li>' for g in guides_by_bike.get(bid,[]))
   extra=(f'<h2>Build guides</h2><ul class="seo-links">{gl}</ul>' if gl else '')+(f'<p><a href="/power/#{bid}">Power upgrades for the {e(b["name"])}</a></p>' if bid in power_bikes else '')
   toc=' '.join(f'<a href="#{c["id"]}">{e(c["name"])}</a>' for c,_ in cats)
-  secs=''.join(f'<section id="{c["id"]}"><h2>{e(c["name"])} for the {e(b["name"])}</h2><ul class="sp-list">{"".join(partrow(p,bid) for p in ps)}</ul></section>' for c,ps in cats)
+  secs=''.join(f'<section id="{c["id"]}"><h2>{e(c["name"])} for the {e(b["name"])}</h2><ul class="sp-list" data-ux-fitlist>{"".join(partrow(p,bid) for p in ps)}</ul></section>' for c,ps in cats)
   body=f"""<h1>{e(b['name'])} upgrades &amp; parts</h1>
 <p class="seo-lede">{nconf} aftermarket parts that fit the {e(b['name'])}: each is either listed for this bike by the seller or manufacturer, or sold as a universal-fit part. Prices were checked on the retailer\u2019s page. Pick parts to see your build\u2019s total price, weight and estimated power.</p>
-<figure class="seo-hero"><img src="/img/bikes/{bid}.webp?v={IMGV}" alt="{e(b['name'])} electric dirt bike" width="1600" height="1000"></figure>
+<figure class="seo-hero" data-ux-pagebike="{e(bid)}" data-name="{e(b['name'])}"><img src="/img/bikes/{bid}.webp?v={IMGV}" alt="{e(b['name'])} electric dirt bike" width="1600" height="1000"></figure>
 <dl class="seo-specs">{specs}</dl>
 <p class="seo-cta"><a class="cta" href="{e(builder(bid))}">Build your {e(b['name'])}</a> {bikebuy}</p>
 {extra}<nav class="seo-toc">{toc}</nav>{secs}
@@ -130,13 +137,37 @@ for cid in [c['id'] for c in D['cats']]:
       if p['cat']==cid and p['status']=='confirmed': seen.setdefault(p['pid'],[p,[]])[1].append(b)
   if len(seen)<3: continue
   items=sorted(seen.values(),key=lambda x:x[0]['name'])
-  li=''.join(f'<li class="sp-row">'+(f'<img src="/{e(p["img"])}" alt="{e(p["name"])}" loading="lazy" width="96" height="96">' if p['img'] else '<span class="sp-noimg"></span>')+f'<div class="sp-info"><strong>{e(p["name"])}</strong><div class="sp-chk">Confirmed for: '+', '.join(f'<a href="/bikes/{bb["id"]}/">{e(bb["name"])}</a>' if bb in seo_bikes else e(bb['name']) for bb in bs[:8])+(' and more' if len(bs)>8 else '')+'</div>'+(f'<div><span class="sp-price">{money(p["price"]["p"])}</span><span class="sp-chk">{e(p["price"].get("v") or "")}{", checked "+e(p["price"]["chk"]) if p["price"].get("chk") else ""}</span></div>' if p['price'] and p['price'].get('p') is not None else '')+f'</div><div class="sp-act">{buy(p["price"])}</div></li>' for p,bs in items)
+  li=''.join(f'<li class="sp-row" id="{e(p["pid"])}"{fitattrs(p["pid"])}>'+(f'<img src="/{e(p["img"])}" alt="{e(p["name"])}" loading="lazy" width="96" height="96">' if p['img'] else '<span class="sp-noimg"></span>')+f'<div class="sp-info"><strong>{e(p["name"])}</strong><div class="sp-chk">Confirmed for: '+', '.join(f'<a href="/bikes/{bb["id"]}/">{e(bb["name"])}</a>' if bb in seo_bikes else e(bb['name']) for bb in bs[:8])+(' and more' if len(bs)>8 else '')+'</div>'+(f'<div><span class="sp-price">{money(p["price"]["p"])}</span><span class="sp-chk">{e(p["price"].get("v") or "")}{", checked "+e(p["price"]["chk"]) if p["price"].get("chk") else ""}</span></div>' if p['price'] and p['price'].get('p') is not None else '')+f'</div><div class="sp-act">{buy(p["price"])}</div></li>' for p,bs in items)
   urls.append(page(f'/parts/{cid}/',f"E-Moto {c['name']} Upgrades: Which Bikes They Fit | eBikePartsPicker",
     f"{len(items)} aftermarket {c['name'].lower()} options for Sur-Ron, Talaria, E Ride Pro and more, each with the bikes the seller confirms, and prices checked {D['checked']}.",
-    f'<h1>{e(c["name"])} upgrades</h1><p class="seo-lede">{e(c["blurb"])}</p><ul class="sp-list">{li}</ul>',[('Home','/'),('Parts','/parts/'),(c['name'],f'/parts/{cid}/')]))
+    f'<h1>{e(c["name"])} upgrades</h1><p class="seo-lede">{e(c["blurb"])}</p><ul class="sp-list" data-ux-fitlist>{li}</ul>',[('Home','/'),('Parts','/parts/'),(c['name'],f'/parts/{cid}/')]))
 cats_done=[u for u in urls if '/parts/' in u]
 li=''.join(f'<li><a href="{u.replace(BASE,"")}">{e(CAT[u.rstrip("/").split("/")[-1]]["name"])}</a></li>' for u in cats_done)
 urls.append(page('/parts/','E-Moto Parts by Category | eBikePartsPicker','Aftermarket e-moto parts by category, with the bikes each part is confirmed to fit.',f'<h1>Parts by category</h1><ul class="seo-links">{li}</ul>',[('Home','/'),('Parts','/parts/')]))
+# search index for ux.js instant search (local JSON, real catalog data only)
+catpage={u.replace(BASE,'').strip('/').split('/')[-1] for u in cats_done}
+oncat={}
+for cid in catpage:
+  for b in D['bikes']:
+    for p in b['parts']:
+      if p['cat']==cid and p['status']=='confirmed': oncat[p['pid']]=cid
+seob={b['id'] for b in seo_bikes}
+SI={'b':[],'c':[],'p':[]}
+for b in D['bikes']:
+  SI['b'].append([b['id'],b['name'],f'/bikes/{b["id"]}/' if b['id'] in seob else builder(b['id']),''])
+for c in SNAP['cats']:
+  n=len(c['opts']); SI['c'].append([c['id'],c['name'],f'/parts/{c["id"]}/' if c['id'] in catpage else '/',n])
+for c in SNAP['cats']:
+  for o in c['opts']:
+    fits=[k for k,v in o['fit'].items() if v=='confirmed']
+    if o['pid'] in oncat: u=f'/parts/{oncat[o["pid"]]}/#{o["pid"]}'
+    elif any(f in seob for f in fits): u=f'/bikes/{[f for f in fits if f in seob][0]}/#{c["id"]}'
+    elif fits: u=builder(fits[0],{c['id']:o['pid']})
+    elif c['id'] in catpage: u=f'/parts/{c["id"]}/'
+    else: u='/'
+    pr=min([x['p'] for x in o['prices'] if x.get('p') is not None] or [None]) if o['prices'] else None
+    SI['p'].append([o['pid'],o['name'],c['id'],u,o['img'],fits,pr])
+open(os.path.join(ROOT,'search-index.json'),'w').write(json.dumps(SI,separators=(',',':'),ensure_ascii=False))
 static=['/','/about.html','/fitment-methodology.html','/affiliate-disclosure.html','/contact.html','/privacy.html','/terms.html','/report-a-part.html','/submission-guidelines.html']
 allu=[BASE+(s[:-5] if s.endswith('.html') else s) for s in static if os.path.exists(os.path.join(ROOT,s.strip('/') or 'index.html'))]+urls
 open(os.path.join(ROOT,'sitemap.xml'),'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod></url>\n' for u in allu)+'</urlset>\n')
