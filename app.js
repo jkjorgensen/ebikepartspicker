@@ -128,7 +128,8 @@ function renderBuildSum(){
     var pr = document.createElement('span'); pr.className='bsum-price'; pr.textContent = (bp && bp.p!=null) ? money(bp.p) : 'Price TBD';
     var x = document.createElement('button'); x.type='button'; x.className='bsum-x'; x.textContent='\u00d7';
     x.setAttribute('aria-label','Remove '+o.name);
-    x.addEventListener('click', function(){ state.sel[c.id]=0; render(); saveHash(); });
+    x.addEventListener('click', function(){ var prev = state.sel[c.id]||0; state.sel[c.id]=0; render(); saveHash();
+      if(window.__ux && prev) window.__ux.changed(c, prev, 0); });
     r.appendChild(t); r.appendChild(pr); r.appendChild(x); host.appendChild(r);
   });
   var f = document.createElement('div'); f.className='bsum-foot';
@@ -440,6 +441,10 @@ function renderPick(c, b, host){
       if(fitLevel(o, b.id)==='no') return; /* don't show parts that don't fit, at all */
       vis.push({o:o, i:i, fl:fitLevel(o, b.id)});
     });
+    /* confirmed fits first (stock option stays on top); order is display-only */
+    var rank = {yes:0, likely:1, unknown:2};
+    vis.sort(function(x,y){ if(x.i===0||y.i===0) return x.i===0?-1:1; return (rank[x.fl]-rank[y.fl]) || (x.i-y.i); });
+    var mine = (window.__ux && window.__ux.myBike()===b.id);
     var cur = state.sel[c.id]||0;
     if(!c.options[cur] || fitLevel(c.options[cur], b.id)==='no'){
       cur = 0;
@@ -447,7 +452,8 @@ function renderPick(c, b, host){
       if(cur >= c.options.length || !vis.length) cur = 0;
       state.sel[c.id]=cur;
     }
-    function pick(i){ state.sel[c.id]=i; hidePprev(); render(); saveHash(); }
+    function pick(i){ var prev = state.sel[c.id]||0; state.sel[c.id]=i; hidePprev(); render(); saveHash();
+      if(window.__ux && prev!==i) window.__ux.changed(c, prev, i); }
 
     if(!vis.length){
       var nd = document.createElement('div'); nd.className='dd-btn'; nd.setAttribute('aria-disabled','true');
@@ -480,6 +486,9 @@ function renderPick(c, b, host){
           bdg.textContent = cls==='long-range' ? 'Long range' : 'High output';
           tx.appendChild(bdg);
         });
+        if(mine && v.i!==0 && v.o.pid && checkFit(b.id, v.o).status==='confirmed'){
+          var fy=document.createElement('span'); fy.className='fyb'; fy.textContent='\u2713 Fits your bike'; tx.appendChild(fy);
+        }
         r.appendChild(tx);
         var pr=document.createElement('span'); pr.className='pr';
         var bb=best(v.o); pr.textContent = bb?money(bb.p):'Incl.';
@@ -678,6 +687,7 @@ function render(){
   renderBuildSum();
 
   renderStep();
+  if(window.__ux) window.__ux.rendered();
   /* real catalog-checked date; if the data has none, drop the dangling "checked" */
   var cd = $('checkedDate'), cw = $('checkedWrap');
   if(typeof CHECKED!=='undefined' && CHECKED){ if(cd) cd.textContent = CHECKED; }
@@ -1193,6 +1203,7 @@ function doExport(){
   setTimeout(function(){ URL.revokeObjectURL(a.href); }, 2000);
 }
 
+try{ var mb = JSON.parse(localStorage.getItem('ebpp.bike')||'null'); if(mb && bikeById(mb)) state.bike = mb; }catch(e){}
 loadHash();
 /* one global handler: clicking outside any open part dropdown closes it */
 document.addEventListener('click', function(e){
@@ -1353,4 +1364,22 @@ function renderPartTray(){
   }
 }
 window.addEventListener('resize', function(){ renderPartTray(); });
+/* small public surface for ux.js (search, my bike, mobile bar, undo) */
+window.__app = {
+  state: state, render: render, saveHash: saveHash, checkFit: checkFit, fitLevel: fitLevel, best: best,
+  money: money, bikeById: bikeById, catById: catById, totals: totals, showTab: showTab, toast: toast,
+  catOption: catOption, groups: GROUPS, goToCat: goToCat,
+  inBuilder: function(){ return !$('app').hidden && !$('builderPane').hidden; },
+  review: function(){ state.step = GROUPS.length; render(); var r=document.querySelector('.bcol-right'); if(r) r.scrollIntoView({behavior:'smooth'}); },
+  setBike: function(id){ /* remembered bike: adopt it only while no parts are picked */
+    if(!bikeById(id)) return;
+    var any = CATEGORIES.some(function(c){ return state.sel[c.id]; });
+    if(any) return;
+    state.bike = id; syncBikeInputs();
+    var hero = $('heroImg'), b = bikeById(id);
+    if(hero && b && !$('start').hidden){ hero.srcset=''; hero.src = bikeImgSrc(b.id); hero.alt = b.name+' electric dirt bike'; }
+    if(!$('app').hidden){ state.step = 0; render(); saveHash(); }
+  }
+};
+document.dispatchEvent(new Event('ebpp:app'));
 })();
