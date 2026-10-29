@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.pages.dev'; V='4.8.3'; IMGV='4.5.0'; TODAY='2026-10-27'
+BASE='https://ebikepartspicker.pages.dev'; V='4.8.3'; IMGV='4.5.0'; TODAY='2026-10-29'
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else ''
 CAT={c['id']:c for c in D['cats']}; BK={b['id']:b for b in D['bikes']}
@@ -122,8 +122,7 @@ urls.append(page('/power/','E-Moto Power Upgrades: Ultra Bee & Talaria MX4 Motor
   f'<h1>Power upgrades</h1><p class="seo-lede">Motor, controller and battery combos are only listed when seller or manufacturer listings show the parts fit the bike and work together (voltage, connectors or harness, mounting).</p>{ps}',
   [('Home','/'),('Power upgrades','/power/')]))
 # categories
-KEY=['fork','shock','wheels','brakes','tires','pegs','controller','motor','batteries','handlebars']
-for cid in [c for c in KEY if c in CAT]:
+for cid in [c['id'] for c in D['cats']]:
   c=CAT[cid]; rows=[]
   seen={}
   for b in D['bikes']:

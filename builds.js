@@ -16,6 +16,10 @@ var BUILDS = [
  Parts are referenced by pid. A guide only renders when EVERY part is a Confirmed fit
  for that bike and has a retailer-checked price (see guideIssues in app.js). */
 var GUIDES = [
+  {bike:"komodo", tier:"budget", name:"Budget build", blurb:"Bolt-on comfort basics for the Komodo.",
+   pids:["tbelectricmoto-talaria-komodo-1-bar-risers", "tbelectricmoto-guts-seat-cover-for-talaria-komodo", "gritshift-warp-9-countershaft-sprocket-talaria-komodo"],
+   pros:["Every part is listed for the Talaria Komodo by the seller", "Bolt-on: no wiring or tuning"],
+   cons:["Stock suspension and power"]},
   {bike:"ultrabee", tier:"budget", name:"Budget build", blurb:"Bolt-on basics for the Ultra Bee.",
    pids:["pegs-kke-ultrabee", "guts-seat-cover", "guards-ultrabee-skid"],
    pros:["All three parts are listed for the Ultra Bee by the seller", "Bolt-on: no wiring or tuning"],
