@@ -1,4 +1,4 @@
-/* eBikePartsPicker — premium scroll motion v2 (2026-10-29). Every effect is scrubbed by
+/* eBikePartsPicker — premium scroll motion v3 (2026-10-30). Every effect is scrubbed by
    scroll position (rAF, transform/opacity only); nothing plays on its own. No-JS and
    prefers-reduced-motion users get the static, fully visible page. Never touches builder
    logic, prices, fitment, tracking or forms. */
@@ -62,11 +62,10 @@
       if (!on || !start || start.offsetParent === null) return;
       /* hero accent sweep */
       root.style.setProperty('--sweep', (C(y / 260) * 100).toFixed(1) + '%');
-      /* pinned hero: zoom, slight rotate, layered parallax */
+      /* pinned hero: bike stays still; layered parallax on glow/floor only */
       if (heroPin && hero) {
         var r = heroPin.getBoundingClientRect(), span = Math.max(1, r.height - stage.offsetHeight);
         var p = C(-(r.top - parseFloat(getComputedStyle(stage).top)) / span), q = C((vh - r.top) / vh);
-        hero.style.transform = 'translate3d(0,' + ((0.5 - p) * 30).toFixed(1) + 'px,0) scale(' + (0.9 + 0.1 * q + 0.22 * ease(p)).toFixed(4) + ') rotate(' + (-3 + 6 * p).toFixed(2) + 'deg)';
         if (glow) glow.style.transform = 'translate3d(' + ((p - 0.5) * -60).toFixed(1) + 'px,' + (p * 70).toFixed(1) + 'px,0) scale(' + (1 + p * 0.4).toFixed(3) + ')';
         if (floor) floor.style.transform = 'translate3d(' + ((p - 0.5) * 40).toFixed(1) + 'px,' + (p * -20).toFixed(1) + 'px,0) scaleX(' + (1 + p * 0.3).toFixed(3) + ')';
       }
