@@ -123,7 +123,7 @@ var BUDGET_LABEL = { b0:'Under $1,500', b1:'$1,500 – $2,500', b2:'$2,500 – $
    claims, NOT verified specs. Always displayed with "est." and never
    presented as a guaranteed figure. null = unknown (scores neutral). */
 var QUIZ_RANGE = {
-  'ventus-plus':50, 'ventus-evo':50, 'lightbee':35,
+  'ventus-plus':50, 'ventus-evo':50, 'lightbee':35, 'lightbee2':null,
   'ultrabee':50, 'ultrabee-21kw':50, 'ultrabee-hd':null,
   'ss20':40, 'ss30':45, 'ss40':45, 'sr':50,
   'mx4':40, 'mx5':40, 'komodo':50,
