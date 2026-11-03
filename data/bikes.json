@@ -46,6 +46,22 @@
       "size": "light"
     },
     {
+      "id": "lightbee2",
+      "name": "Sur-Ron Light Bee 2",
+      "image": "img/bikes/lightbee2.webp",
+      "price_usd": 6099,
+      "price_source": "msrp",
+      "stock_specs": {
+        "peak_kw": 24,
+        "weight_lb": 143,
+        "front_wheel_in": 19,
+        "rear_wheel_in": 18,
+        "wheel_source_url": "https://faste.com.au/surron-light-bee-2-available-australia/"
+      },
+      "fitment_sparse": true,
+      "size": "mid"
+    },
+    {
       "id": "ultrabee",
       "image": "img/bike-ultrabee.png",
       "name": "Sur-Ron Ultra Bee 24.5kW",
@@ -199,16 +215,17 @@
     {
       "id": "arctic-xd",
       "image": "img/bike-arctic-xd.png",
-      "name": "Arctic Leopard XD",
+      "name": "Arctic Leopard XD Pro",
       "price_source": "tbd",
       "price_usd": null,
       "stock_specs": {
         "peak_kw": 35,
-        "weight_lb": null,
+        "weight_lb": 196,
         "front_wheel_in": 21,
         "rear_wheel_in": 18,
         "wheel_source_url": "https://arctic-leopard.com/produit/x%c2%b7d-pro/"
-      }
+      },
+      "size": "full"
     },
     {
       "id": "rerode-rx",
