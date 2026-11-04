@@ -54,6 +54,9 @@ var BIKES = [
 ];
 
 var FITMENT = {
+  'rippin-blackline-offroad-lb2|lightbee2':{s:'confirmed_direct_fit',n:'Rippin Moto sells this as an LB2-specific wheelset (19/16, 19/18, 21/18). 21" front may hit fork/fender at full compression; taller rear may need a longer chain (checked Nov 4, 2026)',u:['https://rippinmoto.com/products/blackline-off-road-wheelset-for-sur-ron-light-bee-2']},
+  'rippin-blackline-sm-lb2|lightbee2':{s:'confirmed_direct_fit',n:'Rippin Moto sells this as an LB2-specific supermoto wheelset (16/16, 17/17). Rotors and rear sprocket not included (checked Nov 4, 2026)',u:['https://rippinmoto.com/products/blackline-supermoto-wheelset-for-sur-ron-light-bee-2']},
+  'ebg-lb2-sprocket-520|lightbee2':{s:'confirmed_direct_fit',n:'EBG lists this 520 rear sprocket for the Light Bee 2 (stock is 520 chain, 43T). Pre-order, est. ship Nov 15, 2026 (checked Nov 4, 2026)',u:['https://ebikegarage.shop/product/surron-light-bee-2-520-rear-sprocket/','https://sur-ron.co.nz/products/surron-light-bee-2-my26-520-o-ring-chain-mpc-13114-y031a-0100']},
   'warp9-emoto-318-handlebar|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 lists this bar in its Surron Light Bee 2 collection; LB2 uses a 31.8mm clamp (checked Nov 4, 2026)',u:['https://warp9racing.com/collections/surron-light-bee-2', 'https://radmotousa.com/blogs/news/surron-light-bee-2-parts-fitment-guide']},
   'warp9-elite-pegs|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)',u:['https://warp9racing.com/products/e-moto-elite-foot-pegs']},
   'warp9-pegs-lbx-ventus|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)',u:['https://warp9racing.com/products/surron-foot-pegs']},
@@ -727,6 +730,20 @@ var CATEGORIES = [
 ]},
   {id:'wheels', name:'Wheels', blurb:'Lighter, stronger wheels sharpen handling and acceleration — often the best-feeling upgrade per dollar.', tips:['Hub and axle size must match your bike','Check your brake rotor bolt pattern carries over','Spoked vs billet — weight vs strength tradeoff'], options:[
     {name:'Stock wheels', prices:[]},
+    {name:'Rippin Moto Blackline Off-Road Wheelset (Light Bee 2)', pid:'rippin-blackline-offroad-lb2', tier:'premium',
+     prices:[
+      {v:'Rippin Moto', p:799, url:'https://rippinmoto.com/products/blackline-off-road-wheelset-for-sur-ron-light-bee-2', chk:'2026-11-04'},
+     ],
+     fits:["lightbee2"], likely:[], no:[],
+     badge:'Rippin Moto', stock:'in_stock', stockChk:'2026-11-04', img:'img/parts/rippin-blackline-offroad-lb2.webp'
+    },
+    {name:'Rippin Moto Blackline Supermoto Wheelset (Light Bee 2)', pid:'rippin-blackline-sm-lb2', tier:'premium',
+     prices:[
+      {v:'Rippin Moto', p:779, url:'https://rippinmoto.com/products/blackline-supermoto-wheelset-for-sur-ron-light-bee-2', chk:'2026-11-04'},
+     ],
+     fits:["lightbee2"], likely:[], no:[],
+     badge:'Rippin Moto', stock:'in_stock', stockChk:'2026-11-04', img:'img/parts/rippin-blackline-sm-lb2.webp'
+    },
     {name:'Warp 9 16/19 Wheelset', pid:'warp9-1619', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:806, url:'https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9', chk:'2026-10-18'},
@@ -1869,6 +1886,13 @@ var CATEGORIES = [
 ]},
   {id:'drivetrain', name:'Drivetrain', blurb:'Chain or belt and sprockets — how power actually reaches the rear wheel.', tips:['Chain pitch must match front and rear sprockets','Gearing changes trade top speed for torque (and vice versa)','Belt drives are quieter but less tolerant of misalignment'], options:[
     {name:'Stock drivetrain', prices:[]},
+    {name:'EBG 7075 Aluminum 520 Rear Sprocket (Light Bee 2)', pid:'ebg-lb2-sprocket-520', tier:'midrange',
+     prices:[
+      {v:'eBike Garage (EBG)', p:48, url:'https://ebikegarage.shop/product/surron-light-bee-2-520-rear-sprocket/', chk:'2026-11-04'},
+     ],
+     fits:["lightbee2"], likely:[], no:[],
+     badge:'EBG', stock:'unknown', stockChk:'2026-11-04', img:'img/parts/ebg-lb2-sprocket-520.webp'
+    },
     {name:'SHE8011 420 Chain Drive Set - SS2.0 / SS3.0 / SR', pid:'drivetrain-eride-chain-kit', tier:'midrange',
      prices:[
       {v:'E Ride Pro', p:99, url:'https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr', chk:'2026-10-18'},
@@ -3664,7 +3688,7 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'torp-tm50-pro-topspeed-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee']},
   'torp-tm50-speed-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee']},
   'ebmx-x-9000-v3|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
-  'ebmx-x-9000-v3|komodo':{s:'verify',n:'REV Rides lists Talaria Komodo support as coming soon; no Komodo harness sold yet (checked Nov 4, 2026)',u:[]},
+  'ebmx-x-9000-v3|komodo':{s:'verify',n:'Rechecked Nov 4, 2026: REV Rides still lists Talaria Komodo as coming soon; no Komodo harness in the REV Rides, TB Electric Moto or EBMX harness lists',u:['https://revrides.com/products/ebmx-x-9000-v3-controller','https://tbelectricmoto.com/products/ebmx-x-9000-v3-harness-kit','https://portal.ebmx.com/x-9000-mounting-solutions']},
   'ebmx-x-9000-v3|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
   'ebmx-x-9000-v3|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
   'ebmx-x-9000-v3|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
