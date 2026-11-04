@@ -1,6 +1,6 @@
 /* eBikePartsPicker — upcoming e-motos. Release dates change; verify before relying.
    Research date below. status: shipping|preorder|announced|rumored */
-var UPCOMING_CHECKED = 'Nov 3, 2026';
+var UPCOMING_CHECKED = 'Nov 4, 2026';
 var UPCOMING = [
   {name:'Bonnell 805RX', bikeId:'bonnell-805rx', status:'shipping',
    date:'Launched Sept 2026 — available now', price:8250,
@@ -10,14 +10,14 @@ var UPCOMING = [
    date:'Rerode now says first deliveries early\u2013mid Dec 2026 ($250 refundable deposit)', price:6200,
    blurb:'35 kW midsize from Re Rode and Pinned Electric. 790 N\u00b7m at the wheel, 4.4 kWh Samsung-cell battery. Some dealers quote mid-Nov; Rerode\u2019s own page says Dec.',
    source:'https://rerode.bike/pages/rx-new'},
-  {name:'Arctic Leopard XD Pro', bikeId:'arctic-xd', status:'announced',
-   date:'European launch at EICMA, Nov 3\u20138, 2026. US: coming soon', price:null,
-   blurb:'35 kW, 800 N\u00b7m at the wheel, 74V 76Ah, 21/18\u2033 wheels, 89 kg claimed. Global shop shows 6,599 (currency not stated); US price Not verified.',
-   source:'https://arctic-leopard.com/produit/x%c2%b7d-pro/'},
+  {name:'Arctic Leopard XD Pro', bikeId:'arctic-xd', status:'preorder',
+   date:'US: available Jan 2027 (Arctic Leopard USA). European launch at EICMA, Nov 3\u20138, 2026', price:6599,
+   blurb:'35 kW, 800 N\u00b7m at the wheel, 74V 75\u201376Ah, 21/18\u2033 wheels, KYB 43 mm fork. $6,599 on the official US store and at Charged Cycle Works. Weight: 89 kg claimed globally; the US page says 95 kg.',
+   source:'https://arctic-leopard-usa.com/products/xd-pro'},
   {name:'Arctic Leopard XC Pro', bikeId:null, status:'announced',
-   date:'Revealed Sept 19, 2026; European premiere at EICMA Nov 2026. Sale date Not verified', price:null,
-   blurb:'Running prototype shown. Power, battery, range, weight and price Not verified \u2014 Arctic Leopard hasn\u2019t published a spec sheet.',
-   source:'https://arctic-leopard-bikes.com/en/arctic-leopard-xd-xc-eicma-2026/'},
+   date:'Spec sheet published Nov 2, 2026; European premiere at EICMA (Hall 18, stand I91). Sale date Not verified', price:null,
+   blurb:'Claimed: 80V 76Ah battery, 850 N\u00b7m at the wheel, 130 km/h, up to 220 km range, 98 kg target weight, KYB 43 mm fork + KYB shock (260 mm), 21/18\u2033 wheels, 920 mm seat. Power and price Not verified.',
+   source:'https://wattcross.com/arctic-leopard-xc/'},
   {name:'Sur-Ron Light Bee 2', bikeId:'lightbee2', status:'shipping',
    date:'Announced July 2026 \u2014 in dealer stock now', price:6099,
    blurb:'New EVO-2 motor: 24 kW peak, 410 N\u00b7m, 78.5V 45Ah semi-solid-state pack, ~65 kg, wheelie + traction control. US price is dealer-listed MSRP.',
@@ -27,7 +27,7 @@ var UPCOMING = [
    blurb:'Ventus\u2019s newest: 32 kW (up from 28), 700 N\u00b7m, 72V 50Ah BK51 battery, Aetos Pro controller. $5,999 MSRP; some dealers list $5,599.',
    source:'https://ventusbikes.us/pages/ventus-v1-evo'},
   {name:'Talaria 2027 models', bikeId:null, status:'announced',
-   date:'Teased for EICMA, Nov 3\u20138, 2026 (Hall 11, stand M32)', price:null,
+   date:'Being unveiled at EICMA, Nov 3\u20138, 2026 (Hall 11, stand M32). Checked Nov 4: no names published yet', price:null,
    blurb:'Talaria says several new 2027 models will be unveiled. Names and specs Not verified yet. Its newest current bike is the Komodo (32 kW, $5,699).',
    source:'https://www.gazzetta.it/motori/la-mia-moto/eicma/22-10-2026/eicma-2026-tutte-le-novita-moto-e-scooter-marca-per-marca.shtml'},
   {name:'Dust Moto Hightail', bikeId:null, status:'preorder',

@@ -5,7 +5,7 @@
    local /search-index.json. */
 (function(){
 'use strict';
-var V = '4.12.0';
+var V = '4.13.0';
 var NS = 'ebpp.';
 function lsGet(k, d){ try{ var v = localStorage.getItem(NS+k); return v==null ? d : JSON.parse(v); }catch(e){ return d; } }
 function lsSet(k, v){ try{ localStorage.setItem(NS+k, JSON.stringify(v)); }catch(e){} }

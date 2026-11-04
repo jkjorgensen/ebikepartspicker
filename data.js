@@ -19,7 +19,7 @@ var BIKES = [
   {id:'komodo', name:'Talaria Komodo', price:5699, src:'msrp', weight:216, kw:32, size:'full'},
   {id:'bonnell-805rx', name:'Bonnell 805 RX', price:8250, src:'charged_cycle_works', weight:218, kw:42, size:'full'},
   {id:'storm-bee', name:'Sur-Ron Storm Bee F', price:8499, src:'msrp', weight:280, kw:22.5, size:'full'},
-  {id:'arctic-xd', name:'Arctic Leopard XD Pro', price:null, src:'tbd', weight:196, kw:35, size:'full'},
+  {id:'arctic-xd', name:'Arctic Leopard XD Pro', price:6599, src:'msrp', srcUrl:'https://arctic-leopard-usa.com/products/xd-pro', srcChk:'2026-11-04', weight:196, kw:35, size:'full'},
   {id:'rerode-rx', name:'Re Rode RX', price:6200, src:'msrp', weight:225, kw:35, size:'full', sparse:1},
   {id:'rawrr-mantis-72v', name:'Rawrr Mantis 72V', price:4499, src:'msrp', weight:158.5, kw:15, size:'mid', sparse:1},
   {id:'rawrr-mantis-x-pro', name:'Rawrr Mantis X Pro', price:3899, src:'msrp', weight:158.5, kw:15, size:'mid', sparse:1},
@@ -54,6 +54,16 @@ var BIKES = [
 ];
 
 var FITMENT = {
+  'warp9-emoto-318-handlebar|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 lists this bar in its Surron Light Bee 2 collection; LB2 uses a 31.8mm clamp (checked Nov 4, 2026)',u:['https://warp9racing.com/collections/surron-light-bee-2', 'https://radmotousa.com/blogs/news/surron-light-bee-2-parts-fitment-guide']},
+  'warp9-elite-pegs|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)',u:['https://warp9racing.com/products/e-moto-elite-foot-pegs']},
+  'warp9-pegs-lbx-ventus|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)',u:['https://warp9racing.com/products/surron-foot-pegs']},
+  'chargedcycleworks-warp9-foot-pegs-for-surron-segway|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 listing for these pegs names the Light Bee 2 (checked Nov 4, 2026)',u:['https://warp9racing.com/products/surron-foot-pegs']},
+  'mika-pro-118-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee 2023\u20132025 (checked Nov 4, 2026)',u:['https://adventurepartsllc.com/products/mika-metals-pro-series-1-1-8-oversize-handlebars-sur-ron-storm-bee-2023-2025']},
+  'tusk-chub-118-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee 2023\u20132025 (checked Nov 4, 2026)',u:['https://adventurepartsllc.com/products/tusk-chub-1-1-8-big-bar-sur-ron-storm-bee-2023-2025']},
+  'mxps-billet-pegs-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)',u:['https://mxpartshop.com/products/mx-billet-footpegs-footrest-for-sur-ron-storm-bee']},
+  'mxps-sprocket-guard-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)',u:['https://mxpartshop.com/products/aluminum-sprocket-guard-chain-protector-cover-for-sur-ron-storm-bee']},
+  'mxps-skid-plate-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)',u:['https://mxpartshop.com/products/aluminum-underbody-guard-protector-cover-for-sur-ron-storm-bee']},
+  'mxps-seat-cover-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)',u:['https://mxpartshop.com/products/mx-ribbed-seat-cover-for-sur-ron-storm-bee-anti-slip-waterproof']},
   'guts-seat-cover|lightbee':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ultrabee':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ss20':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
@@ -239,7 +249,7 @@ var CATEGORIES = [
       {v:'Charged Powersports', p:1199, url:'https://chargedpowersports.com/products/ebmx-x-9000-v3-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr","bonnell-805rx","komodo","storm-bee","ventus-plus"], likely:["ss40","arctic-xd","ventus-evo"], no:[],
+     fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr","bonnell-805rx","ventus-plus"], likely:["ss40","arctic-xd","ventus-evo"], no:[],
      badge:'X-9000', ctrlMaxKw:60, stock:'in_stock'
     },
     {name:'VTB Controller w/ Aetos cover', pid:'vtb-aetos', tier:'mid',
@@ -267,7 +277,7 @@ var CATEGORIES = [
       {v:'E-Moto USA', p:929.99, url:'https://e-motousa.com/product/torp-tc500-2-x-controller-kit-for-surron-talaria/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","komodo","mx4","mx5"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","ventus-plus","ventus-evo"], no:[],
+     fits:["lightbee","mx4","mx5"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","ventus-plus","ventus-evo"], no:[],
      ctrlMaxKw:30, stock:'in_stock', img:'img/parts/torp-tc500-2x.jpg'
     },
     {name:'VTB V9600 Aetos Pro Gen.2 Controller', pid:'vtb-aetos-pro', tier:'premium',
@@ -1445,6 +1455,27 @@ var CATEGORIES = [
   ]},
   {id:'handlebar', name:'Handlebar', blurb:'Your main control point — bend and rise change the whole riding position.', tips:['Bar diameter must match your clamps (7/8" vs 1-1/8")','Taller riders usually want more rise','Cut to width if they feel too wide'], options:[
     {name:'Stock handlebar', prices:[]},
+    {name:'Warp 9 E-Moto 31.8mm Handlebar', pid:'warp9-emoto-318-handlebar', tier:'midrange',
+     prices:[
+      {v:'Warp 9 Racing', p:87, url:'https://warp9racing.com/products/handlebars', chk:'2026-11-04'},
+     ],
+     fits:["lightbee2"], likely:[], no:[],
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-04', img:'img/parts/warp9-emoto-318-handlebar.webp'
+    },
+    {name:'Mika Metals Pro Series 1-1/8" Oversize Handlebar (Storm Bee)', pid:'mika-pro-118-stormbee', tier:'midrange',
+     prices:[
+      {v:'Adventure Parts', p:115.88, url:'https://adventurepartsllc.com/products/mika-metals-pro-series-1-1-8-oversize-handlebars-sur-ron-storm-bee-2023-2025', chk:'2026-11-04'},
+     ],
+     fits:["storm-bee"], likely:[], no:[],
+     badge:'Mika Metals', stock:'in_stock', stockChk:'2026-11-04', img:'img/parts/mika-pro-118-stormbee.webp'
+    },
+    {name:'Tusk Chub 1-1/8" Big Bar (Storm Bee)', pid:'tusk-chub-118-stormbee', tier:'budget',
+     prices:[
+      {v:'Adventure Parts', p:53.99, url:'https://adventurepartsllc.com/products/tusk-chub-1-1-8-big-bar-sur-ron-storm-bee-2023-2025', chk:'2026-11-04'},
+     ],
+     fits:["storm-bee"], likely:[], no:[],
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-04', img:'img/parts/tusk-chub-118-stormbee.webp'
+    },
     {name:'Warp 9 3" Rise Handlebar', pid:'warp9-3in-rise', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:87, url:'https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria', chk:'2026-10-18'},
@@ -2120,6 +2151,20 @@ var CATEGORIES = [
 ]},
   {id:'guards', name:'Guards', blurb:'Cheap insurance — frame, rotor, and case protection that pays for itself the first crash.', tips:['Bike-specific fitment','Rotor guards need caliper clearance'], options:[
     {name:'Stock guards', prices:[]},
+    {name:'Aluminum Sprocket Guard (Storm Bee)', pid:'mxps-sprocket-guard-stormbee', tier:'budget',
+     prices:[
+      {v:'MXpartshop', p:60, url:'https://mxpartshop.com/products/aluminum-sprocket-guard-chain-protector-cover-for-sur-ron-storm-bee', chk:'2026-11-04'},
+     ],
+     fits:["storm-bee"], likely:[], no:[],
+     badge:'Guard', stock:'in_stock', stockChk:'2026-11-04', img:'img/parts/mxps-sprocket-guard-stormbee.webp'
+    },
+    {name:'Aluminum Skid Plate (Storm Bee)', pid:'mxps-skid-plate-stormbee', tier:'midrange',
+     prices:[
+      {v:'MXpartshop', p:130, url:'https://mxpartshop.com/products/aluminum-underbody-guard-protector-cover-for-sur-ron-storm-bee', chk:'2026-11-04'},
+     ],
+     fits:["storm-bee"], likely:[], no:[],
+     badge:'Skid plate', stock:'in_stock', stockChk:'2026-11-04', img:'img/parts/mxps-skid-plate-stormbee.webp'
+    },
     {name:'E7020 Motor Protection Guard — Pro-S / SS2.0', pid:'guards-eride-motor-guard', tier:'stock_replacement',
      prices:[
       {v:'VORO Motors', p:14.95, url:'https://voromotors.com/products/motor-protection-guard-for-e-ride-pro-ss', chk:'2026-10-18'},
@@ -2451,6 +2496,20 @@ var CATEGORIES = [
 ]},
   {id:'pegs', name:'Foot Pegs', blurb:'Wider, sharper pegs mean more control — especially standing up.', tips:['Mounts are bike-specific','Titanium saves weight; steel lasts longer'], options:[
     {name:'Stock foot pegs', prices:[]},
+    {name:'Warp 9 Elite Foot Pegs', pid:'warp9-elite-pegs', tier:'premium',
+     prices:[
+      {v:'Warp 9 Racing', p:142, url:'https://warp9racing.com/products/e-moto-elite-foot-pegs', chk:'2026-11-04'},
+     ],
+     fits:["lightbee2"], likely:[], no:[],
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-04', img:'img/parts/warp9-elite-pegs.webp'
+    },
+    {name:'MX Billet Foot Pegs (Storm Bee)', pid:'mxps-billet-pegs-stormbee', tier:'budget',
+     prices:[
+      {v:'MXpartshop', p:65, url:'https://mxpartshop.com/products/mx-billet-footpegs-footrest-for-sur-ron-storm-bee', chk:'2026-11-04'},
+     ],
+     fits:["storm-bee"], likely:[], no:[],
+     badge:'Pegs', stock:'in_stock', stockChk:'2026-11-04', img:'img/parts/mxps-billet-pegs-stormbee.webp'
+    },
     {name:'KKE Billet Foot Pegs for Sur-Ron Ultra Bee', pid:'pegs-kke-ultrabee', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective', chk:'2026-10-18'},
@@ -2502,8 +2561,8 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway', chk:'2026-10-18'},
      ],
-     fits:["lightbee"], likely:["ventus-plus","ventus-evo","ss20","ss30","sr"], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-10-18'
+     fits:["lightbee2","lightbee"], likely:["ventus-plus","ventus-evo","ss20","ss30","sr"], no:[],
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp'
     },
       {name:'Surron Light Bee - OEM Foot Peg Connection Assembly', pid:'chargedcycleworks-surron-light-bee-pedal-connection-bracket-pair', tier:'OEM',
      prices:[
@@ -2586,12 +2645,19 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway', chk:'2026-10-27'},
      ],
-     fits:["lightbee"], likely:["ventus-plus"], no:[],
+     fits:["lightbee2","lightbee"], likely:["ventus-plus"], no:[],
      badge:'Pegs', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp'
     },
 ]},
   {id:'seats', name:'Seats', blurb:'Where you spend the whole ride — comfort and control.', tips:['Tall seats help taller riders; standard keeps footing easy','Gripper covers for aggressive riding, smooth for moving around'], options:[
     {name:'Stock seats', prices:[]},
+    {name:'MX Ribbed Seat Cover (Storm Bee)', pid:'mxps-seat-cover-stormbee', tier:'budget',
+     prices:[
+      {v:'MXpartshop', p:69.9, url:'https://mxpartshop.com/products/mx-ribbed-seat-cover-for-sur-ron-storm-bee-anti-slip-waterproof', chk:'2026-11-04'},
+     ],
+     fits:["storm-bee"], likely:[], no:[],
+     badge:'Seat cover', stock:'in_stock', stockChk:'2026-11-04', img:'img/parts/mxps-seat-cover-stormbee.webp'
+    },
     {name:'Guts Seat Cover - Sur-Ron Light Bee', pid:'seat-guts-lightbee-cover', tier:'premium',
      prices:[
       {v:'TB Electric Moto', p:79.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover', chk:'2026-10-18'},
@@ -3598,20 +3664,20 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'torp-tm50-pro-topspeed-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee']},
   'torp-tm50-speed-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee']},
   'ebmx-x-9000-v3|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
-  'ebmx-x-9000-v3|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
+  'ebmx-x-9000-v3|komodo':{s:'verify',n:'REV Rides lists Talaria Komodo support as coming soon; no Komodo harness sold yet (checked Nov 4, 2026)',u:[]},
   'ebmx-x-9000-v3|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
   'ebmx-x-9000-v3|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
   'ebmx-x-9000-v3|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
   'ebmx-x-9000-v3|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://revrides.com/products/ebmx-x-9000-v3-controller']},
   'ebmx-x-9000-v3|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
   'ebmx-x-9000-v3|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
-  'ebmx-x-9000-v3|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee F (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
+  'ebmx-x-9000-v3|storm-bee':{s:'verify',n:'No X-9000 V3 listing names the Storm Bee (checked Nov 4, 2026)',u:[]},
   'ebmx-x-9000-v3|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
   'ebmx-x-9000-v3|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product']},
   'torp-tc1000-2x|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/']},
   'torp-tc1000-2x|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/']},
   'torp-tc1000-2x|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/']},
-  'torp-tc500-2x|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://e-motousa.com/product/torp-tc500-2-x-controller-kit-for-surron-talaria/']},
+  'torp-tc500-2x|komodo':{s:'not_compatible',n:'TORP lists the TC500 for Light Bee and Talaria MX3/MX4/MX5 only, on 60\u201380V packs (92.4V max); the Komodo runs a 97.2V pack (checked Nov 4, 2026)',u:['https://www.torpmotors.com/compare/controllers/']},
   'torp-tc500-2x|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/']},
   'torp-tc500-2x|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/']},
   'torp-tc500-2x|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/']},
