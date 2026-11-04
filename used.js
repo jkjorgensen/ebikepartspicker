@@ -343,6 +343,18 @@ function renderUsed(){
       '&body=' + encodeURIComponent(text);
     $('sellForm').hidden = true;
     $('sellDone').hidden = false;
+    var st = $('sellStatus');
+    if(st){ st.textContent = 'Sending your listing\u2026'; }
+    fetch('/api/submit', {method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({
+      type:'used', page: location.pathname, title: val('sellTitle'),
+      category: catSel.value, fits: notSure ? 'not-sure' : Array.prototype.map.call(checked, function(c){ return c.value; }).join(','),
+      condition: $('sellCond').value, price: val('sellPrice'), location: val('sellLoc'), seller: val('sellName'),
+      email: val('sellEmail'), description: val('sellDesc'), catalog: sellCatalogHit ? sellCatalogHit.pid : ''
+    })}).then(function(r){ return r.json().then(function(d){ return r.ok && d.ok; }); })
+      .then(function(ok){ if(st) st.textContent = ok
+        ? 'Received \u2014 we\u2019ll review it and email you before it goes live. Email your photos to ' + USED_INBOX + '.'
+        : 'Couldn\u2019t send it automatically. Use the email button below instead.'; },
+        function(){ if(st) st.textContent = 'Couldn\u2019t send it automatically. Use the email button below instead.'; });
     $('sellCopy').onclick = function(){
       (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject())
         .then(function(){ usedToast('Copied — send it our way!'); },

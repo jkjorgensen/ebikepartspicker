@@ -5,7 +5,7 @@
    local /search-index.json. */
 (function(){
 'use strict';
-var V = '4.13.0';
+var V = '4.14.0';
 var NS = 'ebpp.';
 function lsGet(k, d){ try{ var v = localStorage.getItem(NS+k); return v==null ? d : JSON.parse(v); }catch(e){ return d; } }
 function lsSet(k, v){ try{ localStorage.setItem(NS+k, JSON.stringify(v)); }catch(e){} }
@@ -204,7 +204,7 @@ function closePicker(){ if(pickCard){ pickCard.hidden = true; } }
 function maybeFirstVisit(){
   if(myBike() || lsGet('pickDone', 0)) return;
   if(/^#\{|^#%7B/i.test(location.hash)) return; /* opened a shared build: don't interrupt */
-  setTimeout(function(){ if(!myBike() && !lsGet('pickDone',0) && !$('[data-ux-pagebike]')) (IDX||typeof BIKES!=='undefined' ? Promise.resolve() : loadIndex()).then(function(){ openPicker(false); }); }, 900);
+  setTimeout(function(){ if(!myBike() && !lsGet('pickDone',0) && !$('[data-ux-pagebike]') && !/^\/parts\//.test(location.pathname) && !$('.modal-overlay:not([hidden])')) (IDX||typeof BIKES!=='undefined' ? Promise.resolve() : loadIndex()).then(function(){ openPicker(false); }); }, 900);
 }
 
 /* ---------- static pages: "Fits your bike" from generator data only ---------- */
