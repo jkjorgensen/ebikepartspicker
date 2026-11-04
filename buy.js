@@ -18,7 +18,7 @@ var BUY_URLS = {
   "komodo": {"url":"https://tbelectricmoto.com/products/talaria-komodo-32kw-96v-electric-dirt-bike","source":"TB Electric Moto"},
   "bonnell-805rx": {"url":"https://ridebonnell.com/products/805","source":"Bonnell official"},
   "storm-bee": {"url":"https://emotobykes.com/bikes/sur-ron/storm-bee/","source":"eMoto Bykes"},
-  "arctic-xd": {"url":"https://arctic-leopard.com/produit/x%c2%b7d-pro/","source":"Arctic Leopard official (global shop; US availability coming soon)"},
+  "arctic-xd": {"url":"https://arctic-leopard-usa.com/products/xd-pro","source":"Arctic Leopard USA (official US store; available Jan 2027)"},
   "rerode-rx": {"url":"https://rerode.bike/pages/rx-new","source":"Rerode official (rerode.bike)"},
   "rawrr-mantis-72v": {"url":"https://riderawrr.com/products/rawrr-mantis-all-terrain-electric-bike","source":"Rawrr official (US)"},
   "rawrr-mantis-x-pro": {"url":"https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Frawrr-mantis-x-pro","source":"VORO Motors","alt":"https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro","altSource":"Rawrr official"},
