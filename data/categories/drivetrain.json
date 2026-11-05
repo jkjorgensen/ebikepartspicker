@@ -709,6 +709,35 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/revrides-e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0.webp"
+    },
+    {
+      "id": "drivetrain-renthal-sprocket-bonnell-805-902",
+      "name": "Renthal Sprocket for Bonnell 805/902 - Blue",
+      "brand": "Renthal",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "midrange",
+      "price_usd": 94.46,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/renthal-sprocket-bonnell-805-902",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/renthal-sprocket-bonnell-805-902"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Blue anodized 7075-T6 Ultralight rear sprocket, 520 chain. Sizes 48-52T; 52T is stock on the 805RX. 50T is $109.39, all other sizes $94.46. CCW fitment lists Bonnell 805 and 902.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 94.46,
+          "buy_url": "https://chargedcycleworks.com/products/renthal-sprocket-bonnell-805-902"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -1115,6 +1144,16 @@
       "product_id": "voro-eride-ss-sprockets",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-sprocket-bonnell-805-902"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-renthal-sprocket-bonnell-805-902",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

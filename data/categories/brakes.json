@@ -1083,6 +1083,35 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/howlingmoto-eride-pro-sr-3-0-brake-pads-talaria-mx5.webp"
+    },
+    {
+      "id": "brakes-asv-f4-type2-lever-set",
+      "name": "ASV F4 Type 2 Brake Lever Set - Blue",
+      "brand": "ASV",
+      "category": "brakes",
+      "badge": "Brake Levers",
+      "tier": "premium",
+      "price_usd": 175,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/asv-f4-brake-lever-set-surron-eride-talaria",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/asv-f4-brake-lever-set-surron-eride-talaria"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Blue anodized F4 Type 2 front + rear lever set. CCW lists Bonnell 805 fitment in the title and compatibility list; mounts to stock master cylinders. Other colors (Black/Red/Green/Purple) same $175.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 175,
+          "buy_url": "https://chargedcycleworks.com/products/asv-f4-brake-lever-set-surron-eride-talaria"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -1813,6 +1842,16 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-xepror-ultrabee-brake-pads",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/asv-f4-brake-lever-set-surron-eride-talaria"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "brakes-asv-f4-type2-lever-set",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
     }

@@ -1157,6 +1157,14 @@ var CATEGORIES = [
      fits:["mx5", "sr"], likely:[], no:[],
      badge:'Brakes', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-eride-pro-sr-3-0-brake-pads-talaria-mx5.webp'
     },
+    {name:'ASV F4 Type 2 Brake Lever Set - Blue', pid:'brakes-asv-f4-type2-lever-set', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:175, url:'https://chargedcycleworks.com/products/asv-f4-brake-lever-set-surron-eride-talaria', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Brake Levers', stock:'in_stock', stockChk:'2026-11-05'
+    },
 ]},
   {id:'plastics', name:'Plastics', blurb:'Bodywork — the look of the bike plus roost protection.', tips:['Mounting is bike-specific — \'universal\' rarely is','Full kits look cleaner than piecing together','Graphics usually sold separately'], options:[
     {name:'Stock plastics', prices:[]},
@@ -2039,6 +2047,14 @@ var CATEGORIES = [
      ],
      fits:["sr"], likely:[], no:[],
      badge:'Drivetrain', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/revrides-e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0.webp'
+    },
+    {name:'Renthal Sprocket for Bonnell 805/902 - Blue', pid:'drivetrain-renthal-sprocket-bonnell-805-902', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:94.46, url:'https://chargedcycleworks.com/products/renthal-sprocket-bonnell-805-902', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
     },
 ]},
   {id:'electrical', name:'Electrical', blurb:'Dashboards, lights, and wiring that tie the build together.', tips:['Check voltage compatibility with your battery','Plug-and-play beats splicing — look for bike-specific kits'], options:[
@@ -3767,6 +3783,8 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'komodo-rear-brake-caliper|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/bpcfr002/']},
   'komodo-front-brake-lever|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/brlvf158/']},
   'brakes-warp9-folding-lever|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (fitment audit Oct 18, 2026)',u:['https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro']},
+  'brakes-asv-f4-type2-lever-set|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/asv-f4-brake-lever-set-surron-eride-talaria']},
+  'drivetrain-renthal-sprocket-bonnell-805-902|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/renthal-sprocket-bonnell-805-902']},
   'charged-brake-pads-emoto|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
   'charged-brake-pads-emoto|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
   'charged-brake-pads-emoto|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
