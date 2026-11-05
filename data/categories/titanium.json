@@ -484,6 +484,64 @@
       "variant": null,
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "titanium-bonnell-805-rx-titanium-bolt-kit",
+      "name": "Bonnell 805 - Titanium Bolt Kit",
+      "brand": "Bonnell",
+      "category": "titanium",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 695.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-titanium-bolt-kit",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-titanium-bolt-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Titanium Bolt Kit Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 695.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-titanium-bolt-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "name": "Warp9 eMoto Handguard Titanium Bolt Kit",
+      "brand": "Warp 9",
+      "category": "titanium",
+      "badge": null,
+      "tier": "budget",
+      "price_usd": 22.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 22.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -780,6 +838,26 @@
         "https://mxbolts.us/products/talaria-sting-mx-titanium-bolt-kit"
       ],
       "notes": "MXBolts lists this titanium kit for the Talaria Sting MX platform."
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-titanium-bolt-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "titanium-bonnell-805-rx-titanium-bolt-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

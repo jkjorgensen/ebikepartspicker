@@ -528,6 +528,122 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-talaria-sting-mx5-oem-replacement-display.webp"
+    },
+    {
+      "id": "electrical-bonnell-805-rx-large-display",
+      "name": "Bonnell 805 - Large Display",
+      "brand": "Bonnell",
+      "category": "electrical",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 318.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-large-display",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-large-display"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Large Display Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 318.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-large-display"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "electrical-bonnell-805-rx-killswitch-main-unit",
+      "name": "Bonnell 805 - Killswitch - Main Unit",
+      "brand": "Bonnell",
+      "category": "electrical",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 74.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-killswitch-main-unit",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-killswitch-main-unit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Killswitch - Main Unit (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 74.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-killswitch-main-unit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "electrical-bonnell-805-rx-front-junction-box-and-harness",
+      "name": "Bonnell 805 - Front Junction Box & Harness",
+      "brand": "Bonnell",
+      "category": "electrical",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 199.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-front-junction-box-and-harness",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-front-junction-box-and-harness"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Front Junction Box &amp; Harness Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 199.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-front-junction-box-and-harness"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "electrical-bonnell-805-rx-bluetooth-adapter",
+      "name": "Bonnell 805 - Bluetooth Adapter",
+      "brand": "Bonnell",
+      "category": "electrical",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 28.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-bluetooth-adapter",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-bluetooth-adapter"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Bluetooth Adapter (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 28.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-bluetooth-adapter"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -908,6 +1024,46 @@
       "product_id": "voro-eride-ss-headlight-bar",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-large-display"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "electrical-bonnell-805-rx-large-display",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-killswitch-main-unit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "electrical-bonnell-805-rx-killswitch-main-unit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-front-junction-box-and-harness"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "electrical-bonnell-805-rx-front-junction-box-and-harness",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-bluetooth-adapter"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "electrical-bonnell-805-rx-bluetooth-adapter",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

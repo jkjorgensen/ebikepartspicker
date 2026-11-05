@@ -240,6 +240,14 @@ var CATEGORIES = [
      fits:["ultrabee"], likely:[], no:[],
      badge:'Torp', motorKw:55, stock:'out_of_stock', stockChk:'2026-10-18', wtKg:14.2, img:'img/parts/torp-tm50-speed-ultrabee.webp'
     },
+    {name:'Bonnell 805 - 805 Motor Encoder', pid:'motor-bonnell-805-rx-motor-encoder', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:24.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-motor-encoder', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
   ]},
   {id:'controller', name:'Controller', blurb:'The controller is the brain — it meters power from the battery to the motor and sets how the bike feels.', tips:['Voltage range must cover your battery','Match phase amps to your motor — too small chokes it','Some bikes need a wiring harness adapter — check fitment','App and Bluetooth tuning varies a lot by brand'], options:[
     {name:'Stock controller', prices:[]},
@@ -366,6 +374,14 @@ var CATEGORIES = [
      ],
      fits:["mx4","mx5"], likely:[], no:[],
      badge:'X-9000 V3', ctrlMaxKw:60, stock:'in_stock', stockChk:'2026-10-18'
+    },
+    {name:'Bonnell 805 - X30 Controller', pid:'controller-bonnell-805-rx-x30-controller', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:1095.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-x30-controller', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
     },
   ]},
   {id:'fork', name:'Fork', blurb:'Front suspension — dictates how the bike handles braking bumps, rocks, and landings.', tips:['Axle size and triple-clamp fitment must match your bike','Spring rate should suit your weight — ask the vendor','More travel isn\'t always better if the geometry suffers'], options:[
@@ -567,6 +583,14 @@ var CATEGORIES = [
      fits:["sr"], likely:[], no:[],
      badge:'Fork', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-e-ride-pro-sr.webp'
     },
+    {name:'SIRRIS F43 Fork Spring (each)', pid:'fork-sirris-f43-fork-spring-single', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:70, url:'https://chargedcycleworks.com/products/sirris-f43-fork-spring-single', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
 ]},
   {id:'shock', name:'Shock', blurb:'Rear suspension — traction and comfort over chatter.', tips:['Eye-to-eye length and stroke must match stock','Spring rate should suit your weight','Pairs with linkage choice on some bikes'], options:[
     {name:'Stock shock', prices:[]},
@@ -726,6 +750,14 @@ var CATEGORIES = [
      ],
      fits:["ultrabee"], likely:[], no:[],
      badge:'Shock', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-trx-shock-surron-ultra-bee.webp'
+    },
+    {name:'Sirris R46 Rear Shock Spring', pid:'shock-sirris-r46-rear-shock-spring', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:140, url:'https://chargedcycleworks.com/products/sirris-r46-rear-shock-spring', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
     },
 ]},
   {id:'wheels', name:'Wheels', blurb:'Lighter, stronger wheels sharpen handling and acceleration — often the best-feeling upgrade per dollar.', tips:['Hub and axle size must match your bike','Check your brake rotor bolt pattern carries over','Spoked vs billet — weight vs strength tradeoff'], options:[
@@ -908,6 +940,46 @@ var CATEGORIES = [
      fits:["lightbee"], likely:["ventus-plus"], no:[],
      badge:'Wheel', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-surron-oem-supermoto-wheelset.webp'
     },
+    {name:'Excel Wheels for Bonnell 805 RX', pid:'wheels-excel-wheels-for-bonnell-805-rx', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:1299, url:'https://chargedcycleworks.com/products/excel-wheels-for-bonnell-805-rx', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - 19"/16" Wheel Set', pid:'wheels-bonnell-805-rx-19-16-wheel-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:899.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-19-16-wheel-set', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Rear Wheel', pid:'wheels-bonnell-805-rx-rear-wheel', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:369.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - 1.6x21 Front Wheel', pid:'wheels-bonnell-805-rx-1-6x21-front-wheel', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:349.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-1-6x21-front-wheel', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - 17"/17" Supermoto Wheel Set', pid:'wheels-bonnell-805-rx-17-17-supermoto-wheel-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:849.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-17-17-supermoto-wheel-set', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
 ]},
   {id:'brakes', name:'Brakes', blurb:'As the bike gets faster, stopping matters more. Bigger rotors and better calipers transform confidence.', tips:['Rotor size changes may need a caliper relocation bracket','Match master cylinder to caliper','Pad compound: organic for feel, sintered for bite and life'], options:[
     {name:'Stock brakes', prices:[]},
@@ -987,9 +1059,11 @@ var CATEGORIES = [
      prices:[
       {v:'GritShift', p:46.89, url:'https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
+      {v:'Charged Cycle Works', p:46, url:'https://chargedcycleworks.com/products/emoto-folding-brake-levers', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Brake Levers', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/brakes-warp9-folding-lever.webp'
+     badge:'Brake Levers', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/brakes-warp9-folding-lever.webp'
     },
     {name:'Performance Brake Pads for eMoto', pid:'charged-brake-pads-emoto', tier:'budget',
      prices:[
@@ -1164,6 +1238,46 @@ var CATEGORIES = [
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
      badge:'Brake Levers', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Brake Lever | Front & Rear', pid:'brakes-bonnell-805-rx-brake-lever', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-brake-lever', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Brake Disc Set | Front & Rear', pid:'brakes-bonnell-805-rx-brake-disc-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:44.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-brake-disc-set', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Brake System | Front & Rear', pid:'brakes-bonnell-805-rx-brake-system', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:199.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-brake-system', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Brake Line | Front & Rear', pid:'brakes-bonnell-805-rx-brake-line', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:42.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-brake-line', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Brake Pad Set', pid:'brakes-bonnell-805-rx-brake-pad-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:39.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-brake-pad-set', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
     },
 ]},
   {id:'plastics', name:'Plastics', blurb:'Bodywork — the look of the bike plus roost protection.', tips:['Mounting is bike-specific — \'universal\' rarely is','Full kits look cleaner than piecing together','Graphics usually sold separately'], options:[
@@ -1393,6 +1507,110 @@ var CATEGORIES = [
      fits:[], likely:["ventus-plus"], no:[],
      badge:'Plastics', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-rear-fender-ventus-oem.webp'
     },
+    {name:'OUTLAW Graphics Wrap for Stark or Bonnell', pid:'plastics-outlaw', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:225, url:'https://chargedcycleworks.com/products/outlaw', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'GRAND PRIX Graphics Wrap for Stark or Bonnell', pid:'plastics-grand-prix', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:225, url:'https://chargedcycleworks.com/products/grand-prix', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'RESIN Graphics Wrap for Stark or Bonnell', pid:'plastics-resin', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:225, url:'https://chargedcycleworks.com/products/resin', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'MORPH Graphics Wrap for Stark or Bonnell', pid:'plastics-morph', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:225, url:'https://chargedcycleworks.com/products/morph', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'FLUX Graphics Wrap for Stark or Bonnell', pid:'plastics-flux', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:225, url:'https://chargedcycleworks.com/products/flux', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'VIRUS Graphics Wrap for Stark or Bonnell', pid:'plastics-virus', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:225, url:'https://chargedcycleworks.com/products/virus', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'VISION Graphics Wrap for Stark or Bonnell', pid:'plastics-vision', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:225, url:'https://chargedcycleworks.com/products/vision', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'SKETCHER Graphics Wrap for Stark or Bonnell', pid:'plastics-sketcher', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:225, url:'https://chargedcycleworks.com/products/sketcher', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Front White Fender', pid:'plastics-bonnell-805-rx-front-white-fender', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:29.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-front-white-fender', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Rear White Fender', pid:'plastics-bonnell-805-rx-rear-white-fender', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:14.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-rear-white-fender', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - White Number Plate 1', pid:'plastics-bonnell-805-rx-white-number-plate-1', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-white-number-plate-1', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - OEM Plastics Kit', pid:'plastics-bonnell-805-oem-plastics-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:195, url:'https://chargedcycleworks.com/products/bonnell-805-oem-plastics-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Common Plastics Kit', pid:'plastics-bonnell-805-rx-common-plastics-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:78.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-common-plastics-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
 ]},
   {id:'batteries', name:'Batteries', blurb:'Your fuel tank and your power ceiling. A weak battery chokes even the best motor and controller combo.', tips:['Continuous kW rating must meet what your controller pulls — check the Powertrain panel for bottlenecks','Voltage must match your controller\'s range','Confirm it physically fits your frame — sizes vary a lot','Swappable packs are convenient; fixed packs usually hold more capacity'], options:[
     {name:'Stock batteries', prices:[]},
@@ -1476,6 +1694,22 @@ var CATEGORIES = [
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      battKwh:2.88, badge:'OEM', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/voro-eride-ss-72v-40ah-battery.webp'
+    },
+    {name:'Bonnell 805 - OEM Battery', pid:'batteries-bonnell-805-rx-battery', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:1995, url:'https://chargedcycleworks.com/products/bonnell-805-rx-battery', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Battery Latch Base Assembly', pid:'batteries-bonnell-805-rx-battery-latch-base-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:150, url:'https://chargedcycleworks.com/products/bonnell-805-rx-battery-latch-base-assembly', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
     },
   ]},
   {id:'handlebar', name:'Handlebar', blurb:'Your main control point — bend and rise change the whole riding position.', tips:['Bar diameter must match your clamps (7/8" vs 1-1/8")','Taller riders usually want more rise','Cut to width if they feel too wide'], options:[
@@ -1627,6 +1861,30 @@ var CATEGORIES = [
      fits:["lightbee"], likely:[], no:[],
      badge:'Handlebar', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-sur-ron-light-bee-handlebar-mount.webp'
     },
+    {name:'Bonnell 805 - Bend Handlebar | High & Low', pid:'handlebar-bonnell-805-rx-high-bend-handlebar', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:85.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-high-bend-handlebar', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'ODI Podium MX Handlebars 28.6mm', pid:'handlebar-odi-podium-mx-handlebars', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:103.46, url:'https://chargedcycleworks.com/products/odi-podium-mx-handlebars', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:[], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Renthal FatBar MX Handlebar 28.6mm', pid:'handlebar-renthal-fatbar-1-1-8', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:121.46, url:'https://chargedcycleworks.com/products/renthal-fatbar-1-1-8', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:[], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
 ]},
   {id:'chargers', name:'Charger', blurb:'Faster charging means less downtime between rides.', tips:['Voltage must match your battery exactly','More amps = faster charging, but also more heat','Some fast chargers need 220V for full speed'], options:[
     {name:'Stock charger', prices:[]},
@@ -1724,6 +1982,22 @@ var CATEGORIES = [
      ],
      fits:["lightbee"], likely:[], no:[],
      badge:'Charger', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-lbx-charger-67-2v-10a-110v-10a.webp'
+    },
+    {name:'Bonnell 805 - Fast Charger', pid:'charger-bonnell-805-rx-charger-2500w-100-8v-30a-us', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:395.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-charger-2500w-100-8v-30a-us', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Charger 1500W-100.8V-20A-US', pid:'charger-bonnell-805-rx-charger-1500w-100-8v-20a-us', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:295.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-charger-1500w-100-8v-20a-us', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
     },
 ]},
   {id:'cockpit', name:'Cockpit', blurb:'Grips, throttles, and displays — the details you touch every ride.', tips:['Throttle type must match your controller','Lock-on grips stay put; slip-ons are cheaper'], options:[
@@ -1856,6 +2130,134 @@ var CATEGORIES = [
      ],
      fits:["sr"], likely:[], no:[],
      badge:'Controls', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/revrides-e-ride-pro-thumb-throttle.webp'
+    },
+    {name:'Bonnell 805 - Joycon', pid:'cockpit-bonnell-805-rx-joycon', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:98.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-joycon', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Grip Set', pid:'cockpit-bonnell-805-rx-grip-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19.49, url:'https://chargedcycleworks.com/products/bonnell-805-rx-grip-set', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Large Handlebar Pad', pid:'cockpit-bonnell-805-rx-large-handlebar-pad', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:13.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-large-handlebar-pad', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'ProTaper Pillow Top Lite Grips', pid:'cockpit-protaper-pillow-top-lite-grips', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'ProTaper Pillow Top Grips', pid:'cockpit-protaper-pillow-top-grips', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/protaper-pillow-top-grips', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'ODI Universal Lock-On Half Waffle Grips for eMoto', pid:'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:22.95, url:'https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'ODI Ruffian full-waffle grips', pid:'cockpit-odi-ruffian-full-waffle-grips', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:13.46, url:'https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'SXS Burly Shields Hand Guards', pid:'cockpit-sxs-burly-shields-hand-guards', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Renthal 50/50 MX Grips', pid:'cockpit-renthal-50-50-mx-grips', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:17.96, url:'https://chargedcycleworks.com/products/renthal-50-50-mx-grips', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Acerbis X-Ultimate Handguards', pid:'cockpit-acerbis-x-ultimate-handguards', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:34.88, url:'https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'ODI Ruffian no-waffle grips', pid:'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:13.46, url:'https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Acerbis X-Factory Handguards', pid:'cockpit-acerbis-x-factory-handguards', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:71.88, url:'https://chargedcycleworks.com/products/acerbis-x-factory-handguards', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'ODI Ruffian half-waffle grips', pid:'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:13.46, url:'https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Tusk Dual Compound half waffle grips', pid:'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Warp9 eMoto Handguards', pid:'cockpit-warp9-e-moto-handguards', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:45, url:'https://chargedcycleworks.com/products/warp9-e-moto-handguards', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Throttle Assembly', pid:'cockpit-bonnell-805-throttle-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:99.95, url:'https://chargedcycleworks.com/products/bonnell-805-throttle-assembly', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
     },
 ]},
   {id:'cooling', name:'Cooling', blurb:'High-power builds make serious heat. Cooling keeps your motor and controller alive when you\'re pushing hard.', tips:['Mostly needed above ~15 kW or for sustained high load','Check fitment against your specific motor'], options:[
@@ -2056,6 +2458,126 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
     },
+    {name:'Dirt Tricks Sprocket For Bonnell 805/902', pid:'drivetrain-dirt-tricks-zirconium-rear-sprocket-stark-varg', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:125.99, url:'https://chargedcycleworks.com/products/dirt-tricks-zirconium-rear-sprocket-stark-varg', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Renthal TwinRing Sprocket For Bonnell 805/902', pid:'drivetrain-renthal-twinring-sprocket-bonnell-805-902', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:137.66, url:'https://chargedcycleworks.com/products/renthal-twinring-sprocket-bonnell-805-902', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'DID 520 ERVT Gold X-Ring Chain', pid:'drivetrain-did-520-ervt-gold-x-ring-chain', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:194.36, url:'https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Renthal 520 R-1 Works Chain', pid:'drivetrain-520-renthal-r-1-works-chain', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:120.21, url:'https://chargedcycleworks.com/products/520-renthal-r-1-works-chain', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Warp9 520 Primary Chain Drive Kit for Surron Ultra Bee', pid:'drivetrain-ultra-bee-sprocket-drive-kit', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:119, url:'https://chargedcycleworks.com/products/ultra-bee-sprocket-drive-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - 520 Primary Chain Conversion Kit', pid:'drivetrain-bonnell-805-rx-520-primary-chain-conversion-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:99.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-520-primary-chain-conversion-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Primary Drive Belt 26.5 mm', pid:'drivetrain-bonnell-805-rx-primary-drive-belt-26-5-mm', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:65.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-primary-drive-belt-26-5-mm', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Secondary Rear Sprocket', pid:'drivetrain-bonnell-805-rx-secondary-rear-sprocket', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:69.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-secondary-rear-sprocket', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Primary Belt-Drive Kit', pid:'drivetrain-bonnell-805-rx-primary-belt-drive-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:95.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-primary-belt-drive-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Secondary Chain Sliders', pid:'drivetrain-bonnell-805-rx-secondary-chain-sliders', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:9.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-secondary-chain-sliders', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Rear Chain Guide', pid:'drivetrain-bonnell-805-rx-rear-chain-guide', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-rear-chain-guide', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Primary Chain Slider', pid:'drivetrain-bonnell-805-rx-primary-chain-slider', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:8.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-primary-chain-slider', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - 520 Master Clip Link', pid:'drivetrain-bonnell-805-rx-520-master-clip-link', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:5.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-520-master-clip-link', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Jackshaft Sub-Assembly', pid:'drivetrain-bonnell-805-rx-jackshaft-sub-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:198.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-jackshaft-sub-assembly', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Primary Drive 520 ORH Gold X-Ring Chain', pid:'drivetrain-primary-drive-520-orh-gold-x-ring-chain', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:70.99, url:'https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
 ]},
   {id:'electrical', name:'Electrical', blurb:'Dashboards, lights, and wiring that tie the build together.', tips:['Check voltage compatibility with your battery','Plug-and-play beats splicing — look for bike-specific kits'], options:[
     {name:'Stock electrical', prices:[]},
@@ -2187,6 +2709,38 @@ var CATEGORIES = [
      ],
      fits:["mx5"], likely:[], no:[],
      badge:'Electrical', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-talaria-sting-mx5-oem-replacement-display.webp'
+    },
+    {name:'Bonnell 805 - Large Display', pid:'electrical-bonnell-805-rx-large-display', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:318.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-large-display', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Killswitch - Main Unit', pid:'electrical-bonnell-805-rx-killswitch-main-unit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:74.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-killswitch-main-unit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Front Junction Box & Harness', pid:'electrical-bonnell-805-rx-front-junction-box-and-harness', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:199.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-front-junction-box-and-harness', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Bluetooth Adapter', pid:'electrical-bonnell-805-rx-bluetooth-adapter', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:28.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-bluetooth-adapter', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
     },
 ]},
   {id:'guards', name:'Guards', blurb:'Cheap insurance — frame, rotor, and case protection that pays for itself the first crash.', tips:['Bike-specific fitment','Rotor guards need caliper clearance'], options:[
@@ -2337,6 +2891,46 @@ var CATEGORIES = [
      fits:[], likely:["ventus-plus"], no:[],
      badge:'Guard', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-rear-mud-guard-ventus-oem.webp'
     },
+    {name:'Bonnell 805 - Left/Right Upper Frame Guard Set', pid:'guards-bonnell-805-rx-left-right-upper-frame-guard-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:9.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-left-right-upper-frame-guard-set', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - 805 Bash Guard', pid:'guards-bonnell-805-rx-bash-guard', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:29.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-bash-guard', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Welded Bashguard', pid:'guards-bonnell-805-rx-welded-bashguard', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:75.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-welded-bashguard', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'DirtyBike Shock Protector Mud Flap - Bonnell 805', pid:'guards-dirtybike-shock-protector-mud-flap-bonnell-805', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:27, url:'https://chargedcycleworks.com/products/dirtybike-shock-protector-mud-flap-bonnell-805', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'DirtyBike Hard Enduro Skid Plate - Bonnell 805', pid:'guards-dirtybike-hard-enduro-skid-plate-bonnell-805', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:159, url:'https://chargedcycleworks.com/products/dirtybike-hard-enduro-skid-plate-bonnell-805', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
 ]},
   {id:'linkage', name:'Linkage', blurb:'Connects the shock to the swingarm and sets the leverage curve — subtle but noticeable.', tips:['Bike-specific fitment — no universal options','Usually chosen alongside the shock'], options:[
     {name:'Stock linkage', prices:[]},
@@ -2426,6 +3020,30 @@ var CATEGORIES = [
      ],
      fits:["sr"], likely:[], no:[],
      badge:'Linkage', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0.webp'
+    },
+    {name:'Bonnell 805 - Linkage / Suspension Bearing Kit', pid:'linkage-bonnell-805-rx-linkage-suspension-bearing-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:149.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-linkage-suspension-bearing-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Linkage', pid:'linkage-bonnell-805-rx-linkage', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:78.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-linkage', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Rocker Assembly', pid:'linkage-bonnell-805-rx-rocker-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:149.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-rocker-assembly', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
     },
 ]},
   {id:'maintenance', name:'Maintenance', blurb:'Consumables and shop supplies to keep the build running.', tips:['Stock up on what wears: chains, brake pads, tires'], options:[
@@ -2532,6 +3150,62 @@ var CATEGORIES = [
      ],
      fits:["sr"], likely:[], no:[],
      badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-bearing-kit-swingarm-e-ride-pro-sr-and-3-0.webp'
+    },
+    {name:'Bonnell 805 - Kickstand Set', pid:'maintenance-bonnell-805-rx-kickstand-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:129.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-kickstand-set', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Rear Wheel Axle Block | Left & Right', pid:'maintenance-bonnell-805-rx-rear-wheel-axle-block', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:12.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel-axle-block', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Wheel Refurbish Kit | Front & Rear', pid:'maintenance-bonnell-bonnell-805-rx-wheel-refurbish-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:95.95, url:'https://chargedcycleworks.com/products/bonnell-bonnell-805-rx-wheel-refurbish-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Spare Parts Bolt Kit', pid:'maintenance-bonnell-805-rx-spare-parts-bolt-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:59.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-spare-parts-bolt-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Swing Arm Bearing Kit', pid:'maintenance-bonnell-805-rx-swing-arm-bearing-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-swing-arm-bearing-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Headset Bearing Kit', pid:'maintenance-bonnell-805-rx-headset-bearing-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-headset-bearing-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Seat/Steering Lock Kit', pid:'maintenance-bonnell-805-rx-seat-steering-lock-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:14.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-seat-steering-lock-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
     },
 ]},
   {id:'pegs', name:'Foot Pegs', blurb:'Wider, sharper pegs mean more control — especially standing up.', tips:['Mounts are bike-specific','Titanium saves weight; steel lasts longer'], options:[
@@ -2688,6 +3362,22 @@ var CATEGORIES = [
      fits:["lightbee2","lightbee"], likely:["ventus-plus"], no:[],
      badge:'Pegs', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp'
     },
+    {name:'Bonnell 805 - Footpeg Mount | Left & Right', pid:'pegs-bonnell-805-rx-footpeg-mount', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:28.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-mount', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Footpeg Set', pid:'pegs-bonnell-805-rx-footpeg-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:74.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-set', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
 ]},
   {id:'seats', name:'Seats', blurb:'Where you spend the whole ride — comfort and control.', tips:['Tall seats help taller riders; standard keeps footing easy','Gripper covers for aggressive riding, smooth for moving around'], options:[
     {name:'Stock seats', prices:[]},
@@ -2813,6 +3503,14 @@ var CATEGORIES = [
      ],
      fits:[], likely:["ventus-plus"], no:[],
      badge:'Seat', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-ventus-seat-ventus-oem.webp'
+    },
+    {name:'Bonnell 805 - Seat', pid:'seat-bonnell-805-rx-seat', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:99.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-seat', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
     },
 ]},
   {id:'street', name:'Street', blurb:'Lights, mirrors, and signals for road-legal riding where it\'s allowed.', tips:['Legality varies wildly by state — check yours','Wiring effort ranges from plug-and-play to a full afternoon'], options:[
@@ -3024,6 +3722,14 @@ var CATEGORIES = [
      fits:["ventus-plus"], likely:[], no:[],
      badge:'Swingarm', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-swing-arm-ventus-oem.webp'
     },
+    {name:'Bonnell 805 - Swingarm Assembly', pid:'swingarm-bonnell-805-rx-swingarm-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:569, url:'https://chargedcycleworks.com/products/bonnell-805-rx-swingarm-assembly', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
 ]},
   {id:'tires', name:'Tires & Tubes', blurb:'Traction. The right tire for your terrain matters more than most upgrades.', tips:['Size must match your rims','Soft-terrain, intermediate, and hard-pack tires are very different','DOT-rated if you ride street'], options:[
     {name:'Stock tires & tubes', prices:[]},
@@ -3074,16 +3780,18 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:59.46, url:'https://chargedcycleworks.com/products/shinko-244-dual-sport-tires', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
-     badge:'Shinko', stock:'unknown', img:'img/parts/tire-shinko-244-dualsport.webp'
+     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-shinko-244-dualsport.webp'
     },
     {name:'Kenda K270 Dual Sport Tire', pid:'tire-kenda-k270-dualsport', tier:'budget',
      prices:[
       {v:'RevZilla', p:48, url:'https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245'},
       /* AFFILIATE: replace with affiliate link */
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
-     badge:'Kenda', stock:'unknown', img:'img/parts/tire-kenda-k270-dualsport.webp'
+     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
+     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-kenda-k270-dualsport.webp'
     },
     {name:'Tusk Dsport Adventure Tire', pid:'tire-tusk-dsport-adventure', tier:'budget',
      prices:[
@@ -3105,17 +3813,21 @@ var CATEGORIES = [
      prices:[
       {v:'MotoSport', p:120, url:'https://www.motosport.com/shinko-r525-cheater-rear-tire'},
       /* AFFILIATE: replace with affiliate link */
+      {v:'Charged Cycle Works', p:131.71, url:'https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
-     badge:'Shinko', stock:'unknown', img:'img/parts/tire-shinko-525-cheater.webp'
+     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-shinko-525-cheater.webp'
     },
     {name:'Dunlop Geomax MX34 Tire', pid:'tire-dunlop-mx34', tier:'mid',
      prices:[
       {v:'RevZilla', p:115, url:'https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310'},
       /* AFFILIATE: replace with affiliate link */
+      {v:'Charged Cycle Works', p:114.99, url:'https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
-     badge:'Dunlop', stock:'unknown', img:'img/parts/tire-dunlop-mx34.webp'
+     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-dunlop-mx34.webp'
     },
     {name:'Michelin StarCross 6 Medium Soft Tire', pid:'tire-michelin-starcross6-ms', tier:'premium',
      prices:[
@@ -3145,9 +3857,11 @@ var CATEGORIES = [
      prices:[
       {v:'RevZilla', p:115, url:'https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318'},
       /* AFFILIATE: replace with affiliate link */
+      {v:'Charged Cycle Works', p:103.99, url:'https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
-     badge:'Bridgestone', stock:'unknown', img:'img/parts/tire-bridgestone-x31.webp'
+     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-bridgestone-x31.webp'
     },
     {name:'Maxxis Maxxcross MX-SI Tire', pid:'tire-maxxis-mxsi', tier:'mid',
      prices:[
@@ -3199,11 +3913,11 @@ var CATEGORIES = [
     },
     {name:'Kenda Washougal III Tire', pid:'tire-kenda-washougal3-ccw', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:54.95, url:'https://chargedcycleworks.com/products/kenda-k7102-washougal-iii', chk:'2026-10-18'},
+      {v:'Charged Cycle Works', p:74.95, url:'https://chargedcycleworks.com/products/kenda-k7102-washougal-iii', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
-     badge:'Kenda', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/tire-kenda-washougal3-ccw.webp'
+     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     badge:'Kenda', stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/tire-kenda-washougal3-ccw.webp'
     },
     {name:'Mitas Terra Force-MX 16" Rear Tire', pid:'tire-mitas-terraforce-16-ccw', tier:'mid',
      prices:[
@@ -3218,8 +3932,8 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:82.88, url:'https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ultrabee","ultrabee-21kw"], likely:["arctic-xd","bonnell-805rx","falcon-gt","komodo","rerode-rx","ss40","stark-vargex","storm-bee","ventus-plus","yvolt-surge-v"], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62","sr","ss30"],
-     badge:'IRC', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-irc-ve33-ccw.webp'
+     fits:["bonnell-805rx","lightbee","ultrabee","ultrabee-21kw"], likely:["arctic-xd","falcon-gt","komodo","rerode-rx","ss40","stark-vargex","storm-bee","ventus-plus","yvolt-surge-v"], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62","sr","ss30"],
+     badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-ve33-ccw.webp'
     },
     {name:'Michelin StarCross 5 Front Tire', pid:'tire-michelin-starcross5-ccw', tier:'premium',
      prices:[
@@ -3231,11 +3945,11 @@ var CATEGORIES = [
     },
     {name:'Tusk T-35 Front Tire', pid:'tire-tusk-t35-front-ccw', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:26.27, url:'https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire', chk:'2026-10-18'},
+      {v:'Charged Cycle Works', p:53.77, url:'https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-tusk-t35-front-ccw.webp'
+     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-tusk-t35-front-ccw.webp'
     },
     {name:'Tusk T-35 Rear Tire', pid:'tire-tusk-t35-rear-ccw', tier:'budget',
      prices:[
@@ -3295,27 +4009,27 @@ var CATEGORIES = [
     },
     {name:'Dunlop MX53 Tire', pid:'tire-dunlop-mx53-ccw', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:63, url:'https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires', chk:'2026-10-18'},
+      {v:'Charged Cycle Works', p:109.99, url:'https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v","mx5"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-dunlop-mx53-ccw.webp'
+     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v","mx5"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-dunlop-mx53-ccw.webp'
     },
     {name:'Shinko SR241 Trials Tire', pid:'tire-shinko-sr241-ccw', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:54.95, url:'https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19', chk:'2026-10-18'},
+      {v:'Charged Cycle Works', p:74.99, url:'https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4"], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v","mx5"], no:[],
-     badge:'Shinko', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-shinko-sr241-ccw.webp'
+     fits:["bonnell-805rx","lightbee","mx4"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v","mx5"], no:[],
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-shinko-sr241-ccw.webp'
     },
     {name:'IRC IX-09 Gekkota Gummy Tire', pid:'tire-irc-ix09-gekkota-ccw', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:89.88, url:'https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["arctic-xd","bonnell-805rx","falcon-gt","komodo","lightbee","rerode-rx","sr","ss30","ss40","stark-vargex","storm-bee","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01"],
-     badge:'IRC', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-irc-ix09-gekkota-ccw.webp'
+     fits:["bonnell-805rx"], likely:["arctic-xd","falcon-gt","komodo","lightbee","rerode-rx","sr","ss30","ss40","stark-vargex","storm-bee","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01"],
+     badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-ix09-gekkota-ccw.webp'
     },
     {name:"CST 80/100-19 OEM Tire — E Ride Pro SS (E7207)", pid:'voro-eride-ss-cst-80100-19', tier:'OEM',
      prices:[
@@ -3414,6 +4128,206 @@ var CATEGORIES = [
      ],
      fits:["sr"], likely:[], no:[],
      badge:'Tire', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-fattyoff-road-100-90-18-rear-tire-tube-rim-strip.webp'
+    },
+    {name:'Bonnell 805 - Rim Strip', pid:'tire-bonnell-805-rx-rim-strip', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:3.49, url:'https://chargedcycleworks.com/products/bonnell-805-rx-rim-strip', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Bonnell', stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - TR4 Inner Tube', pid:'tire-bonnell-805-rx-tr4-inner-tube', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:10, url:'https://chargedcycleworks.com/products/bonnell-805-rx-tr4-inner-tube', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Bonnell', stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Rear Tire', pid:'tire-bonnell-805-rx-rear-tire', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:69.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-rear-tire', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Bonnell', stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Front Tire', pid:'tire-bonnell-805-rx-front-tire', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:59.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-front-tire', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Bonnell', stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Bonnell 805 - Rim Lock', pid:'tire-bonnell-805-rx-rim-lock', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:7.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-rim-lock', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Bonnell', stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Warp9 Titanium Pro Rim Lock', pid:'tire-warp9-titanium-pro-rim-lock', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:24, url:'https://chargedcycleworks.com/products/warp9-titanium-pro-rim-lock', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Dunlop MX54 Geomax Soft/Int Terrain Tires', pid:'tire-dunlop-mx54-geomax-soft-int-terrain-tires', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:48.99, url:'https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Dunlop Geomax EN91EX Gummy Tire', pid:'tire-dunlop-geomax-en91ex-gummy-tire', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:174.99, url:'https://chargedcycleworks.com/products/dunlop-geomax-en91ex-gummy-tire', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:[], likely:[], no:[],
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'BikeMaster TR6 Inner Tubes', pid:'tire-bikemaster-tr6-inner-tubes', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:11.99, url:'https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'BikeMaster', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Kenda K775 Washougal II Tires', pid:'tire-kenda-k775-washougal-ii-front-tire', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:56.99, url:'https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Nuetech 5150 Nitro Mousse Foam Tube for Tubliss Gen 2.0', pid:'tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:124.95, url:'https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Nuetech', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'IRC JX8 GEKKOTA Rear Gummy Tire 110/100-18', pid:'tire-irc-jx8-gekkota-rear-gummy-tire', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:115.88, url:'https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'IRC', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'IRC Tubes', pid:'tire-irc-tubes', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:13.5, url:'https://chargedcycleworks.com/products/irc-tubes', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'IRC', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'WPS Rim Strip', pid:'tire-wps-rim-strip', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:2.49, url:'https://chargedcycleworks.com/products/wps-rim-strip', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'WPS', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Dunlop AT82 Geomax All Terrain Terrain Tire', pid:'tire-dunlop-at82-geomax-all-terrain-terrain-tire', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:116.99, url:'https://chargedcycleworks.com/products/dunlop-at82-geomax-all-terrain-terrain-tire', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'IRC VE33S Gekkota Gummy Tire 110/100x18', pid:'tire-tire-ve-33s-gekkota-rear-tire', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:99.88, url:'https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'IRC', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Tusk Talon Multi Terrain Front Tire 80/100-21', pid:'tire-tusk-talon-multi-terrain-tire-80-100-21', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:58.88, url:'https://chargedcycleworks.com/products/tusk-talon-multi-terrain-tire-80-100-21', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'IRC IX-07S 21" Front Tire (light weight)', pid:'tire-irc-ix-07s-21-front-tire-light-weight', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:84.95, url:'https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'IRC', stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Dunlop MX14 Sand Scoop Tire', pid:'tire-dunlop-mx14-sand-scoop-tire', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:69.99, url:'https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Shinko 525 Soft-Intermediate Terrain Tire', pid:'tire-shinko-525-soft-intermediate-terrain-tire', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:71.11, url:'https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Kenda 1.3mm Tube (light weight)', pid:'tire-kenda-1-3mm-tube-light-weight', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/kenda-1-3mm-tube-light-weight', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Nuetech Nitro Mousse Foam Tube', pid:'tire-nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:133.15, url:'https://chargedcycleworks.com/products/nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Nuetech', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Kenda K774 Ibex Hybrid Sticky Tires', pid:'tire-kenda-k774-ibex-hybrid-sticky-front-tire', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:59.88, url:'https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'NUETECH TUBLISS GEN 2.0 (TUBELESS) TIRE SYSTEM', pid:'tire-nuetech-tubliss-gen-2-0-tubeless-tire-system', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:99.95, url:'https://chargedcycleworks.com/products/nuetech-tubliss-gen-2-0-tubeless-tire-system', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Nuetech', stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Sedona Heavy Duty 2mm Tube for all eMX eMoto Bikes', pid:'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     badge:'Sedona', stock:'in_stock', stockChk:'2026-11-05'
     },
 ]},
   {id:'titanium', name:'Titanium Hardware', blurb:'Titanium bolt kits and hardware — shed grams and add color to your build.', tips:['Match thread pitch and length to your OEM bolts before ordering','Use anti-seize — titanium galls easily','Axle, brake and motor-mount bolts are safety-critical: follow torque specs','Anodized colors vary between batches — order kits together for a match'], options:[
@@ -3545,6 +4459,22 @@ var CATEGORIES = [
      ],
      fits:["mx4"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/mxbolts-talaria-kit.webp'
+    },
+    {name:'Bonnell 805 - Titanium Bolt Kit', pid:'titanium-bonnell-805-rx-titanium-bolt-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:695.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-titanium-bolt-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Warp9 eMoto Handguard Titanium Bolt Kit', pid:'titanium-warp9-e-moto-handguard-titanium-bolt-kit', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:22, url:'https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit', chk:'2026-11-05'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["bonnell-805rx"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-05'
     },
   ]},
 ];
@@ -3782,9 +4712,132 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'komodo-rear-brake-pads|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/bpr090/']},
   'komodo-rear-brake-caliper|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/bpcfr002/']},
   'komodo-front-brake-lever|komodo':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)',u:['https://emotobykes.com/parts/talaria/brlvf158/']},
-  'brakes-warp9-folding-lever|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (fitment audit Oct 18, 2026)',u:['https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro']},
+  'brakes-warp9-folding-lever|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (fitment audit Oct 18, 2026)',u:['https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro', 'https://chargedcycleworks.com/products/emoto-folding-brake-levers']},
   'brakes-asv-f4-type2-lever-set|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/asv-f4-brake-lever-set-surron-eride-talaria']},
   'drivetrain-renthal-sprocket-bonnell-805-902|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/renthal-sprocket-bonnell-805-902']},
+  'tire-kenda-washougal3-ccw|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW lists the 80/100-21 variant (stock front size) for the Bonnell 805 RX (checked Nov 5, 2026). All variants currently unavailable.',u:['https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-dunlop-mx34|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW lists 80/100-21, 100/100-18 and 110/100-18 (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires']},
+  'tire-dunlop-mx53-ccw|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW lists the 80/100-21 variant (stock front size) for the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-bridgestone-x31|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW lists 80/100-21 and 110/100-18 (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18']},
+  'tire-irc-ve33-ccw|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW lists the 100/100-18 variant (stock rear size) for the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-kenda-k270-dualsport|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW lists 3.00x21 front and 3.50x18 rear (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'tire-shinko-244-dualsport|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW lists 3.00x21 front and 3.50x18 rear (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/shinko-244-dual-sport-tires']},
+  'tire-tusk-t35-front-ccw|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW lists the 80/100-21 variant (stock front size) for the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-irc-ix09-gekkota-ccw|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW lists 80/100-21 and 110/100-18 (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026). Both currently unavailable.',u:['https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-shinko-525-cheater|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW lists the 110/100-18 variant (stock rear size) for the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260']},
+  'tire-shinko-sr241-ccw|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW lists 3.00x21 and 3.50x18 (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-bonnell-805-rx-rim-strip|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-rim-strip']},
+  'tire-bonnell-805-rx-tr4-inner-tube|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 2.',u:['https://chargedcycleworks.com/products/bonnell-805-rx-tr4-inner-tube']},
+  'tire-bonnell-805-rx-rear-tire|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 100/90-18.',u:['https://chargedcycleworks.com/products/bonnell-805-rx-rear-tire']},
+  'tire-bonnell-805-rx-front-tire|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.',u:['https://chargedcycleworks.com/products/bonnell-805-rx-front-tire']},
+  'tire-bonnell-805-rx-rim-lock|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-rim-lock']},
+  'tire-warp9-titanium-pro-rim-lock|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/warp9-titanium-pro-rim-lock']},
+  'tire-dunlop-mx54-geomax-soft-int-terrain-tires|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
+  'tire-bikemaster-tr6-inner-tubes|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): Heavy Duty Rubber / 100/100-18, Natural Rubber / 70/100-21, Natural Rubber / 90/100-18.',u:['https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes']},
+  'tire-kenda-k775-washougal-ii-front-tire|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.',u:['https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire']},
+  'tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19']},
+  'tire-irc-jx8-gekkota-rear-gummy-tire|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire']},
+  'tire-irc-tubes|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 2.',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'tire-wps-rim-strip|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+  'tire-dunlop-at82-geomax-all-terrain-terrain-tire|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 110/100-18, 80/100-21.',u:['https://chargedcycleworks.com/products/dunlop-at82-geomax-all-terrain-terrain-tire']},
+  'tire-tire-ve-33s-gekkota-rear-tire|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire']},
+  'tire-tusk-talon-multi-terrain-tire-80-100-21|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/tusk-talon-multi-terrain-tire-80-100-21']},
+  'tire-irc-ix-07s-21-front-tire-light-weight|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight']},
+  'tire-dunlop-mx14-sand-scoop-tire|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 110/100-18.',u:['https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire']},
+  'tire-shinko-525-soft-intermediate-terrain-tire|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 100/100-18, 110/100-18.',u:['https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire']},
+  'tire-kenda-1-3mm-tube-light-weight|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 100/100-18, 80/100-21.',u:['https://chargedcycleworks.com/products/kenda-1-3mm-tube-light-weight']},
+  'tire-nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria']},
+  'tire-kenda-k774-ibex-hybrid-sticky-front-tire|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.',u:['https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire']},
+  'tire-nuetech-tubliss-gen-2-0-tubeless-tire-system|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/nuetech-tubliss-gen-2-0-tubeless-tire-system']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 100/100-18 | 350/400-18, 80/100-21 | 275/300-21.',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'cockpit-bonnell-805-rx-joycon|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-joycon']},
+  'cockpit-bonnell-805-rx-grip-set|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-grip-set']},
+  'cockpit-bonnell-805-rx-large-handlebar-pad|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-large-handlebar-pad']},
+  'cockpit-protaper-pillow-top-lite-grips|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
+  'cockpit-protaper-pillow-top-grips|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/protaper-pillow-top-grips']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-odi-ruffian-full-waffle-grips|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-sxs-burly-shields-hand-guards|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards']},
+  'cockpit-renthal-50-50-mx-grips|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'cockpit-acerbis-x-ultimate-handguards|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-acerbis-x-factory-handguards|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/acerbis-x-factory-handguards']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-warp9-e-moto-handguards|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguards']},
+  'cockpit-bonnell-805-throttle-assembly|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-throttle-assembly']},
+  'drivetrain-dirt-tricks-zirconium-rear-sprocket-stark-varg|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/dirt-tricks-zirconium-rear-sprocket-stark-varg']},
+  'drivetrain-renthal-twinring-sprocket-bonnell-805-902|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/renthal-twinring-sprocket-bonnell-805-902']},
+  'drivetrain-did-520-ervt-gold-x-ring-chain|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain']},
+  'drivetrain-520-renthal-r-1-works-chain|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/520-renthal-r-1-works-chain']},
+  'drivetrain-ultra-bee-sprocket-drive-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/ultra-bee-sprocket-drive-kit']},
+  'drivetrain-bonnell-805-rx-520-primary-chain-conversion-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-520-primary-chain-conversion-kit']},
+  'drivetrain-bonnell-805-rx-primary-drive-belt-26-5-mm|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-primary-drive-belt-26-5-mm']},
+  'drivetrain-bonnell-805-rx-secondary-rear-sprocket|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-secondary-rear-sprocket']},
+  'drivetrain-bonnell-805-rx-primary-belt-drive-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-primary-belt-drive-kit']},
+  'drivetrain-bonnell-805-rx-secondary-chain-sliders|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-secondary-chain-sliders']},
+  'drivetrain-bonnell-805-rx-rear-chain-guide|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-rear-chain-guide']},
+  'drivetrain-bonnell-805-rx-primary-chain-slider|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-primary-chain-slider']},
+  'drivetrain-bonnell-805-rx-520-master-clip-link|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-520-master-clip-link']},
+  'drivetrain-bonnell-805-rx-jackshaft-sub-assembly|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-jackshaft-sub-assembly']},
+  'drivetrain-primary-drive-520-orh-gold-x-ring-chain|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain']},
+  'plastics-outlaw|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/outlaw']},
+  'plastics-grand-prix|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/grand-prix']},
+  'plastics-resin|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/resin']},
+  'plastics-morph|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/morph']},
+  'plastics-flux|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/flux']},
+  'plastics-virus|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/virus']},
+  'plastics-vision|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/vision']},
+  'plastics-sketcher|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/sketcher']},
+  'plastics-bonnell-805-rx-front-white-fender|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-front-white-fender']},
+  'plastics-bonnell-805-rx-rear-white-fender|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-rear-white-fender']},
+  'plastics-bonnell-805-rx-white-number-plate-1|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-white-number-plate-1']},
+  'plastics-bonnell-805-oem-plastics-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-oem-plastics-kit']},
+  'plastics-bonnell-805-rx-common-plastics-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-common-plastics-kit']},
+  'maintenance-bonnell-805-rx-kickstand-set|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-kickstand-set']},
+  'maintenance-bonnell-805-rx-rear-wheel-axle-block|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel-axle-block']},
+  'maintenance-bonnell-bonnell-805-rx-wheel-refurbish-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-bonnell-805-rx-wheel-refurbish-kit']},
+  'maintenance-bonnell-805-rx-spare-parts-bolt-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-spare-parts-bolt-kit']},
+  'maintenance-bonnell-805-rx-swing-arm-bearing-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-swing-arm-bearing-kit']},
+  'maintenance-bonnell-805-rx-headset-bearing-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-headset-bearing-kit']},
+  'maintenance-bonnell-805-rx-seat-steering-lock-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-seat-steering-lock-kit']},
+  'wheels-excel-wheels-for-bonnell-805-rx|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/excel-wheels-for-bonnell-805-rx']},
+  'wheels-bonnell-805-rx-19-16-wheel-set|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-19-16-wheel-set']},
+  'wheels-bonnell-805-rx-rear-wheel|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel']},
+  'wheels-bonnell-805-rx-1-6x21-front-wheel|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-1-6x21-front-wheel']},
+  'wheels-bonnell-805-rx-17-17-supermoto-wheel-set|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-17-17-supermoto-wheel-set']},
+  'brakes-bonnell-805-rx-brake-lever|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-brake-lever']},
+  'brakes-bonnell-805-rx-brake-disc-set|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-brake-disc-set']},
+  'brakes-bonnell-805-rx-brake-system|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-brake-system']},
+  'brakes-bonnell-805-rx-brake-line|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-brake-line']},
+  'brakes-bonnell-805-rx-brake-pad-set|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-brake-pad-set']},
+  'guards-bonnell-805-rx-left-right-upper-frame-guard-set|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-left-right-upper-frame-guard-set']},
+  'guards-bonnell-805-rx-bash-guard|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-bash-guard']},
+  'guards-bonnell-805-rx-welded-bashguard|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-welded-bashguard']},
+  'guards-dirtybike-shock-protector-mud-flap-bonnell-805|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/dirtybike-shock-protector-mud-flap-bonnell-805']},
+  'guards-dirtybike-hard-enduro-skid-plate-bonnell-805|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/dirtybike-hard-enduro-skid-plate-bonnell-805']},
+  'electrical-bonnell-805-rx-large-display|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-large-display']},
+  'electrical-bonnell-805-rx-killswitch-main-unit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-killswitch-main-unit']},
+  'electrical-bonnell-805-rx-front-junction-box-and-harness|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-front-junction-box-and-harness']},
+  'electrical-bonnell-805-rx-bluetooth-adapter|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-bluetooth-adapter']},
+  'handlebar-bonnell-805-rx-high-bend-handlebar|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-high-bend-handlebar']},
+  'linkage-bonnell-805-rx-linkage-suspension-bearing-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-linkage-suspension-bearing-kit']},
+  'linkage-bonnell-805-rx-linkage|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-linkage']},
+  'linkage-bonnell-805-rx-rocker-assembly|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-rocker-assembly']},
+  'charger-bonnell-805-rx-charger-2500w-100-8v-30a-us|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-charger-2500w-100-8v-30a-us']},
+  'charger-bonnell-805-rx-charger-1500w-100-8v-20a-us|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-charger-1500w-100-8v-20a-us']},
+  'batteries-bonnell-805-rx-battery|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-battery']},
+  'batteries-bonnell-805-rx-battery-latch-base-assembly|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-battery-latch-base-assembly']},
+  'pegs-bonnell-805-rx-footpeg-mount|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-mount']},
+  'pegs-bonnell-805-rx-footpeg-set|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-set']},
+  'titanium-bonnell-805-rx-titanium-bolt-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-titanium-bolt-kit']},
+  'titanium-warp9-e-moto-handguard-titanium-bolt-kit|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit']},
+  'shock-sirris-r46-rear-shock-spring|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/sirris-r46-rear-shock-spring']},
+  'fork-sirris-f43-fork-spring-single|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/sirris-f43-fork-spring-single']},
+  'seat-bonnell-805-rx-seat|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-seat']},
+  'swingarm-bonnell-805-rx-swingarm-assembly|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-swingarm-assembly']},
+  'motor-bonnell-805-rx-motor-encoder|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-motor-encoder']},
+  'controller-bonnell-805-rx-x30-controller|bonnell-805rx':{s:'confirmed_direct_fit',n:'Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)',u:['https://chargedcycleworks.com/products/bonnell-805-rx-x30-controller']},
   'charged-brake-pads-emoto|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
   'charged-brake-pads-emoto|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
   'charged-brake-pads-emoto|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},

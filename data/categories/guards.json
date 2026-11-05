@@ -593,6 +593,151 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-rear-mud-guard-ventus-oem.webp"
+    },
+    {
+      "id": "guards-bonnell-805-rx-left-right-upper-frame-guard-set",
+      "name": "Bonnell 805 - Left/Right Upper Frame Guard Set",
+      "brand": "Bonnell",
+      "category": "guards",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 9.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-left-right-upper-frame-guard-set",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-left-right-upper-frame-guard-set"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Left/Right Upper Frame Guard Set Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-left-right-upper-frame-guard-set"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "guards-bonnell-805-rx-bash-guard",
+      "name": "Bonnell 805 - 805 Bash Guard",
+      "brand": "Bonnell",
+      "category": "guards",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 29.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-bash-guard",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-bash-guard"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "805 Bash Guard Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-bash-guard"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "guards-bonnell-805-rx-welded-bashguard",
+      "name": "Bonnell 805 - Welded Bashguard",
+      "brand": "Bonnell",
+      "category": "guards",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 75.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-welded-bashguard",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-welded-bashguard"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Welded Bashguard (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 75.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-welded-bashguard"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "guards-dirtybike-shock-protector-mud-flap-bonnell-805",
+      "name": "DirtyBike Shock Protector Mud Flap - Bonnell 805",
+      "brand": "DirtyBike",
+      "category": "guards",
+      "badge": null,
+      "tier": "midrange",
+      "price_usd": 27.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dirtybike-shock-protector-mud-flap-bonnell-805",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dirtybike-shock-protector-mud-flap-bonnell-805"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Keep mud, roost, and trail debris away from the rear suspension of your Bonnell 805 with the DirtyBike Shock Protector Mud Flap .;",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 27.0,
+          "buy_url": "https://chargedcycleworks.com/products/dirtybike-shock-protector-mud-flap-bonnell-805"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "guards-dirtybike-hard-enduro-skid-plate-bonnell-805",
+      "name": "DirtyBike Hard Enduro Skid Plate - Bonnell 805",
+      "brand": "DirtyBike",
+      "category": "guards",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 159.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dirtybike-hard-enduro-skid-plate-bonnell-805",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dirtybike-hard-enduro-skid-plate-bonnell-805"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Upgrade your Bonnell 805 with the DirtyBike Hard Enduro Skid Plate , a heavy-duty bash guard designed to protect the motor, frame,",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 159.0,
+          "buy_url": "https://chargedcycleworks.com/products/dirtybike-hard-enduro-skid-plate-bonnell-805"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -943,6 +1088,56 @@
       "product_id": "voro-eride-ss-motor-skid-plate",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-left-right-upper-frame-guard-set"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "guards-bonnell-805-rx-left-right-upper-frame-guard-set",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-bash-guard"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "guards-bonnell-805-rx-bash-guard",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-welded-bashguard"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "guards-bonnell-805-rx-welded-bashguard",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dirtybike-shock-protector-mud-flap-bonnell-805"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "guards-dirtybike-shock-protector-mud-flap-bonnell-805",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dirtybike-hard-enduro-skid-plate-bonnell-805"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "guards-dirtybike-hard-enduro-skid-plate-bonnell-805",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

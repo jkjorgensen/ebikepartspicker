@@ -478,6 +478,209 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-bearing-kit-swingarm-e-ride-pro-sr-and-3-0.webp"
+    },
+    {
+      "id": "maintenance-bonnell-805-rx-kickstand-set",
+      "name": "Bonnell 805 - Kickstand Set",
+      "brand": "Bonnell",
+      "category": "maintenance",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 129.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-kickstand-set",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-kickstand-set"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Kickstand Set (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 129.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-kickstand-set"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "maintenance-bonnell-805-rx-rear-wheel-axle-block",
+      "name": "Bonnell 805 - Rear Wheel Axle Block | Left & Right",
+      "brand": "Bonnell",
+      "category": "maintenance",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 12.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel-axle-block",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel-axle-block"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Rear Wheel Axle Block Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 12.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel-axle-block"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "maintenance-bonnell-bonnell-805-rx-wheel-refurbish-kit",
+      "name": "Bonnell 805 - Wheel Refurbish Kit | Front & Rear",
+      "brand": "Bonnell",
+      "category": "maintenance",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 95.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-bonnell-805-rx-wheel-refurbish-kit",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-bonnell-805-rx-wheel-refurbish-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Wheel Refurbish Kit Fitment: Bonnell 805. Price range $95.95-$137.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 95.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-bonnell-805-rx-wheel-refurbish-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "maintenance-bonnell-805-rx-spare-parts-bolt-kit",
+      "name": "Bonnell 805 - Spare Parts Bolt Kit",
+      "brand": "Bonnell",
+      "category": "maintenance",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 59.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-spare-parts-bolt-kit",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-spare-parts-bolt-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Spare Parts Bolt Kit Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-spare-parts-bolt-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "maintenance-bonnell-805-rx-swing-arm-bearing-kit",
+      "name": "Bonnell 805 - Swing Arm Bearing Kit",
+      "brand": "Bonnell",
+      "category": "maintenance",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 19.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-swing-arm-bearing-kit",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-swing-arm-bearing-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Swing Arm Bearing Kit Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-swing-arm-bearing-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "maintenance-bonnell-805-rx-headset-bearing-kit",
+      "name": "Bonnell 805 - Headset Bearing Kit",
+      "brand": "Bonnell",
+      "category": "maintenance",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 19.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-headset-bearing-kit",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-headset-bearing-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Headset Bearing Kit Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-headset-bearing-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "maintenance-bonnell-805-rx-seat-steering-lock-kit",
+      "name": "Bonnell 805 - Seat/Steering Lock Kit",
+      "brand": "Bonnell",
+      "category": "maintenance",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 14.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-seat-steering-lock-kit",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-seat-steering-lock-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Seat/Steering Lock Kit (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 14.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-seat-steering-lock-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -880,6 +1083,76 @@
         "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
       ],
       "notes": ""
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-kickstand-set"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "maintenance-bonnell-805-rx-kickstand-set",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel-axle-block"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "maintenance-bonnell-805-rx-rear-wheel-axle-block",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-bonnell-805-rx-wheel-refurbish-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "maintenance-bonnell-bonnell-805-rx-wheel-refurbish-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-spare-parts-bolt-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "maintenance-bonnell-805-rx-spare-parts-bolt-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-swing-arm-bearing-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "maintenance-bonnell-805-rx-swing-arm-bearing-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-headset-bearing-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "maintenance-bonnell-805-rx-headset-bearing-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-seat-steering-lock-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "maintenance-bonnell-805-rx-seat-steering-lock-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

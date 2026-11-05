@@ -681,6 +681,151 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-surron-oem-supermoto-wheelset.webp"
+    },
+    {
+      "id": "wheels-excel-wheels-for-bonnell-805-rx",
+      "name": "Excel Wheels for Bonnell 805 RX",
+      "brand": "Excel",
+      "category": "wheels",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 1299.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/excel-wheels-for-bonnell-805-rx",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/excel-wheels-for-bonnell-805-rx"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Built in-house by Charged Cycle Works these special edition wheels use OEM Bonnell hubs and spokes laced to the most well known an…. 18/21 and 19/21 sets, Black/Gold/Blue/Silver; with Dunlop MX34 or MX54 tires $1,649. All variants currently unavailable (coming soon). Price range $1299-$1649 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1299.0,
+          "buy_url": "https://chargedcycleworks.com/products/excel-wheels-for-bonnell-805-rx"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "wheels-bonnell-805-rx-19-16-wheel-set",
+      "name": "Bonnell 805 - 19\"/16\" Wheel Set",
+      "brand": "Bonnell",
+      "category": "wheels",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 899.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-19-16-wheel-set",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-19-16-wheel-set"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Bonnell OEM 19\"/16\" Wheel Set Perfect for lowering the seat height / center of gravity for shorter riders Fitment: Bonnell 805. 19/16 set — lowers seat height. Currently unavailable.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 899.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-19-16-wheel-set"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "wheels-bonnell-805-rx-rear-wheel",
+      "name": "Bonnell 805 - Rear Wheel",
+      "brand": "Bonnell",
+      "category": "wheels",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 369.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "OEM Rear Wheel Fitment: Bonnell 805 Sprocket and Rotor not included.. Rear wheel $369.95–$399.95. Currently unavailable. Price range $369.95-$399.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 369.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "wheels-bonnell-805-rx-1-6x21-front-wheel",
+      "name": "Bonnell 805 - 1.6x21 Front Wheel",
+      "brand": "Bonnell",
+      "category": "wheels",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 349.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-1-6x21-front-wheel",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-1-6x21-front-wheel"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "OEM 21 x 1.6\" Front Wheel Fitment: Bonnell 805 *Rotor not included. 1.6x21 front wheel. Currently unavailable.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 349.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-1-6x21-front-wheel"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "wheels-bonnell-805-rx-17-17-supermoto-wheel-set",
+      "name": "Bonnell 805 - 17\"/17\" Supermoto Wheel Set",
+      "brand": "Bonnell",
+      "category": "wheels",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 849.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-17-17-supermoto-wheel-set",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-17-17-supermoto-wheel-set"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "17\"/17\" Supermoto Wheel Set Fitment: Bonnell 805. 17/17 supermoto set. In stock.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 849.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-17-17-supermoto-wheel-set"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -1275,6 +1420,56 @@
       "product_id": "voro-eride-ss-wheel-assembly",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/excel-wheels-for-bonnell-805-rx"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "wheels-excel-wheels-for-bonnell-805-rx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-19-16-wheel-set"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "wheels-bonnell-805-rx-19-16-wheel-set",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "wheels-bonnell-805-rx-rear-wheel",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-1-6x21-front-wheel"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "wheels-bonnell-805-rx-1-6x21-front-wheel",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-17-17-supermoto-wheel-set"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "wheels-bonnell-805-rx-17-17-supermoto-wheel-set",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

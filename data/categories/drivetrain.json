@@ -738,6 +738,441 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "drivetrain-dirt-tricks-zirconium-rear-sprocket-stark-varg",
+      "name": "Dirt Tricks Sprocket For Bonnell 805/902",
+      "brand": "Dirt Tricks",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 125.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dirt-tricks-zirconium-rear-sprocket-stark-varg",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dirt-tricks-zirconium-rear-sprocket-stark-varg"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Key Features Compatible with Bonnell 805 and 902 520 chain compatibility High-strength chromoly steel construction Zirconium coati",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 125.99,
+          "buy_url": "https://chargedcycleworks.com/products/dirt-tricks-zirconium-rear-sprocket-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-renthal-twinring-sprocket-bonnell-805-902",
+      "name": "Renthal TwinRing Sprocket For Bonnell 805/902",
+      "brand": "Renthal",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 137.66,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/renthal-twinring-sprocket-bonnell-805-902",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/renthal-twinring-sprocket-bonnell-805-902"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "The Renthal TwinRing Sprocket for Bonnell 805/902 combines the low weight of an aluminum sprocket with the long-wearing durability",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 137.66,
+          "buy_url": "https://chargedcycleworks.com/products/renthal-twinring-sprocket-bonnell-805-902"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-did-520-ervt-gold-x-ring-chain",
+      "name": "DID 520 ERVT Gold X-Ring Chain",
+      "brand": "DID",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 194.36,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Fits bikes with 520 chains including: Surron Ultra Bee (96 Stock) Bonnell 805 RX (100 stock, 102 for increased wheelbase) Stark Va…. Chain $194.36–$209.55 by length (master link $10.64). 520 pitch = stock rear chain. Price range $10.64-$209.55 at CCW; listed price is the lowest variant. Listed price $194.36 is the chain itself; the $10.64 variant is a master link.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 194.36,
+          "buy_url": "https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-520-renthal-r-1-works-chain",
+      "name": "Renthal 520 R-1 Works Chain",
+      "brand": "Renthal",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 120.21,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/520-renthal-r-1-works-chain",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/520-renthal-r-1-works-chain"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Sizing Links Cut Fee Ultra Bee Sprockets Stock 96 $10 50T 98 $10 52-53T 100 $10 54T 102 $10 58T 104 $10 Bonnell 805 52T 100 KTM Fr…. Chain $120.21 (96–104L); 114L $148, 120L $154.31 (master link $8.96). 520 pitch = stock. Price range $8.96-$154.31 at CCW; listed price is the lowest variant. Listed price $120.21 is the chain itself; the $8.96 variant is a master link.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 120.21,
+          "buy_url": "https://chargedcycleworks.com/products/520-renthal-r-1-works-chain"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-ultra-bee-sprocket-drive-kit",
+      "name": "Warp9 520 Primary Chain Drive Kit for Surron Ultra Bee",
+      "brand": "Warp 9",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 119.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-sprocket-drive-kit",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-sprocket-drive-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 119.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-sprocket-drive-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-bonnell-805-rx-520-primary-chain-conversion-kit",
+      "name": "Bonnell 805 - 520 Primary Chain Conversion Kit",
+      "brand": "Bonnell",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 99.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-520-primary-chain-conversion-kit",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-520-primary-chain-conversion-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "OEM 520 Primary Chain Conversion Kit Fitment: Bonnell 805 Note Chain drive conversion kits increase friction, noise, and heat..",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-520-primary-chain-conversion-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-bonnell-805-rx-primary-drive-belt-26-5-mm",
+      "name": "Bonnell 805 - Primary Drive Belt 26.5 mm",
+      "brand": "Bonnell",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 65.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-primary-drive-belt-26-5-mm",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-primary-drive-belt-26-5-mm"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Primary Drive Belt 26.5 mm Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 65.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-primary-drive-belt-26-5-mm"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-bonnell-805-rx-secondary-rear-sprocket",
+      "name": "Bonnell 805 - Secondary Rear Sprocket",
+      "brand": "Bonnell",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 69.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-secondary-rear-sprocket",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-secondary-rear-sprocket"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Secondary Rear Sprocket Fitment: Bonnell 805. Sizes 48T/50T/52T; 52T is stock. All variants currently unavailable.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 69.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-secondary-rear-sprocket"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-bonnell-805-rx-primary-belt-drive-kit",
+      "name": "Bonnell 805 - Primary Belt-Drive Kit",
+      "brand": "Bonnell",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 95.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-primary-belt-drive-kit",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-primary-belt-drive-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "OEM Replacement Primary Belt-Drive Kit Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 95.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-primary-belt-drive-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-bonnell-805-rx-secondary-chain-sliders",
+      "name": "Bonnell 805 - Secondary Chain Sliders",
+      "brand": "Bonnell",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 9.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-secondary-chain-sliders",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-secondary-chain-sliders"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Secondary Chain Sliders Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-secondary-chain-sliders"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-bonnell-805-rx-rear-chain-guide",
+      "name": "Bonnell 805 - Rear Chain Guide",
+      "brand": "Bonnell",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 19.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rear-chain-guide",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rear-chain-guide"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Rear Chain Guide (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rear-chain-guide"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-bonnell-805-rx-primary-chain-slider",
+      "name": "Bonnell 805 - Primary Chain Slider",
+      "brand": "Bonnell",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 8.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-primary-chain-slider",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-primary-chain-slider"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Primary Chain Slider (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-primary-chain-slider"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-bonnell-805-rx-520-master-clip-link",
+      "name": "Bonnell 805 - 520 Master Clip Link",
+      "brand": "Bonnell",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 5.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-520-master-clip-link",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-520-master-clip-link"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "520 Master Clip Link Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 5.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-520-master-clip-link"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-bonnell-805-rx-jackshaft-sub-assembly",
+      "name": "Bonnell 805 - Jackshaft Sub-Assembly",
+      "brand": "Bonnell",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 198.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-jackshaft-sub-assembly",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-jackshaft-sub-assembly"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Jackshaft Sub-Assembly (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 198.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-jackshaft-sub-assembly"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "drivetrain-primary-drive-520-orh-gold-x-ring-chain",
+      "name": "Primary Drive 520 ORH Gold X-Ring Chain",
+      "brand": "Primary Drive",
+      "category": "drivetrain",
+      "badge": null,
+      "tier": "midrange",
+      "price_usd": 70.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Fits the following bikes: KTM Freeride (118 Stock) Surron Ultra Bee (96 Stock) Bonnell 805 RX (100 stock, 102 for increased wheelb…. Chain $70.99 (96–100L); master link $4.99. 520 pitch = stock. Price range $4.99-$77.99 at CCW; listed price is the lowest variant. Listed price $70.99 is the chain itself; the $4.99 variant is a master link.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 70.99,
+          "buy_url": "https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -1152,6 +1587,156 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-renthal-sprocket-bonnell-805-902",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dirt-tricks-zirconium-rear-sprocket-stark-varg"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-dirt-tricks-zirconium-rear-sprocket-stark-varg",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-twinring-sprocket-bonnell-805-902"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-renthal-twinring-sprocket-bonnell-805-902",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-did-520-ervt-gold-x-ring-chain",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/520-renthal-r-1-works-chain"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-520-renthal-r-1-works-chain",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-sprocket-drive-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-ultra-bee-sprocket-drive-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-520-primary-chain-conversion-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-bonnell-805-rx-520-primary-chain-conversion-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-primary-drive-belt-26-5-mm"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-bonnell-805-rx-primary-drive-belt-26-5-mm",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-secondary-rear-sprocket"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-bonnell-805-rx-secondary-rear-sprocket",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-primary-belt-drive-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-bonnell-805-rx-primary-belt-drive-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-secondary-chain-sliders"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-bonnell-805-rx-secondary-chain-sliders",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rear-chain-guide"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-bonnell-805-rx-rear-chain-guide",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-primary-chain-slider"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-bonnell-805-rx-primary-chain-slider",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-520-master-clip-link"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-bonnell-805-rx-520-master-clip-link",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-jackshaft-sub-assembly"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-bonnell-805-rx-jackshaft-sub-assembly",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "drivetrain-primary-drive-520-orh-gold-x-ring-chain",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
     }

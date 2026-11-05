@@ -824,6 +824,16 @@
       "required_adapters": null,
       "fitment_source_urls": [],
       "notes": "Page: \"built for the Ultra Bee\""
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-motor-encoder"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "motor-bonnell-805-rx-motor-encoder",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ],
   "products": [
@@ -1250,6 +1260,35 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/torp-tm50-speed-ultrabee.webp"
+    },
+    {
+      "id": "motor-bonnell-805-rx-motor-encoder",
+      "name": "Bonnell 805 - 805 Motor Encoder",
+      "brand": "Bonnell",
+      "category": "motor",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 24.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-motor-encoder",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-motor-encoder"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "805 Motor Encoder Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-motor-encoder"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ]
 }

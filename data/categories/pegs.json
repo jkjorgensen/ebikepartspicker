@@ -554,6 +554,64 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp"
+    },
+    {
+      "id": "pegs-bonnell-805-rx-footpeg-mount",
+      "name": "Bonnell 805 - Footpeg Mount | Left & Right",
+      "brand": "Bonnell",
+      "category": "pegs",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 28.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-mount",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-mount"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Footpeg Mount Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 28.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-mount"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "pegs-bonnell-805-rx-footpeg-set",
+      "name": "Bonnell 805 - Footpeg Set",
+      "brand": "Bonnell",
+      "category": "pegs",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 74.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-set",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-set"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Footpeg Set Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 74.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-set"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -788,6 +846,26 @@
         "https://www.walmart.com/ip/CNC-Billet-Footrest-Foot-Pegs-Pedals-for-Surron-Light-Bee-LBX-E-Dirt-Bike/2079782186"
       ],
       "notes": ""
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-mount"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "pegs-bonnell-805-rx-footpeg-mount",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-set"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "pegs-bonnell-805-rx-footpeg-set",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

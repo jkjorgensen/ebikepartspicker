@@ -215,6 +215,16 @@
       "product_id": "voro-eride-ss-rear-shock",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-r46-rear-shock-spring"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "shock-sirris-r46-rear-shock-spring",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ],
   "products": [
@@ -854,6 +864,35 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-trx-shock-surron-ultra-bee.webp"
+    },
+    {
+      "id": "shock-sirris-r46-rear-shock-spring",
+      "name": "Sirris R46 Rear Shock Spring",
+      "brand": "Sirris",
+      "category": "shock",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 140.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sirris-r46-rear-shock-spring",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sirris-r46-rear-shock-spring"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Spring rates 75/85/90/95/105/115 N/mm; 90, 95, 115 in stock. Stock spring is 105 N/mm (currently unavailable).",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 140.0,
+          "buy_url": "https://chargedcycleworks.com/products/sirris-r46-rear-shock-spring"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ]
 }

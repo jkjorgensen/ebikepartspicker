@@ -945,6 +945,383 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-rear-fender-ventus-oem.webp"
+    },
+    {
+      "id": "plastics-outlaw",
+      "name": "OUTLAW Graphics Wrap for Stark or Bonnell",
+      "brand": "ECD",
+      "category": "plastics",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 225.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/outlaw",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/outlaw"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 225.0,
+          "buy_url": "https://chargedcycleworks.com/products/outlaw"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "plastics-grand-prix",
+      "name": "GRAND PRIX Graphics Wrap for Stark or Bonnell",
+      "brand": "ECD",
+      "category": "plastics",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 225.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/grand-prix",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/grand-prix"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 225.0,
+          "buy_url": "https://chargedcycleworks.com/products/grand-prix"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "plastics-resin",
+      "name": "RESIN Graphics Wrap for Stark or Bonnell",
+      "brand": "ECD",
+      "category": "plastics",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 225.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/resin",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/resin"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 225.0,
+          "buy_url": "https://chargedcycleworks.com/products/resin"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "plastics-morph",
+      "name": "MORPH Graphics Wrap for Stark or Bonnell",
+      "brand": "ECD",
+      "category": "plastics",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 225.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/morph",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/morph"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 225.0,
+          "buy_url": "https://chargedcycleworks.com/products/morph"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "plastics-flux",
+      "name": "FLUX Graphics Wrap for Stark or Bonnell",
+      "brand": "ECD",
+      "category": "plastics",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 225.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/flux",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/flux"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 225.0,
+          "buy_url": "https://chargedcycleworks.com/products/flux"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "plastics-virus",
+      "name": "VIRUS Graphics Wrap for Stark or Bonnell",
+      "brand": "ECD",
+      "category": "plastics",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 225.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/virus",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/virus"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 225.0,
+          "buy_url": "https://chargedcycleworks.com/products/virus"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "plastics-vision",
+      "name": "VISION Graphics Wrap for Stark or Bonnell",
+      "brand": "ECD",
+      "category": "plastics",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 225.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/vision",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/vision"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 225.0,
+          "buy_url": "https://chargedcycleworks.com/products/vision"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "plastics-sketcher",
+      "name": "SKETCHER Graphics Wrap for Stark or Bonnell",
+      "brand": "ECD",
+      "category": "plastics",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 225.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sketcher",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sketcher"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 225.0,
+          "buy_url": "https://chargedcycleworks.com/products/sketcher"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "plastics-bonnell-805-rx-front-white-fender",
+      "name": "Bonnell 805 - Front White Fender",
+      "brand": "Bonnell",
+      "category": "plastics",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 29.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-front-white-fender",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-front-white-fender"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Front White Fender (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-front-white-fender"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "plastics-bonnell-805-rx-rear-white-fender",
+      "name": "Bonnell 805 - Rear White Fender",
+      "brand": "Bonnell",
+      "category": "plastics",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 14.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rear-white-fender",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rear-white-fender"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Rear White Fender (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 14.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rear-white-fender"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "plastics-bonnell-805-rx-white-number-plate-1",
+      "name": "Bonnell 805 - White Number Plate 1",
+      "brand": "Bonnell",
+      "category": "plastics",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 19.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-white-number-plate-1",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-white-number-plate-1"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "White Number Plate 1 (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-white-number-plate-1"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "plastics-bonnell-805-oem-plastics-kit",
+      "name": "Bonnell 805 - OEM Plastics Kit",
+      "brand": "Bonnell",
+      "category": "plastics",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 195.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-oem-plastics-kit",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-oem-plastics-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Refresh, replace, or change the look of your Bonnell 805 with the OEM Plastics Kit .; Designed specifically for the Bonnell 805, t",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 195.0,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-oem-plastics-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "plastics-bonnell-805-rx-common-plastics-kit",
+      "name": "Bonnell 805 - Common Plastics Kit",
+      "brand": "Bonnell",
+      "category": "plastics",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 78.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-common-plastics-kit",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-common-plastics-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Common Plastics Kit (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 78.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-common-plastics-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -1537,6 +1914,136 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-ultrabee-decal-set",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/outlaw"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-outlaw",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/grand-prix"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-grand-prix",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/resin"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-resin",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/morph"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-morph",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/flux"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-flux",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/virus"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-virus",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/vision"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-vision",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sketcher"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-sketcher",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-front-white-fender"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-bonnell-805-rx-front-white-fender",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rear-white-fender"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-bonnell-805-rx-rear-white-fender",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-white-number-plate-1"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-bonnell-805-rx-white-number-plate-1",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-oem-plastics-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-bonnell-805-oem-plastics-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-common-plastics-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "plastics-bonnell-805-rx-common-plastics-kit",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
     }

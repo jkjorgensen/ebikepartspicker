@@ -277,8 +277,8 @@
         "https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609",
         "https://chargedcycleworks.com/products/shinko-244-dual-sport-tires"
       ],
-      "last_checked": "2026-10-12",
-      "notes": "DOT dual-sport (70% street / 30% dirt), 4-ply tube-type. Popular budget street-legal option for Sur-Ron-class bikes; 2.75-19 fits stock 19\" rims. Stamped 'Golden Boy SR 244'.",
+      "last_checked": "2026-11-05",
+      "notes": "DOT dual-sport (70% street / 30% dirt), 4-ply tube-type. Popular budget street-legal option for Sur-Ron-class bikes; 2.75-19 fits stock 19\" rims. Stamped 'Golden Boy SR 244'. Picker price $59.46 at CCW does not match any current CCW variant ($53.51-$83.99) - flagged for re-check, price left as-is.",
       "sizes": [
         "2.75-19",
         "2.75-21",
@@ -303,6 +303,12 @@
           "vendor": "RevZilla",
           "price_usd": 48,
           "buy_url": "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
+        },
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road",
+          "currency": "USD"
         }
       ],
       "stock_status": "unknown",
@@ -312,8 +318,8 @@
       "source_urls": [
         "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
       ],
-      "last_checked": "2026-10-12",
-      "notes": "DOT dual-sport (50/50 street/dirt), tube-type. Huge size run from pit-bike to full-size; dedicated front and rear styles. Price varies by size.",
+      "last_checked": "2026-11-05",
+      "notes": "DOT dual-sport (50/50 street/dirt), tube-type. Huge size run from pit-bike to full-size; dedicated front and rear styles. Price varies by size. CCW also sells it at $59.99 (3.00x21 / 3.50x18, stock sizes).",
       "sizes": [
         "2.50-17",
         "2.75-19",
@@ -433,6 +439,12 @@
           "vendor": "MotoSport",
           "price_usd": 120,
           "buy_url": "https://www.motosport.com/shinko-r525-cheater-rear-tire"
+        },
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 131.71,
+          "buy_url": "https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260",
+          "currency": "USD"
         }
       ],
       "stock_status": "unknown",
@@ -442,8 +454,8 @@
       "source_urls": [
         "https://www.motosport.com/shinko-r525-cheater-rear-tire"
       ],
-      "last_checked": "2026-10-12",
-      "notes": "Hybrid enduro rear: soft sticky trials-style rubber on a moto carcass for rocks/roots. Rear only, no front version. NHS (not for highway). Listed at MotoSport as R525 Cheater.",
+      "last_checked": "2026-11-05",
+      "notes": "Hybrid enduro rear: soft sticky trials-style rubber on a moto carcass for rocks/roots. Rear only, no front version. NHS (not for highway). Listed at MotoSport as R525 Cheater. CCW also sells it at $131.71 (110/100-18, stock rear size). Note: this is the R525, not the plain 525.",
       "sizes": [
         "90/100-16",
         "110/100-18",
@@ -469,6 +481,12 @@
           "vendor": "RevZilla",
           "price_usd": 115,
           "buy_url": "https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310"
+        },
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 114.99,
+          "buy_url": "https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires",
+          "currency": "USD"
         }
       ],
       "stock_status": "unknown",
@@ -478,8 +496,8 @@
       "source_urls": [
         "https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310"
       ],
-      "last_checked": "2026-10-12",
-      "notes": "Soft/intermediate MX race tire with Progressive Cornering Block Technology. Very wide size run incl. minis (10\"/12\"/14\"). Competition tire, no DOT approval. Price varies by size.",
+      "last_checked": "2026-11-05",
+      "notes": "Soft/intermediate MX race tire with Progressive Cornering Block Technology. Very wide size run incl. minis (10\"/12\"/14\"). Competition tire, no DOT approval. Price varies by size. CCW also sells it at $114.99 (80/100-21, stock front size).",
       "sizes": [
         "60/100-10",
         "70/100-10",
@@ -652,6 +670,12 @@
           "vendor": "RevZilla",
           "price_usd": 115,
           "buy_url": "https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318"
+        },
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 103.99,
+          "buy_url": "https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18",
+          "currency": "USD"
         }
       ],
       "stock_status": "unknown",
@@ -661,8 +685,8 @@
       "source_urls": [
         "https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318"
       ],
-      "last_checked": "2026-10-12",
-      "notes": "Intermediate-terrain MX race tire: symmetric Castle Block front, asymmetric rear. Full-size run only, NHS (no DOT). Bridgestone mail-in rebate ($50/set) was active through Oct 31, 2026.",
+      "last_checked": "2026-11-05",
+      "notes": "Intermediate-terrain MX race tire: symmetric Castle Block front, asymmetric rear. Full-size run only, NHS (no DOT). Bridgestone mail-in rebate ($50/set) was active through Oct 31, 2026. CCW also sells it at $103.99 (80/100-21) / $110.99 (110/100-18).",
       "sizes": [
         "80/100-21",
         "90/100-21",
@@ -883,13 +907,13 @@
       "category": "tires",
       "badge": "Kenda",
       "tier": "mid",
-      "price_usd": 55,
+      "price_usd": 74.95,
       "vendor": "Charged Cycle Works",
       "buy_url": "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
-          "price_usd": 55,
+          "price_usd": 74.95,
           "buy_url": "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
         }
       ],
@@ -901,8 +925,8 @@
         "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii",
         "https://chargedcycleworks.com/pages/sur-ron-tire-upgrade-specs-and-weights"
       ],
-      "last_checked": "2026-10-12",
-      "notes": "Charged Cycle Works staple for e-motos. CCW weighed: 70/100-19 front 5.3 lb, 90/100-18 rear 8.1 lb, 90/100-16 rear 8.3 lb.",
+      "last_checked": "2026-11-05",
+      "notes": "Charged Cycle Works staple for e-motos. CCW weighed: 70/100-19 front 5.3 lb, 90/100-18 rear 8.1 lb, 90/100-16 rear 8.3 lb. 805RX stock front size 80/100-21 is $74.95 at CCW; all variants currently unavailable.",
       "sizes": [
         "70/100-19",
         "90/100-18",
@@ -969,7 +993,7 @@
         "https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire",
         "https://chargedcycleworks.com/pages/sur-ron-tire-upgrade-specs-and-weights"
       ],
-      "last_checked": "2026-10-12",
+      "last_checked": "2026-11-05",
       "notes": "Hard-terrain rear (100/100-18). CCW weighed it at 9.3 lb. Good match for 18\" rear wheels (Storm Bee, Ultra Bee, Komodo).",
       "sizes": [
         "100/100-18"
@@ -1017,13 +1041,13 @@
       "category": "tires",
       "badge": "Tusk",
       "tier": "budget",
-      "price_usd": 26,
+      "price_usd": 53.77,
       "vendor": "Charged Cycle Works",
       "buy_url": "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
-          "price_usd": 26,
+          "price_usd": 53.77,
           "buy_url": "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
         }
       ],
@@ -1035,8 +1059,8 @@
         "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire",
         "https://chargedcycleworks.com/pages/sur-ron-tire-upgrade-specs-and-weights"
       ],
-      "last_checked": "2026-10-12",
-      "notes": "Budget soft/intermediate front. CCW weighed the 70/100-19 at 6.1 lb. Sizes down to 10\" for pit bikes.",
+      "last_checked": "2026-11-05",
+      "notes": "Budget soft/intermediate front. CCW weighed the 70/100-19 at 6.1 lb. Sizes down to 10\" for pit bikes. 805RX stock front size 80/100-21 is $53.77 at CCW.",
       "sizes": [
         "70/100-19",
         "80/100-21",
@@ -1293,13 +1317,13 @@
       "category": "tires",
       "badge": "Dunlop",
       "tier": "mid",
-      "price_usd": 63,
+      "price_usd": 109.99,
       "vendor": "Charged Cycle Works",
       "buy_url": "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
-          "price_usd": 63,
+          "price_usd": 109.99,
           "buy_url": "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires"
         }
       ],
@@ -1311,8 +1335,8 @@
         "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires",
         "https://chargedcycleworks.com/pages/sur-ron-tire-upgrade-specs-and-weights"
       ],
-      "last_checked": "2026-10-12",
-      "notes": "Intermediate/hard-terrain MX tire. CCW weighed the 70/100-19 at 6.3 lb. Note: the 90/100-16 rear runs wide and may need wheel dishing.",
+      "last_checked": "2026-11-05",
+      "notes": "Intermediate/hard-terrain MX tire. CCW weighed the 70/100-19 at 6.3 lb. Note: the 90/100-16 rear runs wide and may need wheel dishing. 805RX stock front size 80/100-21 is $109.99 at CCW.",
       "sizes": [
         "70/100-19",
         "80/100-21",
@@ -1330,13 +1354,13 @@
       "category": "tires",
       "badge": "Shinko",
       "tier": "budget",
-      "price_usd": 55,
+      "price_usd": 74.99,
       "vendor": "Charged Cycle Works",
       "buy_url": "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
-          "price_usd": 55,
+          "price_usd": 74.99,
           "buy_url": "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
         }
       ],
@@ -1348,8 +1372,8 @@
         "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19",
         "https://chargedcycleworks.com/pages/sur-ron-tire-upgrade-specs-and-weights"
       ],
-      "last_checked": "2026-10-12",
-      "notes": "DOT-compliant trials tire, front or rear. Huge size run from 12\" to 21\". CCW weighed the 2.75-19 at 6.4 lb.",
+      "last_checked": "2026-11-05",
+      "notes": "DOT-compliant trials tire, front or rear. Huge size run from 12\" to 21\". CCW weighed the 2.75-19 at 6.4 lb. 805RX stock sizes $69.99-$89.99 at CCW (3.00x21 is $74.99).",
       "sizes": [
         "2.75-19",
         "3.50-19",
@@ -1391,8 +1415,8 @@
         "https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16",
         "https://chargedcycleworks.com/pages/sur-ron-tire-upgrade-specs-and-weights"
       ],
-      "last_checked": "2026-10-12",
-      "notes": "Hard-enduro gummy rear — not for MX use. 90/100-16 in stock; 18\"/21\" variants were out of stock.",
+      "last_checked": "2026-11-05",
+      "notes": "Hard-enduro gummy rear — not for MX use. 90/100-16 in stock; 18\"/21\" variants were out of stock. Price update held - 805RX sizes currently unavailable at CCW.",
       "sizes": [
         "90/100-16",
         "110/100-18",
@@ -1864,6 +1888,731 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-fattyoff-road-100-90-18-rear-tire-tube-rim-strip.webp"
+    },
+    {
+      "id": "tire-bonnell-805-rx-rim-strip",
+      "name": "Bonnell 805 - Rim Strip",
+      "brand": "Bonnell",
+      "category": "tires",
+      "badge": "Bonnell",
+      "tier": "OEM",
+      "price_usd": 3.49,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rim-strip",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rim-strip"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Rim Strip Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 3.49,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rim-strip"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-bonnell-805-rx-tr4-inner-tube",
+      "name": "Bonnell 805 - TR4 Inner Tube",
+      "brand": "Bonnell",
+      "category": "tires",
+      "badge": "Bonnell",
+      "tier": "OEM",
+      "price_usd": 10.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-tr4-inner-tube",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-tr4-inner-tube"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "TR4 Inner Tube Fitment: Bonnell 805. Stock-size variant(s): 2.75X21, 3.5x18. Sizes 3x16, 3.5x18, 2.75x19, 2.75x21. All variants currently unavailable. Price range $10-$16.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 10.0,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-tr4-inner-tube"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-bonnell-805-rx-rear-tire",
+      "name": "Bonnell 805 - Rear Tire",
+      "brand": "Bonnell",
+      "category": "tires",
+      "badge": "Bonnell",
+      "tier": "OEM",
+      "price_usd": 69.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rear-tire",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rear-tire"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Rear Tire - 100/90-16 Fitment: Bonnell 805. Stock-size variant(s): 100/90-18. Price range $69.95-$74.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 69.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rear-tire"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-bonnell-805-rx-front-tire",
+      "name": "Bonnell 805 - Front Tire",
+      "brand": "Bonnell",
+      "category": "tires",
+      "badge": "Bonnell",
+      "tier": "OEM",
+      "price_usd": 59.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-front-tire",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-front-tire"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Front Tire Fitment: Bonnell 805. Stock-size variant(s): 80/100-21.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-front-tire"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-bonnell-805-rx-rim-lock",
+      "name": "Bonnell 805 - Rim Lock",
+      "brand": "Bonnell",
+      "category": "tires",
+      "badge": "Bonnell",
+      "tier": "OEM",
+      "price_usd": 7.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rim-lock",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rim-lock"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Rim Lock Fitment: Bonnell 805. Rim widths 1.6/1.85/2.15 in. Price range $7.95-$9.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 7.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rim-lock"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-warp9-titanium-pro-rim-lock",
+      "name": "Warp9 Titanium Pro Rim Lock",
+      "brand": "Warp 9",
+      "category": "tires",
+      "badge": "Warp 9",
+      "tier": "budget",
+      "price_usd": 24.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-pro-rim-lock",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-pro-rim-lock"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Rim widths 1.40/1.60/1.85/2.15 in.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-pro-rim-lock"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "name": "Dunlop MX54 Geomax Soft/Int Terrain Tires",
+      "brand": "Dunlop",
+      "category": "tires",
+      "badge": "Dunlop",
+      "tier": "mid",
+      "price_usd": 48.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Stock-size variant(s): 80/100-21. Price range $48.99-$154.99 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 48.99,
+          "buy_url": "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-dunlop-geomax-en91ex-gummy-tire",
+      "name": "Dunlop Geomax EN91EX Gummy Tire",
+      "brand": "Dunlop",
+      "category": "tires",
+      "badge": "Dunlop",
+      "tier": "premium",
+      "price_usd": 174.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dunlop-geomax-en91ex-gummy-tire",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-geomax-en91ex-gummy-tire"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Size NOT stated in the CCW listing (variant is \"Default Title\", description gives no size) — verify size before encoding fitment. EN91EX is a rear gummy tire. FLAG: Size not stated in the CCW listing (variant is \"Default Title\") - verify size before encoding fitment.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 174.99,
+          "buy_url": "https://chargedcycleworks.com/products/dunlop-geomax-en91ex-gummy-tire"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-bikemaster-tr6-inner-tubes",
+      "name": "BikeMaster TR6 Inner Tubes",
+      "brand": "BikeMaster",
+      "category": "tires",
+      "badge": "BikeMaster",
+      "tier": "budget",
+      "price_usd": 11.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Stock-size variant(s): Heavy Duty Rubber / 100/100-18, Natural Rubber / 70/100-21, Natural Rubber / 90/100-18. Price range $11.99-$30.99 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 11.99,
+          "buy_url": "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-kenda-k775-washougal-ii-front-tire",
+      "name": "Kenda K775 Washougal II Tires",
+      "brand": "Kenda",
+      "category": "tires",
+      "badge": "Kenda",
+      "tier": "mid",
+      "price_usd": 56.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Stock-size variant(s): 80/100-21. 80/100-21 variant exists but is currently unavailable; 70/100-19 and 90/100-16 in stock. Price range $56.99-$92.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 56.99,
+          "buy_url": "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19",
+      "name": "Nuetech 5150 Nitro Mousse Foam Tube for Tubliss Gen 2.0",
+      "brand": "Nuetech",
+      "category": "tires",
+      "badge": "Nuetech",
+      "tier": "premium",
+      "price_usd": 124.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Sized for Tubliss Gen 2.0 (18/21 in). Platinum $124.95 / Plushie $129.95. Price range $124.95-$129.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 124.95,
+          "buy_url": "https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-irc-jx8-gekkota-rear-gummy-tire",
+      "name": "IRC JX8 GEKKOTA Rear Gummy Tire 110/100-18",
+      "brand": "IRC",
+      "category": "tires",
+      "badge": "IRC",
+      "tier": "premium",
+      "price_usd": 115.88,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 115.88,
+          "buy_url": "https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-irc-tubes",
+      "name": "IRC Tubes",
+      "brand": "IRC",
+      "category": "tires",
+      "badge": "IRC",
+      "tier": "budget",
+      "price_usd": 13.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/irc-tubes",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Stock-size variant(s): 2.75/3.00x21, 3.25/4.10-18, 80/100-21 HD 3mm. Price range $13.5-$22.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 13.5,
+          "buy_url": "https://chargedcycleworks.com/products/irc-tubes"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-wps-rim-strip",
+      "name": "WPS Rim Strip",
+      "brand": "WPS",
+      "category": "tires",
+      "badge": "WPS",
+      "tier": "budget",
+      "price_usd": 2.49,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/wps-rim-strip",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Sizes 19 in, 21 in, 18 in, 17 in.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2.49,
+          "buy_url": "https://chargedcycleworks.com/products/wps-rim-strip"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-dunlop-at82-geomax-all-terrain-terrain-tire",
+      "name": "Dunlop AT82 Geomax All Terrain Terrain Tire",
+      "brand": "Dunlop",
+      "category": "tires",
+      "badge": "Dunlop",
+      "tier": "premium",
+      "price_usd": 116.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dunlop-at82-geomax-all-terrain-terrain-tire",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-at82-geomax-all-terrain-terrain-tire"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Stock-size variant(s): 110/100-18, 80/100-21. Price range $116.99-$137.99 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 116.99,
+          "buy_url": "https://chargedcycleworks.com/products/dunlop-at82-geomax-all-terrain-terrain-tire"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-tire-ve-33s-gekkota-rear-tire",
+      "name": "IRC VE33S Gekkota Gummy Tire 110/100x18",
+      "brand": "IRC",
+      "category": "tires",
+      "badge": "IRC",
+      "tier": "mid",
+      "price_usd": 99.88,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.88,
+          "buy_url": "https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-tusk-talon-multi-terrain-tire-80-100-21",
+      "name": "Tusk Talon Multi Terrain Front Tire 80/100-21",
+      "brand": "Tusk",
+      "category": "tires",
+      "badge": "Tusk",
+      "tier": "mid",
+      "price_usd": 58.88,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tusk-talon-multi-terrain-tire-80-100-21",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tusk-talon-multi-terrain-tire-80-100-21"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 58.88,
+          "buy_url": "https://chargedcycleworks.com/products/tusk-talon-multi-terrain-tire-80-100-21"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-irc-ix-07s-21-front-tire-light-weight",
+      "name": "IRC IX-07S 21\" Front Tire (light weight)",
+      "brand": "IRC",
+      "category": "tires",
+      "badge": "IRC",
+      "tier": "mid",
+      "price_usd": 84.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. 21 in front; exact width not stated in the listing (\"Default Title\"). Currently unavailable.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 84.95,
+          "buy_url": "https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-dunlop-mx14-sand-scoop-tire",
+      "name": "Dunlop MX14 Sand Scoop Tire",
+      "brand": "Dunlop",
+      "category": "tires",
+      "badge": "Dunlop",
+      "tier": "mid",
+      "price_usd": 69.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Stock-size variant(s): 110/100-18. Price range $69.99-$144.99 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 69.99,
+          "buy_url": "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-shinko-525-soft-intermediate-terrain-tire",
+      "name": "Shinko 525 Soft-Intermediate Terrain Tire",
+      "brand": "Shinko",
+      "category": "tires",
+      "badge": "Shinko",
+      "tier": "mid",
+      "price_usd": 71.11,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Stock-size variant(s): 100/100-18, 110/100-18. Price range $71.11-$113.18 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 71.11,
+          "buy_url": "https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-kenda-1-3mm-tube-light-weight",
+      "name": "Kenda 1.3mm Tube (light weight)",
+      "brand": "Kenda",
+      "category": "tires",
+      "badge": "Kenda",
+      "tier": "budget",
+      "price_usd": 9.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kenda-1-3mm-tube-light-weight",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kenda-1-3mm-tube-light-weight"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Stock-size variant(s): 100/100-18, 80/100-21. Price range $9.99-$15.99 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.99,
+          "buy_url": "https://chargedcycleworks.com/products/kenda-1-3mm-tube-light-weight"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria",
+      "name": "Nuetech Nitro Mousse Foam Tube",
+      "brand": "Nuetech",
+      "category": "tires",
+      "badge": "Nuetech",
+      "tier": "premium",
+      "price_usd": 133.15,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Sizes NM21-220 (21 in) and NM18-270/285/305 (18 in). Platinum and Plushie (6–8 psi) compounds. Price range $133.15-$139.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 133.15,
+          "buy_url": "https://chargedcycleworks.com/products/nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "name": "Kenda K774 Ibex Hybrid Sticky Tires",
+      "brand": "Kenda",
+      "category": "tires",
+      "badge": "Kenda",
+      "tier": "mid",
+      "price_usd": 59.88,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Stock-size variant(s): 80/100-21. Price range $59.88-$80.33 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.88,
+          "buy_url": "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-nuetech-tubliss-gen-2-0-tubeless-tire-system",
+      "name": "NUETECH TUBLISS GEN 2.0 (TUBELESS) TIRE SYSTEM",
+      "brand": "Nuetech",
+      "category": "tires",
+      "badge": "Nuetech",
+      "tier": "mid",
+      "price_usd": 99.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/nuetech-tubliss-gen-2-0-tubeless-tire-system",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/nuetech-tubliss-gen-2-0-tubeless-tire-system"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. 18 in and 21 in systems. Tubeless conversion for standard rims.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.95,
+          "buy_url": "https://chargedcycleworks.com/products/nuetech-tubliss-gen-2-0-tubeless-tire-system"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "name": "Sedona Heavy Duty 2mm Tube for all eMX eMoto Bikes",
+      "brand": "Sedona",
+      "category": "tires",
+      "badge": "Sedona",
+      "tier": "budget",
+      "price_usd": 9.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Stock-size variant(s): 100/100-18 | 350/400-18, 80/100-21 | 275/300-21. Price range $9.99-$22.28 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.99,
+          "buy_url": "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -3812,9 +4561,10 @@
       "required_adapters": null,
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
-        "https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609"
+        "https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609",
+        "https://chargedcycleworks.com/products/shinko-244-dual-sport-tires"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "CCW lists 3.00x21 front and 3.50x18 rear (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)"
     },
     {
       "product_id": "tire-shinko-244-dualsport",
@@ -4188,9 +4938,10 @@
       "required_adapters": null,
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
-        "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
+        "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245",
+        "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "CCW lists 3.00x21 front and 3.50x18 rear (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
@@ -5328,9 +6079,10 @@
       "required_adapters": null,
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
-        "https://www.motosport.com/shinko-r525-cheater-rear-tire"
+        "https://www.motosport.com/shinko-r525-cheater-rear-tire",
+        "https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "CCW lists the 110/100-18 variant (stock rear size) for the Bonnell 805 RX (checked Nov 5, 2026)"
     },
     {
       "product_id": "tire-shinko-525-cheater",
@@ -5702,9 +6454,10 @@
       "required_adapters": null,
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
-        "https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310"
+        "https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310",
+        "https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "CCW lists 80/100-21, 100/100-18 and 110/100-18 (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)"
     },
     {
       "product_id": "tire-dunlop-mx34",
@@ -7233,9 +7986,10 @@
       "required_adapters": null,
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
-        "https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318"
+        "https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318",
+        "https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "CCW lists 80/100-21 and 110/100-18 (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)"
     },
     {
       "product_id": "tire-bridgestone-x31",
@@ -9835,7 +10589,7 @@
         "https://ridebonnell.com/products/805",
         "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "CCW lists the 80/100-21 variant (stock front size) for the Bonnell 805 RX (checked Nov 5, 2026). All variants currently unavailable."
     },
     {
       "product_id": "tire-kenda-washougal3-ccw",
@@ -10559,7 +11313,7 @@
         "https://ridebonnell.com/products/805",
         "https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "CCW lists the 100/100-18 variant (stock rear size) for the Bonnell 805 RX (checked Nov 5, 2026)"
     },
     {
       "product_id": "tire-irc-ve33-ccw",
@@ -11298,7 +12052,7 @@
         "https://ridebonnell.com/products/805",
         "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "CCW lists the 80/100-21 variant (stock front size) for the Bonnell 805 RX (checked Nov 5, 2026)"
     },
     {
       "product_id": "tire-tusk-t35-front-ccw",
@@ -14255,7 +15009,7 @@
         "https://ridebonnell.com/products/805",
         "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "CCW lists the 80/100-21 variant (stock front size) for the Bonnell 805 RX (checked Nov 5, 2026)"
     },
     {
       "product_id": "tire-dunlop-mx53-ccw",
@@ -14631,7 +15385,7 @@
         "https://ridebonnell.com/products/805",
         "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "CCW lists 3.00x21 and 3.50x18 (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)"
     },
     {
       "product_id": "tire-shinko-sr241-ccw",
@@ -15013,7 +15767,7 @@
         "https://ridebonnell.com/products/805",
         "https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "CCW lists 80/100-21 and 110/100-18 (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026). Both currently unavailable."
     },
     {
       "product_id": "tire-irc-ix09-gekkota-ccw",
@@ -15280,6 +16034,246 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-altis-sigma-tire",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rim-strip"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "tire-bonnell-805-rx-rim-strip",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-tr4-inner-tube"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 2.",
+      "product_id": "tire-bonnell-805-rx-tr4-inner-tube",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rear-tire"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 100/90-18.",
+      "product_id": "tire-bonnell-805-rx-rear-tire",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-front-tire"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.",
+      "product_id": "tire-bonnell-805-rx-front-tire",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rim-lock"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "tire-bonnell-805-rx-rim-lock",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-pro-rim-lock"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "tire-warp9-titanium-pro-rim-lock",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.",
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): Heavy Duty Rubber / 100/100-18, Natural Rubber / 70/100-21, Natural Rubber / 90/100-18.",
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.",
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "tire-irc-jx8-gekkota-rear-gummy-tire",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 2.",
+      "product_id": "tire-irc-tubes",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "tire-wps-rim-strip",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-at82-geomax-all-terrain-terrain-tire"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 110/100-18, 80/100-21.",
+      "product_id": "tire-dunlop-at82-geomax-all-terrain-terrain-tire",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "tire-tire-ve-33s-gekkota-rear-tire",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tusk-talon-multi-terrain-tire-80-100-21"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "tire-tusk-talon-multi-terrain-tire-80-100-21",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "tire-irc-ix-07s-21-front-tire-light-weight",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 110/100-18.",
+      "product_id": "tire-dunlop-mx14-sand-scoop-tire",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 100/100-18, 110/100-18.",
+      "product_id": "tire-shinko-525-soft-intermediate-terrain-tire",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-1-3mm-tube-light-weight"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 100/100-18, 80/100-21.",
+      "product_id": "tire-kenda-1-3mm-tube-light-weight",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "tire-nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.",
+      "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/nuetech-tubliss-gen-2-0-tubeless-tire-system"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "tire-nuetech-tubliss-gen-2-0-tubeless-tire-system",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 100/100-18 | 350/400-18, 80/100-21 | 275/300-21.",
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
     }

@@ -597,6 +597,470 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/revrides-e-ride-pro-thumb-throttle.webp"
+    },
+    {
+      "id": "cockpit-bonnell-805-rx-joycon",
+      "name": "Bonnell 805 - Joycon",
+      "brand": "Bonnell",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 98.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-joycon",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-joycon"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Joycon Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 98.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-joycon"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-bonnell-805-rx-grip-set",
+      "name": "Bonnell 805 - Grip Set",
+      "brand": "Bonnell",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 19.49,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-grip-set",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-grip-set"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Grip Set (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.49,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-grip-set"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-bonnell-805-rx-large-handlebar-pad",
+      "name": "Bonnell 805 - Large Handlebar Pad",
+      "brand": "Bonnell",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 13.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-large-handlebar-pad",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-large-handlebar-pad"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Large Handlebar Pad (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 13.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-large-handlebar-pad"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-protaper-pillow-top-lite-grips",
+      "name": "ProTaper Pillow Top Lite Grips",
+      "brand": "ProTaper",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "budget",
+      "price_usd": 14.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 14.99,
+          "buy_url": "https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-protaper-pillow-top-grips",
+      "name": "ProTaper Pillow Top Grips",
+      "brand": "ProTaper",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "budget",
+      "price_usd": 14.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/protaper-pillow-top-grips",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/protaper-pillow-top-grips"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 14.99,
+          "buy_url": "https://chargedcycleworks.com/products/protaper-pillow-top-grips"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto",
+      "name": "ODI Universal Lock-On Half Waffle Grips for eMoto",
+      "brand": "ODI",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "budget",
+      "price_usd": 22.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 22.95,
+          "buy_url": "https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-odi-ruffian-full-waffle-grips",
+      "name": "ODI Ruffian full-waffle grips",
+      "brand": "ODI",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "budget",
+      "price_usd": 13.46,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 13.46,
+          "buy_url": "https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-sxs-burly-shields-hand-guards",
+      "name": "SXS Burly Shields Hand Guards",
+      "brand": "SXS",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "midrange",
+      "price_usd": 55.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Price range $55-$154 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 55.0,
+          "buy_url": "https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-renthal-50-50-mx-grips",
+      "name": "Renthal 50/50 MX Grips",
+      "brand": "Renthal",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "budget",
+      "price_usd": 17.96,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/renthal-50-50-mx-grips",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/renthal-50-50-mx-grips"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 17.96,
+          "buy_url": "https://chargedcycleworks.com/products/renthal-50-50-mx-grips"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-acerbis-x-ultimate-handguards",
+      "name": "Acerbis X-Ultimate Handguards",
+      "brand": "Acerbis",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "midrange",
+      "price_usd": 34.88,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 34.88,
+          "buy_url": "https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260",
+      "name": "ODI Ruffian no-waffle grips",
+      "brand": "ODI",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "budget",
+      "price_usd": 13.46,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 13.46,
+          "buy_url": "https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-acerbis-x-factory-handguards",
+      "name": "Acerbis X-Factory Handguards",
+      "brand": "Acerbis",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "midrange",
+      "price_usd": 71.88,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/acerbis-x-factory-handguards",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/acerbis-x-factory-handguards"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Price range $71.88-$79.88 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 71.88,
+          "buy_url": "https://chargedcycleworks.com/products/acerbis-x-factory-handguards"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "name": "ODI Ruffian half-waffle grips",
+      "brand": "ODI",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "budget",
+      "price_usd": 13.46,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 13.46,
+          "buy_url": "https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "name": "Tusk Dual Compound half waffle grips",
+      "brand": "Tusk",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "budget",
+      "price_usd": 9.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.99,
+          "buy_url": "https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-warp9-e-moto-handguards",
+      "name": "Warp9 eMoto Handguards",
+      "brand": "Warp 9",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "midrange",
+      "price_usd": 45.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-e-moto-handguards",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguards"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 45.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-e-moto-handguards"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "cockpit-bonnell-805-throttle-assembly",
+      "name": "Bonnell 805 - Throttle Assembly",
+      "brand": "Bonnell",
+      "category": "cockpit",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 99.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-throttle-assembly",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-throttle-assembly"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Replace the throttle assembly on your Bonnell 805 with this OEM-style replacement unit.; Key Features Replacement throttle assembl",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-throttle-assembly"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -947,6 +1411,166 @@
       "product_id": "voro-eride-ss-twist-throttle",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-joycon"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-bonnell-805-rx-joycon",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-grip-set"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-bonnell-805-rx-grip-set",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-large-handlebar-pad"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-bonnell-805-rx-large-handlebar-pad",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-protaper-pillow-top-lite-grips",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/protaper-pillow-top-grips"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-protaper-pillow-top-grips",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-odi-ruffian-full-waffle-grips",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-sxs-burly-shields-hand-guards",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-50-50-mx-grips"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-renthal-50-50-mx-grips",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-acerbis-x-ultimate-handguards",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/acerbis-x-factory-handguards"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-acerbis-x-factory-handguards",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguards"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-warp9-e-moto-handguards",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-throttle-assembly"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "cockpit-bonnell-805-throttle-assembly",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

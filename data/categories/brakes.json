@@ -336,15 +336,22 @@
       "power_change_kw": null,
       "is_upgrade": true,
       "source_urls": [
-        "https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro"
+        "https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro",
+        "https://chargedcycleworks.com/products/emoto-folding-brake-levers"
       ],
-      "last_checked": "2026-10-12",
-      "notes": "Price verified $46.89. Seller page names Bonnell 805 fitment. Sold individually per side; left lever includes parking brake.",
+      "last_checked": "2026-11-05",
+      "notes": "Price verified $46.89. Seller page names Bonnell 805 fitment. Sold individually per side; left lever includes parking brake. CCW also sells it at $46.00 per side.",
       "vendors": [
         {
           "vendor": "GritShift",
           "price_usd": 46.89,
           "buy_url": "https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro"
+        },
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 46.0,
+          "buy_url": "https://chargedcycleworks.com/products/emoto-folding-brake-levers",
+          "currency": "USD"
         }
       ],
       "weight_delta_kg": null,
@@ -1112,6 +1119,151 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "brakes-bonnell-805-rx-brake-lever",
+      "name": "Bonnell 805 - Brake Lever | Front & Rear",
+      "brand": "Bonnell",
+      "category": "brakes",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 19.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-brake-lever",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-brake-lever"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "OEM Replacement Brake Lever Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-brake-lever"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "brakes-bonnell-805-rx-brake-disc-set",
+      "name": "Bonnell 805 - Brake Disc Set | Front & Rear",
+      "brand": "Bonnell",
+      "category": "brakes",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 44.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-brake-disc-set",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-brake-disc-set"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Brake Disc Set (805) Fitment: Bonnell 805. Price range $44.95-$49.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 44.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-brake-disc-set"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "brakes-bonnell-805-rx-brake-system",
+      "name": "Bonnell 805 - Brake System | Front & Rear",
+      "brand": "Bonnell",
+      "category": "brakes",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 199.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-brake-system",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-brake-system"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Brake System (805) Fitment: Bonnell 805. Price range $199.95-$225.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 199.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-brake-system"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "brakes-bonnell-805-rx-brake-line",
+      "name": "Bonnell 805 - Brake Line | Front & Rear",
+      "brand": "Bonnell",
+      "category": "brakes",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 42.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-brake-line",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-brake-line"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Brake Line (805) Fitment: Bonnell 805. Price range $42.95-$53.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 42.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-brake-line"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "brakes-bonnell-805-rx-brake-pad-set",
+      "name": "Bonnell 805 - Brake Pad Set",
+      "brand": "Bonnell",
+      "category": "brakes",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 39.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-brake-pad-set",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-brake-pad-set"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Brake Pad Set Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-brake-pad-set"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -1692,12 +1844,13 @@
     {
       "product_id": "brakes-warp9-folding-lever",
       "bike_id": "bonnell-805rx",
-      "status": "verify",
+      "status": "confirmed_direct_fit",
       "required_adapters": null,
       "fitment_source_urls": [
-        "https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro"
+        "https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro",
+        "https://chargedcycleworks.com/products/emoto-folding-brake-levers"
       ],
-      "notes": "Seller lists Bonnell 805 fitment"
+      "notes": "Seller listing names the Bonnell 805 RX (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "charged-brake-pads-emoto",
@@ -1852,6 +2005,56 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "brakes-asv-f4-type2-lever-set",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-brake-lever"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "brakes-bonnell-805-rx-brake-lever",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-brake-disc-set"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "brakes-bonnell-805-rx-brake-disc-set",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-brake-system"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "brakes-bonnell-805-rx-brake-system",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-brake-line"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "brakes-bonnell-805-rx-brake-line",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-brake-pad-set"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "brakes-bonnell-805-rx-brake-pad-set",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
     }

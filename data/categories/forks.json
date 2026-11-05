@@ -551,6 +551,16 @@
       "product_id": "voro-eride-ss-rst-fork",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-f43-fork-spring-single"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "fork-sirris-f43-fork-spring-single",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ],
   "products": [
@@ -1218,6 +1228,35 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/revrides-sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-e-ride-pro-sr.webp"
+    },
+    {
+      "id": "fork-sirris-f43-fork-spring-single",
+      "name": "SIRRIS F43 Fork Spring (each)",
+      "brand": "Sirris",
+      "category": "fork",
+      "badge": null,
+      "tier": "midrange",
+      "price_usd": 70.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sirris-f43-fork-spring-single",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sirris-f43-fork-spring-single"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 70.0,
+          "buy_url": "https://chargedcycleworks.com/products/sirris-f43-fork-spring-single"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ]
 }

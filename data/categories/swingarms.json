@@ -402,6 +402,35 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-swing-arm-ventus-oem.webp"
+    },
+    {
+      "id": "swingarm-bonnell-805-rx-swingarm-assembly",
+      "name": "Bonnell 805 - Swingarm Assembly",
+      "brand": "Bonnell",
+      "category": "swingarm",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 569.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-swingarm-assembly",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-swingarm-assembly"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Swingarm Assembly (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 569.0,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-swingarm-assembly"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -692,6 +721,16 @@
       "product_id": "voro-eride-ss-swingarm",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-swingarm-assembly"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "swingarm-bonnell-805-rx-swingarm-assembly",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

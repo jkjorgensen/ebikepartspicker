@@ -419,6 +419,26 @@
       "product_id": "voro-eride-ss-72v-40ah-battery",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-battery"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "batteries-bonnell-805-rx-battery",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-battery-latch-base-assembly"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "batteries-bonnell-805-rx-battery-latch-base-assembly",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ],
   "products": [
@@ -726,6 +746,64 @@
         }
       ],
       "image": "img/parts/voro-eride-ss-72v-40ah-battery.webp"
+    },
+    {
+      "id": "batteries-bonnell-805-rx-battery",
+      "name": "Bonnell 805 - OEM Battery",
+      "brand": "Bonnell",
+      "category": "batteries",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 1995,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-battery",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-battery"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Bonnell 805 OEM Replacement Battery Core: 86.4V 45Ah (3.9kWh) Race: 86.4V 55Ah (4.7kWh) *price and timing TBA Fitment: Bonnell 805…. Second variant listed at $0.00 (placeholder). Battery was sold out at CCW per earlier check. Price range $0-$1995 at CCW; listed price is the lowest variant. The $0.00 variant is a placeholder; $1,995 is the listed battery price.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1995,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-battery"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "batteries-bonnell-805-rx-battery-latch-base-assembly",
+      "name": "Bonnell 805 - Battery Latch Base Assembly",
+      "brand": "Bonnell",
+      "category": "batteries",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 150.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-battery-latch-base-assembly",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-battery-latch-base-assembly"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Battery Latch Base Assembly Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 150.0,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-battery-latch-base-assembly"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ]
 }

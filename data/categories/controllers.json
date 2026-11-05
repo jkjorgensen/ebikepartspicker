@@ -757,6 +757,16 @@
       "product_id": "voro-altis-sigma-98v-controller",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-x30-controller"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "controller-bonnell-805-rx-x30-controller",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ],
   "products": [
@@ -1150,6 +1160,35 @@
           "affiliate": false
         }
       ],
+      "image": null
+    },
+    {
+      "id": "controller-bonnell-805-rx-x30-controller",
+      "name": "Bonnell 805 - X30 Controller",
+      "brand": "Bonnell",
+      "category": "controller",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 1095.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-x30-controller",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-x30-controller"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "X30 Controller (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1095.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-x30-controller"
+        }
+      ],
+      "weight_delta_kg": null,
       "image": null
     }
   ]

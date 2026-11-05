@@ -375,6 +375,64 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-lbx-charger-67-2v-10a-110v-10a.webp"
+    },
+    {
+      "id": "charger-bonnell-805-rx-charger-2500w-100-8v-30a-us",
+      "name": "Bonnell 805 - Fast Charger",
+      "brand": "Bonnell",
+      "category": "chargers",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 395.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-charger-2500w-100-8v-30a-us",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-charger-2500w-100-8v-30a-us"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Bonnell 805 Fast Charger USA Specification (120v) Max Input: 15A 120V Max Output: 15A 1500w Fitment: Bonnell 805 RX Note: 30A outp",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 395.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-charger-2500w-100-8v-30a-us"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "charger-bonnell-805-rx-charger-1500w-100-8v-20a-us",
+      "name": "Bonnell 805 - Charger 1500W-100.8V-20A-US",
+      "brand": "Bonnell",
+      "category": "chargers",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 295.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-charger-1500w-100-8v-20a-us",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-charger-1500w-100-8v-20a-us"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "805 Charger 1500W-100.8V-20A-US Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 295.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-charger-1500w-100-8v-20a-us"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -563,6 +621,26 @@
       "required_adapters": null,
       "fitment_source_urls": [],
       "notes": ""
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-charger-2500w-100-8v-30a-us"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "charger-bonnell-805-rx-charger-2500w-100-8v-30a-us",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-charger-1500w-100-8v-20a-us"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "charger-bonnell-805-rx-charger-1500w-100-8v-20a-us",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

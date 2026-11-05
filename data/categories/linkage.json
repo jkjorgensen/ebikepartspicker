@@ -388,6 +388,93 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/revrides-prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0.webp"
+    },
+    {
+      "id": "linkage-bonnell-805-rx-linkage-suspension-bearing-kit",
+      "name": "Bonnell 805 - Linkage / Suspension Bearing Kit",
+      "brand": "Bonnell",
+      "category": "linkage",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 149.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-linkage-suspension-bearing-kit",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-linkage-suspension-bearing-kit"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Linkage / Suspension Bearing Kit Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 149.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-linkage-suspension-bearing-kit"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "linkage-bonnell-805-rx-linkage",
+      "name": "Bonnell 805 - Linkage",
+      "brand": "Bonnell",
+      "category": "linkage",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 78.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-linkage",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-linkage"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Linkage (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 78.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-linkage"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "linkage-bonnell-805-rx-rocker-assembly",
+      "name": "Bonnell 805 - Rocker Assembly",
+      "brand": "Bonnell",
+      "category": "linkage",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 149.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rocker-assembly",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rocker-assembly"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Rocker Assembly (805) Fitment: Bonnell 805.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 149.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-rocker-assembly"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -780,6 +867,36 @@
       "product_id": "voro-eride-ss-progression-triangle",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-linkage-suspension-bearing-kit"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "linkage-bonnell-805-rx-linkage-suspension-bearing-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-linkage"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "linkage-bonnell-805-rx-linkage",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-rocker-assembly"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "linkage-bonnell-805-rx-rocker-assembly",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ]
 }

@@ -589,6 +589,16 @@
       "product_id": "voro-eride-ss-handlebar",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-high-bend-handlebar"
+      ],
+      "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
+      "product_id": "handlebar-bonnell-805-rx-high-bend-handlebar",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ],
   "products": [
@@ -1137,6 +1147,93 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-sur-ron-light-bee-handlebar-mount.webp"
+    },
+    {
+      "id": "handlebar-bonnell-805-rx-high-bend-handlebar",
+      "name": "Bonnell 805 - Bend Handlebar | High & Low",
+      "brand": "Bonnell",
+      "category": "handlebar",
+      "badge": null,
+      "tier": "OEM",
+      "price_usd": 85.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-high-bend-handlebar",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-high-bend-handlebar"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "Bend Handlebar Fitment: Bonnell 805. Price range $85.95-$89.95 at CCW; listed price is the lowest variant.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 85.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-high-bend-handlebar"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "handlebar-odi-podium-mx-handlebars",
+      "name": "ODI Podium MX Handlebars 28.6mm",
+      "brand": "ODI",
+      "category": "handlebar",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 103.46,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/odi-podium-mx-handlebars",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/odi-podium-mx-handlebars"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. 28.6mm (1-1/8 in) clamp — verify against the stock bar clamp size (unverified in picker data) before confirming fit. Price range $103.46-$114.95 at CCW; listed price is the lowest variant. FLAG: 28.6mm (1-1/8 in) clamp - verify against the stock bar clamp size (unverified in picker data) before confirming fit.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 103.46,
+          "buy_url": "https://chargedcycleworks.com/products/odi-podium-mx-handlebars"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "handlebar-renthal-fatbar-1-1-8",
+      "name": "Renthal FatBar MX Handlebar 28.6mm",
+      "brand": "Renthal",
+      "category": "handlebar",
+      "badge": null,
+      "tier": "premium",
+      "price_usd": 121.46,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8"
+      ],
+      "last_checked": "2026-11-05",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. 28.6mm (1-1/8 in) clamp — verify against the stock bar clamp size (unverified in picker data) before confirming fit. FLAG: 28.6mm (1-1/8 in) clamp - verify against the stock bar clamp size (unverified in picker data) before confirming fit.",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 121.46,
+          "buy_url": "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
     }
   ]
 }
