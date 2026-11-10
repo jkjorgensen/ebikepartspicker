@@ -1099,3 +1099,4 @@ html.ux-lock,html.ux-lock body{overflow:hidden}
 .showall{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted,#9aa3ad);margin:0 0 10px;cursor:pointer;line-height:1.3}
 .showall input{width:16px;height:16px;flex:0 0 auto;margin:0}
 .nofit-note{font-size:13px;color:var(--muted,#9aa3ad);margin:6px 0 0;line-height:1.35}
+.nofit-hint{display:block;font-size:12px;margin-top:2px}
