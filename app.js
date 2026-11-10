@@ -713,7 +713,7 @@ function render(){
     va.textContent='Bike price at Voro Motors'; bsEl.appendChild(va); bsEl.appendChild(document.createTextNode(' (checked '+CHECKED+(b.msrp?'; MSRP '+money(b.msrp):'')+')')); }
 
   var img = $('bikeImg'), src = previewSrc();
-  if(img.getAttribute('src')!==src){ img.removeAttribute('srcset'); img.src = src; }
+  setResponsiveBikePhoto(img, src, {eager:true, sizes:'(max-width: 900px) 100vw, 720px'});
   img.alt = b.name + ' e-moto';
   renderPartTray();
   var bbx = $('bikeBuy'); if(bbx){ bbx.innerHTML=''; var be = buyBikeEl(b.id, b.name); if(be) bbx.appendChild(be); }
@@ -1087,6 +1087,22 @@ var IMGV = '4.5.0'; /* bump when bike images change so browsers refetch */
 /* real manufacturer/dealer photos, background removed, standardized 1600x1000 (16:10); small=800x500 */
 function bikeImgSrc(id, small){ return 'img/bikes/'+id+(small?'-800':'')+'.webp?v='+IMGV; }
 window.bikeImgSrc = bikeImgSrc; /* used by quiz.js / compare.js */
+/* Responsive bike photo: keep 800w in srcset so the builder LCP is not the 1600px file. */
+function setResponsiveBikePhoto(el, fullSrc, opts){
+  if(!el || !fullSrc) return;
+  opts = opts || {};
+  var src800 = fullSrc.indexOf('-800.webp') !== -1 ? fullSrc : fullSrc.replace(/\.webp(\?|$)/, '-800.webp$1');
+  var sizes = opts.sizes || '(max-width: 900px) 100vw, 720px';
+  var set = src800+' 800w, '+(fullSrc.indexOf('-800.webp')!==-1 ? fullSrc.replace('-800.webp','.webp') : fullSrc)+' 1600w';
+  if(el.getAttribute('srcset')!==set || el.getAttribute('src')!==src800){
+    el.setAttribute('sizes', sizes);
+    el.setAttribute('srcset', set);
+    el.src = src800;
+  }
+  if(opts.eager){ el.loading='eager'; try{ el.fetchPriority='high'; }catch(e){} }
+  if(opts.alt) el.alt = opts.alt;
+}
+
 (function(){
   var overlay = $('suggestOverlay');
   if(!overlay) return;
@@ -1270,7 +1286,7 @@ document.addEventListener('click', function(e){
 initBikePicker('startBikeInput', 'startBikeList', function(id){
   state.bike = id; syncBikeInputs();
   var hero = $('heroImg'), b = bikeById(id);
-  if(hero && b){ hero.removeAttribute('srcset'); hero.src = bikeImgSrc(b.id); hero.alt = b.name+' electric dirt bike'; }
+  if(hero && b){ setResponsiveBikePhoto(hero, bikeImgSrc(b.id), {eager:true, sizes:'(max-width: 900px) 100vw, 900px', alt:b.name+' electric dirt bike'}); }
 });
 initBikePicker('bikeSelectInput', 'bikeSelectList', function(id){
   state.bike = id; state.step = 0; syncBikeInputs(); render(); saveHash();
@@ -1431,7 +1447,7 @@ window.__app = {
     if(any) return;
     state.bike = id; syncBikeInputs();
     var hero = $('heroImg'), b = bikeById(id);
-    if(hero && b && !$('start').hidden){ hero.removeAttribute('srcset'); hero.src = bikeImgSrc(b.id); hero.alt = b.name+' electric dirt bike'; }
+    if(hero && b && !$('start').hidden){ setResponsiveBikePhoto(hero, bikeImgSrc(b.id), {eager:true, sizes:'(max-width: 900px) 100vw, 900px', alt:b.name+' electric dirt bike'}); }
     if(!$('app').hidden){ state.step = 0; render(); saveHash(); }
   }
 };
