@@ -1,7 +1,7 @@
 {
-  "bike_count": 45,
-  "build_script": "tools/build-catalog.js",
-  "catalog_version": "3.10.6",
+  "bike_count": 46,
+  "build_script": "none (data.js and data/categories/*.json are edited together)",
+  "catalog_version": "4.14.5",
   "categories": [
     {
       "file": "data/categories/motors.json",
@@ -254,7 +254,10 @@
     }
   ],
   "category_files": "data/categories/*.json",
-  "generated": "2026-10-12",
-  "last_researched": "2026-10-12",
-  "product_count": 170
+  "generated": "2026-11-10",
+  "last_researched": "2026-11-10",
+  "product_count": 564,
+  "product_count_listed": 557,
+  "product_count_category_json": 536,
+  "static_pages_build": "python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py"
 }
