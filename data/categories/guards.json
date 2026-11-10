@@ -878,6 +878,431 @@
       "power_change_kw": null,
       "weight_delta_kg": null,
       "image": "img/parts/mxps-skid-plate-stormbee.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ub-oem-chain-guard",
+      "name": "Surron Ultra Bee - OEM Upper Chain Guard",
+      "brand": "Surron",
+      "category": "guards",
+      "price_usd": 24.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ub-oem-chain-guard",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-chain-guard"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ub-oem-chain-guard"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ub-oem-chain-guard.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-lower-chain-fender",
+      "name": "Surron Ultra Bee - Simulated Carbon Fiber Chain Guards",
+      "brand": "Surron-WN",
+      "category": "guards",
+      "price_usd": 14.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-lower-chain-fender",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-lower-chain-fender"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 14.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-lower-chain-fender"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-lower-chain-fender.webp"
+    },
+    {
+      "id": "chargedcycleworks-hard-enduro-skid-plate-surron-ultra-bee",
+      "name": "DirtyBike Skid Plate for Surron Ultra Bee",
+      "brand": "DirtyBike",
+      "category": "guards",
+      "price_usd": 159.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/hard-enduro-skid-plate-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/hard-enduro-skid-plate-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 159.0,
+          "buy_url": "https://chargedcycleworks.com/products/hard-enduro-skid-plate-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-hard-enduro-skid-plate-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip",
+      "name": "E Ride Pro - OEM Skid Plate",
+      "brand": "ERide Pro",
+      "category": "guards",
+      "price_usd": 79.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW body: 'OEM Skid Plate for E Ride Pro SS 3.0 and SR' ($79, in stock). Checked 2026-11-10.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-skid-plate-ss3-0-sr",
+      "name": "E Ride Pro - Skid Plate - SS3.0/SR | OEM",
+      "brand": "ERide Pro",
+      "category": "guards",
+      "price_usd": 6.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-skid-plate-ss3-0-sr",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-skid-plate-ss3-0-sr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-skid-plate-ss3-0-sr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-skid-plate-ss3-0-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-heavy-hitter-e-ride-skid-plate",
+      "name": "Heavy Hitter E-Ride Skid Plate",
+      "brand": "GritShift",
+      "category": "guards",
+      "price_usd": 219.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment: 'E Ride Pro S / SS / 2.0 / 3.0 / 4.0 / SR'. Checked 2026-11-10. https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 219.99,
+          "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-heavy-hitter-e-ride-skid-plate.webp"
+    },
+    {
+      "id": "chargedcycleworks-uhmw-skid-plate-by-sxs-for-surron-segway",
+      "name": "SXS UHMW Skid plate",
+      "brand": "SXS",
+      "category": "guards",
+      "price_usd": 135.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10); CCW title/variants name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 135.0,
+          "buy_url": "https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-uhmw-skid-plate-by-sxs-for-surron-segway.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-frame-lower-guard",
+      "name": "Surron Ultra Bee - Simulated Carbon Fiber Skid Plate",
+      "brand": "Surron-WN",
+      "category": "guards",
+      "price_usd": 45.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 45.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-frame-lower-guard.webp"
+    },
+    {
+      "id": "chargedcycleworks-tmb-heavy-duty-bash-plate-e-ride-pro-ss",
+      "name": "TMB Heavy Duty Bash Plate – E Ride Pro SS 2.0 / SS 3.0",
+      "brand": "Charged Cycle Works",
+      "category": "guards",
+      "price_usd": 225.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-e-ride-pro-ss",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-e-ride-pro-ss"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 225.0,
+          "buy_url": "https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-e-ride-pro-ss"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-tmb-heavy-duty-bash-plate-e-ride-pro-ss.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective",
+      "name": "KKE Aluminum Front Brake Disc Guard for Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "guards",
+      "price_usd": 79.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective",
+      "name": "KKE Rear Brake Disc Guard for Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "guards",
+      "price_usd": 79.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ub-oem-hand-guard-assembly",
+      "name": "Surron Ultra Bee - OEM Hand Guard Assembly",
+      "brand": "Surron",
+      "category": "guards",
+      "price_usd": 49.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ub-oem-hand-guard-assembly.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-hand-guard",
+      "name": "Surron Ultra Bee - OEM Hand Guard Left (White)",
+      "brand": "Surron",
+      "category": "guards",
+      "price_usd": 21.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 21.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-hand-guard.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-hand-guard-right-white",
+      "name": "Surron Ultra Bee - OEM Hand Guard Right (White)",
+      "brand": "Surron",
+      "category": "guards",
+      "price_usd": 21.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 21.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-hand-guard-right-white.webp"
+    },
+    {
+      "id": "chargedcycleworks-handle-cover",
+      "name": "Surron Ultra Bee - Simulated Carbon Fiber Hand Guards",
+      "brand": "Surron-WN",
+      "category": "guards",
+      "price_usd": 39.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/handle-cover",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/handle-cover"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/handle-cover"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-handle-cover.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-rear-rotor-guard",
+      "name": "Surron Ultra Bee Rear Rotor Guard",
+      "brand": "Tarazon",
+      "category": "guards",
+      "price_usd": 39.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-rotor-guard",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rear-rotor-guard"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-rotor-guard"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-rear-rotor-guard.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-hand-guards-black-oem",
+      "name": "Surron Ultra Bee – Left and Right Hand Guard Windshield – Black | OEM",
+      "brand": "Surron-WN",
+      "category": "guards",
+      "price_usd": 24.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-hand-guards-black-oem.webp"
     }
   ],
   "compatibility": [
@@ -885,11 +1310,12 @@
       "product_id": "guards-eride-motor-guard",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
-        "https://www.eridepro.com/products/e7020"
+        "https://www.eridepro.com/products/e7020",
+        "https://voromotors.com/products/motor-protection-guard-for-e-ride-pro-ss"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "guards-eride-motor-guard",
@@ -985,11 +1411,11 @@
       "product_id": "guards-ultrabee-skid",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/skid-plate"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Ultra Bee (checked Oct 18, 2026)"
     },
     {
       "product_id": "guards-ultrabee-skid",
@@ -1065,11 +1491,11 @@
       "product_id": "guards-lightbee-chain",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://shop.sur-ron.com/products/sur-ron-chain-protection-box"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "guards-lightbee-chain",
@@ -1194,10 +1620,12 @@
     {
       "product_id": "stormbee-upgrade-parts-kit",
       "bike_id": "storm-bee",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://mxpartshop.com/products/for-surron-storm-bee-brake-levers-frame-slider-chain-adjuster-foot-pegs-caliper-guard-disc-guard"
+      ],
+      "notes": "Seller listing names the Sur-Ron Storm Bee F (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "guards-prickly-motor-cover",
@@ -1216,7 +1644,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-motor-skid-plate",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1236,7 +1664,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "guards-bonnell-805-rx-left-right-upper-frame-guard-set",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1246,7 +1674,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "guards-bonnell-805-rx-bash-guard",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1256,7 +1684,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "guards-bonnell-805-rx-welded-bashguard",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1266,7 +1694,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "guards-dirtybike-shock-protector-mud-flap-bonnell-805",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1276,7 +1704,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "guards-dirtybike-hard-enduro-skid-plate-bonnell-805",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1286,7 +1714,7 @@
       ],
       "notes": "CPD USA title names Sur-Ron Ultra Bee 2023-2025 (checked Nov 10, 2026)",
       "product_id": "cpdusa-rtech-bi-material-frame-protectors-ultra-bee-black",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1316,7 +1744,7 @@
       ],
       "notes": "MXwraps fitment names 79Bike Falcon Pro (checked Nov 10, 2026)",
       "product_id": "mxwraps-79bike-ventus-frame-guards-pro-lite-gt",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1326,7 +1754,7 @@
       ],
       "notes": "MXwraps fitment names 79Bike Falcon GT (checked Nov 10, 2026)",
       "product_id": "mxwraps-79bike-ventus-frame-guards-pro-lite-gt",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1357,7 +1785,7 @@
       ],
       "notes": "MXwraps FAQ: fits the Surron Light Bee X (LBX) (checked Nov 10, 2026)",
       "product_id": "mxwraps-surron-coated-frame-guards-lbx",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1367,7 +1795,7 @@
       ],
       "notes": "Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)",
       "product_id": "mxps-sprocket-guard-stormbee",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1377,8 +1805,218 @@
       ],
       "notes": "Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)",
       "product_id": "mxps-skid-plate-stormbee",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-uhmw-skid-plate-by-sxs-for-surron-segway",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip"
+      ],
+      "notes": "CCW body: 'OEM Skid Plate for E Ride Pro SS 3.0 and SR' ($79, in stock). Checked 2026-11-10."
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-skid-plate-ss3-0-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-skid-plate-ss3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-skid-plate-ss3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-e-ride-skid-plate",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate"
+      ],
+      "notes": "CCW fitment: 'E Ride Pro S / SS / 2.0 / 3.0 / 4.0 / SR'. Checked 2026-11-10. https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip"
+      ],
+      "notes": "CCW body: 'OEM Skid Plate for E Ride Pro SS 3.0 and SR'. Checked 2026-11-10."
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-skid-plate-ss3-0-sr",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-skid-plate-ss3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-skid-plate-ss3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-e-ride-skid-plate",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate"
+      ],
+      "notes": "CCW fitment names E Ride Pro 3.0 and SR. Checked 2026-11-10."
+    },
+    {
+      "product_id": "chargedcycleworks-tmb-heavy-duty-bash-plate-e-ride-pro-ss",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-e-ride-pro-ss"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-e-ride-pro-ss"
+    },
+    {
+      "product_id": "chargedcycleworks-handle-cover",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/handle-cover"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/handle-cover"
+    },
+    {
+      "product_id": "chargedcycleworks-hard-enduro-skid-plate-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/hard-enduro-skid-plate-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/hard-enduro-skid-plate-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ub-oem-chain-guard",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-chain-guard"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ub-oem-chain-guard"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ub-oem-hand-guard-assembly",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-frame-lower-guard",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-hand-guards-black-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-lower-chain-fender",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-lower-chain-fender"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-lower-chain-fender"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-hand-guard",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-hand-guard-right-white",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-rear-rotor-guard",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rear-rotor-guard"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-rear-rotor-guard"
+    },
+    {
+      "product_id": "chargedcycleworks-uhmw-skid-plate-by-sxs-for-surron-segway",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway"
     }
   ]
 }

@@ -1322,6 +1322,931 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-side-plate-brackets",
+      "name": "Surron Ultra Bee - OEM Side Plate Brackets",
+      "brand": "Surron",
+      "category": "plastics",
+      "price_usd": 12.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-side-plate-brackets",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-side-plate-brackets"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 12.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-side-plate-brackets"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-side-plate-brackets.webp"
+    },
+    {
+      "id": "chargedcycleworks-bonnell-805-rx-frame-assembly",
+      "name": "Bonnell 805 – 805 Frame Assembly",
+      "brand": "Bonnell",
+      "category": "plastics",
+      "price_usd": 1500.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-frame-assembly",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) bonnell-805rx exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-frame-assembly"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1500.0,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-frame-assembly"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-bonnell-805-rx-frame-assembly.webp"
+    },
+    {
+      "id": "chargedcycleworks-bonnell-805-rx-welded-subframe",
+      "name": "Bonnell 805 – Welded Subframe",
+      "brand": "Bonnell",
+      "category": "plastics",
+      "price_usd": 249.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-welded-subframe",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) bonnell-805rx exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-welded-subframe"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 249.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-welded-subframe"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-bonnell-805-rx-welded-subframe.webp"
+    },
+    {
+      "id": "chargedcycleworks-flat-washer-gb-t-97-1-m6-1",
+      "name": "OEM Front Fender Bolt Washer",
+      "brand": "eBikeZilla",
+      "category": "plastics",
+      "price_usd": 1.35,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/flat-washer-gb-t-97-1-m6-1",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/flat-washer-gb-t-97-1-m6-1"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1.35,
+          "buy_url": "https://chargedcycleworks.com/products/flat-washer-gb-t-97-1-m6-1"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards",
+      "name": "Surron Ultra Bee - OEM Carbon Black Plastics Kit",
+      "brand": "Surron",
+      "category": "plastics",
+      "price_usd": 139.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 139.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards.webp"
+    },
+    {
+      "id": "chargedcycleworks-hardware-kit-for-oem-ultra-bee-front-fender",
+      "name": "Surron Ultra Bee - OEM Front Fender Hardware Kit",
+      "brand": "Surron",
+      "category": "plastics",
+      "price_usd": 10.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/hardware-kit-for-oem-ultra-bee-front-fender",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/hardware-kit-for-oem-ultra-bee-front-fender"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 10.0,
+          "buy_url": "https://chargedcycleworks.com/products/hardware-kit-for-oem-ultra-bee-front-fender"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-hardware-kit-for-oem-ultra-bee-front-fender.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-rear-fender",
+      "name": "Surron Ultra Bee - Simulated Carbon Fiber Rear Fender",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 49.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-rear-fender.webp"
+    },
+    {
+      "id": "chargedcycleworks-guard-board",
+      "name": "Surron Ultra Bee - Simulated Carbon Fiber Side Plate Brackets",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 29.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/guard-board",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/guard-board"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.99,
+          "buy_url": "https://chargedcycleworks.com/products/guard-board"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-guard-board.webp"
+    },
+    {
+      "id": "chargedcycleworks-65cc-number-plate-adapter-for-surron-ultra-bee",
+      "name": "Charged 65cc Front Number Plate Adapter for Surron Ultra Bee",
+      "brand": "Brett",
+      "category": "plastics",
+      "price_usd": 25.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/65cc-number-plate-adapter-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/65cc-number-plate-adapter-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 25.0,
+          "buy_url": "https://chargedcycleworks.com/products/65cc-number-plate-adapter-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-65cc-number-plate-adapter-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-extended-rear-fender",
+      "name": "E Ride Pro - OEM Extended Rear Fender",
+      "brand": "ERide Pro",
+      "category": "plastics",
+      "price_usd": 29.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-extended-rear-fender",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-extended-rear-fender"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-extended-rear-fender"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-extended-rear-fender.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-battery-positioning-support-base-with-6bolts",
+      "name": "E Ride Pro – OEM Battery Support Base with 6 Bolts (All Models)",
+      "brand": "ERide Pro",
+      "category": "plastics",
+      "price_usd": 21.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-battery-positioning-support-base-with-6bolts",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-battery-positioning-support-base-with-6bolts"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 21.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-battery-positioning-support-base-with-6bolts"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-battery-positioning-support-base-with-6bolts.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr",
+      "name": "ERide Pro - New Mud Flaps Kit - S/SS2.0/SS3.0/SR",
+      "brand": "ERide Pro",
+      "category": "plastics",
+      "price_usd": 55.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 55.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-frame-protectors-for-surron-ultra-bee",
+      "name": "RTech Frame Protectors for Surron Ultra Bee",
+      "brand": "Rtech",
+      "category": "plastics",
+      "price_usd": 59.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/frame-protectors-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/frame-protectors-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/frame-protectors-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-frame-protectors-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-colored-plastics-for-surron-ultra-bee",
+      "name": "RTech Full Replica Colored Plastics Kit for Surron Ultra Bee",
+      "brand": "Rtech",
+      "category": "plastics",
+      "price_usd": 162.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/colored-plastics-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/colored-plastics-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 162.99,
+          "buy_url": "https://chargedcycleworks.com/products/colored-plastics-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-colored-plastics-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-rtech-side-panels",
+      "name": "RTech Side Panels for Surron Ultra Bee Models (2023 to 2025)",
+      "brand": "Rtech",
+      "category": "plastics",
+      "price_usd": 45.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-rtech-side-panels",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rtech-side-panels"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 45.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-rtech-side-panels"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-rtech-side-panels.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-front-fender-rtech",
+      "name": "RTech Ultra Bee front fender",
+      "brand": "Rtech",
+      "category": "plastics",
+      "price_usd": 32.35,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-front-fender-rtech",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-front-fender-rtech"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 32.35,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-front-fender-rtech"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-front-fender-rtech.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-rear-fender-rtech",
+      "name": "RTech Ultra Bee rear fender",
+      "brand": "Rtech",
+      "category": "plastics",
+      "price_usd": 32.35,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-rear-fender-rtech",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-rear-fender-rtech"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 32.35,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-rear-fender-rtech"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-rear-fender-rtech.webp"
+    },
+    {
+      "id": "chargedcycleworks-front-fender-for-talaria-oem-surron-oem-segway-x260",
+      "name": "Surron Light Bee OEM Front Fender",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 29.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.0,
+          "buy_url": "https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-front-fender-for-talaria-oem-surron-oem-segway-x260.webp"
+    },
+    {
+      "id": "chargedcycleworks-oem-ultra-bee-front-fender-black",
+      "name": "Surron Ultra Bee - OEM Front Fender",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 40.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/oem-ultra-bee-front-fender-black",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/oem-ultra-bee-front-fender-black"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 40.99,
+          "buy_url": "https://chargedcycleworks.com/products/oem-ultra-bee-front-fender-black"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-oem-ultra-bee-front-fender-black.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-fender",
+      "name": "Surron Ultra Bee - OEM Rear Fender",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 39.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-fender",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-fender"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/rear-fender"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-fender.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-seat-armrest",
+      "name": "Surron Ultra Bee - Passenger Handles",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 24.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-seat-armrest",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-seat-armrest"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.99,
+          "buy_url": "https://chargedcycleworks.com/products/rear-seat-armrest"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-seat-armrest.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-front-fender",
+      "name": "Surron Ultra Bee - Simulated Carbon Fiber Front Fender",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 49.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-front-fender",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-front-fender"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-front-fender"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-front-fender.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem",
+      "name": "Surron Ultra Bee – Battery Compartment Panels Left & Right | OEM Covers",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 12.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 12.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-frame-shroud-left-right-oem",
+      "name": "Surron Ultra Bee – Frame Shroud (Left / Right) | OEM",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 24.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-frame-shroud-left-right-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-frame-shroud-left-right-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-frame-shroud-left-right-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-frame-shroud-left-right-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-guard-board-oem-black-white",
+      "name": "Surron Ultra Bee – Guard Board – Black / White | OEM",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 14.7,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-guard-board-oem-black-white",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-guard-board-oem-black-white"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 14.7,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-guard-board-oem-black-white"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-guard-board-oem-black-white.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-handle-guard-mount-base-left-right-oem",
+      "name": "Surron Ultra Bee – Handle Guard Mount Base (Left / Right) | OEM",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 22.6,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-handle-guard-mount-base-left-right-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-handle-guard-mount-base-left-right-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 22.6,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-handle-guard-mount-base-left-right-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-handle-guard-mount-base-left-right-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-lower-side-panel-oem",
+      "name": "Surron Ultra Bee – Left & Right Lower Side Panels | OEM",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 28.8,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-lower-side-panel-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-lower-side-panel-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 28.8,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-lower-side-panel-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-lower-side-panel-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-midshaft-guard-oem",
+      "name": "Surron Ultra Bee – Midshaft Guard | OEM",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 16.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-midshaft-guard-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-midshaft-guard-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-midshaft-guard-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-midshaft-guard-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-rear-fender-cover-plate-oem",
+      "name": "Surron Ultra Bee – Rear Fender Cover Plate | OEM",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 16.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender-cover-plate-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender-cover-plate-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender-cover-plate-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-rear-fender-cover-plate-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-rear-mud-flap-oem",
+      "name": "Surron Ultra Bee – Rear Mud Flap | OEM",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 31.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-mud-flap-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rear-mud-flap-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 31.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-mud-flap-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-rear-mud-flap-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-steering-block-left-right-oem",
+      "name": "Surron Ultra Bee – Steering Block (Left / Right) | OEM",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 8.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-steering-block-left-right-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-steering-block-left-right-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-steering-block-left-right-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-steering-block-left-right-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-subframe-fender-oem",
+      "name": "Surron Ultra Bee – Subframe Fender | OEM",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 60.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-subframe-fender-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-subframe-fender-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 60.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-subframe-fender-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-subframe-fender-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-usb-decorative-cover-oem",
+      "name": "Surron Ultra Bee – USB Decorative Cover | OEM",
+      "brand": "Surron-WN",
+      "category": "plastics",
+      "price_usd": 12.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-usb-decorative-cover-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-usb-decorative-cover-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 12.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-usb-decorative-cover-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-usb-decorative-cover-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-fender-sting-r-mx4-extended",
+      "name": "Talaria - OEM Rear Fender",
+      "brand": "eBikeZilla",
+      "category": "plastics",
+      "price_usd": 27.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-fender-sting-r-mx4-extended",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-fender-sting-r-mx4-extended"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 27.99,
+          "buy_url": "https://chargedcycleworks.com/products/rear-fender-sting-r-mx4-extended"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-fender-sting-r-mx4-extended.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-komodo-rear-fender-white",
+      "name": "Talaria Komodo - Rear Fender (White) | OEM",
+      "brand": "eBikeZilla",
+      "category": "plastics",
+      "price_usd": 9.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-rear-fender-white",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-rear-fender-white"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.89,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-rear-fender-white"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-komodo-rear-fender-white.webp"
+    },
+    {
+      "id": "chargedcycleworks-lock-assembly-ventus-oem",
+      "name": "Ventus One - OEM Lock Assembly",
+      "brand": "Pinned Electric",
+      "category": "plastics",
+      "price_usd": 55.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/lock-assembly-ventus-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW body: 'Replacement Lock assembly for Ventus One and Ventus One +'. Checked 2026-11-10.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/lock-assembly-ventus-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 55.0,
+          "buy_url": "https://chargedcycleworks.com/products/lock-assembly-ventus-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-lock-assembly-ventus-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-u-lock-latch-ventus-oem",
+      "name": "Ventus One - OEM U-lock Latch",
+      "brand": "Pinned Electric",
+      "category": "plastics",
+      "price_usd": 15.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/u-lock-latch-ventus-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW body: 'Replacement Latch for Ventus One and Ventus One +'. Checked 2026-11-10.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/u-lock-latch-ventus-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 15.0,
+          "buy_url": "https://chargedcycleworks.com/products/u-lock-latch-ventus-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-u-lock-latch-ventus-oem.webp"
     }
   ],
   "compatibility": [
@@ -1329,7 +2254,7 @@
       "product_id": "guts-seat-cover",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
@@ -1339,7 +2264,7 @@
       "product_id": "guts-seat-cover",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
@@ -1349,7 +2274,7 @@
       "product_id": "guts-seat-cover",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
@@ -1359,7 +2284,7 @@
       "product_id": "guts-seat-cover",
       "bike_id": "ss30",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
@@ -1369,7 +2294,7 @@
       "product_id": "guts-seat-cover",
       "bike_id": "ss40",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
@@ -1379,7 +2304,7 @@
       "product_id": "guts-seat-cover",
       "bike_id": "sr",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
@@ -1389,7 +2314,7 @@
       "product_id": "guts-seat-cover",
       "bike_id": "ventus-plus",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
@@ -1399,7 +2324,7 @@
       "product_id": "guts-seat-cover",
       "bike_id": "ventus-evo",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
@@ -1409,7 +2334,7 @@
       "product_id": "guts-seat-cover",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
@@ -1419,7 +2344,7 @@
       "product_id": "guts-seat-cover",
       "bike_id": "mx5",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
@@ -1445,7 +2370,7 @@
       "product_id": "luna-float-seat",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://lunacycle.com/sur-ron-float-seat/"
       ],
@@ -1455,7 +2380,7 @@
       "product_id": "ventus-graphics",
       "bike_id": "ventus-plus",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem"
       ],
@@ -1465,7 +2390,7 @@
       "product_id": "ventus-graphics",
       "bike_id": "ventus-evo",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem"
       ],
@@ -1490,26 +2415,32 @@
     {
       "product_id": "plastics-talaria-mx4-oem-graphics",
       "bike_id": "komodo",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html"
+      ],
+      "notes": "Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "plastics-talaria-mx4-oem-graphics",
       "bike_id": "mx5",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html"
+      ],
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "plastics-talaria-mx4-oem-graphics",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://shop.talariacanada.com/en/graphics/134001-graphic-kit-talaria-sting-r-mx4-orange-34012-56a10-024-talaria.html"
+      ],
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "plastics-talaria-mx4-oem-graphics",
@@ -1587,9 +2518,11 @@
       "product_id": "plastics-ultrabee-graphics",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://throttleco.store/products/pre-designed-ultrabee-graphics-kit-plastics-only"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "plastics-ultrabee-graphics",
@@ -1674,10 +2607,12 @@
     {
       "product_id": "plastics-lightbee-numberplate",
       "bike_id": "lightbee",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/sur-ron-light-bee-front-number-plate"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "plastics-lightbee-numberplate",
@@ -1731,7 +2666,7 @@
       "product_id": "ecd-wrap-ultrabee-solid",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/surron-ultra-bee-solid-color-frame-wrap"
       ],
@@ -1741,7 +2676,7 @@
       "product_id": "ecd-wrap-talaria-solid",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/talaria-sting-solid-color-frame-wrap"
       ],
@@ -1751,7 +2686,7 @@
       "product_id": "ecd-wrap-lbx-solid",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/surron-lbx-solid-color-frame-wrap"
       ],
@@ -1761,7 +2696,7 @@
       "product_id": "ecd-wrap-79bike-solid",
       "bike_id": "falcon-pro",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/79bike-solid-color-frame-wrap-m-pro-gt-ventus"
       ],
@@ -1771,7 +2706,7 @@
       "product_id": "ecd-wrap-79bike-solid",
       "bike_id": "falcon-gt",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/79bike-solid-color-frame-wrap-m-pro-gt-ventus"
       ],
@@ -1781,7 +2716,7 @@
       "product_id": "ecd-wrap-ridge",
       "bike_id": "falcon-pro",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ecdwraps.com/products/79bike-ventusone-ridge"
       ],
@@ -1791,7 +2726,7 @@
       "product_id": "ecd-wrap-ridge",
       "bike_id": "falcon-gt",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ecdwraps.com/products/79bike-ventusone-ridge"
       ],
@@ -1801,7 +2736,7 @@
       "product_id": "ecd-wrap-ridge",
       "bike_id": "ventus-plus",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ecdwraps.com/products/79bike-ventusone-ridge"
       ],
@@ -1811,7 +2746,7 @@
       "product_id": "armysctv-talaria-custom",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://armysctv.com/en/products/kit-deco-100-perso-talaria-sting-mx3-r-mx4"
       ],
@@ -1821,7 +2756,7 @@
       "product_id": "ecr-graphics-talaria",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://parts.electriccyclerider.com/products/180-decals-graphics-for-talaria-sting-mx3-mx4"
       ],
@@ -1831,7 +2766,7 @@
       "product_id": "rawrr-mantis-graphic-kit",
       "bike_id": "rawrr-mantis-72v",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.riderawrr.com/product/mantis-graphic-kit"
       ],
@@ -1841,7 +2776,7 @@
       "product_id": "rev797-wrap-022",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.rev797.com/products/graphics-wrap-022"
       ],
@@ -1851,7 +2786,7 @@
       "product_id": "rev797-wrap-022",
       "bike_id": "komodo",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.rev797.com/products/graphics-wrap-022"
       ],
@@ -1861,7 +2796,7 @@
       "product_id": "rev797-wrap-022",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.rev797.com/products/graphics-wrap-022"
       ],
@@ -1871,7 +2806,7 @@
       "product_id": "rev797-wrap-022",
       "bike_id": "falcon-pro",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.rev797.com/products/graphics-wrap-022"
       ],
@@ -1881,7 +2816,7 @@
       "product_id": "rev797-wrap-022",
       "bike_id": "falcon-gt",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.rev797.com/products/graphics-wrap-022"
       ],
@@ -1891,7 +2826,7 @@
       "product_id": "rev797-wrap-022",
       "bike_id": "ventus-plus",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.rev797.com/products/graphics-wrap-022"
       ],
@@ -1904,7 +2839,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-ultrabee-side-fairings",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1914,7 +2849,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-ultrabee-decal-set",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1924,7 +2859,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-outlaw",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1934,7 +2869,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-grand-prix",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1944,7 +2879,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-resin",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1954,7 +2889,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-morph",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1964,7 +2899,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-flux",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1974,7 +2909,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-virus",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1984,7 +2919,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-vision",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1994,7 +2929,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-sketcher",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -2004,7 +2939,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-bonnell-805-rx-front-white-fender",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -2014,7 +2949,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-bonnell-805-rx-rear-white-fender",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -2024,7 +2959,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-bonnell-805-rx-white-number-plate-1",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -2034,7 +2969,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-bonnell-805-oem-plastics-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -2044,8 +2979,428 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "plastics-bonnell-805-rx-common-plastics-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-bonnell-805-rx-frame-assembly",
+      "bike_id": "bonnell-805rx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-frame-assembly"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bonnell-805-rx-frame-assembly"
+    },
+    {
+      "product_id": "chargedcycleworks-bonnell-805-rx-welded-subframe",
+      "bike_id": "bonnell-805rx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-welded-subframe"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bonnell-805-rx-welded-subframe"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-komodo-rear-fender-white",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-rear-fender-white"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-rear-fender-white"
+    },
+    {
+      "product_id": "chargedcycleworks-front-fender-for-talaria-oem-surron-oem-segway-x260",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-fender-sting-r-mx4-extended",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-fender-sting-r-mx4-extended"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rear-fender-sting-r-mx4-extended"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-battery-positioning-support-base-with-6bolts",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-battery-positioning-support-base-with-6bolts"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-battery-positioning-support-base-with-6bolts"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-extended-rear-fender",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-extended-rear-fender"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-extended-rear-fender"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-battery-positioning-support-base-with-6bolts",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-battery-positioning-support-base-with-6bolts"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-battery-positioning-support-base-with-6bolts"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-extended-rear-fender",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-extended-rear-fender"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-extended-rear-fender"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-flat-washer-gb-t-97-1-m6-1",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/flat-washer-gb-t-97-1-m6-1"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/flat-washer-gb-t-97-1-m6-1"
+    },
+    {
+      "product_id": "chargedcycleworks-65cc-number-plate-adapter-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/65cc-number-plate-adapter-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/65cc-number-plate-adapter-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-colored-plastics-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/colored-plastics-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/colored-plastics-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-frame-protectors-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/frame-protectors-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/frame-protectors-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-guard-board",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/guard-board"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/guard-board"
+    },
+    {
+      "product_id": "chargedcycleworks-hardware-kit-for-oem-ultra-bee-front-fender",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/hardware-kit-for-oem-ultra-bee-front-fender"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/hardware-kit-for-oem-ultra-bee-front-fender"
+    },
+    {
+      "product_id": "chargedcycleworks-oem-ultra-bee-front-fender-black",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/oem-ultra-bee-front-fender-black"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/oem-ultra-bee-front-fender-black"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-fender",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-fender"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rear-fender"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-seat-armrest",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-seat-armrest"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rear-seat-armrest"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-frame-shroud-left-right-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-frame-shroud-left-right-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-frame-shroud-left-right-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-front-fender",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-front-fender"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-front-fender"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-guard-board-oem-black-white",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-guard-board-oem-black-white"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-guard-board-oem-black-white"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-handle-guard-mount-base-left-right-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-handle-guard-mount-base-left-right-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-handle-guard-mount-base-left-right-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-lower-side-panel-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-lower-side-panel-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-lower-side-panel-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-midshaft-guard-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-midshaft-guard-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-midshaft-guard-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-side-plate-brackets",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-side-plate-brackets"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-side-plate-brackets"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-rear-fender",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-rear-fender-cover-plate-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender-cover-plate-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender-cover-plate-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-rear-mud-flap-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rear-mud-flap-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-rear-mud-flap-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-rtech-side-panels",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rtech-side-panels"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-rtech-side-panels"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-steering-block-left-right-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-steering-block-left-right-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-steering-block-left-right-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-subframe-fender-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-subframe-fender-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-subframe-fender-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-usb-decorative-cover-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-usb-decorative-cover-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-usb-decorative-cover-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-front-fender-rtech",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-front-fender-rtech"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-front-fender-rtech"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-rear-fender-rtech",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-rear-fender-rtech"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-rear-fender-rtech"
+    },
+    {
+      "product_id": "chargedcycleworks-front-fender-for-talaria-oem-surron-oem-segway-x260",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260"
+    },
+    {
+      "product_id": "chargedcycleworks-lock-assembly-ventus-oem",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/lock-assembly-ventus-oem"
+      ],
+      "notes": "CCW body: 'Replacement Lock assembly for Ventus One and Ventus One +'. Checked 2026-11-10."
+    },
+    {
+      "product_id": "chargedcycleworks-u-lock-latch-ventus-oem",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/u-lock-latch-ventus-oem"
+      ],
+      "notes": "CCW body: 'Replacement Latch for Ventus One and Ventus One +'. Checked 2026-11-10."
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller fitment list names Arctic Leopard XE Pro S / Pro S Enduro / Pro R"
     }
   ]
 }

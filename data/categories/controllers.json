@@ -7,29 +7,32 @@
     {
       "bike_id": "lightbee",
       "fitment_source_urls": [
-        "https://revrides.com/products/ebmx-x-9000-v3-controller"
+        "https://revrides.com/products/ebmx-x-9000-v3-controller",
+        "https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product"
       ],
-      "notes": "",
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
       "product_id": "ebmx-x-9000-v3",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "ultrabee",
       "fitment_source_urls": [
-        "https://revrides.com/products/ebmx-x-9000-v3-controller"
+        "https://revrides.com/products/ebmx-x-9000-v3-controller",
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit"
       ],
-      "notes": "",
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit",
       "product_id": "ebmx-x-9000-v3",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "mx4",
       "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/ebmx-x-9000-v2-talaria-sting-mx3-mx4-mx5-adapter-kit"
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v2-talaria-sting-mx3-mx4-mx5-adapter-kit",
+        "https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product"
       ],
-      "notes": "Talaria adapter kit",
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
       "product_id": "ebmx-x-9000-v3",
       "required_adapters": "Talaria Sting adapter kit",
       "status": "confirmed_fit_with_adapter"
@@ -37,9 +40,10 @@
     {
       "bike_id": "mx5",
       "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/ebmx-x-9000-v2-talaria-sting-mx3-mx4-mx5-adapter-kit"
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v2-talaria-sting-mx3-mx4-mx5-adapter-kit",
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit"
       ],
-      "notes": "Talaria adapter kit",
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit",
       "product_id": "ebmx-x-9000-v3",
       "required_adapters": "Talaria Sting adapter kit",
       "status": "confirmed_fit_with_adapter"
@@ -55,9 +59,10 @@
     {
       "bike_id": "ss20",
       "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/ebmx-x-9000-eride-pro-v3-1-power-loom"
+        "https://chargedcycleworks.com/products/ebmx-x-9000-eride-pro-v3-1-power-loom",
+        "https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product"
       ],
-      "notes": "E Ride Pro power loom",
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)",
       "product_id": "ebmx-x-9000-v3",
       "required_adapters": "E Ride Pro power loom",
       "status": "confirmed_fit_with_adapter"
@@ -65,9 +70,10 @@
     {
       "bike_id": "ss30",
       "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/ebmx-x-9000-eride-pro-v3-1-power-loom"
+        "https://chargedcycleworks.com/products/ebmx-x-9000-eride-pro-v3-1-power-loom",
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit"
       ],
-      "notes": "E Ride Pro power loom",
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit",
       "product_id": "ebmx-x-9000-v3",
       "required_adapters": "E Ride Pro power loom",
       "status": "confirmed_fit_with_adapter"
@@ -75,9 +81,10 @@
     {
       "bike_id": "sr",
       "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/ebmx-x-9000-eride-pro-v3-1-power-loom"
+        "https://chargedcycleworks.com/products/ebmx-x-9000-eride-pro-v3-1-power-loom",
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit"
       ],
-      "notes": "E Ride Pro power loom",
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit",
       "product_id": "ebmx-x-9000-v3",
       "required_adapters": "E Ride Pro power loom",
       "status": "confirmed_fit_with_adapter"
@@ -119,12 +126,13 @@
     {
       "product_id": "ebmx-x-9000-v3",
       "bike_id": "bonnell-805rx",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
-        "https://chargedpowersports.com/products/ebmx-x-9000-v3-kit"
+        "https://chargedpowersports.com/products/ebmx-x-9000-v3-kit",
+        "https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product"
       ],
-      "notes": "Bike-specific kit sold; confirm variant before ordering"
+      "notes": "Seller listing names the Bonnell 805 RX (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ebmx-x-9000-v3",
@@ -139,12 +147,13 @@
     {
       "product_id": "ebmx-x-9000-v3",
       "bike_id": "ventus-plus",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
-        "https://chargedpowersports.com/products/ebmx-x-9000-v3-kit"
+        "https://chargedpowersports.com/products/ebmx-x-9000-v3-kit",
+        "https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product"
       ],
-      "notes": "Bike-specific kit sold; confirm variant before ordering"
+      "notes": "Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ebmx-x-9000-v3",
@@ -160,11 +169,11 @@
       "product_id": "torp-tc1000-2x",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
       ],
-      "notes": "60V Light Bee models up to 2025 only; 2026 72V harness differs"
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "torp-tc1000-2x",
@@ -239,22 +248,22 @@
     {
       "product_id": "torp-tc1000-2x",
       "bike_id": "mx5",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "torp-tc1000-2x",
       "bike_id": "mx4",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "torp-tc1000-2x",
@@ -280,11 +289,11 @@
       "product_id": "torp-tc500-2x",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
       ],
-      "notes": "60V Light Bee models up to 2025 only; 2026 72V harness differs"
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "torp-tc500-2x",
@@ -359,22 +368,22 @@
     {
       "product_id": "torp-tc500-2x",
       "bike_id": "mx5",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "torp-tc500-2x",
       "bike_id": "mx4",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "torp-tc500-2x",
@@ -400,21 +409,21 @@
       "product_id": "vtb-aetos-pro",
       "bike_id": "lightbee",
       "status": "confirmed_fit_with_adapter",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
       ],
-      "notes": "Requires bike-specific Aetos Gen.2 harness"
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "vtb-aetos-pro",
       "bike_id": "ultrabee",
       "status": "confirmed_fit_with_adapter",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
       ],
-      "notes": "Requires bike-specific Aetos Gen.2 harness"
+      "notes": "Ventus: V9600 Gen.2 compatible with the Ultra Bee; 72V/81V rated, 12s-22s batteries; bike-specific harness sold separately"
     },
     {
       "product_id": "vtb-aetos-pro",
@@ -450,11 +459,11 @@
       "product_id": "vtb-aetos-pro",
       "bike_id": "mx4",
       "status": "confirmed_fit_with_adapter",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
       ],
-      "notes": "Requires bike-specific Aetos Gen.2 harness"
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "vtb-aetos-pro",
@@ -698,25 +707,31 @@
       "product_id": "torp-tc1000-v1-ultrabee",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page: \"Developed specifically for the SurRon Ultra Bee\""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tc1000-controller"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "torp-tc1000-v2-ultrabee",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page: \"Developed specifically for the SurRon Ultra Bee\""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tc1000-controller"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ventus-aetos-ultra",
       "bike_id": "ultrabee",
       "status": "confirmed_fit_with_modifications",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Explicit Ultra Bee compatibility; requires harness + 100V+ battery"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-aetos-ultra-controller"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "bike_id": "ultrabee",
@@ -725,7 +740,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-ultrabee-74v-controller",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -735,7 +750,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-72v-controller",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -755,7 +770,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-altis-sigma-98v-controller",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -765,7 +780,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "controller-bonnell-805-rx-x30-controller",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -783,7 +798,7 @@
       ],
       "notes": "CCW: X-9000 V3 kit, Talaria MX3/MX4/MX5 harness variant",
       "product_id": "ebmx-x9000-v3-kit-talaria",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -793,8 +808,118 @@
       ],
       "notes": "CCW: X-9000 V3 kit, Talaria MX3/MX4/MX5 harness variant",
       "product_id": "ebmx-x9000-v3-kit-talaria",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-bonnell-805-rx-controller-plate-foam-5mm",
+      "bike_id": "bonnell-805rx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-controller-plate-foam-5mm"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bonnell-805-rx-controller-plate-foam-5mm"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-s-controller-takeoff",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-s-controller-takeoff"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-s-controller-takeoff"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-controller-hardware-kit-combo",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-controller-hardware-kit-combo"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-controller-hardware-kit-combo"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-x-9000-v3-controller-race-harness-for-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-race-harness-for-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-race-harness-for-ultra-bee"
+    },
+    {
+      "product_id": "ctrl-ventus-aetos-max",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-aetos-max-controller"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-aetos-max-controller"
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-aetos-pro-controller",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-aetos-pro-controller"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-aetos-pro-controller"
+    },
+    {
+      "product_id": "chargedcycleworks-x-9000-controller-race-harness-for-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/x-9000-controller-race-harness-for-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/x-9000-controller-race-harness-for-ultra-bee"
     }
   ],
   "products": [
@@ -832,6 +957,11 @@
           "vendor": "Charged Powersports",
           "price_usd": 1199.0,
           "buy_url": "https://chargedpowersports.com/products/ebmx-x-9000-v3-kit"
+        },
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1164.0,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit"
         }
       ],
       "weight_kg": null,
@@ -1275,6 +1405,206 @@
       "weight_delta_kg": null,
       "image": null,
       "controller_max_kw": 60
+    },
+    {
+      "id": "chargedcycleworks-bonnell-805-rx-controller-plate-foam-5mm",
+      "name": "Bonnell 805 – Controller Plate Foam, 5mm",
+      "brand": "Bonnell",
+      "category": "controller",
+      "price_usd": 7.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-controller-plate-foam-5mm",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) bonnell-805rx exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-controller-plate-foam-5mm"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 7.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-controller-plate-foam-5mm"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-bonnell-805-rx-controller-plate-foam-5mm.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-controller-hardware-kit-combo",
+      "name": "E Ride Pro - OEM Controller Mount Hardware Kit - ProSS 3.0",
+      "brand": "ERide Pro",
+      "category": "controller",
+      "price_usd": 25.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-controller-hardware-kit-combo",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-controller-hardware-kit-combo"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 25.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-controller-hardware-kit-combo"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-controller-hardware-kit-combo.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-s-controller-takeoff",
+      "name": "E Ride Pro SR 72v Controller (Takeoff)",
+      "brand": "ERide Pro",
+      "category": "controller",
+      "price_usd": 549.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-s-controller-takeoff",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-s-controller-takeoff"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 549.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-s-controller-takeoff"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-s-controller-takeoff.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit",
+      "name": "EBMX X-9000 Controller E-Ride Pro 3.0 Harness and Mounting Kit",
+      "brand": "EBMX",
+      "category": "controller",
+      "price_usd": 189.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 189.0,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-x-9000-controller-race-harness-for-ultra-bee",
+      "name": "EBMX X-9000 Controller Race Harness for Ultra Bee - V2",
+      "brand": "EBMX",
+      "category": "controller",
+      "price_usd": 100.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/x-9000-controller-race-harness-for-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/x-9000-controller-race-harness-for-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 100.0,
+          "buy_url": "https://chargedcycleworks.com/products/x-9000-controller-race-harness-for-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-x-9000-controller-race-harness-for-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness",
+      "name": "EBMX X-9000 V3 Controller - Open Box | No Harness",
+      "brand": "EBMX",
+      "category": "controller",
+      "price_usd": 989.4,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW fitment text name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 989.4,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-x-9000-v3-controller-race-harness-for-ultra-bee",
+      "name": "EBMX X-9000-V3 Race Harness for Ultra Bee",
+      "brand": "EBMX",
+      "category": "controller",
+      "price_usd": 100.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-race-harness-for-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-race-harness-for-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 100.0,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-race-harness-for-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-x-9000-v3-controller-race-harness-for-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-ventus-aetos-pro-controller",
+      "name": "Ventus Aetos Pro Controller for 72v and 80v Batteries",
+      "brand": "Pinned Electric",
+      "category": "controller",
+      "price_usd": 1099.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-aetos-pro-controller",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-aetos-pro-controller"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1099.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-aetos-pro-controller"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ventus-aetos-pro-controller.webp"
     }
   ]
 }

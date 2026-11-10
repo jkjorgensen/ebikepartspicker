@@ -937,6 +937,1456 @@
       "weight_delta_kg": null,
       "image": "img/parts/stormbee-supermoto-wheels.webp",
       "hidden": true
+    },
+    {
+      "id": "chargedcycleworks-16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr",
+      "name": "16\" Rear Wheel Upgrade for E Ride Pro 3.0 / SR",
+      "brand": "Warp9",
+      "category": "wheels",
+      "price_usd": 424.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 424.0,
+          "buy_url": "https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-ion-21-eride-sr-front-wheel",
+      "name": "21\" Front Wheel Upgrade | E Ride Pro SS 3.0 / SR",
+      "brand": "ION",
+      "category": "wheels",
+      "price_usd": 299.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 299.99,
+          "buy_url": "https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ion-21-eride-sr-front-wheel.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-21-inch-front-wheel-cst-tire",
+      "name": "21\" Front Wheel with CST Tire for Surron Ultra Bee",
+      "brand": "Surron-WN",
+      "category": "wheels",
+      "price_usd": 299.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-21-inch-front-wheel-cst-tire",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-21-inch-front-wheel-cst-tire"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 299.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-21-inch-front-wheel-cst-tire"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-21-inch-front-wheel-cst-tire.webp"
+    },
+    {
+      "id": "chargedcycleworks-bearing-kit-front-wheel-talaria-mx5",
+      "name": "Bearing Kit | Front Wheel | Talaria MX5",
+      "brand": "DirtyBike",
+      "category": "wheels",
+      "price_usd": 23.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bearing-kit-front-wheel-talaria-mx5",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bearing-kit-front-wheel-talaria-mx5"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 23.0,
+          "buy_url": "https://chargedcycleworks.com/products/bearing-kit-front-wheel-talaria-mx5"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-bearing-kit-front-wheel-talaria-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-bearing-kit-rear-wheel-talaria-mx5",
+      "name": "Bearing Kit | Rear Wheel | Talaria MX5",
+      "brand": "DirtyBike",
+      "category": "wheels",
+      "price_usd": 22.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bearing-kit-rear-wheel-talaria-mx5",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bearing-kit-rear-wheel-talaria-mx5"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 22.0,
+          "buy_url": "https://chargedcycleworks.com/products/bearing-kit-rear-wheel-talaria-mx5"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-bearing-kit-rear-wheel-talaria-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit",
+      "name": "E Ride Pro OEM M12 Rear Wheel Axle – Pro S / SS 2.0 / SS 3.0 / SR",
+      "brand": "ERide Pro",
+      "category": "wheels",
+      "price_usd": 35.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 35.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers",
+      "name": "E Ride Pro – OEM Front Wheel Assembly with Rim Strip & Hub Cone Spacers (x2)",
+      "brand": "ERide Pro",
+      "category": "wheels",
+      "price_usd": 280.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 280.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-competition-axle-axle-blocks-for-surron-ultra-bee",
+      "name": "EBMX Competition Axle & Axle Blocks for Surron Ultra Bee",
+      "brand": "EBMX",
+      "category": "wheels",
+      "price_usd": 148.75,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-competition-axle-axle-blocks-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-competition-axle-axle-blocks-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 148.75,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-competition-axle-axle-blocks-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-competition-axle-axle-blocks-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee",
+      "name": "ION - 17/17\" Supermoto / Street Wheelset for Surron Ultra Bee",
+      "brand": "ION",
+      "category": "wheels",
+      "price_usd": 759.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10); CCW fitment text name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 759.0,
+          "buy_url": "https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-ion-16-19-wheelset-for-e-ride-pro-3-0-sr",
+      "name": "ION - E Ride Pro 3.0 / SR - 16/19 Wheelset",
+      "brand": "ION",
+      "category": "wheels",
+      "price_usd": 599.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 599.0,
+          "buy_url": "https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ion-16-19-wheelset-for-e-ride-pro-3-0-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr",
+      "name": "ION - E Ride Pro 3.0 / SR - 17\" Supermoto Wheelset",
+      "brand": "ION",
+      "category": "wheels",
+      "price_usd": 699.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 699.0,
+          "buy_url": "https://chargedcycleworks.com/products/ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-ion-18-21-wheelset-for-e-ride-pro-3-0-sr",
+      "name": "ION - E Ride Pro 3.0 / SR - 18/21 Wheelset",
+      "brand": "ION",
+      "category": "wheels",
+      "price_usd": 599.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ion-18-21-wheelset-for-e-ride-pro-3-0-sr",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ion-18-21-wheelset-for-e-ride-pro-3-0-sr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 599.0,
+          "buy_url": "https://chargedcycleworks.com/products/ion-18-21-wheelset-for-e-ride-pro-3-0-sr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ion-18-21-wheelset-for-e-ride-pro-3-0-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-16-19-wheels-for-talaria-mx5",
+      "name": "KKE 16/19 Talaria MX5 Wheel and Tire Combo",
+      "brand": "KKE Racing",
+      "category": "wheels",
+      "price_usd": 834.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-16-19-wheels-for-talaria-mx5",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-16-19-wheels-for-talaria-mx5"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 834.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-16-19-wheels-for-talaria-mx5"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-16-19-wheels-for-talaria-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-red-nipples",
+      "name": "KKE 16/19\" Wheelset for Surron Light Bee – Black Rims & Red Nipples",
+      "brand": "KKE Racing",
+      "category": "wheels",
+      "price_usd": 579.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-red-nipples",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-red-nipples"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 579.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-red-nipples"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-red-nipples.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-17-supermoto-wheels-by-kke",
+      "name": "KKE 17\" Supermoto Wheelset for Surron Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "wheels",
+      "price_usd": 649.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-17-supermoto-wheels-by-kke",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-17-supermoto-wheels-by-kke"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 649.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-17-supermoto-wheels-by-kke"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-17-supermoto-wheels-by-kke.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective",
+      "name": "KKE 17/17\" Supermoto Wheels for Surron Ultra Bee  (NO TIRES)",
+      "brand": "KKE Racing",
+      "category": "wheels",
+      "price_usd": 759.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 759.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy",
+      "name": "KKE 18/21 Wheel and Tire Combo for eMoto",
+      "brand": "KKE Racing",
+      "category": "wheels",
+      "price_usd": 899.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 899.0,
+          "buy_url": "https://chargedcycleworks.com/products/16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective",
+      "name": "KKE 18/21 Wheels w/ Excel Rims  (NO TIRES)",
+      "brand": "KKE Racing",
+      "category": "wheels",
+      "price_usd": 899.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 899.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-18-21-wheel-and-tire-combo-for-ultra-bee",
+      "name": "KKE 18/21\" Complete Wheel and Tire combo for Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "wheels",
+      "price_usd": 979.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/18-21-wheel-and-tire-combo-for-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/18-21-wheel-and-tire-combo-for-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 979.0,
+          "buy_url": "https://chargedcycleworks.com/products/18-21-wheel-and-tire-combo-for-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-18-21-wheel-and-tire-combo-for-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-all-black",
+      "name": "KKE 19\"/16\" Wheel Set for Surron Light Bee - All Black",
+      "brand": "KKE Racing",
+      "category": "wheels",
+      "price_usd": 579.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-all-black",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-all-black"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 579.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-all-black"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-all-black.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black",
+      "name": "KKE Front Wheel Spacers for Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "wheels",
+      "price_usd": 16.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black",
+      "name": "KKE Rear Wheel Spacers for Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "wheels",
+      "price_usd": 16.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black.webp"
+    },
+    {
+      "id": "chargedcycleworks-prickly-axle-blocks-ultra",
+      "name": "Prickly Axle Blocks for Ultra Bee",
+      "brand": "Prickly Motorsports",
+      "category": "wheels",
+      "price_usd": 60.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/prickly-axle-blocks-ultra",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/prickly-axle-blocks-ultra"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 60.0,
+          "buy_url": "https://chargedcycleworks.com/products/prickly-axle-blocks-ultra"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-prickly-axle-blocks-ultra.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024",
+      "name": "Replacement Spokes for KKE 18/21 Wheels",
+      "brand": "KKE Racing",
+      "category": "wheels",
+      "price_usd": 19.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-rear-wheel-rim-tire-assy-130-70-17",
+      "name": "Surron Ultra Bee - OEM 17\" Supermoto Wheelset",
+      "brand": "Surron",
+      "category": "wheels",
+      "price_usd": 940.98,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-rear-wheel-rim-tire-assy-130-70-17",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-rear-wheel-rim-tire-assy-130-70-17"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 940.98,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-rear-wheel-rim-tire-assy-130-70-17"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-rear-wheel-rim-tire-assy-130-70-17.webp"
+    },
+    {
+      "id": "chargedcycleworks-supermoto-street-wheels-and-tires-for-ultra-bee",
+      "name": "Surron Ultra Bee - OEM 19\" Wheels & Tires",
+      "brand": "Charged Cycle Works",
+      "category": "wheels",
+      "price_usd": 349.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/supermoto-street-wheels-and-tires-for-ultra-bee",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/supermoto-street-wheels-and-tires-for-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 349.0,
+          "buy_url": "https://chargedcycleworks.com/products/supermoto-street-wheels-and-tires-for-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-supermoto-street-wheels-and-tires-for-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-front-wheel-axle",
+      "name": "Surron Ultra Bee - OEM Front Axle",
+      "brand": "Surron-WN",
+      "category": "wheels",
+      "price_usd": 64.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/front-wheel-axle",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/front-wheel-axle"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 64.99,
+          "buy_url": "https://chargedcycleworks.com/products/front-wheel-axle"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-front-wheel-axle.webp"
+    },
+    {
+      "id": "chargedcycleworks-front-wheel-axle-nut",
+      "name": "Surron Ultra Bee - OEM Front Wheel Axle Nut",
+      "brand": "Surron-WN",
+      "category": "wheels",
+      "price_usd": 4.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/front-wheel-axle-nut",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/front-wheel-axle-nut"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 4.99,
+          "buy_url": "https://chargedcycleworks.com/products/front-wheel-axle-nut"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-front-wheel-axle-nut.webp"
+    },
+    {
+      "id": "chargedcycleworks-front-wheel-bushing",
+      "name": "Surron Ultra Bee - OEM Front Wheel Spacers",
+      "brand": "Surron-WN",
+      "category": "wheels",
+      "price_usd": 19.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/front-wheel-bushing",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/front-wheel-bushing"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.99,
+          "buy_url": "https://chargedcycleworks.com/products/front-wheel-bushing"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-front-wheel-bushing.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-rear-wheel-axle-nut",
+      "name": "Surron Ultra Bee - OEM Rear Axle Locking Nut",
+      "brand": "Surron-WN",
+      "category": "wheels",
+      "price_usd": 7.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-rear-wheel-axle-nut",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-rear-wheel-axle-nut"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 7.99,
+          "buy_url": "https://chargedcycleworks.com/products/ub-rear-wheel-axle-nut"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-rear-wheel-axle-nut.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-rear-wheel-axle",
+      "name": "Surron Ultra Bee - OEM Rear Wheel Axle",
+      "brand": "Surron-WN",
+      "category": "wheels",
+      "price_usd": 74.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-rear-wheel-axle",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-rear-wheel-axle"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 74.99,
+          "buy_url": "https://chargedcycleworks.com/products/ub-rear-wheel-axle"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-rear-wheel-axle.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-wheel-bushing-pair",
+      "name": "Surron Ultra Bee - Rear Wheel Spacers",
+      "brand": "Surron-WN",
+      "category": "wheels",
+      "price_usd": 19.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-wheel-bushing-pair",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-wheel-bushing-pair"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.99,
+          "buy_url": "https://chargedcycleworks.com/products/rear-wheel-bushing-pair"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-wheel-bushing-pair.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-to-honda-21-front-wheel-adapters",
+      "name": "Surron Ultra Bee to Honda 21\" Front Wheel Adapters",
+      "brand": "ION",
+      "category": "wheels",
+      "price_usd": 24.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-to-honda-21-front-wheel-adapters",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-to-honda-21-front-wheel-adapters"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.99,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-to-honda-21-front-wheel-adapters"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-to-honda-21-front-wheel-adapters.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-wheel-speed-sensor-front-rear-oem",
+      "name": "Surron Ultra Bee – Wheel Speed Sensor (Front / Rear) | OEM",
+      "brand": "Surron-WN",
+      "category": "wheels",
+      "price_usd": 62.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-wheel-speed-sensor-front-rear-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-wheel-speed-sensor-front-rear-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 62.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-wheel-speed-sensor-front-rear-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-wheel-speed-sensor-front-rear-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-set-bolt-talaria-sting-mx5",
+      "name": "Talaria - OEM Front Axle Nut for MX5",
+      "brand": "eBikeZilla",
+      "category": "wheels",
+      "price_usd": 12.31,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/set-bolt-talaria-sting-mx5",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/set-bolt-talaria-sting-mx5"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 12.31,
+          "buy_url": "https://chargedcycleworks.com/products/set-bolt-talaria-sting-mx5"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-set-bolt-talaria-sting-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-fr-l-wheel-liner-talaria-sting-mx5",
+      "name": "Talaria - OEM Front Left Wheel Spacer for MX5",
+      "brand": "eBikeZilla",
+      "category": "wheels",
+      "price_usd": 6.83,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/fr-l-wheel-liner-talaria-sting-mx5",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/fr-l-wheel-liner-talaria-sting-mx5"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.83,
+          "buy_url": "https://chargedcycleworks.com/products/fr-l-wheel-liner-talaria-sting-mx5"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-fr-l-wheel-liner-talaria-sting-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-titanium-front-axle-for-dnm-fork-talaria-surron-segway",
+      "name": "Talaria - OEM Front Wheel Axle for MX5",
+      "brand": "eBikeZilla",
+      "category": "wheels",
+      "price_usd": 73.96,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/titanium-front-axle-for-dnm-fork-talaria-surron-segway",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/titanium-front-axle-for-dnm-fork-talaria-surron-segway"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 73.96,
+          "buy_url": "https://chargedcycleworks.com/products/titanium-front-axle-for-dnm-fork-talaria-surron-segway"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-titanium-front-axle-for-dnm-fork-talaria-surron-segway.webp"
+    },
+    {
+      "id": "chargedcycleworks-rr-wheel-r-setback-liner-talaria-sting-mx5",
+      "name": "Talaria - OEM Left Rear Wheel Spacer for MX5",
+      "brand": "eBikeZilla",
+      "category": "wheels",
+      "price_usd": 6.83,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rr-wheel-r-setback-liner-talaria-sting-mx5",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rr-wheel-r-setback-liner-talaria-sting-mx5"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.83,
+          "buy_url": "https://chargedcycleworks.com/products/rr-wheel-r-setback-liner-talaria-sting-mx5"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rr-wheel-r-setback-liner-talaria-sting-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-self-locking-nut-gb-t6187-1-m12x1-25-1",
+      "name": "Talaria - OEM Rear Axle Locking Nut for MX5",
+      "brand": "eBikeZilla",
+      "category": "wheels",
+      "price_usd": 1.35,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/self-locking-nut-gb-t6187-1-m12x1-25-1",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/self-locking-nut-gb-t6187-1-m12x1-25-1"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1.35,
+          "buy_url": "https://chargedcycleworks.com/products/self-locking-nut-gb-t6187-1-m12x1-25-1"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-self-locking-nut-gb-t6187-1-m12x1-25-1.webp"
+    },
+    {
+      "id": "chargedcycleworks-rr-wheel-axle-m15-204-talaria-sting-mx5",
+      "name": "Talaria - OEM Rear Wheel Axle",
+      "brand": "eBikeZilla",
+      "category": "wheels",
+      "price_usd": 23.3,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rr-wheel-axle-m15-204-talaria-sting-mx5",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rr-wheel-axle-m15-204-talaria-sting-mx5"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 23.3,
+          "buy_url": "https://chargedcycleworks.com/products/rr-wheel-axle-m15-204-talaria-sting-mx5"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rr-wheel-axle-m15-204-talaria-sting-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5",
+      "name": "Talaria - OEM Right Rear Wheel Spacer for MX5",
+      "brand": "eBikeZilla",
+      "category": "wheels",
+      "price_usd": 6.83,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.83,
+          "buy_url": "https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-rear-wheel-bushing-set-left-and-right",
+      "name": "Talaria MX5 - OEM Rear Wheel Bushing set (left and right)",
+      "brand": "eBikeZilla",
+      "category": "wheels",
+      "price_usd": 14.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-rear-wheel-bushing-set-left-and-right",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-rear-wheel-bushing-set-left-and-right"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 14.0,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-rear-wheel-bushing-set-left-and-right"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-rear-wheel-bushing-set-left-and-right.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-e-ride-pro-3-0-sr-16-19-wheelset",
+      "name": "Warp9 - E Ride Pro 3.0/SR - 16/19 Wheelset",
+      "brand": "Warp9",
+      "category": "wheels",
+      "price_usd": 1065.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-16-19-wheelset",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-16-19-wheelset"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1065.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-16-19-wheelset"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-e-ride-pro-3-0-sr-16-19-wheelset.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset",
+      "name": "Warp9 - E-Ride Pro 3.0 / SR - 17\" Supermoto Wheelset",
+      "brand": "Warp9",
+      "category": "wheels",
+      "price_usd": 843.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 843.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset.webp"
+    },
+    {
+      "id": "chargedcycleworks-light-bee-12-9-cryo-rear-axle-by-warp-9",
+      "name": "Warp9 12.9 Cryo Hardened Rear Axle (12mm)",
+      "brand": "Warp9",
+      "category": "wheels",
+      "price_usd": 149.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/light-bee-12-9-cryo-rear-axle-by-warp-9",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/light-bee-12-9-cryo-rear-axle-by-warp-9"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 149.0,
+          "buy_url": "https://chargedcycleworks.com/products/light-bee-12-9-cryo-rear-axle-by-warp-9"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-light-bee-12-9-cryo-rear-axle-by-warp-9.webp"
+    },
+    {
+      "id": "chargedcycleworks-16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee",
+      "name": "Warp9 16\" rear wheel or 16/19\" wheelset for Surron Ultra Bee",
+      "brand": "Warp9",
+      "category": "wheels",
+      "price_usd": 533.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 533.99,
+          "buy_url": "https://chargedcycleworks.com/products/16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5",
+      "name": "Warp9 16/19 Complete Wheel & Tire Combo for Talaria MX5",
+      "brand": "Warp9",
+      "category": "wheels",
+      "price_usd": 1034.1,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1034.1,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-17-supermoto-wheelset-for-surron-ultra-bee",
+      "name": "Warp9 17\" Supermoto wheelset for Surron Ultra Bee",
+      "brand": "Warp9",
+      "category": "wheels",
+      "price_usd": 1483.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/17-supermoto-wheelset-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/17-supermoto-wheelset-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1483.0,
+          "buy_url": "https://chargedcycleworks.com/products/17-supermoto-wheelset-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-17-supermoto-wheelset-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-18-21-wheel-and-tire-combo-warp9",
+      "name": "Warp9 18/21\" Wheelset for Surron Ultra Bee",
+      "brand": "Warp9",
+      "category": "wheels",
+      "price_usd": 895.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-18-21-wheel-and-tire-combo-warp9",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-18-21-wheel-and-tire-combo-warp9"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 895.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-18-21-wheel-and-tire-combo-warp9"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-18-21-wheel-and-tire-combo-warp9.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-ultra-bee-front-supermoto-axle-slider",
+      "name": "Warp9 Front Supermoto Axle Sliders for Surron Ultra Bee",
+      "brand": "Warp9Racing",
+      "category": "wheels",
+      "price_usd": 35.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-front-supermoto-axle-slider",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-front-supermoto-axle-slider"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 35.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-front-supermoto-axle-slider"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-ultra-bee-front-supermoto-axle-slider.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-supermoto-axle-sliders",
+      "name": "Warp9 Rear Supermoto Axle Sliders for Surron Ultra Bee",
+      "brand": "Warp9",
+      "category": "wheels",
+      "price_usd": 65.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-supermoto-axle-sliders",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-supermoto-axle-sliders"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 65.0,
+          "buy_url": "https://chargedcycleworks.com/products/rear-supermoto-axle-sliders"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-supermoto-axle-sliders.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-axle-blocks",
+      "name": "Warp9 Surron Ultra Bee Axle Blocks",
+      "brand": "Warp9",
+      "category": "wheels",
+      "price_usd": 53.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-axle-blocks",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-axle-blocks"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 53.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-axle-blocks"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-axle-blocks.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-titanium-front-axle-surron-ultra-bee",
+      "name": "Warp9 Surron Ultra Bee Titanium Front Axle",
+      "brand": "Warp9Racing",
+      "category": "wheels",
+      "price_usd": 219.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-front-axle-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-front-axle-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 219.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-front-axle-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-titanium-front-axle-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-titanium-rear-axle",
+      "name": "Warp9 Surron Ultra Bee Titanium Rear Axle",
+      "brand": "Warp9",
+      "category": "wheels",
+      "price_usd": 269.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rear-axle",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rear-axle"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 269.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rear-axle"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-titanium-rear-axle.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-talaria-mx5-rear-axle-kit",
+      "name": "Warp9 Talaria MX5 Rear Axle Kit",
+      "brand": "Warp9Racing",
+      "category": "wheels",
+      "price_usd": 89.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-talaria-mx5-rear-axle-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-talaria-mx5-rear-axle-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 89.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-talaria-mx5-rear-axle-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-talaria-mx5-rear-axle-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-komodo-titanium-front-axle",
+      "name": "Warp9 Titanium Front Axle - Talaria Komod",
+      "brand": "Warp9Racing",
+      "category": "wheels",
+      "price_usd": 265.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-titanium-front-axle",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-titanium-front-axle"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 265.0,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-titanium-front-axle"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-komodo-titanium-front-axle.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-komodo-titanium-rear-axle",
+      "name": "Warp9 Titanium Rear Axle - Talaria Komodo",
+      "brand": "Warp9Racing",
+      "category": "wheels",
+      "price_usd": 299.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-titanium-rear-axle",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-titanium-rear-axle"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 299.0,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-titanium-rear-axle"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-komodo-titanium-rear-axle.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-ultra-bee-wheel-bearing-kits",
+      "name": "Warp9 Ultra Bee Wheel Bearing Kits",
+      "brand": "Warp9",
+      "category": "wheels",
+      "price_usd": 35.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-wheel-bearing-kits",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-wheel-bearing-kits"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 35.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-wheel-bearing-kits"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-ultra-bee-wheel-bearing-kits.webp"
     }
   ],
   "compatibility": [
@@ -944,11 +2394,11 @@
       "product_id": "warp9-1619",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
       ],
-      "notes": ""
+      "notes": "CCW: Light Bee X needs front and rear 220mm brake rotor adaptors"
     },
     {
       "product_id": "warp9-1619",
@@ -964,31 +2414,31 @@
       "product_id": "warp9-1619",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
       ],
-      "notes": ""
+      "notes": "CCW: Talaria needs an adapter, which voids the Warp 9 wheel warranty; Talaria-specific wheels are sold separately"
     },
     {
       "product_id": "warp9-1619",
       "bike_id": "mx5",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
       ],
-      "notes": ""
+      "notes": "CCW: Talaria needs an adapter, which voids the Warp 9 wheel warranty; Talaria-specific wheels are sold separately"
     },
     {
       "product_id": "warp9-1619",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
       ],
-      "notes": ""
+      "notes": "CCW: designed to fit the E Ride Pro SS and Pro S"
     },
     {
       "product_id": "warp9-1619",
@@ -1024,11 +2474,11 @@
       "product_id": "warp9-1619",
       "bike_id": "ventus-plus",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9"
       ],
-      "notes": ""
+      "notes": "Owner-verified install (site owner's bike), Oct 18, 2026"
     },
     {
       "product_id": "warp9-1619",
@@ -1068,21 +2518,21 @@
       "product_id": "supermoto-17",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "supermoto-17",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "supermoto-17",
@@ -1118,11 +2568,11 @@
       "product_id": "supermoto-17",
       "bike_id": "ventus-plus",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://mxwraps.us/products/17in-super-moto-wheel-set-for-surron-e-ride-pro-79bike-ventus"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "supermoto-17",
@@ -1138,9 +2588,11 @@
       "product_id": "wheels-kke-lightbee-16-19",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)"
     },
     {
       "product_id": "wheels-kke-lightbee-16-19",
@@ -1153,10 +2605,12 @@
     {
       "product_id": "wheels-kke-lightbee-16-19",
       "bike_id": "ventus-plus",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "wheels-kke-lightbee-16-19",
@@ -1169,10 +2623,12 @@
     {
       "product_id": "wheels-kke-lightbee-16-19",
       "bike_id": "ss20",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "wheels-kke-lightbee-16-19",
@@ -1242,21 +2698,21 @@
       "product_id": "wheels-ion-lightbee-eride20",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "wheels-ion-lightbee-eride20",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "wheels-ion-lightbee-eride20",
@@ -1358,21 +2814,22 @@
       "product_id": "wheels-ion-eride30-sr-1619",
       "bike_id": "ss30",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-wheels"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (re-check Oct 18, 2026)"
     },
     {
       "product_id": "wheels-ion-eride30-sr-1619",
       "bike_id": "sr",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
-        "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-wheels"
+        "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-wheels",
+        "https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "wheels-ion-eride30-sr-1619",
@@ -1482,35 +2939,41 @@
       "product_id": "komodo-supermoto-wheelset",
       "bike_id": "komodo",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/parts/talaria/frws007/"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "charged-21-front-wheel-ultrabee",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Ultra Bee-specific upgrade page"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/21-wheel-upgrade-for-surron-ultra-bee"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ion-18-21-ultrabee",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page: \"Fitment: Surron Ultra Bee 2023-2026\""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-ultra-bee-18-21-wheelset"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee (checked Oct 18, 2026)"
     },
     {
       "product_id": "kke-18-21-ultrabee",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page: \"For Surron Ultra Bee 2023-2025\""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-21-18-e-motor-wheels-rims-fit-surron-ultra-bee-collective"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "bike_id": "ss20",
@@ -1519,7 +2982,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-wheel-assembly",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1539,7 +3002,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "wheels-excel-wheels-for-bonnell-805-rx",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1549,7 +3012,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "wheels-bonnell-805-rx-19-16-wheel-set",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1559,7 +3022,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "wheels-bonnell-805-rx-rear-wheel",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1569,7 +3032,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "wheels-bonnell-805-rx-1-6x21-front-wheel",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1579,7 +3042,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "wheels-bonnell-805-rx-17-17-supermoto-wheel-set",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1589,7 +3052,7 @@
       ],
       "notes": "Rippin Moto sells this as an LB2-specific wheelset (19/16, 19/18, 21/18). 21\" front may hit fork/fender at full compression; taller rear may need a longer chain (checked Nov 4, 2026)",
       "product_id": "rippin-blackline-offroad-lb2",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1599,7 +3062,7 @@
       ],
       "notes": "Rippin Moto sells this as an LB2-specific supermoto wheelset (16/16, 17/17). Rotors and rear sprocket not included (checked Nov 4, 2026)",
       "product_id": "rippin-blackline-sm-lb2",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1749,6 +3212,636 @@
       "product_id": "stormbee-supermoto-wheels",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "product_id": "chargedcycleworks-ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-komodo-titanium-front-axle",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-titanium-front-axle"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-titanium-front-axle"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-komodo-titanium-rear-axle",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-titanium-rear-axle"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-titanium-rear-axle"
+    },
+    {
+      "product_id": "chargedcycleworks-bearing-kit-front-wheel-talaria-mx5",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bearing-kit-front-wheel-talaria-mx5"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bearing-kit-front-wheel-talaria-mx5"
+    },
+    {
+      "product_id": "chargedcycleworks-bearing-kit-rear-wheel-talaria-mx5",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bearing-kit-rear-wheel-talaria-mx5"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bearing-kit-rear-wheel-talaria-mx5"
+    },
+    {
+      "product_id": "chargedcycleworks-fr-l-wheel-liner-talaria-sting-mx5",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/fr-l-wheel-liner-talaria-sting-mx5"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fr-l-wheel-liner-talaria-sting-mx5"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-16-19-wheels-for-talaria-mx5",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-16-19-wheels-for-talaria-mx5"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-16-19-wheels-for-talaria-mx5"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-all-black",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-all-black"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-all-black"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-red-nipples",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-red-nipples"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-red-nipples"
+    },
+    {
+      "product_id": "chargedcycleworks-rr-wheel-axle-m15-204-talaria-sting-mx5",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rr-wheel-axle-m15-204-talaria-sting-mx5"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rr-wheel-axle-m15-204-talaria-sting-mx5"
+    },
+    {
+      "product_id": "chargedcycleworks-rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5"
+    },
+    {
+      "product_id": "chargedcycleworks-rr-wheel-r-setback-liner-talaria-sting-mx5",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rr-wheel-r-setback-liner-talaria-sting-mx5"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rr-wheel-r-setback-liner-talaria-sting-mx5"
+    },
+    {
+      "product_id": "chargedcycleworks-self-locking-nut-gb-t6187-1-m12x1-25-1",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/self-locking-nut-gb-t6187-1-m12x1-25-1"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/self-locking-nut-gb-t6187-1-m12x1-25-1"
+    },
+    {
+      "product_id": "chargedcycleworks-set-bolt-talaria-sting-mx5",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/set-bolt-talaria-sting-mx5"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/set-bolt-talaria-sting-mx5"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-rear-wheel-bushing-set-left-and-right",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-rear-wheel-bushing-set-left-and-right"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-rear-wheel-bushing-set-left-and-right"
+    },
+    {
+      "product_id": "chargedcycleworks-titanium-front-axle-for-dnm-fork-talaria-surron-segway",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/titanium-front-axle-for-dnm-fork-talaria-surron-segway"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/titanium-front-axle-for-dnm-fork-talaria-surron-segway"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-talaria-mx5-rear-axle-kit",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-talaria-mx5-rear-axle-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-talaria-mx5-rear-axle-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-ion-16-19-wheelset-for-e-ride-pro-3-0-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-ion-18-21-wheelset-for-e-ride-pro-3-0-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-18-21-wheelset-for-e-ride-pro-3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-18-21-wheelset-for-e-ride-pro-3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-ion-21-eride-sr-front-wheel",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel"
+    },
+    {
+      "product_id": "chargedcycleworks-light-bee-12-9-cryo-rear-axle-by-warp-9",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/light-bee-12-9-cryo-rear-axle-by-warp-9"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/light-bee-12-9-cryo-rear-axle-by-warp-9"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-e-ride-pro-3-0-sr-16-19-wheelset",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-16-19-wheelset"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-16-19-wheelset"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-ion-21-eride-sr-front-wheel",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset"
+    },
+    {
+      "product_id": "chargedcycleworks-16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-17-supermoto-wheelset-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/17-supermoto-wheelset-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/17-supermoto-wheelset-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-18-21-wheel-and-tire-combo-for-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/18-21-wheel-and-tire-combo-for-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/18-21-wheel-and-tire-combo-for-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-competition-axle-axle-blocks-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-competition-axle-axle-blocks-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-competition-axle-axle-blocks-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-front-wheel-axle",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-wheel-axle"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-wheel-axle"
+    },
+    {
+      "product_id": "chargedcycleworks-front-wheel-axle-nut",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-wheel-axle-nut"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-wheel-axle-nut"
+    },
+    {
+      "product_id": "chargedcycleworks-front-wheel-bushing",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-wheel-bushing"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-wheel-bushing"
+    },
+    {
+      "product_id": "chargedcycleworks-ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-axle-blocks-ultra",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-axle-blocks-ultra"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-axle-blocks-ultra"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-supermoto-axle-sliders",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-supermoto-axle-sliders"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rear-supermoto-axle-sliders"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-wheel-bushing-pair",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-wheel-bushing-pair"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rear-wheel-bushing-pair"
+    },
+    {
+      "product_id": "chargedcycleworks-supermoto-street-wheels-and-tires-for-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/supermoto-street-wheels-and-tires-for-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/supermoto-street-wheels-and-tires-for-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-21-inch-front-wheel-cst-tire",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-21-inch-front-wheel-cst-tire"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-21-inch-front-wheel-cst-tire"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-axle-blocks",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-axle-blocks"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-axle-blocks"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-titanium-rear-axle",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rear-axle"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rear-axle"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-wheel-speed-sensor-front-rear-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-wheel-speed-sensor-front-rear-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-wheel-speed-sensor-front-rear-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-rear-wheel-axle",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-rear-wheel-axle"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-rear-wheel-axle"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-rear-wheel-axle-nut",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-rear-wheel-axle-nut"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-rear-wheel-axle-nut"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-17-supermoto-wheels-by-kke",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-17-supermoto-wheels-by-kke"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-17-supermoto-wheels-by-kke"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-18-21-wheel-and-tire-combo-warp9",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-18-21-wheel-and-tire-combo-warp9"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-18-21-wheel-and-tire-combo-warp9"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-rear-wheel-rim-tire-assy-130-70-17",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-rear-wheel-rim-tire-assy-130-70-17"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-rear-wheel-rim-tire-assy-130-70-17"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-to-honda-21-front-wheel-adapters",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-to-honda-21-front-wheel-adapters"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-to-honda-21-front-wheel-adapters"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-titanium-front-axle-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-front-axle-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-titanium-front-axle-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-ultra-bee-front-supermoto-axle-slider",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-front-supermoto-axle-slider"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-front-supermoto-axle-slider"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-ultra-bee-wheel-bearing-kits",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-wheel-bearing-kits"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-wheel-bearing-kits"
+    },
+    {
+      "product_id": "chargedcycleworks-16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy"
     }
   ]
 }

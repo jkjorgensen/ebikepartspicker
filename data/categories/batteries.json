@@ -7,11 +7,12 @@
     {
       "bike_id": "ultrabee",
       "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/dhs-72v-65ah-rs50-61kw-battery-for-surron-ultra-bee"
+        "https://chargedcycleworks.com/products/dhs-72v-65ah-rs50-61kw-battery-for-surron-ultra-bee",
+        "https://chargedcycleworks.com/products/72v-65ah-battery-for-surron-ultra-bee"
       ],
-      "notes": "61kW RS50 cells",
+      "notes": "CCW: OEM-size drop-in for the Ultra Bee; plug works with OEM or upgraded controllers; 72V (84V full), 61kW peak / 43.2kW continuous",
       "product_id": "dhs-72v-65ah-ub",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -19,9 +20,9 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/dhs-rs50-80v-45ah-battery-for-surron-light-bee"
       ],
-      "notes": "44kW RS50 cells; also fits Ventus One",
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
       "product_id": "dhs-80v-45ah-lbx",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -49,9 +50,9 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/ewatt-72v-63ah-race-battery-for-talaria-sting"
       ],
-      "notes": "",
+      "notes": "CCW: for the Talaria Sting MX3/MX4/MX5; pair with an X-9000 and the XTA-60; needs an aftermarket controller and a 72V charger; taller lid included",
       "product_id": "ewatt-72v-63ah-t",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -59,9 +60,9 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/ewatt-72v-63ah-race-battery-for-talaria-sting"
       ],
-      "notes": "Talaria Sting platform",
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)",
       "product_id": "ewatt-72v-63ah-t",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -69,30 +70,30 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/ventus-battery-evo-gt-72v-50ah-surron-light-bee"
       ],
-      "notes": "",
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
       "product_id": "ventus-evo-gt-72v",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "product_id": "ewatt-72v-63ah-t",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ewattusa.com/product/l7263h/"
       ],
-      "notes": "Manufacturer: direct upgrade for Light Bee L1E/X and Segway X260/X160"
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ultrabee-2025-oem-battery",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://peakpoweremotos.com/parts/ultra-bee-battery"
       ],
-      "notes": "2025 Ultra Bee only"
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ultrabee-2025-oem-battery",
@@ -208,21 +209,21 @@
       "product_id": "eride-e7271-battery",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.eridepro.com/products/e7271"
       ],
-      "notes": "SS2.0 and Pro-S listed by manufacturer"
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "eride-e7271-battery",
       "bike_id": "ss30",
       "status": "confirmed_fit_with_adapter",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.eridepro.com/products/e7271"
       ],
-      "notes": "Type A only; 2024-earlier bikes need power cable replacement"
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "eride-e7271-battery",
@@ -388,17 +389,21 @@
       "product_id": "dhs-88v-60ah-ultrabee",
       "bike_id": "ultrabee",
       "status": "confirmed_fit_with_modifications",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Ultra Bee-specific pack; aftermarket controller + lid required"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dhs-88v-60ah-race-battery-for-surron-ultra-bee-rs50-cells-75kw"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ventus-ultrabee-96v-56ah",
       "bike_id": "ultrabee",
       "status": "confirmed_fit_with_modifications",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Explicit Ultra Bee product; 12V converter removal + aftermarket controller required"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "bike_id": "ss20",
@@ -407,7 +412,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-72v-40ah-battery",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -427,7 +432,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "batteries-bonnell-805-rx-battery",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -437,8 +442,128 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "batteries-bonnell-805-rx-battery-latch-base-assembly",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-72v-65ah-battery-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/72v-65ah-battery-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/72v-65ah-battery-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-dhs-80v-80ah-battery",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dhs-80v-80ah-battery"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/dhs-80v-80ah-battery"
+    },
+    {
+      "product_id": "chargedcycleworks-dhs-96v-50ah-race-battery-surron-ultra-bee-rs50",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dhs-96v-50ah-race-battery-surron-ultra-bee-rs50"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/dhs-96v-50ah-race-battery-surron-ultra-bee-rs50"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-battery-lid",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-74v-battery",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-74v-battery"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-74v-battery"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-protective-of-battery-compartment",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-protective-of-battery-compartment"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-protective-of-battery-compartment"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-battery-power-cable",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-battery-power-cable"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-battery-power-cable"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-oem-charger",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-oem-charger"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-oem-charger"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-r-battery-protector",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-r-battery-protector"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-r-battery-protector"
     }
   ],
   "products": [
@@ -804,6 +929,306 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "chargedcycleworks-72v-65ah-battery-for-surron-ultra-bee",
+      "name": "DHS 72v 65ah Battery for Surron Ultra Bee",
+      "brand": "DHS",
+      "category": "batteries",
+      "price_usd": 2599.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/72v-65ah-battery-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/72v-65ah-battery-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2599.0,
+          "buy_url": "https://chargedcycleworks.com/products/72v-65ah-battery-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-72v-65ah-battery-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-dhs-80v-80ah-battery",
+      "name": "DHS 80v 80ah Battery Bundle for Surron Ultra Bee",
+      "brand": "DHS",
+      "category": "batteries",
+      "price_usd": 2699.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dhs-80v-80ah-battery",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dhs-80v-80ah-battery"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2699.0,
+          "buy_url": "https://chargedcycleworks.com/products/dhs-80v-80ah-battery"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-dhs-80v-80ah-battery.webp"
+    },
+    {
+      "id": "chargedcycleworks-dhs-96v-50ah-race-battery-surron-ultra-bee-rs50",
+      "name": "DHS 96V 50Ah Race Battery for Surron Ultra Bee - RS50 Cells - 81kw!",
+      "brand": "DHS",
+      "category": "batteries",
+      "price_usd": 2699.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dhs-96v-50ah-race-battery-surron-ultra-bee-rs50",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dhs-96v-50ah-race-battery-surron-ultra-bee-rs50"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2699.0,
+          "buy_url": "https://chargedcycleworks.com/products/dhs-96v-50ah-race-battery-surron-ultra-bee-rs50"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-dhs-96v-50ah-race-battery-surron-ultra-bee-rs50.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-oem-charger",
+      "name": "Surron Ultra Bee - OEM 110v Battery Charger",
+      "brand": "Surron",
+      "category": "batteries",
+      "price_usd": 469.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-oem-charger",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-oem-charger"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 469.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-oem-charger"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-oem-charger.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-74v-battery",
+      "name": "Surron Ultra Bee - OEM 74v 55Ah battery",
+      "brand": "Surron",
+      "category": "batteries",
+      "price_usd": 1995.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-74v-battery",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-74v-battery"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1995.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-74v-battery"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-74v-battery.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-battery-lid",
+      "name": "Surron Ultra Bee - OEM Battery Lid",
+      "brand": "Surron-WN",
+      "category": "batteries",
+      "price_usd": 41.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 41.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-battery-lid.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-battery-power-cable",
+      "name": "Surron Ultra Bee - OEM Battery Power Cable",
+      "brand": "Surron-WN",
+      "category": "batteries",
+      "price_usd": 124.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-battery-power-cable",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-battery-power-cable"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 124.99,
+          "buy_url": "https://chargedcycleworks.com/products/ub-battery-power-cable"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-battery-power-cable.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-r-battery-protector",
+      "name": "Surron Ultra Bee - OEM Right Battery Protector",
+      "brand": "Surron",
+      "category": "batteries",
+      "price_usd": 8.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-r-battery-protector",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-r-battery-protector"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-r-battery-protector"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-r-battery-protector.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-protective-of-battery-compartment",
+      "name": "Surron Ultra Bee - Simulated Carbon Fiber Battery Protector Handles",
+      "brand": "Surron-WN",
+      "category": "batteries",
+      "price_usd": 29.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-protective-of-battery-compartment",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-protective-of-battery-compartment"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-protective-of-battery-compartment"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-protective-of-battery-compartment.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt",
+      "name": "eWatt 80V 76Ah Battery Bundle for Surron Ultra Bee | Includes Lid & Charger",
+      "brand": "EWATT",
+      "category": "batteries",
+      "price_usd": 3500.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 3500.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries",
+      "name": "eWatt Simulated Carbon Fiber Battery Lid for Surron Ultra Bee",
+      "brand": "EWATT",
+      "category": "batteries",
+      "price_usd": 100.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 100.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt",
+      "name": "eWatt Ultra Bee 72v 76ah Battery + lid + charger Bundle - eWatt",
+      "brand": "EWATT",
+      "category": "batteries",
+      "price_usd": 3224.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 3224.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt.webp"
     }
   ]
 }

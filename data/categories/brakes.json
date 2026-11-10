@@ -1264,6 +1264,1131 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "chargedcycleworks-10mm-brake-caliper-spacer-for-220mm-rotors",
+      "name": "10mm Brake Caliper Spacer (For 220mm Rotors)",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 10.94,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 10.94,
+          "buy_url": "https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-10mm-brake-caliper-spacer-for-220mm-rotors.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws",
+      "name": "E Ride Pro - OEM 220mm Front Brake Rotor for SS 3.0 / SR",
+      "brand": "ERide Pro",
+      "category": "brakes",
+      "price_usd": 42.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 42.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws",
+      "name": "E Ride Pro - OEM 220mm Rear Brake Rotor for SS 3.0 / SR",
+      "brand": "ERide Pro",
+      "category": "brakes",
+      "price_usd": 39.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-3-0-sr-brake-pads",
+      "name": "E Ride Pro - OEM 3.0 / SR Brake Pads",
+      "brand": "ERide Pro",
+      "category": "brakes",
+      "price_usd": 27.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-3-0-sr-brake-pads",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-3-0-sr-brake-pads"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 27.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-3-0-sr-brake-pads"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-3-0-sr-brake-pads.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-oem-brake-lever",
+      "name": "E Ride Pro - OEM Brake Lever set",
+      "brand": "ERide Pro",
+      "category": "brakes",
+      "price_usd": 30.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-oem-brake-lever",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-brake-lever"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 30.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-oem-brake-lever"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-oem-brake-lever.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-rear-brake-hose",
+      "name": "E Ride Pro - OEM Rear Brake Hose",
+      "brand": "ERide Pro",
+      "category": "brakes",
+      "price_usd": 26.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 26.99,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-rear-brake-hose.webp"
+    },
+    {
+      "id": "chargedcycleworks-front-brake-hose-type-2-ss3-0-sr",
+      "name": "E Ride Pro - OEM Type 2 Brake Hose with hardware for SS3.0/SR",
+      "brand": "ERide Pro",
+      "category": "brakes",
+      "price_usd": 39.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/front-brake-hose-type-2-ss3-0-sr",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/front-brake-hose-type-2-ss3-0-sr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.0,
+          "buy_url": "https://chargedcycleworks.com/products/front-brake-hose-type-2-ss3-0-sr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-front-brake-hose-type-2-ss3-0-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-eride-pro-260mm-floating-racing-rotor-kit-team-edition",
+      "name": "E Ride Pro – 260mm Racing Rotor Kit – Team Edition",
+      "brand": "ERide Pro",
+      "category": "brakes",
+      "price_usd": 149.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 149.0,
+          "buy_url": "https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-eride-pro-260mm-floating-racing-rotor-kit-team-edition.webp"
+    },
+    {
+      "id": "chargedcycleworks-eride-ss3-sr-brake-assembly-dot4-type-2",
+      "name": "E Ride SS3.0/SR - DOT4  Brake Assembly (Type 2)",
+      "brand": "ERide Pro",
+      "category": "brakes",
+      "price_usd": 145.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/eride-ss3-sr-brake-assembly-dot4-type-2",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/eride-ss3-sr-brake-assembly-dot4-type-2"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 145.0,
+          "buy_url": "https://chargedcycleworks.com/products/eride-ss3-sr-brake-assembly-dot4-type-2"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-eride-ss3-sr-brake-assembly-dot4-type-2.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-competition-brake-pads-for-ultra-bee",
+      "name": "EBMX Competition Brake Pads for Ultra Bee",
+      "brand": "EBMX",
+      "category": "brakes",
+      "price_usd": 50.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-competition-brake-pads-for-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-competition-brake-pads-for-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 50.0,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-competition-brake-pads-for-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-competition-brake-pads-for-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr",
+      "name": "EXT Ferro Brake Adapter for E Ride Pro 3.0 / SR",
+      "brand": "Suspension Syndicate",
+      "category": "brakes",
+      "price_usd": 55.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 55.0,
+          "buy_url": "https://chargedcycleworks.com/products/ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-formula-e-moto-brakes",
+      "name": "Formula E-Moto Brakes",
+      "brand": "Pinned Electric",
+      "category": "brakes",
+      "price_usd": 279.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/formula-e-moto-brakes",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/formula-e-moto-brakes"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 279.0,
+          "buy_url": "https://chargedcycleworks.com/products/formula-e-moto-brakes"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-formula-e-moto-brakes.webp"
+    },
+    {
+      "id": "chargedcycleworks-formula-eb9",
+      "name": "Formula EB9 E-Moto Brakes",
+      "brand": "Pinned Electric",
+      "category": "brakes",
+      "price_usd": 779.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/formula-eb9",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10); CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/formula-eb9"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 779.0,
+          "buy_url": "https://chargedcycleworks.com/products/formula-eb9"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-formula-eb9.webp"
+    },
+    {
+      "id": "chargedcycleworks-front-brake-hose-w-bolts-type-1-ss3-0-sr",
+      "name": "Front Brake Hose w/ bolts (Type 1) - SS3.0/SR",
+      "brand": "ERide Pro",
+      "category": "brakes",
+      "price_usd": 36.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/front-brake-hose-w-bolts-type-1-ss3-0-sr",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/front-brake-hose-w-bolts-type-1-ss3-0-sr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 36.0,
+          "buy_url": "https://chargedcycleworks.com/products/front-brake-hose-w-bolts-type-1-ss3-0-sr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-front-brake-hose-w-bolts-type-1-ss3-0-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade",
+      "name": "Heavy Hitter Ultra Bee F/R Brake Rotor Upgrade",
+      "brand": "GritShift",
+      "category": "brakes",
+      "price_usd": 49.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.99,
+          "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-240mm-brake-rotor-surron-ultra-bee",
+      "name": "KKE 240mm Brake Rotor for Surron Ultra Bee | Front or Rear",
+      "brand": "KKE Racing",
+      "category": "brakes",
+      "price_usd": 39.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-240mm-brake-rotor-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-240mm-brake-rotor-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-240mm-brake-rotor-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-240mm-brake-rotor-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective",
+      "name": "KKE Aluminum Brake Levers for Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "brakes",
+      "price_usd": 49.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-lewis-223mm-x-3-0mm-rotor",
+      "name": "Lewis 223mm Brake Rotors",
+      "brand": "Lewis",
+      "category": "brakes",
+      "price_usd": 51.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 51.5,
+          "buy_url": "https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-lewis-223mm-x-3-0mm-rotor.webp"
+    },
+    {
+      "id": "chargedcycleworks-prickly-moto-brake-lever",
+      "name": "Prickly Moto Brake Lever",
+      "brand": "Prickly Motorsports",
+      "category": "brakes",
+      "price_usd": 45.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/prickly-moto-brake-lever",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW fitment text name(s) ultrabee exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/prickly-moto-brake-lever"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 45.0,
+          "buy_url": "https://chargedcycleworks.com/products/prickly-moto-brake-lever"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-prickly-moto-brake-lever.webp"
+    },
+    {
+      "id": "chargedcycleworks-project9-brake-pads-for-eride-surron-talaria",
+      "name": "Project9 Brake Pads for eMoto",
+      "brand": "Project9",
+      "category": "brakes",
+      "price_usd": 29.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10); CCW title/variants name(s) ultrabee exactly (checked 2026-11-10); CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.95,
+          "buy_url": "https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-project9-brake-pads-for-eride-surron-talaria.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-brake-lever-mount",
+      "name": "Surron Ultra Bee - Handlebar Upper Mount",
+      "brand": "Surron-WN",
+      "category": "brakes",
+      "price_usd": 8.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-brake-lever-mount",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-brake-lever-mount"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-brake-lever-mount"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-brake-lever-mount.webp"
+    },
+    {
+      "id": "chargedcycleworks-brake-pads-for-surron-ultra-bee-oem",
+      "name": "Surron Ultra Bee - OEM Brake Pads",
+      "brand": "Surron",
+      "category": "brakes",
+      "price_usd": 29.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/brake-pads-for-surron-ultra-bee-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/brake-pads-for-surron-ultra-bee-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.0,
+          "buy_url": "https://chargedcycleworks.com/products/brake-pads-for-surron-ultra-bee-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-brake-pads-for-surron-ultra-bee-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-brake-disk-2403",
+      "name": "Surron Ultra Bee - OEM Brake Rotor (240mm)",
+      "brand": "Surron",
+      "category": "brakes",
+      "price_usd": 44.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-brake-disk-2403",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-brake-disk-2403"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 44.99,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-brake-disk-2403"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-brake-disk-2403.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-front-brake-caliper-assy-2",
+      "name": "Surron Ultra Bee - OEM Front Brake Caliper",
+      "brand": "Surron-WN",
+      "category": "brakes",
+      "price_usd": 79.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-front-brake-caliper-assy-2",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-front-brake-caliper-assy-2"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.5,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-front-brake-caliper-assy-2"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-front-brake-caliper-assy-2.webp"
+    },
+    {
+      "id": "chargedcycleworks-oem-ultra-bee-rear-brake-line-copy",
+      "name": "Surron Ultra Bee - OEM Front Brake Line",
+      "brand": "Surron",
+      "category": "brakes",
+      "price_usd": 53.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line-copy",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line-copy"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 53.0,
+          "buy_url": "https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line-copy"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-oem-ultra-bee-rear-brake-line-copy.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-complete-front-brake-assembly-copy",
+      "name": "Surron Ultra Bee - OEM Rear Brake Assembly",
+      "brand": "Surron",
+      "category": "brakes",
+      "price_usd": 298.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly-copy",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly-copy"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 298.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly-copy"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-complete-front-brake-assembly-copy.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-rear-brake-caliper",
+      "name": "Surron Ultra Bee - OEM Rear Brake Caliper",
+      "brand": "Surron",
+      "category": "brakes",
+      "price_usd": 98.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 98.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-rear-brake-caliper.webp"
+    },
+    {
+      "id": "chargedcycleworks-oem-ultra-bee-rear-brake-line",
+      "name": "Surron Ultra Bee - OEM Rear Brake Line",
+      "brand": "Surron",
+      "category": "brakes",
+      "price_usd": 68.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 68.0,
+          "buy_url": "https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-oem-ultra-bee-rear-brake-line.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-floating-240mm-rotor",
+      "name": "Surron Ultra Bee Floating 240mm Rotor",
+      "brand": "Warp9Racing",
+      "category": "brakes",
+      "price_usd": 89.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-floating-240mm-rotor",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-floating-240mm-rotor"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 89.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-floating-240mm-rotor"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-floating-240mm-rotor.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-brake-lever-set",
+      "name": "Surron Ultra Bee – Replacement Brake Lever – Front / Rear | OEM",
+      "brand": "Surron-WN",
+      "category": "brakes",
+      "price_usd": 59.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-brake-lever-set",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-brake-lever-set"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-brake-lever-set"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-brake-lever-set.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-oem-mx5-rear-brake-caliper-mount",
+      "name": "Talaria - OEM MX5 Rear Brake Caliper Mount",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 60.26,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-oem-mx5-rear-brake-caliper-mount",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-mx5-rear-brake-caliper-mount"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 60.26,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-oem-mx5-rear-brake-caliper-mount"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-oem-mx5-rear-brake-caliper-mount.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-komodo-brake-lever-front-or-rear",
+      "name": "Talaria Komodo - OEM Brake Levers",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 20.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-brake-lever-front-or-rear",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-brake-lever-front-or-rear"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 20.0,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-brake-lever-front-or-rear"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-komodo-brake-lever-front-or-rear.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-komodo-front-brake-pads-35453",
+      "name": "Talaria Komodo – Front & Rear Brake Pads | OEM",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 29.69,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-front-brake-pads-35453",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-front-brake-pads-35453"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.69,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-front-brake-pads-35453"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-komodo-front-brake-pads-35453.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-sting-mx5-oem-complete-front-brake-assembly",
+      "name": "Talaria Sting MX5 - OEM Complete Front Brake Assembly",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 273.98,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-sting-mx5-oem-complete-front-brake-assembly",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-sting-mx5-oem-complete-front-brake-assembly"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 273.98,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-sting-mx5-oem-complete-front-brake-assembly"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-sting-mx5-oem-complete-front-brake-assembly.webp"
+    },
+    {
+      "id": "chargedcycleworks-front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4",
+      "name": "Talaria Sting MX5 - OEM Complete Rear Brake Assembly",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 272.63,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 272.63,
+          "buy_url": "https://chargedcycleworks.com/products/front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4.webp"
+    },
+    {
+      "id": "chargedcycleworks-brake-rotor-for-surron-ultra-bee-tusk-typhoon",
+      "name": "Tusk Brake Rotor Typhoon (Surron Ultra Bee)",
+      "brand": "RMATV",
+      "category": "brakes",
+      "price_usd": 44.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/brake-rotor-for-surron-ultra-bee-tusk-typhoon",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/brake-rotor-for-surron-ultra-bee-tusk-typhoon"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 44.99,
+          "buy_url": "https://chargedcycleworks.com/products/brake-rotor-for-surron-ultra-bee-tusk-typhoon"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-brake-rotor-for-surron-ultra-bee-tusk-typhoon.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-brake-pads",
+      "name": "Ultra Bee Brake Pads",
+      "brand": "Prickly Motorsports",
+      "category": "brakes",
+      "price_usd": 30.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-brake-pads",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-brake-pads"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 30.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-brake-pads"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-brake-pads.webp"
+    },
+    {
+      "id": "chargedcycleworks-300mm-rotor-and-caliper-bracket-for-surron-ultra-bee",
+      "name": "Warp9 300mm Rotor and Caliper Bracket for Surron Ultra Bee",
+      "brand": "Warp9",
+      "category": "brakes",
+      "price_usd": 50.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/300mm-rotor-and-caliper-bracket-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/300mm-rotor-and-caliper-bracket-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 50.0,
+          "buy_url": "https://chargedcycleworks.com/products/300mm-rotor-and-caliper-bracket-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-300mm-rotor-and-caliper-bracket-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-disc-guard-surron-ultra-bee",
+      "name": "Warp9 Rear Disk Guard for Surron Ultra Bee",
+      "brand": "Warp9Racing",
+      "category": "brakes",
+      "price_usd": 99.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-disc-guard-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-disc-guard-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-disc-guard-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-disc-guard-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-240-x-3-20-mm-fixed-rotor",
+      "name": "Warp9 Surron Ultra Bee 240mm Fixed Rotor",
+      "brand": "Warp9",
+      "category": "brakes",
+      "price_usd": 69.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-240-x-3-20-mm-fixed-rotor",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-240-x-3-20-mm-fixed-rotor"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 69.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-240-x-3-20-mm-fixed-rotor"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-240-x-3-20-mm-fixed-rotor.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-260mm-floating-front-rotor",
+      "name": "Warp9 Surron Ultra Bee 260mm Floating Front Rotor",
+      "brand": "Warp9",
+      "category": "brakes",
+      "price_usd": 109.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-260mm-floating-front-rotor",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-260mm-floating-front-rotor"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 109.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-260mm-floating-front-rotor"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-260mm-floating-front-rotor.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-ultra-bee-brake-lever",
+      "name": "Warp9 Ultra Bee Brake Lever",
+      "brand": "Warp9",
+      "category": "brakes",
+      "price_usd": 46.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-brake-lever",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-brake-lever"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 46.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-brake-lever"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-ultra-bee-brake-lever.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-titanium-rotor-bolts-by-warp9",
+      "name": "Warp9 Ultra Bee Titanium Brake Rotor Bolts",
+      "brand": "Warp9",
+      "category": "brakes",
+      "price_usd": 31.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rotor-bolts-by-warp9",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rotor-bolts-by-warp9"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 31.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rotor-bolts-by-warp9"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-titanium-rotor-bolts-by-warp9.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-competition-folder-lever-set",
+      "name": "ZAP Competition Folder Lever Set",
+      "brand": "Zap-Technix",
+      "category": "brakes",
+      "price_usd": 99.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW fitment text name(s) ultrabee exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-competition-folder-lever-set.webp"
+    },
+    {
+      "id": "chargedcycleworks-dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee",
+      "name": "ZAP DP Pro-MX brake pads for Surron Ultra Bee",
+      "brand": "Zap-Technix",
+      "category": "brakes",
+      "price_usd": 29.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.99,
+          "buy_url": "https://chargedcycleworks.com/products/dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee.webp"
     }
   ],
   "compatibility": [
@@ -1495,41 +2620,41 @@
       "product_id": "brakes-fxt-ultrabee-rear-kit",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "brakes-fxt-ultrabee-rear-kit",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (re-check Oct 18, 2026)"
     },
     {
       "product_id": "brakes-fxt-ultrabee-rear-kit",
       "bike_id": "ss30",
       "status": "confirmed_fit_with_modifications",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
       ],
-      "notes": ""
+      "notes": "Seller listing: E-Ride Pro 3.0 needs a new rotor (stock rotor not compatible) and a bracket modification"
     },
     {
       "product_id": "brakes-fxt-ultrabee-rear-kit",
       "bike_id": "sr",
       "status": "confirmed_fit_with_modifications",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "brakes-fxt-ultrabee-rear-kit",
@@ -1560,10 +2685,12 @@
     {
       "product_id": "brakes-fxt-ultrabee-rear-kit",
       "bike_id": "ultrabee",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "brakes-fxt-ultrabee-rear-kit",
@@ -1617,11 +2744,11 @@
       "product_id": "brakes-eride-e7094-front",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.eridepro.com/products/e7094"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "brakes-eride-e7094-front",
@@ -1699,11 +2826,11 @@
       "product_id": "brakes-factoryz-lightbee-foot",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://factoryz.co/products/surron-moto-foot-brake-kit"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "brakes-factoryz-lightbee-foot",
@@ -1805,31 +2932,31 @@
       "product_id": "komodo-rear-brake-pads",
       "bike_id": "komodo",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/parts/talaria/bpr090/"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "komodo-rear-brake-caliper",
       "bike_id": "komodo",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/parts/talaria/bpcfr002/"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "komodo-front-brake-lever",
       "bike_id": "komodo",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/parts/talaria/brlvf158/"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "brakes-ventus-folding-levers",
@@ -1845,7 +2972,7 @@
       "product_id": "brakes-warp9-folding-lever",
       "bike_id": "bonnell-805rx",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro",
         "https://chargedcycleworks.com/products/emoto-folding-brake-levers"
@@ -1856,25 +2983,31 @@
       "product_id": "charged-brake-pads-emoto",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page lists Light Bee (2025 and older)"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)"
     },
     {
       "product_id": "charged-brake-pads-emoto",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page lists Talaria MX3/MX4/XXX"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+      ],
+      "notes": "Seller listing names the Talaria Sting MX4 (checked Oct 18, 2026)"
     },
     {
       "product_id": "charged-brake-pads-emoto",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page lists E Ride Pro 2.0"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (re-check Oct 18, 2026)"
     },
     {
       "product_id": "charged-brake-pads-emoto",
@@ -1887,66 +3020,82 @@
     {
       "product_id": "charged-brake-pads-emoto",
       "bike_id": "ss30",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "SR/3.0 variant $25.95, currently out of stock"
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (re-check Oct 18, 2026)"
     },
     {
       "product_id": "charged-brake-pads-emoto",
       "bike_id": "sr",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "SR/3.0 variant $25.95, currently out of stock"
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+      ],
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "charged-brake-pads-emoto",
       "bike_id": "mx5",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "MX5 variant $25.95, currently out of stock"
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+      ],
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "charged-brake-pads-emoto",
       "bike_id": "ultrabee",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Ultra Bee variant $29.95, currently out of stock"
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "warp9-260mm-bracket-ultrabee",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page: for OEM Ultra Bee fork, front wheel"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-260mm-front-brake-bracket"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "lbn-ultrab-bee-brake-kit",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page offers Surron Light Bee Kit variant"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "lbn-ultrab-bee-brake-kit",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page offers Talaria Sting (MX3/MX4) Kit variant"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto"
+      ],
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ultrabee-oem-front-brake",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "OEM stock front brake assembly for Ultra Bee"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "bike_id": "ss20",
@@ -1955,7 +3104,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss20-brake-pads",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1965,7 +3114,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss30-brake-pads",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1975,7 +3124,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-altis-sigma-brake-pads",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1985,7 +3134,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-xepror-ultrabee-brake-pads",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1995,7 +3144,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-xepror-ultrabee-brake-pads",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -2005,7 +3154,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "brakes-asv-f4-type2-lever-set",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -2015,7 +3164,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "brakes-bonnell-805-rx-brake-lever",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -2025,7 +3174,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "brakes-bonnell-805-rx-brake-disc-set",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -2035,7 +3184,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "brakes-bonnell-805-rx-brake-system",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -2045,7 +3194,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "brakes-bonnell-805-rx-brake-line",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -2055,8 +3204,729 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "brakes-bonnell-805-rx-brake-pad-set",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "brakes-warp9-folding-lever",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/emoto-folding-brake-levers",
+        "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-upgrades"
+      ],
+      "notes": "CCW 'Warp9 Emoto Folding Brake Levers' fitment list names 2025 E-Ride Pro SS 3.0 with Type 2 brakes (paddle-style switches); also in the E Ride Pro SS 3.0/4.0 Upgrades collection (checked 2026-11-10)"
+    },
+    {
+      "product_id": "brakes-warp9-folding-lever",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/emoto-folding-brake-levers"
+      ],
+      "notes": "CCW 'Warp9 Emoto Folding Brake Levers' fitment list names 2025 E-Ride Pro SR with Type 2 brakes (paddle-style switches) (checked 2026-11-10)"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-komodo-brake-lever-front-or-rear",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-brake-lever-front-or-rear"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-brake-lever-front-or-rear"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-komodo-front-brake-pads-35453",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-front-brake-pads-35453"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-front-brake-pads-35453"
+    },
+    {
+      "product_id": "chargedcycleworks-formula-e-moto-brakes",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-e-moto-brakes"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-e-moto-brakes"
+    },
+    {
+      "product_id": "chargedcycleworks-formula-eb9",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-eb9"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-eb9"
+    },
+    {
+      "product_id": "chargedcycleworks-front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-moto-brake-lever",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-moto-brake-lever"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-moto-brake-lever"
+    },
+    {
+      "product_id": "chargedcycleworks-project9-brake-pads-for-eride-surron-talaria",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-oem-mx5-rear-brake-caliper-mount",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-mx5-rear-brake-caliper-mount"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-oem-mx5-rear-brake-caliper-mount"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-sting-mx5-oem-complete-front-brake-assembly",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-sting-mx5-oem-complete-front-brake-assembly"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-sting-mx5-oem-complete-front-brake-assembly"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-competition-folder-lever-set",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set"
+    },
+    {
+      "product_id": "chargedcycleworks-10mm-brake-caliper-spacer-for-220mm-rotors",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-oem-brake-lever",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-brake-lever"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-brake-lever"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-3-0-sr-brake-pads",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-3-0-sr-brake-pads"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-3-0-sr-brake-pads"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-rear-brake-hose",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose"
+    },
+    {
+      "product_id": "chargedcycleworks-eride-pro-260mm-floating-racing-rotor-kit-team-edition",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition"
+    },
+    {
+      "product_id": "chargedcycleworks-eride-ss3-sr-brake-assembly-dot4-type-2",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/eride-ss3-sr-brake-assembly-dot4-type-2"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-ss3-sr-brake-assembly-dot4-type-2"
+    },
+    {
+      "product_id": "chargedcycleworks-ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-formula-e-moto-brakes",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-e-moto-brakes"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-e-moto-brakes"
+    },
+    {
+      "product_id": "chargedcycleworks-formula-eb9",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-eb9"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-eb9"
+    },
+    {
+      "product_id": "chargedcycleworks-front-brake-hose-type-2-ss3-0-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-brake-hose-type-2-ss3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-brake-hose-type-2-ss3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-front-brake-hose-w-bolts-type-1-ss3-0-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-brake-hose-w-bolts-type-1-ss3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-brake-hose-w-bolts-type-1-ss3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-moto-brake-lever",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-moto-brake-lever"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-moto-brake-lever"
+    },
+    {
+      "product_id": "chargedcycleworks-project9-brake-pads-for-eride-surron-talaria",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-competition-folder-lever-set",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-oem-brake-lever",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-brake-lever"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-brake-lever"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-rear-brake-hose",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose"
+    },
+    {
+      "product_id": "chargedcycleworks-eride-pro-260mm-floating-racing-rotor-kit-team-edition",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition"
+    },
+    {
+      "product_id": "chargedcycleworks-eride-ss3-sr-brake-assembly-dot4-type-2",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/eride-ss3-sr-brake-assembly-dot4-type-2"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-ss3-sr-brake-assembly-dot4-type-2"
+    },
+    {
+      "product_id": "chargedcycleworks-formula-eb9",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-eb9"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-eb9"
+    },
+    {
+      "product_id": "chargedcycleworks-front-brake-hose-type-2-ss3-0-sr",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-brake-hose-type-2-ss3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-brake-hose-type-2-ss3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-front-brake-hose-w-bolts-type-1-ss3-0-sr",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-brake-hose-w-bolts-type-1-ss3-0-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-brake-hose-w-bolts-type-1-ss3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-competition-folder-lever-set",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set"
+    },
+    {
+      "product_id": "chargedcycleworks-300mm-rotor-and-caliper-bracket-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/300mm-rotor-and-caliper-bracket-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/300mm-rotor-and-caliper-bracket-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-brake-pads-for-surron-ultra-bee-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/brake-pads-for-surron-ultra-bee-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/brake-pads-for-surron-ultra-bee-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-brake-rotor-for-surron-ultra-bee-tusk-typhoon",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/brake-rotor-for-surron-ultra-bee-tusk-typhoon"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/brake-rotor-for-surron-ultra-bee-tusk-typhoon"
+    },
+    {
+      "product_id": "chargedcycleworks-dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-competition-brake-pads-for-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-competition-brake-pads-for-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-competition-brake-pads-for-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-240mm-brake-rotor-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-240mm-brake-rotor-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-240mm-brake-rotor-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-oem-ultra-bee-rear-brake-line",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line"
+    },
+    {
+      "product_id": "chargedcycleworks-oem-ultra-bee-rear-brake-line-copy",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line-copy"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line-copy"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-moto-brake-lever",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-moto-brake-lever"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-moto-brake-lever"
+    },
+    {
+      "product_id": "chargedcycleworks-project9-brake-pads-for-eride-surron-talaria",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-240-x-3-20-mm-fixed-rotor",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-240-x-3-20-mm-fixed-rotor"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-240-x-3-20-mm-fixed-rotor"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-260mm-floating-front-rotor",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-260mm-floating-front-rotor"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-260mm-floating-front-rotor"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-brake-lever-mount",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-brake-lever-mount"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-brake-lever-mount"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-floating-240mm-rotor",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-floating-240mm-rotor"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-floating-240mm-rotor"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-brake-lever-set",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-brake-lever-set"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-brake-lever-set"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-titanium-rotor-bolts-by-warp9",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rotor-bolts-by-warp9"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rotor-bolts-by-warp9"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-brake-disk-2403",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-brake-disk-2403"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-brake-disk-2403"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-brake-pads",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-brake-pads"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-brake-pads"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-competition-folder-lever-set",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-complete-front-brake-assembly-copy",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly-copy"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly-copy"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-front-brake-caliper-assy-2",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-front-brake-caliper-assy-2"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-front-brake-caliper-assy-2"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-rear-brake-caliper",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-disc-guard-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-disc-guard-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-disc-guard-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-ultra-bee-brake-lever",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-brake-lever"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-brake-lever"
+    },
+    {
+      "product_id": "chargedcycleworks-10mm-brake-caliper-spacer-for-220mm-rotors",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors"
+    },
+    {
+      "product_id": "chargedcycleworks-formula-e-moto-brakes",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-e-moto-brakes"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-e-moto-brakes"
+    },
+    {
+      "product_id": "chargedcycleworks-formula-eb9",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-eb9"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-eb9"
+    },
+    {
+      "product_id": "chargedcycleworks-lewis-223mm-x-3-0mm-rotor",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-moto-brake-lever",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-moto-brake-lever"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-moto-brake-lever"
+    },
+    {
+      "product_id": "brakes-ventus-folding-levers",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective"
+      ],
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "brakes-warp9-folding-lever",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro"
+      ],
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "charged-brake-pads-emoto",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+      ],
+      "notes": "CCW fitment list explicitly names Arctic Leopard XE Pro S"
     }
   ]
 }

@@ -693,6 +693,1181 @@
       "power_change_kw": null,
       "weight_delta_kg": null,
       "image": "img/parts/vtb-aetos-gen2-harness.webp"
+    },
+    {
+      "id": "chargedcycleworks-baja-designs-s2-pro-headlight",
+      "name": "Baja Designs S2 Pro Headlight",
+      "brand": "Baja Designs",
+      "category": "electrical",
+      "price_usd": 228.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 228.95,
+          "buy_url": "https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-baja-designs-s2-pro-headlight.webp"
+    },
+    {
+      "id": "chargedcycleworks-baja-designs-s2-sport-headlight-for-surron-talaria",
+      "name": "Baja Designs S2 Sport Headlight",
+      "brand": "Baja Designs",
+      "category": "electrical",
+      "price_usd": 187.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/baja-designs-s2-sport-headlight-for-surron-talaria",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/baja-designs-s2-sport-headlight-for-surron-talaria"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 187.95,
+          "buy_url": "https://chargedcycleworks.com/products/baja-designs-s2-sport-headlight-for-surron-talaria"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-baja-designs-s2-sport-headlight-for-surron-talaria.webp"
+    },
+    {
+      "id": "chargedcycleworks-squadron-headlight-ultra-bee",
+      "name": "Baja Designs Squadron 2.0 LED Headlight for Surron Ultra Bee",
+      "brand": "Prickly Motorsports",
+      "category": "electrical",
+      "price_usd": 60.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/squadron-headlight-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/squadron-headlight-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 60.0,
+          "buy_url": "https://chargedcycleworks.com/products/squadron-headlight-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-squadron-headlight-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-baja-designs-squadron-headlight-kit-for-surron-talaria",
+      "name": "Baja Designs Squadron Headlight Kit",
+      "brand": "Baja Designs",
+      "category": "electrical",
+      "price_usd": 209.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 209.95,
+          "buy_url": "https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-baja-designs-squadron-headlight-kit-for-surron-talaria.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-oem-converter",
+      "name": "E Ride Pro - OEM 12v Converter",
+      "brand": "ERide Pro",
+      "category": "electrical",
+      "price_usd": 28.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-oem-converter",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-converter"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 28.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-oem-converter"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-oem-converter.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-oem-display",
+      "name": "E Ride Pro - OEM Display",
+      "brand": "ERide Pro",
+      "category": "electrical",
+      "price_usd": 150.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-oem-display",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-display"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 150.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-oem-display"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-oem-display.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-display-cable-she7045",
+      "name": "E Ride Pro - OEM Display Cable - SR",
+      "brand": "ERide Pro",
+      "category": "electrical",
+      "price_usd": 12.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-display-cable-she7045",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-display-cable-she7045"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 12.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-display-cable-she7045"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-display-cable-she7045.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-rengen-brake",
+      "name": "E Ride Pro SR – Regen Brake | OEM",
+      "brand": "ERide Pro",
+      "category": "electrical",
+      "price_usd": 25.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 25.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-rengen-brake.webp"
+    },
+    {
+      "id": "chargedcycleworks-eride-pro-horn-switch-mini-mini-r-sr-oem",
+      "name": "E Ride Pro – Mini / Mini R / SR Horn Switch | OEM",
+      "brand": "ERide Pro",
+      "category": "electrical",
+      "price_usd": 45.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/eride-pro-horn-switch-mini-mini-r-sr-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-horn-switch-mini-mini-r-sr-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 45.0,
+          "buy_url": "https://chargedcycleworks.com/products/eride-pro-horn-switch-mini-mini-r-sr-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-eride-pro-horn-switch-mini-mini-r-sr-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-x-9000-e-ride-pro-sr-installation-kit-v3",
+      "name": "EBMX X-9000 E Ride Pro SR Installation Kit - V3",
+      "brand": "EBMX",
+      "category": "electrical",
+      "price_usd": 189.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-e-ride-pro-sr-installation-kit-v3",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-e-ride-pro-sr-installation-kit-v3"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 189.0,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-e-ride-pro-sr-installation-kit-v3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-x-9000-e-ride-pro-sr-installation-kit-v3.webp"
+    },
+    {
+      "id": "chargedcycleworks-x-9000-controller-talaria-harness",
+      "name": "EBMX X-9000 Talaria Installation Kit",
+      "brand": "EBMX",
+      "category": "electrical",
+      "price_usd": 42.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/x-9000-controller-talaria-harness",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/x-9000-controller-talaria-harness"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 42.5,
+          "buy_url": "https://chargedcycleworks.com/products/x-9000-controller-talaria-harness"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-x-9000-controller-talaria-harness.webp"
+    },
+    {
+      "id": "chargedcycleworks-x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets",
+      "name": "EBMX X-9000 Ultra Bee Installation Kit",
+      "brand": "EBMX",
+      "category": "electrical",
+      "price_usd": 135.15,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 135.15,
+          "buy_url": "https://chargedcycleworks.com/products/x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-stock-display-harness-compatible-with-x-9000",
+      "name": "EBMX X-9000 Ultra Bee Stock Display Harness - V2",
+      "brand": "EBMX",
+      "category": "electrical",
+      "price_usd": 38.25,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-stock-display-harness-compatible-with-x-9000",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-stock-display-harness-compatible-with-x-9000"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 38.25,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-stock-display-harness-compatible-with-x-9000"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-stock-display-harness-compatible-with-x-9000.webp"
+    },
+    {
+      "id": "chargedcycleworks-gigigo-gi03-headlight",
+      "name": "Gigigo Headlight | Gi02, Gi02-S, Gi03 |",
+      "brand": "VTB",
+      "category": "electrical",
+      "price_usd": 199.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gigigo-gi03-headlight",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW title/variants name(s) ultrabee exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 199.0,
+          "buy_url": "https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-gigigo-gi03-headlight.webp"
+    },
+    {
+      "id": "chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes",
+      "name": "GritShift Blazer LED Headlight for Sur Ron, Segway, & Talaria E-Bikes",
+      "brand": "GritShift",
+      "category": "electrical",
+      "price_usd": 19.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.99,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes.webp"
+    },
+    {
+      "id": "chargedcycleworks-gritshift-halo-headlight-kill-switch",
+      "name": "GritShift Halo Headlight Kill Switch",
+      "brand": "GritShift",
+      "category": "electrical",
+      "price_usd": 19.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.89,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-gritshift-halo-headlight-kill-switch.webp"
+    },
+    {
+      "id": "chargedcycleworks-rtech-front-headlight-mask-surron-ultra-bee",
+      "name": "RTech Front Headlight Mask for Surron Ultra Bee Models (2023 to 2025)",
+      "brand": "Rtech",
+      "category": "electrical",
+      "price_usd": 29.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rtech-front-headlight-mask-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rtech-front-headlight-mask-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.99,
+          "buy_url": "https://chargedcycleworks.com/products/rtech-front-headlight-mask-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rtech-front-headlight-mask-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-communication-cable",
+      "name": "Surron Ultra Bee - OEM Communication Cable",
+      "brand": "Surron-WN",
+      "category": "electrical",
+      "price_usd": 41.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-communication-cable",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-communication-cable"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 41.99,
+          "buy_url": "https://chargedcycleworks.com/products/ub-communication-cable"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-communication-cable.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ub-oem-headlight",
+      "name": "Surron Ultra Bee - OEM Headlight",
+      "brand": "Surron",
+      "category": "electrical",
+      "price_usd": 137.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ub-oem-headlight",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-headlight"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 137.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ub-oem-headlight"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ub-oem-headlight.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ub-oem-headlight-shroud",
+      "name": "Surron Ultra Bee - OEM Headlight Shroud - White / Black",
+      "brand": "Surron",
+      "category": "electrical",
+      "price_usd": 29.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ub-oem-headlight-shroud",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-headlight-shroud"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ub-oem-headlight-shroud"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ub-oem-headlight-shroud.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-main-harness",
+      "name": "Surron Ultra Bee - OEM Main Wiring Harness",
+      "brand": "Surron-WN",
+      "category": "electrical",
+      "price_usd": 179.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-main-harness",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-main-harness"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 179.99,
+          "buy_url": "https://chargedcycleworks.com/products/ub-main-harness"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-main-harness.webp"
+    },
+    {
+      "id": "chargedcycleworks-headlight-cover",
+      "name": "Surron Ultra Bee - Simulated Carbon Fiber Headlight Shroud",
+      "brand": "Surron-WN",
+      "category": "electrical",
+      "price_usd": 49.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/headlight-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/headlight-cover"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.99,
+          "buy_url": "https://chargedcycleworks.com/products/headlight-cover"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-headlight-cover.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-headlight-bracket-oem",
+      "name": "Surron Ultra Bee – Headlight Bracket | OEM",
+      "brand": "Surron-WN",
+      "category": "electrical",
+      "price_usd": 39.2,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-headlight-bracket-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-headlight-bracket-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.2,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-headlight-bracket-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-headlight-bracket-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-headlight-trim-block-oem",
+      "name": "Surron Ultra Bee – Headlight Trim Block | OEM",
+      "brand": "Surron-WN",
+      "category": "electrical",
+      "price_usd": 21.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-headlight-trim-block-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-headlight-trim-block-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 21.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-headlight-trim-block-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-headlight-trim-block-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-headlight-bracket-for-talaria-sting-mx3-mx4-x3",
+      "name": "Talaria - OEM Headlight Bracket",
+      "brand": "eBikeZilla",
+      "category": "electrical",
+      "price_usd": 12.3,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 12.3,
+          "buy_url": "https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-headlight-bracket-for-talaria-sting-mx3-mx4-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-torp-ultra-bee-replacement-wiring-loom",
+      "name": "Torp Ultra Bee Replacement Wiring Loom",
+      "brand": "Torp",
+      "category": "electrical",
+      "price_usd": 85.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/torp-ultra-bee-replacement-wiring-loom",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/torp-ultra-bee-replacement-wiring-loom"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 85.0,
+          "buy_url": "https://chargedcycleworks.com/products/torp-ultra-bee-replacement-wiring-loom"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-torp-ultra-bee-replacement-wiring-loom.webp"
+    },
+    {
+      "id": "chargedcycleworks-ventus-oem-display",
+      "name": "Ventus OEM Display",
+      "brand": "Pinned Electric",
+      "category": "electrical",
+      "price_usd": 199.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-oem-display",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW body: 'OEM Display for Ventus One / One +' with 1.8 (4-connector) and 1.9 (2-connector) versions. Checked 2026-11-10. https://chargedcycleworks.com/products/ventus-oem-display",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-oem-display"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 199.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-oem-display"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ventus-oem-display.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-control-switch",
+      "name": "E Ride Pro - OEM Turbo Control Switch – Pro S / SS 2.0",
+      "brand": "ERide Pro",
+      "category": "electrical",
+      "price_usd": 50.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-control-switch",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-control-switch"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 50.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-control-switch"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-control-switch.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-main-wiring-harness-with-blue-booth",
+      "name": "E Ride Pro - OEM Wiring Harness - SS2.0/SS3.0",
+      "brand": "ERide Pro",
+      "category": "electrical",
+      "price_usd": 135.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-main-wiring-harness-with-blue-booth",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-main-wiring-harness-with-blue-booth"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 135.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-main-wiring-harness-with-blue-booth"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-main-wiring-harness-with-blue-booth.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-ss3-oem-breaker-switch-kit",
+      "name": "E Ride Pro – OEM Circuit Breaker Switch Kit with Screws (SS 3.0)",
+      "brand": "ERide Pro",
+      "category": "electrical",
+      "price_usd": 25.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-ss3-oem-breaker-switch-kit",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-ss3-oem-breaker-switch-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 25.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-ss3-oem-breaker-switch-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-ss3-oem-breaker-switch-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-taillight-kit",
+      "name": "E Ride Pro – OEM Taillight Kit (S/2.0/3.0)",
+      "brand": "ERide Pro",
+      "category": "electrical",
+      "price_usd": 33.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-taillight-kit",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-taillight-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 33.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-taillight-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-taillight-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-e7570-control-switch",
+      "name": "E Ride Pro – Pro S / SS 2.0 / SS 3.0 Control Switch | OEM",
+      "brand": "ERide Pro",
+      "category": "electrical",
+      "price_usd": 49.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-e7570-control-switch",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-e7570-control-switch"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-e7570-control-switch"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-e7570-control-switch.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-display-and-bar-clamps",
+      "name": "EBMX BC351 Display and Bar Clamps for X-9000",
+      "brand": "EBMX",
+      "category": "electrical",
+      "price_usd": 189.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-display-and-bar-clamps",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-display-and-bar-clamps"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 189.99,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-display-and-bar-clamps"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-display-and-bar-clamps.webp"
+    },
+    {
+      "id": "chargedcycleworks-project-9-surron-ultra-bee-brake-light",
+      "name": "Project 9 – Surron Ultra Bee Brake Light",
+      "brand": "Project9",
+      "category": "electrical",
+      "price_usd": 99.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/project-9-surron-ultra-bee-brake-light",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/project-9-surron-ultra-bee-brake-light"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.95,
+          "buy_url": "https://chargedcycleworks.com/products/project-9-surron-ultra-bee-brake-light"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-project-9-surron-ultra-bee-brake-light.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-left-hand-combination-switch-light-horn-asr",
+      "name": "Surron Ultra Bee - OEM  Left-Hand Combination Switch",
+      "brand": "Surron-WN",
+      "category": "electrical",
+      "price_usd": 75.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-left-hand-combination-switch-light-horn-asr",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-left-hand-combination-switch-light-horn-asr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 75.99,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-left-hand-combination-switch-light-horn-asr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-left-hand-combination-switch-light-horn-asr.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-converter",
+      "name": "Surron Ultra Bee - OEM 12v DC Converter",
+      "brand": "Surron-WN",
+      "category": "electrical",
+      "price_usd": 117.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-converter",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-converter"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 117.99,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-converter"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-converter.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ub-dashboard-bracket",
+      "name": "Surron Ultra Bee - OEM Dashboard Bracket",
+      "brand": "Surron",
+      "category": "electrical",
+      "price_usd": 15.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ub-dashboard-bracket",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-dashboard-bracket"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 15.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ub-dashboard-bracket"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ub-dashboard-bracket.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ub-oem-dashboard",
+      "name": "Surron Ultra Bee - OEM Dashboard Display",
+      "brand": "Surron",
+      "category": "electrical",
+      "price_usd": 190.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ub-oem-dashboard",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-dashboard"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 190.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ub-oem-dashboard"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ub-oem-dashboard.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-key-switch-set",
+      "name": "Surron Ultra Bee - OEM Key Switch Set",
+      "brand": "Surron-WN",
+      "category": "electrical",
+      "price_usd": 64.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-key-switch-set",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-key-switch-set"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 64.99,
+          "buy_url": "https://chargedcycleworks.com/products/ub-key-switch-set"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-key-switch-set.webp"
+    },
+    {
+      "id": "chargedcycleworks-oem-ultra-bee-kickstand-switch",
+      "name": "Surron Ultra Bee - OEM Kickstand Switch",
+      "brand": "Surron",
+      "category": "electrical",
+      "price_usd": 34.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/oem-ultra-bee-kickstand-switch",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/oem-ultra-bee-kickstand-switch"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 34.0,
+          "buy_url": "https://chargedcycleworks.com/products/oem-ultra-bee-kickstand-switch"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-oem-ultra-bee-kickstand-switch.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-right-hand-3-combination-switch-my25",
+      "name": "Surron Ultra Bee - OEM Right 3 function Control Assembly (2025)",
+      "brand": "Surron",
+      "category": "electrical",
+      "price_usd": 70.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-right-hand-3-combination-switch-my25",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-right-hand-3-combination-switch-my25"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 70.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-right-hand-3-combination-switch-my25"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-right-hand-3-combination-switch-my25.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-right-hand-3-combination-switch-s-d-e-control",
+      "name": "Surron Ultra Bee - OEM Right Hand 3 Combination Switch",
+      "brand": "Surron-WN",
+      "category": "electrical",
+      "price_usd": 70.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-right-hand-3-combination-switch-s-d-e-control",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-right-hand-3-combination-switch-s-d-e-control"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 70.99,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-right-hand-3-combination-switch-s-d-e-control"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-right-hand-3-combination-switch-s-d-e-control.webp"
+    },
+    {
+      "id": "chargedcycleworks-replacement-dc-converter-talaria-sting-mx3-mx4-x3",
+      "name": "Talaria - OEM Replacement DC Converter",
+      "brand": "eBikeZilla",
+      "category": "electrical",
+      "price_usd": 31.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 31.5,
+          "buy_url": "https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-replacement-dc-converter-talaria-sting-mx3-mx4-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-sting-mx5-2-in-1-combination-switch",
+      "name": "Talaria - Sting MX5 - 2 in 1 Combination Switch",
+      "brand": "Talaria",
+      "category": "electrical",
+      "price_usd": 23.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-sting-mx5-2-in-1-combination-switch",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-sting-mx5-2-in-1-combination-switch"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 23.99,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-sting-mx5-2-in-1-combination-switch"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-sting-mx5-2-in-1-combination-switch.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-mx5-x3pro-display-color-oem",
+      "name": "Talaria Sting MX5 / X3 Pro – Replacement Color Display | OEM",
+      "brand": "Talaria",
+      "category": "electrical",
+      "price_usd": 159.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-mx5-x3pro-display-color-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-mx5-x3pro-display-color-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 159.99,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-mx5-x3pro-display-color-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-mx5-x3pro-display-color-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem",
+      "name": "Talaria – Kickstand Power-Off Sensor (MX3 / MX4 / MX5 / X3) | OEM",
+      "brand": "eBikeZilla",
+      "category": "electrical",
+      "price_usd": 16.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.99,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "name": "Ventus VTB V9600 Gen.2 Wiring Harness 1.7",
+      "brand": "Pinned Electric",
+      "category": "electrical",
+      "price_usd": 60.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10); CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 60.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7.webp"
     }
   ],
   "compatibility": [
@@ -859,10 +2034,12 @@
     {
       "product_id": "electrical-surron-oem-dashboard",
       "bike_id": "lightbee",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/light-bee-replacement-dashboard"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "electrical-surron-oem-dashboard",
@@ -1041,7 +2218,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-lcd-display",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1061,18 +2238,20 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-headlight-bar",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "ss30",
       "fitment_source_urls": [
-        "https://voromotors.com/products/headlight-led-light-bar-for-e-ride-pro-ss"
+        "https://voromotors.com/products/headlight-led-light-bar-for-e-ride-pro-ss",
+        "https://chargedcycleworks.com/products/e-ride-oem-led-light-bar",
+        "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts"
       ],
-      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "notes": "CCW 'E Ride Pro - OEM Headlight Led Light Bar' lists PN E7045 (same as Voro), is in the SS 3.0 OEM Parts collection, and is tagged ERPSS3 (checked 2026-11-10)",
       "product_id": "voro-eride-ss-headlight-bar",
-      "required_adapters": null,
-      "status": "verify"
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "bonnell-805rx",
@@ -1081,7 +2260,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "electrical-bonnell-805-rx-large-display",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1091,7 +2270,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "electrical-bonnell-805-rx-killswitch-main-unit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1101,7 +2280,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "electrical-bonnell-805-rx-front-junction-box-and-harness",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1111,7 +2290,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "electrical-bonnell-805-rx-bluetooth-adapter",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1233,7 +2412,7 @@
       ],
       "notes": "TB Electric Moto: Ultra Bee version of the Gen.2 harness for Aetos Pro/Max/Ultra",
       "product_id": "vtb-aetos-gen2-harness-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1243,7 +2422,7 @@
       ],
       "notes": "TB Electric Moto: Light Bee version of the Gen.2 harness for Aetos Pro/Max/Ultra",
       "product_id": "vtb-aetos-gen2-harness-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1253,7 +2432,7 @@
       ],
       "notes": "TB Electric Moto: Talaria Sting MX3/4/5 version of the Gen.2 harness",
       "product_id": "vtb-aetos-gen2-harness-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1263,8 +2442,608 @@
       ],
       "notes": "TB Electric Moto: Talaria Sting MX3/4/5 version of the Gen.2 harness",
       "product_id": "vtb-aetos-gen2-harness-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-baja-designs-s2-pro-headlight",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-baja-designs-s2-sport-headlight-for-surron-talaria",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/baja-designs-s2-sport-headlight-for-surron-talaria"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/baja-designs-s2-sport-headlight-for-surron-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-baja-designs-squadron-headlight-kit-for-surron-talaria",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-gigigo-gi03-headlight",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-halo-headlight-kill-switch",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-headlight-bracket-for-talaria-sting-mx3-mx4-x3",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-replacement-dc-converter-talaria-sting-mx3-mx4-x3",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-mx5-x3pro-display-color-oem",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-mx5-x3pro-display-color-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-mx5-x3pro-display-color-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-sting-mx5-2-in-1-combination-switch",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-sting-mx5-2-in-1-combination-switch"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-sting-mx5-2-in-1-combination-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-x-9000-controller-talaria-harness",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/x-9000-controller-talaria-harness"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/x-9000-controller-talaria-harness"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-oem-converter",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-converter"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-converter"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-oem-display",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-display"
+      ],
+      "notes": "CCW variant 'SR' is PN E7582 (S/SS 2.0 is E7023; SS 3.0 is E7022). Checked 2026-11-10. https://chargedcycleworks.com/products/e-ride-oem-display"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-display-cable-she7045",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-display-cable-she7045"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-display-cable-she7045"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-rengen-brake",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-x-9000-e-ride-pro-sr-installation-kit-v3",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-e-ride-pro-sr-installation-kit-v3"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-e-ride-pro-sr-installation-kit-v3"
+    },
+    {
+      "product_id": "chargedcycleworks-eride-pro-horn-switch-mini-mini-r-sr-oem",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-horn-switch-mini-mini-r-sr-oem"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-horn-switch-mini-mini-r-sr-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-gigigo-gi03-headlight",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-halo-headlight-kill-switch",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-control-switch",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-control-switch"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-control-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-oem-converter",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-converter"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-converter"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-oem-display",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-display"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-display"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-e7570-control-switch",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-e7570-control-switch"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-e7570-control-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-main-wiring-harness-with-blue-booth",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-main-wiring-harness-with-blue-booth"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-main-wiring-harness-with-blue-booth"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-taillight-kit",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-taillight-kit"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-taillight-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-ss3-oem-breaker-switch-kit",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-ss3-oem-breaker-switch-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-ss3-oem-breaker-switch-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-gigigo-gi03-headlight",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-display-and-bar-clamps",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-display-and-bar-clamps"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-display-and-bar-clamps"
+    },
+    {
+      "product_id": "chargedcycleworks-gigigo-gi03-headlight",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-headlight-cover",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/headlight-cover"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/headlight-cover"
+    },
+    {
+      "product_id": "chargedcycleworks-oem-ultra-bee-kickstand-switch",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/oem-ultra-bee-kickstand-switch"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/oem-ultra-bee-kickstand-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-project-9-surron-ultra-bee-brake-light",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/project-9-surron-ultra-bee-brake-light"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/project-9-surron-ultra-bee-brake-light"
+    },
+    {
+      "product_id": "chargedcycleworks-rtech-front-headlight-mask-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rtech-front-headlight-mask-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rtech-front-headlight-mask-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-squadron-headlight-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/squadron-headlight-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/squadron-headlight-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ub-dashboard-bracket",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-dashboard-bracket"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ub-dashboard-bracket"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ub-oem-dashboard",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-dashboard"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ub-oem-dashboard"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ub-oem-headlight",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-headlight"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ub-oem-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ub-oem-headlight-shroud",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-headlight-shroud"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ub-oem-headlight-shroud"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-headlight-bracket-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-headlight-bracket-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-headlight-bracket-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-headlight-trim-block-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-headlight-trim-block-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-headlight-trim-block-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-right-hand-3-combination-switch-my25",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-right-hand-3-combination-switch-my25"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-right-hand-3-combination-switch-my25"
+    },
+    {
+      "product_id": "chargedcycleworks-torp-ultra-bee-replacement-wiring-loom",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-ultra-bee-replacement-wiring-loom"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/torp-ultra-bee-replacement-wiring-loom"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-communication-cable",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-communication-cable"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-communication-cable"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-key-switch-set",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-key-switch-set"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-key-switch-set"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-main-harness",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-main-harness"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-main-harness"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-converter",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-converter"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-converter"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-left-hand-combination-switch-light-horn-asr",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-left-hand-combination-switch-light-horn-asr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-left-hand-combination-switch-light-horn-asr"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-right-hand-3-combination-switch-s-d-e-control",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-right-hand-3-combination-switch-s-d-e-control"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-right-hand-3-combination-switch-s-d-e-control"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-stock-display-harness-compatible-with-x-9000",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-stock-display-harness-compatible-with-x-9000"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-stock-display-harness-compatible-with-x-9000"
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+    },
+    {
+      "product_id": "chargedcycleworks-x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets"
+    },
+    {
+      "product_id": "chargedcycleworks-baja-designs-s2-pro-headlight",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-baja-designs-s2-sport-headlight-for-surron-talaria",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/baja-designs-s2-sport-headlight-for-surron-talaria"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/baja-designs-s2-sport-headlight-for-surron-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-baja-designs-squadron-headlight-kit-for-surron-talaria",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-gigigo-gi03-headlight",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-halo-headlight-kill-switch",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-oem-display",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-oem-display"
+      ],
+      "notes": "CCW body: 'OEM Display for Ventus One / One +' with 1.8 (4-connector) and 1.9 (2-connector) versions. Checked 2026-11-10. https://chargedcycleworks.com/products/ventus-oem-display"
     }
   ]
 }

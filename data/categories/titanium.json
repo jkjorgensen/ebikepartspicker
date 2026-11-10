@@ -542,6 +542,81 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "chargedcycleworks-talaria-komodotitanium-body-bolt-kit",
+      "name": "Talaria Komodo Titanium Body Bolt Kit",
+      "brand": "Warp9Racing",
+      "category": "titanium",
+      "price_usd": 499.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-komodotitanium-body-bolt-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodotitanium-body-bolt-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 499.0,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-komodotitanium-body-bolt-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-komodotitanium-body-bolt-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee",
+      "name": "Warp9 Shorty Style Ultra Bee Lever Pivot Bolts – Titanium Upgrade",
+      "brand": "Warp9Racing",
+      "category": "titanium",
+      "price_usd": 29.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-titanium-chassis-kit",
+      "name": "Warp9 Surron Ultra Bee Titanium Body / Chassis Bolt Kit",
+      "brand": "Warp9Racing",
+      "category": "titanium",
+      "price_usd": 399.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-titanium-chassis-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-titanium-chassis-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 399.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-titanium-chassis-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-titanium-chassis-kit.webp"
     }
   ],
   "compatibility": [
@@ -549,7 +624,7 @@
       "product_id": "ti-full-kit-lightbee",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://titaniumsurron.com/collections/titanium-bolt-kits"
       ],
@@ -559,7 +634,7 @@
       "product_id": "ti-full-kit-ultrabee",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://titaniumsurron.com/collections/titanium-bolt-kits"
       ],
@@ -577,55 +652,67 @@
       "product_id": "ti-full-kit-erp",
       "bike_id": "ss30",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ti-full-kit-erp",
       "bike_id": "sr",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://titaniumsurron.com/products/titanium-full-body-kits-e-ride-pro-erp"
+      ],
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ti-full-kit-talaria-mx",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://titaniumsurron.com/collections/titanium-bolt-kits"
+      ],
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ti-full-kit-talaria-mx",
       "bike_id": "mx5",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://titaniumsurron.com/collections/titanium-bolt-kits"
+      ],
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ti-full-kit-altis-sigma",
       "bike_id": "altis-sigma",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://titaniumsurron.com/collections/titanium-bolt-kits"
+      ],
+      "notes": "Seller listing names the Altis Sigma (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ti-full-kit-komodo",
       "bike_id": "komodo",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://titaniumsurron.com/collections/titanium-bolt-kits"
+      ],
+      "notes": "Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "warp9-chassis-kit-ultrabee",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://faster-minis.com/products/warp9-titanium-chassis-kit-surron-ultra-bee"
       ],
@@ -635,7 +722,7 @@
       "product_id": "ti-wheel-kit-revrides",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro"
       ],
@@ -645,7 +732,7 @@
       "product_id": "ti-wheel-kit-revrides",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro"
       ],
@@ -655,9 +742,11 @@
       "product_id": "ti-wheel-kit-revrides",
       "bike_id": "altis-sigma",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/front-and-rear-wheel-titanium-bolt-kit-for-surron-talaria-segway-79-bike-e-ride-pro"
+      ],
+      "notes": "Seller listing names the Altis Sigma (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ti-wheel-kit-revrides",
@@ -681,17 +770,21 @@
       "product_id": "ti-sprocket-bolts-5pk",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/titanium-sprocket-bolts-5-pack-for-sur-ron-e-ride-pro-talaria"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ti-sprocket-bolts-5pk",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/titanium-sprocket-bolts-5-pack-for-sur-ron-e-ride-pro-talaria"
+      ],
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ti-sprocket-bolts-5pk",
@@ -753,17 +846,21 @@
       "product_id": "warp9-bar-mount-ti",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "warp9-bar-mount-ti",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit"
+      ],
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "warp9-rotor-bolts-boost",
@@ -785,17 +882,21 @@
       "product_id": "ti-motor-bolts-erp",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ti-motor-bolts-erp",
       "bike_id": "ss30",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ti-motor-bolts-erp",
@@ -817,9 +918,11 @@
       "product_id": "ti-linkage-kit-erp",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://titaniumsurron.com/products/rear-suspension-linkage-bolt-kit-for-e-ride-pro-erp"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "ti-linkage-kit-erp",
@@ -833,7 +936,7 @@
       "product_id": "mxbolts-talaria-kit",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://mxbolts.us/products/talaria-sting-mx-titanium-bolt-kit"
       ],
@@ -846,7 +949,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "titanium-bonnell-805-rx-titanium-bolt-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -856,8 +959,48 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-komodotitanium-body-bolt-kit",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodotitanium-body-bolt-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodotitanium-body-bolt-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-titanium-chassis-kit",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-titanium-chassis-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-titanium-chassis-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee"
+    },
+    {
+      "product_id": "warp9-rotor-bolts-boost",
+      "bike_id": "zero-xe",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://warp9racing.com/products/surron-talaria-boost-spacer-front-rotor-bolts"
+      ],
+      "notes": "Evidence page shows M5x16 spec and fits all front hubs; universal rotor bolt"
     }
   ]
 }

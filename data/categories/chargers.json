@@ -496,11 +496,11 @@
       "product_id": "surron-lightbee-oem-charger",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger"
       ],
-      "notes": "OEM 60V battery only; not for 2026 72V Light Bee"
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "surron-lightbee-oem-charger",
@@ -546,11 +546,12 @@
       "product_id": "eride-e7305-charger",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
-        "https://www.eridepro.com/products/e7305"
+        "https://www.eridepro.com/products/e7305",
+        "https://voromotors.com/products/84v-charger-for-e-ride-pro-ss"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "eride-e7305-charger",
@@ -626,9 +627,11 @@
       "product_id": "talaria-mx4-oem-charger",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Also fits Sting R Road Legal (TL50)"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
+      ],
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "talaria-mx4-oem-charger",
@@ -685,7 +688,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "charger-bonnell-805-rx-charger-2500w-100-8v-30a-us",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -695,7 +698,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "charger-bonnell-805-rx-charger-1500w-100-8v-20a-us",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -775,7 +778,7 @@
       ],
       "notes": "Only with a 72V eWatt/CCW battery: CCW says it will not work with OEM batteries",
       "product_id": "ccw-fast-charger-72v-15a",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     }
   ]

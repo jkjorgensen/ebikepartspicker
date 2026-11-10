@@ -280,12 +280,12 @@
     {
       "product_id": "cooling-ventus-handlebar-fan",
       "bike_id": "lightbee",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ventusbikes.us/products/ventus-handlebar-fan"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     }
   ]
 }

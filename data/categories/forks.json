@@ -7,11 +7,12 @@
     {
       "bike_id": "lightbee",
       "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria"
+        "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria",
+        "https://tbelectricmoto.com/products/ext-ferro"
       ],
-      "notes": "",
+      "notes": "TB Electric Moto: requires a front hub boost spacer for the brake rotor",
       "product_id": "ext-ferro",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -29,9 +30,9 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/ext-ferro"
       ],
-      "notes": "",
+      "notes": "TB Electric Moto: requires a front hub boost spacer for the brake rotor",
       "product_id": "ext-ferro",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -39,9 +40,9 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/ext-ferro"
       ],
-      "notes": "TB Electric lists MX5 tune; riot.racing E-MX listing excluded MX5 — confirm tune with vendor before ordering",
+      "notes": "TB Electric Moto: requires a front hub boost spacer for the brake rotor",
       "product_id": "ext-ferro",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -49,19 +50,20 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/ext-ferro"
       ],
-      "notes": "Talaria platform",
+      "notes": "TB Electric Moto: requires a front hub boost spacer for the brake rotor",
       "product_id": "ext-ferro",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "ss20",
       "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria"
+        "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria",
+        "https://tbelectricmoto.com/products/ext-ferro"
       ],
-      "notes": "E Ride Pro tune",
+      "notes": "TB Electric Moto: requires a front hub boost spacer for the brake rotor",
       "product_id": "ext-ferro",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -69,9 +71,9 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/ext-ferro"
       ],
-      "notes": "E Ride Pro tune",
+      "notes": "TB Electric Moto: requires a front hub boost spacer for the brake rotor",
       "product_id": "ext-ferro",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -79,9 +81,9 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/ext-ferro"
       ],
-      "notes": "E Ride Pro tune",
+      "notes": "TB Electric Moto: requires a front hub boost spacer for the brake rotor",
       "product_id": "ext-ferro",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -89,7 +91,7 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/ext-ferro"
       ],
-      "notes": "E Ride Pro tune; brake caliper adapter needed on SR",
+      "notes": "TB Electric Moto: requires a front hub boost spacer for the brake rotor",
       "product_id": "ext-ferro",
       "required_adapters": "Brake caliper adapter (SR)",
       "status": "confirmed_fit_with_adapter"
@@ -97,11 +99,12 @@
     {
       "bike_id": "ventus-plus",
       "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria"
+        "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria",
+        "https://tbelectricmoto.com/products/ext-ferro"
       ],
-      "notes": "Ventus One+ tune",
+      "notes": "TB Electric Moto: requires a front hub boost spacer for the brake rotor",
       "product_id": "ext-ferro",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -109,9 +112,9 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/ext-ferro"
       ],
-      "notes": "Ventus platform",
+      "notes": "TB Electric Moto: requires a front hub boost spacer for the brake rotor",
       "product_id": "ext-ferro",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -127,9 +130,9 @@
       "fitment_source_urls": [
         "https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/"
       ],
-      "notes": "",
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
       "product_id": "fastace-20",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -157,9 +160,9 @@
       "fitment_source_urls": [
         "https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/"
       ],
-      "notes": "",
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
       "product_id": "fastace-20",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -167,10 +170,10 @@
       "fitment_source_urls": [
         "https://lunacycle.com/fastace-fork-2-0-for-talaria-surron-with-custom-tuning/"
       ],
-      "notes": "",
+      "notes": "Seller listing says it does not fit the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026) (data.js seller listing says not compatible; JSON confirmed status corrected 2026-11-10)",
       "product_id": "fastace-20",
       "required_adapters": null,
-      "status": "confirmed_direct_fit"
+      "status": "not_compatible"
     },
     {
       "bike_id": "komodo",
@@ -221,7 +224,7 @@
       "fitment_source_urls": [
         "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-surron-light-bee-x"
       ],
-      "notes": "Needs direct-mount stem + 220mm rotor",
+      "notes": "Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)",
       "required_adapters": "Direct-mount stem; 220mm rotor"
     },
     {
@@ -231,8 +234,8 @@
       "fitment_source_urls": [
         "https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-surron-light-bee-x"
       ],
-      "notes": "Vendor lists Talaria MX3/MX4",
-      "required_adapters": null
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "kke-37mm-fork-kit",
@@ -241,8 +244,8 @@
       "fitment_source_urls": [
         "https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
       ],
-      "notes": "",
-      "required_adapters": null
+      "notes": "Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "kke-37mm-fork-kit",
@@ -251,8 +254,8 @@
       "fitment_source_urls": [
         "https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
       ],
-      "notes": "E-Ride Pro-SS 2024",
-      "required_adapters": null
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "kke-37mm-fork-kit",
@@ -261,38 +264,41 @@
       "fitment_source_urls": [
         "https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
       ],
-      "notes": "Talaria Sting MX3/MX4/R",
-      "required_adapters": null
+      "notes": "Seller listing names the Talaria Sting MX4 (checked Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "kke-35mm-55",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
       "fitment_source_urls": [
-        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective",
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r"
       ],
-      "notes": "",
-      "required_adapters": null
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "kke-35mm-55",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
       "fitment_source_urls": [
-        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective",
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r"
       ],
-      "notes": "E-Ride Pro SS (2024)",
-      "required_adapters": null
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "kke-35mm-55",
       "bike_id": "mx4",
       "status": "confirmed_fit_with_modifications",
       "fitment_source_urls": [
-        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective"
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective",
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r"
       ],
-      "notes": "May need minor outer-tube grinding for frame clearance",
-      "required_adapters": null
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "fastace-alx13rc-2",
@@ -301,8 +307,8 @@
       "fitment_source_urls": [
         "https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike"
       ],
-      "notes": "",
-      "required_adapters": null
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "fastace-alx13rc-2",
@@ -311,8 +317,8 @@
       "fitment_source_urls": [
         "https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike"
       ],
-      "notes": "Talaria MX3/MX4/XXX",
-      "required_adapters": null
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "fastace-alx13rc-2",
@@ -321,8 +327,8 @@
       "fitment_source_urls": [
         "https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike"
       ],
-      "notes": "E-Ride Pro S/SS 1.0/2.0",
-      "required_adapters": null
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "fastace-alx13rc-2",
@@ -331,8 +337,8 @@
       "fitment_source_urls": [
         "https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike"
       ],
-      "notes": "Ventus One/V1+ listed",
-      "required_adapters": null
+      "notes": "Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "fastace-alx13rc-2",
@@ -351,8 +357,8 @@
       "fitment_source_urls": [
         "https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross"
       ],
-      "notes": "",
-      "required_adapters": null
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "rfloxa-hawk32",
@@ -361,8 +367,8 @@
       "fitment_source_urls": [
         "https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross"
       ],
-      "notes": "",
-      "required_adapters": null
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "rfloxa-hawk32",
@@ -371,8 +377,8 @@
       "fitment_source_urls": [
         "https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross"
       ],
-      "notes": "Eride pro S/SS",
-      "required_adapters": null
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "rfloxa-hawk31-pro",
@@ -381,8 +387,8 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
       ],
-      "notes": "",
-      "required_adapters": null
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "rfloxa-hawk31-pro",
@@ -391,8 +397,8 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
       ],
-      "notes": "Talaria MX3/MX4/XXX",
-      "required_adapters": null
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "rfloxa-hawk31-pro",
@@ -401,18 +407,19 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
       ],
-      "notes": "E-Ride Pro S/SS 1.0/2.0",
-      "required_adapters": null
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "rfloxa-hawk31-pro",
       "bike_id": "ventus-plus",
       "status": "confirmed_direct_fit",
       "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-pro",
+        "https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload"
       ],
-      "notes": "Ventus One listed",
-      "required_adapters": null
+      "notes": "Seller listing: Ventus One Plus needs an 8mm spacer for install",
+      "required_adapters": []
     },
     {
       "product_id": "fastace-ahx12rv",
@@ -421,8 +428,8 @@
       "fitment_source_urls": [
         "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0"
       ],
-      "notes": "",
-      "required_adapters": null
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "fastace-ahx12rv",
@@ -431,8 +438,8 @@
       "fitment_source_urls": [
         "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0"
       ],
-      "notes": "Talaria MX3/MX4/XXX",
-      "required_adapters": null
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "fastace-ahx12rv",
@@ -441,8 +448,8 @@
       "fitment_source_urls": [
         "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0"
       ],
-      "notes": "E-Ride Pro S/SS 1.0/2.0",
-      "required_adapters": null
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "fastace-ahx12rv",
@@ -451,8 +458,8 @@
       "fitment_source_urls": [
         "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0"
       ],
-      "notes": "Ventus One/V1+ listed",
-      "required_adapters": null
+      "notes": "Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "fastace-ahx12rv",
@@ -471,8 +478,8 @@
       "fitment_source_urls": [
         "https://darwinev.com/products/sirris-f43-fork-suspension-upgrade-surron-ultra-bee"
       ],
-      "notes": "Plug-and-play, no mods",
-      "required_adapters": null
+      "notes": "Seller listing names the Sur-Ron Ultra Bee (checked Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "rfloxa-ultra43",
@@ -481,8 +488,8 @@
       "fitment_source_urls": [
         "https://alienrides.com/products/rfloxa-ultra43"
       ],
-      "notes": "",
-      "required_adapters": null
+      "notes": "Seller listing names the Sur-Ron Ultra Bee (checked Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "pure-traxion",
@@ -491,8 +498,8 @@
       "fitment_source_urls": [
         "https://moddedmotoco.com/products/untitled-nov4_12-25"
       ],
-      "notes": "",
-      "required_adapters": null
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "pure-traxion",
@@ -501,8 +508,8 @@
       "fitment_source_urls": [
         "https://moddedmotoco.com/products/untitled-nov4_12-25"
       ],
-      "notes": "Vendor lists Komodo fitment",
-      "required_adapters": null
+      "notes": "Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "oem-light-bee-kke",
@@ -511,8 +518,8 @@
       "fitment_source_urls": [
         "https://lithiumpowersports.com/products/surron-light-bee-x-oem-front-fork-assy-kke-25my-51000-y029a-0000"
       ],
-      "notes": "OEM replacement",
-      "required_adapters": null
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
+      "required_adapters": []
     },
     {
       "product_id": "stormbee-fork-right-kke",
@@ -526,11 +533,11 @@
       "product_id": "komodo-fork-left-oem",
       "bike_id": "komodo",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/parts/talaria/frkl186/"
       ],
-      "notes": "Single left leg."
+      "notes": "Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)"
     },
     {
       "bike_id": "ss20",
@@ -539,7 +546,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-rst-fork",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -559,7 +566,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "fork-sirris-f43-fork-spring-single",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -569,7 +576,7 @@
       ],
       "notes": "SIRRIS product page is a dedicated Zero XE SKU: \"F43 XE Trail Tune | LSC | 220 mm Travel | Zero XE\", described as a direct-fit upgrade for the XE platform (checked Oct 21, 2026)",
       "product_id": "sirris-f43-zero-xe",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -579,7 +586,7 @@
       ],
       "notes": "SIRRIS product page names Arctic Leopard XE Pro S; description: \"This fork fits both the XE Pro S and Enduro models\" (checked Oct 21, 2026)",
       "product_id": "sirris-f43-cmx-arctic-leopard-xe-pro-s",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -589,7 +596,7 @@
       ],
       "notes": "Same SIRRIS SKU; product tagged \"Arctic Leopard XE Pro S Enduro\" and description states it fits both the XE Pro S and Enduro models (checked Oct 21, 2026)",
       "product_id": "sirris-f43-cmx-arctic-leopard-xe-pro-s",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -599,7 +606,7 @@
       ],
       "notes": "SIRRIS product page is a dedicated SKU naming Arctic Leopard XE Pro R exactly, with XE Pro R wheel spacers and 240mm rotor bracket (checked Oct 21, 2026)",
       "product_id": "sirris-f43-cmx-arctic-leopard-xe-pro-r",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -609,6 +616,346 @@
       "product_id": "stormbee-fork-right-kke",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43"
+    },
+    {
+      "product_id": "chargedcycleworks-formula-tech-39mm-forks",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-tech-39mm-forks"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-tech-39mm-forks"
+    },
+    {
+      "product_id": "chargedcycleworks-fr-l-fork-protection-guard-talaria-sting-mx5",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/fr-l-fork-protection-guard-talaria-sting-mx5"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fr-l-fork-protection-guard-talaria-sting-mx5"
+    },
+    {
+      "product_id": "chargedcycleworks-fr-r-fork-protection-guard-talaria-sting-mx5-copy",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/fr-r-fork-protection-guard-talaria-sting-mx5-copy"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fr-r-fork-protection-guard-talaria-sting-mx5-copy"
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk33-max-plus-fork-1",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk33-max-plus-fork-1"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rfloxa-hawk33-max-plus-fork-1"
+    },
+    {
+      "product_id": "chargedcycleworks-staple-bolt-talaria-sting-mx5",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/staple-bolt-talaria-sting-mx5"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/staple-bolt-talaria-sting-mx5"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-fork-protector-l-r-ss3-0-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-fork-protector-l-r-ss3-0-sr"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-fork-protector-l-r-ss3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-sr-775-fork",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork"
+    },
+    {
+      "product_id": "chargedcycleworks-ext-ferro-fork-open-box",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ext-ferro-fork-open-box"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ext-ferro-fork-open-box"
+    },
+    {
+      "product_id": "chargedcycleworks-formula-tech-39mm-forks",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-tech-39mm-forks"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-tech-39mm-forks"
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk35-max-plus-fork-1",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk35-max-plus-fork-1"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rfloxa-hawk35-max-plus-fork-1"
+    },
+    {
+      "product_id": "chargedcycleworks-tech-suspension-e39-racing-kashima-fork",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-fork-protector-l-r-ss3-0-sr",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-fork-protector-l-r-ss3-0-sr"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-fork-protector-l-r-ss3-0-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-sr-775-fork",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork"
+    },
+    {
+      "product_id": "chargedcycleworks-ext-ferro-fork-open-box",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ext-ferro-fork-open-box"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ext-ferro-fork-open-box"
+    },
+    {
+      "product_id": "chargedcycleworks-bearing-for-fork-steering-headset-surron-talaria",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bearing-for-fork-steering-headset-surron-talaria"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bearing-for-fork-steering-headset-surron-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-37mm-v6-fork-surron-ultra-bee-open-box",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-37mm-v6-fork-surron-ultra-bee-open-box"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-37mm-v6-fork-surron-ultra-bee-open-box"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-fork-guard-bolts-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-fork-guard-bolts-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-fork-guard-bolts-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-rtech-fork-protectors-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rtech-fork-protectors-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rtech-fork-protectors-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-sirris-f43-fork-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-f43-fork-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-f43-fork-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-skf-fork-seal-kit-for-surron-talaria",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/skf-fork-seal-kit-for-surron-talaria"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/skf-fork-seal-kit-for-surron-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-rear-fork-collision-block-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-l-front-fork-protector-cpl",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-oem-seal-replacement-kit",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-suspension-tune-service-for-kke-oem-fork",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-suspension-tune-service-for-kke-oem-fork"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-suspension-tune-service-for-kke-oem-fork"
+    },
+    {
+      "product_id": "chargedcycleworks-tech-suspension-e39-racing-kashima-fork",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
+    },
+    {
+      "product_id": "kke-35mm-55",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r"
+      ],
+      "notes": "Seller listing names the Ventus One Plus (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "kke-35mm-55",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "kke-35mm-55",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r"
+      ],
+      "notes": "Seller listing names the E Ride Pro SR (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "rfloxa-hawk32",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_fit_with_adapter",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross"
+      ],
+      "notes": "Seller listing: Ventus One Plus needs an 8mm spacer for install"
     }
   ],
   "products": [
@@ -1410,6 +1757,631 @@
       "weight_delta_kg": null,
       "image": "img/parts/stormbee-fork-right-kke.webp",
       "hidden": true
+    },
+    {
+      "id": "chargedcycleworks-bearing-for-fork-steering-headset-surron-talaria",
+      "name": "Bearing for Fork Steering Headset",
+      "brand": "Charged Powersports",
+      "category": "fork",
+      "price_usd": 17.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bearing-for-fork-steering-headset-surron-talaria",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bearing-for-fork-steering-headset-surron-talaria"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 17.99,
+          "buy_url": "https://chargedcycleworks.com/products/bearing-for-fork-steering-headset-surron-talaria"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-bearing-for-fork-steering-headset-surron-talaria.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-suspension-tune-service-for-kke-oem-fork",
+      "name": "Charged Custom Tune Service for Surron Ultra Bee KKE Fork",
+      "brand": "Charged Cycle Works",
+      "category": "fork",
+      "price_usd": 580.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-suspension-tune-service-for-kke-oem-fork",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-suspension-tune-service-for-kke-oem-fork"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 580.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-suspension-tune-service-for-kke-oem-fork"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-suspension-tune-service-for-kke-oem-fork.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-fork-protector-l-r-ss3-0-sr",
+      "name": "E Ride Pro - OEM Fork Guards",
+      "brand": "ERide Pro",
+      "category": "fork",
+      "price_usd": 29.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-fork-protector-l-r-ss3-0-sr",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-fork-protector-l-r-ss3-0-sr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-fork-protector-l-r-ss3-0-sr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-fork-protector-l-r-ss3-0-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-sr-775-fork",
+      "name": "E Ride Pro 3.0/SR - 775mm FastAce ALX32RC Front Fork",
+      "brand": "ERide Pro",
+      "category": "fork",
+      "price_usd": 689.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 689.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-sr-775-fork.webp"
+    },
+    {
+      "id": "chargedcycleworks-ext-ferro-fork-open-box",
+      "name": "EXT Ferro Fork - Open Box",
+      "brand": "EXT",
+      "category": "fork",
+      "price_usd": 1359.15,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ext-ferro-fork-open-box",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ext-ferro-fork-open-box"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1359.15,
+          "buy_url": "https://chargedcycleworks.com/products/ext-ferro-fork-open-box"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ext-ferro-fork-open-box.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024",
+      "name": "KKE 26LBS Replacement Spring Kit Fit for Surron Ultra Bee Front Suspension Fork 2023-2024",
+      "brand": "KKE Racing",
+      "category": "fork",
+      "price_usd": 99.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective",
+      "name": "KKE 26LBS Springs for Surron Ultra Bee OEM Fork",
+      "brand": "KKE Racing",
+      "category": "fork",
+      "price_usd": 99.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-37mm-v6-fork-surron-ultra-bee-open-box",
+      "name": "KKE 37mm Closed Cartridge Fork V6 – Surron Ultra Bee - Open Box",
+      "brand": "KKE",
+      "category": "fork",
+      "price_usd": 750.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-37mm-v6-fork-surron-ultra-bee-open-box",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-37mm-v6-fork-surron-ultra-bee-open-box"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 750.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-37mm-v6-fork-surron-ultra-bee-open-box"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-37mm-v6-fork-surron-ultra-bee-open-box.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-fork-guard-bolts-ultra-bee",
+      "name": "KKE Fork Guard Bolts – Surron Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "fork",
+      "price_usd": 4.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-fork-guard-bolts-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-fork-guard-bolts-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 4.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-fork-guard-bolts-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-fork-guard-bolts-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective",
+      "name": "KKE Upgraded Front Fork Suspension for Surron Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "fork",
+      "price_usd": 649.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 649.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-rfloxa-hawk33-max-plus-fork-1",
+      "name": "RFloXa Hawk33 Max Plus Fork for Talaria MX5",
+      "brand": "Pinned Electric",
+      "category": "fork",
+      "price_usd": 1099.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk33-max-plus-fork-1",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk33-max-plus-fork-1"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1099.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk33-max-plus-fork-1"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rfloxa-hawk33-max-plus-fork-1.webp"
+    },
+    {
+      "id": "chargedcycleworks-rfloxa-hawk35-max-plus-fork-1",
+      "name": "RFloXa Hawk35 Max Plus Fork for E Ride Pro 3.0 / SR",
+      "brand": "Pinned Electric",
+      "category": "fork",
+      "price_usd": 1099.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk35-max-plus-fork-1",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk35-max-plus-fork-1"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1099.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk35-max-plus-fork-1"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rfloxa-hawk35-max-plus-fork-1.webp"
+    },
+    {
+      "id": "chargedcycleworks-rtech-fork-protectors-surron-ultra-bee",
+      "name": "RTech Fork Protectors for Surron Ultra Bee Models (2023 to 2025)",
+      "brand": "Rtech",
+      "category": "fork",
+      "price_usd": 34.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rtech-fork-protectors-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rtech-fork-protectors-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 34.99,
+          "buy_url": "https://chargedcycleworks.com/products/rtech-fork-protectors-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rtech-fork-protectors-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43",
+      "name": "Rfloxa Front Fork Suspension Kit for Talaria Komodo TK43",
+      "brand": "Pinned Electric",
+      "category": "fork",
+      "price_usd": 1590.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1590.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43.webp"
+    },
+    {
+      "id": "chargedcycleworks-skf-fork-seal-kit-for-surron-talaria",
+      "name": "SKF Fork Seal kit for Surron, Talaria, E Ride Pro",
+      "brand": "WPS",
+      "category": "fork",
+      "price_usd": 39.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/skf-fork-seal-kit-for-surron-talaria",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/skf-fork-seal-kit-for-surron-talaria"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/skf-fork-seal-kit-for-surron-talaria"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-skf-fork-seal-kit-for-surron-talaria.webp"
+    },
+    {
+      "id": "chargedcycleworks-sirris-f43-fork-for-surron-ultra-bee",
+      "name": "Sirris F43 Fork for Surron Ultra Bee (Version 1.0)",
+      "brand": "Sirris",
+      "category": "fork",
+      "price_usd": 2250.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sirris-f43-fork-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sirris-f43-fork-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2250.0,
+          "buy_url": "https://chargedcycleworks.com/products/sirris-f43-fork-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-sirris-f43-fork-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0",
+      "name": "Surron Ultra Bee - KKE 37mm Closed Cartridge Front Fork (Version 6.0)",
+      "brand": "KKE Racing",
+      "category": "fork",
+      "price_usd": 949.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 949.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-l-front-fork-protector-cpl",
+      "name": "Surron Ultra Bee - OEM Fork Mud Guard Protector Set",
+      "brand": "Surron-WN",
+      "category": "fork",
+      "price_usd": 54.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 54.99,
+          "buy_url": "https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-l-front-fork-protector-cpl.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-oem-seal-replacement-kit",
+      "name": "Surron Ultra Bee - OEM Fork Seal Replacement Kit",
+      "brand": "KKE Racing",
+      "category": "fork",
+      "price_usd": 49.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-oem-seal-replacement-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-rear-fork-collision-block-oem",
+      "name": "Surron Ultra Bee – Rear Fork Collision Block | OEM",
+      "brand": "Surron-WN",
+      "category": "fork",
+      "price_usd": 20.9,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 20.9,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-rear-fork-collision-block-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-staple-bolt-talaria-sting-mx5",
+      "name": "Talaria - OEM Fork Guard Cable Guide for MX5",
+      "brand": "eBikeZilla",
+      "category": "fork",
+      "price_usd": 1.35,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/staple-bolt-talaria-sting-mx5",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/staple-bolt-talaria-sting-mx5"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1.35,
+          "buy_url": "https://chargedcycleworks.com/products/staple-bolt-talaria-sting-mx5"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-staple-bolt-talaria-sting-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-fr-l-fork-protection-guard-talaria-sting-mx5",
+      "name": "Talaria - OEM Left Fork Protection Guard for MX5",
+      "brand": "eBikeZilla",
+      "category": "fork",
+      "price_usd": 26.01,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/fr-l-fork-protection-guard-talaria-sting-mx5",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/fr-l-fork-protection-guard-talaria-sting-mx5"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 26.01,
+          "buy_url": "https://chargedcycleworks.com/products/fr-l-fork-protection-guard-talaria-sting-mx5"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-fr-l-fork-protection-guard-talaria-sting-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-fr-r-fork-protection-guard-talaria-sting-mx5-copy",
+      "name": "Talaria - OEM Right Fork Protection Guard for MX5",
+      "brand": "eBikeZilla",
+      "category": "fork",
+      "price_usd": 26.01,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/fr-r-fork-protection-guard-talaria-sting-mx5-copy",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/fr-r-fork-protection-guard-talaria-sting-mx5-copy"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 26.01,
+          "buy_url": "https://chargedcycleworks.com/products/fr-r-fork-protection-guard-talaria-sting-mx5-copy"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-fr-r-fork-protection-guard-talaria-sting-mx5-copy.webp"
+    },
+    {
+      "id": "chargedcycleworks-formula-tech-39mm-forks",
+      "name": "Tech Suspension E39 Fork by Formula",
+      "brand": "Pinned Electric",
+      "category": "fork",
+      "price_usd": 1300.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/formula-tech-39mm-forks",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10); CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/formula-tech-39mm-forks"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1300.0,
+          "buy_url": "https://chargedcycleworks.com/products/formula-tech-39mm-forks"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-formula-tech-39mm-forks.webp"
+    },
+    {
+      "id": "chargedcycleworks-tech-suspension-e39-racing-kashima-fork",
+      "name": "Tech Suspension E39 Racing Kashima E-Moto Fork",
+      "brand": "Pinned Electric",
+      "category": "fork",
+      "price_usd": 1699.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-evo exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1699.0,
+          "buy_url": "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-tech-suspension-e39-racing-kashima-fork.webp"
     }
   ]
 }

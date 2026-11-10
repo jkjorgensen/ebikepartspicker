@@ -116,6 +116,11 @@
           "price_usd": 69.0,
           "buy_url": "https://voromotors.com/products/twist-throttle-for-e-ride-pro-ss",
           "affiliate": false
+        },
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 69.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-dual-hall-throttle"
         }
       ],
       "image": "img/parts/voro-eride-ss-twist-throttle.webp"
@@ -1061,6 +1066,131 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "chargedcycleworks-left-hand-control-ventus-oem-1-6",
+      "name": "Ventus One - OEM Left Hand Control",
+      "brand": "Pinned Electric",
+      "category": "cockpit",
+      "price_usd": 55.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/left-hand-control-ventus-oem-1-6",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW body: 'OEM Handle Bar controls for Ventus One and Ventus One +'. Checked 2026-11-10.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/left-hand-control-ventus-oem-1-6"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 55.0,
+          "buy_url": "https://chargedcycleworks.com/products/left-hand-control-ventus-oem-1-6"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-left-hand-control-ventus-oem-1-6.webp"
+    },
+    {
+      "id": "chargedcycleworks-gates-gt4-power-grip-belt",
+      "name": "Gates GT4 Power Grip Belt - Surron Light Bee",
+      "brand": "Surron-WN",
+      "category": "cockpit",
+      "price_usd": 29.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gates-gt4-power-grip-belt",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gates-gt4-power-grip-belt"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.99,
+          "buy_url": "https://chargedcycleworks.com/products/gates-gt4-power-grip-belt"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-gates-gt4-power-grip-belt.webp"
+    },
+    {
+      "id": "chargedcycleworks-gates-gt4-power-grip-belt-surron-ultra-bee",
+      "name": "Gates GT4 Power Grip Belt - Surron Ultra Bee",
+      "brand": "Surron-WN",
+      "category": "cockpit",
+      "price_usd": 39.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gates-gt4-power-grip-belt-surron-ultra-bee",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gates-gt4-power-grip-belt-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.89,
+          "buy_url": "https://chargedcycleworks.com/products/gates-gt4-power-grip-belt-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-gates-gt4-power-grip-belt-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-throttle-grips",
+      "name": "Surron Ultra Bee - OEM Grips",
+      "brand": "Surron-WN",
+      "category": "cockpit",
+      "price_usd": 22.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-throttle-grips",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-throttle-grips"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 22.95,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-throttle-grips"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-throttle-grips.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-oem-throttle",
+      "name": "Surron Ultra Bee - OEM Throttle",
+      "brand": "Surron-WN",
+      "category": "cockpit",
+      "price_usd": 95.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-oem-throttle",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-oem-throttle"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 95.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-oem-throttle"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-oem-throttle.webp"
     }
   ],
   "compatibility": [
@@ -1116,9 +1246,11 @@
       "product_id": "cockpit-surron-oem-throttle",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/oem-replacement-throttle-for-surron-light-bee"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "cockpit-surron-oem-throttle",
@@ -1228,9 +1360,11 @@
       "product_id": "cockpit-surron-oem-grips",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/handle-gripleft-or-right-use"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "cockpit-surron-oem-grips",
@@ -1340,9 +1474,11 @@
       "product_id": "cockpit-surron-stem",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/%E8%BD%BB%E8%9C%82%E9%85%8D%E4%BB%B6-%E6%8A%8A%E7%AB%8B"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "cockpit-surron-stem",
@@ -1399,18 +1535,20 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-twist-throttle",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "ss30",
       "fitment_source_urls": [
-        "https://voromotors.com/products/twist-throttle-for-e-ride-pro-ss"
+        "https://voromotors.com/products/twist-throttle-for-e-ride-pro-ss",
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-dual-hall-throttle",
+        "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts"
       ],
-      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-dual-hall-throttle",
       "product_id": "voro-eride-ss-twist-throttle",
-      "required_adapters": null,
-      "status": "verify"
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "bonnell-805rx",
@@ -1419,7 +1557,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-bonnell-805-rx-joycon",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1429,7 +1567,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-bonnell-805-rx-grip-set",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1439,7 +1577,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-bonnell-805-rx-large-handlebar-pad",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1449,7 +1587,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-protaper-pillow-top-lite-grips",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1459,7 +1597,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-protaper-pillow-top-grips",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1469,7 +1607,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1479,7 +1617,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-odi-ruffian-full-waffle-grips",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1489,7 +1627,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-sxs-burly-shields-hand-guards",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1499,7 +1637,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-renthal-50-50-mx-grips",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1509,7 +1647,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-acerbis-x-ultimate-handguards",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1519,7 +1657,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1529,7 +1667,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-acerbis-x-factory-handguards",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1539,7 +1677,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1549,7 +1687,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1559,7 +1697,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-warp9-e-moto-handguards",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1569,8 +1707,78 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "cockpit-bonnell-805-throttle-assembly",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "voro-eride-ss-twist-throttle",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-dual-hall-throttle"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-dual-hall-throttle"
+    },
+    {
+      "product_id": "chargedcycleworks-gates-gt4-power-grip-belt-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gates-gt4-power-grip-belt-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gates-gt4-power-grip-belt-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-throttle-grips",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-throttle-grips"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-throttle-grips"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-oem-throttle",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-oem-throttle"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-oem-throttle"
+    },
+    {
+      "product_id": "chargedcycleworks-gates-gt4-power-grip-belt",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gates-gt4-power-grip-belt"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gates-gt4-power-grip-belt"
+    },
+    {
+      "product_id": "chargedcycleworks-left-hand-control-ventus-oem-1-6",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/left-hand-control-ventus-oem-1-6"
+      ],
+      "notes": "CCW body: 'OEM Handle Bar controls for Ventus One and Ventus One +'. Checked 2026-11-10."
+    },
+    {
+      "product_id": "cockpit-surron-oem-grips",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://shop.sur-ron.com/products/handle-gripleft-or-right-use"
+      ],
+      "notes": "Genuinely universal: standard 22.2mm grips for RFN 22mm bar ends per manual spec; evidence page shows a plain grip pair"
     }
   ]
 }

@@ -9,9 +9,9 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
       ],
-      "notes": "OEM fit for Surron LBX per Charged",
+      "notes": "Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)",
       "product_id": "warp9-3in-rise",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -59,9 +59,9 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
       ],
-      "notes": "Talaria Sting all models per Charged",
+      "notes": "Seller listing names the Talaria Sting MX4 (checked Oct 18, 2026)",
       "product_id": "warp9-3in-rise",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -135,9 +135,9 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
       ],
-      "notes": "Light Bee X listed on TB Electric fitment",
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
       "product_id": "prickly-50mm-318",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -145,9 +145,9 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
       ],
-      "notes": "E-Ride Pro SS 2.0 listed",
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)",
       "product_id": "prickly-50mm-318",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -157,7 +157,7 @@
       ],
       "notes": "E-Ride Pro SS 3.0 listed",
       "product_id": "prickly-50mm-318",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -175,9 +175,9 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
       ],
-      "notes": "E-Ride Pro SR listed",
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)",
       "product_id": "prickly-50mm-318",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -185,9 +185,9 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
       ],
-      "notes": "Talaria Sting R MX4 listed",
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
       "product_id": "prickly-50mm-318",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -195,9 +195,9 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
       ],
-      "notes": "Talaria MX5 listed",
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)",
       "product_id": "prickly-50mm-318",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -205,9 +205,9 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars"
       ],
-      "notes": "Ventus One / One Plus listed",
+      "notes": "Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)",
       "product_id": "prickly-50mm-318",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -263,7 +263,7 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
       ],
-      "notes": "Light Bee X listed; 35mm stem required",
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
       "product_id": "prickly-50mm-35",
       "required_adapters": [
         "35mm stem or bar mount required"
@@ -275,7 +275,7 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
       ],
-      "notes": "E-Ride Pro SS 2.0 listed; 35mm stem required",
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)",
       "product_id": "prickly-50mm-35",
       "required_adapters": [
         "35mm stem or bar mount required"
@@ -311,7 +311,7 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
       ],
-      "notes": "E-Ride Pro SR listed; 35mm stem required",
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)",
       "product_id": "prickly-50mm-35",
       "required_adapters": [
         "35mm stem or bar mount required"
@@ -323,7 +323,7 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
       ],
-      "notes": "Talaria Sting R MX4 listed; 35mm stem required",
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
       "product_id": "prickly-50mm-35",
       "required_adapters": [
         "35mm stem or bar mount required"
@@ -335,7 +335,7 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars"
       ],
-      "notes": "Talaria MX5 listed; 35mm stem required",
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)",
       "product_id": "prickly-50mm-35",
       "required_adapters": [
         "35mm stem or bar mount required"
@@ -347,9 +347,9 @@
       "fitment_source_urls": [
         "https://factoryz.co/products/surron-handlebar-3-inch-rise"
       ],
-      "notes": "Surron Light Bee all years per FactoryZ",
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
       "product_id": "factoryz-3in-rise",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -357,9 +357,9 @@
       "fitment_source_urls": [
         "https://factoryz.co/products/surron-handlebar-3-inch-rise"
       ],
-      "notes": "Eride Pro SS 2.0 per FactoryZ",
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)",
       "product_id": "factoryz-3in-rise",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -387,9 +387,9 @@
       "fitment_source_urls": [
         "https://factoryz.co/products/surron-handlebar-3-inch-rise"
       ],
-      "notes": "Talaria MX4 per FactoryZ",
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
       "product_id": "factoryz-3in-rise",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -397,9 +397,9 @@
       "fitment_source_urls": [
         "https://factoryz.co/products/surron-handlebar-3-inch-rise"
       ],
-      "notes": "Talaria MX5 per FactoryZ",
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)",
       "product_id": "factoryz-3in-rise",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -470,49 +470,61 @@
       "product_id": "rippin-moto-rise3",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page lists Surron LBX (31.8mm clamp)"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/rise3-e-moto-handlebars"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "rippin-moto-rise3",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page lists Talaria Sting MX3/MX4"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/rise3-e-moto-handlebars"
+      ],
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "rippin-moto-rise3",
       "bike_id": "mx5",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page lists Talaria Sting MX5"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/rise3-e-moto-handlebars"
+      ],
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "rippin-moto-rise3",
       "bike_id": "ss30",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page lists E-Ride Pro SS 3.0"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/rise3-e-moto-handlebars"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "rippin-moto-rise3",
       "bike_id": "sr",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page lists E-Ride Pro SR"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/rise3-e-moto-handlebars"
+      ],
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "rippin-moto-rise3",
       "bike_id": "ventus-plus",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page lists Ventus One Plus"
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/rise3-e-moto-handlebars"
+      ],
+      "notes": "Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "renthal-fatbar-lite-35",
@@ -577,18 +589,20 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-handlebar",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "ss30",
       "fitment_source_urls": [
-        "https://voromotors.com/products/handlebar-for-e-ride-pro-ss"
+        "https://voromotors.com/products/handlebar-for-e-ride-pro-ss",
+        "https://chargedcycleworks.com/products/e-ride-pro-ss-2-rise-handlebar",
+        "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts"
       ],
-      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "notes": "CCW 'E Ride Pro - OEM 2\\\" Rise Handlebars' is in the SS 3.0 OEM Parts collection, tagged ERPSS3, and described as from E-Ride Pro SS bikes (31.8 mm) (checked 2026-11-10)",
       "product_id": "voro-eride-ss-handlebar",
-      "required_adapters": null,
-      "status": "verify"
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "bonnell-805rx",
@@ -597,7 +611,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "handlebar-bonnell-805-rx-high-bend-handlebar",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -608,7 +622,7 @@
       ],
       "notes": "Warp 9 lists this bar in its Surron Light Bee 2 collection; LB2 uses a 31.8mm clamp (checked Nov 4, 2026)",
       "product_id": "warp9-emoto-318-handlebar",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -618,7 +632,7 @@
       ],
       "notes": "Seller listing names the Sur-Ron Storm Bee 2023–2025 (checked Nov 4, 2026)",
       "product_id": "mika-pro-118-stormbee",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -628,8 +642,118 @@
       ],
       "notes": "Seller listing names the Sur-Ron Storm Bee 2023–2025 (checked Nov 4, 2026)",
       "product_id": "tusk-chub-118-stormbee",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "tbelectricmoto-talaria-komodo-1-bar-risers",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-1-bar-risers"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-1-bar-risers"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-ultra-bee-steering-stabilizer",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-ultra-bee-steering-stabilizer"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-ultra-bee-steering-stabilizer"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-handlebar-lower-mount",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-bar-mounts",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-bar-mounts"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-bar-mounts"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-surron-ultra-bee-flex-bar-mounts",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-flex-bar-mounts"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-surron-ultra-bee-flex-bar-mounts"
+    },
+    {
+      "product_id": "rippin-moto-rise3",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/rise3-e-moto-handlebars"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "warp9-3in-rise",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/collections/arctic-leopard-xe-pro-xe-pro-s"
+      ],
+      "notes": "CCW Arctic Leopard XE Pro / XE Pro S collection lists this handlebar"
+    },
+    {
+      "product_id": "warp9-3in-rise",
+      "bike_id": "arctic-leopard-xe-pro-s-enduro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+      ],
+      "notes": "Evidence page shows universal 31.8mm center clamp spec; standard bar fits Enduro 31.8mm clamp"
+    },
+    {
+      "product_id": "factoryz-3in-rise",
+      "bike_id": "arctic-leopard-xe-pro-s-enduro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://factoryz.co/products/surron-handlebar-3-inch-rise"
+      ],
+      "notes": "Evidence page shows universal 31.8mm clamp diameter spec; standard bar fits Enduro 31.8mm clamp"
+    },
+    {
+      "product_id": "rippin-moto-rise3",
+      "bike_id": "arctic-leopard-xe-pro-s-enduro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/rise3-e-moto-handlebars"
+      ],
+      "notes": "Evidence page shows 31.8mm clamp and 22.2mm control ends and lists Arctic Leopard XE family; universal standard bar fit"
+    },
+    {
+      "product_id": "rippin-moto-rise3",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/arctic-leopard-xf-mini-electric-dirt-bike"
+      ],
+      "notes": "REV Rides Arctic Leopard XF bike page offers RISE3 as a bundle option for that bike"
     }
   ],
   "products": [
@@ -1349,6 +1473,106 @@
       "power_change_kw": null,
       "weight_delta_kg": null,
       "image": "img/parts/tusk-chub-118-stormbee.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-handlebar-lower-mount",
+      "name": "Surron Ultra Bee - Handlebar Lower Mount",
+      "brand": "Surron-WN",
+      "category": "handlebar",
+      "price_usd": 34.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 34.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-handlebar-lower-mount.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-bar-mounts",
+      "name": "Surron Ultra Bee - OEM Bar Mount Assembly",
+      "brand": "Surron-WN",
+      "category": "handlebar",
+      "price_usd": 99.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-bar-mounts",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-bar-mounts"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-bar-mounts"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-bar-mounts.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-ultra-bee-steering-stabilizer",
+      "name": "Surron Ultra Bee Steering Stabilizer",
+      "brand": "Surron-WN",
+      "category": "handlebar",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-ultra-bee-steering-stabilizer",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-ultra-bee-steering-stabilizer"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-ultra-bee-steering-stabilizer"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-ultra-bee-steering-stabilizer.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-surron-ultra-bee-flex-bar-mounts",
+      "name": "Warp9 Surron Ultra Bee Flex Bar mounts",
+      "brand": "Warp9",
+      "category": "handlebar",
+      "price_usd": 131.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-flex-bar-mounts",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-flex-bar-mounts"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 131.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-flex-bar-mounts"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-surron-ultra-bee-flex-bar-mounts.webp"
     }
   ]
 }
