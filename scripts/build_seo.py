@@ -20,7 +20,7 @@ def host(u):
   except Exception: return 'retailer'
 def buy(pr,label=None):
   if not pr or not pr.get('url'): return ''
-  if pr.get('aff'): return f'<a class="sbuy sbuy-voro" href="{e(pr["url"])}" rel="sponsored noopener" target="_blank">Buy at Voro Motors</a>'
+  if pr.get('aff'): return f'<a class="sbuy sbuy-voro" href="{e(pr["url"])}" rel="sponsored noopener" target="_blank">Buy at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure.html">(affiliate link)</a>'
   return f'<a class="sbuy" href="{e(pr["url"])}" rel="noopener" target="_blank">View at {e(pr.get("v") or host(pr["url"]))}</a>'
 def builder(bid,sel=None):
   h={'b':bid}; 
@@ -77,7 +77,7 @@ for b in seo_bikes:
   FM='<a href="/fitment-methodology.html">How we confirm fitment</a> \u00b7 ' if os.path.exists(os.path.join(ROOT,'fitment-methodology.html')) else ''
   spec=[('Price',bike_price(b))]+([('Peak power',f'{b["kw"]} kW')] if b.get('kw') else [])+([('Weight',f'{b["weight"]} lb')] if b.get('weight') else [])
   specs=''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k,v in spec)
-  bikebuy=f'<a class="sbuy sbuy-voro" href="{e(b["srcUrl"])}" rel="sponsored noopener" target="_blank">Buy the {e(b["name"])} at Voro Motors</a>' if b['src']=='voro' and b['srcUrl'] else ''
+  bikebuy=f'<a class="sbuy sbuy-voro" href="{e(b["srcUrl"])}" rel="sponsored noopener" target="_blank">Buy the {e(b["name"])} at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure.html">(affiliate link)</a>' if b['src']=='voro' and b['srcUrl'] else ''
   gl=''.join(f'<li><a href="/guides/{bid}-{g["tier"]}/">{e(b["name"])} {e(TIER.get(g["tier"],g["tier"]))} build</a></li>' for g in guides_by_bike.get(bid,[]))
   extra=(f'<h2>Build guides</h2><ul class="seo-links">{gl}</ul>' if gl else '')+(f'<p><a href="/power/#{bid}">Power upgrades for the {e(b["name"])}</a></p>' if bid in power_bikes else '')
   toc=' '.join(f'<a href="#{c["id"]}">{e(c["name"])}</a>' for c,_ in cats)
@@ -112,7 +112,7 @@ for g in D['guides']:
   body=f"""<h1>{e(b['name'])} {e(tn)} build</h1><p class="seo-lede">{e(g['blurb'])} Every part is a confirmed fit for the {e(b['name'])} (the seller listing names it) and every price was checked on the retailer\u2019s page.</p>
 <ul class="sp-list">{rows}</ul>
 <p class="seo-total">Parts total: <strong>{money(tot)}</strong>{(' \u00b7 With the bike ('+e(bike_price(b))+'): <strong>'+money(tot+b['price'])+'</strong>') if b['price'] else ''}</p>
-<p class="seo-cta"><a class="cta" href="{e(builder(b['id'],sel))}">Customize this build</a>{(' <a class="sbuy sbuy-voro" href="'+e(b['srcUrl'])+'" rel="sponsored noopener" target="_blank">Buy the '+e(b['name'])+' at Voro Motors</a>') if b['src']=='voro' and b['srcUrl'] else ''}</p>{pw}
+<p class="seo-cta"><a class="cta" href="{e(builder(b['id'],sel))}">Customize this build</a>{(' <a class="sbuy sbuy-voro" href="'+e(b['srcUrl'])+'" rel="sponsored noopener" target="_blank">Buy the '+e(b['name'])+' at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure.html">(affiliate link)</a>') if b['src']=='voro' and b['srcUrl'] else ''}</p>{pw}
 <div class="seo-pc"><div><h2>Pros</h2><ul>{pc}</ul></div><div><h2>Cons</h2><ul>{cc}</ul></div></div>
 <p>More: <a href="/bikes/{b['id']}/">all {e(b['name'])} parts</a>{''.join(f' \u00b7 <a href="/guides/{b["id"]}-{o["tier"]}/">{e(TIER.get(o["tier"]))} build</a>' for o in guides_by_bike[b['id']] if o['tier']!=g['tier'])}</p>"""
   urls.append(page(f'/guides/{b["id"]}-{g["tier"]}/',f"{b['name']} {tn} Build: Parts List & Total ({money(tot)}) | eBikePartsPicker",

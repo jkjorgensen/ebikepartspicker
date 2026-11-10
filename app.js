@@ -18,7 +18,7 @@ var GROUPS = [
 function catById(id){ return CATEGORIES.find(function(c){return c.id===id;}) || null; }
 
 function $(id){ return document.getElementById(id); }
-function money(n){ if(n==null) return 'TBD'; var c=(n%1)?2:0;
+function money(n){ if(n==null) return 'Not verified'; var c=(n%1)?2:0;
   return n.toLocaleString('en-US',{style:'currency',currency:'USD',minimumFractionDigits:c,maximumFractionDigits:c}); }
 function bike(){ return BIKES.find(function(b){return b.id===state.bike;}) || BIKES[0]; }
 function bikeById(id){ return BIKES.find(function(b){return b.id===id;}); }
@@ -128,7 +128,7 @@ function renderBuildSum(){
     var chip = document.createElement('span'); chip.className='bsum-fit fit-'+fr.status;
     chip.textContent = FIT_ICON[fr.status]+' '+FIT_LABEL[fr.status]; chip.title = fr.reasons[0];
     t.appendChild(chip);
-    var pr = document.createElement('span'); pr.className='bsum-price'; pr.textContent = (bp && bp.p!=null) ? money(bp.p) : 'Price TBD';
+    var pr = document.createElement('span'); pr.className='bsum-price'; pr.textContent = (bp && bp.p!=null) ? money(bp.p) : 'Price not verified';
     var x = document.createElement('button'); x.type='button'; x.className='bsum-x'; x.textContent='\u00d7';
     x.setAttribute('aria-label','Remove '+o.name);
     x.addEventListener('click', function(){ var prev = state.sel[c.id]||0; state.sel[c.id]=0; render(); saveHash();
@@ -142,9 +142,9 @@ function renderBuildSum(){
     var a2 = document.createElement('span'); a2.textContent = val;
     l.appendChild(a1); l.appendChild(a2); f.appendChild(l);
   }
-  line(b.name, b.price!=null ? money(b.price) : 'Price TBD');
-  line('Upgrades', money(sub)+(noPrice ? ' + '+noPrice+' TBD' : ''));
-  line('Build total', (b.price!=null ? money(b.price+sub) : 'TBD')+(noPrice ? '+' : ''), 'bsum-total');
+  line(b.name, b.price!=null ? money(b.price) : 'Price not verified');
+  line('Upgrades', money(sub)+(noPrice ? ' + '+noPrice+' not verified' : ''));
+  line('Build total', (b.price!=null ? money(b.price+sub) : 'Not verified')+(noPrice ? '+' : ''), 'bsum-total');
   var n = document.createElement('p'); n.className='bsum-note';
   n.textContent = (flags ? flags+' part'+(flags>1?'s':'')+' not confirmed for the '+b.name+' \u2014 check the fit notes before buying. ' : '')+
     'Prices checked '+CHECKED+'; shipping and tax not included.';
@@ -221,7 +221,7 @@ function renderPtrain(){
     d.className = 'pt-part' + (pt.bottleneck===p ? ' bottle' : '');
     var l = document.createElement('span'); l.className='pt-l'; l.textContent = p.label; d.appendChild(l);
     var v = document.createElement('strong');
-    v.textContent = p.kw!=null ? kwFmt(p.kw)+(p.est?'*':'') : 'unrated';
+    v.textContent = p.kw!=null ? kwFmt(p.kw)+(p.est?'*':'') : 'Not verified';
     d.appendChild(v);
     var n = document.createElement('span'); n.className='pt-n';
     n.textContent = p.upgraded ? p.optName : 'stock';
@@ -589,7 +589,7 @@ function renderPick(c, b, host){
     if(bb && co.prices.length>1){
       var alts = document.createElement('div'); alts.className='alts';
       alts.textContent = 'Also at: '+co.prices.filter(function(p){return p!==bb;})
-        .map(function(p){return p.v+' '+(p.p!=null?money(p.p):'price TBD')+(p.chk?'':' (not re-checked)');}).join(' · ')+' — prices checked '+CHECKED;
+        .map(function(p){return p.v+' '+(p.p!=null?money(p.p):'price not verified')+(p.chk?'':' (not re-checked)');}).join(' · ')+' — prices checked '+CHECKED;
       wrap.appendChild(alts);
     }
     } /* end if(shown) */
@@ -606,7 +606,7 @@ function buildListEl(){
     var pr = document.createElement('div');
     var ps = document.createElement('span'); ps.className='p'; ps.textContent=money(price); pr.appendChild(ps);
     if(url){ pr.appendChild(document.createTextNode(' '));
-      var a=document.createElement('a'); a.className='rb'; a.href=url; a.target='_blank'; a.rel='noopener sponsored';
+      var a=document.createElement('a'); a.className='rb'; a.href=url; a.target='_blank'; a.rel='noopener'+(/sjv\.io/.test(url)?' sponsored':'');
       a.textContent=vendor ? ('Buy at '+vendor) : 'Buy'; pr.appendChild(a); }
     r.appendChild(l); r.appendChild(pr); list.appendChild(r);
   }
@@ -616,7 +616,7 @@ function buildListEl(){
     if(idx!==0){ var o=catOption(c), bb=best(o); row(c.name, o.name, bb?bb.p:0, bb?bb.url:'', bb?bb.v:''); }
   });
   var tr = document.createElement('div'); tr.className='brow total';
-  tr.innerHTML='<div><span class="n">Total</span></div><div><span class="p">'+(t.tbd?'TBD':money(t.price))+'</span></div>';
+  tr.innerHTML='<div><span class="n">Total</span></div><div><span class="p">'+(t.tbd?'Not verified':money(t.price))+'</span></div>';
   list.appendChild(tr);
   return list;
 }
@@ -696,11 +696,12 @@ function render(){
     }
   });
 
-  $('mTotal').textContent = t.tbd ? 'TBD' : money(t.price);
-  $('mWeight').textContent = t.weight!=null ? (''+t.weight+' lb') : '–';
-  $('mKw').textContent = (''+t.kw+' kW');
-  $('mHp').textContent = (''+Math.round(t.hp)+' hp');
-  $('mGasEq').textContent = gasEquiv(t.hp);
+  $('mTotal').textContent = t.tbd ? 'Not verified' : money(t.price);
+  $('mWeight').textContent = t.weight!=null ? (''+t.weight+' lb') : 'Not verified';
+  var kwOk = t.kw!=null && !isNaN(t.kw) && t.kw>0;
+  $('mKw').textContent = kwOk ? (''+t.kw+' kW') : 'Not verified';
+  $('mHp').textContent = kwOk ? (''+Math.round(t.hp)+' hp') : 'Not verified';
+  $('mGasEq').textContent = kwOk ? gasEquiv(t.hp) : '';
   renderPtrain();
   renderBuildSum();
 
@@ -756,7 +757,7 @@ function partCard(opts){
     var li=document.createElement('li');
     var n=document.createElement('span'); n.textContent=p.name;
     var pr=document.createElement('span'); pr.textContent=money(p.price);
-    if(p.url){ var pa=document.createElement('a'); pa.className='rb'; pa.href=p.url; pa.target='_blank'; pa.rel='noopener sponsored';
+    if(p.url){ var pa=document.createElement('a'); pa.className='rb'; pa.href=p.url; pa.target='_blank'; pa.rel='noopener'+(/sjv\.io/.test(p.url)?' sponsored':'');
       pa.textContent=p.v?('Buy at '+p.v):'Buy'; pr.appendChild(document.createTextNode(' ')); pr.appendChild(pa); }
     li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
   });
@@ -772,7 +773,7 @@ function partCard(opts){
   var gl=document.createElement('span'); gl.textContent='Total';
   var gv=document.createElement('span');
   var tot=buildTotal(opts.bikeId, parts, opts.extras);
-  gv.textContent = tot==null ? 'TBD' : money(tot);
+  gv.textContent = tot==null ? 'Not verified' : money(tot);
   gt.appendChild(gl); gt.appendChild(gv); body.appendChild(gt);
   var btn=document.createElement('button'); btn.className='copybtn'; btn.textContent='Copy this build';
   btn.addEventListener('click', function(){ copyBuild(opts.bikeId, opts.parts); });
@@ -1128,8 +1129,8 @@ window.bikeImgSrc = bikeImgSrc; /* used by quiz.js / compare.js */
 function summary(){
   var b = bike(), t = totals();
   var lines = ['eBikePartsPicker build — '+b.name,
-    'Total: '+(t.tbd?'TBD':money(t.price)),
-    'Weight: '+(t.weight!=null?t.weight+' lb':'TBD'),
+    'Total: '+(t.tbd?'Not verified':money(t.price)),
+    'Weight: '+(t.weight!=null?t.weight+' lb':'Not verified'),
     'Power: '+t.kw+' kW / '+Math.round(t.hp)+' hp',''];
   CATEGORIES.forEach(function(c){
     var idx=state.sel[c.id]||0;
@@ -1251,7 +1252,7 @@ initSizeChips('startSizeChips');
     im.loading=(host.children.length<4?'eager':'lazy'); im.decoding='async'; im.width=800; im.height=500;
     var nm = document.createElement('strong'); nm.textContent = b.name;
     var meta = document.createElement('small');
-    meta.textContent = (b.price!=null ? money(b.price) : 'Price TBA') + (b.kw ? ' \u00b7 '+b.kw+' kW' : '');
+    meta.textContent = (b.price!=null ? money(b.price) : 'Price not verified') + (b.kw ? ' \u00b7 '+b.kw+' kW' : '');
     btn.appendChild(im); btn.appendChild(nm); btn.appendChild(meta);
     btn.addEventListener('click', function(){ window.openBikeInBuilder(id); });
     host.appendChild(btn);
@@ -1300,12 +1301,12 @@ initSizeChips('startSizeChips');
       if(!bp.chk){ unver++; var nv=document.createElement('small'); nv.className='feat-nv'; nv.textContent='price not verified'; pr.appendChild(nv); }
       if(bp.url){ var bw=document.createElement('div'); bw.className='gp-buy'; var pa=document.createElement('a'); pa.className='rb';
         pa.href=bp.url; pa.target='_blank'; pa.rel='noopener'+(bp.aff?' sponsored':''); if(bp.aff) pa.className+=' rb-voro'; pa.textContent='Buy at '+bp.v; bw.appendChild(pa); n.appendChild(bw); }
-    } else { pr.textContent='Price TBD'; unver++; }
+    } else { pr.textContent='Price not verified'; unver++; }
     li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
   });
   body.appendChild(ul);
   var tot = document.createElement('div'); tot.className='gtotals';
-  [[b.name+bikePriceTag(b), b.price!=null?money(b.price):'TBD'],['Parts', money(sub)],['Total', b.price!=null?money(b.price+sub):'TBD']].forEach(function(l,i){
+  [[b.name+bikePriceTag(b), b.price!=null?money(b.price):'Not verified'],['Parts', money(sub)],['Total', b.price!=null?money(b.price+sub):'Not verified']].forEach(function(l,i){
     var d=document.createElement('div'); d.className='gtl'+(i===2?' gtl-total':'');
     var x1=document.createElement('span'); x1.textContent=l[0]; var x2=document.createElement('span'); x2.textContent=l[1];
     d.appendChild(x1); d.appendChild(x2); tot.appendChild(d);

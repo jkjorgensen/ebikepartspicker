@@ -11,7 +11,7 @@
 
 /* ---------- small helpers ---------- */
 function $(id){ return document.getElementById(id); }
-function money(n){ if(n==null) return 'TBD';
+function money(n){ if(n==null) return 'Not verified';
   var c=(n%1)?2:0;
   return n.toLocaleString('en-US',{style:'currency',currency:'USD',minimumFractionDigits:c,maximumFractionDigits:c}); }
 function bikeById(id){ return (window.BIKES||[]).find(function(b){ return b.id===id; }) || null; }
@@ -480,9 +480,9 @@ function computeResults(){
 /* ---------- rendering: results ---------- */
 function specLine(bike){
   var parts = [];
-  parts.push(bike.price!=null ? money(bike.price) : 'Price TBD');
-  parts.push(bike.weight!=null ? bike.weight+' lb' : 'weight unverified');
-  parts.push(bike.kw!=null ? bike.kw+' kW' : 'power unverified');
+  parts.push(bike.price!=null ? money(bike.price) : 'Price not verified');
+  parts.push(bike.weight!=null ? bike.weight+' lb' : 'Weight not verified');
+  parts.push(bike.kw!=null ? bike.kw+' kW' : 'Power not verified');
   var r = QUIZ_RANGE[bike.id];
   parts.push(r!=null ? '~'+r+' mi est. range' : 'range unknown');
   return parts.join(' · ');
@@ -575,8 +575,9 @@ function recCard(picks, kind, a){
   var buy = (typeof BUY_URLS!=='undefined') ? BUY_URLS[bike.id] : null;
   if(buy && buy.url){
     var ba = el('a','qlink qbuy', 'Buy the '+bike.name+' — '+buy.source);
-    ba.href = buy.url; ba.target='_blank'; ba.rel='noopener sponsored';
+    ba.href = buy.url; ba.target='_blank'; ba.rel='noopener'+(/sjv\.io/.test(buy.url)?' sponsored':'');
     card.appendChild(ba);
+    if(/sjv\.io/.test(buy.url)){ var qd = el('a','qlink qbuy-alt','Affiliate link \u2014 disclosure'); qd.href='/affiliate-disclosure.html'; card.appendChild(qd); }
     if(buy.alt){
       var aa = el('a','qlink qbuy-alt', 'Also at '+(buy.altSource||'another store'));
       aa.href = buy.alt; aa.target='_blank'; aa.rel='noopener';
@@ -708,7 +709,7 @@ function renderResults(wrap){
       list.forEach(function(u){
         var li = el('li','qup');
         li.appendChild(el('span','qup-n', u.name));
-        var meta = el('span','qup-m', u.cat+' · '+(u.price!=null?money(u.price):'price TBD')+' · '+(u.fit==='yes'?'fits':'verify fit'));
+        var meta = el('span','qup-m', u.cat+' · '+(u.price!=null?money(u.price):'price not verified')+' · '+(u.fit==='yes'?'fits':'verify fit'));
         li.appendChild(meta);
         ul.appendChild(li);
       });
