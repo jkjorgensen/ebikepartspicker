@@ -55,9 +55,8 @@ function fitLevel(opt, bikeId){
   return 'no';
 }
 window.fitLevel = fitLevel;
-/* Builder list filter (Nov 10): by default a bike's part lists only show parts with a
-   compatibility mapping for that bike: 'yes' (confirmed), 'mod' (fits with adapter/mods) or
-   'verify' (mapped but not confirmed). Unmapped, incompatible and retired parts are hidden unless
+/* Builder list filter (Nov 10): by default a bike's part lists only show 'yes' (confirmed direct fit)
+   and 'mod' (fits with adapter/mods). 'verify' (mapped but not confirmed) parts are behind "Show all parts". Unmapped, incompatible and retired parts are hidden unless
    "Show all parts" is on. Only parts the data marks fits:'universal' skip the mapping check. */
 var showAllParts = false;
 function listFit(o, bikeId){
@@ -467,7 +466,8 @@ function renderPick(c, b, host){
     var nFit = 0;
     c.options.forEach(function(o,i){
       var lf = listFit(o, b.id);
-      if(lf && i!==0) nFit++;
+      if(lf==='verify' && !(showAllParts || i===cur)) return;  /* unverified fits only behind "Show all parts" */
+      if((lf==='yes' || lf==='mod') && i!==0) nFit++;
       if(!lf){
         /* hidden by default; still shown when "Show all parts" is on, or when it's the part this build already has */
         if(!(showAllParts || i===cur)) return;
@@ -537,7 +537,7 @@ function renderPick(c, b, host){
       syncBtn();
       dd.appendChild(btn); dd.appendChild(list); wrap.appendChild(dd);
     }
-    if(!nFit){ var ne = document.createElement('p'); ne.className='nofit-note'; ne.textContent = 'No confirmed-fit parts yet for this bike'+(showAllParts ? '.' : ' \u2014 turn on \u201cShow all parts\u201d to browse every listing.'); wrap.appendChild(ne); }
+    if(!nFit){ var ne = document.createElement('p'); ne.className='nofit-note'; ne.textContent = 'No confirmed-fit parts yet for this bike.'; if(!showAllParts){ var hn = document.createElement('small'); hn.className='nofit-hint'; hn.textContent = ' Tap \u201cShow all parts\u201d above to see unverified options.'; ne.appendChild(hn); } wrap.appendChild(ne); }
 
     if(vis.length){
     var co = catOption(c), bb = best(co);
@@ -656,7 +656,7 @@ function renderStep(){
     var tg = document.createElement('label'); tg.className='showall';
     var cb = document.createElement('input'); cb.type='checkbox'; cb.checked = showAllParts; cb.id='showAllParts';
     cb.addEventListener('change', function(){ showAllParts = cb.checked; renderStep(); });
-    tg.appendChild(cb); tg.appendChild(document.createTextNode(' Show all parts (including ones with no fit data for the '+b.name+')'));
+    tg.appendChild(cb); tg.appendChild(document.createTextNode(' Show all parts (incl. unverified and no-fit-data parts for the '+b.name+')'));
     host.appendChild(tg);
     g.cats.forEach(function(cid){
       var c = catById(cid); if(!c) return;
@@ -703,7 +703,8 @@ function render(){
   CATEGORIES.forEach(function(c){
     var i = state.sel[c.id]||0, o = c.options[i];
     if(!o){ state.sel[c.id]=0; return; }
-    if(o.hidden || (!listFit(o, b.id) && !keptPart(o))) state.sel[c.id]=0;
+    var lf = listFit(o, b.id);
+    if(o.hidden || (lf!=='yes' && lf!=='mod' && !keptPart(o))) state.sel[c.id]=0;
   });
   t = totals();
   syncBikeInputs();
