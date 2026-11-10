@@ -3320,24 +3320,24 @@
     {
       "product_id": "tire-eride-fatty-rear-1009018",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.eridepro.com/products/e7235-1"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-eride-fatty-rear-1009018",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.eridepro.com/products/e7235-1"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-eride-fatty-rear-1009018",
@@ -4705,24 +4705,24 @@
     {
       "product_id": "tire-shinko-244-dualsport",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-shinko-244-dualsport",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-shinko-244-dualsport",
@@ -5082,24 +5082,24 @@
     {
       "product_id": "tire-kenda-k270-dualsport",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
@@ -5463,24 +5463,24 @@
     {
       "product_id": "tire-tusk-dsport-adventure",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-tusk-dsport-adventure",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-tusk-dsport-adventure",
@@ -5837,24 +5837,24 @@
     {
       "product_id": "tire-kenda-millville2-k785",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-kenda-millville2-k785",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-kenda-millville2-k785",
@@ -6223,24 +6223,24 @@
     {
       "product_id": "tire-shinko-525-cheater",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.motosport.com/shinko-r525-cheater-rear-tire"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-shinko-525-cheater",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.motosport.com/shinko-r525-cheater-rear-tire"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-shinko-525-cheater",
@@ -6598,24 +6598,24 @@
     {
       "product_id": "tire-dunlop-mx34",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-dunlop-mx34",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-dunlop-mx34",
@@ -6983,24 +6983,24 @@
     {
       "product_id": "tire-michelin-starcross6-ms",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-michelin-starcross6-ms",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-michelin-starcross6-ms",
@@ -7359,24 +7359,24 @@
     {
       "product_id": "tire-pirelli-mx32-midsoft",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-pirelli-mx32-midsoft",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-pirelli-mx32-midsoft",
@@ -7744,24 +7744,24 @@
     {
       "product_id": "tire-kenda-k760-trakmaster",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-kenda-k760-trakmaster",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-kenda-k760-trakmaster",
@@ -8130,24 +8130,24 @@
     {
       "product_id": "tire-bridgestone-x31",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-bridgestone-x31",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-bridgestone-x31",
@@ -8506,24 +8506,24 @@
     {
       "product_id": "tire-maxxis-mxsi",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-maxxis-mxsi",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-maxxis-mxsi",
@@ -8890,24 +8890,24 @@
     {
       "product_id": "tire-irc-m5b-evo",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-irc-m5b-evo",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-irc-m5b-evo",
@@ -10730,24 +10730,24 @@
     {
       "product_id": "tire-kenda-washougal3-ccw",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-kenda-washougal3-ccw",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-kenda-washougal3-ccw",
@@ -11454,24 +11454,24 @@
     {
       "product_id": "tire-irc-ve33-ccw",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-irc-ve33-ccw",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-irc-ve33-ccw",
@@ -12193,24 +12193,24 @@
     {
       "product_id": "tire-tusk-t35-front-ccw",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-tusk-t35-front-ccw",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-tusk-t35-front-ccw",
@@ -15151,24 +15151,24 @@
     {
       "product_id": "tire-dunlop-mx53-ccw",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-dunlop-mx53-ccw",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-dunlop-mx53-ccw",
@@ -15528,24 +15528,24 @@
     {
       "product_id": "tire-shinko-sr241-ccw",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-shinko-sr241-ccw",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
       ],
-      "notes": "Tire diameter matches stock 21\" front wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-shinko-sr241-ccw",
@@ -15910,24 +15910,24 @@
     {
       "product_id": "tire-irc-ix09-gekkota-ccw",
       "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://arctic-leopard.com/produit/x%c2%b7d-pro/",
         "https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-irc-ix09-gekkota-ccw",
       "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/",
         "https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Size match only; no exact-model fitment evidence"
     },
     {
       "product_id": "tire-irc-ix09-gekkota-ccw",

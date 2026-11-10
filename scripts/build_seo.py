@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse,re
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.net'; V='4.15.0'; IMGV='4.5.0'; TODAY='2026-11-10'
+BASE='https://ebikepartspicker.net'; V='4.15.1'; IMGV='4.5.0'; TODAY='2026-11-10'
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else ''
 
@@ -104,7 +104,7 @@ def partrow(p,bid):
 guides_by_bike={}
 for g in D['guides']: guides_by_bike.setdefault(g['bike'],[]).append(g)
 power_bikes={pw['bike'] for pw in D['power']}
-seo_bikes=[b for b in D['bikes'] if len(b['parts'])>=3]
+seo_bikes=[b for b in D['bikes'] if len(b['parts'])>=3 or os.path.exists(os.path.join(ROOT,'bikes',b['id'],'index.html'))]
 # bike pages
 for b in seo_bikes:
   bid=b['id']; parts=b['parts']; cats=[]
@@ -112,6 +112,12 @@ for b in seo_bikes:
     ps=[p for p in parts if p['cat']==c['id']]
     if ps: cats.append((c,sorted(ps,key=lambda p:(not (p['price'] or {}).get('aff'),p['status']!='confirmed',(p['price'] or {}).get('p') or 9e9))))
   nconf=sum(p['status']=='confirmed' for p in parts)
+  if nconf:
+    lede=f'{nconf} aftermarket parts that fit the {e(b["name"])}: each is either listed for this bike by the seller or manufacturer, or sold as a universal-fit part. Prices were checked on the retailer\u2019s page. Pick parts to see your build\u2019s total price, weight and estimated power.'
+    desc=f'{nconf} aftermarket parts that fit the {b["name"]}: suspension, wheels, brakes, controls and more, with prices checked {D["checked"]}. Build and price your {b["name"]}.'
+  else:
+    lede=f'No aftermarket parts are confirmed to fit the {e(b["name"])} yet. Open the builder to browse unverified options, or check back as we add exact-model evidence.'
+    desc=f'Build and price the {b["name"]}. No confirmed aftermarket fitment yet. Specs and a link to the parts builder are below.'
   FM='<a href="/fitment-methodology">How we confirm fitment</a> \u00b7 ' if os.path.exists(os.path.join(ROOT,'fitment-methodology.html')) else ''
   spec=[('Price',bike_price(b))]+([('Peak power',f'{b["kw"]} kW')] if b.get('kw') else [])+([('Weight',f'{b["weight"]} lb')] if b.get('weight') else [])
   specs=''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k,v in spec)
@@ -121,7 +127,7 @@ for b in seo_bikes:
   toc=' '.join(f'<a href="#{c["id"]}">{e(c["name"])}</a>' for c,_ in cats)
   secs=''.join(f'<section id="{c["id"]}"><h2>{e(c["name"])} for the {e(b["name"])}</h2><ul class="sp-list" data-ux-fitlist>{"".join(partrow(p,bid) for p in ps)}</ul></section>' for c,ps in cats)
   body=f"""<h1>{e(b['name'])} upgrades &amp; parts</h1>
-<p class="seo-lede">{nconf} aftermarket parts that fit the {e(b['name'])}: each is either listed for this bike by the seller or manufacturer, or sold as a universal-fit part. Prices were checked on the retailer\u2019s page. Pick parts to see your build\u2019s total price, weight and estimated power.</p>
+<p class="seo-lede">{lede}</p>
 <figure class="seo-hero" data-ux-pagebike="{e(bid)}" data-name="{e(b['name'])}"><img src="/img/bikes/{bid}-800.webp?v={IMGV}" srcset="/img/bikes/{bid}-800.webp?v={IMGV} 800w, /img/bikes/{bid}.webp?v={IMGV} 1600w" sizes="(max-width: 900px) 100vw, 720px" fetchpriority="high" decoding="async" alt="{e(b['name'])} electric dirt bike" width="1600" height="1000"></figure>
 <dl class="seo-specs">{specs}</dl>
 <p class="seo-cta"><a class="cta" href="{e(builder(bid))}">Build your {e(b['name'])}</a> {bikebuy}</p>
@@ -129,7 +135,7 @@ for b in seo_bikes:
 <p>{FM}<a href="/bikes/">All bikes</a></p>"""
   il={"@context":"https://schema.org","@type":"ItemList","name":f"{b['name']} upgrades and parts","numberOfItems":len(parts),"itemListElement":[{"@type":"ListItem","position":i+1,"name":p['name']} for i,p in enumerate(parts[:100])]}
   urls.append(page(f'/bikes/{bid}/',f"{b['name']} Upgrades & Parts | Fit-Checked, Prices Checked | eBikePartsPicker",
-    f"{nconf} aftermarket parts that fit the {b['name']}: suspension, wheels, brakes, controls and more, with prices checked {D['checked']}. Build and price your {b['name']}.",
+    desc,
     body,[('Home','/'),('Bikes','/bikes/'),(b['name'],f'/bikes/{bid}/')],BASE+f'/img/og/{bid}.jpg',[il],preload=f'<link rel="preload" as="image" href="/img/bikes/{bid}-800.webp?v={IMGV}" imagesrcset="/img/bikes/{bid}-800.webp?v={IMGV} 800w, /img/bikes/{bid}.webp?v={IMGV} 1600w" imagesizes="(max-width: 900px) 100vw, 720px" fetchpriority="high">'))
 # bikes index
 li=''.join(f'<li><a href="/bikes/{b["id"]}/">{e(b["name"])} upgrades &amp; parts</a> <span class="sp-chk">{sum(p["status"]=="confirmed" for p in b["parts"])} confirmed parts</span></li>' for b in seo_bikes)
