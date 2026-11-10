@@ -1,7 +1,7 @@
 // Price-alert sender (Resend free tier). Inert until secrets are set:
 //   RESEND_API_KEY  - Resend API key (Pages > Settings > Variables and Secrets, type Secret)
 //   ALERT_RUN_TOKEN - random string; caller must send header  Authorization: Bearer <token>
-//   ALERT_FROM      - optional, e.g. "eBikePartsPicker <alerts@yourdomain.com>"; default onboarding@resend.dev (test only: delivers to Resend account owner only)
+//   ALERT_FROM      - optional override; default "eBikePartsPicker Alerts <alerts@ebikepartspicker.net>"
 // POST /api/alerts-run?dry=1 previews without sending. First run per signup just records a baseline price.
 const SITE = 'https://ebikepartspicker.net';
 export async function onRequestPost({ request, env }) {
@@ -28,7 +28,7 @@ export async function onRequestPost({ request, env }) {
       const r = await fetch('https://api.resend.com/emails', {
         method: 'POST', headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json' },
         body: JSON.stringify({
-          from: env.ALERT_FROM || 'eBikePartsPicker <onboarding@resend.dev>', to: [rec.email],
+          from: env.ALERT_FROM || 'eBikePartsPicker Alerts <alerts@ebikepartspicker.net>', to: [rec.email],
           subject: `Price drop: ${b.name} now $${now.toLocaleString('en-US')}`,
           text: `${b.name} dropped from $${rec.lastPrice.toLocaleString('en-US')} to $${now.toLocaleString('en-US')}.\n\n${SITE}/bikes/${b.id}/\n\nYou signed up for price alerts on eBikePartsPicker. Reply "unsubscribe" to stop.`,
         }),
