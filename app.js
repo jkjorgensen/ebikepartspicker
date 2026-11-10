@@ -55,6 +55,25 @@ function fitLevel(opt, bikeId){
   return 'no';
 }
 window.fitLevel = fitLevel;
+/* Builder list filter (Nov 10): by default a bike's part lists only show parts with a
+   compatibility mapping for that bike: 'yes' (confirmed), 'mod' (fits with adapter/mods) or
+   'verify' (mapped but not confirmed). Unmapped, incompatible and retired parts are hidden unless
+   "Show all parts" is on. Only parts the data marks fits:'universal' skip the mapping check. */
+var showAllParts = false;
+function listFit(o, bikeId){
+  if(!o || !o.pid) return 'yes';            /* stock baseline option */
+  if(o.hidden) return null;
+  if(o.fits === 'universal') return 'yes';
+  var d = fitEvidence(o.pid, bikeId);
+  if((o.no && o.no.indexOf(bikeId) !== -1) || (d && d.s === 'not_compatible')) return null;
+  var st = checkFit(bikeId, o).status;
+  if(st === 'confirmed') return 'yes';
+  if(st === 'requires_mod') return 'mod';
+  if((Array.isArray(o.fits) && o.fits.indexOf(bikeId) !== -1) || (o.likely && o.likely.indexOf(bikeId) !== -1) || d) return 'verify';
+  return null;
+}
+window.listFit = listFit;
+function keptPart(o){ return !!(o && o.pid && state.keep && state.keep[o.pid]); }
 
 /* ---------- compatibility rules engine ----------
    Deterministic: nothing is CONFIRMED without a fitment source.
@@ -157,7 +176,7 @@ function totals(){
   t.kw = pt.sysKw;
   CATEGORIES.forEach(function(c){
     var o = catOption(c);
-    if(fitLevel(o, b.id)==='no') return;
+    if(o.hidden || (fitLevel(o, b.id)==='no' && !keptPart(o))) return;
     var p = optPrice(o);
     if(p) t.price = (t.price==null ? p : t.price + p);
     if(o.dw!=null && t.weight!=null) t.weight = Math.round((t.weight+o.dw)*10)/10;
@@ -357,7 +376,7 @@ function initBikePicker(inputId, listId, onPick){
     list.hidden = false;
   }
   input._renderItems = renderItems; /* lets size chips open the filtered list */
-  input.addEventListener('input', renderItems);
+  input.addEventListener('input', function(){ renderItems(false); });
   input.addEventListener('focus', function(){ input.select(); renderItems(true); });  input.addEventListener('blur', function(){
     setTimeout(function(){ close(); syncBikeInputs(); }, 150);
   });
@@ -426,8 +445,11 @@ function optMeta(o, fl){
   if(o.wtKg!=null) parts.push((o.wtKg*2.20462).toFixed(1)+' lb');
   if(o.battKwh!=null) parts.push(o.battKwh.toFixed(2)+' kWh');
   if(o.battPeakKw!=null) parts.push(o.battPeakKw+' kW peak');
-  if(fl==='likely') parts.push('likely fit — verify');
-  if(fl==='unknown') parts.push('fit unknown');
+  if(fl==='verify') parts.push('Fit not verified');
+  if(fl==='mod') parts.push('Fits with adapter or mods');
+  if(fl==='none') parts.push('No fit data for this bike');
+  if(fl==='no') parts.push('Does not fit this bike');
+  if(fl==='retired') parts.push('Listing retired');
   return parts.join(' · ');
 }
 /* battery class: long range (>=4.5 kWh) vs high output (>=40 kW peak). A pack can be both. */
@@ -440,22 +462,25 @@ function battClass(o){
 function renderPick(c, b, host){
     var wrap = document.createElement('div'); wrap.className='ppick'; wrap.setAttribute('data-cat', c.id);
     var vis = [];
+    var cur = state.sel[c.id]||0;
+    if(!c.options[cur]){ cur = 0; state.sel[c.id] = 0; }
+    var nFit = 0;
     c.options.forEach(function(o,i){
-      if(fitLevel(o, b.id)==='no') return; /* don't show parts that don't fit, at all */
-      vis.push({o:o, i:i, fl:fitLevel(o, b.id)});
+      var lf = listFit(o, b.id);
+      if(lf && i!==0) nFit++;
+      if(!lf){
+        /* hidden by default; still shown when "Show all parts" is on, or when it's the part this build already has */
+        if(!(showAllParts || i===cur)) return;
+        lf = o.hidden ? 'retired' : ((fitLevel(o, b.id)==='no' && ((o.no && o.no.indexOf(b.id)!==-1) || ((fitEvidence(o.pid,b.id)||{}).s==='not_compatible'))) ? 'no' : 'none');
+        if(o.hidden && i!==cur) return;
+      }
+      vis.push({o:o, i:i, fl:lf});
     });
     /* confirmed fits first (stock option stays on top); order is display-only */
-    var rank = {yes:0, likely:1, unknown:2};
+    var rank = {yes:0, mod:1, verify:2, none:3, no:4, retired:5};
     vis.sort(function(x,y){ if(x.i===0||y.i===0) return x.i===0?-1:1; return (rank[x.fl]-rank[y.fl]) || (x.i-y.i); });
     var mine = (window.__ux && window.__ux.myBike()===b.id);
-    var cur = state.sel[c.id]||0;
-    if(!c.options[cur] || fitLevel(c.options[cur], b.id)==='no'){
-      cur = 0;
-      while(cur < c.options.length && fitLevel(c.options[cur], b.id)==='no') cur++;
-      if(cur >= c.options.length || !vis.length) cur = 0;
-      state.sel[c.id]=cur;
-    }
-    function pick(i){ var prev = state.sel[c.id]||0; state.sel[c.id]=i; hidePprev(); render(); saveHash();
+    function pick(i){ var prev = state.sel[c.id]||0; state.sel[c.id]=i; if(c.options[i] && c.options[i].pid){ state.keep = state.keep||{}; state.keep[c.options[i].pid]=1; } hidePprev(); render(); saveHash();
       if(window.__ux && prev!==i) window.__ux.changed(c, prev, i); }
 
     if(!vis.length){
@@ -512,6 +537,7 @@ function renderPick(c, b, host){
       syncBtn();
       dd.appendChild(btn); dd.appendChild(list); wrap.appendChild(dd);
     }
+    if(!nFit){ var ne = document.createElement('p'); ne.className='nofit-note'; ne.textContent = 'No confirmed-fit parts yet for this bike'+(showAllParts ? '.' : ' \u2014 turn on \u201cShow all parts\u201d to browse every listing.'); wrap.appendChild(ne); }
 
     if(vis.length){
     var co = catOption(c), bb = best(co);
@@ -627,6 +653,11 @@ function renderStep(){
   var b = bike(), n = GROUPS.length;
   if(state.step < n){
     var g = GROUPS[state.step];
+    var tg = document.createElement('label'); tg.className='showall';
+    var cb = document.createElement('input'); cb.type='checkbox'; cb.checked = showAllParts; cb.id='showAllParts';
+    cb.addEventListener('change', function(){ showAllParts = cb.checked; renderStep(); });
+    tg.appendChild(cb); tg.appendChild(document.createTextNode(' Show all parts (including ones with no fit data for the '+b.name+')'));
+    host.appendChild(tg);
     g.cats.forEach(function(cid){
       var c = catById(cid); if(!c) return;
       var sec = document.createElement('div'); sec.className='csec';
@@ -668,9 +699,11 @@ function renderStep(){
 function render(){
   hidePprev();
   var b = bike(), t;
+  if(state.keepBike !== b.id){ state.keep = {}; state.keepBike = b.id; }
   CATEGORIES.forEach(function(c){
-    var i = state.sel[c.id]||0;
-    if(fitLevel(c.options[i], b.id)==='no') state.sel[c.id]=0;
+    var i = state.sel[c.id]||0, o = c.options[i];
+    if(!o){ state.sel[c.id]=0; return; }
+    if(o.hidden || (!listFit(o, b.id) && !keptPart(o))) state.sel[c.id]=0;
   });
   t = totals();
   syncBikeInputs();
@@ -1155,10 +1188,11 @@ function loadHash(){
     if(location.hash){
       var h = JSON.parse(decodeURIComponent(location.hash.slice(1)));
       if(h.b && bikeById(h.b)) state.bike = h.b;
+      state.keep = {}; state.keepBike = state.bike;
       if(h.s) CATEGORIES.forEach(function(c){
         var v = h.s[c.id], i = v;
         if(typeof v === 'string'){ i = -1; c.options.forEach(function(o,k){ if(o.pid===v) i=k; }); }
-        if(Number.isInteger(i) && i>=0 && i<c.options.length) state.sel[c.id]=i;
+        if(Number.isInteger(i) && i>=0 && i<c.options.length){ state.sel[c.id]=i; if(c.options[i].pid) state.keep[c.options[i].pid]=1; }
       });
     }
   }catch(e){}

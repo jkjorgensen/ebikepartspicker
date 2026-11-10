@@ -337,7 +337,7 @@
     },
     {
       "id": "chargedcycleworks-oem-swingarm-bearing-talaria-sting-mx3-mx4-1",
-      "name": "Talaria Sting MX3 / MX4  -  Swingarm Bearing | OEM",
+      "name": "Talaria Sting MX3 / MX4 - Swingarm Bearing | OEM",
       "brand": "Charged Cycle Works",
       "category": "swingarm",
       "price_usd": 11.99,
@@ -431,6 +431,27 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "stormbee-swingarm-oem",
+      "name": "Storm Bee Swingarm Assembly",
+      "brand": null,
+      "category": "swingarm",
+      "price_usd": null,
+      "vendor": null,
+      "buy_url": null,
+      "vendors": [],
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [],
+      "last_checked": null,
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/stormbee-swingarm-oem.webp",
+      "hidden": true
     }
   ],
   "compatibility": [
@@ -731,6 +752,14 @@
       "product_id": "swingarm-bonnell-805-rx-swingarm-assembly",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "stormbee-swingarm-oem",
+      "required_adapters": null,
+      "status": "verify"
     }
   ]
 }

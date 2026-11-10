@@ -561,6 +561,54 @@
       "product_id": "fork-sirris-f43-fork-spring-single",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "zero-xe",
+      "fitment_source_urls": [
+        "https://ridesirris.com/products/f43-xe-trail-tune-lsc-220-mm-travel-zero-xe"
+      ],
+      "notes": "SIRRIS product page is a dedicated Zero XE SKU: \"F43 XE Trail Tune | LSC | 220 mm Travel | Zero XE\", described as a direct-fit upgrade for the XE platform (checked Oct 21, 2026)",
+      "product_id": "sirris-f43-zero-xe",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "fitment_source_urls": [
+        "https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-s"
+      ],
+      "notes": "SIRRIS product page names Arctic Leopard XE Pro S; description: \"This fork fits both the XE Pro S and Enduro models\" (checked Oct 21, 2026)",
+      "product_id": "sirris-f43-cmx-arctic-leopard-xe-pro-s",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "arctic-leopard-xe-pro-s-enduro",
+      "fitment_source_urls": [
+        "https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-s"
+      ],
+      "notes": "Same SIRRIS SKU; product tagged \"Arctic Leopard XE Pro S Enduro\" and description states it fits both the XE Pro S and Enduro models (checked Oct 21, 2026)",
+      "product_id": "sirris-f43-cmx-arctic-leopard-xe-pro-s",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "fitment_source_urls": [
+        "https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-r"
+      ],
+      "notes": "SIRRIS product page is a dedicated SKU naming Arctic Leopard XE Pro R exactly, with XE Pro R wheel spacers and 240mm rotor bracket (checked Oct 21, 2026)",
+      "product_id": "sirris-f43-cmx-arctic-leopard-xe-pro-r",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "stormbee-fork-right-kke",
+      "required_adapters": null,
+      "status": "verify"
     }
   ],
   "products": [
@@ -1257,6 +1305,111 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "sirris-f43-zero-xe",
+      "name": "Sirris F43 Fork (Zero XE)",
+      "brand": "Sirris",
+      "category": "fork",
+      "price_usd": 2250,
+      "vendor": "SIRRIS",
+      "buy_url": "https://ridesirris.com/products/f43-xe-trail-tune-lsc-220-mm-travel-zero-xe",
+      "vendors": [
+        {
+          "vendor": "SIRRIS",
+          "price_usd": 2250,
+          "buy_url": "https://ridesirris.com/products/f43-xe-trail-tune-lsc-220-mm-travel-zero-xe"
+        }
+      ],
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://ridesirris.com/products/f43-xe-trail-tune-lsc-220-mm-travel-zero-xe"
+      ],
+      "last_checked": "2026-10-21",
+      "weight_kg": 10,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/sirris-f43-zero-xe.webp"
+    },
+    {
+      "id": "sirris-f43-cmx-arctic-leopard-xe-pro-s",
+      "name": "Sirris F43 CMX Fork (Arctic Leopard XE Pro S/Enduro)",
+      "brand": "Sirris",
+      "category": "fork",
+      "price_usd": 2350,
+      "vendor": "SIRRIS",
+      "buy_url": "https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-s",
+      "vendors": [
+        {
+          "vendor": "SIRRIS",
+          "price_usd": 2350,
+          "buy_url": "https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-s"
+        }
+      ],
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-s"
+      ],
+      "last_checked": "2026-10-21",
+      "weight_kg": 8,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/sirris-f43-cmx-arctic-leopard-xe-pro-s.webp"
+    },
+    {
+      "id": "sirris-f43-cmx-arctic-leopard-xe-pro-r",
+      "name": "Sirris F43 CMX Fork (Arctic Leopard XE Pro R)",
+      "brand": "Sirris",
+      "category": "fork",
+      "price_usd": 2350,
+      "vendor": "SIRRIS",
+      "buy_url": "https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-r",
+      "vendors": [
+        {
+          "vendor": "SIRRIS",
+          "price_usd": 2350,
+          "buy_url": "https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-r"
+        }
+      ],
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-r"
+      ],
+      "last_checked": "2026-10-21",
+      "weight_kg": 8,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/sirris-f43-cmx-arctic-leopard-xe-pro-r.webp"
+    },
+    {
+      "id": "stormbee-fork-right-kke",
+      "name": "Storm Bee Front Right Fork (KKE)",
+      "brand": null,
+      "category": "fork",
+      "price_usd": null,
+      "vendor": null,
+      "buy_url": null,
+      "vendors": [],
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [],
+      "last_checked": null,
+      "weight_kg": 4.2,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/stormbee-fork-right-kke.webp",
+      "hidden": true
     }
   ]
 }

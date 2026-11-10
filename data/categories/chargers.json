@@ -433,6 +433,62 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "talaria-mx4-oem-charger",
+      "name": "Talaria Sting R MX4 OEM Battery Charger (110V)",
+      "brand": null,
+      "category": "chargers",
+      "price_usd": 285,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 285,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
+        }
+      ],
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
+      ],
+      "last_checked": "2026-10-18",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+    {
+      "id": "ccw-fast-charger-72v-15a",
+      "name": "Charged Cycle Works 72V 15A Fast Charger (for eWatt / CCW 72V batteries)",
+      "brand": null,
+      "category": "chargers",
+      "price_usd": 160,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/fast-chargers-for-charged-cycle-works-batteries-up-to-150-faster-charging?variant=52372529709272",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 160,
+          "buy_url": "https://chargedcycleworks.com/products/fast-chargers-for-charged-cycle-works-batteries-up-to-150-faster-charging?variant=52372529709272"
+        }
+      ],
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/fast-chargers-for-charged-cycle-works-batteries-up-to-150-faster-charging?variant=52372529709272"
+      ],
+      "last_checked": "2026-10-18",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": null
     }
   ],
   "compatibility": [
@@ -639,6 +695,86 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "charger-bonnell-805-rx-charger-1500w-100-8v-20a-us",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
+      ],
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
+      "product_id": "talaria-mx4-oem-charger",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "komodo",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "talaria-mx4-oem-charger",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "talaria-mx4-oem-charger",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "arctic-xd",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "talaria-mx4-oem-charger",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "talaria-mx4-oem-charger",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "talaria-mx4-oem-charger",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "talaria-mx4-oem-charger",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/fast-chargers-for-charged-cycle-works-batteries-up-to-150-faster-charging?variant=52372529709272"
+      ],
+      "notes": "Only with a 72V eWatt/CCW battery: CCW says it will not work with OEM batteries",
+      "product_id": "ccw-fast-charger-72v-15a",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
     }

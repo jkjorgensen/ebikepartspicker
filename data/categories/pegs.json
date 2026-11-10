@@ -612,6 +612,125 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "warp9-elite-pegs",
+      "name": "Warp 9 Elite Foot Pegs",
+      "brand": "Warp 9",
+      "category": "pegs",
+      "price_usd": 142,
+      "vendor": "Warp 9 Racing",
+      "buy_url": "https://warp9racing.com/products/e-moto-elite-foot-pegs",
+      "vendors": [
+        {
+          "vendor": "Warp 9 Racing",
+          "price_usd": 142,
+          "buy_url": "https://warp9racing.com/products/e-moto-elite-foot-pegs"
+        }
+      ],
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://warp9racing.com/products/e-moto-elite-foot-pegs"
+      ],
+      "last_checked": "2026-11-04",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/warp9-elite-pegs.webp"
+    },
+    {
+      "id": "mxps-billet-pegs-stormbee",
+      "name": "MX Billet Foot Pegs (Storm Bee)",
+      "brand": "Pegs",
+      "category": "pegs",
+      "price_usd": 65,
+      "vendor": "MXpartshop",
+      "buy_url": "https://mxpartshop.com/products/mx-billet-footpegs-footrest-for-sur-ron-storm-bee",
+      "vendors": [
+        {
+          "vendor": "MXpartshop",
+          "price_usd": 65,
+          "buy_url": "https://mxpartshop.com/products/mx-billet-footpegs-footrest-for-sur-ron-storm-bee"
+        }
+      ],
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://mxpartshop.com/products/mx-billet-footpegs-footrest-for-sur-ron-storm-bee"
+      ],
+      "last_checked": "2026-11-04",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/mxps-billet-pegs-stormbee.webp"
+    },
+    {
+      "id": "pegs-kke-ultrabee",
+      "name": "KKE Billet Foot Pegs for Sur-Ron Ultra Bee",
+      "brand": "Foot Pegs",
+      "category": "pegs",
+      "price_usd": 59.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+        },
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 59.99,
+          "buy_url": "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+        "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "last_checked": "2026-10-18",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": null,
+      "variant": "custom"
+    },
+    {
+      "id": "warp9-pegs-lbx-ventus",
+      "name": "Warp 9 Foot Pegs (Light Bee / Ventus One / E Ride Pro)",
+      "brand": "Warp 9",
+      "category": "pegs",
+      "price_usd": 109,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 109,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+        }
+      ],
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+      ],
+      "last_checked": "2026-10-18",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp"
     }
   ],
   "compatibility": [
@@ -866,6 +985,225 @@
       "product_id": "pegs-bonnell-805-rx-footpeg-set",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee2",
+      "fitment_source_urls": [
+        "https://warp9racing.com/products/e-moto-elite-foot-pegs"
+      ],
+      "notes": "Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)",
+      "product_id": "warp9-elite-pegs",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [
+        "https://mxpartshop.com/products/mx-billet-footpegs-footrest-for-sur-ron-storm-bee"
+      ],
+      "notes": "Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)",
+      "product_id": "mxps-billet-pegs-stormbee",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee (checked Oct 18, 2026)",
+      "product_id": "pegs-kke-ultrabee",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "arctic-xd",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+        "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "pegs-kke-ultrabee",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+        "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "pegs-kke-ultrabee",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+        "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "pegs-kke-ultrabee",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss40",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+        "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "pegs-kke-ultrabee",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+        "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "pegs-kke-ultrabee",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+        "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "pegs-kke-ultrabee",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+        "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "pegs-kke-ultrabee",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "komodo",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+        "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "pegs-kke-ultrabee",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+        "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "pegs-kke-ultrabee",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+        "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "pegs-kke-ultrabee",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
+        "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "pegs-kke-ultrabee",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "lightbee2",
+      "fitment_source_urls": [
+        "https://warp9racing.com/products/surron-foot-pegs"
+      ],
+      "notes": "Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)",
+      "product_id": "warp9-pegs-lbx-ventus",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [],
+      "notes": "Owner-verified install (site owner's bike), Oct 18, 2026",
+      "product_id": "warp9-pegs-lbx-ventus",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
+      "product_id": "warp9-pegs-lbx-ventus",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "warp9-pegs-lbx-ventus",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "warp9-pegs-lbx-ventus",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "warp9-pegs-lbx-ventus",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "warp9-pegs-lbx-ventus",
+      "required_adapters": null,
+      "status": "verify"
     }
   ]
 }

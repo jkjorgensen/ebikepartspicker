@@ -404,7 +404,7 @@
     },
     {
       "id": "eridepro-she7876-motor-mount-bolts-kit-belt-adjustment-kit-ss2-0",
-      "name": "SHE7876 - Motor Mount  Bolts Kit/  Belt Adjustment Kit - SS2.0",
+      "name": "SHE7876 - Motor Mount Bolts Kit/ Belt Adjustment Kit - SS2.0",
       "brand": "E RIDE PRO",
       "category": "drivetrain",
       "price_usd": 9.0,
@@ -678,7 +678,7 @@
     },
     {
       "id": "revrides-e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0",
-      "name": "E-Moto 428 Chain by Warp 9 For Altis Sigma,  Eride Pro Sr, 3.0",
+      "name": "E-Moto 428 Chain by Warp 9 For Altis Sigma, Eride Pro Sr, 3.0",
       "brand": "Warp 9",
       "category": "drivetrain",
       "price_usd": 83.0,
@@ -1173,6 +1173,34 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "ebg-lb2-sprocket-520",
+      "name": "EBG 7075 Aluminum 520 Rear Sprocket (Light Bee 2)",
+      "brand": "EBG",
+      "category": "drivetrain",
+      "price_usd": 48,
+      "vendor": "eBike Garage (EBG)",
+      "buy_url": "https://ebikegarage.shop/product/surron-light-bee-2-520-rear-sprocket/",
+      "vendors": [
+        {
+          "vendor": "eBike Garage (EBG)",
+          "price_usd": 48,
+          "buy_url": "https://ebikegarage.shop/product/surron-light-bee-2-520-rear-sprocket/"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "unknown",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://ebikegarage.shop/product/surron-light-bee-2-520-rear-sprocket/"
+      ],
+      "last_checked": "2026-11-04",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/ebg-lb2-sprocket-520.webp"
     }
   ],
   "compatibility": [
@@ -1737,6 +1765,17 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-primary-drive-520-orh-gold-x-ring-chain",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee2",
+      "fitment_source_urls": [
+        "https://ebikegarage.shop/product/surron-light-bee-2-520-rear-sprocket/",
+        "https://sur-ron.co.nz/products/surron-light-bee-2-my26-520-o-ring-chain-mpc-13114-y031a-0100"
+      ],
+      "notes": "EBG lists this 520 rear sprocket for the Light Bee 2 (stock is 520 chain, 43T). Pre-order, est. ship Nov 15, 2026 (checked Nov 4, 2026)",
+      "product_id": "ebg-lb2-sprocket-520",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
     }

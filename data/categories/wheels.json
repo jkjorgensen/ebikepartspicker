@@ -547,7 +547,7 @@
     },
     {
       "id": "chargedcycleworks-kke-19-16-e-bike-spoked-wheels-for-talaria-sting-mx3",
-      "name": "KKE 16/19 Talaria MX3/MX4 Wheels  (NO TIRES)",
+      "name": "KKE 16/19 Talaria MX3/MX4 Wheels (NO TIRES)",
       "brand": "KKE Racing",
       "category": "wheels",
       "price_usd": 569.0,
@@ -826,6 +826,117 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "rippin-blackline-offroad-lb2",
+      "name": "Rippin Moto Blackline Off-Road Wheelset (Light Bee 2)",
+      "brand": "Rippin Moto",
+      "category": "wheels",
+      "price_usd": 799,
+      "vendor": "Rippin Moto",
+      "buy_url": "https://rippinmoto.com/products/blackline-off-road-wheelset-for-sur-ron-light-bee-2",
+      "vendors": [
+        {
+          "vendor": "Rippin Moto",
+          "price_usd": 799,
+          "buy_url": "https://rippinmoto.com/products/blackline-off-road-wheelset-for-sur-ron-light-bee-2"
+        }
+      ],
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://rippinmoto.com/products/blackline-off-road-wheelset-for-sur-ron-light-bee-2"
+      ],
+      "last_checked": "2026-11-04",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/rippin-blackline-offroad-lb2.webp"
+    },
+    {
+      "id": "rippin-blackline-sm-lb2",
+      "name": "Rippin Moto Blackline Supermoto Wheelset (Light Bee 2)",
+      "brand": "Rippin Moto",
+      "category": "wheels",
+      "price_usd": 779,
+      "vendor": "Rippin Moto",
+      "buy_url": "https://rippinmoto.com/products/blackline-supermoto-wheelset-for-sur-ron-light-bee-2",
+      "vendors": [
+        {
+          "vendor": "Rippin Moto",
+          "price_usd": 779,
+          "buy_url": "https://rippinmoto.com/products/blackline-supermoto-wheelset-for-sur-ron-light-bee-2"
+        }
+      ],
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://rippinmoto.com/products/blackline-supermoto-wheelset-for-sur-ron-light-bee-2"
+      ],
+      "last_checked": "2026-11-04",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/rippin-blackline-sm-lb2.webp"
+    },
+    {
+      "id": "wheels-kke-lightbee-16-19",
+      "name": "KKE Light Bee 16/19-Inch Wheel Rim Kit",
+      "brand": null,
+      "category": "wheels",
+      "price_usd": 569,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 569,
+          "buy_url": "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+        },
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 569,
+          "buy_url": "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "last_checked": "2026-10-18",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/wheels-kke-lightbee-16-19.webp"
+    },
+    {
+      "id": "stormbee-supermoto-wheels",
+      "name": "Storm Bee Supermoto Wheel Kit",
+      "brand": null,
+      "category": "wheels",
+      "price_usd": null,
+      "vendor": null,
+      "buy_url": null,
+      "vendors": [],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [],
+      "last_checked": null,
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/stormbee-supermoto-wheels.webp",
+      "hidden": true
     }
   ],
   "compatibility": [
@@ -1470,6 +1581,174 @@
       "product_id": "wheels-bonnell-805-rx-17-17-supermoto-wheel-set",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee2",
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/blackline-off-road-wheelset-for-sur-ron-light-bee-2"
+      ],
+      "notes": "Rippin Moto sells this as an LB2-specific wheelset (19/16, 19/18, 21/18). 21\" front may hit fork/fender at full compression; taller rear may need a longer chain (checked Nov 4, 2026)",
+      "product_id": "rippin-blackline-offroad-lb2",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee2",
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/blackline-supermoto-wheelset-for-sur-ron-light-bee-2"
+      ],
+      "notes": "Rippin Moto sells this as an LB2-specific supermoto wheelset (16/16, 17/17). Rotors and rear sprocket not included (checked Nov 4, 2026)",
+      "product_id": "rippin-blackline-sm-lb2",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss40",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "komodo",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "arctic-xd",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
+        "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "wheels-kke-lightbee-16-19",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "stormbee-supermoto-wheels",
+      "required_adapters": null,
+      "status": "verify"
     }
   ]
 }

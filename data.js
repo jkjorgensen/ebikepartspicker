@@ -1,4 +1,4 @@
-/* eBikePartsPicker catalog. Catalog v4.14.5, last researched 2026-11-10.
+/* eBikePartsPicker catalog. Catalog v4.14.7, last researched 2026-11-10.
    46 bikes / 23 categories / 564 parts (557 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
@@ -213,7 +213,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
       {v:'E-Moto USA', p:1289.99, url:'https://e-motousa.com/product/torp-tm40pro-motor-for-surron-light-bee/', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'TORP Motors', p:1299, url:'https://webshop.torpmotors.com/product/torp-tm40pro-motor-for-surron-light-bee/'},
+      {v:'TORP Motors', p:1299, url:'https://www.torpmotors.com/shop/torp-tm40pro-motor-for-surron-light-bee/'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4","mx5","ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","ventus-plus","ventus-evo"], no:[],
@@ -740,7 +740,7 @@ var CATEGORIES = [
      fits:["sr"], likely:[], no:[],
      badge:'Shock', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-r38-2sc-e-ride-pro-sr.webp'
     },
-    {name:'E-Moto ER30 Rear Shock Tech Suspension by Formula  | for Altis Sigma, Talaria Sting MX3/MX4/MX5', pid:'revrides-tech-suspension-by-formula-e-moto-rear-shock-for-talaria-stin', tier:'premium',
+    {name:'E-Moto ER30 Rear Shock Tech Suspension by Formula | for Altis Sigma, Talaria Sting MX3/MX4/MX5', pid:'revrides-tech-suspension-by-formula-e-moto-rear-shock-for-talaria-stin', tier:'premium',
      prices:[
       {v:'REV Rides', p:975, url:'https://revrides.com/products/tech-suspension-by-formula-e-moto-rear-shock-for-talaria-sting-mx3-mx4-mx5', chk:'2026-10-27'},
      ],
@@ -922,7 +922,7 @@ var CATEGORIES = [
      fits:["ss20"], likely:[], no:[],
      badge:'Wheel', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she8018-18-rear-rim-spoke-with-nipples-set10pcs-set-ss2-0.webp'
     },
-    {name:'KKE 16/19 Talaria MX3/MX4 Wheels  (NO TIRES)', pid:'chargedcycleworks-kke-19-16-e-bike-spoked-wheels-for-talaria-sting-mx3', tier:'premium',
+    {name:'KKE 16/19 Talaria MX3/MX4 Wheels (NO TIRES)', pid:'chargedcycleworks-kke-19-16-e-bike-spoked-wheels-for-talaria-sting-mx3', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:569, url:'https://chargedcycleworks.com/products/kke-19-16-e-bike-spoked-wheels-for-talaria-sting-mx3-r-mx4-collective', chk:'2026-10-27'},
      ],
@@ -2397,7 +2397,7 @@ var CATEGORIES = [
      fits:["lightbee"], likely:[], no:[],
      badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-420-primary-chain-drive-alignment-shim-surron.webp'
     },
-    {name:'SHE7876 - Motor Mount  Bolts Kit/  Belt Adjustment Kit - SS2.0', pid:'eridepro-she7876-motor-mount-bolts-kit-belt-adjustment-kit-ss2-0', tier:'budget',
+    {name:'SHE7876 - Motor Mount Bolts Kit/ Belt Adjustment Kit - SS2.0', pid:'eridepro-she7876-motor-mount-bolts-kit-belt-adjustment-kit-ss2-0', tier:'budget',
      prices:[
       {v:'E Ride Pro', p:9, url:'https://www.eridepro.com/products/she7876-motor-mount-bolts-kit-belt-adjustment-kit-ss2-0', chk:'2026-10-27'},
      ],
@@ -2453,7 +2453,7 @@ var CATEGORIES = [
      fits:["ss30", "sr"], likely:[], no:[],
      badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-f.webp'
     },
-    {name:'E-Moto 428 Chain by Warp 9 For Altis Sigma,  Eride Pro Sr, 3.0', pid:'revrides-e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0', tier:'mid',
+    {name:'E-Moto 428 Chain by Warp 9 For Altis Sigma, Eride Pro Sr, 3.0', pid:'revrides-e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0', tier:'mid',
      prices:[
       {v:'REV Rides', p:83, url:'https://revrides.com/products/e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0', chk:'2026-10-27'},
      ],
@@ -3003,7 +3003,7 @@ var CATEGORIES = [
      fits:["ss20"], likely:[], no:[],
      badge:'Linkage', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she7873-rear-suspension-linkage-bolts.webp'
     },
-    {name:'Stainless Bearing Shafts Sleeve for Linkage | Surron LBX  | by Prickly Motorsports', pid:'revrides-stainless-bearing-shafts-sleeve-for-linkage-surron-lbx-by-pri', tier:'budget',
+    {name:'Stainless Bearing Shafts Sleeve for Linkage | Surron LBX | by Prickly Motorsports', pid:'revrides-stainless-bearing-shafts-sleeve-for-linkage-surron-lbx-by-pri', tier:'budget',
      prices:[
       {v:'REV Rides', p:15, url:'https://revrides.com/products/stainless-bearing-shafts-sleeve-for-linkage-surron-lbx-by-prickly-motorsports', chk:'2026-10-27'},
      ],
@@ -3626,7 +3626,7 @@ var CATEGORIES = [
      fits:["ss30", "ss20"], likely:[], no:[],
      badge:'Street', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-she7049-horn-kit.webp'
     },
-    {name:'GritShift Blazer LED Headlight for Talaria  (Talaria Sting MX4/MX5 Only)', pid:'tbelectricmoto-gritshift-blazer-led-headlight-for-talaria-mx4-talaria', tier:'budget',
+    {name:'GritShift Blazer LED Headlight for Talaria (Talaria Sting MX4/MX5 Only)', pid:'tbelectricmoto-gritshift-blazer-led-headlight-for-talaria-mx4-talaria', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:19, url:'https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only', chk:'2026-10-27'},
      ],
@@ -3739,7 +3739,7 @@ var CATEGORIES = [
      fits:["komodo"], likely:[], no:[],
      badge:'Swingarm', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-talaria-komodo-oem-rear-swingarm-bolt.webp'
     },
-    {name:'Talaria Sting MX3 / MX4  -  Swingarm Bearing | OEM', pid:'chargedcycleworks-oem-swingarm-bearing-talaria-sting-mx3-mx4-1', tier:'OEM',
+    {name:'Talaria Sting MX3 / MX4 - Swingarm Bearing | OEM', pid:'chargedcycleworks-oem-swingarm-bearing-talaria-sting-mx3-mx4-1', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:11.99, url:'https://chargedcycleworks.com/products/oem-swingarm-bearing-talaria-sting-mx3-mx4-1', chk:'2026-10-27'},
      ],
@@ -4125,7 +4125,7 @@ var CATEGORIES = [
      fits:["ss30"], likely:[], no:[],
      badge:'Tire', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/eridepro-e7511-1-babyfat-front-tire-19-w-o-tire-tube-3-0-sr.webp'
     },
-    {name:'SHE7004 - 19" Babyfat  Front Tire +Tube+Rim Stripe - SS2.0/SS3.0/SR', pid:'eridepro-she7004-babyfat-front-tire-tube-rim-stripe', tier:'mid',
+    {name:'SHE7004 - 19" Babyfat Front Tire +Tube+Rim Stripe - SS2.0/SS3.0/SR', pid:'eridepro-she7004-babyfat-front-tire-tube-rim-stripe', tier:'mid',
      prices:[
       {v:'E Ride Pro', p:79, url:'https://www.eridepro.com/products/she7004-babyfat-front-tire-tube-rim-stripe', chk:'2026-10-27'},
      ],
@@ -4659,7 +4659,7 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'torp-tm25|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm25-motor']},
   'torp-tm40-pro|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee']},
   'torp-tm40-pro|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee']},
-  'torp-tm40-pro|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://webshop.torpmotors.com/product/torp-tm40pro-motor-for-surron-light-bee/']},
+  'torp-tm40-pro|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://www.torpmotors.com/shop/torp-tm40pro-motor-for-surron-light-bee/']},
   'torp-tm40-pro|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://e-motousa.com/product/torp-tm40pro-motor-for-surron-light-bee/']},
   'torp-tm50-offroad-torque-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee']},
   'torp-tm50-pro-topspeed-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee']},

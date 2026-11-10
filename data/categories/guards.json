@@ -822,6 +822,62 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/mxwraps-surron-coated-frame-guards-lbx.webp"
+    },
+    {
+      "id": "mxps-sprocket-guard-stormbee",
+      "name": "Aluminum Sprocket Guard (Storm Bee)",
+      "brand": "Guard",
+      "category": "guards",
+      "price_usd": 60,
+      "vendor": "MXpartshop",
+      "buy_url": "https://mxpartshop.com/products/aluminum-sprocket-guard-chain-protector-cover-for-sur-ron-storm-bee",
+      "vendors": [
+        {
+          "vendor": "MXpartshop",
+          "price_usd": 60,
+          "buy_url": "https://mxpartshop.com/products/aluminum-sprocket-guard-chain-protector-cover-for-sur-ron-storm-bee"
+        }
+      ],
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://mxpartshop.com/products/aluminum-sprocket-guard-chain-protector-cover-for-sur-ron-storm-bee"
+      ],
+      "last_checked": "2026-11-04",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/mxps-sprocket-guard-stormbee.webp"
+    },
+    {
+      "id": "mxps-skid-plate-stormbee",
+      "name": "Aluminum Skid Plate (Storm Bee)",
+      "brand": "Skid plate",
+      "category": "guards",
+      "price_usd": 130,
+      "vendor": "MXpartshop",
+      "buy_url": "https://mxpartshop.com/products/aluminum-underbody-guard-protector-cover-for-sur-ron-storm-bee",
+      "vendors": [
+        {
+          "vendor": "MXpartshop",
+          "price_usd": 130,
+          "buy_url": "https://mxpartshop.com/products/aluminum-underbody-guard-protector-cover-for-sur-ron-storm-bee"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://mxpartshop.com/products/aluminum-underbody-guard-protector-cover-for-sur-ron-storm-bee"
+      ],
+      "last_checked": "2026-11-04",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/mxps-skid-plate-stormbee.webp"
     }
   ],
   "compatibility": [
@@ -1301,6 +1357,26 @@
       ],
       "notes": "MXwraps FAQ: fits the Surron Light Bee X (LBX) (checked Nov 10, 2026)",
       "product_id": "mxwraps-surron-coated-frame-guards-lbx",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [
+        "https://mxpartshop.com/products/aluminum-sprocket-guard-chain-protector-cover-for-sur-ron-storm-bee"
+      ],
+      "notes": "Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)",
+      "product_id": "mxps-sprocket-guard-stormbee",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [
+        "https://mxpartshop.com/products/aluminum-underbody-guard-protector-cover-for-sur-ron-storm-bee"
+      ],
+      "notes": "Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)",
+      "product_id": "mxps-skid-plate-stormbee",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
     }

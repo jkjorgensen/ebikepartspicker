@@ -834,6 +834,14 @@
       "product_id": "motor-bonnell-805-rx-motor-encoder",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "stormbee-motor-oem",
+      "required_adapters": null,
+      "status": "verify"
     }
   ],
   "products": [
@@ -1148,7 +1156,7 @@
       "notes": "50kW peak, 19kW continuous, 1100A phase, 86Nm, 12kg, IP67, 65mm magnets, Encoder (1024) or Hall. Verify sensor version against controller. So powerful a full bike upgrade (chain, sprocket, belt, brakes, high-discharge battery) is required.",
       "source_urls": [
         "https://chargedcycleworks.com/products/torp-tm40-motor-for-surron-light-bee",
-        "https://webshop.torpmotors.com/product/torp-tm40pro-motor-for-surron-light-bee/"
+        "https://www.torpmotors.com/shop/torp-tm40pro-motor-for-surron-light-bee/"
       ],
       "last_checked": "2026-10-12",
       "weight_kg": 12.02,
@@ -1167,7 +1175,7 @@
         {
           "vendor": "TORP Motors",
           "price_usd": 1299.0,
-          "buy_url": "https://webshop.torpmotors.com/product/torp-tm40pro-motor-for-surron-light-bee/"
+          "buy_url": "https://www.torpmotors.com/shop/torp-tm40pro-motor-for-surron-light-bee/"
         }
       ],
       "motor_peak_kw": 50,
@@ -1289,6 +1297,29 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "stormbee-motor-oem",
+      "name": "Storm Bee Motor Assembly",
+      "brand": null,
+      "category": "motor",
+      "price_usd": null,
+      "vendor": null,
+      "buy_url": null,
+      "vendors": [],
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [],
+      "last_checked": null,
+      "weight_kg": 24,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/stormbee-motor-oem.jpg",
+      "motor_kw": 22.5,
+      "motor_peak_kw": 22.5,
+      "hidden": true
     }
   ]
 }
