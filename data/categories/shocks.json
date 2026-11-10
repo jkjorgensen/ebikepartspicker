@@ -225,6 +225,16 @@
       "product_id": "shock-sirris-r46-rear-shock-spring",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "zero-xe",
+      "fitment_source_urls": [
+        "https://ridesirris.com/products/r46-zero-xe-trail-tune-lsc-zero-xe"
+      ],
+      "notes": "SIRRIS product page is a dedicated Zero XE SKU: \"R46 Zero XE Trail Tune | LSC | Zero XE\", described as a direct-fit upgrade developed around the XE platform (checked Oct 21, 2026)",
+      "product_id": "sirris-r46-zero-xe",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ],
   "products": [
@@ -763,7 +773,7 @@
     },
     {
       "id": "revrides-tech-suspension-by-formula-e-moto-rear-shock-for-talaria-stin",
-      "name": "E-Moto ER30 Rear Shock Tech Suspension by Formula  | for Altis Sigma, Talaria Sting MX3/MX4/MX5",
+      "name": "E-Moto ER30 Rear Shock Tech Suspension by Formula | for Altis Sigma, Talaria Sting MX3/MX4/MX5",
       "brand": "Pinned Electric",
       "category": "shock",
       "price_usd": 975.0,
@@ -893,6 +903,34 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "sirris-r46-zero-xe",
+      "name": "Sirris R46 Shock for Zero XE",
+      "brand": "Sirris",
+      "category": "shock",
+      "price_usd": 899,
+      "vendor": "SIRRIS",
+      "buy_url": "https://ridesirris.com/products/r46-zero-xe-trail-tune-lsc-zero-xe",
+      "vendors": [
+        {
+          "vendor": "SIRRIS",
+          "price_usd": 899,
+          "buy_url": "https://ridesirris.com/products/r46-zero-xe-trail-tune-lsc-zero-xe"
+        }
+      ],
+      "tier": "performance",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://ridesirris.com/products/r46-zero-xe-trail-tune-lsc-zero-xe"
+      ],
+      "last_checked": "2026-10-21",
+      "weight_kg": 1.76,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/sirris-r46-zero-xe.webp"
     }
   ]
 }

@@ -767,6 +767,34 @@
       "product_id": "controller-bonnell-805-rx-x30-controller",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "stormbee-controller-oem",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=50927732457688"
+      ],
+      "notes": "CCW: X-9000 V3 kit, Talaria MX3/MX4/MX5 harness variant",
+      "product_id": "ebmx-x9000-v3-kit-talaria",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=50927732457688"
+      ],
+      "notes": "CCW: X-9000 V3 kit, Talaria MX3/MX4/MX5 harness variant",
+      "product_id": "ebmx-x9000-v3-kit-talaria",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ],
   "products": [
@@ -1190,6 +1218,63 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "stormbee-controller-oem",
+      "name": "Storm Bee FOC Sine Wave Controller",
+      "brand": null,
+      "category": "controller",
+      "price_usd": null,
+      "vendor": null,
+      "buy_url": null,
+      "vendors": [],
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [],
+      "last_checked": null,
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/stormbee-controller-oem.jpg",
+      "controller_max_kw": 22.5,
+      "hidden": true
+    },
+    {
+      "id": "ebmx-x9000-v3-kit-talaria",
+      "name": "EBMX X-9000 V3 Controller Kit with Talaria MX3/MX4/MX5 Harness",
+      "brand": "X-9000 V3",
+      "category": "controller",
+      "price_usd": 1199,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=50927732457688",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1199,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=50927732457688"
+        },
+        {
+          "vendor": "REV Rides",
+          "price_usd": 1199,
+          "buy_url": "https://revrides.com/products/ebmx-x-9000-v3-controller-full-kit-sur-ron-talaria-e-ride-pro-altis-sigma?variant=50076992831778"
+        }
+      ],
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=50927732457688",
+        "https://revrides.com/products/ebmx-x-9000-v3-controller-full-kit-sur-ron-talaria-e-ride-pro-altis-sigma?variant=50076992831778"
+      ],
+      "last_checked": "2026-10-18",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": null,
+      "controller_max_kw": 60
     }
   ]
 }

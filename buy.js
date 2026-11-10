@@ -52,7 +52,7 @@ function buyBikeEl(bikeId, name, compact){
   var a = document.createElement('a'); a.className = 'buybtn'; var aff = /sjv\.io/.test(buy.url);
   a.href = buy.url; a.target = '_blank'; a.rel = 'noopener' + (aff ? ' sponsored' : '');
   a.textContent = (compact ? 'Buy' : 'Buy the ' + (name||'bike')) + ' \u2014 ' + buy.source; w.appendChild(a);
-  if(aff){ var d = document.createElement('a'); d.className = 'buyalt'; d.href = '/affiliate-disclosure.html'; d.textContent = 'Affiliate link \u2014 disclosure'; w.appendChild(d); }
+  if(aff){ var d = document.createElement('a'); d.className = 'buyalt'; d.href = '/affiliate-disclosure'; d.textContent = 'Affiliate link \u2014 disclosure'; w.appendChild(d); }
   if(buy.alt){ var b = document.createElement('a'); b.className = 'buyalt'; b.href = buy.alt; b.target = '_blank'; b.rel = 'noopener';
     b.textContent = 'Also at ' + (buy.altSource || 'another store'); w.appendChild(b); }
   return w;

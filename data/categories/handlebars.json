@@ -599,6 +599,37 @@
       "product_id": "handlebar-bonnell-805-rx-high-bend-handlebar",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee2",
+      "fitment_source_urls": [
+        "https://warp9racing.com/collections/surron-light-bee-2",
+        "https://radmotousa.com/blogs/news/surron-light-bee-2-parts-fitment-guide"
+      ],
+      "notes": "Warp 9 lists this bar in its Surron Light Bee 2 collection; LB2 uses a 31.8mm clamp (checked Nov 4, 2026)",
+      "product_id": "warp9-emoto-318-handlebar",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [
+        "https://adventurepartsllc.com/products/mika-metals-pro-series-1-1-8-oversize-handlebars-sur-ron-storm-bee-2023-2025"
+      ],
+      "notes": "Seller listing names the Sur-Ron Storm Bee 2023–2025 (checked Nov 4, 2026)",
+      "product_id": "mika-pro-118-stormbee",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [
+        "https://adventurepartsllc.com/products/tusk-chub-1-1-8-big-bar-sur-ron-storm-bee-2023-2025"
+      ],
+      "notes": "Seller listing names the Sur-Ron Storm Bee 2023–2025 (checked Nov 4, 2026)",
+      "product_id": "tusk-chub-118-stormbee",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
     }
   ],
   "products": [
@@ -1234,6 +1265,90 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "warp9-emoto-318-handlebar",
+      "name": "Warp 9 E-Moto 31.8mm Handlebar",
+      "brand": "Warp 9",
+      "category": "handlebar",
+      "price_usd": 87,
+      "vendor": "Warp 9 Racing",
+      "buy_url": "https://warp9racing.com/products/handlebars",
+      "vendors": [
+        {
+          "vendor": "Warp 9 Racing",
+          "price_usd": 87,
+          "buy_url": "https://warp9racing.com/products/handlebars"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://warp9racing.com/products/handlebars"
+      ],
+      "last_checked": "2026-11-04",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/warp9-emoto-318-handlebar.webp"
+    },
+    {
+      "id": "mika-pro-118-stormbee",
+      "name": "Mika Metals Pro Series 1-1/8\" Oversize Handlebar (Storm Bee)",
+      "brand": "Mika Metals",
+      "category": "handlebar",
+      "price_usd": 115.88,
+      "vendor": "Adventure Parts",
+      "buy_url": "https://adventurepartsllc.com/products/mika-metals-pro-series-1-1-8-oversize-handlebars-sur-ron-storm-bee-2023-2025",
+      "vendors": [
+        {
+          "vendor": "Adventure Parts",
+          "price_usd": 115.88,
+          "buy_url": "https://adventurepartsllc.com/products/mika-metals-pro-series-1-1-8-oversize-handlebars-sur-ron-storm-bee-2023-2025"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://adventurepartsllc.com/products/mika-metals-pro-series-1-1-8-oversize-handlebars-sur-ron-storm-bee-2023-2025"
+      ],
+      "last_checked": "2026-11-04",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/mika-pro-118-stormbee.webp"
+    },
+    {
+      "id": "tusk-chub-118-stormbee",
+      "name": "Tusk Chub 1-1/8\" Big Bar (Storm Bee)",
+      "brand": "Tusk",
+      "category": "handlebar",
+      "price_usd": 53.99,
+      "vendor": "Adventure Parts",
+      "buy_url": "https://adventurepartsllc.com/products/tusk-chub-1-1-8-big-bar-sur-ron-storm-bee-2023-2025",
+      "vendors": [
+        {
+          "vendor": "Adventure Parts",
+          "price_usd": 53.99,
+          "buy_url": "https://adventurepartsllc.com/products/tusk-chub-1-1-8-big-bar-sur-ron-storm-bee-2023-2025"
+        }
+      ],
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://adventurepartsllc.com/products/tusk-chub-1-1-8-big-bar-sur-ron-storm-bee-2023-2025"
+      ],
+      "last_checked": "2026-11-04",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/tusk-chub-118-stormbee.webp"
     }
   ]
 }

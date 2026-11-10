@@ -1,12 +1,29 @@
 """Static '[bike] upgrades' and '[bike] vs [bike]' pages from real data only.
 Input: data/seo-fit-snapshot.json (dumped from the live app's checkFit) + data/bikes.json.
 Run: python3 scripts/build_upgrades_vs.py"""
-import json,os,html,urllib.parse
+import json,os,html,urllib.parse,re
 R=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D=json.load(open(f'{R}/data/seo-fit-snapshot.json'))
 BJ={b['id']:b for b in (lambda j:j if isinstance(j,list) else j['bikes'])(json.load(open(f'{R}/data/bikes.json')))}
 BK={b['id']:b for b in D['bikes']}
 BASE='https://ebikepartspicker.net'; IMGV='4.5.0'
+def fit_title(t,mx=70):
+  """Keep titles <=70 chars: drop middle ' | ' segments, then shorten long phrases, then trim the name at a word."""
+  if len(t)<=mx: return t
+  for a,b in [(' — Fitment, Specs & Prices',' — Fit & Prices'),(' | Fit-Checked, Prices Checked',''),(' Upgrades & Parts',' Parts'),(': Parts List & Total',' Build'),(': Which Bikes They Fit',''),(' Upgrades',''),(' — Fit & Prices','')]:
+    if len(t)<=mx: break
+    t=t.replace(a,b)
+  if len(t)<=mx: return t
+  suf=' | eBikePartsPicker'
+  main=t[:-len(suf)] if t.endswith(suf) else t
+  room=mx-len(suf)
+  if len(main)>room: main=main[:room-1].rsplit(' ',1)[0].rstrip(' ,-|/:(—')+'…'
+  return main+suf
+def fit_desc(d,mn=50,mx=160):
+  d=re.sub(r'\s+',' ',d or '').strip()
+  if len(d)>mx: d=d[:mx-1].rsplit(' ',1)[0].rstrip(' ,;:.(—-')+'…'
+  if len(d)<mn: d=(d+' Fit-checked e-moto parts, prices and builds on eBikePartsPicker.').strip()
+  return d
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else 'Not verified'
 UP=['lightbee','ss20','mx4','ultrabee','ss30','mx5','sr','ventus-plus','komodo']
@@ -25,20 +42,21 @@ def fits(bid):
         out.setdefault(GOAL.get(c['id'],'Other upgrades'),[]).append((c['name'],o,st,p))
   return out
 def head(title,desc,path,img):
+  title=fit_title(title); desc=fit_desc(desc)
   return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{BASE}{path}"><meta property="og:type" content="article"><meta property="og:site_name" content="eBikePartsPicker"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{BASE}{path}"><meta property="og:image" content="{BASE}/img/bikes/{img}-800.webp">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="/styles.css?v=4.14.0">
+<link rel="stylesheet" href="/styles.css?v=4.14.7">
 </head><body class="tp">
 <header class="tp-head"><a class="tp-brand" href="/">eBikePartsPicker</a><div class="ux-tools"><button type="button" class="ux-sbtn" data-ux-search aria-label="Search parts, bikes and categories"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="ux-sbtn-t">Search</span><kbd>/</kbd></button><button type="button" class="ux-bike" data-ux-bike><span class="ux-bike-t">Pick your bike</span></button></div><a class="tp-back" href="/">← Back to the builder</a></header>
 <main class="tp-main">'''
-FOOT='''<p class="seo-fine">Prices were checked on the retailer’s page on the date shown and can change. Fit status comes from the seller or manufacturer listing; confirm fitment, price and stock before you buy. Some links on this site are affiliate links (<a href="/affiliate-disclosure.html">disclosure</a>).</p></main>
-<footer class="sitefoot tp-foot"><nav class="tp-nav"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms of use</a><a href="/affiliate-disclosure.html">Affiliate disclosure</a><a href="/fitment-methodology.html">Fitment methodology</a><a href="/report-a-part.html">Report a part</a></nav></footer>
+FOOT='''<p class="seo-fine">Prices were checked on the retailer’s page on the date shown and can change. Fit status comes from the seller or manufacturer listing; confirm fitment, price and stock before you buy. Some links on this site are affiliate links (<a href="/affiliate-disclosure">disclosure</a>).</p></main>
+<footer class="sitefoot tp-foot"><nav class="tp-nav"><a href="/about">About</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms of use</a><a href="/affiliate-disclosure">Affiliate disclosure</a><a href="/fitment-methodology">Fitment methodology</a><a href="/report-a-part">Report a part</a></nav></footer>
 <script src="/track.js?v=1" defer></script>
-<script src="/ux.js?v=4.14.0" defer></script>
+<script src="/ux.js?v=4.14.7" defer></script>
 </body></html>'''
 def spec(bid):
   b=BK[bid]; s=BJ.get(bid,{}).get('stock_specs',{})

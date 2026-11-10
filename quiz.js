@@ -577,7 +577,7 @@ function recCard(picks, kind, a){
     var ba = el('a','qlink qbuy', 'Buy the '+bike.name+' — '+buy.source);
     ba.href = buy.url; ba.target='_blank'; ba.rel='noopener'+(/sjv\.io/.test(buy.url)?' sponsored':'');
     card.appendChild(ba);
-    if(/sjv\.io/.test(buy.url)){ var qd = el('a','qlink qbuy-alt','Affiliate link \u2014 disclosure'); qd.href='/affiliate-disclosure.html'; card.appendChild(qd); }
+    if(/sjv\.io/.test(buy.url)){ var qd = el('a','qlink qbuy-alt','Affiliate link \u2014 disclosure'); qd.href='/affiliate-disclosure'; card.appendChild(qd); }
     if(buy.alt){
       var aa = el('a','qlink qbuy-alt', 'Also at '+(buy.altSource||'another store'));
       aa.href = buy.alt; aa.target='_blank'; aa.rel='noopener';

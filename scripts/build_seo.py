@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
-import json,sys,os,html,shutil,urllib.parse
+import json,sys,os,html,shutil,urllib.parse,re
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.net'; V='4.14.0'; IMGV='4.5.0'; TODAY='2026-11-10'
+BASE='https://ebikepartspicker.net'; V='4.14.7'; IMGV='4.5.0'; TODAY='2026-11-10'
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else ''
 SNAP=json.load(open(os.path.join(ROOT,'data','seo-fit-snapshot.json')))
@@ -20,19 +20,37 @@ def host(u):
   except Exception: return 'retailer'
 def buy(pr,label=None):
   if not pr or not pr.get('url'): return ''
-  if pr.get('aff'): return f'<a class="sbuy sbuy-voro" href="{e(pr["url"])}" rel="sponsored noopener" target="_blank">Buy at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure.html">(affiliate link)</a>'
+  if pr.get('aff'): return f'<a class="sbuy sbuy-voro" href="{e(pr["url"])}" rel="sponsored noopener" target="_blank">Buy at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure">(affiliate link)</a>'
   return f'<a class="sbuy" href="{e(pr["url"])}" rel="noopener" target="_blank">View at {e(pr.get("v") or host(pr["url"]))}</a>'
+def fit_title(t,mx=70):
+  """Keep titles <=70 chars: drop middle ' | ' segments, then shorten long phrases, then trim the name at a word."""
+  if len(t)<=mx: return t
+  for a,b in [(' — Fitment, Specs & Prices',' — Fit & Prices'),(' | Fit-Checked, Prices Checked',''),(' Upgrades & Parts',' Parts'),(': Parts List & Total',' Build'),(': Which Bikes They Fit',''),(' Upgrades',''),(' — Fit & Prices','')]:
+    if len(t)<=mx: break
+    t=t.replace(a,b)
+  if len(t)<=mx: return t
+  suf=' | eBikePartsPicker'
+  main=t[:-len(suf)] if t.endswith(suf) else t
+  room=mx-len(suf)
+  if len(main)>room: main=main[:room-1].rsplit(' ',1)[0].rstrip(' ,-|/:(—')+'…'
+  return main+suf
+def fit_desc(d,mn=50,mx=160):
+  d=re.sub(r'\s+',' ',d or '').strip()
+  if len(d)>mx: d=d[:mx-1].rsplit(' ',1)[0].rstrip(' ,;:.(—-')+'…'
+  if len(d)<mn: d=(d+' Fit-checked e-moto parts, prices and builds on eBikePartsPicker.').strip()
+  return d
 def builder(bid,sel=None):
   h={'b':bid}; 
   if sel: h['s']=sel
   return '/#'+urllib.parse.quote(json.dumps(h,separators=(',',':')),safe='{}":,')
 def page(path,title,desc,body,crumbs,img=None,ld_extra=None):
+  title=fit_title(title); desc=fit_desc(desc)
   url=BASE+path; img=img or BASE+'/img/bikes/og-ventus-plus.jpg'
   bl={"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":BASE+u} for i,(n,u) in enumerate(crumbs)]}
   lds=[bl]+(ld_extra or [])
   cr=' <span>/</span> '.join(f'<a href="{e(u)}">{e(n)}</a>' for n,u in crumbs[:-1])+f' <span>/</span> {e(crumbs[-1][0])}'
-  nav=''.join(f'<a href="/{s}.html">{t}</a>' for s,t in [x for x in [('about','About'),('fitment-methodology','Fitment methodology'),('affiliate-disclosure','Affiliate disclosure'),('privacy','Privacy'),('terms','Terms'),('contact','Contact')] if os.path.exists(os.path.join(ROOT,x[0]+'.html'))])
-  AFF=' (<a href="/affiliate-disclosure.html">disclosure</a>)' if os.path.exists(os.path.join(ROOT,'affiliate-disclosure.html')) else ''
+  nav=''.join(f'<a href="/{s}">{t}</a>' for s,t in [x for x in [('about','About'),('fitment-methodology','Fitment methodology'),('affiliate-disclosure','Affiliate disclosure'),('privacy','Privacy'),('terms','Terms'),('contact','Contact')] if os.path.exists(os.path.join(ROOT,x[0]+'.html'))])
+  AFF=' (<a href="/affiliate-disclosure">disclosure</a>)' if os.path.exists(os.path.join(ROOT,'affiliate-disclosure.html')) else ''
   out=f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}">
@@ -74,10 +92,10 @@ for b in seo_bikes:
     ps=[p for p in parts if p['cat']==c['id']]
     if ps: cats.append((c,sorted(ps,key=lambda p:(not (p['price'] or {}).get('aff'),p['status']!='confirmed',(p['price'] or {}).get('p') or 9e9))))
   nconf=sum(p['status']=='confirmed' for p in parts)
-  FM='<a href="/fitment-methodology.html">How we confirm fitment</a> \u00b7 ' if os.path.exists(os.path.join(ROOT,'fitment-methodology.html')) else ''
+  FM='<a href="/fitment-methodology">How we confirm fitment</a> \u00b7 ' if os.path.exists(os.path.join(ROOT,'fitment-methodology.html')) else ''
   spec=[('Price',bike_price(b))]+([('Peak power',f'{b["kw"]} kW')] if b.get('kw') else [])+([('Weight',f'{b["weight"]} lb')] if b.get('weight') else [])
   specs=''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k,v in spec)
-  bikebuy=f'<a class="sbuy sbuy-voro" href="{e(b["srcUrl"])}" rel="sponsored noopener" target="_blank">Buy the {e(b["name"])} at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure.html">(affiliate link)</a>' if b['src']=='voro' and b['srcUrl'] else ''
+  bikebuy=f'<a class="sbuy sbuy-voro" href="{e(b["srcUrl"])}" rel="sponsored noopener" target="_blank">Buy the {e(b["name"])} at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure">(affiliate link)</a>' if b['src']=='voro' and b['srcUrl'] else ''
   gl=''.join(f'<li><a href="/guides/{bid}-{g["tier"]}/">{e(b["name"])} {e(TIER.get(g["tier"],g["tier"]))} build</a></li>' for g in guides_by_bike.get(bid,[]))
   extra=(f'<h2>Build guides</h2><ul class="seo-links">{gl}</ul>' if gl else '')+(f'<p><a href="/power/#{bid}">Power upgrades for the {e(b["name"])}</a></p>' if bid in power_bikes else '')
   toc=' '.join(f'<a href="#{c["id"]}">{e(c["name"])}</a>' for c,_ in cats)
@@ -112,7 +130,7 @@ for g in D['guides']:
   body=f"""<h1>{e(b['name'])} {e(tn)} build</h1><p class="seo-lede">{e(g['blurb'])} Every part is a confirmed fit for the {e(b['name'])} (the seller listing names it) and every price was checked on the retailer\u2019s page.</p>
 <ul class="sp-list">{rows}</ul>
 <p class="seo-total">Parts total: <strong>{money(tot)}</strong>{(' \u00b7 With the bike ('+e(bike_price(b))+'): <strong>'+money(tot+b['price'])+'</strong>') if b['price'] else ''}</p>
-<p class="seo-cta"><a class="cta" href="{e(builder(b['id'],sel))}">Customize this build</a>{(' <a class="sbuy sbuy-voro" href="'+e(b['srcUrl'])+'" rel="sponsored noopener" target="_blank">Buy the '+e(b['name'])+' at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure.html">(affiliate link)</a>') if b['src']=='voro' and b['srcUrl'] else ''}</p>{pw}
+<p class="seo-cta"><a class="cta" href="{e(builder(b['id'],sel))}">Customize this build</a>{(' <a class="sbuy sbuy-voro" href="'+e(b['srcUrl'])+'" rel="sponsored noopener" target="_blank">Buy the '+e(b['name'])+' at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure">(affiliate link)</a>') if b['src']=='voro' and b['srcUrl'] else ''}</p>{pw}
 <div class="seo-pc"><div><h2>Pros</h2><ul>{pc}</ul></div><div><h2>Cons</h2><ul>{cc}</ul></div></div>
 <p>More: <a href="/bikes/{b['id']}/">all {e(b['name'])} parts</a>{''.join(f' \u00b7 <a href="/guides/{b["id"]}-{o["tier"]}/">{e(TIER.get(o["tier"]))} build</a>' for o in guides_by_bike[b['id']] if o['tier']!=g['tier'])}</p>"""
   urls.append(page(f'/guides/{b["id"]}-{g["tier"]}/',f"{b['name']} {tn} Build: Parts List & Total ({money(tot)}) | eBikePartsPicker",

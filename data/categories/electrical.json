@@ -644,6 +644,55 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "electrical-torp-egg-rider",
+      "name": "TORP EggRider Display",
+      "brand": "Display",
+      "category": "electrical",
+      "price_usd": null,
+      "vendor": null,
+      "buy_url": null,
+      "vendors": [],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [],
+      "last_checked": null,
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/electrical-torp-egg-rider.png",
+      "hidden": true
+    },
+    {
+      "id": "vtb-aetos-gen2-harness-kit",
+      "name": "VTB Aetos Gen.2 Bike-Specific Harness Kit (for Aetos Pro / Max / Ultra)",
+      "brand": null,
+      "category": "electrical",
+      "price_usd": 60,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/ventus-aetos-harness-kits",
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 60,
+          "buy_url": "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+        }
+      ],
+      "tier": "accessory",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Backfilled from data.js on 2026-11-10 (was only in data.js).",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "last_checked": "2026-10-18",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/vtb-aetos-gen2-harness.webp"
     }
   ],
   "compatibility": [
@@ -1062,6 +1111,158 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "electrical-bonnell-805-rx-bluetooth-adapter",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [],
+      "notes": "From data.js fits list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [],
+      "notes": "From data.js fits list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [],
+      "notes": "From data.js fits list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "arctic-xd",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "bonnell-805rx",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss30",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss40",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "sr",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ss20",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "storm-bee",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "komodo",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [],
+      "notes": "From data.js likely list (no FITMENT note)",
+      "product_id": "electrical-torp-egg-rider",
+      "required_adapters": null,
+      "status": "verify"
+    },
+    {
+      "bike_id": "ultrabee",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits?variant=52509563289899"
+      ],
+      "notes": "TB Electric Moto: Ultra Bee version of the Gen.2 harness for Aetos Pro/Max/Ultra",
+      "product_id": "vtb-aetos-gen2-harness-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "lightbee",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits?variant=52509557489963"
+      ],
+      "notes": "TB Electric Moto: Light Bee version of the Gen.2 harness for Aetos Pro/Max/Ultra",
+      "product_id": "vtb-aetos-gen2-harness-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx4",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits?variant=52509563322667"
+      ],
+      "notes": "TB Electric Moto: Talaria Sting MX3/4/5 version of the Gen.2 harness",
+      "product_id": "vtb-aetos-gen2-harness-kit",
+      "required_adapters": null,
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "mx5",
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits?variant=52509563322667"
+      ],
+      "notes": "TB Electric Moto: Talaria Sting MX3/4/5 version of the Gen.2 harness",
+      "product_id": "vtb-aetos-gen2-harness-kit",
       "required_adapters": null,
       "status": "confirmed_direct_fit"
     }
