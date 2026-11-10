@@ -4,6 +4,24 @@ D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abs
 BASE='https://ebikepartspicker.net'; V='4.14.8'; IMGV='4.5.0'; TODAY='2026-11-10'
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else ''
+
+FONTQ='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap'
+FONTS=(\
+'<link rel="preconnect" href="https://fonts.googleapis.com">\n'
+'<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
+f'<link rel="preload" as="style" href="{FONTQ}">\n'
+f'<link href="{FONTQ}" rel="stylesheet" media="print" onload="this.media=\'all\'">\n'
+f'<noscript><link href="{FONTQ}" rel="stylesheet"></noscript>\n')
+def thumb_src(img):
+  if not img: return img
+  base=os.path.splitext(os.path.basename(img))[0]
+  tpath=f'img/parts/thumbs/{base}.webp'
+  if os.path.exists(os.path.join(ROOT,tpath)): return tpath
+  webp=os.path.splitext(img)[0]+'.webp'
+  if img.endswith(('.jpg','.jpeg','.png','.gif')) and os.path.exists(os.path.join(ROOT,webp)): return webp
+  return img
+def img96(src, alt):
+  return f'<img src="/{e(thumb_src(src))}" alt="{e(alt)}" loading="lazy" decoding="async" width="96" height="96">'
 SNAP=json.load(open(os.path.join(ROOT,'data','seo-fit-snapshot.json')))
 FIT={o['pid']:o['fit'] for c in SNAP['cats'] for o in c['opts']}
 def fitattrs(pid):
@@ -43,7 +61,7 @@ def builder(bid,sel=None):
   h={'b':bid}; 
   if sel: h['s']=sel
   return '/#'+urllib.parse.quote(json.dumps(h,separators=(',',':')),safe='{}":,')
-def page(path,title,desc,body,crumbs,img=None,ld_extra=None):
+def page(path,title,desc,body,crumbs,img=None,ld_extra=None,preload=''):
   title=fit_title(title); desc=fit_desc(desc)
   url=BASE+path; img=img or BASE+'/img/bikes/og-ventus-plus.jpg'
   bl={"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":BASE+u} for i,(n,u) in enumerate(crumbs)]}
@@ -59,7 +77,7 @@ def page(path,title,desc,body,crumbs,img=None,ld_extra=None):
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{e(img)}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="/styles.css?v={V}">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+{FONTS}{preload}
 <script type="application/ld+json">{json.dumps(lds if len(lds)>1 else bl,ensure_ascii=False)}</script>
 </head><body class="tp seo">
 <header class="tp-head"><a class="tp-brand" href="/">eBikePartsPicker</a>{TOOLS}<a class="tp-back" href="/">Open the parts builder \u2192</a></header>
@@ -67,6 +85,8 @@ def page(path,title,desc,body,crumbs,img=None,ld_extra=None):
 <p class="seo-fine">Prices and stock were checked on the retailer\u2019s page on the date shown and can change. Confirm fitment, price and stock before you buy. Some links are affiliate links{AFF}.</p></main>
 <footer class="sitefoot tp-foot"><nav class="tp-nav">{nav}</nav></footer>
 <script src="/ux.js?v={V}" defer></script>
+<script src="/track.js?v=1" defer></script>
+<script src="/view.js?v=1" defer></script>
 </body></html>
 """
   d=os.path.join(ROOT,path.strip('/')); os.makedirs(d,exist_ok=True); open(os.path.join(d,'index.html'),'w').write(out)
@@ -77,7 +97,7 @@ def bike_price(b):
   t={'msrp':' MSRP','voro':' at Voro Motors'}.get(b['src'],'')
   return money(b['price'])+t
 def partrow(p,bid):
-  pr=p['price']; img=f'<img src="/{e(p["img"])}" alt="{e(p["name"])} for the {e(BK[bid]["name"])}" loading="lazy" width="96" height="96">' if p['img'] else '<span class="sp-noimg"></span>'
+  pr=p['price']; img=img96(p["img"], f'{p["name"]} for the {BK[bid]["name"]}') if p['img'] else '<span class="sp-noimg"></span>'
   st='<span class="sp-mod">Requires modification</span>' if p['status']!='confirmed' else ('<span class="sp-uni">Universal fit</span>' if 'universal' in p.get('note','').lower() else '')
   price=f'<span class="sp-price">{money(pr["p"])}</span><span class="sp-chk">{e(pr.get("v") or "")}{(", checked "+e(pr["chk"])) if pr.get("chk") else ""}</span>' if pr and pr.get('p') is not None else '<span class="sp-chk">Price not listed</span>'
   return f'<li class="sp-row">{img}<div class="sp-info"><strong><a class="sp-pl" href="/parts/{e(p["cat"])}/{e(p["pid"])}/">{e(p["name"])}</a></strong>{st}<div>{price}</div></div><div class="sp-act">{buy(pr)}<a class="sp-open" href="{e(builder(bid,{p["cat"]:p["pid"]}))}">Add to build</a></div></li>'
@@ -110,7 +130,7 @@ for b in seo_bikes:
   il={"@context":"https://schema.org","@type":"ItemList","name":f"{b['name']} upgrades and parts","numberOfItems":len(parts),"itemListElement":[{"@type":"ListItem","position":i+1,"name":p['name']} for i,p in enumerate(parts[:100])]}
   urls.append(page(f'/bikes/{bid}/',f"{b['name']} Upgrades & Parts | Fit-Checked, Prices Checked | eBikePartsPicker",
     f"{nconf} aftermarket parts that fit the {b['name']}: suspension, wheels, brakes, controls and more, with prices checked {D['checked']}. Build and price your {b['name']}.",
-    body,[('Home','/'),('Bikes','/bikes/'),(b['name'],f'/bikes/{bid}/')],BASE+f'/img/og/{bid}.jpg',[il]))
+    body,[('Home','/'),('Bikes','/bikes/'),(b['name'],f'/bikes/{bid}/')],BASE+f'/img/og/{bid}.jpg',[il],preload=f'<link rel="preload" as="image" href="/img/bikes/{bid}-800.webp?v={IMGV}" imagesrcset="/img/bikes/{bid}-800.webp?v={IMGV} 800w, /img/bikes/{bid}.webp?v={IMGV} 1600w" imagesizes="(max-width: 900px) 100vw, 720px" fetchpriority="high">'))
 # bikes index
 li=''.join(f'<li><a href="/bikes/{b["id"]}/">{e(b["name"])} upgrades &amp; parts</a> <span class="sp-chk">{sum(p["status"]=="confirmed" for p in b["parts"])} confirmed parts</span></li>' for b in seo_bikes)
 urls.append(page('/bikes/','E-Moto Bikes: Upgrades & Parts by Model | eBikePartsPicker','Browse fit-checked aftermarket parts for the Sur-Ron Light Bee, Ultra Bee, Talaria Sting MX4, E Ride Pro and more, with checked prices.',
@@ -118,7 +138,7 @@ urls.append(page('/bikes/','E-Moto Bikes: Upgrades & Parts by Model | eBikeParts
 # guides
 for g in D['guides']:
   b=BK[g['bike']]; tn=TIER.get(g['tier'],g['tier']); tot=sum(r['p'] for r in g['rows'])
-  rows=''.join(f'<li class="sp-row">'+(f'<img src="/{e(r["img"])}" alt="{e(r["name"])} for the {e(b["name"])}" loading="lazy" width="96" height="96">' if r['img'] else '<span class="sp-noimg"></span>')+f'<div class="sp-info"><span class="sp-cat">{e(r["cat"])}</span><strong>{e(r["name"])}</strong><div><span class="sp-price">{money(r["p"])}</span><span class="sp-chk">{e(r["v"])}, checked {e(r["chk"])}</span></div></div><div class="sp-act">{buy(r)}</div></li>' for r in g['rows'])
+  rows=''.join(f'<li class="sp-row">'+(img96(r["img"], f'{r["name"]} for the {b["name"]}') if r['img'] else '<span class="sp-noimg"></span>')+f'<div class="sp-info"><span class="sp-cat">{e(r["cat"])}</span><strong>{e(r["name"])}</strong><div><span class="sp-price">{money(r["p"])}</span><span class="sp-chk">{e(r["v"])}, checked {e(r["chk"])}</span></div></div><div class="sp-act">{buy(r)}</div></li>' for r in g['rows'])
   sel={}
   for bb in D['bikes']:
     if bb['id']==b['id']:
@@ -155,7 +175,7 @@ for cid in [c['id'] for c in D['cats']]:
       if p['cat']==cid and p['status']=='confirmed': seen.setdefault(p['pid'],[p,[]])[1].append(b)
   if len(seen)<3: continue
   items=sorted(seen.values(),key=lambda x:x[0]['name'])
-  li=''.join(f'<li class="sp-row" id="{e(p["pid"])}"{fitattrs(p["pid"])}>'+(f'<img src="/{e(p["img"])}" alt="{e(p["name"])}" loading="lazy" width="96" height="96">' if p['img'] else '<span class="sp-noimg"></span>')+f'<div class="sp-info"><strong><a class="sp-pl" href="/parts/{cid}/{e(p["pid"])}/">{e(p["name"])}</a></strong><div class="sp-chk">Confirmed for: '+', '.join(f'<a href="/bikes/{bb["id"]}/">{e(bb["name"])}</a>' if bb in seo_bikes else e(bb['name']) for bb in bs[:8])+(' and more' if len(bs)>8 else '')+'</div>'+(f'<div><span class="sp-price">{money(p["price"]["p"])}</span><span class="sp-chk">{e(p["price"].get("v") or "")}{", checked "+e(p["price"]["chk"]) if p["price"].get("chk") else ""}</span></div>' if p['price'] and p['price'].get('p') is not None else '')+f'</div><div class="sp-act">{buy(p["price"])}</div></li>' for p,bs in items)
+  li=''.join(f'<li class="sp-row" id="{e(p["pid"])}"{fitattrs(p["pid"])}>'+(img96(p["img"], p["name"]) if p['img'] else '<span class="sp-noimg"></span>')+f'<div class="sp-info"><strong><a class="sp-pl" href="/parts/{cid}/{e(p["pid"])}/">{e(p["name"])}</a></strong><div class="sp-chk">Confirmed for: '+', '.join(f'<a href="/bikes/{bb["id"]}/">{e(bb["name"])}</a>' if bb in seo_bikes else e(bb['name']) for bb in bs[:8])+(' and more' if len(bs)>8 else '')+'</div>'+(f'<div><span class="sp-price">{money(p["price"]["p"])}</span><span class="sp-chk">{e(p["price"].get("v") or "")}{", checked "+e(p["price"]["chk"]) if p["price"].get("chk") else ""}</span></div>' if p['price'] and p['price'].get('p') is not None else '')+f'</div><div class="sp-act">{buy(p["price"])}</div></li>' for p,bs in items)
   urls.append(page(f'/parts/{cid}/',f"E-Moto {c['name']} Upgrades: Which Bikes They Fit | eBikePartsPicker",
     f"{len(items)} aftermarket {c['name'].lower()} options for Sur-Ron, Talaria, E Ride Pro and more, each with the bikes the seller confirms, and prices checked {D['checked']}.",
     f'<h1>{e(c["name"])} upgrades</h1><p class="seo-lede">{e(c["blurb"])}</p><ul class="sp-list" data-ux-fitlist>{li}</ul>',[('Home','/'),('Parts','/parts/'),(c['name'],f'/parts/{cid}/')]))
@@ -240,4 +260,6 @@ for _f in _g.glob(os.path.join(ROOT,'bikes','**','index.html'),recursive=True)+_
     _s=_s.replace('</p></main>',f'</p><p><a href="/upgrades/{_b}/">Upgrades by goal (power, suspension, brakes, tires) →</a></p></main>',1)
   if 'track.js' not in _s:
     _s=_s.replace('</body></html>','<!-- Cloudflare Web Analytics: enable in Pages project > Metrics (auto-injected, cookieless) -->\n<script src="/track.js?v=1" defer></script>\n</body></html>',1)
+  if 'view.js' not in _s:
+    _s=_s.replace('</body></html>','<script src="/view.js?v=1" defer></script>\n</body></html>',1)
   if _s!=_o: open(_f,'w').write(_s)

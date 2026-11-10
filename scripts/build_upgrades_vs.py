@@ -50,12 +50,18 @@ def head(title,desc,path,img):
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="/styles.css?v=4.14.8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
 </head><body class="tp">
 <header class="tp-head"><a class="tp-brand" href="/">eBikePartsPicker</a><div class="ux-tools"><button type="button" class="ux-sbtn" data-ux-search aria-label="Search parts, bikes and categories"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="ux-sbtn-t">Search</span><kbd>/</kbd></button><button type="button" class="ux-bike" data-ux-bike><span class="ux-bike-t">Pick your bike</span></button></div><a class="tp-back" href="/">← Back to the builder</a></header>
 <main class="tp-main">'''
 FOOT='''<p class="seo-fine">Prices were checked on the retailer’s page on the date shown and can change. Fit status comes from the seller or manufacturer listing; confirm fitment, price and stock before you buy. Some links on this site are affiliate links (<a href="/affiliate-disclosure">disclosure</a>).</p></main>
 <footer class="sitefoot tp-foot"><nav class="tp-nav"><a href="/about">About</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms of use</a><a href="/affiliate-disclosure">Affiliate disclosure</a><a href="/fitment-methodology">Fitment methodology</a><a href="/report-a-part">Report a part</a></nav></footer>
 <script src="/track.js?v=1" defer></script>
+<script src="/view.js?v=1" defer></script>
 <script src="/ux.js?v=4.14.8" defer></script>
 </body></html>'''
 def spec(bid):

@@ -18,6 +18,24 @@
 <meta name="twitter:image" content="https://ebikepartspicker.net/img/bikes/og-ventus-plus.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
 <link rel="preload" as="image" href="img/bikes/ventus-plus-800.webp?v=4.8.1" imagesrcset="img/bikes/ventus-plus-800.webp?v=4.8.1 800w, img/bikes/ventus-plus.webp?v=4.8.1 1600w" imagesizes="(max-width: 900px) 100vw, 900px" fetchpriority="high">
+<script>
+/* If this is a builder deep-link, preload the stage photo and don't lazy-load it. */
+(function(){
+  if(!location.hash || location.hash.length<2) return;
+  var l=document.createElement('link');
+  l.rel='preload'; l.as='image'; l.href='img/bikes/ventus-plus-800.webp?v=4.5.0';
+  l.setAttribute('imagesrcset','img/bikes/ventus-plus-800.webp?v=4.5.0 800w, img/bikes/ventus-plus.webp?v=4.5.0 1600w');
+  l.setAttribute('imagesizes','(max-width: 900px) 100vw, 720px');
+  l.fetchPriority='high';
+  document.head.appendChild(l);
+  document.addEventListener('DOMContentLoaded', function(){
+    var img=document.getElementById('bikeImg');
+    if(!img) return;
+    img.loading='eager';
+    try{ img.fetchPriority='high'; }catch(e){}
+  });
+})();
+</script>
 <link rel="stylesheet" href="styles.css?v=4.14.8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -99,7 +117,7 @@
     <div class="builder-grid">
       <div class="bcol-left">
         <div class="stage">
-          <img id="bikeImg" loading="lazy" decoding="async" src="img/bikes/ventus-plus.webp?v=4.8.1" alt="Ventus One Plus electric dirt bike" width="1600" height="1000">
+          <img id="bikeImg" loading="lazy" decoding="async" src="img/bikes/ventus-plus-800.webp?v=4.5.0" srcset="img/bikes/ventus-plus-800.webp?v=4.5.0 800w, img/bikes/ventus-plus.webp?v=4.5.0 1600w" sizes="(max-width: 900px) 100vw, 720px" alt="Ventus One Plus electric dirt bike" width="1600" height="1000">
           <div class="ptray" id="partTray"></div>
           <div class="badges" id="badges"></div>
         </div>
@@ -315,14 +333,15 @@
 <script src="builds.js?v=4.8.4" defer></script>
 <script src="buy.js?v=4.14.8" defer></script>
 <script src="ux.js?v=4.14.8" defer></script>
-<script src="app.js?v=4.14.8" defer></script>
+<script src="app.js?v=4.14.9" defer></script>
 <script src="quiz.js?v=4.14.8" defer></script>
 <script src="compare.js?v=4.14.8" defer></script>
 <script src="used.js?v=4.8.1" defer></script>
-<script src="polish.js?v=3" defer>
+<script src="polish.js?v=3" defer></script>
 <script src="home.js?v=1" defer></script>
 <!-- Cloudflare Web Analytics: enable in Pages project > Metrics (auto-injected, cookieless) -->
 <script src="/track.js?v=1" defer></script>
+<script src="/view.js?v=1" defer></script>
 <script src="/forms.js?v=1" defer></script>
 </body>
 </html>
