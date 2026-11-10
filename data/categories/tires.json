@@ -2613,6 +2613,131 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe",
+      "name": "E Ride Pro - OEM 3.00-18 “BabyFat” Rear Tire Kit",
+      "brand": "ERide Pro",
+      "category": "tires",
+      "price_usd": 79.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe.webp"
+    },
+    {
+      "id": "chargedcycleworks-head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3",
+      "name": "Talaria - OEM Head Tube Spacer (42-30-0.5)",
+      "brand": "eBikeZilla",
+      "category": "tires",
+      "price_usd": 6.83,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.83,
+          "buy_url": "https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-aluminum-throttle-tube",
+      "name": "Warp9 Surron Ultra Bee Aluminum Throttle Tube",
+      "brand": "Warp9",
+      "category": "tires",
+      "price_usd": 36.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-aluminum-throttle-tube",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-aluminum-throttle-tube"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 36.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-aluminum-throttle-tube"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-aluminum-throttle-tube.webp"
+    },
+    {
+      "id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "name": "Pivotrax Kilowatt Climber 90/100-18 Rear Tire",
+      "brand": "Strike Point Distribution",
+      "category": "tires",
+      "price_usd": 104.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 104.99,
+          "buy_url": "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire.webp"
+    },
+    {
+      "id": "chargedcycleworks-shinko-777-cruiser-hd-front-100-90-19",
+      "name": "Shinko 777 100/90-19 for Surron Ultra Bee",
+      "brand": "WPS",
+      "category": "tires",
+      "price_usd": 87.94,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/shinko-777-cruiser-hd-front-100-90-19",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/shinko-777-cruiser-hd-front-100-90-19"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 87.94,
+          "buy_url": "https://chargedcycleworks.com/products/shinko-777-cruiser-hd-front-100-90-19"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-shinko-777-cruiser-hd-front-100-90-19.webp"
     }
   ],
   "compatibility": [
@@ -2620,61 +2745,61 @@
       "product_id": "tire-surron-oem-70100-19",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-eride-fatty-rear-1009018",
       "bike_id": "ss30",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.eridepro.com/products/e7235-1"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-eride-fatty-rear-1009018",
       "bike_id": "sr",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.eridepro.com/products/e7235-1"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tube-rippin-70100-19",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tube-rippin-70100-19",
       "bike_id": "ss30",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tube-rippin-70100-19",
       "bike_id": "sr",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tube-rippin-70100-19",
@@ -2690,31 +2815,31 @@
       "product_id": "tube-rippin-70100-19",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tube-rippin-70100-19",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-talaria-cst-70100-19",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://zealracing.com/products/front-wheel"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-surron-oem-70100-19",
@@ -3671,12 +3796,12 @@
       "product_id": "tube-rippin-70100-19",
       "bike_id": "altis-sigma",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike",
         "https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria"
       ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "notes": "Seller listing names the Altis Sigma (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tube-rippin-70100-19",
@@ -4558,7 +4683,7 @@
       "product_id": "tire-shinko-244-dualsport",
       "bike_id": "bonnell-805rx",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
         "https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609",
@@ -4935,7 +5060,7 @@
       "product_id": "tire-kenda-k270-dualsport",
       "bike_id": "bonnell-805rx",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
         "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245",
@@ -6076,7 +6201,7 @@
       "product_id": "tire-shinko-525-cheater",
       "bike_id": "bonnell-805rx",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
         "https://www.motosport.com/shinko-r525-cheater-rear-tire",
@@ -6451,7 +6576,7 @@
       "product_id": "tire-dunlop-mx34",
       "bike_id": "bonnell-805rx",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
         "https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310",
@@ -7983,7 +8108,7 @@
       "product_id": "tire-bridgestone-x31",
       "bike_id": "bonnell-805rx",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
         "https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318",
@@ -9018,12 +9143,12 @@
       "product_id": "tire-surron-oem-19",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/bikes/sur-ron/light-bee-x/",
         "https://surron.ca/products/light-bee-off-road-tire"
       ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-surron-oem-19",
@@ -9817,12 +9942,12 @@
       "product_id": "tire-cst-cm713-80100-19",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/",
         "https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19"
       ],
-      "notes": "Tire diameter matches stock 19\" rear wheel."
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-cst-cm713-80100-19",
@@ -10115,12 +10240,12 @@
       "product_id": "tire-cst-oem-70100-19-eu",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/bikes/sur-ron/light-bee-x/",
         "https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll"
       ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-cst-oem-70100-19-eu",
@@ -10584,7 +10709,7 @@
       "product_id": "tire-kenda-washougal3-ccw",
       "bike_id": "bonnell-805rx",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
         "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
@@ -11212,23 +11337,23 @@
       "product_id": "tire-irc-ve33-ccw",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/bikes/sur-ron/light-bee-x/",
         "https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-irc-ve33-ccw",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html",
         "https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-irc-ve33-ccw",
@@ -11243,13 +11368,13 @@
     {
       "product_id": "tire-irc-ve33-ccw",
       "bike_id": "ss30",
-      "status": "confirmed_direct_fit",
+      "status": "not_compatible",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://gritshift.com/products/e-ride-pro-ss-3-0",
         "https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Seller listing says it does not fit the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026) (data.js seller listing says not compatible; JSON confirmed status corrected 2026-11-10)"
     },
     {
       "product_id": "tire-irc-ve33-ccw",
@@ -11265,13 +11390,13 @@
     {
       "product_id": "tire-irc-ve33-ccw",
       "bike_id": "sr",
-      "status": "confirmed_direct_fit",
+      "status": "not_compatible",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike",
         "https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Seller listing says it does not fit the E Ride Pro SR (fitment audit Oct 18, 2026) (data.js seller listing says not compatible; JSON confirmed status corrected 2026-11-10)"
     },
     {
       "product_id": "tire-irc-ve33-ccw",
@@ -11308,7 +11433,7 @@
       "product_id": "tire-irc-ve33-ccw",
       "bike_id": "bonnell-805rx",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
         "https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
@@ -11514,12 +11639,12 @@
       "product_id": "tire-irc-ve33-ccw",
       "bike_id": "ultrabee-21kw",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle",
         "https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
       ],
-      "notes": "Tire diameter matches stock 18\" rear wheel."
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 21kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-irc-ve33-ccw",
@@ -11578,12 +11703,12 @@
       "product_id": "tire-michelin-starcross5-ccw",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/bikes/sur-ron/light-bee-x/",
         "https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire"
       ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-michelin-starcross5-ccw",
@@ -12047,7 +12172,7 @@
       "product_id": "tire-tusk-t35-front-ccw",
       "bike_id": "bonnell-805rx",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
         "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
@@ -13077,12 +13202,12 @@
       "product_id": "tire-tusk-groundwire-ccw",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.eridepro.com/products/pro-ss-2-0",
         "https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire"
       ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-tusk-groundwire-ccw",
@@ -14982,12 +15107,13 @@
       "product_id": "tire-dunlop-mx53-ccw",
       "bike_id": "mx5",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/bikes/talaria/sting-mx5-pro/",
-        "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires"
+        "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires",
+        "https://chargedcycleworks.com/collections/talaria-sting-mx5-pro-upgrades"
       ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "notes": "CCW lists Dunlop MX53 in the Talaria Sting MX5 Pro Upgrades collection and tags it TALMX5; 70/100-19 and 100/90-19 sizes match the MX5 stock 19\\\"/19\\\" wheels (checked 2026-11-10)"
     },
     {
       "product_id": "tire-dunlop-mx53-ccw",
@@ -15004,7 +15130,7 @@
       "product_id": "tire-dunlop-mx53-ccw",
       "bike_id": "bonnell-805rx",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
         "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires"
@@ -15281,12 +15407,12 @@
       "product_id": "tire-shinko-sr241-ccw",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/bikes/sur-ron/light-bee-x/",
         "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
       ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-shinko-sr241-ccw",
@@ -15347,23 +15473,24 @@
       "product_id": "tire-shinko-sr241-ccw",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/",
         "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
       ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tire-shinko-sr241-ccw",
       "bike_id": "mx5",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/bikes/talaria/sting-mx5-pro/",
-        "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
+        "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19",
+        "https://chargedcycleworks.com/collections/talaria-sting-mx5-pro-upgrades"
       ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "notes": "CCW lists Shinko SR 241 in the Talaria Sting MX5 Pro Upgrades collection and tags it TALMX5; 2.75x19 and 3.50x19 sizes match the MX5 stock 19\\\"/19\\\" wheels (checked 2026-11-10)"
     },
     {
       "product_id": "tire-shinko-sr241-ccw",
@@ -15380,7 +15507,7 @@
       "product_id": "tire-shinko-sr241-ccw",
       "bike_id": "bonnell-805rx",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
         "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
@@ -15762,7 +15889,7 @@
       "product_id": "tire-irc-ix09-gekkota-ccw",
       "bike_id": "bonnell-805rx",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ridebonnell.com/products/805",
         "https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16"
@@ -16014,7 +16141,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-cst-80100-19",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16034,7 +16161,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-altis-sigma-tire",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16044,7 +16171,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "tire-bonnell-805-rx-rim-strip",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16054,7 +16181,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 2.",
       "product_id": "tire-bonnell-805-rx-tr4-inner-tube",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16064,7 +16191,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 100/90-18.",
       "product_id": "tire-bonnell-805-rx-rear-tire",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16074,7 +16201,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.",
       "product_id": "tire-bonnell-805-rx-front-tire",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16084,7 +16211,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "tire-bonnell-805-rx-rim-lock",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16094,7 +16221,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "tire-warp9-titanium-pro-rim-lock",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16104,7 +16231,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.",
       "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16114,7 +16241,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): Heavy Duty Rubber / 100/100-18, Natural Rubber / 70/100-21, Natural Rubber / 90/100-18.",
       "product_id": "tire-bikemaster-tr6-inner-tubes",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16124,7 +16251,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.",
       "product_id": "tire-kenda-k775-washougal-ii-front-tire",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16134,7 +16261,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16144,7 +16271,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "tire-irc-jx8-gekkota-rear-gummy-tire",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16154,7 +16281,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 2.",
       "product_id": "tire-irc-tubes",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16164,7 +16291,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "tire-wps-rim-strip",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16174,7 +16301,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 110/100-18, 80/100-21.",
       "product_id": "tire-dunlop-at82-geomax-all-terrain-terrain-tire",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16184,7 +16311,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "tire-tire-ve-33s-gekkota-rear-tire",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16194,7 +16321,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "tire-tusk-talon-multi-terrain-tire-80-100-21",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16204,7 +16331,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "tire-irc-ix-07s-21-front-tire-light-weight",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16214,7 +16341,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 110/100-18.",
       "product_id": "tire-dunlop-mx14-sand-scoop-tire",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16224,7 +16351,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 100/100-18, 110/100-18.",
       "product_id": "tire-shinko-525-soft-intermediate-terrain-tire",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16234,7 +16361,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 100/100-18, 80/100-21.",
       "product_id": "tire-kenda-1-3mm-tube-light-weight",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16244,7 +16371,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "tire-nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16254,7 +16381,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.",
       "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16264,7 +16391,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "tire-nuetech-tubliss-gen-2-0-tubeless-tire-system",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -16274,8 +16401,281 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 100/100-18 | 350/400-18, 80/100-21 | 275/300-21.",
       "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe"
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+    },
+    {
+      "product_id": "chargedcycleworks-shinko-777-cruiser-hd-front-100-90-19",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-777-cruiser-hd-front-100-90-19"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/shinko-777-cruiser-hd-front-100-90-19"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-aluminum-throttle-tube",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-aluminum-throttle-tube"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-aluminum-throttle-tube"
+    },
+    {
+      "product_id": "tire-surron-oem-70100-19",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tube-rippin-70100-19",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-talaria-cst-70100-19",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://zealracing.com/products/front-wheel"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tires-plews-mx2-rear",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://ventusbikes.us/products/plews-tires-mx2-matterly-gp-intermediate-all-terrain-motocross-rear-tire"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-cst-takeoff-70100-19",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-cst-oem-70100-19-eu",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-kenda-washougal3-ccw",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-michelin-starcross5-ccw",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-bridgestone-m203-ccw",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-bridgestone-m204-ccw",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-bridgestone-x30-ccw",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-dunlop-mx53-ccw",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-irc-ix09-gekkota-ccw",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-eride-fatty-rear-1009018",
+      "bike_id": "arctic-leopard-xe-pro-s-enduro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.eridepro.com/products/e7235-1"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-tusk-t35-front-ccw",
+      "bike_id": "arctic-leopard-xe-pro-s-enduro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
+      ],
+      "notes": "Confirmed per Josh's exact-size tire rule 2026-10-20"
+    },
+    {
+      "product_id": "tire-tusk-t35-front-ccw",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
+      ],
+      "notes": "Evidence page lists an 80/100-21 variant, the exact stock front tire size for the XE Pro R (universal tire sizing)"
+    },
+    {
+      "product_id": "tire-surron-oem-70100-19",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s",
+        "https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000"
+      ],
+      "notes": "Stock XE Pro S front tire 70/100-19 verified Oct 21 2026; exact-size match per owner tire rule"
+    },
+    {
+      "product_id": "tire-cst-takeoff-70100-19",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s"
+      ],
+      "notes": "Stock XE Pro S front tire 70/100-19 verified Oct 21 2026; exact-size match per owner tire rule"
+    },
+    {
+      "product_id": "tire-cst-oem-70100-19-eu",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s"
+      ],
+      "notes": "Stock XE Pro S front tire 70/100-19 verified Oct 21 2026; exact-size match per owner tire rule"
+    },
+    {
+      "product_id": "tire-mitas-terraforce-16-ccw",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s",
+        "https://chargedcycleworks.com/products/mitas-terra-force-mx-super-light-16-rear-tire"
+      ],
+      "notes": "CCW states 90/100-16 = XE Pro S stock rear size; exact-size match per owner tire rule"
+    },
+    {
+      "product_id": "tire-tusk-t35-rear-ccw",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s",
+        "https://chargedcycleworks.com/collections/surron-tires/products/tusk-t-35-soft-intermediate-terrain-rear-16-tire"
+      ],
+      "notes": "CCW lists 90/100-16 variant = XE Pro S stock rear size; exact-size match per owner tire rule"
     }
   ]
 }

@@ -604,6 +604,131 @@
       "power_change_kw": null,
       "weight_delta_kg": null,
       "image": "img/parts/mxps-seat-cover-stormbee.webp"
+    },
+    {
+      "id": "chargedcycleworks-thrill-seekers-seat-cover-for-surron-ultra-bee",
+      "name": "Thrill Seekers Seat Cover for Surron Ultra Bee",
+      "brand": "Thrill Seekers",
+      "category": "seats",
+      "price_usd": 74.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 74.0,
+          "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-thrill-seekers-seat-cover-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-copy-of-thrill-seekers-seat-cover-for-talaria",
+      "name": "Thrill Seekers Seat Cover for Talaria",
+      "brand": "Thrill Seekers",
+      "category": "seats",
+      "price_usd": 66.6,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/copy-of-thrill-seekers-seat-cover-for-talaria",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/copy-of-thrill-seekers-seat-cover-for-talaria"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 66.6,
+          "buy_url": "https://chargedcycleworks.com/products/copy-of-thrill-seekers-seat-cover-for-talaria"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-copy-of-thrill-seekers-seat-cover-for-talaria.webp"
+    },
+    {
+      "id": "chargedcycleworks-eride-pro-sr-long-seat-kit-ss2-ss3-sr",
+      "name": "E Ride Pro SR - Long Seat Kit | Fits SS2.0/SS3.0/SR",
+      "brand": "ERide Pro",
+      "category": "seats",
+      "price_usd": 490.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/eride-pro-sr-long-seat-kit-ss2-ss3-sr",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-sr-long-seat-kit-ss2-ss3-sr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 490.0,
+          "buy_url": "https://chargedcycleworks.com/products/eride-pro-sr-long-seat-kit-ss2-ss3-sr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-eride-pro-sr-long-seat-kit-ss2-ss3-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-seat",
+      "name": "Surron Ultra Bee – OEM Seat | High / Low",
+      "brand": "Surron-WN",
+      "category": "seats",
+      "price_usd": 104.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 104.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-seat.webp"
+    },
+    {
+      "id": "chargedcycleworks-replacement-oem-seat-for-talaria-sting-mx3-mx4",
+      "name": "Talaria - OEM Replacement Seat",
+      "brand": "eBikeZilla",
+      "category": "seats",
+      "price_usd": 56.15,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/replacement-oem-seat-for-talaria-sting-mx3-mx4",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/replacement-oem-seat-for-talaria-sting-mx3-mx4"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 56.15,
+          "buy_url": "https://chargedcycleworks.com/products/replacement-oem-seat-for-talaria-sting-mx3-mx4"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-replacement-oem-seat-for-talaria-sting-mx3-mx4.webp"
     }
   ],
   "compatibility": [
@@ -626,10 +751,12 @@
     {
       "product_id": "seat-guts-lightbee-cover",
       "bike_id": "ss30",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "seat-guts-lightbee-cover",
@@ -642,26 +769,32 @@
     {
       "product_id": "seat-guts-lightbee-cover",
       "bike_id": "sr",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "seat-guts-lightbee-cover",
       "bike_id": "ss20",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "seat-guts-lightbee-cover",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)"
     },
     {
       "product_id": "seat-guts-lightbee-cover",
@@ -674,10 +807,12 @@
     {
       "product_id": "seat-guts-lightbee-cover",
       "bike_id": "ultrabee",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "seat-guts-lightbee-cover",
@@ -690,26 +825,32 @@
     {
       "product_id": "seat-guts-lightbee-cover",
       "bike_id": "mx5",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "seat-guts-lightbee-cover",
       "bike_id": "mx4",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "seat-guts-lightbee-cover",
       "bike_id": "ventus-plus",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "seat-guts-lightbee-cover",
@@ -835,9 +976,11 @@
       "product_id": "seat-talaria-mx34-oem",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://zealracing.com/products/seat-r-mx4"
+      ],
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "seat-talaria-mx34-oem",
@@ -862,18 +1005,20 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-seat",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "ss30",
       "fitment_source_urls": [
-        "https://voromotors.com/products/seat-for-e-ride-pro-ss"
+        "https://voromotors.com/products/seat-for-e-ride-pro-ss",
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-seat",
+        "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts"
       ],
-      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "notes": "CCW 'E Ride Pro - OEM Seat' is in the E Ride Pro SS 3.0 OEM Parts collection and is tagged ERPSS3 (checked 2026-11-10). Description is title-only.",
       "product_id": "voro-eride-ss-seat",
-      "required_adapters": null,
-      "status": "verify"
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "bonnell-805rx",
@@ -882,7 +1027,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "seat-bonnell-805-rx-seat",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -892,8 +1037,68 @@
       ],
       "notes": "Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)",
       "product_id": "mxps-seat-cover-stormbee",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-copy-of-thrill-seekers-seat-cover-for-talaria",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/copy-of-thrill-seekers-seat-cover-for-talaria"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/copy-of-thrill-seekers-seat-cover-for-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-replacement-oem-seat-for-talaria-sting-mx3-mx4",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/replacement-oem-seat-for-talaria-sting-mx3-mx4"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/replacement-oem-seat-for-talaria-sting-mx3-mx4"
+    },
+    {
+      "product_id": "chargedcycleworks-eride-pro-sr-long-seat-kit-ss2-ss3-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-sr-long-seat-kit-ss2-ss3-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-sr-long-seat-kit-ss2-ss3-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-eride-pro-sr-long-seat-kit-ss2-ss3-sr",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-sr-long-seat-kit-ss2-ss3-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-sr-long-seat-kit-ss2-ss3-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-seat",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat"
+    },
+    {
+      "product_id": "chargedcycleworks-thrill-seekers-seat-cover-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-surron-ultra-bee"
     }
   ]
 }

@@ -475,6 +475,256 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "chargedcycleworks-3-0-sr-shock-linkageliftable",
+      "name": "E Ride Pro - OEM 3.0/SR Shock linkage(Liftable)",
+      "brand": "ERide Pro",
+      "category": "linkage",
+      "price_usd": 123.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/3-0-sr-shock-linkageliftable",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/3-0-sr-shock-linkageliftable"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 123.0,
+          "buy_url": "https://chargedcycleworks.com/products/3-0-sr-shock-linkageliftable"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-3-0-sr-shock-linkageliftable.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible",
+      "name": "EBMX Upgraded Triangle for Surron Ultra Bee (Sirris Compatible)",
+      "brand": "EBMX",
+      "category": "linkage",
+      "price_usd": 95.2,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 95.2,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible.webp"
+    },
+    {
+      "id": "chargedcycleworks-heavy-hitter-ultra-bee-linkage",
+      "name": "Heavy Hitter Ultra Bee Linkage",
+      "brand": "GritShift",
+      "category": "linkage",
+      "price_usd": 99.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.89,
+          "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-heavy-hitter-ultra-bee-linkage.webp"
+    },
+    {
+      "id": "chargedcycleworks-heavy-hitter-ultra-bee-triangle",
+      "name": "Heavy Hitter Ultra Bee Triangle",
+      "brand": "GritShift",
+      "category": "linkage",
+      "price_usd": 89.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 89.99,
+          "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-heavy-hitter-ultra-bee-triangle.webp"
+    },
+    {
+      "id": "chargedcycleworks-sirris-triangle-for-r46-shock-on-surron-ultra-bee-1",
+      "name": "Sirris Triangle for R46 Shock on Surron Ultra Bee",
+      "brand": "Sirris",
+      "category": "linkage",
+      "price_usd": 119.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sirris-triangle-for-r46-shock-on-surron-ultra-bee-1",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sirris-triangle-for-r46-shock-on-surron-ultra-bee-1"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 119.99,
+          "buy_url": "https://chargedcycleworks.com/products/sirris-triangle-for-r46-shock-on-surron-ultra-bee-1"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-sirris-triangle-for-r46-shock-on-surron-ultra-bee-1.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-rear-linkage",
+      "name": "Ultra Bee Rear Linkage",
+      "brand": "Warp9Racing",
+      "category": "linkage",
+      "price_usd": 99.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-rear-linkage",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-rear-linkage"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-rear-linkage"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-rear-linkage.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-surron-ultra-bee-triangles",
+      "name": "Warp9 Surron Ultra Bee Triangle",
+      "brand": "Warp9Racing",
+      "category": "linkage",
+      "price_usd": 100.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-triangles",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-triangles"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 100.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-triangles"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-surron-ultra-bee-triangles.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-sting-titanium-linkage-bolts-by-warp9",
+      "name": "Warp9 Talaria Sting Titanium Linkage Bolts",
+      "brand": "Warp9",
+      "category": "linkage",
+      "price_usd": 149.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-sting-titanium-linkage-bolts-by-warp9",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-sting-titanium-linkage-bolts-by-warp9"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 149.0,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-sting-titanium-linkage-bolts-by-warp9"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-sting-titanium-linkage-bolts-by-warp9.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-surron-ultra-bee-suspension-triangle-bearing-kit",
+      "name": "Warp9 Ultra Bee Suspension Triangle Bearing Kit",
+      "brand": "Warp9Racing",
+      "category": "linkage",
+      "price_usd": 50.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-suspension-triangle-bearing-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-suspension-triangle-bearing-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 50.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-suspension-triangle-bearing-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-surron-ultra-bee-suspension-triangle-bearing-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-ultra-bee-suspension-triangle-v2",
+      "name": "Warp9 Ultra Bee Suspension Triangle V2 - Sirris / RFloXa",
+      "brand": "Warp9Racing",
+      "category": "linkage",
+      "price_usd": 120.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 120.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-ultra-bee-suspension-triangle-v2.webp"
     }
   ],
   "compatibility": [
@@ -482,11 +732,12 @@
       "product_id": "linkage-ultrabeemx",
       "bike_id": "ultrabee",
       "status": "confirmed_fit_with_adapter",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
-        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee",
+        "https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
       ],
-      "notes": "Requires EBMX Ultra Bee triangle (sold separately)"
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
     },
     {
       "product_id": "linkage-ultrabeemx",
@@ -602,11 +853,11 @@
       "product_id": "linkage-ultrabee-emx",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "linkage-ultrabee-emx",
@@ -722,11 +973,11 @@
       "product_id": "linkage-talaria-mx34",
       "bike_id": "mx4",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "linkage-talaria-mx34",
@@ -855,7 +1106,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-progression-triangle",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -875,7 +1126,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "linkage-bonnell-805-rx-linkage-suspension-bearing-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -885,7 +1136,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "linkage-bonnell-805-rx-linkage",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -895,8 +1146,118 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "linkage-bonnell-805-rx-rocker-assembly",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-sting-titanium-linkage-bolts-by-warp9",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-sting-titanium-linkage-bolts-by-warp9"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-sting-titanium-linkage-bolts-by-warp9"
+    },
+    {
+      "product_id": "chargedcycleworks-3-0-sr-shock-linkageliftable",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/3-0-sr-shock-linkageliftable"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/3-0-sr-shock-linkageliftable"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-ultra-bee-linkage",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-ultra-bee-triangle",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle"
+    },
+    {
+      "product_id": "chargedcycleworks-sirris-triangle-for-r46-shock-on-surron-ultra-bee-1",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-triangle-for-r46-shock-on-surron-ultra-bee-1"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-triangle-for-r46-shock-on-surron-ultra-bee-1"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-rear-linkage",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-rear-linkage"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-rear-linkage"
+    },
+    {
+      "product_id": "tbelectricmoto-warp-9-ultra-bee-triangle-pivot-bolt-kit",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-surron-ultra-bee-suspension-triangle-bearing-kit",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-suspension-triangle-bearing-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-surron-ultra-bee-suspension-triangle-bearing-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-surron-ultra-bee-triangles",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-triangles"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-surron-ultra-bee-triangles"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-ultra-bee-suspension-triangle-v2",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2"
     }
   ]
 }

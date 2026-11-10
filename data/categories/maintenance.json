@@ -681,6 +681,906 @@
       ],
       "weight_delta_kg": null,
       "image": null
+    },
+    {
+      "id": "chargedcycleworks-bonnell-805-rx-battery-tray-foam",
+      "name": "Bonnell 805 – Battery Tray Foam",
+      "brand": "Bonnell",
+      "category": "maintenance",
+      "price_usd": 7.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-battery-tray-foam",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) bonnell-805rx exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-battery-tray-foam"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 7.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-battery-tray-foam"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-bonnell-805-rx-battery-tray-foam.webp"
+    },
+    {
+      "id": "chargedcycleworks-bonnell-805-rx-moto-toolkit-set",
+      "name": "Bonnell 805 – Moto Toolkit Set",
+      "brand": "Bonnell",
+      "category": "maintenance",
+      "price_usd": 249.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-moto-toolkit-set",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) bonnell-805rx exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-moto-toolkit-set"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 249.95,
+          "buy_url": "https://chargedcycleworks.com/products/bonnell-805-rx-moto-toolkit-set"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-bonnell-805-rx-moto-toolkit-set.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-tapered-roller-bearing",
+      "name": "E Ride Pro - OEM Headset Assembly",
+      "brand": "ERide Pro",
+      "category": "maintenance",
+      "price_usd": 39.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-tapered-roller-bearing",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-tapered-roller-bearing"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-tapered-roller-bearing"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-tapered-roller-bearing.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-bolts-and-nut-set",
+      "name": "E Ride Pro – OEM Brake Lever Bolt & Nut Set (SS 3.0 / SR)",
+      "brand": "ERide Pro",
+      "category": "maintenance",
+      "price_usd": 6.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-bolts-and-nut-set",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-bolts-and-nut-set"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-bolts-and-nut-set"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-bolts-and-nut-set.webp"
+    },
+    {
+      "id": "chargedcycleworks-cnc-horn-cover-for-ultra-bee",
+      "name": "EBMX CNC Horn Cover for Ultra Bee",
+      "brand": "EBMX",
+      "category": "maintenance",
+      "price_usd": 35.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/cnc-horn-cover-for-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/cnc-horn-cover-for-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 35.0,
+          "buy_url": "https://chargedcycleworks.com/products/cnc-horn-cover-for-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-cnc-horn-cover-for-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-cargo-rack-for-surron-ultra-bee",
+      "name": "EBMX Cargo Rack for SurRon Ultra Bee",
+      "brand": "EBMX",
+      "category": "maintenance",
+      "price_usd": 85.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-cargo-rack-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-cargo-rack-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 85.0,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-cargo-rack-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-cargo-rack-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included",
+      "name": "EBMX Display Ultra Bee Drop in Mount (excludes display)",
+      "brand": "EBMX",
+      "category": "maintenance",
+      "price_usd": 40.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 40.0,
+          "buy_url": "https://chargedcycleworks.com/products/x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included.webp"
+    },
+    {
+      "id": "chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1",
+      "name": "EBMX Pro Mount for X-9000 for SurRon Ultra Bee",
+      "brand": "EBMX",
+      "category": "maintenance",
+      "price_usd": 75.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 75.0,
+          "buy_url": "https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1.webp"
+    },
+    {
+      "id": "chargedcycleworks-gritshift-billet-gear-box-breather-kit-v2",
+      "name": "GritShift Billet Gear Box Breather Kit V2",
+      "brand": "GritShift",
+      "category": "maintenance",
+      "price_usd": 54.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-billet-gear-box-breather-kit-v2",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-billet-gear-box-breather-kit-v2"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 54.99,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-billet-gear-box-breather-kit-v2"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-gritshift-billet-gear-box-breather-kit-v2.webp"
+    },
+    {
+      "id": "chargedcycleworks-button-head-screw-gb-t70-2-m6x14-1",
+      "name": "OEM Light Bracket Screw (M6 X 14)",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 1.35,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1.35,
+          "buy_url": "https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-button-head-screw-gb-t70-2-m6x14-1.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-airtag-stash",
+      "name": "Prickly Ultra Bee AirTag Stash",
+      "brand": "Prickly Motorsports",
+      "category": "maintenance",
+      "price_usd": 60.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-airtag-stash",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-airtag-stash"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 60.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-airtag-stash"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-airtag-stash.webp"
+    },
+    {
+      "id": "chargedcycleworks-bowl-set",
+      "name": "Surron Ultra Bee - OEM Headset Assembly",
+      "brand": "Surron-WN",
+      "category": "maintenance",
+      "price_usd": 64.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bowl-set",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bowl-set"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 64.99,
+          "buy_url": "https://chargedcycleworks.com/products/bowl-set"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-bowl-set.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-oem-ultra-bee-rear-rack",
+      "name": "Surron Ultra Bee - OEM Rear Rack",
+      "brand": "Surron",
+      "category": "maintenance",
+      "price_usd": 135.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 135.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-oem-ultra-bee-rear-rack.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-oem-steering-head-adjust-nut-1",
+      "name": "Surron Ultra Bee - OEM Steering Head Adjust Nut",
+      "brand": "Surron",
+      "category": "maintenance",
+      "price_usd": 5.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 5.0,
+          "buy_url": "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-oem-steering-head-adjust-nut-1.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-oem-steering-head-gasket-top",
+      "name": "Surron Ultra Bee - OEM Steering Head Gasket TOP",
+      "brand": "Surron",
+      "category": "maintenance",
+      "price_usd": 4.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 4.0,
+          "buy_url": "https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-oem-steering-head-gasket-top.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-oem-steering-head-adjust-nut",
+      "name": "Surron Ultra Bee - OEM Steering Head Nut",
+      "brand": "Surron",
+      "category": "maintenance",
+      "price_usd": 4.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 4.99,
+          "buy_url": "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-oem-steering-head-adjust-nut.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-oem-steering-head-support",
+      "name": "Surron Ultra Bee - OEM Steering Head Support",
+      "brand": "Surron",
+      "category": "maintenance",
+      "price_usd": 6.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-oem-steering-head-support",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-support"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.0,
+          "buy_url": "https://chargedcycleworks.com/products/ub-oem-steering-head-support"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-oem-steering-head-support.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-oem-steering-head-cover",
+      "name": "Surron Ultra Bee - OEM Top Steering Head Gasket / Cover",
+      "brand": "Surron",
+      "category": "maintenance",
+      "price_usd": 6.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-oem-steering-head-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-cover"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.0,
+          "buy_url": "https://chargedcycleworks.com/products/ub-oem-steering-head-cover"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-oem-steering-head-cover.webp"
+    },
+    {
+      "id": "chargedcycleworks-side-rack-for-surron-ultra-bee",
+      "name": "Surron Ultra Bee Side Rack",
+      "brand": "Tarazon",
+      "category": "maintenance",
+      "price_usd": 100.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/side-rack-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/side-rack-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 100.0,
+          "buy_url": "https://chargedcycleworks.com/products/side-rack-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-side-rack-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-center-shaft-sleeve-assembly-oem",
+      "name": "Surron Ultra Bee – Center Shaft Sleeve Assembly | OEM",
+      "brand": "Surron-WN",
+      "category": "maintenance",
+      "price_usd": 79.3,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.3,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-center-shaft-sleeve-assembly-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-kickstand-oem",
+      "name": "Surron Ultra Bee – Kickstand | OEM",
+      "brand": "Surron-WN",
+      "category": "maintenance",
+      "price_usd": 41.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 41.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-kickstand-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-mid-shaft-bushing-oem",
+      "name": "Surron Ultra Bee – Mid Shaft Bushing | OEM",
+      "brand": "Surron-WN",
+      "category": "maintenance",
+      "price_usd": 8.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-mid-shaft-bushing-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-tool-kit-torque-wrench",
+      "name": "Surron – Torque Wrench Set Tool Kit | OEM",
+      "brand": "Surron-WN",
+      "category": "maintenance",
+      "price_usd": 83.8,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 83.8,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-tool-kit-torque-wrench.webp"
+    },
+    {
+      "id": "chargedcycleworks-headset-aluminium-housing-talaria-sting-mx3-mx4",
+      "name": "Talaria - OEM Headset Aluminum Housing",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 19.16,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/headset-aluminium-housing-talaria-sting-mx3-mx4",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/headset-aluminium-housing-talaria-sting-mx3-mx4"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.16,
+          "buy_url": "https://chargedcycleworks.com/products/headset-aluminium-housing-talaria-sting-mx3-mx4"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-headset-aluminium-housing-talaria-sting-mx3-mx4.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-oem-upper-headset-cap-v2",
+      "name": "Talaria - OEM Upper Headset Cap V2",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 10.94,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-oem-upper-headset-cap-v2",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-upper-headset-cap-v2"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 10.94,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-oem-upper-headset-cap-v2"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-oem-upper-headset-cap-v2.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-komodo-left-switch-two-in-one",
+      "name": "Talaria Komodo – Left Switch (2-in-1) | OEM",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 23.39,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-left-switch-two-in-one",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-left-switch-two-in-one"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 23.39,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-left-switch-two-in-one"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-komodo-left-switch-two-in-one.webp"
+    },
+    {
+      "id": "chargedcycleworks-tugger-lift-straps-for-hard-enduro",
+      "name": "Tugger Lift Straps for Hard Enduro",
+      "brand": "Tugger",
+      "category": "maintenance",
+      "price_usd": 17.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tugger-lift-straps-for-hard-enduro",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tugger-lift-straps-for-hard-enduro"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 17.99,
+          "buy_url": "https://chargedcycleworks.com/products/tugger-lift-straps-for-hard-enduro"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-tugger-lift-straps-for-hard-enduro.webp"
+    },
+    {
+      "id": "chargedcycleworks-tusk-brake-rotor-bolt-kit",
+      "name": "Tusk Brake Rotor Bolt Kit (Ultra Bee)",
+      "brand": "RMATV",
+      "category": "maintenance",
+      "price_usd": 4.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tusk-brake-rotor-bolt-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tusk-brake-rotor-bolt-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 4.99,
+          "buy_url": "https://chargedcycleworks.com/products/tusk-brake-rotor-bolt-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-tusk-brake-rotor-bolt-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-frame-steering-bump-stops",
+      "name": "Ultra Bee Frame Steering Bump Stops",
+      "brand": "Charged Powersports",
+      "category": "maintenance",
+      "price_usd": 49.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-frame-steering-bump-stops",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-frame-steering-bump-stops"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-frame-steering-bump-stops"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-frame-steering-bump-stops.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus",
+      "name": "Warp9 Adjustable Kickstand – Surron Light Bee / E-Ride Pro / 79 Bike Falcon / Ventus",
+      "brand": "Warp9Racing",
+      "category": "maintenance",
+      "price_usd": 120.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 120.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-adjustable-kickstand-surron-ultra-bee",
+      "name": "Warp9 Surron Ultra Bee Adjustable Kickstand",
+      "brand": "Warp9Racing",
+      "category": "maintenance",
+      "price_usd": 105.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 105.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-adjustable-kickstand-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-surron-ultra-bee-stabilizer-mount-with-frame-post",
+      "name": "Warp9 Surron Ultra Bee Stablizer Mount w Frame Post",
+      "brand": "Warp9Racing",
+      "category": "maintenance",
+      "price_usd": 65.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-stabilizer-mount-with-frame-post",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-stabilizer-mount-with-frame-post"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 65.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-stabilizer-mount-with-frame-post"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-surron-ultra-bee-stabilizer-mount-with-frame-post.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-trailer-mount",
+      "name": "Warp9 Surron Ultra Bee Trailer Mount",
+      "brand": "Warp9Racing",
+      "category": "maintenance",
+      "price_usd": 87.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-trailer-mount",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-trailer-mount"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 87.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-trailer-mount"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-trailer-mount.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-ultra-bee-rear-rack",
+      "name": "Warp9 Ultra Bee Rear Rack",
+      "brand": "Warp9Racing",
+      "category": "maintenance",
+      "price_usd": 79.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-rear-rack",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-rear-rack"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-rear-rack"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-ultra-bee-rear-rack.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-ultra-bee-steer-stops-low-profile",
+      "name": "Warp9 Ultra Bee Steer Stops – Low Profile",
+      "brand": "Warp9",
+      "category": "maintenance",
+      "price_usd": 22.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 22.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-ultra-bee-steer-stops-low-profile.webp"
+    },
+    {
+      "id": "chargedcycleworks-stem-lock",
+      "name": "eBikeZilla Stem Lock",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 47.93,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stem-lock",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stem-lock"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 47.93,
+          "buy_url": "https://chargedcycleworks.com/products/stem-lock"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-stem-lock.webp"
     }
   ],
   "compatibility": [
@@ -688,11 +1588,11 @@
       "product_id": "maintenance-lightbee-headset",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://shop.sur-ron.com/products/light-bee-roller-bearing-upgrade-headset"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "maintenance-lightbee-headset",
@@ -818,21 +1718,21 @@
       "product_id": "maintenance-eride-surron-talaria-headset",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "maintenance-eride-surron-talaria-headset",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://shop.therideguru.com/products/headset-roller-bearing-kit-upper-lower-direct-oe-replacemet"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "maintenance-eride-surron-talaria-headset",
@@ -958,11 +1858,11 @@
       "product_id": "maintenance-lightbee-swingarm-axle",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee"
       ],
-      "notes": "Fits OEM Light Bee X and L1E swingarms"
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "maintenance-lightbee-swingarm-axle",
@@ -1091,7 +1991,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "maintenance-bonnell-805-rx-kickstand-set",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1101,7 +2001,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "maintenance-bonnell-805-rx-rear-wheel-axle-block",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1111,7 +2011,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "maintenance-bonnell-bonnell-805-rx-wheel-refurbish-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1121,7 +2021,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "maintenance-bonnell-805-rx-spare-parts-bolt-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1131,7 +2031,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "maintenance-bonnell-805-rx-swing-arm-bearing-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1141,7 +2041,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "maintenance-bonnell-805-rx-headset-bearing-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1151,8 +2051,448 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "maintenance-bonnell-805-rx-seat-steering-lock-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-bonnell-805-rx-battery-tray-foam",
+      "bike_id": "bonnell-805rx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-battery-tray-foam"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bonnell-805-rx-battery-tray-foam"
+    },
+    {
+      "product_id": "chargedcycleworks-bonnell-805-rx-moto-toolkit-set",
+      "bike_id": "bonnell-805rx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bonnell-805-rx-moto-toolkit-set"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bonnell-805-rx-moto-toolkit-set"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-billet-gear-box-breather-kit-v2",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-billet-gear-box-breather-kit-v2"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gritshift-billet-gear-box-breather-kit-v2"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-komodo-left-switch-two-in-one",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-left-switch-two-in-one"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-left-switch-two-in-one"
+    },
+    {
+      "product_id": "chargedcycleworks-button-head-screw-gb-t70-2-m6x14-1",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1"
+    },
+    {
+      "product_id": "chargedcycleworks-headset-aluminium-housing-talaria-sting-mx3-mx4",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/headset-aluminium-housing-talaria-sting-mx3-mx4"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/headset-aluminium-housing-talaria-sting-mx3-mx4"
+    },
+    {
+      "product_id": "chargedcycleworks-stem-lock",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stem-lock"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/stem-lock"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-oem-upper-headset-cap-v2",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-upper-headset-cap-v2"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-oem-upper-headset-cap-v2"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus"
+    },
+    {
+      "product_id": "tbelectricmoto-bearing-kit-swingarm-e-ride-pro-sr-and-3-0",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bearing-kit-swingarm-e-ride-pro-sr-and-3-0"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bearing-kit-swingarm-e-ride-pro-sr-and-3-0"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-bolts-and-nut-set",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-bolts-and-nut-set"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-bolts-and-nut-set"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-tapered-roller-bearing",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-tapered-roller-bearing"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-tapered-roller-bearing"
+    },
+    {
+      "product_id": "chargedcycleworks-stem-lock",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stem-lock"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/stem-lock"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus"
+    },
+    {
+      "product_id": "chargedcycleworks-button-head-screw-gb-t70-2-m6x14-1",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-bolts-and-nut-set",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-bolts-and-nut-set"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-bolts-and-nut-set"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-tapered-roller-bearing",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-tapered-roller-bearing"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-tapered-roller-bearing"
+    },
+    {
+      "product_id": "chargedcycleworks-stem-lock",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stem-lock"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/stem-lock"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus"
+    },
+    {
+      "product_id": "chargedcycleworks-bowl-set",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bowl-set"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bowl-set"
+    },
+    {
+      "product_id": "chargedcycleworks-cnc-horn-cover-for-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/cnc-horn-cover-for-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/cnc-horn-cover-for-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-cargo-rack-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-cargo-rack-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-cargo-rack-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1"
+    },
+    {
+      "product_id": "chargedcycleworks-side-rack-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/side-rack-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/side-rack-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-oem-ultra-bee-rear-rack",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-center-shaft-sleeve-assembly-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-kickstand-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-mid-shaft-bushing-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-tool-kit-torque-wrench",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench"
+    },
+    {
+      "product_id": "chargedcycleworks-tugger-lift-straps-for-hard-enduro",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tugger-lift-straps-for-hard-enduro"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tugger-lift-straps-for-hard-enduro"
+    },
+    {
+      "product_id": "chargedcycleworks-tusk-brake-rotor-bolt-kit",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tusk-brake-rotor-bolt-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tusk-brake-rotor-bolt-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-oem-steering-head-adjust-nut",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-oem-steering-head-adjust-nut-1",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-oem-steering-head-cover",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-cover"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-oem-steering-head-cover"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-oem-steering-head-gasket-top",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-oem-steering-head-support",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-support"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-oem-steering-head-support"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-airtag-stash",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-airtag-stash"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-airtag-stash"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-frame-steering-bump-stops",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-frame-steering-bump-stops"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-frame-steering-bump-stops"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-trailer-mount",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-trailer-mount"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-trailer-mount"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-adjustable-kickstand-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-surron-ultra-bee-stabilizer-mount-with-frame-post",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-stabilizer-mount-with-frame-post"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-surron-ultra-bee-stabilizer-mount-with-frame-post"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-ultra-bee-rear-rack",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-rear-rack"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-rear-rack"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-ultra-bee-steer-stops-low-profile",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile"
+    },
+    {
+      "product_id": "chargedcycleworks-x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included"
     }
   ]
 }

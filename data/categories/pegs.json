@@ -731,6 +731,706 @@
       "power_change_kw": null,
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-oem-foot-peg-pin-and-lock-washer",
+      "name": "E Ride Pro - OEM Foot Peg Mount Assembly",
+      "brand": "ERide Pro",
+      "category": "pegs",
+      "price_usd": 19.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-oem-foot-peg-pin-and-lock-washer",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-foot-peg-pin-and-lock-washer"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-oem-foot-peg-pin-and-lock-washer"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-oem-foot-peg-pin-and-lock-washer.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-right-foot-peg-mount-copy",
+      "name": "E Ride Pro - OEM Footpeg mount only",
+      "brand": "ERide Pro",
+      "category": "pegs",
+      "price_usd": 16.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-right-foot-peg-mount-copy",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-right-foot-peg-mount-copy"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-right-foot-peg-mount-copy"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-right-foot-peg-mount-copy.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro",
+      "name": "EBMX Premium Foot Peg and Brace",
+      "brand": "EBMX",
+      "category": "pegs",
+      "price_usd": 127.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 127.5,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro.webp"
+    },
+    {
+      "id": "chargedcycleworks-flo-motorsports-foot-pegs",
+      "name": "FLO Motorsports Foot Pegs",
+      "brand": "Charged Powersports",
+      "category": "pegs",
+      "price_usd": 189.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/flo-motorsports-foot-pegs",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/flo-motorsports-foot-pegs"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 189.0,
+          "buy_url": "https://chargedcycleworks.com/products/flo-motorsports-foot-pegs"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-flo-motorsports-foot-pegs.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective",
+      "name": "KKE CNC Foot Pegs for Talaria",
+      "brand": "KKE Racing",
+      "category": "pegs",
+      "price_usd": 59.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10); CCW fitment text name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-footpegs-for-surron-light-bee-segway-x260",
+      "name": "KKE Foot pegs",
+      "brand": "KKE Racing",
+      "category": "pegs",
+      "price_usd": 45.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/footpegs-for-surron-light-bee-segway-x260",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/footpegs-for-surron-light-bee-segway-x260"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 45.99,
+          "buy_url": "https://chargedcycleworks.com/products/footpegs-for-surron-light-bee-segway-x260"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-footpegs-for-surron-light-bee-segway-x260.webp"
+    },
+    {
+      "id": "chargedcycleworks-kyvex-billet-wide-foot-pegs",
+      "name": "KyVex Billet Wide Foot Pegs – Surron / Talaria / E Ride Pro & More",
+      "brand": "KyVex Moto",
+      "category": "pegs",
+      "price_usd": 120.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 120.0,
+          "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kyvex-billet-wide-foot-pegs.webp"
+    },
+    {
+      "id": "chargedcycleworks-kyvex-billet-wide-foot-pegs-ultra-bee-compatible",
+      "name": "KyVex Billet Wide Foot Pegs – Surron Ultra Bee",
+      "brand": "KyVex Moto",
+      "category": "pegs",
+      "price_usd": 140.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs-ultra-bee-compatible",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs-ultra-bee-compatible"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 140.0,
+          "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs-ultra-bee-compatible"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kyvex-billet-wide-foot-pegs-ultra-bee-compatible.webp"
+    },
+    {
+      "id": "chargedcycleworks-prickly-foot-pegs-mx-for-ultra-bee",
+      "name": "Prickly Foot Pegs MX for Ultra Bee",
+      "brand": "Prickly Motorsports",
+      "category": "pegs",
+      "price_usd": 169.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 169.0,
+          "buy_url": "https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-prickly-foot-pegs-mx-for-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-prickly-foot-pegs-wide-for-talaria",
+      "name": "Prickly Foot Pegs Wide for Talaria",
+      "brand": "Prickly Motorsports",
+      "category": "pegs",
+      "price_usd": 152.1,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/prickly-foot-pegs-wide-for-talaria",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/prickly-foot-pegs-wide-for-talaria"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 152.1,
+          "buy_url": "https://chargedcycleworks.com/products/prickly-foot-pegs-wide-for-talaria"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-prickly-foot-pegs-wide-for-talaria.webp"
+    },
+    {
+      "id": "chargedcycleworks-replacement-peg-springs",
+      "name": "Prickly Replacement Peg Springs",
+      "brand": "Prickly Motorsports",
+      "category": "pegs",
+      "price_usd": 5.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/replacement-peg-springs",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/replacement-peg-springs"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 5.0,
+          "buy_url": "https://chargedcycleworks.com/products/replacement-peg-springs"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-replacement-peg-springs.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-light-bee-oem-right-left-foot-peg-support-brackets",
+      "name": "Surron Light Bee - OEM Right & Left Foot Peg Support Brackets",
+      "brand": "eBikeZilla",
+      "category": "pegs",
+      "price_usd": 61.63,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-oem-right-left-foot-peg-support-brackets",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-right-left-foot-peg-support-brackets"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 61.63,
+          "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-oem-right-left-foot-peg-support-brackets"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-light-bee-oem-right-left-foot-peg-support-brackets.webp"
+    },
+    {
+      "id": "chargedcycleworks-left-footpeg-assembly",
+      "name": "Surron Ultra Bee - OEM Left Footpeg Assembly",
+      "brand": "Surron",
+      "category": "pegs",
+      "price_usd": 50.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/left-footpeg-assembly",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/left-footpeg-assembly"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 50.99,
+          "buy_url": "https://chargedcycleworks.com/products/left-footpeg-assembly"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-left-footpeg-assembly.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-passenger-footpeg-kit",
+      "name": "Surron Ultra Bee - OEM Passenger Footpeg Kit",
+      "brand": "Surron",
+      "category": "pegs",
+      "price_usd": 111.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 111.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-passenger-footpeg-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-right-footpeg-assembly",
+      "name": "Surron Ultra Bee - OEM Right Footpeg Assembly",
+      "brand": "Surron",
+      "category": "pegs",
+      "price_usd": 47.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/right-footpeg-assembly",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/right-footpeg-assembly"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 47.99,
+          "buy_url": "https://chargedcycleworks.com/products/right-footpeg-assembly"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-right-footpeg-assembly.webp"
+    },
+    {
+      "id": "chargedcycleworks-footpeg-connector-talaria-sting-mx3-mx4-x3",
+      "name": "Talaria - OEM Foot Peg Connector",
+      "brand": "eBikeZilla",
+      "category": "pegs",
+      "price_usd": 16.42,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/footpeg-connector-talaria-sting-mx3-mx4-x3",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/footpeg-connector-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.42,
+          "buy_url": "https://chargedcycleworks.com/products/footpeg-connector-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-footpeg-connector-talaria-sting-mx3-mx4-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-footpeg-fixing-pin-talaria-sting-mx3-mx4-x3",
+      "name": "Talaria - OEM Foot Peg Fixing Pin",
+      "brand": "eBikeZilla",
+      "category": "pegs",
+      "price_usd": 4.09,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/footpeg-fixing-pin-talaria-sting-mx3-mx4-x3",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/footpeg-fixing-pin-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 4.09,
+          "buy_url": "https://chargedcycleworks.com/products/footpeg-fixing-pin-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-footpeg-fixing-pin-talaria-sting-mx3-mx4-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-footpeg-return-spring-talaria-sting-mx3-mx4-x3",
+      "name": "Talaria - OEM Foot Peg Return Spring",
+      "brand": "eBikeZilla",
+      "category": "pegs",
+      "price_usd": 2.72,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/footpeg-return-spring-talaria-sting-mx3-mx4-x3",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/footpeg-return-spring-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2.72,
+          "buy_url": "https://chargedcycleworks.com/products/footpeg-return-spring-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-footpeg-return-spring-talaria-sting-mx3-mx4-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3",
+      "name": "Talaria - OEM Foot Peg Support Brace",
+      "brand": "eBikeZilla",
+      "category": "pegs",
+      "price_usd": 24.64,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.64,
+          "buy_url": "https://chargedcycleworks.com/products/replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3",
+      "name": "Talaria - OEM Left Footpeg Mount (Kickstand Side)",
+      "brand": "eBikeZilla",
+      "category": "pegs",
+      "price_usd": 36.98,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 36.98,
+          "buy_url": "https://chargedcycleworks.com/products/left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-right-footpeg-holder-talaria-sting-mx3-mx4",
+      "name": "Talaria - OEM Right Foot Peg Mount",
+      "brand": "eBikeZilla",
+      "category": "pegs",
+      "price_usd": 36.97,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/right-footpeg-holder-talaria-sting-mx3-mx4",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/right-footpeg-holder-talaria-sting-mx3-mx4"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 36.97,
+          "buy_url": "https://chargedcycleworks.com/products/right-footpeg-holder-talaria-sting-mx3-mx4"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-right-footpeg-holder-talaria-sting-mx3-mx4.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-komodo-left-footpeg-holder-black-kickstand-side",
+      "name": "Talaria Komodo – Left & Right Footpeg Holder | OEM",
+      "brand": "eBikeZilla",
+      "category": "pegs",
+      "price_usd": 26.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-left-footpeg-holder-black-kickstand-side",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-left-footpeg-holder-black-kickstand-side"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 26.99,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-komodo-left-footpeg-holder-black-kickstand-side"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-komodo-left-footpeg-holder-black-kickstand-side.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-1-foot-peg-drop-lowering-kit",
+      "name": "Ultra Bee 1\" Foot Peg Drop / Lowering Kit",
+      "brand": "Charged Powersports",
+      "category": "pegs",
+      "price_usd": 120.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-1-foot-peg-drop-lowering-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-1-foot-peg-drop-lowering-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 120.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-1-foot-peg-drop-lowering-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-1-foot-peg-drop-lowering-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-foot-pegs-for-talaria",
+      "name": "Warp9 Foot Pegs for Talaria Sting MX3 / MX4 / XXX / Altis",
+      "brand": "Warp9",
+      "category": "pegs",
+      "price_usd": 98.1,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-talaria",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-talaria"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 98.1,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-talaria"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-foot-pegs-for-talaria.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-foot-pegs",
+      "name": "Warp9 Surron Ultra Bee Elite Foot Pegs",
+      "brand": "Warp9",
+      "category": "pegs",
+      "price_usd": 131.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 131.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-foot-pegs.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-altis-sigma-elite-foot-pegs",
+      "name": "Warp9 Talaria / Altis Sigma Elite Foot Pegs",
+      "brand": "Warp9",
+      "category": "pegs",
+      "price_usd": 142.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10); CCW fitment text name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 142.0,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-altis-sigma-elite-foot-pegs.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-adjustable-foot-peg-mount",
+      "name": "Warp9 Ultra Bee Adjustable Foot Peg Mount",
+      "brand": "Warp9",
+      "category": "pegs",
+      "price_usd": 186.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-adjustable-foot-peg-mount",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-adjustable-foot-peg-mount"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 186.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-adjustable-foot-peg-mount"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-adjustable-foot-peg-mount.webp"
+    },
+    {
+      "id": "chargedcycleworks-cnc-aluminum-wide-foot-pegs",
+      "name": "Wide Foot Pegs for E-Moto",
+      "brand": "Surron-WN",
+      "category": "pegs",
+      "price_usd": 59.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-cnc-aluminum-wide-foot-pegs.webp"
     }
   ],
   "compatibility": [
@@ -794,9 +1494,11 @@
       "product_id": "pegs-kke-ultrabee",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
     },
     {
       "product_id": "pegs-kke-ultrabee",
@@ -890,9 +1592,11 @@
       "product_id": "pegs-ultrabee-oem-brackets",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://voromotors.com/products/foot-pegs-with-mounts-for-ultra-bee"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "pegs-ultrabee-oem-brackets",
@@ -949,12 +1653,12 @@
     {
       "product_id": "pegs-ventus-lbx",
       "bike_id": "lightbee",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://ventusbikes.us/products/surron-lbx-foot-pegs-collective"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "pegs-tarazon-walmart",
@@ -973,7 +1677,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "pegs-bonnell-805-rx-footpeg-mount",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -983,7 +1687,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "pegs-bonnell-805-rx-footpeg-set",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -993,7 +1697,7 @@
       ],
       "notes": "Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)",
       "product_id": "warp9-elite-pegs",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1003,7 +1707,7 @@
       ],
       "notes": "Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)",
       "product_id": "mxps-billet-pegs-stormbee",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1144,7 +1848,7 @@
       ],
       "notes": "Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)",
       "product_id": "warp9-pegs-lbx-ventus",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1152,7 +1856,7 @@
       "fitment_source_urls": [],
       "notes": "Owner-verified install (site owner's bike), Oct 18, 2026",
       "product_id": "warp9-pegs-lbx-ventus",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1162,7 +1866,7 @@
       ],
       "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
       "product_id": "warp9-pegs-lbx-ventus",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1204,6 +1908,376 @@
       "product_id": "warp9-pegs-lbx-ventus",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-altis-sigma-elite-foot-pegs",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-komodo-left-footpeg-holder-black-kickstand-side",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-komodo-left-footpeg-holder-black-kickstand-side"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-left-footpeg-holder-black-kickstand-side"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-foot-pegs-for-talaria",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-talaria"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-foot-pegs-for-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-footpeg-connector-talaria-sting-mx3-mx4-x3",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/footpeg-connector-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/footpeg-connector-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-footpeg-fixing-pin-talaria-sting-mx3-mx4-x3",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/footpeg-fixing-pin-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/footpeg-fixing-pin-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-footpeg-return-spring-talaria-sting-mx3-mx4-x3",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/footpeg-return-spring-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/footpeg-return-spring-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-billet-wide-foot-pegs",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs"
+    },
+    {
+      "product_id": "chargedcycleworks-left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-foot-pegs-wide-for-talaria",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-foot-pegs-wide-for-talaria"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-foot-pegs-wide-for-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-right-footpeg-holder-talaria-sting-mx3-mx4",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/right-footpeg-holder-talaria-sting-mx3-mx4"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/right-footpeg-holder-talaria-sting-mx3-mx4"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-altis-sigma-elite-foot-pegs",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs"
+    },
+    {
+      "product_id": "chargedcycleworks-cnc-aluminum-wide-foot-pegs",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro"
+    },
+    {
+      "product_id": "chargedcycleworks-flo-motorsports-foot-pegs",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/flo-motorsports-foot-pegs"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/flo-motorsports-foot-pegs"
+    },
+    {
+      "product_id": "chargedcycleworks-footpegs-for-surron-light-bee-segway-x260",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/footpegs-for-surron-light-bee-segway-x260"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/footpegs-for-surron-light-bee-segway-x260"
+    },
+    {
+      "product_id": "chargedcycleworks-replacement-peg-springs",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/replacement-peg-springs"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/replacement-peg-springs"
+    },
+    {
+      "product_id": "chargedcycleworks-cnc-aluminum-wide-foot-pegs",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-oem-foot-peg-pin-and-lock-washer",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-foot-peg-pin-and-lock-washer"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-foot-peg-pin-and-lock-washer"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-right-foot-peg-mount-copy",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-right-foot-peg-mount-copy"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-right-foot-peg-mount-copy"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro"
+    },
+    {
+      "product_id": "chargedcycleworks-footpegs-for-surron-light-bee-segway-x260",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/footpegs-for-surron-light-bee-segway-x260"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/footpegs-for-surron-light-bee-segway-x260"
+    },
+    {
+      "product_id": "chargedcycleworks-replacement-peg-springs",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/replacement-peg-springs"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/replacement-peg-springs"
+    },
+    {
+      "product_id": "chargedcycleworks-cnc-aluminum-wide-foot-pegs",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs"
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-billet-wide-foot-pegs-ultra-bee-compatible",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs-ultra-bee-compatible"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs-ultra-bee-compatible"
+    },
+    {
+      "product_id": "chargedcycleworks-left-footpeg-assembly",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/left-footpeg-assembly"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/left-footpeg-assembly"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-foot-pegs-mx-for-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-right-footpeg-assembly",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/right-footpeg-assembly"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/right-footpeg-assembly"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-foot-pegs",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-1-foot-peg-drop-lowering-kit",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-1-foot-peg-drop-lowering-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-1-foot-peg-drop-lowering-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-adjustable-foot-peg-mount",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-adjustable-foot-peg-mount"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-adjustable-foot-peg-mount"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-passenger-footpeg-kit",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-light-bee-oem-right-left-foot-peg-support-brackets",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-right-left-foot-peg-support-brackets"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-light-bee-oem-right-left-foot-peg-support-brackets"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-foot-pegs-for-surron-segway",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://warp9racing.com/products/surron-foot-pegs"
+      ],
+      "notes": "Warp 9 listing for these pegs names the Light Bee 2 (checked Nov 4, 2026)"
     }
   ]
 }

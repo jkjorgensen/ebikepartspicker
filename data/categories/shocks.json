@@ -7,31 +7,34 @@
     {
       "bike_id": "lightbee",
       "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ext-arma"
+        "https://tbelectricmoto.com/products/ext-arma",
+        "https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron"
       ],
-      "notes": "",
+      "notes": "Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)",
       "product_id": "ext-arma-mx",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "mx4",
       "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ext-arma"
+        "https://tbelectricmoto.com/products/ext-arma",
+        "https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron"
       ],
-      "notes": "",
+      "notes": "Seller listing names the Talaria Sting MX4 (checked Oct 18, 2026)",
       "product_id": "ext-arma-mx",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "mx5",
       "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ext-arma"
+        "https://tbelectricmoto.com/products/ext-arma",
+        "https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron"
       ],
-      "notes": "",
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)",
       "product_id": "ext-arma-mx",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -47,21 +50,23 @@
     {
       "bike_id": "ss20",
       "fitment_source_urls": [
-        "https://revrides.com/products/ext-arma-mx-e-mx-damper-surron-talaria"
+        "https://revrides.com/products/ext-arma-mx-e-mx-damper-surron-talaria",
+        "https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron"
       ],
-      "notes": "",
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)",
       "product_id": "ext-arma-mx",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "ss30",
       "fitment_source_urls": [
-        "https://revrides.com/products/ext-arma-mx-e-mx-damper-surron-talaria"
+        "https://revrides.com/products/ext-arma-mx-e-mx-damper-surron-talaria",
+        "https://tbelectricmoto.com/products/ext-arma"
       ],
-      "notes": "",
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)",
       "product_id": "ext-arma-mx",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -77,11 +82,13 @@
     {
       "bike_id": "sr",
       "fitment_source_urls": [
-        "https://revrides.com/products/ext-arma-mx-e-mx-damper-surron-talaria"
+        "https://revrides.com/products/ext-arma-mx-e-mx-damper-surron-talaria",
+        "https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron",
+        "https://chargedcycleworks.com/collections/e-ride-pro-sr-upgrades"
       ],
-      "notes": "",
+      "notes": "CCW 'EXT Arma MX Rear Shock' fitment list names E Ride Pro SR; also in the E Ride Pro SR Upgrades collection (checked 2026-11-10)",
       "product_id": "ext-arma-mx",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -89,9 +96,9 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/ext-arma"
       ],
-      "notes": "Ventus One / One Plus listed",
+      "notes": "Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)",
       "product_id": "ext-arma-mx",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -107,9 +114,9 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee"
       ],
-      "notes": "283x80mm",
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
       "product_id": "tech-er30-283",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -117,9 +124,9 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock"
       ],
-      "notes": "",
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
       "product_id": "kke-performance",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -127,9 +134,9 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/light-bee-kke-rear-shock-absorber-white-spring"
       ],
-      "notes": "OEM replacement",
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
       "product_id": "oem-kke-white",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -147,9 +154,9 @@
       "fitment_source_urls": [
         "https://goldenmotor.bike/collections/oem-talaria-sting-mx4-suspension/products/rear-shock-dnm-250x70mm-talaria-sting-mx3-mx4-sur-ron-segway-shorter"
       ],
-      "notes": "",
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)",
       "product_id": "dnm-250x70",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -164,11 +171,11 @@
       "product_id": "komodo-shock-absorber-oem",
       "bike_id": "komodo",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/parts/talaria/shk219/"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "tech-er30-283",
@@ -184,17 +191,21 @@
       "product_id": "rfloxa-raf55rv-ultrabee",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page: \"Fitment: Surron Ultra Bee\""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-raf55rv"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee (checked Oct 18, 2026)"
     },
     {
       "product_id": "sirris-r46-ultrabee",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": "Page: \"bolts directly onto a stock Ultra Bee\""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-r46-shock-for-surron-ultra-bee"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee (checked Oct 18, 2026)"
     },
     {
       "bike_id": "ss20",
@@ -203,18 +214,20 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-rear-shock",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "ss30",
       "fitment_source_urls": [
-        "https://voromotors.com/products/rear-suspension-shock-for-e-ride-pro-ss"
+        "https://voromotors.com/products/rear-suspension-shock-for-e-ride-pro-ss",
+        "https://chargedcycleworks.com/products/e-ride-oem-metal-rear-suspension-shock",
+        "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts"
       ],
-      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "notes": "CCW 'E Ride Pro - OEM Rear Suspension Shock' lists PN E7025 (same as Voro), is in the SS 3.0 OEM Parts collection, and is tagged ERPSS3 (checked 2026-11-10)",
       "product_id": "voro-eride-ss-rear-shock",
-      "required_adapters": null,
-      "status": "verify"
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "bonnell-805rx",
@@ -223,7 +236,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "shock-sirris-r46-rear-shock-spring",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -233,8 +246,448 @@
       ],
       "notes": "SIRRIS product page is a dedicated Zero XE SKU: \"R46 Zero XE Trail Tune | LSC | Zero XE\", described as a direct-fit upgrade developed around the XE platform (checked Oct 21, 2026)",
       "product_id": "sirris-r46-zero-xe",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5"
+    },
+    {
+      "product_id": "chargedcycleworks-fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle"
+    },
+    {
+      "product_id": "chargedcycleworks-fastace-rear-shock-for-surron-talaria",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/fastace-rear-shock-for-surron-talaria"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fastace-rear-shock-for-surron-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk33-max",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk33-max"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rfloxa-hawk33-max"
+    },
+    {
+      "product_id": "chargedcycleworks-tech-rear-shock-for-talaria",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-rear-shock-for-talaria"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-rear-shock-for-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway"
+    },
+    {
+      "product_id": "chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-performance-linkage-e-ride-pro",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
+    },
+    {
+      "product_id": "revrides-r38-2sc-e-ride-pro-sr",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-sr"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-sr"
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk35-max",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk35-max"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rfloxa-hawk35-max"
+    },
+    {
+      "product_id": "chargedcycleworks-tech-suspension-er34-racing-kashima-shock",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+    },
+    {
+      "product_id": "chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway"
+    },
+    {
+      "product_id": "chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-performance-linkage-e-ride-pro",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
+    },
+    {
+      "product_id": "chargedcycleworks-r38-2sc-e-ride-pro-3-0",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-3-0"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-3-0"
+    },
+    {
+      "product_id": "chargedcycleworks-tech-rear-shock-for-talaria",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-rear-shock-for-talaria"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-rear-shock-for-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-tech-suspension-er34-racing-kashima-shock",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
+    },
+    {
+      "product_id": "chargedcycleworks-ext-rea-mx-rear-shock-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ext-rea-mx-rear-shock-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ext-rea-mx-rear-shock-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-fsirris-f43-mx-tune-front-fork",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/fsirris-f43-mx-tune-front-fork"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fsirris-f43-mx-tune-front-fork"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-rear-shock-for-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-shock-for-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-rear-shock-for-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-rear-shock-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-shock-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-rear-shock-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-sirris-f43-sx-tune-front-fork",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-f43-sx-tune-front-fork"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-f43-sx-tune-front-fork"
+    },
+    {
+      "product_id": "chargedcycleworks-sirris-f43-trail-tune-front-fork",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-f43-trail-tune-front-fork"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-f43-trail-tune-front-fork"
+    },
+    {
+      "product_id": "chargedcycleworks-sirris-r46-mx-tune-rear-shock-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-r46-mx-tune-rear-shock-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-r46-mx-tune-rear-shock-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-sirris-r46-sx-tune-rear-shock-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-r46-sx-tune-rear-shock-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-r46-sx-tune-rear-shock-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-sirris-r46-trail-tune-rear-shock-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-r46-trail-tune-rear-shock-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-r46-trail-tune-rear-shock-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-traxion-260mm-travel-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/traxion-260mm-travel-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/traxion-260mm-travel-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-traxion-s-tialn-260mm-travel-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/traxion-s-tialn-260mm-travel-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/traxion-s-tialn-260mm-travel-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-tech-suspension-er34-racing-kashima-shock",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+    },
+    {
+      "product_id": "chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one"
+    },
+    {
+      "product_id": "chargedcycleworks-tech-er30-rear-shock-arctic-leopard-ex",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-er30-rear-shock-arctic-leopard-ex"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-er30-rear-shock-arctic-leopard-ex"
+    },
+    {
+      "product_id": "chargedcycleworks-tech-rear-shock-for-talaria",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-rear-shock-for-talaria"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-rear-shock-for-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-tech-suspension-er34-racing-kashima-shock",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+    },
+    {
+      "product_id": "kke-performance",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "kke-performance",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock"
+      ],
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "kke-performance",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "kke-performance",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock"
+      ],
+      "notes": "Seller listing names the E Ride Pro SR (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "tech-er30-283",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "tech-er30-283",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee"
+      ],
+      "notes": "Seller listing names the Ventus One Plus (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "tech-er30-283",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "tech-er30-283",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee"
+      ],
+      "notes": "Seller listing names the E Ride Pro SR (re-check Oct 18, 2026)"
+    },
+    {
+      "product_id": "ext-arma-mx",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/ext-arma-mx-e-mx-damper-shock-surron-talaria-e-ride-pro-altis-sigma-mantis-x"
+      ],
+      "notes": "REV Rides fitment list includes Arctic Leopard XF Pro and Arctic Leopard XF S"
     }
   ],
   "products": [
@@ -931,6 +1384,656 @@
       "power_change_kw": null,
       "weight_delta_kg": null,
       "image": "img/parts/sirris-r46-zero-xe.webp"
+    },
+    {
+      "id": "chargedcycleworks-prickly-performance-linkage-e-ride-pro",
+      "name": "Prickly Linkage for Sirris R38 Rear Shock E Ride Pro",
+      "brand": "Prickly Motorsports",
+      "category": "shock",
+      "price_usd": 125.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 125.0,
+          "buy_url": "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-prickly-performance-linkage-e-ride-pro.webp"
+    },
+    {
+      "id": "chargedcycleworks-traxion-s-tialn-260mm-travel-surron-ultra-bee",
+      "name": "PURE Racing - TRAXION S | TiAlN | 260mm Travel for Surron Ultra Bee",
+      "brand": "PURE RACING",
+      "category": "shock",
+      "price_usd": 999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/traxion-s-tialn-260mm-travel-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/traxion-s-tialn-260mm-travel-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 999.0,
+          "buy_url": "https://chargedcycleworks.com/products/traxion-s-tialn-260mm-travel-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-traxion-s-tialn-260mm-travel-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-ext-rea-mx-rear-shock-for-surron-ultra-bee",
+      "name": "EXT Rea MX Rear Shock for Surron Ultra Bee",
+      "brand": "EXT",
+      "category": "shock",
+      "price_usd": 950.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ext-rea-mx-rear-shock-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ext-rea-mx-rear-shock-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 950.0,
+          "buy_url": "https://chargedcycleworks.com/products/ext-rea-mx-rear-shock-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ext-rea-mx-rear-shock-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr",
+      "name": "F43 CMX Tune | Tool Free LSC | 220 mm Travel | E-Ride Pro SR",
+      "brand": "Sirris Store",
+      "category": "shock",
+      "price_usd": 2250.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2250.0,
+          "buy_url": "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr.webp"
+    },
+    {
+      "id": "chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0",
+      "name": "F43 CMX Tune | Tool Free LSC | 220 mm Travel | E-Ride Pro SS 3.0",
+      "brand": "Sirris Store",
+      "category": "shock",
+      "price_usd": 2250.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2250.0,
+          "buy_url": "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0.webp"
+    },
+    {
+      "id": "chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5",
+      "name": "F43 CMX Tune | Tool Free LSC | 220 mm Travel | Talaria MX5",
+      "brand": "Sirris Store",
+      "category": "shock",
+      "price_usd": 2250.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2250.0,
+          "buy_url": "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5.webp"
+    },
+    {
+      "id": "chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one",
+      "name": "F43 CMX Tune | Tool Free LSC | 220 mm Travel | Ventus One+",
+      "brand": "Sirris Store",
+      "category": "shock",
+      "price_usd": 2250.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ventus-plus exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2250.0,
+          "buy_url": "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one.webp"
+    },
+    {
+      "id": "chargedcycleworks-fastace-rear-shock-for-surron-talaria",
+      "name": "FastAce Rear Shock - New Take Off",
+      "brand": "FastAce",
+      "category": "shock",
+      "price_usd": 99.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/fastace-rear-shock-for-surron-talaria",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/fastace-rear-shock-for-surron-talaria"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.99,
+          "buy_url": "https://chargedcycleworks.com/products/fastace-rear-shock-for-surron-talaria"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-fastace-rear-shock-for-surron-talaria.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-rear-shock-surron-ultra-bee",
+      "name": "KKE Rear Shock for Surron Ultra Bee | 2023–2025",
+      "brand": "KKE Racing",
+      "category": "shock",
+      "price_usd": 399.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-rear-shock-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-shock-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 399.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-rear-shock-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-rear-shock-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-rear-shock-for-ultra-bee",
+      "name": "OEM - Ultra Bee KKE Rear Shock",
+      "brand": "KKE Racing",
+      "category": "shock",
+      "price_usd": 299.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-rear-shock-for-ultra-bee",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-shock-for-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 299.0,
+          "buy_url": "https://chargedcycleworks.com/products/kke-rear-shock-for-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-rear-shock-for-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-traxion-260mm-travel-surron-ultra-bee",
+      "name": "PURE Racing - TRAXION | 260mm Travel for Surron Ultra Bee",
+      "brand": "PURE RACING",
+      "category": "shock",
+      "price_usd": 999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/traxion-260mm-travel-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/traxion-260mm-travel-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 999.0,
+          "buy_url": "https://chargedcycleworks.com/products/traxion-260mm-travel-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-traxion-260mm-travel-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-rfloxa-hawk33-max",
+      "name": "RFloXa Hawk33 Max for Talaria MX5",
+      "brand": "Pinned Electric",
+      "category": "shock",
+      "price_usd": 999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk33-max",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk33-max"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 999.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk33-max"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rfloxa-hawk33-max.webp"
+    },
+    {
+      "id": "chargedcycleworks-rfloxa-hawk35-max",
+      "name": "RFloXa Hawk35 Max for E Ride Pro 3.0 / SR",
+      "brand": "Pinned Electric",
+      "category": "shock",
+      "price_usd": 999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk35-max",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk35-max"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 999.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk35-max"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rfloxa-hawk35-max.webp"
+    },
+    {
+      "id": "chargedcycleworks-fsirris-f43-mx-tune-front-fork",
+      "name": "Sirris F43 MX Tune | Tool Free LSC | 260 mm Travel | Surron Ultra Bee 1.2",
+      "brand": "Sirris Store",
+      "category": "shock",
+      "price_usd": 2250.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/fsirris-f43-mx-tune-front-fork",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/fsirris-f43-mx-tune-front-fork"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2250.0,
+          "buy_url": "https://chargedcycleworks.com/products/fsirris-f43-mx-tune-front-fork"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-fsirris-f43-mx-tune-front-fork.webp"
+    },
+    {
+      "id": "chargedcycleworks-sirris-f43-sx-tune-front-fork",
+      "name": "Sirris F43 SX Tune | Tool Free LSC | 260 mm Travel | Surron Ultra Bee 1.2",
+      "brand": "Sirris Store",
+      "category": "shock",
+      "price_usd": 2550.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sirris-f43-sx-tune-front-fork",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sirris-f43-sx-tune-front-fork"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2550.0,
+          "buy_url": "https://chargedcycleworks.com/products/sirris-f43-sx-tune-front-fork"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-sirris-f43-sx-tune-front-fork.webp"
+    },
+    {
+      "id": "chargedcycleworks-sirris-f43-trail-tune-front-fork",
+      "name": "Sirris F43 Trail Tune | Tool Free LSC | 260 mm Travel | Surron Ultra Bee 1.2",
+      "brand": "Sirris Store",
+      "category": "shock",
+      "price_usd": 2250.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sirris-f43-trail-tune-front-fork",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sirris-f43-trail-tune-front-fork"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2250.0,
+          "buy_url": "https://chargedcycleworks.com/products/sirris-f43-trail-tune-front-fork"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-sirris-f43-trail-tune-front-fork.webp"
+    },
+    {
+      "id": "chargedcycleworks-r38-2sc-e-ride-pro-3-0",
+      "name": "Sirris R38 Shock | 2SC | E-Ride Pro 3.0",
+      "brand": "Sirris Store",
+      "category": "shock",
+      "price_usd": 899.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-3-0",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-3-0"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 899.0,
+          "buy_url": "https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-3-0"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-r38-2sc-e-ride-pro-3-0.webp"
+    },
+    {
+      "id": "chargedcycleworks-sirris-r46-mx-tune-rear-shock-surron-ultra-bee",
+      "name": "Sirris R46 MX Tune | 2SC | Surron Ultra Bee 1.2",
+      "brand": "Sirris Store",
+      "category": "shock",
+      "price_usd": 999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sirris-r46-mx-tune-rear-shock-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sirris-r46-mx-tune-rear-shock-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 999.0,
+          "buy_url": "https://chargedcycleworks.com/products/sirris-r46-mx-tune-rear-shock-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-sirris-r46-mx-tune-rear-shock-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-sirris-r46-sx-tune-rear-shock-surron-ultra-bee",
+      "name": "Sirris R46 SX Tune | 2SC | Surron Ultra Bee 1.2",
+      "brand": "Sirris Store",
+      "category": "shock",
+      "price_usd": 999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sirris-r46-sx-tune-rear-shock-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sirris-r46-sx-tune-rear-shock-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 999.0,
+          "buy_url": "https://chargedcycleworks.com/products/sirris-r46-sx-tune-rear-shock-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-sirris-r46-sx-tune-rear-shock-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-sirris-r46-trail-tune-rear-shock-surron-ultra-bee",
+      "name": "Sirris R46 Trail Tune | 2SC | Surron Ultra Bee 1.2",
+      "brand": "Sirris Store",
+      "category": "shock",
+      "price_usd": 999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sirris-r46-trail-tune-rear-shock-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sirris-r46-trail-tune-rear-shock-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 999.0,
+          "buy_url": "https://chargedcycleworks.com/products/sirris-r46-trail-tune-rear-shock-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-sirris-r46-trail-tune-rear-shock-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-tech-rear-shock-for-talaria",
+      "name": "TECH ER30 E-Moto Rear Shock (288 x 85mm)",
+      "brand": "Pinned Electric",
+      "category": "shock",
+      "price_usd": 975.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tech-rear-shock-for-talaria",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tech-rear-shock-for-talaria"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 975.0,
+          "buy_url": "https://chargedcycleworks.com/products/tech-rear-shock-for-talaria"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-tech-rear-shock-for-talaria.webp"
+    },
+    {
+      "id": "chargedcycleworks-tech-er30-rear-shock-arctic-leopard-ex",
+      "name": "TECH ER30 E-Moto Rear Shock (310 x 85mm)",
+      "brand": "Pinned Electric",
+      "category": "shock",
+      "price_usd": 975.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tech-er30-rear-shock-arctic-leopard-ex",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tech-er30-rear-shock-arctic-leopard-ex"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 975.0,
+          "buy_url": "https://chargedcycleworks.com/products/tech-er30-rear-shock-arctic-leopard-ex"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-tech-er30-rear-shock-arctic-leopard-ex.webp"
+    },
+    {
+      "id": "chargedcycleworks-tech-suspension-er34-racing-kashima-shock",
+      "name": "Tech Suspension ER34 Racing Kashima E-Moto Shock",
+      "brand": "Pinned Electric",
+      "category": "shock",
+      "price_usd": 955.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) ventus-evo exactly (checked 2026-11-10); CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 955.0,
+          "buy_url": "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-tech-suspension-er34-racing-kashima-shock.webp"
+    },
+    {
+      "id": "chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway",
+      "name": "Vonkat TENfive V2 Shock for SurRon Talaria Segway",
+      "brand": "VONKAT",
+      "category": "shock",
+      "price_usd": 699.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 699.0,
+          "buy_url": "https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto",
+      "name": "Warp9 4mm Neoprene Shock Cover – Surron / Talaria / E-Ride Pro",
+      "brand": "Warp9Racing",
+      "category": "shock",
+      "price_usd": 17.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 17.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto.webp"
+    },
+    {
+      "id": "chargedcycleworks-fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle",
+      "name": "Warp9 FastAce Gravitee AHX12RV + Warp 9 Triple Clamps Suspension Bundle",
+      "brand": "Warp9",
+      "category": "shock",
+      "price_usd": 750.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 750.0,
+          "buy_url": "https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle.webp"
     }
   ]
 }

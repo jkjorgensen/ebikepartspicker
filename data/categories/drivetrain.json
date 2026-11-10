@@ -1201,6 +1201,881 @@
       "power_change_kw": null,
       "weight_delta_kg": null,
       "image": "img/parts/ebg-lb2-sprocket-520.webp"
+    },
+    {
+      "id": "chargedcycleworks-428-d-i-d-black-chain-non-o-ring",
+      "name": "D.I.D. 428 BLACK Chain Non O-ring",
+      "brand": "WPS",
+      "category": "drivetrain",
+      "price_usd": 87.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/428-d-i-d-black-chain-non-o-ring",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/428-d-i-d-black-chain-non-o-ring"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 87.95,
+          "buy_url": "https://chargedcycleworks.com/products/428-d-i-d-black-chain-non-o-ring"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-428-d-i-d-black-chain-non-o-ring.webp"
+    },
+    {
+      "id": "chargedcycleworks-428-d-i-d-x-ring-vx-chain",
+      "name": "D.I.D. 428 X-Ring VX Chain",
+      "brand": "WPS",
+      "category": "drivetrain",
+      "price_usd": 6.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/428-d-i-d-x-ring-vx-chain",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/428-d-i-d-x-ring-vx-chain"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.5,
+          "buy_url": "https://chargedcycleworks.com/products/428-d-i-d-x-ring-vx-chain"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-428-d-i-d-x-ring-vx-chain.webp"
+    },
+    {
+      "id": "chargedcycleworks-dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring",
+      "name": "DirtyBike 219 Primary Belt to Chain Conversion Kit",
+      "brand": "DirtyBike",
+      "category": "drivetrain",
+      "price_usd": 99.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.0,
+          "buy_url": "https://chargedcycleworks.com/products/dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring.webp"
+    },
+    {
+      "id": "chargedcycleworks-dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx",
+      "name": "DirtyBike 420 Primary Belt to Chain Conversion Kit",
+      "brand": "DirtyBike",
+      "category": "drivetrain",
+      "price_usd": 87.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10); CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 87.0,
+          "buy_url": "https://chargedcycleworks.com/products/dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-oem-drive-belt",
+      "name": "E Ride Pro - OEM Drive Belt",
+      "brand": "ERide Pro",
+      "category": "drivetrain",
+      "price_usd": 65.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-oem-drive-belt",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-drive-belt"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 65.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-oem-drive-belt"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-oem-drive-belt.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-motor-pulley-nut",
+      "name": "E Ride Pro - OEM Motor Pulley Nut",
+      "brand": "ERide Pro",
+      "category": "drivetrain",
+      "price_usd": 5.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-motor-pulley-nut",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-motor-pulley-nut"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 5.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-motor-pulley-nut"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-motor-pulley-nut.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-e-moto-sprocket",
+      "name": "E Ride Pro 3.0/SR - OEM E-Moto Sprocket",
+      "brand": "ERide Pro",
+      "category": "drivetrain",
+      "price_usd": 55.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 55.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-e-moto-sprocket.webp"
+    },
+    {
+      "id": "chargedcycleworks-eride-pro-sr-motor-pulley",
+      "name": "E Ride Pro SS3.0/SR - Motor Pulley | OEM",
+      "brand": "ERide Pro",
+      "category": "drivetrain",
+      "price_usd": 29.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/eride-pro-sr-motor-pulley",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-sr-motor-pulley"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.0,
+          "buy_url": "https://chargedcycleworks.com/products/eride-pro-sr-motor-pulley"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-eride-pro-sr-motor-pulley.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-jackshaft-axle-kit",
+      "name": "E Ride Pro – OEM Jackshaft Axle Kit (Axle, Nut, Shim & Bushings)",
+      "brand": "ERide Pro",
+      "category": "drivetrain",
+      "price_usd": 35.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-jackshaft-axle-kit",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-jackshaft-axle-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 35.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-jackshaft-axle-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-jackshaft-axle-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-competition-chain-guide-for-ultra-bee",
+      "name": "EBMX Competition Chain Guide for Ultra Bee",
+      "brand": "EBMX",
+      "category": "drivetrain",
+      "price_usd": 100.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 100.0,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-competition-chain-guide-for-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-competition-jackshaft-for-ultra-bee-1",
+      "name": "EBMX Competition Jackshaft for Ultra Bee",
+      "brand": "EBMX",
+      "category": "drivetrain",
+      "price_usd": 59.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-competition-jackshaft-for-ultra-bee-1",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-competition-jackshaft-for-ultra-bee-1"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-competition-jackshaft-for-ultra-bee-1"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-competition-jackshaft-for-ultra-bee-1.webp"
+    },
+    {
+      "id": "chargedcycleworks-heavy-hitter-520-ultra-bee-sprocket",
+      "name": "Heavy Hitter 520 Ultra Bee Sprocket",
+      "brand": "GritShift",
+      "category": "drivetrain",
+      "price_usd": 42.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 42.99,
+          "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-heavy-hitter-520-ultra-bee-sprocket.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective",
+      "name": "KKE 50T Rear Aluminum Sprocket for Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "drivetrain",
+      "price_usd": 79.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10); CCW fitment text name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective",
+      "name": "KKE 53T Aluminum Rear Sprocket for Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "drivetrain",
+      "price_usd": 79.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective",
+      "name": "KKE Axle Chain Adjuster Blocks for Ultra Bee",
+      "brand": "KKE Racing",
+      "category": "drivetrain",
+      "price_usd": 19.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-rtech-oversize-chain-guide-surron-ultra-bee",
+      "name": "RTech Oversize Chain Guide - Surron Ultra Bee",
+      "brand": "Rtech",
+      "category": "drivetrain",
+      "price_usd": 43.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rtech-oversize-chain-guide-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rtech-oversize-chain-guide-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 43.0,
+          "buy_url": "https://chargedcycleworks.com/products/rtech-oversize-chain-guide-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rtech-oversize-chain-guide-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-428-renthal-r-1-works-chain-copy",
+      "name": "Renthal 428 R-1 Works Chain",
+      "brand": "RMATV",
+      "category": "drivetrain",
+      "price_usd": 8.96,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/428-renthal-r-1-works-chain-copy",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/428-renthal-r-1-works-chain-copy"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.96,
+          "buy_url": "https://chargedcycleworks.com/products/428-renthal-r-1-works-chain-copy"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-428-renthal-r-1-works-chain-copy.webp"
+    },
+    {
+      "id": "chargedcycleworks-52t-sprocket-for-surron-ultra-bee",
+      "name": "Surron Ultra Bee - EBMX 52T Sprocket",
+      "brand": "EBMX",
+      "category": "drivetrain",
+      "price_usd": 59.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/52t-sprocket-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/52t-sprocket-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/52t-sprocket-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-52t-sprocket-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-center-shaft-sleeve-assembly",
+      "name": "Surron Ultra Bee - OEM Jackshaft Assembly",
+      "brand": "Surron-WN",
+      "category": "drivetrain",
+      "price_usd": 208.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/center-shaft-sleeve-assembly",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/center-shaft-sleeve-assembly"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 208.5,
+          "buy_url": "https://chargedcycleworks.com/products/center-shaft-sleeve-assembly"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-center-shaft-sleeve-assembly.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-output-gear-cover",
+      "name": "Surron Ultra Bee - OEM Motor Belt Cover",
+      "brand": "Surron",
+      "category": "drivetrain",
+      "price_usd": 10.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-output-gear-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-output-gear-cover"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 10.99,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-output-gear-cover"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-output-gear-cover.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-primary-drive-front-pulley",
+      "name": "Surron Ultra Bee - OEM Primary Drive Front Pulley",
+      "brand": "Surron",
+      "category": "drivetrain",
+      "price_usd": 53.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-primary-drive-front-pulley",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-primary-drive-front-pulley"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 53.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-primary-drive-front-pulley"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-primary-drive-front-pulley.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-axle-chain-adjuster-block-left-right-oem",
+      "name": "Surron Ultra Bee – Axle Chain Adjuster Block (Left / Right) | OEM",
+      "brand": "Surron-WN",
+      "category": "drivetrain",
+      "price_usd": 16.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-axle-chain-adjuster-block-left-right-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-axle-chain-adjuster-block-left-right-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-axle-chain-adjuster-block-left-right-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-axle-chain-adjuster-block-left-right-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-primary-drive-rear-pulley-oem",
+      "name": "Surron Ultra Bee – Primary Drive Belt Rear Pulley (MY25) | OEM",
+      "brand": "Surron-WN",
+      "category": "drivetrain",
+      "price_usd": 112.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-primary-drive-rear-pulley-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-primary-drive-rear-pulley-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 112.5,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-primary-drive-rear-pulley-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-primary-drive-rear-pulley-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-428-gold-plated-chain-by-primary-drive",
+      "name": "Tusk 428 Gold Plated Chain",
+      "brand": "RMATV",
+      "category": "drivetrain",
+      "price_usd": 3.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/428-gold-plated-chain-by-primary-drive",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/428-gold-plated-chain-by-primary-drive"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 3.99,
+          "buy_url": "https://chargedcycleworks.com/products/428-gold-plated-chain-by-primary-drive"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-428-gold-plated-chain-by-primary-drive.webp"
+    },
+    {
+      "id": "chargedcycleworks-ventus-oem-carbon-belt",
+      "name": "Ventus - OEM Carbon Belt",
+      "brand": "Pinned Electric",
+      "category": "drivetrain",
+      "price_usd": 80.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-oem-carbon-belt",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-oem-carbon-belt"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 80.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-oem-carbon-belt"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ventus-oem-carbon-belt.webp"
+    },
+    {
+      "id": "chargedcycleworks-ventus-oem-jackshaft-assembly",
+      "name": "Ventus - OEM Jackshaft Assembly",
+      "brand": "Pinned Electric",
+      "category": "drivetrain",
+      "price_usd": 198.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-oem-jackshaft-assembly",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-oem-jackshaft-assembly"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 198.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-oem-jackshaft-assembly"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ventus-oem-jackshaft-assembly.webp"
+    },
+    {
+      "id": "chargedcycleworks-ventus-jackshaft-rod-ventus-oem",
+      "name": "Ventus One - OEM Jackshaft Axle Rod",
+      "brand": "Pinned Electric",
+      "category": "drivetrain",
+      "price_usd": 45.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-jackshaft-rod-ventus-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW body: 'OEM Jackshaft rod for Ventus one and Ventus One Plus'. Checked 2026-11-10.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-jackshaft-rod-ventus-oem"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 45.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-jackshaft-rod-ventus-oem"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ventus-jackshaft-rod-ventus-oem.webp"
+    },
+    {
+      "id": "chargedcycleworks-ventus-primary-chain-drive-conversion-kit-ryuga",
+      "name": "Ventus Primary Chain Drive Conversion Kit – Ryuga Motors",
+      "brand": "Pinned Electric",
+      "category": "drivetrain",
+      "price_usd": 69.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ventus-primary-chain-drive-conversion-kit-ryuga",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ventus-primary-chain-drive-conversion-kit-ryuga"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 69.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-primary-chain-drive-conversion-kit-ryuga"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ventus-primary-chain-drive-conversion-kit-ryuga.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-talaria-sting-mx5-sprocket",
+      "name": "Warp9 - Talaria Sting MX5 Sprocket",
+      "brand": "Warp9",
+      "category": "drivetrain",
+      "price_usd": 64.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-talaria-sting-mx5-sprocket",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) mx5 exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-talaria-sting-mx5-sprocket"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 64.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-talaria-sting-mx5-sprocket"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-talaria-sting-mx5-sprocket.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-anvil-steel-rear-sprocket",
+      "name": "Warp9 Anvil Steel Rear Sprocket - Surron Ultra Bee / Surge V / Zero XE",
+      "brand": "Warp9Racing",
+      "category": "drivetrain",
+      "price_usd": 30.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 30.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-anvil-steel-rear-sprocket.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-3-0-sr-rear-sprocket",
+      "name": "Warp9 Rear Sprocket – E-Ride Pro SS 3.0 / SR",
+      "brand": "Warp9Racing",
+      "category": "drivetrain",
+      "price_usd": 50.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 50.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-3-0-sr-rear-sprocket.webp"
+    },
+    {
+      "id": "chargedcycleworks-ultra-bee-aluminum-sprocket-by-warp9",
+      "name": "Warp9 Surron Ultra Bee 520 Aluminum Sprocket",
+      "brand": "Warp9",
+      "category": "drivetrain",
+      "price_usd": 79.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ultra-bee-aluminum-sprocket-by-warp9",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10); CCW fitment text name(s) komodo exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-aluminum-sprocket-by-warp9"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.0,
+          "buy_url": "https://chargedcycleworks.com/products/ultra-bee-aluminum-sprocket-by-warp9"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ultra-bee-aluminum-sprocket-by-warp9.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-jackshaft-sprocket-surron-ultra-bee",
+      "name": "Warp9 Ultra Bee Jack Shaft Sprocket",
+      "brand": "Warp9Racing",
+      "category": "drivetrain",
+      "price_usd": 22.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-jackshaft-sprocket-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-jackshaft-sprocket-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 22.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-jackshaft-sprocket-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-jackshaft-sprocket-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-ultra-bee-titanium-sprocket-bolts",
+      "name": "Warp9 Ultra Bee Titanium Sprocket Bolts",
+      "brand": "Warp9Racing",
+      "category": "drivetrain",
+      "price_usd": 49.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-titanium-sprocket-bolts",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-titanium-sprocket-bolts"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-ultra-bee-titanium-sprocket-bolts"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-ultra-bee-titanium-sprocket-bolts.webp"
+    },
+    {
+      "id": "chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors",
+      "name": "Heavy Hitter 520 Primary Drive Conversion OEM/EBMX Ultra Motors",
+      "brand": "GritShift",
+      "category": "drivetrain",
+      "price_usd": 129.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 129.99,
+          "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors.webp"
     }
   ],
   "compatibility": [
@@ -1208,31 +2083,31 @@
       "product_id": "drivetrain-eride-chain-kit",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "drivetrain-eride-chain-kit",
       "bike_id": "ss30",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "drivetrain-eride-chain-kit",
       "bike_id": "sr",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "drivetrain-eride-chain-kit",
@@ -1326,11 +2201,12 @@
       "product_id": "drivetrain-eride-belt-pulley",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
-        "https://www.eridepro.com/products/e7004"
+        "https://www.eridepro.com/products/e7004",
+        "https://voromotors.com/products/drive-belt-pulley-for-e-ride-pro-ss"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "drivetrain-eride-belt-pulley",
@@ -1440,9 +2316,11 @@
       "product_id": "drivetrain-eride-belt",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://voromotors.com/products/drive-belt-for-e-ride-pro-ss"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "drivetrain-eride-belt",
@@ -1552,11 +2430,11 @@
       "product_id": "komodo-chain-520",
       "bike_id": "komodo",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://emotobykes.com/parts/talaria/chn120/"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Komodo (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "drivetrain-ventus-chain-kit",
@@ -1575,7 +2453,7 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-gold-chain",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1595,18 +2473,20 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-sprockets",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "ss30",
       "fitment_source_urls": [
-        "https://voromotors.com/products/sprockets-for-e-ride-pro-ss"
+        "https://voromotors.com/products/sprockets-for-e-ride-pro-ss",
+        "https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket",
+        "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts"
       ],
-      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "notes": "CCW 'E Ride Pro 3.0/SR - OEM E-Moto Sprocket' names rear sprockets for E Ride Pro SS 3.0 and SR (428 chain, including 55T). The Voro listing also offers a 14T front (E7205) that this CCW page does not name (checked 2026-11-10)",
       "product_id": "voro-eride-ss-sprockets",
-      "required_adapters": null,
-      "status": "verify"
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "bonnell-805rx",
@@ -1615,7 +2495,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-renthal-sprocket-bonnell-805-902",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1625,7 +2505,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-dirt-tricks-zirconium-rear-sprocket-stark-varg",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1635,7 +2515,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-renthal-twinring-sprocket-bonnell-805-902",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1645,7 +2525,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-did-520-ervt-gold-x-ring-chain",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1655,7 +2535,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-520-renthal-r-1-works-chain",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1665,7 +2545,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-ultra-bee-sprocket-drive-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1675,7 +2555,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-bonnell-805-rx-520-primary-chain-conversion-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1685,7 +2565,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-bonnell-805-rx-primary-drive-belt-26-5-mm",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1695,7 +2575,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-bonnell-805-rx-secondary-rear-sprocket",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1705,7 +2585,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-bonnell-805-rx-primary-belt-drive-kit",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1715,7 +2595,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-bonnell-805-rx-secondary-chain-sliders",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1725,7 +2605,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-bonnell-805-rx-rear-chain-guide",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1735,7 +2615,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-bonnell-805-rx-primary-chain-slider",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1745,7 +2625,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-bonnell-805-rx-520-master-clip-link",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1755,7 +2635,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-bonnell-805-rx-jackshaft-sub-assembly",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1765,7 +2645,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "drivetrain-primary-drive-520-orh-gold-x-ring-chain",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -1776,8 +2656,438 @@
       ],
       "notes": "EBG lists this 520 rear sprocket for the Light Bee 2 (stock is 520 chain, 43T). Pre-order, est. ship Nov 15, 2026 (checked Nov 4, 2026)",
       "product_id": "ebg-lb2-sprocket-520",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-aluminum-sprocket-by-warp9",
+      "bike_id": "komodo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-aluminum-sprocket-by-warp9"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-aluminum-sprocket-by-warp9"
+    },
+    {
+      "product_id": "chargedcycleworks-428-d-i-d-black-chain-non-o-ring",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/428-d-i-d-black-chain-non-o-ring"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/428-d-i-d-black-chain-non-o-ring"
+    },
+    {
+      "product_id": "chargedcycleworks-428-d-i-d-x-ring-vx-chain",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/428-d-i-d-x-ring-vx-chain"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/428-d-i-d-x-ring-vx-chain"
+    },
+    {
+      "product_id": "chargedcycleworks-428-gold-plated-chain-by-primary-drive",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/428-gold-plated-chain-by-primary-drive"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/428-gold-plated-chain-by-primary-drive"
+    },
+    {
+      "product_id": "chargedcycleworks-428-renthal-r-1-works-chain-copy",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/428-renthal-r-1-works-chain-copy"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/428-renthal-r-1-works-chain-copy"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-talaria-sting-mx5-sprocket",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-talaria-sting-mx5-sprocket"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-talaria-sting-mx5-sprocket"
+    },
+    {
+      "product_id": "chargedcycleworks-dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring"
+    },
+    {
+      "product_id": "chargedcycleworks-dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-oem-drive-belt",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-drive-belt"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-drive-belt"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-3-0-sr-rear-sprocket",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-e-moto-sprocket",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket"
+    },
+    {
+      "product_id": "chargedcycleworks-eride-pro-sr-motor-pulley",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-sr-motor-pulley"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-sr-motor-pulley"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-oem-drive-belt",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-oem-drive-belt"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-drive-belt"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-3-0-sr-rear-sprocket",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-e-moto-sprocket",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-jackshaft-axle-kit",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-jackshaft-axle-kit"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-jackshaft-axle-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-motor-pulley-nut",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-motor-pulley-nut"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-motor-pulley-nut"
+    },
+    {
+      "product_id": "chargedcycleworks-eride-pro-sr-motor-pulley",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-sr-motor-pulley"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-sr-motor-pulley"
+    },
+    {
+      "product_id": "chargedcycleworks-52t-sprocket-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/52t-sprocket-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/52t-sprocket-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-center-shaft-sleeve-assembly",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/center-shaft-sleeve-assembly"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/center-shaft-sleeve-assembly"
+    },
+    {
+      "product_id": "chargedcycleworks-dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-competition-chain-guide-for-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-competition-jackshaft-for-ultra-bee-1",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-competition-jackshaft-for-ultra-bee-1"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-competition-jackshaft-for-ultra-bee-1"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-520-ultra-bee-sprocket",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-rtech-oversize-chain-guide-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rtech-oversize-chain-guide-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rtech-oversize-chain-guide-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-axle-chain-adjuster-block-left-right-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-axle-chain-adjuster-block-left-right-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-axle-chain-adjuster-block-left-right-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-primary-drive-front-pulley",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-primary-drive-front-pulley"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-primary-drive-front-pulley"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-primary-drive-rear-pulley-oem",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-primary-drive-rear-pulley-oem"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-primary-drive-rear-pulley-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-aluminum-sprocket-by-warp9",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-aluminum-sprocket-by-warp9"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-aluminum-sprocket-by-warp9"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-anvil-steel-rear-sprocket",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-output-gear-cover",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-output-gear-cover"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-output-gear-cover"
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-oem-carbon-belt",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-oem-carbon-belt"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-oem-carbon-belt"
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-primary-chain-drive-conversion-kit-ryuga",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-primary-chain-drive-conversion-kit-ryuga"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-primary-chain-drive-conversion-kit-ryuga"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-jackshaft-sprocket-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-jackshaft-sprocket-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-jackshaft-sprocket-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-ultra-bee-titanium-sprocket-bolts",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-titanium-sprocket-bolts"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-titanium-sprocket-bolts"
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-jackshaft-rod-ventus-oem",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-jackshaft-rod-ventus-oem"
+      ],
+      "notes": "CCW body: 'OEM Jackshaft rod for Ventus one and Ventus One Plus'. Checked 2026-11-10."
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-oem-carbon-belt",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-oem-carbon-belt"
+      ],
+      "notes": "CCW body lists the Light eMoto variant for 'Ventus One' and 'Ventus One +' (Ultra Bee is a separate variant). Checked 2026-11-10. https://chargedcycleworks.com/products/ventus-oem-carbon-belt"
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-oem-jackshaft-assembly",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-oem-jackshaft-assembly"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-oem-jackshaft-assembly"
     }
   ]
 }

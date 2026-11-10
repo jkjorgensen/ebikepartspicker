@@ -1,5 +1,5 @@
-/* eBikePartsPicker catalog. Catalog v4.14.8, last researched 2026-11-10.
-   46 bikes / 23 categories / 564 parts (557 listed, 7 hidden).
+/* eBikePartsPicker catalog. Catalog v4.15.0, last researched 2026-11-10.
+   46 bikes / 23 categories / 997 parts (990 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
    && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py */
@@ -132,7 +132,7 @@ var CATEGORIES = [
       {v:'Electric Cycle Rider', p:1249.99, url:'https://parts.electriccyclerider.com/products/ebmx-xlb-60-race-motor-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","ss30"], likely:["ss40","arctic-xd","bonnell-805rx","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo","sr"], no:[],
+     fits:['lightbee','ss20','ss30','sr'], likely:['ss40','arctic-xd','bonnell-805rx','storm-bee','ultrabee','komodo','mx5','mx4','ventus-plus','ventus-evo'], no:[],
      badge:'XLB-60', motorKw:41, motorPeakKw:50, stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/ebmx-xlb-60.webp'
     },
     {name:'Sotion FW01 Motor', pid:'sotion-fw01', tier:'mid',
@@ -258,6 +258,41 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05'
     },
+    {name:'EBMX XLB-60 RACE Motor KIT', pid:'chargedcycleworks-ebmx-xlb-60-race-motor-kit-air-cooled', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1249, url:'https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-xlb-60-race-motor-kit-air-cooled.webp'
+    },
+    {name:'EBMX XTA-60 Motor Adapter Kit for Talaria MX5', pid:'chargedcycleworks-ebmx-xta-60-motor-adapter-kit-for-talaria-mx5', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:30, url:'https://chargedcycleworks.com/products/ebmx-xta-60-motor-adapter-kit-for-talaria-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-xta-60-motor-adapter-kit-for-talaria-mx5.webp'
+    },
+    {name:'EBMX XTA-60 Talaria Motor - Open Box', pid:'chargedcycleworks-ebmx-xta-60-talaria-motor-open-box', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:949, url:'https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-open-box', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-xta-60-talaria-motor-open-box.webp'
+    },
+    {name:'KyVex Billet Motor Cover – Surron Ultra Bee', pid:'chargedcycleworks-kyvex-surron-ultra-bee-compatible-billet-motor-cover', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:80, url:'https://chargedcycleworks.com/products/kyvex-surron-ultra-bee-compatible-billet-motor-cover', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kyvex-surron-ultra-bee-compatible-billet-motor-cover.webp'
+    },
+    {name:'Prickly Motor Cover – Ultra Bee', pid:'chargedcycleworks-prickly-ultra-bee-motor-cover', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:90, url:'https://chargedcycleworks.com/products/prickly-ultra-bee-motor-cover', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-prickly-ultra-bee-motor-cover.webp'
+    },
   ]},
   {id:'controller', name:'Controller', blurb:'The controller is the brain — it meters power from the battery to the motor and sets how the bike feels.', tips:['Voltage range must cover your battery','Match phase amps to your motor — too small chokes it','Some bikes need a wiring harness adapter — check fitment','App and Bluetooth tuning varies a lot by brand'], options:[
     {name:'Stock controller', prices:[]},
@@ -270,7 +305,7 @@ var CATEGORIES = [
       {v:'Charged Powersports', p:1199, url:'https://chargedpowersports.com/products/ebmx-x-9000-v3-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr","bonnell-805rx","ventus-plus"], likely:["ss40","arctic-xd","ventus-evo"], no:[],
+     fits:['lightbee','ultrabee','mx4','mx5','ss20','ss30','sr','bonnell-805rx','ventus-plus'], likely:['ss40','arctic-xd','ventus-evo'], no:[],
      badge:'X-9000', ctrlMaxKw:60, stock:'in_stock'
     },
     {name:'VTB Controller w/ Aetos cover', pid:'vtb-aetos', tier:'mid',
@@ -329,7 +364,7 @@ var CATEGORIES = [
       {v:'Ventus Bikes USA', p:1199, url:'https://ventusbikes.us/products/ventus-aetos-max-controller', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["ventus-evo"], no:[],
+     fits:['ultrabee'], likely:['ventus-evo'], no:[],
      badge:'Controller', ctrlMaxKw:76, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ctrl-ventus-aetos-max.webp'
     },
     {name:'Torp TC1000 V1 Controller for Sur-Ron Ultra Bee', pid:'torp-tc1000-v1-ultrabee', tier:'performance',
@@ -393,6 +428,62 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05'
     },
+    {name:'Bonnell 805 – Controller Plate Foam, 5mm', pid:'chargedcycleworks-bonnell-805-rx-controller-plate-foam-5mm', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:7.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-controller-plate-foam-5mm', chk:'2026-11-10'},
+     ],
+     fits:['bonnell-805rx'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-bonnell-805-rx-controller-plate-foam-5mm.webp'
+    },
+    {name:'E Ride Pro - OEM Controller Mount Hardware Kit - ProSS 3.0', pid:'chargedcycleworks-e-ride-pro-oem-controller-hardware-kit-combo', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-controller-hardware-kit-combo', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-controller-hardware-kit-combo.webp'
+    },
+    {name:'E Ride Pro SR 72v Controller (Takeoff)', pid:'chargedcycleworks-e-ride-pro-s-controller-takeoff', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:549, url:'https://chargedcycleworks.com/products/e-ride-pro-s-controller-takeoff', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-s-controller-takeoff.webp'
+    },
+    {name:'EBMX X-9000 Controller E-Ride Pro 3.0 Harness and Mounting Kit', pid:'chargedcycleworks-ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:189, url:'https://chargedcycleworks.com/products/ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit.webp'
+    },
+    {name:'EBMX X-9000 Controller Race Harness for Ultra Bee - V2', pid:'chargedcycleworks-x-9000-controller-race-harness-for-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/x-9000-controller-race-harness-for-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-x-9000-controller-race-harness-for-ultra-bee.webp'
+    },
+    {name:'EBMX X-9000 V3 Controller - Open Box | No Harness', pid:'chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:989.4, url:'https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30','ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness.webp'
+    },
+    {name:'EBMX X-9000-V3 Race Harness for Ultra Bee', pid:'chargedcycleworks-ebmx-x-9000-v3-controller-race-harness-for-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-race-harness-for-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-x-9000-v3-controller-race-harness-for-ultra-bee.webp'
+    },
+    {name:'Ventus Aetos Pro Controller for 72v and 80v Batteries', pid:'chargedcycleworks-ventus-aetos-pro-controller', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1099, url:'https://chargedcycleworks.com/products/ventus-aetos-pro-controller', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ventus-aetos-pro-controller.webp'
+    },
   ]},
   {id:'fork', name:'Fork', blurb:'Front suspension — dictates how the bike handles braking bumps, rocks, and landings.', tips:['Axle size and triple-clamp fitment must match your bike','Spring rate should suit your weight — ask the vendor','More travel isn\'t always better if the geometry suffers'], options:[
     {name:'Stock fork', prices:[]},
@@ -403,7 +494,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:1599, url:'https://tbelectricmoto.com/products/ext-ferro', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","mx5","komodo","ss20","ss30","ss40","sr","ventus-plus","ventus-evo"], likely:["storm-bee","ultrabee"], no:[],
+     fits:['lightbee','mx4','mx5','komodo','ss20','ss30','ss40','sr','ventus-plus','ventus-evo','ultrabee'], likely:['storm-bee'], no:[],
      badge:'EXT Ferro', stock:'in_stock', stockChk:'2026-10-18', wtKg:4.5, img:'img/parts/ext-ferro.webp'
     },
     {name:'Fastace Fork 2.0', pid:'fastace-20', tier:'mid',
@@ -437,7 +528,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:699, url:'https://tbelectricmoto.com/products/kke-35mm-upgraded-5-5-version-front-suspension-fork-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","mx4"], likely:[], no:[],
+     fits:['lightbee','ss20','mx4','sr','ss30','ventus-plus'], likely:[], no:[],
      badge:'KKE', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/kke-35mm-55.webp'
     },
     {name:'FASTACE ALX13RC 2.0 Front Fork', pid:'fastace-alx13rc-2', tier:'budget',
@@ -601,6 +692,181 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
     },
+    {name:'Bearing for Fork Steering Headset', pid:'chargedcycleworks-bearing-for-fork-steering-headset-surron-talaria', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:17.99, url:'https://chargedcycleworks.com/products/bearing-for-fork-steering-headset-surron-talaria', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-bearing-for-fork-steering-headset-surron-talaria.webp'
+    },
+    {name:'Charged Custom Tune Service for Surron Ultra Bee KKE Fork', pid:'chargedcycleworks-ultra-bee-suspension-tune-service-for-kke-oem-fork', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:580, url:'https://chargedcycleworks.com/products/ultra-bee-suspension-tune-service-for-kke-oem-fork', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-suspension-tune-service-for-kke-oem-fork.webp'
+    },
+    {name:'E Ride Pro - OEM Fork Guards', pid:'chargedcycleworks-e-ride-pro-fork-protector-l-r-ss3-0-sr', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:29, url:'https://chargedcycleworks.com/products/e-ride-pro-fork-protector-l-r-ss3-0-sr', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-fork-protector-l-r-ss3-0-sr.webp'
+    },
+    {name:'E Ride Pro 3.0/SR - 775mm FastAce ALX32RC Front Fork', pid:'chargedcycleworks-e-ride-pro-sr-775-fork', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:689, url:'https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-sr-775-fork.webp'
+    },
+    {name:'EXT Ferro Fork - Open Box', pid:'chargedcycleworks-ext-ferro-fork-open-box', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1359.15, url:'https://chargedcycleworks.com/products/ext-ferro-fork-open-box', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ext-ferro-fork-open-box.webp'
+    },
+    {name:'KKE 26LBS Replacement Spring Kit Fit for Surron Ultra Bee Front Suspension Fork 2023-2024', pid:'chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:99, url:'https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024.webp'
+    },
+    {name:'KKE 26LBS Springs for Surron Ultra Bee OEM Fork', pid:'chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:99, url:'https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective.webp'
+    },
+    {name:'KKE 37mm Closed Cartridge Fork V6 – Surron Ultra Bee - Open Box', pid:'chargedcycleworks-kke-37mm-v6-fork-surron-ultra-bee-open-box', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:750, url:'https://chargedcycleworks.com/products/kke-37mm-v6-fork-surron-ultra-bee-open-box', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-37mm-v6-fork-surron-ultra-bee-open-box.webp'
+    },
+    {name:'KKE Fork Guard Bolts – Surron Ultra Bee', pid:'chargedcycleworks-kke-fork-guard-bolts-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:4.99, url:'https://chargedcycleworks.com/products/kke-fork-guard-bolts-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-fork-guard-bolts-ultra-bee.webp'
+    },
+    {name:'KKE Upgraded Front Fork Suspension for Surron Ultra Bee', pid:'chargedcycleworks-kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:649, url:'https://chargedcycleworks.com/products/kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective.webp'
+    },
+    {name:'RFloXa Hawk33 Max Plus Fork for Talaria MX5', pid:'chargedcycleworks-rfloxa-hawk33-max-plus-fork-1', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1099, url:'https://chargedcycleworks.com/products/rfloxa-hawk33-max-plus-fork-1', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rfloxa-hawk33-max-plus-fork-1.webp'
+    },
+    {name:'RFloXa Hawk35 Max Plus Fork for E Ride Pro 3.0 / SR', pid:'chargedcycleworks-rfloxa-hawk35-max-plus-fork-1', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1099, url:'https://chargedcycleworks.com/products/rfloxa-hawk35-max-plus-fork-1', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rfloxa-hawk35-max-plus-fork-1.webp'
+    },
+    {name:'RTech Fork Protectors for Surron Ultra Bee Models (2023 to 2025)', pid:'chargedcycleworks-rtech-fork-protectors-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:34.99, url:'https://chargedcycleworks.com/products/rtech-fork-protectors-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rtech-fork-protectors-surron-ultra-bee.webp'
+    },
+    {name:'Rfloxa Front Fork Suspension Kit for Talaria Komodo TK43', pid:'chargedcycleworks-rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1590, url:'https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43', chk:'2026-11-10'},
+     ],
+     fits:['komodo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43.webp'
+    },
+    {name:'SKF Fork Seal kit for Surron, Talaria, E Ride Pro', pid:'chargedcycleworks-skf-fork-seal-kit-for-surron-talaria', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/skf-fork-seal-kit-for-surron-talaria', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-skf-fork-seal-kit-for-surron-talaria.webp'
+    },
+    {name:'Sirris F43 Fork for Surron Ultra Bee (Version 1.0)', pid:'chargedcycleworks-sirris-f43-fork-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:2250, url:'https://chargedcycleworks.com/products/sirris-f43-fork-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-sirris-f43-fork-for-surron-ultra-bee.webp'
+    },
+    {name:'Surron Ultra Bee - KKE 37mm Closed Cartridge Front Fork (Version 6.0)', pid:'chargedcycleworks-kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:949, url:'https://chargedcycleworks.com/products/kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Fork Mud Guard Protector Set', pid:'chargedcycleworks-ub-l-front-fork-protector-cpl', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:54.99, url:'https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-l-front-fork-protector-cpl.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Fork Seal Replacement Kit', pid:'chargedcycleworks-ultra-bee-oem-seal-replacement-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:49, url:'https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-oem-seal-replacement-kit.webp'
+    },
+    {name:'Surron Ultra Bee – Rear Fork Collision Block | OEM', pid:'chargedcycleworks-surron-ultra-bee-rear-fork-collision-block-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:20.9, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-rear-fork-collision-block-oem.webp'
+    },
+    {name:'Talaria - OEM Fork Guard Cable Guide for MX5', pid:'chargedcycleworks-staple-bolt-talaria-sting-mx5', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:1.35, url:'https://chargedcycleworks.com/products/staple-bolt-talaria-sting-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-staple-bolt-talaria-sting-mx5.webp'
+    },
+    {name:'Talaria - OEM Left Fork Protection Guard for MX5', pid:'chargedcycleworks-fr-l-fork-protection-guard-talaria-sting-mx5', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:26.01, url:'https://chargedcycleworks.com/products/fr-l-fork-protection-guard-talaria-sting-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-fr-l-fork-protection-guard-talaria-sting-mx5.webp'
+    },
+    {name:'Talaria - OEM Right Fork Protection Guard for MX5', pid:'chargedcycleworks-fr-r-fork-protection-guard-talaria-sting-mx5-copy', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:26.01, url:'https://chargedcycleworks.com/products/fr-r-fork-protection-guard-talaria-sting-mx5-copy', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-fr-r-fork-protection-guard-talaria-sting-mx5-copy.webp'
+    },
+    {name:'Tech Suspension E39 Fork by Formula', pid:'chargedcycleworks-formula-tech-39mm-forks', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1300, url:'https://chargedcycleworks.com/products/formula-tech-39mm-forks', chk:'2026-11-10'},
+     ],
+     fits:['mx5','sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-formula-tech-39mm-forks.webp'
+    },
+    {name:'Tech Suspension E39 Racing Kashima E-Moto Fork', pid:'chargedcycleworks-tech-suspension-e39-racing-kashima-fork', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1699, url:'https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork', chk:'2026-11-10'},
+     ],
+     fits:['sr','ventus-evo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tech-suspension-e39-racing-kashima-fork.webp'
+    },
 ]},
   {id:'shock', name:'Shock', blurb:'Rear suspension — traction and comfort over chatter.', tips:['Eye-to-eye length and stroke must match stock','Spring rate should suit your weight','Pairs with linkage choice on some bikes'], options:[
     {name:'Stock shock', prices:[]},
@@ -609,7 +875,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:249.99, url:'https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:[], no:[],
+     fits:['lightbee','mx5','sr','ss20','ss30'], likely:[], no:[],
      badge:'KKE', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/kke-performance.webp'
     },
     {name:'OEM KKE Rear Shock (white spring)', pid:'oem-kke-white', tier:'budget',
@@ -633,7 +899,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:979, url:'https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["ventus-evo"], no:[],
+     fits:['lightbee','sr','ss20','ss30','ventus-plus'], likely:['ventus-evo'], no:[],
      badge:'TECH ER30', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tech-er30-283.webp'
     },
     {name:'EXT Arma MX Rear Shock', pid:'ext-arma-mx', tier:'premium',
@@ -643,7 +909,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:950, url:'https://tbelectricmoto.com/products/ext-arma', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","mx5","ss20","ss30","ventus-plus"], likely:["ventus-evo","komodo","sr","ss40"], no:[],
+     fits:['lightbee','mx4','mx5','ss20','ss30','ventus-plus','arctic-leopard-xf','sr'], likely:['ventus-evo','komodo','ss40'], no:[],
      badge:'EXT Arma', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ext-arma-mx.webp'
     },
     {name:'Shock Absorber Black — Komodo OEM', pid:'komodo-shock-absorber-oem', tier:'OEM',
@@ -681,7 +947,7 @@ var CATEGORIES = [
      prices:[
       {v:'VORO Motors', p:80.0, url:'https://voromotors.com/products/rear-suspension-shock-for-e-ride-pro-ss', chk:'2026-10-18'},
      ],
-     fits:["ss20"], likely:["ss30"], no:[],
+     fits:['ss20','ss30'], likely:[], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/voro-eride-ss-rear-shock.webp'
     },
       {name:'KKE Rear Suspension Shock 650LBS Spring For Surron LBX, Segway', pid:'tbelectricmoto-kke-rear-absorber-suspension-shock-650ibs-spring-for-su', tier:'budget',
@@ -737,7 +1003,7 @@ var CATEGORIES = [
      prices:[
       {v:'REV Rides', p:899, url:'https://revrides.com/products/r38-2sc-e-ride-pro-sr', chk:'2026-10-27'},
      ],
-     fits:["sr"], likely:[], no:[],
+     fits:['sr'], likely:[], no:[],
      badge:'Shock', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-r38-2sc-e-ride-pro-sr.webp'
     },
     {name:'E-Moto ER30 Rear Shock Tech Suspension by Formula | for Altis Sigma, Talaria Sting MX3/MX4/MX5', pid:'revrides-tech-suspension-by-formula-e-moto-rear-shock-for-talaria-stin', tier:'premium',
@@ -769,6 +1035,188 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
     },
+    {name:'Prickly Linkage for Sirris R38 Rear Shock E Ride Pro', pid:'chargedcycleworks-prickly-performance-linkage-e-ride-pro', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:125, url:'https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-prickly-performance-linkage-e-ride-pro.webp'
+    },
+    {name:'PURE Racing - TRAXION S | TiAlN | 260mm Travel for Surron Ultra Bee', pid:'chargedcycleworks-traxion-s-tialn-260mm-travel-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/traxion-s-tialn-260mm-travel-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-traxion-s-tialn-260mm-travel-surron-ultra-bee.webp'
+    },
+    {name:'EXT Rea MX Rear Shock for Surron Ultra Bee', pid:'chargedcycleworks-ext-rea-mx-rear-shock-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:950, url:'https://chargedcycleworks.com/products/ext-rea-mx-rear-shock-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ext-rea-mx-rear-shock-for-surron-ultra-bee.webp'
+    },
+    {name:'F43 CMX Tune | Tool Free LSC | 220 mm Travel | E-Ride Pro SR', pid:'chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:2250, url:'https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr.webp'
+    },
+    {name:'F43 CMX Tune | Tool Free LSC | 220 mm Travel | E-Ride Pro SS 3.0', pid:'chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:2250, url:'https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0.webp'
+    },
+    {name:'F43 CMX Tune | Tool Free LSC | 220 mm Travel | Talaria MX5', pid:'chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:2250, url:'https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5.webp'
+    },
+    {name:'F43 CMX Tune | Tool Free LSC | 220 mm Travel | Ventus One+', pid:'chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:2250, url:'https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one', chk:'2026-11-10'},
+     ],
+     fits:['ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one.webp'
+    },
+    {name:'FastAce Rear Shock - New Take Off', pid:'chargedcycleworks-fastace-rear-shock-for-surron-talaria', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:99.99, url:'https://chargedcycleworks.com/products/fastace-rear-shock-for-surron-talaria', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-fastace-rear-shock-for-surron-talaria.webp'
+    },
+    {name:'KKE Rear Shock for Surron Ultra Bee | 2023–2025', pid:'chargedcycleworks-kke-rear-shock-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:399, url:'https://chargedcycleworks.com/products/kke-rear-shock-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-rear-shock-surron-ultra-bee.webp'
+    },
+    {name:'OEM - Ultra Bee KKE Rear Shock', pid:'chargedcycleworks-kke-rear-shock-for-ultra-bee', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:299, url:'https://chargedcycleworks.com/products/kke-rear-shock-for-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-rear-shock-for-ultra-bee.webp'
+    },
+    {name:'PURE Racing - TRAXION | 260mm Travel for Surron Ultra Bee', pid:'chargedcycleworks-traxion-260mm-travel-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/traxion-260mm-travel-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-traxion-260mm-travel-surron-ultra-bee.webp'
+    },
+    {name:'RFloXa Hawk33 Max for Talaria MX5', pid:'chargedcycleworks-rfloxa-hawk33-max', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/rfloxa-hawk33-max', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rfloxa-hawk33-max.webp'
+    },
+    {name:'RFloXa Hawk35 Max for E Ride Pro 3.0 / SR', pid:'chargedcycleworks-rfloxa-hawk35-max', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/rfloxa-hawk35-max', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rfloxa-hawk35-max.webp'
+    },
+    {name:'Sirris F43 MX Tune | Tool Free LSC | 260 mm Travel | Surron Ultra Bee 1.2', pid:'chargedcycleworks-fsirris-f43-mx-tune-front-fork', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:2250, url:'https://chargedcycleworks.com/products/fsirris-f43-mx-tune-front-fork', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-fsirris-f43-mx-tune-front-fork.webp'
+    },
+    {name:'Sirris F43 SX Tune | Tool Free LSC | 260 mm Travel | Surron Ultra Bee 1.2', pid:'chargedcycleworks-sirris-f43-sx-tune-front-fork', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:2550, url:'https://chargedcycleworks.com/products/sirris-f43-sx-tune-front-fork', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-sirris-f43-sx-tune-front-fork.webp'
+    },
+    {name:'Sirris F43 Trail Tune | Tool Free LSC | 260 mm Travel | Surron Ultra Bee 1.2', pid:'chargedcycleworks-sirris-f43-trail-tune-front-fork', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:2250, url:'https://chargedcycleworks.com/products/sirris-f43-trail-tune-front-fork', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-sirris-f43-trail-tune-front-fork.webp'
+    },
+    {name:'Sirris R38 Shock | 2SC | E-Ride Pro 3.0', pid:'chargedcycleworks-r38-2sc-e-ride-pro-3-0', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-3-0', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-r38-2sc-e-ride-pro-3-0.webp'
+    },
+    {name:'Sirris R46 MX Tune | 2SC | Surron Ultra Bee 1.2', pid:'chargedcycleworks-sirris-r46-mx-tune-rear-shock-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/sirris-r46-mx-tune-rear-shock-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-sirris-r46-mx-tune-rear-shock-surron-ultra-bee.webp'
+    },
+    {name:'Sirris R46 SX Tune | 2SC | Surron Ultra Bee 1.2', pid:'chargedcycleworks-sirris-r46-sx-tune-rear-shock-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/sirris-r46-sx-tune-rear-shock-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-sirris-r46-sx-tune-rear-shock-surron-ultra-bee.webp'
+    },
+    {name:'Sirris R46 Trail Tune | 2SC | Surron Ultra Bee 1.2', pid:'chargedcycleworks-sirris-r46-trail-tune-rear-shock-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/sirris-r46-trail-tune-rear-shock-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-sirris-r46-trail-tune-rear-shock-surron-ultra-bee.webp'
+    },
+    {name:'TECH ER30 E-Moto Rear Shock (288 x 85mm)', pid:'chargedcycleworks-tech-rear-shock-for-talaria', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:975, url:'https://chargedcycleworks.com/products/tech-rear-shock-for-talaria', chk:'2026-11-10'},
+     ],
+     fits:['mx5','ss30','ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tech-rear-shock-for-talaria.webp'
+    },
+    {name:'TECH ER30 E-Moto Rear Shock (310 x 85mm)', pid:'chargedcycleworks-tech-er30-rear-shock-arctic-leopard-ex', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:975, url:'https://chargedcycleworks.com/products/tech-er30-rear-shock-arctic-leopard-ex', chk:'2026-11-10'},
+     ],
+     fits:['ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tech-er30-rear-shock-arctic-leopard-ex.webp'
+    },
+    {name:'Tech Suspension ER34 Racing Kashima E-Moto Shock', pid:'chargedcycleworks-tech-suspension-er34-racing-kashima-shock', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:955, url:'https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30','ventus-evo','ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tech-suspension-er34-racing-kashima-shock.webp'
+    },
+    {name:'Vonkat TENfive V2 Shock for SurRon Talaria Segway', pid:'chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:699, url:'https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway', chk:'2026-11-10'},
+     ],
+     fits:['mx5','sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway.webp'
+    },
+    {name:'Warp9 4mm Neoprene Shock Cover – Surron / Talaria / E-Ride Pro', pid:'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:17, url:'https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto.webp'
+    },
+    {name:'Warp9 FastAce Gravitee AHX12RV + Warp 9 Triple Clamps Suspension Bundle', pid:'chargedcycleworks-fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:750, url:'https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle', chk:'2026-11-10'},
+     ],
+     fits:['mx5','sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle.webp'
+    },
 ]},
   {id:'wheels', name:'Wheels', blurb:'Lighter, stronger wheels sharpen handling and acceleration — often the best-feeling upgrade per dollar.', tips:['Hub and axle size must match your bike','Check your brake rotor bolt pattern carries over','Spoked vs billet — weight vs strength tradeoff'], options:[
     {name:'Stock wheels', prices:[]},
@@ -791,7 +1239,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:806, url:'https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","mx5","ss20"], likely:["storm-bee","komodo","bonnell-805rx","ultrabee","ss30","ss40","sr","ventus-plus","ventus-evo"], no:[],
+     fits:['lightbee','mx4','mx5','ss20','ventus-plus'], likely:['storm-bee','komodo','bonnell-805rx','ultrabee','ss30','ss40','sr','ventus-evo'], no:[],
      badge:'Warp 9', variant:'warp9', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/warp9-1619.webp'
     },
     {name:'17" Supermoto Wheelset', pid:'supermoto-17', tier:'mid',
@@ -824,7 +1272,7 @@ var CATEGORIES = [
       {v:'Electrix Moto', p:599, url:'https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["sr"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss40","mx4","komodo","bonnell-805rx","arctic-xd","ss30","mx5"], no:[],
+     fits:['sr','ss30'], likely:['lightbee','ultrabee','storm-bee','ventus-plus','ventus-evo','ss20','ss40','mx4','komodo','bonnell-805rx','arctic-xd','mx5'], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/wheels-ion-eride30-sr-1619.webp'
     },
     {name:'Storm Bee Supermoto Wheel Kit', pid:'stormbee-supermoto-wheels', hidden:1, /* retired: only seller was a copycat store */ tier:'midrange',
@@ -990,6 +1438,412 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
     },
+    {name:'16" Rear Wheel Upgrade for E Ride Pro 3.0 / SR', pid:'chargedcycleworks-16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:424, url:'https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr.webp'
+    },
+    {name:'21" Front Wheel Upgrade | E Ride Pro SS 3.0 / SR', pid:'chargedcycleworks-ion-21-eride-sr-front-wheel', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:299.99, url:'https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ion-21-eride-sr-front-wheel.webp'
+    },
+    {name:'21" Front Wheel with CST Tire for Surron Ultra Bee', pid:'chargedcycleworks-surron-ultra-bee-21-inch-front-wheel-cst-tire', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:299, url:'https://chargedcycleworks.com/products/surron-ultra-bee-21-inch-front-wheel-cst-tire', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-21-inch-front-wheel-cst-tire.webp'
+    },
+    {name:'Bearing Kit | Front Wheel | Talaria MX5', pid:'chargedcycleworks-bearing-kit-front-wheel-talaria-mx5', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:23, url:'https://chargedcycleworks.com/products/bearing-kit-front-wheel-talaria-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-bearing-kit-front-wheel-talaria-mx5.webp'
+    },
+    {name:'Bearing Kit | Rear Wheel | Talaria MX5', pid:'chargedcycleworks-bearing-kit-rear-wheel-talaria-mx5', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:22, url:'https://chargedcycleworks.com/products/bearing-kit-rear-wheel-talaria-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-bearing-kit-rear-wheel-talaria-mx5.webp'
+    },
+    {name:'E Ride Pro OEM M12 Rear Wheel Axle – Pro S / SS 2.0 / SS 3.0 / SR', pid:'chargedcycleworks-e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:35, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit.webp'
+    },
+    {name:'E Ride Pro – OEM Front Wheel Assembly with Rim Strip & Hub Cone Spacers (x2)', pid:'chargedcycleworks-e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:280, url:'https://chargedcycleworks.com/products/e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers.webp'
+    },
+    {name:'EBMX Competition Axle & Axle Blocks for Surron Ultra Bee', pid:'chargedcycleworks-ebmx-competition-axle-axle-blocks-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:148.75, url:'https://chargedcycleworks.com/products/ebmx-competition-axle-axle-blocks-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-competition-axle-axle-blocks-for-surron-ultra-bee.webp'
+    },
+    {name:'ION - 17/17" Supermoto / Street Wheelset for Surron Ultra Bee', pid:'chargedcycleworks-ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:759, url:'https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['komodo','ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee.webp'
+    },
+    {name:'ION - E Ride Pro 3.0 / SR - 16/19 Wheelset', pid:'chargedcycleworks-ion-16-19-wheelset-for-e-ride-pro-3-0-sr', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:599, url:'https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ion-16-19-wheelset-for-e-ride-pro-3-0-sr.webp'
+    },
+    {name:'ION - E Ride Pro 3.0 / SR - 17" Supermoto Wheelset', pid:'chargedcycleworks-ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:699, url:'https://chargedcycleworks.com/products/ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr.webp'
+    },
+    {name:'ION - E Ride Pro 3.0 / SR - 18/21 Wheelset', pid:'chargedcycleworks-ion-18-21-wheelset-for-e-ride-pro-3-0-sr', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:599, url:'https://chargedcycleworks.com/products/ion-18-21-wheelset-for-e-ride-pro-3-0-sr', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ion-18-21-wheelset-for-e-ride-pro-3-0-sr.webp'
+    },
+    {name:'KKE 16/19 Talaria MX5 Wheel and Tire Combo', pid:'chargedcycleworks-kke-16-19-wheels-for-talaria-mx5', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:834, url:'https://chargedcycleworks.com/products/kke-16-19-wheels-for-talaria-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-16-19-wheels-for-talaria-mx5.webp'
+    },
+    {name:'KKE 16/19" Wheelset for Surron Light Bee – Black Rims & Red Nipples', pid:'chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-red-nipples', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:579, url:'https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-red-nipples', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-red-nipples.webp'
+    },
+    {name:'KKE 17" Supermoto Wheelset for Surron Ultra Bee', pid:'chargedcycleworks-ultra-bee-17-supermoto-wheels-by-kke', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:649, url:'https://chargedcycleworks.com/products/ultra-bee-17-supermoto-wheels-by-kke', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-17-supermoto-wheels-by-kke.webp'
+    },
+    {name:'KKE 17/17" Supermoto Wheels for Surron Ultra Bee  (NO TIRES)', pid:'chargedcycleworks-kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:759, url:'https://chargedcycleworks.com/products/kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective.webp'
+    },
+    {name:'KKE 18/21 Wheel and Tire Combo for eMoto', pid:'chargedcycleworks-16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy', chk:'2026-11-10'},
+     ],
+     fits:['ventus-plus'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy.webp'
+    },
+    {name:'KKE 18/21 Wheels w/ Excel Rims  (NO TIRES)', pid:'chargedcycleworks-kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective.webp'
+    },
+    {name:'KKE 18/21" Complete Wheel and Tire combo for Ultra Bee', pid:'chargedcycleworks-18-21-wheel-and-tire-combo-for-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:979, url:'https://chargedcycleworks.com/products/18-21-wheel-and-tire-combo-for-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-18-21-wheel-and-tire-combo-for-ultra-bee.webp'
+    },
+    {name:'KKE 19"/16" Wheel Set for Surron Light Bee - All Black', pid:'chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-all-black', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:579, url:'https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-all-black', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-all-black.webp'
+    },
+    {name:'KKE Front Wheel Spacers for Ultra Bee', pid:'chargedcycleworks-kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black.webp'
+    },
+    {name:'KKE Rear Wheel Spacers for Ultra Bee', pid:'chargedcycleworks-kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black.webp'
+    },
+    {name:'Prickly Axle Blocks for Ultra Bee', pid:'chargedcycleworks-prickly-axle-blocks-ultra', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:60, url:'https://chargedcycleworks.com/products/prickly-axle-blocks-ultra', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-prickly-axle-blocks-ultra.webp'
+    },
+    {name:'Replacement Spokes for KKE 18/21 Wheels', pid:'chargedcycleworks-kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024.webp'
+    },
+    {name:'Surron Ultra Bee - OEM 17" Supermoto Wheelset', pid:'chargedcycleworks-ultra-bee-rear-wheel-rim-tire-assy-130-70-17', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:940.98, url:'https://chargedcycleworks.com/products/ultra-bee-rear-wheel-rim-tire-assy-130-70-17', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-rear-wheel-rim-tire-assy-130-70-17.webp'
+    },
+    {name:'Surron Ultra Bee - OEM 19" Wheels & Tires', pid:'chargedcycleworks-supermoto-street-wheels-and-tires-for-ultra-bee', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:349, url:'https://chargedcycleworks.com/products/supermoto-street-wheels-and-tires-for-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-supermoto-street-wheels-and-tires-for-ultra-bee.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Front Axle', pid:'chargedcycleworks-front-wheel-axle', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:64.99, url:'https://chargedcycleworks.com/products/front-wheel-axle', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-front-wheel-axle.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Front Wheel Axle Nut', pid:'chargedcycleworks-front-wheel-axle-nut', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:4.99, url:'https://chargedcycleworks.com/products/front-wheel-axle-nut', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-front-wheel-axle-nut.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Front Wheel Spacers', pid:'chargedcycleworks-front-wheel-bushing', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/front-wheel-bushing', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-front-wheel-bushing.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Rear Axle Locking Nut', pid:'chargedcycleworks-ub-rear-wheel-axle-nut', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:7.99, url:'https://chargedcycleworks.com/products/ub-rear-wheel-axle-nut', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-rear-wheel-axle-nut.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Rear Wheel Axle', pid:'chargedcycleworks-ub-rear-wheel-axle', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:74.99, url:'https://chargedcycleworks.com/products/ub-rear-wheel-axle', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-rear-wheel-axle.webp'
+    },
+    {name:'Surron Ultra Bee - Rear Wheel Spacers', pid:'chargedcycleworks-rear-wheel-bushing-pair', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/rear-wheel-bushing-pair', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rear-wheel-bushing-pair.webp'
+    },
+    {name:'Surron Ultra Bee to Honda 21" Front Wheel Adapters', pid:'chargedcycleworks-ultra-bee-to-honda-21-front-wheel-adapters', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:24.99, url:'https://chargedcycleworks.com/products/ultra-bee-to-honda-21-front-wheel-adapters', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-to-honda-21-front-wheel-adapters.webp'
+    },
+    {name:'Surron Ultra Bee – Wheel Speed Sensor (Front / Rear) | OEM', pid:'chargedcycleworks-surron-ultra-bee-wheel-speed-sensor-front-rear-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:62.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-wheel-speed-sensor-front-rear-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-wheel-speed-sensor-front-rear-oem.webp'
+    },
+    {name:'Talaria - OEM Front Axle Nut for MX5', pid:'chargedcycleworks-set-bolt-talaria-sting-mx5', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:12.31, url:'https://chargedcycleworks.com/products/set-bolt-talaria-sting-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-set-bolt-talaria-sting-mx5.webp'
+    },
+    {name:'Talaria - OEM Front Left Wheel Spacer for MX5', pid:'chargedcycleworks-fr-l-wheel-liner-talaria-sting-mx5', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:6.83, url:'https://chargedcycleworks.com/products/fr-l-wheel-liner-talaria-sting-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-fr-l-wheel-liner-talaria-sting-mx5.webp'
+    },
+    {name:'Talaria - OEM Front Wheel Axle for MX5', pid:'chargedcycleworks-titanium-front-axle-for-dnm-fork-talaria-surron-segway', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:73.96, url:'https://chargedcycleworks.com/products/titanium-front-axle-for-dnm-fork-talaria-surron-segway', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-titanium-front-axle-for-dnm-fork-talaria-surron-segway.webp'
+    },
+    {name:'Talaria - OEM Left Rear Wheel Spacer for MX5', pid:'chargedcycleworks-rr-wheel-r-setback-liner-talaria-sting-mx5', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:6.83, url:'https://chargedcycleworks.com/products/rr-wheel-r-setback-liner-talaria-sting-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rr-wheel-r-setback-liner-talaria-sting-mx5.webp'
+    },
+    {name:'Talaria - OEM Rear Axle Locking Nut for MX5', pid:'chargedcycleworks-self-locking-nut-gb-t6187-1-m12x1-25-1', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:1.35, url:'https://chargedcycleworks.com/products/self-locking-nut-gb-t6187-1-m12x1-25-1', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-self-locking-nut-gb-t6187-1-m12x1-25-1.webp'
+    },
+    {name:'Talaria - OEM Rear Wheel Axle', pid:'chargedcycleworks-rr-wheel-axle-m15-204-talaria-sting-mx5', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:23.3, url:'https://chargedcycleworks.com/products/rr-wheel-axle-m15-204-talaria-sting-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rr-wheel-axle-m15-204-talaria-sting-mx5.webp'
+    },
+    {name:'Talaria - OEM Right Rear Wheel Spacer for MX5', pid:'chargedcycleworks-rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:6.83, url:'https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5.webp'
+    },
+    {name:'Talaria MX5 - OEM Rear Wheel Bushing set (left and right)', pid:'chargedcycleworks-talaria-rear-wheel-bushing-set-left-and-right', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:14, url:'https://chargedcycleworks.com/products/talaria-rear-wheel-bushing-set-left-and-right', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-rear-wheel-bushing-set-left-and-right.webp'
+    },
+    {name:'Warp9 - E Ride Pro 3.0/SR - 16/19 Wheelset', pid:'chargedcycleworks-warp9-e-ride-pro-3-0-sr-16-19-wheelset', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1065, url:'https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-16-19-wheelset', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-e-ride-pro-3-0-sr-16-19-wheelset.webp'
+    },
+    {name:'Warp9 - E-Ride Pro 3.0 / SR - 17" Supermoto Wheelset', pid:'chargedcycleworks-warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:843, url:'https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset.webp'
+    },
+    {name:'Warp9 12.9 Cryo Hardened Rear Axle (12mm)', pid:'chargedcycleworks-light-bee-12-9-cryo-rear-axle-by-warp-9', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:149, url:'https://chargedcycleworks.com/products/light-bee-12-9-cryo-rear-axle-by-warp-9', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-light-bee-12-9-cryo-rear-axle-by-warp-9.webp'
+    },
+    {name:'Warp9 16" rear wheel or 16/19" wheelset for Surron Ultra Bee', pid:'chargedcycleworks-16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:533.99, url:'https://chargedcycleworks.com/products/16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee.webp'
+    },
+    {name:'Warp9 16/19 Complete Wheel & Tire Combo for Talaria MX5', pid:'chargedcycleworks-warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1034.1, url:'https://chargedcycleworks.com/products/warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5.webp'
+    },
+    {name:'Warp9 17" Supermoto wheelset for Surron Ultra Bee', pid:'chargedcycleworks-17-supermoto-wheelset-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1483, url:'https://chargedcycleworks.com/products/17-supermoto-wheelset-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-17-supermoto-wheelset-for-surron-ultra-bee.webp'
+    },
+    {name:'Warp9 18/21" Wheelset for Surron Ultra Bee', pid:'chargedcycleworks-ultra-bee-18-21-wheel-and-tire-combo-warp9', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:895, url:'https://chargedcycleworks.com/products/ultra-bee-18-21-wheel-and-tire-combo-warp9', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-18-21-wheel-and-tire-combo-warp9.webp'
+    },
+    {name:'Warp9 Front Supermoto Axle Sliders for Surron Ultra Bee', pid:'chargedcycleworks-warp9-ultra-bee-front-supermoto-axle-slider', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:35, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-front-supermoto-axle-slider', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-ultra-bee-front-supermoto-axle-slider.webp'
+    },
+    {name:'Warp9 Rear Supermoto Axle Sliders for Surron Ultra Bee', pid:'chargedcycleworks-rear-supermoto-axle-sliders', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:65, url:'https://chargedcycleworks.com/products/rear-supermoto-axle-sliders', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rear-supermoto-axle-sliders.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee Axle Blocks', pid:'chargedcycleworks-surron-ultra-bee-axle-blocks', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:53, url:'https://chargedcycleworks.com/products/surron-ultra-bee-axle-blocks', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-axle-blocks.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee Titanium Front Axle', pid:'chargedcycleworks-warp9-titanium-front-axle-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:219, url:'https://chargedcycleworks.com/products/warp9-titanium-front-axle-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-titanium-front-axle-surron-ultra-bee.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee Titanium Rear Axle', pid:'chargedcycleworks-surron-ultra-bee-titanium-rear-axle', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:269, url:'https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rear-axle', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-titanium-rear-axle.webp'
+    },
+    {name:'Warp9 Talaria MX5 Rear Axle Kit', pid:'chargedcycleworks-warp9-talaria-mx5-rear-axle-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:89, url:'https://chargedcycleworks.com/products/warp9-talaria-mx5-rear-axle-kit', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-talaria-mx5-rear-axle-kit.webp'
+    },
+    {name:'Warp9 Titanium Front Axle - Talaria Komod', pid:'chargedcycleworks-talaria-komodo-titanium-front-axle', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:265, url:'https://chargedcycleworks.com/products/talaria-komodo-titanium-front-axle', chk:'2026-11-10'},
+     ],
+     fits:['komodo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-komodo-titanium-front-axle.webp'
+    },
+    {name:'Warp9 Titanium Rear Axle - Talaria Komodo', pid:'chargedcycleworks-talaria-komodo-titanium-rear-axle', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:299, url:'https://chargedcycleworks.com/products/talaria-komodo-titanium-rear-axle', chk:'2026-11-10'},
+     ],
+     fits:['komodo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-komodo-titanium-rear-axle.webp'
+    },
+    {name:'Warp9 Ultra Bee Wheel Bearing Kits', pid:'chargedcycleworks-warp9-ultra-bee-wheel-bearing-kits', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:35, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-wheel-bearing-kits', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-ultra-bee-wheel-bearing-kits.webp'
+    },
 ]},
   {id:'brakes', name:'Brakes', blurb:'As the bike gets faster, stopping matters more. Bigger rotors and better calipers transform confidence.', tips:['Rotor size changes may need a caliper relocation bracket','Match master cylinder to caliper','Pad compound: organic for feel, sintered for bite and life'], options:[
     {name:'Stock brakes', prices:[]},
@@ -1014,7 +1868,7 @@ var CATEGORIES = [
       {v:'FXT Racing', p:229.99, url:'https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","sr","ultrabee"], likely:["ventus-plus","ss40","storm-bee","mx4","mx5","komodo","bonnell-805rx","arctic-xd","ss20","ss30","ventus-evo"], no:[],
+     fits:['lightbee','sr','ultrabee','ss20'], likely:['ventus-plus','ss40','storm-bee','mx4','mx5','komodo','bonnell-805rx','arctic-xd','ss30','ventus-evo'], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/brakes-fxt-ultrabee-rear-kit.webp'
     },
     {name:'E7094 Front Brake Assembly - Pro-S / SS 2.0', pid:'brakes-eride-e7094-front', tier:'OEM',
@@ -1062,7 +1916,7 @@ var CATEGORIES = [
       {v:'Ventus Bikes USA', p:46, url:'https://ventusbikes.us/products/emoto-folding-brake-levers-check-list-below-for-fitment-collective', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["ventus-evo"], no:[],
+     fits:['mx5'], likely:['ventus-evo'], no:[],
      badge:'Brake Levers', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/brakes-ventus-folding-levers.webp'
     },
     {name:'Warp 9 E-Moto Folding Brake Lever Type 2', pid:'brakes-warp9-folding-lever', tier:'midrange',
@@ -1072,7 +1926,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:46, url:'https://chargedcycleworks.com/products/emoto-folding-brake-levers', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:[], no:[],
+     fits:['bonnell-805rx','mx5','sr','ss30'], likely:[], no:[],
      badge:'Brake Levers', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/brakes-warp9-folding-lever.webp'
     },
     {name:'Performance Brake Pads for eMoto', pid:'charged-brake-pads-emoto', tier:'budget',
@@ -1080,7 +1934,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/performance-brake-pads-for-emoto', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","mx5","sr","ultrabee"], likely:["ss30","ss20","ventus-plus"], no:[],
+     fits:['lightbee','mx4','mx5','sr','ultrabee','arctic-leopard-xe-pro-s','ss20','ss30'], likely:['ventus-plus'], no:[],
      badge:'Pads', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/charged-brake-pads-emoto.webp'
     },
     {name:'Warp9 Surron Ultra Bee 260mm Front Brake Bracket', pid:'warp9-260mm-bracket-ultrabee', tier:'performance',
@@ -1289,6 +2143,321 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
     },
+    {name:'10mm Brake Caliper Spacer (For 220mm Rotors)', pid:'chargedcycleworks-10mm-brake-caliper-spacer-for-220mm-rotors', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:10.94, url:'https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors', chk:'2026-11-10'},
+     ],
+     fits:['sr','ventus-plus'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-10mm-brake-caliper-spacer-for-220mm-rotors.webp'
+    },
+    {name:'E Ride Pro - OEM 220mm Front Brake Rotor for SS 3.0 / SR', pid:'chargedcycleworks-e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:42, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws.webp'
+    },
+    {name:'E Ride Pro - OEM 220mm Rear Brake Rotor for SS 3.0 / SR', pid:'chargedcycleworks-e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:39, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws.webp'
+    },
+    {name:'E Ride Pro - OEM 3.0 / SR Brake Pads', pid:'chargedcycleworks-e-ride-pro-oem-3-0-sr-brake-pads', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:27, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-3-0-sr-brake-pads', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-3-0-sr-brake-pads.webp'
+    },
+    {name:'E Ride Pro - OEM Brake Lever set', pid:'chargedcycleworks-e-ride-oem-brake-lever', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:30, url:'https://chargedcycleworks.com/products/e-ride-oem-brake-lever', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-oem-brake-lever.webp'
+    },
+    {name:'E Ride Pro - OEM Rear Brake Hose', pid:'chargedcycleworks-e-ride-pro-oem-rear-brake-hose', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:26.99, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-rear-brake-hose.webp'
+    },
+    {name:'E Ride Pro - OEM Type 2 Brake Hose with hardware for SS3.0/SR', pid:'chargedcycleworks-front-brake-hose-type-2-ss3-0-sr', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:39, url:'https://chargedcycleworks.com/products/front-brake-hose-type-2-ss3-0-sr', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-front-brake-hose-type-2-ss3-0-sr.webp'
+    },
+    {name:'E Ride Pro – 260mm Racing Rotor Kit – Team Edition', pid:'chargedcycleworks-eride-pro-260mm-floating-racing-rotor-kit-team-edition', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:149, url:'https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-eride-pro-260mm-floating-racing-rotor-kit-team-edition.webp'
+    },
+    {name:'E Ride SS3.0/SR - DOT4  Brake Assembly (Type 2)', pid:'chargedcycleworks-eride-ss3-sr-brake-assembly-dot4-type-2', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:145, url:'https://chargedcycleworks.com/products/eride-ss3-sr-brake-assembly-dot4-type-2', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-eride-ss3-sr-brake-assembly-dot4-type-2.webp'
+    },
+    {name:'EBMX Competition Brake Pads for Ultra Bee', pid:'chargedcycleworks-ebmx-competition-brake-pads-for-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:50, url:'https://chargedcycleworks.com/products/ebmx-competition-brake-pads-for-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-competition-brake-pads-for-ultra-bee.webp'
+    },
+    {name:'EXT Ferro Brake Adapter for E Ride Pro 3.0 / SR', pid:'chargedcycleworks-ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr.webp'
+    },
+    {name:'Formula E-Moto Brakes', pid:'chargedcycleworks-formula-e-moto-brakes', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:279, url:'https://chargedcycleworks.com/products/formula-e-moto-brakes', chk:'2026-11-10'},
+     ],
+     fits:['mx5','sr','ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-formula-e-moto-brakes.webp'
+    },
+    {name:'Formula EB9 E-Moto Brakes', pid:'chargedcycleworks-formula-eb9', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:779, url:'https://chargedcycleworks.com/products/formula-eb9', chk:'2026-11-10'},
+     ],
+     fits:['mx5','sr','ss30','ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-formula-eb9.webp'
+    },
+    {name:'Front Brake Hose w/ bolts (Type 1) - SS3.0/SR', pid:'chargedcycleworks-front-brake-hose-w-bolts-type-1-ss3-0-sr', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:36, url:'https://chargedcycleworks.com/products/front-brake-hose-w-bolts-type-1-ss3-0-sr', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-front-brake-hose-w-bolts-type-1-ss3-0-sr.webp'
+    },
+    {name:'Heavy Hitter Ultra Bee F/R Brake Rotor Upgrade', pid:'chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade.webp'
+    },
+    {name:'KKE 240mm Brake Rotor for Surron Ultra Bee | Front or Rear', pid:'chargedcycleworks-kke-240mm-brake-rotor-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/kke-240mm-brake-rotor-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-240mm-brake-rotor-surron-ultra-bee.webp'
+    },
+    {name:'KKE Aluminum Brake Levers for Ultra Bee', pid:'chargedcycleworks-kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective.webp'
+    },
+    {name:'Lewis 223mm Brake Rotors', pid:'chargedcycleworks-lewis-223mm-x-3-0mm-rotor', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:51.5, url:'https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor', chk:'2026-11-10'},
+     ],
+     fits:['ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-lewis-223mm-x-3-0mm-rotor.webp'
+    },
+    {name:'Prickly Moto Brake Lever', pid:'chargedcycleworks-prickly-moto-brake-lever', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:45, url:'https://chargedcycleworks.com/products/prickly-moto-brake-lever', chk:'2026-11-10'},
+     ],
+     fits:['mx5','sr','ultrabee','ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-prickly-moto-brake-lever.webp'
+    },
+    {name:'Project9 Brake Pads for eMoto', pid:'chargedcycleworks-project9-brake-pads-for-eride-surron-talaria', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:29.95, url:'https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria', chk:'2026-11-10'},
+     ],
+     fits:['mx5','sr','ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-project9-brake-pads-for-eride-surron-talaria.webp'
+    },
+    {name:'Surron Ultra Bee - Handlebar Upper Mount', pid:'chargedcycleworks-surron-ultra-bee-brake-lever-mount', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:8.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-brake-lever-mount', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-brake-lever-mount.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Brake Pads', pid:'chargedcycleworks-brake-pads-for-surron-ultra-bee-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:29, url:'https://chargedcycleworks.com/products/brake-pads-for-surron-ultra-bee-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-brake-pads-for-surron-ultra-bee-oem.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Brake Rotor (240mm)', pid:'chargedcycleworks-ultra-bee-brake-disk-2403', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:44.99, url:'https://chargedcycleworks.com/products/ultra-bee-brake-disk-2403', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-brake-disk-2403.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Front Brake Caliper', pid:'chargedcycleworks-ultra-bee-front-brake-caliper-assy-2', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:79.5, url:'https://chargedcycleworks.com/products/ultra-bee-front-brake-caliper-assy-2', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-front-brake-caliper-assy-2.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Front Brake Line', pid:'chargedcycleworks-oem-ultra-bee-rear-brake-line-copy', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:53, url:'https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line-copy', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-oem-ultra-bee-rear-brake-line-copy.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Rear Brake Assembly', pid:'chargedcycleworks-ultra-bee-complete-front-brake-assembly-copy', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:298, url:'https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly-copy', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-complete-front-brake-assembly-copy.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Rear Brake Caliper', pid:'chargedcycleworks-ultra-bee-rear-brake-caliper', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:98, url:'https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-rear-brake-caliper.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Rear Brake Line', pid:'chargedcycleworks-oem-ultra-bee-rear-brake-line', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:68, url:'https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-oem-ultra-bee-rear-brake-line.webp'
+    },
+    {name:'Surron Ultra Bee Floating 240mm Rotor', pid:'chargedcycleworks-surron-ultra-bee-floating-240mm-rotor', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:89, url:'https://chargedcycleworks.com/products/surron-ultra-bee-floating-240mm-rotor', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-floating-240mm-rotor.webp'
+    },
+    {name:'Surron Ultra Bee – Replacement Brake Lever – Front / Rear | OEM', pid:'chargedcycleworks-surron-ultra-bee-oem-brake-lever-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-brake-lever-set', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-brake-lever-set.webp'
+    },
+    {name:'Talaria - OEM MX5 Rear Brake Caliper Mount', pid:'chargedcycleworks-talaria-oem-mx5-rear-brake-caliper-mount', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:60.26, url:'https://chargedcycleworks.com/products/talaria-oem-mx5-rear-brake-caliper-mount', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-oem-mx5-rear-brake-caliper-mount.webp'
+    },
+    {name:'Talaria Komodo - OEM Brake Levers', pid:'chargedcycleworks-talaria-komodo-brake-lever-front-or-rear', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:20, url:'https://chargedcycleworks.com/products/talaria-komodo-brake-lever-front-or-rear', chk:'2026-11-10'},
+     ],
+     fits:['komodo'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-komodo-brake-lever-front-or-rear.webp'
+    },
+    {name:'Talaria Komodo – Front & Rear Brake Pads | OEM', pid:'chargedcycleworks-talaria-komodo-front-brake-pads-35453', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:29.69, url:'https://chargedcycleworks.com/products/talaria-komodo-front-brake-pads-35453', chk:'2026-11-10'},
+     ],
+     fits:['komodo'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-komodo-front-brake-pads-35453.webp'
+    },
+    {name:'Talaria Sting MX5 - OEM Complete Front Brake Assembly', pid:'chargedcycleworks-talaria-sting-mx5-oem-complete-front-brake-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:273.98, url:'https://chargedcycleworks.com/products/talaria-sting-mx5-oem-complete-front-brake-assembly', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-sting-mx5-oem-complete-front-brake-assembly.webp'
+    },
+    {name:'Talaria Sting MX5 - OEM Complete Rear Brake Assembly', pid:'chargedcycleworks-front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:272.63, url:'https://chargedcycleworks.com/products/front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4.webp'
+    },
+    {name:'Tusk Brake Rotor Typhoon (Surron Ultra Bee)', pid:'chargedcycleworks-brake-rotor-for-surron-ultra-bee-tusk-typhoon', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:44.99, url:'https://chargedcycleworks.com/products/brake-rotor-for-surron-ultra-bee-tusk-typhoon', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-brake-rotor-for-surron-ultra-bee-tusk-typhoon.webp'
+    },
+    {name:'Ultra Bee Brake Pads', pid:'chargedcycleworks-ultra-bee-brake-pads', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:30, url:'https://chargedcycleworks.com/products/ultra-bee-brake-pads', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-brake-pads.webp'
+    },
+    {name:'Warp9 300mm Rotor and Caliper Bracket for Surron Ultra Bee', pid:'chargedcycleworks-300mm-rotor-and-caliper-bracket-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:50, url:'https://chargedcycleworks.com/products/300mm-rotor-and-caliper-bracket-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-300mm-rotor-and-caliper-bracket-for-surron-ultra-bee.webp'
+    },
+    {name:'Warp9 Rear Disk Guard for Surron Ultra Bee', pid:'chargedcycleworks-warp9-disc-guard-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:99, url:'https://chargedcycleworks.com/products/warp9-disc-guard-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-disc-guard-surron-ultra-bee.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee 240mm Fixed Rotor', pid:'chargedcycleworks-surron-ultra-bee-240-x-3-20-mm-fixed-rotor', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:69, url:'https://chargedcycleworks.com/products/surron-ultra-bee-240-x-3-20-mm-fixed-rotor', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-240-x-3-20-mm-fixed-rotor.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee 260mm Floating Front Rotor', pid:'chargedcycleworks-surron-ultra-bee-260mm-floating-front-rotor', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/surron-ultra-bee-260mm-floating-front-rotor', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-260mm-floating-front-rotor.webp'
+    },
+    {name:'Warp9 Ultra Bee Brake Lever', pid:'chargedcycleworks-warp9-ultra-bee-brake-lever', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:46, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-brake-lever', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-ultra-bee-brake-lever.webp'
+    },
+    {name:'Warp9 Ultra Bee Titanium Brake Rotor Bolts', pid:'chargedcycleworks-surron-ultra-bee-titanium-rotor-bolts-by-warp9', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:31, url:'https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rotor-bolts-by-warp9', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-titanium-rotor-bolts-by-warp9.webp'
+    },
+    {name:'ZAP Competition Folder Lever Set', pid:'chargedcycleworks-ultra-bee-competition-folder-lever-set', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:99, url:'https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set', chk:'2026-11-10'},
+     ],
+     fits:['mx5','sr','ss30','ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-competition-folder-lever-set.webp'
+    },
+    {name:'ZAP DP Pro-MX brake pads for Surron Ultra Bee', pid:'chargedcycleworks-dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee.webp'
+    },
 ]},
   {id:'plastics', name:'Plastics', blurb:'Bodywork — the look of the bike plus roost protection.', tips:['Mounting is bike-specific — \'universal\' rarely is','Full kits look cleaner than piecing together','Graphics usually sold separately'], options:[
     {name:'Stock plastics', prices:[]},
@@ -1297,7 +2466,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:79.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ultrabee","ss20","ss30","ss40","sr","ventus-plus","ventus-evo","mx4","mx5"], likely:["komodo","storm-bee"], no:[],
+     fits:['lightbee','ultrabee','ss20','ss30','ss40','sr','ventus-plus','ventus-evo','mx4','mx5','arctic-leopard-xe-pro-s'], likely:['komodo','storm-bee'], no:[],
      badge:'Guts', variant:'custom', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/guts-seat-cover.webp'
     },
     {name:'Luna Float Seat', pid:'luna-float-seat', tier:'budget',
@@ -1621,6 +2790,265 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05'
     },
+    {name:'Surron Ultra Bee - OEM Side Plate Brackets', pid:'chargedcycleworks-surron-ultra-bee-oem-side-plate-brackets', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:12, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-side-plate-brackets', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-side-plate-brackets.webp'
+    },
+    {name:'Bonnell 805 – 805 Frame Assembly', pid:'chargedcycleworks-bonnell-805-rx-frame-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:1500, url:'https://chargedcycleworks.com/products/bonnell-805-rx-frame-assembly', chk:'2026-11-10'},
+     ],
+     fits:['bonnell-805rx'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-bonnell-805-rx-frame-assembly.webp'
+    },
+    {name:'Bonnell 805 – Welded Subframe', pid:'chargedcycleworks-bonnell-805-rx-welded-subframe', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:249.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-welded-subframe', chk:'2026-11-10'},
+     ],
+     fits:['bonnell-805rx'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-bonnell-805-rx-welded-subframe.webp'
+    },
+    {name:'OEM Front Fender Bolt Washer', pid:'chargedcycleworks-flat-washer-gb-t-97-1-m6-1', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:1.35, url:'https://chargedcycleworks.com/products/flat-washer-gb-t-97-1-m6-1', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10'
+    },
+    {name:'Surron Ultra Bee - OEM Carbon Black Plastics Kit', pid:'chargedcycleworks-surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:139, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Front Fender Hardware Kit', pid:'chargedcycleworks-hardware-kit-for-oem-ultra-bee-front-fender', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:10, url:'https://chargedcycleworks.com/products/hardware-kit-for-oem-ultra-bee-front-fender', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-hardware-kit-for-oem-ultra-bee-front-fender.webp'
+    },
+    {name:'Surron Ultra Bee - Simulated Carbon Fiber Rear Fender', pid:'chargedcycleworks-surron-ultra-bee-rear-fender', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-rear-fender.webp'
+    },
+    {name:'Surron Ultra Bee - Simulated Carbon Fiber Side Plate Brackets', pid:'chargedcycleworks-guard-board', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/guard-board', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-guard-board.webp'
+    },
+    {name:'Charged 65cc Front Number Plate Adapter for Surron Ultra Bee', pid:'chargedcycleworks-65cc-number-plate-adapter-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/65cc-number-plate-adapter-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-65cc-number-plate-adapter-for-surron-ultra-bee.webp'
+    },
+    {name:'E Ride Pro - OEM Extended Rear Fender', pid:'chargedcycleworks-e-ride-pro-oem-extended-rear-fender', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:29, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-extended-rear-fender', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-extended-rear-fender.webp'
+    },
+    {name:'E Ride Pro – OEM Battery Support Base with 6 Bolts (All Models)', pid:'chargedcycleworks-e-ride-pro-oem-battery-positioning-support-base-with-6bolts', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:21, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-battery-positioning-support-base-with-6bolts', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-battery-positioning-support-base-with-6bolts.webp'
+    },
+    {name:'ERide Pro - New Mud Flaps Kit - S/SS2.0/SS3.0/SR', pid:'chargedcycleworks-e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr.webp'
+    },
+    {name:'RTech Frame Protectors for Surron Ultra Bee', pid:'chargedcycleworks-frame-protectors-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/frame-protectors-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-frame-protectors-for-surron-ultra-bee.webp'
+    },
+    {name:'RTech Full Replica Colored Plastics Kit for Surron Ultra Bee', pid:'chargedcycleworks-colored-plastics-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:162.99, url:'https://chargedcycleworks.com/products/colored-plastics-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-colored-plastics-for-surron-ultra-bee.webp'
+    },
+    {name:'RTech Side Panels for Surron Ultra Bee Models (2023 to 2025)', pid:'chargedcycleworks-surron-ultra-bee-rtech-side-panels', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:45.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rtech-side-panels', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-rtech-side-panels.webp'
+    },
+    {name:'RTech Ultra Bee front fender', pid:'chargedcycleworks-ultra-bee-front-fender-rtech', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:32.35, url:'https://chargedcycleworks.com/products/ultra-bee-front-fender-rtech', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-front-fender-rtech.webp'
+    },
+    {name:'RTech Ultra Bee rear fender', pid:'chargedcycleworks-ultra-bee-rear-fender-rtech', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:32.35, url:'https://chargedcycleworks.com/products/ultra-bee-rear-fender-rtech', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-rear-fender-rtech.webp'
+    },
+    {name:'Surron Light Bee OEM Front Fender', pid:'chargedcycleworks-front-fender-for-talaria-oem-surron-oem-segway-x260', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:29, url:'https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260', chk:'2026-11-10'},
+     ],
+     fits:['mx5','ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-front-fender-for-talaria-oem-surron-oem-segway-x260.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Front Fender', pid:'chargedcycleworks-oem-ultra-bee-front-fender-black', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:40.99, url:'https://chargedcycleworks.com/products/oem-ultra-bee-front-fender-black', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-oem-ultra-bee-front-fender-black.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Rear Fender', pid:'chargedcycleworks-rear-fender', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/rear-fender', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rear-fender.webp'
+    },
+    {name:'Surron Ultra Bee - Passenger Handles', pid:'chargedcycleworks-rear-seat-armrest', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:24.99, url:'https://chargedcycleworks.com/products/rear-seat-armrest', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rear-seat-armrest.webp'
+    },
+    {name:'Surron Ultra Bee - Simulated Carbon Fiber Front Fender', pid:'chargedcycleworks-surron-ultra-bee-front-fender', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-front-fender', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-front-fender.webp'
+    },
+    {name:'Surron Ultra Bee – Battery Compartment Panels Left & Right | OEM Covers', pid:'chargedcycleworks-surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:12.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem.webp'
+    },
+    {name:'Surron Ultra Bee – Frame Shroud (Left / Right) | OEM', pid:'chargedcycleworks-surron-ultra-bee-frame-shroud-left-right-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:24.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-frame-shroud-left-right-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-frame-shroud-left-right-oem.webp'
+    },
+    {name:'Surron Ultra Bee – Guard Board – Black / White | OEM', pid:'chargedcycleworks-surron-ultra-bee-guard-board-oem-black-white', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:14.7, url:'https://chargedcycleworks.com/products/surron-ultra-bee-guard-board-oem-black-white', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-guard-board-oem-black-white.webp'
+    },
+    {name:'Surron Ultra Bee – Handle Guard Mount Base (Left / Right) | OEM', pid:'chargedcycleworks-surron-ultra-bee-handle-guard-mount-base-left-right-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:22.6, url:'https://chargedcycleworks.com/products/surron-ultra-bee-handle-guard-mount-base-left-right-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-handle-guard-mount-base-left-right-oem.webp'
+    },
+    {name:'Surron Ultra Bee – Left & Right Lower Side Panels | OEM', pid:'chargedcycleworks-surron-ultra-bee-lower-side-panel-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:28.8, url:'https://chargedcycleworks.com/products/surron-ultra-bee-lower-side-panel-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-lower-side-panel-oem.webp'
+    },
+    {name:'Surron Ultra Bee – Midshaft Guard | OEM', pid:'chargedcycleworks-surron-ultra-bee-midshaft-guard-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:16, url:'https://chargedcycleworks.com/products/surron-ultra-bee-midshaft-guard-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-midshaft-guard-oem.webp'
+    },
+    {name:'Surron Ultra Bee – Rear Fender Cover Plate | OEM', pid:'chargedcycleworks-surron-ultra-bee-rear-fender-cover-plate-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender-cover-plate-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-rear-fender-cover-plate-oem.webp'
+    },
+    {name:'Surron Ultra Bee – Rear Mud Flap | OEM', pid:'chargedcycleworks-surron-ultra-bee-rear-mud-flap-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:31, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-mud-flap-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-rear-mud-flap-oem.webp'
+    },
+    {name:'Surron Ultra Bee – Steering Block (Left / Right) | OEM', pid:'chargedcycleworks-surron-ultra-bee-steering-block-left-right-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:8, url:'https://chargedcycleworks.com/products/surron-ultra-bee-steering-block-left-right-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-steering-block-left-right-oem.webp'
+    },
+    {name:'Surron Ultra Bee – Subframe Fender | OEM', pid:'chargedcycleworks-surron-ultra-bee-subframe-fender-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:60.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-subframe-fender-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-subframe-fender-oem.webp'
+    },
+    {name:'Surron Ultra Bee – USB Decorative Cover | OEM', pid:'chargedcycleworks-surron-ultra-bee-usb-decorative-cover-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:12.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-usb-decorative-cover-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-usb-decorative-cover-oem.webp'
+    },
+    {name:'Talaria - OEM Rear Fender', pid:'chargedcycleworks-rear-fender-sting-r-mx4-extended', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:27.99, url:'https://chargedcycleworks.com/products/rear-fender-sting-r-mx4-extended', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rear-fender-sting-r-mx4-extended.webp'
+    },
+    {name:'Talaria Komodo - Rear Fender (White) | OEM', pid:'chargedcycleworks-talaria-komodo-rear-fender-white', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:9.89, url:'https://chargedcycleworks.com/products/talaria-komodo-rear-fender-white', chk:'2026-11-10'},
+     ],
+     fits:['komodo'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-komodo-rear-fender-white.webp'
+    },
+    {name:'Ventus One - OEM Lock Assembly', pid:'chargedcycleworks-lock-assembly-ventus-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/lock-assembly-ventus-oem', chk:'2026-11-10'},
+     ],
+     fits:['ventus-plus'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-lock-assembly-ventus-oem.webp'
+    },
+    {name:'Ventus One - OEM U-lock Latch', pid:'chargedcycleworks-u-lock-latch-ventus-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:15, url:'https://chargedcycleworks.com/products/u-lock-latch-ventus-oem', chk:'2026-11-10'},
+     ],
+     fits:['ventus-plus'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-u-lock-latch-ventus-oem.webp'
+    },
 ]},
   {id:'batteries', name:'Batteries', blurb:'Your fuel tank and your power ceiling. A weak battery chokes even the best motor and controller combo.', tips:['Continuous kW rating must meet what your controller pulls — check the Powertrain panel for bottlenecks','Voltage must match your controller\'s range','Confirm it physically fits your frame — sizes vary a lot','Swappable packs are convenient; fixed packs usually hold more capacity'], options:[
     {name:'Stock batteries', prices:[]},
@@ -1721,6 +3149,90 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05'
     },
+    {name:'DHS 72v 65ah Battery for Surron Ultra Bee', pid:'chargedcycleworks-72v-65ah-battery-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:2599, url:'https://chargedcycleworks.com/products/72v-65ah-battery-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-72v-65ah-battery-for-surron-ultra-bee.webp'
+    },
+    {name:'DHS 80v 80ah Battery Bundle for Surron Ultra Bee', pid:'chargedcycleworks-dhs-80v-80ah-battery', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:2699, url:'https://chargedcycleworks.com/products/dhs-80v-80ah-battery', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-dhs-80v-80ah-battery.webp'
+    },
+    {name:'DHS 96V 50Ah Race Battery for Surron Ultra Bee - RS50 Cells - 81kw!', pid:'chargedcycleworks-dhs-96v-50ah-race-battery-surron-ultra-bee-rs50', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:2699, url:'https://chargedcycleworks.com/products/dhs-96v-50ah-race-battery-surron-ultra-bee-rs50', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-dhs-96v-50ah-race-battery-surron-ultra-bee-rs50.webp'
+    },
+    {name:'Surron Ultra Bee - OEM 110v Battery Charger', pid:'chargedcycleworks-ultra-bee-oem-charger', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:469, url:'https://chargedcycleworks.com/products/ultra-bee-oem-charger', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-oem-charger.webp'
+    },
+    {name:'Surron Ultra Bee - OEM 74v 55Ah battery', pid:'chargedcycleworks-surron-ultra-bee-oem-74v-battery', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:1995, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-74v-battery', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-74v-battery.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Battery Lid', pid:'chargedcycleworks-surron-ultra-bee-battery-lid', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:41.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-battery-lid.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Battery Power Cable', pid:'chargedcycleworks-ub-battery-power-cable', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:124.99, url:'https://chargedcycleworks.com/products/ub-battery-power-cable', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-battery-power-cable.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Right Battery Protector', pid:'chargedcycleworks-ultra-bee-r-battery-protector', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:8, url:'https://chargedcycleworks.com/products/ultra-bee-r-battery-protector', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-r-battery-protector.webp'
+    },
+    {name:'Surron Ultra Bee - Simulated Carbon Fiber Battery Protector Handles', pid:'chargedcycleworks-surron-ultra-bee-protective-of-battery-compartment', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-protective-of-battery-compartment', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-protective-of-battery-compartment.webp'
+    },
+    {name:'eWatt 80V 76Ah Battery Bundle for Surron Ultra Bee | Includes Lid & Charger', pid:'chargedcycleworks-ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:3500, url:'https://chargedcycleworks.com/products/ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt.webp'
+    },
+    {name:'eWatt Simulated Carbon Fiber Battery Lid for Surron Ultra Bee', pid:'chargedcycleworks-surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries.webp'
+    },
+    {name:'eWatt Ultra Bee 72v 76ah Battery + lid + charger Bundle - eWatt', pid:'chargedcycleworks-ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:3224, url:'https://chargedcycleworks.com/products/ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt.webp'
+    },
   ]},
   {id:'handlebar', name:'Handlebar', blurb:'Your main control point — bend and rise change the whole riding position.', tips:['Bar diameter must match your clamps (7/8" vs 1-1/8")','Taller riders usually want more rise','Cut to width if they feel too wide'], options:[
     {name:'Stock handlebar', prices:[]},
@@ -1750,7 +3262,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:87, url:'https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4"], likely:["ultrabee","storm-bee","ventus-plus","ventus-evo","komodo","bonnell-805rx","arctic-xd","mx5","sr","ss20","ss30","ss40"], no:[],
+     fits:['lightbee','mx4','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['ultrabee','storm-bee','ventus-plus','ventus-evo','komodo','bonnell-805rx','arctic-xd','mx5','sr','ss20','ss30','ss40'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/warp9-3in-rise.webp'
     },
     {name:'Prickly 50mm Rise Handlebar (31.8mm)', pid:'prickly-50mm-318', tier:'midrange',
@@ -1758,7 +3270,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:100, url:'https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","sr","mx4","mx5","ventus-plus"], likely:["ventus-evo","ultrabee","storm-bee","komodo","bonnell-805rx","arctic-xd","ss30","ss40"], no:[],
+     fits:['lightbee','ss20','sr','mx4','mx5','ventus-plus','ss30','ss40'], likely:['ventus-evo','ultrabee','storm-bee','komodo','bonnell-805rx','arctic-xd'], no:[],
      badge:'Prickly', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/prickly-50mm-318.webp'
     },
     {name:'Prickly 50mm Rise Handlebar (35mm)', pid:'prickly-50mm-35', tier:'midrange',
@@ -1774,7 +3286,7 @@ var CATEGORIES = [
       {v:'FactoryZ', p:59.99, url:'https://factoryz.co/products/surron-handlebar-3-inch-rise', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","mx4","mx5"], likely:["ventus-plus","ss40","ultrabee","storm-bee","ventus-evo","komodo","bonnell-805rx","arctic-xd","sr","ss30"], no:[],
+     fits:['lightbee','ss20','mx4','mx5','arctic-leopard-xe-pro-s-enduro','sr','ss30'], likely:['ventus-plus','ss40','ultrabee','storm-bee','ventus-evo','komodo','bonnell-805rx','arctic-xd'], no:[],
      badge:'FactoryZ', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/factoryz-3in-rise.webp'
     },
     {name:'Rippin Moto RISE3 E-Moto Handlebars', pid:'rippin-moto-rise3', tier:'budget',
@@ -1782,7 +3294,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:89, url:'https://tbelectricmoto.com/products/rise3-e-moto-handlebars', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","mx5","ss30","sr","ventus-plus"], likely:[], no:[],
+     fits:['lightbee','mx4','mx5','ss30','sr','ventus-plus','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf','ss20'], likely:[], no:[],
      badge:'Rippin Moto', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/rippin-moto-rise3.webp'
     },
     {name:'Renthal FatBar Lite 35', pid:'renthal-fatbar-lite-35', tier:'budget',
@@ -1797,7 +3309,7 @@ var CATEGORIES = [
      prices:[
       {v:'VORO Motors', p:39.95, url:'https://voromotors.com/products/handlebar-for-e-ride-pro-ss', chk:'2026-10-18'},
      ],
-     fits:["ss20"], likely:["ss30"], no:[],
+     fits:['ss20','ss30'], likely:[], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/voro-eride-ss-handlebar.webp'
     },
       {name:'Talaria Komodo OEM Handlebar Base', pid:'tbelectricmoto-talaria-komodo-oem-handlebar-base', tier:'OEM',
@@ -1811,8 +3323,9 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:27, url:'https://tbelectricmoto.com/products/talaria-komodo-1-bar-risers', chk:'2026-10-27'},
       {v:'GritShift', p:29.89, url:'https://gritshift.com/products/warp-9-talaria-komodo-1-inch-bar-risers', chk:'2026-10-27'},
+      {v:'Charged Cycle Works', p:27, url:'https://chargedcycleworks.com/products/talaria-komodo-1-bar-risers', chk:'2026-11-10'},
      ],
-     fits:["komodo"], likely:[], no:[],
+     fits:['komodo'], likely:[], no:[],
      badge:'Handlebar', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-talaria-komodo-1-bar-risers.webp'
     },
     {name:'Surron Ultra Bee CNC Bar Mount', pid:'tbelectricmoto-surron-ultra-bee-bar-mount', tier:'budget',
@@ -1894,6 +3407,34 @@ var CATEGORIES = [
      ],
      fits:[], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Surron Ultra Bee - Handlebar Lower Mount', pid:'chargedcycleworks-surron-ultra-bee-handlebar-lower-mount', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:34.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-handlebar-lower-mount.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Bar Mount Assembly', pid:'chargedcycleworks-surron-ultra-bee-oem-bar-mounts', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-bar-mounts', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-bar-mounts.webp'
+    },
+    {name:'Surron Ultra Bee Steering Stabilizer', pid:'chargedcycleworks-kke-ultra-bee-steering-stabilizer', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:240, url:'https://chargedcycleworks.com/products/kke-ultra-bee-steering-stabilizer', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-ultra-bee-steering-stabilizer.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee Flex Bar mounts', pid:'chargedcycleworks-warp9-surron-ultra-bee-flex-bar-mounts', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:131, url:'https://chargedcycleworks.com/products/warp9-surron-ultra-bee-flex-bar-mounts', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-surron-ultra-bee-flex-bar-mounts.webp'
     },
 ]},
   {id:'chargers', name:'Charger', blurb:'Faster charging means less downtime between rides.', tips:['Voltage must match your battery exactly','More amps = faster charging, but also more heat','Some fast chargers need 220V for full speed'], options:[
@@ -2025,7 +3566,7 @@ var CATEGORIES = [
       {v:'Sur-Ron', p:7, url:'https://shop.sur-ron.com/products/handle-gripleft-or-right-use', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:['lightbee','rfn-warrior-pro'], likely:['arctic-xd','bonnell-805rx','ss30','ss40','sr','ss20','storm-bee','ultrabee','komodo','mx5','mx4','ventus-plus','ventus-evo'], no:[],
      badge:'Grips', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/cockpit-surron-oem-grips.webp'
     },
     {name:'Sur-Ron Light Bee Stem', pid:'cockpit-surron-stem', tier:'budget',
@@ -2039,8 +3580,9 @@ var CATEGORIES = [
     {name:"E Ride Pro SS OEM Twist Throttle (E7084)", pid:'voro-eride-ss-twist-throttle', tier:'OEM',
      prices:[
       {v:'VORO Motors', p:69.0, url:'https://voromotors.com/products/twist-throttle-for-e-ride-pro-ss', chk:'2026-10-18'},
+      {v:'Charged Cycle Works', p:69, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-dual-hall-throttle', chk:'2026-11-10'},
      ],
-     fits:["ss20"], likely:["ss30"], no:[],
+     fits:['ss20','sr','ss30'], likely:[], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/voro-eride-ss-twist-throttle.webp'
     },
       {name:'Surron Ultra Bee CNC Brake Lever Clamp', pid:'tbelectricmoto-surron-ultra-bee-cnc-brake-lever-clamp', tier:'budget',
@@ -2269,6 +3811,41 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05'
     },
+    {name:'Ventus One - OEM Left Hand Control', pid:'chargedcycleworks-left-hand-control-ventus-oem-1-6', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/left-hand-control-ventus-oem-1-6', chk:'2026-11-10'},
+     ],
+     fits:['ventus-plus'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-left-hand-control-ventus-oem-1-6.webp'
+    },
+    {name:'Gates GT4 Power Grip Belt - Surron Light Bee', pid:'chargedcycleworks-gates-gt4-power-grip-belt', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/gates-gt4-power-grip-belt', chk:'2026-11-10'},
+     ],
+     fits:['ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-gates-gt4-power-grip-belt.webp'
+    },
+    {name:'Gates GT4 Power Grip Belt - Surron Ultra Bee', pid:'chargedcycleworks-gates-gt4-power-grip-belt-surron-ultra-bee', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:39.89, url:'https://chargedcycleworks.com/products/gates-gt4-power-grip-belt-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-gates-gt4-power-grip-belt-surron-ultra-bee.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Grips', pid:'chargedcycleworks-surron-ultra-bee-throttle-grips', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:22.95, url:'https://chargedcycleworks.com/products/surron-ultra-bee-throttle-grips', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-throttle-grips.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Throttle', pid:'chargedcycleworks-ultra-bee-oem-throttle', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:95, url:'https://chargedcycleworks.com/products/ultra-bee-oem-throttle', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-oem-throttle.webp'
+    },
 ]},
   {id:'cooling', name:'Cooling', blurb:'High-power builds make serious heat. Cooling keeps your motor and controller alive when you\'re pushing hard.', tips:['Mostly needed above ~15 kW or for sustained high load','Check fitment against your specific motor'], options:[
     {name:'Stock cooling', prices:[]},
@@ -2365,7 +3942,7 @@ var CATEGORIES = [
      prices:[
       {v:'VORO Motors', p:13.95, url:'https://voromotors.com/products/sprockets-for-e-ride-pro-ss', chk:'2026-10-18'},
      ],
-     fits:["ss20"], likely:["ss30"], no:[],
+     fits:['ss20','ss30'], likely:[], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/voro-eride-ss-sprockets.webp'
     },
       {name:'DirtyBike Final Drive Front Sprocket Surron LBX', pid:'tbelectricmoto-dirtybike-final-drive-front-sprocket-surron-lbx', tier:'budget',
@@ -2588,6 +4165,251 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
     },
+    {name:'D.I.D. 428 BLACK Chain Non O-ring', pid:'chargedcycleworks-428-d-i-d-black-chain-non-o-ring', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:87.95, url:'https://chargedcycleworks.com/products/428-d-i-d-black-chain-non-o-ring', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-428-d-i-d-black-chain-non-o-ring.webp'
+    },
+    {name:'D.I.D. 428 X-Ring VX Chain', pid:'chargedcycleworks-428-d-i-d-x-ring-vx-chain', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:6.5, url:'https://chargedcycleworks.com/products/428-d-i-d-x-ring-vx-chain', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-428-d-i-d-x-ring-vx-chain.webp'
+    },
+    {name:'DirtyBike 219 Primary Belt to Chain Conversion Kit', pid:'chargedcycleworks-dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:99, url:'https://chargedcycleworks.com/products/dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring.webp'
+    },
+    {name:'DirtyBike 420 Primary Belt to Chain Conversion Kit', pid:'chargedcycleworks-dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:87, url:'https://chargedcycleworks.com/products/dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx', chk:'2026-11-10'},
+     ],
+     fits:['sr','ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx.webp'
+    },
+    {name:'E Ride Pro - OEM Drive Belt', pid:'chargedcycleworks-e-ride-oem-drive-belt', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:65, url:'https://chargedcycleworks.com/products/e-ride-oem-drive-belt', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-oem-drive-belt.webp'
+    },
+    {name:'E Ride Pro - OEM Motor Pulley Nut', pid:'chargedcycleworks-e-ride-pro-oem-motor-pulley-nut', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:5, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-motor-pulley-nut', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-motor-pulley-nut.webp'
+    },
+    {name:'E Ride Pro 3.0/SR - OEM E-Moto Sprocket', pid:'chargedcycleworks-e-ride-pro-e-moto-sprocket', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-e-moto-sprocket.webp'
+    },
+    {name:'E Ride Pro SS3.0/SR - Motor Pulley | OEM', pid:'chargedcycleworks-eride-pro-sr-motor-pulley', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:29, url:'https://chargedcycleworks.com/products/eride-pro-sr-motor-pulley', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-eride-pro-sr-motor-pulley.webp'
+    },
+    {name:'E Ride Pro – OEM Jackshaft Axle Kit (Axle, Nut, Shim & Bushings)', pid:'chargedcycleworks-e-ride-pro-oem-jackshaft-axle-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:35, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-jackshaft-axle-kit', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-jackshaft-axle-kit.webp'
+    },
+    {name:'EBMX Competition Chain Guide for Ultra Bee', pid:'chargedcycleworks-ebmx-competition-chain-guide-for-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-competition-chain-guide-for-ultra-bee.webp'
+    },
+    {name:'EBMX Competition Jackshaft for Ultra Bee', pid:'chargedcycleworks-ebmx-competition-jackshaft-for-ultra-bee-1', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/ebmx-competition-jackshaft-for-ultra-bee-1', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-competition-jackshaft-for-ultra-bee-1.webp'
+    },
+    {name:'Heavy Hitter 520 Ultra Bee Sprocket', pid:'chargedcycleworks-heavy-hitter-520-ultra-bee-sprocket', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:42.99, url:'https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-heavy-hitter-520-ultra-bee-sprocket.webp'
+    },
+    {name:'KKE 50T Rear Aluminum Sprocket for Ultra Bee', pid:'chargedcycleworks-kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective', chk:'2026-11-10'},
+     ],
+     fits:['komodo','ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective.webp'
+    },
+    {name:'KKE 53T Aluminum Rear Sprocket for Ultra Bee', pid:'chargedcycleworks-kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective.webp'
+    },
+    {name:'KKE Axle Chain Adjuster Blocks for Ultra Bee', pid:'chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective.webp'
+    },
+    {name:'RTech Oversize Chain Guide - Surron Ultra Bee', pid:'chargedcycleworks-rtech-oversize-chain-guide-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:43, url:'https://chargedcycleworks.com/products/rtech-oversize-chain-guide-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rtech-oversize-chain-guide-surron-ultra-bee.webp'
+    },
+    {name:'Renthal 428 R-1 Works Chain', pid:'chargedcycleworks-428-renthal-r-1-works-chain-copy', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:8.96, url:'https://chargedcycleworks.com/products/428-renthal-r-1-works-chain-copy', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-428-renthal-r-1-works-chain-copy.webp'
+    },
+    {name:'Surron Ultra Bee - EBMX 52T Sprocket', pid:'chargedcycleworks-52t-sprocket-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/52t-sprocket-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-52t-sprocket-for-surron-ultra-bee.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Jackshaft Assembly', pid:'chargedcycleworks-center-shaft-sleeve-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:208.5, url:'https://chargedcycleworks.com/products/center-shaft-sleeve-assembly', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-center-shaft-sleeve-assembly.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Motor Belt Cover', pid:'chargedcycleworks-ultra-bee-output-gear-cover', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:10.99, url:'https://chargedcycleworks.com/products/ultra-bee-output-gear-cover', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-output-gear-cover.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Primary Drive Front Pulley', pid:'chargedcycleworks-surron-ultra-bee-oem-primary-drive-front-pulley', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:53.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-primary-drive-front-pulley', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-primary-drive-front-pulley.webp'
+    },
+    {name:'Surron Ultra Bee – Axle Chain Adjuster Block (Left / Right) | OEM', pid:'chargedcycleworks-surron-ultra-bee-axle-chain-adjuster-block-left-right-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:16, url:'https://chargedcycleworks.com/products/surron-ultra-bee-axle-chain-adjuster-block-left-right-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-axle-chain-adjuster-block-left-right-oem.webp'
+    },
+    {name:'Surron Ultra Bee – Primary Drive Belt Rear Pulley (MY25) | OEM', pid:'chargedcycleworks-surron-ultra-bee-primary-drive-rear-pulley-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:112.5, url:'https://chargedcycleworks.com/products/surron-ultra-bee-primary-drive-rear-pulley-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-primary-drive-rear-pulley-oem.webp'
+    },
+    {name:'Tusk 428 Gold Plated Chain', pid:'chargedcycleworks-428-gold-plated-chain-by-primary-drive', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:3.99, url:'https://chargedcycleworks.com/products/428-gold-plated-chain-by-primary-drive', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-428-gold-plated-chain-by-primary-drive.webp'
+    },
+    {name:'Ventus - OEM Carbon Belt', pid:'chargedcycleworks-ventus-oem-carbon-belt', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:80, url:'https://chargedcycleworks.com/products/ventus-oem-carbon-belt', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee','ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ventus-oem-carbon-belt.webp'
+    },
+    {name:'Ventus - OEM Jackshaft Assembly', pid:'chargedcycleworks-ventus-oem-jackshaft-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:198, url:'https://chargedcycleworks.com/products/ventus-oem-jackshaft-assembly', chk:'2026-11-10'},
+     ],
+     fits:['ventus-plus'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ventus-oem-jackshaft-assembly.webp'
+    },
+    {name:'Ventus One - OEM Jackshaft Axle Rod', pid:'chargedcycleworks-ventus-jackshaft-rod-ventus-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:45, url:'https://chargedcycleworks.com/products/ventus-jackshaft-rod-ventus-oem', chk:'2026-11-10'},
+     ],
+     fits:['ventus-plus'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ventus-jackshaft-rod-ventus-oem.webp'
+    },
+    {name:'Ventus Primary Chain Drive Conversion Kit – Ryuga Motors', pid:'chargedcycleworks-ventus-primary-chain-drive-conversion-kit-ryuga', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:69, url:'https://chargedcycleworks.com/products/ventus-primary-chain-drive-conversion-kit-ryuga', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ventus-primary-chain-drive-conversion-kit-ryuga.webp'
+    },
+    {name:'Warp9 - Talaria Sting MX5 Sprocket', pid:'chargedcycleworks-warp9-talaria-sting-mx5-sprocket', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:64, url:'https://chargedcycleworks.com/products/warp9-talaria-sting-mx5-sprocket', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-talaria-sting-mx5-sprocket.webp'
+    },
+    {name:'Warp9 Anvil Steel Rear Sprocket - Surron Ultra Bee / Surge V / Zero XE', pid:'chargedcycleworks-ultra-bee-anvil-steel-rear-sprocket', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:30, url:'https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-anvil-steel-rear-sprocket.webp'
+    },
+    {name:'Warp9 Rear Sprocket – E-Ride Pro SS 3.0 / SR', pid:'chargedcycleworks-e-ride-pro-3-0-sr-rear-sprocket', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:50, url:'https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-3-0-sr-rear-sprocket.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee 520 Aluminum Sprocket', pid:'chargedcycleworks-ultra-bee-aluminum-sprocket-by-warp9', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:79, url:'https://chargedcycleworks.com/products/ultra-bee-aluminum-sprocket-by-warp9', chk:'2026-11-10'},
+     ],
+     fits:['komodo','ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-aluminum-sprocket-by-warp9.webp'
+    },
+    {name:'Warp9 Ultra Bee Jack Shaft Sprocket', pid:'chargedcycleworks-warp9-jackshaft-sprocket-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:22, url:'https://chargedcycleworks.com/products/warp9-jackshaft-sprocket-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-jackshaft-sprocket-surron-ultra-bee.webp'
+    },
+    {name:'Warp9 Ultra Bee Titanium Sprocket Bolts', pid:'chargedcycleworks-warp9-ultra-bee-titanium-sprocket-bolts', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:49, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-titanium-sprocket-bolts', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-ultra-bee-titanium-sprocket-bolts.webp'
+    },
+    {name:'Heavy Hitter 520 Primary Drive Conversion OEM/EBMX Ultra Motors', pid:'chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:129.99, url:'https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors.webp'
+    },
 ]},
   {id:'electrical', name:'Electrical', blurb:'Dashboards, lights, and wiring that tie the build together.', tips:['Check voltage compatibility with your battery','Plug-and-play beats splicing — look for bike-specific kits'], options:[
     {name:'Stock electrical', prices:[]},
@@ -2633,7 +4455,7 @@ var CATEGORIES = [
      prices:[
       {v:'VORO Motors', p:39.95, url:'https://voromotors.com/products/headlight-led-light-bar-for-e-ride-pro-ss', chk:'2026-10-18'},
      ],
-     fits:["ss20"], likely:["ss30"], no:[],
+     fits:['ss20','ss30'], likely:[], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/voro-eride-ss-headlight-bar.webp'
     },
     {name:'VTB Aetos Gen.2 Bike-Specific Harness Kit (for Aetos Pro / Max / Ultra)', pid:'vtb-aetos-gen2-harness-kit', tier:'accessory',
@@ -2751,6 +4573,335 @@ var CATEGORIES = [
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'Baja Designs S2 Pro Headlight', pid:'chargedcycleworks-baja-designs-s2-pro-headlight', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:228.95, url:'https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight', chk:'2026-11-10'},
+     ],
+     fits:['mx5','ventus-plus'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-baja-designs-s2-pro-headlight.webp'
+    },
+    {name:'Baja Designs S2 Sport Headlight', pid:'chargedcycleworks-baja-designs-s2-sport-headlight-for-surron-talaria', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:187.95, url:'https://chargedcycleworks.com/products/baja-designs-s2-sport-headlight-for-surron-talaria', chk:'2026-11-10'},
+     ],
+     fits:['mx5','ventus-plus'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-baja-designs-s2-sport-headlight-for-surron-talaria.webp'
+    },
+    {name:'Baja Designs Squadron 2.0 LED Headlight for Surron Ultra Bee', pid:'chargedcycleworks-squadron-headlight-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:60, url:'https://chargedcycleworks.com/products/squadron-headlight-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-squadron-headlight-ultra-bee.webp'
+    },
+    {name:'Baja Designs Squadron Headlight Kit', pid:'chargedcycleworks-baja-designs-squadron-headlight-kit-for-surron-talaria', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:209.95, url:'https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria', chk:'2026-11-10'},
+     ],
+     fits:['mx5','ventus-plus'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-baja-designs-squadron-headlight-kit-for-surron-talaria.webp'
+    },
+    {name:'E Ride Pro - OEM 12v Converter', pid:'chargedcycleworks-e-ride-oem-converter', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:28, url:'https://chargedcycleworks.com/products/e-ride-oem-converter', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-oem-converter.webp'
+    },
+    {name:'E Ride Pro - OEM Display', pid:'chargedcycleworks-e-ride-oem-display', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:150, url:'https://chargedcycleworks.com/products/e-ride-oem-display', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-oem-display.webp'
+    },
+    {name:'E Ride Pro - OEM Display Cable - SR', pid:'chargedcycleworks-e-ride-pro-oem-display-cable-she7045', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:12, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-display-cable-she7045', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-display-cable-she7045.webp'
+    },
+    {name:'E Ride Pro SR – Regen Brake | OEM', pid:'chargedcycleworks-e-ride-pro-oem-rengen-brake', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-rengen-brake.webp'
+    },
+    {name:'E Ride Pro – Mini / Mini R / SR Horn Switch | OEM', pid:'chargedcycleworks-eride-pro-horn-switch-mini-mini-r-sr-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:45, url:'https://chargedcycleworks.com/products/eride-pro-horn-switch-mini-mini-r-sr-oem', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-eride-pro-horn-switch-mini-mini-r-sr-oem.webp'
+    },
+    {name:'EBMX X-9000 E Ride Pro SR Installation Kit - V3', pid:'chargedcycleworks-ebmx-x-9000-e-ride-pro-sr-installation-kit-v3', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:189, url:'https://chargedcycleworks.com/products/ebmx-x-9000-e-ride-pro-sr-installation-kit-v3', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-x-9000-e-ride-pro-sr-installation-kit-v3.webp'
+    },
+    {name:'EBMX X-9000 Talaria Installation Kit', pid:'chargedcycleworks-x-9000-controller-talaria-harness', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:42.5, url:'https://chargedcycleworks.com/products/x-9000-controller-talaria-harness', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-x-9000-controller-talaria-harness.webp'
+    },
+    {name:'EBMX X-9000 Ultra Bee Installation Kit', pid:'chargedcycleworks-x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:135.15, url:'https://chargedcycleworks.com/products/x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets.webp'
+    },
+    {name:'EBMX X-9000 Ultra Bee Stock Display Harness - V2', pid:'chargedcycleworks-ultra-bee-stock-display-harness-compatible-with-x-9000', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:38.25, url:'https://chargedcycleworks.com/products/ultra-bee-stock-display-harness-compatible-with-x-9000', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-stock-display-harness-compatible-with-x-9000.webp'
+    },
+    {name:'Gigigo Headlight | Gi02, Gi02-S, Gi03 |', pid:'chargedcycleworks-gigigo-gi03-headlight', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:199, url:'https://chargedcycleworks.com/products/gigigo-gi03-headlight', chk:'2026-11-10'},
+     ],
+     fits:['mx5','sr','ss30','ultrabee','ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-gigigo-gi03-headlight.webp'
+    },
+    {name:'GritShift Blazer LED Headlight for Sur Ron, Segway, & Talaria E-Bikes', pid:'chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes', chk:'2026-11-10'},
+     ],
+     fits:['sr','ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes.webp'
+    },
+    {name:'GritShift Halo Headlight Kill Switch', pid:'chargedcycleworks-gritshift-halo-headlight-kill-switch', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:19.89, url:'https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch', chk:'2026-11-10'},
+     ],
+     fits:['mx5','sr','ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-gritshift-halo-headlight-kill-switch.webp'
+    },
+    {name:'RTech Front Headlight Mask for Surron Ultra Bee Models (2023 to 2025)', pid:'chargedcycleworks-rtech-front-headlight-mask-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/rtech-front-headlight-mask-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rtech-front-headlight-mask-surron-ultra-bee.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Communication Cable', pid:'chargedcycleworks-ub-communication-cable', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:41.99, url:'https://chargedcycleworks.com/products/ub-communication-cable', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-communication-cable.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Headlight', pid:'chargedcycleworks-surron-ub-oem-headlight', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:137.99, url:'https://chargedcycleworks.com/products/surron-ub-oem-headlight', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ub-oem-headlight.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Headlight Shroud - White / Black', pid:'chargedcycleworks-surron-ub-oem-headlight-shroud', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/surron-ub-oem-headlight-shroud', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ub-oem-headlight-shroud.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Main Wiring Harness', pid:'chargedcycleworks-ub-main-harness', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:179.99, url:'https://chargedcycleworks.com/products/ub-main-harness', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-main-harness.webp'
+    },
+    {name:'Surron Ultra Bee - Simulated Carbon Fiber Headlight Shroud', pid:'chargedcycleworks-headlight-cover', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/headlight-cover', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-headlight-cover.webp'
+    },
+    {name:'Surron Ultra Bee – Headlight Bracket | OEM', pid:'chargedcycleworks-surron-ultra-bee-headlight-bracket-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:39.2, url:'https://chargedcycleworks.com/products/surron-ultra-bee-headlight-bracket-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-headlight-bracket-oem.webp'
+    },
+    {name:'Surron Ultra Bee – Headlight Trim Block | OEM', pid:'chargedcycleworks-surron-ultra-bee-headlight-trim-block-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:21, url:'https://chargedcycleworks.com/products/surron-ultra-bee-headlight-trim-block-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-headlight-trim-block-oem.webp'
+    },
+    {name:'Talaria - OEM Headlight Bracket', pid:'chargedcycleworks-headlight-bracket-for-talaria-sting-mx3-mx4-x3', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:12.3, url:'https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-headlight-bracket-for-talaria-sting-mx3-mx4-x3.webp'
+    },
+    {name:'Torp Ultra Bee Replacement Wiring Loom', pid:'chargedcycleworks-torp-ultra-bee-replacement-wiring-loom', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:85, url:'https://chargedcycleworks.com/products/torp-ultra-bee-replacement-wiring-loom', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-torp-ultra-bee-replacement-wiring-loom.webp'
+    },
+    {name:'Ventus OEM Display', pid:'chargedcycleworks-ventus-oem-display', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:199, url:'https://chargedcycleworks.com/products/ventus-oem-display', chk:'2026-11-10'},
+     ],
+     fits:['ventus-plus'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ventus-oem-display.webp'
+    },
+    {name:'E Ride Pro - OEM Turbo Control Switch – Pro S / SS 2.0', pid:'chargedcycleworks-e-ride-control-switch', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:50, url:'https://chargedcycleworks.com/products/e-ride-control-switch', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-control-switch.webp'
+    },
+    {name:'E Ride Pro - OEM Wiring Harness - SS2.0/SS3.0', pid:'chargedcycleworks-e-ride-pro-oem-main-wiring-harness-with-blue-booth', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:135, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-main-wiring-harness-with-blue-booth', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-main-wiring-harness-with-blue-booth.webp'
+    },
+    {name:'E Ride Pro – OEM Circuit Breaker Switch Kit with Screws (SS 3.0)', pid:'chargedcycleworks-e-ride-pro-ss3-oem-breaker-switch-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/e-ride-pro-ss3-oem-breaker-switch-kit', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-ss3-oem-breaker-switch-kit.webp'
+    },
+    {name:'E Ride Pro – OEM Taillight Kit (S/2.0/3.0)', pid:'chargedcycleworks-e-ride-pro-oem-taillight-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:33, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-taillight-kit', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-taillight-kit.webp'
+    },
+    {name:'E Ride Pro – Pro S / SS 2.0 / SS 3.0 Control Switch | OEM', pid:'chargedcycleworks-e-ride-pro-e7570-control-switch', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:49, url:'https://chargedcycleworks.com/products/e-ride-pro-e7570-control-switch', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-e7570-control-switch.webp'
+    },
+    {name:'EBMX BC351 Display and Bar Clamps for X-9000', pid:'chargedcycleworks-ebmx-display-and-bar-clamps', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:189.99, url:'https://chargedcycleworks.com/products/ebmx-display-and-bar-clamps', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-display-and-bar-clamps.webp'
+    },
+    {name:'Project 9 – Surron Ultra Bee Brake Light', pid:'chargedcycleworks-project-9-surron-ultra-bee-brake-light', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:99.95, url:'https://chargedcycleworks.com/products/project-9-surron-ultra-bee-brake-light', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-project-9-surron-ultra-bee-brake-light.webp'
+    },
+    {name:'Surron Ultra Bee - OEM  Left-Hand Combination Switch', pid:'chargedcycleworks-ultra-bee-left-hand-combination-switch-light-horn-asr', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:75.99, url:'https://chargedcycleworks.com/products/ultra-bee-left-hand-combination-switch-light-horn-asr', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-left-hand-combination-switch-light-horn-asr.webp'
+    },
+    {name:'Surron Ultra Bee - OEM 12v DC Converter', pid:'chargedcycleworks-ultra-bee-converter', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:117.99, url:'https://chargedcycleworks.com/products/ultra-bee-converter', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-converter.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Dashboard Bracket', pid:'chargedcycleworks-surron-ub-dashboard-bracket', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:15, url:'https://chargedcycleworks.com/products/surron-ub-dashboard-bracket', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ub-dashboard-bracket.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Dashboard Display', pid:'chargedcycleworks-surron-ub-oem-dashboard', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:190.99, url:'https://chargedcycleworks.com/products/surron-ub-oem-dashboard', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ub-oem-dashboard.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Key Switch Set', pid:'chargedcycleworks-ub-key-switch-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:64.99, url:'https://chargedcycleworks.com/products/ub-key-switch-set', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-key-switch-set.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Kickstand Switch', pid:'chargedcycleworks-oem-ultra-bee-kickstand-switch', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:34, url:'https://chargedcycleworks.com/products/oem-ultra-bee-kickstand-switch', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-oem-ultra-bee-kickstand-switch.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Right 3 function Control Assembly (2025)', pid:'chargedcycleworks-surron-ultra-bee-oem-right-hand-3-combination-switch-my25', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:70.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-right-hand-3-combination-switch-my25', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-right-hand-3-combination-switch-my25.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Right Hand 3 Combination Switch', pid:'chargedcycleworks-ultra-bee-right-hand-3-combination-switch-s-d-e-control', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:70.99, url:'https://chargedcycleworks.com/products/ultra-bee-right-hand-3-combination-switch-s-d-e-control', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-right-hand-3-combination-switch-s-d-e-control.webp'
+    },
+    {name:'Talaria - OEM Replacement DC Converter', pid:'chargedcycleworks-replacement-dc-converter-talaria-sting-mx3-mx4-x3', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:31.5, url:'https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-replacement-dc-converter-talaria-sting-mx3-mx4-x3.webp'
+    },
+    {name:'Talaria - Sting MX5 - 2 in 1 Combination Switch', pid:'chargedcycleworks-talaria-sting-mx5-2-in-1-combination-switch', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:23.99, url:'https://chargedcycleworks.com/products/talaria-sting-mx5-2-in-1-combination-switch', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-sting-mx5-2-in-1-combination-switch.webp'
+    },
+    {name:'Talaria Sting MX5 / X3 Pro – Replacement Color Display | OEM', pid:'chargedcycleworks-talaria-mx5-x3pro-display-color-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:159.99, url:'https://chargedcycleworks.com/products/talaria-mx5-x3pro-display-color-oem', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-mx5-x3pro-display-color-oem.webp'
+    },
+    {name:'Talaria – Kickstand Power-Off Sensor (MX3 / MX4 / MX5 / X3) | OEM', pid:'chargedcycleworks-talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem.webp'
+    },
+    {name:'Ventus VTB V9600 Gen.2 Wiring Harness 1.7', pid:'chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:60, url:'https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7', chk:'2026-11-10'},
+     ],
+     fits:['sr','ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7.webp'
     },
 ]},
   {id:'guards', name:'Guards', blurb:'Cheap insurance — frame, rotor, and case protection that pays for itself the first crash.', tips:['Bike-specific fitment','Rotor guards need caliper clearance'], options:[
@@ -2962,6 +5113,125 @@ var CATEGORIES = [
      fits:["lightbee"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/mxwraps-surron-coated-frame-guards-lbx.webp'
     },
+    {name:'Surron Ultra Bee - OEM Upper Chain Guard', pid:'chargedcycleworks-surron-ub-oem-chain-guard', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:24, url:'https://chargedcycleworks.com/products/surron-ub-oem-chain-guard', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ub-oem-chain-guard.webp'
+    },
+    {name:'Surron Ultra Bee - Simulated Carbon Fiber Chain Guards', pid:'chargedcycleworks-surron-ultra-bee-lower-chain-fender', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-lower-chain-fender', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-lower-chain-fender.webp'
+    },
+    {name:'DirtyBike Skid Plate for Surron Ultra Bee', pid:'chargedcycleworks-hard-enduro-skid-plate-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:159, url:'https://chargedcycleworks.com/products/hard-enduro-skid-plate-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-hard-enduro-skid-plate-surron-ultra-bee.webp'
+    },
+    {name:'E Ride Pro - OEM Skid Plate', pid:'chargedcycleworks-e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:79, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip.webp'
+    },
+    {name:'E Ride Pro - Skid Plate - SS3.0/SR | OEM', pid:'chargedcycleworks-e-ride-pro-skid-plate-ss3-0-sr', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:6, url:'https://chargedcycleworks.com/products/e-ride-pro-skid-plate-ss3-0-sr', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-skid-plate-ss3-0-sr.webp'
+    },
+    {name:'Heavy Hitter E-Ride Skid Plate', pid:'chargedcycleworks-heavy-hitter-e-ride-skid-plate', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:219.99, url:'https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-heavy-hitter-e-ride-skid-plate.webp'
+    },
+    {name:'SXS UHMW Skid plate', pid:'chargedcycleworks-uhmw-skid-plate-by-sxs-for-surron-segway', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:135, url:'https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway', chk:'2026-11-10'},
+     ],
+     fits:['komodo','ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-uhmw-skid-plate-by-sxs-for-surron-segway.webp'
+    },
+    {name:'Surron Ultra Bee - Simulated Carbon Fiber Skid Plate', pid:'chargedcycleworks-surron-ultra-bee-frame-lower-guard', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:45.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-frame-lower-guard.webp'
+    },
+    {name:'TMB Heavy Duty Bash Plate – E Ride Pro SS 2.0 / SS 3.0', pid:'chargedcycleworks-tmb-heavy-duty-bash-plate-e-ride-pro-ss', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:225, url:'https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-e-ride-pro-ss', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tmb-heavy-duty-bash-plate-e-ride-pro-ss.webp'
+    },
+    {name:'KKE Aluminum Front Brake Disc Guard for Ultra Bee', pid:'chargedcycleworks-kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective.webp'
+    },
+    {name:'KKE Rear Brake Disc Guard for Ultra Bee', pid:'chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Hand Guard Assembly', pid:'chargedcycleworks-surron-ub-oem-hand-guard-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ub-oem-hand-guard-assembly.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Hand Guard Left (White)', pid:'chargedcycleworks-surron-ultra-bee-oem-hand-guard', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:21, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-hand-guard.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Hand Guard Right (White)', pid:'chargedcycleworks-surron-ultra-bee-oem-hand-guard-right-white', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:21, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-hand-guard-right-white.webp'
+    },
+    {name:'Surron Ultra Bee - Simulated Carbon Fiber Hand Guards', pid:'chargedcycleworks-handle-cover', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/handle-cover', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-handle-cover.webp'
+    },
+    {name:'Surron Ultra Bee Rear Rotor Guard', pid:'chargedcycleworks-surron-ultra-bee-rear-rotor-guard', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-rotor-guard', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-rear-rotor-guard.webp'
+    },
+    {name:'Surron Ultra Bee – Left and Right Hand Guard Windshield – Black | OEM', pid:'chargedcycleworks-surron-ultra-bee-hand-guards-black-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:24.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-hand-guards-black-oem.webp'
+    },
 ]},
   {id:'linkage', name:'Linkage', blurb:'Connects the shock to the swingarm and sets the leverage curve — subtle but noticeable.', tips:['Bike-specific fitment — no universal options','Usually chosen alongside the shock'], options:[
     {name:'Stock linkage', prices:[]},
@@ -2970,7 +5240,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:105, url:'https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ultrabee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['ultrabee'], likely:['storm-bee','ventus-plus','ventus-evo','ss20','ss30','ss40','sr','mx5','komodo','bonnell-805rx','arctic-xd'], no:[],
      badge:'EBMX', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/linkage-ultrabeemx.webp'
     },
     {name:'Ultra Bee Rear Suspension Linkage & Triangle Upgrade Kit', pid:'linkage-ultrabee-emx', tier:'budget',
@@ -3021,7 +5291,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:21, url:'https://tbelectricmoto.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit', chk:'2026-10-27'},
      ],
-     fits:["ultrabee"], likely:[], no:[],
+     fits:['ultrabee'], likely:[], no:[],
      badge:'Linkage', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-warp-9-ultra-bee-triangle-pivot-bolt-kit.webp'
     },
     {name:'DirtyBike Aluminum Suspension Triangle Surron LBX', pid:'tbelectricmoto-dirtybike-aluminum-suspension-triangle-surron-lbx', tier:'budget',
@@ -3075,6 +5345,76 @@ var CATEGORIES = [
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:'E Ride Pro - OEM 3.0/SR Shock linkage(Liftable)', pid:'chargedcycleworks-3-0-sr-shock-linkageliftable', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:123, url:'https://chargedcycleworks.com/products/3-0-sr-shock-linkageliftable', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-3-0-sr-shock-linkageliftable.webp'
+    },
+    {name:'EBMX Upgraded Triangle for Surron Ultra Bee (Sirris Compatible)', pid:'chargedcycleworks-ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:95.2, url:'https://chargedcycleworks.com/products/ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible.webp'
+    },
+    {name:'Heavy Hitter Ultra Bee Linkage', pid:'chargedcycleworks-heavy-hitter-ultra-bee-linkage', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:99.89, url:'https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-heavy-hitter-ultra-bee-linkage.webp'
+    },
+    {name:'Heavy Hitter Ultra Bee Triangle', pid:'chargedcycleworks-heavy-hitter-ultra-bee-triangle', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:89.99, url:'https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-heavy-hitter-ultra-bee-triangle.webp'
+    },
+    {name:'Sirris Triangle for R46 Shock on Surron Ultra Bee', pid:'chargedcycleworks-sirris-triangle-for-r46-shock-on-surron-ultra-bee-1', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:119.99, url:'https://chargedcycleworks.com/products/sirris-triangle-for-r46-shock-on-surron-ultra-bee-1', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-sirris-triangle-for-r46-shock-on-surron-ultra-bee-1.webp'
+    },
+    {name:'Ultra Bee Rear Linkage', pid:'chargedcycleworks-ultra-bee-rear-linkage', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:99, url:'https://chargedcycleworks.com/products/ultra-bee-rear-linkage', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-rear-linkage.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee Triangle', pid:'chargedcycleworks-warp9-surron-ultra-bee-triangles', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/warp9-surron-ultra-bee-triangles', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-surron-ultra-bee-triangles.webp'
+    },
+    {name:'Warp9 Talaria Sting Titanium Linkage Bolts', pid:'chargedcycleworks-talaria-sting-titanium-linkage-bolts-by-warp9', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:149, url:'https://chargedcycleworks.com/products/talaria-sting-titanium-linkage-bolts-by-warp9', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-sting-titanium-linkage-bolts-by-warp9.webp'
+    },
+    {name:'Warp9 Ultra Bee Suspension Triangle Bearing Kit', pid:'chargedcycleworks-warp9-surron-ultra-bee-suspension-triangle-bearing-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:50, url:'https://chargedcycleworks.com/products/warp9-surron-ultra-bee-suspension-triangle-bearing-kit', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-surron-ultra-bee-suspension-triangle-bearing-kit.webp'
+    },
+    {name:'Warp9 Ultra Bee Suspension Triangle V2 - Sirris / RFloXa', pid:'chargedcycleworks-warp9-ultra-bee-suspension-triangle-v2', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:120, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-ultra-bee-suspension-triangle-v2.webp'
     },
 ]},
   {id:'maintenance', name:'Maintenance', blurb:'Consumables and shop supplies to keep the build running.', tips:['Stock up on what wears: chains, brake pads, tires'], options:[
@@ -3179,7 +5519,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:18, url:'https://tbelectricmoto.com/products/bearing-kit-swingarm-e-ride-pro-sr-and-3-0', chk:'2026-10-27'},
      ],
-     fits:["sr"], likely:[], no:[],
+     fits:['sr'], likely:[], no:[],
      badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-bearing-kit-swingarm-e-ride-pro-sr-and-3-0.webp'
     },
     {name:'Bonnell 805 - Kickstand Set', pid:'maintenance-bonnell-805-rx-kickstand-set', tier:'OEM',
@@ -3238,6 +5578,258 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05'
     },
+    {name:'Bonnell 805 – Battery Tray Foam', pid:'chargedcycleworks-bonnell-805-rx-battery-tray-foam', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:7.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-battery-tray-foam', chk:'2026-11-10'},
+     ],
+     fits:['bonnell-805rx'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-bonnell-805-rx-battery-tray-foam.webp'
+    },
+    {name:'Bonnell 805 – Moto Toolkit Set', pid:'chargedcycleworks-bonnell-805-rx-moto-toolkit-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:249.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-moto-toolkit-set', chk:'2026-11-10'},
+     ],
+     fits:['bonnell-805rx'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-bonnell-805-rx-moto-toolkit-set.webp'
+    },
+    {name:'E Ride Pro - OEM Headset Assembly', pid:'chargedcycleworks-e-ride-pro-oem-tapered-roller-bearing', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:39, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-tapered-roller-bearing', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-tapered-roller-bearing.webp'
+    },
+    {name:'E Ride Pro – OEM Brake Lever Bolt & Nut Set (SS 3.0 / SR)', pid:'chargedcycleworks-e-ride-pro-oem-bolts-and-nut-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:6, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-bolts-and-nut-set', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-bolts-and-nut-set.webp'
+    },
+    {name:'EBMX CNC Horn Cover for Ultra Bee', pid:'chargedcycleworks-cnc-horn-cover-for-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:35, url:'https://chargedcycleworks.com/products/cnc-horn-cover-for-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-cnc-horn-cover-for-ultra-bee.webp'
+    },
+    {name:'EBMX Cargo Rack for SurRon Ultra Bee', pid:'chargedcycleworks-ebmx-cargo-rack-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:85, url:'https://chargedcycleworks.com/products/ebmx-cargo-rack-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-cargo-rack-for-surron-ultra-bee.webp'
+    },
+    {name:'EBMX Display Ultra Bee Drop in Mount (excludes display)', pid:'chargedcycleworks-x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:40, url:'https://chargedcycleworks.com/products/x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included.webp'
+    },
+    {name:'EBMX Pro Mount for X-9000 for SurRon Ultra Bee', pid:'chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:75, url:'https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1.webp'
+    },
+    {name:'GritShift Billet Gear Box Breather Kit V2', pid:'chargedcycleworks-gritshift-billet-gear-box-breather-kit-v2', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:54.99, url:'https://chargedcycleworks.com/products/gritshift-billet-gear-box-breather-kit-v2', chk:'2026-11-10'},
+     ],
+     fits:['komodo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-gritshift-billet-gear-box-breather-kit-v2.webp'
+    },
+    {name:'OEM Light Bracket Screw (M6 X 14)', pid:'chargedcycleworks-button-head-screw-gb-t70-2-m6x14-1', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:1.35, url:'https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1', chk:'2026-11-10'},
+     ],
+     fits:['mx5','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-button-head-screw-gb-t70-2-m6x14-1.webp'
+    },
+    {name:'Prickly Ultra Bee AirTag Stash', pid:'chargedcycleworks-ultra-bee-airtag-stash', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:60, url:'https://chargedcycleworks.com/products/ultra-bee-airtag-stash', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-airtag-stash.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Headset Assembly', pid:'chargedcycleworks-bowl-set', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:64.99, url:'https://chargedcycleworks.com/products/bowl-set', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-bowl-set.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Rear Rack', pid:'chargedcycleworks-surron-oem-ultra-bee-rear-rack', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:135, url:'https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-oem-ultra-bee-rear-rack.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Steering Head Adjust Nut', pid:'chargedcycleworks-ub-oem-steering-head-adjust-nut-1', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:5, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-oem-steering-head-adjust-nut-1.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Steering Head Gasket TOP', pid:'chargedcycleworks-ub-oem-steering-head-gasket-top', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:4, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-oem-steering-head-gasket-top.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Steering Head Nut', pid:'chargedcycleworks-ub-oem-steering-head-adjust-nut', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:4.99, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-oem-steering-head-adjust-nut.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Steering Head Support', pid:'chargedcycleworks-ub-oem-steering-head-support', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:6, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-support', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-oem-steering-head-support.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Top Steering Head Gasket / Cover', pid:'chargedcycleworks-ub-oem-steering-head-cover', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:6, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-cover', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-oem-steering-head-cover.webp'
+    },
+    {name:'Surron Ultra Bee Side Rack', pid:'chargedcycleworks-side-rack-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/side-rack-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-side-rack-for-surron-ultra-bee.webp'
+    },
+    {name:'Surron Ultra Bee – Center Shaft Sleeve Assembly | OEM', pid:'chargedcycleworks-surron-ultra-bee-center-shaft-sleeve-assembly-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:79.3, url:'https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-center-shaft-sleeve-assembly-oem.webp'
+    },
+    {name:'Surron Ultra Bee – Kickstand | OEM', pid:'chargedcycleworks-surron-ultra-bee-kickstand-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:41.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-kickstand-oem.webp'
+    },
+    {name:'Surron Ultra Bee – Mid Shaft Bushing | OEM', pid:'chargedcycleworks-surron-ultra-bee-mid-shaft-bushing-oem', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:8, url:'https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-mid-shaft-bushing-oem.webp'
+    },
+    {name:'Surron – Torque Wrench Set Tool Kit | OEM', pid:'chargedcycleworks-surron-ultra-bee-oem-tool-kit-torque-wrench', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:83.8, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-tool-kit-torque-wrench.webp'
+    },
+    {name:'Talaria - OEM Headset Aluminum Housing', pid:'chargedcycleworks-headset-aluminium-housing-talaria-sting-mx3-mx4', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19.16, url:'https://chargedcycleworks.com/products/headset-aluminium-housing-talaria-sting-mx3-mx4', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-headset-aluminium-housing-talaria-sting-mx3-mx4.webp'
+    },
+    {name:'Talaria - OEM Upper Headset Cap V2', pid:'chargedcycleworks-talaria-oem-upper-headset-cap-v2', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:10.94, url:'https://chargedcycleworks.com/products/talaria-oem-upper-headset-cap-v2', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-oem-upper-headset-cap-v2.webp'
+    },
+    {name:'Talaria Komodo – Left Switch (2-in-1) | OEM', pid:'chargedcycleworks-talaria-komodo-left-switch-two-in-one', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:23.39, url:'https://chargedcycleworks.com/products/talaria-komodo-left-switch-two-in-one', chk:'2026-11-10'},
+     ],
+     fits:['komodo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-komodo-left-switch-two-in-one.webp'
+    },
+    {name:'Tugger Lift Straps for Hard Enduro', pid:'chargedcycleworks-tugger-lift-straps-for-hard-enduro', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:17.99, url:'https://chargedcycleworks.com/products/tugger-lift-straps-for-hard-enduro', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tugger-lift-straps-for-hard-enduro.webp'
+    },
+    {name:'Tusk Brake Rotor Bolt Kit (Ultra Bee)', pid:'chargedcycleworks-tusk-brake-rotor-bolt-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:4.99, url:'https://chargedcycleworks.com/products/tusk-brake-rotor-bolt-kit', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tusk-brake-rotor-bolt-kit.webp'
+    },
+    {name:'Ultra Bee Frame Steering Bump Stops', pid:'chargedcycleworks-ultra-bee-frame-steering-bump-stops', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:49, url:'https://chargedcycleworks.com/products/ultra-bee-frame-steering-bump-stops', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-frame-steering-bump-stops.webp'
+    },
+    {name:'Warp9 Adjustable Kickstand – Surron Light Bee / E-Ride Pro / 79 Bike Falcon / Ventus', pid:'chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:120, url:'https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus', chk:'2026-11-10'},
+     ],
+     fits:['mx5','sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee Adjustable Kickstand', pid:'chargedcycleworks-warp9-adjustable-kickstand-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:105, url:'https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-adjustable-kickstand-surron-ultra-bee.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee Stablizer Mount w Frame Post', pid:'chargedcycleworks-warp9-surron-ultra-bee-stabilizer-mount-with-frame-post', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:65, url:'https://chargedcycleworks.com/products/warp9-surron-ultra-bee-stabilizer-mount-with-frame-post', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-surron-ultra-bee-stabilizer-mount-with-frame-post.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee Trailer Mount', pid:'chargedcycleworks-ultra-bee-trailer-mount', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:87, url:'https://chargedcycleworks.com/products/ultra-bee-trailer-mount', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-trailer-mount.webp'
+    },
+    {name:'Warp9 Ultra Bee Rear Rack', pid:'chargedcycleworks-warp9-ultra-bee-rear-rack', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:79, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-rear-rack', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-ultra-bee-rear-rack.webp'
+    },
+    {name:'Warp9 Ultra Bee Steer Stops – Low Profile', pid:'chargedcycleworks-warp9-ultra-bee-steer-stops-low-profile', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:22, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-ultra-bee-steer-stops-low-profile.webp'
+    },
+    {name:'eBikeZilla Stem Lock', pid:'chargedcycleworks-stem-lock', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:47.93, url:'https://chargedcycleworks.com/products/stem-lock', chk:'2026-11-10'},
+     ],
+     fits:['mx5','sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-stem-lock.webp'
+    },
 ]},
   {id:'pegs', name:'Foot Pegs', blurb:'Wider, sharper pegs mean more control — especially standing up.', tips:['Mounts are bike-specific','Titanium saves weight; steel lasts longer'], options:[
     {name:'Stock foot pegs', prices:[]},
@@ -3261,7 +5853,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:59.99, url:'https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","ventus-plus","ventus-evo"], no:[],
+     fits:['ultrabee'], likely:['arctic-xd','bonnell-805rx','ss30','ss40','sr','ss20','storm-bee','komodo','mx5','ventus-plus','ventus-evo'], no:[],
      badge:'Foot Pegs', variant:'custom', stock:'in_stock', stockChk:'2026-10-18'
     },
     {name:'Sur-Ron Ultra Bee OEM Pegs & Brackets', pid:'pegs-ultrabee-oem-brackets', tier:'budget',
@@ -3306,7 +5898,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway', chk:'2026-10-18'},
      ],
-     fits:["lightbee2","lightbee"], likely:["ventus-plus","ventus-evo","ss20","ss30","sr"], no:[],
+     fits:['lightbee2','lightbee','ventus-plus'], likely:['ventus-evo','ss20','ss30','sr'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp'
     },
       {name:'Surron Light Bee - OEM Foot Peg Connection Assembly', pid:'chargedcycleworks-surron-light-bee-pedal-connection-bracket-pair', tier:'OEM',
@@ -3409,6 +6001,202 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05'
     },
+    {name:'E Ride Pro - OEM Foot Peg Mount Assembly', pid:'chargedcycleworks-e-ride-oem-foot-peg-pin-and-lock-washer', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:19, url:'https://chargedcycleworks.com/products/e-ride-oem-foot-peg-pin-and-lock-washer', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-oem-foot-peg-pin-and-lock-washer.webp'
+    },
+    {name:'E Ride Pro - OEM Footpeg mount only', pid:'chargedcycleworks-e-ride-pro-oem-right-foot-peg-mount-copy', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:16, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-right-foot-peg-mount-copy', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-right-foot-peg-mount-copy.webp'
+    },
+    {name:'EBMX Premium Foot Peg and Brace', pid:'chargedcycleworks-ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:127.5, url:'https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30','ventus-plus'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro.webp'
+    },
+    {name:'FLO Motorsports Foot Pegs', pid:'chargedcycleworks-flo-motorsports-foot-pegs', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:189, url:'https://chargedcycleworks.com/products/flo-motorsports-foot-pegs', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-flo-motorsports-foot-pegs.webp'
+    },
+    {name:'KKE CNC Foot Pegs for Talaria', pid:'chargedcycleworks-kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective', chk:'2026-11-10'},
+     ],
+     fits:['komodo','mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective.webp'
+    },
+    {name:'KKE Foot pegs', pid:'chargedcycleworks-footpegs-for-surron-light-bee-segway-x260', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:45.99, url:'https://chargedcycleworks.com/products/footpegs-for-surron-light-bee-segway-x260', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-footpegs-for-surron-light-bee-segway-x260.webp'
+    },
+    {name:'KyVex Billet Wide Foot Pegs – Surron / Talaria / E Ride Pro & More', pid:'chargedcycleworks-kyvex-billet-wide-foot-pegs', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:120, url:'https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kyvex-billet-wide-foot-pegs.webp'
+    },
+    {name:'KyVex Billet Wide Foot Pegs – Surron Ultra Bee', pid:'chargedcycleworks-kyvex-billet-wide-foot-pegs-ultra-bee-compatible', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:140, url:'https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs-ultra-bee-compatible', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kyvex-billet-wide-foot-pegs-ultra-bee-compatible.webp'
+    },
+    {name:'Prickly Foot Pegs MX for Ultra Bee', pid:'chargedcycleworks-prickly-foot-pegs-mx-for-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:169, url:'https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-prickly-foot-pegs-mx-for-ultra-bee.webp'
+    },
+    {name:'Prickly Foot Pegs Wide for Talaria', pid:'chargedcycleworks-prickly-foot-pegs-wide-for-talaria', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:152.1, url:'https://chargedcycleworks.com/products/prickly-foot-pegs-wide-for-talaria', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-prickly-foot-pegs-wide-for-talaria.webp'
+    },
+    {name:'Prickly Replacement Peg Springs', pid:'chargedcycleworks-replacement-peg-springs', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:5, url:'https://chargedcycleworks.com/products/replacement-peg-springs', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-replacement-peg-springs.webp'
+    },
+    {name:'Surron Light Bee - OEM Right & Left Foot Peg Support Brackets', pid:'chargedcycleworks-surron-light-bee-oem-right-left-foot-peg-support-brackets', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:61.63, url:'https://chargedcycleworks.com/products/surron-light-bee-oem-right-left-foot-peg-support-brackets', chk:'2026-11-10'},
+     ],
+     fits:['ventus-plus'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-light-bee-oem-right-left-foot-peg-support-brackets.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Left Footpeg Assembly', pid:'chargedcycleworks-left-footpeg-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:50.99, url:'https://chargedcycleworks.com/products/left-footpeg-assembly', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-left-footpeg-assembly.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Passenger Footpeg Kit', pid:'chargedcycleworks-ultra-bee-passenger-footpeg-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:111, url:'https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-passenger-footpeg-kit.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Right Footpeg Assembly', pid:'chargedcycleworks-right-footpeg-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:47.99, url:'https://chargedcycleworks.com/products/right-footpeg-assembly', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-right-footpeg-assembly.webp'
+    },
+    {name:'Talaria - OEM Foot Peg Connector', pid:'chargedcycleworks-footpeg-connector-talaria-sting-mx3-mx4-x3', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:16.42, url:'https://chargedcycleworks.com/products/footpeg-connector-talaria-sting-mx3-mx4-x3', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-footpeg-connector-talaria-sting-mx3-mx4-x3.webp'
+    },
+    {name:'Talaria - OEM Foot Peg Fixing Pin', pid:'chargedcycleworks-footpeg-fixing-pin-talaria-sting-mx3-mx4-x3', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:4.09, url:'https://chargedcycleworks.com/products/footpeg-fixing-pin-talaria-sting-mx3-mx4-x3', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-footpeg-fixing-pin-talaria-sting-mx3-mx4-x3.webp'
+    },
+    {name:'Talaria - OEM Foot Peg Return Spring', pid:'chargedcycleworks-footpeg-return-spring-talaria-sting-mx3-mx4-x3', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:2.72, url:'https://chargedcycleworks.com/products/footpeg-return-spring-talaria-sting-mx3-mx4-x3', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-footpeg-return-spring-talaria-sting-mx3-mx4-x3.webp'
+    },
+    {name:'Talaria - OEM Foot Peg Support Brace', pid:'chargedcycleworks-replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:24.64, url:'https://chargedcycleworks.com/products/replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3.webp'
+    },
+    {name:'Talaria - OEM Left Footpeg Mount (Kickstand Side)', pid:'chargedcycleworks-left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:36.98, url:'https://chargedcycleworks.com/products/left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3.webp'
+    },
+    {name:'Talaria - OEM Right Foot Peg Mount', pid:'chargedcycleworks-right-footpeg-holder-talaria-sting-mx3-mx4', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:36.97, url:'https://chargedcycleworks.com/products/right-footpeg-holder-talaria-sting-mx3-mx4', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-right-footpeg-holder-talaria-sting-mx3-mx4.webp'
+    },
+    {name:'Talaria Komodo – Left & Right Footpeg Holder | OEM', pid:'chargedcycleworks-talaria-komodo-left-footpeg-holder-black-kickstand-side', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:26.99, url:'https://chargedcycleworks.com/products/talaria-komodo-left-footpeg-holder-black-kickstand-side', chk:'2026-11-10'},
+     ],
+     fits:['komodo'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-komodo-left-footpeg-holder-black-kickstand-side.webp'
+    },
+    {name:'Ultra Bee 1" Foot Peg Drop / Lowering Kit', pid:'chargedcycleworks-ultra-bee-1-foot-peg-drop-lowering-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:120, url:'https://chargedcycleworks.com/products/ultra-bee-1-foot-peg-drop-lowering-kit', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-1-foot-peg-drop-lowering-kit.webp'
+    },
+    {name:'Warp9 Foot Pegs for Talaria Sting MX3 / MX4 / XXX / Altis', pid:'chargedcycleworks-warp9-foot-pegs-for-talaria', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:98.1, url:'https://chargedcycleworks.com/products/warp9-foot-pegs-for-talaria', chk:'2026-11-10'},
+     ],
+     fits:['komodo'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-foot-pegs-for-talaria.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee Elite Foot Pegs', pid:'chargedcycleworks-surron-ultra-bee-foot-pegs', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:131, url:'https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-foot-pegs.webp'
+    },
+    {name:'Warp9 Talaria / Altis Sigma Elite Foot Pegs', pid:'chargedcycleworks-talaria-altis-sigma-elite-foot-pegs', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:142, url:'https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs', chk:'2026-11-10'},
+     ],
+     fits:['komodo','mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-altis-sigma-elite-foot-pegs.webp'
+    },
+    {name:'Warp9 Ultra Bee Adjustable Foot Peg Mount', pid:'chargedcycleworks-ultra-bee-adjustable-foot-peg-mount', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:186, url:'https://chargedcycleworks.com/products/ultra-bee-adjustable-foot-peg-mount', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-adjustable-foot-peg-mount.webp'
+    },
+    {name:'Wide Foot Pegs for E-Moto', pid:'chargedcycleworks-cnc-aluminum-wide-foot-pegs', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30','ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-cnc-aluminum-wide-foot-pegs.webp'
+    },
 ]},
   {id:'seats', name:'Seats', blurb:'Where you spend the whole ride — comfort and control.', tips:['Tall seats help taller riders; standard keeps footing easy','Gripper covers for aggressive riding, smooth for moving around'], options:[
     {name:'Stock seats', prices:[]},
@@ -3448,7 +6236,7 @@ var CATEGORIES = [
       {v:'VORO Motors', p:44.95, url:'https://voromotors.com/products/seat-for-e-ride-pro-ss', chk:'2026-10-18'},
       {v:'TB Electric Moto', p:9, url:'https://tbelectricmoto.com/products/warp-9-surron-ultra-bee-seat-spacer', chk:'2026-10-27'},
      ],
-     fits:["ss20", "ultrabee"], likely:["ss30"], no:[],
+     fits:['ss20','ultrabee','ss30'], likely:[], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/voro-eride-ss-seat.webp'
     },
       {name:'Warp9 Ultra Bee Seat Spacer', pid:'chargedcycleworks-warp9-seat-spacer-surron-ultra-bee', tier:'budget',
@@ -3542,6 +6330,41 @@ var CATEGORIES = [
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Thrill Seekers Seat Cover for Surron Ultra Bee', pid:'chargedcycleworks-thrill-seekers-seat-cover-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:74, url:'https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-thrill-seekers-seat-cover-for-surron-ultra-bee.webp'
+    },
+    {name:'Thrill Seekers Seat Cover for Talaria', pid:'chargedcycleworks-copy-of-thrill-seekers-seat-cover-for-talaria', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:66.6, url:'https://chargedcycleworks.com/products/copy-of-thrill-seekers-seat-cover-for-talaria', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-copy-of-thrill-seekers-seat-cover-for-talaria.webp'
+    },
+    {name:'E Ride Pro SR - Long Seat Kit | Fits SS2.0/SS3.0/SR', pid:'chargedcycleworks-eride-pro-sr-long-seat-kit-ss2-ss3-sr', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:490, url:'https://chargedcycleworks.com/products/eride-pro-sr-long-seat-kit-ss2-ss3-sr', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-eride-pro-sr-long-seat-kit-ss2-ss3-sr.webp'
+    },
+    {name:'Surron Ultra Bee – OEM Seat | High / Low', pid:'chargedcycleworks-surron-ultra-bee-oem-seat', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:104.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-seat.webp'
+    },
+    {name:'Talaria - OEM Replacement Seat', pid:'chargedcycleworks-replacement-oem-seat-for-talaria-sting-mx3-mx4', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:56.15, url:'https://chargedcycleworks.com/products/replacement-oem-seat-for-talaria-sting-mx3-mx4', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-replacement-oem-seat-for-talaria-sting-mx3-mx4.webp'
     },
 ]},
   {id:'street', name:'Street', blurb:'Lights, mirrors, and signals for road-legal riding where it\'s allowed.', tips:['Legality varies wildly by state — check yours','Wiring effort ranges from plug-and-play to a full afternoon'], options:[
@@ -3654,6 +6477,62 @@ var CATEGORIES = [
      fits:["mx5", "mx4"], likely:[], no:[],
      badge:'Street', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-project-9-cyber-tail-light-for-talaria-sting-mx4.webp'
     },
+    {name:'Project 9 – Turn Signal & Brake Light Kit | Surron, Talaria & E Ride Pro', pid:'chargedcycleworks-project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:239, url:'https://chargedcycleworks.com/products/project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro.webp'
+    },
+    {name:'Project 9 – Turn Signal Kit for Surron Ultra Bee', pid:'chargedcycleworks-project-9-surron-ultra-bee-turn-signal-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:349.95, url:'https://chargedcycleworks.com/products/project-9-surron-ultra-bee-turn-signal-kit', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-project-9-surron-ultra-bee-turn-signal-kit.webp'
+    },
+    {name:'Surron Ultra Bee - Blinker Kit Mount Cover', pid:'chargedcycleworks-tail-light-installation-decorative-block', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:16, url:'https://chargedcycleworks.com/products/tail-light-installation-decorative-block', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tail-light-installation-decorative-block.webp'
+    },
+    {name:'Surron Ultra Bee - Front Turn Signals', pid:'chargedcycleworks-front-turn-lamp-pair', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:64.99, url:'https://chargedcycleworks.com/products/front-turn-lamp-pair', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-front-turn-lamp-pair.webp'
+    },
+    {name:'Surron Ultra Bee - Rear Blinker & License Plate Mounting Bracket', pid:'chargedcycleworks-tail-light-installation-cover', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:27, url:'https://chargedcycleworks.com/products/tail-light-installation-cover', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tail-light-installation-cover.webp'
+    },
+    {name:'Surron Ultra Bee - Rear Blinker Kit Mounting Bracket', pid:'chargedcycleworks-tail-light-mounting-bracket', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:69.99, url:'https://chargedcycleworks.com/products/tail-light-mounting-bracket', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tail-light-mounting-bracket.webp'
+    },
+    {name:'Surron Ultra Bee - Rear Turn Signals', pid:'chargedcycleworks-rear-turn-lamp-pair', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:64.99, url:'https://chargedcycleworks.com/products/rear-turn-lamp-pair', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rear-turn-lamp-pair.webp'
+    },
+    {name:'Surron Ultra Bee - Tail Light for Blinker Kit', pid:'chargedcycleworks-surron-tail-light', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:48, url:'https://chargedcycleworks.com/products/surron-tail-light', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-tail-light.webp'
+    },
 ]},
   {id:'swingarm', name:'Swingarm', blurb:'A longer swingarm adds straight-line stability at speed.', tips:['Axle and linkage fitment are bike-specific','A longer arm usually means a longer chain','Check tire clearance'], options:[
     {name:'Stock swingarm', prices:[]},
@@ -3692,7 +6571,7 @@ var CATEGORIES = [
      prices:[
       {v:'VORO Motors', p:349.95, url:'https://voromotors.com/products/swingarm-for-e-ride-pro-ss', chk:'2026-10-18'},
      ],
-     fits:["ss20"], likely:["ss30"], no:[],
+     fits:['ss20','ss30'], likely:[], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/voro-eride-ss-swingarm.webp'
     },
       {name:'E7449 - 12mm Swingarm Axle Bush(Long one) - ProS/SS2.0/SS3.0/SR', pid:'eridepro-e7449', tier:'budget',
@@ -3761,6 +6640,104 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05'
     },
+    {name:'E Ride Pro - OEM Swingarm', pid:'chargedcycleworks-e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:399, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters.webp'
+    },
+    {name:'EBMX Swingarm Replacement Bearings | Surron / E Ride Pro', pid:'chargedcycleworks-ebmx-swingarm-replacement-bearings-surron-e-ride-pro', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:2.99, url:'https://chargedcycleworks.com/products/ebmx-swingarm-replacement-bearings-surron-e-ride-pro', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-swingarm-replacement-bearings-surron-e-ride-pro.webp'
+    },
+    {name:'KyVex Billet Swingarm – Surron Ultra Bee', pid:'chargedcycleworks-kyvex-billet-swingarm-compatible-w-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1170, url:'https://chargedcycleworks.com/products/kyvex-billet-swingarm-compatible-w-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kyvex-billet-swingarm-compatible-w-surron-ultra-bee.webp'
+    },
+    {name:'RTech Swingarm Protectors for Surron Ultra Bee', pid:'chargedcycleworks-swingarm-protectors-for-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/swingarm-protectors-for-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-swingarm-protectors-for-surron-ultra-bee.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Swingarm (Carbon Black, without bearings)', pid:'chargedcycleworks-surron-ultra-bee-oem-swingarm-carbon-black-without-bearings', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:644.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-carbon-black-without-bearings', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-carbon-black-without-bearings.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Swingarm Bearing', pid:'chargedcycleworks-surron-ultra-bee-oem-swingarm-bearing', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:18, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bearing', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-bearing.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Swingarm Bottom Protection Block', pid:'chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:9, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Swingarm Bottom Protection Block Bushing', pid:'chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:2, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Swingarm Pivot Bushing', pid:'chargedcycleworks-ub-pivot-bushing', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/ub-pivot-bushing', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-pivot-bushing.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Swingarm Pivot Shaft (Axle)', pid:'chargedcycleworks-ub-swingarm-pivot-shaft', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-swingarm-pivot-shaft.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Swingarm Pivot Shaft Axle Bolt', pid:'chargedcycleworks-ub-swingarm-pivot-shaft-bolt', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:2.99, url:'https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ub-swingarm-pivot-shaft-bolt.webp'
+    },
+    {name:'Surron Ultra Bee - OEM Swingarm Washer', pid:'chargedcycleworks-surron-ultra-bee-oem-swingarm-washer', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:4, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-washer', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-washer.webp'
+    },
+    {name:'Warp9 12.9 Cryo Hardened Swingarm / Jackshaft Axle Bolt', pid:'chargedcycleworks-surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:95, url:'https://chargedcycleworks.com/products/surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9', chk:'2026-11-10'},
+     ],
+     fits:['sr'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9.webp'
+    },
+    {name:'Warp9 12mm Cryo Swingarm Bolt - E-Ride Pro SS 3.0 / SR', pid:'chargedcycleworks-e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:170, url:'https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0.webp'
+    },
 ]},
   {id:'tires', name:'Tires & Tubes', blurb:'Traction. The right tire for your terrain matters more than most upgrades.', tips:['Size must match your rims','Soft-terrain, intermediate, and hard-pack tires are very different','DOT-rated if you ride street'], options:[
     {name:'Stock tires & tubes', prices:[]},
@@ -3769,7 +6746,7 @@ var CATEGORIES = [
       {v:'Scooterworks USA', p:45, url:'https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["altis-sigma","falcon-gt","falcon-pro","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:['lightbee','altis-sigma','arctic-leopard-xe-pro-s','falcon-gt','falcon-pro','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/tire-surron-oem-70100-19.webp'
     },
     {name:'E Ride Pro 18-Inch Fatty Rear Tire', pid:'tire-eride-fatty-rear-1009018', tier:'OEM',
@@ -3777,7 +6754,7 @@ var CATEGORIES = [
       {v:'E Ride Pro', p:79, url:'https://www.eridepro.com/products/e7235-1', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss30","sr"], likely:["arctic-xd","bonnell-805rx","falcon-gt","komodo","lightbee","rerode-rx","ss40","stark-vargex","storm-bee","ultrabee","ultrabee-21kw","ventus-plus","yvolt-surge-v"], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
+     fits:['ss30','sr','arctic-leopard-xe-pro-s-enduro','arctic-xd','bonnell-805rx','falcon-gt','komodo','lightbee','rerode-rx','ss40','stark-vargex','storm-bee','ultrabee','ultrabee-21kw','ventus-plus','yvolt-surge-v'], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-eride-fatty-rear-1009018.webp'
     },
     {name:'Rippin Moto 70/100-19 Performance Duty Inner Tube', pid:'tube-rippin-70100-19', tier:'midrange',
@@ -3785,7 +6762,7 @@ var CATEGORIES = [
       {v:'Rippin Moto', p:20.99, url:'https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20","ss30","sr","lightbee","mx4","altis-sigma"], likely:["falcon-gt","falcon-pro","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:['ss20','ss30','sr','lightbee','mx4','altis-sigma','falcon-gt','falcon-pro','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      stock:'in_stock', stockChk:'2026-10-18', wtKg:0.5, img:'img/parts/tube-rippin-70100-19.webp'
     },
     {name:'Talaria Sting MX3/MX4 OEM CST Front Tire', pid:'tire-talaria-cst-70100-19', tier:'OEM',
@@ -3793,7 +6770,7 @@ var CATEGORIES = [
       {v:'Zeal Racing', p:94.99, url:'https://zealracing.com/products/front-wheel', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["mx4"], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:['mx4','altis-sigma','falcon-gt','falcon-pro','lightbee','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-talaria-cst-70100-19.webp'
     },
     {name:'Plews MX2 Matterly GP Rear Tire', pid:'tires-plews-mx2-rear', tier:'midrange',
@@ -3801,7 +6778,7 @@ var CATEGORIES = [
       {v:'Ventus Bikes USA', p:99, url:'https://ventusbikes.us/products/plews-tires-mx2-matterly-gp-intermediate-all-terrain-motocross-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["supermach-sm62","ventus-evo"], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
+     fits:['rfn-warrior-pro','supermach-sm62','ventus-evo'], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
      badge:'Tire', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tires-plews-mx2-rear.webp'
     },
     {name:'Shinko 244 Dual Sport Tire', pid:'tire-shinko-244-dualsport', tier:'budget',
@@ -3811,7 +6788,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:59.46, url:'https://chargedcycleworks.com/products/shinko-244-dual-sport-tires', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-shinko-244-dualsport.webp'
     },
     {name:'Kenda K270 Dual Sport Tire', pid:'tire-kenda-k270-dualsport', tier:'budget',
@@ -3821,7 +6798,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:[], no:[],
      badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-kenda-k270-dualsport.webp'
     },
     {name:'Tusk Dsport Adventure Tire', pid:'tire-tusk-dsport-adventure', tier:'budget',
@@ -3829,7 +6806,7 @@ var CATEGORIES = [
       {v:'Rocky Mountain ATV/MC', p:70, url:'https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["arctic-xd","bonnell-805rx","falcon-gt","komodo","lightbee","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-xl","rtr-xl-alpha","sr","ss30","ss40","stark-vargex","storm-bee","ultrabee","ultrabee-21kw","ventus-plus","yozma-in10-pro","yvolt-surge-v"], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","yozma-in10","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
+     fits:['arctic-xd','bonnell-805rx','falcon-gt','komodo','lightbee','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-xl','rtr-xl-alpha','sr','ss30','ss40','stark-vargex','storm-bee','ultrabee','ultrabee-21kw','ventus-plus','yozma-in10-pro','yvolt-surge-v'], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","yozma-in10","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
      badge:'Tusk', stock:'unknown'
     },
     {name:'Kenda Millville II K785 Tire', pid:'tire-kenda-millville2-k785', tier:'budget',
@@ -3837,7 +6814,7 @@ var CATEGORIES = [
       {v:'Cycle Gear', p:35, url:'https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
+     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:[], no:[],
      badge:'Kenda', stock:'unknown', img:'img/parts/tire-kenda-millville2-k785.webp'
     },
     {name:'Shinko 525 Cheater Rear Tire', pid:'tire-shinko-525-cheater', tier:'budget',
@@ -3847,7 +6824,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:131.71, url:'https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-shinko-525-cheater.webp'
     },
     {name:'Dunlop Geomax MX34 Tire', pid:'tire-dunlop-mx34', tier:'mid',
@@ -3857,7 +6834,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:114.99, url:'https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-dunlop-mx34.webp'
     },
     {name:'Michelin StarCross 6 Medium Soft Tire', pid:'tire-michelin-starcross6-ms', tier:'premium',
@@ -3865,7 +6842,7 @@ var CATEGORIES = [
       {v:'Rocky Mountain ATV/MC', p:130, url:'https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Michelin', stock:'unknown'
     },
     {name:'Pirelli Scorpion MX32 Mid Soft Tire', pid:'tire-pirelli-mx32-midsoft', tier:'premium',
@@ -3873,7 +6850,7 @@ var CATEGORIES = [
       {v:'RevZilla', p:110, url:'https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
+     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:[], no:[],
      badge:'Pirelli', stock:'unknown', img:'img/parts/tire-pirelli-mx32-midsoft.webp'
     },
     {name:'Kenda K760 Trakmaster II Tire', pid:'tire-kenda-k760-trakmaster', tier:'budget',
@@ -3881,7 +6858,7 @@ var CATEGORIES = [
       {v:'RevZilla', p:85, url:'https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
+     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:[], no:[],
      badge:'Kenda', stock:'unknown', img:'img/parts/tire-kenda-k760-trakmaster.webp'
     },
     {name:'Bridgestone Battlecross X31 Tire', pid:'tire-bridgestone-x31', tier:'premium',
@@ -3891,7 +6868,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:103.99, url:'https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-bridgestone-x31.webp'
     },
     {name:'Maxxis Maxxcross MX-SI Tire', pid:'tire-maxxis-mxsi', tier:'mid',
@@ -3899,7 +6876,7 @@ var CATEGORIES = [
       {v:'RevZilla', p:110, url:'https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
+     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:[], no:[],
      badge:'Maxxis', stock:'unknown', img:'img/parts/tire-maxxis-mxsi.webp'
     },
     {name:'IRC M5B EVO Soft Terrain Tire', pid:'tire-irc-m5b-evo', tier:'mid',
@@ -3907,7 +6884,7 @@ var CATEGORIES = [
       {v:'Rocky Mountain ATV/MC', p:100, url:'https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","arctic-xd","bonnell-805rx","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","ultrabee","ultrabee-21kw","ventus-plus","yvolt-surge-v"], no:["ventus-evo","rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","supermach-sm62"],
+     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','ultrabee','ultrabee-21kw','ventus-plus','yvolt-surge-v'], likely:[], no:["ventus-evo","rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","supermach-sm62"],
      badge:'IRC', stock:'unknown'
     },
     {name:'Sur-Ron 19" Off-Road Tire (OEM)', pid:'tire-surron-oem-19', tier:'OEM',
@@ -3915,7 +6892,7 @@ var CATEGORIES = [
       {v:'Surron Canada', p:79, url:'https://surron.ca/products/light-bee-off-road-tire'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["altis-sigma","falcon-gt","falcon-pro","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:['lightbee','altis-sigma','falcon-gt','falcon-pro','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'Sur-Ron', stock:'in_stock', stockChk:'2026-10-18'
     },
     {name:'CST OEM Take-Off Tire 70/100-19', pid:'tire-cst-takeoff-70100-19', tier:'OEM',
@@ -3923,7 +6900,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:['altis-sigma','arctic-leopard-xe-pro-s','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'CST', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/tire-cst-takeoff-70100-19.webp'
     },
     {name:'CST CM713 80/100-19 Rear Tire (Talaria OEM)', pid:'tire-cst-cm713-80100-19', tier:'OEM',
@@ -3931,7 +6908,7 @@ var CATEGORIES = [
       {v:'Ghostbikes', p:99, url:'https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["mx4"], likely:["altis-sigma","falcon-pro","mx5","rawrr-mantis-72v","ss20","supermach-sm01"], no:["ventus-plus","ventus-evo","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","ultrabee-21kw","yvolt-surge-v","supermach-sm62"],
+     fits:['mx4','altis-sigma','falcon-pro','mx5','rawrr-mantis-72v','ss20','supermach-sm01'], likely:[], no:["ventus-plus","ventus-evo","lightbee","ultrabee","ss30","ss40","sr","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","ultrabee-21kw","yvolt-surge-v","supermach-sm62"],
      badge:'CST', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-cst-cm713-80100-19.webp'
     },
     {name:'CST OEM Off-Road Tire 70/100-19', pid:'tire-cst-oem-70100-19-eu', tier:'OEM',
@@ -3939,7 +6916,7 @@ var CATEGORIES = [
       {v:'ELMOX', p:58, url:'https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["altis-sigma","falcon-gt","falcon-pro","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:['lightbee','altis-sigma','arctic-leopard-xe-pro-s','falcon-gt','falcon-pro','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'CST', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/tire-cst-oem-70100-19-eu.webp'
     },
     {name:'Kenda Washougal III Tire', pid:'tire-kenda-washougal3-ccw', tier:'mid',
@@ -3947,7 +6924,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:74.95, url:'https://chargedcycleworks.com/products/kenda-k7102-washougal-iii', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rfn-warrior-pro','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Kenda', stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/tire-kenda-washougal3-ccw.webp'
     },
     {name:'Mitas Terra Force-MX 16" Rear Tire', pid:'tire-mitas-terraforce-16-ccw', tier:'mid',
@@ -3955,7 +6932,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:86.9, url:'https://chargedcycleworks.com/products/mitas-terra-force-mx-super-light-16-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["supermach-sm62","ventus-evo"], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
+     fits:['arctic-leopard-xe-pro-s','supermach-sm62','ventus-evo'], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
      badge:'Mitas', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-mitas-terraforce-16-ccw.webp'
     },
     {name:'IRC VE33 Rear Tire', pid:'tire-irc-ve33-ccw', tier:'mid',
@@ -3963,7 +6940,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:82.88, url:'https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx","lightbee","ultrabee","ultrabee-21kw"], likely:["arctic-xd","falcon-gt","komodo","rerode-rx","ss40","stark-vargex","storm-bee","ventus-plus","yvolt-surge-v"], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62","sr","ss30"],
+     fits:['bonnell-805rx','lightbee','ultrabee','ultrabee-21kw','arctic-xd','falcon-gt','komodo','rerode-rx','ss40','stark-vargex','storm-bee','ventus-plus','yvolt-surge-v'], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62","sr","ss30"],
      badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-ve33-ccw.webp'
     },
     {name:'Michelin StarCross 5 Front Tire', pid:'tire-michelin-starcross5-ccw', tier:'premium',
@@ -3971,7 +6948,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:67.99, url:'https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["altis-sigma","falcon-gt","falcon-pro","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:['lightbee','altis-sigma','falcon-gt','falcon-pro','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'Michelin', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-michelin-starcross5-ccw.webp'
     },
     {name:'Tusk T-35 Front Tire', pid:'tire-tusk-t35-front-ccw', tier:'budget',
@@ -3979,7 +6956,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:53.77, url:'https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:[],
+     fits:['bonnell-805rx','altis-sigma','arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s-enduro','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:[], no:[],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-tusk-t35-front-ccw.webp'
     },
     {name:'Tusk T-35 Rear Tire', pid:'tire-tusk-t35-rear-ccw', tier:'budget',
@@ -3987,7 +6964,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:36.17, url:'https://chargedcycleworks.com/collections/surron-tires/products/tusk-t-35-soft-intermediate-terrain-rear-16-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["supermach-sm62","ventus-evo"], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
+     fits:['arctic-leopard-xe-pro-s','supermach-sm62','ventus-evo'], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-tusk-t35-rear-ccw.webp'
     },
     {name:'Tusk Recon Sticky Tire', pid:'tire-tusk-recon-ccw', tier:'budget',
@@ -3995,7 +6972,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:49.88, url:'https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:['altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-tusk-recon-ccw.webp'
     },
     {name:'Tusk Ground Wire eMoto Tire', pid:'tire-tusk-groundwire-ccw', tier:'budget',
@@ -4003,7 +6980,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:50.88, url:'https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20"], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:['ss20','altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','sr','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-tusk-groundwire-ccw.webp'
     },
     {name:'Bridgestone M203 Front Tire', pid:'tire-bridgestone-m203-ccw', tier:'mid',
@@ -4011,7 +6988,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:48, url:'https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","stark-vargex"],
+     fits:['altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","stark-vargex"],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-bridgestone-m203-ccw.webp'
     },
     {name:'Bridgestone M204 Rear Tire', pid:'tire-bridgestone-m204-ccw', tier:'mid',
@@ -4019,7 +6996,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:51.97, url:'https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","supermach-sm62","tuttio-soleil01","ventus-evo","yozma-in10","yozma-in10-pro"], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
+     fits:['rfn-warrior-pro','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','supermach-sm62','tuttio-soleil01','ventus-evo','yozma-in10','yozma-in10-pro'], likely:[], no:["ventus-plus","lightbee","ultrabee","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","falcon-gt","stark-vargex","altis-sigma","ultrabee-21kw","yvolt-surge-v","supermach-sm01"],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-bridgestone-m204-ccw.webp'
     },
     {name:'Bridgestone Battlecross X30 Tire', pid:'tire-bridgestone-x30-ccw', tier:'mid',
@@ -4027,7 +7004,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:64, url:'https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:['altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-bridgestone-x30-ccw.webp'
     },
     {name:'Dunlop MX33 Tire', pid:'tire-dunlop-mx33-ccw', tier:'premium',
@@ -4035,7 +7012,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["altis-sigma","falcon-gt","falcon-pro","lightbee","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","sr","ss20","ss30","ss40","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
+     fits:['altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["komodo","bonnell-805rx","storm-bee","arctic-xd","rerode-rx","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","stark-vargex"],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-dunlop-mx33-ccw.webp'
     },
     {name:'Dunlop MX53 Tire', pid:'tire-dunlop-mx53-ccw', tier:'mid',
@@ -4043,7 +7020,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:109.99, url:'https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","lightbee","mx4","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v","mx5"], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rfn-warrior-pro','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01"],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-dunlop-mx53-ccw.webp'
     },
     {name:'Shinko SR241 Trials Tire', pid:'tire-shinko-sr241-ccw', tier:'budget',
@@ -4051,7 +7028,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:74.99, url:'https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx","lightbee","mx4"], likely:["altis-sigma","arctic-xd","falcon-gt","falcon-pro","komodo","rawrr-mantis-72v","rawrr-mantis-x","rawrr-mantis-x-pro","rerode-rx","rtr-alpha","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-xl","rtr-xl-alpha","sr","ss20","ss30","ss40","stark-vargex","storm-bee","supermach-sm01","supermach-sm62","tuttio-soleil01","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yozma-in10","yozma-in10-pro","yvolt-surge-v","mx5"], no:[],
+     fits:['bonnell-805rx','lightbee','mx4','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:[], no:[],
      badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-shinko-sr241-ccw.webp'
     },
     {name:'IRC IX-09 Gekkota Gummy Tire', pid:'tire-irc-ix09-gekkota-ccw', tier:'mid',
@@ -4059,7 +7036,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:89.88, url:'https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:["arctic-xd","falcon-gt","komodo","lightbee","rerode-rx","sr","ss30","ss40","stark-vargex","storm-bee","supermach-sm62","ultrabee","ultrabee-21kw","ventus-evo","ventus-plus","yvolt-surge-v"], no:["ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01"],
+     fits:['bonnell-805rx','arctic-xd','falcon-gt','komodo','lightbee','rerode-rx','rfn-warrior-pro','sr','ss30','ss40','stark-vargex','storm-bee','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01"],
      badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-ix09-gekkota-ccw.webp'
     },
     {name:"CST 80/100-19 OEM Tire — E Ride Pro SS (E7207)", pid:'voro-eride-ss-cst-80100-19', tier:'OEM',
@@ -4360,6 +7337,41 @@ var CATEGORIES = [
      fits:["bonnell-805rx"], likely:[], no:[],
      badge:'Sedona', stock:'in_stock', stockChk:'2026-11-05'
     },
+    {name:'E Ride Pro - OEM 3.00-18 “BabyFat” Rear Tire Kit', pid:'chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:79, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe', chk:'2026-11-10'},
+     ],
+     fits:['sr','ss30'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe.webp'
+    },
+    {name:'Talaria - OEM Head Tube Spacer (42-30-0.5)', pid:'chargedcycleworks-head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:6.83, url:'https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3', chk:'2026-11-10'},
+     ],
+     fits:['mx5'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee Aluminum Throttle Tube', pid:'chargedcycleworks-surron-ultra-bee-aluminum-throttle-tube', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:36, url:'https://chargedcycleworks.com/products/surron-ultra-bee-aluminum-throttle-tube', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-aluminum-throttle-tube.webp'
+    },
+    {name:'Pivotrax Kilowatt Climber 90/100-18 Rear Tire', pid:'chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:104.99, url:'https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire', chk:'2026-11-10'},
+     ],
+     fits:['ss30'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire.webp'
+    },
+    {name:'Shinko 777 100/90-19 for Surron Ultra Bee', pid:'chargedcycleworks-shinko-777-cruiser-hd-front-100-90-19', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:87.94, url:'https://chargedcycleworks.com/products/shinko-777-cruiser-hd-front-100-90-19', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-shinko-777-cruiser-hd-front-100-90-19.webp'
+    },
 ]},
   {id:'titanium', name:'Titanium Hardware', blurb:'Titanium bolt kits and hardware — shed grams and add color to your build.', tips:['Match thread pitch and length to your OEM bolts before ordering','Use anti-seize — titanium galls easily','Axle, brake and motor-mount bolts are safety-critical: follow torque specs','Anodized colors vary between batches — order kits together for a match'], options:[
     {name:'Stock titanium hardware', prices:[]},
@@ -4456,7 +7468,7 @@ var CATEGORIES = [
       {v:'Warp 9 Racing', p:33, url:'https://warp9racing.com/products/surron-talaria-boost-spacer-front-rotor-bolts', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["lightbee","mx4"], no:[],
+     fits:['zero-xe'], likely:['lightbee','mx4'], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/warp9-rotor-bolts-boost.webp'
     },
     {name:'Titanium Motor Mount Bolt Kit — E-Ride Pro (4 pc)', pid:'ti-motor-bolts-erp', tier:'mid',
@@ -4506,6 +7518,27 @@ var CATEGORIES = [
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
+    },
+    {name:'Talaria Komodo Titanium Body Bolt Kit', pid:'chargedcycleworks-talaria-komodotitanium-body-bolt-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:499, url:'https://chargedcycleworks.com/products/talaria-komodotitanium-body-bolt-kit', chk:'2026-11-10'},
+     ],
+     fits:['komodo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-talaria-komodotitanium-body-bolt-kit.webp'
+    },
+    {name:'Warp9 Shorty Style Ultra Bee Lever Pivot Bolts – Titanium Upgrade', pid:'chargedcycleworks-warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:29, url:'https://chargedcycleworks.com/products/warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee.webp'
+    },
+    {name:'Warp9 Surron Ultra Bee Titanium Body / Chassis Bolt Kit', pid:'chargedcycleworks-surron-ultra-titanium-chassis-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:399, url:'https://chargedcycleworks.com/products/surron-ultra-titanium-chassis-kit', chk:'2026-11-10'},
+     ],
+     fits:['ultrabee'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-titanium-chassis-kit.webp'
     },
   ]},
 ];
@@ -5237,4 +8270,1329 @@ Object.assign(FITMENT, {
   'tire-cst-oem-70100-19-eu|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'Stock XE Pro S front tire 70/100-19 verified Oct 21 2026; exact-size match per owner tire rule',u:['https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s']},
   'tire-mitas-terraforce-16-ccw|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW states 90/100-16 = XE Pro S stock rear size; exact-size match per owner tire rule',u:['https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s','https://chargedcycleworks.com/products/mitas-terra-force-mx-super-light-16-rear-tire']},
   'tire-tusk-t35-rear-ccw|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW lists 90/100-16 variant = XE Pro S stock rear size; exact-size match per owner tire rule',u:['https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s','https://chargedcycleworks.com/collections/surron-tires/products/tusk-t-35-soft-intermediate-terrain-rear-16-tire']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-10 (supersedes entries above) */
+  'brakes-fxt-ultrabee-rear-kit|ss20':{s:'confirmed_direct_fit',n:'',u:['https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro']},
+  'brakes-fxt-ultrabee-rear-kit|ss30':{s:'confirmed_fit_with_modifications',n:'',u:['https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro']},
+  'brakes-warp9-folding-lever|sr':{s:'confirmed_direct_fit',n:'CCW \'Warp9 Emoto Folding Brake Levers\' fitment list names 2025 E-Ride Pro SR with Type 2 brakes (paddle-style switches) (checked 2026-11-10)',u:['https://chargedcycleworks.com/products/emoto-folding-brake-levers']},
+  'brakes-warp9-folding-lever|ss30':{s:'confirmed_direct_fit',n:'CCW \'Warp9 Emoto Folding Brake Levers\' fitment list names 2025 E-Ride Pro SS 3.0 with Type 2 brakes (paddle-style switches); also in the E Ride Pro SS 3.0/4.0 Upgrades collection (checked 2026-11-10)',u:['https://chargedcycleworks.com/products/emoto-folding-brake-levers','https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-upgrades']},
+  'chargedcycleworks-10mm-brake-caliper-spacer-for-220mm-rotors|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors',u:['https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors']},
+  'chargedcycleworks-10mm-brake-caliper-spacer-for-220mm-rotors|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors',u:['https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors']},
+  'chargedcycleworks-16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy',u:['https://chargedcycleworks.com/products/16-19-wheelset-for-surron-light-bee-or-e-ride-pro-by-kke-copy']},
+  'chargedcycleworks-16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/16-rear-wheel-and-16-19-wheelset-for-surron-ultra-bee']},
+  'chargedcycleworks-16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr',u:['https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr']},
+  'chargedcycleworks-17-supermoto-wheelset-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/17-supermoto-wheelset-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/17-supermoto-wheelset-for-surron-ultra-bee']},
+  'chargedcycleworks-18-21-wheel-and-tire-combo-for-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/18-21-wheel-and-tire-combo-for-ultra-bee',u:['https://chargedcycleworks.com/products/18-21-wheel-and-tire-combo-for-ultra-bee']},
+  'chargedcycleworks-3-0-sr-shock-linkageliftable|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/3-0-sr-shock-linkageliftable',u:['https://chargedcycleworks.com/products/3-0-sr-shock-linkageliftable']},
+  'chargedcycleworks-300mm-rotor-and-caliper-bracket-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/300mm-rotor-and-caliper-bracket-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/300mm-rotor-and-caliper-bracket-for-surron-ultra-bee']},
+  'chargedcycleworks-428-d-i-d-black-chain-non-o-ring|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/428-d-i-d-black-chain-non-o-ring',u:['https://chargedcycleworks.com/products/428-d-i-d-black-chain-non-o-ring']},
+  'chargedcycleworks-428-d-i-d-x-ring-vx-chain|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/428-d-i-d-x-ring-vx-chain',u:['https://chargedcycleworks.com/products/428-d-i-d-x-ring-vx-chain']},
+  'chargedcycleworks-428-gold-plated-chain-by-primary-drive|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/428-gold-plated-chain-by-primary-drive',u:['https://chargedcycleworks.com/products/428-gold-plated-chain-by-primary-drive']},
+  'chargedcycleworks-428-renthal-r-1-works-chain-copy|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/428-renthal-r-1-works-chain-copy',u:['https://chargedcycleworks.com/products/428-renthal-r-1-works-chain-copy']},
+  'chargedcycleworks-52t-sprocket-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/52t-sprocket-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/52t-sprocket-for-surron-ultra-bee']},
+  'chargedcycleworks-65cc-number-plate-adapter-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/65cc-number-plate-adapter-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/65cc-number-plate-adapter-for-surron-ultra-bee']},
+  'chargedcycleworks-72v-65ah-battery-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/72v-65ah-battery-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/72v-65ah-battery-for-surron-ultra-bee']},
+  'chargedcycleworks-baja-designs-s2-pro-headlight|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight',u:['https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight']},
+  'chargedcycleworks-baja-designs-s2-pro-headlight|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight',u:['https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight']},
+  'chargedcycleworks-baja-designs-s2-sport-headlight-for-surron-talaria|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/baja-designs-s2-sport-headlight-for-surron-talaria',u:['https://chargedcycleworks.com/products/baja-designs-s2-sport-headlight-for-surron-talaria']},
+  'chargedcycleworks-baja-designs-s2-sport-headlight-for-surron-talaria|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/baja-designs-s2-sport-headlight-for-surron-talaria',u:['https://chargedcycleworks.com/products/baja-designs-s2-sport-headlight-for-surron-talaria']},
+  'chargedcycleworks-baja-designs-squadron-headlight-kit-for-surron-talaria|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria',u:['https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria']},
+  'chargedcycleworks-baja-designs-squadron-headlight-kit-for-surron-talaria|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria',u:['https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria']},
+  'chargedcycleworks-bearing-for-fork-steering-headset-surron-talaria|ultrabee':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bearing-for-fork-steering-headset-surron-talaria',u:['https://chargedcycleworks.com/products/bearing-for-fork-steering-headset-surron-talaria']},
+  'chargedcycleworks-bearing-kit-front-wheel-talaria-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bearing-kit-front-wheel-talaria-mx5',u:['https://chargedcycleworks.com/products/bearing-kit-front-wheel-talaria-mx5']},
+  'chargedcycleworks-bearing-kit-rear-wheel-talaria-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bearing-kit-rear-wheel-talaria-mx5',u:['https://chargedcycleworks.com/products/bearing-kit-rear-wheel-talaria-mx5']},
+  'chargedcycleworks-bonnell-805-rx-battery-tray-foam|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bonnell-805-rx-battery-tray-foam',u:['https://chargedcycleworks.com/products/bonnell-805-rx-battery-tray-foam']},
+  'chargedcycleworks-bonnell-805-rx-controller-plate-foam-5mm|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bonnell-805-rx-controller-plate-foam-5mm',u:['https://chargedcycleworks.com/products/bonnell-805-rx-controller-plate-foam-5mm']},
+  'chargedcycleworks-bonnell-805-rx-frame-assembly|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bonnell-805-rx-frame-assembly',u:['https://chargedcycleworks.com/products/bonnell-805-rx-frame-assembly']},
+  'chargedcycleworks-bonnell-805-rx-moto-toolkit-set|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bonnell-805-rx-moto-toolkit-set',u:['https://chargedcycleworks.com/products/bonnell-805-rx-moto-toolkit-set']},
+  'chargedcycleworks-bonnell-805-rx-welded-subframe|bonnell-805rx':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bonnell-805-rx-welded-subframe',u:['https://chargedcycleworks.com/products/bonnell-805-rx-welded-subframe']},
+  'chargedcycleworks-bowl-set|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bowl-set',u:['https://chargedcycleworks.com/products/bowl-set']},
+  'chargedcycleworks-brake-pads-for-surron-ultra-bee-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/brake-pads-for-surron-ultra-bee-oem',u:['https://chargedcycleworks.com/products/brake-pads-for-surron-ultra-bee-oem']},
+  'chargedcycleworks-brake-rotor-for-surron-ultra-bee-tusk-typhoon|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/brake-rotor-for-surron-ultra-bee-tusk-typhoon',u:['https://chargedcycleworks.com/products/brake-rotor-for-surron-ultra-bee-tusk-typhoon']},
+  'chargedcycleworks-button-head-screw-gb-t70-2-m6x14-1|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1',u:['https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1']},
+  'chargedcycleworks-button-head-screw-gb-t70-2-m6x14-1|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1',u:['https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1']},
+  'chargedcycleworks-center-shaft-sleeve-assembly|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/center-shaft-sleeve-assembly',u:['https://chargedcycleworks.com/products/center-shaft-sleeve-assembly']},
+  'chargedcycleworks-cnc-aluminum-wide-foot-pegs|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs',u:['https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs']},
+  'chargedcycleworks-cnc-aluminum-wide-foot-pegs|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs',u:['https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs']},
+  'chargedcycleworks-cnc-aluminum-wide-foot-pegs|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs',u:['https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs']},
+  'chargedcycleworks-cnc-horn-cover-for-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/cnc-horn-cover-for-ultra-bee',u:['https://chargedcycleworks.com/products/cnc-horn-cover-for-ultra-bee']},
+  'chargedcycleworks-colored-plastics-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/colored-plastics-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/colored-plastics-for-surron-ultra-bee']},
+  'chargedcycleworks-copy-of-thrill-seekers-seat-cover-for-talaria|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/copy-of-thrill-seekers-seat-cover-for-talaria',u:['https://chargedcycleworks.com/products/copy-of-thrill-seekers-seat-cover-for-talaria']},
+  'chargedcycleworks-dhs-80v-80ah-battery|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/dhs-80v-80ah-battery',u:['https://chargedcycleworks.com/products/dhs-80v-80ah-battery']},
+  'chargedcycleworks-dhs-96v-50ah-race-battery-surron-ultra-bee-rs50|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/dhs-96v-50ah-race-battery-surron-ultra-bee-rs50',u:['https://chargedcycleworks.com/products/dhs-96v-50ah-race-battery-surron-ultra-bee-rs50']},
+  'chargedcycleworks-dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring',u:['https://chargedcycleworks.com/products/dirtybike-219-primary-belt-to-chain-conversion-kit-sealed-o-ring']},
+  'chargedcycleworks-dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx',u:['https://chargedcycleworks.com/products/dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx']},
+  'chargedcycleworks-dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx',u:['https://chargedcycleworks.com/products/dirtybike-420-gold-series-primary-belt-to-chain-conversion-kit-sealed-x-ring-surron-lbx']},
+  'chargedcycleworks-dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee']},
+  'chargedcycleworks-e-ride-control-switch|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-control-switch',u:['https://chargedcycleworks.com/products/e-ride-control-switch']},
+  'chargedcycleworks-e-ride-oem-brake-lever|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-brake-lever',u:['https://chargedcycleworks.com/products/e-ride-oem-brake-lever']},
+  'chargedcycleworks-e-ride-oem-brake-lever|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-brake-lever',u:['https://chargedcycleworks.com/products/e-ride-oem-brake-lever']},
+  'chargedcycleworks-e-ride-oem-converter|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-converter',u:['https://chargedcycleworks.com/products/e-ride-oem-converter']},
+  'chargedcycleworks-e-ride-oem-converter|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-converter',u:['https://chargedcycleworks.com/products/e-ride-oem-converter']},
+  'chargedcycleworks-e-ride-oem-display|sr':{s:'confirmed_direct_fit',n:'CCW variant \'SR\' is PN E7582 (S/SS 2.0 is E7023; SS 3.0 is E7022). Checked 2026-11-10. https://chargedcycleworks.com/products/e-ride-oem-display',u:['https://chargedcycleworks.com/products/e-ride-oem-display']},
+  'chargedcycleworks-e-ride-oem-display|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-display',u:['https://chargedcycleworks.com/products/e-ride-oem-display']},
+  'chargedcycleworks-e-ride-oem-drive-belt|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-drive-belt',u:['https://chargedcycleworks.com/products/e-ride-oem-drive-belt']},
+  'chargedcycleworks-e-ride-oem-drive-belt|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-drive-belt',u:['https://chargedcycleworks.com/products/e-ride-oem-drive-belt']},
+  'chargedcycleworks-e-ride-oem-foot-peg-pin-and-lock-washer|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-oem-foot-peg-pin-and-lock-washer',u:['https://chargedcycleworks.com/products/e-ride-oem-foot-peg-pin-and-lock-washer']},
+  'chargedcycleworks-e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0',u:['https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0']},
+  'chargedcycleworks-e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0',u:['https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0']},
+  'chargedcycleworks-e-ride-pro-3-0-sr-rear-sprocket|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket',u:['https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket']},
+  'chargedcycleworks-e-ride-pro-3-0-sr-rear-sprocket|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket',u:['https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket']},
+  'chargedcycleworks-e-ride-pro-e-moto-sprocket|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket',u:['https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket']},
+  'chargedcycleworks-e-ride-pro-e-moto-sprocket|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket',u:['https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket']},
+  'chargedcycleworks-e-ride-pro-e7570-control-switch|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-e7570-control-switch',u:['https://chargedcycleworks.com/products/e-ride-pro-e7570-control-switch']},
+  'chargedcycleworks-e-ride-pro-fork-protector-l-r-ss3-0-sr|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-fork-protector-l-r-ss3-0-sr',u:['https://chargedcycleworks.com/products/e-ride-pro-fork-protector-l-r-ss3-0-sr']},
+  'chargedcycleworks-e-ride-pro-fork-protector-l-r-ss3-0-sr|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-fork-protector-l-r-ss3-0-sr',u:['https://chargedcycleworks.com/products/e-ride-pro-fork-protector-l-r-ss3-0-sr']},
+  'chargedcycleworks-e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers',u:['https://chargedcycleworks.com/products/e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers']},
+  'chargedcycleworks-e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers',u:['https://chargedcycleworks.com/products/e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers']},
+  'chargedcycleworks-e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws']},
+  'chargedcycleworks-e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws']},
+  'chargedcycleworks-e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws']},
+  'chargedcycleworks-e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-220mm-rear-break-disc-3-0mm-with-6screws']},
+  'chargedcycleworks-e-ride-pro-oem-3-0-sr-brake-pads|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-3-0-sr-brake-pads',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-3-0-sr-brake-pads']},
+  'chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe']},
+  'chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe']},
+  'chargedcycleworks-e-ride-pro-oem-battery-positioning-support-base-with-6bolts|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-battery-positioning-support-base-with-6bolts',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-battery-positioning-support-base-with-6bolts']},
+  'chargedcycleworks-e-ride-pro-oem-battery-positioning-support-base-with-6bolts|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-battery-positioning-support-base-with-6bolts',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-battery-positioning-support-base-with-6bolts']},
+  'chargedcycleworks-e-ride-pro-oem-bolts-and-nut-set|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-bolts-and-nut-set',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-bolts-and-nut-set']},
+  'chargedcycleworks-e-ride-pro-oem-bolts-and-nut-set|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-bolts-and-nut-set',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-bolts-and-nut-set']},
+  'chargedcycleworks-e-ride-pro-oem-controller-hardware-kit-combo|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-controller-hardware-kit-combo',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-controller-hardware-kit-combo']},
+  'chargedcycleworks-e-ride-pro-oem-display-cable-she7045|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-display-cable-she7045',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-display-cable-she7045']},
+  'chargedcycleworks-e-ride-pro-oem-extended-rear-fender|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-extended-rear-fender',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-extended-rear-fender']},
+  'chargedcycleworks-e-ride-pro-oem-extended-rear-fender|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-extended-rear-fender',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-extended-rear-fender']},
+  'chargedcycleworks-e-ride-pro-oem-jackshaft-axle-kit|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-jackshaft-axle-kit',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-jackshaft-axle-kit']},
+  'chargedcycleworks-e-ride-pro-oem-main-wiring-harness-with-blue-booth|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-main-wiring-harness-with-blue-booth',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-main-wiring-harness-with-blue-booth']},
+  'chargedcycleworks-e-ride-pro-oem-motor-pulley-nut|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-motor-pulley-nut',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-motor-pulley-nut']},
+  'chargedcycleworks-e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr']},
+  'chargedcycleworks-e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-mud-flap-kit-s-ss2-0-ss3-0-sr']},
+  'chargedcycleworks-e-ride-pro-oem-rear-brake-hose|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose']},
+  'chargedcycleworks-e-ride-pro-oem-rear-brake-hose|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose']},
+  'chargedcycleworks-e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit']},
+  'chargedcycleworks-e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit']},
+  'chargedcycleworks-e-ride-pro-oem-rengen-brake|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake']},
+  'chargedcycleworks-e-ride-pro-oem-right-foot-peg-mount-copy|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-right-foot-peg-mount-copy',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-right-foot-peg-mount-copy']},
+  'chargedcycleworks-e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip|sr':{s:'confirmed_direct_fit',n:'CCW body: \'OEM Skid Plate for E Ride Pro SS 3.0 and SR\' ($79, in stock). Checked 2026-11-10.',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip']},
+  'chargedcycleworks-e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip|ss30':{s:'confirmed_direct_fit',n:'CCW body: \'OEM Skid Plate for E Ride Pro SS 3.0 and SR\'. Checked 2026-11-10.',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip']},
+  'chargedcycleworks-e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters']},
+  'chargedcycleworks-e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters']},
+  'chargedcycleworks-e-ride-pro-oem-taillight-kit|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-taillight-kit',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-taillight-kit']},
+  'chargedcycleworks-e-ride-pro-oem-tapered-roller-bearing|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-tapered-roller-bearing',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-tapered-roller-bearing']},
+  'chargedcycleworks-e-ride-pro-oem-tapered-roller-bearing|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-tapered-roller-bearing',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-tapered-roller-bearing']},
+  'chargedcycleworks-e-ride-pro-s-controller-takeoff|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-s-controller-takeoff',u:['https://chargedcycleworks.com/products/e-ride-pro-s-controller-takeoff']},
+  'chargedcycleworks-e-ride-pro-skid-plate-ss3-0-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-skid-plate-ss3-0-sr',u:['https://chargedcycleworks.com/products/e-ride-pro-skid-plate-ss3-0-sr']},
+  'chargedcycleworks-e-ride-pro-skid-plate-ss3-0-sr|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-skid-plate-ss3-0-sr',u:['https://chargedcycleworks.com/products/e-ride-pro-skid-plate-ss3-0-sr']},
+  'chargedcycleworks-e-ride-pro-sr-775-fork|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork',u:['https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork']},
+  'chargedcycleworks-e-ride-pro-sr-775-fork|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork',u:['https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork']},
+  'chargedcycleworks-e-ride-pro-ss3-oem-breaker-switch-kit|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-ss3-oem-breaker-switch-kit',u:['https://chargedcycleworks.com/products/e-ride-pro-ss3-oem-breaker-switch-kit']},
+  'chargedcycleworks-ebmx-cargo-rack-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-cargo-rack-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/ebmx-cargo-rack-for-surron-ultra-bee']},
+  'chargedcycleworks-ebmx-competition-axle-axle-blocks-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-competition-axle-axle-blocks-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/ebmx-competition-axle-axle-blocks-for-surron-ultra-bee']},
+  'chargedcycleworks-ebmx-competition-brake-pads-for-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-competition-brake-pads-for-ultra-bee',u:['https://chargedcycleworks.com/products/ebmx-competition-brake-pads-for-ultra-bee']},
+  'chargedcycleworks-ebmx-competition-chain-guide-for-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee',u:['https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee']},
+  'chargedcycleworks-ebmx-competition-jackshaft-for-ultra-bee-1|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-competition-jackshaft-for-ultra-bee-1',u:['https://chargedcycleworks.com/products/ebmx-competition-jackshaft-for-ultra-bee-1']},
+  'chargedcycleworks-ebmx-display-and-bar-clamps|ultrabee':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-display-and-bar-clamps',u:['https://chargedcycleworks.com/products/ebmx-display-and-bar-clamps']},
+  'chargedcycleworks-ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro',u:['https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro']},
+  'chargedcycleworks-ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro',u:['https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro']},
+  'chargedcycleworks-ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro',u:['https://chargedcycleworks.com/products/ebmx-premium-foot-peg-and-brace-for-light-bee-or-e-ride-pro']},
+  'chargedcycleworks-ebmx-swingarm-replacement-bearings-surron-e-ride-pro|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-swingarm-replacement-bearings-surron-e-ride-pro',u:['https://chargedcycleworks.com/products/ebmx-swingarm-replacement-bearings-surron-e-ride-pro']},
+  'chargedcycleworks-ebmx-swingarm-replacement-bearings-surron-e-ride-pro|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-swingarm-replacement-bearings-surron-e-ride-pro',u:['https://chargedcycleworks.com/products/ebmx-swingarm-replacement-bearings-surron-e-ride-pro']},
+  'chargedcycleworks-ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible',u:['https://chargedcycleworks.com/products/ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible']},
+  'chargedcycleworks-ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit',u:['https://chargedcycleworks.com/products/ebmx-x-9000-controller-e-ride-pro-3-0-harness-and-mounting-kit']},
+  'chargedcycleworks-ebmx-x-9000-e-ride-pro-sr-installation-kit-v3|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-e-ride-pro-sr-installation-kit-v3',u:['https://chargedcycleworks.com/products/ebmx-x-9000-e-ride-pro-sr-installation-kit-v3']},
+  'chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness']},
+  'chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness']},
+  'chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness|ultrabee':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness']},
+  'chargedcycleworks-ebmx-x-9000-v3-controller-race-harness-for-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-race-harness-for-ultra-bee',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-race-harness-for-ultra-bee']},
+  'chargedcycleworks-ebmx-xlb-60-race-motor-kit-air-cooled|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled',u:['https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled']},
+  'chargedcycleworks-ebmx-xlb-60-race-motor-kit-air-cooled|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled',u:['https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled']},
+  'chargedcycleworks-ebmx-xta-60-motor-adapter-kit-for-talaria-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-xta-60-motor-adapter-kit-for-talaria-mx5',u:['https://chargedcycleworks.com/products/ebmx-xta-60-motor-adapter-kit-for-talaria-mx5']},
+  'chargedcycleworks-ebmx-xta-60-talaria-motor-open-box|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-open-box',u:['https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-open-box']},
+  'chargedcycleworks-eride-pro-260mm-floating-racing-rotor-kit-team-edition|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition',u:['https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition']},
+  'chargedcycleworks-eride-pro-260mm-floating-racing-rotor-kit-team-edition|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition',u:['https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition']},
+  'chargedcycleworks-eride-pro-horn-switch-mini-mini-r-sr-oem|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-horn-switch-mini-mini-r-sr-oem',u:['https://chargedcycleworks.com/products/eride-pro-horn-switch-mini-mini-r-sr-oem']},
+  'chargedcycleworks-eride-pro-sr-long-seat-kit-ss2-ss3-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-sr-long-seat-kit-ss2-ss3-sr',u:['https://chargedcycleworks.com/products/eride-pro-sr-long-seat-kit-ss2-ss3-sr']},
+  'chargedcycleworks-eride-pro-sr-long-seat-kit-ss2-ss3-sr|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-sr-long-seat-kit-ss2-ss3-sr',u:['https://chargedcycleworks.com/products/eride-pro-sr-long-seat-kit-ss2-ss3-sr']},
+  'chargedcycleworks-eride-pro-sr-motor-pulley|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-sr-motor-pulley',u:['https://chargedcycleworks.com/products/eride-pro-sr-motor-pulley']},
+  'chargedcycleworks-eride-pro-sr-motor-pulley|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-pro-sr-motor-pulley',u:['https://chargedcycleworks.com/products/eride-pro-sr-motor-pulley']},
+  'chargedcycleworks-eride-ss3-sr-brake-assembly-dot4-type-2|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-ss3-sr-brake-assembly-dot4-type-2',u:['https://chargedcycleworks.com/products/eride-ss3-sr-brake-assembly-dot4-type-2']},
+  'chargedcycleworks-eride-ss3-sr-brake-assembly-dot4-type-2|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/eride-ss3-sr-brake-assembly-dot4-type-2',u:['https://chargedcycleworks.com/products/eride-ss3-sr-brake-assembly-dot4-type-2']},
+  'chargedcycleworks-ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr',u:['https://chargedcycleworks.com/products/ext-ferro-brake-adapter-for-e-ride-pro-3-0-sr']},
+  'chargedcycleworks-ext-ferro-fork-open-box|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ext-ferro-fork-open-box',u:['https://chargedcycleworks.com/products/ext-ferro-fork-open-box']},
+  'chargedcycleworks-ext-ferro-fork-open-box|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ext-ferro-fork-open-box',u:['https://chargedcycleworks.com/products/ext-ferro-fork-open-box']},
+  'chargedcycleworks-ext-rea-mx-rear-shock-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ext-rea-mx-rear-shock-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/ext-rea-mx-rear-shock-for-surron-ultra-bee']},
+  'chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr',u:['https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-sr']},
+  'chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0',u:['https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0']},
+  'chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5',u:['https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5']},
+  'chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one|ventus-plus':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one',u:['https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-ventus-one']},
+  'chargedcycleworks-fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle',u:['https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle']},
+  'chargedcycleworks-fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle',u:['https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle']},
+  'chargedcycleworks-fastace-rear-shock-for-surron-talaria|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fastace-rear-shock-for-surron-talaria',u:['https://chargedcycleworks.com/products/fastace-rear-shock-for-surron-talaria']},
+  'chargedcycleworks-flat-washer-gb-t-97-1-m6-1|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/flat-washer-gb-t-97-1-m6-1',u:['https://chargedcycleworks.com/products/flat-washer-gb-t-97-1-m6-1']},
+  'chargedcycleworks-flo-motorsports-foot-pegs|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/flo-motorsports-foot-pegs',u:['https://chargedcycleworks.com/products/flo-motorsports-foot-pegs']},
+  'chargedcycleworks-footpeg-connector-talaria-sting-mx3-mx4-x3|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/footpeg-connector-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/footpeg-connector-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-footpeg-fixing-pin-talaria-sting-mx3-mx4-x3|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/footpeg-fixing-pin-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/footpeg-fixing-pin-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-footpeg-return-spring-talaria-sting-mx3-mx4-x3|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/footpeg-return-spring-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/footpeg-return-spring-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-footpegs-for-surron-light-bee-segway-x260|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/footpegs-for-surron-light-bee-segway-x260',u:['https://chargedcycleworks.com/products/footpegs-for-surron-light-bee-segway-x260']},
+  'chargedcycleworks-footpegs-for-surron-light-bee-segway-x260|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/footpegs-for-surron-light-bee-segway-x260',u:['https://chargedcycleworks.com/products/footpegs-for-surron-light-bee-segway-x260']},
+  'chargedcycleworks-formula-e-moto-brakes|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-e-moto-brakes',u:['https://chargedcycleworks.com/products/formula-e-moto-brakes']},
+  'chargedcycleworks-formula-e-moto-brakes|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-e-moto-brakes',u:['https://chargedcycleworks.com/products/formula-e-moto-brakes']},
+  'chargedcycleworks-formula-e-moto-brakes|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-e-moto-brakes',u:['https://chargedcycleworks.com/products/formula-e-moto-brakes']},
+  'chargedcycleworks-formula-eb9|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-eb9',u:['https://chargedcycleworks.com/products/formula-eb9']},
+  'chargedcycleworks-formula-eb9|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-eb9',u:['https://chargedcycleworks.com/products/formula-eb9']},
+  'chargedcycleworks-formula-eb9|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-eb9',u:['https://chargedcycleworks.com/products/formula-eb9']},
+  'chargedcycleworks-formula-eb9|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-eb9',u:['https://chargedcycleworks.com/products/formula-eb9']},
+  'chargedcycleworks-formula-tech-39mm-forks|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-tech-39mm-forks',u:['https://chargedcycleworks.com/products/formula-tech-39mm-forks']},
+  'chargedcycleworks-formula-tech-39mm-forks|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/formula-tech-39mm-forks',u:['https://chargedcycleworks.com/products/formula-tech-39mm-forks']},
+  'chargedcycleworks-fr-l-fork-protection-guard-talaria-sting-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fr-l-fork-protection-guard-talaria-sting-mx5',u:['https://chargedcycleworks.com/products/fr-l-fork-protection-guard-talaria-sting-mx5']},
+  'chargedcycleworks-fr-l-wheel-liner-talaria-sting-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fr-l-wheel-liner-talaria-sting-mx5',u:['https://chargedcycleworks.com/products/fr-l-wheel-liner-talaria-sting-mx5']},
+  'chargedcycleworks-fr-r-fork-protection-guard-talaria-sting-mx5-copy|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fr-r-fork-protection-guard-talaria-sting-mx5-copy',u:['https://chargedcycleworks.com/products/fr-r-fork-protection-guard-talaria-sting-mx5-copy']},
+  'chargedcycleworks-frame-protectors-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/frame-protectors-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/frame-protectors-for-surron-ultra-bee']},
+  'chargedcycleworks-front-brake-hose-type-2-ss3-0-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-brake-hose-type-2-ss3-0-sr',u:['https://chargedcycleworks.com/products/front-brake-hose-type-2-ss3-0-sr']},
+  'chargedcycleworks-front-brake-hose-type-2-ss3-0-sr|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-brake-hose-type-2-ss3-0-sr',u:['https://chargedcycleworks.com/products/front-brake-hose-type-2-ss3-0-sr']},
+  'chargedcycleworks-front-brake-hose-w-bolts-type-1-ss3-0-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-brake-hose-w-bolts-type-1-ss3-0-sr',u:['https://chargedcycleworks.com/products/front-brake-hose-w-bolts-type-1-ss3-0-sr']},
+  'chargedcycleworks-front-brake-hose-w-bolts-type-1-ss3-0-sr|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-brake-hose-w-bolts-type-1-ss3-0-sr',u:['https://chargedcycleworks.com/products/front-brake-hose-w-bolts-type-1-ss3-0-sr']},
+  'chargedcycleworks-front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4',u:['https://chargedcycleworks.com/products/front-brake-master-cylinder-lbn-talaria-sting-mx3-mx4']},
+  'chargedcycleworks-front-fender-for-talaria-oem-surron-oem-segway-x260|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260',u:['https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260']},
+  'chargedcycleworks-front-fender-for-talaria-oem-surron-oem-segway-x260|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260',u:['https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260']},
+  'chargedcycleworks-front-turn-lamp-pair|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-turn-lamp-pair',u:['https://chargedcycleworks.com/products/front-turn-lamp-pair']},
+  'chargedcycleworks-front-wheel-axle-nut|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-wheel-axle-nut',u:['https://chargedcycleworks.com/products/front-wheel-axle-nut']},
+  'chargedcycleworks-front-wheel-axle|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-wheel-axle',u:['https://chargedcycleworks.com/products/front-wheel-axle']},
+  'chargedcycleworks-front-wheel-bushing|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-wheel-bushing',u:['https://chargedcycleworks.com/products/front-wheel-bushing']},
+  'chargedcycleworks-fsirris-f43-mx-tune-front-fork|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fsirris-f43-mx-tune-front-fork',u:['https://chargedcycleworks.com/products/fsirris-f43-mx-tune-front-fork']},
+  'chargedcycleworks-gates-gt4-power-grip-belt-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gates-gt4-power-grip-belt-surron-ultra-bee',u:['https://chargedcycleworks.com/products/gates-gt4-power-grip-belt-surron-ultra-bee']},
+  'chargedcycleworks-gates-gt4-power-grip-belt|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gates-gt4-power-grip-belt',u:['https://chargedcycleworks.com/products/gates-gt4-power-grip-belt']},
+  'chargedcycleworks-gigigo-gi03-headlight|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gigigo-gi03-headlight',u:['https://chargedcycleworks.com/products/gigigo-gi03-headlight']},
+  'chargedcycleworks-gigigo-gi03-headlight|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gigigo-gi03-headlight',u:['https://chargedcycleworks.com/products/gigigo-gi03-headlight']},
+  'chargedcycleworks-gigigo-gi03-headlight|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gigigo-gi03-headlight',u:['https://chargedcycleworks.com/products/gigigo-gi03-headlight']},
+  'chargedcycleworks-gigigo-gi03-headlight|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gigigo-gi03-headlight',u:['https://chargedcycleworks.com/products/gigigo-gi03-headlight']},
+  'chargedcycleworks-gigigo-gi03-headlight|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gigigo-gi03-headlight',u:['https://chargedcycleworks.com/products/gigigo-gi03-headlight']},
+  'chargedcycleworks-gritshift-billet-gear-box-breather-kit-v2|komodo':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gritshift-billet-gear-box-breather-kit-v2',u:['https://chargedcycleworks.com/products/gritshift-billet-gear-box-breather-kit-v2']},
+  'chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes',u:['https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes']},
+  'chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes',u:['https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes']},
+  'chargedcycleworks-gritshift-halo-headlight-kill-switch|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch',u:['https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch']},
+  'chargedcycleworks-gritshift-halo-headlight-kill-switch|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch',u:['https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch']},
+  'chargedcycleworks-gritshift-halo-headlight-kill-switch|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch',u:['https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch']},
+  'chargedcycleworks-guard-board|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/guard-board',u:['https://chargedcycleworks.com/products/guard-board']},
+  'chargedcycleworks-handle-cover|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/handle-cover',u:['https://chargedcycleworks.com/products/handle-cover']},
+  'chargedcycleworks-hard-enduro-skid-plate-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/hard-enduro-skid-plate-surron-ultra-bee',u:['https://chargedcycleworks.com/products/hard-enduro-skid-plate-surron-ultra-bee']},
+  'chargedcycleworks-hardware-kit-for-oem-ultra-bee-front-fender|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/hardware-kit-for-oem-ultra-bee-front-fender',u:['https://chargedcycleworks.com/products/hardware-kit-for-oem-ultra-bee-front-fender']},
+  'chargedcycleworks-head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-headlight-bracket-for-talaria-sting-mx3-mx4-x3|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-headlight-cover|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/headlight-cover',u:['https://chargedcycleworks.com/products/headlight-cover']},
+  'chargedcycleworks-headset-aluminium-housing-talaria-sting-mx3-mx4|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/headset-aluminium-housing-talaria-sting-mx3-mx4',u:['https://chargedcycleworks.com/products/headset-aluminium-housing-talaria-sting-mx3-mx4']},
+  'chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors|ultrabee':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors',u:['https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors']},
+  'chargedcycleworks-heavy-hitter-520-ultra-bee-sprocket|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket',u:['https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket']},
+  'chargedcycleworks-heavy-hitter-e-ride-skid-plate|sr':{s:'confirmed_direct_fit',n:'CCW fitment: \'E Ride Pro S / SS / 2.0 / 3.0 / 4.0 / SR\'. Checked 2026-11-10. https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate',u:['https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate']},
+  'chargedcycleworks-heavy-hitter-e-ride-skid-plate|ss30':{s:'confirmed_direct_fit',n:'CCW fitment names E Ride Pro 3.0 and SR. Checked 2026-11-10.',u:['https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate']},
+  'chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade',u:['https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade']},
+  'chargedcycleworks-heavy-hitter-ultra-bee-linkage|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage',u:['https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage']},
+  'chargedcycleworks-heavy-hitter-ultra-bee-triangle|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle',u:['https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle']},
+  'chargedcycleworks-ion-16-19-wheelset-for-e-ride-pro-3-0-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr',u:['https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr']},
+  'chargedcycleworks-ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee|komodo':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee']},
+  'chargedcycleworks-ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee']},
+  'chargedcycleworks-ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr',u:['https://chargedcycleworks.com/products/ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr']},
+  'chargedcycleworks-ion-18-21-wheelset-for-e-ride-pro-3-0-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-18-21-wheelset-for-e-ride-pro-3-0-sr',u:['https://chargedcycleworks.com/products/ion-18-21-wheelset-for-e-ride-pro-3-0-sr']},
+  'chargedcycleworks-ion-21-eride-sr-front-wheel|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel',u:['https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel']},
+  'chargedcycleworks-ion-21-eride-sr-front-wheel|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel',u:['https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel']},
+  'chargedcycleworks-kke-16-19-wheels-for-talaria-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-16-19-wheels-for-talaria-mx5',u:['https://chargedcycleworks.com/products/kke-16-19-wheels-for-talaria-mx5']},
+  'chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-all-black|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-all-black',u:['https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-all-black']},
+  'chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-red-nipples|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-red-nipples',u:['https://chargedcycleworks.com/products/kke-19-16-wheel-set-surron-light-bee-red-nipples']},
+  'chargedcycleworks-kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective',u:['https://chargedcycleworks.com/products/kke-2-5-17-3-5-17-e-motor-wheels-fit-surron-ultra-bee-collective']},
+  'chargedcycleworks-kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective|ultrabee':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective',u:['https://chargedcycleworks.com/products/kke-21-18-e-bike-wheels-takasago-excel-rims-fit-surron-ultra-bee-collective']},
+  'chargedcycleworks-kke-240mm-brake-rotor-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-240mm-brake-rotor-surron-ultra-bee',u:['https://chargedcycleworks.com/products/kke-240mm-brake-rotor-surron-ultra-bee']},
+  'chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024',u:['https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024']},
+  'chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective',u:['https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective']},
+  'chargedcycleworks-kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0',u:['https://chargedcycleworks.com/products/kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0']},
+  'chargedcycleworks-kke-37mm-v6-fork-surron-ultra-bee-open-box|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-37mm-v6-fork-surron-ultra-bee-open-box',u:['https://chargedcycleworks.com/products/kke-37mm-v6-fork-surron-ultra-bee-open-box']},
+  'chargedcycleworks-kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective',u:['https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective']},
+  'chargedcycleworks-kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective',u:['https://chargedcycleworks.com/products/kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective']},
+  'chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective',u:['https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective']},
+  'chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective',u:['https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-surron-ultra-bee-2023-2024-collective']},
+  'chargedcycleworks-kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective|komodo':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective',u:['https://chargedcycleworks.com/products/kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective']},
+  'chargedcycleworks-kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective',u:['https://chargedcycleworks.com/products/kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective']},
+  'chargedcycleworks-kke-fork-guard-bolts-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-fork-guard-bolts-ultra-bee',u:['https://chargedcycleworks.com/products/kke-fork-guard-bolts-ultra-bee']},
+  'chargedcycleworks-kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective',u:['https://chargedcycleworks.com/products/kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective']},
+  'chargedcycleworks-kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective|komodo':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective',u:['https://chargedcycleworks.com/products/kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective']},
+  'chargedcycleworks-kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective',u:['https://chargedcycleworks.com/products/kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective']},
+  'chargedcycleworks-kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective',u:['https://chargedcycleworks.com/products/kke-rear-53t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective']},
+  'chargedcycleworks-kke-rear-shock-for-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-rear-shock-for-ultra-bee',u:['https://chargedcycleworks.com/products/kke-rear-shock-for-ultra-bee']},
+  'chargedcycleworks-kke-rear-shock-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-rear-shock-surron-ultra-bee',u:['https://chargedcycleworks.com/products/kke-rear-shock-surron-ultra-bee']},
+  'chargedcycleworks-kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black',u:['https://chargedcycleworks.com/products/kke-replacement-front-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black']},
+  'chargedcycleworks-kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black',u:['https://chargedcycleworks.com/products/kke-replacement-rear-billet-bushing-spacers-kit-fit-surron-ultra-bee-2023-2024-black']},
+  'chargedcycleworks-kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024|ultrabee':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024',u:['https://chargedcycleworks.com/products/kke-spokes-kits-fit-21-18-electric-dirtbike-ultra-bee-2023-2024']},
+  'chargedcycleworks-kke-ultra-bee-steering-stabilizer|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-ultra-bee-steering-stabilizer',u:['https://chargedcycleworks.com/products/kke-ultra-bee-steering-stabilizer']},
+  'chargedcycleworks-kyvex-billet-swingarm-compatible-w-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kyvex-billet-swingarm-compatible-w-surron-ultra-bee',u:['https://chargedcycleworks.com/products/kyvex-billet-swingarm-compatible-w-surron-ultra-bee']},
+  'chargedcycleworks-kyvex-billet-wide-foot-pegs-ultra-bee-compatible|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs-ultra-bee-compatible',u:['https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs-ultra-bee-compatible']},
+  'chargedcycleworks-kyvex-billet-wide-foot-pegs|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs',u:['https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs']},
+  'chargedcycleworks-kyvex-surron-ultra-bee-compatible-billet-motor-cover|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kyvex-surron-ultra-bee-compatible-billet-motor-cover',u:['https://chargedcycleworks.com/products/kyvex-surron-ultra-bee-compatible-billet-motor-cover']},
+  'chargedcycleworks-left-footpeg-assembly|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/left-footpeg-assembly',u:['https://chargedcycleworks.com/products/left-footpeg-assembly']},
+  'chargedcycleworks-left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/left-footpeg-holder-kickstand-side-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-left-hand-control-ventus-oem-1-6|ventus-plus':{s:'confirmed_direct_fit',n:'CCW body: \'OEM Handle Bar controls for Ventus One and Ventus One +\'. Checked 2026-11-10.',u:['https://chargedcycleworks.com/products/left-hand-control-ventus-oem-1-6']},
+  'chargedcycleworks-lewis-223mm-x-3-0mm-rotor|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor',u:['https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor']},
+  'chargedcycleworks-light-bee-12-9-cryo-rear-axle-by-warp-9|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/light-bee-12-9-cryo-rear-axle-by-warp-9',u:['https://chargedcycleworks.com/products/light-bee-12-9-cryo-rear-axle-by-warp-9']},
+  'chargedcycleworks-lock-assembly-ventus-oem|ventus-plus':{s:'confirmed_direct_fit',n:'CCW body: \'Replacement Lock assembly for Ventus One and Ventus One +\'. Checked 2026-11-10.',u:['https://chargedcycleworks.com/products/lock-assembly-ventus-oem']},
+  'chargedcycleworks-oem-ultra-bee-front-fender-black|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/oem-ultra-bee-front-fender-black',u:['https://chargedcycleworks.com/products/oem-ultra-bee-front-fender-black']},
+  'chargedcycleworks-oem-ultra-bee-kickstand-switch|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/oem-ultra-bee-kickstand-switch',u:['https://chargedcycleworks.com/products/oem-ultra-bee-kickstand-switch']},
+  'chargedcycleworks-oem-ultra-bee-rear-brake-line-copy|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line-copy',u:['https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line-copy']},
+  'chargedcycleworks-oem-ultra-bee-rear-brake-line|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line',u:['https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line']},
+  'chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire',u:['https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire']},
+  'chargedcycleworks-prickly-axle-blocks-ultra|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-axle-blocks-ultra',u:['https://chargedcycleworks.com/products/prickly-axle-blocks-ultra']},
+  'chargedcycleworks-prickly-foot-pegs-mx-for-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-ultra-bee',u:['https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-ultra-bee']},
+  'chargedcycleworks-prickly-foot-pegs-wide-for-talaria|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-foot-pegs-wide-for-talaria',u:['https://chargedcycleworks.com/products/prickly-foot-pegs-wide-for-talaria']},
+  'chargedcycleworks-prickly-moto-brake-lever|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-moto-brake-lever',u:['https://chargedcycleworks.com/products/prickly-moto-brake-lever']},
+  'chargedcycleworks-prickly-moto-brake-lever|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-moto-brake-lever',u:['https://chargedcycleworks.com/products/prickly-moto-brake-lever']},
+  'chargedcycleworks-prickly-moto-brake-lever|ultrabee':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-moto-brake-lever',u:['https://chargedcycleworks.com/products/prickly-moto-brake-lever']},
+  'chargedcycleworks-prickly-moto-brake-lever|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-moto-brake-lever',u:['https://chargedcycleworks.com/products/prickly-moto-brake-lever']},
+  'chargedcycleworks-prickly-performance-linkage-e-ride-pro|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro',u:['https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro']},
+  'chargedcycleworks-prickly-performance-linkage-e-ride-pro|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro',u:['https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro']},
+  'chargedcycleworks-prickly-ultra-bee-motor-cover|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-ultra-bee-motor-cover',u:['https://chargedcycleworks.com/products/prickly-ultra-bee-motor-cover']},
+  'chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1',u:['https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1']},
+  'chargedcycleworks-project-9-surron-ultra-bee-brake-light|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/project-9-surron-ultra-bee-brake-light',u:['https://chargedcycleworks.com/products/project-9-surron-ultra-bee-brake-light']},
+  'chargedcycleworks-project-9-surron-ultra-bee-turn-signal-kit|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/project-9-surron-ultra-bee-turn-signal-kit',u:['https://chargedcycleworks.com/products/project-9-surron-ultra-bee-turn-signal-kit']},
+  'chargedcycleworks-project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro',u:['https://chargedcycleworks.com/products/project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro']},
+  'chargedcycleworks-project9-brake-pads-for-eride-surron-talaria|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria',u:['https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria']},
+  'chargedcycleworks-project9-brake-pads-for-eride-surron-talaria|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria',u:['https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria']},
+  'chargedcycleworks-project9-brake-pads-for-eride-surron-talaria|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria',u:['https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria']},
+  'chargedcycleworks-r38-2sc-e-ride-pro-3-0|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-3-0',u:['https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-3-0']},
+  'chargedcycleworks-rear-fender-sting-r-mx4-extended|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rear-fender-sting-r-mx4-extended',u:['https://chargedcycleworks.com/products/rear-fender-sting-r-mx4-extended']},
+  'chargedcycleworks-rear-fender|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rear-fender',u:['https://chargedcycleworks.com/products/rear-fender']},
+  'chargedcycleworks-rear-seat-armrest|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rear-seat-armrest',u:['https://chargedcycleworks.com/products/rear-seat-armrest']},
+  'chargedcycleworks-rear-supermoto-axle-sliders|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rear-supermoto-axle-sliders',u:['https://chargedcycleworks.com/products/rear-supermoto-axle-sliders']},
+  'chargedcycleworks-rear-turn-lamp-pair|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rear-turn-lamp-pair',u:['https://chargedcycleworks.com/products/rear-turn-lamp-pair']},
+  'chargedcycleworks-rear-wheel-bushing-pair|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rear-wheel-bushing-pair',u:['https://chargedcycleworks.com/products/rear-wheel-bushing-pair']},
+  'chargedcycleworks-replacement-dc-converter-talaria-sting-mx3-mx4-x3|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-replacement-oem-seat-for-talaria-sting-mx3-mx4|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/replacement-oem-seat-for-talaria-sting-mx3-mx4',u:['https://chargedcycleworks.com/products/replacement-oem-seat-for-talaria-sting-mx3-mx4']},
+  'chargedcycleworks-replacement-peg-springs|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/replacement-peg-springs',u:['https://chargedcycleworks.com/products/replacement-peg-springs']},
+  'chargedcycleworks-replacement-peg-springs|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/replacement-peg-springs',u:['https://chargedcycleworks.com/products/replacement-peg-springs']},
+  'chargedcycleworks-rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43|komodo':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43',u:['https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43']},
+  'chargedcycleworks-rfloxa-hawk33-max-plus-fork-1|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rfloxa-hawk33-max-plus-fork-1',u:['https://chargedcycleworks.com/products/rfloxa-hawk33-max-plus-fork-1']},
+  'chargedcycleworks-rfloxa-hawk33-max|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rfloxa-hawk33-max',u:['https://chargedcycleworks.com/products/rfloxa-hawk33-max']},
+  'chargedcycleworks-rfloxa-hawk35-max-plus-fork-1|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rfloxa-hawk35-max-plus-fork-1',u:['https://chargedcycleworks.com/products/rfloxa-hawk35-max-plus-fork-1']},
+  'chargedcycleworks-rfloxa-hawk35-max|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rfloxa-hawk35-max',u:['https://chargedcycleworks.com/products/rfloxa-hawk35-max']},
+  'chargedcycleworks-right-footpeg-assembly|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/right-footpeg-assembly',u:['https://chargedcycleworks.com/products/right-footpeg-assembly']},
+  'chargedcycleworks-right-footpeg-holder-talaria-sting-mx3-mx4|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/right-footpeg-holder-talaria-sting-mx3-mx4',u:['https://chargedcycleworks.com/products/right-footpeg-holder-talaria-sting-mx3-mx4']},
+  'chargedcycleworks-rr-wheel-axle-m15-204-talaria-sting-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rr-wheel-axle-m15-204-talaria-sting-mx5',u:['https://chargedcycleworks.com/products/rr-wheel-axle-m15-204-talaria-sting-mx5']},
+  'chargedcycleworks-rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5',u:['https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5']},
+  'chargedcycleworks-rr-wheel-r-setback-liner-talaria-sting-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rr-wheel-r-setback-liner-talaria-sting-mx5',u:['https://chargedcycleworks.com/products/rr-wheel-r-setback-liner-talaria-sting-mx5']},
+  'chargedcycleworks-rtech-fork-protectors-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rtech-fork-protectors-surron-ultra-bee',u:['https://chargedcycleworks.com/products/rtech-fork-protectors-surron-ultra-bee']},
+  'chargedcycleworks-rtech-front-headlight-mask-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rtech-front-headlight-mask-surron-ultra-bee',u:['https://chargedcycleworks.com/products/rtech-front-headlight-mask-surron-ultra-bee']},
+  'chargedcycleworks-rtech-oversize-chain-guide-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rtech-oversize-chain-guide-surron-ultra-bee',u:['https://chargedcycleworks.com/products/rtech-oversize-chain-guide-surron-ultra-bee']},
+  'chargedcycleworks-self-locking-nut-gb-t6187-1-m12x1-25-1|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/self-locking-nut-gb-t6187-1-m12x1-25-1',u:['https://chargedcycleworks.com/products/self-locking-nut-gb-t6187-1-m12x1-25-1']},
+  'chargedcycleworks-set-bolt-talaria-sting-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/set-bolt-talaria-sting-mx5',u:['https://chargedcycleworks.com/products/set-bolt-talaria-sting-mx5']},
+  'chargedcycleworks-shinko-777-cruiser-hd-front-100-90-19|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/shinko-777-cruiser-hd-front-100-90-19',u:['https://chargedcycleworks.com/products/shinko-777-cruiser-hd-front-100-90-19']},
+  'chargedcycleworks-side-rack-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/side-rack-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/side-rack-for-surron-ultra-bee']},
+  'chargedcycleworks-sirris-f43-fork-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-f43-fork-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/sirris-f43-fork-for-surron-ultra-bee']},
+  'chargedcycleworks-sirris-f43-sx-tune-front-fork|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-f43-sx-tune-front-fork',u:['https://chargedcycleworks.com/products/sirris-f43-sx-tune-front-fork']},
+  'chargedcycleworks-sirris-f43-trail-tune-front-fork|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-f43-trail-tune-front-fork',u:['https://chargedcycleworks.com/products/sirris-f43-trail-tune-front-fork']},
+  'chargedcycleworks-sirris-r46-mx-tune-rear-shock-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-r46-mx-tune-rear-shock-surron-ultra-bee',u:['https://chargedcycleworks.com/products/sirris-r46-mx-tune-rear-shock-surron-ultra-bee']},
+  'chargedcycleworks-sirris-r46-sx-tune-rear-shock-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-r46-sx-tune-rear-shock-surron-ultra-bee',u:['https://chargedcycleworks.com/products/sirris-r46-sx-tune-rear-shock-surron-ultra-bee']},
+  'chargedcycleworks-sirris-r46-trail-tune-rear-shock-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-r46-trail-tune-rear-shock-surron-ultra-bee',u:['https://chargedcycleworks.com/products/sirris-r46-trail-tune-rear-shock-surron-ultra-bee']},
+  'chargedcycleworks-sirris-triangle-for-r46-shock-on-surron-ultra-bee-1|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/sirris-triangle-for-r46-shock-on-surron-ultra-bee-1',u:['https://chargedcycleworks.com/products/sirris-triangle-for-r46-shock-on-surron-ultra-bee-1']},
+  'chargedcycleworks-skf-fork-seal-kit-for-surron-talaria|ultrabee':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/skf-fork-seal-kit-for-surron-talaria',u:['https://chargedcycleworks.com/products/skf-fork-seal-kit-for-surron-talaria']},
+  'chargedcycleworks-squadron-headlight-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/squadron-headlight-ultra-bee',u:['https://chargedcycleworks.com/products/squadron-headlight-ultra-bee']},
+  'chargedcycleworks-staple-bolt-talaria-sting-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/staple-bolt-talaria-sting-mx5',u:['https://chargedcycleworks.com/products/staple-bolt-talaria-sting-mx5']},
+  'chargedcycleworks-stem-lock|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/stem-lock',u:['https://chargedcycleworks.com/products/stem-lock']},
+  'chargedcycleworks-stem-lock|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/stem-lock',u:['https://chargedcycleworks.com/products/stem-lock']},
+  'chargedcycleworks-stem-lock|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/stem-lock',u:['https://chargedcycleworks.com/products/stem-lock']},
+  'chargedcycleworks-supermoto-street-wheels-and-tires-for-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/supermoto-street-wheels-and-tires-for-ultra-bee',u:['https://chargedcycleworks.com/products/supermoto-street-wheels-and-tires-for-ultra-bee']},
+  'chargedcycleworks-surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9',u:['https://chargedcycleworks.com/products/surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9']},
+  'chargedcycleworks-surron-light-bee-oem-right-left-foot-peg-support-brackets|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-light-bee-oem-right-left-foot-peg-support-brackets',u:['https://chargedcycleworks.com/products/surron-light-bee-oem-right-left-foot-peg-support-brackets']},
+  'chargedcycleworks-surron-oem-ultra-bee-rear-rack|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack',u:['https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack']},
+  'chargedcycleworks-surron-tail-light|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-tail-light',u:['https://chargedcycleworks.com/products/surron-tail-light']},
+  'chargedcycleworks-surron-ub-dashboard-bracket|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ub-dashboard-bracket',u:['https://chargedcycleworks.com/products/surron-ub-dashboard-bracket']},
+  'chargedcycleworks-surron-ub-oem-chain-guard|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ub-oem-chain-guard',u:['https://chargedcycleworks.com/products/surron-ub-oem-chain-guard']},
+  'chargedcycleworks-surron-ub-oem-dashboard|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ub-oem-dashboard',u:['https://chargedcycleworks.com/products/surron-ub-oem-dashboard']},
+  'chargedcycleworks-surron-ub-oem-hand-guard-assembly|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly',u:['https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly']},
+  'chargedcycleworks-surron-ub-oem-headlight-shroud|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ub-oem-headlight-shroud',u:['https://chargedcycleworks.com/products/surron-ub-oem-headlight-shroud']},
+  'chargedcycleworks-surron-ub-oem-headlight|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ub-oem-headlight',u:['https://chargedcycleworks.com/products/surron-ub-oem-headlight']},
+  'chargedcycleworks-surron-ultra-bee-21-inch-front-wheel-cst-tire|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-21-inch-front-wheel-cst-tire',u:['https://chargedcycleworks.com/products/surron-ultra-bee-21-inch-front-wheel-cst-tire']},
+  'chargedcycleworks-surron-ultra-bee-240-x-3-20-mm-fixed-rotor|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-240-x-3-20-mm-fixed-rotor',u:['https://chargedcycleworks.com/products/surron-ultra-bee-240-x-3-20-mm-fixed-rotor']},
+  'chargedcycleworks-surron-ultra-bee-260mm-floating-front-rotor|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-260mm-floating-front-rotor',u:['https://chargedcycleworks.com/products/surron-ultra-bee-260mm-floating-front-rotor']},
+  'chargedcycleworks-surron-ultra-bee-aluminum-throttle-tube|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-aluminum-throttle-tube',u:['https://chargedcycleworks.com/products/surron-ultra-bee-aluminum-throttle-tube']},
+  'chargedcycleworks-surron-ultra-bee-axle-blocks|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-axle-blocks',u:['https://chargedcycleworks.com/products/surron-ultra-bee-axle-blocks']},
+  'chargedcycleworks-surron-ultra-bee-axle-chain-adjuster-block-left-right-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-axle-chain-adjuster-block-left-right-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-axle-chain-adjuster-block-left-right-oem']},
+  'chargedcycleworks-surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem']},
+  'chargedcycleworks-surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries',u:['https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries']},
+  'chargedcycleworks-surron-ultra-bee-battery-lid|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid',u:['https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid']},
+  'chargedcycleworks-surron-ultra-bee-brake-lever-mount|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-brake-lever-mount',u:['https://chargedcycleworks.com/products/surron-ultra-bee-brake-lever-mount']},
+  'chargedcycleworks-surron-ultra-bee-center-shaft-sleeve-assembly-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem']},
+  'chargedcycleworks-surron-ultra-bee-floating-240mm-rotor|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-floating-240mm-rotor',u:['https://chargedcycleworks.com/products/surron-ultra-bee-floating-240mm-rotor']},
+  'chargedcycleworks-surron-ultra-bee-foot-pegs|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs',u:['https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs']},
+  'chargedcycleworks-surron-ultra-bee-frame-lower-guard|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard',u:['https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard']},
+  'chargedcycleworks-surron-ultra-bee-frame-shroud-left-right-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-frame-shroud-left-right-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-frame-shroud-left-right-oem']},
+  'chargedcycleworks-surron-ultra-bee-front-fender|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-front-fender',u:['https://chargedcycleworks.com/products/surron-ultra-bee-front-fender']},
+  'chargedcycleworks-surron-ultra-bee-guard-board-oem-black-white|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-guard-board-oem-black-white',u:['https://chargedcycleworks.com/products/surron-ultra-bee-guard-board-oem-black-white']},
+  'chargedcycleworks-surron-ultra-bee-hand-guards-black-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem']},
+  'chargedcycleworks-surron-ultra-bee-handle-guard-mount-base-left-right-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-handle-guard-mount-base-left-right-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-handle-guard-mount-base-left-right-oem']},
+  'chargedcycleworks-surron-ultra-bee-handlebar-lower-mount|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount',u:['https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount']},
+  'chargedcycleworks-surron-ultra-bee-headlight-bracket-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-headlight-bracket-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-headlight-bracket-oem']},
+  'chargedcycleworks-surron-ultra-bee-headlight-trim-block-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-headlight-trim-block-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-headlight-trim-block-oem']},
+  'chargedcycleworks-surron-ultra-bee-kickstand-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem']},
+  'chargedcycleworks-surron-ultra-bee-lower-chain-fender|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-lower-chain-fender',u:['https://chargedcycleworks.com/products/surron-ultra-bee-lower-chain-fender']},
+  'chargedcycleworks-surron-ultra-bee-lower-side-panel-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-lower-side-panel-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-lower-side-panel-oem']},
+  'chargedcycleworks-surron-ultra-bee-mid-shaft-bushing-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem']},
+  'chargedcycleworks-surron-ultra-bee-midshaft-guard-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-midshaft-guard-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-midshaft-guard-oem']},
+  'chargedcycleworks-surron-ultra-bee-oem-74v-battery|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-74v-battery',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-74v-battery']},
+  'chargedcycleworks-surron-ultra-bee-oem-bar-mounts|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-bar-mounts',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-bar-mounts']},
+  'chargedcycleworks-surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards']},
+  'chargedcycleworks-surron-ultra-bee-oem-brake-lever-set|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-brake-lever-set',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-brake-lever-set']},
+  'chargedcycleworks-surron-ultra-bee-oem-hand-guard-right-white|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white']},
+  'chargedcycleworks-surron-ultra-bee-oem-hand-guard|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard']},
+  'chargedcycleworks-surron-ultra-bee-oem-primary-drive-front-pulley|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-primary-drive-front-pulley',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-primary-drive-front-pulley']},
+  'chargedcycleworks-surron-ultra-bee-oem-right-hand-3-combination-switch-my25|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-right-hand-3-combination-switch-my25',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-right-hand-3-combination-switch-my25']},
+  'chargedcycleworks-surron-ultra-bee-oem-seat|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat']},
+  'chargedcycleworks-surron-ultra-bee-oem-side-plate-brackets|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-side-plate-brackets',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-side-plate-brackets']},
+  'chargedcycleworks-surron-ultra-bee-oem-swingarm-bearing|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bearing',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bearing']},
+  'chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing']},
+  'chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block']},
+  'chargedcycleworks-surron-ultra-bee-oem-swingarm-carbon-black-without-bearings|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-carbon-black-without-bearings',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-carbon-black-without-bearings']},
+  'chargedcycleworks-surron-ultra-bee-oem-swingarm-washer|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-washer',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-washer']},
+  'chargedcycleworks-surron-ultra-bee-oem-tool-kit-torque-wrench|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench']},
+  'chargedcycleworks-surron-ultra-bee-primary-drive-rear-pulley-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-primary-drive-rear-pulley-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-primary-drive-rear-pulley-oem']},
+  'chargedcycleworks-surron-ultra-bee-protective-of-battery-compartment|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-protective-of-battery-compartment',u:['https://chargedcycleworks.com/products/surron-ultra-bee-protective-of-battery-compartment']},
+  'chargedcycleworks-surron-ultra-bee-rear-fender-cover-plate-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender-cover-plate-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender-cover-plate-oem']},
+  'chargedcycleworks-surron-ultra-bee-rear-fender|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender',u:['https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender']},
+  'chargedcycleworks-surron-ultra-bee-rear-fork-collision-block-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem']},
+  'chargedcycleworks-surron-ultra-bee-rear-mud-flap-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-rear-mud-flap-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-rear-mud-flap-oem']},
+  'chargedcycleworks-surron-ultra-bee-rear-rotor-guard|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-rear-rotor-guard',u:['https://chargedcycleworks.com/products/surron-ultra-bee-rear-rotor-guard']},
+  'chargedcycleworks-surron-ultra-bee-rtech-side-panels|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-rtech-side-panels',u:['https://chargedcycleworks.com/products/surron-ultra-bee-rtech-side-panels']},
+  'chargedcycleworks-surron-ultra-bee-steering-block-left-right-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-steering-block-left-right-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-steering-block-left-right-oem']},
+  'chargedcycleworks-surron-ultra-bee-subframe-fender-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-subframe-fender-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-subframe-fender-oem']},
+  'chargedcycleworks-surron-ultra-bee-throttle-grips|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-throttle-grips',u:['https://chargedcycleworks.com/products/surron-ultra-bee-throttle-grips']},
+  'chargedcycleworks-surron-ultra-bee-titanium-rear-axle|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rear-axle',u:['https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rear-axle']},
+  'chargedcycleworks-surron-ultra-bee-titanium-rotor-bolts-by-warp9|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rotor-bolts-by-warp9',u:['https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rotor-bolts-by-warp9']},
+  'chargedcycleworks-surron-ultra-bee-usb-decorative-cover-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-usb-decorative-cover-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-usb-decorative-cover-oem']},
+  'chargedcycleworks-surron-ultra-bee-wheel-speed-sensor-front-rear-oem|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-wheel-speed-sensor-front-rear-oem',u:['https://chargedcycleworks.com/products/surron-ultra-bee-wheel-speed-sensor-front-rear-oem']},
+  'chargedcycleworks-surron-ultra-titanium-chassis-kit|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-titanium-chassis-kit',u:['https://chargedcycleworks.com/products/surron-ultra-titanium-chassis-kit']},
+  'chargedcycleworks-swingarm-protectors-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/swingarm-protectors-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/swingarm-protectors-for-surron-ultra-bee']},
+  'chargedcycleworks-tail-light-installation-cover|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tail-light-installation-cover',u:['https://chargedcycleworks.com/products/tail-light-installation-cover']},
+  'chargedcycleworks-tail-light-installation-decorative-block|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tail-light-installation-decorative-block',u:['https://chargedcycleworks.com/products/tail-light-installation-decorative-block']},
+  'chargedcycleworks-tail-light-mounting-bracket|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tail-light-mounting-bracket',u:['https://chargedcycleworks.com/products/tail-light-mounting-bracket']},
+  'chargedcycleworks-talaria-altis-sigma-elite-foot-pegs|komodo':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs',u:['https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs']},
+  'chargedcycleworks-talaria-altis-sigma-elite-foot-pegs|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs',u:['https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs']},
+  'chargedcycleworks-talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem',u:['https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem']},
+  'chargedcycleworks-talaria-komodo-brake-lever-front-or-rear|komodo':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-brake-lever-front-or-rear',u:['https://chargedcycleworks.com/products/talaria-komodo-brake-lever-front-or-rear']},
+  'chargedcycleworks-talaria-komodo-front-brake-pads-35453|komodo':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-front-brake-pads-35453',u:['https://chargedcycleworks.com/products/talaria-komodo-front-brake-pads-35453']},
+  'chargedcycleworks-talaria-komodo-left-footpeg-holder-black-kickstand-side|komodo':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-left-footpeg-holder-black-kickstand-side',u:['https://chargedcycleworks.com/products/talaria-komodo-left-footpeg-holder-black-kickstand-side']},
+  'chargedcycleworks-talaria-komodo-left-switch-two-in-one|komodo':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-left-switch-two-in-one',u:['https://chargedcycleworks.com/products/talaria-komodo-left-switch-two-in-one']},
+  'chargedcycleworks-talaria-komodo-rear-fender-white|komodo':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-rear-fender-white',u:['https://chargedcycleworks.com/products/talaria-komodo-rear-fender-white']},
+  'chargedcycleworks-talaria-komodo-titanium-front-axle|komodo':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-titanium-front-axle',u:['https://chargedcycleworks.com/products/talaria-komodo-titanium-front-axle']},
+  'chargedcycleworks-talaria-komodo-titanium-rear-axle|komodo':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-titanium-rear-axle',u:['https://chargedcycleworks.com/products/talaria-komodo-titanium-rear-axle']},
+  'chargedcycleworks-talaria-komodotitanium-body-bolt-kit|komodo':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodotitanium-body-bolt-kit',u:['https://chargedcycleworks.com/products/talaria-komodotitanium-body-bolt-kit']},
+  'chargedcycleworks-talaria-mx5-x3pro-display-color-oem|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-mx5-x3pro-display-color-oem',u:['https://chargedcycleworks.com/products/talaria-mx5-x3pro-display-color-oem']},
+  'chargedcycleworks-talaria-oem-mx5-rear-brake-caliper-mount|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-oem-mx5-rear-brake-caliper-mount',u:['https://chargedcycleworks.com/products/talaria-oem-mx5-rear-brake-caliper-mount']},
+  'chargedcycleworks-talaria-oem-upper-headset-cap-v2|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-oem-upper-headset-cap-v2',u:['https://chargedcycleworks.com/products/talaria-oem-upper-headset-cap-v2']},
+  'chargedcycleworks-talaria-rear-wheel-bushing-set-left-and-right|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-rear-wheel-bushing-set-left-and-right',u:['https://chargedcycleworks.com/products/talaria-rear-wheel-bushing-set-left-and-right']},
+  'chargedcycleworks-talaria-sting-mx5-2-in-1-combination-switch|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-sting-mx5-2-in-1-combination-switch',u:['https://chargedcycleworks.com/products/talaria-sting-mx5-2-in-1-combination-switch']},
+  'chargedcycleworks-talaria-sting-mx5-oem-complete-front-brake-assembly|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-sting-mx5-oem-complete-front-brake-assembly',u:['https://chargedcycleworks.com/products/talaria-sting-mx5-oem-complete-front-brake-assembly']},
+  'chargedcycleworks-talaria-sting-titanium-linkage-bolts-by-warp9|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-sting-titanium-linkage-bolts-by-warp9',u:['https://chargedcycleworks.com/products/talaria-sting-titanium-linkage-bolts-by-warp9']},
+  'chargedcycleworks-tech-er30-rear-shock-arctic-leopard-ex|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-er30-rear-shock-arctic-leopard-ex',u:['https://chargedcycleworks.com/products/tech-er30-rear-shock-arctic-leopard-ex']},
+  'chargedcycleworks-tech-rear-shock-for-talaria|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-rear-shock-for-talaria',u:['https://chargedcycleworks.com/products/tech-rear-shock-for-talaria']},
+  'chargedcycleworks-tech-rear-shock-for-talaria|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-rear-shock-for-talaria',u:['https://chargedcycleworks.com/products/tech-rear-shock-for-talaria']},
+  'chargedcycleworks-tech-rear-shock-for-talaria|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-rear-shock-for-talaria',u:['https://chargedcycleworks.com/products/tech-rear-shock-for-talaria']},
+  'chargedcycleworks-tech-suspension-e39-racing-kashima-fork|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork',u:['https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork']},
+  'chargedcycleworks-tech-suspension-e39-racing-kashima-fork|ventus-evo':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork',u:['https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork']},
+  'chargedcycleworks-tech-suspension-er34-racing-kashima-shock|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock',u:['https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock']},
+  'chargedcycleworks-tech-suspension-er34-racing-kashima-shock|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock',u:['https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock']},
+  'chargedcycleworks-tech-suspension-er34-racing-kashima-shock|ventus-evo':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock',u:['https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock']},
+  'chargedcycleworks-tech-suspension-er34-racing-kashima-shock|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock',u:['https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock']},
+  'chargedcycleworks-thrill-seekers-seat-cover-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-surron-ultra-bee']},
+  'chargedcycleworks-titanium-front-axle-for-dnm-fork-talaria-surron-segway|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/titanium-front-axle-for-dnm-fork-talaria-surron-segway',u:['https://chargedcycleworks.com/products/titanium-front-axle-for-dnm-fork-talaria-surron-segway']},
+  'chargedcycleworks-tmb-heavy-duty-bash-plate-e-ride-pro-ss|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-e-ride-pro-ss',u:['https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-e-ride-pro-ss']},
+  'chargedcycleworks-torp-ultra-bee-replacement-wiring-loom|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/torp-ultra-bee-replacement-wiring-loom',u:['https://chargedcycleworks.com/products/torp-ultra-bee-replacement-wiring-loom']},
+  'chargedcycleworks-traxion-260mm-travel-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/traxion-260mm-travel-surron-ultra-bee',u:['https://chargedcycleworks.com/products/traxion-260mm-travel-surron-ultra-bee']},
+  'chargedcycleworks-traxion-s-tialn-260mm-travel-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/traxion-s-tialn-260mm-travel-surron-ultra-bee',u:['https://chargedcycleworks.com/products/traxion-s-tialn-260mm-travel-surron-ultra-bee']},
+  'chargedcycleworks-tugger-lift-straps-for-hard-enduro|ultrabee':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tugger-lift-straps-for-hard-enduro',u:['https://chargedcycleworks.com/products/tugger-lift-straps-for-hard-enduro']},
+  'chargedcycleworks-tusk-brake-rotor-bolt-kit|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tusk-brake-rotor-bolt-kit',u:['https://chargedcycleworks.com/products/tusk-brake-rotor-bolt-kit']},
+  'chargedcycleworks-u-lock-latch-ventus-oem|ventus-plus':{s:'confirmed_direct_fit',n:'CCW body: \'Replacement Latch for Ventus One and Ventus One +\'. Checked 2026-11-10.',u:['https://chargedcycleworks.com/products/u-lock-latch-ventus-oem']},
+  'chargedcycleworks-ub-battery-power-cable|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-battery-power-cable',u:['https://chargedcycleworks.com/products/ub-battery-power-cable']},
+  'chargedcycleworks-ub-communication-cable|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-communication-cable',u:['https://chargedcycleworks.com/products/ub-communication-cable']},
+  'chargedcycleworks-ub-key-switch-set|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-key-switch-set',u:['https://chargedcycleworks.com/products/ub-key-switch-set']},
+  'chargedcycleworks-ub-l-front-fork-protector-cpl|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl',u:['https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl']},
+  'chargedcycleworks-ub-main-harness|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-main-harness',u:['https://chargedcycleworks.com/products/ub-main-harness']},
+  'chargedcycleworks-ub-oem-steering-head-adjust-nut-1|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1',u:['https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1']},
+  'chargedcycleworks-ub-oem-steering-head-adjust-nut|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut',u:['https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut']},
+  'chargedcycleworks-ub-oem-steering-head-cover|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-oem-steering-head-cover',u:['https://chargedcycleworks.com/products/ub-oem-steering-head-cover']},
+  'chargedcycleworks-ub-oem-steering-head-gasket-top|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top',u:['https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top']},
+  'chargedcycleworks-ub-oem-steering-head-support|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-oem-steering-head-support',u:['https://chargedcycleworks.com/products/ub-oem-steering-head-support']},
+  'chargedcycleworks-ub-pivot-bushing|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-pivot-bushing',u:['https://chargedcycleworks.com/products/ub-pivot-bushing']},
+  'chargedcycleworks-ub-rear-wheel-axle-nut|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-rear-wheel-axle-nut',u:['https://chargedcycleworks.com/products/ub-rear-wheel-axle-nut']},
+  'chargedcycleworks-ub-rear-wheel-axle|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-rear-wheel-axle',u:['https://chargedcycleworks.com/products/ub-rear-wheel-axle']},
+  'chargedcycleworks-ub-swingarm-pivot-shaft-bolt|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt',u:['https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt']},
+  'chargedcycleworks-ub-swingarm-pivot-shaft|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft',u:['https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft']},
+  'chargedcycleworks-uhmw-skid-plate-by-sxs-for-surron-segway|komodo':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway',u:['https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway']},
+  'chargedcycleworks-uhmw-skid-plate-by-sxs-for-surron-segway|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway',u:['https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway']},
+  'chargedcycleworks-ultra-bee-1-foot-peg-drop-lowering-kit|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-1-foot-peg-drop-lowering-kit',u:['https://chargedcycleworks.com/products/ultra-bee-1-foot-peg-drop-lowering-kit']},
+  'chargedcycleworks-ultra-bee-17-supermoto-wheels-by-kke|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-17-supermoto-wheels-by-kke',u:['https://chargedcycleworks.com/products/ultra-bee-17-supermoto-wheels-by-kke']},
+  'chargedcycleworks-ultra-bee-18-21-wheel-and-tire-combo-warp9|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-18-21-wheel-and-tire-combo-warp9',u:['https://chargedcycleworks.com/products/ultra-bee-18-21-wheel-and-tire-combo-warp9']},
+  'chargedcycleworks-ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt',u:['https://chargedcycleworks.com/products/ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt']},
+  'chargedcycleworks-ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt',u:['https://chargedcycleworks.com/products/ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt']},
+  'chargedcycleworks-ultra-bee-adjustable-foot-peg-mount|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-adjustable-foot-peg-mount',u:['https://chargedcycleworks.com/products/ultra-bee-adjustable-foot-peg-mount']},
+  'chargedcycleworks-ultra-bee-airtag-stash|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-airtag-stash',u:['https://chargedcycleworks.com/products/ultra-bee-airtag-stash']},
+  'chargedcycleworks-ultra-bee-aluminum-sprocket-by-warp9|komodo':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-aluminum-sprocket-by-warp9',u:['https://chargedcycleworks.com/products/ultra-bee-aluminum-sprocket-by-warp9']},
+  'chargedcycleworks-ultra-bee-aluminum-sprocket-by-warp9|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-aluminum-sprocket-by-warp9',u:['https://chargedcycleworks.com/products/ultra-bee-aluminum-sprocket-by-warp9']},
+  'chargedcycleworks-ultra-bee-anvil-steel-rear-sprocket|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket',u:['https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket']},
+  'chargedcycleworks-ultra-bee-brake-disk-2403|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-brake-disk-2403',u:['https://chargedcycleworks.com/products/ultra-bee-brake-disk-2403']},
+  'chargedcycleworks-ultra-bee-brake-pads|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-brake-pads',u:['https://chargedcycleworks.com/products/ultra-bee-brake-pads']},
+  'chargedcycleworks-ultra-bee-competition-folder-lever-set|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set',u:['https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set']},
+  'chargedcycleworks-ultra-bee-competition-folder-lever-set|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set',u:['https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set']},
+  'chargedcycleworks-ultra-bee-competition-folder-lever-set|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set',u:['https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set']},
+  'chargedcycleworks-ultra-bee-competition-folder-lever-set|ultrabee':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set',u:['https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set']},
+  'chargedcycleworks-ultra-bee-complete-front-brake-assembly-copy|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly-copy',u:['https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly-copy']},
+  'chargedcycleworks-ultra-bee-converter|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-converter',u:['https://chargedcycleworks.com/products/ultra-bee-converter']},
+  'chargedcycleworks-ultra-bee-frame-steering-bump-stops|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-frame-steering-bump-stops',u:['https://chargedcycleworks.com/products/ultra-bee-frame-steering-bump-stops']},
+  'chargedcycleworks-ultra-bee-front-brake-caliper-assy-2|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-front-brake-caliper-assy-2',u:['https://chargedcycleworks.com/products/ultra-bee-front-brake-caliper-assy-2']},
+  'chargedcycleworks-ultra-bee-front-fender-rtech|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-front-fender-rtech',u:['https://chargedcycleworks.com/products/ultra-bee-front-fender-rtech']},
+  'chargedcycleworks-ultra-bee-left-hand-combination-switch-light-horn-asr|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-left-hand-combination-switch-light-horn-asr',u:['https://chargedcycleworks.com/products/ultra-bee-left-hand-combination-switch-light-horn-asr']},
+  'chargedcycleworks-ultra-bee-oem-charger|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-oem-charger',u:['https://chargedcycleworks.com/products/ultra-bee-oem-charger']},
+  'chargedcycleworks-ultra-bee-oem-seal-replacement-kit|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit',u:['https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit']},
+  'chargedcycleworks-ultra-bee-oem-throttle|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-oem-throttle',u:['https://chargedcycleworks.com/products/ultra-bee-oem-throttle']},
+  'chargedcycleworks-ultra-bee-output-gear-cover|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-output-gear-cover',u:['https://chargedcycleworks.com/products/ultra-bee-output-gear-cover']},
+  'chargedcycleworks-ultra-bee-passenger-footpeg-kit|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit',u:['https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit']},
+  'chargedcycleworks-ultra-bee-r-battery-protector|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-r-battery-protector',u:['https://chargedcycleworks.com/products/ultra-bee-r-battery-protector']},
+  'chargedcycleworks-ultra-bee-rear-brake-caliper|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper',u:['https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper']},
+  'chargedcycleworks-ultra-bee-rear-fender-rtech|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-rear-fender-rtech',u:['https://chargedcycleworks.com/products/ultra-bee-rear-fender-rtech']},
+  'chargedcycleworks-ultra-bee-rear-linkage|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-rear-linkage',u:['https://chargedcycleworks.com/products/ultra-bee-rear-linkage']},
+  'chargedcycleworks-ultra-bee-rear-wheel-rim-tire-assy-130-70-17|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-rear-wheel-rim-tire-assy-130-70-17',u:['https://chargedcycleworks.com/products/ultra-bee-rear-wheel-rim-tire-assy-130-70-17']},
+  'chargedcycleworks-ultra-bee-right-hand-3-combination-switch-s-d-e-control|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-right-hand-3-combination-switch-s-d-e-control',u:['https://chargedcycleworks.com/products/ultra-bee-right-hand-3-combination-switch-s-d-e-control']},
+  'chargedcycleworks-ultra-bee-stock-display-harness-compatible-with-x-9000|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-stock-display-harness-compatible-with-x-9000',u:['https://chargedcycleworks.com/products/ultra-bee-stock-display-harness-compatible-with-x-9000']},
+  'chargedcycleworks-ultra-bee-suspension-tune-service-for-kke-oem-fork|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-suspension-tune-service-for-kke-oem-fork',u:['https://chargedcycleworks.com/products/ultra-bee-suspension-tune-service-for-kke-oem-fork']},
+  'chargedcycleworks-ultra-bee-to-honda-21-front-wheel-adapters|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-to-honda-21-front-wheel-adapters',u:['https://chargedcycleworks.com/products/ultra-bee-to-honda-21-front-wheel-adapters']},
+  'chargedcycleworks-ultra-bee-trailer-mount|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-trailer-mount',u:['https://chargedcycleworks.com/products/ultra-bee-trailer-mount']},
+  'chargedcycleworks-ventus-aetos-pro-controller|ultrabee':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-aetos-pro-controller',u:['https://chargedcycleworks.com/products/ventus-aetos-pro-controller']},
+  'chargedcycleworks-ventus-jackshaft-rod-ventus-oem|ventus-plus':{s:'confirmed_direct_fit',n:'CCW body: \'OEM Jackshaft rod for Ventus one and Ventus One Plus\'. Checked 2026-11-10.',u:['https://chargedcycleworks.com/products/ventus-jackshaft-rod-ventus-oem']},
+  'chargedcycleworks-ventus-oem-carbon-belt|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-oem-carbon-belt',u:['https://chargedcycleworks.com/products/ventus-oem-carbon-belt']},
+  'chargedcycleworks-ventus-oem-carbon-belt|ventus-plus':{s:'confirmed_direct_fit',n:'CCW body lists the Light eMoto variant for \'Ventus One\' and \'Ventus One +\' (Ultra Bee is a separate variant). Checked 2026-11-10. https://chargedcycleworks.com/products/ventus-oem-carbon-belt',u:['https://chargedcycleworks.com/products/ventus-oem-carbon-belt']},
+  'chargedcycleworks-ventus-oem-display|ventus-plus':{s:'confirmed_direct_fit',n:'CCW body: \'OEM Display for Ventus One / One +\' with 1.8 (4-connector) and 1.9 (2-connector) versions. Checked 2026-11-10. https://chargedcycleworks.com/products/ventus-oem-display',u:['https://chargedcycleworks.com/products/ventus-oem-display']},
+  'chargedcycleworks-ventus-oem-jackshaft-assembly|ventus-plus':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-oem-jackshaft-assembly',u:['https://chargedcycleworks.com/products/ventus-oem-jackshaft-assembly']},
+  'chargedcycleworks-ventus-primary-chain-drive-conversion-kit-ryuga|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-primary-chain-drive-conversion-kit-ryuga',u:['https://chargedcycleworks.com/products/ventus-primary-chain-drive-conversion-kit-ryuga']},
+  'chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7',u:['https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7']},
+  'chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7',u:['https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7']},
+  'chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway',u:['https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway']},
+  'chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway',u:['https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway']},
+  'chargedcycleworks-warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5',u:['https://chargedcycleworks.com/products/warp9-16-19-complete-wheel-tire-combo-for-talaria-mx5']},
+  'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto',u:['https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto']},
+  'chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus',u:['https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus']},
+  'chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus|sr':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus',u:['https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus']},
+  'chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus',u:['https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus']},
+  'chargedcycleworks-warp9-adjustable-kickstand-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-ultra-bee',u:['https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-ultra-bee']},
+  'chargedcycleworks-warp9-disc-guard-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-disc-guard-surron-ultra-bee',u:['https://chargedcycleworks.com/products/warp9-disc-guard-surron-ultra-bee']},
+  'chargedcycleworks-warp9-e-ride-pro-3-0-sr-16-19-wheelset|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-16-19-wheelset',u:['https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-16-19-wheelset']},
+  'chargedcycleworks-warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset',u:['https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset']},
+  'chargedcycleworks-warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset',u:['https://chargedcycleworks.com/products/warp9-e-ride-pro-3-0-sr-17-supermoto-wheelset']},
+  'chargedcycleworks-warp9-foot-pegs-for-talaria|komodo':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-foot-pegs-for-talaria',u:['https://chargedcycleworks.com/products/warp9-foot-pegs-for-talaria']},
+  'chargedcycleworks-warp9-jackshaft-sprocket-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-jackshaft-sprocket-surron-ultra-bee',u:['https://chargedcycleworks.com/products/warp9-jackshaft-sprocket-surron-ultra-bee']},
+  'chargedcycleworks-warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee',u:['https://chargedcycleworks.com/products/warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee']},
+  'chargedcycleworks-warp9-surron-ultra-bee-flex-bar-mounts|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-surron-ultra-bee-flex-bar-mounts',u:['https://chargedcycleworks.com/products/warp9-surron-ultra-bee-flex-bar-mounts']},
+  'chargedcycleworks-warp9-surron-ultra-bee-stabilizer-mount-with-frame-post|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-surron-ultra-bee-stabilizer-mount-with-frame-post',u:['https://chargedcycleworks.com/products/warp9-surron-ultra-bee-stabilizer-mount-with-frame-post']},
+  'chargedcycleworks-warp9-surron-ultra-bee-suspension-triangle-bearing-kit|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-surron-ultra-bee-suspension-triangle-bearing-kit',u:['https://chargedcycleworks.com/products/warp9-surron-ultra-bee-suspension-triangle-bearing-kit']},
+  'chargedcycleworks-warp9-surron-ultra-bee-triangles|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-surron-ultra-bee-triangles',u:['https://chargedcycleworks.com/products/warp9-surron-ultra-bee-triangles']},
+  'chargedcycleworks-warp9-talaria-mx5-rear-axle-kit|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-talaria-mx5-rear-axle-kit',u:['https://chargedcycleworks.com/products/warp9-talaria-mx5-rear-axle-kit']},
+  'chargedcycleworks-warp9-talaria-sting-mx5-sprocket|mx5':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-talaria-sting-mx5-sprocket',u:['https://chargedcycleworks.com/products/warp9-talaria-sting-mx5-sprocket']},
+  'chargedcycleworks-warp9-titanium-front-axle-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-titanium-front-axle-surron-ultra-bee',u:['https://chargedcycleworks.com/products/warp9-titanium-front-axle-surron-ultra-bee']},
+  'chargedcycleworks-warp9-ultra-bee-brake-lever|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-brake-lever',u:['https://chargedcycleworks.com/products/warp9-ultra-bee-brake-lever']},
+  'chargedcycleworks-warp9-ultra-bee-front-supermoto-axle-slider|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-front-supermoto-axle-slider',u:['https://chargedcycleworks.com/products/warp9-ultra-bee-front-supermoto-axle-slider']},
+  'chargedcycleworks-warp9-ultra-bee-rear-rack|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-rear-rack',u:['https://chargedcycleworks.com/products/warp9-ultra-bee-rear-rack']},
+  'chargedcycleworks-warp9-ultra-bee-steer-stops-low-profile|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile',u:['https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile']},
+  'chargedcycleworks-warp9-ultra-bee-suspension-triangle-v2|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2',u:['https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2']},
+  'chargedcycleworks-warp9-ultra-bee-titanium-sprocket-bolts|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-titanium-sprocket-bolts',u:['https://chargedcycleworks.com/products/warp9-ultra-bee-titanium-sprocket-bolts']},
+  'chargedcycleworks-warp9-ultra-bee-wheel-bearing-kits|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-wheel-bearing-kits',u:['https://chargedcycleworks.com/products/warp9-ultra-bee-wheel-bearing-kits']},
+  'chargedcycleworks-x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included',u:['https://chargedcycleworks.com/products/x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included']},
+  'chargedcycleworks-x-9000-controller-race-harness-for-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/x-9000-controller-race-harness-for-ultra-bee',u:['https://chargedcycleworks.com/products/x-9000-controller-race-harness-for-ultra-bee']},
+  'chargedcycleworks-x-9000-controller-talaria-harness|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/x-9000-controller-talaria-harness',u:['https://chargedcycleworks.com/products/x-9000-controller-talaria-harness']},
+  'chargedcycleworks-x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets',u:['https://chargedcycleworks.com/products/x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets']},
+  'ctrl-ventus-aetos-max|ultrabee':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-aetos-max-controller',u:['https://chargedcycleworks.com/products/ventus-aetos-max-controller']},
+  'ebmx-x-9000-v3|mx5':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit']},
+  'ebmx-x-9000-v3|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit']},
+  'ebmx-x-9000-v3|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit']},
+  'ebmx-x-9000-v3|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit']},
+  'ebmx-xlb-60|sr':{s:'confirmed_direct_fit',n:'CCW \'EBMX XLB-60 CORE Motor KIT\' bike-compatibility list names E-Ride Pro SR (and S, SS 2.0, SS 3.0). Fills the builder\'s empty SR motor category (checked 2026-11-10)',u:['https://chargedcycleworks.com/products/ebmx-xlb-60-core-motor-kit','https://tbelectricmoto.com/products/ebmx-xlb-60-race-motor']},
+  'ext-arma-mx|sr':{s:'confirmed_direct_fit',n:'CCW \'EXT Arma MX Rear Shock\' fitment list names E Ride Pro SR; also in the E Ride Pro SR Upgrades collection (checked 2026-11-10)',u:['https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron','https://chargedcycleworks.com/collections/e-ride-pro-sr-upgrades','https://revrides.com/products/ext-arma-mx-e-mx-damper-surron-talaria']},
+  'ext-ferro|ultrabee':{s:'confirmed_direct_fit',n:'Ultra Bee tune',u:['https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria']},
+  'factoryz-3in-rise|sr':{s:'confirmed_direct_fit',n:'Eride Pro SR per FactoryZ',u:['https://factoryz.co/products/surron-handlebar-3-inch-rise']},
+  'factoryz-3in-rise|ss30':{s:'confirmed_direct_fit',n:'Eride Pro SS 3.0 per FactoryZ',u:['https://factoryz.co/products/surron-handlebar-3-inch-rise']},
+  'linkage-ultrabeemx|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee']},
+  'pegs-kke-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective',u:['https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective']},
+  'prickly-50mm-318|ss30':{s:'confirmed_direct_fit',n:'E-Ride Pro SS 3.0 listed',u:['https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars']},
+  'prickly-50mm-318|ss40':{s:'confirmed_direct_fit',n:'E-Ride Pro 4.0 listed',u:['https://tbelectricmoto.com/products/prickly-50mm-rise-31-8mm-bars']},
+  'prickly-50mm-35|ss30':{s:'confirmed_fit_with_adapter',n:'E-Ride Pro SS 3.0 listed; 35mm stem required',u:['https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars']},
+  'prickly-50mm-35|ss40':{s:'confirmed_fit_with_adapter',n:'E-Ride Pro 4.0 listed; 35mm stem required',u:['https://tbelectricmoto.com/products/prickly-50mm-rise35mm-bars']},
+  'revrides-r38-2sc-e-ride-pro-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-sr',u:['https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-sr']},
+  'tbelectricmoto-bearing-kit-swingarm-e-ride-pro-sr-and-3-0|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/bearing-kit-swingarm-e-ride-pro-sr-and-3-0',u:['https://chargedcycleworks.com/products/bearing-kit-swingarm-e-ride-pro-sr-and-3-0']},
+  'tbelectricmoto-talaria-komodo-1-bar-risers|komodo':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/talaria-komodo-1-bar-risers',u:['https://chargedcycleworks.com/products/talaria-komodo-1-bar-risers']},
+  'tbelectricmoto-warp-9-ultra-bee-triangle-pivot-bolt-kit|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit',u:['https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit']},
+  'tire-bridgestone-m203-ccw|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|rtr-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|rtr-lite':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://revrides.com/products/electro-co-etm-rtr-lite-60v-electric-pit-bike-for-adults-kids','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|rtr-lite-2-0':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://radical-ebikes.com/products/etm-rtr-lite-60v-5kw-copy','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|rtr-sport':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://support.electroandcompany.com/hc/en-us/articles/53576419394323-Can-I-install-bigger-wheels-on-my-Electro-Company-ETM-RTR','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|rtr-xl':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-bigger-faster-stronger','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|yozma-in10':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://yozmasport.com/products/in-10','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://www.yozmabike.com.au/products/in-10-pro','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m203-ccw|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m204-ccw|rtr-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 12" rear wheel.',u:['https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine','https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-bridgestone-m204-ccw|rtr-lite':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 12" rear wheel.',u:['https://revrides.com/products/electro-co-etm-rtr-lite-60v-electric-pit-bike-for-adults-kids','https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-bridgestone-m204-ccw|rtr-lite-2-0':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 12" rear wheel.',u:['https://radical-ebikes.com/products/etm-rtr-lite-60v-5kw-copy','https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-bridgestone-m204-ccw|rtr-sport':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 12" rear wheel.',u:['https://support.electroandcompany.com/hc/en-us/articles/53576419394323-Can-I-install-bigger-wheels-on-my-Electro-Company-ETM-RTR','https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-bridgestone-m204-ccw|rtr-xl':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" rear wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-bigger-faster-stronger','https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-bridgestone-m204-ccw|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" rear wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-bridgestone-m204-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 16" rear wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-bridgestone-m204-ccw|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 12" rear wheel.',u:['https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike','https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-bridgestone-m204-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 16" rear wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-bridgestone-m204-ccw|yozma-in10':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 12" rear wheel.',u:['https://yozmasport.com/products/in-10','https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-bridgestone-m204-ccw|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" rear wheel.',u:['https://www.yozmabike.com.au/products/in-10-pro','https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-bridgestone-x30-ccw|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x30-ccw|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x31|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-bridgestone-x31|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318']},
+  'tire-cst-cm713-80100-19|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19']},
+  'tire-cst-cm713-80100-19|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19']},
+  'tire-cst-cm713-80100-19|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19']},
+  'tire-cst-cm713-80100-19|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19']},
+  'tire-cst-cm713-80100-19|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19']},
+  'tire-cst-cm713-80100-19|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19']},
+  'tire-cst-oem-70100-19-eu|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-oem-70100-19-eu|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll']},
+  'tire-cst-takeoff-70100-19|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-cst-takeoff-70100-19|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/products/cst-oem-take-off-tires-for-surron-segway']},
+  'tire-dunlop-mx33-ccw|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx33-ccw|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx34|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|rtr-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|rtr-lite':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://revrides.com/products/electro-co-etm-rtr-lite-60v-electric-pit-bike-for-adults-kids','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|rtr-lite-2-0':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://radical-ebikes.com/products/etm-rtr-lite-60v-5kw-copy','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|rtr-sport':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://support.electroandcompany.com/hc/en-us/articles/53576419394323-Can-I-install-bigger-wheels-on-my-Electro-Company-ETM-RTR','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|rtr-xl':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-bigger-faster-stronger','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|yozma-in10':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://yozmasport.com/products/in-10','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://www.yozmabike.com.au/products/in-10-pro','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx34|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310']},
+  'tire-dunlop-mx53-ccw|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|mx5':{s:'confirmed_direct_fit',n:'CCW lists Dunlop MX53 in the Talaria Sting MX5 Pro Upgrades collection and tags it TALMX5; 70/100-19 and 100/90-19 sizes match the MX5 stock 19\\"/19\\" wheels (checked 2026-11-10)',u:['https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires','https://chargedcycleworks.com/collections/talaria-sting-mx5-pro-upgrades','https://emotobykes.com/bikes/talaria/sting-mx5-pro/']},
+  'tire-dunlop-mx53-ccw|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx53-ccw|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-eride-fatty-rear-1009018|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|bonnell-805rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://ridebonnell.com/products/805','https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.eridepro.com/products/e7235-1']},
+  'tire-eride-fatty-rear-1009018|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.eridepro.com/products/e7235-1']},
+  'tire-irc-ix09-gekkota-ccw|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 16" rear wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 16" rear wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-ix09-gekkota-ccw|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-m5b-evo|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|bonnell-805rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://ridebonnell.com/products/805','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-m5b-evo|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p']},
+  'tire-irc-ve33-ccw|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-ve33-ccw|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-ve33-ccw|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-ve33-ccw|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-ve33-ccw|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-ve33-ccw|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-ve33-ccw|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-ve33-ccw|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-ve33-ccw|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-kenda-k270-dualsport|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|rtr-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|rtr-lite':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://revrides.com/products/electro-co-etm-rtr-lite-60v-electric-pit-bike-for-adults-kids','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|rtr-lite-2-0':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://radical-ebikes.com/products/etm-rtr-lite-60v-5kw-copy','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|rtr-sport':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://support.electroandcompany.com/hc/en-us/articles/53576419394323-Can-I-install-bigger-wheels-on-my-Electro-Company-ETM-RTR','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|rtr-xl':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-bigger-faster-stronger','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|yozma-in10':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://yozmasport.com/products/in-10','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://www.yozmabike.com.au/products/in-10-pro','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k270-dualsport|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245']},
+  'tire-kenda-k760-trakmaster|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|bonnell-805rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://ridebonnell.com/products/805','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|rtr-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|rtr-lite':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://revrides.com/products/electro-co-etm-rtr-lite-60v-electric-pit-bike-for-adults-kids','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|rtr-lite-2-0':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://radical-ebikes.com/products/etm-rtr-lite-60v-5kw-copy','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|rtr-sport':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://support.electroandcompany.com/hc/en-us/articles/53576419394323-Can-I-install-bigger-wheels-on-my-Electro-Company-ETM-RTR','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|rtr-xl':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-bigger-faster-stronger','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|yozma-in10':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://yozmasport.com/products/in-10','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://www.yozmabike.com.au/products/in-10-pro','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-k760-trakmaster|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138']},
+  'tire-kenda-millville2-k785|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|bonnell-805rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://ridebonnell.com/products/805','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|rtr-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|rtr-lite':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://revrides.com/products/electro-co-etm-rtr-lite-60v-electric-pit-bike-for-adults-kids','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|rtr-lite-2-0':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://radical-ebikes.com/products/etm-rtr-lite-60v-5kw-copy','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|rtr-sport':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://support.electroandcompany.com/hc/en-us/articles/53576419394323-Can-I-install-bigger-wheels-on-my-Electro-Company-ETM-RTR','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|rtr-xl':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-bigger-faster-stronger','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|yozma-in10':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://yozmasport.com/products/in-10','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://www.yozmabike.com.au/products/in-10-pro','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-millville2-k785|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249']},
+  'tire-kenda-washougal3-ccw|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-washougal3-ccw|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-maxxis-mxsi|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|bonnell-805rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://ridebonnell.com/products/805','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|rtr-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|rtr-lite':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://revrides.com/products/electro-co-etm-rtr-lite-60v-electric-pit-bike-for-adults-kids','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|rtr-lite-2-0':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://radical-ebikes.com/products/etm-rtr-lite-60v-5kw-copy','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|rtr-sport':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://support.electroandcompany.com/hc/en-us/articles/53576419394323-Can-I-install-bigger-wheels-on-my-Electro-Company-ETM-RTR','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|rtr-xl':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-bigger-faster-stronger','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|yozma-in10':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://yozmasport.com/products/in-10','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://www.yozmabike.com.au/products/in-10-pro','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-maxxis-mxsi|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-michelin-starcross5-ccw|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross5-ccw|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/products/michelin-starcross-5-medium-terrain-front-tire']},
+  'tire-michelin-starcross6-ms|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|bonnell-805rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://ridebonnell.com/products/805','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-michelin-starcross6-ms|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.rockymountainatvmc.com/tires-and-wheels/michelin-starcross-6-medium-soft-terrain-tire-p']},
+  'tire-mitas-terraforce-16-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 16" rear wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/products/mitas-terra-force-mx-super-light-16-rear-tire']},
+  'tire-mitas-terraforce-16-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 16" rear wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/products/mitas-terra-force-mx-super-light-16-rear-tire']},
+  'tire-pirelli-mx32-midsoft|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|bonnell-805rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://ridebonnell.com/products/805','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|rtr-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|rtr-lite':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://revrides.com/products/electro-co-etm-rtr-lite-60v-electric-pit-bike-for-adults-kids','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|rtr-lite-2-0':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://radical-ebikes.com/products/etm-rtr-lite-60v-5kw-copy','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|rtr-sport':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://support.electroandcompany.com/hc/en-us/articles/53576419394323-Can-I-install-bigger-wheels-on-my-Electro-Company-ETM-RTR','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|rtr-xl':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-bigger-faster-stronger','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|yozma-in10':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://yozmasport.com/products/in-10','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://www.yozmabike.com.au/products/in-10-pro','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-pirelli-mx32-midsoft|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-shinko-244-dualsport|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-244-dualsport|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.rockymountainatvmc.com/tires-and-wheels/shinko-244-series-dual-sport-universal-tire-p?v=609']},
+  'tire-shinko-525-cheater|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" rear wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 16" rear wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 16" rear wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-525-cheater|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.motosport.com/shinko-r525-cheater-rear-tire']},
+  'tire-shinko-sr241-ccw|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|mx5':{s:'confirmed_direct_fit',n:'CCW lists Shinko SR 241 in the Talaria Sting MX5 Pro Upgrades collection and tags it TALMX5; 2.75x19 and 3.50x19 sizes match the MX5 stock 19\\"/19\\" wheels (checked 2026-11-10)',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19','https://chargedcycleworks.com/collections/talaria-sting-mx5-pro-upgrades','https://emotobykes.com/bikes/talaria/sting-mx5-pro/']},
+  'tire-shinko-sr241-ccw|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|rtr-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|rtr-lite':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://revrides.com/products/electro-co-etm-rtr-lite-60v-electric-pit-bike-for-adults-kids','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|rtr-lite-2-0':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://radical-ebikes.com/products/etm-rtr-lite-60v-5kw-copy','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|rtr-sport':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://support.electroandcompany.com/hc/en-us/articles/53576419394323-Can-I-install-bigger-wheels-on-my-Electro-Company-ETM-RTR','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|rtr-xl':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-bigger-faster-stronger','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|yozma-in10':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://yozmasport.com/products/in-10','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://www.yozmabike.com.au/products/in-10-pro','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-shinko-sr241-ccw|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-surron-oem-19|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-19|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://surron.ca/products/light-bee-off-road-tire']},
+  'tire-surron-oem-70100-19|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-surron-oem-70100-19|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.scooterworks.com/products/surron-light-bee-x-70-100-19-tire-0600-7000']},
+  'tire-talaria-cst-70100-19|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://zealracing.com/products/front-wheel']},
+  'tire-talaria-cst-70100-19|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://zealracing.com/products/front-wheel']},
+  'tire-tusk-dsport-adventure|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|bonnell-805rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://ridebonnell.com/products/805','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" rear wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" rear wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|rtr-xl':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-bigger-faster-stronger','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://www.yozmabike.com.au/products/in-10-pro','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-dsport-adventure|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 18" rear wheel.',u:['https://www.yvolt.com/products/surge-v','https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-groundwire-ccw|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-groundwire-ccw|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/products/tusk-ground-wire-emoto-19-rear-tire']},
+  'tire-tusk-recon-ccw|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-recon-ccw|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-tusk-t35-front-ccw|altis-sigma':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|arctic-xd':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://arctic-leopard.com/produit/x%c2%b7d-pro/','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|komodo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://talaria.cn.com/product/talaria-komodo/','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|lightbee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/sur-ron/light-bee-x/','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|mx4':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.smartwheel.ca/talaria-sting-r-mx4-expert-electric-dirt-bike-manitou-dorado-fork-red/','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|rerode-rx':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|rtr-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|rtr-lite':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://revrides.com/products/electro-co-etm-rtr-lite-60v-electric-pit-bike-for-adults-kids','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|rtr-lite-2-0':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://radical-ebikes.com/products/etm-rtr-lite-60v-5kw-copy','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|rtr-sport':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://support.electroandcompany.com/hc/en-us/articles/53576419394323-Can-I-install-bigger-wheels-on-my-Electro-Company-ETM-RTR','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|rtr-xl':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-bigger-faster-stronger','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|sr':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://velomotoshop.com/products/eride-pro-sr-25kw-72v-50ah-electric-dirt-bike','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|ss20':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.eridepro.com/products/pro-ss-2-0','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|ss30':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://gritshift.com/products/e-ride-pro-ss-3-0','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|ss40':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://revrides.com/products/2027-e-ride-pro-se','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|stark-vargex':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://www.bikes4sale.com/details/stark/varg/varg-ex/','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|storm-bee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 21" front wheel.',u:['https://sur-ronusa.us.com/product/sur-ron-storm-bee/','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|yozma-in10':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 14" front wheel.',u:['https://yozmasport.com/products/in-10','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 17" front wheel.',u:['https://www.yozmabike.com.au/products/in-10-pro','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-front-ccw|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-tusk-t35-rear-ccw|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 16" rear wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://chargedcycleworks.com/collections/surron-tires/products/tusk-t-35-soft-intermediate-terrain-rear-16-tire']},
+  'tire-tusk-t35-rear-ccw|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 16" rear wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://chargedcycleworks.com/collections/surron-tires/products/tusk-t-35-soft-intermediate-terrain-rear-16-tire']},
+  'tires-plews-mx2-rear|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 16" rear wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://ventusbikes.us/products/plews-tires-mx2-matterly-gp-intermediate-all-terrain-motocross-rear-tire']},
+  'tires-plews-mx2-rear|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 16" rear wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://ventusbikes.us/products/plews-tires-mx2-matterly-gp-intermediate-all-terrain-motocross-rear-tire']},
+  'tube-rippin-70100-19|falcon-gt':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://motorhabit.com/products/79bike-falcon-gt','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|falcon-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/79bike-falcon-pro-72v-electric-dirt-bike-10kw-53mph-ultra-lightweight','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|mx5':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://emotobykes.com/bikes/talaria/sting-mx5-pro/','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.riderawrr.com/72v-rawrr-mantis','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|ss40':{s:'confirmed_direct_fit',n:'',u:['https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|supermach-sm01':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|supermach-sm62':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.supermach.com/products/sm62-electric-dirt-bike','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|ultrabee':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://96powerparts.com/en/products/sur-ron-ultra-bee-stock-l3e-24-5kw-2026-wheelie-control-traction-control-239.html','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://alienrides.com/en-ca/products/surron-ultra-bee-electric-motorcycle','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|ventus-evo':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://pinnedelectric.com/products/ventus-v1-evo','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|ventus-plus':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://ebs-bikes.co.uk/product/ventus-one-plus/','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'tube-rippin-70100-19|yvolt-surge-v':{s:'confirmed_direct_fit',n:'Tire diameter matches stock 19" front wheel.',u:['https://www.yvolt.com/products/surge-v','https://rippinmoto.com/products/rippin-moto-2-75-3-00-19-heavy-duty-70-100-19-motorcycle-inner-tube-surron-talaria']},
+  'voro-eride-ss-handlebar|ss30':{s:'confirmed_direct_fit',n:'CCW \'E Ride Pro - OEM 2\\" Rise Handlebars\' is in the SS 3.0 OEM Parts collection, tagged ERPSS3, and described as from E-Ride Pro SS bikes (31.8 mm) (checked 2026-11-10)',u:['https://chargedcycleworks.com/products/e-ride-pro-ss-2-rise-handlebar','https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts','https://voromotors.com/products/handlebar-for-e-ride-pro-ss']},
+  'voro-eride-ss-headlight-bar|ss30':{s:'confirmed_direct_fit',n:'CCW \'E Ride Pro - OEM Headlight Led Light Bar\' lists PN E7045 (same as Voro), is in the SS 3.0 OEM Parts collection, and is tagged ERPSS3 (checked 2026-11-10)',u:['https://chargedcycleworks.com/products/e-ride-oem-led-light-bar','https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts','https://voromotors.com/products/headlight-led-light-bar-for-e-ride-pro-ss']},
+  'voro-eride-ss-rear-shock|ss30':{s:'confirmed_direct_fit',n:'CCW \'E Ride Pro - OEM Rear Suspension Shock\' lists PN E7025 (same as Voro), is in the SS 3.0 OEM Parts collection, and is tagged ERPSS3 (checked 2026-11-10)',u:['https://chargedcycleworks.com/products/e-ride-oem-metal-rear-suspension-shock','https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts','https://voromotors.com/products/rear-suspension-shock-for-e-ride-pro-ss']},
+  'voro-eride-ss-seat|ss30':{s:'confirmed_direct_fit',n:'CCW \'E Ride Pro - OEM Seat\' is in the E Ride Pro SS 3.0 OEM Parts collection and is tagged ERPSS3 (checked 2026-11-10). Description is title-only.',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-seat','https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts','https://voromotors.com/products/seat-for-e-ride-pro-ss']},
+  'voro-eride-ss-sprockets|ss30':{s:'confirmed_direct_fit',n:'CCW \'E Ride Pro 3.0/SR - OEM E-Moto Sprocket\' names rear sprockets for E Ride Pro SS 3.0 and SR (428 chain, including 55T). The Voro listing also offers a 14T front (E7205) that this CCW page does not name (checked 2026-11-10)',u:['https://chargedcycleworks.com/products/e-ride-pro-e-moto-sprocket','https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts','https://voromotors.com/products/sprockets-for-e-ride-pro-ss']},
+  'voro-eride-ss-swingarm|ss30':{s:'confirmed_direct_fit',n:'CCW \'E Ride Pro - OEM Swingarm\' fitment list names E Ride Pro SS 3.0 (also S, SS 2.0, SR); in the SS 3.0 OEM Parts collection (checked 2026-11-10)',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters','https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts','https://voromotors.com/products/swingarm-for-e-ride-pro-ss']},
+  'voro-eride-ss-twist-throttle|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-dual-hall-throttle',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-dual-hall-throttle']},
+  'voro-eride-ss-twist-throttle|ss30':{s:'confirmed_direct_fit',n:'CCW \'E Ride Pro - OEM Throttle\' (image file E7084, same PN as the Voro listing) has a variant named \'E Ride Pro SS 3.0 / SR\' and is in the E Ride Pro SS 3.0 OEM Parts collection (checked 2026-11-10)',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-dual-hall-throttle','https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts']},
+  'warp9-1619|ventus-plus':{s:'confirmed_direct_fit',n:'',u:['https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9']},
+  'wheels-ion-eride30-sr-1619|ss30':{s:'confirmed_direct_fit',n:'',u:['https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-wheels']},
 });

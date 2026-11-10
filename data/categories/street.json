@@ -489,6 +489,206 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-project-9-cyber-tail-light-for-talaria-sting-mx4.webp"
+    },
+    {
+      "id": "chargedcycleworks-project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro",
+      "name": "Project 9 – Turn Signal & Brake Light Kit | Surron, Talaria & E Ride Pro",
+      "brand": "Project9",
+      "category": "street",
+      "price_usd": 239.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 239.0,
+          "buy_url": "https://chargedcycleworks.com/products/project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro.webp"
+    },
+    {
+      "id": "chargedcycleworks-project-9-surron-ultra-bee-turn-signal-kit",
+      "name": "Project 9 – Turn Signal Kit for Surron Ultra Bee",
+      "brand": "Project9",
+      "category": "street",
+      "price_usd": 349.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/project-9-surron-ultra-bee-turn-signal-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/project-9-surron-ultra-bee-turn-signal-kit"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 349.95,
+          "buy_url": "https://chargedcycleworks.com/products/project-9-surron-ultra-bee-turn-signal-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-project-9-surron-ultra-bee-turn-signal-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-tail-light-installation-decorative-block",
+      "name": "Surron Ultra Bee - Blinker Kit Mount Cover",
+      "brand": "Surron-WN",
+      "category": "street",
+      "price_usd": 16.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tail-light-installation-decorative-block",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tail-light-installation-decorative-block"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.0,
+          "buy_url": "https://chargedcycleworks.com/products/tail-light-installation-decorative-block"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-tail-light-installation-decorative-block.webp"
+    },
+    {
+      "id": "chargedcycleworks-front-turn-lamp-pair",
+      "name": "Surron Ultra Bee - Front Turn Signals",
+      "brand": "Surron-WN",
+      "category": "street",
+      "price_usd": 64.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/front-turn-lamp-pair",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/front-turn-lamp-pair"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 64.99,
+          "buy_url": "https://chargedcycleworks.com/products/front-turn-lamp-pair"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-front-turn-lamp-pair.webp"
+    },
+    {
+      "id": "chargedcycleworks-tail-light-installation-cover",
+      "name": "Surron Ultra Bee - Rear Blinker & License Plate Mounting Bracket",
+      "brand": "Surron-WN",
+      "category": "street",
+      "price_usd": 27.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tail-light-installation-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tail-light-installation-cover"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 27.0,
+          "buy_url": "https://chargedcycleworks.com/products/tail-light-installation-cover"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-tail-light-installation-cover.webp"
+    },
+    {
+      "id": "chargedcycleworks-tail-light-mounting-bracket",
+      "name": "Surron Ultra Bee - Rear Blinker Kit Mounting Bracket",
+      "brand": "Surron-WN",
+      "category": "street",
+      "price_usd": 69.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tail-light-mounting-bracket",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tail-light-mounting-bracket"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 69.99,
+          "buy_url": "https://chargedcycleworks.com/products/tail-light-mounting-bracket"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-tail-light-mounting-bracket.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-turn-lamp-pair",
+      "name": "Surron Ultra Bee - Rear Turn Signals",
+      "brand": "Surron-WN",
+      "category": "street",
+      "price_usd": 64.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-turn-lamp-pair",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-turn-lamp-pair"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 64.99,
+          "buy_url": "https://chargedcycleworks.com/products/rear-turn-lamp-pair"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-turn-lamp-pair.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-tail-light",
+      "name": "Surron Ultra Bee - Tail Light for Blinker Kit",
+      "brand": "Surron-WN",
+      "category": "street",
+      "price_usd": 48.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-tail-light",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-tail-light"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 48.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-tail-light"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-tail-light.webp"
     }
   ],
   "compatibility": [
@@ -496,11 +696,11 @@
       "product_id": "street-lightbee-street-kit",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "street-lightbee-street-kit",
@@ -747,12 +947,12 @@
     {
       "product_id": "street-tusk-signal-kit",
       "bike_id": "lightbee",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
       ],
-      "notes": "Universal-style kit; confirm harness/connector"
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "street-tusk-signal-kit",
@@ -767,12 +967,12 @@
     {
       "product_id": "street-tusk-signal-kit",
       "bike_id": "mx4",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
       ],
-      "notes": "Universal-style kit; confirm harness/connector"
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "street-tusk-signal-kit",
@@ -787,12 +987,12 @@
     {
       "product_id": "street-tusk-signal-kit",
       "bike_id": "ss20",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
       ],
-      "notes": "Universal-style kit; confirm harness/connector"
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "street-tusk-signal-kit",
@@ -807,12 +1007,12 @@
     {
       "product_id": "street-tusk-signal-kit",
       "bike_id": "sr",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
       ],
-      "notes": "Universal-style kit; confirm harness/connector"
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "street-tusk-signal-kit",
@@ -837,22 +1037,22 @@
     {
       "product_id": "street-project9-talaria",
       "bike_id": "mx4",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "street-project9-talaria",
       "bike_id": "mx5",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/project-9-talaria-sting-mx4-5-turn-signal-kit"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "street-tarazon-walmart",
@@ -871,8 +1071,88 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-ultrabee-front-turn-signals",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/project-9-turn-signal-brake-light-kit-surron-talaria-eride-pro"
+    },
+    {
+      "product_id": "chargedcycleworks-front-turn-lamp-pair",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-turn-lamp-pair"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/front-turn-lamp-pair"
+    },
+    {
+      "product_id": "chargedcycleworks-project-9-surron-ultra-bee-turn-signal-kit",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/project-9-surron-ultra-bee-turn-signal-kit"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/project-9-surron-ultra-bee-turn-signal-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-turn-lamp-pair",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-turn-lamp-pair"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rear-turn-lamp-pair"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-tail-light",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-tail-light"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-tail-light"
+    },
+    {
+      "product_id": "chargedcycleworks-tail-light-installation-cover",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tail-light-installation-cover"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tail-light-installation-cover"
+    },
+    {
+      "product_id": "chargedcycleworks-tail-light-installation-decorative-block",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tail-light-installation-decorative-block"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tail-light-installation-decorative-block"
+    },
+    {
+      "product_id": "chargedcycleworks-tail-light-mounting-bracket",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tail-light-mounting-bracket"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tail-light-mounting-bracket"
     }
   ]
 }

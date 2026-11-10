@@ -452,6 +452,356 @@
       "weight_delta_kg": null,
       "image": "img/parts/stormbee-swingarm-oem.webp",
       "hidden": true
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters",
+      "name": "E Ride Pro - OEM Swingarm",
+      "brand": "ERide Pro",
+      "category": "swingarm",
+      "price_usd": 399.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 399.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-swingarm-replacement-bearings-surron-e-ride-pro",
+      "name": "EBMX Swingarm Replacement Bearings | Surron / E Ride Pro",
+      "brand": "Charged Powersports",
+      "category": "swingarm",
+      "price_usd": 2.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-swingarm-replacement-bearings-surron-e-ride-pro",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-swingarm-replacement-bearings-surron-e-ride-pro"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2.99,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-swingarm-replacement-bearings-surron-e-ride-pro"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-swingarm-replacement-bearings-surron-e-ride-pro.webp"
+    },
+    {
+      "id": "chargedcycleworks-kyvex-billet-swingarm-compatible-w-surron-ultra-bee",
+      "name": "KyVex Billet Swingarm – Surron Ultra Bee",
+      "brand": "KyVex Moto",
+      "category": "swingarm",
+      "price_usd": 1170.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-swingarm-compatible-w-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-swingarm-compatible-w-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1170.0,
+          "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-swingarm-compatible-w-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kyvex-billet-swingarm-compatible-w-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-swingarm-protectors-for-surron-ultra-bee",
+      "name": "RTech Swingarm Protectors for Surron Ultra Bee",
+      "brand": "Rtech",
+      "category": "swingarm",
+      "price_usd": 59.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/swingarm-protectors-for-surron-ultra-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/swingarm-protectors-for-surron-ultra-bee"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/swingarm-protectors-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-swingarm-protectors-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-carbon-black-without-bearings",
+      "name": "Surron Ultra Bee - OEM Swingarm (Carbon Black, without bearings)",
+      "brand": "Dian",
+      "category": "swingarm",
+      "price_usd": 644.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-carbon-black-without-bearings",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-carbon-black-without-bearings"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 644.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-carbon-black-without-bearings"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-carbon-black-without-bearings.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-bearing",
+      "name": "Surron Ultra Bee - OEM Swingarm Bearing",
+      "brand": "Dian",
+      "category": "swingarm",
+      "price_usd": 18.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bearing",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bearing"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 18.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bearing"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-bearing.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block",
+      "name": "Surron Ultra Bee - OEM Swingarm Bottom Protection Block",
+      "brand": "Dian",
+      "category": "swingarm",
+      "price_usd": 9.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing",
+      "name": "Surron Ultra Bee - OEM Swingarm Bottom Protection Block Bushing",
+      "brand": "Dian",
+      "category": "swingarm",
+      "price_usd": 2.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-pivot-bushing",
+      "name": "Surron Ultra Bee - OEM Swingarm Pivot Bushing",
+      "brand": "Dian",
+      "category": "swingarm",
+      "price_usd": 9.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-pivot-bushing",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-pivot-bushing"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.99,
+          "buy_url": "https://chargedcycleworks.com/products/ub-pivot-bushing"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-pivot-bushing.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-swingarm-pivot-shaft",
+      "name": "Surron Ultra Bee - OEM Swingarm Pivot Shaft (Axle)",
+      "brand": "Surron-WN",
+      "category": "swingarm",
+      "price_usd": 39.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-swingarm-pivot-shaft.webp"
+    },
+    {
+      "id": "chargedcycleworks-ub-swingarm-pivot-shaft-bolt",
+      "name": "Surron Ultra Bee - OEM Swingarm Pivot Shaft Axle Bolt",
+      "brand": "Surron",
+      "category": "swingarm",
+      "price_usd": 2.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2.99,
+          "buy_url": "https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ub-swingarm-pivot-shaft-bolt.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-washer",
+      "name": "Surron Ultra Bee - OEM Swingarm Washer",
+      "brand": "Dian",
+      "category": "swingarm",
+      "price_usd": 4.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-washer",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-washer"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 4.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-washer"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-washer.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9",
+      "name": "Warp9 12.9 Cryo Hardened Swingarm / Jackshaft Axle Bolt",
+      "brand": "Warp9",
+      "category": "swingarm",
+      "price_usd": 95.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 95.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9.webp"
+    },
+    {
+      "id": "chargedcycleworks-e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0",
+      "name": "Warp9 12mm Cryo Swingarm Bolt - E-Ride Pro SS 3.0 / SR",
+      "brand": "Warp9Racing",
+      "category": "swingarm",
+      "price_usd": 170.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title/variants name(s) ss30 exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 170.0,
+          "buy_url": "https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0.webp"
     }
   ],
   "compatibility": [
@@ -459,11 +809,11 @@
       "product_id": "swingarm-surron-oem",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://parts.electriccyclerider.com/products/surron-light-bee-swingarm"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "swingarm-surron-oem",
@@ -579,71 +929,71 @@
       "product_id": "swingarm-ebmx-extended",
       "bike_id": "lightbee",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedpowersports.com/products/ebmx-extended-swingarm"
       ],
-      "notes": ""
+      "notes": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "swingarm-ebmx-extended",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedpowersports.com/products/ebmx-extended-swingarm"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "swingarm-ebmx-extended",
       "bike_id": "ss30",
       "status": "confirmed_fit_with_adapter",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedpowersports.com/products/ebmx-extended-swingarm"
       ],
-      "notes": "CPS Edition variant"
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "swingarm-ebmx-extended",
       "bike_id": "sr",
       "status": "confirmed_fit_with_adapter",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedpowersports.com/products/ebmx-extended-swingarm"
       ],
-      "notes": "CPS Edition variant"
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "swingarm-eride-oem",
       "bike_id": "ss30",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "swingarm-eride-oem",
       "bike_id": "sr",
       "status": "confirmed_direct_fit",
-      "required_adapters": null,
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
       ],
-      "notes": ""
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "swingarm-eride-oem",
       "bike_id": "ss20",
-      "status": "verify",
-      "required_adapters": null,
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
       "fitment_source_urls": [
         "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
       ],
-      "notes": "Fits late-2024/2025 SS2.0; pre-2024 10mm-bearing bikes must verify"
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
     },
     {
       "product_id": "swingarm-eride-oem",
@@ -730,18 +1080,20 @@
       ],
       "notes": "VORO Motors lists fitment",
       "product_id": "voro-eride-ss-swingarm",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "ss30",
       "fitment_source_urls": [
-        "https://voromotors.com/products/swingarm-for-e-ride-pro-ss"
+        "https://voromotors.com/products/swingarm-for-e-ride-pro-ss",
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters",
+        "https://chargedcycleworks.com/collections/e-ride-pro-ss-3-0-oem-parts"
       ],
-      "notes": "Voro lists E Ride Pro SS; confirm for SS 3.0",
+      "notes": "CCW 'E Ride Pro - OEM Swingarm' fitment list names E Ride Pro SS 3.0 (also S, SS 2.0, SR); in the SS 3.0 OEM Parts collection (checked 2026-11-10)",
       "product_id": "voro-eride-ss-swingarm",
-      "required_adapters": null,
-      "status": "verify"
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
     },
     {
       "bike_id": "bonnell-805rx",
@@ -750,7 +1102,7 @@
       ],
       "notes": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
       "product_id": "swingarm-bonnell-805-rx-swingarm-assembly",
-      "required_adapters": null,
+      "required_adapters": [],
       "status": "confirmed_direct_fit"
     },
     {
@@ -760,6 +1112,176 @@
       "product_id": "stormbee-swingarm-oem",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-swingarm-replacement-bearings-surron-e-ride-pro",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-swingarm-replacement-bearings-surron-e-ride-pro"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-swingarm-replacement-bearings-surron-e-ride-pro"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-light-bee-12-9-cryo-swingarm-jackshaft-bolt-axle-by-warp-9"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0"
+    },
+    {
+      "product_id": "chargedcycleworks-e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-swingarm-replacement-bearings-surron-e-ride-pro",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-swingarm-replacement-bearings-surron-e-ride-pro"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ebmx-swingarm-replacement-bearings-surron-e-ride-pro"
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-billet-swingarm-compatible-w-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-swingarm-compatible-w-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/kyvex-billet-swingarm-compatible-w-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-bearing",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bearing"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bearing"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-carbon-black-without-bearings",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-carbon-black-without-bearings"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-carbon-black-without-bearings"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-washer",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-washer"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-washer"
+    },
+    {
+      "product_id": "chargedcycleworks-swingarm-protectors-for-surron-ultra-bee",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/swingarm-protectors-for-surron-ultra-bee"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/swingarm-protectors-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-pivot-bushing",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-pivot-bushing"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-pivot-bushing"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-swingarm-pivot-shaft",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft"
+    },
+    {
+      "product_id": "chargedcycleworks-ub-swingarm-pivot-shaft-bolt",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt"
+      ],
+      "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt"
     }
   ]
 }
