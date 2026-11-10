@@ -1,4 +1,4 @@
-// Form intake for contact, part reports and price/stock alert signups. Free.
+// Form intake for contact, part reports and bike price-drop alert signups. Free.
 // Storage: Workers KV namespace bound as FORMS (Pages > Settings > Bindings).
 // If FORMS is not bound yet, returns 503 and the page falls back to the email app.
 const TYPES = { contact: ['name', 'email', 'message'], report: ['part', 'bike', 'problem', 'source', 'email'], alert: ['email', 'bike', 'build'], used: ['title', 'category', 'fits', 'condition', 'price', 'location', 'seller', 'email', 'description', 'catalog'] };
@@ -13,6 +13,7 @@ export async function onRequestPost({ request, env }) {
   if ((type === 'alert' || type === 'used' || rec.email) && !okEmail(rec.email)) return j({ ok: false, error: 'bad_email' }, 400);
   if (type === 'contact' && !rec.message) return j({ ok: false, error: 'missing' }, 400);
   if (type === 'report' && !rec.problem) return j({ ok: false, error: 'missing' }, 400);
+  if (type === 'alert' && !rec.bike) return j({ ok: false, error: 'missing' }, 400); // alerts are per bike; no bike = dead signup
   if (type === 'used' && !rec.title) return j({ ok: false, error: 'missing' }, 400);
   if (!env.FORMS) return j({ ok: false, error: 'storage_not_configured' }, 503);
   const key = type === 'alert' ? `alert:${rec.email.toLowerCase()}:${rec.bike || 'any'}` : `${type}:${rec.at}:${crypto.randomUUID().slice(0, 8)}`;

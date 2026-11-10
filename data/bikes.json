@@ -65,8 +65,8 @@
       "id": "ultrabee",
       "image": "img/bike-ultrabee.png",
       "name": "Sur-Ron Ultra Bee 24.5kW",
-      "price_source": "msrp",
-      "price_usd": 6999,
+      "price_source": "voro",
+      "price_usd": 6399,
       "stock_specs": {
         "peak_kw": 24.5,
         "weight_lb": 195,
@@ -82,7 +82,7 @@
       "image": "img/bike-ss20.png",
       "name": "E Ride Pro SS 2.0",
       "price_source": "charged_cycle_works",
-      "price_usd": 4599,
+      "price_usd": 4299,
       "stock_specs": {
         "peak_kw": 12,
         "weight_lb": 139,
@@ -216,8 +216,8 @@
       "id": "arctic-xd",
       "image": "img/bike-arctic-xd.png",
       "name": "Arctic Leopard XD Pro",
-      "price_source": "tbd",
-      "price_usd": null,
+      "price_source": "msrp",
+      "price_usd": 6599,
       "stock_specs": {
         "peak_kw": 35,
         "weight_lb": 209.4,
@@ -226,7 +226,8 @@
         "wheel_source_url": "https://arctic-leopard.com/produit/x%c2%b7d-pro/"
       },
       "size": "full",
-      "notes": "Weight 209.4 lb from the Arctic Leopard USA product page (https://arctic-leopard-usa.com/products/xd-pro), checked Nov 10, 2026. Other published figures include 196 lb (global) and 204 lb (Charged Cycle Works)."
+      "notes": "Weight 209.4 lb from the Arctic Leopard USA product page (https://arctic-leopard-usa.com/products/xd-pro), checked Nov 10, 2026. Other published figures include 196 lb (global) and 204 lb (Charged Cycle Works).",
+      "fitment_sparse": true
     },
     {
       "id": "rerode-rx",
@@ -655,7 +656,7 @@
       "image": "img/bike-arctic-leopard-xe-pro-r.png",
       "name": "Arctic Leopard XE Pro R",
       "price_source": "msrp",
-      "price_usd": 5799,
+      "price_usd": 5395,
       "stock_specs": {
         "peak_kw": 26.5,
         "weight_lb": 175,

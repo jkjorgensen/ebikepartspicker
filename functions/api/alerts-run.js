@@ -7,7 +7,7 @@ import { makeUnsubToken } from '../_lib/unsub-token.js';
 
 const SITE = 'https://ebikepartspicker.net';
 const FROM = 'eBikePartsPicker Alerts <alerts@ebikepartspicker.net>';
-const REPLY_TO = 'alerts@ebikepartspicker.net';
+const REPLY_TO = 'ebikepartspicker@gmail.com';
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const usd = (n) => '$' + Number(n).toLocaleString('en-US');
 

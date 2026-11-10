@@ -926,7 +926,7 @@
     {
       "badge": "X-9000",
       "brand": "EBMX",
-      "buy_url": "https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=51161676349656",
       "category": "controller",
       "controller_max_kw": 60,
       "id": "ebmx-x-9000-v3",
@@ -944,7 +944,7 @@
       "vendor": "Charged Cycle Works",
       "vendors": [
         {
-          "buy_url": "https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product",
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=51161676349656",
           "price_usd": 1164,
           "vendor": "Charged Cycle Works"
         },

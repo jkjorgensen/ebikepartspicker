@@ -1,8 +1,9 @@
-/* eBikePartsPicker catalog. Catalog v4.15.1, last researched 2026-11-10.
+/* eBikePartsPicker catalog. Catalog v4.15.2, last researched 2026-11-10.
    46 bikes / 23 categories / 997 parts (990 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
-   && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py */
+   && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py
+   Bike prices: keep data/bikes.json price_usd in sync with BIKES[].price (price alerts read bikes.json). */
 
 var CHECKED = 'Oct 18, 2026'; /* per-price chk = date that price was confirmed on the retailer page */
 
@@ -21,7 +22,7 @@ var BIKES = [
   {id:'komodo', name:'Talaria Komodo', price:5699, src:'msrp', weight:216, kw:32, size:'full'},
   {id:'bonnell-805rx', name:'Bonnell 805 RX', price:8250, src:'charged_cycle_works', weight:218, kw:42, size:'full'},
   {id:'storm-bee', name:'Sur-Ron Storm Bee F', price:8499, src:'msrp', weight:280, kw:22.5, size:'full'},
-  {id:'arctic-xd', name:'Arctic Leopard XD Pro', price:6599, src:'msrp', srcUrl:'https://arctic-leopard-usa.com/products/xd-pro', srcChk:'2026-11-10', weight:209.4, kw:35, size:'full'},
+  {id:'arctic-xd', name:'Arctic Leopard XD Pro', price:6599, src:'msrp', srcUrl:'https://arctic-leopard-usa.com/products/xd-pro', srcChk:'2026-11-10', weight:209.4, kw:35, size:'full', sparse:1},
   {id:'rerode-rx', name:'Re Rode RX', price:6200, src:'msrp', weight:225, kw:35, size:'full', sparse:1},
   {id:'rawrr-mantis-72v', name:'Rawrr Mantis 72V', price:4499, src:'msrp', weight:158.5, kw:15, size:'mid', sparse:1},
   {id:'rawrr-mantis-x-pro', name:'Rawrr Mantis X Pro', price:3899, src:'msrp', weight:158.5, kw:15, size:'mid', sparse:1},
@@ -298,7 +299,7 @@ var CATEGORIES = [
     {name:'Stock controller', prices:[]},
     {name:'EBMX X-9000 V3', pid:'ebmx-x-9000-v3', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:1164, url:'https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product'},
+      {v:'Charged Cycle Works', p:1164, url:'https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=51161676349656', chk:'2026-11-10'},
       /* AFFILIATE: replace with affiliate link */
       {v:'REV Rides', p:1164, url:'https://revrides.com/products/ebmx-x-9000-v3-controller', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
