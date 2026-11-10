@@ -343,6 +343,7 @@ function syncBikeInputs(){
     var el = $(id);
     if(el && document.activeElement!==el) el.value = b.name;
   });
+  var ab = $('alBike'); if(ab) ab.value = state.bike || ''; /* price-drop alert signups are per bike */
 }
 function initBikePicker(inputId, listId, onPick){
   var input = $(inputId), list = $(listId);
@@ -710,7 +711,7 @@ function render(){
   syncBikeInputs();
   var bsEl = $('bikeSrc'); bsEl.textContent = bikeSrcText(b);
   if(b.src==='voro' && b.srcUrl){ bsEl.textContent=''; var va=document.createElement('a'); va.href=b.srcUrl; va.target='_blank'; va.rel='noopener sponsored';
-    va.textContent='Bike price at Voro Motors'; bsEl.appendChild(va); bsEl.appendChild(document.createTextNode(' (checked '+CHECKED+(b.msrp?'; MSRP '+money(b.msrp):'')+')')); }
+    va.textContent='Bike price at Voro Motors (affiliate link)'; bsEl.appendChild(va); bsEl.appendChild(document.createTextNode(' (checked '+CHECKED+(b.msrp?'; MSRP '+money(b.msrp):'')+')')); }
 
   var img = $('bikeImg'), src = previewSrc();
   setResponsiveBikePhoto(img, src, {eager:true, sizes:'(max-width: 900px) 100vw, 720px'});
@@ -1226,18 +1227,31 @@ $('btnBack').addEventListener('click', function(){
 $('btnNext').addEventListener('click', function(){
   if(state.step<totalSteps()-1){ state.step++; render(); window.scrollTo(0,0); }
 });
-/* Notify-me signup (start page): no backend — opens a prefilled email */
+/* Notify-me signup (start page): saved via /api/submit (contact type); email app only if storage is down */
 (function(){
   var btn = $('notifyBtn'), inp = $('notifyEmail'), err = $('notifyErr');
   if(!btn || !inp) return;
-  function submit(){
-    var v = inp.value.trim();
-    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)){ if(err) err.hidden = false; return; }
-    if(err) err.hidden = true;
+  function mailFallback(v){
     var subj = 'Notify list signup';
     var body = 'Please notify me when new bikes and parts are added.\n\nEmail: '+v;
     location.href = 'mailto:ebikepartspicker@gmail.com?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(body);
     toast('Opening your mail app to confirm the signup.');
+  }
+  function submit(){
+    var v = inp.value.trim();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)){ if(err) err.hidden = false; return; }
+    if(err) err.hidden = true;
+    btn.disabled = true;
+    fetch('/api/submit',{method:'POST',headers:{'content-type':'application/json'},
+      body:JSON.stringify({type:'contact',name:'Notify list signup',email:v,message:'Notify me when new bikes and parts are added.',page:location.pathname})})
+      .then(function(r){ return r.json(); })
+      .then(function(j){
+        btn.disabled = false;
+        if(j && j.ok){ inp.value=''; toast('You\u2019re on the list. We\u2019ll email you when new bikes and parts are added.'); return; }
+        if(j && j.error==='bad_email'){ if(err) err.hidden = false; return; }
+        mailFallback(v);
+      })
+      .catch(function(){ btn.disabled = false; mailFallback(v); });
   }
   btn.addEventListener('click', submit);
   inp.addEventListener('keydown', function(e){ if(e.key==='Enter') submit(); });

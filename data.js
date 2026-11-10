@@ -298,7 +298,7 @@ var CATEGORIES = [
     {name:'Stock controller', prices:[]},
     {name:'EBMX X-9000 V3', pid:'ebmx-x-9000-v3', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:1164, url:'https://chargedcycleworks.com/search?q=ebmx+x-9000+v3+controller+kit&type=product'},
+      {v:'Charged Cycle Works', p:1164, url:'https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=51161676349656', chk:'2026-11-10'},
       /* AFFILIATE: replace with affiliate link */
       {v:'REV Rides', p:1164, url:'https://revrides.com/products/ebmx-x-9000-v3-controller', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */

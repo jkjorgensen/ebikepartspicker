@@ -913,6 +913,7 @@ html{scroll-padding-top:90px}
   .topbar .logo .wordmark{display:none}
   .start{padding-top:86px}
 }
+@media(max-width:420px){ .ux-tools{min-width:0;flex-shrink:1} .ux-bike{max-width:140px;min-width:0} }
 @media(max-width:380px){ .ux-strip .wordmark{display:none} }
 @media(hover:none){ .ux-sbtn kbd{display:none} }
 
