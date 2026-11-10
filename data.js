@@ -54,6 +54,14 @@ var BIKES = [
 ];
 
 var FITMENT = {
+  'cpdusa-rtech-bi-material-frame-protectors-ultra-bee-black|ultrabee-21kw':{s:'confirmed_direct_fit',n:'CPD USA title names Sur-Ron Ultra Bee 2023-2025 (checked Nov 10, 2026)',u:['https://www.cpd-usa.com/shop/rtech-bi-material-frame-protectors-for-sur-ron-ultra-bee-2023-2025-black']},
+  'cpdusa-rtech-bi-material-frame-protectors-ultra-bee-black|ultrabee':{s:'verify',n:'CPD fitment field says ULTRA BEE (2023-2026) but title/description say 2023-2025 (checked Nov 10, 2026)',u:['https://www.cpd-usa.com/shop/rtech-bi-material-frame-protectors-for-sur-ron-ultra-bee-2023-2025-black']},
+  'cpdusa-rtech-bi-material-frame-protectors-ultra-bee-black|ultrabee-hd':{s:'verify',n:'HD variant not named by CPD USA (checked Nov 10, 2026)',u:['https://www.cpd-usa.com/shop/rtech-bi-material-frame-protectors-for-sur-ron-ultra-bee-2023-2025-black']},
+  'mxwraps-79bike-ventus-frame-guards-pro-lite-gt|falcon-pro':{s:'confirmed_direct_fit',n:'MXwraps fitment names 79Bike Falcon Pro (checked Nov 10, 2026)',u:['https://mxwraps.us/products/79bike-ventus-frame-guards-pro-lite-gt']},
+  'mxwraps-79bike-ventus-frame-guards-pro-lite-gt|falcon-gt':{s:'confirmed_direct_fit',n:'MXwraps fitment names 79Bike Falcon GT (checked Nov 10, 2026)',u:['https://mxwraps.us/products/79bike-ventus-frame-guards-pro-lite-gt']},
+  'mxwraps-79bike-ventus-frame-guards-pro-lite-gt|ventus-plus':{s:'verify',n:'MXwraps says \'all Ventus models\'; One Plus not named (checked Nov 10, 2026)',u:['https://mxwraps.us/products/79bike-ventus-frame-guards-pro-lite-gt']},
+  'mxwraps-79bike-ventus-frame-guards-pro-lite-gt|ventus-evo':{s:'verify',n:'MXwraps says \'all Ventus models\'; V1+ EVO not named. Pinned Electric says EVO kept the V1+ chassis (checked Nov 10, 2026)',u:['https://mxwraps.us/products/79bike-ventus-frame-guards-pro-lite-gt', 'https://pinnedelectric.com/blogs/pinned-pulse/ventus-v1-evo-the-evolution-of-a-best-selling-electric-dirt-bike']},
+  'mxwraps-surron-coated-frame-guards-lbx|lightbee':{s:'confirmed_direct_fit',n:'MXwraps FAQ: fits the Surron Light Bee X (LBX) (checked Nov 10, 2026)',u:['https://mxwraps.us/products/surron-coated-frame-guards-lbx']},
   'rippin-blackline-offroad-lb2|lightbee2':{s:'confirmed_direct_fit',n:'Rippin Moto sells this as an LB2-specific wheelset (19/16, 19/18, 21/18). 21" front may hit fork/fender at full compression; taller rear may need a longer chain (checked Nov 4, 2026)',u:['https://rippinmoto.com/products/blackline-off-road-wheelset-for-sur-ron-light-bee-2']},
   'rippin-blackline-sm-lb2|lightbee2':{s:'confirmed_direct_fit',n:'Rippin Moto sells this as an LB2-specific supermoto wheelset (16/16, 17/17). Rotors and rear sprocket not included (checked Nov 4, 2026)',u:['https://rippinmoto.com/products/blackline-supermoto-wheelset-for-sur-ron-light-bee-2']},
   'ebg-lb2-sprocket-520|lightbee2':{s:'confirmed_direct_fit',n:'EBG lists this 520 rear sprocket for the Light Bee 2 (stock is 520 chain, 43T). Pre-order, est. ship Nov 15, 2026 (checked Nov 4, 2026)',u:['https://ebikegarage.shop/product/surron-light-bee-2-520-rear-sprocket/','https://sur-ron.co.nz/products/surron-light-bee-2-my26-520-o-ring-chain-mpc-13114-y031a-0100']},
@@ -2930,6 +2938,27 @@ var CATEGORIES = [
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05'
+    },
+    {name:"RTech Bi-Material Frame Protectors — Sur-Ron Ultra Bee (2023-2025), Black", pid:'cpdusa-rtech-bi-material-frame-protectors-ultra-bee-black', tier:'budget',
+     prices:[
+      {v:'CPD USA', p:59.99, url:'https://www.cpd-usa.com/shop/rtech-bi-material-frame-protectors-for-sur-ron-ultra-bee-2023-2025-black', chk:'2026-11-10'},
+     ],
+     fits:["ultrabee-21kw"], likely:["ultrabee", "ultrabee-hd"], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/cpdusa-rtech-bi-material-frame-protectors-ultra-bee-black.webp'
+    },
+    {name:"MXwraps 79Bike/Ventus Frame Guards (Pro/Lite/GT), Black", pid:'mxwraps-79bike-ventus-frame-guards-pro-lite-gt', tier:'mid',
+     prices:[
+      {v:'MXwraps', p:189.99, url:'https://mxwraps.us/products/79bike-ventus-frame-guards-pro-lite-gt', chk:'2026-11-10'},
+     ],
+     fits:["falcon-pro", "falcon-gt"], likely:["ventus-plus", "ventus-evo"], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/mxwraps-79bike-ventus-frame-guards-pro-lite-gt.webp'
+    },
+    {name:"MXwraps Surron Light Bee X Frame Guards", pid:'mxwraps-surron-coated-frame-guards-lbx', tier:'mid',
+     prices:[
+      {v:'MXwraps', p:149.99, url:'https://mxwraps.us/products/surron-coated-frame-guards-lbx', chk:'2026-11-10'},
+     ],
+     fits:["lightbee"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/mxwraps-surron-coated-frame-guards-lbx.webp'
     },
 ]},
   {id:'linkage', name:'Linkage', blurb:'Connects the shock to the swingarm and sets the leverage curve — subtle but noticeable.', tips:['Bike-specific fitment — no universal options','Usually chosen alongside the shock'], options:[
