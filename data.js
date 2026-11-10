@@ -1,8 +1,9 @@
-/* eBikePartsPicker catalog. Catalog v4.15.1, last researched 2026-11-10.
+/* eBikePartsPicker catalog. Catalog v4.15.2, last researched 2026-11-10.
    46 bikes / 23 categories / 997 parts (990 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
-   && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py */
+   && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py
+   Bike prices: keep data/bikes.json price_usd in sync with BIKES[].price (price alerts read bikes.json). */
 
 var CHECKED = 'Oct 18, 2026'; /* per-price chk = date that price was confirmed on the retailer page */
 
