@@ -461,7 +461,7 @@
     },
     {
       "id": "chargedcycleworks-talaria-mx3-throttle-adapter-green-connector-mx4-mx5",
-      "name": "Talaria MX3 – Throttle Wire Adapter to Green Connector (MX4/MX5/X3) | OEM",
+      "name": "Talaria MX3 \u2013 Throttle Wire Adapter to Green Connector (MX4/MX5/X3) | OEM",
       "brand": "Talaria",
       "category": "electrical",
       "price_usd": 14.99,
@@ -556,7 +556,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/electrical-bonnell-805-rx-large-display.webp"
     },
     {
       "id": "electrical-bonnell-805-rx-killswitch-main-unit",
@@ -585,7 +585,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/electrical-bonnell-805-rx-killswitch-main-unit.webp"
     },
     {
       "id": "electrical-bonnell-805-rx-front-junction-box-and-harness",
@@ -663,7 +663,7 @@
       "weight_kg": null,
       "power_change_kw": null,
       "weight_delta_kg": null,
-      "image": "img/parts/electrical-torp-egg-rider.png",
+      "image": null,
       "hidden": true
     },
     {
@@ -871,7 +871,7 @@
     },
     {
       "id": "chargedcycleworks-e-ride-pro-oem-rengen-brake",
-      "name": "E Ride Pro SR – Regen Brake | OEM",
+      "name": "E Ride Pro SR \u2013 Regen Brake | OEM",
       "brand": "ERide Pro",
       "category": "electrical",
       "price_usd": 25.0,
@@ -896,7 +896,7 @@
     },
     {
       "id": "chargedcycleworks-eride-pro-horn-switch-mini-mini-r-sr-oem",
-      "name": "E Ride Pro – Mini / Mini R / SR Horn Switch | OEM",
+      "name": "E Ride Pro \u2013 Mini / Mini R / SR Horn Switch | OEM",
       "brand": "ERide Pro",
       "category": "electrical",
       "price_usd": 45.0,
@@ -1246,7 +1246,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-headlight-bracket-oem",
-      "name": "Surron Ultra Bee – Headlight Bracket | OEM",
+      "name": "Surron Ultra Bee \u2013 Headlight Bracket | OEM",
       "brand": "Surron-WN",
       "category": "electrical",
       "price_usd": 39.2,
@@ -1271,7 +1271,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-headlight-trim-block-oem",
-      "name": "Surron Ultra Bee – Headlight Trim Block | OEM",
+      "name": "Surron Ultra Bee \u2013 Headlight Trim Block | OEM",
       "brand": "Surron-WN",
       "category": "electrical",
       "price_usd": 21.0,
@@ -1371,7 +1371,7 @@
     },
     {
       "id": "chargedcycleworks-e-ride-control-switch",
-      "name": "E Ride Pro - OEM Turbo Control Switch – Pro S / SS 2.0",
+      "name": "E Ride Pro - OEM Turbo Control Switch \u2013 Pro S / SS 2.0",
       "brand": "ERide Pro",
       "category": "electrical",
       "price_usd": 50.0,
@@ -1421,7 +1421,7 @@
     },
     {
       "id": "chargedcycleworks-e-ride-pro-ss3-oem-breaker-switch-kit",
-      "name": "E Ride Pro – OEM Circuit Breaker Switch Kit with Screws (SS 3.0)",
+      "name": "E Ride Pro \u2013 OEM Circuit Breaker Switch Kit with Screws (SS 3.0)",
       "brand": "ERide Pro",
       "category": "electrical",
       "price_usd": 25.0,
@@ -1446,7 +1446,7 @@
     },
     {
       "id": "chargedcycleworks-e-ride-pro-oem-taillight-kit",
-      "name": "E Ride Pro – OEM Taillight Kit (S/2.0/3.0)",
+      "name": "E Ride Pro \u2013 OEM Taillight Kit (S/2.0/3.0)",
       "brand": "ERide Pro",
       "category": "electrical",
       "price_usd": 33.0,
@@ -1471,7 +1471,7 @@
     },
     {
       "id": "chargedcycleworks-e-ride-pro-e7570-control-switch",
-      "name": "E Ride Pro – Pro S / SS 2.0 / SS 3.0 Control Switch | OEM",
+      "name": "E Ride Pro \u2013 Pro S / SS 2.0 / SS 3.0 Control Switch | OEM",
       "brand": "ERide Pro",
       "category": "electrical",
       "price_usd": 49.0,
@@ -1521,7 +1521,7 @@
     },
     {
       "id": "chargedcycleworks-project-9-surron-ultra-bee-brake-light",
-      "name": "Project 9 – Surron Ultra Bee Brake Light",
+      "name": "Project 9 \u2013 Surron Ultra Bee Brake Light",
       "brand": "Project9",
       "category": "electrical",
       "price_usd": 99.95,
@@ -1796,7 +1796,7 @@
     },
     {
       "id": "chargedcycleworks-talaria-mx5-x3pro-display-color-oem",
-      "name": "Talaria Sting MX5 / X3 Pro – Replacement Color Display | OEM",
+      "name": "Talaria Sting MX5 / X3 Pro \u2013 Replacement Color Display | OEM",
       "brand": "Talaria",
       "category": "electrical",
       "price_usd": 159.99,
@@ -1821,7 +1821,7 @@
     },
     {
       "id": "chargedcycleworks-talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem",
-      "name": "Talaria – Kickstand Power-Off Sensor (MX3 / MX4 / MX5 / X3) | OEM",
+      "name": "Talaria \u2013 Kickstand Power-Off Sensor (MX3 / MX4 / MX5 / X3) | OEM",
       "brand": "eBikeZilla",
       "category": "electrical",
       "price_usd": 16.99,

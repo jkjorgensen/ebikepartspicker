@@ -136,7 +136,7 @@
     },
     {
       "id": "howlingmoto-surron-ultra-bee-replacement-charger-12a",
-      "name": "Surron Ultra Bee Replacement Charger – 12A",
+      "name": "Surron Ultra Bee Replacement Charger \u2013 12A",
       "brand": "FactoryZ",
       "category": "chargers",
       "price_usd": 489.99,
@@ -310,7 +310,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-85v-15a-fast-charger-oem",
-      "name": "Surron Ultra Bee – 85V 15A Fast Charger | OEM",
+      "name": "Surron Ultra Bee \u2013 85V 15A Fast Charger | OEM",
       "brand": "Surron-WN",
       "category": "chargers",
       "price_usd": 408.5,
@@ -403,7 +403,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/charger-bonnell-805-rx-charger-2500w-100-8v-30a-us.webp"
     },
     {
       "id": "charger-bonnell-805-rx-charger-1500w-100-8v-20a-us",
@@ -432,7 +432,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/charger-bonnell-805-rx-charger-1500w-100-8v-20a-us.webp"
     },
     {
       "id": "talaria-mx4-oem-charger",
@@ -460,7 +460,7 @@
       "weight_kg": null,
       "power_change_kw": null,
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/talaria-mx4-oem-charger.webp"
     },
     {
       "id": "ccw-fast-charger-72v-15a",
@@ -488,7 +488,7 @@
       "weight_kg": null,
       "power_change_kw": null,
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/ccw-fast-charger-72v-15a.webp"
     }
   ],
   "compatibility": [

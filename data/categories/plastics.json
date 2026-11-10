@@ -29,7 +29,7 @@
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
       "last_checked": "2026-10-11",
-      "notes": "Made to order — pick bike + colors",
+      "notes": "Made to order \u2014 pick bike + colors",
       "variant": "custom",
       "weight_delta_kg": null,
       "image": "img/parts/guts-seat-cover.webp"
@@ -306,7 +306,7 @@
     },
     {
       "id": "ecd-wrap-ridge",
-      "name": "ECD Customs RIDGE Frame Wrap — 79Bike / Ventus One+",
+      "name": "ECD Customs RIDGE Frame Wrap \u2014 79Bike / Ventus One+",
       "brand": "ECD Customs",
       "category": "plastics",
       "badge": null,
@@ -329,14 +329,14 @@
         "https://ecdwraps.com/products/79bike-ventusone-ridge"
       ],
       "last_checked": "2026-10-12",
-      "notes": "RIDGE graphic frame wrap. Price not listed — TBD.",
+      "notes": "RIDGE graphic frame wrap. Price not listed \u2014 TBD.",
       "variant": null,
       "weight_delta_kg": null,
       "image": null
     },
     {
       "id": "armysctv-talaria-custom",
-      "name": "ArmySCTV 100% Custom Graphics Kit — Talaria MX3/MX4",
+      "name": "ArmySCTV 100% Custom Graphics Kit \u2014 Talaria MX3/MX4",
       "brand": "ArmySCTV",
       "category": "plastics",
       "badge": null,
@@ -359,14 +359,14 @@
         "https://armysctv.com/en/products/kit-deco-100-perso-talaria-sting-mx3-r-mx4"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Fully custom graphics kit. Price not listed — TBD.",
+      "notes": "Fully custom graphics kit. Price not listed \u2014 TBD.",
       "variant": null,
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/armysctv-talaria-custom.webp"
     },
     {
       "id": "ecr-graphics-talaria",
-      "name": "ECR Graphics Kit (180 Decals) — Talaria MX3/MX4",
+      "name": "ECR Graphics Kit (180 Decals) \u2014 Talaria MX3/MX4",
       "brand": "ECR Graphics",
       "category": "plastics",
       "badge": null,
@@ -389,7 +389,7 @@
         "https://parts.electriccyclerider.com/products/180-decals-graphics-for-talaria-sting-mx3-mx4"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Graphics kit via 180 Decals. Price not listed — TBD.",
+      "notes": "Graphics kit via 180 Decals. Price not listed \u2014 TBD.",
       "variant": null,
       "weight_delta_kg": null,
       "image": null
@@ -426,7 +426,7 @@
     },
     {
       "id": "rev797-wrap-022",
-      "name": "Rev797 Graphics/Wrap 022 — Multi-bike",
+      "name": "Rev797 Graphics/Wrap 022 \u2014 Multi-bike",
       "brand": "Rev797",
       "category": "plastics",
       "badge": null,
@@ -449,10 +449,10 @@
         "https://www.rev797.com/products/graphics-wrap-022"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Wrap 022 graphic. Price not listed — TBD.",
+      "notes": "Wrap 022 graphic. Price not listed \u2014 TBD.",
       "variant": null,
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/rev797-wrap-022.webp"
     },
     {
       "id": "voro-ultrabee-side-fairings",
@@ -644,7 +644,7 @@
     },
     {
       "id": "howlingmoto-surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-bo",
-      "name": "Surron Light Bee Carbon Fiber Plastics Kit – Full 9-Piece Body Kit (Fits Segway X160/X260)",
+      "name": "Surron Light Bee Carbon Fiber Plastics Kit \u2013 Full 9-Piece Body Kit (Fits Segway X160/X260)",
       "brand": "FactoryZ",
       "category": "plastics",
       "price_usd": 17.99,
@@ -746,7 +746,7 @@
     },
     {
       "id": "howlingmoto-talaria-sting-mx3-mx4-carbon-fiber-plastics-kit-full-kit-o",
-      "name": "Talaria Sting MX3 / MX4 Carbon Fiber Plastics Kit – Full Kit or Individual Pieces",
+      "name": "Talaria Sting MX3 / MX4 Carbon Fiber Plastics Kit \u2013 Full Kit or Individual Pieces",
       "brand": "FactoryZ",
       "category": "plastics",
       "price_usd": 19.99,
@@ -780,7 +780,7 @@
     },
     {
       "id": "howlingmoto-dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-exten",
-      "name": "DirtyBike Long Rear Fender for Talaria Sting MX3 / MX4 – Extended Protection",
+      "name": "DirtyBike Long Rear Fender for Talaria Sting MX3 / MX4 \u2013 Extended Protection",
       "brand": "eDirtyBike",
       "category": "plastics",
       "price_usd": 28.0,
@@ -1292,7 +1292,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/plastics-bonnell-805-oem-plastics-kit.webp"
     },
     {
       "id": "plastics-bonnell-805-rx-common-plastics-kit",
@@ -1321,7 +1321,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/plastics-bonnell-805-rx-common-plastics-kit.webp"
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-oem-side-plate-brackets",
@@ -1350,7 +1350,7 @@
     },
     {
       "id": "chargedcycleworks-bonnell-805-rx-frame-assembly",
-      "name": "Bonnell 805 – 805 Frame Assembly",
+      "name": "Bonnell 805 \u2013 805 Frame Assembly",
       "brand": "Bonnell",
       "category": "plastics",
       "price_usd": 1500.0,
@@ -1375,7 +1375,7 @@
     },
     {
       "id": "chargedcycleworks-bonnell-805-rx-welded-subframe",
-      "name": "Bonnell 805 – Welded Subframe",
+      "name": "Bonnell 805 \u2013 Welded Subframe",
       "brand": "Bonnell",
       "category": "plastics",
       "price_usd": 249.95,
@@ -1575,7 +1575,7 @@
     },
     {
       "id": "chargedcycleworks-e-ride-pro-oem-battery-positioning-support-base-with-6bolts",
-      "name": "E Ride Pro – OEM Battery Support Base with 6 Bolts (All Models)",
+      "name": "E Ride Pro \u2013 OEM Battery Support Base with 6 Bolts (All Models)",
       "brand": "ERide Pro",
       "category": "plastics",
       "price_usd": 21.0,
@@ -1875,7 +1875,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem",
-      "name": "Surron Ultra Bee – Battery Compartment Panels Left & Right | OEM Covers",
+      "name": "Surron Ultra Bee \u2013 Battery Compartment Panels Left & Right | OEM Covers",
       "brand": "Surron-WN",
       "category": "plastics",
       "price_usd": 12.99,
@@ -1900,7 +1900,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-frame-shroud-left-right-oem",
-      "name": "Surron Ultra Bee – Frame Shroud (Left / Right) | OEM",
+      "name": "Surron Ultra Bee \u2013 Frame Shroud (Left / Right) | OEM",
       "brand": "Surron-WN",
       "category": "plastics",
       "price_usd": 24.99,
@@ -1925,7 +1925,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-guard-board-oem-black-white",
-      "name": "Surron Ultra Bee – Guard Board – Black / White | OEM",
+      "name": "Surron Ultra Bee \u2013 Guard Board \u2013 Black / White | OEM",
       "brand": "Surron-WN",
       "category": "plastics",
       "price_usd": 14.7,
@@ -1950,7 +1950,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-handle-guard-mount-base-left-right-oem",
-      "name": "Surron Ultra Bee – Handle Guard Mount Base (Left / Right) | OEM",
+      "name": "Surron Ultra Bee \u2013 Handle Guard Mount Base (Left / Right) | OEM",
       "brand": "Surron-WN",
       "category": "plastics",
       "price_usd": 22.6,
@@ -1975,7 +1975,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-lower-side-panel-oem",
-      "name": "Surron Ultra Bee – Left & Right Lower Side Panels | OEM",
+      "name": "Surron Ultra Bee \u2013 Left & Right Lower Side Panels | OEM",
       "brand": "Surron-WN",
       "category": "plastics",
       "price_usd": 28.8,
@@ -2000,7 +2000,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-midshaft-guard-oem",
-      "name": "Surron Ultra Bee – Midshaft Guard | OEM",
+      "name": "Surron Ultra Bee \u2013 Midshaft Guard | OEM",
       "brand": "Surron-WN",
       "category": "plastics",
       "price_usd": 16.0,
@@ -2025,7 +2025,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-rear-fender-cover-plate-oem",
-      "name": "Surron Ultra Bee – Rear Fender Cover Plate | OEM",
+      "name": "Surron Ultra Bee \u2013 Rear Fender Cover Plate | OEM",
       "brand": "Surron-WN",
       "category": "plastics",
       "price_usd": 16.99,
@@ -2050,7 +2050,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-rear-mud-flap-oem",
-      "name": "Surron Ultra Bee – Rear Mud Flap | OEM",
+      "name": "Surron Ultra Bee \u2013 Rear Mud Flap | OEM",
       "brand": "Surron-WN",
       "category": "plastics",
       "price_usd": 31.0,
@@ -2075,7 +2075,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-steering-block-left-right-oem",
-      "name": "Surron Ultra Bee – Steering Block (Left / Right) | OEM",
+      "name": "Surron Ultra Bee \u2013 Steering Block (Left / Right) | OEM",
       "brand": "Surron-WN",
       "category": "plastics",
       "price_usd": 8.0,
@@ -2100,7 +2100,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-subframe-fender-oem",
-      "name": "Surron Ultra Bee – Subframe Fender | OEM",
+      "name": "Surron Ultra Bee \u2013 Subframe Fender | OEM",
       "brand": "Surron-WN",
       "category": "plastics",
       "price_usd": 60.99,
@@ -2125,7 +2125,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-usb-decorative-cover-oem",
-      "name": "Surron Ultra Bee – USB Decorative Cover | OEM",
+      "name": "Surron Ultra Bee \u2013 USB Decorative Cover | OEM",
       "brand": "Surron-WN",
       "category": "plastics",
       "price_usd": 12.99,

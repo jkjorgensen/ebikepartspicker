@@ -4,7 +4,7 @@ Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed 
 
 | bike | source page | image |
 |---|---|---|
-| ventus-plus | restored pre-overhaul image (git tag checkpoint-2026-10-18-pre-audit, img/bike-ventus-plus.png), per site owner; this is an AI-generated studio render, not a manufacturer photo |
+| ventus-plus | https://blackoutmoto.com/products/2026-ventus-one-plus | https://cdn.shopify.com/s/files/1/0809/8037/7855/files/ventus-one-72v-28kw-6144993.jpg?v=1780751473&width=2000 |
 | ventus-evo | https://chargedcycleworks.com/products/ventus-one-plus-v1-evo-36kw-electric-motorcycle | product gallery image |
 | lightbee | https://surron.ca/pages/light-bee-x | https://cdn.shopify.com/s/files/1/0540/6644/6508/files/26WhiteLB.png |
 | lightbee2 | https://sur-ron.jp/light-bee-2/ | https://sur-ron.jp/wp-content/themes/surron/assets/lightbee2/white.png (official Sur-Ron Japan transparent cutout; trimmed, centered 1600x1000) |
@@ -26,8 +26,8 @@ Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed 
 | rawrr-mantis-x | https://voromotors.com/products/rawrr-mantis-x-electric-dirt-bike | https://cdn.shopify.com/s/files/1/2476/0976/files/24.webp?v=1759863308 |
 | falcon-pro | https://79bike.com/products/79bike-falcon-pro | https://cdn.shopify.com/s/files/1/0772/3823/9525/files/DSC00047.jpg?v=1729247187 |
 | falcon-gt | https://79bike.com/products/gt | https://cdn.shopify.com/s/files/1/0772/3823/9525/files/amped-2.png?v=1782366542 |
-| rtr-lite | https://electroandcompany.com/products/etm-rtr-lite-electric-trail-machine-ready-to-rip | https://cdn.shopify.com/s/files/1/0735/5210/1674/files/ChatGPT_Image_Jul_11_2026_09_06_54_PM.png?v=1783829399 |
-| rtr-lite-2-0 | https://electroandcompany.com/products/etm-rtr-lite-2-0 | https://cdn.shopify.com/s/files/1/0735/5210/1674/files/etm-rtr-lite-2-studio-01-front-three-quarter-square.png?v=1791252633 |
+| rtr-lite | https://electroandcompany.com/products/etm-rtr-lite-electric-trail-machine-ready-to-rip | https://cdn.shopify.com/s/files/1/0735/5210/1674/files/RRLIteOG.webp?v=1792789634&width=2000 |
+| rtr-lite-2-0 | https://electroandcompany.com/products/etm-rtr-lite-2-0 | https://cdn.shopify.com/s/files/1/0735/5210/1674/files/etm-rtr-lite-2-studio-02-side-profile-square.png?v=1791252993&width=2000 |
 | rtr-sport | https://electroandcompany.com/products/2026-etm-rtr-sport-ready-to-rip-electric-trail-machine | https://cdn.shopify.com/s/files/1/0735/5210/1674/files/ChatGPT_Image_Jul_11_2026_08_56_11_PM.png?v=1783828674 |
 | rtr-alpha | https://electroandcompany.com/collections/bikes/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine | https://cdn.shopify.com/s/files/1/0735/5210/1674/files/1B45FF0D-9DDC-4C0C-840A-D60205A14C31.png?v=1790977655 |
 | rtr-xl | https://electroandcompany.com/collections/bikes/products/etm-rtr-xl-bigger-faster-stronger | https://cdn.shopify.com/s/files/1/0735/5210/1674/files/ChatGPT_Image_Jul_11_2026_07_28_57_PM.png?v=1783823351 |
@@ -45,7 +45,7 @@ Real manufacturer/dealer product photos, background removed (BiRefNet), trimmed 
 | arctic-leopard-xe-pro-s | https://arctic-leopard-usa.com/products/arctic-leopard-xe-pro-s | product gallery image |
 | arctic-leopard-xe-pro-r | https://arctic-leopard-usa.com/products/arctic-leopard-xe-pro-r | product gallery image |
 | arctic-leopard-xf | https://arctic-leopard-usa.com/products/arctic-leopard-xf | product gallery image |
-| altis-omega | https://www.altispowersports.com/products/altis-omega | manufacturer side-profile studio photo (343b5a4c…jpg), native crop, feathered edges; stand is in all official photos |
+| altis-omega | https://voromotors.com/products/altis-omega | https://cdn.shopify.com/s/files/1/2476/0976/files/altis-omega-studio-white.jpg?v=1793912153&width=2000 |
 | altis-delta | https://voromotors.com/products/altis-delta | https://cdn.shopify.com/s/files/1/2476/0976/files/20251217-174750.webp?v=1766538788 |
 | rawrr-mantis-mini-r | https://voromotors.com/products/rawrr-mantis-mini-r-best-mini-electric-dirt-bike | https://cdn.shopify.com/s/files/1/2476/0976/files/19_c87224b8-51c8-46cc-9bf2-35c9bfd97c9f.webp?v=1759863379 |
 | storm-bee | kept previous site photo (re-cut) — verify | |

@@ -186,7 +186,7 @@
       "last_checked": "2026-10-12",
       "notes": "Genuine Talaria OEM part FRWS007. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $746.78, in stock. Supermoto wheel configuration.",
       "weight_delta_kg": null,
-      "image": "img/parts/komodo-supermoto-wheelset.png"
+      "image": null
     },
     {
       "id": "charged-21-front-wheel-ultrabee",
@@ -206,7 +206,7 @@
         "https://chargedcycleworks.com/products/21-wheel-upgrade-for-surron-ultra-bee"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified from $299 (ION/KKE no-tire; Warp9 no-tire $383; with tire $464-$549), in stock. FRONT WHEEL ONLY — single 21\" front wheel by brand with optional tire. Tusk variants out of stock.",
+      "notes": "Price verified from $299 (ION/KKE no-tire; Warp9 no-tire $383; with tire $464-$549), in stock. FRONT WHEEL ONLY \u2014 single 21\" front wheel by brand with optional tire. Tusk variants out of stock.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -264,7 +264,7 @@
         "https://chargedcycleworks.com/products/kke-21-18-e-motor-wheels-rims-fit-surron-ultra-bee-collective"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $599 ($619 for gold-rim colorways), in stock on select colorways. Front+rear set with bearings/seals, no tires. Page lists fitment as 2023-2025 — confirm 2026 before ordering.",
+      "notes": "Price verified $599 ($619 for gold-rim colorways), in stock on select colorways. Front+rear set with bearings/seals, no tires. Page lists fitment as 2023-2025 \u2014 confirm 2026 before ordering.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -405,7 +405,7 @@
     },
     {
       "id": "chargedcycleworks-e-ride-oem-rear-wheel-hugger",
-      "name": "E Ride Pro – OEM Rear Wheel Hugger – Pro S / SS 2.0 / SS 3.0 / SR",
+      "name": "E Ride Pro \u2013 OEM Rear Wheel Hugger \u2013 Pro S / SS 2.0 / SS 3.0 / SR",
       "brand": "ERide Pro",
       "category": "wheels",
       "price_usd": 9.0,
@@ -700,7 +700,7 @@
         "https://chargedcycleworks.com/products/excel-wheels-for-bonnell-805-rx"
       ],
       "last_checked": "2026-11-05",
-      "notes": "Built in-house by Charged Cycle Works these special edition wheels use OEM Bonnell hubs and spokes laced to the most well known an…. 18/21 and 19/21 sets, Black/Gold/Blue/Silver; with Dunlop MX34 or MX54 tires $1,649. All variants currently unavailable (coming soon). Price range $1299-$1649 at CCW; listed price is the lowest variant.",
+      "notes": "Built in-house by Charged Cycle Works these special edition wheels use OEM Bonnell hubs and spokes laced to the most well known an\u2026. 18/21 and 19/21 sets, Black/Gold/Blue/Silver; with Dunlop MX34 or MX54 tires $1,649. All variants currently unavailable (coming soon). Price range $1299-$1649 at CCW; listed price is the lowest variant.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -709,7 +709,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/wheels-excel-wheels-for-bonnell-805-rx.webp"
     },
     {
       "id": "wheels-bonnell-805-rx-19-16-wheel-set",
@@ -729,7 +729,7 @@
         "https://chargedcycleworks.com/products/bonnell-805-rx-19-16-wheel-set"
       ],
       "last_checked": "2026-11-05",
-      "notes": "Bonnell OEM 19\"/16\" Wheel Set Perfect for lowering the seat height / center of gravity for shorter riders Fitment: Bonnell 805. 19/16 set — lowers seat height. Currently unavailable.",
+      "notes": "Bonnell OEM 19\"/16\" Wheel Set Perfect for lowering the seat height / center of gravity for shorter riders Fitment: Bonnell 805. 19/16 set \u2014 lowers seat height. Currently unavailable.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -738,7 +738,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/wheels-bonnell-805-rx-19-16-wheel-set.webp"
     },
     {
       "id": "wheels-bonnell-805-rx-rear-wheel",
@@ -758,7 +758,7 @@
         "https://chargedcycleworks.com/products/bonnell-805-rx-rear-wheel"
       ],
       "last_checked": "2026-11-05",
-      "notes": "OEM Rear Wheel Fitment: Bonnell 805 Sprocket and Rotor not included.. Rear wheel $369.95–$399.95. Currently unavailable. Price range $369.95-$399.95 at CCW; listed price is the lowest variant.",
+      "notes": "OEM Rear Wheel Fitment: Bonnell 805 Sprocket and Rotor not included.. Rear wheel $369.95\u2013$399.95. Currently unavailable. Price range $369.95-$399.95 at CCW; listed price is the lowest variant.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -767,7 +767,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/wheels-bonnell-805-rx-rear-wheel.webp"
     },
     {
       "id": "wheels-bonnell-805-rx-1-6x21-front-wheel",
@@ -796,7 +796,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/wheels-bonnell-805-rx-1-6x21-front-wheel.webp"
     },
     {
       "id": "wheels-bonnell-805-rx-17-17-supermoto-wheel-set",
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "chargedcycleworks-e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit",
-      "name": "E Ride Pro OEM M12 Rear Wheel Axle – Pro S / SS 2.0 / SS 3.0 / SR",
+      "name": "E Ride Pro OEM M12 Rear Wheel Axle \u2013 Pro S / SS 2.0 / SS 3.0 / SR",
       "brand": "ERide Pro",
       "category": "wheels",
       "price_usd": 35.0,
@@ -1090,7 +1090,7 @@
     },
     {
       "id": "chargedcycleworks-e-ride-pro-front-wheel-assembly-with-rim-strip-and-spacers",
-      "name": "E Ride Pro – OEM Front Wheel Assembly with Rim Strip & Hub Cone Spacers (x2)",
+      "name": "E Ride Pro \u2013 OEM Front Wheel Assembly with Rim Strip & Hub Cone Spacers (x2)",
       "brand": "ERide Pro",
       "category": "wheels",
       "price_usd": 280.0,
@@ -1265,7 +1265,7 @@
     },
     {
       "id": "chargedcycleworks-kke-19-16-wheel-set-surron-light-bee-red-nipples",
-      "name": "KKE 16/19\" Wheelset for Surron Light Bee – Black Rims & Red Nipples",
+      "name": "KKE 16/19\" Wheelset for Surron Light Bee \u2013 Black Rims & Red Nipples",
       "brand": "KKE Racing",
       "category": "wheels",
       "price_usd": 579.0,
@@ -1765,7 +1765,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-wheel-speed-sensor-front-rear-oem",
-      "name": "Surron Ultra Bee – Wheel Speed Sensor (Front / Rear) | OEM",
+      "name": "Surron Ultra Bee \u2013 Wheel Speed Sensor (Front / Rear) | OEM",
       "brand": "Surron-WN",
       "category": "wheels",
       "price_usd": 62.99,
@@ -1939,29 +1939,29 @@
       "image": "img/parts/chargedcycleworks-rr-wheel-axle-m15-204-talaria-sting-mx5.webp"
     },
     {
-      "id": "chargedcycleworks-rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5",
+      "id": "chargedcycleworks-rr-wheel-l-setback-liner\u03c615-\u03c625-19-5-talaria-sting-mx5",
       "name": "Talaria - OEM Right Rear Wheel Spacer for MX5",
       "brand": "eBikeZilla",
       "category": "wheels",
       "price_usd": 6.83,
       "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5",
+      "buy_url": "https://chargedcycleworks.com/products/rr-wheel-l-setback-liner\u03c615-\u03c625-19-5-talaria-sting-mx5",
       "tier": "OEM",
       "is_upgrade": false,
       "stock_status": "out_of_stock",
       "notes": "CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5"
+        "https://chargedcycleworks.com/products/rr-wheel-l-setback-liner\u03c615-\u03c625-19-5-talaria-sting-mx5"
       ],
       "last_checked": "2026-11-10",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 6.83,
-          "buy_url": "https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5"
+          "buy_url": "https://chargedcycleworks.com/products/rr-wheel-l-setback-liner\u03c615-\u03c625-19-5-talaria-sting-mx5"
         }
       ],
-      "image": "img/parts/chargedcycleworks-rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5.webp"
+      "image": "img/parts/chargedcycleworks-rr-wheel-l-setback-liner\u03c615-\u03c625-19-5-talaria-sting-mx5.webp"
     },
     {
       "id": "chargedcycleworks-talaria-rear-wheel-bushing-set-left-and-right",
@@ -3314,14 +3314,14 @@
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rr-wheel-axle-m15-204-talaria-sting-mx5"
     },
     {
-      "product_id": "chargedcycleworks-rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5",
+      "product_id": "chargedcycleworks-rr-wheel-l-setback-liner\u03c615-\u03c625-19-5-talaria-sting-mx5",
       "bike_id": "mx5",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
       "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5"
+        "https://chargedcycleworks.com/products/rr-wheel-l-setback-liner\u03c615-\u03c625-19-5-talaria-sting-mx5"
       ],
-      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5"
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/rr-wheel-l-setback-liner\u03c615-\u03c625-19-5-talaria-sting-mx5"
     },
     {
       "product_id": "chargedcycleworks-rr-wheel-r-setback-liner-talaria-sting-mx5",

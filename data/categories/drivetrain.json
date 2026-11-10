@@ -153,7 +153,7 @@
     },
     {
       "id": "komodo-chain-520",
-      "name": "O-ring Chain 520-108 — Komodo OEM",
+      "name": "O-ring Chain 520-108 \u2014 Komodo OEM",
       "brand": "Talaria",
       "category": "drivetrain",
       "tier": "OEM",
@@ -177,7 +177,7 @@
       "last_checked": "2026-10-12",
       "notes": "Genuine Talaria OEM part CHN120. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $63.19, in stock. 520-108 O-ring chain.",
       "weight_delta_kg": null,
-      "image": "img/parts/komodo-chain-520.png"
+      "image": null
     },
     {
       "id": "drivetrain-ventus-chain-kit",
@@ -438,7 +438,7 @@
     },
     {
       "id": "eridepro-e7310-primary-transmission-sprocket-14t-ss2-0",
-      "name": "E7310 - Primary Transmission Sprocket （14T) - SS2.0",
+      "name": "E7310 - Primary Transmission Sprocket \uff0814T) - SS2.0",
       "brand": "E RIDE PRO",
       "category": "drivetrain",
       "price_usd": 10.0,
@@ -472,7 +472,7 @@
     },
     {
       "id": "eridepro-she7847-primary-transmission-sprocket-14t-ss2-0",
-      "name": "SHE7847 - Primary Transmission Sprocket （14T）- SS2.0",
+      "name": "SHE7847 - Primary Transmission Sprocket \uff0814T\uff09- SS2.0",
       "brand": "E RIDE PRO",
       "category": "drivetrain",
       "price_usd": 15.0,
@@ -608,7 +608,7 @@
     },
     {
       "id": "howlingmoto-dirtybike-rk-420-primary-chain-drive-conversion-kit-e-ride",
-      "name": "DirtyBike RK 420 Primary Chain Drive Conversion Kit – E Ride Pro SR",
+      "name": "DirtyBike RK 420 Primary Chain Drive Conversion Kit \u2013 E Ride Pro SR",
       "brand": "eDirtyBike",
       "category": "drivetrain",
       "price_usd": 99.0,
@@ -737,7 +737,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/drivetrain-renthal-sprocket-bonnell-805-902.webp"
     },
     {
       "id": "drivetrain-dirt-tricks-zirconium-rear-sprocket-stark-varg",
@@ -766,7 +766,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/drivetrain-dirt-tricks-zirconium-rear-sprocket-stark-varg.webp"
     },
     {
       "id": "drivetrain-renthal-twinring-sprocket-bonnell-805-902",
@@ -795,7 +795,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/drivetrain-renthal-twinring-sprocket-bonnell-805-902.webp"
     },
     {
       "id": "drivetrain-did-520-ervt-gold-x-ring-chain",
@@ -815,7 +815,7 @@
         "https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain"
       ],
       "last_checked": "2026-11-05",
-      "notes": "Fits bikes with 520 chains including: Surron Ultra Bee (96 Stock) Bonnell 805 RX (100 stock, 102 for increased wheelbase) Stark Va…. Chain $194.36–$209.55 by length (master link $10.64). 520 pitch = stock rear chain. Price range $10.64-$209.55 at CCW; listed price is the lowest variant. Listed price $194.36 is the chain itself; the $10.64 variant is a master link.",
+      "notes": "Fits bikes with 520 chains including: Surron Ultra Bee (96 Stock) Bonnell 805 RX (100 stock, 102 for increased wheelbase) Stark Va\u2026. Chain $194.36\u2013$209.55 by length (master link $10.64). 520 pitch = stock rear chain. Price range $10.64-$209.55 at CCW; listed price is the lowest variant. Listed price $194.36 is the chain itself; the $10.64 variant is a master link.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -824,7 +824,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/drivetrain-did-520-ervt-gold-x-ring-chain.webp"
     },
     {
       "id": "drivetrain-520-renthal-r-1-works-chain",
@@ -844,7 +844,7 @@
         "https://chargedcycleworks.com/products/520-renthal-r-1-works-chain"
       ],
       "last_checked": "2026-11-05",
-      "notes": "Sizing Links Cut Fee Ultra Bee Sprockets Stock 96 $10 50T 98 $10 52-53T 100 $10 54T 102 $10 58T 104 $10 Bonnell 805 52T 100 KTM Fr…. Chain $120.21 (96–104L); 114L $148, 120L $154.31 (master link $8.96). 520 pitch = stock. Price range $8.96-$154.31 at CCW; listed price is the lowest variant. Listed price $120.21 is the chain itself; the $8.96 variant is a master link.",
+      "notes": "Sizing Links Cut Fee Ultra Bee Sprockets Stock 96 $10 50T 98 $10 52-53T 100 $10 54T 102 $10 58T 104 $10 Bonnell 805 52T 100 KTM Fr\u2026. Chain $120.21 (96\u2013104L); 114L $148, 120L $154.31 (master link $8.96). 520 pitch = stock. Price range $8.96-$154.31 at CCW; listed price is the lowest variant. Listed price $120.21 is the chain itself; the $8.96 variant is a master link.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -853,7 +853,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/drivetrain-520-renthal-r-1-works-chain.webp"
     },
     {
       "id": "drivetrain-ultra-bee-sprocket-drive-kit",
@@ -882,7 +882,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/drivetrain-ultra-bee-sprocket-drive-kit.webp"
     },
     {
       "id": "drivetrain-bonnell-805-rx-520-primary-chain-conversion-kit",
@@ -1163,7 +1163,7 @@
         "https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain"
       ],
       "last_checked": "2026-11-05",
-      "notes": "Fits the following bikes: KTM Freeride (118 Stock) Surron Ultra Bee (96 Stock) Bonnell 805 RX (100 stock, 102 for increased wheelb…. Chain $70.99 (96–100L); master link $4.99. 520 pitch = stock. Price range $4.99-$77.99 at CCW; listed price is the lowest variant. Listed price $70.99 is the chain itself; the $4.99 variant is a master link.",
+      "notes": "Fits the following bikes: KTM Freeride (118 Stock) Surron Ultra Bee (96 Stock) Bonnell 805 RX (100 stock, 102 for increased wheelb\u2026. Chain $70.99 (96\u2013100L); master link $4.99. 520 pitch = stock. Price range $4.99-$77.99 at CCW; listed price is the lowest variant. Listed price $70.99 is the chain itself; the $4.99 variant is a master link.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -1172,7 +1172,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/drivetrain-primary-drive-520-orh-gold-x-ring-chain.webp"
     },
     {
       "id": "ebg-lb2-sprocket-520",
@@ -1404,7 +1404,7 @@
     },
     {
       "id": "chargedcycleworks-e-ride-pro-oem-jackshaft-axle-kit",
-      "name": "E Ride Pro – OEM Jackshaft Axle Kit (Axle, Nut, Shim & Bushings)",
+      "name": "E Ride Pro \u2013 OEM Jackshaft Axle Kit (Axle, Nut, Shim & Bushings)",
       "brand": "ERide Pro",
       "category": "drivetrain",
       "price_usd": 35.0,
@@ -1729,7 +1729,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-axle-chain-adjuster-block-left-right-oem",
-      "name": "Surron Ultra Bee – Axle Chain Adjuster Block (Left / Right) | OEM",
+      "name": "Surron Ultra Bee \u2013 Axle Chain Adjuster Block (Left / Right) | OEM",
       "brand": "Surron-WN",
       "category": "drivetrain",
       "price_usd": 16.0,
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-primary-drive-rear-pulley-oem",
-      "name": "Surron Ultra Bee – Primary Drive Belt Rear Pulley (MY25) | OEM",
+      "name": "Surron Ultra Bee \u2013 Primary Drive Belt Rear Pulley (MY25) | OEM",
       "brand": "Surron-WN",
       "category": "drivetrain",
       "price_usd": 112.5,
@@ -1879,7 +1879,7 @@
     },
     {
       "id": "chargedcycleworks-ventus-primary-chain-drive-conversion-kit-ryuga",
-      "name": "Ventus Primary Chain Drive Conversion Kit – Ryuga Motors",
+      "name": "Ventus Primary Chain Drive Conversion Kit \u2013 Ryuga Motors",
       "brand": "Pinned Electric",
       "category": "drivetrain",
       "price_usd": 69.0,
@@ -1954,7 +1954,7 @@
     },
     {
       "id": "chargedcycleworks-e-ride-pro-3-0-sr-rear-sprocket",
-      "name": "Warp9 Rear Sprocket – E-Ride Pro SS 3.0 / SR",
+      "name": "Warp9 Rear Sprocket \u2013 E-Ride Pro SS 3.0 / SR",
       "brand": "Warp9Racing",
       "category": "drivetrain",
       "price_usd": 50.0,

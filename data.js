@@ -306,7 +306,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['lightbee','ultrabee','mx4','mx5','ss20','ss30','sr','bonnell-805rx','ventus-plus'], likely:['ss40','arctic-xd','ventus-evo'], no:[],
-     badge:'X-9000', ctrlMaxKw:60, stock:'in_stock'
+     badge:'X-9000', ctrlMaxKw:60, stock:'in_stock', img:'img/parts/ebmx-x-9000-v3.webp'
     },
     {name:'VTB Controller w/ Aetos cover', pid:'vtb-aetos', tier:'mid',
      prices:[
@@ -418,7 +418,7 @@ var CATEGORIES = [
       {v:'REV Rides', p:1199, url:'https://revrides.com/products/ebmx-x-9000-v3-controller-full-kit-sur-ron-talaria-e-ride-pro-altis-sigma?variant=50076992831778', chk:'2026-10-18'},
      ],
      fits:["mx4","mx5"], likely:[], no:[],
-     badge:'X-9000 V3', ctrlMaxKw:60, stock:'in_stock', stockChk:'2026-10-18'
+     badge:'X-9000 V3', ctrlMaxKw:60, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ebmx-x9000-v3-kit-talaria.webp'
     },
     {name:'Bonnell 805 - X30 Controller', pid:'controller-bonnell-805-rx-x30-controller', tier:'OEM',
      prices:[
@@ -633,7 +633,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', img:'img/parts/komodo-fork-left-oem.png'
+     stock:'in_stock'
     },
     {name:"E Ride Pro SS Adjustable RST OEM Fork (E7024)", pid:'voro-eride-ss-rst-fork', tier:'OEM',
      prices:[
@@ -690,7 +690,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/fork-sirris-f43-fork-spring-single.webp'
     },
     {name:'Bearing for Fork Steering Headset', pid:'chargedcycleworks-bearing-for-fork-steering-headset-surron-talaria', tier:'midrange',
      prices:[
@@ -918,7 +918,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', img:'img/parts/komodo-shock-absorber-oem.png'
+     stock:'in_stock'
     },
     {name:'RFloXa RAF55RV Rear Shock for Surron Ultra Bee', pid:'rfloxa-raf55rv-ultrabee', tier:'performance',
      prices:[
@@ -1033,7 +1033,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/shock-sirris-r46-rear-shock-spring.webp'
     },
     {name:'Prickly Linkage for Sirris R38 Rear Shock E Ride Pro', pid:'chargedcycleworks-prickly-performance-linkage-e-ride-pro', tier:'midrange',
      prices:[
@@ -1288,7 +1288,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', img:'img/parts/komodo-supermoto-wheelset.png'
+     stock:'in_stock'
     },
     {name:'21" Wheel Upgrade for Surron Ultra Bee (Front Wheel Only)', pid:'charged-21-front-wheel-ultrabee', tier:'midrange',
      prices:[
@@ -1404,7 +1404,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/wheels-excel-wheels-for-bonnell-805-rx.webp'
     },
     {name:'Bonnell 805 - 19"/16" Wheel Set', pid:'wheels-bonnell-805-rx-19-16-wheel-set', tier:'OEM',
      prices:[
@@ -1412,7 +1412,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/wheels-bonnell-805-rx-19-16-wheel-set.webp'
     },
     {name:'Bonnell 805 - Rear Wheel', pid:'wheels-bonnell-805-rx-rear-wheel', tier:'OEM',
      prices:[
@@ -1420,7 +1420,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/wheels-bonnell-805-rx-rear-wheel.webp'
     },
     {name:'Bonnell 805 - 1.6x21 Front Wheel', pid:'wheels-bonnell-805-rx-1-6x21-front-wheel', tier:'OEM',
      prices:[
@@ -1428,7 +1428,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/wheels-bonnell-805-rx-1-6x21-front-wheel.webp'
     },
     {name:'Bonnell 805 - 17"/17" Supermoto Wheel Set', pid:'wheels-bonnell-805-rx-17-17-supermoto-wheel-set', tier:'OEM',
      prices:[
@@ -1893,7 +1893,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', img:'img/parts/komodo-rear-brake-pads.png'
+     stock:'in_stock'
     },
     {name:'Rear Brake Caliper — Komodo OEM', pid:'komodo-rear-brake-caliper', tier:'OEM',
      prices:[
@@ -1901,7 +1901,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', img:'img/parts/komodo-rear-brake-caliper.png'
+     stock:'in_stock'
     },
     {name:'Front Brake Lever — Komodo OEM', pid:'komodo-front-brake-lever', tier:'OEM',
      prices:[
@@ -1909,7 +1909,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', img:'img/parts/komodo-front-brake-lever.png'
+     stock:'in_stock'
     },
     {name:'Emoto Folding Brake Levers', pid:'brakes-ventus-folding-levers', tier:'budget',
      prices:[
@@ -2101,7 +2101,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Brake Levers', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Brake Levers', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/brakes-asv-f4-type2-lever-set.webp'
     },
     {name:'Bonnell 805 - Brake Lever | Front & Rear', pid:'brakes-bonnell-805-rx-brake-lever', tier:'OEM',
      prices:[
@@ -2109,7 +2109,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/brakes-bonnell-805-rx-brake-lever.webp'
     },
     {name:'Bonnell 805 - Brake Disc Set | Front & Rear', pid:'brakes-bonnell-805-rx-brake-disc-set', tier:'OEM',
      prices:[
@@ -2133,7 +2133,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/brakes-bonnell-805-rx-brake-line.webp'
     },
     {name:'Bonnell 805 - Brake Pad Set', pid:'brakes-bonnell-805-rx-brake-pad-set', tier:'OEM',
      prices:[
@@ -2780,7 +2780,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/plastics-bonnell-805-oem-plastics-kit.webp'
     },
     {name:'Bonnell 805 - Common Plastics Kit', pid:'plastics-bonnell-805-rx-common-plastics-kit', tier:'OEM',
      prices:[
@@ -2788,7 +2788,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/plastics-bonnell-805-rx-common-plastics-kit.webp'
     },
     {name:'Surron Ultra Bee - OEM Side Plate Brackets', pid:'chargedcycleworks-surron-ultra-bee-oem-side-plate-brackets', tier:'OEM',
      prices:[
@@ -3092,7 +3092,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
-     battKwh:4.44, stock:'in_stock'
+     battKwh:4.44, stock:'in_stock', img:'img/parts/ultrabee-2025-oem-battery.webp'
     },
     {name:'E7271 72V 50Ah Battery - SS3.0 Type A / SS2.0 / Pro-S', pid:'eride-e7271-battery', tier:'OEM',
      prices:[
@@ -3116,7 +3116,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
-     badge:'DHS', battMaxKw:52.8, battPeakKw:74.8, battKwh:5.28, dw:10.47, stock:'in_stock', stockChk:'2026-10-18', wtKg:24.95, img:'img/parts/dhs-88v-60ah-ultrabee.webp'
+     badge:'DHS', battMaxKw:52.8, battPeakKw:74.8, battKwh:5.28, dw:10.47, stock:'in_stock', stockChk:'2026-10-18', wtKg:24.95
     },
     {name:'Ventus Ultra Bee Battery 96V 56AH', pid:'ventus-ultrabee-96v-56ah', tier:'premium',
      prices:[
@@ -3139,7 +3139,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/batteries-bonnell-805-rx-battery.webp'
     },
     {name:'Bonnell 805 - Battery Latch Base Assembly', pid:'batteries-bonnell-805-rx-battery-latch-base-assembly', tier:'OEM',
      prices:[
@@ -3147,7 +3147,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/batteries-bonnell-805-rx-battery-latch-base-assembly.webp'
     },
     {name:'DHS 72v 65ah Battery for Surron Ultra Bee', pid:'chargedcycleworks-72v-65ah-battery-for-surron-ultra-bee', tier:'midrange',
      prices:[
@@ -3390,7 +3390,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/handlebar-bonnell-805-rx-high-bend-handlebar.webp'
     },
     {name:'ODI Podium MX Handlebars 28.6mm', pid:'handlebar-odi-podium-mx-handlebars', tier:'premium',
      prices:[
@@ -3398,7 +3398,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/handlebar-odi-podium-mx-handlebars.webp'
     },
     {name:'Renthal FatBar MX Handlebar 28.6mm', pid:'handlebar-renthal-fatbar-1-1-8', tier:'premium',
      prices:[
@@ -3406,7 +3406,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/handlebar-renthal-fatbar-1-1-8.webp'
     },
     {name:'Surron Ultra Bee - Handlebar Lower Mount', pid:'chargedcycleworks-surron-ultra-bee-handlebar-lower-mount', tier:'OEM',
      prices:[
@@ -3462,14 +3462,14 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:["komodo","mx5","arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
-     stock:'out_of_stock', stockChk:'2026-10-18'
+     stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/talaria-mx4-oem-charger.webp'
     },
     {name:'Charged Cycle Works 72V 15A Fast Charger (for eWatt / CCW 72V batteries)', pid:'ccw-fast-charger-72v-15a', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:160, url:'https://chargedcycleworks.com/products/fast-chargers-for-charged-cycle-works-batteries-up-to-150-faster-charging?variant=52372529709272', chk:'2026-10-18'},
      ],
      fits:["mx4"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-10-18'
+     stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ccw-fast-charger-72v-15a.webp'
     },
       {name:'Surron Ultra Bee - OEM Charger Repair', pid:'chargedcycleworks-surron-ultra-bee-oem-charger-repair', tier:'OEM',
      prices:[
@@ -3540,7 +3540,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/charger-bonnell-805-rx-charger-2500w-100-8v-30a-us.webp'
     },
     {name:'Bonnell 805 - Charger 1500W-100.8V-20A-US', pid:'charger-bonnell-805-rx-charger-1500w-100-8v-20a-us', tier:'OEM',
      prices:[
@@ -3548,7 +3548,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/charger-bonnell-805-rx-charger-1500w-100-8v-20a-us.webp'
     },
 ]},
   {id:'cockpit', name:'Cockpit', blurb:'Grips, throttles, and displays — the details you touch every ride.', tips:['Throttle type must match your controller','Lock-on grips stay put; slip-ons are cheaper'], options:[
@@ -3689,7 +3689,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-bonnell-805-rx-joycon.webp'
     },
     {name:'Bonnell 805 - Grip Set', pid:'cockpit-bonnell-805-rx-grip-set', tier:'OEM',
      prices:[
@@ -3705,7 +3705,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-bonnell-805-rx-large-handlebar-pad.webp'
     },
     {name:'ProTaper Pillow Top Lite Grips', pid:'cockpit-protaper-pillow-top-lite-grips', tier:'budget',
      prices:[
@@ -3713,7 +3713,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-protaper-pillow-top-lite-grips.webp'
     },
     {name:'ProTaper Pillow Top Grips', pid:'cockpit-protaper-pillow-top-grips', tier:'budget',
      prices:[
@@ -3721,7 +3721,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-protaper-pillow-top-grips.webp'
     },
     {name:'ODI Universal Lock-On Half Waffle Grips for eMoto', pid:'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto', tier:'budget',
      prices:[
@@ -3737,7 +3737,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-odi-ruffian-full-waffle-grips.webp'
     },
     {name:'SXS Burly Shields Hand Guards', pid:'cockpit-sxs-burly-shields-hand-guards', tier:'midrange',
      prices:[
@@ -3745,7 +3745,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-sxs-burly-shields-hand-guards.webp'
     },
     {name:'Renthal 50/50 MX Grips', pid:'cockpit-renthal-50-50-mx-grips', tier:'budget',
      prices:[
@@ -3753,7 +3753,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-renthal-50-50-mx-grips.webp'
     },
     {name:'Acerbis X-Ultimate Handguards', pid:'cockpit-acerbis-x-ultimate-handguards', tier:'midrange',
      prices:[
@@ -3761,7 +3761,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-acerbis-x-ultimate-handguards.webp'
     },
     {name:'ODI Ruffian no-waffle grips', pid:'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260', tier:'budget',
      prices:[
@@ -3769,7 +3769,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260.webp'
     },
     {name:'Acerbis X-Factory Handguards', pid:'cockpit-acerbis-x-factory-handguards', tier:'midrange',
      prices:[
@@ -3777,7 +3777,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-acerbis-x-factory-handguards.webp'
     },
     {name:'ODI Ruffian half-waffle grips', pid:'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260', tier:'budget',
      prices:[
@@ -3785,7 +3785,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260.webp'
     },
     {name:'Tusk Dual Compound half waffle grips', pid:'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260', tier:'budget',
      prices:[
@@ -3793,7 +3793,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260.webp'
     },
     {name:'Warp9 eMoto Handguards', pid:'cockpit-warp9-e-moto-handguards', tier:'midrange',
      prices:[
@@ -3801,7 +3801,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-warp9-e-moto-handguards.webp'
     },
     {name:'Bonnell 805 - Throttle Assembly', pid:'cockpit-bonnell-805-throttle-assembly', tier:'OEM',
      prices:[
@@ -3809,7 +3809,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-bonnell-805-throttle-assembly.webp'
     },
     {name:'Ventus One - OEM Left Hand Control', pid:'chargedcycleworks-left-hand-control-ventus-oem-1-6', tier:'OEM',
      prices:[
@@ -3855,7 +3855,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:["storm-bee","ventus-plus","ventus-evo","ss40","komodo","bonnell-805rx","arctic-xd","lightbee","mx4","mx5","sr","ss20","ss30","ultrabee"], no:[],
-     badge:'EBMX', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/cooling-ebmx-x9000-air-heatsink.png'
+     badge:'EBMX', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/cooling-ebmx-x9000-air-heatsink.webp'
     },
     {name:'VTB Aetos Heatsink', pid:'cooling-ventus-aetos-heatsink', tier:'midrange',
      prices:[
@@ -3921,7 +3921,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', img:'img/parts/komodo-chain-520.png'
+     stock:'in_stock'
     },
     {name:'Ventus Primary Chain Drive Conversion Kit', pid:'drivetrain-ventus-chain-kit', tier:'midrange',
      prices:[
@@ -4043,7 +4043,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/drivetrain-renthal-sprocket-bonnell-805-902.webp'
     },
     {name:'Dirt Tricks Sprocket For Bonnell 805/902', pid:'drivetrain-dirt-tricks-zirconium-rear-sprocket-stark-varg', tier:'premium',
      prices:[
@@ -4051,7 +4051,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/drivetrain-dirt-tricks-zirconium-rear-sprocket-stark-varg.webp'
     },
     {name:'Renthal TwinRing Sprocket For Bonnell 805/902', pid:'drivetrain-renthal-twinring-sprocket-bonnell-805-902', tier:'premium',
      prices:[
@@ -4059,7 +4059,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/drivetrain-renthal-twinring-sprocket-bonnell-805-902.webp'
     },
     {name:'DID 520 ERVT Gold X-Ring Chain', pid:'drivetrain-did-520-ervt-gold-x-ring-chain', tier:'premium',
      prices:[
@@ -4067,7 +4067,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/drivetrain-did-520-ervt-gold-x-ring-chain.webp'
     },
     {name:'Renthal 520 R-1 Works Chain', pid:'drivetrain-520-renthal-r-1-works-chain', tier:'premium',
      prices:[
@@ -4075,7 +4075,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/drivetrain-520-renthal-r-1-works-chain.webp'
     },
     {name:'Warp9 520 Primary Chain Drive Kit for Surron Ultra Bee', pid:'drivetrain-ultra-bee-sprocket-drive-kit', tier:'premium',
      prices:[
@@ -4083,7 +4083,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/drivetrain-ultra-bee-sprocket-drive-kit.webp'
     },
     {name:'Bonnell 805 - 520 Primary Chain Conversion Kit', pid:'drivetrain-bonnell-805-rx-520-primary-chain-conversion-kit', tier:'OEM',
      prices:[
@@ -4163,7 +4163,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/drivetrain-primary-drive-520-orh-gold-x-ring-chain.webp'
     },
     {name:'D.I.D. 428 BLACK Chain Non O-ring', pid:'chargedcycleworks-428-d-i-d-black-chain-non-o-ring', tier:'OEM',
      prices:[
@@ -4418,7 +4418,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","ultrabee","mx4"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","ventus-plus","ventus-evo"], no:[],
-     badge:'Display', stock:'in_stock', img:'img/parts/electrical-torp-egg-rider.png'
+     badge:'Display', stock:'in_stock'
     },
     {name:'Sur-Ron Light Bee Replacement Dashboard', pid:'electrical-surron-oem-dashboard', tier:'budget',
      prices:[
@@ -4548,7 +4548,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/electrical-bonnell-805-rx-large-display.webp'
     },
     {name:'Bonnell 805 - Killswitch - Main Unit', pid:'electrical-bonnell-805-rx-killswitch-main-unit', tier:'OEM',
      prices:[
@@ -4556,7 +4556,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/electrical-bonnell-805-rx-killswitch-main-unit.webp'
     },
     {name:'Bonnell 805 - Front Junction Box & Harness', pid:'electrical-bonnell-805-rx-front-junction-box-and-harness', tier:'OEM',
      prices:[
@@ -5336,7 +5336,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/linkage-bonnell-805-rx-linkage.webp'
     },
     {name:'Bonnell 805 - Rocker Assembly', pid:'linkage-bonnell-805-rx-rocker-assembly', tier:'OEM',
      prices:[
@@ -5344,7 +5344,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/linkage-bonnell-805-rx-rocker-assembly.webp'
     },
     {name:'E Ride Pro - OEM 3.0/SR Shock linkage(Liftable)', pid:'chargedcycleworks-3-0-sr-shock-linkageliftable', tier:'OEM',
      prices:[
@@ -5528,7 +5528,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/maintenance-bonnell-805-rx-kickstand-set.webp'
     },
     {name:'Bonnell 805 - Rear Wheel Axle Block | Left & Right', pid:'maintenance-bonnell-805-rx-rear-wheel-axle-block', tier:'OEM',
      prices:[
@@ -5536,7 +5536,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/maintenance-bonnell-805-rx-rear-wheel-axle-block.webp'
     },
     {name:'Bonnell 805 - Wheel Refurbish Kit | Front & Rear', pid:'maintenance-bonnell-bonnell-805-rx-wheel-refurbish-kit', tier:'OEM',
      prices:[
@@ -5552,7 +5552,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/maintenance-bonnell-805-rx-spare-parts-bolt-kit.webp'
     },
     {name:'Bonnell 805 - Swing Arm Bearing Kit', pid:'maintenance-bonnell-805-rx-swing-arm-bearing-kit', tier:'OEM',
      prices:[
@@ -5854,7 +5854,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['ultrabee'], likely:['arctic-xd','bonnell-805rx','ss30','ss40','sr','ss20','storm-bee','komodo','mx5','ventus-plus','ventus-evo'], no:[],
-     badge:'Foot Pegs', variant:'custom', stock:'in_stock', stockChk:'2026-10-18'
+     badge:'Foot Pegs', variant:'custom', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/pegs-kke-ultrabee.webp'
     },
     {name:'Sur-Ron Ultra Bee OEM Pegs & Brackets', pid:'pegs-ultrabee-oem-brackets', tier:'budget',
      prices:[
@@ -6329,7 +6329,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/seat-bonnell-805-rx-seat.webp'
     },
     {name:'Thrill Seekers Seat Cover for Surron Ultra Bee', pid:'chargedcycleworks-thrill-seekers-seat-cover-for-surron-ultra-bee', tier:'midrange',
      prices:[
@@ -6638,7 +6638,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/swingarm-bonnell-805-rx-swingarm-assembly.webp'
     },
     {name:'E Ride Pro - OEM Swingarm', pid:'chargedcycleworks-e-ride-pro-oem-swing-armswith-4bearings-2-kit-chain-adjusters', tier:'OEM',
      prices:[
@@ -7167,7 +7167,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Bonnell', stock:'out_of_stock', stockChk:'2026-11-05'
+     badge:'Bonnell', stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/tire-bonnell-805-rx-front-tire.webp'
     },
     {name:'Bonnell 805 - Rim Lock', pid:'tire-bonnell-805-rx-rim-lock', tier:'OEM',
      prices:[
@@ -7175,7 +7175,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Bonnell', stock:'out_of_stock', stockChk:'2026-11-05'
+     badge:'Bonnell', stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/tire-bonnell-805-rx-rim-lock.webp'
     },
     {name:'Warp9 Titanium Pro Rim Lock', pid:'tire-warp9-titanium-pro-rim-lock', tier:'budget',
      prices:[
@@ -7183,7 +7183,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-warp9-titanium-pro-rim-lock.webp'
     },
     {name:'Dunlop MX54 Geomax Soft/Int Terrain Tires', pid:'tire-dunlop-mx54-geomax-soft-int-terrain-tires', tier:'mid',
      prices:[
@@ -7191,7 +7191,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-dunlop-mx54-geomax-soft-int-terrain-tires.webp'
     },
     {name:'Dunlop Geomax EN91EX Gummy Tire', pid:'tire-dunlop-geomax-en91ex-gummy-tire', tier:'premium',
      prices:[
@@ -7199,7 +7199,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-dunlop-geomax-en91ex-gummy-tire.webp'
     },
     {name:'BikeMaster TR6 Inner Tubes', pid:'tire-bikemaster-tr6-inner-tubes', tier:'budget',
      prices:[
@@ -7207,7 +7207,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'BikeMaster', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'BikeMaster', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-bikemaster-tr6-inner-tubes.webp'
     },
     {name:'Kenda K775 Washougal II Tires', pid:'tire-kenda-k775-washougal-ii-front-tire', tier:'mid',
      prices:[
@@ -7215,7 +7215,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-kenda-k775-washougal-ii-front-tire.webp'
     },
     {name:'Nuetech 5150 Nitro Mousse Foam Tube for Tubliss Gen 2.0', pid:'tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19', tier:'premium',
      prices:[
@@ -7231,7 +7231,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'IRC', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-jx8-gekkota-rear-gummy-tire.webp'
     },
     {name:'IRC Tubes', pid:'tire-irc-tubes', tier:'budget',
      prices:[
@@ -7239,7 +7239,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'IRC', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-tubes.webp'
     },
     {name:'WPS Rim Strip', pid:'tire-wps-rim-strip', tier:'budget',
      prices:[
@@ -7247,7 +7247,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'WPS', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'WPS', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-wps-rim-strip.webp'
     },
     {name:'Dunlop AT82 Geomax All Terrain Terrain Tire', pid:'tire-dunlop-at82-geomax-all-terrain-terrain-tire', tier:'premium',
      prices:[
@@ -7255,7 +7255,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-dunlop-at82-geomax-all-terrain-terrain-tire.webp'
     },
     {name:'IRC VE33S Gekkota Gummy Tire 110/100x18', pid:'tire-tire-ve-33s-gekkota-rear-tire', tier:'mid',
      prices:[
@@ -7263,7 +7263,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'IRC', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-tire-ve-33s-gekkota-rear-tire.webp'
     },
     {name:'Tusk Talon Multi Terrain Front Tire 80/100-21', pid:'tire-tusk-talon-multi-terrain-tire-80-100-21', tier:'mid',
      prices:[
@@ -7271,7 +7271,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-tusk-talon-multi-terrain-tire-80-100-21.webp'
     },
     {name:'IRC IX-07S 21" Front Tire (light weight)', pid:'tire-irc-ix-07s-21-front-tire-light-weight', tier:'mid',
      prices:[
@@ -7279,7 +7279,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'IRC', stock:'out_of_stock', stockChk:'2026-11-05'
+     badge:'IRC', stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-ix-07s-21-front-tire-light-weight.webp'
     },
     {name:'Dunlop MX14 Sand Scoop Tire', pid:'tire-dunlop-mx14-sand-scoop-tire', tier:'mid',
      prices:[
@@ -7287,7 +7287,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-dunlop-mx14-sand-scoop-tire.webp'
     },
     {name:'Shinko 525 Soft-Intermediate Terrain Tire', pid:'tire-shinko-525-soft-intermediate-terrain-tire', tier:'mid',
      prices:[
@@ -7295,7 +7295,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-shinko-525-soft-intermediate-terrain-tire.webp'
     },
     {name:'Kenda 1.3mm Tube (light weight)', pid:'tire-kenda-1-3mm-tube-light-weight', tier:'budget',
      prices:[
@@ -7303,7 +7303,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-kenda-1-3mm-tube-light-weight.webp'
     },
     {name:'Nuetech Nitro Mousse Foam Tube', pid:'tire-nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria', tier:'premium',
      prices:[
@@ -7311,7 +7311,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Nuetech', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Nuetech', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria.webp'
     },
     {name:'Kenda K774 Ibex Hybrid Sticky Tires', pid:'tire-kenda-k774-ibex-hybrid-sticky-front-tire', tier:'mid',
      prices:[
@@ -7319,7 +7319,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-kenda-k774-ibex-hybrid-sticky-front-tire.webp'
     },
     {name:'NUETECH TUBLISS GEN 2.0 (TUBELESS) TIRE SYSTEM', pid:'tire-nuetech-tubliss-gen-2-0-tubeless-tire-system', tier:'mid',
      prices:[
@@ -7335,7 +7335,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     badge:'Sedona', stock:'in_stock', stockChk:'2026-11-05'
+     badge:'Sedona', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260.webp'
     },
     {name:'E Ride Pro - OEM 3.00-18 “BabyFat” Rear Tire Kit', pid:'chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe', tier:'OEM',
      prices:[
@@ -7509,7 +7509,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/titanium-bonnell-805-rx-titanium-bolt-kit.webp'
     },
     {name:'Warp9 eMoto Handguard Titanium Bolt Kit', pid:'titanium-warp9-e-moto-handguard-titanium-bolt-kit', tier:'budget',
      prices:[

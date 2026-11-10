@@ -630,7 +630,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-bonnell-805-rx-joycon.webp"
     },
     {
       "id": "cockpit-bonnell-805-rx-grip-set",
@@ -688,7 +688,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-bonnell-805-rx-large-handlebar-pad.webp"
     },
     {
       "id": "cockpit-protaper-pillow-top-lite-grips",
@@ -717,7 +717,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-protaper-pillow-top-lite-grips.webp"
     },
     {
       "id": "cockpit-protaper-pillow-top-grips",
@@ -746,7 +746,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-protaper-pillow-top-grips.webp"
     },
     {
       "id": "cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto",
@@ -804,7 +804,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-odi-ruffian-full-waffle-grips.webp"
     },
     {
       "id": "cockpit-sxs-burly-shields-hand-guards",
@@ -833,7 +833,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-sxs-burly-shields-hand-guards.webp"
     },
     {
       "id": "cockpit-renthal-50-50-mx-grips",
@@ -862,7 +862,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-renthal-50-50-mx-grips.webp"
     },
     {
       "id": "cockpit-acerbis-x-ultimate-handguards",
@@ -891,7 +891,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-acerbis-x-ultimate-handguards.webp"
     },
     {
       "id": "cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260",
@@ -920,7 +920,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260.webp"
     },
     {
       "id": "cockpit-acerbis-x-factory-handguards",
@@ -949,7 +949,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-acerbis-x-factory-handguards.webp"
     },
     {
       "id": "cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260",
@@ -978,7 +978,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260.webp"
     },
     {
       "id": "cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260",
@@ -1007,7 +1007,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260.webp"
     },
     {
       "id": "cockpit-warp9-e-moto-handguards",
@@ -1036,7 +1036,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-warp9-e-moto-handguards.webp"
     },
     {
       "id": "cockpit-bonnell-805-throttle-assembly",
@@ -1065,7 +1065,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-bonnell-805-throttle-assembly.webp"
     },
     {
       "id": "chargedcycleworks-left-hand-control-ventus-oem-1-6",

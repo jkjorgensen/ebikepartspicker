@@ -723,7 +723,8 @@
           "buy_url": "https://peakpoweremotos.com/parts/ultra-bee-battery"
         }
       ],
-      "weight_delta_kg": null
+      "weight_delta_kg": null,
+      "image": "img/parts/ultrabee-2025-oem-battery.webp"
     },
     {
       "id": "eride-e7271-battery",
@@ -808,7 +809,7 @@
         }
       ],
       "weight_delta_kg": 4.75,
-      "image": "img/parts/dhs-88v-60ah-ultrabee.webp",
+      "image": null,
       "batt_max_kw": 52.8,
       "batt_peak_kw": 74.8,
       "batt_rating_source": "600A continuous / 850A peak @ 88V, Charged Cycle Works"
@@ -890,7 +891,7 @@
         "https://chargedcycleworks.com/products/bonnell-805-rx-battery"
       ],
       "last_checked": "2026-11-05",
-      "notes": "Bonnell 805 OEM Replacement Battery Core: 86.4V 45Ah (3.9kWh) Race: 86.4V 55Ah (4.7kWh) *price and timing TBA Fitment: Bonnell 805…. Second variant listed at $0.00 (placeholder). Battery was sold out at CCW per earlier check. Price range $0-$1995 at CCW; listed price is the lowest variant. The $0.00 variant is a placeholder; $1,995 is the listed battery price.",
+      "notes": "Bonnell 805 OEM Replacement Battery Core: 86.4V 45Ah (3.9kWh) Race: 86.4V 55Ah (4.7kWh) *price and timing TBA Fitment: Bonnell 805\u2026. Second variant listed at $0.00 (placeholder). Battery was sold out at CCW per earlier check. Price range $0-$1995 at CCW; listed price is the lowest variant. The $0.00 variant is a placeholder; $1,995 is the listed battery price.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -899,7 +900,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/batteries-bonnell-805-rx-battery.webp"
     },
     {
       "id": "batteries-bonnell-805-rx-battery-latch-base-assembly",
@@ -928,7 +929,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/batteries-bonnell-805-rx-battery-latch-base-assembly.webp"
     },
     {
       "id": "chargedcycleworks-72v-65ah-battery-for-surron-ultra-bee",

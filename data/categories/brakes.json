@@ -210,7 +210,7 @@
     },
     {
       "id": "komodo-rear-brake-pads",
-      "name": "Rear Brake Pads — Komodo OEM",
+      "name": "Rear Brake Pads \u2014 Komodo OEM",
       "brand": "Talaria",
       "category": "brakes",
       "tier": "OEM",
@@ -234,11 +234,11 @@
       "last_checked": "2026-10-12",
       "notes": "Genuine Talaria OEM part BPR090. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $29.86, in stock.",
       "weight_delta_kg": null,
-      "image": "img/parts/komodo-rear-brake-pads.png"
+      "image": null
     },
     {
       "id": "komodo-rear-brake-caliper",
-      "name": "Rear Brake Caliper — Komodo OEM",
+      "name": "Rear Brake Caliper \u2014 Komodo OEM",
       "brand": "Talaria",
       "category": "brakes",
       "tier": "OEM",
@@ -262,11 +262,11 @@
       "last_checked": "2026-10-12",
       "notes": "Genuine Talaria OEM part BPCFR002. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $75.25, in stock.",
       "weight_delta_kg": null,
-      "image": "img/parts/komodo-rear-brake-caliper.png"
+      "image": null
     },
     {
       "id": "komodo-front-brake-lever",
-      "name": "Front Brake Lever — Komodo OEM",
+      "name": "Front Brake Lever \u2014 Komodo OEM",
       "brand": "Talaria",
       "category": "brakes",
       "tier": "OEM",
@@ -290,7 +290,7 @@
       "last_checked": "2026-10-12",
       "notes": "Genuine Talaria OEM part BRLVF158. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $22.97, in stock.",
       "weight_delta_kg": null,
-      "image": "img/parts/komodo-front-brake-lever.png"
+      "image": null
     },
     {
       "id": "brakes-ventus-folding-levers",
@@ -553,7 +553,7 @@
     },
     {
       "id": "voro-xepror-ultrabee-brake-pads",
-      "name": "Brake Pads — Arctic Leopard XE Pro R / Sur-Ron Ultra Bee",
+      "name": "Brake Pads \u2014 Arctic Leopard XE Pro R / Sur-Ron Ultra Bee",
       "brand": "OEM",
       "category": "brakes",
       "price_usd": 59.95,
@@ -721,7 +721,7 @@
     },
     {
       "id": "howlingmoto-rippin-moto-performance-brake-pads-sur-ron-lbx-talaria-e-r",
-      "name": "Rippin Moto Performance Brake Pads – Sur-Ron LBX | Talaria | E-Ride PRO | Altis Sigma",
+      "name": "Rippin Moto Performance Brake Pads \u2013 Sur-Ron LBX | Talaria | E-Ride PRO | Altis Sigma",
       "brand": "Rippin Moto",
       "category": "brakes",
       "price_usd": 18.99,
@@ -755,7 +755,7 @@
     },
     {
       "id": "chargedcycleworks-e-ride-pro-oem-brake-pads-5pcs-set-with1-big-circlip",
-      "name": "E Ride Pro – OEM Brake Pads for SS 3.0 & SR",
+      "name": "E Ride Pro \u2013 OEM Brake Pads for SS 3.0 & SR",
       "brand": "ERide Pro",
       "category": "brakes",
       "price_usd": 19.0,
@@ -1118,7 +1118,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/brakes-asv-f4-type2-lever-set.webp"
     },
     {
       "id": "brakes-bonnell-805-rx-brake-lever",
@@ -1147,7 +1147,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/brakes-bonnell-805-rx-brake-lever.webp"
     },
     {
       "id": "brakes-bonnell-805-rx-brake-disc-set",
@@ -1234,7 +1234,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/brakes-bonnell-805-rx-brake-line.webp"
     },
     {
       "id": "brakes-bonnell-805-rx-brake-pad-set",
@@ -1442,7 +1442,7 @@
     },
     {
       "id": "chargedcycleworks-eride-pro-260mm-floating-racing-rotor-kit-team-edition",
-      "name": "E Ride Pro – 260mm Racing Rotor Kit – Team Edition",
+      "name": "E Ride Pro \u2013 260mm Racing Rotor Kit \u2013 Team Edition",
       "brand": "ERide Pro",
       "category": "brakes",
       "price_usd": 149.0,
@@ -1992,7 +1992,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-oem-brake-lever-set",
-      "name": "Surron Ultra Bee – Replacement Brake Lever – Front / Rear | OEM",
+      "name": "Surron Ultra Bee \u2013 Replacement Brake Lever \u2013 Front / Rear | OEM",
       "brand": "Surron-WN",
       "category": "brakes",
       "price_usd": 59.99,
@@ -2067,7 +2067,7 @@
     },
     {
       "id": "chargedcycleworks-talaria-komodo-front-brake-pads-35453",
-      "name": "Talaria Komodo – Front & Rear Brake Pads | OEM",
+      "name": "Talaria Komodo \u2013 Front & Rear Brake Pads | OEM",
       "brand": "eBikeZilla",
       "category": "brakes",
       "price_usd": 29.69,

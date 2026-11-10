@@ -1957,7 +1957,7 @@
     {
      "pid": "ebmx-x-9000-v3",
      "name": "EBMX X-9000 V3",
-     "img": "",
+     "img": "img/parts/ebmx-x-9000-v3.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -2920,7 +2920,7 @@
     {
      "pid": "ebmx-x9000-v3-kit-talaria",
      "name": "EBMX X-9000 V3 Controller Kit with Talaria MX3/MX4/MX5 Harness",
-     "img": "",
+     "img": "img/parts/ebmx-x9000-v3-kit-talaria.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -5003,7 +5003,7 @@
     {
      "pid": "komodo-fork-left-oem",
      "name": "Suspension/Fork (Left) Black — Komodo OEM",
-     "img": "img/parts/komodo-fork-left-oem.png",
+     "img": "",
      "prices": [
       {
        "v": "eMoto Bykes",
@@ -5621,7 +5621,7 @@
     {
      "pid": "fork-sirris-f43-fork-spring-single",
      "name": "SIRRIS F43 Fork Spring (each)",
-     "img": "",
+     "img": "img/parts/fork-sirris-f43-fork-spring-single.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -8042,7 +8042,7 @@
     {
      "pid": "komodo-shock-absorber-oem",
      "name": "Shock Absorber Black — Komodo OEM",
-     "img": "img/parts/komodo-shock-absorber-oem.png",
+     "img": "",
      "prices": [
       {
        "v": "eMoto Bykes",
@@ -9278,7 +9278,7 @@
     {
      "pid": "shock-sirris-r46-rear-shock-spring",
      "name": "Sirris R46 Rear Shock Spring",
-     "img": "",
+     "img": "img/parts/shock-sirris-r46-rear-shock-spring.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -11934,7 +11934,7 @@
     {
      "pid": "komodo-supermoto-wheelset",
      "name": "Supermoto Front & Rear Wheel Set for Komodo",
-     "img": "img/parts/komodo-supermoto-wheelset.png",
+     "img": "",
      "prices": [
       {
        "v": "eMoto Bykes",
@@ -13173,7 +13173,7 @@
     {
      "pid": "wheels-excel-wheels-for-bonnell-805-rx",
      "name": "Excel Wheels for Bonnell 805 RX",
-     "img": "",
+     "img": "img/parts/wheels-excel-wheels-for-bonnell-805-rx.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -13250,7 +13250,7 @@
     {
      "pid": "wheels-bonnell-805-rx-19-16-wheel-set",
      "name": "Bonnell 805 - 19\"/16\" Wheel Set",
-     "img": "",
+     "img": "img/parts/wheels-bonnell-805-rx-19-16-wheel-set.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -13327,7 +13327,7 @@
     {
      "pid": "wheels-bonnell-805-rx-rear-wheel",
      "name": "Bonnell 805 - Rear Wheel",
-     "img": "",
+     "img": "img/parts/wheels-bonnell-805-rx-rear-wheel.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -13404,7 +13404,7 @@
     {
      "pid": "wheels-bonnell-805-rx-1-6x21-front-wheel",
      "name": "Bonnell 805 - 1.6x21 Front Wheel",
-     "img": "",
+     "img": "img/parts/wheels-bonnell-805-rx-1-6x21-front-wheel.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -18420,7 +18420,7 @@
     {
      "pid": "komodo-rear-brake-pads",
      "name": "Rear Brake Pads — Komodo OEM",
-     "img": "img/parts/komodo-rear-brake-pads.png",
+     "img": "",
      "prices": [
       {
        "v": "eMoto Bykes",
@@ -18497,7 +18497,7 @@
     {
      "pid": "komodo-rear-brake-caliper",
      "name": "Rear Brake Caliper — Komodo OEM",
-     "img": "img/parts/komodo-rear-brake-caliper.png",
+     "img": "",
      "prices": [
       {
        "v": "eMoto Bykes",
@@ -18574,7 +18574,7 @@
     {
      "pid": "komodo-front-brake-lever",
      "name": "Front Brake Lever — Komodo OEM",
-     "img": "img/parts/komodo-front-brake-lever.png",
+     "img": "",
      "prices": [
       {
        "v": "eMoto Bykes",
@@ -20601,7 +20601,7 @@
     {
      "pid": "brakes-asv-f4-type2-lever-set",
      "name": "ASV F4 Type 2 Brake Lever Set - Blue",
-     "img": "",
+     "img": "img/parts/brakes-asv-f4-type2-lever-set.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -20678,7 +20678,7 @@
     {
      "pid": "brakes-bonnell-805-rx-brake-lever",
      "name": "Bonnell 805 - Brake Lever | Front & Rear",
-     "img": "",
+     "img": "img/parts/brakes-bonnell-805-rx-brake-lever.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -20909,7 +20909,7 @@
     {
      "pid": "brakes-bonnell-805-rx-brake-line",
      "name": "Bonnell 805 - Brake Line | Front & Rear",
-     "img": "",
+     "img": "img/parts/brakes-bonnell-805-rx-brake-line.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -27747,7 +27747,7 @@
     {
      "pid": "plastics-bonnell-805-oem-plastics-kit",
      "name": "Bonnell 805 - OEM Plastics Kit",
-     "img": "",
+     "img": "img/parts/plastics-bonnell-805-oem-plastics-kit.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -27824,7 +27824,7 @@
     {
      "pid": "plastics-bonnell-805-rx-common-plastics-kit",
      "name": "Bonnell 805 - Common Plastics Kit",
-     "img": "",
+     "img": "img/parts/plastics-bonnell-805-rx-common-plastics-kit.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -31076,7 +31076,7 @@
     {
      "pid": "ultrabee-2025-oem-battery",
      "name": "Sur-Ron Ultra Bee 74V 60Ah OEM Battery (2025)",
-     "img": "",
+     "img": "img/parts/ultrabee-2025-oem-battery.webp",
      "prices": [
       {
        "v": "Peak Power E-Motos",
@@ -31306,7 +31306,7 @@
     {
      "pid": "dhs-88v-60ah-ultrabee",
      "name": "DHS 88V 60Ah Race Battery w RS50 cells producing 75kw peak!",
-     "img": "img/parts/dhs-88v-60ah-ultrabee.webp",
+     "img": "",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -31538,7 +31538,7 @@
     {
      "pid": "batteries-bonnell-805-rx-battery",
      "name": "Bonnell 805 - OEM Battery",
-     "img": "",
+     "img": "img/parts/batteries-bonnell-805-rx-battery.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -31615,7 +31615,7 @@
     {
      "pid": "batteries-bonnell-805-rx-battery-latch-base-assembly",
      "name": "Bonnell 805 - Battery Latch Base Assembly",
-     "img": "",
+     "img": "img/parts/batteries-bonnell-805-rx-battery-latch-base-assembly.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -34211,7 +34211,7 @@
     {
      "pid": "handlebar-bonnell-805-rx-high-bend-handlebar",
      "name": "Bonnell 805 - Bend Handlebar | High & Low",
-     "img": "",
+     "img": "img/parts/handlebar-bonnell-805-rx-high-bend-handlebar.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -34288,7 +34288,7 @@
     {
      "pid": "handlebar-odi-podium-mx-handlebars",
      "name": "ODI Podium MX Handlebars 28.6mm",
-     "img": "",
+     "img": "img/parts/handlebar-odi-podium-mx-handlebars.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -34363,7 +34363,7 @@
     {
      "pid": "handlebar-renthal-fatbar-1-1-8",
      "name": "Renthal FatBar MX Handlebar 28.6mm",
-     "img": "",
+     "img": "img/parts/handlebar-renthal-fatbar-1-1-8.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -34915,7 +34915,7 @@
     {
      "pid": "talaria-mx4-oem-charger",
      "name": "Talaria Sting R MX4 OEM Battery Charger (110V)",
-     "img": "",
+     "img": "img/parts/talaria-mx4-oem-charger.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -34992,7 +34992,7 @@
     {
      "pid": "ccw-fast-charger-72v-15a",
      "name": "Charged Cycle Works 72V 15A Fast Charger (for eWatt / CCW 72V batteries)",
-     "img": "",
+     "img": "img/parts/ccw-fast-charger-72v-15a.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -35764,7 +35764,7 @@
     {
      "pid": "charger-bonnell-805-rx-charger-2500w-100-8v-30a-us",
      "name": "Bonnell 805 - Fast Charger",
-     "img": "",
+     "img": "img/parts/charger-bonnell-805-rx-charger-2500w-100-8v-30a-us.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -35841,7 +35841,7 @@
     {
      "pid": "charger-bonnell-805-rx-charger-1500w-100-8v-20a-us",
      "name": "Bonnell 805 - Charger 1500W-100.8V-20A-US",
-     "img": "",
+     "img": "img/parts/charger-bonnell-805-rx-charger-1500w-100-8v-20a-us.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -37322,7 +37322,7 @@
     {
      "pid": "cockpit-bonnell-805-rx-joycon",
      "name": "Bonnell 805 - Joycon",
-     "img": "",
+     "img": "img/parts/cockpit-bonnell-805-rx-joycon.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -37476,7 +37476,7 @@
     {
      "pid": "cockpit-bonnell-805-rx-large-handlebar-pad",
      "name": "Bonnell 805 - Large Handlebar Pad",
-     "img": "",
+     "img": "img/parts/cockpit-bonnell-805-rx-large-handlebar-pad.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -37553,7 +37553,7 @@
     {
      "pid": "cockpit-protaper-pillow-top-lite-grips",
      "name": "ProTaper Pillow Top Lite Grips",
-     "img": "",
+     "img": "img/parts/cockpit-protaper-pillow-top-lite-grips.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -37630,7 +37630,7 @@
     {
      "pid": "cockpit-protaper-pillow-top-grips",
      "name": "ProTaper Pillow Top Grips",
-     "img": "",
+     "img": "img/parts/cockpit-protaper-pillow-top-grips.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -37784,7 +37784,7 @@
     {
      "pid": "cockpit-odi-ruffian-full-waffle-grips",
      "name": "ODI Ruffian full-waffle grips",
-     "img": "",
+     "img": "img/parts/cockpit-odi-ruffian-full-waffle-grips.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -37861,7 +37861,7 @@
     {
      "pid": "cockpit-sxs-burly-shields-hand-guards",
      "name": "SXS Burly Shields Hand Guards",
-     "img": "",
+     "img": "img/parts/cockpit-sxs-burly-shields-hand-guards.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -37938,7 +37938,7 @@
     {
      "pid": "cockpit-renthal-50-50-mx-grips",
      "name": "Renthal 50/50 MX Grips",
-     "img": "",
+     "img": "img/parts/cockpit-renthal-50-50-mx-grips.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -38015,7 +38015,7 @@
     {
      "pid": "cockpit-acerbis-x-ultimate-handguards",
      "name": "Acerbis X-Ultimate Handguards",
-     "img": "",
+     "img": "img/parts/cockpit-acerbis-x-ultimate-handguards.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -38092,7 +38092,7 @@
     {
      "pid": "cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260",
      "name": "ODI Ruffian no-waffle grips",
-     "img": "",
+     "img": "img/parts/cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -38169,7 +38169,7 @@
     {
      "pid": "cockpit-acerbis-x-factory-handguards",
      "name": "Acerbis X-Factory Handguards",
-     "img": "",
+     "img": "img/parts/cockpit-acerbis-x-factory-handguards.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -38246,7 +38246,7 @@
     {
      "pid": "cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260",
      "name": "ODI Ruffian half-waffle grips",
-     "img": "",
+     "img": "img/parts/cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -38323,7 +38323,7 @@
     {
      "pid": "cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260",
      "name": "Tusk Dual Compound half waffle grips",
-     "img": "",
+     "img": "img/parts/cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -38400,7 +38400,7 @@
     {
      "pid": "cockpit-warp9-e-moto-handguards",
      "name": "Warp9 eMoto Handguards",
-     "img": "",
+     "img": "img/parts/cockpit-warp9-e-moto-handguards.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -38477,7 +38477,7 @@
     {
      "pid": "cockpit-bonnell-805-throttle-assembly",
      "name": "Bonnell 805 - Throttle Assembly",
-     "img": "",
+     "img": "img/parts/cockpit-bonnell-805-throttle-assembly.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -38945,7 +38945,7 @@
     {
      "pid": "cooling-ebmx-x9000-air-heatsink",
      "name": "EBMX X-9000 V3 Air-Cooled Heatsink",
-     "img": "img/parts/cooling-ebmx-x9000-air-heatsink.png",
+     "img": "img/parts/cooling-ebmx-x9000-air-heatsink.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -39577,7 +39577,7 @@
     {
      "pid": "komodo-chain-520",
      "name": "O-ring Chain 520-108 — Komodo OEM",
-     "img": "img/parts/komodo-chain-520.png",
+     "img": "",
      "prices": [
       {
        "v": "eMoto Bykes",
@@ -40896,7 +40896,7 @@
     {
      "pid": "drivetrain-renthal-sprocket-bonnell-805-902",
      "name": "Renthal Sprocket for Bonnell 805/902 - Blue",
-     "img": "",
+     "img": "img/parts/drivetrain-renthal-sprocket-bonnell-805-902.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -40973,7 +40973,7 @@
     {
      "pid": "drivetrain-dirt-tricks-zirconium-rear-sprocket-stark-varg",
      "name": "Dirt Tricks Sprocket For Bonnell 805/902",
-     "img": "",
+     "img": "img/parts/drivetrain-dirt-tricks-zirconium-rear-sprocket-stark-varg.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -41050,7 +41050,7 @@
     {
      "pid": "drivetrain-renthal-twinring-sprocket-bonnell-805-902",
      "name": "Renthal TwinRing Sprocket For Bonnell 805/902",
-     "img": "",
+     "img": "img/parts/drivetrain-renthal-twinring-sprocket-bonnell-805-902.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -41127,7 +41127,7 @@
     {
      "pid": "drivetrain-did-520-ervt-gold-x-ring-chain",
      "name": "DID 520 ERVT Gold X-Ring Chain",
-     "img": "",
+     "img": "img/parts/drivetrain-did-520-ervt-gold-x-ring-chain.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -41204,7 +41204,7 @@
     {
      "pid": "drivetrain-520-renthal-r-1-works-chain",
      "name": "Renthal 520 R-1 Works Chain",
-     "img": "",
+     "img": "img/parts/drivetrain-520-renthal-r-1-works-chain.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -41281,7 +41281,7 @@
     {
      "pid": "drivetrain-ultra-bee-sprocket-drive-kit",
      "name": "Warp9 520 Primary Chain Drive Kit for Surron Ultra Bee",
-     "img": "",
+     "img": "img/parts/drivetrain-ultra-bee-sprocket-drive-kit.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -42051,7 +42051,7 @@
     {
      "pid": "drivetrain-primary-drive-520-orh-gold-x-ring-chain",
      "name": "Primary Drive 520 ORH Gold X-Ring Chain",
-     "img": "",
+     "img": "img/parts/drivetrain-primary-drive-520-orh-gold-x-ring-chain.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -46152,7 +46152,7 @@
     {
      "pid": "electrical-bonnell-805-rx-large-display",
      "name": "Bonnell 805 - Large Display",
-     "img": "",
+     "img": "img/parts/electrical-bonnell-805-rx-large-display.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -46229,7 +46229,7 @@
     {
      "pid": "electrical-bonnell-805-rx-killswitch-main-unit",
      "name": "Bonnell 805 - Killswitch - Main Unit",
-     "img": "",
+     "img": "img/parts/electrical-bonnell-805-rx-killswitch-main-unit.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -54591,7 +54591,7 @@
     {
      "pid": "linkage-bonnell-805-rx-linkage",
      "name": "Bonnell 805 - Linkage",
-     "img": "",
+     "img": "img/parts/linkage-bonnell-805-rx-linkage.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -54668,7 +54668,7 @@
     {
      "pid": "linkage-bonnell-805-rx-rocker-assembly",
      "name": "Bonnell 805 - Rocker Assembly",
-     "img": "",
+     "img": "img/parts/linkage-bonnell-805-rx-rocker-assembly.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -56616,7 +56616,7 @@
     {
      "pid": "maintenance-bonnell-805-rx-kickstand-set",
      "name": "Bonnell 805 - Kickstand Set",
-     "img": "",
+     "img": "img/parts/maintenance-bonnell-805-rx-kickstand-set.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -56693,7 +56693,7 @@
     {
      "pid": "maintenance-bonnell-805-rx-rear-wheel-axle-block",
      "name": "Bonnell 805 - Rear Wheel Axle Block | Left & Right",
-     "img": "",
+     "img": "img/parts/maintenance-bonnell-805-rx-rear-wheel-axle-block.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -56847,7 +56847,7 @@
     {
      "pid": "maintenance-bonnell-805-rx-spare-parts-bolt-kit",
      "name": "Bonnell 805 - Spare Parts Bolt Kit",
-     "img": "",
+     "img": "img/parts/maintenance-bonnell-805-rx-spare-parts-bolt-kit.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -60094,7 +60094,7 @@
     {
      "pid": "pegs-kke-ultrabee",
      "name": "KKE Billet Foot Pegs for Sur-Ron Ultra Bee",
-     "img": "",
+     "img": "img/parts/pegs-kke-ultrabee.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -65215,7 +65215,7 @@
     {
      "pid": "seat-bonnell-805-rx-seat",
      "name": "Bonnell 805 - Seat",
-     "img": "",
+     "img": "img/parts/seat-bonnell-805-rx-seat.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -68413,7 +68413,7 @@
     {
      "pid": "swingarm-bonnell-805-rx-swingarm-assembly",
      "name": "Bonnell 805 - Swingarm Assembly",
-     "img": "",
+     "img": "img/parts/swingarm-bonnell-805-rx-swingarm-assembly.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75000,7 +75000,7 @@
     {
      "pid": "tire-bonnell-805-rx-front-tire",
      "name": "Bonnell 805 - Front Tire",
-     "img": "",
+     "img": "img/parts/tire-bonnell-805-rx-front-tire.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75077,7 +75077,7 @@
     {
      "pid": "tire-bonnell-805-rx-rim-lock",
      "name": "Bonnell 805 - Rim Lock",
-     "img": "",
+     "img": "img/parts/tire-bonnell-805-rx-rim-lock.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75154,7 +75154,7 @@
     {
      "pid": "tire-warp9-titanium-pro-rim-lock",
      "name": "Warp9 Titanium Pro Rim Lock",
-     "img": "",
+     "img": "img/parts/tire-warp9-titanium-pro-rim-lock.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75231,7 +75231,7 @@
     {
      "pid": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
      "name": "Dunlop MX54 Geomax Soft/Int Terrain Tires",
-     "img": "",
+     "img": "img/parts/tire-dunlop-mx54-geomax-soft-int-terrain-tires.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75308,7 +75308,7 @@
     {
      "pid": "tire-dunlop-geomax-en91ex-gummy-tire",
      "name": "Dunlop Geomax EN91EX Gummy Tire",
-     "img": "",
+     "img": "img/parts/tire-dunlop-geomax-en91ex-gummy-tire.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75383,7 +75383,7 @@
     {
      "pid": "tire-bikemaster-tr6-inner-tubes",
      "name": "BikeMaster TR6 Inner Tubes",
-     "img": "",
+     "img": "img/parts/tire-bikemaster-tr6-inner-tubes.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75460,7 +75460,7 @@
     {
      "pid": "tire-kenda-k775-washougal-ii-front-tire",
      "name": "Kenda K775 Washougal II Tires",
-     "img": "",
+     "img": "img/parts/tire-kenda-k775-washougal-ii-front-tire.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75614,7 +75614,7 @@
     {
      "pid": "tire-irc-jx8-gekkota-rear-gummy-tire",
      "name": "IRC JX8 GEKKOTA Rear Gummy Tire 110/100-18",
-     "img": "",
+     "img": "img/parts/tire-irc-jx8-gekkota-rear-gummy-tire.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75691,7 +75691,7 @@
     {
      "pid": "tire-irc-tubes",
      "name": "IRC Tubes",
-     "img": "",
+     "img": "img/parts/tire-irc-tubes.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75768,7 +75768,7 @@
     {
      "pid": "tire-wps-rim-strip",
      "name": "WPS Rim Strip",
-     "img": "",
+     "img": "img/parts/tire-wps-rim-strip.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75845,7 +75845,7 @@
     {
      "pid": "tire-dunlop-at82-geomax-all-terrain-terrain-tire",
      "name": "Dunlop AT82 Geomax All Terrain Terrain Tire",
-     "img": "",
+     "img": "img/parts/tire-dunlop-at82-geomax-all-terrain-terrain-tire.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75922,7 +75922,7 @@
     {
      "pid": "tire-tire-ve-33s-gekkota-rear-tire",
      "name": "IRC VE33S Gekkota Gummy Tire 110/100x18",
-     "img": "",
+     "img": "img/parts/tire-tire-ve-33s-gekkota-rear-tire.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -75999,7 +75999,7 @@
     {
      "pid": "tire-tusk-talon-multi-terrain-tire-80-100-21",
      "name": "Tusk Talon Multi Terrain Front Tire 80/100-21",
-     "img": "",
+     "img": "img/parts/tire-tusk-talon-multi-terrain-tire-80-100-21.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -76076,7 +76076,7 @@
     {
      "pid": "tire-irc-ix-07s-21-front-tire-light-weight",
      "name": "IRC IX-07S 21\" Front Tire (light weight)",
-     "img": "",
+     "img": "img/parts/tire-irc-ix-07s-21-front-tire-light-weight.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -76153,7 +76153,7 @@
     {
      "pid": "tire-dunlop-mx14-sand-scoop-tire",
      "name": "Dunlop MX14 Sand Scoop Tire",
-     "img": "",
+     "img": "img/parts/tire-dunlop-mx14-sand-scoop-tire.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -76230,7 +76230,7 @@
     {
      "pid": "tire-shinko-525-soft-intermediate-terrain-tire",
      "name": "Shinko 525 Soft-Intermediate Terrain Tire",
-     "img": "",
+     "img": "img/parts/tire-shinko-525-soft-intermediate-terrain-tire.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -76307,7 +76307,7 @@
     {
      "pid": "tire-kenda-1-3mm-tube-light-weight",
      "name": "Kenda 1.3mm Tube (light weight)",
-     "img": "",
+     "img": "img/parts/tire-kenda-1-3mm-tube-light-weight.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -76384,7 +76384,7 @@
     {
      "pid": "tire-nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria",
      "name": "Nuetech Nitro Mousse Foam Tube",
-     "img": "",
+     "img": "img/parts/tire-nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -76461,7 +76461,7 @@
     {
      "pid": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
      "name": "Kenda K774 Ibex Hybrid Sticky Tires",
-     "img": "",
+     "img": "img/parts/tire-kenda-k774-ibex-hybrid-sticky-front-tire.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -76615,7 +76615,7 @@
     {
      "pid": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
      "name": "Sedona Heavy Duty 2mm Tube for all eMX eMoto Bikes",
-     "img": "",
+     "img": "img/parts/tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -78333,7 +78333,7 @@
     {
      "pid": "titanium-bonnell-805-rx-titanium-bolt-kit",
      "name": "Bonnell 805 - Titanium Bolt Kit",
-     "img": "",
+     "img": "img/parts/titanium-bonnell-805-rx-titanium-bolt-kit.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
