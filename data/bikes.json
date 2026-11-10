@@ -226,7 +226,8 @@
         "wheel_source_url": "https://arctic-leopard.com/produit/x%c2%b7d-pro/"
       },
       "size": "full",
-      "notes": "Weight 209.4 lb from the Arctic Leopard USA product page (https://arctic-leopard-usa.com/products/xd-pro), checked Nov 10, 2026. Other published figures include 196 lb (global) and 204 lb (Charged Cycle Works)."
+      "notes": "Weight 209.4 lb from the Arctic Leopard USA product page (https://arctic-leopard-usa.com/products/xd-pro), checked Nov 10, 2026. Other published figures include 196 lb (global) and 204 lb (Charged Cycle Works).",
+      "fitment_sparse": true
     },
     {
       "id": "rerode-rx",

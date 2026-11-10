@@ -22,7 +22,7 @@ var BIKES = [
   {id:'komodo', name:'Talaria Komodo', price:5699, src:'msrp', weight:216, kw:32, size:'full'},
   {id:'bonnell-805rx', name:'Bonnell 805 RX', price:8250, src:'charged_cycle_works', weight:218, kw:42, size:'full'},
   {id:'storm-bee', name:'Sur-Ron Storm Bee F', price:8499, src:'msrp', weight:280, kw:22.5, size:'full'},
-  {id:'arctic-xd', name:'Arctic Leopard XD Pro', price:6599, src:'msrp', srcUrl:'https://arctic-leopard-usa.com/products/xd-pro', srcChk:'2026-11-10', weight:209.4, kw:35, size:'full'},
+  {id:'arctic-xd', name:'Arctic Leopard XD Pro', price:6599, src:'msrp', srcUrl:'https://arctic-leopard-usa.com/products/xd-pro', srcChk:'2026-11-10', weight:209.4, kw:35, size:'full', sparse:1},
   {id:'rerode-rx', name:'Re Rode RX', price:6200, src:'msrp', weight:225, kw:35, size:'full', sparse:1},
   {id:'rawrr-mantis-72v', name:'Rawrr Mantis 72V', price:4499, src:'msrp', weight:158.5, kw:15, size:'mid', sparse:1},
   {id:'rawrr-mantis-x-pro', name:'Rawrr Mantis X Pro', price:3899, src:'msrp', weight:158.5, kw:15, size:'mid', sparse:1},
