@@ -3,7 +3,7 @@
 //   ALERT_RUN_TOKEN - random string; caller must send header  Authorization: Bearer <token>
 //   ALERT_FROM      - optional, e.g. "eBikePartsPicker <alerts@yourdomain.com>"; default onboarding@resend.dev (test only: delivers to Resend account owner only)
 // POST /api/alerts-run?dry=1 previews without sending. First run per signup just records a baseline price.
-const SITE = 'https://ebikepartspicker.pages.dev';
+const SITE = 'https://ebikepartspicker.net';
 export async function onRequestPost({ request, env }) {
   if (!env.ALERT_RUN_TOKEN || request.headers.get('authorization') !== `Bearer ${env.ALERT_RUN_TOKEN}`) return j({ ok: false, error: 'unauthorized' }, 401);
   if (!env.FORMS) return j({ ok: false, error: 'storage_not_configured' }, 503);
