@@ -4,7 +4,7 @@
 (function(){
 "use strict";
 function $(id){ return document.getElementById(id); }
-function money(n){ if(n==null) return 'TBD';
+function money(n){ if(n==null) return 'Not verified';
   var c=(n%1)?2:0;
   return n.toLocaleString('en-US',{style:'currency',currency:'USD',minimumFractionDigits:c,maximumFractionDigits:c}); }
 function bikeById(id){ return (window.BIKES||[]).find(function(b){ return b.id===id; }) || null; }
@@ -144,13 +144,13 @@ function renderCompare(){
 
   var rows = [
     { label:'Price', fn:function(b){ return b.price; }, higher:false,
-      fmt:function(b){ return b.price!=null ? money(b.price) : 'TBD'; } },
+      fmt:function(b){ return b.price!=null ? money(b.price) : 'Not verified'; } },
     { label:'Weight', fn:function(b){ return b.weight; }, higher:false,
-      fmt:function(b){ return b.weight!=null ? b.weight+' lb' : 'unverified'; } },
+      fmt:function(b){ return b.weight!=null ? b.weight+' lb' : 'Not verified'; } },
     { label:'Peak power', fn:function(b){ return b.kw; }, higher:true,
-      fmt:function(b){ return b.kw!=null ? b.kw+' kW' : 'unverified'; } },
+      fmt:function(b){ return b.kw!=null ? b.kw+' kW' : 'Not verified'; } },
     { label:'Est. range', fn:estRange, higher:true,
-      fmt:function(b){ var r=estRange(b); return r!=null ? '~'+r+' mi' : 'unknown'; } },
+      fmt:function(b){ var r=estRange(b); return r!=null ? '~'+r+' mi' : 'Not verified'; } },
     { label:'Size class', fn:null, higher:false,
       fmt:function(b){ return sizeLabel(b); } }
   ];

@@ -353,7 +353,7 @@ function updateBar(){
   CATEGORIES.forEach(function(c){ if(st.sel[c.id]) n++; });
   var t = A.totals(), b = A.bikeById(st.bike);
   $('.ux-mbar-n', mbar).textContent = n ? n+' part'+(n>1?'s':'')+' \u00b7 '+shortName(b?b.name:'') : 'No parts yet \u00b7 '+shortName(b?b.name:'');
-  $('.ux-mbar-t', mbar).textContent = t.tbd ? 'Total TBD' : A.money(t.price);
+  $('.ux-mbar-t', mbar).textContent = t.tbd ? 'Total not verified' : A.money(t.price);
   var onReview = st.step >= A.groups.length;
   $('.ux-mbar-b', mbar).hidden = onReview;
 }
@@ -424,7 +424,7 @@ function renderShelf(){
     a.href = '/#'+encodeURIComponent(JSON.stringify({b:x.b, s:x.s}));
     var im = el('img'); im.src = '/img/bikes/'+x.b+'-800.webp'; im.alt = ''; im.width = 160; im.height = 100; im.loading = 'lazy'; im.decoding = 'async';
     a.appendChild(im); a.appendChild(el('strong',null,b.name));
-    a.appendChild(el('small',null, x.n+' upgrade'+(x.n>1?'s':'')+' \u00b7 '+(x.p!=null?A.money(x.p):'Total TBD')));
+    a.appendChild(el('small',null, x.n+' upgrade'+(x.n>1?'s':'')+' \u00b7 '+(x.p!=null?A.money(x.p):'Total not verified')));
     a.addEventListener('click', function(e){ e.preventDefault(); location.hash = a.getAttribute('href').slice(1); location.reload(); });
     return a;
   });
