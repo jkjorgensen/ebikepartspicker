@@ -2,7 +2,7 @@
 bike's OG preview and forward to the builder with the build hash intact. Run after dump_snapshot.py."""
 import json,os,html
 from PIL import Image,ImageDraw,ImageFont,ImageFilter
-R=os.path.dirname(os.path.dirname(os.path.abspath(__file__)));BASE='https://ebikepartspicker.pages.dev'
+R=os.path.dirname(os.path.dirname(os.path.abspath(__file__)));BASE='https://ebikepartspicker.net'
 S=json.load(open(os.path.join(R,'data','seo-fit-snapshot.json')))
 FT='/usr/share/fonts/truetype/sand-box/google/Space Grotesk/SpaceGrotesk-VariableFont_wght.ttf'
 def font(sz,w=700):

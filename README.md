@@ -7,4 +7,4 @@ Signups are stored in FORMS KV as `alert:<email>:<bike>`. `functions/api/alerts-
 2. Cloudflare dashboard → Pages → ebikepartspicker → Settings → Variables and Secrets (Production): add Secret `RESEND_API_KEY`, and Secret `ALERT_RUN_TOKEN` (any long random string).
 3. Schedule (not yet wired): a free Cloudflare cron Worker or GitHub Action that POSTs to `/api/alerts-run` with the token daily. Until then, run it manually after price updates.
 4. Sender: without a custom domain, `onboarding@resend.dev` only delivers to the Resend account owner (testing). For real users, verify a domain in Resend and set `ALERT_FROM`.
-Never commit keys. Test: `curl -X POST -H "Authorization: Bearer $TOKEN" "https://ebikepartspicker.pages.dev/api/alerts-run?dry=1"`.
+Never commit keys. Test: `curl -X POST -H "Authorization: Bearer $TOKEN" "https://ebikepartspicker.net/api/alerts-run?dry=1"`.

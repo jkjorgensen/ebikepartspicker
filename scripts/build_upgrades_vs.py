@@ -6,7 +6,7 @@ R=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D=json.load(open(f'{R}/data/seo-fit-snapshot.json'))
 BJ={b['id']:b for b in (lambda j:j if isinstance(j,list) else j['bikes'])(json.load(open(f'{R}/data/bikes.json')))}
 BK={b['id']:b for b in D['bikes']}
-BASE='https://ebikepartspicker.pages.dev'; IMGV='4.5.0'
+BASE='https://ebikepartspicker.net'; IMGV='4.5.0'
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else 'Not verified'
 UP=['lightbee','ss20','mx4','ultrabee','ss30','mx5','sr','ventus-plus','komodo']
