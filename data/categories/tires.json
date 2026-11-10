@@ -585,7 +585,7 @@
         "https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Soft/intermediate MX tire with wide size run incl. minis. RevZilla flags this listing as discontinued (2025 MX32 update) — still purchasable in most sizes but stock thinning. No DOT approval.",
+      "notes": "Soft/intermediate MX tire with wide size run incl. minis. RevZilla flags this listing as discontinued (2025 MX32 update) \u2014 still purchasable in most sizes but stock thinning. No DOT approval.",
       "sizes": [
         "2.75-10",
         "60/100-12",
@@ -632,7 +632,7 @@
         "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138"
       ],
       "last_checked": "2026-10-12",
-      "notes": "DOT-approved knobby (10% road / 90% off-road), 6-ply tube-type. Best small-wheel coverage of any DOT knobby: 10\"/12\"/14\"/16\"/17\"/18\"/19\"/21\". Pit-bike front/rear labeling varies by vendor — verify before ordering.",
+      "notes": "DOT-approved knobby (10% road / 90% off-road), 6-ply tube-type. Best small-wheel coverage of any DOT knobby: 10\"/12\"/14\"/16\"/17\"/18\"/19\"/21\". Pit-bike front/rear labeling varies by vendor \u2014 verify before ordering.",
       "sizes": [
         "70/100-19",
         "80/100-21",
@@ -861,7 +861,7 @@
         "https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19"
       ],
       "last_checked": "2026-10-12",
-      "notes": "OEM rear tire for the Talaria Sting (mfr part TM00328800, 49M tube-type, E-marked — road legal in EU, not DOT). Listed at GBP 74.38 (~$99 USD); UK seller ships to US. No US vendor retails it new.",
+      "notes": "OEM rear tire for the Talaria Sting (mfr part TM00328800, 49M tube-type, E-marked \u2014 road legal in EU, not DOT). Listed at GBP 74.38 (~$99 USD); UK seller ships to US. No US vendor retails it new.",
       "sizes": [
         "80/100-19"
       ],
@@ -898,7 +898,7 @@
         "70/100-19"
       ],
       "position": "front",
-      "image": null
+      "image": "img/parts/tire-cst-oem-70100-19-eu.webp"
     },
     {
       "id": "tire-kenda-washougal3-ccw",
@@ -1027,7 +1027,7 @@
         "https://chargedcycleworks.com/pages/sur-ron-tire-upgrade-specs-and-weights"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Medium-terrain front (70/100-19). CCW weighed it at 7.1 lb — one of the heavier 19\" fronts, but a proven moto tire.",
+      "notes": "Medium-terrain front (70/100-19). CCW weighed it at 7.1 lb \u2014 one of the heavier 19\" fronts, but a proven moto tire.",
       "sizes": [
         "70/100-19"
       ],
@@ -1136,7 +1136,7 @@
         "90/100-16"
       ],
       "position": "both",
-      "image": null
+      "image": "img/parts/tire-tusk-recon-ccw.webp"
     },
     {
       "id": "tire-tusk-groundwire-ccw",
@@ -1170,7 +1170,7 @@
         "80/90-19"
       ],
       "position": "both",
-      "image": null
+      "image": "img/parts/tire-tusk-groundwire-ccw.webp"
     },
     {
       "id": "tire-bridgestone-m203-ccw",
@@ -1198,7 +1198,7 @@
         "https://chargedcycleworks.com/pages/sur-ron-tire-upgrade-specs-and-weights"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Soft/intermediate front. CCW weighed the 70/100-19 at 5.5 lb — one of the lightest 19\" fronts.",
+      "notes": "Soft/intermediate front. CCW weighed the 70/100-19 at 5.5 lb \u2014 one of the lightest 19\" fronts.",
       "sizes": [
         "70/100-19",
         "70/100-17",
@@ -1416,7 +1416,7 @@
         "https://chargedcycleworks.com/pages/sur-ron-tire-upgrade-specs-and-weights"
       ],
       "last_checked": "2026-11-05",
-      "notes": "Hard-enduro gummy rear — not for MX use. 90/100-16 in stock; 18\"/21\" variants were out of stock. Price update held - 805RX sizes currently unavailable at CCW.",
+      "notes": "Hard-enduro gummy rear \u2014 not for MX use. 90/100-16 in stock; 18\"/21\" variants were out of stock. Price update held - 805RX sizes currently unavailable at CCW.",
       "sizes": [
         "90/100-16",
         "110/100-18",
@@ -1427,7 +1427,7 @@
     },
     {
       "id": "voro-eride-ss-cst-80100-19",
-      "name": "CST 80/100-19 OEM Tire — E Ride Pro SS (E7207)",
+      "name": "CST 80/100-19 OEM Tire \u2014 E Ride Pro SS (E7207)",
       "brand": "OEM",
       "category": "tires",
       "price_usd": 49.95,
@@ -2003,7 +2003,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-bonnell-805-rx-front-tire.webp"
     },
     {
       "id": "tire-bonnell-805-rx-rim-lock",
@@ -2032,7 +2032,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-bonnell-805-rx-rim-lock.webp"
     },
     {
       "id": "tire-warp9-titanium-pro-rim-lock",
@@ -2061,7 +2061,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-warp9-titanium-pro-rim-lock.webp"
     },
     {
       "id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
@@ -2090,7 +2090,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-dunlop-mx54-geomax-soft-int-terrain-tires.webp"
     },
     {
       "id": "tire-dunlop-geomax-en91ex-gummy-tire",
@@ -2110,7 +2110,7 @@
         "https://chargedcycleworks.com/products/dunlop-geomax-en91ex-gummy-tire"
       ],
       "last_checked": "2026-11-05",
-      "notes": "In CCW's Bonnell 805 Upgrades collection. Size NOT stated in the CCW listing (variant is \"Default Title\", description gives no size) — verify size before encoding fitment. EN91EX is a rear gummy tire. FLAG: Size not stated in the CCW listing (variant is \"Default Title\") - verify size before encoding fitment.",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Size NOT stated in the CCW listing (variant is \"Default Title\", description gives no size) \u2014 verify size before encoding fitment. EN91EX is a rear gummy tire. FLAG: Size not stated in the CCW listing (variant is \"Default Title\") - verify size before encoding fitment.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -2119,7 +2119,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-dunlop-geomax-en91ex-gummy-tire.webp"
     },
     {
       "id": "tire-bikemaster-tr6-inner-tubes",
@@ -2148,7 +2148,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-bikemaster-tr6-inner-tubes.webp"
     },
     {
       "id": "tire-kenda-k775-washougal-ii-front-tire",
@@ -2177,7 +2177,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-kenda-k775-washougal-ii-front-tire.webp"
     },
     {
       "id": "tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19",
@@ -2235,7 +2235,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-irc-jx8-gekkota-rear-gummy-tire.webp"
     },
     {
       "id": "tire-irc-tubes",
@@ -2264,7 +2264,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-irc-tubes.webp"
     },
     {
       "id": "tire-wps-rim-strip",
@@ -2293,7 +2293,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-wps-rim-strip.webp"
     },
     {
       "id": "tire-dunlop-at82-geomax-all-terrain-terrain-tire",
@@ -2322,7 +2322,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-dunlop-at82-geomax-all-terrain-terrain-tire.webp"
     },
     {
       "id": "tire-tire-ve-33s-gekkota-rear-tire",
@@ -2351,7 +2351,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-tire-ve-33s-gekkota-rear-tire.webp"
     },
     {
       "id": "tire-tusk-talon-multi-terrain-tire-80-100-21",
@@ -2380,7 +2380,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-tusk-talon-multi-terrain-tire-80-100-21.webp"
     },
     {
       "id": "tire-irc-ix-07s-21-front-tire-light-weight",
@@ -2409,7 +2409,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-irc-ix-07s-21-front-tire-light-weight.webp"
     },
     {
       "id": "tire-dunlop-mx14-sand-scoop-tire",
@@ -2438,7 +2438,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-dunlop-mx14-sand-scoop-tire.webp"
     },
     {
       "id": "tire-shinko-525-soft-intermediate-terrain-tire",
@@ -2467,7 +2467,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-shinko-525-soft-intermediate-terrain-tire.webp"
     },
     {
       "id": "tire-kenda-1-3mm-tube-light-weight",
@@ -2496,7 +2496,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-kenda-1-3mm-tube-light-weight.webp"
     },
     {
       "id": "tire-nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria",
@@ -2516,7 +2516,7 @@
         "https://chargedcycleworks.com/products/nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria"
       ],
       "last_checked": "2026-11-05",
-      "notes": "In CCW's Bonnell 805 Upgrades collection. Sizes NM21-220 (21 in) and NM18-270/285/305 (18 in). Platinum and Plushie (6–8 psi) compounds. Price range $133.15-$139.95 at CCW; listed price is the lowest variant.",
+      "notes": "In CCW's Bonnell 805 Upgrades collection. Sizes NM21-220 (21 in) and NM18-270/285/305 (18 in). Platinum and Plushie (6\u20138 psi) compounds. Price range $133.15-$139.95 at CCW; listed price is the lowest variant.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -2525,7 +2525,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria.webp"
     },
     {
       "id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
@@ -2554,7 +2554,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-kenda-k774-ibex-hybrid-sticky-front-tire.webp"
     },
     {
       "id": "tire-nuetech-tubliss-gen-2-0-tubeless-tire-system",
@@ -2612,11 +2612,11 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260.webp"
     },
     {
       "id": "chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe",
-      "name": "E Ride Pro - OEM 3.00-18 “BabyFat” Rear Tire Kit",
+      "name": "E Ride Pro - OEM 3.00-18 \u201cBabyFat\u201d Rear Tire Kit",
       "brand": "ERide Pro",
       "category": "tires",
       "price_usd": 79.0,

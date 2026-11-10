@@ -22,7 +22,7 @@
       "tier": "premium",
       "is_upgrade": true,
       "stock_status": "out_of_stock",
-      "notes": "Requires EBMX Ultra Bee triangle, sold separately — not a complete drop-in kit. Designed for stock Ultra Bee shock size (fits EXT REA etc.); 30mm rise suits mixed 21/18 wheel setups.",
+      "notes": "Requires EBMX Ultra Bee triangle, sold separately \u2014 not a complete drop-in kit. Designed for stock Ultra Bee shock size (fits EXT REA etc.); 30mm rise suits mixed 21/18 wheel setups.",
       "source_urls": [
         "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
       ],
@@ -445,7 +445,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/linkage-bonnell-805-rx-linkage.webp"
     },
     {
       "id": "linkage-bonnell-805-rx-rocker-assembly",
@@ -474,7 +474,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/linkage-bonnell-805-rx-rocker-assembly.webp"
     },
     {
       "id": "chargedcycleworks-3-0-sr-shock-linkageliftable",

@@ -1111,7 +1111,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/kke-35mm-55.jpg"
+      "image": "img/parts/kke-35mm-55.webp"
     },
     {
       "id": "fastace-alx13rc-2",
@@ -1186,7 +1186,7 @@
       "tier": "mid",
       "is_upgrade": true,
       "badge": "RFLOXA",
-      "notes": "203/228mm travel options. Charged Cycle Works out of stock at last check — available direct from RFLOXA ($863).",
+      "notes": "203/228mm travel options. Charged Cycle Works out of stock at last check \u2014 available direct from RFLOXA ($863).",
       "source_urls": [
         "https://chargedcycleworks.com/products/rfloxa-hawk31-pro",
         "https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload"
@@ -1317,7 +1317,7 @@
       "tier": "premium",
       "is_upgrade": true,
       "badge": "PURE",
-      "notes": "260mm travel, dual closed cartridges. Trail (960N) or MX (1420N) tune. Stanchion guards not included — reuse stock Ultra Bee guards.",
+      "notes": "260mm travel, dual closed cartridges. Trail (960N) or MX (1420N) tune. Stanchion guards not included \u2014 reuse stock Ultra Bee guards.",
       "source_urls": [
         "https://moddedmotoco.com/products/untitled-nov4_12-25"
       ],
@@ -1366,7 +1366,7 @@
     },
     {
       "id": "komodo-fork-left-oem",
-      "name": "Suspension/Fork (Left) Black — Komodo OEM",
+      "name": "Suspension/Fork (Left) Black \u2014 Komodo OEM",
       "brand": "Talaria",
       "category": "fork",
       "tier": "OEM",
@@ -1390,7 +1390,7 @@
       "last_checked": "2026-10-12",
       "notes": "Genuine Talaria OEM part FRKL186. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $444.61, in stock. SINGLE LEFT FORK LEG ONLY, not a pair. Replacement component, not a performance upgrade.",
       "weight_delta_kg": null,
-      "image": "img/parts/komodo-fork-left-oem.png"
+      "image": null
     },
     {
       "id": "voro-eride-ss-rst-fork",
@@ -1651,7 +1651,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/fork-sirris-f43-fork-spring-single.webp"
     },
     {
       "id": "sirris-f43-zero-xe",
@@ -1935,7 +1935,7 @@
     },
     {
       "id": "chargedcycleworks-kke-37mm-v6-fork-surron-ultra-bee-open-box",
-      "name": "KKE 37mm Closed Cartridge Fork V6 – Surron Ultra Bee - Open Box",
+      "name": "KKE 37mm Closed Cartridge Fork V6 \u2013 Surron Ultra Bee - Open Box",
       "brand": "KKE",
       "category": "fork",
       "price_usd": 750.0,
@@ -1960,7 +1960,7 @@
     },
     {
       "id": "chargedcycleworks-kke-fork-guard-bolts-ultra-bee",
-      "name": "KKE Fork Guard Bolts – Surron Ultra Bee",
+      "name": "KKE Fork Guard Bolts \u2013 Surron Ultra Bee",
       "brand": "KKE Racing",
       "category": "fork",
       "price_usd": 4.99,
@@ -2235,7 +2235,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-rear-fork-collision-block-oem",
-      "name": "Surron Ultra Bee – Rear Fork Collision Block | OEM",
+      "name": "Surron Ultra Bee \u2013 Rear Fork Collision Block | OEM",
       "brand": "Surron-WN",
       "category": "fork",
       "price_usd": 20.9,

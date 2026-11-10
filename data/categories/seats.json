@@ -268,7 +268,7 @@
     },
     {
       "id": "eridepro-she8074-key-switch-cover-long-seat-assembly-old-version-ss2-0",
-      "name": "SHE8074 - Key Switch Cover（Long Seat）Assembly Old Version - SS2.0/SS3.0/SR",
+      "name": "SHE8074 - Key Switch Cover\uff08Long Seat\uff09Assembly Old Version - SS2.0/SS3.0/SR",
       "brand": "E RIDE PRO",
       "category": "seats",
       "price_usd": 15.0,
@@ -304,7 +304,7 @@
     },
     {
       "id": "eridepro-she8066-key-switch-cover-long-seat-ss2-0-ss3-0-sr",
-      "name": "SHE8066 - Key Switch Cover（Long Seat) - SS2.0/SS3.0/SR",
+      "name": "SHE8066 - Key Switch Cover\uff08Long Seat) - SS2.0/SS3.0/SR",
       "brand": "E RIDE PRO",
       "category": "seats",
       "price_usd": 15.0,
@@ -376,7 +376,7 @@
     },
     {
       "id": "chargedcycleworks-eride-pro-long-seat-rear-fender-ss2-ss3-sr-oem",
-      "name": "E Ride Pro SS2.0 / SS3.0 / SR – Long Seat Rear Fender | OEM",
+      "name": "E Ride Pro SS2.0 / SS3.0 / SR \u2013 Long Seat Rear Fender | OEM",
       "brand": "ERide Pro",
       "category": "seats",
       "price_usd": 29.0,
@@ -575,7 +575,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/seat-bonnell-805-rx-seat.webp"
     },
     {
       "id": "mxps-seat-cover-stormbee",
@@ -682,7 +682,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-oem-seat",
-      "name": "Surron Ultra Bee – OEM Seat | High / Low",
+      "name": "Surron Ultra Bee \u2013 OEM Seat | High / Low",
       "brand": "Surron-WN",
       "category": "seats",
       "price_usd": 104.99,

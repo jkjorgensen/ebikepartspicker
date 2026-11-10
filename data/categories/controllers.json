@@ -966,7 +966,7 @@
       ],
       "weight_kg": null,
       "weight_delta_kg": null,
-      "image": "img/parts/ebmx-x-9000-v3.jpg"
+      "image": "img/parts/ebmx-x-9000-v3.webp"
     },
     {
       "badge": "VTB",
@@ -1140,7 +1140,7 @@
         "https://ventusbikes.us/products/ventus-aetos-max-controller"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $1,199, in stock. EVO already uses the Aetos Pro — confirm controller generation, harness, battery voltage and whether this is a true upgrade before purchase.",
+      "notes": "Price verified $1,199, in stock. EVO already uses the Aetos Pro \u2014 confirm controller generation, harness, battery voltage and whether this is a true upgrade before purchase.",
       "vendors": [
         {
           "vendor": "Ventus Bikes USA",
@@ -1170,7 +1170,7 @@
         "https://chargedcycleworks.com/products/torp-tc1000-controller"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $1,249 (V1), currently out of stock. This is the Ultra Bee-specific TC1000 — distinct from the Light Bee 2.X kit already in the catalog.",
+      "notes": "Price verified $1,249 (V1), currently out of stock. This is the Ultra Bee-specific TC1000 \u2014 distinct from the Light Bee 2.X kit already in the catalog.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -1230,7 +1230,7 @@
         "https://chargedcycleworks.com/products/ventus-aetos-ultra-controller"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $1,399, in stock. Page names Ultra Bee explicitly. REQUIRES bike-specific harness (sold separately) and a 100V+ battery — not for stock-voltage builds.",
+      "notes": "Price verified $1,399, in stock. Page names Ultra Bee explicitly. REQUIRES bike-specific harness (sold separately) and a 100V+ battery \u2014 not for stock-voltage builds.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
@@ -1403,12 +1403,12 @@
       "weight_kg": null,
       "power_change_kw": null,
       "weight_delta_kg": null,
-      "image": null,
+      "image": "img/parts/ebmx-x9000-v3-kit-talaria.webp",
       "controller_max_kw": 60
     },
     {
       "id": "chargedcycleworks-bonnell-805-rx-controller-plate-foam-5mm",
-      "name": "Bonnell 805 – Controller Plate Foam, 5mm",
+      "name": "Bonnell 805 \u2013 Controller Plate Foam, 5mm",
       "brand": "Bonnell",
       "category": "controller",
       "price_usd": 7.95,

@@ -770,7 +770,7 @@
       ],
       "weight_kg": null,
       "weight_delta_kg": null,
-      "image": "img/parts/dnm-250x70.jpg"
+      "image": null
     },
     {
       "badge": "TECH ER30",
@@ -838,7 +838,7 @@
     },
     {
       "id": "komodo-shock-absorber-oem",
-      "name": "Shock Absorber Black — Komodo OEM",
+      "name": "Shock Absorber Black \u2014 Komodo OEM",
       "brand": "Talaria",
       "category": "shock",
       "tier": "OEM",
@@ -862,7 +862,7 @@
       "last_checked": "2026-10-12",
       "notes": "Genuine Talaria OEM part SHK219. Seller fitment tab explicitly lists Talaria Komodo TL6000. Verified 2026-10-12: $316.52, in stock. Exact product page recovered during verification (research had only a collection URL).",
       "weight_delta_kg": null,
-      "image": "img/parts/komodo-shock-absorber-oem.png"
+      "image": null
     },
     {
       "id": "rfloxa-raf55rv-ultrabee",
@@ -1355,7 +1355,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/shock-sirris-r46-rear-shock-spring.webp"
     },
     {
       "id": "sirris-r46-zero-xe",
@@ -1587,7 +1587,7 @@
     },
     {
       "id": "chargedcycleworks-kke-rear-shock-surron-ultra-bee",
-      "name": "KKE Rear Shock for Surron Ultra Bee | 2023–2025",
+      "name": "KKE Rear Shock for Surron Ultra Bee | 2023\u20132025",
       "brand": "KKE Racing",
       "category": "shock",
       "price_usd": 399.0,
@@ -1987,7 +1987,7 @@
     },
     {
       "id": "chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto",
-      "name": "Warp9 4mm Neoprene Shock Cover – Surron / Talaria / E-Ride Pro",
+      "name": "Warp9 4mm Neoprene Shock Cover \u2013 Surron / Talaria / E-Ride Pro",
       "brand": "Warp9Racing",
       "category": "shock",
       "price_usd": 17.0,

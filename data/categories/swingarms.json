@@ -64,7 +64,7 @@
     },
     {
       "id": "swingarm-eride-oem",
-      "name": "E Ride Pro OEM Swingarm — SS3.0 / SR",
+      "name": "E Ride Pro OEM Swingarm \u2014 SS3.0 / SR",
       "brand": "E Ride Pro",
       "category": "swingarm",
       "price_usd": 499,
@@ -80,7 +80,7 @@
       "tier": "stock_replacement",
       "is_upgrade": false,
       "stock_status": "in_stock",
-      "notes": "OEM swingarm with 12mm bearings and chain adjusters pre-installed. Bolt-on for SS3.0/SR; fits late-2024/2025 SS2.0 — older SS2.0 with 10mm bearings must verify.",
+      "notes": "OEM swingarm with 12mm bearings and chain adjusters pre-installed. Bolt-on for SS3.0/SR; fits late-2024/2025 SS2.0 \u2014 older SS2.0 with 10mm bearings must verify.",
       "source_urls": [
         "https://parts.electriccyclerider.com/products/e-ride-pro-oem-subframe-copy-2"
       ],
@@ -430,7 +430,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/swingarm-bonnell-805-rx-swingarm-assembly.webp"
     },
     {
       "id": "stormbee-swingarm-oem",
@@ -505,7 +505,7 @@
     },
     {
       "id": "chargedcycleworks-kyvex-billet-swingarm-compatible-w-surron-ultra-bee",
-      "name": "KyVex Billet Swingarm – Surron Ultra Bee",
+      "name": "KyVex Billet Swingarm \u2013 Surron Ultra Bee",
       "brand": "KyVex Moto",
       "category": "swingarm",
       "price_usd": 1170.0,
