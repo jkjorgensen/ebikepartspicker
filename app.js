@@ -290,9 +290,9 @@ function batteryRecs(demand){
 /* ---------- bike size filter chips (lightweight / mid-size / full-size) ---------- */
 var SIZE_LABEL = { light:'Lightweight', mid:'Mid-size', full:'Full-size' };
 function sizeClassName(b){
-  if(b.size==='light') return 'Lightweight · under 150 lb';
-  if(b.size==='mid') return 'Mid-size · 150–200 lb';
-  if(b.size==='full') return 'Full-size · over 200 lb';
+  if(b.size==='light') return 'Lightweight · Light Bee & Ventus class';
+  if(b.size==='mid') return 'Mid-size · Ultra Bee & Bonnell 805 class';
+  if(b.size==='full') return 'Full-size · Bonnell 902 & Stark Varg class';
   return 'Size unlisted';
 }
 function initSizeChips(containerId){

@@ -55,7 +55,7 @@ def head(title,desc,path,img):
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="eBikePartsPicker">
-<link rel="stylesheet" href="/styles.css?v=4.15.3">
+<link rel="stylesheet" href="/styles.css?v=4.15.4">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap">
@@ -68,7 +68,7 @@ FOOT='''<p class="seo-fine">Prices were checked on the retailer’s page on the 
 <footer class="sitefoot tp-foot"><nav class="tp-nav"><a href="/about">About</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms of use</a><a href="/affiliate-disclosure">Affiliate disclosure</a><a href="/fitment-methodology">Fitment methodology</a><a href="/report-a-part">Report a part</a></nav></footer>
 <script src="/track.js?v=1" defer></script>
 <script src="/view.js?v=1" defer></script>
-<script src="/ux.js?v=4.15.3" defer></script>
+<script src="/ux.js?v=4.15.4" defer></script>
 <!-- PWA install banner: iOS never prompts on its own, so the site tells visitors how to add it. -->
 <div id="ebpp-install" class="ebpp-install" hidden role="dialog" aria-label="Add to home screen">
   <img class="ebpp-install-icon" src="/img/icons/icon-192.png" alt="" width="44" height="44">

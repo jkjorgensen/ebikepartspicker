@@ -7,7 +7,7 @@
    "src": "msrp",
    "weight": 152,
    "kw": 28,
-   "size": "mid"
+   "size": "light"
   },
   {
    "id": "ventus-evo",
@@ -16,7 +16,7 @@
    "src": "charged_cycle_works",
    "weight": 159,
    "kw": 32,
-   "size": "mid"
+   "size": "light"
   },
   {
    "id": "lightbee",
@@ -34,7 +34,7 @@
    "src": "msrp",
    "weight": 143,
    "kw": 24,
-   "size": "mid"
+   "size": "light"
   },
   {
    "id": "ultrabee",
@@ -61,7 +61,7 @@
    "src": "msrp",
    "weight": 167,
    "kw": 16,
-   "size": "mid"
+   "size": "light"
   },
   {
    "id": "ss40",
@@ -70,7 +70,7 @@
    "src": "charged_cycle_works",
    "weight": 167,
    "kw": 18,
-   "size": "mid"
+   "size": "light"
   },
   {
    "id": "sr",
@@ -97,7 +97,7 @@
    "src": "msrp",
    "weight": 163,
    "kw": 13.4,
-   "size": "mid"
+   "size": "light"
   },
   {
    "id": "komodo",
@@ -106,7 +106,7 @@
    "src": "msrp",
    "weight": 216,
    "kw": 32,
-   "size": "full"
+   "size": "mid"
   },
   {
    "id": "bonnell-805rx",
@@ -115,7 +115,7 @@
    "src": "charged_cycle_works",
    "weight": 218,
    "kw": 42,
-   "size": "full"
+   "size": "mid"
   },
   {
    "id": "storm-bee",
@@ -133,7 +133,7 @@
    "src": "msrp",
    "weight": 209.4,
    "kw": 35,
-   "size": "full"
+   "size": "mid"
   },
   {
    "id": "rerode-rx",
@@ -142,7 +142,7 @@
    "src": "msrp",
    "weight": 225,
    "kw": 35,
-   "size": "full"
+   "size": "mid"
   },
   {
    "id": "rawrr-mantis-72v",
@@ -151,7 +151,7 @@
    "src": "msrp",
    "weight": 158.5,
    "kw": 15,
-   "size": "mid"
+   "size": "light"
   },
   {
    "id": "rawrr-mantis-x-pro",
@@ -160,7 +160,7 @@
    "src": "msrp",
    "weight": 158.5,
    "kw": 15,
-   "size": "mid"
+   "size": "light"
   },
   {
    "id": "rawrr-mantis-x",
@@ -187,7 +187,7 @@
    "src": "msrp",
    "weight": 152,
    "kw": 16,
-   "size": "mid"
+   "size": "light"
   },
   {
    "id": "rtr-lite",
@@ -205,7 +205,7 @@
    "src": "msrp",
    "weight": null,
    "kw": null,
-   "size": null
+   "size": "light"
   },
   {
    "id": "rtr-sport",
@@ -304,7 +304,7 @@
    "src": "msrp",
    "weight": null,
    "kw": null,
-   "size": null
+   "size": "mid"
   },
   {
    "id": "yvolt-surge-v",
@@ -313,7 +313,7 @@
    "src": "msrp",
    "weight": 204,
    "kw": 35,
-   "size": "full"
+   "size": "mid"
   },
   {
    "id": "supermach-sm01",
@@ -322,7 +322,7 @@
    "src": "msrp",
    "weight": null,
    "kw": 13.5,
-   "size": null
+   "size": "light"
   },
   {
    "id": "supermach-sm62",
@@ -331,7 +331,7 @@
    "src": "msrp",
    "weight": 154,
    "kw": 16,
-   "size": "mid"
+   "size": "light"
   },
   {
    "id": "zero-xe",
@@ -340,7 +340,7 @@
    "src": "msrp",
    "weight": 223,
    "kw": 15.5,
-   "size": "full"
+   "size": "mid"
   },
   {
    "id": "rfn-warrior-pro",
@@ -358,7 +358,7 @@
    "src": "msrp",
    "weight": 161,
    "kw": 20,
-   "size": "mid"
+   "size": "light"
   },
   {
    "id": "arctic-leopard-xe-pro-s-enduro",
@@ -376,7 +376,7 @@
    "src": "voro",
    "weight": 175,
    "kw": 26.5,
-   "size": "mid"
+   "size": "light"
   },
   {
    "id": "arctic-leopard-xf",
