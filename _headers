@@ -1,3 +1,11 @@
+# PWA: the service worker must always revalidate so updates apply;
+# the manifest changes rarely, cache it briefly.
+/sw.js
+  Cache-Control: no-cache
+
+/manifest.json
+  Cache-Control: public, max-age=3600
+
 # Cache static assets longer. HTML stays at the Pages default
 # (max-age=0, must-revalidate) so deploys show up immediately.
 # CSS/JS already use ?v= cache-busting. Bike photos use ?v=IMGV.
