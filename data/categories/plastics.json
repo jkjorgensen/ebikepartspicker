@@ -2247,6 +2247,54 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-u-lock-latch-ventus-oem.webp"
+    },
+    {
+      "id": "plastics-odi-downhill-e-bike-number-plate",
+      "name": "ODI Downhill / E-Bike Number Plate",
+      "brand": "ODI",
+      "category": "plastics",
+      "price_usd": 25.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Front number plate; Red/Blue/Graphite/Black. CCW search-by-bike (V1-EVO tag) lists it for the Ventus V1+ EVO (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 25.95,
+          "buy_url": "https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate"
+        }
+      ],
+      "image": "img/parts/plastics-odi-downhill-e-bike-number-plate.webp"
+    },
+    {
+      "id": "chargedcycleworks-extended-rear-fender-v2-side-shrouds",
+      "name": "Extended Rear Fender V2 W/Side Shrouds",
+      "brand": "Charged Cycle Works",
+      "category": "plastics",
+      "price_usd": 79.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Extended rear fender with side shrouds. CCW fitment names 79Bike Falcon Pro / GT. Installs to the factory location, no modifications.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds"
+      ],
+      "last_checked": "2026-11-10",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "79BIKE Falcon Pro": "direct_fit",
+        "79BIKE Falcon GT": "direct_fit"
+      }
     }
   ],
   "compatibility": [
@@ -2323,12 +2371,12 @@
     {
       "product_id": "guts-seat-cover",
       "bike_id": "ventus-evo",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": [],
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
-      "notes": "Made to order per bike"
+      "notes": "TB page lists Ventus One / One Plus only - no EVO evidence (downgraded Nov 11, 2026)"
     },
     {
       "product_id": "guts-seat-cover",
@@ -2389,12 +2437,12 @@
     {
       "product_id": "ventus-graphics",
       "bike_id": "ventus-evo",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": [],
       "fitment_source_urls": [
         "https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem"
       ],
-      "notes": "OEM decal kit"
+      "notes": "Ventus V1+ graphics page never names the EVO (downgraded Nov 11, 2026)"
     },
     {
       "product_id": "plastics-talaria-mx4-oem-graphics",
@@ -3401,6 +3449,36 @@
         "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
       "notes": "Seller fitment list names Arctic Leopard XE Pro S / Pro S Enduro / Pro R"
+    },
+    {
+      "product_id": "plastics-odi-downhill-e-bike-number-plate",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "bike_id": "falcon-pro",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds"
+      ],
+      "notes": "CCW fitment names 79Bike Falcon Pro / GT (checked Nov 10, 2026)",
+      "product_id": "chargedcycleworks-extended-rear-fender-v2-side-shrouds",
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "falcon-gt",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds"
+      ],
+      "notes": "CCW fitment names 79Bike Falcon Pro / GT (checked Nov 10, 2026)",
+      "product_id": "chargedcycleworks-extended-rear-fender-v2-side-shrouds",
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
     }
   ]
 }

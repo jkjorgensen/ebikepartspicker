@@ -108,10 +108,10 @@
     {
       "bike_id": "ventus-evo",
       "fitment_source_urls": [],
-      "notes": "Stock Ventus part, not sold standalone",
+      "notes": "Stock Ventus part, not sold standalone - no seller page names the V1+ EVO (checked 2026-11-11).",
       "product_id": "vtb-aetos",
       "required_adapters": null,
-      "status": "confirmed_direct_fit"
+      "status": "verify"
     },
     {
       "product_id": "ebmx-x-9000-v3",

@@ -86,7 +86,7 @@
         "E Ride Pro SS 2.0": "direct_fit",
         "E Ride Pro 3.0": "fit_with_modification",
         "E Ride Pro SR": "fit_with_modification",
-        "Ventus V1+ EVO": "fit_with_modification",
+        "Ventus V1+ EVO": "verify",
         "Ventus One Plus": "verify",
         "E Ride Pro 4.0": "verify",
         "Sur-Ron Ultra Bee": "verify",
@@ -2389,6 +2389,29 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-formula-eb7-e-moto-brakes",
+      "name": "Formula EB7 E-Moto Brakes",
+      "brand": "Formula",
+      "category": "brakes",
+      "price_usd": 779.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/formula-eb7-74-2mm-brakes-lbx-v1-erp-2-0-rerode-talaria-mx3-mx4-xxx",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Complete front & rear set. CCW compatibility names 79Bike Falcon Pro / GT; direct replacement for OE systems, no mods. 220mm rotor standard.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/formula-eb7-74-2mm-brakes-lbx-v1-erp-2-0-rerode-talaria-mx3-mx4-xxx"
+      ],
+      "last_checked": "2026-11-10",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "79BIKE Falcon Pro": "direct_fit",
+        "79BIKE Falcon GT": "direct_fit"
+      }
     }
   ],
   "compatibility": [
@@ -2403,10 +2426,10 @@
     {
       "product_id": "magura-mt5e",
       "bike_id": "ventus-evo",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [],
-      "notes": "Universal MTB brake standard"
+      "notes": "Universal MTB brake standard - no seller page names the V1+ EVO (checked 2026-11-11). No fitment source URL on file; not a CCW product."
     },
     {
       "product_id": "magura-mt5e",
@@ -2515,10 +2538,10 @@
     {
       "product_id": "magura-mt7",
       "bike_id": "ventus-evo",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [],
-      "notes": "Universal MTB brake standard"
+      "notes": "Universal MTB brake standard - no seller page names the V1+ EVO (checked 2026-11-11). No fitment source URL on file; not a CCW product."
     },
     {
       "product_id": "magura-mt7",
@@ -2659,12 +2682,12 @@
     {
       "product_id": "brakes-fxt-ultrabee-rear-kit",
       "bike_id": "ventus-evo",
-      "status": "confirmed_fit_with_modifications",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://fxtracing.com/products/ultra-bee-brake-kit-for-surron-lbx-e-ride-pro"
       ],
-      "notes": ""
+      "notes": "FXT page fitment: Sur-Ron Light Bee, E Ride Pro 2.0, 3.0/SR (bracket mod), Ventus 1 (drill/widen axle hole) - the V1+ EVO is not named (checked 2026-11-11)."
     },
     {
       "product_id": "brakes-fxt-ultrabee-rear-kit",
@@ -3927,6 +3950,26 @@
         "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
       ],
       "notes": "CCW fitment list explicitly names Arctic Leopard XE Pro S"
+    },
+    {
+      "bike_id": "falcon-pro",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-eb7-74-2mm-brakes-lbx-v1-erp-2-0-rerode-talaria-mx3-mx4-xxx"
+      ],
+      "notes": "CCW compatibility names 79Bike Falcon Pro / GT; direct replacement, no mods (checked Nov 10, 2026)",
+      "product_id": "chargedcycleworks-formula-eb7-e-moto-brakes",
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "bike_id": "falcon-gt",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-eb7-74-2mm-brakes-lbx-v1-erp-2-0-rerode-talaria-mx3-mx4-xxx"
+      ],
+      "notes": "CCW compatibility names 79Bike Falcon Pro / GT; direct replacement, no mods (checked Nov 10, 2026)",
+      "product_id": "chargedcycleworks-formula-eb7-e-moto-brakes",
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
     }
   ]
 }

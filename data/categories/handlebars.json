@@ -754,6 +754,26 @@
         "https://revrides.com/products/arctic-leopard-xf-mini-electric-dirt-bike"
       ],
       "notes": "REV Rides Arctic Leopard XF bike page offers RISE3 as a bundle option for that bike"
+    },
+    {
+      "product_id": "handlebar-odi-podium-mx-handlebars",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-podium-mx-handlebars"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "handlebar-renthal-fatbar-1-1-8",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
     }
   ],
   "products": [

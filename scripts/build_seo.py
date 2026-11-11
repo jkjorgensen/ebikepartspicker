@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse,re
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.net'; V='4.15.4'; IMGV='4.5.0'; TODAY='2026-11-10'
+BASE='https://ebikepartspicker.net'; V='4.15.5'; IMGV='4.5.0'; TODAY='2026-11-10'
 # PWA service-worker registration snippet (plain string, NOT an f-string:
 # its braces would break the page() f-string below).
 SWREG="<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>"
@@ -345,3 +345,19 @@ for _f in _g.glob(os.path.join(ROOT,'bikes','**','index.html'),recursive=True)+_
   if 'view.js' not in _s:
     _s=_s.replace('</body></html>','<script src="/view.js?v=1" defer></script>\n</body></html>',1)
   if _s!=_o: open(_f,'w').write(_s)
+
+# PWA: stamp the service worker from V so nobody has to bump it by hand.
+# sw.js's CACHE name and APP_SHELL ?v= values track the release version:
+# a new V changes sw.js bytes, the browser installs the new worker, and
+# activate() purges the old cache. Runs on every regen (every release).
+# A push that skips regen cannot change the app shell, so nothing goes stale.
+def _stamp_sw():
+  _p=os.path.join(ROOT,'sw.js')
+  _s=open(_p).read(); _o=_s
+  _s=re.sub(r"const CACHE = 'ebpp-[^']*';","const CACHE = 'ebpp-"+V+"';",_s,count=1)
+  _s=re.sub(r"\?v=[\d.]+","?v="+V,_s)
+  if _s!=_o:
+    open(_p,'w').write(_s); print('sw.js stamped to',V)
+  else:
+    print('sw.js already at',V)
+_stamp_sw()

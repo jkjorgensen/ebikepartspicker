@@ -1,5 +1,5 @@
 /* eBikePartsPicker catalog. Catalog v4.15.4, last researched 2026-11-10.
-   46 bikes / 23 categories / 997 parts (990 listed, 7 hidden).
+   46 bikes / 23 categories / 1007 parts (1000 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
    && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py
@@ -85,14 +85,14 @@ var FITMENT = {
   'guts-seat-cover|ss40':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|sr':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ventus-plus':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
-  'guts-seat-cover|ventus-evo':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'guts-seat-cover|ventus-evo':{s:'verify',n:'TB page lists Ventus One / One Plus only - no EVO evidence (downgraded Nov 11, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|mx4':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|mx5':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|komodo':{s:'verify',n:'Confirm cover pattern with vendor',u:[]},
   'guts-seat-cover|storm-bee':{s:'verify',n:'Confirm cover pattern with vendor',u:[]},
   'luna-float-seat|lightbee':{s:'confirmed_direct_fit',n:'',u:['https://lunacycle.com/sur-ron-float-seat/']},
   'ventus-graphics|ventus-plus':{s:'confirmed_direct_fit',n:'OEM decal kit',u:['https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem']},
-  'ventus-graphics|ventus-evo':{s:'confirmed_direct_fit',n:'OEM decal kit',u:['https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem']},
+  'ventus-graphics|ventus-evo':{s:'verify',n:'Ventus V1+ graphics page never names the EVO (downgraded Nov 11, 2026)',u:['https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem']},
   'ecd-wrap-ultrabee-solid|ultrabee':{s:'confirmed_direct_fit',n:'ECD Customs lists a dedicated Sur-Ron Ultra Bee solid-color frame wrap.',u:['https://tbelectricmoto.com/products/surron-ultra-bee-solid-color-frame-wrap']},
   'ecd-wrap-talaria-solid|mx4':{s:'confirmed_direct_fit',n:'ECD Customs lists this wrap for the Talaria Sting MX3/MX4.',u:['https://tbelectricmoto.com/products/talaria-sting-solid-color-frame-wrap']},
   'ecd-wrap-lbx-solid|lightbee':{s:'confirmed_direct_fit',n:'ECD Customs lists a dedicated Sur-Ron LBX solid-color frame wrap.',u:['https://tbelectricmoto.com/products/surron-lbx-solid-color-frame-wrap']},
@@ -119,6 +119,17 @@ var FITMENT = {
   'ti-stem-bolts|lightbee':{s:'confirmed_direct_fit',n:'Generic Talaria Sting fitment mapped to MX4',u:[]},
   'ti-stem-bolts|mx4':{s:'confirmed_direct_fit',n:'Generic Talaria Sting fitment mapped to MX4',u:[]},
   'mxbolts-talaria-kit|mx4':{s:'confirmed_direct_fit',n:'MXBolts lists this titanium kit for the Talaria Sting MX platform.',u:['https://mxbolts.us/products/talaria-sting-mx-titanium-bolt-kit']},
+  'chargedcycleworks-formula-eb7-e-moto-brakes|falcon-pro':{s:'confirmed_direct_fit',n:'CCW compatibility names 79Bike Falcon Pro / GT; direct replacement, no mods (checked Nov 10, 2026)',u:['https://chargedcycleworks.com/products/formula-eb7-74-2mm-brakes-lbx-v1-erp-2-0-rerode-talaria-mx3-mx4-xxx']},
+  'chargedcycleworks-formula-eb7-e-moto-brakes|falcon-gt':{s:'confirmed_direct_fit',n:'CCW compatibility names 79Bike Falcon Pro / GT; direct replacement, no mods (checked Nov 10, 2026)',u:['https://chargedcycleworks.com/products/formula-eb7-74-2mm-brakes-lbx-v1-erp-2-0-rerode-talaria-mx3-mx4-xxx']},
+  'chargedcycleworks-extended-rear-fender-v2-side-shrouds|falcon-pro':{s:'confirmed_direct_fit',n:'CCW fitment names 79Bike Falcon Pro / GT (checked Nov 10, 2026)',u:['https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds']},
+  'chargedcycleworks-extended-rear-fender-v2-side-shrouds|falcon-gt':{s:'confirmed_direct_fit',n:'CCW fitment names 79Bike Falcon Pro / GT (checked Nov 10, 2026)',u:['https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds']},
+  'chargedcycleworks-warp9-18-21-combo-lbx-falcon|falcon-pro':{s:'confirmed_direct_fit',n:'CCW compatibility names Falcon 79 (checked Nov 10, 2026)',u:['https://chargedcycleworks.com/products/18-21-complete-wheel-tire-combo-warp9-for-surron-segway']},
+  'chargedcycleworks-warp9-18-21-combo-lbx-falcon|falcon-gt':{s:'confirmed_direct_fit',n:'CCW compatibility names Falcon 79 (checked Nov 10, 2026)',u:['https://chargedcycleworks.com/products/18-21-complete-wheel-tire-combo-warp9-for-surron-segway']},
+  'fastace-ahx12rv|falcon-pro':{s:'confirmed_direct_fit',n:'FASTACE listing names 79 Bike Falcon M / Falcon PRO (checked Nov 10, 2026)',u:['https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0']},
+  'wheels-ion-lightbee-eride20|falcon-pro':{s:'confirmed_direct_fit',n:'CCW fitment names 79bike Falcon Lite / Pro / GT (checked Nov 10, 2026)',u:['https://chargedcycleworks.com/products/ion-16-19-wheelset']},
+  'wheels-ion-lightbee-eride20|falcon-gt':{s:'confirmed_direct_fit',n:'CCW fitment names 79bike Falcon Lite / Pro / GT (checked Nov 10, 2026)',u:['https://chargedcycleworks.com/products/ion-16-19-wheelset']},
+  'wheels-ion-lightbee-eride20-17supermoto|falcon-pro':{s:'confirmed_direct_fit',n:'CCW fitment names 79bike Falcon Lite / Pro / GT (checked Nov 10, 2026)',u:['https://chargedcycleworks.com/products/ion-17-supermoto-wheelset']},
+  'wheels-ion-lightbee-eride20-17supermoto|falcon-gt':{s:'confirmed_direct_fit',n:'CCW fitment names 79bike Falcon Lite / Pro / GT (checked Nov 10, 2026)',u:['https://chargedcycleworks.com/products/ion-17-supermoto-wheelset']},
 };
 
 /* fits: verified bike ids. likely: probably fits — verify before buying.
@@ -495,7 +506,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:1599, url:'https://tbelectricmoto.com/products/ext-ferro', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['lightbee','mx4','mx5','komodo','ss20','ss30','ss40','sr','ventus-plus','ventus-evo','ultrabee'], likely:['storm-bee'], no:[],
+     fits:['lightbee','mx4','mx5','komodo','ss20','ss30','ss40','sr','ventus-plus','ultrabee'], likely:['storm-bee','ventus-evo'], no:[],
      badge:'EXT Ferro', stock:'in_stock', stockChk:'2026-10-18', wtKg:4.5, img:'img/parts/ext-ferro.webp'
     },
     {name:'Fastace Fork 2.0', pid:'fastace-20', tier:'mid',
@@ -563,7 +574,7 @@ var CATEGORIES = [
       {v:'FASTACE', p:899, url:'https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","ss20","ventus-plus"], likely:[], no:["ss30"],
+     fits:["lightbee","mx4","ss20","ventus-plus","falcon-pro"], likely:[], no:["ss30"],
      badge:'Fastace', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/fastace-ahx12rv.webp'
     },
     {name:'Sirris F43 Fork (Ultra Bee)', pid:'sirris-f43-ultra-bee', tier:'premium',
@@ -1218,6 +1229,13 @@ var CATEGORIES = [
      fits:['mx5','sr'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle.webp'
     },
+    {name:'RFloXa RAB53RV Rear Shock (265mm)', pid:'rfloxa-rab53rv', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:259, url:'https://chargedcycleworks.com/products/rfloxa-rab53rv', chk:'2026-11-11'},
+     ],
+     fits:['ventus-evo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/rfloxa-rab53rv.webp'
+    },
 ]},
   {id:'wheels', name:'Wheels', blurb:'Lighter, stronger wheels sharpen handling and acceleration — often the best-feeling upgrade per dollar.', tips:['Hub and axle size must match your bike','Check your brake rotor bolt pattern carries over','Spoked vs billet — weight vs strength tradeoff'], options:[
     {name:'Stock wheels', prices:[]},
@@ -1265,7 +1283,7 @@ var CATEGORIES = [
       {v:'eMotoZone', p:599.99, url:'https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20"], likely:["ultrabee","storm-bee","ventus-plus","ventus-evo","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:["lightbee","ss20","falcon-pro","falcon-gt"], likely:["ultrabee","storm-bee","ventus-plus","ventus-evo","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/wheels-ion-lightbee-eride20.webp'
     },
     {name:'ION E Ride Pro 3.0 / SR 16/19-Inch Wheelset', pid:'wheels-ion-eride30-sr-1619', tier:'midrange',
@@ -1845,7 +1863,21 @@ var CATEGORIES = [
      fits:['ultrabee'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-ultra-bee-wheel-bearing-kits.webp'
     },
-]},
+
+    {name:'ION 17-Inch Supermoto Wheelset for Sur-Ron Light Bee / E Ride Pro 2.0', pid:'wheels-ion-lightbee-eride20-17supermoto', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:699, url:'https://chargedcycleworks.com/products/ion-17-supermoto-wheelset', chk:'2026-11-10'},
+     ],
+     fits:["falcon-pro","falcon-gt"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10'
+    },
+    {name:'Warp9 18/21 Complete Wheel & Tire Combo', pid:'chargedcycleworks-warp9-18-21-combo-lbx-falcon', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:1249, url:'https://chargedcycleworks.com/products/18-21-complete-wheel-tire-combo-warp9-for-surron-segway', chk:'2026-11-10'},
+     ],
+     fits:["falcon-pro","falcon-gt"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10'
+    },]},
   {id:'brakes', name:'Brakes', blurb:'As the bike gets faster, stopping matters more. Bigger rotors and better calipers transform confidence.', tips:['Rotor size changes may need a caliper relocation bracket','Match master cylinder to caliper','Pad compound: organic for feel, sintered for bite and life'], options:[
     {name:'Stock brakes', prices:[]},
     {name:'Magura MT5E (per wheel)', pid:'magura-mt5e', tier:'budget',
@@ -2459,7 +2491,14 @@ var CATEGORIES = [
      fits:['ultrabee'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee.webp'
     },
-]},
+
+    {name:'Formula EB7 E-Moto Brakes', pid:'chargedcycleworks-formula-eb7-e-moto-brakes', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:779, url:'https://chargedcycleworks.com/products/formula-eb7-74-2mm-brakes-lbx-v1-erp-2-0-rerode-talaria-mx3-mx4-xxx', chk:'2026-11-10'},
+     ],
+     fits:["falcon-pro","falcon-gt"], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-10'
+    },]},
   {id:'plastics', name:'Plastics', blurb:'Bodywork — the look of the bike plus roost protection.', tips:['Mounting is bike-specific — \'universal\' rarely is','Full kits look cleaner than piecing together','Graphics usually sold separately'], options:[
     {name:'Stock plastics', prices:[]},
     {name:'Guts Racing Seat Cover', pid:'guts-seat-cover', tier:'budget',
@@ -2467,7 +2506,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:79.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['lightbee','ultrabee','ss20','ss30','ss40','sr','ventus-plus','ventus-evo','mx4','mx5','arctic-leopard-xe-pro-s'], likely:['komodo','storm-bee'], no:[],
+     fits:['lightbee','ultrabee','ss20','ss30','ss40','sr','ventus-plus','mx4','mx5','arctic-leopard-xe-pro-s'], likely:['komodo','storm-bee','ventus-evo'], no:[],
      badge:'Guts', variant:'custom', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/guts-seat-cover.webp'
     },
     {name:'Luna Float Seat', pid:'luna-float-seat', tier:'budget',
@@ -2483,7 +2522,7 @@ var CATEGORIES = [
       {v:'Ventus Bikes US', p:40, url:'https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ventus-plus","ventus-evo"], likely:[], no:[],
+     fits:["ventus-plus"], likely:["ventus-evo"], no:[],
      badge:'Graphics', variant:'custom', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/ventus-graphics.webp'
     },
     {name:'Talaria Sting R MX4 OEM Graphic Kit', pid:'plastics-talaria-mx4-oem-graphics', tier:'budget',
@@ -3050,7 +3089,20 @@ var CATEGORIES = [
      fits:['ventus-plus'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-u-lock-latch-ventus-oem.webp'
     },
-]},
+    {name:'ODI Downhill / E-Bike Number Plate', pid:'plastics-odi-downhill-e-bike-number-plate', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:25.95, url:'https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate', chk:'2026-11-11'},
+     ],
+     fits:['ventus-evo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/plastics-odi-downhill-e-bike-number-plate.webp'
+    },
+    {name:'Extended Rear Fender V2 W/Side Shrouds', pid:'chargedcycleworks-extended-rear-fender-v2-side-shrouds', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:79.89, url:'https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds', chk:'2026-11-10'},
+     ],
+     fits:["falcon-pro","falcon-gt"], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10'
+    },]},
   {id:'batteries', name:'Batteries', blurb:'Your fuel tank and your power ceiling. A weak battery chokes even the best motor and controller combo.', tips:['Continuous kW rating must meet what your controller pulls — check the Powertrain panel for bottlenecks','Voltage must match your controller\'s range','Confirm it physically fits your frame — sizes vary a lot','Swappable packs are convenient; fixed packs usually hold more capacity'], options:[
     {name:'Stock batteries', prices:[]},
     {name:'DHS 72V 65Ah Race Battery (61kW)', pid:'dhs-72v-65ah-ub', tier:'premium',
@@ -3398,7 +3450,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:103.46, url:'https://chargedcycleworks.com/products/odi-podium-mx-handlebars', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:[], no:[],
+     fits:['ventus-evo'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/handlebar-odi-podium-mx-handlebars.webp'
     },
     {name:'Renthal FatBar MX Handlebar 28.6mm', pid:'handlebar-renthal-fatbar-1-1-8', tier:'premium',
@@ -3406,7 +3458,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:121.46, url:'https://chargedcycleworks.com/products/renthal-fatbar-1-1-8', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:[], no:[],
+     fits:['ventus-evo'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/handlebar-renthal-fatbar-1-1-8.webp'
     },
     {name:'Surron Ultra Bee - Handlebar Lower Mount', pid:'chargedcycleworks-surron-ultra-bee-handlebar-lower-mount', tier:'OEM',
@@ -3729,7 +3781,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:22.95, url:'https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:[], no:[],
+     fits:["bonnell-805rx","ventus-evo"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
     },
     {name:'ODI Ruffian full-waffle grips', pid:'cockpit-odi-ruffian-full-waffle-grips', tier:'budget',
@@ -3737,7 +3789,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:13.46, url:'https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:[], no:[],
+     fits:["bonnell-805rx","ventus-evo"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-odi-ruffian-full-waffle-grips.webp'
     },
     {name:'SXS Burly Shields Hand Guards', pid:'cockpit-sxs-burly-shields-hand-guards', tier:'midrange',
@@ -3753,7 +3805,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:17.96, url:'https://chargedcycleworks.com/products/renthal-50-50-mx-grips', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:[], no:[],
+     fits:["bonnell-805rx","ventus-evo"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-renthal-50-50-mx-grips.webp'
     },
     {name:'Acerbis X-Ultimate Handguards', pid:'cockpit-acerbis-x-ultimate-handguards', tier:'midrange',
@@ -3769,7 +3821,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:13.46, url:'https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:[], no:[],
+     fits:["bonnell-805rx","ventus-evo"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260.webp'
     },
     {name:'Acerbis X-Factory Handguards', pid:'cockpit-acerbis-x-factory-handguards', tier:'midrange',
@@ -3785,7 +3837,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:13.46, url:'https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:[], no:[],
+     fits:["bonnell-805rx","ventus-evo"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260.webp'
     },
     {name:'Tusk Dual Compound half waffle grips', pid:'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260', tier:'budget',
@@ -3793,7 +3845,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:[], no:[],
+     fits:["bonnell-805rx","ventus-evo"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260.webp'
     },
     {name:'Warp9 eMoto Handguards', pid:'cockpit-warp9-e-moto-handguards', tier:'midrange',
@@ -3846,6 +3898,20 @@ var CATEGORIES = [
      ],
      fits:['ultrabee'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-oem-throttle.webp'
+    },
+    {name:'ODI Grip Donuts', pid:'cockpit-odi-grip-donuts', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:4.95, url:'https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260', chk:'2026-11-11'},
+     ],
+     fits:['ventus-evo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/cockpit-odi-grip-donuts.webp'
+    },
+    {name:'ODI Aluminum Bar End Plugs', pid:'cockpit-odi-aluminum-grip-end-plugs', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:17.99, url:'https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260', chk:'2026-11-11'},
+     ],
+     fits:['ventus-evo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/cockpit-odi-aluminum-grip-end-plugs.webp'
     },
 ]},
   {id:'cooling', name:'Cooling', blurb:'High-power builds make serious heat. Cooling keeps your motor and controller alive when you\'re pushing hard.', tips:['Mostly needed above ~15 kW or for sustained high load','Check fitment against your specific motor'], options:[
@@ -5831,6 +5897,20 @@ var CATEGORIES = [
      fits:['mx5','sr','ss30'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-stem-lock.webp'
     },
+    {name:'EMX Crown Race', pid:'maintenance-emx-crown-race', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/emx-crown-race', chk:'2026-11-11'},
+     ],
+     fits:['ventus-evo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/maintenance-emx-crown-race.webp'
+    },
+    {name:'Warp 9 Stemlock Replacement Bolt', pid:'maintenance-warp9-stemlock-replacement-bolt', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:8, url:'https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9', chk:'2026-11-11'},
+     ],
+     fits:['ventus-evo'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/maintenance-warp9-stemlock-replacement-bolt.webp'
+    },
 ]},
   {id:'pegs', name:'Foot Pegs', blurb:'Wider, sharper pegs mean more control — especially standing up.', tips:['Mounts are bike-specific','Titanium saves weight; steel lasts longer'], options:[
     {name:'Stock foot pegs', prices:[]},
@@ -7239,7 +7319,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:13.5, url:'https://chargedcycleworks.com/products/irc-tubes', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:[], no:[],
+     fits:["bonnell-805rx","ventus-evo"], likely:[], no:[],
      badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-tubes.webp'
     },
     {name:'WPS Rim Strip', pid:'tire-wps-rim-strip', tier:'budget',
@@ -7247,7 +7327,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:2.49, url:'https://chargedcycleworks.com/products/wps-rim-strip', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:[], no:[],
+     fits:["bonnell-805rx","ventus-evo"], likely:[], no:[],
      badge:'WPS', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-wps-rim-strip.webp'
     },
     {name:'Dunlop AT82 Geomax All Terrain Terrain Tire', pid:'tire-dunlop-at82-geomax-all-terrain-terrain-tire', tier:'premium',
@@ -7335,7 +7415,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["bonnell-805rx"], likely:[], no:[],
+     fits:["bonnell-805rx","ventus-evo"], likely:[], no:[],
      badge:'Sedona', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260.webp'
     },
     {name:'E Ride Pro - OEM 3.00-18 “BabyFat” Rear Tire Kit', pid:'chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe', tier:'OEM',
@@ -7595,14 +7675,14 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'guts-seat-cover|ss40':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|sr':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ventus-plus':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
-  'guts-seat-cover|ventus-evo':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'guts-seat-cover|ventus-evo':{s:'verify',n:'TB page lists Ventus One / One Plus only - no EVO evidence (downgraded Nov 11, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|mx4':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|mx5':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|komodo':{s:'verify',n:'Confirm cover pattern with vendor',u:[]},
   'guts-seat-cover|storm-bee':{s:'verify',n:'Confirm cover pattern with vendor',u:[]},
   'luna-float-seat|lightbee':{s:'confirmed_direct_fit',n:'',u:['https://lunacycle.com/sur-ron-float-seat/']},
   'ventus-graphics|ventus-plus':{s:'confirmed_direct_fit',n:'OEM decal kit',u:['https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem']},
-  'ventus-graphics|ventus-evo':{s:'confirmed_direct_fit',n:'OEM decal kit',u:['https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem']},
+  'ventus-graphics|ventus-evo':{s:'verify',n:'Ventus V1+ graphics page never names the EVO (downgraded Nov 11, 2026)',u:['https://ventusbikes.us/products/ventus-v1-graphics-ventus-oem']},
   'ecd-wrap-ultrabee-solid|ultrabee':{s:'confirmed_direct_fit',n:'ECD Customs lists a dedicated Sur-Ron Ultra Bee solid-color frame wrap.',u:['https://tbelectricmoto.com/products/surron-ultra-bee-solid-color-frame-wrap']},
   'ecd-wrap-talaria-solid|mx4':{s:'confirmed_direct_fit',n:'ECD Customs lists this wrap for the Talaria Sting MX3/MX4.',u:['https://tbelectricmoto.com/products/talaria-sting-solid-color-frame-wrap']},
   'ecd-wrap-lbx-solid|lightbee':{s:'confirmed_direct_fit',n:'ECD Customs lists a dedicated Sur-Ron LBX solid-color frame wrap.',u:['https://tbelectricmoto.com/products/surron-lbx-solid-color-frame-wrap']},
@@ -7657,7 +7737,7 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'ext-ferro|ss40':{s:'confirmed_fit_with_adapter',n:'TB Electric Moto: requires a front hub boost spacer for the brake rotor',u:['https://tbelectricmoto.com/products/ext-ferro']},
   'ext-ferro|sr':{s:'confirmed_fit_with_adapter',n:'TB Electric Moto: requires a front hub boost spacer for the brake rotor',u:['https://tbelectricmoto.com/products/ext-ferro']},
   'ext-ferro|ventus-plus':{s:'confirmed_fit_with_adapter',n:'TB Electric Moto: requires a front hub boost spacer for the brake rotor',u:['https://tbelectricmoto.com/products/ext-ferro']},
-  'ext-ferro|ventus-evo':{s:'confirmed_fit_with_adapter',n:'TB Electric Moto: requires a front hub boost spacer for the brake rotor',u:['https://tbelectricmoto.com/products/ext-ferro']},
+  'ext-ferro|ventus-evo':{s:'verify',n:'TB page lists Ventus One / One Plus only - no EVO evidence (downgraded Nov 11, 2026)',u:['https://tbelectricmoto.com/products/ext-ferro']},
   /* Oct 18, 2026: power-upgrade combos (seller evidence) */
   'vtb-41kw-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW: direct drop-in for the Ultra Bee; pairs with the VTB V9600 controller (M12 connector for V9600); 48-100V',u:['https://chargedcycleworks.com/products/ventus-41-kw-ultra-bee-motor']},
   'vtb-aetos-pro|ultrabee':{s:'confirmed_direct_fit',n:'Ventus: V9600 Gen.2 compatible with the Ultra Bee; 72V/81V rated, 12s-22s batteries; bike-specific harness sold separately',u:['https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike']},
@@ -8033,6 +8113,23 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'ti-motor-bolts-erp|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro']},
   'ti-motor-bolts-erp|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro']},
   'ti-linkage-kit-erp|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://titaniumsurron.com/products/rear-suspension-linkage-bolt-kit-for-e-ride-pro-erp']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-aluminum-grip-end-plugs|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260']},
+  'cockpit-odi-grip-donuts|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260']},
+  'cockpit-odi-ruffian-full-waffle-grips|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-renthal-50-50-mx-grips|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-50-50-mx-grips',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'handlebar-odi-podium-mx-handlebars|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-podium-mx-handlebars',u:['https://chargedcycleworks.com/products/odi-podium-mx-handlebars']},
+  'handlebar-renthal-fatbar-1-1-8|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-fatbar-1-1-8',u:['https://chargedcycleworks.com/products/renthal-fatbar-1-1-8']},
+  'maintenance-emx-crown-race|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/emx-crown-race',u:['https://chargedcycleworks.com/products/emx-crown-race']},
+  'maintenance-warp9-stemlock-replacement-bolt|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9',u:['https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9']},
+  'plastics-odi-downhill-e-bike-number-plate|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate',u:['https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate']},
+  'rfloxa-rab53rv|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rfloxa-rab53rv',u:['https://chargedcycleworks.com/products/rfloxa-rab53rv']},
+  'tire-irc-tubes|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'tire-wps-rim-strip|ventus-evo':{s:'confirmed_direct_fit',n:'CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
 });
 /* targeted fitment re-check Oct 18, 2026 (key categories for SS 2.0/3.0, SR, MX5, Ventus One Plus, Komodo) */
 Object.assign(FITMENT,{

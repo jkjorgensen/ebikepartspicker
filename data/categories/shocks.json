@@ -688,6 +688,16 @@
         "https://revrides.com/products/ext-arma-mx-e-mx-damper-shock-surron-talaria-e-ride-pro-altis-sigma-mantis-x"
       ],
       "notes": "REV Rides fitment list includes Arctic Leopard XF Pro and Arctic Leopard XF S"
+    },
+    {
+      "product_id": "rfloxa-rab53rv",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-rab53rv"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
     }
   ],
   "products": [
@@ -2034,6 +2044,31 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle.webp"
+    },
+    {
+      "id": "rfloxa-rab53rv",
+      "name": "RFloXa RAB53RV Rear Shock (265mm)",
+      "brand": "RFloXa",
+      "category": "shock",
+      "price_usd": 259.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-rab53rv",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Rear shock with external nitrogen reservoir; 265mm eye-to-eye; spring rates 450/550/600 lb. CCW search-by-bike (V1-EVO tag) lists it for the Ventus V1+ EVO (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-rab53rv"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 259.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-rab53rv"
+        }
+      ],
+      "image": "img/parts/rfloxa-rab53rv.webp"
     }
   ]
 }

@@ -1191,6 +1191,56 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-ultra-bee-oem-throttle.webp"
+    },
+    {
+      "id": "cockpit-odi-grip-donuts",
+      "name": "ODI Grip Donuts",
+      "brand": "ODI",
+      "category": "cockpit",
+      "price_usd": 4.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Grip donuts. CCW search-by-bike (V1-EVO tag) lists them for the Ventus V1+ EVO (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 4.95,
+          "buy_url": "https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260"
+        }
+      ],
+      "image": "img/parts/cockpit-odi-grip-donuts.webp"
+    },
+    {
+      "id": "cockpit-odi-aluminum-grip-end-plugs",
+      "name": "ODI Aluminum Bar End Plugs",
+      "brand": "ODI",
+      "category": "cockpit",
+      "price_usd": 17.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Aluminum bar end plugs; $17.99-$19.89 by color. CCW search-by-bike (V1-EVO tag) lists them for the Ventus V1+ EVO (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 17.99,
+          "buy_url": "https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260"
+        }
+      ],
+      "image": "img/parts/cockpit-odi-aluminum-grip-end-plugs.webp"
     }
   ],
   "compatibility": [
@@ -1779,6 +1829,86 @@
         "https://shop.sur-ron.com/products/handle-gripleft-or-right-use"
       ],
       "notes": "Genuinely universal: standard 22.2mm grips for RFN 22mm bar ends per manual spec; evidence page shows a plain grip pair"
+    },
+    {
+      "product_id": "cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-full-waffle-grips",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-renthal-50-50-mx-grips",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-50-50-mx-grips"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-grip-donuts",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-aluminum-grip-end-plugs",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
     }
   ]
 }

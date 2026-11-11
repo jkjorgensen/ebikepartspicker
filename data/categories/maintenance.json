@@ -1581,6 +1581,56 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-stem-lock.webp"
+    },
+    {
+      "id": "maintenance-emx-crown-race",
+      "name": "EMX Crown Race",
+      "brand": "EMX",
+      "category": "maintenance",
+      "price_usd": 25.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/emx-crown-race",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Crown race for the fork/headset. CCW search-by-bike (V1-EVO tag) lists it for the Ventus V1+ EVO (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/emx-crown-race"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 25.0,
+          "buy_url": "https://chargedcycleworks.com/products/emx-crown-race"
+        }
+      ],
+      "image": "img/parts/maintenance-emx-crown-race.webp"
+    },
+    {
+      "id": "maintenance-warp9-stemlock-replacement-bolt",
+      "name": "Warp 9 Stemlock Replacement Bolt",
+      "brand": "Warp 9",
+      "category": "maintenance",
+      "price_usd": 8.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Replacement stemlock (steering lock) bolt for Warp 9. CCW search-by-bike (V1-EVO tag) lists it for the Ventus V1+ EVO (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.0,
+          "buy_url": "https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9"
+        }
+      ],
+      "image": "img/parts/maintenance-warp9-stemlock-replacement-bolt.webp"
     }
   ],
   "compatibility": [
@@ -2493,6 +2543,26 @@
         "https://chargedcycleworks.com/products/x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included"
       ],
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included"
+    },
+    {
+      "product_id": "maintenance-emx-crown-race",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/emx-crown-race"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "maintenance-warp9-stemlock-replacement-bolt",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
     }
   ]
 }

@@ -40,10 +40,10 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/dhs-rs50-80v-45ah-battery-for-surron-light-bee"
       ],
-      "notes": "Listed for Ventus One",
+      "notes": "CCW page lists 'Surron Light Bee / Ventus One' - the V1+ EVO is not named (checked 2026-11-11). CCW search-by-bike for the V1+ EVO does not list it.",
       "product_id": "dhs-80v-45ah-lbx",
       "required_adapters": null,
-      "status": "confirmed_direct_fit"
+      "status": "verify"
     },
     {
       "bike_id": "mx4",

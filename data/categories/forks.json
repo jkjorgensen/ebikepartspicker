@@ -112,10 +112,10 @@
       "fitment_source_urls": [
         "https://tbelectricmoto.com/products/ext-ferro"
       ],
-      "notes": "TB Electric Moto: requires a front hub boost spacer for the brake rotor",
+      "notes": "TB page lists Ventus One / One Plus only - no EVO evidence (downgraded Nov 11, 2026)",
       "product_id": "ext-ferro",
       "required_adapters": [],
-      "status": "confirmed_direct_fit"
+      "status": "verify"
     },
     {
       "bike_id": "storm-bee",
@@ -956,6 +956,16 @@
         "https://www.rflo-xa.com/products/rfloxa-hawk32-fcg32rcp-front-fork-for-surron-talaria-sting-light-bee-eridepross"
       ],
       "notes": "Seller listing: Ventus One Plus needs an 8mm spacer for install"
+    },
+    {
+      "bike_id": "falcon-pro",
+      "fitment_source_urls": [
+        "https://fastace.com/products/fastace-ahx12rv-original-factory-front-fork-suspension-60lbs-for-sur-ron-light-bee-x-79-bike-falcon-m-falcon-pro-e-ride-pro-ss-1-0-2-0"
+      ],
+      "notes": "FASTACE listing names 79 Bike Falcon M / Falcon PRO (checked Nov 10, 2026)",
+      "product_id": "fastace-ahx12rv",
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
     }
   ],
   "products": [
@@ -1237,7 +1247,10 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/fastace-ahx12rv.webp"
+      "image": "img/parts/fastace-ahx12rv.webp",
+      "_fit": {
+        "79BIKE Falcon Pro": "direct_fit"
+      }
     },
     {
       "id": "sirris-f43-ultra-bee",

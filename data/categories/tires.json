@@ -16676,6 +16676,36 @@
         "https://chargedcycleworks.com/collections/surron-tires/products/tusk-t-35-soft-intermediate-terrain-rear-16-tire"
       ],
       "notes": "CCW lists 90/100-16 variant = XE Pro S stock rear size; exact-size match per owner tire rule"
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
     }
   ]
 }
