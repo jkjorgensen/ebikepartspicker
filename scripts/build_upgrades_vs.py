@@ -49,7 +49,7 @@ def head(title,desc,path,img):
 <link rel="canonical" href="{BASE}{path}"><meta property="og:type" content="article"><meta property="og:site_name" content="eBikePartsPicker"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{BASE}{path}"><meta property="og:image" content="{BASE}/img/bikes/{img}-800.webp">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="/styles.css?v=4.15.2">
+<link rel="stylesheet" href="/styles.css?v=4.15.3">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap">
@@ -62,7 +62,7 @@ FOOT='''<p class="seo-fine">Prices were checked on the retailer’s page on the 
 <footer class="sitefoot tp-foot"><nav class="tp-nav"><a href="/about">About</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms of use</a><a href="/affiliate-disclosure">Affiliate disclosure</a><a href="/fitment-methodology">Fitment methodology</a><a href="/report-a-part">Report a part</a></nav></footer>
 <script src="/track.js?v=1" defer></script>
 <script src="/view.js?v=1" defer></script>
-<script src="/ux.js?v=4.15.2" defer></script>
+<script src="/ux.js?v=4.15.3" defer></script>
 </body></html>'''
 def spec(bid):
   b=BK[bid]; s=BJ.get(bid,{}).get('stock_specs',{})

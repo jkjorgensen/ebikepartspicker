@@ -1,7 +1,11 @@
 /* eBikePartsPicker — upcoming e-motos. Release dates change; verify before relying.
    Research date below. status: shipping|preorder|announced|rumored */
-var UPCOMING_CHECKED = 'Nov 4, 2026';
+var UPCOMING_CHECKED = 'Nov 10, 2026';
 var UPCOMING = [
+  {name:'E Ride Pro DJ', bikeId:'eride-dj', status:'preorder',
+   date:'Pre-order; dealers say ships late Dec 2026', price:5699,
+   blurb:'25 kW dirt jumper with a 72V 50Ah (3.6 kWh) semi-solid-state pack, 630 N\u00b7m at the wheel and 193.8 lb curb weight. Stock wheels are 19/18 (80/100-19, 100/90-18); a 21/18 kit is sold separately. Claimed top speed 75.8 mph.',
+   source:'https://www.eridepro.com/products/dj'},
   {name:'Bonnell 805RX', bikeId:'bonnell-805rx', status:'shipping',
    date:'Launched Sept 2026 — available now', price:8250,
    blurb:'Bonnell\u2019s first e-moto. The 4.7 kWh Race Battery is still TBD \u2014 no date or price announced yet.',
@@ -14,9 +18,17 @@ var UPCOMING = [
    date:'US: available Jan 2027 (Arctic Leopard USA). European launch at EICMA, Nov 3\u20138, 2026', price:6599,
    blurb:'35 kW, 800 N\u00b7m at the wheel, 74V 75\u201376Ah, 21/18\u2033 wheels, KYB 43 mm fork. $6,599 on the official US store and at Charged Cycle Works. Weight: 89 kg claimed globally; the US page says 95 kg.',
    source:'https://arctic-leopard-usa.com/products/xd-pro'},
+  {name:'Ventus OB 1.0', bikeId:null, status:'announced',
+   date:'Shown at EICMA, Nov 2026. US ETA late spring 2027 (Charged Cycle Works). Price TBA', price:null,
+   blurb:'Claimed 45 kW peak, 5.2 kWh battery, direct-drive Ryuga Gen3 motor, Aetos Ultra Gen3 controller, RFloXa suspension, Brembo brakes and Excel rims. 21/18 wheels and ~205 lb were reported from the EICMA booth, not on a dealer page yet. The Ultimate Edition shown may differ from the US bike.',
+   source:'https://chargedcycleworks.com/products/ventus-ob-1-0-45kw-electric-motorcycle'},
+  {name:'E Ride Pro DJR', bikeId:null, status:'announced',
+   date:'Announced Nov 1, 2026 with the DJ. Price and availability TBA', price:null,
+   blurb:'Higher-power DJ: 34 kW (45 hp) with Sirris suspension on the DJ chassis. Price, availability and remaining specs are TBA.',
+   source:'https://chargedcycleworks.com/products/e-ride-pro-dj-electric-dirt-bike'},
   {name:'Arctic Leopard XC Pro', bikeId:null, status:'announced',
-   date:'Spec sheet published Nov 2, 2026; European premiere at EICMA (Hall 18, stand I91). Sale date Not verified', price:null,
-   blurb:'Claimed: 80V 76Ah battery, 850 N\u00b7m at the wheel, 130 km/h, up to 220 km range, 98 kg target weight, KYB 43 mm fork + KYB shock (260 mm), 21/18\u2033 wheels, 920 mm seat. Power and price Not verified.',
+   date:'European premiere at EICMA, Nov 2026. Charged Cycle Works says coming Summer 2027 (placeholder $6,999). No Arctic Leopard USA listing yet', price:null,
+   blurb:'Motocross-focused big brother to the XD Pro. Brand sheet: 80V 76Ah battery, 850 N\u00b7m at the wheel, 130 km/h (~80.8 mph), KYB 43 mm fork + 3-way KYB shock (260 mm), 21/18 wheels (80/100-21, 120/90-18), 36.2 in seat, 56.5 in wheelbase, 216 lb target weight. Power is 40 kW per Charged Cycle Works only; the brand has not published it.',
    source:'https://wattcross.com/arctic-leopard-xc/'},
   {name:'Sur-Ron Light Bee 2', bikeId:'lightbee2', status:'shipping',
    date:'Announced July 2026 \u2014 in dealer stock now', price:6099,
