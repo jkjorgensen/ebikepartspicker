@@ -1,7 +1,7 @@
 {
   "bike_count": 46,
   "build_script": "none (data.js and data/categories/*.json are edited together)",
-  "catalog_version": "4.15.2",
+  "catalog_version": "4.15.4",
   "categories": [
     {
       "file": "data/categories/motors.json",

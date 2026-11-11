@@ -1,14 +1,14 @@
 /* eBikePartsPicker service worker — bump CACHE on every change. */
-const CACHE = 'ebpp-v1';
+const CACHE = 'ebpp-v2';
 
 /* App shell: precached on install. data.js is deliberately NOT here —
    the catalog and prices change often, so it is always fetched fresh
    (see the network-first rule below) and never served stale. */
 const APP_SHELL = [
   '/',
- '/styles.css?v=4.15.3',
-  '/app.js?v=4.15.3',
-  '/ux.js?v=4.15.3',
+ '/styles.css?v=4.15.4',
+  '/app.js?v=4.15.4',
+  '/ux.js?v=4.15.4',
   '/img/icons/icon-192.png',
   '/img/icons/icon-512.png'
 ];

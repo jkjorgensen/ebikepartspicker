@@ -13,7 +13,7 @@
         "rear_wheel_in": 18,
         "wheel_source_url": "https://ebs-bikes.co.uk/product/ventus-one-plus/"
       },
-      "size": "mid"
+      "size": "light"
     },
     {
       "id": "ventus-evo",
@@ -28,7 +28,7 @@
         "rear_wheel_in": 16,
         "wheel_source_url": "https://pinnedelectric.com/products/ventus-v1-evo"
       },
-      "size": "mid"
+      "size": "light"
     },
     {
       "id": "lightbee",
@@ -59,7 +59,7 @@
         "wheel_source_url": "https://faste.com.au/surron-light-bee-2-available-australia/"
       },
       "fitment_sparse": true,
-      "size": "mid"
+      "size": "light"
     },
     {
       "id": "ultrabee",
@@ -105,7 +105,7 @@
         "rear_wheel_in": 18,
         "wheel_source_url": "https://gritshift.com/products/e-ride-pro-ss-3-0"
       },
-      "size": "mid"
+      "size": "light"
     },
     {
       "id": "ss40",
@@ -120,7 +120,7 @@
         "rear_wheel_in": 18,
         "wheel_source_url": "https://revrides.com/products/2027-e-ride-pro-se"
       },
-      "size": "mid"
+      "size": "light"
     },
     {
       "id": "sr",
@@ -165,7 +165,7 @@
         "rear_wheel_in": 19,
         "wheel_source_url": "https://emotobykes.com/bikes/talaria/sting-mx5-pro/"
       },
-      "size": "mid"
+      "size": "light"
     },
     {
       "id": "komodo",
@@ -180,7 +180,7 @@
         "rear_wheel_in": 18,
         "wheel_source_url": "https://talaria.cn.com/product/talaria-komodo/"
       },
-      "size": "full"
+      "size": "mid"
     },
     {
       "id": "bonnell-805rx",
@@ -195,7 +195,7 @@
         "rear_wheel_in": 18,
         "wheel_source_url": "https://ridebonnell.com/products/805"
       },
-      "size": "full"
+      "size": "mid"
     },
     {
       "id": "storm-bee",
@@ -225,7 +225,7 @@
         "rear_wheel_in": 18,
         "wheel_source_url": "https://arctic-leopard.com/produit/x%c2%b7d-pro/"
       },
-      "size": "full",
+      "size": "mid",
       "notes": "Weight 209.4 lb from the Arctic Leopard USA product page (https://arctic-leopard-usa.com/products/xd-pro), checked Nov 10, 2026. Other published figures include 196 lb (global) and 204 lb (Charged Cycle Works).",
       "fitment_sparse": true
     },
@@ -243,7 +243,7 @@
         "wheel_source_url": "https://thepack.news/rerode-and-pinned-electric-unveil-new-2027-rx-a-35-kw-midsize-electric-motorcycle/"
       },
       "fitment_sparse": true,
-      "size": "full"
+      "size": "mid"
     },
     {
       "id": "rawrr-mantis-72v",
@@ -259,7 +259,7 @@
         "wheel_source_url": "https://www.riderawrr.com/72v-rawrr-mantis"
       },
       "fitment_sparse": true,
-      "size": "mid"
+      "size": "light"
     },
     {
       "id": "rawrr-mantis-x-pro",
@@ -275,7 +275,7 @@
         "wheel_source_url": "https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro"
       },
       "fitment_sparse": true,
-      "size": "mid"
+      "size": "light"
     },
     {
       "id": "rawrr-mantis-x",
@@ -323,7 +323,7 @@
         "wheel_source_url": "https://motorhabit.com/products/79bike-falcon-gt"
       },
       "fitment_sparse": true,
-      "size": "mid"
+      "size": "light"
     },
     {
       "id": "rtr-lite",
@@ -354,7 +354,8 @@
         "rear_wheel_in": 12,
         "wheel_source_url": "https://radical-ebikes.com/products/etm-rtr-lite-60v-5kw-copy"
       },
-      "fitment_sparse": true
+      "fitment_sparse": true,
+      "size": "light"
     },
     {
       "id": "rtr-sport",
@@ -531,7 +532,8 @@
         "wheel_source_url": null
       },
       "notes": "Variant reported in the owner community; specs and per-variant fitment unverified.",
-      "fitment_sparse": true
+      "fitment_sparse": true,
+      "size": "mid"
     },
     {
       "id": "yvolt-surge-v",
@@ -548,7 +550,7 @@
       },
       "notes": "35 kW peak, 97.2V 45Ah Samsung, 204 lb. $5,499 on yvolt.com (sale from $5,999); $5,999 at US retailers. Mid-size.",
       "fitment_sparse": true,
-      "size": "full"
+      "size": "mid"
     },
     {
       "id": "supermach-sm01",
@@ -563,8 +565,9 @@
         "rear_wheel_in": 19,
         "wheel_source_url": "https://www.supermach.com/collections/all/products/sm01-6000-electric-off-road-vehicle"
       },
-      "notes": "13.5 kW peak, 74V 50Ah semi-solid-state, 240mm FAST suspension. Weight unverified. Mid-size.",
-      "fitment_sparse": true
+      "notes": "13.5 kW peak, 74V 50Ah semi-solid-state, 240mm FAST suspension. Weight unverified. Lightweight class.",
+      "fitment_sparse": true,
+      "size": "light"
     },
     {
       "id": "supermach-sm62",
@@ -581,7 +584,7 @@
       },
       "notes": "16 kW peak (5 kW rated), 74V 50Ah, 154 lb. Pre-order price. Smaller starter model; 19/16in wheels.",
       "fitment_sparse": true,
-      "size": "mid"
+      "size": "light"
     },
     {
       "id": "zero-xe",
@@ -597,7 +600,7 @@
         "battery": "74V 58Ah"
       },
       "notes": "Zero's 2026 electric dirt bike. 15.5 kW, 74V 58Ah, 21/18\" wheels.",
-      "size": "full",
+      "size": "mid",
       "fitment_sparse": true
     },
     {
@@ -631,7 +634,7 @@
         "battery": "74V 60Ah"
       },
       "notes": "20 kW, 74V 60Ah, 19/16\" wheels.",
-      "size": "mid",
+      "size": "light",
       "fitment_sparse": true
     },
     {
@@ -665,7 +668,7 @@
         "battery": "74V 60Ah"
       },
       "notes": "Higher-output XE: 26.5 kW, 74V 60Ah, 21/18\" wheels.",
-      "size": "mid",
+      "size": "light",
       "fitment_sparse": true
     },
     {
