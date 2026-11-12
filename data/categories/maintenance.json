@@ -138,7 +138,8 @@
       "stock_status": "in_stock",
       "notes": "Fitment from the seller listing title; other bikes not verified.",
       "source_urls": [
-        "https://tbelectricmoto.com/products/bearing-kit-suspension-triangle-surron-lbx"
+        "https://tbelectricmoto.com/products/bearing-kit-suspension-triangle-surron-lbx",
+        "https://howlingmoto.com/products/sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-kit-dirtybike"
       ],
       "last_checked": "2026-10-27",
       "weight_kg": null,
@@ -158,40 +159,6 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/tbelectricmoto-bearing-kit-suspension-triangle-surron-lbx.webp"
-    },
-    {
-      "id": "howlingmoto-sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-k",
-      "name": "Sur-Ron Light Bee LBX Suspension Triangle Needle Bearing Kit | DirtyBike",
-      "brand": "eDirtyBike",
-      "category": "maintenance",
-      "price_usd": 11.0,
-      "vendor": "Howling Moto",
-      "buy_url": "https://howlingmoto.com/products/sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-kit-dirtybike",
-      "tier": "budget",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "Fitment from the seller listing title; other bikes not verified.",
-      "source_urls": [
-        "https://howlingmoto.com/products/sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-kit-dirtybike"
-      ],
-      "last_checked": "2026-10-27",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Sur-Ron Light Bee X": "direct_fit"
-      },
-      "_fit_src": {
-        "lightbee": "https://howlingmoto.com/products/sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-kit-dirtybike"
-      },
-      "vendors": [
-        {
-          "vendor": "Howling Moto",
-          "price_usd": 11.0,
-          "buy_url": "https://howlingmoto.com/products/sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-kit-dirtybike"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": "img/parts/howlingmoto-sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-k.webp"
     },
     {
       "id": "revrides-titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x2",
@@ -1632,7 +1599,7 @@
       ],
       "image": "img/parts/maintenance-warp9-stemlock-replacement-bolt.webp"
     },
-{
+    {
       "id": "maintenance-drc-bike-lift-stand",
       "name": "DRC Bike Lift Stand",
       "brand": "DRC",
@@ -1666,109 +1633,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
-      "id": "maintenance-maxima-chain-guard-care-kit",
-      "name": "Maxima Chain Guard Care Kit",
-      "brand": "Maxima",
-      "category": "maintenance",
-      "price_usd": 39.99,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260",
-      "tier": "mid",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260",
-      "source_urls": [
-        "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
-      ],
-      "last_checked": "2026-11-11",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Stark Varg EX": "direct_fit"
-      },
-      "_fit_src": {
-        "stark-vargex": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
-      },
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 39.99,
-          "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": null
-    },
-{
-      "id": "maintenance-maxima-chain-guard-lube",
-      "name": "Maxima Chain Guard Lube",
-      "brand": "Maxima",
-      "category": "maintenance",
-      "price_usd": 8.99,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260",
-      "tier": "budget",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260",
-      "source_urls": [
-        "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
-      ],
-      "last_checked": "2026-11-11",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Stark Varg EX": "direct_fit"
-      },
-      "_fit_src": {
-        "stark-vargex": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
-      },
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 8.99,
-          "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": null
-    },
-{
-      "id": "maintenance-maxima-hi-temp-grease",
-      "name": "Maxima Hi-Temp waterproof grease 16oz tub",
-      "brand": "Maxima",
-      "category": "maintenance",
-      "price_usd": 16.99,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub",
-      "tier": "budget",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub",
-      "source_urls": [
-        "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
-      ],
-      "last_checked": "2026-11-11",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Stark Varg EX": "direct_fit"
-      },
-      "_fit_src": {
-        "stark-vargex": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
-      },
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 16.99,
-          "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": null
-    },
-{
+    {
       "id": "maintenance-pbr-chain-press-tool-motion-pro",
       "name": "PBR Chain Press Tool Motion Pro",
       "brand": "Motion Pro",
@@ -1802,7 +1667,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
+    {
       "id": "maintenance-tie-down-straps-1in-fire-power",
       "name": "1\" Tie-Down Straps 2/PK by Fire Power",
       "brand": "Fire Power",
@@ -1836,41 +1701,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
-      "id": "maintenance-tusk-spoke-wrench",
-      "name": "Tusk Spoke Wrench for Surron Segway",
-      "brand": "Tusk",
-      "category": "maintenance",
-      "price_usd": 8.99,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/spoke-wrench-set",
-      "tier": "budget",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/spoke-wrench-set",
-      "source_urls": [
-        "https://chargedcycleworks.com/products/spoke-wrench-set"
-      ],
-      "last_checked": "2026-11-11",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Stark Varg EX": "direct_fit"
-      },
-      "_fit_src": {
-        "stark-vargex": "https://chargedcycleworks.com/products/spoke-wrench-set"
-      },
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 8.99,
-          "buy_url": "https://chargedcycleworks.com/products/spoke-wrench-set"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": null
-    },
-{
+    {
       "id": "maintenance-tusk-tire-changing-stand",
       "name": "Tusk Adjustable Height Motorcycle Tire Changing Stand",
       "brand": "Tusk",
@@ -1904,7 +1735,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
+    {
       "id": "maintenance-warp9-adjustable-kickstand-stark-varg",
       "name": "Warp9 Stark Varg Adjustable Kickstand And Bracket",
       "brand": "Warp9",
@@ -1938,116 +1769,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
-      "id": "maintenance-warp9-spoke-torque-wrench-kit",
-      "name": "Warp9 Adjustable Spoke Torque Wrench Kit",
-      "brand": "Warp9",
-      "category": "maintenance",
-      "price_usd": 131.0,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench",
-      "tier": "mid",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench",
-      "source_urls": [
-        "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
-      ],
-      "last_checked": "2026-11-11",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Stark Varg EX": "direct_fit"
-      },
-      "_fit_src": {
-        "stark-vargex": "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
-      },
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 131.0,
-          "buy_url": "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": null
-    },
-{
-      "id": "chargedcycleworks-maxima-chain-guard-care-kit",
-      "name": "Maxima Chain Guard Care Kit",
-      "brand": "Maxima",
-      "category": "maintenance",
-      "tier": "budget",
-      "price_usd": 39.99,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 39.99,
-          "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
-        }
-      ],
-      "stock_status": "in_stock",
-      "is_upgrade": true,
-      "source_urls": [
-        "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
-      ],
-      "last_checked": "2026-11-11",
-      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
-      "image": null
-    },
-{
-      "id": "chargedcycleworks-maxima-chain-guard-lube",
-      "name": "Maxima Chain Guard Lube",
-      "brand": "Maxima",
-      "category": "maintenance",
-      "tier": "budget",
-      "price_usd": 8.99,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 8.99,
-          "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
-        }
-      ],
-      "stock_status": "in_stock",
-      "is_upgrade": true,
-      "source_urls": [
-        "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
-      ],
-      "last_checked": "2026-11-11",
-      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
-      "image": null
-    },
-{
-      "id": "chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz",
-      "name": "Maxima Hi-Temp waterproof grease 16oz tub",
-      "brand": "Maxima",
-      "category": "maintenance",
-      "tier": "budget",
-      "price_usd": 16.99,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 16.99,
-          "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
-        }
-      ],
-      "stock_status": "in_stock",
-      "is_upgrade": true,
-      "source_urls": [
-        "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
-      ],
-      "last_checked": "2026-11-11",
-      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
-      "image": null
-    },
-{
+    {
       "id": "chargedcycleworks-rfloxa-steering-stem-lock",
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/rfloxa-steering-stem-lock",
@@ -2080,7 +1802,7 @@
       "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-warp9-standard-stem-lock",
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/warp9-standard-stem-lock",
@@ -2113,7 +1835,7 @@
       "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-warp9-stem-lock-fender-adapter",
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter",
@@ -2146,7 +1868,7 @@
       "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-warp9-stem-lock-spacer-kit",
       "_fit_src": {
         "rawrr-mantis-72v": "https://chargedcycleworks.com/products/stem-lock-spacer-kit"
@@ -2177,38 +1899,7 @@
       "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
       "image": null
     },
-{
-      "id": "chargedcycleworks-wolf-tooth-precision-headset-spacers",
-      "_fit_src": {
-        "rawrr-mantis-72v": "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria"
-      },
-      "_fit": {
-        "Rawrr Mantis 72V": "verify"
-      },
-      "name": "Wolf Tooth Precision Headset Spacers",
-      "brand": "Wolf Tooth",
-      "category": "maintenance",
-      "tier": "budget",
-      "price_usd": 6.26,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 6.26,
-          "buy_url": "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria"
-        }
-      ],
-      "stock_status": "in_stock",
-      "is_upgrade": true,
-      "source_urls": [
-        "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria"
-      ],
-      "last_checked": "2026-11-11",
-      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
-      "image": null
-    },
-{
+    {
       "id": "chargedcycleworks-kyvex-billet-stem-lock",
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/kyvex-billet-stem-lock"
@@ -2239,38 +1930,14 @@
       ],
       "image": null
     },
-{
-      "id": "chargedcycleworks-maxima-hi-temp-waterproof-grease",
-      "name": "Maxima Hi-Temp waterproof grease 16oz tub",
-      "brand": "Maxima",
-      "category": "maintenance",
-      "price_usd": 16.99,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub",
-      "tier": "budget",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
-      "source_urls": [
-        "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
-      ],
-      "last_checked": "2026-11-11",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 16.99,
-          "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
-        }
-      ],
-      "image": null
-    },
-{
+    {
       "id": "chargedcycleworks-spoke-wrench-set",
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/spoke-wrench-set"
       },
       "_fit": {
-        "Arctic Leopard XE Pro S Enduro": "verify"
+        "Arctic Leopard XE Pro S Enduro": "verify",
+        "Stark Varg EX": "direct_fit"
       },
       "name": "Tusk Spoke Wrench for Surron Segway",
       "brand": "Tusk",
@@ -2295,44 +1962,14 @@
       ],
       "image": null
     },
-{
-      "id": "chargedcycleworks-stem-lock-spacer-kit",
-      "_fit_src": {
-        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/stem-lock-spacer-kit"
-      },
-      "_fit": {
-        "Arctic Leopard XE Pro S Enduro": "verify"
-      },
-      "name": "Stem Spacer Kit",
-      "brand": "Warp9Racing",
-      "category": "maintenance",
-      "price_usd": 10.0,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/stem-lock-spacer-kit",
-      "tier": "budget",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
-      "source_urls": [
-        "https://chargedcycleworks.com/products/stem-lock-spacer-kit"
-      ],
-      "last_checked": "2026-11-11",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 10.0,
-          "buy_url": "https://chargedcycleworks.com/products/stem-lock-spacer-kit"
-        }
-      ],
-      "image": null
-    },
-{
+    {
       "id": "chargedcycleworks-warp-9-torque-spoke-wrench",
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
       },
       "_fit": {
-        "Arctic Leopard XE Pro S Enduro": "verify"
+        "Arctic Leopard XE Pro S Enduro": "verify",
+        "Stark Varg EX": "direct_fit"
       },
       "name": "Warp9 Adjustable Spoke Torque Wrench Kit",
       "brand": "Warp9Racing",
@@ -2357,7 +1994,7 @@
       ],
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-warp9-surron-tire-levers",
       "name": "Warp9 Tire Levers",
       "brand": "Warp9Racing",
@@ -2382,7 +2019,7 @@
       ],
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260",
       "name": "Maxima Chain Guard Care Kit",
       "brand": "Maxima",
@@ -2401,7 +2038,9 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Arctic Leopard XE Pro S Enduro": "verify"
+        "Arctic Leopard XE Pro S Enduro": "verify",
+        "Stark Varg EX": "direct_fit",
+        "Rawrr Mantis X": "direct_fit"
       },
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
@@ -2416,7 +2055,7 @@
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260.webp"
     },
-{
+    {
       "id": "chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260",
       "name": "Maxima Chain Guard Lube",
       "brand": "Maxima",
@@ -2435,7 +2074,9 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Arctic Leopard XE Pro S Enduro": "verify"
+        "Arctic Leopard XE Pro S Enduro": "verify",
+        "Stark Varg EX": "direct_fit",
+        "Rawrr Mantis X": "direct_fit"
       },
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
@@ -2450,7 +2091,7 @@
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260.webp"
     },
-{
+    {
       "id": "chargedcycleworks-maxima-dot-5-1-brake-fluid-500ml",
       "name": "Maxima DOT 5.1 Brake Fluid \u2013 500 mL",
       "brand": "Maxima",
@@ -2469,7 +2110,8 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Arctic Leopard XE Pro S Enduro": "verify"
+        "Arctic Leopard XE Pro S Enduro": "verify",
+        "Sur-Ron Light Bee 2": "direct_fit"
       },
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml"
@@ -2484,7 +2126,7 @@
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-maxima-dot-5-1-brake-fluid-500ml.webp"
     },
-{
+    {
       "id": "chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub",
       "name": "Maxima Hi-Temp waterproof grease 16oz tub",
       "brand": "Maxima",
@@ -2504,7 +2146,9 @@
       "power_change_kw": null,
       "_fit": {
         "Arctic Leopard XE Pro S Enduro": "verify",
-        "Sur-Ron Ultra Bee 21kW": "direct_fit"
+        "Sur-Ron Ultra Bee 21kW": "direct_fit",
+        "Stark Varg EX": "direct_fit",
+        "Rawrr Mantis X": "direct_fit"
       },
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub",
@@ -2520,7 +2164,7 @@
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub.webp"
     },
-{
+    {
       "id": "chargedcycleworks-odi-grip-glue",
       "name": "ODI Grip Glue",
       "brand": "ODI",
@@ -2539,7 +2183,9 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Arctic Leopard XE Pro S Enduro": "verify"
+        "Arctic Leopard XE Pro S Enduro": "verify",
+        "Stark Varg EX": "direct_fit",
+        "Rawrr Mantis X": "direct_fit"
       },
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/odi-grip-glue"
@@ -2554,7 +2200,7 @@
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-odi-grip-glue.webp"
     },
-{
+    {
       "id": "chargedcycleworks-precision-headset-spacers-for-surron-talaria",
       "name": "Wolf Tooth Precision Headset Spacers",
       "brand": "Wolf Tooth",
@@ -2573,7 +2219,10 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Arctic Leopard XE Pro S Enduro": "verify"
+        "Arctic Leopard XE Pro S Enduro": "verify",
+        "Rawrr Mantis X": "direct_fit",
+        "Rawrr Mantis 72V": "verify",
+        "Rawrr Mantis Mini R": "verify"
       },
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria"
@@ -2588,7 +2237,7 @@
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-precision-headset-spacers-for-surron-talaria.webp"
     },
-{
+    {
       "id": "chargedcycleworks-renthal-grip-glue",
       "name": "Renthal Grip Glue",
       "brand": "Renthal",
@@ -2607,7 +2256,9 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Arctic Leopard XE Pro S Enduro": "verify"
+        "Arctic Leopard XE Pro S Enduro": "verify",
+        "Stark Varg EX": "direct_fit",
+        "Rawrr Mantis X": "direct_fit"
       },
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/renthal-grip-glue"
@@ -2622,33 +2273,9 @@
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-renthal-grip-glue.webp"
     },
-{
-     "id": "maintenance-maxima-dot51-brake-fluid-500ml",
-     "name": "Maxima DOT 5.1 Brake Fluid – 500 mL",
-     "brand": "Maxima",
-     "category": "maintenance",
-     "price_usd": 12.99,
-     "vendor": "Charged Cycle Works",
-     "buy_url": "https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml",
-     "tier": "budget",
-     "is_upgrade": true,
-     "stock_status": "in_stock",
-     "notes": "DOT 5.1 brake fluid, 500 mL. CCW search-by-bike (SURLB2 tag) lists it for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026).",
-     "source_urls": [
-      "https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml"
-     ],
-     "last_checked": "2026-11-11",
-     "vendors": [
-      {
-       "vendor": "Charged Cycle Works",
-       "price_usd": 12.99,
-       "buy_url": "https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml"
-      }
-     ]
-    },
-{
+    {
       "id": "chargedcycleworks-rawrr-mantis-mini-r17-kickstand-assembly",
-      "name": "Rawrr – Mantis Mini R17 Kickstand Assembly | OEM",
+      "name": "Rawrr \u2013 Mantis Mini R17 Kickstand Assembly | OEM",
       "brand": "Rawrr",
       "category": "maintenance",
       "badge": "Rawrr",
@@ -2671,7 +2298,7 @@
         "https://chargedcycleworks.com/products/rawrr-mantis-mini-r17-kickstand-assembly"
       ],
       "last_checked": "2026-11-11",
-      "notes": "CCW names the Mantis Mini R17 only, never the stock Mini R — R17-length kickstand, fits only on the R17 configuration (with the upsizing kit); the upsizing kit itself includes a longer kickstand (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r17-kickstand-assembly",
+      "notes": "CCW names the Mantis Mini R17 only, never the stock Mini R \u2014 R17-length kickstand, fits only on the R17 configuration (with the upsizing kit); the upsizing kit itself includes a longer kickstand (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r17-kickstand-assembly",
       "sizes": null,
       "position": null,
       "image": null,
@@ -2681,948 +2308,920 @@
       "_fit_src": {
         "rawrr-mantis-mini-r": "https://chargedcycleworks.com/products/rawrr-mantis-mini-r17-kickstand-assembly"
       }
-    }
-  ,
+    },
     {
-          "id": "altispowersports-altis-delta-steering-rod-roller-bearing",
-          "name": "Altis Delta STEERING ROD ROLLER BEARING",
-          "brand": "Altis",
-          "category": "maintenance",
+      "id": "altispowersports-altis-delta-steering-rod-roller-bearing",
+      "name": "Altis Delta STEERING ROD ROLLER BEARING",
+      "brand": "Altis",
+      "category": "maintenance",
+      "price_usd": 25.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-steering-rod-roller-bearing",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_steering-rod-roller-bearing",
+        "https://www.altispowersports.com/products/altis-delta-steering-rod-roller-bearing"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-steering-rod-roller-bearing"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 25.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-steering-rod-roller-bearing",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_steering-rod-roller-bearing",
-                "https://www.altispowersports.com/products/altis-delta-steering-rod-roller-bearing"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-steering-rod-roller-bearing"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 25.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-steering-rod-roller-bearing"
-                },
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 31.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-rod-roller-bearing"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "altispowersports-altis-delta-steering-stem-nut",
-          "name": "Altis Delta Steering Stem Nut",
-          "brand": "Altis",
-          "category": "maintenance",
-          "price_usd": 9.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-steering-stem-nut",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-steering-stem-nut"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-steering-stem-nut"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 9.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-steering-stem-nut"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "altispowersports-altis-delta-steering-washer",
-          "name": "Altis Delta Steering Washer",
-          "brand": "Altis",
-          "category": "maintenance",
-          "price_usd": 3.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-steering-washer",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-steering-washer"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-steering-washer"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 3.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-steering-washer"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "chargedcycleworks-surron-ultra-bee-hp-stage-1-package",
-          "name": "Surron Ultra Bee \u2013 Stage 1 Package",
-          "brand": "Charged Cycle Works",
-          "category": "maintenance",
-          "price_usd": 7199.0,
-          "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-1-package",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part.",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-1-package"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "not_compatible"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-1-package"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 7199.0,
-                      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-1-package"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "chargedcycleworks-surron-ultra-bee-hp-stage-2p-power-package",
-          "name": "Surron Ultra Bee \u2013 Stage 2P | Power Package",
-          "brand": "Charged Cycle Works",
-          "category": "maintenance",
-          "price_usd": 7999.0,
-          "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2p-power-package",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part.",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2p-power-package"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "not_compatible"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2p-power-package"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 7999.0,
-                      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2p-power-package"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "chargedcycleworks-surron-ultra-bee-hp-stage-2s-suspension-package",
-          "name": "Surron Ultra Bee \u2013 Stage 2S | Suspension Package",
-          "brand": "Charged Cycle Works",
-          "category": "maintenance",
-          "price_usd": 8999.0,
-          "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2s-suspension-package",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part.",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2s-suspension-package"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "not_compatible"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2s-suspension-package"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 8999.0,
-                      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2s-suspension-package"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "chargedcycleworks-surron-ultra-bee-hp-stage-3-ultimate-package",
-          "name": "Surron Ultra Bee \u2013 Stage 3 | Ultimate Package",
-          "brand": "Charged Cycle Works",
-          "category": "maintenance",
-          "price_usd": 10299.0,
-          "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-3-ultimate-package",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part.",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-3-ultimate-package"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "not_compatible"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-3-ultimate-package"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 10299.0,
-                      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-3-ultimate-package"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-maxima-assembly-grease",
-          "name": "Maxima Assembly Grease",
-          "brand": "GritShift",
-          "category": "maintenance",
-          "price_usd": 19.89,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/maxima-assembly-grease",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/maxima-assembly-grease"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/maxima-assembly-grease"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 19.89,
-                      "buy_url": "https://gritshift.com/products/maxima-assembly-grease"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-moose-racing-stainless-safety-wire-028-inch-x-120-ft",
-          "name": "Moose Racing Stainless Safety Wire - .028 Inch x 120 ft",
-          "brand": "Moose Racing",
-          "category": "maintenance",
-          "price_usd": 19.95,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 19.95,
-                      "buy_url": "https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-moose-racing-stainless-safety-wire-032-inch-x-75-ft",
-          "name": "Moose Racing Stainless Safety Wire - .032 Inch x 75 ft",
-          "brand": "Moose Racing",
-          "category": "maintenance",
-          "price_usd": 18.95,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 18.95,
-                      "buy_url": "https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-muc-off-high-pressure-quick-drying-degreaser",
-          "name": "Muc-Off High-Pressure Quick Drying Degreaser",
-          "brand": "Muc-Off",
-          "category": "maintenance",
-          "price_usd": 21.89,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 21.89,
-                      "buy_url": "https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-muc-off-motorcycle-protectant-vanilla-scented",
-          "name": "Muc-Off Motorcycle Protectant Vanilla Scented",
-          "brand": "Muc-Off",
-          "category": "maintenance",
-          "price_usd": 16.89,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 16.89,
-                      "buy_url": "https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-muc-off-usa-degreaser-500-ml-aerosol-948us",
-          "name": "MUC-OFF Bio Chain Degreaser",
-          "brand": "Muc-Off",
-          "category": "maintenance",
-          "price_usd": 18.89,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 18.89,
-                      "buy_url": "https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us",
-          "name": "MUC-OFF E-Bike Ultra Corrosion Defense",
-          "brand": "Muc-Off",
-          "category": "maintenance",
-          "price_usd": 18.99,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 18.99,
-                      "buy_url": "https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-muc-off-usa-matt-finish-detailer-250ml-20004us",
-          "name": "MUC-OFF Matt Finish Spray Detailer",
-          "brand": "Muc-Off",
-          "category": "maintenance",
-          "price_usd": 18.89,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 18.89,
-                      "buy_url": "https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us",
-          "name": "MUC-OFF PTFE Protectant Spray",
-          "brand": "Muc-Off",
-          "category": "maintenance",
-          "price_usd": 18.89,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 18.89,
-                      "buy_url": "https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us",
-          "name": "MUC-OFF Spray-On Quick-Dry Degreaser",
-          "brand": "Muc-Off",
-          "category": "maintenance",
-          "price_usd": 11.99,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 11.99,
-                      "buy_url": "https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us",
-          "name": "MUC-OFF USA Silicone SC1 Shine",
-          "brand": "Muc-Off",
-          "category": "maintenance",
-          "price_usd": 9.89,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 9.89,
-                      "buy_url": "https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-muc-off-usa-speed-polish-400ml-aerosol-1143us",
-          "name": "MUC-OFF USA Speed Polish Spray",
-          "brand": "Muc-Off",
-          "category": "maintenance",
-          "price_usd": 16.89,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 16.89,
-                      "buy_url": "https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "revrides-altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports",
-          "name": "Altis Delta Steering Roller Bearing | Upper or Lower Steering Stem Bearing | By Altis Powersports",
-          "brand": "Altis",
-          "category": "maintenance",
-          "price_usd": 25.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 25.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "revrides-altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports",
-          "name": "Altis Delta Steering Stem Nut | OEM Steering Hardware | By Altis Powersports",
-          "brand": "Altis",
-          "category": "maintenance",
-          "price_usd": 9.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 9.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "revrides-altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports",
-          "name": "Altis Delta Steering Washer | OEM Steering Stem Hardware | By Altis Powersports",
-          "brand": "Altis",
-          "category": "maintenance",
-          "price_usd": 3.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 3.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "wiredwhips-maxima-hi-temp-waterproof-grease-16oz-altis-omega",
-          "name": "Maxima Hi-Temp Waterproof Grease 16oz - Altis Omega",
-          "brand": "Wired Whips",
-          "category": "maintenance",
-          "price_usd": 19.99,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-steering-rod-roller-bearing"
+        },
+        {
           "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_grease-maxima-hi-temp",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_omega_grease-maxima-hi-temp"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Omega": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-omega": "https://wiredwhips.com/parts/altis-powersports_omega_grease-maxima-hi-temp"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 19.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_grease-maxima-hi-temp"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "wiredwhips-maxima-mppl-multi-purpose-penetrant-altis-omega",
-          "name": "Maxima MPPL Multi-Purpose Penetrant - Altis Omega",
-          "brand": "Wired Whips",
-          "category": "maintenance",
-          "price_usd": 14.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_mppl-maxima",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_omega_mppl-maxima"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Omega": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-omega": "https://wiredwhips.com/parts/altis-powersports_omega_mppl-maxima"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 14.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_mppl-maxima"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "wiredwhips-motul-chain-clean-degreaser-for-altis-powersports-altis-omega",
-          "name": "Motul Chain Clean Degreaser for Altis Powersports (Altis Omega)",
-          "brand": "Wired Whips",
-          "category": "maintenance",
-          "price_usd": 15.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_chain-cleaner-motul",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_omega_chain-cleaner-motul"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Omega": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-omega": "https://wiredwhips.com/parts/altis-powersports_omega_chain-cleaner-motul"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 15.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_chain-cleaner-motul"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "wiredwhips-oem-steering-rod-roller-bearing-delta-delta-s",
-          "name": "OEM Steering Rod Roller Bearing (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "maintenance",
           "price_usd": 31.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-bearing",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_steering-bearing"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_steering-bearing"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 31.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-bearing"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-rod-roller-bearing"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-steering-stem-nut-delta-delta-s",
-          "name": "OEM Steering Stem Nut (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "maintenance",
+      "id": "altispowersports-altis-delta-steering-stem-nut",
+      "name": "Altis Delta Steering Stem Nut",
+      "brand": "Altis",
+      "category": "maintenance",
+      "price_usd": 9.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-steering-stem-nut",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-steering-stem-nut"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-steering-stem-nut"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
+          "price_usd": 9.0,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-steering-stem-nut"
+        }
+      ]
+    },
+    {
+      "id": "altispowersports-altis-delta-steering-washer",
+      "name": "Altis Delta Steering Washer",
+      "brand": "Altis",
+      "category": "maintenance",
+      "price_usd": 3.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-steering-washer",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-steering-washer"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-steering-washer"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
+          "price_usd": 3.0,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-steering-washer"
+        }
+      ]
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-hp-stage-1-package",
+      "name": "Surron Ultra Bee \u2013 Stage 1 Package",
+      "brand": "Charged Cycle Works",
+      "category": "maintenance",
+      "price_usd": 7199.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-1-package",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-1-package"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 21kW": "not_compatible"
+      },
+      "_fit_src": {
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-1-package"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 7199.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-1-package"
+        }
+      ]
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-hp-stage-2p-power-package",
+      "name": "Surron Ultra Bee \u2013 Stage 2P | Power Package",
+      "brand": "Charged Cycle Works",
+      "category": "maintenance",
+      "price_usd": 7999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2p-power-package",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2p-power-package"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 21kW": "not_compatible"
+      },
+      "_fit_src": {
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2p-power-package"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 7999.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2p-power-package"
+        }
+      ]
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-hp-stage-2s-suspension-package",
+      "name": "Surron Ultra Bee \u2013 Stage 2S | Suspension Package",
+      "brand": "Charged Cycle Works",
+      "category": "maintenance",
+      "price_usd": 8999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2s-suspension-package",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2s-suspension-package"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 21kW": "not_compatible"
+      },
+      "_fit_src": {
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2s-suspension-package"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8999.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2s-suspension-package"
+        }
+      ]
+    },
+    {
+      "id": "chargedcycleworks-surron-ultra-bee-hp-stage-3-ultimate-package",
+      "name": "Surron Ultra Bee \u2013 Stage 3 | Ultimate Package",
+      "brand": "Charged Cycle Works",
+      "category": "maintenance",
+      "price_usd": 10299.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-3-ultimate-package",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-3-ultimate-package"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 21kW": "not_compatible"
+      },
+      "_fit_src": {
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-3-ultimate-package"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 10299.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-3-ultimate-package"
+        }
+      ]
+    },
+    {
+      "id": "gritshift-maxima-assembly-grease",
+      "name": "Maxima Assembly Grease",
+      "brand": "GritShift",
+      "category": "maintenance",
+      "price_usd": 19.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/maxima-assembly-grease",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/maxima-assembly-grease"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/maxima-assembly-grease"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 19.89,
+          "buy_url": "https://gritshift.com/products/maxima-assembly-grease"
+        }
+      ]
+    },
+    {
+      "id": "gritshift-moose-racing-stainless-safety-wire-028-inch-x-120-ft",
+      "name": "Moose Racing Stainless Safety Wire - .028 Inch x 120 ft",
+      "brand": "Moose Racing",
+      "category": "maintenance",
+      "price_usd": 19.95,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 19.95,
+          "buy_url": "https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft"
+        }
+      ]
+    },
+    {
+      "id": "gritshift-moose-racing-stainless-safety-wire-032-inch-x-75-ft",
+      "name": "Moose Racing Stainless Safety Wire - .032 Inch x 75 ft",
+      "brand": "Moose Racing",
+      "category": "maintenance",
+      "price_usd": 18.95,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 18.95,
+          "buy_url": "https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft"
+        }
+      ]
+    },
+    {
+      "id": "gritshift-muc-off-high-pressure-quick-drying-degreaser",
+      "name": "Muc-Off High-Pressure Quick Drying Degreaser",
+      "brand": "Muc-Off",
+      "category": "maintenance",
+      "price_usd": 21.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 21.89,
+          "buy_url": "https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser"
+        }
+      ]
+    },
+    {
+      "id": "gritshift-muc-off-motorcycle-protectant-vanilla-scented",
+      "name": "Muc-Off Motorcycle Protectant Vanilla Scented",
+      "brand": "Muc-Off",
+      "category": "maintenance",
+      "price_usd": 16.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 16.89,
+          "buy_url": "https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented"
+        }
+      ]
+    },
+    {
+      "id": "gritshift-muc-off-usa-degreaser-500-ml-aerosol-948us",
+      "name": "MUC-OFF Bio Chain Degreaser",
+      "brand": "Muc-Off",
+      "category": "maintenance",
+      "price_usd": 18.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 18.89,
+          "buy_url": "https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us"
+        }
+      ]
+    },
+    {
+      "id": "gritshift-muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us",
+      "name": "MUC-OFF E-Bike Ultra Corrosion Defense",
+      "brand": "Muc-Off",
+      "category": "maintenance",
+      "price_usd": 18.99,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 18.99,
+          "buy_url": "https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us"
+        }
+      ]
+    },
+    {
+      "id": "gritshift-muc-off-usa-matt-finish-detailer-250ml-20004us",
+      "name": "MUC-OFF Matt Finish Spray Detailer",
+      "brand": "Muc-Off",
+      "category": "maintenance",
+      "price_usd": 18.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 18.89,
+          "buy_url": "https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us"
+        }
+      ]
+    },
+    {
+      "id": "gritshift-muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us",
+      "name": "MUC-OFF PTFE Protectant Spray",
+      "brand": "Muc-Off",
+      "category": "maintenance",
+      "price_usd": 18.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 18.89,
+          "buy_url": "https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us"
+        }
+      ]
+    },
+    {
+      "id": "gritshift-muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us",
+      "name": "MUC-OFF Spray-On Quick-Dry Degreaser",
+      "brand": "Muc-Off",
+      "category": "maintenance",
+      "price_usd": 11.99,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
           "price_usd": 11.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-stem-nut",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_steering-stem-nut"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_steering-stem-nut"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 11.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-stem-nut"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-steering-washer-delta-delta-s",
-          "name": "OEM Steering Washer (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "maintenance",
-          "price_usd": 3.99,
+      "id": "gritshift-muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us",
+      "name": "MUC-OFF USA Silicone SC1 Shine",
+      "brand": "Muc-Off",
+      "category": "maintenance",
+      "price_usd": 9.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 9.89,
+          "buy_url": "https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us"
+        }
+      ]
+    },
+    {
+      "id": "gritshift-muc-off-usa-speed-polish-400ml-aerosol-1143us",
+      "name": "MUC-OFF USA Speed Polish Spray",
+      "brand": "Muc-Off",
+      "category": "maintenance",
+      "price_usd": 16.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
+          "price_usd": 16.89,
+          "buy_url": "https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us"
+        }
+      ]
+    },
+    {
+      "id": "revrides-altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports",
+      "name": "Altis Delta Steering Roller Bearing | Upper or Lower Steering Stem Bearing | By Altis Powersports",
+      "brand": "Altis",
+      "category": "maintenance",
+      "price_usd": 25.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 25.0,
+          "buy_url": "https://revrides.com/products/altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports"
+        }
+      ]
+    },
+    {
+      "id": "revrides-altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports",
+      "name": "Altis Delta Steering Stem Nut | OEM Steering Hardware | By Altis Powersports",
+      "brand": "Altis",
+      "category": "maintenance",
+      "price_usd": 9.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 9.0,
+          "buy_url": "https://revrides.com/products/altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports"
+        }
+      ]
+    },
+    {
+      "id": "revrides-altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports",
+      "name": "Altis Delta Steering Washer | OEM Steering Stem Hardware | By Altis Powersports",
+      "brand": "Altis",
+      "category": "maintenance",
+      "price_usd": 3.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 3.0,
+          "buy_url": "https://revrides.com/products/altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports"
+        }
+      ]
+    },
+    {
+      "id": "wiredwhips-maxima-hi-temp-waterproof-grease-16oz-altis-omega",
+      "name": "Maxima Hi-Temp Waterproof Grease 16oz - Altis Omega",
+      "brand": "Wired Whips",
+      "category": "maintenance",
+      "price_usd": 19.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_grease-maxima-hi-temp",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_omega_grease-maxima-hi-temp"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Omega": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-omega": "https://wiredwhips.com/parts/altis-powersports_omega_grease-maxima-hi-temp"
+      },
+      "vendors": [
+        {
           "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-washer",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_steering-washer"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_steering-washer"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 3.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-washer"
-                }
-          ]
+          "price_usd": 19.99,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_grease-maxima-hi-temp"
+        }
+      ]
+    },
+    {
+      "id": "wiredwhips-maxima-mppl-multi-purpose-penetrant-altis-omega",
+      "name": "Maxima MPPL Multi-Purpose Penetrant - Altis Omega",
+      "brand": "Wired Whips",
+      "category": "maintenance",
+      "price_usd": 14.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_mppl-maxima",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_omega_mppl-maxima"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Omega": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-omega": "https://wiredwhips.com/parts/altis-powersports_omega_mppl-maxima"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
+          "price_usd": 14.99,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_mppl-maxima"
+        }
+      ]
+    },
+    {
+      "id": "wiredwhips-motul-chain-clean-degreaser-for-altis-powersports-altis-omega",
+      "name": "Motul Chain Clean Degreaser for Altis Powersports (Altis Omega)",
+      "brand": "Wired Whips",
+      "category": "maintenance",
+      "price_usd": 15.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_chain-cleaner-motul",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_omega_chain-cleaner-motul"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Omega": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-omega": "https://wiredwhips.com/parts/altis-powersports_omega_chain-cleaner-motul"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
+          "price_usd": 15.99,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_chain-cleaner-motul"
+        }
+      ]
+    },
+    {
+      "id": "wiredwhips-oem-steering-rod-roller-bearing-delta-delta-s",
+      "name": "OEM Steering Rod Roller Bearing (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "maintenance",
+      "price_usd": 31.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-bearing",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_steering-bearing"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_steering-bearing"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
+          "price_usd": 31.99,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-bearing"
+        }
+      ]
+    },
+    {
+      "id": "wiredwhips-oem-steering-stem-nut-delta-delta-s",
+      "name": "OEM Steering Stem Nut (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "maintenance",
+      "price_usd": 11.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-stem-nut",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_steering-stem-nut"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_steering-stem-nut"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
+          "price_usd": 11.99,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-stem-nut"
+        }
+      ]
+    },
+    {
+      "id": "wiredwhips-oem-steering-washer-delta-delta-s",
+      "name": "OEM Steering Washer (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "maintenance",
+      "price_usd": 3.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-washer",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_steering-washer"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_steering-washer"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
+          "price_usd": 3.99,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-washer"
+        }
+      ]
     }
   ],
   "compatibility": [
@@ -4567,7 +4166,7 @@
       "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bike-lift-stand-by-drc"
     },
     {
-      "product_id": "maintenance-maxima-chain-guard-care-kit",
+      "product_id": "chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260",
       "bike_id": "stark-vargex",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -4577,7 +4176,7 @@
       "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
     },
     {
-      "product_id": "maintenance-maxima-chain-guard-lube",
+      "product_id": "chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260",
       "bike_id": "stark-vargex",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -4587,7 +4186,7 @@
       "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
     },
     {
-      "product_id": "maintenance-maxima-hi-temp-grease",
+      "product_id": "chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub",
       "bike_id": "stark-vargex",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -4617,7 +4216,7 @@
       "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/1-tie-down-straps-2-pk-by-fire-power"
     },
     {
-      "product_id": "maintenance-tusk-spoke-wrench",
+      "product_id": "chargedcycleworks-spoke-wrench-set",
       "bike_id": "stark-vargex",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -4647,7 +4246,7 @@
       "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-bracket-stark-varg"
     },
     {
-      "product_id": "maintenance-warp9-spoke-torque-wrench-kit",
+      "product_id": "chargedcycleworks-warp-9-torque-spoke-wrench",
       "bike_id": "stark-vargex",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -4657,7 +4256,7 @@
       "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
     },
     {
-      "product_id": "chargedcycleworks-maxima-chain-guard-care-kit",
+      "product_id": "chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260",
       "bike_id": "rawrr-mantis-x",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -4667,7 +4266,7 @@
       "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
     },
     {
-      "product_id": "chargedcycleworks-maxima-chain-guard-lube",
+      "product_id": "chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260",
       "bike_id": "rawrr-mantis-x",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -4677,7 +4276,7 @@
       "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
     },
     {
-      "product_id": "chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz",
+      "product_id": "chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub",
       "bike_id": "rawrr-mantis-x",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -4727,7 +4326,7 @@
       "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
     },
     {
-      "product_id": "chargedcycleworks-wolf-tooth-precision-headset-spacers",
+      "product_id": "chargedcycleworks-precision-headset-spacers-for-surron-talaria",
       "bike_id": "rawrr-mantis-x",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -4744,10 +4343,10 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9"
       ],
-      "notes": "Replacement bolt for Warp9 stem lock; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+      "notes": "Replacement bolt for Warp9 stem lock; CCW ALXEPRO tag only, XE Pro S not named \u2014 confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
     },
     {
-      "product_id": "maintenance-maxima-dot51-brake-fluid-500ml",
+      "product_id": "chargedcycleworks-maxima-dot-5-1-brake-fluid-500ml",
       "bike_id": "lightbee2",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -4804,7 +4403,7 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/rfloxa-steering-stem-lock"
       ],
-      "notes": "CCW page says only 'Stem Lock for E-Moto' — no model named (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rfloxa-steering-stem-lock"
+      "notes": "CCW page says only 'Stem Lock for E-Moto' \u2014 no model named (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rfloxa-steering-stem-lock"
     },
     {
       "product_id": "chargedcycleworks-warp9-standard-stem-lock",
@@ -4824,7 +4423,7 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter"
       ],
-      "notes": "CCW page names no bike model — stem-lock fitment unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter"
+      "notes": "CCW page names no bike model \u2014 stem-lock fitment unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter"
     },
     {
       "product_id": "chargedcycleworks-warp9-stem-lock-spacer-kit",
@@ -4837,7 +4436,7 @@
       "notes": "Spacers made exclusively for Warp 9 Stem Locks; the stem lock itself is unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stem-lock-spacer-kit"
     },
     {
-      "product_id": "chargedcycleworks-wolf-tooth-precision-headset-spacers",
+      "product_id": "chargedcycleworks-precision-headset-spacers-for-surron-talaria",
       "bike_id": "rawrr-mantis-72v",
       "status": "verify",
       "required_adapters": [],
@@ -4874,7 +4473,7 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/rawrr-mantis-mini-r17-kickstand-assembly"
       ],
-      "notes": "CCW names the Mantis Mini R17 only, never the stock Mini R — R17-length kickstand, fits only on the R17 configuration (with the upsizing kit); the upsizing kit itself includes a longer kickstand (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r17-kickstand-assembly"
+      "notes": "CCW names the Mantis Mini R17 only, never the stock Mini R \u2014 R17-length kickstand, fits only on the R17 configuration (with the upsizing kit); the upsizing kit itself includes a longer kickstand (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r17-kickstand-assembly"
     },
     {
       "product_id": "chargedcycleworks-warp9-stem-lock-spacer-kit",
@@ -4887,7 +4486,7 @@
       "notes": "Spacers made exclusively for Warp 9 Stem Locks; the stem lock itself is unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stem-lock-spacer-kit"
     },
     {
-      "product_id": "chargedcycleworks-wolf-tooth-precision-headset-spacers",
+      "product_id": "chargedcycleworks-precision-headset-spacers-for-surron-talaria",
       "bike_id": "rawrr-mantis-mini-r",
       "status": "verify",
       "required_adapters": [],
@@ -4895,609 +4494,596 @@
         "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria"
       ],
       "notes": "Generic headset spacers; steer-tube diameter unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria"
-    }
-  ,
+    },
     {
-          "product_id": "altispowersports-altis-delta-steering-rod-roller-bearing",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-steering-rod-roller-bearing",
-                "https://wiredwhips.com/parts/altis-powersports_delta_steering-rod-roller-bearing"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-steering-rod-roller-bearing",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-steering-rod-roller-bearing",
+        "https://wiredwhips.com/parts/altis-powersports_delta_steering-rod-roller-bearing"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "altispowersports-altis-delta-steering-stem-nut",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-steering-stem-nut"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-steering-stem-nut",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-steering-stem-nut"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "altispowersports-altis-delta-steering-washer",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-steering-washer"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-steering-washer",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-steering-washer"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-hp-stage-1-package",
-          "bike_id": "ultrabee-21kw",
-          "status": "not_compatible",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-1-package"
-          ],
-          "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-ultra-bee-hp-stage-1-package",
+      "bike_id": "ultrabee-21kw",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-1-package"
+      ],
+      "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-hp-stage-2p-power-package",
-          "bike_id": "ultrabee-21kw",
-          "status": "not_compatible",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2p-power-package"
-          ],
-          "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-ultra-bee-hp-stage-2p-power-package",
+      "bike_id": "ultrabee-21kw",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2p-power-package"
+      ],
+      "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-hp-stage-2s-suspension-package",
-          "bike_id": "ultrabee-21kw",
-          "status": "not_compatible",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2s-suspension-package"
-          ],
-          "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-ultra-bee-hp-stage-2s-suspension-package",
+      "bike_id": "ultrabee-21kw",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-2s-suspension-package"
+      ],
+      "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-hp-stage-3-ultimate-package",
-          "bike_id": "ultrabee-21kw",
-          "status": "not_compatible",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-3-ultimate-package"
-          ],
-          "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-ultra-bee-hp-stage-3-ultimate-package",
+      "bike_id": "ultrabee-21kw",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-hp-stage-3-ultimate-package"
+      ],
+      "notes": "Complete bike package built on a 2026 Ultra Bee (24.5kW); not a part. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-maxima-assembly-grease",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/maxima-assembly-grease",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-maxima-assembly-grease",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/maxima-assembly-grease",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-moose-racing-stainless-safety-wire-028-inch-x-120-ft",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-moose-racing-stainless-safety-wire-028-inch-x-120-ft",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-moose-racing-stainless-safety-wire-032-inch-x-75-ft",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-moose-racing-stainless-safety-wire-032-inch-x-75-ft",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-muc-off-high-pressure-quick-drying-degreaser",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-muc-off-high-pressure-quick-drying-degreaser",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-muc-off-motorcycle-protectant-vanilla-scented",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-muc-off-motorcycle-protectant-vanilla-scented",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-muc-off-usa-degreaser-500-ml-aerosol-948us",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-muc-off-usa-degreaser-500-ml-aerosol-948us",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-muc-off-usa-matt-finish-detailer-250ml-20004us",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-muc-off-usa-matt-finish-detailer-250ml-20004us",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-muc-off-usa-speed-polish-400ml-aerosol-1143us",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-muc-off-usa-speed-polish-400ml-aerosol-1143us",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-maxima-hi-temp-waterproof-grease-16oz-altis-omega",
-          "bike_id": "altis-omega",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_omega_grease-maxima-hi-temp"
-          ],
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-maxima-hi-temp-waterproof-grease-16oz-altis-omega",
+      "bike_id": "altis-omega",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_omega_grease-maxima-hi-temp"
+      ],
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-maxima-mppl-multi-purpose-penetrant-altis-omega",
-          "bike_id": "altis-omega",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_omega_mppl-maxima"
-          ],
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-maxima-mppl-multi-purpose-penetrant-altis-omega",
+      "bike_id": "altis-omega",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_omega_mppl-maxima"
+      ],
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-motul-chain-clean-degreaser-for-altis-powersports-altis-omega",
-          "bike_id": "altis-omega",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_omega_chain-cleaner-motul"
-          ],
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-motul-chain-clean-degreaser-for-altis-powersports-altis-omega",
+      "bike_id": "altis-omega",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_omega_chain-cleaner-motul"
+      ],
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-steering-rod-roller-bearing-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_steering-bearing"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-steering-rod-roller-bearing-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_steering-bearing"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-steering-stem-nut-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_steering-stem-nut"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-steering-stem-nut-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_steering-stem-nut"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-steering-washer-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_steering-washer"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-steering-washer-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_steering-washer"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-bowl-set",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/bowl-set"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-bowl-set",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bowl-set"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-cnc-horn-cover-for-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/cnc-horn-cover-for-ultra-bee"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-cnc-horn-cover-for-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/cnc-horn-cover-for-ultra-bee"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ebmx-cargo-rack-for-surron-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ebmx-cargo-rack-for-surron-ultra-bee"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ebmx-cargo-rack-for-surron-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-cargo-rack-for-surron-ultra-bee"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-side-rack-for-surron-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/side-rack-for-surron-ultra-bee"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-side-rack-for-surron-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/side-rack-for-surron-ultra-bee"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-oem-ultra-bee-rear-rack",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack"
-          ],
-          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-oem-ultra-bee-rear-rack",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack"
+      ],
+      "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-center-shaft-sleeve-assembly-oem",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-ultra-bee-center-shaft-sleeve-assembly-oem",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-kickstand-oem",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-l-footpeg-assy-side-stand-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 41550-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-ultra-bee-kickstand-oem",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-l-footpeg-assy-side-stand-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 41550-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-mid-shaft-bushing-oem",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-mid-shaft-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 61233-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-ultra-bee-mid-shaft-bushing-oem",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-mid-shaft-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 61233-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-tugger-lift-straps-for-hard-enduro",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/tugger-lift-straps-for-hard-enduro"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-tugger-lift-straps-for-hard-enduro",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tugger-lift-straps-for-hard-enduro"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-tusk-brake-rotor-bolt-kit",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/tusk-brake-rotor-bolt-kit"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-tusk-brake-rotor-bolt-kit",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tusk-brake-rotor-bolt-kit"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ub-oem-steering-head-adjust-nut",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-triple-clamp-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 51123-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ub-oem-steering-head-adjust-nut",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-triple-clamp-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 51123-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ub-oem-steering-head-adjust-nut-1",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-triple-clamp-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 51133-YS1A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ub-oem-steering-head-adjust-nut-1",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-triple-clamp-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 51133-YS1A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ub-oem-steering-head-cover",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ub-oem-steering-head-cover",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-triple-clamp-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 51126-YS1A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ub-oem-steering-head-cover",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-cover",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-triple-clamp-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 51126-YS1A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ub-oem-steering-head-gasket-top",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-triple-clamp-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 51131-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ub-oem-steering-head-gasket-top",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-triple-clamp-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 51131-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ub-oem-steering-head-support",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ub-oem-steering-head-support",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-triple-clamp-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 51127-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ub-oem-steering-head-support",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-oem-steering-head-support",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-triple-clamp-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 51127-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ultra-bee-airtag-stash",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ultra-bee-airtag-stash"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ultra-bee-airtag-stash",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-airtag-stash"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ultra-bee-frame-steering-bump-stops",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ultra-bee-frame-steering-bump-stops"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ultra-bee-frame-steering-bump-stops",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-frame-steering-bump-stops"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ultra-bee-trailer-mount",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ultra-bee-trailer-mount"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ultra-bee-trailer-mount",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-trailer-mount"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-warp9-adjustable-kickstand-surron-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-ultra-bee"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-warp9-adjustable-kickstand-surron-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-ultra-bee"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-warp9-surron-ultra-bee-stabilizer-mount-with-frame-post",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-stabilizer-mount-with-frame-post"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-warp9-surron-ultra-bee-stabilizer-mount-with-frame-post",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-stabilizer-mount-with-frame-post"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-warp9-ultra-bee-rear-rack",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/warp9-ultra-bee-rear-rack"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-warp9-ultra-bee-rear-rack",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-rear-rack"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-warp9-ultra-bee-steer-stops-low-profile",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-warp9-ultra-bee-steer-stops-low-profile",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+      "product_id": "chargedcycleworks-x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/x-9000-controller-drop-in-display-mount-for-ultra-bee-display-not-included"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-renthal-grip-glue",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-grip-glue"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-grip-glue"
+    },
+    {
+      "product_id": "chargedcycleworks-renthal-grip-glue",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-grip-glue"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-odi-grip-glue",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-grip-glue"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-grip-glue"
+    },
+    {
+      "product_id": "chargedcycleworks-odi-grip-glue",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-grip-glue"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
     }
   ]
 }

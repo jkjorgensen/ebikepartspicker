@@ -1038,7 +1038,7 @@
       "notes": "CCW tag names Mantis X, but the fitment text names \"Rawrr Mantis\" only - verify the fork fits the Mantis X before buying (checked Nov 11, 2026)."
     },
     {
-      "product_id": "chargedcycleworks-rfloxa-hawk36-max-fork-arctic-leopard-xe-pro-s",
+      "product_id": "chargedcycleworks-rfloxa-hawk36-max-fork",
       "bike_id": "arctic-leopard-xe-pro-s",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -1056,568 +1056,517 @@
         "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
       ],
       "notes": "CCW fitment text names 79Bike Falcon Pro / GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
-    }
-  ,
+    },
     {
-          "product_id": "altispowersports-altis-delta-dbk-front-suspension",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-dbk-front-suspension"
-          ],
-          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-dbk-front-suspension",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-dbk-front-suspension"
+      ],
+      "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "altispowersports-altis-delta-lower-triple-clamp",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-lower-triple-clamp"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-lower-triple-clamp",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-lower-triple-clamp"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "altispowersports-altis-delta-suspension",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-suspension"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-suspension",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-suspension"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "altispowersports-altis-delta-upper-triple-clamp",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-upper-triple-clamp"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-upper-triple-clamp",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-upper-triple-clamp"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-used-ktm-wp-43-xact-air-fork-with-black-triple-clamps",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/used-ktm-wp-43-xact-air-fork-with-black-triple-clamps"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-used-ktm-wp-43-xact-air-fork-with-black-triple-clamps",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/used-ktm-wp-43-xact-air-fork-with-black-triple-clamps"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-used-wp-43-front-suspension-air-fork",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/used-wp-43-front-suspension-air-fork"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-used-wp-43-front-suspension-air-fork",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/used-wp-43-front-suspension-air-fork"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "howlingmoto-tuttio-soleil-01-carbon-fiber-fork-guards",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-fork-guards"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "howlingmoto-tuttio-soleil-01-carbon-fiber-fork-guards",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-fork-guards"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-fork-guards",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-fork-guards"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-fork-guards",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-fork-guards"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-soleil01-rear-fender-rear-suspension-mud-dust-protection",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-soleil01-rear-fender-rear-suspension-mud-dust-protection",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-ebike-fork-guards",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-ebike-fork-guards",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-ebike-rear-fork",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-ebike-rear-fork",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-ebike-top-triple-clamp-assembly",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-ebike-top-triple-clamp-assembly",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-electric-bike-front-fork",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-electric-bike-front-fork",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-electric-bike-rear-suspension",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-electric-bike-rear-suspension",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-gb-ebike-rear-fork",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (GB) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-gb-ebike-rear-fork",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (GB) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-gb-ebike-sliver-front-forks",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (GB) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-gb-ebike-sliver-front-forks",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (GB) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-se-ebike-front-forks",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-se-ebike-front-forks",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-front-fork-assembly-180mm-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_front-fork"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-front-fork-assembly-180mm-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_front-fork"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-lower-triple-clamp-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_lower-triple-clamp"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-lower-triple-clamp-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_lower-triple-clamp"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-fork-guards-soleil01-fork-guard-left",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_fork-guards"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-fork-guards-soleil01-fork-guard-left",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_fork-guards"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-front-fork-base-tuttio-soleil01-left-front-fork",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_front-fork-base"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-front-fork-base-tuttio-soleil01-left-front-fork",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_front-fork-base"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-gb-silver-front-forks-soleil01-gb-left-front-fork",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_gb-silver-front-forks"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-gb-silver-front-forks-soleil01-gb-left-front-fork",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_gb-silver-front-forks"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-rear-fork-swingarm-soleil01-rear-fork",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_rear-fork-base"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-rear-fork-swingarm-soleil01-rear-fork",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_rear-fork-base"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-rear-suspension-mud-dust-fender-soleil01-rear-fender-custom",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_rear-fender-suspension-guard"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-rear-suspension-mud-dust-fender-soleil01-rear-fender-custom",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_rear-fender-suspension-guard"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-rear-suspension-shock-soleil01-rear-suspension",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_rear-suspension"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-rear-suspension-shock-soleil01-rear-suspension",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_rear-suspension"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-upper-triple-clamp-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_upper-triple-clamp"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-upper-triple-clamp-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_upper-triple-clamp"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-rfloxa-hawk-31-pro-front-fork-altis-omega-fitment-class",
-          "bike_id": "altis-omega",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_omega_fork-rfloxa-hawk31-pro"
-          ],
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-rfloxa-hawk-31-pro-front-fork-altis-omega-fitment-class",
+      "bike_id": "altis-omega",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_omega_fork-rfloxa-hawk31-pro"
+      ],
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-skf-37mm-fork-seal-kit-per-leg-altis-omega-sigma",
-          "bike_id": "altis-omega",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis_omega_fork-seals-skf"
-          ],
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-skf-37mm-fork-seal-kit-per-leg-altis-omega-sigma",
+      "bike_id": "altis-omega",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis_omega_fork-seals-skf"
+      ],
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-bearing-for-fork-steering-headset-surron-talaria",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/bearing-for-fork-steering-headset-surron-talaria"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-bearing-for-fork-steering-headset-surron-talaria",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bearing-for-fork-steering-headset-surron-talaria"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024"
-          ],
-          "notes": "WEAK \u2014 Text names 2023-2024 only; 2025 not listed. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024"
+      ],
+      "notes": "WEAK \u2014 Text names 2023-2024 only; 2025 not listed. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective"
-          ],
-          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-collective"
+      ],
+      "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-37mm-closed-cartridge-performance-suspension-fork-for-surron-ultra-bee-version-6-0"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-kke-37mm-v6-fork-surron-ultra-bee-open-box",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/kke-37mm-v6-fork-surron-ultra-bee-open-box"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-kke-37mm-v6-fork-surron-ultra-bee-open-box",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-37mm-v6-fork-surron-ultra-bee-open-box"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-kke-fork-guard-bolts-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/kke-fork-guard-bolts-ultra-bee"
-          ],
-          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-kke-fork-guard-bolts-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-fork-guard-bolts-ultra-bee"
+      ],
+      "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective"
-          ],
-          "notes": "WEAK: handle/title says 2023-2024, fitment text says 2023-2025 \u2014 Product text names \"Ultra Bee 2023-2025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-front-fork-suspension-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "notes": "WEAK: handle/title says 2023-2024, fitment text says 2023-2025 \u2014 Product text names \"Ultra Bee 2023-2025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-rtech-fork-protectors-surron-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/rtech-fork-protectors-surron-ultra-bee"
-          ],
-          "notes": "Product text names \"Ultra Bee Models (2023 to 2025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-rtech-fork-protectors-surron-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rtech-fork-protectors-surron-ultra-bee"
+      ],
+      "notes": "Product text names \"Ultra Bee Models (2023 to 2025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-sirris-f43-fork-for-surron-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/sirris-f43-fork-for-surron-ultra-bee"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-sirris-f43-fork-for-surron-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-f43-fork-for-surron-ultra-bee"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-skf-fork-seal-kit-for-surron-talaria",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/skf-fork-seal-kit-for-surron-talaria"
-          ],
-          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-skf-fork-seal-kit-for-surron-talaria",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/skf-fork-seal-kit-for-surron-talaria"
+      ],
+      "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-rear-fork-collision-block-oem",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-ultra-bee-rear-fork-collision-block-oem",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ub-l-front-fork-protector-cpl",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-front-fork-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 32271-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ub-l-front-fork-protector-cpl",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-front-fork-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 32271-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ultra-bee-oem-seal-replacement-kit",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit"
-          ],
-          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ultra-bee-oem-seal-replacement-kit",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit"
+      ],
+      "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ultra-bee-suspension-tune-service-for-kke-oem-fork",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ultra-bee-suspension-tune-service-for-kke-oem-fork"
-          ],
-          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ultra-bee-suspension-tune-service-for-kke-oem-fork",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-suspension-tune-service-for-kke-oem-fork"
+      ],
+      "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "fork-sirris-f43-fork-spring-single",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/sirris-f43-fork-spring-single"
-          ],
-          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "fork-sirris-f43-fork-spring-single",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-f43-fork-spring-single"
+      ],
+      "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "rfloxa-ultra43",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/rfloxa-ultra43"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+      "product_id": "rfloxa-ultra43",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-ultra43"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
     }
   ],
   "products": [
@@ -3054,7 +3003,7 @@
       ],
       "image": "img/parts/chargedcycleworks-tech-suspension-e39-racing-kashima-fork.webp"
     },
-{
+    {
       "badge": "Motion Pro",
       "brand": "Motion Pro",
       "buy_url": "https://chargedcycleworks.com/products/motion-pro-fork-bleeders-for-stark-varg",
@@ -3083,7 +3032,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
+    {
       "badge": "Motion Pro",
       "brand": "Motion Pro",
       "buy_url": "https://chargedcycleworks.com/products/motion-pro-compression-adjuster-for-stark-varg",
@@ -3112,7 +3061,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
+    {
       "badge": "Race Tech",
       "brand": "Race Tech",
       "buy_url": "https://chargedcycleworks.com/products/race-tech-fork-springs-for-stark-varg",
@@ -3141,7 +3090,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
+    {
       "badge": "SKF",
       "brand": "SKF",
       "buy_url": "https://chargedcycleworks.com/products/skf-fork-seals-for-stark-varg",
@@ -3170,7 +3119,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-rfloxa-hawk31-max-black",
       "name": "RFloXa Hawk31 Max (Black)",
       "brand": "RFloXa",
@@ -3195,7 +3144,7 @@
       "notes": "CCW tag names Mantis X, but the fitment text names \"Rawrr Mantis\" only - verify the fork fits the Mantis X before buying (checked Nov 11, 2026).",
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-rfloxa-hawk31-max-gold",
       "name": "RFloXa Hawk31 Max (Gold)",
       "brand": "RFloXa",
@@ -3220,35 +3169,7 @@
       "notes": "CCW tag names Mantis X, but the fitment text names \"Rawrr Mantis\" only - verify the fork fits the Mantis X before buying (checked Nov 11, 2026).",
       "image": null
     },
-{
-      "id": "chargedcycleworks-rfloxa-hawk36-max-fork-arctic-leopard-xe-pro-s",
-      "name": "RFloXa HAWK36 MAX Fork - Arctic Leopard XE Pro S | 228mm",
-      "brand": "RFloXa",
-      "category": "fork",
-      "badge": "RFloXa",
-      "tier": "premium",
-      "price_usd": 999.0,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 999.0,
-          "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork"
-        }
-      ],
-      "stock_status": "in_stock",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "is_upgrade": true,
-      "source_urls": [
-        "https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork"
-      ],
-      "last_checked": "2026-11-11",
-      "notes": "CCW: Built around Arctic Leopard XE PRO S specifications; Fitment Arctic Leopard XE PRO S (checked 2026-11-11).",
-      "image": null
-    },
-{
+    {
       "badge": "RFloXa",
       "brand": "RFloXa",
       "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork",
@@ -3275,9 +3196,12 @@
       ],
       "weight_kg": null,
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-rfloxa-hawk36-max-fork.webp"
+      "image": "img/parts/chargedcycleworks-rfloxa-hawk36-max-fork.webp",
+      "_fit": {
+        "Arctic Leopard XE Pro S": "direct_fit"
+      }
     },
-{
+    {
       "id": "chargedcycleworks-rfloxa-hawk31-max-plus-fork-1",
       "name": "RFloXa Hawk31 Max Plus Fork for Lightweight eMoto",
       "brand": "RFloXa",
@@ -3301,1161 +3225,1126 @@
         }
       ],
       "image": null
-    }
-  ,
+    },
     {
-          "id": "altispowersports-altis-delta-dbk-front-suspension",
-          "name": "Altis Delta DBK Front Suspension",
-          "brand": "Altis",
-          "category": "fork",
+      "id": "altispowersports-altis-delta-dbk-front-suspension",
+      "name": "Altis Delta DBK Front Suspension",
+      "brand": "Altis",
+      "category": "fork",
+      "price_usd": 0.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-front-suspension",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-dbk-front-suspension"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-front-suspension"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 0.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-front-suspension",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-dbk-front-suspension"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-front-suspension"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 0.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-front-suspension"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-front-suspension"
+        }
+      ]
+    },
     {
-          "id": "altispowersports-altis-delta-lower-triple-clamp",
-          "name": "Altis Delta Lower Triple Clamp",
-          "brand": "Altis",
-          "category": "fork",
+      "id": "altispowersports-altis-delta-lower-triple-clamp",
+      "name": "Altis Delta Lower Triple Clamp",
+      "brand": "Altis",
+      "category": "fork",
+      "price_usd": 110.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-lower-triple-clamp",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-lower-triple-clamp"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-lower-triple-clamp"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 110.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-lower-triple-clamp",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-lower-triple-clamp"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-lower-triple-clamp"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 110.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-lower-triple-clamp"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-lower-triple-clamp"
+        }
+      ]
+    },
     {
-          "id": "altispowersports-altis-delta-suspension",
-          "name": "Altis Delta Suspension",
-          "brand": "Altis",
-          "category": "fork",
+      "id": "altispowersports-altis-delta-suspension",
+      "name": "Altis Delta Suspension",
+      "brand": "Altis",
+      "category": "fork",
+      "price_usd": 200.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-suspension",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-suspension"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-suspension"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 200.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-suspension",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-suspension"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-suspension"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 200.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-suspension"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-suspension"
+        }
+      ]
+    },
     {
-          "id": "altispowersports-altis-delta-upper-triple-clamp",
-          "name": "Altis Delta Upper Triple Altis Clamp",
-          "brand": "Altis",
-          "category": "fork",
+      "id": "altispowersports-altis-delta-upper-triple-clamp",
+      "name": "Altis Delta Upper Triple Altis Clamp",
+      "brand": "Altis",
+      "category": "fork",
+      "price_usd": 60.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-upper-triple-clamp",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-upper-triple-clamp"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-upper-triple-clamp"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 60.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-upper-triple-clamp",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-upper-triple-clamp"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-upper-triple-clamp"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 60.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-upper-triple-clamp"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-upper-triple-clamp"
+        }
+      ]
+    },
     {
-          "id": "chargedcycleworks-new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy",
-          "name": "NEW: KTM WP 43 Gold Fork Legs (Coil Spring)",
-          "brand": "Charged Cycle Works",
-          "category": "fork",
+      "id": "chargedcycleworks-new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy",
+      "name": "NEW: KTM WP 43 Gold Fork Legs (Coil Spring)",
+      "brand": "Charged Cycle Works",
+      "category": "fork",
+      "price_usd": 999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this\u2026",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 21kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
           "price_usd": 999.0,
-          "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this\u2026",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "direct_fit"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 999.0,
-                      "buy_url": "https://chargedcycleworks.com/products/new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://chargedcycleworks.com/products/new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy"
+        }
+      ]
+    },
     {
-          "id": "chargedcycleworks-used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps",
-          "name": "Used: Black KTM WP 43 XACT Air Fork - With XTRIG Triple Clamps",
-          "brand": "Charged Cycle Works",
-          "category": "fork",
+      "id": "chargedcycleworks-used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps",
+      "name": "Used: Black KTM WP 43 XACT Air Fork - With XTRIG Triple Clamps",
+      "brand": "Charged Cycle Works",
+      "category": "fork",
+      "price_usd": 1199.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this\u2026",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 21kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
           "price_usd": 1199.0,
-          "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this\u2026",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "direct_fit"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 1199.0,
-                      "buy_url": "https://chargedcycleworks.com/products/used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://chargedcycleworks.com/products/used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps"
+        }
+      ]
+    },
     {
-          "id": "chargedcycleworks-used-ktm-wp-43-xact-air-fork-with-black-triple-clamps",
-          "name": "Used: KTM WP 43 XACT Air Fork - With Black Triple Clamps",
-          "brand": "Charged Cycle Works",
-          "category": "fork",
+      "id": "chargedcycleworks-used-ktm-wp-43-xact-air-fork-with-black-triple-clamps",
+      "name": "Used: KTM WP 43 XACT Air Fork - With Black Triple Clamps",
+      "brand": "Charged Cycle Works",
+      "category": "fork",
+      "price_usd": 799.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/used-ktm-wp-43-xact-air-fork-with-black-triple-clamps",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this\u2026",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/used-ktm-wp-43-xact-air-fork-with-black-triple-clamps"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 21kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/used-ktm-wp-43-xact-air-fork-with-black-triple-clamps"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
           "price_usd": 799.0,
-          "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/used-ktm-wp-43-xact-air-fork-with-black-triple-clamps",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this\u2026",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/used-ktm-wp-43-xact-air-fork-with-black-triple-clamps"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "direct_fit"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/used-ktm-wp-43-xact-air-fork-with-black-triple-clamps"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 799.0,
-                      "buy_url": "https://chargedcycleworks.com/products/used-ktm-wp-43-xact-air-fork-with-black-triple-clamps"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://chargedcycleworks.com/products/used-ktm-wp-43-xact-air-fork-with-black-triple-clamps"
+        }
+      ]
+    },
     {
-          "id": "chargedcycleworks-used-wp-43-front-suspension-air-fork",
-          "name": "Used: KTM WP 43 XACT Air Fork",
-          "brand": "Charged Cycle Works",
-          "category": "fork",
+      "id": "chargedcycleworks-used-wp-43-front-suspension-air-fork",
+      "name": "Used: KTM WP 43 XACT Air Fork",
+      "brand": "Charged Cycle Works",
+      "category": "fork",
+      "price_usd": 799.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/used-wp-43-front-suspension-air-fork",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this\u2026",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/used-wp-43-front-suspension-air-fork"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 21kW": "direct_fit"
+      },
+      "_fit_src": {
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/used-wp-43-front-suspension-air-fork"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
           "price_usd": 799.0,
-          "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/used-wp-43-front-suspension-air-fork",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this\u2026",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/used-wp-43-front-suspension-air-fork"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "direct_fit"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/used-wp-43-front-suspension-air-fork"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 799.0,
-                      "buy_url": "https://chargedcycleworks.com/products/used-wp-43-front-suspension-air-fork"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://chargedcycleworks.com/products/used-wp-43-front-suspension-air-fork"
+        }
+      ]
+    },
     {
-          "id": "howlingmoto-tuttio-soleil-01-carbon-fiber-fork-guards",
-          "name": "Tuttio Soleil 01 Carbon Fiber Fork Guards",
-          "brand": "Tuttio",
-          "category": "fork",
-          "price_usd": 44.99,
+      "id": "howlingmoto-tuttio-soleil-01-carbon-fiber-fork-guards",
+      "name": "Tuttio Soleil 01 Carbon Fiber Fork Guards",
+      "brand": "Tuttio",
+      "category": "fork",
+      "price_usd": 44.99,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-fork-guards",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-fork-guards"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-fork-guards"
+      },
+      "vendors": [
+        {
           "vendor": "Howling Moto",
-          "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-fork-guards",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-fork-guards"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-fork-guards"
-          },
-          "vendors": [
-                {
-                      "vendor": "Howling Moto",
-                      "price_usd": 44.99,
-                      "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-fork-guards"
-                }
-          ]
-    }
-  ,
+          "price_usd": 44.99,
+          "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-fork-guards"
+        }
+      ]
+    },
     {
-          "id": "revrides-altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports",
-          "name": "Altis Delta Black Aluminum Swingarm | OEM Rear Suspension Component | By Altis Powersports",
-          "brand": "Altis",
-          "category": "fork",
+      "id": "revrides-altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports",
+      "name": "Altis Delta Black Aluminum Swingarm | OEM Rear Suspension Component | By Altis Powersports",
+      "brand": "Altis",
+      "category": "fork",
+      "price_usd": 390.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
           "price_usd": 390.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 390.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://revrides.com/products/altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports"
+        }
+      ]
+    },
     {
-          "id": "revrides-altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports",
-          "name": "Altis Delta Front Fork | Left or Right Fork Leg | By Altis Powersports",
-          "brand": "Altis",
-          "category": "fork",
+      "id": "revrides-altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports",
+      "name": "Altis Delta Front Fork | Left or Right Fork Leg | By Altis Powersports",
+      "brand": "Altis",
+      "category": "fork",
+      "price_usd": 200.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
           "price_usd": 200.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports",
-          "tier": "midrange",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 200.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://revrides.com/products/altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports"
+        }
+      ]
+    },
     {
-          "id": "revrides-altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports",
-          "name": "Altis Delta Lower Triple Clamp | OEM Front End Component | By Altis Powersports",
-          "brand": "Altis",
-          "category": "fork",
+      "id": "revrides-altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports",
+      "name": "Altis Delta Lower Triple Clamp | OEM Front End Component | By Altis Powersports",
+      "brand": "Altis",
+      "category": "fork",
+      "price_usd": 100.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
           "price_usd": 100.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 100.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://revrides.com/products/altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports"
+        }
+      ]
+    },
     {
-          "id": "revrides-altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports",
-          "name": "Altis Delta Rear Shock | OEM Rear Suspension | By Altis Powersports",
-          "brand": "Altis",
-          "category": "fork",
+      "id": "revrides-altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports",
+      "name": "Altis Delta Rear Shock | OEM Rear Suspension | By Altis Powersports",
+      "brand": "Altis",
+      "category": "fork",
+      "price_usd": 180.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
           "price_usd": 180.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 180.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://revrides.com/products/altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports"
+        }
+      ]
+    },
     {
-          "id": "revrides-altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports",
-          "name": "Altis Delta Upper Triple Clamp | OEM Steering & Suspension Component | By Altis Powersports",
-          "brand": "Altis",
-          "category": "fork",
+      "id": "revrides-altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports",
+      "name": "Altis Delta Upper Triple Clamp | OEM Steering & Suspension Component | By Altis Powersports",
+      "brand": "Altis",
+      "category": "fork",
+      "price_usd": 60.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
           "price_usd": 60.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 60.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://revrides.com/products/altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports"
+        }
+      ]
+    },
     {
-          "id": "tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-fork-guards",
-          "name": "Tuttio Soleil01 Carbon Fiber Effect Fork Guards",
-          "brand": "Tuttio",
-          "category": "fork",
-          "price_usd": 35.0,
+      "id": "tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-fork-guards",
+      "name": "Tuttio Soleil01 Carbon Fiber Effect Fork Guards",
+      "brand": "Tuttio",
+      "category": "fork",
+      "price_usd": 35.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-fork-guards",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-fork-guards"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-fork-guards"
+      },
+      "vendors": [
+        {
           "vendor": "TB Electric Moto",
-          "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-fork-guards",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-fork-guards"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-fork-guards"
-          },
-          "vendors": [
-                {
-                      "vendor": "TB Electric Moto",
-                      "price_usd": 35.0,
-                      "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-fork-guards"
-                }
-          ]
-    }
-  ,
+          "price_usd": 35.0,
+          "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-fork-guards"
+        }
+      ]
+    },
     {
-          "id": "tuttio-soleil01-rear-fender-rear-suspension-mud-dust-protection",
-          "name": "Soleil01 Rear Fender \u2013 Rear Suspension Mud & Dust Protection",
-          "brand": "Tuttio",
-          "category": "fork",
+      "id": "tuttio-soleil01-rear-fender-rear-suspension-mud-dust-protection",
+      "name": "Soleil01 Rear Fender \u2013 Rear Suspension Mud & Dust Protection",
+      "brand": "Tuttio",
+      "category": "fork",
+      "price_usd": 14.99,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 14.99,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 14.99,
-                      "buy_url": "https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-ebike-fork-guards",
-          "name": "Tuttio Soleil01 Ebike Fork Guards",
-          "brand": "Tuttio",
-          "category": "fork",
+      "id": "tuttio-tuttio-soleil01-ebike-fork-guards",
+      "name": "Tuttio Soleil01 Ebike Fork Guards",
+      "brand": "Tuttio",
+      "category": "fork",
+      "price_usd": 19.99,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 19.99,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 19.99,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-ebike-rear-fork",
-          "name": "Tuttio Soleil01 Rear Fork",
-          "brand": "Tuttio",
-          "category": "fork",
+      "id": "tuttio-tuttio-soleil01-ebike-rear-fork",
+      "name": "Tuttio Soleil01 Rear Fork",
+      "brand": "Tuttio",
+      "category": "fork",
+      "price_usd": 195.0,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 195.0,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 195.0,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-ebike-top-triple-clamp-assembly",
-          "name": "Tuttio Soleil01 Ebike Top Triple Clamp Assembly",
-          "brand": "Tuttio",
-          "category": "fork",
+      "id": "tuttio-tuttio-soleil01-ebike-top-triple-clamp-assembly",
+      "name": "Tuttio Soleil01 Ebike Top Triple Clamp Assembly",
+      "brand": "Tuttio",
+      "category": "fork",
+      "price_usd": 43.99,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 43.99,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 43.99,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-electric-bike-front-fork",
-          "name": "Tuttio Soleil01 Ebike Front Fork",
-          "brand": "Tuttio",
-          "category": "fork",
+      "id": "tuttio-tuttio-soleil01-electric-bike-front-fork",
+      "name": "Tuttio Soleil01 Ebike Front Fork",
+      "brand": "Tuttio",
+      "category": "fork",
+      "price_usd": 128.99,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 128.99,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 128.99,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-electric-bike-rear-suspension",
-          "name": "Tuttio Soleil01 Ebike Rear Suspension",
-          "brand": "Tuttio",
-          "category": "fork",
+      "id": "tuttio-tuttio-soleil01-electric-bike-rear-suspension",
+      "name": "Tuttio Soleil01 Ebike Rear Suspension",
+      "brand": "Tuttio",
+      "category": "fork",
+      "price_usd": 119.0,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 119.0,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 119.0,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-gb-ebike-rear-fork",
-          "name": "Tuttio Soleil01 GB Ebike Rear Fork",
-          "brand": "Tuttio",
-          "category": "fork",
+      "id": "tuttio-tuttio-soleil01-gb-ebike-rear-fork",
+      "name": "Tuttio Soleil01 GB Ebike Rear Fork",
+      "brand": "Tuttio",
+      "category": "fork",
+      "price_usd": 245.0,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (GB) only; base Soleil01 fit not stated.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 245.0,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (GB) only; base Soleil01 fit not stated.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 245.0,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-gb-ebike-sliver-front-forks",
-          "name": "Tuttio Soleil01 GB EBike Sliver Front Forks",
-          "brand": "Tuttio",
-          "category": "fork",
+      "id": "tuttio-tuttio-soleil01-gb-ebike-sliver-front-forks",
+      "name": "Tuttio Soleil01 GB EBike Sliver Front Forks",
+      "brand": "Tuttio",
+      "category": "fork",
+      "price_usd": 188.99,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (GB) only; base Soleil01 fit not stated.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 188.99,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (GB) only; base Soleil01 fit not stated.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 188.99,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-se-ebike-front-forks",
-          "name": "Tuttio Soleil01 SE EBike Front Forks",
-          "brand": "Tuttio",
-          "category": "fork",
+      "id": "tuttio-tuttio-soleil01-se-ebike-front-forks",
+      "name": "Tuttio Soleil01 SE EBike Front Forks",
+      "brand": "Tuttio",
+      "category": "fork",
+      "price_usd": 98.99,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 98.99,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 98.99,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-front-fork-assembly-180mm-delta-delta-s",
-          "name": "OEM Front Fork Assembly 180mm (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "fork",
+      "id": "wiredwhips-oem-front-fork-assembly-180mm-delta-delta-s",
+      "name": "OEM Front Fork Assembly 180mm (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "fork",
+      "price_usd": 247.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_front-fork",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_front-fork"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_front-fork"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 247.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_front-fork",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_front-fork"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_front-fork"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 247.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_front-fork"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_front-fork"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-lower-triple-clamp-delta-delta-s",
-          "name": "OEM Lower Triple Clamp (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "fork",
+      "id": "wiredwhips-oem-lower-triple-clamp-delta-delta-s",
+      "name": "OEM Lower Triple Clamp (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "fork",
+      "price_usd": 136.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_lower-triple-clamp",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_lower-triple-clamp"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_lower-triple-clamp"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 136.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_lower-triple-clamp",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_lower-triple-clamp"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_lower-triple-clamp"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 136.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_lower-triple-clamp"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_lower-triple-clamp"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-fork-guards-soleil01-fork-guard-left",
-          "name": "OEM Soleil01 Fork Guards (soleil01-fork-guard-left)",
-          "brand": "Wired Whips",
-          "category": "fork",
+      "id": "wiredwhips-oem-soleil01-fork-guards-soleil01-fork-guard-left",
+      "name": "OEM Soleil01 Fork Guards (soleil01-fork-guard-left)",
+      "brand": "Wired Whips",
+      "category": "fork",
+      "price_usd": 25.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_fork-guards",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_fork-guards"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_fork-guards"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 25.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_fork-guards",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_fork-guards"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_fork-guards"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 25.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_fork-guards"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_fork-guards"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-front-fork-base-tuttio-soleil01-left-front-fork",
-          "name": "OEM Soleil01 Front Fork (base) (tuttio-soleil01-left-front-fork)",
-          "brand": "Wired Whips",
-          "category": "fork",
+      "id": "wiredwhips-oem-soleil01-front-fork-base-tuttio-soleil01-left-front-fork",
+      "name": "OEM Soleil01 Front Fork (base) (tuttio-soleil01-left-front-fork)",
+      "brand": "Wired Whips",
+      "category": "fork",
+      "price_usd": 159.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_front-fork-base",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_front-fork-base"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_front-fork-base"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 159.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_front-fork-base",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_front-fork-base"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_front-fork-base"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 159.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_front-fork-base"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_front-fork-base"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-gb-silver-front-forks-soleil01-gb-left-front-fork",
-          "name": "OEM Soleil01 GB Silver Front Forks (soleil01-gb-left-front-fork)",
-          "brand": "Wired Whips",
-          "category": "fork",
+      "id": "wiredwhips-oem-soleil01-gb-silver-front-forks-soleil01-gb-left-front-fork",
+      "name": "OEM Soleil01 GB Silver Front Forks (soleil01-gb-left-front-fork)",
+      "brand": "Wired Whips",
+      "category": "fork",
+      "price_usd": 234.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_gb-silver-front-forks",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_gb-silver-front-forks"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_gb-silver-front-forks"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 234.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_gb-silver-front-forks",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_gb-silver-front-forks"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_gb-silver-front-forks"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 234.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_gb-silver-front-forks"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_gb-silver-front-forks"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-rear-fork-swingarm-soleil01-rear-fork",
-          "name": "OEM Soleil01 Rear Fork / Swingarm (soleil01-rear-fork)",
-          "brand": "Wired Whips",
-          "category": "fork",
+      "id": "wiredwhips-oem-soleil01-rear-fork-swingarm-soleil01-rear-fork",
+      "name": "OEM Soleil01 Rear Fork / Swingarm (soleil01-rear-fork)",
+      "brand": "Wired Whips",
+      "category": "fork",
+      "price_usd": 241.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fork-base",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_rear-fork-base"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fork-base"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 241.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fork-base",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_rear-fork-base"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fork-base"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 241.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fork-base"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fork-base"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-rear-suspension-mud-dust-fender-soleil01-rear-fender-custom",
-          "name": "OEM Soleil01 Rear Suspension Mud/Dust Fender (soleil01-rear-fender-custom)",
-          "brand": "Wired Whips",
-          "category": "fork",
+      "id": "wiredwhips-oem-soleil01-rear-suspension-mud-dust-fender-soleil01-rear-fender-custom",
+      "name": "OEM Soleil01 Rear Suspension Mud/Dust Fender (soleil01-rear-fender-custom)",
+      "brand": "Wired Whips",
+      "category": "fork",
+      "price_usd": 19.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fender-suspension-guard",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_rear-fender-suspension-guard"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fender-suspension-guard"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 19.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fender-suspension-guard",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_rear-fender-suspension-guard"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fender-suspension-guard"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 19.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fender-suspension-guard"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fender-suspension-guard"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-rear-suspension-shock-soleil01-rear-suspension",
-          "name": "OEM Soleil01 Rear Suspension / Shock (soleil01-rear-suspension)",
-          "brand": "Wired Whips",
-          "category": "fork",
+      "id": "wiredwhips-oem-soleil01-rear-suspension-shock-soleil01-rear-suspension",
+      "name": "OEM Soleil01 Rear Suspension / Shock (soleil01-rear-suspension)",
+      "brand": "Wired Whips",
+      "category": "fork",
+      "price_usd": 147.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-suspension",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_rear-suspension"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_rear-suspension"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 147.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-suspension",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_rear-suspension"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_rear-suspension"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 147.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-suspension"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-suspension"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-upper-triple-clamp-delta-delta-s",
-          "name": "OEM Upper Triple Clamp (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "fork",
+      "id": "wiredwhips-oem-upper-triple-clamp-delta-delta-s",
+      "name": "OEM Upper Triple Clamp (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "fork",
+      "price_usd": 75.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_upper-triple-clamp",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_upper-triple-clamp"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_upper-triple-clamp"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 75.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_upper-triple-clamp",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_upper-triple-clamp"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_upper-triple-clamp"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 75.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_upper-triple-clamp"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_upper-triple-clamp"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-rfloxa-hawk-31-pro-front-fork-altis-omega-fitment-class",
-          "name": "RFloXa Hawk 31 Pro Front Fork - Altis Omega Fitment Class",
-          "brand": "Rfloxa",
-          "category": "fork",
+      "id": "wiredwhips-rfloxa-hawk-31-pro-front-fork-altis-omega-fitment-class",
+      "name": "RFloXa Hawk 31 Pro Front Fork - Altis Omega Fitment Class",
+      "brand": "Rfloxa",
+      "category": "fork",
+      "price_usd": 1079.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_fork-rfloxa-hawk31-pro",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_omega_fork-rfloxa-hawk31-pro"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Omega": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-omega": "https://wiredwhips.com/parts/altis-powersports_omega_fork-rfloxa-hawk31-pro"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 1079.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_fork-rfloxa-hawk31-pro",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_omega_fork-rfloxa-hawk31-pro"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Omega": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-omega": "https://wiredwhips.com/parts/altis-powersports_omega_fork-rfloxa-hawk31-pro"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 1079.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_fork-rfloxa-hawk31-pro"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_fork-rfloxa-hawk31-pro"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-skf-37mm-fork-seal-kit-per-leg-altis-omega-sigma",
-          "name": "SKF 37mm Fork Seal Kit (per leg) - Altis Omega/Sigma",
-          "brand": "Wired Whips",
-          "category": "fork",
-          "price_usd": 51.99,
+      "id": "wiredwhips-skf-37mm-fork-seal-kit-per-leg-altis-omega-sigma",
+      "name": "SKF 37mm Fork Seal Kit (per leg) - Altis Omega/Sigma",
+      "brand": "Wired Whips",
+      "category": "fork",
+      "price_usd": 51.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis_omega_fork-seals-skf",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis_omega_fork-seals-skf"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Omega": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-omega": "https://wiredwhips.com/parts/altis_omega_fork-seals-skf"
+      },
+      "vendors": [
+        {
           "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis_omega_fork-seals-skf",
-          "tier": "midrange",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis_omega_fork-seals-skf"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Omega": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-omega": "https://wiredwhips.com/parts/altis_omega_fork-seals-skf"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 51.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis_omega_fork-seals-skf"
-                }
-          ]
+          "price_usd": 51.99,
+          "buy_url": "https://wiredwhips.com/parts/altis_omega_fork-seals-skf"
+        }
+      ]
     }
   ]
 }

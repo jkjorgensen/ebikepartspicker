@@ -521,41 +521,6 @@
       "image": "img/parts/chargedcycleworks-ventus-foot-peg-mounting-bracket-ventus-oem.webp"
     },
     {
-      "id": "chargedcycleworks-warp9-foot-pegs-for-surron-segway",
-      "name": "Warp9 Foot Pegs for Surron Light Bee, Ventus One, and E Ride Pro",
-      "brand": "Warp9",
-      "category": "pegs",
-      "price_usd": 109.0,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway",
-      "tier": "mid",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "Fitment from the seller listing title; other bikes not verified. Listed for Ventus One; One Plus fit is likely but not confirmed by the seller.",
-      "source_urls": [
-        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
-      ],
-      "last_checked": "2026-10-27",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "_fit": {
-        "Sur-Ron Light Bee X": "direct_fit",
-        "Ventus One Plus": "likely_fit"
-      },
-      "_fit_src": {
-        "lightbee": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
-      },
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 109.0,
-          "buy_url": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp"
-    },
-    {
       "id": "pegs-bonnell-805-rx-footpeg-mount",
       "name": "Bonnell 805 - Footpeg Mount | Left & Right",
       "brand": "Bonnell",
@@ -1432,7 +1397,7 @@
       ],
       "image": "img/parts/chargedcycleworks-cnc-aluminum-wide-foot-pegs.webp"
     },
-{
+    {
       "id": "pegs-warp9-elite-foot-pegs-stark-varg",
       "name": "Warp9 Stark Varg Elite Foot Pegs",
       "brand": "Warp9",
@@ -1466,7 +1431,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-kke-footpegs-fit-rawrr-mantis-mantis-x-collective",
       "_fit_src": {
         "rawrr-mantis-72v": "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective"
@@ -1497,7 +1462,7 @@
       "notes": "CCW fitment text: 'Fit For Rawrr Mantis X 2024-2025' (checked Nov 11, 2026).",
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-kyvex-replacement-foot-peg-pins",
       "_fit_src": {
         "rawrr-mantis-72v": "https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins",
@@ -1530,7 +1495,7 @@
       "notes": "CCW search-by-bike (Mantis X tag) lists these replacement pins for KyVex Billet Wide Foot Pegs - verify they match the pegs on the bike (checked Nov 11, 2026).",
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-warp9-elite-foot-pegs-rawrr-mantis-x-mini",
       "name": "Warp9 Rawrr Mantis X & Mini Elite Foot Pegs",
       "brand": "Warp9",
@@ -1555,35 +1520,7 @@
       "notes": "CCW fitment text: 'Fitment: Mantis X and Mantis mini' (checked Nov 11, 2026).",
       "image": null
     },
-{
-      "id": "chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-s",
-      "name": "TMB Adjustable Footpeg Mounts - Arctic Leopard XE Pro S / Pro R / Enduro / Vetra",
-      "brand": "TMB",
-      "category": "pegs",
-      "badge": "TMB",
-      "tier": "premium",
-      "price_usd": 255.0,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 255.0,
-          "buy_url": "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra"
-        }
-      ],
-      "stock_status": "out_of_stock",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "is_upgrade": true,
-      "source_urls": [
-        "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra"
-      ],
-      "last_checked": "2026-11-11",
-      "notes": "CCW compatibility list names Arctic Leopard XE Pro S (checked 2026-11-11).",
-      "image": null
-    },
-{
+    {
       "id": "chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra",
       "name": "TMB Adjustable Footpeg Mounts \u2013 Arctic Leopard XE Pro S / Pro R / Enduro / Vetra",
       "brand": "TMB",
@@ -1602,7 +1539,8 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Arctic Leopard XE Pro S Enduro": "direct_fit"
+        "Arctic Leopard XE Pro S Enduro": "direct_fit",
+        "Arctic Leopard XE Pro S": "direct_fit"
       },
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra"
@@ -1617,7 +1555,7 @@
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra.webp"
     },
-{
+    {
       "id": "pegs-warp9-zero-xe-elite-foot-pegs",
       "name": "Warp9 E-Moto Elite Foot Pegs for Zero XE",
       "brand": "Warp9",
@@ -1646,7 +1584,7 @@
       "image": null,
       "variant": null
     },
-{
+    {
       "id": "chargedcycleworks-warp9-adjustable-foot-peg-mount-surron-light-bee-79bike",
       "name": "Warp9 Adjustable Foot Peg Mount for Surron Light Bee & 79Bike",
       "brand": "Warp9",
@@ -1671,9 +1609,9 @@
       ],
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-rawrr-mantis-mini-foot-peg-assembly",
-      "name": "Rawrr Mantis Mini – Foot Peg Assembly | OEM",
+      "name": "Rawrr Mantis Mini \u2013 Foot Peg Assembly | OEM",
       "brand": "Rawrr",
       "category": "pegs",
       "badge": "Rawrr",
@@ -1696,7 +1634,7 @@
         "https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly"
       ],
       "last_checked": "2026-11-11",
-      "notes": "CCW: 'OEM Foot Peg Assembly for Rawrr Mantis Mini' — genuine OEM, complete left and right assembly (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly",
+      "notes": "CCW: 'OEM Foot Peg Assembly for Rawrr Mantis Mini' \u2014 genuine OEM, complete left and right assembly (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly",
       "sizes": null,
       "position": null,
       "image": null,
@@ -1707,9 +1645,9 @@
         "rawrr-mantis-mini-r": "https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly"
       }
     },
-{
+    {
       "id": "chargedcycleworks-rawrr-mantis-mini-r-r17-foot-peg-assembly",
-      "name": "Rawrr Mantis Mini R & R17 –  Foot Peg Assembly | OEM",
+      "name": "Rawrr Mantis Mini R & R17 \u2013  Foot Peg Assembly | OEM",
       "brand": "Rawrr",
       "category": "pegs",
       "badge": "Rawrr",
@@ -1732,7 +1670,7 @@
         "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly"
       ],
       "last_checked": "2026-11-11",
-      "notes": "CCW: 'OEM Foot Peg Assembly for Rawrr Mantis Mini R & R17' — genuine OEM, direct bolt-on (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly",
+      "notes": "CCW: 'OEM Foot Peg Assembly for Rawrr Mantis Mini R & R17' \u2014 genuine OEM, direct bolt-on (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly",
       "sizes": null,
       "position": null,
       "image": null,
@@ -1742,602 +1680,584 @@
       "_fit_src": {
         "rawrr-mantis-mini-r": "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly"
       }
-    }
-  ,
+    },
     {
-          "id": "altispowersports-altis-delta-dbk-footpeg",
-          "name": "Altis Delta DBK Footpeg",
-          "brand": "Altis",
-          "category": "pegs",
+      "id": "altispowersports-altis-delta-dbk-footpeg",
+      "name": "Altis Delta DBK Footpeg",
+      "brand": "Altis",
+      "category": "pegs",
+      "price_usd": 35.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-footpeg",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-dbk-footpeg"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-footpeg"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 35.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-footpeg",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-dbk-footpeg"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-footpeg"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 35.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-footpeg"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-footpeg"
+        }
+      ]
+    },
     {
-          "id": "altispowersports-altis-delta-foot-peg",
-          "name": "Altis Delta Foot Peg",
-          "brand": "Altis",
-          "category": "pegs",
+      "id": "altispowersports-altis-delta-foot-peg",
+      "name": "Altis Delta Foot Peg",
+      "brand": "Altis",
+      "category": "pegs",
+      "price_usd": 15.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-foot-peg",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-foot-peg"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-foot-peg"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 15.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-foot-peg",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-foot-peg"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-foot-peg"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 15.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-foot-peg"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-foot-peg"
+        }
+      ]
+    },
     {
-          "id": "altispowersports-altis-delta-foot-peg-bracket",
-          "name": "Altis Delta Foot Peg Bracket",
-          "brand": "Altis",
-          "category": "pegs",
+      "id": "altispowersports-altis-delta-foot-peg-bracket",
+      "name": "Altis Delta Foot Peg Bracket",
+      "brand": "Altis",
+      "category": "pegs",
+      "price_usd": 20.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-foot-peg-bracket",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-foot-peg-bracket"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-foot-peg-bracket"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 20.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-foot-peg-bracket",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-foot-peg-bracket"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-foot-peg-bracket"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 20.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-foot-peg-bracket"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-foot-peg-bracket"
+        }
+      ]
+    },
     {
-          "id": "chargedcycleworks-peg-replacment-pins",
-          "name": "Prickly Foot Peg Replacement Pins",
-          "brand": "Charged Cycle Works",
-          "category": "pegs",
-          "price_usd": 10.0,
+      "id": "chargedcycleworks-peg-replacment-pins",
+      "name": "Prickly Foot Peg Replacement Pins",
+      "brand": "Charged Cycle Works",
+      "category": "pegs",
+      "price_usd": 10.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/peg-replacment-pins",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/peg-replacment-pins"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 21kW": "likely_fit"
+      },
+      "_fit_src": {
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/peg-replacment-pins"
+      },
+      "vendors": [
+        {
           "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/peg-replacment-pins",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named.",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/peg-replacment-pins"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "likely_fit"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/peg-replacment-pins"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 10.0,
-                      "buy_url": "https://chargedcycleworks.com/products/peg-replacment-pins"
-                }
-          ]
-    }
-  ,
+          "price_usd": 10.0,
+          "buy_url": "https://chargedcycleworks.com/products/peg-replacment-pins"
+        }
+      ]
+    },
     {
-          "id": "chargedcycleworks-titanium-footpeg-cleats",
-          "name": "Prickly Titanium Foot Peg Cleats",
-          "brand": "Charged Cycle Works",
-          "category": "pegs",
+      "id": "chargedcycleworks-titanium-footpeg-cleats",
+      "name": "Prickly Titanium Foot Peg Cleats",
+      "brand": "Charged Cycle Works",
+      "category": "pegs",
+      "price_usd": 49.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/titanium-footpeg-cleats",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/titanium-footpeg-cleats"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Ultra Bee 21kW": "likely_fit"
+      },
+      "_fit_src": {
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/titanium-footpeg-cleats"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
           "price_usd": 49.0,
-          "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/titanium-footpeg-cleats",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named.",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/titanium-footpeg-cleats"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "likely_fit"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/titanium-footpeg-cleats"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 49.0,
-                      "buy_url": "https://chargedcycleworks.com/products/titanium-footpeg-cleats"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://chargedcycleworks.com/products/titanium-footpeg-cleats"
+        }
+      ]
+    },
     {
-          "id": "gritshift-replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler",
-          "name": "Heavy Hitter Grappler Stainless Steel Foot Peg Cleat Kit",
-          "brand": "GritShift",
-          "category": "pegs",
+      "id": "gritshift-replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler",
+      "name": "Heavy Hitter Grappler Stainless Steel Foot Peg Cleat Kit",
+      "brand": "GritShift",
+      "category": "pegs",
+      "price_usd": 28.99,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
           "price_usd": 28.99,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 28.99,
-                      "buy_url": "https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler"
+        }
+      ]
+    },
     {
-          "id": "gritshift-warp-9-elite-foot-peg-sliders",
-          "name": "Warp 9 Elite Foot Peg Sliders",
-          "brand": "Warp 9",
-          "category": "pegs",
+      "id": "gritshift-warp-9-elite-foot-peg-sliders",
+      "name": "Warp 9 Elite Foot Peg Sliders",
+      "brand": "Warp 9",
+      "category": "pegs",
+      "price_usd": 21.89,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/warp-9-elite-foot-peg-sliders",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/warp-9-elite-foot-peg-sliders"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/warp-9-elite-foot-peg-sliders"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
           "price_usd": 21.89,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/warp-9-elite-foot-peg-sliders",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/warp-9-elite-foot-peg-sliders"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/warp-9-elite-foot-peg-sliders"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 21.89,
-                      "buy_url": "https://gritshift.com/products/warp-9-elite-foot-peg-sliders"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://gritshift.com/products/warp-9-elite-foot-peg-sliders"
+        }
+      ]
+    },
     {
-          "id": "revrides-altis-delta-foot-peg-bracket-by-altis-powersports",
-          "name": "Altis Delta Foot Peg Bracket | By Altis Powersports",
-          "brand": "Altis",
-          "category": "pegs",
+      "id": "revrides-altis-delta-foot-peg-bracket-by-altis-powersports",
+      "name": "Altis Delta Foot Peg Bracket | By Altis Powersports",
+      "brand": "Altis",
+      "category": "pegs",
+      "price_usd": 10.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-foot-peg-bracket-by-altis-powersports",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-foot-peg-bracket-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-foot-peg-bracket-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
           "price_usd": 10.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-foot-peg-bracket-by-altis-powersports",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-foot-peg-bracket-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-foot-peg-bracket-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 10.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-foot-peg-bracket-by-altis-powersports"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://revrides.com/products/altis-delta-foot-peg-bracket-by-altis-powersports"
+        }
+      ]
+    },
     {
-          "id": "revrides-altis-delta-foot-peg-left-or-right-side-by-altis-powersports",
-          "name": "Altis Delta Foot Peg | Left or Right Side | By Altis Powersports",
-          "brand": "Altis",
-          "category": "pegs",
+      "id": "revrides-altis-delta-foot-peg-left-or-right-side-by-altis-powersports",
+      "name": "Altis Delta Foot Peg | Left or Right Side | By Altis Powersports",
+      "brand": "Altis",
+      "category": "pegs",
+      "price_usd": 15.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-foot-peg-left-or-right-side-by-altis-powersports",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-foot-peg-left-or-right-side-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-foot-peg-left-or-right-side-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
           "price_usd": 15.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-foot-peg-left-or-right-side-by-altis-powersports",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-foot-peg-left-or-right-side-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-foot-peg-left-or-right-side-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 15.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-foot-peg-left-or-right-side-by-altis-powersports"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://revrides.com/products/altis-delta-foot-peg-left-or-right-side-by-altis-powersports"
+        }
+      ]
+    },
     {
-          "id": "revrides-e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron",
-          "name": "E-moto Race Spec FootPegs by Rippin Moto | E-ride pro, Altis, & Surron",
-          "brand": "REV Rides",
-          "category": "pegs",
+      "id": "revrides-e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron",
+      "name": "E-moto Race Spec FootPegs by Rippin Moto | E-ride pro, Altis, & Surron",
+      "brand": "REV Rides",
+      "category": "pegs",
+      "price_usd": 98.99,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment list on product page names the bike: \"...o , tailored specifically for the E-Ride PRO, Sur-Ron LBX, &amp; Altis Delta models. Built from high-strength ...\"",
+      "source_urls": [
+        "https://revrides.com/products/e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
           "price_usd": 98.99,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron",
-          "tier": "midrange",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Fitment list on product page names the bike: \"...o , tailored specifically for the E-Ride PRO, Sur-Ron LBX, &amp; Altis Delta models. Built from high-strength ...\"",
-          "source_urls": [
-                "https://revrides.com/products/e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 98.99,
-                      "buy_url": "https://revrides.com/products/e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://revrides.com/products/e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron"
+        }
+      ]
+    },
     {
-          "id": "tbelectricmoto-tuttio-soleil01-cnc-footpegs",
-          "name": "Tuttio Soleil01 CNC Upgraded Footpegs",
-          "brand": "Tuttio",
-          "category": "pegs",
-          "price_usd": 35.0,
+      "id": "tbelectricmoto-tuttio-soleil01-cnc-footpegs",
+      "name": "Tuttio Soleil01 CNC Upgraded Footpegs",
+      "brand": "Tuttio",
+      "category": "pegs",
+      "price_usd": 35.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-cnc-footpegs",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/tuttio-soleil01-cnc-footpegs"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tbelectricmoto.com/products/tuttio-soleil01-cnc-footpegs"
+      },
+      "vendors": [
+        {
           "vendor": "TB Electric Moto",
-          "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-cnc-footpegs",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://tbelectricmoto.com/products/tuttio-soleil01-cnc-footpegs"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tbelectricmoto.com/products/tuttio-soleil01-cnc-footpegs"
-          },
-          "vendors": [
-                {
-                      "vendor": "TB Electric Moto",
-                      "price_usd": 35.0,
-                      "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-cnc-footpegs"
-                }
-          ]
-    }
-  ,
+          "price_usd": 35.0,
+          "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-cnc-footpegs"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil-01-aluminum-alloy-pedals",
-          "name": "Tuttio Soleil 01 Aluminum Die Casting Pedals",
-          "brand": "Tuttio",
-          "category": "pegs",
+      "id": "tuttio-tuttio-soleil-01-aluminum-alloy-pedals",
+      "name": "Tuttio Soleil 01 Aluminum Die Casting Pedals",
+      "brand": "Tuttio",
+      "category": "pegs",
+      "price_usd": 69.0,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 69.0,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 69.0,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil-01-lo-aluminum-die-casting-pedals",
-          "name": "Tuttio Soleil 01 LO Aluminum Die Casting Pedals",
-          "brand": "Tuttio",
-          "category": "pegs",
+      "id": "tuttio-tuttio-soleil-01-lo-aluminum-die-casting-pedals",
+      "name": "Tuttio Soleil 01 LO Aluminum Die Casting Pedals",
+      "brand": "Tuttio",
+      "category": "pegs",
+      "price_usd": 43.99,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (LO) only; base Soleil01 fit not stated.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 43.99,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (LO) only; base Soleil01 fit not stated.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 43.99,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-ebike-foot-peg-mount",
-          "name": "Tuttio Soleil01 Foot Peg Mount",
-          "brand": "Tuttio",
-          "category": "pegs",
+      "id": "tuttio-tuttio-soleil01-ebike-foot-peg-mount",
+      "name": "Tuttio Soleil01 Foot Peg Mount",
+      "brand": "Tuttio",
+      "category": "pegs",
+      "price_usd": 19.99,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 19.99,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 19.99,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-aluminum-pedals-footpegs-soleil01-pedals-soleil01",
-          "name": "OEM Aluminum Pedals / Footpegs (soleil01-pedals) - Soleil01",
-          "brand": "Wired Whips",
-          "category": "pegs",
+      "id": "wiredwhips-oem-aluminum-pedals-footpegs-soleil01-pedals-soleil01",
+      "name": "OEM Aluminum Pedals / Footpegs (soleil01-pedals) - Soleil01",
+      "brand": "Wired Whips",
+      "category": "pegs",
+      "price_usd": 86.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_aluminum-pedals",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_aluminum-pedals"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_aluminum-pedals"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 86.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_aluminum-pedals",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_aluminum-pedals"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_aluminum-pedals"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 86.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_aluminum-pedals"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_aluminum-pedals"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-foot-peg-bracket-delta-delta-s",
-          "name": "OEM Foot Peg Bracket (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "pegs",
+      "id": "wiredwhips-oem-foot-peg-bracket-delta-delta-s",
+      "name": "OEM Foot Peg Bracket (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "pegs",
+      "price_usd": 25.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_foot-peg-bracket",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_foot-peg-bracket"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_foot-peg-bracket"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 25.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_foot-peg-bracket",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_foot-peg-bracket"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_foot-peg-bracket"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 25.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_foot-peg-bracket"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_foot-peg-bracket"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-foot-pegs-delta-delta-s",
-          "name": "OEM Foot Pegs (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "pegs",
+      "id": "wiredwhips-oem-foot-pegs-delta-delta-s",
+      "name": "OEM Foot Pegs (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "pegs",
+      "price_usd": 19.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_foot-pegs",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_foot-pegs"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_foot-pegs"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 19.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_foot-pegs",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "out_of_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_foot-pegs"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_foot-pegs"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 19.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_foot-pegs"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_foot-pegs"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-foot-peg-mount-tuttio-soleil01-foot-peg-mount",
-          "name": "OEM Soleil01 Foot Peg Mount (tuttio-soleil01-foot-peg-mount)",
-          "brand": "Wired Whips",
-          "category": "pegs",
-          "price_usd": 25.99,
+      "id": "wiredwhips-oem-soleil01-foot-peg-mount-tuttio-soleil01-foot-peg-mount",
+      "name": "OEM Soleil01 Foot Peg Mount (tuttio-soleil01-foot-peg-mount)",
+      "brand": "Wired Whips",
+      "category": "pegs",
+      "price_usd": 25.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_foot-peg-mount",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_foot-peg-mount"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_foot-peg-mount"
+      },
+      "vendors": [
+        {
           "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_foot-peg-mount",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_foot-peg-mount"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_foot-peg-mount"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 25.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_foot-peg-mount"
-                }
-          ]
+          "price_usd": 25.99,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_foot-peg-mount"
+        }
+      ]
     }
   ],
   "compatibility": [
@@ -2759,14 +2679,6 @@
       "status": "confirmed_direct_fit"
     },
     {
-      "bike_id": "ventus-plus",
-      "fitment_source_urls": [],
-      "notes": "Owner-verified install (site owner's bike), Oct 18, 2026",
-      "product_id": "warp9-pegs-lbx-ventus",
-      "required_adapters": [],
-      "status": "confirmed_direct_fit"
-    },
-    {
       "bike_id": "lightbee",
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
@@ -3177,16 +3089,6 @@
       "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/surron-light-bee-oem-right-left-foot-peg-support-brackets"
     },
     {
-      "product_id": "chargedcycleworks-warp9-foot-pegs-for-surron-segway",
-      "bike_id": "lightbee2",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://warp9racing.com/products/surron-foot-pegs"
-      ],
-      "notes": "Warp 9 listing for these pegs names the Light Bee 2 (checked Nov 4, 2026)"
-    },
-    {
       "product_id": "pegs-warp9-elite-foot-pegs-stark-varg",
       "bike_id": "stark-vargex",
       "status": "confirmed_direct_fit",
@@ -3227,7 +3129,7 @@
       "notes": "CCW fitment text: 'Fitment: Mantis X and Mantis mini' (checked Nov 11, 2026)."
     },
     {
-      "product_id": "chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-s",
+      "product_id": "chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra",
       "bike_id": "arctic-leopard-xe-pro-s",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -3324,7 +3226,7 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly"
       ],
-      "notes": "CCW: 'OEM Foot Peg Assembly for Rawrr Mantis Mini' — genuine OEM, complete left and right assembly (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly"
+      "notes": "CCW: 'OEM Foot Peg Assembly for Rawrr Mantis Mini' \u2014 genuine OEM, complete left and right assembly (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly"
     },
     {
       "product_id": "chargedcycleworks-rawrr-mantis-mini-r-r17-foot-peg-assembly",
@@ -3334,7 +3236,7 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly"
       ],
-      "notes": "CCW: 'OEM Foot Peg Assembly for Rawrr Mantis Mini R & R17' — genuine OEM, direct bolt-on (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly"
+      "notes": "CCW: 'OEM Foot Peg Assembly for Rawrr Mantis Mini R & R17' \u2014 genuine OEM, direct bolt-on (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly"
     },
     {
       "product_id": "chargedcycleworks-warp9-elite-foot-pegs-rawrr-mantis-x-mini",
@@ -3345,329 +3247,300 @@
         "https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini"
       ],
       "notes": "CCW fitment list: 'Mantis X and Mantis mini' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini"
-    }
-  ,
+    },
     {
-          "product_id": "altispowersports-altis-delta-dbk-footpeg",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-dbk-footpeg"
-          ],
-          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-dbk-footpeg",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-dbk-footpeg"
+      ],
+      "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "altispowersports-altis-delta-foot-peg",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-foot-peg"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-foot-peg",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-foot-peg"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "altispowersports-altis-delta-foot-peg-bracket",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-foot-peg-bracket"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-foot-peg-bracket",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-foot-peg-bracket"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-peg-replacment-pins",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/peg-replacment-pins"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-peg-replacment-pins",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/peg-replacment-pins"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-titanium-footpeg-cleats",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/titanium-footpeg-cleats"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-titanium-footpeg-cleats",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/titanium-footpeg-cleats"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-warp-9-elite-foot-peg-sliders",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/warp-9-elite-foot-peg-sliders",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-warp-9-elite-foot-peg-sliders",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/warp-9-elite-foot-peg-sliders",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-foot-peg-bracket-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-foot-peg-bracket-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-foot-peg-bracket-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-foot-peg-bracket-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-foot-peg-left-or-right-side-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-foot-peg-left-or-right-side-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-foot-peg-left-or-right-side-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-foot-peg-left-or-right-side-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron"
-          ],
-          "notes": "Fitment list on product page names the bike: \"...o , tailored specifically for the E-Ride PRO, Sur-Ron LBX, &amp; Altis Delta models. Built from high-strength ...\" (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron"
+      ],
+      "notes": "Fitment list on product page names the bike: \"...o , tailored specifically for the E-Ride PRO, Sur-Ron LBX, &amp; Altis Delta models. Built from high-strength ...\" (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tbelectricmoto-tuttio-soleil01-cnc-footpegs",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tbelectricmoto.com/products/tuttio-soleil01-cnc-footpegs"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tbelectricmoto-tuttio-soleil01-cnc-footpegs",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tuttio-soleil01-cnc-footpegs"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil-01-aluminum-alloy-pedals",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil-01-aluminum-alloy-pedals",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil-01-lo-aluminum-die-casting-pedals",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (LO) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil-01-lo-aluminum-die-casting-pedals",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (LO) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-ebike-foot-peg-mount",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-ebike-foot-peg-mount",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-aluminum-pedals-footpegs-soleil01-pedals-soleil01",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_aluminum-pedals"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-aluminum-pedals-footpegs-soleil01-pedals-soleil01",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_aluminum-pedals"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-foot-peg-bracket-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_foot-peg-bracket"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-foot-peg-bracket-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_foot-peg-bracket"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-foot-pegs-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_foot-pegs"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-foot-pegs-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_foot-pegs"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-foot-peg-mount-tuttio-soleil01-foot-peg-mount",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_foot-peg-mount"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-foot-peg-mount-tuttio-soleil01-foot-peg-mount",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_foot-peg-mount"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-cnc-aluminum-wide-foot-pegs",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-cnc-aluminum-wide-foot-pegs",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-kyvex-billet-wide-foot-pegs-ultra-bee-compatible",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs-ultra-bee-compatible"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-kyvex-billet-wide-foot-pegs-ultra-bee-compatible",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs-ultra-bee-compatible"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-kyvex-replacement-foot-peg-pins",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-kyvex-replacement-foot-peg-pins",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-left-footpeg-assembly",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/left-footpeg-assembly",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-l-footpeg-assy-side-stand-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 42110-YQ5A-0000 listed MY25 in OEM catalog: fits 21kW; not the MY26 part. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-left-footpeg-assembly",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/left-footpeg-assembly",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-l-footpeg-assy-side-stand-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 42110-YQ5A-0000 listed MY25 in OEM catalog: fits 21kW; not the MY26 part. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-prickly-foot-pegs-mx-for-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-ultra-bee"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-prickly-foot-pegs-mx-for-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-ultra-bee"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-right-footpeg-assembly",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/right-footpeg-assembly",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-r-footpeg-assy-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 42210-YQ5A-0000 listed MY25 in OEM catalog: fits 21kW; not the MY26 part. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-right-footpeg-assembly",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/right-footpeg-assembly",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-r-footpeg-assy-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 42210-YQ5A-0000 listed MY25 in OEM catalog: fits 21kW; not the MY26 part. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-foot-pegs",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-ultra-bee-foot-pegs",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ultra-bee-1-foot-peg-drop-lowering-kit",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ultra-bee-1-foot-peg-drop-lowering-kit"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ultra-bee-1-foot-peg-drop-lowering-kit",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-1-foot-peg-drop-lowering-kit"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ultra-bee-adjustable-foot-peg-mount",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ultra-bee-adjustable-foot-peg-mount"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ultra-bee-adjustable-foot-peg-mount",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-adjustable-foot-peg-mount"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ultra-bee-passenger-footpeg-kit",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ultra-bee-passenger-footpeg-kit",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "pegs-kke-ultrabee",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
-          ],
-          "notes": "WEAK: handle/title says 2023-2024, fitment text says 2023-2025 \u2014 Product text names \"Ultra Bee 2023-2025\" for Ultra Bee (2025 = 21kW). Range stops at 2025: do not assume 24.5kW fit (assembly changed MY26). (checked Nov 11, 2026)"
+      "product_id": "pegs-kke-ultrabee",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
+      ],
+      "notes": "WEAK: handle/title says 2023-2024, fitment text says 2023-2025 \u2014 Product text names \"Ultra Bee 2023-2025\" for Ultra Bee (2025 = 21kW). Range stops at 2025: do not assume 24.5kW fit (assembly changed MY26). (checked Nov 11, 2026)"
     }
   ]
 }

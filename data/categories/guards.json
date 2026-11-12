@@ -6,7 +6,7 @@
   "products": [
     {
       "id": "guards-eride-motor-guard",
-      "name": "E7020 Motor Protection Guard — Pro-S / SS2.0",
+      "name": "E7020 Motor Protection Guard \u2014 Pro-S / SS2.0",
       "brand": "E Ride Pro",
       "category": "guards",
       "price_usd": 14.95,
@@ -108,7 +108,7 @@
       "tier": "budget",
       "is_upgrade": true,
       "stock_status": "in_stock",
-      "notes": "Variant product page — displayed $59.90 is the brake-levers variant. Also: chain adjuster $40, foot pegs $65, caliper guard $59.90, sprocket guard $60, rear disc guard $79.90, underbody guard $130, frame sliders $142 (black sold out). Confirm the selected variant and availability at checkout.",
+      "notes": "Variant product page \u2014 displayed $59.90 is the brake-levers variant. Also: chain adjuster $40, foot pegs $65, caliper guard $59.90, sprocket guard $60, rear disc guard $79.90, underbody guard $130, frame sliders $142 (black sold out). Confirm the selected variant and availability at checkout.",
       "source_urls": [
         "https://mxpartshop.com/products/for-surron-storm-bee-brake-levers-frame-slider-chain-adjuster-foot-pegs-caliper-guard-disc-guard"
       ],
@@ -149,7 +149,7 @@
         "https://ventusbikes.us/products/prickly-motor-cover"
       ],
       "last_checked": "2026-10-12",
-      "notes": "Price verified $80, in stock. Protection part — not a cooling upgrade. Verify motor case and mounting compatibility.",
+      "notes": "Price verified $80, in stock. Protection part \u2014 not a cooling upgrade. Verify motor case and mounting compatibility.",
       "vendors": [
         {
           "vendor": "Ventus Bikes USA",
@@ -294,7 +294,7 @@
     },
     {
       "id": "eridepro-she7857-motor-protection-guard-with-2-screws-ss2-0",
-      "name": "SHE7857 - Motor Protection Guard （with 2 screws）- SS2.0",
+      "name": "SHE7857 - Motor Protection Guard \uff08with 2 screws\uff09- SS2.0",
       "brand": "E RIDE PRO",
       "category": "guards",
       "price_usd": 9.0,
@@ -745,7 +745,7 @@
     },
     {
       "id": "cpdusa-rtech-bi-material-frame-protectors-ultra-bee-black",
-      "name": "RTech Bi-Material Frame Protectors — Sur-Ron Ultra Bee (2023-2025), Black",
+      "name": "RTech Bi-Material Frame Protectors \u2014 Sur-Ron Ultra Bee (2023-2025), Black",
       "brand": "RTech",
       "category": "guards",
       "price_usd": 59.99,
@@ -754,7 +754,7 @@
       "tier": "budget",
       "is_upgrade": true,
       "stock_status": "in_stock",
-      "notes": "Black. SKU RTECH-R-PRTSURNR004. Title/description say Ultra Bee 2023–2025; the page fitment field says ULTRA BEE (2023-2026). Stock mounting points, no cutting.",
+      "notes": "Black. SKU RTECH-R-PRTSURNR004. Title/description say Ultra Bee 2023\u20132025; the page fitment field says ULTRA BEE (2023-2026). Stock mounting points, no cutting.",
       "source_urls": [
         "https://www.cpd-usa.com/shop/rtech-bi-material-frame-protectors-for-sur-ron-ultra-bee-2023-2025-black"
       ],
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "chargedcycleworks-tmb-heavy-duty-bash-plate-e-ride-pro-ss",
-      "name": "TMB Heavy Duty Bash Plate – E Ride Pro SS 2.0 / SS 3.0",
+      "name": "TMB Heavy Duty Bash Plate \u2013 E Ride Pro SS 2.0 / SS 3.0",
       "brand": "Charged Cycle Works",
       "category": "guards",
       "price_usd": 225.0,
@@ -1285,7 +1285,7 @@
     },
     {
       "id": "chargedcycleworks-surron-ultra-bee-hand-guards-black-oem",
-      "name": "Surron Ultra Bee – Left and Right Hand Guard Windshield – Black | OEM",
+      "name": "Surron Ultra Bee \u2013 Left and Right Hand Guard Windshield \u2013 Black | OEM",
       "brand": "Surron-WN",
       "category": "guards",
       "price_usd": 24.99,
@@ -1308,7 +1308,7 @@
       ],
       "image": "img/parts/chargedcycleworks-surron-ultra-bee-hand-guards-black-oem.webp"
     },
-{
+    {
       "id": "chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-collective",
       "_fit_src": {
         "rawrr-mantis-72v": "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective"
@@ -1339,7 +1339,7 @@
       "notes": "KKE lists \"Fit For Rawrr Mantis X 2024-2025\" but the guard only fits a 220mm rotor and the Mantis X rear rotor is 203mm per CCW - verify before buying (checked Nov 11, 2026).",
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s",
       "name": "TMB Heavy Duty Bash Plate - Arctic Leopard XE Pro S / Enduro / Vetra",
       "brand": "TMB",
@@ -1367,37 +1367,9 @@
       "notes": "CCW compatibility list names Arctic Leopard XE Pro S (checked 2026-11-11).",
       "image": null
     },
-{
-      "id": "chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s",
-      "name": "TMB Rear Rotor Guard - Arctic Leopard XE Pro S / Vetra",
-      "brand": "TMB",
-      "category": "guards",
-      "badge": "TMB",
-      "tier": "midrange",
-      "price_usd": 175.0,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 175.0,
-          "buy_url": "https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra"
-        }
-      ],
-      "stock_status": "in_stock",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "is_upgrade": true,
-      "source_urls": [
-        "https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra"
-      ],
-      "last_checked": "2026-11-11",
-      "notes": "CCW compatibility list names Arctic Leopard XE Pro S; does not fit the XE Pro R (checked 2026-11-11).",
-      "image": null
-    },
-{
+    {
       "id": "chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra",
-      "name": "TMB Rear Rotor Guard – Arctic Leopard XE Pro S / Vetra",
+      "name": "TMB Rear Rotor Guard \u2013 Arctic Leopard XE Pro S / Vetra",
       "brand": "TMB",
       "category": "guards",
       "price_usd": 175.0,
@@ -1422,506 +1394,494 @@
       "power_change_kw": null,
       "badge": "TMB",
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra.webp"
-    }
-  ,
+      "image": "img/parts/chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra.webp",
+      "_fit": {
+        "Arctic Leopard XE Pro S": "direct_fit"
+      }
+    },
     {
-          "id": "altispowersports-altis-delta-rubber-mud-cover",
-          "name": "Altis Delta Rubber Mud Guard",
-          "brand": "Altis",
-          "category": "guards",
+      "id": "altispowersports-altis-delta-rubber-mud-cover",
+      "name": "Altis Delta Rubber Mud Guard",
+      "brand": "Altis",
+      "category": "guards",
+      "price_usd": 18.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-rubber-mud-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-rubber-mud-cover"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-rubber-mud-cover"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 18.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-rubber-mud-cover",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-rubber-mud-cover"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-rubber-mud-cover"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 18.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-rubber-mud-cover"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-rubber-mud-cover"
+        }
+      ]
+    },
     {
-          "id": "altispowersports-altis-delta-skid-plate",
-          "name": "Altis Delta Skid Plate",
-          "brand": "Altis",
-          "category": "guards",
+      "id": "altispowersports-altis-delta-skid-plate",
+      "name": "Altis Delta Skid Plate",
+      "brand": "Altis",
+      "category": "guards",
+      "price_usd": 50.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-skid-plate",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-skid-plate"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-skid-plate"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 50.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-skid-plate",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-skid-plate"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-skid-plate"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 50.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-skid-plate"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-skid-plate"
+        }
+      ]
+    },
     {
-          "id": "gritshift-moose-racing-foot-peg-protectors-e-motos-black",
-          "name": "Moose Racing Foot Peg Protectors for E-Motos - Black",
-          "brand": "Moose Racing",
-          "category": "guards",
+      "id": "gritshift-moose-racing-foot-peg-protectors-e-motos-black",
+      "name": "Moose Racing Foot Peg Protectors for E-Motos - Black",
+      "brand": "Moose Racing",
+      "category": "guards",
+      "price_usd": 29.99,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
           "price_usd": 29.99,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 29.99,
-                      "buy_url": "https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black"
+        }
+      ]
+    },
     {
-          "id": "gritshift-moose-racing-skid-plate-foam-8-x-10-x-2-inch",
-          "name": "Moose Racing Skid Plate Foam - 8 x 10 x 2 Inch",
-          "brand": "Moose Racing",
-          "category": "guards",
+      "id": "gritshift-moose-racing-skid-plate-foam-8-x-10-x-2-inch",
+      "name": "Moose Racing Skid Plate Foam - 8 x 10 x 2 Inch",
+      "brand": "Moose Racing",
+      "category": "guards",
+      "price_usd": 22.95,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
           "price_usd": 22.95,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 22.95,
-                      "buy_url": "https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch"
+        }
+      ]
+    },
     {
-          "id": "howlingmoto-tuttio-soleil-01-carbon-fiber-frame-cover",
-          "name": "Tuttio Soleil 01 Carbon Fiber Frame Cover",
-          "brand": "Tuttio",
-          "category": "guards",
-          "price_usd": 44.99,
+      "id": "howlingmoto-tuttio-soleil-01-carbon-fiber-frame-cover",
+      "name": "Tuttio Soleil 01 Carbon Fiber Frame Cover",
+      "brand": "Tuttio",
+      "category": "guards",
+      "price_usd": 44.99,
+      "vendor": "Howling Moto",
+      "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-frame-cover",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-frame-cover"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-frame-cover"
+      },
+      "vendors": [
+        {
           "vendor": "Howling Moto",
-          "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-frame-cover",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-frame-cover"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-frame-cover"
-          },
-          "vendors": [
-                {
-                      "vendor": "Howling Moto",
-                      "price_usd": 44.99,
-                      "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-frame-cover"
-                }
-          ]
-    }
-  ,
+          "price_usd": 44.99,
+          "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-frame-cover"
+        }
+      ]
+    },
     {
-          "id": "revrides-altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports",
-          "name": "Altis Delta Bash Guard Skid Plate | OEM Underbody Protection | By Altis Powersports",
-          "brand": "Altis",
-          "category": "guards",
+      "id": "revrides-altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports",
+      "name": "Altis Delta Bash Guard Skid Plate | OEM Underbody Protection | By Altis Powersports",
+      "brand": "Altis",
+      "category": "guards",
+      "price_usd": 50.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
           "price_usd": 50.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 50.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://revrides.com/products/altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports"
+        }
+      ]
+    },
     {
-          "id": "revrides-altis-delta-chain-cover-oem-chain-guard-by-altis-powersports",
-          "name": "Altis Delta Chain Cover | OEM Chain Guard | By Altis Powersports",
-          "brand": "Altis",
-          "category": "guards",
+      "id": "revrides-altis-delta-chain-cover-oem-chain-guard-by-altis-powersports",
+      "name": "Altis Delta Chain Cover | OEM Chain Guard | By Altis Powersports",
+      "brand": "Altis",
+      "category": "guards",
+      "price_usd": 12.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-chain-cover-oem-chain-guard-by-altis-powersports",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-chain-cover-oem-chain-guard-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-chain-cover-oem-chain-guard-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
           "price_usd": 12.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-chain-cover-oem-chain-guard-by-altis-powersports",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-chain-cover-oem-chain-guard-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-chain-cover-oem-chain-guard-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 12.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-chain-cover-oem-chain-guard-by-altis-powersports"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://revrides.com/products/altis-delta-chain-cover-oem-chain-guard-by-altis-powersports"
+        }
+      ]
+    },
     {
-          "id": "tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-frame-cover",
-          "name": "Tuttio Soleil01 Carbon Fiber Effect Frame Cover",
-          "brand": "Tuttio",
-          "category": "guards",
-          "price_usd": 30.0,
+      "id": "tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-frame-cover",
+      "name": "Tuttio Soleil01 Carbon Fiber Effect Frame Cover",
+      "brand": "Tuttio",
+      "category": "guards",
+      "price_usd": 30.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-frame-cover",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-frame-cover"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-frame-cover"
+      },
+      "vendors": [
+        {
           "vendor": "TB Electric Moto",
-          "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-frame-cover",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-frame-cover"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-frame-cover"
-          },
-          "vendors": [
-                {
-                      "vendor": "TB Electric Moto",
-                      "price_usd": 30.0,
-                      "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-frame-cover"
-                }
-          ]
-    }
-  ,
+          "price_usd": 30.0,
+          "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-frame-cover"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil-01-chain-protector-for-pit-dirt-bike",
-          "name": "Tuttio Soleil01 Chain Protector for Pit Dirt Bike",
-          "brand": "Tuttio",
-          "category": "guards",
-          "price_usd": 25.0,
+      "id": "tuttio-tuttio-soleil-01-chain-protector-for-pit-dirt-bike",
+      "name": "Tuttio Soleil01 Chain Protector for Pit Dirt Bike",
+      "brand": "Tuttio",
+      "category": "guards",
+      "price_usd": 25.0,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-chain-protector-for-pit-dirt-bike",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil-01-chain-protector-for-pit-dirt-bike"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil-01-chain-protector-for-pit-dirt-bike"
+      },
+      "vendors": [
+        {
           "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-chain-protector-for-pit-dirt-bike",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil-01-chain-protector-for-pit-dirt-bike"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil-01-chain-protector-for-pit-dirt-bike"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 25.0,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-chain-protector-for-pit-dirt-bike"
-                }
-          ]
-    }
-  ,
+          "price_usd": 25.0,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-chain-protector-for-pit-dirt-bike"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-front-rotor-guard-altis",
-          "name": "Front Rotor Guard - Altis",
-          "brand": "Wired Whips",
-          "category": "guards",
+      "id": "wiredwhips-front-rotor-guard-altis",
+      "name": "Front Rotor Guard - Altis",
+      "brand": "Wired Whips",
+      "category": "guards",
+      "price_usd": 55.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Delta but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit",
+        "Altis Omega": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard",
+        "altis-omega": "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 55.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard",
-          "tier": "midrange",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Delta but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit",
-                "Altis Omega": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard",
-                "altis-omega": "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 55.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-maxima-chain-guard-spray-for-altis-powersports-altis-omega",
-          "name": "Maxima Chain Guard Spray for Altis Powersports (Altis Omega)",
-          "brand": "Wired Whips",
-          "category": "guards",
+      "id": "wiredwhips-maxima-chain-guard-spray-for-altis-powersports-altis-omega",
+      "name": "Maxima Chain Guard Spray for Altis Powersports (Altis Omega)",
+      "brand": "Wired Whips",
+      "category": "guards",
+      "price_usd": 12.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_chain-lube-maxima-guard",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_omega_chain-lube-maxima-guard"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Omega": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-omega": "https://wiredwhips.com/parts/altis-powersports_omega_chain-lube-maxima-guard"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 12.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_chain-lube-maxima-guard",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_omega_chain-lube-maxima-guard"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Omega": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-omega": "https://wiredwhips.com/parts/altis-powersports_omega_chain-lube-maxima-guard"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 12.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_chain-lube-maxima-guard"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_omega_chain-lube-maxima-guard"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-chain-guard-cover-delta-delta-s",
-          "name": "OEM Chain Guard / Cover (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "guards",
+      "id": "wiredwhips-oem-chain-guard-cover-delta-delta-s",
+      "name": "OEM Chain Guard / Cover (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "guards",
+      "price_usd": 15.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_chain-guard",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_chain-guard"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_chain-guard"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 15.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_chain-guard",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_chain-guard"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_chain-guard"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 15.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_chain-guard"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_chain-guard"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-rubber-mud-guard-delta-delta-s",
-          "name": "OEM Rubber Mud Guard (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "guards",
+      "id": "wiredwhips-oem-rubber-mud-guard-delta-delta-s",
+      "name": "OEM Rubber Mud Guard (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "guards",
+      "price_usd": 23.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_rubber-mud-guard",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_rubber-mud-guard"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_rubber-mud-guard"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 23.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_rubber-mud-guard",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_rubber-mud-guard"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_rubber-mud-guard"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 23.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_rubber-mud-guard"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_rubber-mud-guard"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-chain-protector-soleil01-chain-protector-harder",
-          "name": "OEM Soleil01 Chain Protector (soleil01-chain-protector-harder)",
-          "brand": "Wired Whips",
-          "category": "guards",
+      "id": "wiredwhips-oem-soleil01-chain-protector-soleil01-chain-protector-harder",
+      "name": "OEM Soleil01 Chain Protector (soleil01-chain-protector-harder)",
+      "brand": "Wired Whips",
+      "category": "guards",
+      "price_usd": 31.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_chain-protector",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_chain-protector"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_chain-protector"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 31.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_chain-protector",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_chain-protector"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_chain-protector"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 31.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_chain-protector"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_chain-protector"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-skid-plate-bash-guard-delta-platform",
-          "name": "Skid Plate / Bash Guard (Delta Platform)",
-          "brand": "Wired Whips",
-          "category": "guards",
-          "price_usd": 62.99,
+      "id": "wiredwhips-skid-plate-bash-guard-delta-platform",
+      "name": "Skid Plate / Bash Guard (Delta Platform)",
+      "brand": "Wired Whips",
+      "category": "guards",
+      "price_usd": 62.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_skid-plate",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Delta but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_skid-plate"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_skid-plate"
+      },
+      "vendors": [
+        {
           "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_skid-plate",
-          "tier": "midrange",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Delta but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_skid-plate"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_skid-plate"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 62.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_skid-plate"
-                }
-          ]
+          "price_usd": 62.99,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_skid-plate"
+        }
+      ]
     }
   ],
   "compatibility": [
@@ -2658,7 +2618,7 @@
       "notes": "CCW compatibility list names Arctic Leopard XE Pro S (checked 2026-11-11)."
     },
     {
-      "product_id": "chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s",
+      "product_id": "chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra",
       "bike_id": "arctic-leopard-xe-pro-s",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -2676,363 +2636,332 @@
         "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective"
       ],
       "notes": "CCW fitment text: 'Fit For Rawrr Mantis 2023-2025' and 'ONLY FITS 220 MM BRAKE ROTOR'; the 72V rear rotor is 220mm (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective"
-    }
-  ,
-    {
-          "product_id": "altispowersports-altis-delta-rubber-mud-cover",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-rubber-mud-cover"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
-    {
-          "product_id": "altispowersports-altis-delta-skid-plate",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-skid-plate"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
-    {
-          "product_id": "gritshift-moose-racing-foot-peg-protectors-e-motos-black",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
-    {
-          "product_id": "gritshift-moose-racing-skid-plate-foam-8-x-10-x-2-inch",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
-    {
-          "product_id": "howlingmoto-tuttio-soleil-01-carbon-fiber-frame-cover",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-frame-cover"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
-    {
-          "product_id": "revrides-altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
-    {
-          "product_id": "revrides-altis-delta-chain-cover-oem-chain-guard-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-chain-cover-oem-chain-guard-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
-    {
-          "product_id": "tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-frame-cover",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-frame-cover"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
-    {
-          "product_id": "tuttio-tuttio-soleil-01-chain-protector-for-pit-dirt-bike",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil-01-chain-protector-for-pit-dirt-bike"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
-    {
-          "product_id": "wiredwhips-front-rotor-guard-altis",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard"
-          ],
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Delta but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
     },
     {
-          "product_id": "wiredwhips-front-rotor-guard-altis",
-          "bike_id": "altis-omega",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard"
-          ],
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-rubber-mud-cover",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-rubber-mud-cover"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-maxima-chain-guard-spray-for-altis-powersports-altis-omega",
-          "bike_id": "altis-omega",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_omega_chain-lube-maxima-guard"
-          ],
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-skid-plate",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-skid-plate"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-chain-guard-cover-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_chain-guard"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-moose-racing-foot-peg-protectors-e-motos-black",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-rubber-mud-guard-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_rubber-mud-guard"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-moose-racing-skid-plate-foam-8-x-10-x-2-inch",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-chain-protector-soleil01-chain-protector-harder",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_chain-protector"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "howlingmoto-tuttio-soleil-01-carbon-fiber-frame-cover",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-frame-cover"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-skid-plate-bash-guard-delta-platform",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_skid-plate"
-          ],
-          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Delta but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-handle-cover",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/handle-cover"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-chain-cover-oem-chain-guard-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-chain-cover-oem-chain-guard-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-hard-enduro-skid-plate-surron-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/hard-enduro-skid-plate-surron-ultra-bee"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-frame-cover",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-frame-cover"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective"
-          ],
-          "notes": "WEAK: handle/title says 2023-2024, fitment text says 2023-2025 \u2014 Product text names \"Ultra Bee 2023-2025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil-01-chain-protector-for-pit-dirt-bike",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil-01-chain-protector-for-pit-dirt-bike"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective"
-          ],
-          "notes": "WEAK: handle/title says 2023-2024, fitment text says 2023-2025 \u2014 Product text names \"Ultra Bee 2023-2025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-front-rotor-guard-altis",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard"
+      ],
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Delta but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ub-oem-chain-guard",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ub-oem-chain-guard",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-chain-guard-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 13244-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-front-rotor-guard-altis",
+      "bike_id": "altis-omega",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard"
+      ],
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ub-oem-chain-guide",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ub-oem-chain-guide",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-chain-guard-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 13231-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-maxima-chain-guard-spray-for-altis-powersports-altis-omega",
+      "bike_id": "altis-omega",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_omega_chain-lube-maxima-guard"
+      ],
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ub-oem-hand-guard-assembly",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly"
-          ],
-          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-chain-guard-cover-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_chain-guard"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-frame-lower-guard",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-rubber-mud-guard-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_rubber-mud-guard"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-hand-guards-black-oem",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-chain-protector-soleil01-chain-protector-harder",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_chain-protector"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-lower-chain-fender",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-lower-chain-fender"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-skid-plate-bash-guard-delta-platform",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_skid-plate"
+      ],
+      "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Delta but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-oem-hand-guard",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard"
-          ],
-          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-handle-cover",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/handle-cover"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-oem-hand-guard-right-white",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white"
-          ],
-          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-hard-enduro-skid-plate-surron-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/hard-enduro-skid-plate-surron-ultra-bee"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-rear-rotor-guard",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-rear-rotor-guard"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-front-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "notes": "WEAK: handle/title says 2023-2024, fitment text says 2023-2025 \u2014 Product text names \"Ultra Bee 2023-2025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-uhmw-skid-plate-by-sxs-for-surron-segway",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-surron-ultra-bee-2023-2024-collective"
+      ],
+      "notes": "WEAK: handle/title says 2023-2024, fitment text says 2023-2025 \u2014 Product text names \"Ultra Bee 2023-2025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ultra-bee-l-battery-protector",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ultra-bee-l-battery-protector",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-battery-protector-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 32358-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-ub-oem-chain-guard",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-chain-guard",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-chain-guard-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 13244-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "guards-ultrabee-skid",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/skid-plate",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-skid-plate-parts-diagram/"
-          ],
-          "notes": "Sur-Ron part # 41750-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+      "product_id": "chargedcycleworks-surron-ub-oem-chain-guide",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-chain-guide",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-chain-guard-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 13231-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ub-oem-hand-guard-assembly",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly"
+      ],
+      "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-frame-lower-guard",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-hand-guards-black-oem",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-lower-chain-fender",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-lower-chain-fender"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-hand-guard",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard"
+      ],
+      "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-hand-guard-right-white",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white"
+      ],
+      "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-rear-rotor-guard",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-rear-rotor-guard"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-uhmw-skid-plate-by-sxs-for-surron-segway",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-ultra-bee-l-battery-protector",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-l-battery-protector",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-battery-protector-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 32358-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "guards-ultrabee-skid",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/skid-plate",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-skid-plate-parts-diagram/"
+      ],
+      "notes": "Sur-Ron part # 41750-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
     }
   ]
 }
