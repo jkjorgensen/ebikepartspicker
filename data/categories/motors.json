@@ -1041,6 +1041,287 @@
       ],
       "notes": "Needs aftermarket VTB V9600 controller. GritShift fitment lists name the E Ride Pro SS 4.0"
     }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-motor-bracket",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-motor-bracket"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-motor-sprocket-cover",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-motor-sprocket-cover"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-ebmx-x-9000-qs138-race-harness",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/ebmx-x-9000-qs138-race-harness",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-electro-co-emx-25kw-kit-qs138-70h-v3",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/electro-co-emx-25kw-kit-qs138-70h-v3",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-electro-co-ultimate-upgrade-kit-tuttio-soleil-01",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/electro-co-ultimate-upgrade-kit-tuttio-soleil-01"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-heavy-hitter-qs165-60h-v3-billet-gear-box-cover",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/heavy-hitter-qs165-60h-v3-billet-gear-box-cover",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-qs138-70h-v3-520-sprocket",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/qs138-70h-v3-520-sprocket",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-qs138-70h-v3-motor",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/qs138-70h-v3-motor",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-x-9000-race-harness-for-qs138",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/x-9000-race-harness-for-qs138",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-motor-bracket-oem-motor-mount-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-motor-bracket-oem-motor-mount-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-motor-sprocket-cover-oem-drivetrain-protection-cover-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-motor-sprocket-cover-oem-drivetrain-protection-cover-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-tuttio-soleil01-moto-cover",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/tuttio-soleil01-moto-cover"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-motor-cover",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-cover"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-motor-side-cover-replacement-screws",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-side-cover-replacement-screws"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-motor-kits",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-motor-kits"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-motor-bracket-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_motor-bracket"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-motor-sprocket-cover-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_motor-sprocket-cover"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-motor-cover-set-soleil01-motor-front-cover",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_motor-cover"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-motor-kit-1500w-rated-2000w-peak-class-soleil01-motor",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_motor-kit"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-motor-side-cover-screws-soleil01-motor-side-cover-screws",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_motor-cover-screws"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-kyvex-surron-ultra-bee-compatible-billet-motor-cover",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/kyvex-surron-ultra-bee-compatible-billet-motor-cover"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-prickly-ultra-bee-motor-cover",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/prickly-ultra-bee-motor-cover"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "torp-tm50-offroad-torque-ultrabee",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/torp-tm50-and-tm50-pro-motor-for-surron-ultra-bee"
+          ],
+          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "ventus-ryuga-81kw",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ventus-ryuga-81kw-motor"
+          ],
+          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "vtb-41kw-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ventus-41-kw-ultra-bee-motor"
+          ],
+          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    }
   ],
   "products": [
     {
@@ -1840,6 +2121,672 @@
       "motor_peak_kw": 10.8,
       "weight_delta_kg": null,
       "image": null
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-motor-bracket",
+          "name": "Altis Delta Motor Bracket",
+          "brand": "Altis",
+          "category": "motor",
+          "price_usd": 125.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-motor-bracket",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-motor-bracket"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-motor-bracket"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 125.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-motor-bracket"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-motor-sprocket-cover",
+          "name": "Altis Delta Motor Sprocket Cover",
+          "brand": "Altis",
+          "category": "motor",
+          "price_usd": 9.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-motor-sprocket-cover",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-motor-sprocket-cover"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-motor-sprocket-cover"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 9.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-motor-sprocket-cover"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-ebmx-x-9000-qs138-race-harness",
+          "name": "EBMX X9000 V2 Race Harness For QS138",
+          "brand": "Ebmx",
+          "category": "motor",
+          "price_usd": 96.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/ebmx-x-9000-qs138-race-harness",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/ebmx-x-9000-qs138-race-harness"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/ebmx-x-9000-qs138-race-harness"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 96.99,
+                      "buy_url": "https://gritshift.com/products/ebmx-x-9000-qs138-race-harness"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-electro-co-emx-25kw-kit-qs138-70h-v3",
+          "name": "Electro & Co EMX 28KW Kit - QS138 70h V3",
+          "brand": "Electro & Co",
+          "category": "motor",
+          "price_usd": 1399.0,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/electro-co-emx-25kw-kit-qs138-70h-v3",
+          "tier": "premium",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/electro-co-emx-25kw-kit-qs138-70h-v3"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/electro-co-emx-25kw-kit-qs138-70h-v3"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 1399.0,
+                      "buy_url": "https://gritshift.com/products/electro-co-emx-25kw-kit-qs138-70h-v3"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-electro-co-ultimate-upgrade-kit-tuttio-soleil-01",
+          "name": "Electro & Co Tuttio Soleil 01 Ultimate Upgrade Kit",
+          "brand": "Electro & Co",
+          "category": "motor",
+          "price_usd": 1499.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/electro-co-ultimate-upgrade-kit-tuttio-soleil-01",
+          "tier": "premium",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://gritshift.com/products/electro-co-ultimate-upgrade-kit-tuttio-soleil-01"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://gritshift.com/products/electro-co-ultimate-upgrade-kit-tuttio-soleil-01"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 1499.99,
+                      "buy_url": "https://gritshift.com/products/electro-co-ultimate-upgrade-kit-tuttio-soleil-01"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-heavy-hitter-qs165-60h-v3-billet-gear-box-cover",
+          "name": "Heavy Hitter QS165 60h V3 Billet Gear Box Cover",
+          "brand": "GritShift",
+          "category": "motor",
+          "price_usd": 172.89,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/heavy-hitter-qs165-60h-v3-billet-gear-box-cover",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/heavy-hitter-qs165-60h-v3-billet-gear-box-cover"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/heavy-hitter-qs165-60h-v3-billet-gear-box-cover"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 172.89,
+                      "buy_url": "https://gritshift.com/products/heavy-hitter-qs165-60h-v3-billet-gear-box-cover"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-qs138-70h-v3-520-sprocket",
+          "name": "Lithium King QS138 70h v3 520 Sprocket",
+          "brand": "GritShift",
+          "category": "motor",
+          "price_usd": 42.89,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/qs138-70h-v3-520-sprocket",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/qs138-70h-v3-520-sprocket"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/qs138-70h-v3-520-sprocket"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 42.89,
+                      "buy_url": "https://gritshift.com/products/qs138-70h-v3-520-sprocket"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-qs138-70h-v3-motor",
+          "name": "QS138 70h V3 Motor",
+          "brand": "GritShift",
+          "category": "motor",
+          "price_usd": 699.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/qs138-70h-v3-motor",
+          "tier": "premium",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/qs138-70h-v3-motor"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/qs138-70h-v3-motor"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 699.99,
+                      "buy_url": "https://gritshift.com/products/qs138-70h-v3-motor"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-x-9000-race-harness-for-qs138",
+          "name": "EBMX X-9000 V3 Race Harness For QS138 Motor",
+          "brand": "Ebmx",
+          "category": "motor",
+          "price_usd": 139.89,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/x-9000-race-harness-for-qs138",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/x-9000-race-harness-for-qs138"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/x-9000-race-harness-for-qs138"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 139.89,
+                      "buy_url": "https://gritshift.com/products/x-9000-race-harness-for-qs138"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-motor-bracket-oem-motor-mount-by-altis-powersports",
+          "name": "Altis Delta Motor Bracket | OEM Motor Mount | By Altis Powersports",
+          "brand": "Altis",
+          "category": "motor",
+          "price_usd": 125.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-motor-bracket-oem-motor-mount-by-altis-powersports",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-motor-bracket-oem-motor-mount-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-motor-bracket-oem-motor-mount-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 125.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-motor-bracket-oem-motor-mount-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-motor-sprocket-cover-oem-drivetrain-protection-cover-by-altis-powersports",
+          "name": "Altis Delta Motor Sprocket Cover | OEM Drivetrain Protection Cover | By Altis Powersports",
+          "brand": "Altis",
+          "category": "motor",
+          "price_usd": 9.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-motor-sprocket-cover-oem-drivetrain-protection-cover-by-altis-powersports",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-motor-sprocket-cover-oem-drivetrain-protection-cover-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-motor-sprocket-cover-oem-drivetrain-protection-cover-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 9.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-motor-sprocket-cover-oem-drivetrain-protection-cover-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-tuttio-soleil01-moto-cover",
+          "name": "Tuttio Soleil01 Motor Cover",
+          "brand": "Tuttio",
+          "category": "motor",
+          "price_usd": 35.0,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-moto-cover",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/tuttio-soleil01-moto-cover"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tbelectricmoto.com/products/tuttio-soleil01-moto-cover"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 35.0,
+                      "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-moto-cover"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-motor-cover",
+          "name": "Tuttio Soleil01 Ebike Motor Cover",
+          "brand": "Tuttio",
+          "category": "motor",
+          "price_usd": 45.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-cover",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-cover"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-cover"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 45.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-cover"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-motor-side-cover-replacement-screws",
+          "name": "Tuttio Soleil01 Ebike Motor Side Cover Replacement Screws",
+          "brand": "Tuttio",
+          "category": "motor",
+          "price_usd": 20.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-side-cover-replacement-screws",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-side-cover-replacement-screws"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-side-cover-replacement-screws"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 20.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-side-cover-replacement-screws"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-motor-kits",
+          "name": "Tuttio Soleil01 Motor Kits",
+          "brand": "Tuttio",
+          "category": "motor",
+          "price_usd": 459.99,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-motor-kits",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-motor-kits"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-motor-kits"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 459.99,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-motor-kits"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-motor-bracket-delta-delta-s",
+          "name": "OEM Motor Bracket (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "motor",
+          "price_usd": 154.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_motor-bracket",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "out_of_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_motor-bracket"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_motor-bracket"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 154.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_motor-bracket"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-motor-sprocket-cover-delta-delta-s",
+          "name": "OEM Motor Sprocket Cover (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "motor",
+          "price_usd": 11.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_motor-sprocket-cover",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_motor-sprocket-cover"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_motor-sprocket-cover"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 11.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_motor-sprocket-cover"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-motor-cover-set-soleil01-motor-front-cover",
+          "name": "OEM Soleil01 Motor Cover Set (soleil01-motor-front-cover)",
+          "brand": "Wired Whips",
+          "category": "motor",
+          "price_usd": 56.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_motor-cover",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_motor-cover"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_motor-cover"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 56.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_motor-cover"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-motor-kit-1500w-rated-2000w-peak-class-soleil01-motor",
+          "name": "OEM Soleil01 Motor Kit (1500W rated / 2000W peak class) (soleil01-motor)",
+          "brand": "Wired Whips",
+          "category": "motor",
+          "price_usd": 561.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_motor-kit",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_motor-kit"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_motor-kit"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 561.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_motor-kit"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-motor-side-cover-screws-soleil01-motor-side-cover-screws",
+          "name": "OEM Soleil01 Motor Side Cover Screws (soleil01-motor-side-cover-screws)",
+          "brand": "Wired Whips",
+          "category": "motor",
+          "price_usd": 25.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_motor-cover-screws",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_motor-cover-screws"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_motor-cover-screws"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 25.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_motor-cover-screws"
+                }
+          ]
     }
   ]
 }

@@ -585,6 +585,484 @@
       ],
       "notes": "CCW description names the XE Pro platform only; fitment note says battery and wiring configurations can vary between models - verify S fitment before buying (checked 2026-11-11)."
     }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-battery-latch",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-battery-latch"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-battery-tray",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-battery-tray"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-battery-lock-latch-pins",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/battery-lock-latch-pins"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-delta-battery",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/delta-battery"
+          ],
+          "notes": "Page lists \"Delta Battery: 72V35Ah\" (Delta S 72V30Ah). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-eon-lithium-high-power-76v-battery",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/eon-lithium-high-power-76v-battery",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-battery-latch-oem-battery-retention-latch-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-battery-latch-oem-battery-retention-latch-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-battery-tray-oem-battery-mounting-tray-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-battery-tray-oem-battery-mounting-tray-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-upgraded-headlight-baja-light-battery-powered",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/upgraded-headlight-baja-light-battery-powered"
+          ],
+          "notes": "Fitment list on product page names the bike: \".../Pro/GT/M, Lynx, Viper S) Yozma IN10 , HeyBike Villain , Tuttio Soleil01 , Throne Strike Shadow Arctic Leopard...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-battery-charger",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-battery-charger"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-battery-charging-port",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-charging-port"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-battery-connector-spark-proof-1",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connector-spark-proof-1"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-battery-connectornon-spark-proof",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connectornon-spark-proof"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-battery-securing-clamp",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-securing-clamp"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-electric-bike-battery",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-lo-battery-charger",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-lo-battery-charger"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (LO) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-battery-latch-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_battery-latch"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-battery-pack-72v-35ah-delta",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_battery-72v35ah"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-battery-tray-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_battery-tray"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-27ah-extended-range-battery-upgrade-kit-battery-3a-charger-soleil01-gb-pro-ba",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-27ah-upgrade-kit"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-48v-21ah-lithium-battery-soleil01-battery",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-48v-21ah"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-battery-charger-soleil01-battery-charger",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-charger"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-battery-charging-port-us-soleil01-battery-charging-port",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-charging-port"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-battery-connector-discharge-port-non-spark-proof",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-nonspark-discharge"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-battery-connector-discharge-port-spark-proof",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-spark-discharge"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-battery-connector-spark-proof-soleil01-battery-connector-spark-proof",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-sparkproof"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-battery-securing-clamp-soleil01-battery-securing-clamp",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-securing-clamp"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-72v-65ah-battery-for-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/72v-65ah-battery-for-surron-ultra-bee"
+          ],
+          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-dhs-80v-80ah-battery",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/dhs-80v-80ah-battery"
+          ],
+          "notes": "2025 is mentioned only as a capacity comparison, not fitment. 80V pack needs an aftermarket controller. Battery/charge port changed MY26. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-dhs-96v-50ah-race-battery-surron-ultra-bee-rs50",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/dhs-96v-50ah-race-battery-surron-ultra-bee-rs50"
+          ],
+          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-battery-lid",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-battery-compartment-lock-set-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 32231-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid-replacement-for-ewatt-ultra-bee-batteries"
+          ],
+          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-oem-74v-battery",
+          "bike_id": "ultrabee-21kw",
+          "status": "not_compatible",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-oem-74v-battery",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-battery-charger-parts-diagram/"
+          ],
+          "notes": "Part # 26000-YQ5A-0000 is MY23-24 only per Sur-Ron catalog. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-protective-of-battery-compartment",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-protective-of-battery-compartment"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ub-battery-power-cable",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ub-battery-power-cable"
+          ],
+          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt"
+          ],
+          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-80v-76ah-battery-lid-charger-bundle-ewatt"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-oem-charger",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-oem-charger",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-battery-charger-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 21700-YQ5A-0200 listed MY25 in OEM catalog: fits 21kW; not the MY26 part. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-r-battery-protector",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-r-battery-protector",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-battery-protector-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 32359-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "dhs-72v-65ah-ub",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/dhs-72v-65ah-rs50-61kw-battery-for-surron-ultra-bee"
+          ],
+          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "dhs-88v-60ah-ultrabee",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/dhs-88v-60ah-race-battery-for-surron-ultra-bee-rs50-cells-75kw"
+          ],
+          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "ventus-ultrabee-96v-56ah",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah"
+          ],
+          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    }
   ],
   "products": [
     {
@@ -1306,6 +1784,931 @@
       "last_checked": "2026-11-11",
       "notes": "CCW description names the XE Pro platform only; fitment note says battery and wiring configurations can vary between models - verify S fitment before buying (checked 2026-11-11).",
       "image": null
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-battery-latch",
+          "name": "Altis Delta Battery Latch",
+          "brand": "Altis",
+          "category": "batteries",
+          "price_usd": 15.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-battery-latch",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-battery-latch"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-battery-latch"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 15.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-battery-latch"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-battery-tray",
+          "name": "Altis Delta Battery Tray",
+          "brand": "Altis",
+          "category": "batteries",
+          "price_usd": 18.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-battery-tray",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-battery-tray"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-battery-tray"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 18.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-battery-tray"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-battery-lock-latch-pins",
+          "name": "Altis Delta Battery Lock Latch Pins",
+          "brand": "Altis",
+          "category": "batteries",
+          "price_usd": 5.99,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/battery-lock-latch-pins",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/battery-lock-latch-pins"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/battery-lock-latch-pins"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 5.99,
+                      "buy_url": "https://www.altispowersports.com/products/battery-lock-latch-pins"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-delta-battery",
+          "name": "Delta Battery",
+          "brand": "Altis Powersports",
+          "category": "batteries",
+          "price_usd": 1100.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/delta-battery",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Page lists \"Delta Battery: 72V35Ah\" (Delta S 72V30Ah).",
+          "source_urls": [
+                "https://www.altispowersports.com/products/delta-battery"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/delta-battery"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 1100.0,
+                      "buy_url": "https://www.altispowersports.com/products/delta-battery"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-eon-lithium-high-power-76v-battery",
+          "name": "Electro & Co High Power 76V Battery",
+          "brand": "Electro & Co",
+          "category": "batteries",
+          "price_usd": 1889.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/eon-lithium-high-power-76v-battery",
+          "tier": "premium",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/eon-lithium-high-power-76v-battery"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/eon-lithium-high-power-76v-battery"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 1889.99,
+                      "buy_url": "https://gritshift.com/products/eon-lithium-high-power-76v-battery"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-battery-latch-oem-battery-retention-latch-by-altis-powersports",
+          "name": "Altis Delta Battery Latch | OEM Battery Retention Latch | By Altis Powersports",
+          "brand": "Altis",
+          "category": "batteries",
+          "price_usd": 18.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-battery-latch-oem-battery-retention-latch-by-altis-powersports",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-battery-latch-oem-battery-retention-latch-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-battery-latch-oem-battery-retention-latch-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 18.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-battery-latch-oem-battery-retention-latch-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-battery-tray-oem-battery-mounting-tray-by-altis-powersports",
+          "name": "Altis Delta Battery Tray | OEM Battery Mounting Tray | By Altis Powersports",
+          "brand": "Altis",
+          "category": "batteries",
+          "price_usd": 18.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-battery-tray-oem-battery-mounting-tray-by-altis-powersports",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-battery-tray-oem-battery-mounting-tray-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-battery-tray-oem-battery-mounting-tray-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 18.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-battery-tray-oem-battery-mounting-tray-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-upgraded-headlight-baja-light-battery-powered",
+          "name": "Upgraded Headlight \"Baja Light\" Battery Powered",
+          "brand": "TB Electric Moto",
+          "category": "batteries",
+          "price_usd": 42.99,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/upgraded-headlight-baja-light-battery-powered",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \".../Pro/GT/M, Lynx, Viper S) Yozma IN10 , HeyBike Villain , Tuttio Soleil01 , Throne Strike Shadow Arctic Leopard...\"",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/upgraded-headlight-baja-light-battery-powered"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tbelectricmoto.com/products/upgraded-headlight-baja-light-battery-powered"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 42.99,
+                      "buy_url": "https://tbelectricmoto.com/products/upgraded-headlight-baja-light-battery-powered"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-battery-charger",
+          "name": "Tuttio Soleil01 Battery Charger",
+          "brand": "Tuttio",
+          "category": "batteries",
+          "price_usd": 55.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-battery-charger",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-battery-charger"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-battery-charger"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 55.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-battery-charger"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger",
+          "name": "TUTTIO Soleil01 Ebike 27Ah Extended Range Battery Upgrade Kit (Battery + 3A Charger)",
+          "brand": "Tuttio",
+          "category": "batteries",
+          "price_usd": 759.99,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 759.99,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-battery-charging-port",
+          "name": "Tuttio Soleil01 Ebike Battery Charging Port",
+          "brand": "Tuttio",
+          "category": "batteries",
+          "price_usd": 25.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-charging-port",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-charging-port"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-charging-port"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 25.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-charging-port"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-battery-connector-spark-proof-1",
+          "name": "Tuttio Soleil01 Ebike Battery Connector (Spark-Proof)",
+          "brand": "Tuttio",
+          "category": "batteries",
+          "price_usd": 19.99,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connector-spark-proof-1",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connector-spark-proof-1"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connector-spark-proof-1"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 19.99,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connector-spark-proof-1"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-battery-connectornon-spark-proof",
+          "name": "Tuttio Soleil01 Ebike Battery Connector & Discharge Port (Non-Spark-Proof)",
+          "brand": "Tuttio",
+          "category": "batteries",
+          "price_usd": 45.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connectornon-spark-proof",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connectornon-spark-proof"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connectornon-spark-proof"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 45.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connectornon-spark-proof"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-battery-securing-clamp",
+          "name": "Tuttio Soleil01 Ebike Battery Securing Clamp",
+          "brand": "Tuttio",
+          "category": "batteries",
+          "price_usd": 65.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-securing-clamp",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-securing-clamp"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-securing-clamp"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 65.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-securing-clamp"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-electric-bike-battery",
+          "name": "Tuttio Soleil01 Electric Bike Battery",
+          "brand": "Tuttio",
+          "category": "batteries",
+          "price_usd": 649.99,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 649.99,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof",
+          "name": "Tuttio Soleil01 Ebike Battery Connector & Discharge Port (Spark-Proof)",
+          "brand": "Tuttio",
+          "category": "batteries",
+          "price_usd": 45.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 45.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-lo-battery-charger",
+          "name": "Tuttio Soleil01 LO Battery Charger",
+          "brand": "Tuttio",
+          "category": "batteries",
+          "price_usd": 45.99,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-lo-battery-charger",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (LO) only; base Soleil01 fit not stated.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-lo-battery-charger"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-lo-battery-charger"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 45.99,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-lo-battery-charger"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-battery-latch-delta-delta-s",
+          "name": "OEM Battery Latch (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "batteries",
+          "price_usd": 19.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_battery-latch",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_battery-latch"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_battery-latch"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 19.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_battery-latch"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-battery-pack-72v-35ah-delta",
+          "name": "OEM Battery Pack 72V 35Ah (Delta)",
+          "brand": "Wired Whips",
+          "category": "batteries",
+          "price_usd": 1319.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_battery-72v35ah",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_battery-72v35ah"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_battery-72v35ah"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 1319.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_battery-72v35ah"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-battery-tray-delta-delta-s",
+          "name": "OEM Battery Tray (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "batteries",
+          "price_usd": 23.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_battery-tray",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_battery-tray"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_battery-tray"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 23.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_battery-tray"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-27ah-extended-range-battery-upgrade-kit-battery-3a-charger-soleil01-gb-pro-ba",
+          "name": "OEM Soleil01 27Ah Extended Range Battery Upgrade Kit (Battery + 3A Charger) (soleil01-gb-pro-battery-with-charger)",
+          "brand": "Wired Whips",
+          "category": "batteries",
+          "price_usd": 911.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-27ah-upgrade-kit",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-27ah-upgrade-kit"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_battery-27ah-upgrade-kit"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 911.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-27ah-upgrade-kit"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-48v-21ah-lithium-battery-soleil01-battery",
+          "name": "OEM Soleil01 48V 21Ah Lithium Battery (soleil01-battery)",
+          "brand": "Wired Whips",
+          "category": "batteries",
+          "price_usd": 792.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-48v-21ah",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-48v-21ah"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_battery-48v-21ah"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 792.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-48v-21ah"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-battery-charger-soleil01-battery-charger",
+          "name": "OEM Soleil01 Battery Charger (soleil01-battery-charger)",
+          "brand": "Wired Whips",
+          "category": "batteries",
+          "price_usd": 69.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-charger",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-charger"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_battery-charger"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 69.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-charger"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-battery-charging-port-us-soleil01-battery-charging-port",
+          "name": "OEM Soleil01 Battery Charging Port (US) (soleil01-battery-charging-port)",
+          "brand": "Wired Whips",
+          "category": "batteries",
+          "price_usd": 31.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-charging-port",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-charging-port"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_battery-charging-port"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 31.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-charging-port"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-battery-connector-discharge-port-non-spark-proof",
+          "name": "OEM Soleil01 Battery Connector & Discharge Port (Non-Spark-Proof)...",
+          "brand": "Wired Whips",
+          "category": "batteries",
+          "price_usd": 56.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-nonspark-discharge",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-nonspark-discharge"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-nonspark-discharge"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 56.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-nonspark-discharge"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-battery-connector-discharge-port-spark-proof",
+          "name": "OEM Soleil01 Battery Connector & Discharge Port (Spark-Proof)...",
+          "brand": "Wired Whips",
+          "category": "batteries",
+          "price_usd": 56.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-spark-discharge",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-spark-discharge"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-spark-discharge"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 56.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-spark-discharge"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-battery-connector-spark-proof-soleil01-battery-connector-spark-proof",
+          "name": "OEM Soleil01 Battery Connector (Spark-Proof) (soleil01-battery-connector-spark-proof)",
+          "brand": "Wired Whips",
+          "category": "batteries",
+          "price_usd": 25.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-sparkproof",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-sparkproof"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-sparkproof"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 25.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-sparkproof"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-battery-securing-clamp-soleil01-battery-securing-clamp",
+          "name": "OEM Soleil01 Battery Securing Clamp (soleil01-battery-securing-clamp)",
+          "brand": "Wired Whips",
+          "category": "batteries",
+          "price_usd": 81.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-securing-clamp",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_battery-securing-clamp"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_battery-securing-clamp"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 81.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-securing-clamp"
+                }
+          ]
     }
   ]
 }

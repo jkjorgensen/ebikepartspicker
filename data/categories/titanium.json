@@ -517,10 +517,12 @@
     {
       "id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
       "_fit_src": {
-        "zero-xe": "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+        "zero-xe": "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit",
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
       },
       "_fit": {
-        "Zero XE": "direct_fit"
+        "Zero XE": "direct_fit",
+        "Sur-Ron Ultra Bee 21kW": "direct_fit"
       },
       "name": "Warp9 eMoto Handguard Titanium Bolt Kit",
       "brand": "Warp 9",
@@ -817,6 +819,39 @@
        "buy_url": "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
       }
      ]
+    }
+  ,
+    {
+          "id": "mtnmotoworks-tuttio-soleil-01-titanium-bolt-kit",
+          "name": "Titanium Bolt Kit | Tuttio Soleil 01",
+          "brand": "MTN MotoWorks",
+          "category": "titanium",
+          "price_usd": 94.95,
+          "vendor": "MTN MotoWorks",
+          "buy_url": "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit"
+          },
+          "vendors": [
+                {
+                      "vendor": "MTN MotoWorks",
+                      "price_usd": 94.95,
+                      "buy_url": "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit"
+                }
+          ]
     }
   ],
   "compatibility": [
@@ -1331,6 +1366,50 @@
         "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
       ],
       "notes": "Bolt kit for the Warp9 eMoto handguards; the handguards themselves are verify-only for the Mini R — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+    }
+  ,
+    {
+          "product_id": "mtnmotoworks-tuttio-soleil-01-titanium-bolt-kit",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-titanium-chassis-kit",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-titanium-chassis-kit"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
     }
   ]
 }

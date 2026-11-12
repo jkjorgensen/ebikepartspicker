@@ -803,6 +803,72 @@
       ],
       "image": "img/parts/chargedcycleworks-e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0.webp"
     }
+  ,
+    {
+          "id": "altispowersports-altis-delta-swingarm",
+          "name": "Altis Delta Swingarm",
+          "brand": "Altis",
+          "category": "swingarm",
+          "price_usd": 390.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-swingarm",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-swingarm"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-swingarm"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 390.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-swingarm"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-swingarm-delta-delta-s",
+          "name": "OEM Swingarm (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "swingarm",
+          "price_usd": 475.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_swingarm",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_swingarm"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_swingarm"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 475.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_swingarm"
+                }
+          ]
+    }
   ],
   "compatibility": [
     {
@@ -1282,6 +1348,144 @@
         "https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt"
       ],
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-swingarm",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-swingarm"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-swingarm-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_swingarm"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-kyvex-billet-swingarm-compatible-w-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/kyvex-billet-swingarm-compatible-w-surron-ultra-bee"
+          ],
+          "notes": "Product text names \"2025 and 2026 Surron Ultra Bee\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-bearing",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bearing"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-swingarm-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 61239-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-swingarm-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 61241-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-carbon-black-without-bearings",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-carbon-black-without-bearings"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-oem-swingarm-washer",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-washer",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-swingarm-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 61235-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-swingarm-protectors-for-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/swingarm-protectors-for-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ub-pivot-bushing",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ub-pivot-bushing",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-swingarm-pivot-shaft-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 61231-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ub-swingarm-pivot-shaft",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-swingarm-pivot-shaft-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 61261-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ub-swingarm-pivot-shaft-bolt",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-swingarm-pivot-shaft-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 61265-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
     }
   ]
 }

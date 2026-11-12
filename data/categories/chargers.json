@@ -327,10 +327,12 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit",
+        "Sur-Ron Ultra Bee 21kW": "likely_fit"
       },
       "_fit_src": {
-        "ultrabee": "https://chargedcycleworks.com/products/surron-ultra-bee-85v-15a-fast-charger-oem"
+        "ultrabee": "https://chargedcycleworks.com/products/surron-ultra-bee-85v-15a-fast-charger-oem",
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/surron-ultra-bee-85v-15a-fast-charger-oem"
       },
       "vendors": [
         {
@@ -545,6 +547,206 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-al-xe-pro-charger-artic-leopard-xe-pro-oem.webp"
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-10a-charger",
+          "name": "Altis Delta 10A Charger",
+          "brand": "Altis",
+          "category": "chargers",
+          "price_usd": 300.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-10a-charger",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-10a-charger"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-10a-charger"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 300.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-10a-charger"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-electro-co-emx-12amp-charger",
+          "name": "Electro & Co EMX 12Amp 72V/76V Charger",
+          "brand": "Electro & Co",
+          "category": "chargers",
+          "price_usd": 159.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/electro-co-emx-12amp-charger",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/electro-co-emx-12amp-charger"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/electro-co-emx-12amp-charger"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 159.99,
+                      "buy_url": "https://gritshift.com/products/electro-co-emx-12amp-charger"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-electro-co-emx-lightning-charger",
+          "name": "Electro & Co EMX 0V-100V Lightning Charger",
+          "brand": "Electro & Co",
+          "category": "chargers",
+          "price_usd": 449.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/electro-co-emx-lightning-charger",
+          "tier": "premium",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/electro-co-emx-lightning-charger"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/electro-co-emx-lightning-charger"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 449.99,
+                      "buy_url": "https://gritshift.com/products/electro-co-emx-lightning-charger"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "howlingmoto-fast-charger-for-tuttio-soleil-01-upgraded-high-speed-e-bike-charger",
+          "name": "Fast Charger for Tuttio Soleil 01 | Upgraded High-Speed E-Bike Charger",
+          "brand": "Howling Moto",
+          "category": "chargers",
+          "price_usd": 54.99,
+          "vendor": "Howling Moto",
+          "buy_url": "https://howlingmoto.com/products/fast-charger-for-tuttio-soleil-01-upgraded-high-speed-e-bike-charger",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://howlingmoto.com/products/fast-charger-for-tuttio-soleil-01-upgraded-high-speed-e-bike-charger"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://howlingmoto.com/products/fast-charger-for-tuttio-soleil-01-upgraded-high-speed-e-bike-charger"
+          },
+          "vendors": [
+                {
+                      "vendor": "Howling Moto",
+                      "price_usd": 54.99,
+                      "buy_url": "https://howlingmoto.com/products/fast-charger-for-tuttio-soleil-01-upgraded-high-speed-e-bike-charger"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-10a-charger-oem-fast-charger-by-altis-powersports",
+          "name": "Altis Delta 10A Charger | OEM Fast Charger | By Altis Powersports",
+          "brand": "Altis",
+          "category": "chargers",
+          "price_usd": 300.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-10a-charger-oem-fast-charger-by-altis-powersports",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-10a-charger-oem-fast-charger-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-10a-charger-oem-fast-charger-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 300.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-10a-charger-oem-fast-charger-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-10a-charger-72v-delta-delta-s",
+          "name": "OEM 10A Charger 72V (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "chargers",
+          "price_usd": 365.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_charger",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "out_of_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_charger"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_charger"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 365.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_charger"
+                }
+          ]
     }
   ],
   "compatibility": [
@@ -866,6 +1068,85 @@
         "https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem"
       ],
       "notes": "CCW title and fitment list name the XF (XE / XF / Pro R / EX Pro); 10A OEM charger for 72V Arctic Leopard packs. (checked 2026-11-11)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-10a-charger",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-10a-charger"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-electro-co-emx-12amp-charger",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/electro-co-emx-12amp-charger",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-electro-co-emx-lightning-charger",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/electro-co-emx-lightning-charger",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "howlingmoto-fast-charger-for-tuttio-soleil-01-upgraded-high-speed-e-bike-charger",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://howlingmoto.com/products/fast-charger-for-tuttio-soleil-01-upgraded-high-speed-e-bike-charger"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-10a-charger-oem-fast-charger-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-10a-charger-oem-fast-charger-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-10a-charger-72v-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_charger"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-85v-15a-fast-charger-oem",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-85v-15a-fast-charger-oem"
+          ],
+          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
     }
   ]
 }

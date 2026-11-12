@@ -690,6 +690,338 @@
       ],
       "image": "img/parts/chargedcycleworks-surron-tail-light.webp"
     }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-headlight",
+          "name": "Altis Delta DBK Headlight",
+          "brand": "Altis",
+          "category": "street",
+          "price_usd": 40.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-headlight",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-headlight"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-headlight"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 40.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-headlight"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-light-reflector",
+          "name": "Altis Delta DBK Light Reflector",
+          "brand": "Altis",
+          "category": "street",
+          "price_usd": 5.99,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-light-reflector",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-light-reflector"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-light-reflector"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 5.99,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-light-reflector"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "chargedcycleworks-baja-designs-s2-driving-combo-replacement-lens-kit",
+          "name": "Baja Designs S2 Driving/Combo Replacement Lens Kit",
+          "brand": "Charged Cycle Works",
+          "category": "street",
+          "price_usd": 26.95,
+          "vendor": "Charged Cycle Works",
+          "buy_url": "https://chargedcycleworks.com/products/baja-designs-s2-driving-combo-replacement-lens-kit",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this\u2026",
+          "source_urls": [
+                "https://chargedcycleworks.com/products/baja-designs-s2-driving-combo-replacement-lens-kit"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Sur-Ron Ultra Bee 21kW": "direct_fit"
+          },
+          "_fit_src": {
+                "ultrabee-21kw": "https://chargedcycleworks.com/products/baja-designs-s2-driving-combo-replacement-lens-kit"
+          },
+          "vendors": [
+                {
+                      "vendor": "Charged Cycle Works",
+                      "price_usd": 26.95,
+                      "buy_url": "https://chargedcycleworks.com/products/baja-designs-s2-driving-combo-replacement-lens-kit"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "chargedcycleworks-baja-designs-s2-spot-replacement-lens-kit",
+          "name": "Baja Designs S2 Spot Replacement Lens Kit",
+          "brand": "Charged Cycle Works",
+          "category": "street",
+          "price_usd": 26.95,
+          "vendor": "Charged Cycle Works",
+          "buy_url": "https://chargedcycleworks.com/products/baja-designs-s2-spot-replacement-lens-kit",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this\u2026",
+          "source_urls": [
+                "https://chargedcycleworks.com/products/baja-designs-s2-spot-replacement-lens-kit"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Sur-Ron Ultra Bee 21kW": "direct_fit"
+          },
+          "_fit_src": {
+                "ultrabee-21kw": "https://chargedcycleworks.com/products/baja-designs-s2-spot-replacement-lens-kit"
+          },
+          "vendors": [
+                {
+                      "vendor": "Charged Cycle Works",
+                      "price_usd": 26.95,
+                      "buy_url": "https://chargedcycleworks.com/products/baja-designs-s2-spot-replacement-lens-kit"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "chargedcycleworks-bike-bell-by-timber",
+          "name": "Timber Bike Bell",
+          "brand": "Charged Cycle Works",
+          "category": "street",
+          "price_usd": 29.95,
+          "vendor": "Charged Cycle Works",
+          "buy_url": "https://chargedcycleworks.com/products/bike-bell-by-timber",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this\u2026",
+          "source_urls": [
+                "https://chargedcycleworks.com/products/bike-bell-by-timber"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Sur-Ron Ultra Bee 21kW": "direct_fit"
+          },
+          "_fit_src": {
+                "ultrabee-21kw": "https://chargedcycleworks.com/products/bike-bell-by-timber"
+          },
+          "vendors": [
+                {
+                      "vendor": "Charged Cycle Works",
+                      "price_usd": 29.95,
+                      "buy_url": "https://chargedcycleworks.com/products/bike-bell-by-timber"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "chargedcycleworks-replacement-horn-for-e-moto",
+          "name": "Replacement Horn for E Moto",
+          "brand": "Charged Cycle Works",
+          "category": "street",
+          "price_usd": 15.0,
+          "vendor": "Charged Cycle Works",
+          "buy_url": "https://chargedcycleworks.com/products/replacement-horn-for-e-moto",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this\u2026",
+          "source_urls": [
+                "https://chargedcycleworks.com/products/replacement-horn-for-e-moto"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Sur-Ron Ultra Bee 21kW": "direct_fit"
+          },
+          "_fit_src": {
+                "ultrabee-21kw": "https://chargedcycleworks.com/products/replacement-horn-for-e-moto"
+          },
+          "vendors": [
+                {
+                      "vendor": "Charged Cycle Works",
+                      "price_usd": 15.0,
+                      "buy_url": "https://chargedcycleworks.com/products/replacement-horn-for-e-moto"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-heavy-hitter-rift-headlight-mask",
+          "name": "Heavy Hitter Rift Headlight Mask",
+          "brand": "GritShift",
+          "category": "street",
+          "price_usd": 39.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/heavy-hitter-rift-headlight-mask",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/heavy-hitter-rift-headlight-mask"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/heavy-hitter-rift-headlight-mask"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 39.99,
+                      "buy_url": "https://gritshift.com/products/heavy-hitter-rift-headlight-mask"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-xtc-power-products-6-led-license-plate-frame-universal",
+          "name": "XTC Power Products  6\u2033 Led License Plate Frame Universal",
+          "brand": "GritShift",
+          "category": "street",
+          "price_usd": 59.89,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/xtc-power-products-6-led-license-plate-frame-universal",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/xtc-power-products-6-led-license-plate-frame-universal"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/xtc-power-products-6-led-license-plate-frame-universal"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 59.89,
+                      "buy_url": "https://gritshift.com/products/xtc-power-products-6-led-license-plate-frame-universal"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-ebike-smart-bike-tail-light",
+          "name": "Tuttio Soleil01 Ebike Smart Bike Tail Light",
+          "brand": "Tuttio",
+          "category": "street",
+          "price_usd": 34.99,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-ebike-smart-bike-tail-light",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-ebike-smart-bike-tail-light"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-ebike-smart-bike-tail-light"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 34.99,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-ebike-smart-bike-tail-light"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-smart-bike-tail-light-tuttio-smart-bike-tail-light",
+          "name": "OEM Soleil01 Smart Bike Tail Light (tuttio-smart-bike-tail-light)",
+          "brand": "Wired Whips",
+          "category": "street",
+          "price_usd": 44.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_smart-tail-light",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_smart-tail-light"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_smart-tail-light"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 44.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_smart-tail-light"
+                }
+          ]
+    }
   ],
   "compatibility": [
     {
@@ -1153,6 +1485,195 @@
         "https://chargedcycleworks.com/products/tail-light-mounting-bracket"
       ],
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/tail-light-mounting-bracket"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-headlight",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-headlight"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-light-reflector",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-light-reflector"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-baja-designs-s2-driving-combo-replacement-lens-kit",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/baja-designs-s2-driving-combo-replacement-lens-kit"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-baja-designs-s2-spot-replacement-lens-kit",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/baja-designs-s2-spot-replacement-lens-kit"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-bike-bell-by-timber",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/bike-bell-by-timber"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-replacement-horn-for-e-moto",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/replacement-horn-for-e-moto"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-heavy-hitter-rift-headlight-mask",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/heavy-hitter-rift-headlight-mask",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-xtc-power-products-6-led-license-plate-frame-universal",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/xtc-power-products-6-led-license-plate-frame-universal",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-ebike-smart-bike-tail-light",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-ebike-smart-bike-tail-light"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-smart-bike-tail-light-tuttio-smart-bike-tail-light",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_smart-tail-light"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-front-turn-lamp-pair",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/front-turn-lamp-pair"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-project-9-surron-ultra-bee-turn-signal-kit",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/project-9-surron-ultra-bee-turn-signal-kit"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-rear-turn-lamp-pair",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/rear-turn-lamp-pair"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-tail-light",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-tail-light"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-tail-light-installation-cover",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/tail-light-installation-cover"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-tail-light-installation-decorative-block",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/tail-light-installation-decorative-block"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-tail-light-mounting-bracket",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/tail-light-mounting-bracket"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
     }
   ]
 }
