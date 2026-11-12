@@ -1468,6 +1468,12 @@
     },
 {
       "id": "chargedcycleworks-kke-footpegs-fit-rawrr-mantis-mantis-x-collective",
+      "_fit_src": {
+        "rawrr-mantis-72v": "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective"
+      },
+      "_fit": {
+        "Rawrr Mantis 72V": "direct_fit"
+      },
       "name": "KKE Foot Pegs for Rawrr Mantis",
       "brand": "KKE",
       "category": "pegs",
@@ -1493,6 +1499,12 @@
     },
 {
       "id": "chargedcycleworks-kyvex-replacement-foot-peg-pins",
+      "_fit_src": {
+        "rawrr-mantis-72v": "https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
+      },
+      "_fit": {
+        "Rawrr Mantis 72V": "verify"
+      },
       "name": "KyVex Replacement Pins for Billet Wide Foot Pegs",
       "brand": "KyVex",
       "category": "pegs",
@@ -1602,6 +1614,132 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra.webp"
+    },
+{
+      "id": "pegs-warp9-zero-xe-elite-foot-pegs",
+      "name": "Warp9 E-Moto Elite Foot Pegs for Zero XE",
+      "brand": "Warp9",
+      "category": "pegs",
+      "price_usd": 131,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-zero-xe-elite-foot-pegs",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 131,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-zero-xe-elite-foot-pegs"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW product is made for the Zero XE: title 'Warp9 E-Moto Elite Foot Pegs for Zero XE', description 'specifically designed to fit the Zero XE'; tagged ZXE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-zero-xe-elite-foot-pegs",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-zero-xe-elite-foot-pegs"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": null,
+      "variant": null
+    },
+{
+      "id": "chargedcycleworks-warp9-adjustable-foot-peg-mount-surron-light-bee-79bike",
+      "name": "Warp9 Adjustable Foot Peg Mount for Surron Light Bee & 79Bike",
+      "brand": "Warp9",
+      "category": "pegs",
+      "price_usd": 186,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-adjustable-foot-peg-mount-surron-light-bee-79bike",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment says Sur-ron Light Bee and 79Bike; Pro not named specifically, verify (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-adjustable-foot-peg-mount-surron-light-bee-79bike"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 186,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-adjustable-foot-peg-mount-surron-light-bee-79bike"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-rawrr-mantis-mini-foot-peg-assembly",
+      "name": "Rawrr Mantis Mini – Foot Peg Assembly | OEM",
+      "brand": "Rawrr",
+      "category": "pegs",
+      "badge": "Rawrr",
+      "tier": "OEM",
+      "price_usd": 33.63,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 33.63,
+          "buy_url": "https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: 'OEM Foot Peg Assembly for Rawrr Mantis Mini' — genuine OEM, complete left and right assembly (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly",
+      "sizes": null,
+      "position": null,
+      "image": null,
+      "_fit": {
+        "Rawrr Mantis Mini R": "direct_fit"
+      },
+      "_fit_src": {
+        "rawrr-mantis-mini-r": "https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly"
+      }
+    },
+{
+      "id": "chargedcycleworks-rawrr-mantis-mini-r-r17-foot-peg-assembly",
+      "name": "Rawrr Mantis Mini R & R17 –  Foot Peg Assembly | OEM",
+      "brand": "Rawrr",
+      "category": "pegs",
+      "badge": "Rawrr",
+      "tier": "OEM",
+      "price_usd": 65.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 65.99,
+          "buy_url": "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: 'OEM Foot Peg Assembly for Rawrr Mantis Mini R & R17' — genuine OEM, direct bolt-on (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly",
+      "sizes": null,
+      "position": null,
+      "image": null,
+      "_fit": {
+        "Rawrr Mantis Mini R": "direct_fit"
+      },
+      "_fit_src": {
+        "rawrr-mantis-mini-r": "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly"
+      }
     }
   ],
   "compatibility": [
@@ -2499,6 +2637,116 @@
         "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra"
       ],
       "notes": "CCW compatibility list names Arctic Leopard XE Pro S (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra"
+      ],
+      "notes": "CCW: Adjustable Footpeg Mounts for the Arctic Leopard XE Pro S, XE Pro R, Enduro, and Vetra (checked 2026-11-11)."
+    },
+    {
+      "product_id": "pegs-warp9-zero-xe-elite-foot-pegs",
+      "bike_id": "zero-xe",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-zero-xe-elite-foot-pegs"
+      ],
+      "notes": "CCW product is made for the Zero XE: title 'Warp9 E-Moto Elite Foot Pegs for Zero XE', description 'specifically designed to fit the Zero XE'; tagged ZXE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-zero-xe-elite-foot-pegs"
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-billet-wide-foot-pegs",
+      "bike_id": "arctic-leopard-xf",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs"
+      ],
+      "notes": "CCW title names Surron / Talaria / E Ride Pro, not the XF; foot peg mounts are bike-specific - verify before buying. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-replacement-foot-peg-pins",
+      "bike_id": "arctic-leopard-xf",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
+      ],
+      "notes": "Spare pins for the KyVex Billet Wide Foot Pegs (verify for XF); CCW ALXF tag only. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-footpegs-fit-rawrr-mantis-mantis-x-collective",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective"
+      ],
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis 2023-2025' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-replacement-foot-peg-pins",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
+      ],
+      "notes": "Replacement pins for KyVex Billet Wide Foot Pegs; the pegs themselves are unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-replacement-foot-peg-pins",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
+      ],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists these replacement pins for KyVex Billet Wide Foot Pegs - verify they match the pegs on the bike (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-replacement-foot-peg-pins",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
+      ],
+      "notes": "Replacement pins for KyVex Billet Wide Foot Pegs; the pegs themselves are unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
+    },
+    {
+      "product_id": "chargedcycleworks-rawrr-mantis-mini-foot-peg-assembly",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly"
+      ],
+      "notes": "CCW: 'OEM Foot Peg Assembly for Rawrr Mantis Mini' — genuine OEM, complete left and right assembly (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly"
+    },
+    {
+      "product_id": "chargedcycleworks-rawrr-mantis-mini-r-r17-foot-peg-assembly",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly"
+      ],
+      "notes": "CCW: 'OEM Foot Peg Assembly for Rawrr Mantis Mini R & R17' — genuine OEM, direct bolt-on (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-elite-foot-pegs-rawrr-mantis-x-mini",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini"
+      ],
+      "notes": "CCW fitment list: 'Mantis X and Mantis mini' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini"
     }
   ]
 }

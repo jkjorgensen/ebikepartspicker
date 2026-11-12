@@ -782,6 +782,60 @@
       "badge": "TMB",
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r.webp"
+    },
+{
+      "id": "chargedcycleworks-bearing-kit-suspension-triangle-surron-lbx",
+      "name": "Needle Bearing Kit for Suspension Triangle | Surron LBX",
+      "brand": "DirtyBike",
+      "category": "linkage",
+      "price_usd": 11,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW Fits list names 79bike Falcon; LBX triangle bearings, Falcon Pro fit unverified (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 11,
+          "buy_url": "https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade",
+      "name": "Heavy Hitter Titanium 1.5\" Linkage Upgrade",
+      "brand": "GritShift",
+      "category": "linkage",
+      "price_usd": 169.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 169.99,
+          "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment names 79Bike Falcon Pro / GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "weight_delta_kg": null,
+      "image": null,
+      "variant": null
     }
   ],
   "compatibility": [
@@ -1325,6 +1379,26 @@
         "https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r"
       ],
       "notes": "CCW: designed specifically to fit the Sirris R38 rear shock on Arctic Leopard XE Pro S / Enduro / R; R38 shock only, not the stock shock (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r"
+      ],
+      "notes": "CCW: made specifically to fit the Sirris R38 rear shock on Arctic Leopard XE Pro S / Enduro / R models (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade"
+      ],
+      "notes": "CCW fitment names 79Bike Falcon Pro / GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade"
     }
   ]
 }

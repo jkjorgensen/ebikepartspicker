@@ -516,6 +516,12 @@
     },
     {
       "id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+      },
+      "_fit": {
+        "Zero XE": "direct_fit"
+      },
       "name": "Warp9 eMoto Handguard Titanium Bolt Kit",
       "brand": "Warp 9",
       "category": "titanium",
@@ -1275,6 +1281,56 @@
         "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
       ],
       "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "bike_id": "zero-xe",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+      ],
+      "notes": "CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+    },
+    {
+      "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+    },
+    {
+      "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+      ],
+      "notes": "CCW search-by-bike (Rawrr Mantis collection) lists this bolt kit for the Rawrr Mantis; fits the Warp9 eMoto handguards (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+    },
+    {
+      "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "bike_id": "rtr-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+    },
+    {
+      "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+      ],
+      "notes": "Bolt kit for the Warp9 eMoto handguards; the handguards themselves are verify-only for the Mini R — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
     }
   ]
 }

@@ -1306,6 +1306,12 @@
     },
 {
       "id": "chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-collective",
+      "_fit_src": {
+        "rawrr-mantis-72v": "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective"
+      },
+      "_fit": {
+        "Rawrr Mantis 72V": "direct_fit"
+      },
       "name": "KKE Rear Brake Disc Guard for Rawrr Mantis",
       "brand": "KKE",
       "category": "guards",
@@ -2157,6 +2163,16 @@
         "https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra"
       ],
       "notes": "CCW compatibility list names Arctic Leopard XE Pro S; does not fit the XE Pro R (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-collective",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective"
+      ],
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis 2023-2025' and 'ONLY FITS 220 MM BRAKE ROTOR'; the 72V rear rotor is 220mm (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective"
     }
   ]
 }

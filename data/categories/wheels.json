@@ -88,7 +88,7 @@
         "Sur-Ron Ultra Bee": "verify",
         "Sur-Ron Storm Bee F": "verify",
         "Ventus One Plus": "verify",
-        "Ventus V1+ EVO": "verify",
+        "Ventus V1+ EVO": "direct_fit",
         "E Ride Pro 3.0": "verify",
         "E Ride Pro 4.0": "verify",
         "E Ride Pro SR": "verify",
@@ -2410,7 +2410,8 @@
       "power_change_kw": null,
       "_fit": {
         "79BIKE Falcon Pro": "direct_fit",
-        "79BIKE Falcon GT": "direct_fit"
+        "79BIKE Falcon GT": "direct_fit",
+        "Ventus V1+ EVO": "direct_fit"
       }
     },
     {
@@ -2496,6 +2497,12 @@
     },
 {
       "id": "chargedcycleworks-bearing-kit-front-wheel",
+      "_fit_src": {
+        "rawrr-mantis-72v": "https://chargedcycleworks.com/products/bearing-kit-front-wheel"
+      },
+      "_fit": {
+        "Rawrr Mantis 72V": "verify"
+      },
       "name": "Bearing Kit | Front Wheel | Surron LBX | Talaria | E Ride Pro | Rawrr Mantis X",
       "brand": "Charged Cycle Works",
       "category": "wheels",
@@ -2994,6 +3001,178 @@
       "variant": null,
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-tmb-wheel-spacer-set-arctic-leopard-xe-pro.webp"
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-12in-supermoto-wheel-set",
+      "name": "ETM RTR | 12in Supermoto Wheel Set",
+      "brand": "Electro & Company",
+      "category": "wheels",
+      "price_usd": 249,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-12in-supermoto-wheel-set",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Direct-fit 12in supermoto wheel set with pre-mounted Kenda Curve street tires. CCW search-by-bike (ETM RTR LITE tag) lists it for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-12in-supermoto-wheel-set"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 249,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-12in-supermoto-wheel-set"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-14in-supermoto-wheel-set",
+      "name": "ETM RTR | 14in Supermoto Wheel Set",
+      "brand": "Electro & Company",
+      "category": "wheels",
+      "price_usd": 349,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-14in-supermoto-wheel-set",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Direct-fit 14in street wheel set, 90/90-14 tires, includes 2x RTR brake rotors. CCW search-by-bike (ETM RTR LITE tag) lists it for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-14in-supermoto-wheel-set"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 349,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-14in-supermoto-wheel-set"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-2025-complete-wheelset",
+      "name": "Electro & Company ETM RTR 2025 Complete Wheelset",
+      "brand": "Electro & Company",
+      "category": "wheels",
+      "price_usd": 275,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-2025-complete-wheelset",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Complete front + rear wheelset matching the factory 14/12 setup. CCW search-by-bike (ETM RTR LITE tag) lists it for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-2025-complete-wheelset"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 275,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-2025-complete-wheelset"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-big-wheel-kit",
+      "name": "ETM RTR - Big Wheel Kit",
+      "brand": "Electro & Company",
+      "category": "wheels",
+      "price_usd": 349.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-big-wheel-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Bolt-on kit converts stock 14/12 wheels to 17 front / 14 rear and raises stance. CCW search-by-bike (ETM RTR LITE tag) lists it for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-big-wheel-kit"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 349.99,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-big-wheel-kit"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit",
+      "name": "Rawrr Mantis Mini R - OEM 12/14 Wheelset Upgrade Kit",
+      "brand": "Rawrr",
+      "category": "wheels",
+      "badge": "Rawrr",
+      "tier": "OEM",
+      "price_usd": 350,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 350,
+          "buy_url": "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: stock-size replacement wheelset — 14-inch front with 60/100-14 tire, 12-inch rear with 70/100-12 tire, 203mm rotors, 64T sprocket (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit",
+      "sizes": ["60/100-14", "70/100-12"],
+      "position": null,
+      "image": null,
+      "_fit": {
+        "Rawrr Mantis Mini R": "direct_fit"
+      },
+      "_fit_src": {
+        "rawrr-mantis-mini-r": "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit"
+      }
+    },
+{
+      "id": "chargedcycleworks-rawrr-mantis-mini-wheel-assemblies",
+      "name": "Rawrr – Mantis Mini R Upsizing Kit",
+      "brand": "Rawrr",
+      "category": "wheels",
+      "badge": "Rawrr",
+      "tier": "OEM",
+      "price_usd": 399,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rawrr-mantis-mini-wheel-assemblies",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 399,
+          "buy_url": "https://chargedcycleworks.com/products/rawrr-mantis-mini-wheel-assemblies"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rawrr-mantis-mini-wheel-assemblies"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: 'Transform your bike from 12/14-inch Mini R to a larger 14/17-inch Mini R17' — 14/17-inch wheelset plus longer kickstand; fits 72V Mini R, does not fit 48V Mantis Mini (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-wheel-assemblies",
+      "sizes": null,
+      "position": null,
+      "image": null,
+      "_fit": {
+        "Rawrr Mantis Mini R": "direct_fit"
+      },
+      "_fit_src": {
+        "rawrr-mantis-mini-r": "https://chargedcycleworks.com/products/rawrr-mantis-mini-wheel-assemblies"
+      }
     }
   ],
   "compatibility": [
@@ -3348,10 +3527,10 @@
     {
       "product_id": "wheels-ion-lightbee-eride20",
       "bike_id": "ventus-evo",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/ion-16-19-wheelset"],
+      "notes": "CCW fitment names Ventus One / Plus / EVO (checked Nov 11, 2026)"
     },
     {
       "product_id": "wheels-ion-lightbee-eride20",
@@ -4659,6 +4838,206 @@
         "https://chargedcycleworks.com/products/tmb-wheel-spacer-set-arctic-leopard-xe-pro"
       ],
       "notes": "CCW: Upgrade the factory wheel spacers on your Arctic Leopard XE Pro S, XE Pro R, or Vetra (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-front-axle-oem",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-front-axle-oem"
+      ],
+      "notes": "CCW fitment list names Arctic Leopard XE Pro R (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-16-rear-wheel",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arcticleopardxepro-16wheel"
+      ],
+      "notes": "CCW description names Arctic Leopard XE Pro 16/19 setup only (no XE Pro R); shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-front-wheel-spacers-oem",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-front-wheel-spacers-oem"
+      ],
+      "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro R); shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-s-oem-takeoff-wheelset",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-takeoff-wheelset"
+      ],
+      "notes": "CCW: wheelset off a new Arctic Leopard XE Pro S (16/19in); XE Pro R not named - verify fit before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-rear-axle-oem",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-rear-axle-oem"
+      ],
+      "notes": "CCW description names Arctic Leopard XE only; shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-rear-wheel-spacers-oem",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-rear-wheel-spacers-oem"
+      ],
+      "notes": "CCW description names Arctic Leopard XE / XF only; shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-ion-16-19-wheelset-for-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-16-19-wheelset-for-arctic-leopard-xe-pro-s"
+      ],
+      "notes": "CCW: Fitment Arctic Leopard XE Pro / Pro S / Pro R (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-ion-16-rear-wheel-upgrade-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-arctic-leopard-xe-pro-s"
+      ],
+      "notes": "CCW: Bike Fitment Arctic Leopard XE Pro S / Pro R (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s"
+      ],
+      "notes": "CCW: Bike Fitment Arctic Leopard XE Pro / Pro S / Pro R / XF (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-ion-18-21-wheelset-for-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-18-21-wheelset-for-arctic-leopard-xe-pro-s"
+      ],
+      "notes": "CCW: Fitment Arctic Leopard XE Pro / Pro S / Pro R (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-ion-21-front-wheel-upgrade-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/21-front-wheel-upgrade-arctic-leopard-xe-pro"
+      ],
+      "notes": "CCW: Bike Fitment Arctic Leopard XE Pro S / Pro R (checked 2026-11-11). R already runs a 21in front, so the 775mm-fork caveat for shorter-fork models does not apply."
+    },
+    {
+      "product_id": "chargedcycleworks-tmb-wheel-spacer-set-arctic-leopard-xe-pro",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tmb-wheel-spacer-set-arctic-leopard-xe-pro"
+      ],
+      "notes": "CCW: Upgrade the factory wheel spacers on your Arctic Leopard XE Pro S, XE Pro R, or Vetra (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-16-rear-wheel",
+      "bike_id": "arctic-leopard-xf",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arcticleopardxepro-16wheel"
+      ],
+      "notes": "CCW title names Arctic Leopard XE Pro only; 16in rear vs XF stock 14in rear, and the XF uses its own swingarm - verify fit before buying. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-rear-wheel-spacers-oem",
+      "bike_id": "arctic-leopard-xf",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-rear-wheel-spacers-oem"
+      ],
+      "notes": "CCW title names Arctic Leopard XE only; rear wheel spacers are axle/hub-specific and the XF uses its own swingarm - verify before buying. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "chargedcycleworks-ion-16-rear-wheel-upgrade-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xf",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-arctic-leopard-xe-pro-s"
+      ],
+      "notes": "CCW title names Arctic Leopard XE PRO only; 16in rear vs XF stock 14in rear - verify fit before buying. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "chargedcycleworks-ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xf",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s"
+      ],
+      "notes": "CCW title names Arctic Leopard XE PRO only; 17/17 supermoto set vs XF stock 17/14 - the rear wheel is a size conversion, verify fit before buying. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "chargedcycleworks-bearing-kit-front-wheel",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bearing-kit-front-wheel"
+      ],
+      "notes": "CCW fitment list names 'Rawrr Mantis X' only, never the base Mantis — verify the front-wheel bearings match the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bearing-kit-front-wheel"
+    },
+    {
+      "bike_id": "ventus-evo",
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ion-17-supermoto-wheelset"
+      ],
+      "notes": "CCW fitment names Ventus One / Plus / EVO (checked Nov 11, 2026)",
+      "product_id": "wheels-ion-lightbee-eride20-17supermoto",
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit"
+      ],
+      "notes": "CCW: stock-size replacement wheelset — 14-inch front with 60/100-14 tire, 12-inch rear with 70/100-12 tire, 203mm rotors, 64T sprocket (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-rawrr-mantis-mini-wheel-assemblies",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rawrr-mantis-mini-wheel-assemblies"
+      ],
+      "notes": "CCW: 'Transform your bike from 12/14-inch Mini R to a larger 14/17-inch Mini R17' — 14/17-inch wheelset plus longer kickstand; fits 72V Mini R, does not fit 48V Mantis Mini (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-wheel-assemblies"
     }
   ]
 }

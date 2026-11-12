@@ -2908,6 +2908,12 @@
     },
 {
       "id": "chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr",
+      "_fit_src": {
+        "rawrr-mantis-72v": "https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr"
+      },
+      "_fit": {
+        "Rawrr Mantis 72V": "direct_fit"
+      },
       "name": "ASV F3-E Unbreakable Brake Levers for E Ride 2.0 | Rawrr",
       "brand": "ASV",
       "category": "brakes",
@@ -2933,6 +2939,12 @@
     },
 {
       "id": "chargedcycleworks-kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective",
+      "_fit_src": {
+        "rawrr-mantis-72v": "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective"
+      },
+      "_fit": {
+        "Rawrr Mantis 72V": "direct_fit"
+      },
       "name": "KKE Aluminum Brake Levers for Rawrr Mantis",
       "brand": "KKE",
       "category": "brakes",
@@ -3264,6 +3276,192 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro.webp"
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-oem-brake-lever",
+      "name": "ETM RTR - OEM Brake Lever",
+      "brand": "Electro & Company",
+      "category": "brakes",
+      "price_usd": 15,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-oem-brake-lever",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "OEM brake lever for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-oem-brake-lever"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 15,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-oem-brake-lever"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-oem-brake-pads",
+      "name": "ETM RTR - OEM Brake Pads",
+      "brand": "Electro & Company",
+      "category": "brakes",
+      "price_usd": 29,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-oem-brake-pads",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "OEM brake pads for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-oem-brake-pads"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-oem-brake-pads"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-oem-brake-rotor",
+      "name": "ETM RTR - OEM Brake Rotor",
+      "brand": "Electro & Company",
+      "category": "brakes",
+      "price_usd": 28,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-oem-brake-rotor",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "OEM brake rotor for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-oem-brake-rotor"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 28,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-oem-brake-rotor"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-oem-complete-front-brake-assembly",
+      "name": "ETM RTR - OEM Front Brake Assembly",
+      "brand": "Electro & Company",
+      "category": "brakes",
+      "price_usd": 80,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-oem-complete-front-brake-assembly",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "OEM front brake assembly for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-oem-complete-front-brake-assembly"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 80,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-oem-complete-front-brake-assembly"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-oem-rear-brake-assembly",
+      "name": "ETM RTR - OEM Rear Brake Assembly",
+      "brand": "Electro & Company",
+      "category": "brakes",
+      "price_usd": 80,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-oem-rear-brake-assembly",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "OEM rear brake assembly for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-oem-rear-brake-assembly"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 80,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-oem-rear-brake-assembly"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-wave-rotors",
+      "name": "ETM RTR | Wave Rotors",
+      "brand": "Electro & Company",
+      "category": "brakes",
+      "price_usd": 34.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-wave-rotors",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "ETM RTR Wave Rotors, sold individually. CCW search-by-bike (ETM RTR LITE tag) lists them for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-wave-rotors"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 34.99,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-wave-rotors"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective",
+      "name": "KKE Front 220MM Front Brake Rotor w/ Adapter",
+      "brand": "KKE Racing",
+      "category": "brakes",
+      "badge": "KKE Racing",
+      "tier": "midrange",
+      "price_usd": 59.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "220mm = stock front rotor size, but the KKE fitment list names Surron / Talaria / Segway / E Ride Pro SS only, never Rawrr — caliper adapter fitment unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective",
+      "sizes": null,
+      "position": null,
+      "image": null,
+      "_fit": {
+        "Rawrr Mantis 72V": "verify"
+      },
+      "_fit_src": {
+        "rawrr-mantis-72v": "https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective"
+      }
     }
   ],
   "compatibility": [
@@ -5092,6 +5290,76 @@
         "https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro"
       ],
       "notes": "CCW: Upgrade your Arctic Leopard XE Pro S or XE Pro S Enduro with a TECH Suspension fork; TECH-fork conversion only (checked 2026-11-11)."
+    },
+    {
+      "product_id": "charged-brake-pads-emoto",
+      "bike_id": "arctic-leopard-xf",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+      ],
+      "notes": "CCW ALXF tag only; pad variants name Surron/Talaria/E Ride and Arctic Leopard XE Pro S, none names the XF - verify which pad fits the XF calipers before buying. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-xf-brake-lever-oem",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem"
+      ],
+      "notes": "CCW title names the XF (XE/XF OEM brake lever); CCW ALXF tag. Both front and rear variants out of stock at CCW. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "chargedcycleworks-project9-brake-pads-for-eride-surron-talaria",
+      "bike_id": "arctic-leopard-xf",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria"
+      ],
+      "notes": "CCW ALXF tag only; pad variants name Arctic Leopard XE Pro S, none names the XF - verify which pad fits the XF calipers before buying. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr"
+      ],
+      "notes": "CCW fitment list: 'E Ride Pro SS 2.0 Rawrr Mantis, Mantis X' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective"
+      ],
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis 2023-2025' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective"
+      ],
+      "notes": "220mm = stock front rotor size, but the KKE fitment list names Surron / Talaria / Segway / E Ride Pro SS only, never Rawrr — caliper adapter fitment unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-formula-eb9",
+      "bike_id": "ventus-evo",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-eb9"
+      ],
+      "notes": "CCW fitment names Ventus One + Evo (95.5mm variant; 95.5mm model only works with Ventus One + Evo models) (checked Nov 11, 2026)"
     }
   ]
 }

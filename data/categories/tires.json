@@ -290,6 +290,14 @@
     },
     {
       "id": "tire-kenda-k270-dualsport",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road",
+        "storm-bee": "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
+      },
+      "_fit": {
+        "Zero XE": "direct_fit",
+        "Sur-Ron Storm Bee F": "direct_fit"
+      },
       "name": "Kenda K270 Dual Sport Tire",
       "brand": "Kenda",
       "category": "tires",
@@ -382,6 +390,12 @@
     },
     {
       "id": "tire-kenda-millville2-k785",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire"
+      },
+      "_fit": {
+        "Zero XE": "not_compatible"
+      },
       "name": "Kenda Millville II K785 Tire",
       "brand": "Kenda",
       "category": "tires",
@@ -468,6 +482,12 @@
     },
     {
       "id": "tire-dunlop-mx34",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "Dunlop Geomax MX34 Tire",
       "brand": "Dunlop",
       "category": "tires",
@@ -609,6 +629,12 @@
     },
     {
       "id": "tire-kenda-k760-trakmaster",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
+      },
+      "_fit": {
+        "Zero XE": "not_compatible"
+      },
       "name": "Kenda K760 Trakmaster II Tire",
       "brand": "Kenda",
       "category": "tires",
@@ -662,6 +688,12 @@
     },
     {
       "id": "tire-bridgestone-x31",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "Bridgestone Battlecross X31 Tire",
       "brand": "Bridgestone",
       "category": "tires",
@@ -705,6 +737,12 @@
     },
     {
       "id": "tire-maxxis-mxsi",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+      },
+      "_fit": {
+        "Zero XE": "not_compatible"
+      },
       "name": "Maxxis Maxxcross MX-SI Tire",
       "brand": "Maxxis",
       "category": "tires",
@@ -742,6 +780,12 @@
     },
     {
       "id": "tire-irc-m5b-evo",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/irc-tire-m5b-evo-rear-130-80-18"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "IRC M5B EVO Soft Terrain Tire",
       "brand": "IRC",
       "category": "tires",
@@ -912,6 +956,12 @@
     },
     {
       "id": "tire-kenda-washougal3-ccw",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "Kenda Washougal III Tire",
       "brand": "Kenda",
       "category": "tires",
@@ -980,6 +1030,12 @@
     },
     {
       "id": "tire-irc-ve33-ccw",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "IRC VE33 Rear Tire",
       "brand": "IRC",
       "category": "tires",
@@ -1046,6 +1102,12 @@
     },
     {
       "id": "tire-tusk-t35-front-ccw",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "Tusk T-35 Front Tire",
       "brand": "Tusk",
       "category": "tires",
@@ -1184,6 +1246,12 @@
     },
     {
       "id": "tire-bridgestone-m203-ccw",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate"
+      },
+      "_fit": {
+        "Zero XE": "not_compatible"
+      },
       "name": "Bridgestone M203 Front Tire",
       "brand": "Bridgestone",
       "category": "tires",
@@ -1219,6 +1287,12 @@
     },
     {
       "id": "tire-bridgestone-m204-ccw",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire"
+      },
+      "_fit": {
+        "Zero XE": "not_compatible"
+      },
       "name": "Bridgestone M204 Rear Tire",
       "brand": "Bridgestone",
       "category": "tires",
@@ -1254,6 +1328,12 @@
     },
     {
       "id": "tire-bridgestone-x30-ccw",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16"
+      },
+      "_fit": {
+        "Zero XE": "not_compatible"
+      },
       "name": "Bridgestone Battlecross X30 Tire",
       "brand": "Bridgestone",
       "category": "tires",
@@ -1288,6 +1368,12 @@
     },
     {
       "id": "tire-dunlop-mx33-ccw",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto"
+      },
+      "_fit": {
+        "Zero XE": "direct_fit"
+      },
       "name": "Dunlop MX33 Tire",
       "brand": "Dunlop",
       "category": "tires",
@@ -1322,6 +1408,12 @@
     },
     {
       "id": "tire-dunlop-mx53-ccw",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "Dunlop MX53 Tire",
       "brand": "Dunlop",
       "category": "tires",
@@ -1359,6 +1451,12 @@
     },
     {
       "id": "tire-shinko-sr241-ccw",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
+      },
+      "_fit": {
+        "Zero XE": "direct_fit"
+      },
       "name": "Shinko SR241 Trials Tire",
       "brand": "Shinko",
       "category": "tires",
@@ -1402,6 +1500,12 @@
     },
     {
       "id": "tire-irc-ix09-gekkota-ccw",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "IRC IX-09 Gekkota Gummy Tire",
       "brand": "IRC",
       "category": "tires",
@@ -2075,6 +2179,12 @@
     },
     {
       "id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "Dunlop MX54 Geomax Soft/Int Terrain Tires",
       "brand": "Dunlop",
       "category": "tires",
@@ -2133,6 +2243,14 @@
     },
     {
       "id": "tire-bikemaster-tr6-inner-tubes",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes",
+        "storm-bee": "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      },
+      "_fit": {
+        "Zero XE": "direct_fit",
+        "Sur-Ron Storm Bee F": "direct_fit"
+      },
       "name": "BikeMaster TR6 Inner Tubes",
       "brand": "BikeMaster",
       "category": "tires",
@@ -2162,6 +2280,14 @@
     },
     {
       "id": "tire-kenda-k775-washougal-ii-front-tire",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire",
+        "storm-bee": "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      },
+      "_fit": {
+        "Zero XE": "verify",
+        "Sur-Ron Storm Bee F": "direct_fit"
+      },
       "name": "Kenda K775 Washougal II Tires",
       "brand": "Kenda",
       "category": "tires",
@@ -2191,6 +2317,14 @@
     },
     {
       "id": "tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19",
+        "storm-bee": "https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19"
+      },
+      "_fit": {
+        "Zero XE": "verify",
+        "Sur-Ron Storm Bee F": "verify"
+      },
       "name": "Nuetech 5150 Nitro Mousse Foam Tube for Tubliss Gen 2.0",
       "brand": "Nuetech",
       "category": "tires",
@@ -2220,6 +2354,12 @@
     },
     {
       "id": "tire-irc-jx8-gekkota-rear-gummy-tire",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "IRC JX8 GEKKOTA Rear Gummy Tire 110/100-18",
       "brand": "IRC",
       "category": "tires",
@@ -2249,6 +2389,14 @@
     },
     {
       "id": "tire-irc-tubes",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/irc-tubes",
+        "storm-bee": "https://chargedcycleworks.com/products/irc-tubes"
+      },
+      "_fit": {
+        "Zero XE": "direct_fit",
+        "Sur-Ron Storm Bee F": "direct_fit"
+      },
       "name": "IRC Tubes",
       "brand": "IRC",
       "category": "tires",
@@ -2278,6 +2426,14 @@
     },
     {
       "id": "tire-wps-rim-strip",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/wps-rim-strip",
+        "storm-bee": "https://chargedcycleworks.com/products/wps-rim-strip"
+      },
+      "_fit": {
+        "Zero XE": "direct_fit",
+        "Sur-Ron Storm Bee F": "direct_fit"
+      },
       "name": "WPS Rim Strip",
       "brand": "WPS",
       "category": "tires",
@@ -2336,6 +2492,12 @@
     },
     {
       "id": "tire-tire-ve-33s-gekkota-rear-tire",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "IRC VE33S Gekkota Gummy Tire 110/100x18",
       "brand": "IRC",
       "category": "tires",
@@ -2394,6 +2556,12 @@
     },
     {
       "id": "tire-irc-ix-07s-21-front-tire-light-weight",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "IRC IX-07S 21\" Front Tire (light weight)",
       "brand": "IRC",
       "category": "tires",
@@ -2423,6 +2591,12 @@
     },
     {
       "id": "tire-dunlop-mx14-sand-scoop-tire",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "Dunlop MX14 Sand Scoop Tire",
       "brand": "Dunlop",
       "category": "tires",
@@ -2539,6 +2713,14 @@
     },
     {
       "id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire",
+        "storm-bee": "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      },
+      "_fit": {
+        "Zero XE": "verify",
+        "Sur-Ron Storm Bee F": "direct_fit"
+      },
       "name": "Kenda K774 Ibex Hybrid Sticky Tires",
       "brand": "Kenda",
       "category": "tires",
@@ -2597,6 +2779,12 @@
     },
     {
       "id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "_fit_src": {
+        "storm-bee": "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      },
+      "_fit": {
+        "Sur-Ron Storm Bee F": "direct_fit"
+      },
       "name": "Sedona Heavy Duty 2mm Tube for all eMX eMoto Bikes",
       "brand": "Sedona",
       "category": "tires",
@@ -2701,6 +2889,12 @@
     },
     {
       "id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      },
+      "_fit": {
+        "Zero XE": "verify"
+      },
       "name": "Pivotrax Kilowatt Climber 90/100-18 Rear Tire",
       "brand": "Strike Point Distribution",
       "category": "tires",
@@ -2821,10 +3015,12 @@
       "position": "both",
       "image": null,
       "_fit": {
-        "Stark Varg EX": "verify"
+        "Stark Varg EX": "verify",
+        "Zero XE": "verify"
       },
       "_fit_src": {
-        "stark-vargex": "https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee"
+        "stark-vargex": "https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee",
+        "zero-xe": "https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee"
       }
     },
 {
@@ -2930,6 +3126,14 @@
     },
 {
       "id": "chargedcycleworks-maxxis-maxxcross-intermediate-tire",
+      "_fit_src": {
+        "rtr-sport": "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front",
+        "rawrr-mantis-72v": "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+      },
+      "_fit": {
+        "ETM RTR Sport": "direct_fit",
+        "Rawrr Mantis 72V": "direct_fit"
+      },
       "name": "Maxxis Maxxcross Intermediate Rear Tire",
       "brand": "Maxxis",
       "category": "tires",
@@ -2955,6 +3159,14 @@
     },
 {
       "id": "chargedcycleworks-pivotrax-cyber-street-tire",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/pivotrax-cyber-street-tire",
+        "rawrr-mantis-72v": "https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+      },
+      "_fit": {
+        "Zero XE": "verify",
+        "Rawrr Mantis 72V": "direct_fit"
+      },
       "name": "Pivotrax Cyber Street Tire",
       "brand": "Pivotrax",
       "category": "tires",
@@ -2980,6 +3192,12 @@
     },
 {
       "id": "chargedcycleworks-shinko-524-19-tire",
+      "_fit_src": {
+        "rawrr-mantis-72v": "https://chargedcycleworks.com/products/shinko-524-19-tire"
+      },
+      "_fit": {
+        "Rawrr Mantis 72V": "verify"
+      },
       "name": "Shinko 524 19\" Tire",
       "brand": "Shinko",
       "category": "tires",
@@ -3030,6 +3248,12 @@
     },
 {
       "id": "chargedcycleworks-dunlop-k990-tires-for-emoto",
+      "_fit_src": {
+        "zero-xe": "https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto"
+      },
+      "_fit": {
+        "Zero XE": "direct_fit"
+      },
       "name": "Dunlop K990 Light Weight 18/21 for eMoto",
       "brand": "Dunlop",
       "category": "tires",
@@ -3060,6 +3284,31 @@
       ],
       "position": "both",
       "image": "img/parts/chargedcycleworks-dunlop-k990-tires-for-emoto.webp"
+    },
+{
+      "id": "chargedcycleworks-tusk-recon-sticky-19-tire-for-surron-segway",
+      "name": "Tusk Recon Sticky Tire for eMoto",
+      "brand": "Tusk",
+      "category": "tires",
+      "price_usd": 49.88,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tusk-recon-sticky-19-tire-for-surron-segway",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW search-by-bike (ETM RTR LITE tag) lists this tire for the ETM RTR Lite, but no stock-size variant is sold - verify fit/size before buying (checked Nov 11, 2026). Tire sizes 70/100-19 and 90/100-16 only; no 14in/12in variant.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tusk-recon-sticky-19-tire-for-surron-segway"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.88,
+          "buy_url": "https://chargedcycleworks.com/products/tusk-recon-sticky-19-tire-for-surron-segway"
+        }
+      ],
+      "image": null
     }
   ],
   "compatibility": [
@@ -5426,35 +5675,29 @@
     {
       "product_id": "tire-kenda-k270-dualsport",
       "bike_id": "rawrr-mantis-72v",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.riderawrr.com/72v-rawrr-mantis",
-        "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
-      ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "fitment_source_urls": ["https://www.riderawrr.com/72v-rawrr-mantis", "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245", "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"],
+      "notes": "DOWNGRADED confirmed -> verify: CCW sells no 19\" K270 (variants are 3.50x18, 4.00x18, 2.75x21, 3.00x21 only), so the old diameter-match confirm for the stock 19\" wheels was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
       "bike_id": "rawrr-mantis-x-pro",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro",
-        "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
-      ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part, but no variant matches the stock tire sizes (70/100-19 front, 2.75-17 rear) - CCW sells no 19in or 17in K270; the earlier confirmed grade rested on diameter match alone (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
       "bike_id": "rawrr-mantis-x",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://howlingmoto.com/products/rawrr-mantis-x-72v-electric-dirt-bike-6-5kw-53mph-19-17-off-road",
         "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
       ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "notes": "K270 has no 19-inch variant at CCW (18/21 only); cannot match stock 19/19 wheels - verify (checked 2026-11-11)"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
@@ -5503,24 +5746,18 @@
     {
       "product_id": "tire-kenda-k270-dualsport",
       "bike_id": "rtr-sport",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://support.electroandcompany.com/hc/en-us/articles/53576419394323-Can-I-install-bigger-wheels-on-my-Electro-Company-ETM-RTR",
-        "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
-      ],
-      "notes": "Tire diameter matches stock 14\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"],
+      "notes": "DOWNGRADED confirmed -> verify: CCW sells no 14\" K270 (variants are 3.50x18, 4.00x18, 2.75x21, 3.00x21 only), so the old diameter-match confirm for the stock 14\" front wheel was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
       "bike_id": "rtr-alpha",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine",
-        "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
-      ],
-      "notes": "Tire diameter matches stock 14\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"],
+      "notes": "DOWNGRADED confirmed -> verify: CCW sells no 14\" K270 (variants are 3.50x18, 4.00x18, 2.75x21, 3.00x21 only), so the old diameter-match confirm for the stock 14\" front wheel was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
@@ -5547,24 +5784,18 @@
     {
       "product_id": "tire-kenda-k270-dualsport",
       "bike_id": "yozma-in10",
-      "status": "confirmed_direct_fit",
+      "status": "not_compatible",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://yozmasport.com/products/in-10",
-        "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
-      ],
-      "notes": "Tire diameter matches stock 14\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"],
+      "notes": "CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only; no 14in or 12in size for the IN10 (stock 14in/12in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
       "bike_id": "yozma-in10-pro",
-      "status": "confirmed_direct_fit",
+      "status": "not_compatible",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.yozmabike.com.au/products/in-10-pro",
-        "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
-      ],
-      "notes": "Tire diameter matches stock 17\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"],
+      "notes": "CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only; no 17in or 14in size for the IN10 Pro (stock 17in/14in wheels). Page text: requires 18/21 wheel upgrade. The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
@@ -5932,13 +6163,10 @@
     {
       "product_id": "tire-tusk-dsport-adventure",
       "bike_id": "yozma-in10-pro",
-      "status": "confirmed_direct_fit",
+      "status": "not_compatible",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.yozmabike.com.au/products/in-10-pro",
-        "https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238"
-      ],
-      "notes": "Tire diameter matches stock 17\" front wheel."
+      "fitment_source_urls": ["https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238"],
+      "notes": "Front 90/90-21 only; rears 120/90-18, 130/90-17, 130/90-18, 140/80-18 - no 70/100-17 front or 90/100-14 rear for the IN10 Pro (stock 17in/14in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238"
     },
     {
       "product_id": "tire-tusk-dsport-adventure",
@@ -6302,24 +6530,18 @@
     {
       "product_id": "tire-kenda-millville2-k785",
       "bike_id": "yozma-in10",
-      "status": "confirmed_direct_fit",
+      "status": "not_compatible",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://yozmasport.com/products/in-10",
-        "https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249"
-      ],
-      "notes": "Tire diameter matches stock 14\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire"],
+      "notes": "Single-size 70/100-19 front tire; no 14in or 12in size for the IN10 (stock 14in/12in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire"
     },
     {
       "product_id": "tire-kenda-millville2-k785",
       "bike_id": "yozma-in10-pro",
-      "status": "confirmed_direct_fit",
+      "status": "not_compatible",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.yozmabike.com.au/products/in-10-pro",
-        "https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249"
-      ],
-      "notes": "Tire diameter matches stock 17\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire"],
+      "notes": "Single-size 70/100-19 front tire; no 17in or 14in size for the IN10 Pro (stock 17in/14in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire"
     },
     {
       "product_id": "tire-kenda-millville2-k785",
@@ -6567,13 +6789,10 @@
     {
       "product_id": "tire-shinko-525-cheater",
       "bike_id": "rawrr-mantis-72v",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.riderawrr.com/72v-rawrr-mantis",
-        "https://www.motosport.com/shinko-r525-cheater-rear-tire"
-      ],
-      "notes": "Tire diameter matches stock 19\" rear wheel."
+      "fitment_source_urls": ["https://www.riderawrr.com/72v-rawrr-mantis", "https://www.motosport.com/shinko-r525-cheater-rear-tire", "https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260"],
+      "notes": "DOWNGRADED confirmed -> verify: CCW R525 variants are 90/100-16, 110/100-18, 120/100-18 only \u2014 no 19\" size, so the old diameter-match confirm for the stock 19\" rear wheel was wrong; needs a 16\" rear wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260"
     },
     {
       "product_id": "tire-shinko-525-cheater",
@@ -8165,24 +8384,18 @@
     {
       "product_id": "tire-kenda-k760-trakmaster",
       "bike_id": "rtr-sport",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://support.electroandcompany.com/hc/en-us/articles/53576419394323-Can-I-install-bigger-wheels-on-my-Electro-Company-ETM-RTR",
-        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138"
-      ],
-      "notes": "Tire diameter matches stock 14\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"],
+      "notes": "DOWNGRADED confirmed -> verify: CCW variants are 70/100-19, 70/100-17 and 100/90-19 only, no 14\" size for the stock 14\" front wheel, so the old diameter-match confirm was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
     },
     {
       "product_id": "tire-kenda-k760-trakmaster",
       "bike_id": "rtr-alpha",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine",
-        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138"
-      ],
-      "notes": "Tire diameter matches stock 14\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"],
+      "notes": "DOWNGRADED confirmed -> verify: CCW variants are 70/100-19, 70/100-17 and 100/90-19 only, no 14\" size for the stock 14\" front wheel, so the old diameter-match confirm was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
     },
     {
       "product_id": "tire-kenda-k760-trakmaster",
@@ -8209,24 +8422,18 @@
     {
       "product_id": "tire-kenda-k760-trakmaster",
       "bike_id": "yozma-in10",
-      "status": "confirmed_direct_fit",
+      "status": "not_compatible",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://yozmasport.com/products/in-10",
-        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138"
-      ],
-      "notes": "Tire diameter matches stock 14\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"],
+      "notes": "CCW offers 70/100-19, 70/100-17 and 100/90-19 only; no 14in or 12in size for the IN10 (stock 14in/12in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
     },
     {
       "product_id": "tire-kenda-k760-trakmaster",
       "bike_id": "yozma-in10-pro",
-      "status": "confirmed_direct_fit",
+      "status": "not_compatible",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.yozmabike.com.au/products/in-10-pro",
-        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138"
-      ],
-      "notes": "Tire diameter matches stock 17\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"],
+      "notes": "Rear tire; CCW offers 70/100-19, 70/100-17 and 100/90-19 only - no 14in rear size for the IN10 Pro (stock 14in rear wheel), and the 70/100-17 variant is a rear tire, not a front fit. The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
     },
     {
       "product_id": "tire-kenda-k760-trakmaster",
@@ -8485,13 +8692,10 @@
     {
       "product_id": "tire-bridgestone-x31",
       "bike_id": "rawrr-mantis-x-pro",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro",
-        "https://www.revzilla.com/motorcycle/bridgestone-battlecross-x31-tire?facet_ids[]=1318"
-      ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18"],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part, but CCW offers only 80/100-21 and 110/100-18 - neither fits the stock 19in/17in wheels; the earlier confirmed grade rested on diameter match alone (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18"
     },
     {
       "product_id": "tire-bridgestone-x31",
@@ -8938,13 +9142,10 @@
     {
       "product_id": "tire-maxxis-mxsi",
       "bike_id": "rtr-alpha",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://electroandcompany.com/products/etm-rtr-alpha-ready-to-rip-electric-trail-machine",
-        "https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010"
-      ],
-      "notes": "Tire diameter matches stock 14\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"],
+      "notes": "DOWNGRADED confirmed -> verify: CCW offers only a 90/100-14 variant for the stock 14\" front wheel - not the stock 60/100-14 size, and no 80/100-12 rear - so the old diameter-match confirm was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
     },
     {
       "product_id": "tire-maxxis-mxsi",
@@ -8971,13 +9172,10 @@
     {
       "product_id": "tire-maxxis-mxsi",
       "bike_id": "yozma-in10",
-      "status": "confirmed_direct_fit",
+      "status": "not_compatible",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://yozmasport.com/products/in-10",
-        "https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010"
-      ],
-      "notes": "Tire diameter matches stock 14\" front wheel."
+      "fitment_source_urls": ["https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010"],
+      "notes": "No 14in front or 12in rear size offered (Front 80/100-21, 70/100-17; Rear 110/100-18, 110/90-19, 120/80-19, 90/100-14); nothing fits the IN10 stock 14in/12in wheels. The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010"
     },
     {
       "product_id": "tire-maxxis-mxsi",
@@ -15130,13 +15328,10 @@
     {
       "product_id": "tire-dunlop-mx33-ccw",
       "bike_id": "rawrr-mantis-x-pro",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": null,
-      "fitment_source_urls": [
-        "https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro",
-        "https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto"
-      ],
-      "notes": "Tire diameter matches stock 19\" front wheel."
+      "fitment_source_urls": ["https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto"],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part, but CCW offers only 90/100-18 and 70/100-21 - neither fits the stock 19in/17in wheels; the earlier confirmed grade rested on diameter match alone (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto"
     },
     {
       "product_id": "tire-dunlop-mx33-ccw",
@@ -17578,6 +17773,1660 @@
         "https://chargedcycleworks.com/products/wps-rim-strip"
       ],
       "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-dunlop-k990-tires-for-emoto",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto"
+      ],
+      "notes": "90/100-18 rear and 70/100-21 front variants fit the XE Pro R 21/18in wheels but are not stock sizes (80/100-21 / 100/90-18); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying. Note: CCW lists the K990 as discontinued (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-cyber-street-tire",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+      ],
+      "notes": "90/100-18 variant fits the XE Pro R 18in rear wheel (not stock 100/90-18); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      ],
+      "notes": "90/100-18 variant fits the XE Pro R 18in rear wheel (not stock 100/90-18); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "notes": "CCW ALXEPROR tag only; verify 21in front / 18in rear variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-bridgestone-m203-ccw",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate"
+      ],
+      "notes": "No 21in or 18in variant (70/100-19, 70/100-17, 60/100-14 only) - cannot mount on the XE Pro R 21/18in wheels (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-bridgestone-x31",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18"
+      ],
+      "notes": "80/100-21 front and 110/100-18 rear variants fit the XE Pro R 21/18in wheels (stock 80/100-21 front); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-dunlop-mx14-sand-scoop-tire",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      ],
+      "notes": "110/100-18 variant fits the XE Pro R 18in rear wheel (not stock 100/90-18); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-dunlop-mx33-ccw",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto"
+      ],
+      "notes": "70/100-21 front and 90/100-18 rear variants fit the XE Pro R 21/18in wheels but are not stock sizes; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-dunlop-mx34",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "80/100-21 variant = XE Pro R stock front size; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-dunlop-mx53-ccw",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires"
+      ],
+      "notes": "80/100-21 variant = XE Pro R stock front size; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "80/100-21 variant = XE Pro R stock front size; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "CCW ALXEPROR tag only; verify 21in front / 18in rear variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
+      ],
+      "notes": "2.75x21 / 3.00x21 front and 3.50x18 / 4.00x18 rear variants fit the XE Pro R 21/18in wheels (not stock metric sizes); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "No 21in or 18in variant (70/100-19, 70/100-17, 100/90-19 only) - cannot mount on the XE Pro R 21/18in wheels (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "notes": "80/100-21 variant = XE Pro R stock front size; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "notes": "80/100-21 variant = XE Pro R stock front size; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-kenda-millville2-k785",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire"
+      ],
+      "notes": "70/100-19 only - cannot mount on the XE Pro R 21in front or 18in rear rim (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-kenda-washougal3-ccw",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
+      ],
+      "notes": "80/100-21 variant = XE Pro R stock front size; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-maxxis-mxsi",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+      ],
+      "notes": "No 21in or 18in variant (70/100-19, 90/100-16, 70/100-17, 90/100-14 only) - cannot mount on the XE Pro R 21/18in wheels (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW ALXEPROR tag only; verify 21in front / 18in rear variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-shinko-244-dualsport",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-244-dual-sport-tires"
+      ],
+      "notes": "2.75x21 / 3.00x21 front and 3.50x18 rear variants fit the XE Pro R 21/18in wheels (not stock metric sizes); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-shinko-524-19-tire",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-524-19-tire"
+      ],
+      "notes": "19in tire only - cannot mount on the XE Pro R 21in front or 18in rear rim (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-shinko-525-cheater",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "110/100-18 and 120/100-18 variants fit the XE Pro R 18in rear wheel (not stock 100/90-18); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-shinko-525-soft-intermediate-terrain-tire",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+      ],
+      "notes": "100/100-18 and 110/100-18 variants fit the XE Pro R 18in rear wheel (not stock 100/90-18); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-shinko-sr241-ccw",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
+      ],
+      "notes": "3.00x21 front and 3.00x18 rear variants fit the XE Pro R 21/18in wheels; earlier not_compatible grade was based on the 2.75x19 listing only - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "Universal rim strip; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-dunlop-k990-tires-for-emoto",
+      "bike_id": "zero-xe",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto"
+      ],
+      "notes": "CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers the stock front size 70/100-21 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto"
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-cyber-street-tire",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+      ],
+      "notes": "CCW tags it ZXE; offers 90/100-18 rear for the stock 18in wheel (wider than stock 90/90-18); the 80/100-19 front does not fit the 21in front (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      ],
+      "notes": "CCW tags it ZXE; 90/100-18 rear fits the stock 18in wheel but is wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+    },
+    {
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "bike_id": "zero-xe",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "notes": "CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers 70/100-21 and 90/100-18 tubes for the stock 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+    },
+    {
+      "product_id": "tire-bridgestone-m203-ccw",
+      "bike_id": "zero-xe",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate"
+      ],
+      "notes": "CCW listing offers 70/100-19 max, no 21in front size vs Zero XE 21in front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate"
+    },
+    {
+      "product_id": "tire-bridgestone-m204-ccw",
+      "bike_id": "zero-xe",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire"
+      ],
+      "notes": "CCW listing offers only 90/100-16, 90/100-14 and 80/100-12 \u2014 no 18in rear size vs Zero XE 18in rear wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire"
+    },
+    {
+      "product_id": "tire-bridgestone-x30-ccw",
+      "bike_id": "zero-xe",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16"
+      ],
+      "notes": "CCW listing offers only 90/100-16 and 70/100-19 \u2014 no size fits the Zero XE 21in front / 18in rear wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16"
+    },
+    {
+      "product_id": "tire-bridgestone-x31",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18"
+      ],
+      "notes": "CCW tags it ZXE; offers 80/100-21 front and 110/100-18 rear \u2014 both fit the stock 21/18in wheels but neither is the stock size (70/100-21 front, 90/90-18 rear) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18"
+    },
+    {
+      "product_id": "tire-dunlop-mx14-sand-scoop-tire",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      ],
+      "notes": "CCW tags it ZXE; 110/100-18 rear fits the stock 18in wheel but is wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+    },
+    {
+      "product_id": "tire-dunlop-mx33-ccw",
+      "bike_id": "zero-xe",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto"
+      ],
+      "notes": "CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers the stock front size 70/100-21 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto"
+    },
+    {
+      "product_id": "tire-dunlop-mx34",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "CCW tags it ZXE; offers 80/100-21 front and 100/100-18 / 110/100-18 rears \u2014 fit the stock 21/18in wheels but not the stock sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires"
+    },
+    {
+      "product_id": "tire-dunlop-mx53-ccw",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires"
+      ],
+      "notes": "CCW tags it ZXE; offers 80/100-21 front and 100/100-18 rear \u2014 fit the stock 21/18in wheels but not the stock sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires"
+    },
+    {
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "CCW tags it ZXE; offers 80/100-21 front and 100/100-18 / 110/100-18 rears \u2014 fit the stock 21/18in wheels but not the stock sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+    },
+    {
+      "product_id": "tire-irc-ix-07s-21-front-tire-light-weight",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight"
+      ],
+      "notes": "CCW tags it ZXE; description states 80/100-21 for 21in front wheels \u2014 fits the stock 21in front but is wider than the stock 70/100-21; currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight"
+    },
+    {
+      "product_id": "tire-irc-ix09-gekkota-ccw",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16"
+      ],
+      "notes": "CCW tags it ZXE; offers 80/100-21 front and 110/100-18 rear \u2014 fit the stock 21/18in wheels but not the stock sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16"
+    },
+    {
+      "product_id": "tire-irc-jx8-gekkota-rear-gummy-tire",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire"
+      ],
+      "notes": "CCW tags it ZXE; 110/100-18 rear fits the stock 18in wheel but is wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire"
+    },
+    {
+      "product_id": "tire-irc-m5b-evo",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tire-m5b-evo-rear-130-80-18"
+      ],
+      "notes": "CCW tags it ZXE; 130/80-18 rear fits the stock 18in wheel but is much wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tire-m5b-evo-rear-130-80-18"
+    },
+    {
+      "product_id": "tire-irc-tr-8-street-legal",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee"
+      ],
+      "notes": "CCW tags it ZXE; offers 3.00x21 (about 80/100-21) front and 4.00x18 rear \u2014 fit the stock 21/18in wheels but not the stock sizes; the 3.00x21 variant is currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee"
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "zero-xe",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers 2.75/3.00x21 front and 3.25/4.10-18 rear tubes for the stock 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes"
+    },
+    {
+      "product_id": "tire-irc-ve33-ccw",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
+      ],
+      "notes": "CCW tags it ZXE; 100/100-18 rear fits the stock 18in wheel but is wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "zero-xe",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
+      ],
+      "notes": "CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers 2.75x21 (= stock 70/100-21 front) and 3.50x18 for the stock 21/18in wheels; the 2.75x21 variant is currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "zero-xe",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW listing offers only 70/100-19, 70/100-17 and 100/90-19 \u2014 no size fits the Zero XE 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
+    },
+    {
+      "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "notes": "CCW tags it ZXE; 80/100-21 front fits the stock 21in front wheel but is wider than the stock 70/100-21 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+    },
+    {
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "notes": "CCW tags it ZXE; 80/100-21 front fits the stock 21in front wheel but is wider than the stock 70/100-21 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+    },
+    {
+      "product_id": "tire-kenda-millville2-k785",
+      "bike_id": "zero-xe",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire"
+      ],
+      "notes": "CCW listing is a 70/100-19 front tire \u2014 no 21in front size vs Zero XE 21in front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire"
+    },
+    {
+      "product_id": "tire-kenda-washougal3-ccw",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
+      ],
+      "notes": "CCW tags it ZXE; offers 80/100-21 front and 90/100-18 rear \u2014 fit the stock 21/18in wheels but not the stock sizes; all CCW variants currently out of stock (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
+    },
+    {
+      "product_id": "tire-maxxis-mxsi",
+      "bike_id": "zero-xe",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+      ],
+      "notes": "CCW listing offers only 70/100-19, 90/100-16, 70/100-17 and 90/100-14 \u2014 no size fits the Zero XE 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+    },
+    {
+      "product_id": "tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19"
+      ],
+      "notes": "CCW description names the ZeroXE ('fit larger bikes like the Varg, ZeroXE, and Ultra Bee with an 18in rear') but requires a tire of 110 or larger \u2014 the stock rear tire is 90/90-18, so it only fits with a wider rear tire (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19"
+    },
+    {
+      "product_id": "tire-shinko-sr241-ccw",
+      "bike_id": "zero-xe",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
+      ],
+      "notes": "CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers 2.75x21 (= stock 70/100-21 front) and 3.50x18 rear for the stock 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
+    },
+    {
+      "product_id": "tire-tire-ve-33s-gekkota-rear-tire",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire"
+      ],
+      "notes": "CCW tags it ZXE; 110/100-18 rear fits the stock 18in wheel but is wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire"
+    },
+    {
+      "product_id": "tire-tusk-t35-front-ccw",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
+      ],
+      "notes": "CCW tags it ZXE; offers 80/100-21 front for the stock 21in front wheel, wider than the stock 70/100-21 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "zero-xe",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers 21in and 18in rim-strip sizes for the stock wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip"
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "90/100-18 rear tire cannot mount on the XF 14-inch rear rim. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "CCW offers no 17in or 14in tube variant; XF uses 70/100-17 front and 90/100-14 rear. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-bridgestone-m203-ccw",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate"
+      ],
+      "notes": "CCW search-by-bike (ALXF tag) lists this part for the XF; offers 70/100-17, the XF stock front size. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-bridgestone-m204-ccw",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire"
+      ],
+      "notes": "CCW search-by-bike (ALXF tag) lists this part for the XF; offers 90/100-14, the XF stock rear size. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-bridgestone-x30-ccw",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Rear tire offered in 90/100-16 and 70/100-19 only; neither matches the XF 17in front / 14in rear rims. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-bridgestone-x31",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Offered in 80/100-21 and 110/100-18 only; neither matches the XF 17in front / 14in rear rims. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-dunlop-mx14-sand-scoop-tire",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      ],
+      "notes": "CCW search-by-bike (ALXF tag) lists this part for the XF; offers 90/100-14, the XF stock rear size. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-dunlop-mx33-ccw",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Offered in 90/100-18 and 70/100-21 only; neither matches the XF 17in front / 14in rear rims. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-dunlop-mx34",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "CCW search-by-bike (ALXF tag) lists this part for the XF; offers 70/100-17 front and 90/100-14 rear, both XF stock sizes. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-dunlop-mx53-ccw",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Offered in 70/100-19, 80/100-21, 90/100-16, 100/100-18 and 100/90-19 only; no 17in or 14in size for the XF. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "CCW search-by-bike (ALXF tag) lists this part for the XF; offers 70/100-17 front and 90/100-14 rear, both XF stock sizes. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "CCW offers no 17in or 14in tube variant; XF uses 70/100-17 front and 90/100-14 rear. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only; no 17in or 14in size for the XF. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "arctic-leopard-xf",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "Rear tire; CCW offers a 70/100-17 variant matching the XF front rim diameter, but it is a rear-pattern tire - verify before buying. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "bike_id": "arctic-leopard-xf",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "notes": "Front-tire listing; CCW offers 90/100-14 (XF rear rim diameter) but no 70/100-17 for the XF front - verify before buying. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Offered in 70/100-19, 80/100-21, 90/100-16 and 100/90-19 only; no 70/100-17 for the XF front. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-kenda-washougal3-ccw",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Offered in 70/100-19, 90/100-16, 90/100-18 and 80/100-21 only; no 17in or 14in size for the XF. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-maxxis-mxsi",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+      ],
+      "notes": "CCW search-by-bike (ALXF tag) lists this part for the XF; offers 70/100-17 front and 90/100-14 rear, both XF stock sizes. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (ALXF tag) lists this part for the XF; offers 70/100-17 front and 90/100-14 rear tube sizes, both XF stock sizes. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-shinko-244-dualsport",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Offered in 2.75x19, 3.50x18, 3.00x21 and 2.75x21 only; no 17in or 14in size for the XF. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-shinko-525-cheater",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Offered in 90/100-16, 110/100-18 and 120/100-18 only; no 17in or 14in size for the XF. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-shinko-525-soft-intermediate-terrain-tire",
+      "bike_id": "arctic-leopard-xf",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": "Offered in 90/100-16, 100/90-19, 100/100-18 and 110/100-18 only; no 17in or 14in size for the XF. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-shinko-sr241-ccw",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
+      ],
+      "notes": "CCW search-by-bike (ALXF tag) lists this part for the XF; offers 2.75x17 front and 2.75x14 rear, the inch equivalents of the XF stock 70/100-17 front and 90/100-14 rear sizes. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-tusk-t35-front-ccw",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
+      ],
+      "notes": "CCW search-by-bike (ALXF tag) lists this part for the XF; offers 70/100-17, the XF stock front size. Corrects the earlier not_compatible row, which read the 21in variant name only. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW search-by-bike (ALXF tag) lists this part for the XF; offers 17in and 14in rim-strip sizes, matching the XF 17/14 wheels. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "chargedcycleworks-maxxis-maxxcross-intermediate-tire",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; the 90/100-14 variant fits the stock 14\" front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "bike_id": "rtr-sport",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      ],
+      "notes": "90/100-18 rear only; stock rear wheel is 12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+    },
+    {
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "bike_id": "rtr-sport",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "notes": "No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+    },
+    {
+      "product_id": "tire-dunlop-mx14-sand-scoop-tire",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; the 90/100-14 variant fits the stock 14\" front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+    },
+    {
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; offers the stock 14\" front sizes (60/100-14, 90/100-14) and 12\" rear sizes (60/100-12, 80/100-12) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "rtr-sport",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes"
+    },
+    {
+      "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; the 90/100-14 variant fits the stock 14\" front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+    },
+    {
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "bike_id": "rtr-sport",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "notes": "No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; offers 14\" front (60/100-14, 90/100-14) and 12\" rear (80/100-12) tube sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+    },
+    {
+      "product_id": "tire-shinko-525-soft-intermediate-terrain-tire",
+      "bike_id": "rtr-sport",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+      ],
+      "notes": "No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; offers 14\" x 7/8\" front and 12\" x 3/4\" rear rim strips (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip"
+    },
+    {
+      "product_id": "chargedcycleworks-maxxis-maxxcross-intermediate-tire",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+      ],
+      "notes": "CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; the 70/100-19 variant is the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-cyber-street-tire",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+      ],
+      "notes": "CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; the 80/100-19 variant is the exact stock rear size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      ],
+      "notes": "90/100-18 rear only; stock rear wheel is 19\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+    },
+    {
+      "product_id": "chargedcycleworks-shinko-524-19-tire",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-524-19-tire"
+      ],
+      "notes": "19-inch front tire matched to the 525 rear; CCW lists no size variant, so 70/100-19 (exact stock front) is unverified (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-524-19-tire"
+    },
+    {
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "notes": "CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers 70/100-19, the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+    },
+    {
+      "product_id": "tire-dunlop-mx14-sand-scoop-tire",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      ],
+      "notes": "CCW offers 19\" sizes (100/90-19, 110/90-19, 120/80-19) but not the stock 70/100-19 front or 80/100-19 rear — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+    },
+    {
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers 70/100-19, the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers 70/100-19 HD, the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes"
+    },
+    {
+      "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "notes": "No 19\" sizes (variants are 80/100-21, 90/100-16, 90/100-14 only); stock wheels are 19\"/19\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+    },
+    {
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "notes": "CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers 70/100-19, the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers 70/100-19 and 90/100-19 tubes for the stock 19\" wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+    },
+    {
+      "product_id": "tire-shinko-525-soft-intermediate-terrain-tire",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+      ],
+      "notes": "CCW offers a 100/90-19 rear, not the stock 80/100-19 rear — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers a 19\" x 1\" rim strip for the stock 19\" wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip"
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-cyber-street-tire",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+      ],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part, but the sizes (80/100-19, 90/100-18) do not match the stock sizes (70/100-19 front, 2.75-17 rear) - verify before buying (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      ],
+      "notes": "90/100-18 rear tire does not fit the stock 17in rear wheel (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+    },
+    {
+      "product_id": "chargedcycleworks-shinko-524-19-tire",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-524-19-tire"
+      ],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part; it is a 19in front tire but the exact size is not stated on the listing - verify it matches the stock 70/100-19 front before buying (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/shinko-524-19-tire"
+    },
+    {
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes Stock-size variant(s): 70/100-19."
+    },
+    {
+      "product_id": "tire-dunlop-mx14-sand-scoop-tire",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      ],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part, but no variant matches the stock tire sizes (70/100-19 front, 2.75-17 rear) - verify before buying (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+    },
+    {
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires Stock-size variant(s): 70/100-19, 70/100-17."
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/irc-tubes Stock-size variant(s): 70/100-19 HD 3mm."
+    },
+    {
+      "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part, but no variant matches the stock tire sizes (70/100-19 front, 2.75-17 rear) - verify before buying (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+    },
+    {
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire Stock-size variant(s): 70/100-19."
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260 Stock-size variant(s): 70/100-19, 70/100-17."
+    },
+    {
+      "product_id": "tire-shinko-525-soft-intermediate-terrain-tire",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+      ],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part, but no variant matches the stock tire sizes (70/100-19 front, 2.75-17 rear) - verify before buying (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "rawrr-mantis-x-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked Nov 11, 2026). Live URL https://chargedcycleworks.com/products/wps-rim-strip Stock-size variant(s): 19in, 17in."
+    },
+    {
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "notes": "CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; offers 80/100-21 front and 100/100-18 rear tubes for the stock 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; offers 80/100-21 front and 3.25/4.10-18 rear tubes covering the stock 100/90-18 rear (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes"
+    },
+    {
+      "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "notes": "CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; 80/100-21 is the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+    },
+    {
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "notes": "CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; 80/100-21 is the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+    },
+    {
+      "product_id": "tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19"
+      ],
+      "notes": "CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F, but it is sized for 110-140mm rear tires and the stock Storm Bee rear is 100/90-18 - fits only with a wider aftermarket rear tire (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19"
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; offers 80/100-21 front and 100/100-18 rear tubes for the stock 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; offers 21in and 18in strips for the stock wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip"
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Offers 70/100-19 front and 90/100-16 rear variants, the RFN Warrior Pro stock tire sizes."
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Offers 70/100-19 front and 90/100-16 rear variants, the RFN Warrior Pro stock tire sizes."
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "rfn-warrior-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Offers 19in and 16in variants for the RFN 19/16in wheels."
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "bike_id": "yozma-in10",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      ],
+      "notes": "Single-size 90/100-18 rear tire; stock IN10 wheels are 14in front / 12in rear, so it cannot fit (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+    },
+    {
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "bike_id": "yozma-in10",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "CCW search-by-bike (YZI10 tag) lists this part for the Yozma IN10 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires. Stock-size variant(s): 60/100-14 and 80/100-12."
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-cyber-street-tire",
+      "bike_id": "yozma-in10",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+      ],
+      "notes": "CCW tags it YZI10, but offers 80/100-19 and 90/100-18 only; no 14in or 12in size for the IN10 (stock 14in/12in wheels). (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "yozma-in10",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (YZI10 tag) lists this part for the Yozma IN10 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260. Stock-size variant(s): 60/100-14 and 80/100-12."
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "bike_id": "yozma-in10-pro",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      ],
+      "notes": "Single-size 90/100-18 rear tire; stock IN10 Pro wheels are 17in front / 14in rear, so it cannot fit (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+    },
+    {
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "bike_id": "yozma-in10-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "CCW search-by-bike (YZI10P tag) lists this part for the Yozma IN10 Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires. Stock-size variant(s): 70/100-17 and 90/100-14."
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-cyber-street-tire",
+      "bike_id": "yozma-in10-pro",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+      ],
+      "notes": "CCW tags it YZI10P, but offers 80/100-19 and 90/100-18 only; no 17in or 14in size for the IN10 Pro (stock 17in/14in wheels). (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "yozma-in10-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (YZI10P tag) lists this part for the Yozma IN10 Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260. Stock-size variant(s): 70/100-17 and 90/100-14."
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "bike_id": "rtr-alpha",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      ],
+      "notes": "Single-size 90/100-18 rear tire; stock RTR Alpha wheels are 14\" front / 12\" rear, so it cannot fit (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+    },
+    {
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "bike_id": "rtr-alpha",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "notes": "No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+    },
+    {
+      "product_id": "tire-dunlop-mx14-sand-scoop-tire",
+      "bike_id": "rtr-alpha",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha; the 90/100-14 variant fits the stock 14\" front wheel but is not the stock 60/100-14 size - verify width/clearance before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+    },
+    {
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "bike_id": "rtr-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha; offers the stock sizes 60/100-14 ($51.99) and 80/100-12 ($52.99), both in stock (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "rtr-alpha",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes"
+    },
+    {
+      "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "bike_id": "rtr-alpha",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha; the 90/100-14 variant fits the stock 14\" front wheel but is not the stock 60/100-14 size - verify width/clearance before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+    },
+    {
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "bike_id": "rtr-alpha",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "notes": "No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "rtr-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha; offers 60/100-14 and 80/100-12 tube sizes ($11.95 each), both in stock (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+    },
+    {
+      "product_id": "tire-shinko-525-soft-intermediate-terrain-tire",
+      "bike_id": "rtr-alpha",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+      ],
+      "notes": "No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "rtr-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha; offers 14\" x 7/8\" front and 12\" x 3/4\" rear rim strips (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip"
+    },
+    {
+      "product_id": "chargedcycleworks-maxxis-maxxcross-intermediate-tire",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+      ],
+      "notes": "CCW offers 70/100-17 (R17 front) and 90/100-14 (R17 rear) — fits only with the R17 upsizing kit; no stock 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+    },
+    {
+      "product_id": "chargedcycleworks-shinko-524-19-tire",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-524-19-tire"
+      ],
+      "notes": "19-inch tire only — no 14-inch or 12-inch size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-524-19-tire"
+    },
+    {
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "notes": "CCW offers no 14-inch or 12-inch tube size (smallest is 90/100-16) — cannot fit the stock 14/12 wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+    },
+    {
+      "product_id": "tire-bridgestone-m203-ccw",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate"
+      ],
+      "notes": "CCW offers the 60/100-14 variant, the exact stock front tire size, and lists the part for the Mantis Mini (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate"
+    },
+    {
+      "product_id": "tire-bridgestone-m204-ccw",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire"
+      ],
+      "notes": "CCW offers 90/100-14 (R17 rear size) and 80/100-12 (one size up from the stock 2.75-12 rear), but no exact stock size — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire"
+    },
+    {
+      "product_id": "tire-bridgestone-x30-ccw",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16"
+      ],
+      "notes": "CCW offers 90/100-16 and 70/100-19 only — no 14-inch front or 12-inch rear size for the stock Mini R wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16"
+    },
+    {
+      "product_id": "tire-bridgestone-x31",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18"
+      ],
+      "notes": "CCW offers 80/100-21 and 110/100-18 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18"
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "CCW offers no 14-inch or 12-inch tube size (smallest is 90/100-16) — cannot fit the stock 14/12 wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes"
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
+      ],
+      "notes": "CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only — no 14-inch or 12-inch size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW offers 70/100-17, the R17 front size — fits only with the R17 upsizing kit; no 14-inch stock-front size. All variants currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
+    },
+    {
+      "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "notes": "CCW offers 90/100-14, the R17 rear size — fits only with the R17 upsizing kit; no stock 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+    },
+    {
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "notes": "CCW offers 70/100-19, 80/100-21, 90/100-16 and 100/90-19 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+    },
+    {
+      "product_id": "tire-kenda-millville2-k785",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire"
+      ],
+      "notes": "70/100-19 front tire only — no 14-inch size for the stock front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire"
+    },
+    {
+      "product_id": "tire-kenda-washougal3-ccw",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
+      ],
+      "notes": "CCW offers 70/100-19, 90/100-16, 90/100-18 and 80/100-21 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW offers the 60/100-14 variant ($11.95), the exact stock front tube size, and lists the part for the Mantis Mini; the only 12-inch rear variant is 80/100-12, one size up from the stock 2.75-12 rear — verify for the rear (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+    },
+    {
+      "product_id": "tire-shinko-244-dualsport",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-244-dual-sport-tires"
+      ],
+      "notes": "CCW offers 2.75x19, 3.50x18, 3.00x21 and 2.75x21 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-244-dual-sport-tires"
+    },
+    {
+      "product_id": "tire-shinko-525-cheater",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW offers 90/100-16, 110/100-18 and 120/100-18 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260"
+    },
+    {
+      "product_id": "tire-shinko-525-soft-intermediate-terrain-tire",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+      ],
+      "notes": "CCW offers 90/100-16, 100/90-19, 100/100-18 and 110/100-18 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+    },
+    {
+      "product_id": "tire-shinko-sr241-ccw",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
+      ],
+      "notes": "CCW offers 2.75x14 front and 3.00x12 rear — same wheel diameters as stock but wider than the stock 60/100-14 front / 2.75x12 rear — verify clearance before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19"
+    },
+    {
+      "product_id": "tire-tusk-recon-ccw",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tusk-recon-sticky-19-tire-for-surron-segway"
+      ],
+      "notes": "CCW offers 70/100-19 and 90/100-16 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-recon-sticky-19-tire-for-surron-segway"
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW offers 14-inch x 7/8-inch (front) and 12-inch x 3/4-inch (rear) rim strips, the exact stock wheel sizes, and lists the part for the Mantis Mini (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip"
     }
   ]
 }

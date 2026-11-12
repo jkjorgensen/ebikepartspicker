@@ -1846,10 +1846,16 @@
     },
     {
       "id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "_fit_src": {
+        "falcon-gt": "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      },
+      "_fit": {
+        "79BIKE Falcon GT": "direct_fit"
+      },
       "name": "Ventus VTB V9600 Gen.2 Wiring Harness 1.7",
       "brand": "Pinned Electric",
       "category": "electrical",
-      "price_usd": 60.0,
+      "price_usd": 90.0,
       "vendor": "Charged Cycle Works",
       "buy_url": "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7",
       "tier": "midrange",
@@ -2045,6 +2051,78 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-high-voltage-fuse-kit-replacement-fuses.webp"
+    },
+{
+      "id": "chargedcycleworks-rawrr-mantis-mini-magnetic-switch",
+      "name": "Rawrr Mantis Mini – Magnetic Safety Switch | OEM",
+      "brand": "Rawrr",
+      "category": "electrical",
+      "badge": "Rawrr",
+      "tier": "OEM",
+      "price_usd": 25.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rawrr-mantis-mini-magnetic-switch",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 25.99,
+          "buy_url": "https://chargedcycleworks.com/products/rawrr-mantis-mini-magnetic-switch"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rawrr-mantis-mini-magnetic-switch"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW fitment: 'Rawrr Mantis Mini, Mini R, Mini R17' — genuine OEM magnetic safety switch, disables throttle when the key is removed (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-magnetic-switch",
+      "sizes": null,
+      "position": null,
+      "image": null,
+      "_fit": {
+        "Rawrr Mantis Mini R": "direct_fit"
+      },
+      "_fit_src": {
+        "rawrr-mantis-mini-r": "https://chargedcycleworks.com/products/rawrr-mantis-mini-magnetic-switch"
+      }
+    },
+{
+      "id": "chargedcycleworks-rawrr-mantis-mini-r-r17-oem-display",
+      "name": "Rawrr Mantis Mini R/R17 - OEM Display",
+      "brand": "Rawrr",
+      "category": "electrical",
+      "badge": "Rawrr",
+      "tier": "OEM",
+      "price_usd": 55.68,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 55.68,
+          "buy_url": "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: 'Rawrr Mantis Mini R/R17, 72V Display', part 03-06-05 — genuine OEM (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display",
+      "sizes": null,
+      "position": null,
+      "image": null,
+      "_fit": {
+        "Rawrr Mantis Mini R": "direct_fit"
+      },
+      "_fit_src": {
+        "rawrr-mantis-mini-r": "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display"
+      }
     }
   ],
   "compatibility": [
@@ -3271,6 +3349,36 @@
         "https://chargedcycleworks.com/products/gigigo-gi03-headlight"
       ],
       "notes": "CCW fitment list names Arctic Leopard XE PRO / PRO S (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "CCW fitment text names the 79Bike Falcon GT (Ventus) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+    },
+    {
+      "product_id": "chargedcycleworks-rawrr-mantis-mini-magnetic-switch",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rawrr-mantis-mini-magnetic-switch"
+      ],
+      "notes": "CCW fitment: 'Rawrr Mantis Mini, Mini R, Mini R17' — genuine OEM magnetic safety switch, disables throttle when the key is removed (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-magnetic-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-rawrr-mantis-mini-r-r17-oem-display",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display"
+      ],
+      "notes": "CCW: 'Rawrr Mantis Mini R/R17, 72V Display', part 03-06-05 — genuine OEM (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display"
     }
   ]
 }

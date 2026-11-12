@@ -1,5 +1,5 @@
 /* eBikePartsPicker catalog. Catalog v4.15.4, last researched 2026-11-10.
-   46 bikes / 23 categories / 1209 parts (1202 listed, 7 hidden).
+   46 bikes / 23 categories / 1256 parts (1249 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
    && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py
@@ -186,10 +186,11 @@ var CATEGORIES = [
     {name:'VTB 28kW Light E-moto Motor', pid:'vtb-28kw-light', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:799, url:'https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor', chk:'2026-10-18'},
+      {v:'GritShift', p:799.99, url:'https://gritshift.com/products/ventus-28kw-motor', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20"], likely:["ultrabee","storm-bee","mx4","mx5","komodo","sr","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd","ss30"], no:[],
-     badge:'VTB 28kW', motorKw:28, motorPeakKw:28, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-28kw-light.webp'
+     fits:['lightbee','ss20','falcon-gt','ss40','falcon-pro'], likely:['ultrabee','storm-bee','mx4','mx5','komodo','sr','ventus-plus','ventus-evo','bonnell-805rx','arctic-xd','ss30'], no:[],
+     badge:'VTB 28kW', motorKw:28, motorPeakKw:28, stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/vtb-28kw-light.webp'
     },
     {name:'Ventus Ryuga 81kW Motor', pid:'ventus-ryuga-81kw', tier:'premium',
      prices:[
@@ -204,9 +205,11 @@ var CATEGORIES = [
     {name:'Ventus Ryuga 52kW Motor', pid:'ventus-ryuga-52kw', tier:'premium',
      prices:[
       {v:'TB Electric Moto', p:1199, url:'https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1', chk:'2026-10-18'},
+      {v:'GritShift', p:1199.99, url:'https://gritshift.com/products/ventus-vtb-ryuga-52kw-motor-upgrade', chk:'2026-11-11'},
+      {v:'Pinned Electric', p:1199, url:'https://pinnedelectric.com/products/ventus-vtb-motor-ryuga-52kw-for-surron-lightbee-79bike-or-eridepro-hairpin', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["ss20","ss30","ventus-plus","ventus-evo"], no:[],
+     fits:['lightbee','ventus-plus','falcon-pro','falcon-gt','ss40'], likely:['ss20','ss30','ventus-evo'], no:[],
      badge:'Ryuga 52kW', motorKw:52.5, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ventus-ryuga-52kw.webp'
     },
     {name:'TORP TM25 Motor', pid:'torp-tm25', tier:'midrange',
@@ -305,6 +308,48 @@ var CATEGORIES = [
      fits:['ultrabee'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-prickly-ultra-bee-motor-cover.webp'
     },
+    {name:'E-Conic Yozma IN10 Gear Reduction Motor', pid:'econic-yozma-in10-gear-reduction-motor', tier:'budget',
+     prices:[
+      {v:'E-Conic Cycles', p:315, url:'https://econiccycles.com/products/yozma-in10-valtinsu-em-5-tasaca-v58-upgraded-gear-reduction-motor-w-420-14t-sprocket', chk:'2026-11-11'},
+     ],
+     fits:['yozma-in10'], likely:[], no:[],
+     badge:'Gear Reduction', motorKw:10.8, stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'E&Co Revolver Alpha 70H Motor', pid:'eco-rtr-alpha-revolver-motor-70h', tier:'budget',
+     prices:[
+      {v:'Electro & Co', p:359, url:'https://electroandcompany.com/products/motor-etm-rtr-alpha-revolver-motor-70h', chk:'2026-11-11'},
+     ],
+     fits:['rtr-sport'], likely:[], no:[],
+     badge:'Revolver Alpha 70H', motorKw:18, stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'E&Co High Speed Mod Motor', pid:'eco-rtr-high-speed-mod-motor', tier:'budget',
+     prices:[
+      {v:'TB Electric Moto', p:349, url:'https://tbelectricmoto.com/products/etm-rtr-high-speed-mod-motor', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     badge:'High Speed Mod', motorKw:13, stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'E&Co Revolver Alpha Motor & 420 Chain Conversion Kit', pid:'eco-rtr-revolver-alpha-420-kit', tier:'midrange',
+     prices:[
+      {v:'Electro & Co', p:449, url:'https://electroandcompany.com/products/rtr-revolver-motor-420-chain-conversion-kit', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     badge:'Revolver Alpha Kit', motorKw:18, stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'E&Co High Torque Mod Motor', pid:'eco-rtr-high-torque-mod-motor', tier:'budget',
+     prices:[
+      {v:'Electro & Co', p:299, url:'https://electroandcompany.com/products/etm-rtr-high-torque-mod-motor', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     badge:'High Torque Mod', motorKw:5, stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'KyVex Billet Motor Cover \u2013 Surron LBX / Ventus One / 79Bike', pid:'chargedcycleworks-kyvex-billet-motor-cover-79bike', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:75, url:'https://chargedcycleworks.com/products/kyvex-billet-motor-cover-compatible-w-surron-lbx-ventus-one-79bike', chk:'2026-11-11'},
+     ],
+     fits:['falcon-pro','falcon-gt'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
+    }
   ]},
   {id:'controller', name:'Controller', blurb:'The controller is the brain — it meters power from the battery to the motor and sets how the bike feels.', tips:['Voltage range must cover your battery','Match phase amps to your motor — too small chokes it','Some bikes need a wiring harness adapter — check fitment','App and Bluetooth tuning varies a lot by brand'], options:[
     {name:'Stock controller', prices:[]},
@@ -609,6 +654,7 @@ var CATEGORIES = [
     {name:'Sirris F43 CMX Fork (Arctic Leopard XE Pro R)', pid:'sirris-f43-cmx-arctic-leopard-xe-pro-r', tier:'premium',
      prices:[
       {v:'SIRRIS', p:2350, url:'https://ridesirris.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-r', chk:'2026-10-21'},
+      {v:'Charged Cycle Works', p:2350, url:'https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-arctic-leopard-xe-pro-r', chk:'2026-11-11'},
      ],
      fits:["arctic-leopard-xe-pro-r"], likely:[], no:[],
      badge:'Sirris', stock:'in_stock', stockChk:'2026-10-21', wtKg:8, img:'img/parts/sirris-f43-cmx-arctic-leopard-xe-pro-r.webp'
@@ -883,7 +929,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:1699, url:'https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork', chk:'2026-11-10'},
      ],
-     fits:['sr','ventus-evo'], likely:['altis-sigma'], no:[],
+     fits:['sr','ventus-evo','falcon-pro','falcon-gt'], likely:['altis-sigma'], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tech-suspension-e39-racing-kashima-fork.webp'
     },
     {name:'RFloXa HAWK36 MAX Fork – Arctic Leopard XE Pro S | 228mm', pid:'chargedcycleworks-rfloxa-hawk36-max-fork', tier:'premium',
@@ -938,6 +984,13 @@ var CATEGORIES = [
      ],
      fits:['stark-vargex'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'RFloXa Hawk31 Max Plus Fork for Lightweight eMoto', pid:'chargedcycleworks-rfloxa-hawk31-max-plus-fork-1', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:1099, url:'https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1', chk:'2026-11-11'},
+     ],
+     fits:[], likely:['falcon-pro'], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
     }
 ]},
   {id:'shock', name:'Shock', blurb:'Rear suspension — traction and comfort over chatter.', tips:['Eye-to-eye length and stroke must match stock','Spring rate should suit your weight','Pairs with linkage choice on some bikes'], options:[
@@ -971,7 +1024,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:979, url:'https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['lightbee','sr','ss20','ss30','ventus-plus'], likely:['ventus-evo'], no:[],
+     fits:['lightbee','sr','ss20','ss30','ventus-plus','falcon-gt'], likely:['ventus-evo'], no:[],
      badge:'TECH ER30', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tech-er30-283.webp'
     },
     {name:'EXT Arma MX Rear Shock', pid:'ext-arma-mx', tier:'premium',
@@ -1265,21 +1318,21 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:955, url:'https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock', chk:'2026-11-10'},
      ],
-     fits:['sr','ss30','ventus-evo','ventus-plus'], likely:[], no:[],
+     fits:['sr','ss30','ventus-evo','ventus-plus','falcon-pro','falcon-gt'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tech-suspension-er34-racing-kashima-shock.webp'
     },
     {name:'Vonkat TENfive V2 Shock for SurRon Talaria Segway', pid:'chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:699, url:'https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway', chk:'2026-11-10'},
      ],
-     fits:['mx5','sr','altis-sigma','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['mx5','sr','altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway.webp'
     },
     {name:'Warp9 4mm Neoprene Shock Cover – Surron / Talaria / E-Ride Pro', pid:'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:17, url:'https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto', chk:'2026-11-10'},
      ],
-     fits:['ss30','rawrr-mantis-x','altis-sigma','arctic-leopard-xe-pro-s','lightbee2','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['ss30','rawrr-mantis-x','altis-sigma','arctic-leopard-xe-pro-s','lightbee2','arctic-leopard-xe-pro-s-enduro','rawrr-mantis-72v','ss40','falcon-pro','falcon-gt'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto.webp'
     },
     {name:'Warp9 FastAce Gravitee AHX12RV + Warp 9 Triple Clamps Suspension Bundle', pid:'chargedcycleworks-fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle', tier:'midrange',
@@ -1293,8 +1346,15 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:259, url:'https://chargedcycleworks.com/products/rfloxa-rab53rv', chk:'2026-11-11'},
      ],
-     fits:['ventus-evo','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['ventus-evo','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/rfloxa-rab53rv.webp'
+    },
+    {name:'ETM RTR Race Shock', pid:'chargedcycleworks-etm-rtr-race-shock', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:149, url:'https://chargedcycleworks.com/products/etm-rtr-race-shock', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite','rtr-sport'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Sirris R38 | 2SC | Arctic Leopard XE Pro S/Enduro/R', pid:'chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s-enduro-r', tier:'premium',
      prices:[
@@ -1314,7 +1374,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:899.0, url:'https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:[], no:[],
      badge:'Sirris', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'RFloXa RAB50RC', pid:'chargedcycleworks-rfloxa-rab50rc', tier:'midrange',
@@ -1386,7 +1446,7 @@ var CATEGORIES = [
       {v:'eMotoZone', p:599.99, url:'https://emotozone.com/products/ion-surron-light-bee-e-ride-pro-2-0-talaria-x3-16-19-wheelset', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","ss20","falcon-pro","falcon-gt"], likely:["ultrabee","storm-bee","ventus-plus","ventus-evo","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['lightbee','ss20','falcon-pro','falcon-gt','ventus-evo'], likely:['ultrabee','storm-bee','ventus-plus','ss30','ss40','sr','mx4','mx5','komodo','bonnell-805rx','arctic-xd'], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/wheels-ion-lightbee-eride20.webp'
     },
     {name:'ION E Ride Pro 3.0 / SR 16/19-Inch Wheelset', pid:'wheels-ion-eride30-sr-1619', tier:'midrange',
@@ -1634,28 +1694,28 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:35.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-rear-wheel-spacers-oem', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Arctic Leopard - XE Rear Axle | OEM', pid:'chargedcycleworks-arctic-leopard-xe-rear-axle-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:45.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-rear-axle-oem', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'16" Rear Wheel for Arctic Leopard XE Pro', pid:'chargedcycleworks-arctic-leopard-xe-pro-16-rear-wheel', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:299.0, url:'https://chargedcycleworks.com/products/arcticleopardxepro-16wheel', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s'], no:[],
+     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Arctic Leopard - XE Pro Front Wheel Spacers | OEM', pid:'chargedcycleworks-arctic-leopard-xe-pro-front-wheel-spacers-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:29.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-front-wheel-spacers-oem', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'TMB Wheel Spacer Set - Arctic Leopard XE Pro S / Pro R / Vetra', pid:'chargedcycleworks-tmb-wheel-spacer-set-arctic-leopard-xe-pro-s', tier:'midrange',
@@ -1669,49 +1729,49 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:599.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-takeoff-wheelset', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-r'], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Arctic Leopard - XE Front Axle | OEM', pid:'chargedcycleworks-arctic-leopard-xe-front-axle-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:45.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-front-axle-oem', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ION - Arctic Leopard XE PRO / Vetra Blazer - 18/21" Wheelset', pid:'chargedcycleworks-ion-18-21-wheelset-for-arctic-leopard-xe-pro-s', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:499.0, url:'https://chargedcycleworks.com/products/ion-18-21-wheelset-for-arctic-leopard-xe-pro-s', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      badge:'ION', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ION - Arctic Leopard XE PRO / Vetra Blazer - 17" Supermoto Wheelset', pid:'chargedcycleworks-ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:599.0, url:'https://chargedcycleworks.com/products/ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xf'], no:[],
      badge:'ION', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ION - Arctic Leopard XE PRO / Vetra Blazer - 16/19" Wheelset', pid:'chargedcycleworks-ion-16-19-wheelset-for-arctic-leopard-xe-pro-s', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:469.0, url:'https://chargedcycleworks.com/products/ion-16-19-wheelset-for-arctic-leopard-xe-pro-s', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:[], no:[],
      badge:'ION', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ION - 21" Front Wheel Upgrade for Arctic Leopard XE Pro / Vetra Blazer', pid:'chargedcycleworks-ion-21-front-wheel-upgrade-arctic-leopard-xe-pro-s', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:249.0, url:'https://chargedcycleworks.com/products/21-front-wheel-upgrade-arctic-leopard-xe-pro', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:[], no:[],
      badge:'ION', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ION - 16" Rear Wheel Upgrade for Arctic Leopard XE PRO / Vetra Blazer', pid:'chargedcycleworks-ion-16-rear-wheel-upgrade-arctic-leopard-xe-pro-s', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:249.0, url:'https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-arctic-leopard-xe-pro-s', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xf'], no:[],
      badge:'ION', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ION - E Ride Pro 3.0 / SR - 17" Supermoto Wheelset', pid:'chargedcycleworks-ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr', tier:'midrange',
@@ -1980,6 +2040,34 @@ var CATEGORIES = [
      fits:['ultrabee'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-17-supermoto-wheelset-for-surron-ultra-bee.webp'
     },
+    {name:'ETM RTR | 14in Supermoto Wheel Set', pid:'chargedcycleworks-etm-rtr-14in-supermoto-wheel-set', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:349, url:'https://chargedcycleworks.com/products/etm-rtr-14in-supermoto-wheel-set', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR | 12in Supermoto Wheel Set', pid:'chargedcycleworks-etm-rtr-12in-supermoto-wheel-set', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:249, url:'https://chargedcycleworks.com/products/etm-rtr-12in-supermoto-wheel-set', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - Big Wheel Kit', pid:'chargedcycleworks-etm-rtr-big-wheel-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:349.99, url:'https://chargedcycleworks.com/products/etm-rtr-big-wheel-kit', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'Electro & Company ETM RTR 2025 Complete Wheelset', pid:'chargedcycleworks-etm-rtr-2025-complete-wheelset', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:275, url:'https://chargedcycleworks.com/products/etm-rtr-2025-complete-wheelset', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
+    },
     {name:'Warp9 18/21" Wheelset for Surron Ultra Bee', pid:'chargedcycleworks-ultra-bee-18-21-wheel-and-tire-combo-warp9', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:895, url:'https://chargedcycleworks.com/products/ultra-bee-18-21-wheel-and-tire-combo-warp9', chk:'2026-11-10'},
@@ -2055,7 +2143,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:699, url:'https://chargedcycleworks.com/products/ion-17-supermoto-wheelset', chk:'2026-11-10'},
      ],
-     fits:["falcon-pro","falcon-gt"], likely:[], no:[],
+     fits:['falcon-pro','falcon-gt','ventus-evo'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10'
     },
     {name:'Warp9 18/21 Complete Wheel & Tire Combo', pid:'chargedcycleworks-warp9-18-21-combo-lbx-falcon', tier:'midrange',
@@ -2069,7 +2157,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/tmb-wheel-spacer-set-arctic-leopard-xe-pro', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-tmb-wheel-spacer-set-arctic-leopard-xe-pro.webp'
     },
     {name:'ION - 21" Front Wheel Upgrade for Arctic Leopard XE Pro / Vetra Blazer', pid:'chargedcycleworks-21-front-wheel-upgrade-arctic-leopard-xe-pro', tier:'midrange',
@@ -2104,7 +2192,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:16, url:'https://chargedcycleworks.com/products/bearing-kit-front-wheel', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
+     fits:['rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Tusk Rear Wheel for Stark Varg', pid:'wheels-tusk-rear-wheel-stark-varg', tier:'midrange',
@@ -2122,6 +2210,22 @@ var CATEGORIES = [
      ],
      fits:['stark-vargex'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'Rawrr – Mantis Mini R Upsizing Kit', pid:'chargedcycleworks-rawrr-mantis-mini-wheel-assemblies', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:399, url:'https://chargedcycleworks.com/products/rawrr-mantis-mini-wheel-assemblies', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:['rawrr-mantis-mini-r'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'Rawrr Mantis Mini R - OEM 12/14 Wheelset Upgrade Kit', pid:'chargedcycleworks-rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:350, url:'https://chargedcycleworks.com/products/rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:['rawrr-mantis-mini-r'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
     }
   ]},
   {id:'brakes', name:'Brakes', blurb:'As the bike gets faster, stopping matters more. Bigger rotors and better calipers transform confidence.', tips:['Rotor size changes may need a caliper relocation bracket','Match master cylinder to caliper','Pad compound: organic for feel, sintered for bite and life'], options:[
@@ -2213,7 +2317,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/performance-brake-pads-for-emoto', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['lightbee','mx4','mx5','sr','ultrabee','arctic-leopard-xe-pro-s','ss20','ss30','arctic-leopard-xe-pro-s-enduro'], likely:['ventus-plus'], no:[],
+     fits:['lightbee','mx4','mx5','sr','ultrabee','arctic-leopard-xe-pro-s','ss20','ss30','arctic-leopard-xe-pro-s-enduro'], likely:['ventus-plus','arctic-leopard-xf'], no:[],
      badge:'Pads', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/charged-brake-pads-emoto.webp'
     },
     {name:'Warp9 Surron Ultra Bee 260mm Front Brake Bracket', pid:'warp9-260mm-bracket-ultrabee', tier:'performance',
@@ -2510,14 +2614,14 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:779, url:'https://chargedcycleworks.com/products/formula-eb9', chk:'2026-11-10'},
      ],
-     fits:['mx5','sr','ss30','ventus-plus','altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['mx5','sr','ss30','ventus-plus','altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','ventus-evo'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-formula-eb9.webp'
     },
     {name:'Arctic Leopard - XE/XF Brake Lever | OEM Front & Rear', pid:'chargedcycleworks-arctic-leopard-xe-xf-brake-lever-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:12.5, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s'], no:[],
+     fits:['arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-s'], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'AL XE Pro Brake Pad (Arctic Leopard XE Pro OEM)', pid:'chargedcycleworks-al-xe-pro-brake-pad-oem', tier:'OEM',
@@ -2601,7 +2705,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:29.95, url:'https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria', chk:'2026-11-10'},
      ],
-     fits:['mx5','sr','ultrabee','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['mx5','sr','ultrabee','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['arctic-leopard-xf'], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-project9-brake-pads-for-eride-surron-talaria.webp'
     },
     {name:'Surron Ultra Bee - Handlebar Upper Mount', pid:'chargedcycleworks-surron-ultra-bee-brake-lever-mount', tier:'OEM',
@@ -2744,6 +2848,48 @@ var CATEGORIES = [
      fits:['ultrabee'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-surron-ultra-bee-240-x-3-20-mm-fixed-rotor.webp'
     },
+    {name:'ETM RTR | Wave Rotors', pid:'chargedcycleworks-etm-rtr-wave-rotors', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:34.99, url:'https://chargedcycleworks.com/products/etm-rtr-wave-rotors', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - OEM Rear Brake Assembly', pid:'chargedcycleworks-etm-rtr-oem-rear-brake-assembly', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:80, url:'https://chargedcycleworks.com/products/etm-rtr-oem-rear-brake-assembly', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - OEM Front Brake Assembly', pid:'chargedcycleworks-etm-rtr-oem-complete-front-brake-assembly', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:80, url:'https://chargedcycleworks.com/products/etm-rtr-oem-complete-front-brake-assembly', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - OEM Brake Rotor', pid:'chargedcycleworks-etm-rtr-oem-brake-rotor', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:28, url:'https://chargedcycleworks.com/products/etm-rtr-oem-brake-rotor', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - OEM Brake Pads', pid:'chargedcycleworks-etm-rtr-oem-brake-pads', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:29, url:'https://chargedcycleworks.com/products/etm-rtr-oem-brake-pads', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - OEM Brake Lever', pid:'chargedcycleworks-etm-rtr-oem-brake-lever', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:15, url:'https://chargedcycleworks.com/products/etm-rtr-oem-brake-lever', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
     {name:'Warp9 Surron Ultra Bee 260mm Floating Front Rotor', pid:'chargedcycleworks-surron-ultra-bee-260mm-floating-front-rotor', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/surron-ultra-bee-260mm-floating-front-rotor', chk:'2026-11-10'},
@@ -2757,6 +2903,14 @@ var CATEGORIES = [
      ],
      fits:['ultrabee'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-ultra-bee-brake-lever.webp'
+    },
+    {name:'KKE Front 220MM Front Brake Rotor w/ Adapter', pid:'chargedcycleworks-kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:[], likely:['rawrr-mantis-72v'], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 Ultra Bee Titanium Brake Rotor Bolts', pid:'chargedcycleworks-surron-ultra-bee-titanium-rotor-bolts-by-warp9', tier:'midrange',
      prices:[
@@ -2826,14 +2980,14 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
+     fits:['rawrr-mantis-x','rawrr-mantis-72v'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ASV F3-E Unbreakable Brake Levers for E Ride 2.0 | Rawrr', pid:'chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:175, url:'https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
+     fits:['rawrr-mantis-x','rawrr-mantis-72v'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ZAP Competition Folder Lever Set for Stark Varg', pid:'brakes-zap-competition-folder-lever-set-stark-varg', tier:'mid',
@@ -3567,7 +3721,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:25.95, url:'https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate', chk:'2026-11-11'},
      ],
-     fits:['ventus-evo','rawrr-mantis-x','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['ventus-evo','rawrr-mantis-x','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf','rawrr-mantis-72v'], likely:['arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/plastics-odi-downhill-e-bike-number-plate.webp'
     },
     {name:'ODI (Style) Front Number Plate for E-Moto', pid:'plastics-odi-style-front-number-plate', tier:'budget',
@@ -3576,6 +3730,20 @@ var CATEGORIES = [
      ],
      fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
      badge:'ODI', stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR Complete Body Plastic Kit', pid:'chargedcycleworks-etm-rtr-complete-body-plastic-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:89.99, url:'https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - OEM Rear Fender', pid:'chargedcycleworks-rear-fender-etm-rtr-2025', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:13, url:'https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Extended Rear Fender V2 W/Side Shrouds', pid:'chargedcycleworks-extended-rear-fender-v2-side-shrouds', tier:'midrange',
      prices:[
@@ -3928,6 +4096,7 @@ var CATEGORIES = [
     {name:'Tusk Chub 1-1/8" Big Bar (Storm Bee)', pid:'tusk-chub-118-stormbee', tier:'budget',
      prices:[
       {v:'Adventure Parts', p:53.99, url:'https://adventurepartsllc.com/products/tusk-chub-1-1-8-big-bar-sur-ron-storm-bee-2023-2025', chk:'2026-11-04'},
+      {v:'Charged Cycle Works', p:53.99, url:'https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars', chk:'2026-11-11'},
      ],
      fits:["storm-bee"], likely:[], no:[],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-11-04', img:'img/parts/tusk-chub-118-stormbee.webp'
@@ -3937,7 +4106,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:87, url:'https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['lightbee','mx4','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['ultrabee','storm-bee','ventus-plus','ventus-evo','komodo','bonnell-805rx','arctic-xd','mx5','sr','ss20','ss30','ss40','rawrr-mantis-x'], no:[],
+     fits:['lightbee','mx4','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['ultrabee','storm-bee','ventus-plus','ventus-evo','komodo','bonnell-805rx','arctic-xd','mx5','sr','ss20','ss30','ss40','rawrr-mantis-x','arctic-leopard-xe-pro-r','arctic-leopard-xf','rawrr-mantis-72v'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/warp9-3in-rise.webp'
     },
     {name:'Prickly 50mm Rise Handlebar (31.8mm)', pid:'prickly-50mm-318', tier:'midrange',
@@ -4072,7 +4241,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:103.46, url:'https://chargedcycleworks.com/products/odi-podium-mx-handlebars', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ventus-evo','stark-vargex','lightbee2'], likely:['arctic-leopard-xe-pro-s'], no:[],
+     fits:['ventus-evo','stark-vargex','lightbee2','storm-bee','rfn-warrior-pro'], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r','zero-xe'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/handlebar-odi-podium-mx-handlebars.webp'
     },
     {name:'Renthal FatBar MX Handlebar 28.6mm', pid:'handlebar-renthal-fatbar-1-1-8', tier:'premium',
@@ -4080,7 +4249,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:121.46, url:'https://chargedcycleworks.com/products/renthal-fatbar-1-1-8', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2'], likely:['arctic-leopard-xe-pro-s'], no:[],
+     fits:['ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro'], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r','zero-xe','arctic-leopard-xf','rawrr-mantis-72v'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/handlebar-renthal-fatbar-1-1-8.webp'
     },
     {name:'Prickly 31.8 Handlebars', pid:'prickly-31-8-handlebars', tier:'midrange',
@@ -4110,6 +4279,20 @@ var CATEGORIES = [
      ],
      fits:['ultrabee'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kke-ultra-bee-steering-stabilizer.webp'
+    },
+    {name:'ETM RTR - OEM Low Rise Handlebar', pid:'chargedcycleworks-etm-rtr-oem-low-rise-handlebar', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:69, url:'https://chargedcycleworks.com/products/etm-rtr-oem-low-rise-handlebar', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'E&C Pit Bike High Bars', pid:'chargedcycleworks-e-c-pit-bike-high-bars', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:69, url:'https://chargedcycleworks.com/products/e-c-pit-bike-high-bars', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 Surron Ultra Bee Flex Bar mounts', pid:'chargedcycleworks-warp9-surron-ultra-bee-flex-bar-mounts', tier:'midrange',
      prices:[
@@ -4150,42 +4333,42 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:85.46, url:'https://chargedcycleworks.com/products/odi-7-8-podium-handlebars-for-beta-apollo-rfn', chk:'2026-11-11'},
      ],
-     fits:['altis-sigma'], likely:[], no:[],
+     fits:['altis-sigma','rtr-lite','rtr-alpha'], likely:['rtr-sport'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 E-Moto Tapped Handlebar 31.8mm', pid:'chargedcycleworks-warp9-e-moto-tapped-handlebar-31-8mm', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:97, url:'https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar', chk:'2026-11-11'},
      ],
-     fits:[], likely:['rawrr-mantis-x'], no:[],
+     fits:[], likely:['rawrr-mantis-x','rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Prickly 31.8 Handlebars', pid:'chargedcycleworks-prickly-31-8-handlebars', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:89, url:'https://chargedcycleworks.com/products/prickly-31-8-bars', chk:'2026-11-11'},
      ],
-     fits:[], likely:['rawrr-mantis-x'], no:[],
+     fits:[], likely:['rawrr-mantis-x','rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'KyVex Billet Bar Mount Riser', pid:'chargedcycleworks-kyvex-billet-bar-mount-riser', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x-pro'], likely:['altis-sigma','arctic-leopard-xe-pro-r','arctic-leopard-xf','rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'KyVex Billet Bar Mount', pid:'chargedcycleworks-kyvex-billet-bar-mount', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/kyvex-billet-bar-mount', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x-pro'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xf','rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Handlebar Shims converts 31.8 to 28.6 MX Bars', pid:'chargedcycleworks-handlebar-shims-31-8-to-28-6', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
+     fits:['rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Tusk Chub MX Handlebars 28.6mm', pid:'handlebar-tusk-chub-mx-handlebars', tier:'mid',
@@ -4211,7 +4394,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:168.0, url:'https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s'], no:[],
+     fits:['arctic-leopard-xe-pro-r','arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-s'], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'E7305 72V UL-Certified Charger - Pro-S / SS2.0 / SS3.0 / SR', pid:'eride-e7305-charger', tier:'OEM',
@@ -4486,7 +4669,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','rtr-lite','zero-xe','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rtr-alpha'], likely:['altis-sigma','arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-protaper-pillow-top-lite-grips.webp'
     },
     {name:'ProTaper Pillow Top Grips', pid:'cockpit-protaper-pillow-top-grips', tier:'budget',
@@ -4494,7 +4677,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/protaper-pillow-top-grips', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','rtr-lite','zero-xe','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rtr-alpha'], likely:['altis-sigma','rawrr-mantis-mini-r'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-protaper-pillow-top-grips.webp'
     },
     {name:'ODI Universal Lock-On Half Waffle Grips for eMoto', pid:'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto', tier:'budget',
@@ -4502,7 +4685,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:22.95, url:'https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','rtr-lite','zero-xe','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro','rtr-alpha'], likely:['altis-sigma','arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
     },
     {name:'ODI Ruffian full-waffle grips', pid:'cockpit-odi-ruffian-full-waffle-grips', tier:'budget',
@@ -4510,21 +4693,21 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:13.46, url:'https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','rtr-lite','zero-xe','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro','rtr-alpha'], likely:['altis-sigma','arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-odi-ruffian-full-waffle-grips.webp'
     },
     {name:'Arctic Leopard - Throttle for XE PRO / XF | OEM', pid:'chargedcycleworks-arctic-leopard-xe-pro-xf-throttle-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:55.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-xf-throttle-oem', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Arctic Leopard - XE PRO Left Hand Control | OEM', pid:'chargedcycleworks-arctic-leopard-xe-left-hand-control-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:42.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'SXS Burly Shields Hand Guards', pid:'cockpit-sxs-burly-shields-hand-guards', tier:'midrange',
@@ -4532,7 +4715,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['stark-vargex','rawrr-mantis-x','altis-sigma'], no:[],
+     fits:['bonnell-805rx','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['stark-vargex','rawrr-mantis-x','altis-sigma','zero-xe','rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-sxs-burly-shields-hand-guards.webp'
     },
     {name:'Renthal 50/50 MX Grips', pid:'cockpit-renthal-50-50-mx-grips', tier:'budget',
@@ -4540,7 +4723,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:17.96, url:'https://chargedcycleworks.com/products/renthal-50-50-mx-grips', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','rtr-lite','zero-xe','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro','rtr-alpha'], likely:['altis-sigma','arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-renthal-50-50-mx-grips.webp'
     },
     {name:'Acerbis X-Ultimate Handguards', pid:'cockpit-acerbis-x-ultimate-handguards', tier:'midrange',
@@ -4548,7 +4731,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:34.88, url:'https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','rtr-lite','zero-xe','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro','rtr-alpha'], likely:['altis-sigma','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-acerbis-x-ultimate-handguards.webp'
     },
     {name:'ODI Ruffian no-waffle grips', pid:'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260', tier:'budget',
@@ -4556,7 +4739,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:13.46, url:'https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','rtr-lite','zero-xe','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro','rtr-alpha'], likely:['altis-sigma','arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260.webp'
     },
     {name:'Acerbis X-Factory Handguards', pid:'cockpit-acerbis-x-factory-handguards', tier:'midrange',
@@ -4564,7 +4747,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:71.88, url:'https://chargedcycleworks.com/products/acerbis-x-factory-handguards', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','zero-xe','arctic-leopard-xf','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro'], likely:['altis-sigma'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-acerbis-x-factory-handguards.webp'
     },
     {name:'ODI Ruffian half-waffle grips', pid:'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260', tier:'budget',
@@ -4572,7 +4755,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:13.46, url:'https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','rtr-lite','zero-xe','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro','rtr-alpha'], likely:['altis-sigma','arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260.webp'
     },
     {name:'Tusk Dual Compound half waffle grips', pid:'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260', tier:'budget',
@@ -4580,7 +4763,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','ventus-evo','stark-vargex','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','ventus-evo','stark-vargex','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','rtr-lite','zero-xe','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro','rtr-alpha'], likely:['altis-sigma','arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260.webp'
     },
     {name:'Warp9 eMoto Handguards', pid:'cockpit-warp9-e-moto-handguards', tier:'midrange',
@@ -4588,7 +4771,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:45, url:'https://chargedcycleworks.com/products/warp9-e-moto-handguards', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','rtr-lite','zero-xe','rtr-sport','rawrr-mantis-72v','rtr-alpha'], likely:['altis-sigma','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-warp9-e-moto-handguards.webp'
     },
     {name:'Bonnell 805 - Throttle Assembly', pid:'cockpit-bonnell-805-throttle-assembly', tier:'OEM',
@@ -4634,18 +4817,40 @@ var CATEGORIES = [
      fits:['ultrabee'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-oem-throttle.webp'
     },
+    {name:'Quad Lock Moto Handlebar Mount', pid:'cockpit-quad-lock-moto-handlebar-mount', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:49.95, url:'https://chargedcycleworks.com/products/quad-lock-moto-handlebar-mount', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR OEM Grips', pid:'chargedcycleworks-etm-rtr-oem-grips', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:5.85, url:'https://chargedcycleworks.com/products/etm-rtr-oem-grips', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - OEM Throttle', pid:'chargedcycleworks-etm-rtr-oem-throttle', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:40.98, url:'https://chargedcycleworks.com/products/etm-rtr-oem-throttle', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
     {name:'ODI Grip Donuts', pid:'cockpit-odi-grip-donuts', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:4.95, url:'https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260', chk:'2026-11-11'},
      ],
-     fits:['ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','zero-xe','arctic-leopard-xf','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro'], likely:['altis-sigma','arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/cockpit-odi-grip-donuts.webp'
     },
     {name:'ODI Aluminum Bar End Plugs', pid:'cockpit-odi-aluminum-grip-end-plugs', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:17.99, url:'https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260', chk:'2026-11-11'},
      ],
-     fits:['ventus-evo','stark-vargex','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['ventus-evo','stark-vargex','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','zero-xe','storm-bee','rfn-warrior-pro'], likely:['altis-sigma','arctic-leopard-xe-pro-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/cockpit-odi-aluminum-grip-end-plugs.webp'
     },
     {name:'Stem Spacer', pid:'chargedcycleworks-handlebar-stem-spacer-talaria-sting-mx3-mx4-x3', tier:'budget',
@@ -4659,7 +4864,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:145, url:'https://chargedcycleworks.com/products/prickly-31-8-direct-mount-stem-surron', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-prickly-31-8-direct-mount-stem-surron.webp'
     },
     {name:'KKE Direct Mount Stem', pid:'chargedcycleworks-kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective', tier:'midrange',
@@ -4694,7 +4899,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:170, url:'https://chargedcycleworks.com/products/prickly-35mm-direct-mount-stem-surron', chk:'2026-11-11'},
      ],
-     fits:[], likely:['rawrr-mantis-x'], no:[],
+     fits:[], likely:['rawrr-mantis-x','rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Renthal Grip Glue', pid:'chargedcycleworks-renthal-grip-glue', tier:'budget',
@@ -4715,35 +4920,35 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:9.57, url:'https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
+     fits:['rawrr-mantis-x'], likely:['rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Direct Mount Stem 1" Spacer (25mm)', pid:'chargedcycleworks-direct-mount-stem-1-spacer-25mm', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:27.38, url:'https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:['rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Heavy Hitter Titanium Direct Mount Riser', pid:'chargedcycleworks-heavy-hitter-titanium-direct-mount-riser', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:199.89, url:'https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:['rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Heavy Hitter Direct Mount Stem Riser 2" Rise 31.8mm Bars', pid:'chargedcycleworks-heavy-hitter-direct-mount-stem-riser-2-rise-31-8mm', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:64.89, url:'https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
+     fits:['rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 Transformer Direct Bar Mount Stem', pid:'chargedcycleworks-warp9-transformer-direct-bar-mount-stem', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['rawrr-mantis-x'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','rawrr-mantis-72v'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Rawrr Mantis X - OEM Throttle', pid:'chargedcycleworks-mantis-x-right-handlebar-throttle', tier:'OEM',
@@ -4757,7 +4962,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
+     fits:['rawrr-mantis-x','rawrr-mantis-72v'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Stark Varg Docking Station', pid:'cockpit-stark-varg-docking-station', tier:'OEM',
@@ -5004,7 +5209,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:194.36, url:'https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex','lightbee2'], likely:[], no:[],
+     fits:['bonnell-805rx','stark-vargex','lightbee2'], likely:['zero-xe','storm-bee','rfn-warrior-pro'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/drivetrain-did-520-ervt-gold-x-ring-chain.webp'
     },
     {name:'Renthal 520 R-1 Works Chain', pid:'drivetrain-520-renthal-r-1-works-chain', tier:'premium',
@@ -5012,7 +5217,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:120.21, url:'https://chargedcycleworks.com/products/520-renthal-r-1-works-chain', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex','lightbee2'], likely:[], no:[],
+     fits:['bonnell-805rx','stark-vargex','lightbee2'], likely:['zero-xe','storm-bee','rfn-warrior-pro'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/drivetrain-520-renthal-r-1-works-chain.webp'
     },
     {name:'Warp9 520 Primary Chain Drive Kit for Surron Ultra Bee', pid:'drivetrain-ultra-bee-sprocket-drive-kit', tier:'premium',
@@ -5100,7 +5305,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:70.99, url:'https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex','lightbee2'], likely:[], no:[],
+     fits:['bonnell-805rx','stark-vargex','lightbee2'], likely:['zero-xe','storm-bee','rfn-warrior-pro'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/drivetrain-primary-drive-520-orh-gold-x-ring-chain.webp'
     },
     {name:'D.I.D. 428 BLACK Chain Non O-ring', pid:'chargedcycleworks-428-d-i-d-black-chain-non-o-ring', tier:'OEM',
@@ -5226,7 +5431,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:59.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-rear-sprocket-48t-oem', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf'], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 428 Rear Sprocket - Arctic Leopard XE Pro S / Pro R', pid:'chargedcycleworks-warp9-428-rear-sprocket-arctic-leopard-xe-pro-s', tier:'budget',
@@ -5324,7 +5529,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:30, url:'https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket', chk:'2026-11-10'},
      ],
-     fits:['ultrabee'], likely:[], no:[],
+     fits:['ultrabee','zero-xe','yvolt-surge-v'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-anvil-steel-rear-sprocket.webp'
     },
     {name:'Warp9 Rear Sprocket – E-Ride Pro SS 3.0 / SR', pid:'chargedcycleworks-e-ride-pro-3-0-sr-rear-sprocket', tier:'midrange',
@@ -5348,11 +5553,55 @@ var CATEGORIES = [
      fits:['ultrabee'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-jackshaft-sprocket-surron-ultra-bee.webp'
     },
+    {name:'Heavy Hitter 420 Primary O-Ring Chain Drive Conversion Kit', pid:'chargedcycleworks-heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:99.89, url:'https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:['falcon-gt'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'D.I.D Super 420NZ3G Gold Chain', pid:'drivetrain-did-420nz3g-gold-chain', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:71.62, url:'https://chargedcycleworks.com/products/did-super-420nz3g-gold-chain-non-o-ring-high-strength', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:[], likely:['rtr-sport','falcon-pro','rtr-alpha'], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - OEM Front Sprocket', pid:'chargedcycleworks-etm-rtr-oem-front-sprocket', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:20, url:'https://chargedcycleworks.com/products/etm-rtr-oem-front-sprocket', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - OEM Chain', pid:'chargedcycleworks-etm-rtr-oem-chain', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:24.99, url:'https://chargedcycleworks.com/products/etm-rtr-oem-chain', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - OEM 73T Sprocket', pid:'chargedcycleworks-etm-rtr-oem-73t-sprocket', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:35, url:'https://chargedcycleworks.com/products/etm-rtr-oem-73t-sprocket', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - Extreme High Performance #35 RLV Chain', pid:'chargedcycleworks-high-performance-35-rlv-pit-bike-chain-for-etm-rtr', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/high-performance-35-rlv-pit-bike-chain-for-etm-rtr', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
     {name:'Warp9 Ultra Bee Titanium Sprocket Bolts', pid:'chargedcycleworks-warp9-ultra-bee-titanium-sprocket-bolts', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:49, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-titanium-sprocket-bolts', chk:'2026-11-10'},
      ],
-     fits:['ultrabee'], likely:[], no:[],
+     fits:['ultrabee','yvolt-surge-v'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-warp9-ultra-bee-titanium-sprocket-bolts.webp'
     },
     {name:'Heavy Hitter 520 Primary Drive Conversion OEM/EBMX Ultra Motors', pid:'chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors', tier:'OEM',
@@ -5366,7 +5615,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:42, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-s-pro-r-sprocket.webp'
     },
     {name:'E Ride Pro – 110-Link Chain 428 Chain | Take-Off', pid:'chargedcycleworks-eride-pro-55-link-chain-take-off', tier:'OEM',
@@ -5380,7 +5629,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:65.0, url:'https://chargedcycleworks.com/products/rawr-sigma-sprocket', chk:'2026-11-11'},
      ],
-     fits:['altis-sigma'], likely:[], no:[],
+     fits:['altis-sigma','rawrr-mantis-72v'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 Altis Sigma Front Sprocket', pid:'chargedcycleworks-warp9-front-sprocket-altis-sigma', tier:'midrange',
@@ -5415,7 +5664,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-black-and-red-collective', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
+     fits:['rawrr-mantis-x','rawrr-mantis-72v'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Renthal TwinRing Sprocket for Stark Varg', pid:'drivetrain-renthal-twinring-sprocket-stark-varg', tier:'mid',
@@ -5928,10 +6177,10 @@ var CATEGORIES = [
     },
     {name:'Ventus VTB V9600 Gen.2 Wiring Harness 1.7', pid:'chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:60, url:'https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7', chk:'2026-11-10'},
+      {v:'Charged Cycle Works', p:90, url:'https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7', chk:'2026-11-11'},
      ],
-     fits:['sr','ultrabee'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7.webp'
+     fits:['sr','ultrabee','falcon-pro','falcon-gt'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7.webp'
     },
     {name:'High Voltage Fuse Kit & Replacement Fuses', pid:'chargedcycleworks-high-voltage-fuse-kit-replacement-fuses', tier:'budget',
      prices:[
@@ -5959,6 +6208,22 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:22.98, url:'https://chargedcycleworks.com/products/mantis-x-left-function-switch-assembly', chk:'2026-11-11'},
      ],
      fits:['rawrr-mantis-x'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'Rawrr Mantis Mini – Magnetic Safety Switch | OEM', pid:'chargedcycleworks-rawrr-mantis-mini-magnetic-switch', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:25.99, url:'https://chargedcycleworks.com/products/rawrr-mantis-mini-magnetic-switch', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:['rawrr-mantis-mini-r'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'Rawrr Mantis Mini R/R17 - OEM Display', pid:'chargedcycleworks-rawrr-mantis-mini-r-r17-oem-display', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:55.68, url:'https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:['rawrr-mantis-mini-r'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     }
 ]},
@@ -6315,7 +6580,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective', chk:'2026-11-11'},
      ],
-     fits:[], likely:['rawrr-mantis-x'], no:[],
+     fits:['rawrr-mantis-72v'], likely:['rawrr-mantis-x'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     }
 ]},
@@ -6453,6 +6718,14 @@ var CATEGORIES = [
      fits:['ultrabee'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible.webp'
     },
+    {name:'Heavy Hitter Titanium 1.5" Linkage Upgrade', pid:'chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:169.99, url:'https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:['falcon-gt'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
+    },
     {name:'Heavy Hitter Ultra Bee Linkage', pid:'chargedcycleworks-heavy-hitter-ultra-bee-linkage', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:99.89, url:'https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage', chk:'2026-11-10'},
@@ -6513,8 +6786,15 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:125, url:'https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r.webp'
+    },
+    {name:'Needle Bearing Kit for Suspension Triangle | Surron LBX', pid:'chargedcycleworks-bearing-kit-suspension-triangle-surron-lbx', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:11, url:'https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx', chk:'2026-11-11'},
+     ],
+     fits:[], likely:['falcon-pro'], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
     }
 ]},
   {id:'maintenance', name:'Maintenance', blurb:'Consumables and shop supplies to keep the build running.', tips:['Stock up on what wears: chains, brake pads, tires'], options:[
@@ -6941,7 +7221,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:8, url:'https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9', chk:'2026-11-11'},
      ],
-     fits:['ventus-evo','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['ventus-evo','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/maintenance-warp9-stemlock-replacement-bolt.webp'
     },
     {name:'Maxima DOT 5.1 Brake Fluid – 500 mL', pid:'maintenance-maxima-dot51-brake-fluid-500ml', tier:'budget',
@@ -7025,7 +7305,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:70.0, url:'https://chargedcycleworks.com/products/kyvex-billet-stem-lock', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma','arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Maxima Hi-Temp waterproof grease 16oz tub', pid:'chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz', tier:'budget',
@@ -7053,35 +7333,35 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:39, url:'https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:['rawrr-mantis-72v'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 Stem Lock for Surron / Talaria / E Ride Pro', pid:'chargedcycleworks-warp9-standard-stem-lock', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:39, url:'https://chargedcycleworks.com/products/warp9-standard-stem-lock', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:['rawrr-mantis-72v'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'RFloXa Steering Stem Lock', pid:'chargedcycleworks-rfloxa-steering-stem-lock', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/rfloxa-steering-stem-lock', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x-pro'], likely:['rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Wolf Tooth Precision Headset Spacers', pid:'chargedcycleworks-wolf-tooth-precision-headset-spacers', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:6.26, url:'https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
+     fits:['rawrr-mantis-x'], likely:['rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Stem Spacer Kit', pid:'chargedcycleworks-warp9-stem-lock-spacer-kit', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:10, url:'https://chargedcycleworks.com/products/stem-lock-spacer-kit', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
+     fits:['rawrr-mantis-x','rawrr-mantis-x-pro'], likely:['rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 Stark Varg Adjustable Kickstand And Bracket', pid:'maintenance-warp9-adjustable-kickstand-stark-varg', tier:'midrange',
@@ -7163,6 +7443,14 @@ var CATEGORIES = [
      ],
      fits:['stark-vargex'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'Rawrr – Mantis Mini R17 Kickstand Assembly | OEM', pid:'chargedcycleworks-rawrr-mantis-mini-r17-kickstand-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:47.99, url:'https://chargedcycleworks.com/products/rawrr-mantis-mini-r17-kickstand-assembly', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:[], likely:['rawrr-mantis-mini-r'], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
     }
 ]},
   {id:'pegs', name:'Foot Pegs', blurb:'Wider, sharper pegs mean more control — especially standing up.', tips:['Mounts are bike-specific','Titanium saves weight; steel lasts longer'], options:[
@@ -7189,6 +7477,14 @@ var CATEGORIES = [
      ],
      fits:['ultrabee'], likely:['arctic-xd','bonnell-805rx','ss30','ss40','sr','ss20','storm-bee','komodo','mx5','ventus-plus','ventus-evo'], no:[],
      badge:'Foot Pegs', variant:'custom', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/pegs-kke-ultrabee.webp'
+    },
+    {name:'Warp9 E-Moto Elite Foot Pegs for Zero XE', pid:'pegs-warp9-zero-xe-elite-foot-pegs', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:131, url:'https://chargedcycleworks.com/products/warp9-zero-xe-elite-foot-pegs', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:['zero-xe'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Sur-Ron Ultra Bee OEM Pegs & Brackets', pid:'pegs-ultrabee-oem-brackets', tier:'budget',
      prices:[
@@ -7388,7 +7684,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:120, url:'https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs', chk:'2026-11-10'},
      ],
-     fits:['mx5'], likely:[], no:[],
+     fits:['mx5','falcon-pro'], likely:['arctic-leopard-xf'], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kyvex-billet-wide-foot-pegs.webp'
     },
     {name:'KyVex Billet Wide Foot Pegs – Surron Ultra Bee', pid:'chargedcycleworks-kyvex-billet-wide-foot-pegs-ultra-bee-compatible', tier:'midrange',
@@ -7542,28 +7838,28 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:255, url:'https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra.webp'
     },
     {name:'KyVex Replacement Pins for Billet Wide Foot Pegs', pid:'chargedcycleworks-kyvex-replacement-foot-peg-pins', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:30, url:'https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins', chk:'2026-11-11'},
      ],
-     fits:[], likely:['rawrr-mantis-x'], no:[],
+     fits:[], likely:['rawrr-mantis-x','arctic-leopard-xf','rawrr-mantis-72v','rawrr-mantis-x-pro','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 Rawrr Mantis X & Mini Elite Foot Pegs', pid:'chargedcycleworks-warp9-elite-foot-pegs-rawrr-mantis-x-mini', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:142, url:'https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
+     fits:['rawrr-mantis-x','rawrr-mantis-mini-r'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'KKE Foot Pegs for Rawrr Mantis', pid:'chargedcycleworks-kke-footpegs-fit-rawrr-mantis-mantis-x-collective', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
+     fits:['rawrr-mantis-x','rawrr-mantis-72v'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 Stark Varg Elite Foot Pegs', pid:'pegs-warp9-elite-foot-pegs-stark-varg', tier:'mid',
@@ -7572,6 +7868,29 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
+    },
+    {name:'Rawrr Mantis Mini – Foot Peg Assembly | OEM', pid:'chargedcycleworks-rawrr-mantis-mini-foot-peg-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:33.63, url:'https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:['rawrr-mantis-mini-r'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'Rawrr Mantis Mini R & R17 –  Foot Peg Assembly | OEM', pid:'chargedcycleworks-rawrr-mantis-mini-r-r17-foot-peg-assembly', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:65.99, url:'https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly', chk:'2026-11-11'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:['rawrr-mantis-mini-r'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'Warp9 Adjustable Foot Peg Mount for Surron Light Bee & 79Bike', pid:'chargedcycleworks-warp9-adjustable-foot-peg-mount-surron-light-bee-79bike', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:186, url:'https://chargedcycleworks.com/products/warp9-adjustable-foot-peg-mount-surron-light-bee-79bike', chk:'2026-11-11'},
+     ],
+     fits:[], likely:['falcon-pro'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     }
 ]},
@@ -7595,7 +7914,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:40.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-lock-oem', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Arctic Leopard XE Pro Seat', pid:'chargedcycleworks-arctic-leopard-xe-pro-seat', tier:'OEM',
@@ -7742,6 +8061,27 @@ var CATEGORIES = [
      ],
      fits:['ultrabee'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-thrill-seekers-seat-cover-for-surron-ultra-bee.webp'
+    },
+    {name:'Thrill Seekers Seat Cover for ETM RTR', pid:'chargedcycleworks-thrill-seekers-seat-cover-for-etm-rtr', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:79, url:'https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr', chk:'2026-11-11'},
+     ],
+     fits:[], likely:['rtr-lite','rtr-sport','rtr-alpha'], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'ETM RTR - OEM Seat', pid:'chargedcycleworks-etm-rtr-2025-black-seat', tier:'OEM',
+     prices:[
+      {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/etm-rtr-2025-black-seat', chk:'2026-11-11'},
+     ],
+     fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
+     stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'Thrill Seekers Seat Cover for Arctic Leopard XE Pro R', pid:'chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:79.0, url:'https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r', chk:'2026-11-11'},
+     ],
+     fits:['arctic-leopard-xe-pro-r'], likely:[], no:[],
+     badge:'Thrill Seekers', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Thrill Seekers Seat Cover for Talaria', pid:'chargedcycleworks-copy-of-thrill-seekers-seat-cover-for-talaria', tier:'midrange',
      prices:[
@@ -8154,7 +8494,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:170, url:'https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0', chk:'2026-11-10'},
      ],
-     fits:['sr','ss30'], likely:[], no:[],
+     fits:['sr','ss30'], likely:['ss40'], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0.webp'
     },
 ]},
@@ -8207,7 +8547,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:59.46, url:'https://chargedcycleworks.com/products/shinko-244-dual-sport-tires', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:['arctic-leopard-xe-pro-s-enduro'], no:['rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01'],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:['rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','arctic-leopard-xf','rawrr-mantis-mini-r'],
      badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-shinko-244-dualsport.webp'
     },
     {name:'Kenda K270 Dual Sport Tire', pid:'tire-kenda-k270-dualsport', tier:'budget',
@@ -8217,7 +8557,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:['arctic-leopard-xe-pro-s-enduro','altis-sigma'], no:[],
+     fits:['bonnell-805rx','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rerode-rx','rtr-lite-2-0','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v','zero-xe'], likely:['arctic-leopard-xe-pro-s-enduro','altis-sigma','arctic-leopard-xe-pro-r','rtr-lite','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','rtr-alpha','rawrr-mantis-x'], no:['arctic-leopard-xf','yozma-in10','yozma-in10-pro','rawrr-mantis-mini-r'],
      badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-kenda-k270-dualsport.webp'
     },
     {name:'Tusk Dsport Adventure Tire', pid:'tire-tusk-dsport-adventure', tier:'budget',
@@ -8225,7 +8565,7 @@ var CATEGORIES = [
       {v:'Rocky Mountain ATV/MC', p:70, url:'https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['arctic-xd','bonnell-805rx','falcon-gt','komodo','lightbee','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-xl','rtr-xl-alpha','sr','ss30','ss40','stark-vargex','storm-bee','ultrabee','ultrabee-21kw','ventus-plus','yozma-in10-pro','yvolt-surge-v'], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","yozma-in10","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62"],
+     fits:['arctic-xd','bonnell-805rx','falcon-gt','komodo','lightbee','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-xl','rtr-xl-alpha','sr','ss30','ss40','stark-vargex','storm-bee','ultrabee','ultrabee-21kw','ventus-plus','yvolt-surge-v'], likely:[], no:['ventus-evo','ss20','mx4','mx5','rawrr-mantis-72v','falcon-pro','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','yozma-in10','tuttio-soleil01','altis-sigma','supermach-sm01','supermach-sm62','yozma-in10-pro'],
      badge:'Tusk', stock:'unknown'
     },
     {name:'Kenda Millville II K785 Tire', pid:'tire-kenda-millville2-k785', tier:'budget',
@@ -8234,7 +8574,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:56.95, url:'https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:['arctic-leopard-xe-pro-r','yozma-in10','yozma-in10-pro','rawrr-mantis-mini-r'],
      badge:'Kenda', stock:'unknown', img:'img/parts/tire-kenda-millville2-k785.webp'
     },
     {name:'Shinko 525 Cheater Rear Tire', pid:'tire-shinko-525-cheater', tier:'budget',
@@ -8244,7 +8584,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:131.71, url:'https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:['arctic-leopard-xe-pro-s'], no:['rawrr-mantis-x-pro','rawrr-mantis-x','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','arctic-leopard-xe-pro-s-enduro'],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r','rawrr-mantis-72v'], no:['rawrr-mantis-x-pro','rawrr-mantis-x','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf','rawrr-mantis-mini-r'],
      badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-shinko-525-cheater.webp'
     },
     {name:'Dunlop Geomax MX34 Tire', pid:'tire-dunlop-mx34', tier:'mid',
@@ -8254,7 +8594,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:114.99, url:'https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v','arctic-leopard-xe-pro-s','arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','zero-xe'], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-dunlop-mx34.webp'
     },
     {name:'Michelin StarCross 6 Medium Soft Tire', pid:'tire-michelin-starcross6-ms', tier:'premium',
@@ -8279,7 +8619,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:51.49, url:'https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-lite','rtr-lite-2-0','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf','rtr-sport','rtr-alpha','rawrr-mantis-mini-r'], no:['arctic-leopard-xe-pro-r','yozma-in10','yozma-in10-pro'],
      badge:'Kenda', stock:'unknown', img:'img/parts/tire-kenda-k760-trakmaster.webp'
     },
     {name:'Bridgestone Battlecross X31 Tire', pid:'tire-bridgestone-x31', tier:'premium',
@@ -8289,7 +8629,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:103.99, url:'https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:['arctic-leopard-xe-pro-s-enduro'], no:['rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01'],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','zero-xe','rawrr-mantis-x-pro'], no:['rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','arctic-leopard-xf','rawrr-mantis-mini-r'],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-bridgestone-x31.webp'
     },
     {name:'Maxxis Maxxcross MX-SI Tire', pid:'tire-maxxis-mxsi', tier:'mid',
@@ -8298,7 +8638,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:66.5, url:'https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:[], no:[],
+     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10-pro','yvolt-surge-v','arctic-leopard-xe-pro-s','arctic-leopard-xf'], likely:['rtr-alpha'], no:['arctic-leopard-xe-pro-r','yozma-in10'],
      badge:'Maxxis', stock:'unknown', img:'img/parts/tire-maxxis-mxsi.webp'
     },
     {name:'IRC M5B EVO Soft Terrain Tire', pid:'tire-irc-m5b-evo', tier:'mid',
@@ -8307,7 +8647,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:105.88, url:'https://chargedcycleworks.com/products/irc-tire-m5b-evo-rear-130-80-18', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','ultrabee','ultrabee-21kw','ventus-plus','yvolt-surge-v'], likely:[], no:["ventus-evo","rawrr-mantis-x-pro","rawrr-mantis-x","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","supermach-sm62"],
+     fits:['altis-sigma','arctic-xd','bonnell-805rx','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rerode-rx','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','ultrabee','ultrabee-21kw','ventus-plus','yvolt-surge-v'], likely:['zero-xe'], no:['ventus-evo','rawrr-mantis-x-pro','rawrr-mantis-x','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','supermach-sm62'],
      badge:'IRC', stock:'unknown'
     },
     {name:'Sur-Ron 19" Off-Road Tire (OEM)', pid:'tire-surron-oem-19', tier:'OEM',
@@ -8347,7 +8687,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:74.95, url:'https://chargedcycleworks.com/products/kenda-k7102-washougal-iii', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rfn-warrior-pro','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:['rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01'],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rfn-warrior-pro','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','zero-xe'], no:['rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','arctic-leopard-xf','rawrr-mantis-mini-r'],
      badge:'Kenda', stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/tire-kenda-washougal3-ccw.webp'
     },
     {name:'Mitas Terra Force-MX 16" Rear Tire', pid:'tire-mitas-terraforce-16-ccw', tier:'mid',
@@ -8363,7 +8703,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:82.88, url:'https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','lightbee','ultrabee','ultrabee-21kw','arctic-xd','falcon-gt','komodo','rerode-rx','ss40','stark-vargex','storm-bee','ventus-plus','yvolt-surge-v'], likely:[], no:["ventus-evo","ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01","supermach-sm62","sr","ss30"],
+     fits:['bonnell-805rx','lightbee','ultrabee','ultrabee-21kw','arctic-xd','falcon-gt','komodo','rerode-rx','ss40','stark-vargex','storm-bee','ventus-plus','yvolt-surge-v'], likely:['zero-xe'], no:['ventus-evo','ss20','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x-pro','rawrr-mantis-x','falcon-pro','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','altis-sigma','supermach-sm01','supermach-sm62','sr','ss30'],
      badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-ve33-ccw.webp'
     },
     {name:'Michelin StarCross 5 Front Tire', pid:'tire-michelin-starcross5-ccw', tier:'premium',
@@ -8379,7 +8719,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:53.77, url:'https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','altis-sigma','arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s-enduro','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:[], no:[],
+     fits:['bonnell-805rx','altis-sigma','arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s-enduro','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v','arctic-leopard-xf'], likely:['zero-xe'], no:[],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-tusk-t35-front-ccw.webp'
     },
     {name:'Tusk T-35 Rear Tire', pid:'tire-tusk-t35-rear-ccw', tier:'budget',
@@ -8395,7 +8735,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:49.88, url:'https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:[], no:['komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','stark-vargex'],
+     fits:['altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:[], no:['komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','stark-vargex','rawrr-mantis-mini-r'],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-tusk-recon-ccw.webp'
     },
     {name:'Tusk Ground Wire eMoto Tire', pid:'tire-tusk-groundwire-ccw', tier:'budget',
@@ -8411,7 +8751,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:48, url:'https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:[], no:['komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','stark-vargex','arctic-leopard-xe-pro-s-enduro'],
+     fits:['altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v','arctic-leopard-xe-pro-s','arctic-leopard-xf','rawrr-mantis-mini-r'], likely:[], no:['komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','stark-vargex','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-bridgestone-m203-ccw.webp'
     },
     {name:'Bridgestone M204 Rear Tire', pid:'tire-bridgestone-m204-ccw', tier:'mid',
@@ -8419,7 +8759,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:51.97, url:'https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['rfn-warrior-pro','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','supermach-sm62','tuttio-soleil01','ventus-evo','yozma-in10','yozma-in10-pro','arctic-leopard-xe-pro-s'], likely:[], no:['ventus-plus','lightbee','ultrabee','ss20','ss30','ss40','sr','mx4','mx5','komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','rawrr-mantis-72v','rawrr-mantis-x-pro','rawrr-mantis-x','falcon-pro','falcon-gt','stark-vargex','altis-sigma','ultrabee-21kw','yvolt-surge-v','supermach-sm01'],
+     fits:['rfn-warrior-pro','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','supermach-sm62','tuttio-soleil01','ventus-evo','yozma-in10','yozma-in10-pro','arctic-leopard-xe-pro-s','arctic-leopard-xf'], likely:['rawrr-mantis-mini-r'], no:['ventus-plus','lightbee','ultrabee','ss20','ss30','ss40','sr','mx4','mx5','komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','rawrr-mantis-72v','rawrr-mantis-x-pro','rawrr-mantis-x','falcon-pro','falcon-gt','stark-vargex','altis-sigma','ultrabee-21kw','yvolt-surge-v','supermach-sm01'],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-bridgestone-m204-ccw.webp'
     },
     {name:'Bridgestone Battlecross X30 Tire', pid:'tire-bridgestone-x30-ccw', tier:'mid',
@@ -8427,7 +8767,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:64, url:'https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:[], no:['komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','stark-vargex'],
+     fits:['altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:[], no:['komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','stark-vargex','arctic-leopard-xf','rawrr-mantis-mini-r'],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-bridgestone-x30-ccw.webp'
     },
     {name:'Dunlop MX33 Tire', pid:'tire-dunlop-mx33-ccw', tier:'premium',
@@ -8435,7 +8775,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/en-ca/products/dunlop-mx33-soft-int-tires-for-emoto'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:['arctic-leopard-xe-pro-s-enduro','stark-vargex'], no:['komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01'],
+     fits:['altis-sigma','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','sr','ss20','ss30','ss40','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v','zero-xe'], likely:['arctic-leopard-xe-pro-s-enduro','stark-vargex','arctic-leopard-xe-pro-r','rawrr-mantis-x-pro'], no:['komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','arctic-leopard-xf'],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/tire-dunlop-mx33-ccw.webp'
     },
     {name:'Dunlop MX53 Tire', pid:'tire-dunlop-mx53-ccw', tier:'mid',
@@ -8443,7 +8783,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:109.99, url:'https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rfn-warrior-pro','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:['rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01'],
+     fits:['bonnell-805rx','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','lightbee','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rfn-warrior-pro','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','zero-xe'], no:['rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','arctic-leopard-xf'],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-dunlop-mx53-ccw.webp'
     },
     {name:'Shinko SR241 Trials Tire', pid:'tire-shinko-sr241-ccw', tier:'budget',
@@ -8451,7 +8791,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:74.99, url:'https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','lightbee','mx4','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v'], likely:[], no:[],
+     fits:['bonnell-805rx','lightbee','mx4','altis-sigma','arctic-xd','falcon-gt','falcon-pro','komodo','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rerode-rx','rtr-alpha','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-xl','rtr-xl-alpha','sr','ss20','ss30','ss40','stark-vargex','storm-bee','supermach-sm01','supermach-sm62','tuttio-soleil01','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yozma-in10','yozma-in10-pro','yvolt-surge-v','zero-xe','arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'], no:[],
      badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-shinko-sr241-ccw.webp'
     },
     {name:'IRC IX-09 Gekkota Gummy Tire', pid:'tire-irc-ix09-gekkota-ccw', tier:'mid',
@@ -8459,7 +8799,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:89.88, url:'https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','arctic-xd','falcon-gt','komodo','lightbee','rerode-rx','rfn-warrior-pro','sr','ss30','ss40','stark-vargex','storm-bee','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:[], no:["ss20","mx4","mx5","rawrr-mantis-72v","rawrr-mantis-x-pro","rawrr-mantis-x","falcon-pro","rtr-lite","rtr-lite-2-0","rtr-sport","rtr-alpha","rtr-xl","rtr-xl-alpha","yozma-in10","yozma-in10-pro","tuttio-soleil01","altis-sigma","supermach-sm01"],
+     fits:['bonnell-805rx','arctic-xd','falcon-gt','komodo','lightbee','rerode-rx','rfn-warrior-pro','sr','ss30','ss40','stark-vargex','storm-bee','supermach-sm62','ultrabee','ultrabee-21kw','ventus-evo','ventus-plus','yvolt-surge-v'], likely:['zero-xe'], no:['ss20','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x-pro','rawrr-mantis-x','falcon-pro','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','altis-sigma','supermach-sm01'],
      badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-ix09-gekkota-ccw.webp'
     },
     {name:"CST 80/100-19 OEM Tire — E Ride Pro SS (E7207)", pid:'voro-eride-ss-cst-80100-19', tier:'OEM',
@@ -8613,7 +8953,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:48.99, url:'https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s'], likely:['altis-sigma','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s','rtr-lite','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','yozma-in10','yozma-in10-pro','rtr-alpha'], likely:['altis-sigma','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','zero-xe'], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-dunlop-mx54-geomax-soft-int-terrain-tires.webp'
     },
     {name:'Dunlop Geomax EN91EX Gummy Tire', pid:'tire-dunlop-geomax-en91ex-gummy-tire', tier:'premium',
@@ -8629,7 +8969,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:11.99, url:'https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s'], likely:['altis-sigma','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s','zero-xe','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee'], likely:['altis-sigma','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','rtr-lite'], no:['arctic-leopard-xf','rtr-sport','rawrr-mantis-mini-r'],
      badge:'BikeMaster', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-bikemaster-tr6-inner-tubes.webp'
     },
     {name:'Kenda K775 Washougal II Tires', pid:'tire-kenda-k775-washougal-ii-front-tire', tier:'mid',
@@ -8637,7 +8977,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:56.99, url:'https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s'], likely:['altis-sigma','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee'], likely:['altis-sigma','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','rtr-lite','zero-xe'], no:['arctic-leopard-xf','rtr-sport','rawrr-mantis-mini-r'],
      badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-kenda-k775-washougal-ii-front-tire.webp'
     },
     {name:'Nuetech 5150 Nitro Mousse Foam Tube for Tubliss Gen 2.0', pid:'tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19', tier:'premium',
@@ -8645,7 +8985,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:124.95, url:'https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex'], likely:[], no:[],
+     fits:['bonnell-805rx','stark-vargex'], likely:['zero-xe','storm-bee'], no:[],
      badge:'Nuetech', stock:'in_stock', stockChk:'2026-11-05'
     },
     {name:'IRC JX8 GEKKOTA Rear Gummy Tire 110/100-18', pid:'tire-irc-jx8-gekkota-rear-gummy-tire', tier:'premium',
@@ -8653,7 +8993,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:115.88, url:'https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx'], likely:['stark-vargex'], no:[],
+     fits:['bonnell-805rx'], likely:['stark-vargex','zero-xe'], no:[],
      badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-jx8-gekkota-rear-gummy-tire.webp'
     },
     {name:'IRC Tubes', pid:'tire-irc-tubes', tier:'budget',
@@ -8661,7 +9001,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:13.5, url:'https://chargedcycleworks.com/products/irc-tubes', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s'], likely:['altis-sigma','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','zero-xe','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro'], likely:['altis-sigma','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','rtr-lite'], no:['arctic-leopard-xf','rtr-sport','rawrr-mantis-mini-r'],
      badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-tubes.webp'
     },
     {name:'WPS Rim Strip', pid:'tire-wps-rim-strip', tier:'budget',
@@ -8669,7 +9009,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:2.49, url:'https://chargedcycleworks.com/products/wps-rim-strip', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','rtr-lite','zero-xe','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro','rtr-alpha','rawrr-mantis-mini-r'], likely:['altis-sigma','arctic-leopard-xe-pro-r'], no:[],
      badge:'WPS', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-wps-rim-strip.webp'
     },
     {name:'Dunlop AT82 Geomax All Terrain Terrain Tire', pid:'tire-dunlop-at82-geomax-all-terrain-terrain-tire', tier:'premium',
@@ -8685,7 +9025,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:99.88, url:'https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx'], likely:['stark-vargex'], no:[],
+     fits:['bonnell-805rx'], likely:['stark-vargex','zero-xe'], no:[],
      badge:'IRC', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-tire-ve-33s-gekkota-rear-tire.webp'
     },
     {name:'Tusk Talon Multi Terrain Front Tire 80/100-21', pid:'tire-tusk-talon-multi-terrain-tire-80-100-21', tier:'mid',
@@ -8701,7 +9041,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:84.95, url:'https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx'], likely:['stark-vargex'], no:[],
+     fits:['bonnell-805rx'], likely:['stark-vargex','zero-xe'], no:[],
      badge:'IRC', stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/tire-irc-ix-07s-21-front-tire-light-weight.webp'
     },
     {name:'Dunlop MX14 Sand Scoop Tire', pid:'tire-dunlop-mx14-sand-scoop-tire', tier:'mid',
@@ -8709,7 +9049,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:69.99, url:'https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','arctic-leopard-xe-pro-s'], likely:['stark-vargex','rawrr-mantis-x','altis-sigma','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['bonnell-805rx','arctic-leopard-xe-pro-s','arctic-leopard-xf','rtr-sport'], likely:['stark-vargex','rawrr-mantis-x','altis-sigma','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','rtr-lite','zero-xe','rawrr-mantis-72v','rawrr-mantis-x-pro','rtr-alpha'], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-dunlop-mx14-sand-scoop-tire.webp'
     },
     {name:'Shinko 525 Soft-Intermediate Terrain Tire', pid:'tire-shinko-525-soft-intermediate-terrain-tire', tier:'mid',
@@ -8717,7 +9057,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:71.11, url:'https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','arctic-leopard-xe-pro-s'], likely:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['bonnell-805rx','arctic-leopard-xe-pro-s'], likely:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','rtr-lite','rawrr-mantis-72v','rawrr-mantis-x-pro'], no:['arctic-leopard-xf','rtr-sport','rawrr-mantis-mini-r'],
      badge:'Shinko', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-shinko-525-soft-intermediate-terrain-tire.webp'
     },
     {name:'Kenda 1.3mm Tube (light weight)', pid:'tire-kenda-1-3mm-tube-light-weight', tier:'budget',
@@ -8741,7 +9081,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:59.88, url:'https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex'], likely:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['bonnell-805rx','stark-vargex','rtr-sport','storm-bee'], likely:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','rtr-lite','zero-xe','arctic-leopard-xf','rawrr-mantis-x-pro','rtr-alpha','rawrr-mantis-mini-r'], no:['rawrr-mantis-72v'],
      badge:'Kenda', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-kenda-k774-ibex-hybrid-sticky-front-tire.webp'
     },
     {name:'NUETECH TUBLISS GEN 2.0 (TUBELESS) TIRE SYSTEM', pid:'tire-nuetech-tubliss-gen-2-0-tubeless-tire-system', tier:'mid',
@@ -8757,7 +9097,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s'], likely:['altis-sigma','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['bonnell-805rx','ventus-evo','stark-vargex','rawrr-mantis-x','lightbee2','arctic-leopard-xe-pro-s','rtr-lite','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','rawrr-mantis-x-pro','storm-bee','rfn-warrior-pro','yozma-in10','yozma-in10-pro','rtr-alpha','rawrr-mantis-mini-r'], likely:['altis-sigma','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
      badge:'Sedona', stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260.webp'
     },
     {name:'E Ride Pro - OEM 3.00-18 “BabyFat” Rear Tire Kit', pid:'chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe', tier:'OEM',
@@ -8785,7 +9125,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:104.99, url:'https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire', chk:'2026-11-10'},
      ],
-     fits:['ss30'], likely:['stark-vargex','arctic-leopard-xe-pro-s-enduro'], no:['rawrr-mantis-x'],
+     fits:['ss30'], likely:['stark-vargex','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','zero-xe'], no:['rawrr-mantis-x','rtr-lite','arctic-leopard-xf','rtr-sport','rawrr-mantis-72v','yozma-in10','yozma-in10-pro'],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire.webp'
     },
     {name:'Shinko 777 100/90-19 for Surron Ultra Bee', pid:'chargedcycleworks-shinko-777-cruiser-hd-front-100-90-19', tier:'midrange',
@@ -8799,8 +9139,15 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:92.99, url:'https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['zero-xe'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-dunlop-k990-tires-for-emoto.webp'
+    },
+    {name:'Tusk Recon Sticky Tire for eMoto', pid:'chargedcycleworks-tusk-recon-sticky-19-tire-for-surron-segway', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:49.88, url:'https://chargedcycleworks.com/products/tusk-recon-sticky-19-tire-for-surron-segway', chk:'2026-11-11'},
+     ],
+     fits:[], likely:['rtr-lite'], no:[],
+     stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Kenda K760 Trakmaster REAR Tire', pid:'chargedcycleworks-kenda-k760-trakmaster-rear-tire', tier:'mid',
      prices:[
@@ -8813,21 +9160,21 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:99, url:'https://chargedcycleworks.com/products/pivotrax-cyber-street-tire', chk:'2026-11-11'},
      ],
-     fits:[], likely:['rawrr-mantis-x','altis-sigma','arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['rawrr-mantis-72v'], likely:['rawrr-mantis-x','altis-sigma','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','zero-xe','rawrr-mantis-x-pro'], no:['yozma-in10','yozma-in10-pro'],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Shinko 524 19" Tire', pid:'chargedcycleworks-shinko-524-19-tire', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:71.11, url:'https://chargedcycleworks.com/products/shinko-524-19-tire', chk:'2026-11-11'},
      ],
-     fits:[], likely:['rawrr-mantis-x'], no:[],
+     fits:[], likely:['rawrr-mantis-x','rawrr-mantis-72v','rawrr-mantis-x-pro'], no:['arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Maxxis Maxxcross Intermediate Rear Tire', pid:'chargedcycleworks-maxxis-maxxcross-intermediate-tire', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:66.50, url:'https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:['altis-sigma'], no:[],
+     fits:['rawrr-mantis-x','rtr-sport','rawrr-mantis-72v'], likely:['altis-sigma','rtr-lite','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'COUNTERACT BALANCING BEAD DIY KIT', pid:'chargedcycleworks-counteract-balancing-bead-diy-kit', tier:'budget',
@@ -8850,7 +9197,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:84.95, url:'https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['stark-vargex'], no:[],
+     fits:[], likely:['stark-vargex','zero-xe'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop K990 Light Weight 18/21 for eMoto', pid:'tire-dunlop-k990-emoto', tier:'mid',
@@ -9013,7 +9360,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:22, url:'https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['bonnell-805rx','stark-vargex','rawrr-mantis-x','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','rtr-lite','zero-xe','rtr-sport','rawrr-mantis-72v','rtr-alpha'], likely:['altis-sigma','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
     },
     {name:'Talaria Komodo Titanium Body Bolt Kit', pid:'chargedcycleworks-talaria-komodotitanium-body-bolt-kit', tier:'midrange',
@@ -9041,7 +9388,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:59, url:'https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit', chk:'2026-11-11'},
      ],
-     fits:['lightbee2'], likely:[], no:[],
+     fits:['lightbee2','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Titanium Stem Lock Replacement Bolt', pid:'chargedcycleworks-warp9-titanium-stem-lock-replacement-bolt', tier:'budget',
@@ -11660,4 +12007,652 @@ Object.assign(FITMENT, { /* CCW Light Bee 2 sweep 2026-11-11 (merged run 1) (sup
   'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto|lightbee2':{s:'confirmed_direct_fit',n:'CCW product page fitment list names the Sur-Ron Light Bee 2 ("Fits: Surron Light Bee, Light Bee 2; ..."); also tagged SURLB2 and in CCW\'s Light Bee 2 collection (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto',u:['https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto']},
   'ti-warp9-big-light-kit-bolt-kit|lightbee2':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW\'s Light Bee 2 collection (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit',u:['https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit']},
   'tire-wps-rim-strip|lightbee2':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW\'s Light Bee 2 collection (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Arctic Leopard XE Pro R (merged final) (supersedes entries above) */
+  'tire-shinko-sr241-ccw|arctic-leopard-xe-pro-r':{s:'verify',n:'3.00x21 front and 3.00x18 rear variants fit the XE Pro R 21/18in wheels; earlier not_compatible grade was based on the 2.75x19 listing only - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'chargedcycleworks-arctic-leopard-xe-front-axle-oem|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW fitment list names Arctic Leopard XE Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-front-axle-oem']},
+  'chargedcycleworks-arctic-leopard-xe-rear-sprocket-48t-oem|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW fitment list names Arctic Leopard XE Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-rear-sprocket-48t-oem']},
+  'chargedcycleworks-arctic-leopard-10a-oem-charger|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW fitment list names Arctic Leopard XE / XE Pro / XF / Pro R / EX Pro (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem']},
+  'chargedcycleworks-ion-16-rear-wheel-upgrade-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Bike Fitment Arctic Leopard XE Pro S / Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-arctic-leopard-xe-pro-s']},
+  'chargedcycleworks-ion-21-front-wheel-upgrade-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Bike Fitment Arctic Leopard XE Pro S / Pro R (checked 2026-11-11). R already runs a 21in front, so the 775mm-fork caveat for shorter-fork models does not apply.',u:['https://chargedcycleworks.com/products/21-front-wheel-upgrade-arctic-leopard-xe-pro']},
+  'chargedcycleworks-ion-16-19-wheelset-for-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Fitment Arctic Leopard XE Pro / Pro S / Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/ion-16-19-wheelset-for-arctic-leopard-xe-pro-s']},
+  'chargedcycleworks-ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Bike Fitment Arctic Leopard XE Pro / Pro S / Pro R / XF (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s']},
+  'chargedcycleworks-ion-18-21-wheelset-for-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Fitment Arctic Leopard XE Pro / Pro S / Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/ion-18-21-wheelset-for-arctic-leopard-xe-pro-s']},
+  'chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: This R38 fits all three Arctic Leopard models: XE Pro S, Enduro, and R (checked 2026-11-11). Requires the TMB linkage; stock linkage will not work.',u:['https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r']},
+  'chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: made specifically to fit the Sirris R38 rear shock on Arctic Leopard XE Pro S / Enduro / R models (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r']},
+  'chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Adjustable Footpeg Mounts for the Arctic Leopard XE Pro S, XE Pro R, Enduro, and Vetra (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra']},
+  'chargedcycleworks-tmb-wheel-spacer-set-arctic-leopard-xe-pro|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Upgrade the factory wheel spacers on your Arctic Leopard XE Pro S, XE Pro R, or Vetra (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-wheel-spacer-set-arctic-leopard-xe-pro']},
+  'chargedcycleworks-arctic-leopard-xe-pro-s-pro-r-sprocket|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: 428 Rear Sprocket designed specifically for the Arctic Leopard XE Pro S and XE Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket']},
+  'chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Fits the Arctic Leopard XE Pro R OEM Seat (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r']},
+  'chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW fitment list names Arctic Leopard XE Pro / Pro S / Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway']},
+  'chargedcycleworks-arctic-leopard-xe-rear-axle-oem|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW description names Arctic Leopard XE only; shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-rear-axle-oem']},
+  'chargedcycleworks-arctic-leopard-xe-pro-front-wheel-spacers-oem|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW description names Arctic Leopard XE Pro only (no XE Pro R); shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-front-wheel-spacers-oem']},
+  'chargedcycleworks-arctic-leopard-xe-rear-wheel-spacers-oem|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW description names Arctic Leopard XE / XF only; shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-rear-wheel-spacers-oem']},
+  'chargedcycleworks-arctic-leopard-xe-pro-xf-throttle-oem|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW description names Arctic Leopard XE Pro / XF only (no XE Pro R); shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-xf-throttle-oem']},
+  'chargedcycleworks-arctic-leopard-xe-left-hand-control-oem|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW description names Arctic Leopard XE only; shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem']},
+  'chargedcycleworks-arctic-leopard-xe-pro-seat-lock-oem|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW description names Arctic Leopard XE Pro only (no XE Pro R); shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-lock-oem']},
+  'chargedcycleworks-arctic-leopard-xe-pro-16-rear-wheel|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW description names Arctic Leopard XE Pro 16/19 setup only (no XE Pro R); shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arcticleopardxepro-16wheel']},
+  'chargedcycleworks-arctic-leopard-xe-pro-s-oem-takeoff-wheelset|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW: wheelset off a new Arctic Leopard XE Pro S (16/19in); XE Pro R not named - verify fit before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-takeoff-wheelset']},
+  'chargedcycleworks-kyvex-billet-bar-mount|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW ALXEPROR collection only; product page does not name the XE Pro R - verify fit (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount']},
+  'chargedcycleworks-kyvex-billet-bar-mount-riser|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW ALXEPROR collection only; product page does not name the XE Pro R - verify fit (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser']},
+  'chargedcycleworks-kyvex-billet-stem-lock|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW ALXEPROR collection only; product page does not name the XE Pro R - verify fit (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kyvex-billet-stem-lock']},
+  'chargedcycleworks-prickly-31-8-direct-mount-stem-surron|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW page names Surron only; ALXEPROR collection only - verify clamp fit before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/prickly-31-8-direct-mount-stem-surron']},
+  'chargedcycleworks-warp9-transformer-direct-bar-mount-stem|arctic-leopard-xe-pro-r':{s:'verify',n:'Fits KKE forks with standard 4-bolt DH top triple clamp; CCW does not name the XE Pro R - verify (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem']},
+  'chargedcycleworks-dunlop-k990-tires-for-emoto|arctic-leopard-xe-pro-r':{s:'verify',n:'90/100-18 rear and 70/100-21 front variants fit the XE Pro R 21/18in wheels but are not stock sizes (80/100-21 / 100/90-18); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying. Note: CCW lists the K990 as discontinued (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto']},
+  'chargedcycleworks-pivotrax-cyber-street-tire|arctic-leopard-xe-pro-r':{s:'verify',n:'90/100-18 variant fits the XE Pro R 18in rear wheel (not stock 100/90-18); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/pivotrax-cyber-street-tire']},
+  'rfloxa-rab53rv|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW fitment list names Talaria / Altis Sigma / E Ride Pro / SurRon only; no Arctic Leopard model named - eye-to-eye length and mounts unverified for XE Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/rfloxa-rab53rv']},
+  'maintenance-warp9-stemlock-replacement-bolt|arctic-leopard-xe-pro-r':{s:'verify',n:'Replacement bolt for Warp9 stem lock; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9']},
+  'handlebar-odi-podium-mx-handlebars|arctic-leopard-xe-pro-r':{s:'verify',n:'28.6mm clamp; XE Pro R stock clamp size unverified - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/odi-podium-mx-handlebars']},
+  'handlebar-renthal-fatbar-1-1-8|arctic-leopard-xe-pro-r':{s:'verify',n:'28.6mm clamp; XE Pro R stock clamp size unverified - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/renthal-fatbar-1-1-8']},
+  'warp9-3in-rise|arctic-leopard-xe-pro-r':{s:'verify',n:'31.8mm bar; CCW names Surron / Segway / E Ride Pro / Talaria only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria']},
+  'cockpit-odi-ruffian-full-waffle-grips|arctic-leopard-xe-pro-r':{s:'verify',n:'Universal 22.2mm grips; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|arctic-leopard-xe-pro-r':{s:'verify',n:'Universal 22.2mm grips; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|arctic-leopard-xe-pro-r':{s:'verify',n:'Universal 22.2mm grips; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|arctic-leopard-xe-pro-r':{s:'verify',n:'Universal lock-on grips; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-protaper-pillow-top-lite-grips|arctic-leopard-xe-pro-r':{s:'verify',n:'Universal 22.2mm grips; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
+  'cockpit-renthal-50-50-mx-grips|arctic-leopard-xe-pro-r':{s:'verify',n:'Universal 22.2mm grips; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|arctic-leopard-xe-pro-r':{s:'verify',n:'Universal 22.2mm grips; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-grip-donuts|arctic-leopard-xe-pro-r':{s:'verify',n:'Universal grip donuts; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260']},
+  'cockpit-odi-aluminum-grip-end-plugs|arctic-leopard-xe-pro-r':{s:'verify',n:'Universal bar-end plugs; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260']},
+  'plastics-odi-downhill-e-bike-number-plate|arctic-leopard-xe-pro-r':{s:'verify',n:'Universal e-moto number plate; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate']},
+  'tire-bikemaster-tr6-inner-tubes|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW ALXEPROR tag only; verify 21in front / 18in rear variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes']},
+  'tire-irc-tubes|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW ALXEPROR tag only; verify 21in front / 18in rear variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW ALXEPROR tag only; verify 21in front / 18in rear variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'tire-wps-rim-strip|arctic-leopard-xe-pro-r':{s:'verify',n:'Universal rim strip; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+  'tire-bridgestone-x31|arctic-leopard-xe-pro-r':{s:'verify',n:'80/100-21 front and 110/100-18 rear variants fit the XE Pro R 21/18in wheels (stock 80/100-21 front); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18']},
+  'tire-dunlop-mx14-sand-scoop-tire|arctic-leopard-xe-pro-r':{s:'verify',n:'110/100-18 variant fits the XE Pro R 18in rear wheel (not stock 100/90-18); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire']},
+  'tire-dunlop-mx33-ccw|arctic-leopard-xe-pro-r':{s:'verify',n:'70/100-21 front and 90/100-18 rear variants fit the XE Pro R 21/18in wheels but are not stock sizes; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx34|arctic-leopard-xe-pro-r':{s:'verify',n:'80/100-21 variant = XE Pro R stock front size; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires']},
+  'tire-dunlop-mx53-ccw|arctic-leopard-xe-pro-r':{s:'verify',n:'80/100-21 variant = XE Pro R stock front size; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx54-geomax-soft-int-terrain-tires|arctic-leopard-xe-pro-r':{s:'verify',n:'80/100-21 variant = XE Pro R stock front size; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
+  'tire-kenda-k270-dualsport|arctic-leopard-xe-pro-r':{s:'verify',n:'2.75x21 / 3.00x21 front and 3.50x18 / 4.00x18 rear variants fit the XE Pro R 21/18in wheels (not stock metric sizes); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'tire-kenda-washougal3-ccw|arctic-leopard-xe-pro-r':{s:'verify',n:'80/100-21 variant = XE Pro R stock front size; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-k774-ibex-hybrid-sticky-front-tire|arctic-leopard-xe-pro-r':{s:'verify',n:'80/100-21 variant = XE Pro R stock front size; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire']},
+  'tire-kenda-k775-washougal-ii-front-tire|arctic-leopard-xe-pro-r':{s:'verify',n:'80/100-21 variant = XE Pro R stock front size; CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire']},
+  'chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire|arctic-leopard-xe-pro-r':{s:'verify',n:'90/100-18 variant fits the XE Pro R 18in rear wheel (not stock 100/90-18); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire']},
+  'tire-shinko-244-dualsport|arctic-leopard-xe-pro-r':{s:'verify',n:'2.75x21 / 3.00x21 front and 3.50x18 rear variants fit the XE Pro R 21/18in wheels (not stock metric sizes); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/shinko-244-dual-sport-tires']},
+  'tire-shinko-525-soft-intermediate-terrain-tire|arctic-leopard-xe-pro-r':{s:'verify',n:'100/100-18 and 110/100-18 variants fit the XE Pro R 18in rear wheel (not stock 100/90-18); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire']},
+  'tire-shinko-525-cheater|arctic-leopard-xe-pro-r':{s:'verify',n:'110/100-18 and 120/100-18 variants fit the XE Pro R 18in rear wheel (not stock 100/90-18); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260']},
+  'tire-bridgestone-m203-ccw|arctic-leopard-xe-pro-r':{s:'not_compatible',n:'No 21in or 18in variant (70/100-19, 70/100-17, 60/100-14 only) - cannot mount on the XE Pro R 21/18in wheels (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-kenda-k760-trakmaster|arctic-leopard-xe-pro-r':{s:'not_compatible',n:'No 21in or 18in variant (70/100-19, 70/100-17, 100/90-19 only) - cannot mount on the XE Pro R 21/18in wheels (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260']},
+  'tire-kenda-millville2-k785|arctic-leopard-xe-pro-r':{s:'not_compatible',n:'70/100-19 only - cannot mount on the XE Pro R 21in front or 18in rear rim (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire']},
+  'tire-maxxis-mxsi|arctic-leopard-xe-pro-r':{s:'not_compatible',n:'No 21in or 18in variant (70/100-19, 90/100-16, 70/100-17, 90/100-14 only) - cannot mount on the XE Pro R 21/18in wheels (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front']},
+  'chargedcycleworks-shinko-524-19-tire|arctic-leopard-xe-pro-r':{s:'not_compatible',n:'19in tire only - cannot mount on the XE Pro R 21in front or 18in rear rim (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/shinko-524-19-tire']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - ETM RTR Lite (merged final) (supersedes entries above) */
+  'tire-kenda-k270-dualsport|rtr-lite':{s:'verify',n:'CCW sells no 14in/12in K270 (18/21 only) - the old diameter-match confirm was wrong; downgraded to verify (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'cockpit-acerbis-x-ultimate-handguards|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
+  'tire-dunlop-mx54-geomax-soft-int-terrain-tires|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires. Stock-size variant(s): 60/100-14 and 80/100-12, both in stock.',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
+  'cockpit-odi-ruffian-full-waffle-grips|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-protaper-pillow-top-grips|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-grips']},
+  'cockpit-protaper-pillow-top-lite-grips|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
+  'cockpit-renthal-50-50-mx-grips|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-50-50-mx-grips',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-warp9-e-moto-handguards|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguards',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguards']},
+  'titanium-warp9-e-moto-handguard-titanium-bolt-kit|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260. Stock-size variant(s): 60/100-14 and 80/100-12.',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'tire-wps-rim-strip|rtr-lite':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip. Stock-size variant(s): 14in and 12in.',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+  'chargedcycleworks-e-c-pit-bike-high-bars|rtr-lite':{s:'confirmed_direct_fit',n:'E&C high bars for the ETM RTR; 7/8in bars. CCW search-by-bike (ETM RTR LITE tag) lists them for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/e-c-pit-bike-high-bars',u:['https://chargedcycleworks.com/products/e-c-pit-bike-high-bars']},
+  'chargedcycleworks-odi-7-8-podium-handlebars|rtr-lite':{s:'confirmed_direct_fit',n:'7/8in bars (stock RTR clamp is 7/8in). CCW search-by-bike (ETM RTR LITE tag) lists them for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-7-8-podium-handlebars-for-beta-apollo-rfn',u:['https://chargedcycleworks.com/products/odi-7-8-podium-handlebars-for-beta-apollo-rfn']},
+  'chargedcycleworks-etm-rtr-2025-complete-wheelset|rtr-lite':{s:'confirmed_direct_fit',n:'Complete front + rear wheelset matching the factory 14/12 setup. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-2025-complete-wheelset',u:['https://chargedcycleworks.com/products/etm-rtr-2025-complete-wheelset']},
+  'chargedcycleworks-etm-rtr-big-wheel-kit|rtr-lite':{s:'confirmed_direct_fit',n:'Bolt-on kit converts stock 14/12 wheels to 17 front / 14 rear and raises stance. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-big-wheel-kit',u:['https://chargedcycleworks.com/products/etm-rtr-big-wheel-kit']},
+  'chargedcycleworks-etm-rtr-12in-supermoto-wheel-set|rtr-lite':{s:'confirmed_direct_fit',n:'Direct-fit 12in supermoto wheel set with pre-mounted Kenda Curve street tires. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-12in-supermoto-wheel-set',u:['https://chargedcycleworks.com/products/etm-rtr-12in-supermoto-wheel-set']},
+  'chargedcycleworks-etm-rtr-14in-supermoto-wheel-set|rtr-lite':{s:'confirmed_direct_fit',n:'Direct-fit 14in street wheel set, 90/90-14 tires, includes 2x RTR brake rotors. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-14in-supermoto-wheel-set',u:['https://chargedcycleworks.com/products/etm-rtr-14in-supermoto-wheel-set']},
+  'chargedcycleworks-high-performance-35-rlv-pit-bike-chain-for-etm-rtr|rtr-lite':{s:'confirmed_direct_fit',n:'114-link stock-length #35 chain for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/high-performance-35-rlv-pit-bike-chain-for-etm-rtr',u:['https://chargedcycleworks.com/products/high-performance-35-rlv-pit-bike-chain-for-etm-rtr']},
+  'chargedcycleworks-etm-rtr-oem-73t-sprocket|rtr-lite':{s:'confirmed_direct_fit',n:'OEM 73T rear sprocket for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-73t-sprocket',u:['https://chargedcycleworks.com/products/etm-rtr-oem-73t-sprocket']},
+  'chargedcycleworks-etm-rtr-oem-brake-lever|rtr-lite':{s:'confirmed_direct_fit',n:'OEM brake lever for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-brake-lever',u:['https://chargedcycleworks.com/products/etm-rtr-oem-brake-lever']},
+  'chargedcycleworks-etm-rtr-oem-brake-pads|rtr-lite':{s:'confirmed_direct_fit',n:'OEM brake pads for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-brake-pads',u:['https://chargedcycleworks.com/products/etm-rtr-oem-brake-pads']},
+  'chargedcycleworks-etm-rtr-oem-brake-rotor|rtr-lite':{s:'confirmed_direct_fit',n:'OEM brake rotor for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-brake-rotor',u:['https://chargedcycleworks.com/products/etm-rtr-oem-brake-rotor']},
+  'chargedcycleworks-etm-rtr-oem-chain|rtr-lite':{s:'confirmed_direct_fit',n:'OEM chain for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-chain',u:['https://chargedcycleworks.com/products/etm-rtr-oem-chain']},
+  'chargedcycleworks-etm-rtr-oem-complete-front-brake-assembly|rtr-lite':{s:'confirmed_direct_fit',n:'OEM front brake assembly for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-complete-front-brake-assembly',u:['https://chargedcycleworks.com/products/etm-rtr-oem-complete-front-brake-assembly']},
+  'chargedcycleworks-etm-rtr-oem-front-sprocket|rtr-lite':{s:'confirmed_direct_fit',n:'OEM front sprocket for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-front-sprocket',u:['https://chargedcycleworks.com/products/etm-rtr-oem-front-sprocket']},
+  'chargedcycleworks-etm-rtr-oem-low-rise-handlebar|rtr-lite':{s:'confirmed_direct_fit',n:'OEM low-rise handlebar for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-low-rise-handlebar',u:['https://chargedcycleworks.com/products/etm-rtr-oem-low-rise-handlebar']},
+  'chargedcycleworks-etm-rtr-oem-rear-brake-assembly|rtr-lite':{s:'confirmed_direct_fit',n:'OEM rear brake assembly for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-rear-brake-assembly',u:['https://chargedcycleworks.com/products/etm-rtr-oem-rear-brake-assembly']},
+  'chargedcycleworks-rear-fender-etm-rtr-2025|rtr-lite':{s:'confirmed_direct_fit',n:'OEM rear fender for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025',u:['https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025']},
+  'chargedcycleworks-etm-rtr-2025-black-seat|rtr-lite':{s:'confirmed_direct_fit',n:'OEM seat for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-2025-black-seat',u:['https://chargedcycleworks.com/products/etm-rtr-2025-black-seat']},
+  'chargedcycleworks-etm-rtr-oem-throttle|rtr-lite':{s:'confirmed_direct_fit',n:'OEM replacement throttle for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-throttle',u:['https://chargedcycleworks.com/products/etm-rtr-oem-throttle']},
+  'chargedcycleworks-etm-rtr-complete-body-plastic-kit|rtr-lite':{s:'confirmed_direct_fit',n:'Complete body plastic kit for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit',u:['https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit']},
+  'chargedcycleworks-etm-rtr-oem-grips|rtr-lite':{s:'confirmed_direct_fit',n:'OEM grips for the 2025 ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-grips',u:['https://chargedcycleworks.com/products/etm-rtr-oem-grips']},
+  'chargedcycleworks-etm-rtr-race-shock|rtr-lite':{s:'confirmed_direct_fit',n:'ETM RTR Race Shock. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-race-shock',u:['https://chargedcycleworks.com/products/etm-rtr-race-shock']},
+  'chargedcycleworks-etm-rtr-wave-rotors|rtr-lite':{s:'confirmed_direct_fit',n:'ETM RTR Wave Rotors, sold individually. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-wave-rotors',u:['https://chargedcycleworks.com/products/etm-rtr-wave-rotors']},
+  'tire-bikemaster-tr6-inner-tubes|rtr-lite':{s:'verify',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite, but no stock-size variant is sold - verify fit/size before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes. Tube sizes 16/18/19/21 only; no 14in/12in variant.',u:['https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes']},
+  'tire-dunlop-mx14-sand-scoop-tire|rtr-lite':{s:'verify',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite, but no stock-size variant is sold - verify fit/size before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire. 90/100-14 is a front-diameter match only (stock front 60/100-14); no exact stock size.',u:['https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire']},
+  'tire-irc-tubes|rtr-lite':{s:'verify',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite, but no stock-size variant is sold - verify fit/size before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes. Tube sizes 16/18/19/21 only; no 14in/12in variant.',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'tire-kenda-k774-ibex-hybrid-sticky-front-tire|rtr-lite':{s:'verify',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite, but no stock-size variant is sold - verify fit/size before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire. 90/100-14 is a front-diameter match only (stock front 60/100-14); no exact stock size.',u:['https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire']},
+  'tire-kenda-k775-washougal-ii-front-tire|rtr-lite':{s:'verify',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite, but no stock-size variant is sold - verify fit/size before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire. Tire sizes 16/19/21 only; no 14in/12in variant.',u:['https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire']},
+  'tire-shinko-525-soft-intermediate-terrain-tire|rtr-lite':{s:'verify',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite, but no stock-size variant is sold - verify fit/size before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire. Tire sizes 16/18/19 only; no 14in/12in variant.',u:['https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire']},
+  'chargedcycleworks-maxxis-maxxcross-intermediate-tire|rtr-lite':{s:'verify',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite, but no stock-size variant is sold - verify fit/size before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front. 90/100-14 is a front-diameter match only; rear stock is 12in.',u:['https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front']},
+  'chargedcycleworks-tusk-recon-sticky-19-tire-for-surron-segway|rtr-lite':{s:'verify',n:'CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite, but no stock-size variant is sold - verify fit/size before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-recon-sticky-19-tire-for-surron-segway. Tire sizes 70/100-19 and 90/100-16 only; no 14in/12in variant.',u:['https://chargedcycleworks.com/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'chargedcycleworks-thrill-seekers-seat-cover-for-etm-rtr|rtr-lite':{s:'verify',n:'Title names ETM RTR (not Lite specifically); tag-only evidence, so verify per the seat-cover precedent. All variants out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr',u:['https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr']},
+  'chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire|rtr-lite':{s:'not_compatible',n:'Single-size 90/100-18 rear tire; stock RTR Lite wheels are 14in front / 12in rear, so it cannot fit (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire',u:['https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Zero XE (merged final) (supersedes entries above) */
+  'tire-bridgestone-m204-ccw|zero-xe':{s:'not_compatible',n:'CCW listing offers only 90/100-16, 90/100-14 and 80/100-12 — no 18in rear size vs Zero XE 18in rear wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire',u:['https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'cockpit-acerbis-x-factory-handguards|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-factory-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-factory-handguards']},
+  'cockpit-acerbis-x-ultimate-handguards|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
+  'tire-bikemaster-tr6-inner-tubes|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers 70/100-21 and 90/100-18 tubes for the stock 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes',u:['https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes']},
+  'tire-bridgestone-x30-ccw|zero-xe':{s:'not_compatible',n:'CCW listing offers only 90/100-16 and 70/100-19 — no size fits the Zero XE 21in front / 18in rear wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16',u:['https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x31|zero-xe':{s:'verify',n:'CCW tags it ZXE; offers 80/100-21 front and 110/100-18 rear — both fit the stock 21/18in wheels but neither is the stock size (70/100-21 front, 90/90-18 rear) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18',u:['https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18']},
+  'tire-bridgestone-m203-ccw|zero-xe':{s:'not_compatible',n:'CCW listing offers 70/100-19 max, no 21in front size vs Zero XE 21in front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate',u:['https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'drivetrain-did-520-ervt-gold-x-ring-chain|zero-xe':{s:'verify',n:'CCW tags it ZXE; 520 chain in 112-120L lengths, but the Zero XE stock link count is unverified — verify length before buying (checked 2026-11-11). Note: audit $10.64 is the master-link price; full chain $194.36+. Live URL https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain',u:['https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain']},
+  'chargedcycleworks-dunlop-k990-tires-for-emoto|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers the stock front size 70/100-21 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto',u:['https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto']},
+  'tire-dunlop-mx14-sand-scoop-tire|zero-xe':{s:'verify',n:'CCW tags it ZXE; 110/100-18 rear fits the stock 18in wheel but is wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire',u:['https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire']},
+  'tire-dunlop-mx33-ccw|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers the stock front size 70/100-21 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto',u:['https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-dunlop-mx34|zero-xe':{s:'verify',n:'CCW tags it ZXE; offers 80/100-21 front and 100/100-18 / 110/100-18 rears — fit the stock 21/18in wheels but not the stock sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires',u:['https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires']},
+  'tire-dunlop-mx53-ccw|zero-xe':{s:'verify',n:'CCW tags it ZXE; offers 80/100-21 front and 100/100-18 rear — fit the stock 21/18in wheels but not the stock sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires',u:['https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires']},
+  'tire-dunlop-mx54-geomax-soft-int-terrain-tires|zero-xe':{s:'verify',n:'CCW tags it ZXE; offers 80/100-21 front and 100/100-18 / 110/100-18 rears — fit the stock 21/18in wheels but not the stock sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
+  'tire-irc-ix-07s-21-front-tire-light-weight|zero-xe':{s:'verify',n:'CCW tags it ZXE; description states 80/100-21 for 21in front wheels — fits the stock 21in front but is wider than the stock 70/100-21; currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight',u:['https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight']},
+  'tire-irc-ix09-gekkota-ccw|zero-xe':{s:'verify',n:'CCW tags it ZXE; offers 80/100-21 front and 110/100-18 rear — fit the stock 21/18in wheels but not the stock sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16',u:['https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16']},
+  'tire-irc-jx8-gekkota-rear-gummy-tire|zero-xe':{s:'verify',n:'CCW tags it ZXE; 110/100-18 rear fits the stock 18in wheel but is wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire',u:['https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire']},
+  'tire-irc-m5b-evo|zero-xe':{s:'verify',n:'CCW tags it ZXE; 130/80-18 rear fits the stock 18in wheel but is much wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tire-m5b-evo-rear-130-80-18',u:['https://chargedcycleworks.com/products/irc-tire-m5b-evo-rear-130-80-18']},
+  'tire-irc-ve33-ccw|zero-xe':{s:'verify',n:'CCW tags it ZXE; 100/100-18 rear fits the stock 18in wheel but is wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire',u:['https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire']},
+  'tire-irc-tr-8-street-legal|zero-xe':{s:'verify',n:'CCW tags it ZXE; offers 3.00x21 (about 80/100-21) front and 4.00x18 rear — fit the stock 21/18in wheels but not the stock sizes; the 3.00x21 variant is currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee',u:['https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee']},
+  'tire-irc-tubes|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers 2.75/3.00x21 front and 3.25/4.10-18 rear tubes for the stock 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'tire-tire-ve-33s-gekkota-rear-tire|zero-xe':{s:'verify',n:'CCW tags it ZXE; 110/100-18 rear fits the stock 18in wheel but is wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire',u:['https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire']},
+  'tire-kenda-k270-dualsport|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers 2.75x21 (= stock 70/100-21 front) and 3.50x18 for the stock 21/18in wheels; the 2.75x21 variant is currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'tire-kenda-washougal3-ccw|zero-xe':{s:'verify',n:'CCW tags it ZXE; offers 80/100-21 front and 90/100-18 rear — fit the stock 21/18in wheels but not the stock sizes; all CCW variants currently out of stock (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k7102-washougal-iii',u:['https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-k760-trakmaster|zero-xe':{s:'not_compatible',n:'CCW listing offers only 70/100-19, 70/100-17 and 100/90-19 — no size fits the Zero XE 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260']},
+  'tire-kenda-k774-ibex-hybrid-sticky-front-tire|zero-xe':{s:'verify',n:'CCW tags it ZXE; 80/100-21 front fits the stock 21in front wheel but is wider than the stock 70/100-21 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire',u:['https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire']},
+  'tire-kenda-k775-washougal-ii-front-tire|zero-xe':{s:'verify',n:'CCW tags it ZXE; 80/100-21 front fits the stock 21in front wheel but is wider than the stock 70/100-21 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire',u:['https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire']},
+  'tire-kenda-millville2-k785|zero-xe':{s:'not_compatible',n:'CCW listing is a 70/100-19 front tire — no 21in front size vs Zero XE 21in front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire',u:['https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire']},
+  'tire-maxxis-mxsi|zero-xe':{s:'not_compatible',n:'CCW listing offers only 70/100-19, 90/100-16, 70/100-17 and 90/100-14 — no size fits the Zero XE 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front',u:['https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front']},
+  'tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19|zero-xe':{s:'verify',n:'CCW description names the ZeroXE (\'fit larger bikes like the Varg, ZeroXE, and Ultra Bee with an 18in rear\') but requires a tire of 110 or larger — the stock rear tire is 90/90-18, so it only fits with a wider rear tire (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19',u:['https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19']},
+  'cockpit-odi-aluminum-grip-end-plugs|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260']},
+  'cockpit-odi-grip-donuts|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260']},
+  'handlebar-odi-podium-mx-handlebars|zero-xe':{s:'verify',n:'CCW tags it ZXE; 28.6mm bar, but the Zero XE stock clamp diameter is unverified — may need shims if the stock clamp is 31.8mm (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-podium-mx-handlebars',u:['https://chargedcycleworks.com/products/odi-podium-mx-handlebars']},
+  'cockpit-odi-ruffian-full-waffle-grips|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'chargedcycleworks-pivotrax-cyber-street-tire|zero-xe':{s:'verify',n:'CCW tags it ZXE; offers 90/100-18 rear for the stock 18in wheel (wider than stock 90/90-18); the 80/100-19 front does not fit the 21in front (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-cyber-street-tire',u:['https://chargedcycleworks.com/products/pivotrax-cyber-street-tire']},
+  'chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire|zero-xe':{s:'verify',n:'CCW tags it ZXE; 90/100-18 rear fits the stock 18in wheel but is wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire',u:['https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire']},
+  'drivetrain-primary-drive-520-orh-gold-x-ring-chain|zero-xe':{s:'verify',n:'CCW tags it ZXE; 520 chain in 96-118L lengths, but the Zero XE stock link count is unverified — verify length before buying (checked 2026-11-11). Note: audit $4.99 is the master-link price; full chain $70.99+. Live URL https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain',u:['https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain']},
+  'cockpit-protaper-pillow-top-grips|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE; all CCW variants currently out of stock (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-grips']},
+  'cockpit-protaper-pillow-top-lite-grips|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
+  'cockpit-renthal-50-50-mx-grips|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-50-50-mx-grips',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'drivetrain-520-renthal-r-1-works-chain|zero-xe':{s:'verify',n:'CCW tags it ZXE; 520 chain in 96-120L lengths, but the Zero XE stock link count is unverified — verify length before buying (checked 2026-11-11). Note: audit $8.96 is the master-link price; full chain $120.21+. Live URL https://chargedcycleworks.com/products/520-renthal-r-1-works-chain',u:['https://chargedcycleworks.com/products/520-renthal-r-1-works-chain']},
+  'handlebar-renthal-fatbar-1-1-8|zero-xe':{s:'verify',n:'CCW tags it ZXE; 28.6mm bar, but the Zero XE stock clamp diameter is unverified — may need shims if the stock clamp is 31.8mm (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-fatbar-1-1-8',u:['https://chargedcycleworks.com/products/renthal-fatbar-1-1-8']},
+  'tire-shinko-sr241-ccw|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers 2.75x21 (= stock 70/100-21 front) and 3.50x18 rear for the stock 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'cockpit-sxs-burly-shields-hand-guards|zero-xe':{s:'verify',n:'CCW tags it ZXE, but the $55 variant is named for the Surron Ultra Bee; only the $154 universal-mount variant could fit the XE — and both variants are currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards',u:['https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'tire-tusk-t35-front-ccw|zero-xe':{s:'verify',n:'CCW tags it ZXE; offers 80/100-21 front for the stock 21in front wheel, wider than the stock 70/100-21 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire',u:['https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'chargedcycleworks-ultra-bee-anvil-steel-rear-sprocket|zero-xe':{s:'confirmed_direct_fit',n:'CCW title and description name the Zero XE: \'Fits: Surron Ultra Bee, Surge V, and Zero XE\'; tagged ZXE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket',u:['https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket']},
+  'pegs-warp9-zero-xe-elite-foot-pegs|zero-xe':{s:'confirmed_direct_fit',n:'CCW product is made for the Zero XE: title \'Warp9 E-Moto Elite Foot Pegs for Zero XE\', description \'specifically designed to fit the Zero XE\'; tagged ZXE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-zero-xe-elite-foot-pegs',u:['https://chargedcycleworks.com/products/warp9-zero-xe-elite-foot-pegs']},
+  'titanium-warp9-e-moto-handguard-titanium-bolt-kit|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit']},
+  'cockpit-warp9-e-moto-handguards|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguards',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguards']},
+  'tire-wps-rim-strip|zero-xe':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers 21in and 18in rim-strip sizes for the stock wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Arctic Leopard XF (merged final) (supersedes entries above) */
+  'tire-tusk-t35-front-ccw|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the XF; offers 70/100-17, the XF stock front size. Corrects the earlier not_compatible row, which read the 21in variant name only. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-bridgestone-m204-ccw|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the XF; offers 90/100-14, the XF stock rear size. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-bridgestone-x30-ccw|arctic-leopard-xf':{s:'not_compatible',n:'Rear tire offered in 90/100-16 and 70/100-19 only; neither matches the XF 17in front / 14in rear rims. (checked 2026-11-11)'},
+  'tire-shinko-sr241-ccw|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the XF; offers 2.75x17 front and 2.75x14 rear, the inch equivalents of the XF stock 70/100-17 front and 90/100-14 rear sizes. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'chargedcycleworks-arctic-leopard-xe-pro-xf-throttle-oem|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW title names the XF (XE PRO / XF OEM throttle); CCW ALXF tag. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-xf-throttle-oem']},
+  'chargedcycleworks-arctic-leopard-xe-xf-brake-lever-oem|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW title names the XF (XE/XF OEM brake lever); CCW ALXF tag. Both front and rear variants out of stock at CCW. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem']},
+  'chargedcycleworks-arctic-leopard-10a-oem-charger|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW title and fitment list name the XF (XE / XF / Pro R / EX Pro); 10A OEM charger for 72V Arctic Leopard packs. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem']},
+  'chargedcycleworks-arctic-leopard-xe-pro-16-rear-wheel|arctic-leopard-xf':{s:'verify',n:'CCW title names Arctic Leopard XE Pro only; 16in rear vs XF stock 14in rear, and the XF uses its own swingarm - verify fit before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/arcticleopardxepro-16wheel']},
+  'chargedcycleworks-arctic-leopard-xe-rear-sprocket-48t-oem|arctic-leopard-xf':{s:'verify',n:'CCW title names Arctic Leopard XE only; the XF is not an XE Pro variant and sprocket bolt pattern/offset is unverified for the XF - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-rear-sprocket-48t-oem']},
+  'chargedcycleworks-arctic-leopard-xe-rear-wheel-spacers-oem|arctic-leopard-xf':{s:'verify',n:'CCW title names Arctic Leopard XE only; rear wheel spacers are axle/hub-specific and the XF uses its own swingarm - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-rear-wheel-spacers-oem']},
+  'chargedcycleworks-ion-16-rear-wheel-upgrade-arctic-leopard-xe-pro-s|arctic-leopard-xf':{s:'verify',n:'CCW title names Arctic Leopard XE PRO only; 16in rear vs XF stock 14in rear - verify fit before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-arctic-leopard-xe-pro-s']},
+  'chargedcycleworks-ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s|arctic-leopard-xf':{s:'verify',n:'CCW title names Arctic Leopard XE PRO only; 17/17 supermoto set vs XF stock 17/14 - the rear wheel is a size conversion, verify fit before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s']},
+  'chargedcycleworks-kyvex-billet-bar-mount|arctic-leopard-xf':{s:'verify',n:'CCW ALXF tag only; bar mount bolts to the top triple clamp and XF clamp spacing is unverified - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount']},
+  'chargedcycleworks-kyvex-billet-bar-mount-riser|arctic-leopard-xf':{s:'verify',n:'CCW ALXF tag only; bar mount riser bolts to the top triple clamp and XF clamp spacing is unverified - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser']},
+  'chargedcycleworks-kyvex-billet-stem-lock|arctic-leopard-xf':{s:'verify',n:'CCW ALXF tag only; stem lock is triple-clamp specific and XF fitment is unverified - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/kyvex-billet-stem-lock']},
+  'chargedcycleworks-kyvex-replacement-foot-peg-pins|arctic-leopard-xf':{s:'verify',n:'Spare pins for the KyVex Billet Wide Foot Pegs (verify for XF); CCW ALXF tag only. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins']},
+  'chargedcycleworks-prickly-31-8-direct-mount-stem-surron|arctic-leopard-xf':{s:'verify',n:'CCW title names Surron; direct-mount stem is fork/triple-clamp specific and the XF runs KKE 35mm forks - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/prickly-31-8-direct-mount-stem-surron']},
+  'cockpit-acerbis-x-factory-handguards|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal handguard. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/acerbis-x-factory-handguards']},
+  'cockpit-acerbis-x-ultimate-handguards|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal handguard. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
+  'tire-bridgestone-m203-ccw|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the XF; offers 70/100-17, the XF stock front size. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-dunlop-mx14-sand-scoop-tire|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the XF; offers 90/100-14, the XF stock rear size. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire']},
+  'tire-dunlop-mx34|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the XF; offers 70/100-17 front and 90/100-14 rear, both XF stock sizes. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires']},
+  'tire-dunlop-mx54-geomax-soft-int-terrain-tires|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the XF; offers 70/100-17 front and 90/100-14 rear, both XF stock sizes. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
+  'tire-maxxis-mxsi|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the XF; offers 70/100-17 front and 90/100-14 rear, both XF stock sizes. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front']},
+  'plastics-odi-downhill-e-bike-number-plate|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal number plate. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate']},
+  'cockpit-odi-grip-donuts|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal grip donuts. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260']},
+  'cockpit-odi-ruffian-full-waffle-grips|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal grips. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal grips. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal grips. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal grips. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-protaper-pillow-top-grips|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal grips. All variants out of stock at CCW. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/protaper-pillow-top-grips']},
+  'cockpit-protaper-pillow-top-lite-grips|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal grips. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
+  'cockpit-renthal-50-50-mx-grips|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal grips. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the XF; offers 70/100-17 front and 90/100-14 rear tube sizes, both XF stock sizes. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal grips. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'tire-wps-rim-strip|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the XF; offers 17in and 14in rim-strip sizes, matching the XF 17/14 wheels. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+  'tire-kenda-k760-trakmaster|arctic-leopard-xf':{s:'verify',n:'Rear tire; CCW offers a 70/100-17 variant matching the XF front rim diameter, but it is a rear-pattern tire - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260']},
+  'tire-kenda-k774-ibex-hybrid-sticky-front-tire|arctic-leopard-xf':{s:'verify',n:'Front-tire listing; CCW offers 90/100-14 (XF rear rim diameter) but no 70/100-17 for the XF front - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire']},
+  'chargedcycleworks-kyvex-billet-wide-foot-pegs|arctic-leopard-xf':{s:'verify',n:'CCW title names Surron / Talaria / E Ride Pro, not the XF; foot peg mounts are bike-specific - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs']},
+  'charged-brake-pads-emoto|arctic-leopard-xf':{s:'verify',n:'CCW ALXF tag only; pad variants name Surron/Talaria/E Ride and Arctic Leopard XE Pro S, none names the XF - verify which pad fits the XF calipers before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
+  'chargedcycleworks-project9-brake-pads-for-eride-surron-talaria|arctic-leopard-xf':{s:'verify',n:'CCW ALXF tag only; pad variants name Arctic Leopard XE Pro S, none names the XF - verify which pad fits the XF calipers before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria']},
+  'handlebar-renthal-fatbar-1-1-8|arctic-leopard-xf':{s:'verify',n:'28.6mm bar; CCW ALXF tag only and XF stock bar-clamp diameter is unconfirmed - likely needs shims if the stock clamp is 31.8mm, verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/renthal-fatbar-1-1-8']},
+  'maintenance-warp9-stemlock-replacement-bolt|arctic-leopard-xf':{s:'verify',n:'Replacement bolt for a Warp9 stem lock; CCW ALXF tag only and no XF-specific stem lock fitment is on file - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9']},
+  'warp9-3in-rise|arctic-leopard-xf':{s:'verify',n:'CCW ALXF tag only; 1-1/8in (28.6mm) bar and XF stock clamp diameter is unconfirmed - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria']},
+  'tire-bikemaster-tr6-inner-tubes|arctic-leopard-xf':{s:'not_compatible',n:'CCW offers no 17in or 14in tube variant; XF uses 70/100-17 front and 90/100-14 rear. (checked 2026-11-11)'},
+  'tire-bridgestone-x31|arctic-leopard-xf':{s:'not_compatible',n:'Offered in 80/100-21 and 110/100-18 only; neither matches the XF 17in front / 14in rear rims. (checked 2026-11-11)'},
+  'tire-dunlop-mx33-ccw|arctic-leopard-xf':{s:'not_compatible',n:'Offered in 90/100-18 and 70/100-21 only; neither matches the XF 17in front / 14in rear rims. (checked 2026-11-11)'},
+  'tire-dunlop-mx53-ccw|arctic-leopard-xf':{s:'not_compatible',n:'Offered in 70/100-19, 80/100-21, 90/100-16, 100/100-18 and 100/90-19 only; no 17in or 14in size for the XF. (checked 2026-11-11)'},
+  'tire-irc-tubes|arctic-leopard-xf':{s:'not_compatible',n:'CCW offers no 17in or 14in tube variant; XF uses 70/100-17 front and 90/100-14 rear. (checked 2026-11-11)'},
+  'tire-kenda-k270-dualsport|arctic-leopard-xf':{s:'not_compatible',n:'CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only; no 17in or 14in size for the XF. (checked 2026-11-11)'},
+  'tire-kenda-washougal3-ccw|arctic-leopard-xf':{s:'not_compatible',n:'Offered in 70/100-19, 90/100-16, 90/100-18 and 80/100-21 only; no 17in or 14in size for the XF. (checked 2026-11-11)'},
+  'tire-kenda-k775-washougal-ii-front-tire|arctic-leopard-xf':{s:'not_compatible',n:'Offered in 70/100-19, 80/100-21, 90/100-16 and 100/90-19 only; no 70/100-17 for the XF front. (checked 2026-11-11)'},
+  'chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire|arctic-leopard-xf':{s:'not_compatible',n:'90/100-18 rear tire cannot mount on the XF 14-inch rear rim. (checked 2026-11-11)'},
+  'tire-shinko-244-dualsport|arctic-leopard-xf':{s:'not_compatible',n:'Offered in 2.75x19, 3.50x18, 3.00x21 and 2.75x21 only; no 17in or 14in size for the XF. (checked 2026-11-11)'},
+  'tire-shinko-525-soft-intermediate-terrain-tire|arctic-leopard-xf':{s:'not_compatible',n:'Offered in 90/100-16, 100/90-19, 100/100-18 and 110/100-18 only; no 17in or 14in size for the XF. (checked 2026-11-11)'},
+  'tire-shinko-525-cheater|arctic-leopard-xf':{s:'not_compatible',n:'Offered in 90/100-16, 110/100-18 and 120/100-18 only; no 17in or 14in size for the XF. (checked 2026-11-11)'},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - ETM RTR Sport (merged final) (supersedes entries above) */
+  'tire-kenda-k270-dualsport|rtr-sport':{s:'verify',n:'DOWNGRADED confirmed -> verify: CCW sells no 14\" K270 (variants are 3.50x18, 4.00x18, 2.75x21, 3.00x21 only), so the old diameter-match confirm for the stock 14\" front wheel was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'tire-kenda-k760-trakmaster|rtr-sport':{s:'verify',n:'DOWNGRADED confirmed -> verify: CCW variants are 70/100-19, 70/100-17 and 100/90-19 only, no 14\" size for the stock 14\" front wheel, so the old diameter-match confirm was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260']},
+  'tire-dunlop-mx14-sand-scoop-tire|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; the 90/100-14 variant fits the stock 14\" front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire',u:['https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire']},
+  'tire-dunlop-mx54-geomax-soft-int-terrain-tires|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; offers the stock 14\" front sizes (60/100-14, 90/100-14) and 12\" rear sizes (60/100-12, 80/100-12) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
+  'tire-kenda-k774-ibex-hybrid-sticky-front-tire|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; the 90/100-14 variant fits the stock 14\" front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire',u:['https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; offers 14\" front (60/100-14, 90/100-14) and 12\" rear (80/100-12) tube sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'tire-wps-rim-strip|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; offers 14\" x 7/8\" front and 12\" x 3/4\" rear rim strips (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+  'cockpit-acerbis-x-ultimate-handguards|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
+  'cockpit-warp9-e-moto-handguards|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguards',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguards']},
+  'titanium-warp9-e-moto-handguard-titanium-bolt-kit|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit']},
+  'cockpit-odi-ruffian-full-waffle-grips|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-protaper-pillow-top-grips|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-grips']},
+  'cockpit-protaper-pillow-top-lite-grips|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
+  'cockpit-renthal-50-50-mx-grips|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-50-50-mx-grips',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'tire-bikemaster-tr6-inner-tubes|rtr-sport':{s:'not_compatible',n:'No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes',u:['https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes']},
+  'tire-irc-tubes|rtr-sport':{s:'not_compatible',n:'No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'tire-kenda-k775-washougal-ii-front-tire|rtr-sport':{s:'not_compatible',n:'No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire',u:['https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire']},
+  'tire-shinko-525-soft-intermediate-terrain-tire|rtr-sport':{s:'not_compatible',n:'No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire',u:['https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire']},
+  'chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire|rtr-sport':{s:'not_compatible',n:'90/100-18 rear only; stock rear wheel is 12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire',u:['https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire']},
+  'chargedcycleworks-maxxis-maxxcross-intermediate-tire|rtr-sport':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; the 90/100-14 variant fits the stock 14\" front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front',u:['https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front']},
+  'chargedcycleworks-e-c-pit-bike-high-bars|rtr-sport':{s:'confirmed_direct_fit',n:'CCW page: high-rise bars made by Electro & Company as the complement to the stock ETM RTR low bars; ETM RTR SPORT tag (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/e-c-pit-bike-high-bars',u:['https://chargedcycleworks.com/products/e-c-pit-bike-high-bars']},
+  'chargedcycleworks-etm-rtr-oem-low-rise-handlebar|rtr-sport':{s:'confirmed_direct_fit',n:'CCW page: OEM low rise handlebar for the ETM RTR pit bike; ETM RTR SPORT tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-low-rise-handlebar',u:['https://chargedcycleworks.com/products/etm-rtr-oem-low-rise-handlebar']},
+  'chargedcycleworks-odi-7-8-podium-handlebars|rtr-sport':{s:'verify',n:'CCW tags it ETM RTR SPORT, but the description names the Altis Sigma, Beta Explorer and Apollo RFN Ares as the 7/8\"-bar bikes and never names the RTR; RTR Sport clamp diameter unverified - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-7-8-podium-handlebars-for-beta-apollo-rfn',u:['https://chargedcycleworks.com/products/odi-7-8-podium-handlebars-for-beta-apollo-rfn']},
+  'chargedcycleworks-etm-rtr-oem-throttle|rtr-sport':{s:'confirmed_direct_fit',n:'CCW page: OEM ETM RTR replacement throttle (includes both grips); ETM RTR SPORT tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-throttle',u:['https://chargedcycleworks.com/products/etm-rtr-oem-throttle']},
+  'chargedcycleworks-etm-rtr-oem-grips|rtr-sport':{s:'confirmed_direct_fit',n:'CCW page: grips made for the 2025 ETM RTR; ETM RTR SPORT tag (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-grips',u:['https://chargedcycleworks.com/products/etm-rtr-oem-grips']},
+  'chargedcycleworks-rear-fender-etm-rtr-2025|rtr-sport':{s:'confirmed_direct_fit',n:'CCW page: compatible with all ETM RTR 2025 models; ETM RTR SPORT tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025',u:['https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025']},
+  'chargedcycleworks-etm-rtr-complete-body-plastic-kit|rtr-sport':{s:'confirmed_direct_fit',n:'CCW page: full body plastic kit for the ETM RTR; ETM RTR SPORT tag (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit',u:['https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit']},
+  'chargedcycleworks-etm-rtr-2025-black-seat|rtr-sport':{s:'confirmed_direct_fit',n:'CCW page: designed specifically for ETM RTR 2025 models; ETM RTR SPORT tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-2025-black-seat',u:['https://chargedcycleworks.com/products/etm-rtr-2025-black-seat']},
+  'chargedcycleworks-thrill-seekers-seat-cover-for-etm-rtr|rtr-sport':{s:'verify',n:'CCW page: fits the ETM RTR with the OEM seat - names the ETM RTR family, not the RTR Sport specifically, so this stays verify per the graphics/cover precedent; all colour variants out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr',u:['https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr']},
+  'chargedcycleworks-etm-rtr-race-shock|rtr-sport':{s:'confirmed_direct_fit',n:'CCW page: ETM RTR Race Shock, lowers the bike by 1 inch; ETM RTR SPORT tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-race-shock',u:['https://chargedcycleworks.com/products/etm-rtr-race-shock']},
+  'drivetrain-did-420nz3g-gold-chain|rtr-sport':{s:'verify',n:'CCW tags it ETM RTR SPORT; 420 chain, price is the 110-link chain ($71.62; master link alone is $3.35) - stock RTR Sport link count unconfirmed, verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/did-super-420nz3g-gold-chain-non-o-ring-high-strength',u:['https://chargedcycleworks.com/products/did-super-420nz3g-gold-chain-non-o-ring-high-strength']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Rawrr Mantis 72V (merged final) (supersedes entries above) */
+  'tire-kenda-k270-dualsport|rawrr-mantis-72v':{s:'verify',n:'DOWNGRADED confirmed -> verify: CCW sells no 19\" K270 (variants are 3.50x18, 4.00x18, 2.75x21, 3.00x21 only), so the old diameter-match confirm for the stock 19\" wheels was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'tire-kenda-k760-trakmaster|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW offers 70/100-19, the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260']},
+  'tire-shinko-244-dualsport|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW offers 2.75x19, the 70/100-19 inch equivalent and exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-244-dual-sport-tires',u:['https://chargedcycleworks.com/products/shinko-244-dual-sport-tires']},
+  'tire-shinko-525-cheater|rawrr-mantis-72v':{s:'verify',n:'DOWNGRADED confirmed -> verify: CCW R525 variants are 90/100-16, 110/100-18, 120/100-18 only — no 19\" size, so the old diameter-match confirm for the stock 19\" rear wheel was wrong; needs a 16\" rear wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260']},
+  'cockpit-acerbis-x-factory-handguards|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-factory-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-factory-handguards']},
+  'cockpit-acerbis-x-ultimate-handguards|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
+  'tire-bikemaster-tr6-inner-tubes|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers 70/100-19, the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes',u:['https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes']},
+  'tire-dunlop-mx54-geomax-soft-int-terrain-tires|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers 70/100-19, the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
+  'tire-irc-tubes|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers 70/100-19 HD, the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'tire-kenda-k775-washougal-ii-front-tire|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers 70/100-19, the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire',u:['https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire']},
+  'plastics-odi-downhill-e-bike-number-plate|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate',u:['https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate']},
+  'cockpit-odi-grip-donuts|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260']},
+  'cockpit-odi-ruffian-full-waffle-grips|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-protaper-pillow-top-grips|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-grips']},
+  'cockpit-protaper-pillow-top-lite-grips|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
+  'cockpit-renthal-50-50-mx-grips|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-50-50-mx-grips',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers 70/100-19 and 90/100-19 tubes for the stock 19\" wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-warp9-e-moto-handguards|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguards',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguards']},
+  'titanium-warp9-e-moto-handguard-titanium-bolt-kit|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this bolt kit for the Rawrr Mantis; fits the Warp9 eMoto handguards (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit']},
+  'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment list names \'RAWRR Mantis, Mantis X\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto',u:['https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto']},
+  'tire-wps-rim-strip|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers a 19\" x 1\" rim strip for the stock 19\" wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+  'tire-dunlop-mx14-sand-scoop-tire|rawrr-mantis-72v':{s:'verify',n:'CCW offers 19\" sizes (100/90-19, 110/90-19, 120/80-19) but not the stock 70/100-19 front or 80/100-19 rear — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire',u:['https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire']},
+  'tire-shinko-525-soft-intermediate-terrain-tire|rawrr-mantis-72v':{s:'verify',n:'CCW offers a 100/90-19 rear, not the stock 80/100-19 rear — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire',u:['https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire']},
+  'cockpit-sxs-burly-shields-hand-guards|rawrr-mantis-72v':{s:'verify',n:'CCW \'Handguard Only\' variant is Ultra Bee-only; the \'Includes Beefy Mount (Universal)\' variant fits any bike — verify which mount before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards',u:['https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards']},
+  'handlebar-renthal-fatbar-1-1-8|rawrr-mantis-72v':{s:'verify',n:'28.6mm MX bars; stock Mantis clamp diameter unverified — needs 31.8mm shims if the stock stem is 31.8mm (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-fatbar-1-1-8',u:['https://chargedcycleworks.com/products/renthal-fatbar-1-1-8']},
+  'warp9-3in-rise|rawrr-mantis-72v':{s:'verify',n:'31.8mm bars; CCW names Surron / Segway / Talaria only, never the Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria',u:['https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria']},
+  'tire-kenda-k774-ibex-hybrid-sticky-front-tire|rawrr-mantis-72v':{s:'not_compatible',n:'No 19\" sizes (variants are 80/100-21, 90/100-16, 90/100-14 only); stock wheels are 19\"/19\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire',u:['https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire']},
+  'chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire|rawrr-mantis-72v':{s:'not_compatible',n:'90/100-18 rear only; stock rear wheel is 19\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire',u:['https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire']},
+  'chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment list: \'E Ride Pro SS 2.0 Rawrr Mantis, Mantis X\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr',u:['https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr']},
+  'chargedcycleworks-kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis 2023-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective',u:['https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective']},
+  'chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis 2023-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-black-and-red-collective',u:['https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-black-and-red-collective']},
+  'chargedcycleworks-kke-direct-mount-stem-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis 2023-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective',u:['https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective']},
+  'chargedcycleworks-kke-footpegs-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis 2023-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective',u:['https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective']},
+  'chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis 2023-2025\' and \'ONLY FITS 220 MM BRAKE ROTOR\'; the 72V rear rotor is 220mm (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective',u:['https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective']},
+  'chargedcycleworks-rawr-sigma-sprocket|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fitment: RAWRR Mantis (Mantis X / Mantis X Pro sprocket go here instead)\'; 428 chain = stock (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawr-sigma-sprocket',u:['https://chargedcycleworks.com/products/rawr-sigma-sprocket']},
+  'chargedcycleworks-maxxis-maxxcross-intermediate-tire|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; the 70/100-19 variant is the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front',u:['https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front']},
+  'chargedcycleworks-pivotrax-cyber-street-tire|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; the 80/100-19 variant is the exact stock rear size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-cyber-street-tire',u:['https://chargedcycleworks.com/products/pivotrax-cyber-street-tire']},
+  'chargedcycleworks-bearing-kit-front-wheel|rawrr-mantis-72v':{s:'verify',n:'CCW fitment list names \'Rawrr Mantis X\' only, never the base Mantis — verify the front-wheel bearings match the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bearing-kit-front-wheel',u:['https://chargedcycleworks.com/products/bearing-kit-front-wheel']},
+  'chargedcycleworks-kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective|rawrr-mantis-72v':{s:'verify',n:'220mm = stock front rotor size, but the KKE fitment list names Surron / Talaria / Segway / E Ride Pro SS only, never Rawrr — caliper adapter fitment unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective',u:['https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective']},
+  'chargedcycleworks-prickly-31-8-handlebars|rawrr-mantis-72v':{s:'verify',n:'CCW page names Surron Light Bee X / E Ride Pro / Talaria only, never the Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/prickly-31-8-bars',u:['https://chargedcycleworks.com/products/prickly-31-8-bars']},
+  'chargedcycleworks-prickly-35mm-direct-mount-stem-surron|rawrr-mantis-72v':{s:'verify',n:'CCW page names Surron only; needs 35mm bars (stock is 31.8mm) — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/prickly-35mm-direct-mount-stem-surron',u:['https://chargedcycleworks.com/products/prickly-35mm-direct-mount-stem-surron']},
+  'chargedcycleworks-kyvex-billet-bar-mount|rawrr-mantis-72v':{s:'verify',n:'CCW page names no bike model — bar-mount fitment unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-bar-mount',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount']},
+  'chargedcycleworks-kyvex-billet-bar-mount-riser|rawrr-mantis-72v':{s:'verify',n:'CCW page names no bike model — bar-mount riser fitment unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser']},
+  'chargedcycleworks-kyvex-replacement-foot-peg-pins|rawrr-mantis-72v':{s:'verify',n:'Replacement pins for KyVex Billet Wide Foot Pegs; the pegs themselves are unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins',u:['https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins']},
+  'chargedcycleworks-heavy-hitter-direct-mount-stem-riser-2-rise-31-8mm|rawrr-mantis-72v':{s:'verify',n:'CCW fitment is \'Universal 31.8 bar mount (fits all standard mountain bike dual crown forks)\' — no Mantis naming; 72V fork clamp unverified (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars',u:['https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars']},
+  'chargedcycleworks-heavy-hitter-titanium-direct-mount-riser|rawrr-mantis-72v':{s:'verify',n:'CCW fitment list names Sur-Ron / Segway / Talaria / E Ride Pro only, never Rawrr (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser',u:['https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser']},
+  'chargedcycleworks-direct-mount-stem-1-spacer-25mm|rawrr-mantis-72v':{s:'verify',n:'Generic direct-mount stem spacer; CCW names no bike model (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm',u:['https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm']},
+  'chargedcycleworks-handlebar-stem-spacer|rawrr-mantis-72v':{s:'verify',n:'Talaria stem spacer; CCW names no Mantis fitment (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-warp9-stem-lock-spacer-kit|rawrr-mantis-72v':{s:'verify',n:'Spacers made exclusively for Warp 9 Stem Locks; the stem lock itself is unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stem-lock-spacer-kit',u:['https://chargedcycleworks.com/products/stem-lock-spacer-kit']},
+  'chargedcycleworks-wolf-tooth-precision-headset-spacers|rawrr-mantis-72v':{s:'verify',n:'Generic headset spacers; steer-tube diameter unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria',u:['https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria']},
+  'chargedcycleworks-handlebar-shims-31-8-to-28-6|rawrr-mantis-72v':{s:'verify',n:'Shims convert a 31.8mm stem to 28.6mm bars; stock Mantis clamp diameter unverified (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars',u:['https://chargedcycleworks.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars']},
+  'chargedcycleworks-warp9-transformer-direct-bar-mount-stem|rawrr-mantis-72v':{s:'verify',n:'CCW page names Fox / Manitou / EXT / RST / DNM / DVO / KKE forks with a standard 4-bolt DH top triple clamp; no Mantis naming (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem',u:['https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem']},
+  'chargedcycleworks-warp9-e-moto-tapped-handlebar-31-8mm|rawrr-mantis-72v':{s:'verify',n:'CCW page names Surron / Segway / Talaria / E Ride Pro only, never the Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar',u:['https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar']},
+  'chargedcycleworks-warp9-standard-stem-lock|rawrr-mantis-72v':{s:'verify',n:'CCW page names Surron / Talaria / E Ride Pro only, never the Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-standard-stem-lock',u:['https://chargedcycleworks.com/products/warp9-standard-stem-lock']},
+  'chargedcycleworks-warp9-stem-lock-fender-adapter|rawrr-mantis-72v':{s:'verify',n:'CCW page names no bike model — stem-lock fitment unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter',u:['https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter']},
+  'chargedcycleworks-rfloxa-steering-stem-lock|rawrr-mantis-72v':{s:'verify',n:'CCW page says only \'Stem Lock for E-Moto\' — no model named (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rfloxa-steering-stem-lock',u:['https://chargedcycleworks.com/products/rfloxa-steering-stem-lock']},
+  'chargedcycleworks-shinko-524-19-tire|rawrr-mantis-72v':{s:'verify',n:'19-inch front tire matched to the 525 rear; CCW lists no size variant, so 70/100-19 (exact stock front) is unverified (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-524-19-tire',u:['https://chargedcycleworks.com/products/shinko-524-19-tire']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Rawrr Mantis X Pro (merged final) (supersedes entries above) */
+  'tire-bridgestone-x31|rawrr-mantis-x-pro':{s:'verify',n:'CCW search-by-bike (Mantis X Pro tag) lists this part, but CCW offers only 80/100-21 and 110/100-18 - neither fits the stock 19in/17in wheels; the earlier confirmed grade rested on diameter match alone (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18',u:['https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18']},
+  'tire-dunlop-mx33-ccw|rawrr-mantis-x-pro':{s:'verify',n:'CCW search-by-bike (Mantis X Pro tag) lists this part, but CCW offers only 90/100-18 and 70/100-21 - neither fits the stock 19in/17in wheels; the earlier confirmed grade rested on diameter match alone (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto',u:['https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-kenda-k270-dualsport|rawrr-mantis-x-pro':{s:'verify',n:'CCW search-by-bike (Mantis X Pro tag) lists this part, but no variant matches the stock tire sizes (70/100-19 front, 2.75-17 rear) - CCW sells no 19in or 17in K270; the earlier confirmed grade rested on diameter match alone (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'tire-kenda-k760-trakmaster|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260 Stock-size variant(s): 70/100-19, 70/100-17.',u:['https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260']},
+  'tire-maxxis-mxsi|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front Stock-size variant(s): 70/100-19, 70/100-17.',u:['https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front']},
+  'tire-shinko-244-dualsport|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-244-dual-sport-tires Stock-size variant(s): 2.75x19 (= 70/100-19).',u:['https://chargedcycleworks.com/products/shinko-244-dual-sport-tires']},
+  'cockpit-acerbis-x-factory-handguards|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-factory-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-factory-handguards']},
+  'cockpit-acerbis-x-ultimate-handguards|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
+  'tire-bikemaster-tr6-inner-tubes|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes Stock-size variant(s): 70/100-19.',u:['https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes']},
+  'tire-dunlop-mx54-geomax-soft-int-terrain-tires|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires Stock-size variant(s): 70/100-19, 70/100-17.',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
+  'tire-irc-tubes|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes Stock-size variant(s): 70/100-19 HD 3mm.',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'tire-kenda-k775-washougal-ii-front-tire|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire Stock-size variant(s): 70/100-19.',u:['https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire']},
+  'cockpit-odi-grip-donuts|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260']},
+  'cockpit-odi-ruffian-full-waffle-grips|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-protaper-pillow-top-grips|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-grips']},
+  'cockpit-protaper-pillow-top-lite-grips|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
+  'cockpit-renthal-50-50-mx-grips|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-50-50-mx-grips',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'handlebar-renthal-fatbar-1-1-8|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). 28.6mm clamp; confirm the stock stem diameter - shims may be needed if the stock clamp is 31.8mm. Live URL https://chargedcycleworks.com/products/renthal-fatbar-1-1-8',u:['https://chargedcycleworks.com/products/renthal-fatbar-1-1-8']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260 Stock-size variant(s): 70/100-19, 70/100-17.',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'tire-wps-rim-strip|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip Stock-size variant(s): 19in, 17in.',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+  'chargedcycleworks-kyvex-billet-bar-mount|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-bar-mount',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount']},
+  'chargedcycleworks-kyvex-billet-bar-mount-riser|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser']},
+  'chargedcycleworks-rfloxa-steering-stem-lock|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rfloxa-steering-stem-lock',u:['https://chargedcycleworks.com/products/rfloxa-steering-stem-lock']},
+  'chargedcycleworks-warp9-stem-lock-spacer-kit|rawrr-mantis-x-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stem-lock-spacer-kit',u:['https://chargedcycleworks.com/products/stem-lock-spacer-kit']},
+  'tire-dunlop-mx14-sand-scoop-tire|rawrr-mantis-x-pro':{s:'verify',n:'CCW search-by-bike (Mantis X Pro tag) lists this part, but no variant matches the stock tire sizes (70/100-19 front, 2.75-17 rear) - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire',u:['https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire']},
+  'tire-kenda-k774-ibex-hybrid-sticky-front-tire|rawrr-mantis-x-pro':{s:'verify',n:'CCW search-by-bike (Mantis X Pro tag) lists this part, but no variant matches the stock tire sizes (70/100-19 front, 2.75-17 rear) - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire',u:['https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire']},
+  'tire-shinko-525-soft-intermediate-terrain-tire|rawrr-mantis-x-pro':{s:'verify',n:'CCW search-by-bike (Mantis X Pro tag) lists this part, but no variant matches the stock tire sizes (70/100-19 front, 2.75-17 rear) - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire',u:['https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire']},
+  'chargedcycleworks-kyvex-replacement-foot-peg-pins|rawrr-mantis-x-pro':{s:'verify',n:'CCW search-by-bike (Mantis X Pro tag) lists these replacement pins for KyVex Billet Wide Foot Pegs - verify they match the pegs on the bike (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins',u:['https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins']},
+  'chargedcycleworks-pivotrax-cyber-street-tire|rawrr-mantis-x-pro':{s:'verify',n:'CCW search-by-bike (Mantis X Pro tag) lists this part, but the sizes (80/100-19, 90/100-18) do not match the stock sizes (70/100-19 front, 2.75-17 rear) - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-cyber-street-tire',u:['https://chargedcycleworks.com/products/pivotrax-cyber-street-tire']},
+  'chargedcycleworks-shinko-524-19-tire|rawrr-mantis-x-pro':{s:'verify',n:'CCW search-by-bike (Mantis X Pro tag) lists this part; it is a 19in front tire but the exact size is not stated on the listing - verify it matches the stock 70/100-19 front before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-524-19-tire',u:['https://chargedcycleworks.com/products/shinko-524-19-tire']},
+  'chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire|rawrr-mantis-x-pro':{s:'not_compatible',n:'90/100-18 rear tire does not fit the stock 17in rear wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire',u:['https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Storm Bee F (merged final) (supersedes entries above) */
+  'tusk-chub-118-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee 2023\u20132025 (checked Nov 4, 2026). Charged Cycle Works also carries it (SURST tag) at $53.99 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars',u:['https://adventurepartsllc.com/products/tusk-chub-1-1-8-big-bar-sur-ron-storm-bee-2023-2025','https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars']},
+  'tire-kenda-k270-dualsport|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; K270 comes in 3.00x21 (= 80/100-21 stock front) and 4.00x18 (= 100/90-18 stock rear) - 4.00x18 variant out of stock at CCW on 2026-11-11 (checked 2026-11-11). Live URL kenda-k270-dual-sport-40-dirt-60-road',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'cockpit-acerbis-x-factory-handguards|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-factory-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-factory-handguards']},
+  'cockpit-acerbis-x-ultimate-handguards|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
+  'tire-bikemaster-tr6-inner-tubes|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; offers 80/100-21 front and 100/100-18 rear tubes for the stock 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes',u:['https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes']},
+  'tire-irc-tubes|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; offers 80/100-21 front and 3.25/4.10-18 rear tubes covering the stock 100/90-18 rear (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; offers 80/100-21 front and 100/100-18 rear tubes for the stock 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'tire-wps-rim-strip|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; offers 21in and 18in strips for the stock wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+  'tire-kenda-k774-ibex-hybrid-sticky-front-tire|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; 80/100-21 is the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire',u:['https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire']},
+  'tire-kenda-k775-washougal-ii-front-tire|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; 80/100-21 is the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire',u:['https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire']},
+  'cockpit-odi-aluminum-grip-end-plugs|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260']},
+  'cockpit-odi-grip-donuts|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260']},
+  'handlebar-odi-podium-mx-handlebars|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; 28.6mm bar, and the Storm Bee stock clamp is 28.6mm (1-1/8in) per the Storm Bee bars already confirmed on the picker (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-podium-mx-handlebars',u:['https://chargedcycleworks.com/products/odi-podium-mx-handlebars']},
+  'cockpit-odi-ruffian-full-waffle-grips|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-protaper-pillow-top-grips|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-grips']},
+  'cockpit-protaper-pillow-top-lite-grips|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
+  'cockpit-renthal-50-50-mx-grips|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-50-50-mx-grips',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'handlebar-renthal-fatbar-1-1-8|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; product page names it compatible with the Storm Bee ("Compatible with big bikes such as Varg, Ultra Bee, Storm Bee") (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-fatbar-1-1-8',u:['https://chargedcycleworks.com/products/renthal-fatbar-1-1-8']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-quad-lock-moto-handlebar-mount|storm-bee':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURST tag) lists this mount for the Sur-Ron Storm Bee F; product page states it suits 1-1/8in (28mm) bars, the Storm Bee stock bar clamp (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/quad-lock-moto-handlebar-mount',u:['https://chargedcycleworks.com/products/quad-lock-moto-handlebar-mount']},
+  'drivetrain-did-520-ervt-gold-x-ring-chain|storm-bee':{s:'verify',n:'CCW search-by-bike (SURST tag) lists this 520 chain for the Sur-Ron Storm Bee F, but CCW names no Storm Bee stock link count (its sizing tables name Ultra Bee 96, Bonnell 100, Stark 114 and KTM Freeride 118 only) - verify length before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain',u:['https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain']},
+  'drivetrain-primary-drive-520-orh-gold-x-ring-chain|storm-bee':{s:'verify',n:'CCW search-by-bike (SURST tag) lists this 520 chain for the Sur-Ron Storm Bee F, but CCW names no Storm Bee stock link count (its sizing tables name Ultra Bee 96, Bonnell 100, Stark 114 and KTM Freeride 118 only) - verify length before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain',u:['https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain']},
+  'drivetrain-520-renthal-r-1-works-chain|storm-bee':{s:'verify',n:'CCW search-by-bike (SURST tag) lists this 520 chain for the Sur-Ron Storm Bee F, but CCW names no Storm Bee stock link count (its sizing tables name Ultra Bee 96, Bonnell 100, Stark 114 and KTM Freeride 118 only) - verify length before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/520-renthal-r-1-works-chain',u:['https://chargedcycleworks.com/products/520-renthal-r-1-works-chain']},
+  'tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19|storm-bee':{s:'verify',n:'CCW search-by-bike (SURST tag) lists this mousse for the Sur-Ron Storm Bee F, but it is sized for 110-140mm rear tires and the stock Storm Bee rear is 100/90-18 - fits only with a wider aftermarket rear tire (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19',u:['https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - RFN Warrior Pro (merged final) (supersedes entries above) */
+  'cockpit-acerbis-x-factory-handguards|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/acerbis-x-factory-handguards']},
+  'cockpit-acerbis-x-ultimate-handguards|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
+  'cockpit-odi-aluminum-grip-end-plugs|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Universal bar-end plugs for the RFN 22mm bar ends per manual.',u:['https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260']},
+  'cockpit-odi-grip-donuts|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Universal grip donuts.',u:['https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260']},
+  'cockpit-odi-ruffian-full-waffle-grips|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Universal 22.2mm grips for the RFN 22mm bar ends per manual.',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Universal 22.2mm grips for the RFN 22mm bar ends per manual.',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Universal 22.2mm grips for the RFN 22mm bar ends per manual.',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Universal lock-on grips for the RFN 22mm bar ends per manual.',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-renthal-50-50-mx-grips|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Universal 22.2mm grips for the RFN 22mm bar ends per manual.',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Universal 22.2mm grips for the RFN 22mm bar ends per manual.',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'handlebar-odi-podium-mx-handlebars|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). 28.6mm clamp matches the RFN 28.5mm stock clamp per manual (1-1/8in).',u:['https://chargedcycleworks.com/products/odi-podium-mx-handlebars']},
+  'handlebar-renthal-fatbar-1-1-8|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). 28.6mm clamp matches the RFN 28.5mm stock clamp per manual (1-1/8in).',u:['https://chargedcycleworks.com/products/renthal-fatbar-1-1-8']},
+  'tire-irc-tubes|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Offers 70/100-19 front and 90/100-16 rear variants, the RFN Warrior Pro stock tire sizes.',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Offers 70/100-19 front and 90/100-16 rear variants, the RFN Warrior Pro stock tire sizes.',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'tire-wps-rim-strip|rfn-warrior-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SX-E15 tag) lists this part for the RFN Warrior Pro (checked 2026-11-11). Offers 19in and 16in variants for the RFN 19/16in wheels.',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+  'drivetrain-did-520-ervt-gold-x-ring-chain|rfn-warrior-pro':{s:'verify',n:'CCW tags it SX-E15; 520 chain in 112-120L lengths, but the RFN Warrior Pro stock link count is unverified - verify length before buying (checked 2026-11-11). Note: audit $10.64 is the master-link price; full chain $194.36+.',u:['https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain']},
+  'drivetrain-primary-drive-520-orh-gold-x-ring-chain|rfn-warrior-pro':{s:'verify',n:'CCW tags it SX-E15; 520 chain in 96-114L lengths, but the RFN Warrior Pro stock link count is unverified - verify length before buying (checked 2026-11-11). Note: audit $4.99 is the master-link price; full chain $70.99+.',u:['https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain']},
+  'drivetrain-520-renthal-r-1-works-chain|rfn-warrior-pro':{s:'verify',n:'CCW tags it SX-E15; 520 chain in 96-120L lengths, but the RFN Warrior Pro stock link count is unverified - verify length before buying (checked 2026-11-11). Note: audit $8.96 is the master-link price; full chain $120.21+.',u:['https://chargedcycleworks.com/products/520-renthal-r-1-works-chain']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Yozma IN10 (merged final) (supersedes entries above) */
+  'tire-bridgestone-m203-ccw|yozma-in10':{s:'confirmed_direct_fit',n:'CCW offers 60/100-14, the Yozma IN10 stock front size (stock 14in/12in wheels, 60/100-14 front / 80/100-12 rear). (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m204-ccw|yozma-in10':{s:'confirmed_direct_fit',n:'CCW offers 80/100-12, the Yozma IN10 stock rear size (stock 14in/12in wheels, 60/100-14 front / 80/100-12 rear). (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-dunlop-mx34|yozma-in10':{s:'confirmed_direct_fit',n:'CCW search-by-bike (YZI10 tag) lists this part for the Yozma IN10; offers 60/100-14 front and 80/100-12 rear, both IN10 stock sizes. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires']},
+  'tire-kenda-k270-dualsport|yozma-in10':{s:'not_compatible',n:'CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only; no 14in or 12in size for the IN10 (stock 14in/12in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'tire-kenda-k760-trakmaster|yozma-in10':{s:'not_compatible',n:'CCW offers 70/100-19, 70/100-17 and 100/90-19 only; no 14in or 12in size for the IN10 (stock 14in/12in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260']},
+  'tire-kenda-millville2-k785|yozma-in10':{s:'not_compatible',n:'Single-size 70/100-19 front tire; no 14in or 12in size for the IN10 (stock 14in/12in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire',u:['https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire']},
+  'tire-maxxis-mxsi|yozma-in10':{s:'not_compatible',n:'No 14in front or 12in rear size offered (Front 80/100-21, 70/100-17; Rear 110/100-18, 110/90-19, 120/80-19, 90/100-14); nothing fits the IN10 stock 14in/12in wheels. The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010',u:['https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-pirelli-mx32-midsoft|yozma-in10':{s:'confirmed_direct_fit',n:'Offers Front 60/100-14 and Rear 80/100-12, both Yozma IN10 stock sizes (stock 14in/12in wheels). (checked 2026-11-11)',u:['https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-shinko-sr241-ccw|yozma-in10':{s:'confirmed_direct_fit',n:'CCW search-by-bike (YZI10 tag) lists this part for the Yozma IN10; offers 2.75x14 front and 3.00x12 rear for the stock 14in/12in wheels. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-tusk-t35-front-ccw|yozma-in10':{s:'confirmed_direct_fit',n:'CCW offers 60/100-14, the Yozma IN10 stock front size (stock 14in/12in wheels, 60/100-14 front / 80/100-12 rear). (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire|yozma-in10':{s:'not_compatible',n:'Single-size 90/100-18 rear tire; stock IN10 wheels are 14in front / 12in rear, so it cannot fit (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire',u:['https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire']},
+  'tire-dunlop-mx54-geomax-soft-int-terrain-tires|yozma-in10':{s:'confirmed_direct_fit',n:'CCW search-by-bike (YZI10 tag) lists this part for the Yozma IN10 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires. Stock-size variant(s): 60/100-14 and 80/100-12.',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
+  'chargedcycleworks-pivotrax-cyber-street-tire|yozma-in10':{s:'not_compatible',n:'CCW tags it YZI10, but offers 80/100-19 and 90/100-18 only; no 14in or 12in size for the IN10 (stock 14in/12in wheels). (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-cyber-street-tire',u:['https://chargedcycleworks.com/products/pivotrax-cyber-street-tire']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|yozma-in10':{s:'confirmed_direct_fit',n:'CCW search-by-bike (YZI10 tag) lists this part for the Yozma IN10 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260. Stock-size variant(s): 60/100-14 and 80/100-12.',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Yozma IN10 Pro (merged final) (supersedes entries above) */
+  'tire-bridgestone-m203-ccw|yozma-in10-pro':{s:'confirmed_direct_fit',n:'CCW offers 70/100-17, the Yozma IN10 Pro stock front size (stock 17in/14in wheels, 70/100-17 front / 90/100-14 rear). Front tire. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-bridgestone-m204-ccw|yozma-in10-pro':{s:'confirmed_direct_fit',n:'CCW offers 90/100-14, the Yozma IN10 Pro stock rear size (stock 17in/14in wheels, 70/100-17 front / 90/100-14 rear). Rear tire. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-dunlop-mx34|yozma-in10-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (YZI10P tag) lists this part for the Yozma IN10 Pro; offers 70/100-17 and 90/100-14, both IN10 Pro stock sizes. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires']},
+  'tire-kenda-k270-dualsport|yozma-in10-pro':{s:'not_compatible',n:'CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only; no 17in or 14in size for the IN10 Pro (stock 17in/14in wheels). Page text: requires 18/21 wheel upgrade. The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'tire-kenda-k760-trakmaster|yozma-in10-pro':{s:'not_compatible',n:'Rear tire; CCW offers 70/100-19, 70/100-17 and 100/90-19 only - no 14in rear size for the IN10 Pro (stock 14in rear wheel), and the 70/100-17 variant is a rear tire, not a front fit. The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260']},
+  'tire-kenda-millville2-k785|yozma-in10-pro':{s:'not_compatible',n:'Single-size 70/100-19 front tire; no 17in or 14in size for the IN10 Pro (stock 17in/14in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire',u:['https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire']},
+  'tire-maxxis-mxsi|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Offers Front 70/100-17 and Rear 90/100-14, both Yozma IN10 Pro stock sizes (stock 17in/14in wheels). (checked 2026-11-11)',u:['https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010']},
+  'tire-pirelli-mx32-midsoft|yozma-in10-pro':{s:'confirmed_direct_fit',n:'Offers Front 70/100-17 and Rear 90/100-14, both Yozma IN10 Pro stock sizes (stock 17in/14in wheels). (checked 2026-11-11)',u:['https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310']},
+  'tire-shinko-sr241-ccw|yozma-in10-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (YZI10P tag) lists this part for the Yozma IN10 Pro; front-or-rear trials tire, offers 2.75x17 (= 70/100-17 stock front) and 2.75x14. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-tusk-dsport-adventure|yozma-in10-pro':{s:'not_compatible',n:'Front 90/90-21 only; rears 120/90-18, 130/90-17, 130/90-18, 140/80-18 - no 70/100-17 front or 90/100-14 rear for the IN10 Pro (stock 17in/14in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238',u:['https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238']},
+  'tire-tusk-t35-front-ccw|yozma-in10-pro':{s:'confirmed_direct_fit',n:'CCW offers 70/100-17, the Yozma IN10 Pro stock front size (stock 17in/14in wheels, 70/100-17 front / 90/100-14 rear). Front tire. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
+  'tire-dunlop-mx54-geomax-soft-int-terrain-tires|yozma-in10-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (YZI10P tag) lists this part for the Yozma IN10 Pro; offers 70/100-17 and 90/100-14, both IN10 Pro stock sizes (stock 17in/14in wheels, 70/100-17 front / 90/100-14 rear). (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|yozma-in10-pro':{s:'confirmed_direct_fit',n:'CCW search-by-bike (YZI10P tag) lists this part for the Yozma IN10 Pro; offers 70/100-17 and 90/100-14 tube variants, both IN10 Pro stock sizes. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'chargedcycleworks-pivotrax-cyber-street-tire|yozma-in10-pro':{s:'not_compatible',n:'CCW tags it YZI10P, but offers 80/100-19 and 90/100-18 only; no 17in or 14in size for the IN10 Pro (stock 17in/14in wheels). (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-cyber-street-tire',u:['https://chargedcycleworks.com/products/pivotrax-cyber-street-tire']},
+  'chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire|yozma-in10-pro':{s:'not_compatible',n:'Single-size 90/100-18 rear tire; stock IN10 Pro wheels are 17in front / 14in rear, so it cannot fit. CCW page fitment names Sur-Ron, E Ride Pro SS 3.0, Talaria, 79 Bike and Rawrr - not Yozma. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire',u:['https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - E Ride Pro SS 4.0 (merged final) (supersedes entries above) */
+  'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto|ss40':{s:'confirmed_direct_fit',n:'CCW product page fitment list names "Pro 4.0" in the E-Ride Pro model list ("Fits: ... Pro SS 3.0, Pro SR, Pro 4.0"); also tagged ERPSS4 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto',u:['https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto']},
+  'ti-warp9-big-light-kit-bolt-kit|ss40':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ERPSS4 tag) lists this part for the E Ride Pro SS 4.0 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit',u:['https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit']},
+  'chargedcycleworks-e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0|ss40':{s:'verify',n:'CCW page fitment lists E-Ride Pro SS 3.0 and SR only (ERPSS4 tag present, but title/body name SS 3.0 / SR only) - verify fit (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0',u:['https://chargedcycleworks.com/products/e-ride-pro-12-9-cryo-swingarm-bolt-12mm-sr-3-0']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Yvolt Surge V (merged final) (supersedes entries above) */
+  'chargedcycleworks-ultra-bee-anvil-steel-rear-sprocket|yvolt-surge-v':{s:'confirmed_direct_fit',n:'CCW title and fitment text name the Surge V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket',u:['https://chargedcycleworks.com/products/ultra-bee-anvil-steel-rear-sprocket']},
+  'chargedcycleworks-warp9-ultra-bee-titanium-sprocket-bolts|yvolt-surge-v':{s:'confirmed_direct_fit',n:'CCW search-by-bike tag YV-SUR-V names the Surge V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-titanium-sprocket-bolts',u:['https://chargedcycleworks.com/products/warp9-ultra-bee-titanium-sprocket-bolts']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - 79BIKE Falcon Pro (merged final) (supersedes entries above) */
+  'tire-bridgestone-x31|falcon-pro':{s:'verify',n:'CCW X31 listing offers 80/100-21 and 110/100-18 only, no 19in size - the old diameter-match confirm was wrong; downgraded to verify (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18',u:['https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18']},
+  'tire-dunlop-mx33-ccw|falcon-pro':{s:'verify',n:'CCW MX33 listing offers 90/100-18 and 70/100-21 only, no 19in size - the old diameter-match confirm was wrong; downgraded to verify (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto',u:['https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto']},
+  'tire-irc-m5b-evo|falcon-pro':{s:'verify',n:'CCW M5B EVO listing is a single 130/80-18 rear, no 19in size - the old diameter-match confirm (stock 19in rear wheel) was wrong; downgraded to verify (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tire-m5b-evo-rear-130-80-18',u:['https://chargedcycleworks.com/products/irc-tire-m5b-evo-rear-130-80-18']},
+  'tire-kenda-k270-dualsport|falcon-pro':{s:'verify',n:'CCW sells no 19in K270 (18/21 only) - the old diameter-match confirm was wrong; downgraded to verify (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'tire-shinko-525-cheater|falcon-pro':{s:'verify',n:'CCW R525 listing offers 90/100-16, 110/100-18 and 120/100-18 only, no 19in size - the old diameter-match confirm (stock 19in rear wheel) was wrong; downgraded to verify (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260']},
+  'chargedcycleworks-kyvex-billet-wide-foot-pegs|falcon-pro':{s:'confirmed_direct_fit',n:'CCW Fits list names 79 Bike Falcon M and Falcon Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs',u:['https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs']},
+  'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto|falcon-pro':{s:'confirmed_direct_fit',n:'CCW Fits list names 79Bike Falcon M, Falcon Pro, Falcon GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto',u:['https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto']},
+  'chargedcycleworks-tech-suspension-er34-racing-kashima-shock|falcon-pro':{s:'confirmed_direct_fit',n:'CCW lists 283x80mm for 79Bike Falcon Pro / GT with TECH linkage; With-Linkage variant $1,069 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock',u:['https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock']},
+  'chargedcycleworks-tech-suspension-e39-racing-kashima-fork|falcon-pro':{s:'confirmed_direct_fit',n:'CCW Fits list names 79Bike Falcon Pro / GT; brake mount sold separately (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork',u:['https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork']},
+  'chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7|falcon-pro':{s:'confirmed_direct_fit',n:'CCW sells a 79 Bike Falcon PRO variant ($75, in stock) and its fitment list names 79 Bike Falcon PRO (Ventus) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7',u:['https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7']},
+  'chargedcycleworks-kyvex-billet-motor-cover-79bike|falcon-pro':{s:'confirmed_direct_fit',n:'CCW Compatible With list names 79 Bike Falcon M / Falcon Pro / Falcon GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-motor-cover-compatible-w-surron-lbx-ventus-one-79bike',u:['https://chargedcycleworks.com/products/kyvex-billet-motor-cover-compatible-w-surron-lbx-ventus-one-79bike']},
+  'tech-er30-283|falcon-pro':{s:'verify',n:'CCW sizes paragraph lists 283x80mm for 79Bike Pro/GT, but its fitment list names 79 Bike Falcon / 79 Bike Falcon GT (Pro not named) and the shock ships with Surron/Ventus linkage - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee',u:['https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee']},
+  'rfloxa-rab53rv|falcon-pro':{s:'verify',n:'CCW compatibility names 79 Bike Falcon M only (not Pro); 265mm length vs 283mm stock shock length - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rfloxa-rab53rv',u:['https://chargedcycleworks.com/products/rfloxa-rab53rv']},
+  'handlebar-odi-podium-mx-handlebars|falcon-pro':{s:'verify',n:'28.6mm clamp; Falcon Pro stock clamp size unverified - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-podium-mx-handlebars',u:['https://chargedcycleworks.com/products/odi-podium-mx-handlebars']},
+  'handlebar-renthal-fatbar-1-1-8|falcon-pro':{s:'verify',n:'28.6mm clamp; Falcon Pro stock clamp size unverified (CCW page says most small eMoto bikes incl. Falcon use 31.8mm bars, so shims likely needed) - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-fatbar-1-1-8',u:['https://chargedcycleworks.com/products/renthal-fatbar-1-1-8']},
+  'tire-dunlop-mx54-geomax-soft-int-terrain-tires|falcon-pro':{s:'verify',n:'CCW 79Bike collection; 70/100-19 stock-size variant $64.99 in stock, but the page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
+  'tire-kenda-k775-washougal-ii-front-tire|falcon-pro':{s:'verify',n:'CCW 79Bike collection; 70/100-19 stock-size variant $59.95 in stock, but the page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire',u:['https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|falcon-pro':{s:'verify',n:'CCW 79Bike collection; 70/100-19 stock-size variant $12.95 in stock, but the page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'tire-irc-tubes|falcon-pro':{s:'verify',n:'CCW 79Bike collection; 70/100-19 HD 3mm variant $16.95 in stock, but the page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'tire-bikemaster-tr6-inner-tubes|falcon-pro':{s:'verify',n:'CCW 79Bike collection; 70/100-19 variants out of stock at CCW and the page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes',u:['https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes']},
+  'charged-brake-pads-emoto|falcon-pro':{s:'verify',n:'CCW fitment list names 79Bike Falcon among mineral-fluid MTB brake bikes; pad shape vs Falcon Pro stock caliper unverified - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/performance-brake-pads-for-emoto',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
+  'chargedcycleworks-formula-e-moto-brakes|falcon-pro':{s:'verify',n:'CCW says it fits mineral-oil-brake bikes with 203mm or 220mm rotors; Falcon Pro has 203mm rotors but its brake fluid type is unverified and the page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/formula-e-moto-brakes',u:['https://chargedcycleworks.com/products/formula-e-moto-brakes']},
+  'chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus|falcon-pro':{s:'verify',n:'CCW title and fitment list name 79 Bike Falcon (family, not Pro); wheel-combo notes list 16/19 and 18/21, not the Pro stock 19/19 - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus',u:['https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|falcon-pro':{s:'verify',n:'Universal 22mm ODI grip in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-full-waffle-grips|falcon-pro':{s:'verify',n:'Universal 22mm ODI grip in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|falcon-pro':{s:'verify',n:'Universal 22mm ODI grip in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|falcon-pro':{s:'verify',n:'Universal 22mm ODI grip in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-protaper-pillow-top-grips|falcon-pro':{s:'verify',n:'Universal 22mm ProTaper grip in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-grips']},
+  'cockpit-protaper-pillow-top-lite-grips|falcon-pro':{s:'verify',n:'Universal 22mm ProTaper grip in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
+  'cockpit-renthal-50-50-mx-grips|falcon-pro':{s:'verify',n:'Universal 22mm Renthal grip in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-50-50-mx-grips',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|falcon-pro':{s:'verify',n:'Universal 22mm Tusk grip in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-acerbis-x-factory-handguards|falcon-pro':{s:'verify',n:'Universal handguards in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-factory-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-factory-handguards']},
+  'cockpit-acerbis-x-ultimate-handguards|falcon-pro':{s:'verify',n:'Universal handguards in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
+  'cockpit-odi-aluminum-grip-end-plugs|falcon-pro':{s:'verify',n:'Universal bar-end plugs in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260']},
+  'cockpit-odi-grip-donuts|falcon-pro':{s:'verify',n:'Universal grip donuts in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260']},
+  'tire-wps-rim-strip|falcon-pro':{s:'verify',n:'Universal rim strip in the CCW 79Bike collection; page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+  'chargedcycleworks-surron-light-bee-number-plate|falcon-pro':{s:'verify',n:'ODI-style front number plate in the CCW 79Bike collection; page never names the Falcon Pro (duplicate pid plastics-odi-style-front-number-plate covers the same product) - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/surron-light-bee-number-plate',u:['https://chargedcycleworks.com/products/surron-light-bee-number-plate']},
+  'maintenance-warp9-stemlock-replacement-bolt|falcon-pro':{s:'verify',n:'Warp9 stemlock bolt in the CCW 79Bike collection; thread/pitch vs the Falcon Pro FastAce fork unverified - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9',u:['https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9']},
+  'chargedcycleworks-warp9-titanium-stem-lock-replacement-bolt|falcon-pro':{s:'verify',n:'Warp9 titanium stemlock bolt in the CCW 79Bike collection; thread/pitch vs the Falcon Pro FastAce fork unverified - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-titanium-stem-lock-replacement-bolt',u:['https://chargedcycleworks.com/products/warp9-titanium-stem-lock-replacement-bolt']},
+  'chargedcycleworks-warp9-adjustable-foot-peg-mount-surron-light-bee-79bike|falcon-pro':{s:'verify',n:'CCW fitment says Sur-ron Light Bee and 79Bike (family, not Pro specifically) - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-adjustable-foot-peg-mount-surron-light-bee-79bike',u:['https://chargedcycleworks.com/products/warp9-adjustable-foot-peg-mount-surron-light-bee-79bike']},
+  'drivetrain-did-420nz3g-gold-chain|falcon-pro':{s:'verify',n:'420 chain in the CCW 79Bike collection; stock Falcon Pro chain is 420/106 links, CCW sells 110 links ($71.62) to cut to fit, page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/did-super-420nz3g-gold-chain-non-o-ring-high-strength',u:['https://chargedcycleworks.com/products/did-super-420nz3g-gold-chain-non-o-ring-high-strength']},
+  'chargedcycleworks-rfloxa-hawk31-max-plus-fork-1|falcon-pro':{s:'verify',n:'CCW compatibility names 79 Bike Falcon M only (not Pro) - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1']},
+  'chargedcycleworks-bearing-kit-suspension-triangle-surron-lbx|falcon-pro':{s:'verify',n:'CCW Fits list names 79bike Falcon (family, not Pro); LBX suspension-triangle bearings, Falcon Pro triangle compatibility unverified - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx',u:['https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - 79BIKE Falcon GT (merged final) (supersedes entries above) */
+  'tech-er30-283|falcon-gt':{s:'confirmed_direct_fit',n:'CCW fitment text names the 79Bike Falcon GT; 283x80 with included TECH linkage (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee',u:['https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee']},
+  'chargedcycleworks-tech-suspension-e39-racing-kashima-fork|falcon-gt':{s:'confirmed_direct_fit',n:'CCW fitment text names 79Bike Falcon Pro / GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork',u:['https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork']},
+  'chargedcycleworks-tech-suspension-er34-racing-kashima-shock|falcon-gt':{s:'confirmed_direct_fit',n:'CCW fitment text names 79Bike Falcon Pro / GT, with TECH linkage included (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock',u:['https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock']},
+  'chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7|falcon-gt':{s:'confirmed_direct_fit',n:'CCW fitment text names the 79Bike Falcon GT (Ventus) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7',u:['https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7']},
+  'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto|falcon-gt':{s:'confirmed_direct_fit',n:'CCW fitment text names 79Bike Falcon M, Falcon Pro, Falcon GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto',u:['https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto']},
+  'chargedcycleworks-heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit|falcon-gt':{s:'confirmed_direct_fit',n:'CCW fitment names 79Bike Falcon Pro / GT (non-spline shaft motors; stock OEM Falcon motor is keyed) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit',u:['https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit']},
+  'chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade|falcon-gt':{s:'confirmed_direct_fit',n:'CCW fitment names 79Bike Falcon Pro / GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade',u:['https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade']},
+  'chargedcycleworks-kyvex-billet-motor-cover-79bike|falcon-gt':{s:'confirmed_direct_fit',n:'CCW compatibility names 79 Bike Falcon M / Falcon Pro / Falcon GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-motor-cover-compatible-w-surron-lbx-ventus-one-79bike',u:['https://chargedcycleworks.com/products/kyvex-billet-motor-cover-compatible-w-surron-lbx-ventus-one-79bike']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Ventus One Plus EVO (merged final) (supersedes entries above) */
+  'wheels-ion-lightbee-eride20|ventus-evo':{s:'confirmed_direct_fit',n:'CCW fitment names Ventus One / Plus / EVO (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ion-16-19-wheelset']},
+  'wheels-ion-lightbee-eride20-17supermoto|ventus-evo':{s:'confirmed_direct_fit',n:'CCW fitment names Ventus One / Plus / EVO (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ion-17-supermoto-wheelset']},
+  'chargedcycleworks-formula-eb9|ventus-evo':{s:'confirmed_direct_fit',n:'CCW fitment names Ventus One + Evo (95.5mm variant; 95.5mm model only works with Ventus One + Evo models) (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/formula-eb9']},
+});
+
+Object.assign(FITMENT, { /* Grok motor research 2026-11-11 - exact-model motors (merged final) (supersedes entries above) */
+  'vtb-28kw-light|falcon-pro':{s:'confirmed_direct_fit',n:'Needs aftermarket VTB V9600 controller; does not fit stock motor (per CCW fitment text). CCW + GritShift name Falcon Pro. Caveat: REV Rides notes newer 79 Bike LED motors may not be compatible',u:['https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor','https://gritshift.com/products/ventus-28kw-motor']},
+  'vtb-28kw-light|falcon-gt':{s:'confirmed_direct_fit',n:'Needs aftermarket VTB V9600 controller; does not fit stock motor (per CCW fitment text). CCW + GritShift name Falcon GT. Caveat: REV Rides notes newer 79 Bike LED motors may not be compatible',u:['https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor','https://gritshift.com/products/ventus-28kw-motor']},
+  'ventus-ryuga-52kw|ventus-plus':{s:'confirmed_direct_fit',n:'Needs VTB Aetos/V9600 controller. TBEM + GritShift fitment lists name the Ventus One Plus',u:['https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1','https://gritshift.com/products/ventus-vtb-ryuga-52kw-motor-upgrade']},
+  'ventus-ryuga-52kw|falcon-pro':{s:'confirmed_direct_fit',n:'Needs VTB Aetos/V9600 controller. Pinned Electric fitment lists 79 Bike Falcon M, Pro & GT; TBEM + GritShift tags name Falcon Pro. Caveat: REV Rides notes newer 79 Bike LED motors may not be compatible',u:['https://pinnedelectric.com/products/ventus-vtb-motor-ryuga-52kw-for-surron-lightbee-79bike-or-eridepro-hairpin','https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1','https://gritshift.com/products/ventus-vtb-ryuga-52kw-motor-upgrade']},
+  'ventus-ryuga-52kw|falcon-gt':{s:'confirmed_direct_fit',n:'Needs VTB Aetos/V9600 controller. Pinned Electric fitment lists 79 Bike Falcon M, Pro & GT; TBEM + GritShift tags name Falcon GT. Caveat: REV Rides notes newer 79 Bike LED motors may not be compatible',u:['https://pinnedelectric.com/products/ventus-vtb-motor-ryuga-52kw-for-surron-lightbee-79bike-or-eridepro-hairpin','https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1','https://gritshift.com/products/ventus-vtb-ryuga-52kw-motor-upgrade']},
+  'ventus-ryuga-52kw|ss40':{s:'confirmed_direct_fit',n:'Needs VTB Aetos/V9600 controller. TBEM + GritShift fitment lists name the E Ride Pro SS 4.0',u:['https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1','https://gritshift.com/products/ventus-vtb-ryuga-52kw-motor-upgrade']},
+  'vtb-28kw-light|ss40':{s:'confirmed_direct_fit',n:'Needs aftermarket VTB V9600 controller. GritShift fitment lists name the E Ride Pro SS 4.0',u:['https://gritshift.com/products/ventus-28kw-motor']},
+  'ebmx-xlb-60|ss40':{s:'verify',n:'TBEM tags it for the E Ride Pro 4.0 but EBMX does not name the SS 4.0 in its own fitment list — verify with vendor before buying',u:['https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor']},
+  'eco-rtr-high-torque-mod-motor|rtr-lite':{s:'confirmed_direct_fit',n:'E&Co fitment lists the ETM RTR Lite. Drop-in on stock controller, #35 chain only. Does not increase kW — increases torque per amp',u:['https://electroandcompany.com/products/etm-rtr-high-torque-mod-motor']},
+  'eco-rtr-revolver-alpha-420-kit|rtr-lite':{s:'confirmed_direct_fit',n:'E&Co: bolts straight onto the 2025 RTR or RTR Lite. Alpha 70H motor + 420 chain conversion; works with stock controller. $449 (12in rear) / $469 (14in rear)',u:['https://electroandcompany.com/products/rtr-revolver-motor-420-chain-conversion-kit']},
+  'eco-rtr-high-speed-mod-motor|rtr-lite':{s:'confirmed_direct_fit',n:'TBEM fitment lists the ETM RTR Lite. Speed-focused mod motor; up to 67 MPH on 72V when paired with the E&Co 13kW TruMoto 6+7 kit',u:['https://tbelectricmoto.com/products/etm-rtr-high-speed-mod-motor']},
+  'eco-rtr-alpha-revolver-motor-70h|rtr-sport':{s:'confirmed_direct_fit',n:'E&Co support names the Revolver Alpha Motor the recommended motor upgrade for the RTR Sport. Standalone 70H motor; Sport already has 420 chain so no conversion kit needed. Currently out of stock at E&Co',u:['https://electroandcompany.com/products/motor-etm-rtr-alpha-revolver-motor-70h','https://support.electroandcompany.com/hc/en-us/articles/54820201573779-How-Should-I-Upgrade-My-ETM-RTR-Sport']},
+  'econic-yozma-in10-gear-reduction-motor|yozma-in10':{s:'confirmed_direct_fit',n:'E-Conic product title names the Yozma IN10. Custom gear-reduction motor (2.37) with 420 14T sprocket; spacers + washers supplied (70mm per mounting point)',u:['https://econiccycles.com/products/yozma-in10-valtinsu-em-5-tasaca-v58-upgraded-gear-reduction-motor-w-420-14t-sprocket']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - ETM RTR Alpha (merged final) (supersedes entries above) */
+  'tire-kenda-k270-dualsport|rtr-alpha':{s:'verify',n:'DOWNGRADED confirmed -> verify: CCW sells no 14\" K270 (variants are 3.50x18, 4.00x18, 2.75x21, 3.00x21 only), so the old diameter-match confirm for the stock 14\" front wheel was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'tire-kenda-k760-trakmaster|rtr-alpha':{s:'verify',n:'DOWNGRADED confirmed -> verify: CCW variants are 70/100-19, 70/100-17 and 100/90-19 only, no 14\" size for the stock 14\" front wheel, so the old diameter-match confirm was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260']},
+  'tire-maxxis-mxsi|rtr-alpha':{s:'verify',n:'DOWNGRADED confirmed -> verify: CCW offers only a 90/100-14 variant for the stock 14\" front wheel - not the stock 60/100-14 size, and no 80/100-12 rear - so the old diameter-match confirm was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front',u:['https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front']},
+  'cockpit-acerbis-x-ultimate-handguards|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
+  'tire-dunlop-mx54-geomax-soft-int-terrain-tires|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha; offers the stock sizes 60/100-14 ($51.99) and 80/100-12 ($52.99), both in stock (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
+  'chargedcycleworks-odi-7-8-podium-handlebars|rtr-alpha':{s:'confirmed_direct_fit',n:'7/8in bars; stock RTR clamp is 7/8in (22mm) - GritShift lists the E&C Pit Bike High Bars as 7/8in 22mm for the ETM RTR; CCW search-by-bike (ETM RTR ALPHA tag) lists them for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-7-8-podium-handlebars-for-beta-apollo-rfn',u:['https://chargedcycleworks.com/products/odi-7-8-podium-handlebars-for-beta-apollo-rfn', 'https://gritshift.com/products/electro-co-pit-bike-high-bars']},
+  'cockpit-odi-ruffian-full-waffle-grips|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-protaper-pillow-top-grips|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-grips']},
+  'cockpit-protaper-pillow-top-lite-grips|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
+  'cockpit-renthal-50-50-mx-grips|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-50-50-mx-grips',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha; offers 60/100-14 and 80/100-12 tube sizes ($11.95 each), both in stock (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'titanium-warp9-e-moto-handguard-titanium-bolt-kit|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit']},
+  'cockpit-warp9-e-moto-handguards|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguards',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguards']},
+  'tire-wps-rim-strip|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha; offers 14\" x 7/8\" front and 12\" x 3/4\" rear rim strips (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+  'chargedcycleworks-e-c-pit-bike-high-bars|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW page: high-rise bars made by Electro & Company as the complement to the stock ETM RTR low bars; ETM RTR ALPHA tag (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/e-c-pit-bike-high-bars',u:['https://chargedcycleworks.com/products/e-c-pit-bike-high-bars']},
+  'chargedcycleworks-etm-rtr-oem-low-rise-handlebar|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW page: OEM low rise handlebar for the ETM RTR pit bike; ETM RTR ALPHA tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-low-rise-handlebar',u:['https://chargedcycleworks.com/products/etm-rtr-oem-low-rise-handlebar']},
+  'chargedcycleworks-rear-fender-etm-rtr-2025|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW page: compatible with all ETM RTR 2025 models; ETM RTR ALPHA tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025',u:['https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025']},
+  'chargedcycleworks-etm-rtr-2025-black-seat|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW page: designed specifically for ETM RTR 2025 models; ETM RTR ALPHA tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-2025-black-seat',u:['https://chargedcycleworks.com/products/etm-rtr-2025-black-seat']},
+  'chargedcycleworks-etm-rtr-oem-throttle|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW page: OEM ETM RTR replacement throttle (includes both grips); ETM RTR ALPHA tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-throttle',u:['https://chargedcycleworks.com/products/etm-rtr-oem-throttle']},
+  'chargedcycleworks-etm-rtr-complete-body-plastic-kit|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW page: full body plastic kit for the ETM RTR; ETM RTR ALPHA tag (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit',u:['https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit']},
+  'chargedcycleworks-etm-rtr-oem-grips|rtr-alpha':{s:'confirmed_direct_fit',n:'CCW page: grips made for the 2025 ETM RTR; ETM RTR ALPHA tag (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-oem-grips',u:['https://chargedcycleworks.com/products/etm-rtr-oem-grips']},
+  'drivetrain-did-420nz3g-gold-chain|rtr-alpha':{s:'verify',n:'CCW tags it ETM RTR ALPHA; 420 chain, price is the 110-link chain ($71.62; master link alone is $3.35) - stock RTR Alpha link count unconfirmed, verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/did-super-420nz3g-gold-chain-non-o-ring-high-strength',u:['https://chargedcycleworks.com/products/did-super-420nz3g-gold-chain-non-o-ring-high-strength']},
+  'tire-dunlop-mx14-sand-scoop-tire|rtr-alpha':{s:'verify',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha; the 90/100-14 variant fits the stock 14\" front wheel but is not the stock 60/100-14 size - verify width/clearance before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire',u:['https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire']},
+  'tire-kenda-k774-ibex-hybrid-sticky-front-tire|rtr-alpha':{s:'verify',n:'CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha; the 90/100-14 variant fits the stock 14\" front wheel but is not the stock 60/100-14 size - verify width/clearance before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire',u:['https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire']},
+  'chargedcycleworks-thrill-seekers-seat-cover-for-etm-rtr|rtr-alpha':{s:'verify',n:'CCW page: fits the ETM RTR with the OEM seat - names the ETM RTR family, not the RTR Alpha specifically; tag-only evidence, so verify. All variants out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr',u:['https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr']},
+  'tire-bikemaster-tr6-inner-tubes|rtr-alpha':{s:'not_compatible',n:'No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes',u:['https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes']},
+  'tire-irc-tubes|rtr-alpha':{s:'not_compatible',n:'No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'tire-kenda-k775-washougal-ii-front-tire|rtr-alpha':{s:'not_compatible',n:'No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire',u:['https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire']},
+  'tire-shinko-525-soft-intermediate-terrain-tire|rtr-alpha':{s:'not_compatible',n:'No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire',u:['https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire']},
+  'chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire|rtr-alpha':{s:'not_compatible',n:'Single-size 90/100-18 rear tire; stock RTR Alpha wheels are 14\" front / 12\" rear, so it cannot fit (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire',u:['https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire']},
+});
+
+Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Rawrr Mantis Mini R (merged final) (supersedes entries above) */
+  'chargedcycleworks-warp9-elite-foot-pegs-rawrr-mantis-x-mini|rawrr-mantis-mini-r':{s:'confirmed_direct_fit',n:'CCW fitment list: \'Mantis X and Mantis mini\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini',u:['https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini']},
+  'tire-bridgestone-m203-ccw|rawrr-mantis-mini-r':{s:'confirmed_direct_fit',n:'CCW offers the 60/100-14 variant, the exact stock front tire size, and lists the part for the Mantis Mini (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate',u:['https://chargedcycleworks.com/products/bridgestone-m203-front-tire-soft-intermediate']},
+  'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|rawrr-mantis-mini-r':{s:'confirmed_direct_fit',n:'CCW offers the 60/100-14 variant ($11.95), the exact stock front tube size, and lists the part for the Mantis Mini; the only 12-inch rear variant is 80/100-12, one size up from the stock 2.75-12 rear — verify for the rear (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
+  'tire-wps-rim-strip|rawrr-mantis-mini-r':{s:'confirmed_direct_fit',n:'CCW offers 14-inch x 7/8-inch (front) and 12-inch x 3/4-inch (rear) rim strips, the exact stock wheel sizes, and lists the part for the Mantis Mini (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
+  'cockpit-acerbis-x-ultimate-handguards|rawrr-mantis-mini-r':{s:'verify',n:'Universal open handguards (22-28mm clamp); CCW lists this part for the Mantis Mini but the product page names no Mini model and the stock bar diameter is unverified — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
+  'cockpit-odi-ruffian-full-waffle-grips|rawrr-mantis-mini-r':{s:'verify',n:'Universal 7/8-inch grips; CCW lists this part for the Mantis Mini but the product page names no Mini model and the stock bar diameter is unverified — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
+  'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|rawrr-mantis-mini-r':{s:'verify',n:'Universal 7/8-inch grips; CCW lists this part for the Mantis Mini but the product page names no Mini model and the stock bar diameter is unverified — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|rawrr-mantis-mini-r':{s:'verify',n:'Universal 7/8-inch grips; CCW lists this part for the Mantis Mini but the product page names no Mini model and the stock bar diameter is unverified — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|rawrr-mantis-mini-r':{s:'verify',n:'Universal lock-on grips; CCW lists this part for the Mantis Mini but the product page names no Mini model and the stock bar diameter is unverified — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto',u:['https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto']},
+  'cockpit-protaper-pillow-top-grips|rawrr-mantis-mini-r':{s:'verify',n:'Universal 7/8-inch grips; CCW lists this part for the Mantis Mini but the product page names no Mini model and the stock bar diameter is unverified — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-grips']},
+  'cockpit-protaper-pillow-top-lite-grips|rawrr-mantis-mini-r':{s:'verify',n:'Universal 7/8-inch grips; CCW lists this part for the Mantis Mini but the product page names no Mini model and the stock bar diameter is unverified — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
+  'cockpit-renthal-50-50-mx-grips|rawrr-mantis-mini-r':{s:'verify',n:'Universal 7/8-inch grips; CCW lists this part for the Mantis Mini but the product page names no Mini model and the stock bar diameter is unverified — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-50-50-mx-grips',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
+  'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|rawrr-mantis-mini-r':{s:'verify',n:'Universal 7/8-inch grips; CCW lists this part for the Mantis Mini but the product page names no Mini model and the stock bar diameter is unverified — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
+  'cockpit-odi-grip-donuts|rawrr-mantis-mini-r':{s:'verify',n:'Universal grip donuts; CCW lists this part for the Mantis Mini but the product page names no Mini model — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260']},
+  'plastics-odi-downhill-e-bike-number-plate|rawrr-mantis-mini-r':{s:'verify',n:'Universal number plate; CCW lists this part for the Mantis Mini but the product page names no Mini model — verify mounting before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate',u:['https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate']},
+  'cockpit-warp9-e-moto-handguards|rawrr-mantis-mini-r':{s:'verify',n:'Universal handguards; CCW lists this part for the Mantis Mini but the product page names no Mini model and the stock bar diameter is unverified — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguards',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguards']},
+  'titanium-warp9-e-moto-handguard-titanium-bolt-kit|rawrr-mantis-mini-r':{s:'verify',n:'Bolt kit for the Warp9 eMoto handguards; the handguards themselves are verify-only for the Mini R — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit']},
+  'chargedcycleworks-kyvex-billet-bar-mount|rawrr-mantis-mini-r':{s:'verify',n:'CCW page names no bike model — bar-mount fitment unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-bar-mount',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount']},
+  'chargedcycleworks-kyvex-billet-bar-mount-riser|rawrr-mantis-mini-r':{s:'verify',n:'CCW page names no bike model — bar-mount riser fitment unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser']},
+  'chargedcycleworks-kyvex-replacement-foot-peg-pins|rawrr-mantis-mini-r':{s:'verify',n:'Replacement pins for KyVex Billet Wide Foot Pegs; the pegs themselves are unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins',u:['https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins']},
+  'chargedcycleworks-direct-mount-stem-1-spacer-25mm|rawrr-mantis-mini-r':{s:'verify',n:'Generic direct-mount stem spacer; CCW names no bike model (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm',u:['https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm']},
+  'chargedcycleworks-handlebar-stem-spacer|rawrr-mantis-mini-r':{s:'verify',n:'Talaria stem spacer; CCW names no Mantis fitment (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-warp9-stem-lock-spacer-kit|rawrr-mantis-mini-r':{s:'verify',n:'Spacers made exclusively for Warp 9 Stem Locks; the stem lock itself is unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stem-lock-spacer-kit',u:['https://chargedcycleworks.com/products/stem-lock-spacer-kit']},
+  'chargedcycleworks-wolf-tooth-precision-headset-spacers|rawrr-mantis-mini-r':{s:'verify',n:'Generic headset spacers; steer-tube diameter unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria',u:['https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria']},
+  'tire-bridgestone-m204-ccw|rawrr-mantis-mini-r':{s:'verify',n:'CCW offers 90/100-14 (R17 rear size) and 80/100-12 (one size up from the stock 2.75-12 rear), but no exact stock size — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire',u:['https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
+  'tire-kenda-k760-trakmaster|rawrr-mantis-mini-r':{s:'verify',n:'CCW offers 70/100-17, the R17 front size — fits only with the R17 upsizing kit; no 14-inch stock-front size. All variants currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260']},
+  'tire-kenda-k774-ibex-hybrid-sticky-front-tire|rawrr-mantis-mini-r':{s:'verify',n:'CCW offers 90/100-14, the R17 rear size — fits only with the R17 upsizing kit; no stock 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire',u:['https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire']},
+  'chargedcycleworks-maxxis-maxxcross-intermediate-tire|rawrr-mantis-mini-r':{s:'verify',n:'CCW offers 70/100-17 (R17 front) and 90/100-14 (R17 rear) — fits only with the R17 upsizing kit; no stock 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front',u:['https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front']},
+  'tire-shinko-sr241-ccw|rawrr-mantis-mini-r':{s:'verify',n:'CCW offers 2.75x14 front and 3.00x12 rear — same wheel diameters as stock but wider than the stock 60/100-14 front / 2.75x12 rear — verify clearance before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
+  'tire-bridgestone-x30-ccw|rawrr-mantis-mini-r':{s:'not_compatible',n:'CCW offers 90/100-16 and 70/100-19 only — no 14-inch front or 12-inch rear size for the stock Mini R wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16',u:['https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
+  'tire-bridgestone-x31|rawrr-mantis-mini-r':{s:'not_compatible',n:'CCW offers 80/100-21 and 110/100-18 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18',u:['https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18']},
+  'tire-kenda-k270-dualsport|rawrr-mantis-mini-r':{s:'not_compatible',n:'CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only — no 14-inch or 12-inch size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road',u:['https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road']},
+  'tire-kenda-washougal3-ccw|rawrr-mantis-mini-r':{s:'not_compatible',n:'CCW offers 70/100-19, 90/100-16, 90/100-18 and 80/100-21 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k7102-washougal-iii',u:['https://chargedcycleworks.com/products/kenda-k7102-washougal-iii']},
+  'tire-kenda-k775-washougal-ii-front-tire|rawrr-mantis-mini-r':{s:'not_compatible',n:'CCW offers 70/100-19, 80/100-21, 90/100-16 and 100/90-19 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire',u:['https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire']},
+  'tire-kenda-millville2-k785|rawrr-mantis-mini-r':{s:'not_compatible',n:'70/100-19 front tire only — no 14-inch size for the stock front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire',u:['https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire']},
+  'tire-shinko-244-dualsport|rawrr-mantis-mini-r':{s:'not_compatible',n:'CCW offers 2.75x19, 3.50x18, 3.00x21 and 2.75x21 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-244-dual-sport-tires',u:['https://chargedcycleworks.com/products/shinko-244-dual-sport-tires']},
+  'chargedcycleworks-shinko-524-19-tire|rawrr-mantis-mini-r':{s:'not_compatible',n:'19-inch tire only — no 14-inch or 12-inch size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-524-19-tire',u:['https://chargedcycleworks.com/products/shinko-524-19-tire']},
+  'tire-shinko-525-soft-intermediate-terrain-tire|rawrr-mantis-mini-r':{s:'not_compatible',n:'CCW offers 90/100-16, 100/90-19, 100/100-18 and 110/100-18 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire',u:['https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire']},
+  'tire-shinko-525-cheater|rawrr-mantis-mini-r':{s:'not_compatible',n:'CCW offers 90/100-16, 110/100-18 and 120/100-18 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260']},
+  'tire-tusk-recon-ccw|rawrr-mantis-mini-r':{s:'not_compatible',n:'CCW offers 70/100-19 and 90/100-16 only — no 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-recon-sticky-19-tire-for-surron-segway',u:['https://chargedcycleworks.com/products/tusk-recon-sticky-19-tire-for-surron-segway']},
+  'tire-bikemaster-tr6-inner-tubes|rawrr-mantis-mini-r':{s:'not_compatible',n:'CCW offers no 14-inch or 12-inch tube size (smallest is 90/100-16) — cannot fit the stock 14/12 wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes',u:['https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes']},
+  'tire-irc-tubes|rawrr-mantis-mini-r':{s:'not_compatible',n:'CCW offers no 14-inch or 12-inch tube size (smallest is 90/100-16) — cannot fit the stock 14/12 wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes',u:['https://chargedcycleworks.com/products/irc-tubes']},
+  'chargedcycleworks-rawrr-mantis-mini-r-r17-foot-peg-assembly|rawrr-mantis-mini-r':{s:'confirmed_direct_fit',n:'CCW: \'OEM Foot Peg Assembly for Rawrr Mantis Mini R & R17\' — genuine OEM, direct bolt-on (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly',u:['https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-foot-peg-assembly']},
+  'chargedcycleworks-rawrr-mantis-mini-foot-peg-assembly|rawrr-mantis-mini-r':{s:'confirmed_direct_fit',n:'CCW: \'OEM Foot Peg Assembly for Rawrr Mantis Mini\' — genuine OEM, complete left and right assembly (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly',u:['https://chargedcycleworks.com/products/rawrr-mantis-mini-foot-peg-assembly']},
+  'chargedcycleworks-rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit|rawrr-mantis-mini-r':{s:'confirmed_direct_fit',n:'CCW: stock-size replacement wheelset — 14-inch front with 60/100-14 tire, 12-inch rear with 70/100-12 tire, 203mm rotors, 64T sprocket (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit',u:['https://chargedcycleworks.com/products/rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit']},
+  'chargedcycleworks-rawrr-mantis-mini-wheel-assemblies|rawrr-mantis-mini-r':{s:'confirmed_direct_fit',n:'CCW: \'Transform your bike from 12/14-inch Mini R to a larger 14/17-inch Mini R17\' — 14/17-inch wheelset plus longer kickstand; fits 72V Mini R, does not fit 48V Mantis Mini (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-wheel-assemblies',u:['https://chargedcycleworks.com/products/rawrr-mantis-mini-wheel-assemblies']},
+  'chargedcycleworks-rawrr-mantis-mini-r-r17-oem-display|rawrr-mantis-mini-r':{s:'confirmed_direct_fit',n:'CCW: \'Rawrr Mantis Mini R/R17, 72V Display\', part 03-06-05 — genuine OEM (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display',u:['https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display']},
+  'chargedcycleworks-rawrr-mantis-mini-magnetic-switch|rawrr-mantis-mini-r':{s:'confirmed_direct_fit',n:'CCW fitment: \'Rawrr Mantis Mini, Mini R, Mini R17\' — genuine OEM magnetic safety switch, disables throttle when the key is removed (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-magnetic-switch',u:['https://chargedcycleworks.com/products/rawrr-mantis-mini-magnetic-switch']},
+  'chargedcycleworks-rawrr-mantis-mini-r17-kickstand-assembly|rawrr-mantis-mini-r':{s:'verify',n:'CCW names the Mantis Mini R17 only, never the stock Mini R — R17-length kickstand, fits only on the R17 configuration (with the upsizing kit); the upsizing kit itself includes a longer kickstand (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r17-kickstand-assembly',u:['https://chargedcycleworks.com/products/rawrr-mantis-mini-r17-kickstand-assembly']},
+});
+
+Object.assign(FITMENT, { /* Merge fix 2026-11-11 (merged final) (supersedes entries above) */
+  'tire-kenda-k270-dualsport|rawrr-mantis-x':{s:'verify',n:'K270 has no 19-inch variant at CCW (18/21 only); cannot match stock 19/19 wheels - verify (checked 2026-11-11)'},
 });

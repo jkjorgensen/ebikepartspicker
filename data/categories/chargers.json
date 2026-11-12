@@ -846,6 +846,26 @@
         "https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem"
       ],
       "notes": "CCW fitment list names XE / XE Pro / XF / Pro R / EX Pro; XE Pro S not named - verify voltage and connector before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-10a-oem-charger",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem"
+      ],
+      "notes": "CCW fitment list names Arctic Leopard XE / XE Pro / XF / Pro R / EX Pro (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-10a-oem-charger",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem"
+      ],
+      "notes": "CCW title and fitment list name the XF (XE / XF / Pro R / EX Pro); 10A OEM charger for 72V Arctic Leopard packs. (checked 2026-11-11)"
     }
   ]
 }

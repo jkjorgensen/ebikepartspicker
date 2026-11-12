@@ -191,12 +191,10 @@
     {
       "product_id": "ventus-ryuga-52kw",
       "bike_id": "ventus-plus",
-      "status": "verify",
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1"
-      ],
-      "notes": "Title names E-Ride/Ventus without models",
-      "required_adapters": null
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": ["https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1", "https://gritshift.com/products/ventus-vtb-ryuga-52kw-motor-upgrade"],
+      "notes": "Needs VTB Aetos/V9600 controller. TBEM + GritShift fitment lists name the Ventus One Plus"
     },
     {
       "product_id": "ventus-ryuga-52kw",
@@ -915,6 +913,133 @@
         "https://chargedcycleworks.com/products/prickly-ultra-bee-motor-cover"
       ],
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-ultra-bee-motor-cover"
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-billet-motor-cover-79bike",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-motor-cover-compatible-w-surron-lbx-ventus-one-79bike"
+      ],
+      "notes": "CCW compatibility names 79 Bike Falcon M / Falcon Pro / Falcon GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-motor-cover-compatible-w-surron-lbx-ventus-one-79bike"
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor"
+      ],
+      "notes": "CCW fitment text names the 79Bike Falcon GT (Falcon M/Pro marked \"does not fit stock motor\"; aftermarket controller required) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor"
+    },
+    {
+      "product_id": "eco-rtr-alpha-revolver-motor-70h",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/motor-etm-rtr-alpha-revolver-motor-70h",
+        "https://support.electroandcompany.com/hc/en-us/articles/54820201573779-How-Should-I-Upgrade-My-ETM-RTR-Sport"
+      ],
+      "notes": "E&Co support names the Revolver Alpha Motor the recommended motor upgrade for the RTR Sport. Standalone 70H motor; Sport already has 420 chain so no conversion kit needed. Currently out of stock at E&Co"
+    },
+    {
+      "product_id": "eco-rtr-high-speed-mod-motor",
+      "bike_id": "rtr-lite",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/etm-rtr-high-speed-mod-motor"
+      ],
+      "notes": "TBEM fitment lists the ETM RTR Lite. Speed-focused mod motor; up to 67 MPH on 72V when paired with the E&Co 13kW TruMoto 6+7 kit"
+    },
+    {
+      "product_id": "eco-rtr-high-torque-mod-motor",
+      "bike_id": "rtr-lite",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-high-torque-mod-motor"
+      ],
+      "notes": "E&Co fitment lists the ETM RTR Lite. Drop-in on stock controller, #35 chain only. Does not increase kW — increases torque per amp"
+    },
+    {
+      "product_id": "eco-rtr-revolver-alpha-420-kit",
+      "bike_id": "rtr-lite",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/rtr-revolver-motor-420-chain-conversion-kit"
+      ],
+      "notes": "E&Co: bolts straight onto the 2025 RTR or RTR Lite. Alpha 70H motor + 420 chain conversion; works with stock controller. $449 (12in rear) / $469 (14in rear)"
+    },
+    {
+      "product_id": "econic-yozma-in10-gear-reduction-motor",
+      "bike_id": "yozma-in10",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://econiccycles.com/products/yozma-in10-valtinsu-em-5-tasaca-v58-upgraded-gear-reduction-motor-w-420-14t-sprocket"
+      ],
+      "notes": "E-Conic product title names the Yozma IN10. Custom gear-reduction motor (2.37) with 420 14T sprocket; spacers + washers supplied (70mm per mounting point)"
+    },
+    {
+      "product_id": "ventus-ryuga-52kw",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://pinnedelectric.com/products/ventus-vtb-motor-ryuga-52kw-for-surron-lightbee-79bike-or-eridepro-hairpin",
+        "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1",
+        "https://gritshift.com/products/ventus-vtb-ryuga-52kw-motor-upgrade"
+      ],
+      "notes": "Needs VTB Aetos/V9600 controller. Pinned Electric fitment lists 79 Bike Falcon M, Pro & GT; TBEM + GritShift tags name Falcon GT. Caveat: REV Rides notes newer 79 Bike LED motors may not be compatible"
+    },
+    {
+      "product_id": "ventus-ryuga-52kw",
+      "bike_id": "falcon-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://pinnedelectric.com/products/ventus-vtb-motor-ryuga-52kw-for-surron-lightbee-79bike-or-eridepro-hairpin",
+        "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1",
+        "https://gritshift.com/products/ventus-vtb-ryuga-52kw-motor-upgrade"
+      ],
+      "notes": "Needs VTB Aetos/V9600 controller. Pinned Electric fitment lists 79 Bike Falcon M, Pro & GT; TBEM + GritShift tags name Falcon Pro. Caveat: REV Rides notes newer 79 Bike LED motors may not be compatible"
+    },
+    {
+      "product_id": "ventus-ryuga-52kw",
+      "bike_id": "ss40",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1",
+        "https://gritshift.com/products/ventus-vtb-ryuga-52kw-motor-upgrade"
+      ],
+      "notes": "Needs VTB Aetos/V9600 controller. TBEM + GritShift fitment lists name the E Ride Pro SS 4.0"
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "falcon-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor",
+        "https://gritshift.com/products/ventus-28kw-motor"
+      ],
+      "notes": "Needs aftermarket VTB V9600 controller; does not fit stock motor (per CCW fitment text). CCW + GritShift name Falcon Pro. Caveat: REV Rides notes newer 79 Bike LED motors may not be compatible"
+    },
+    {
+      "product_id": "vtb-28kw-light",
+      "bike_id": "ss40",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/ventus-28kw-motor"
+      ],
+      "notes": "Needs aftermarket VTB V9600 controller. GritShift fitment lists name the E Ride Pro SS 4.0"
     }
   ],
   "products": [
@@ -1087,6 +1212,12 @@
     },
     {
       "id": "vtb-28kw-light",
+      "_fit_src": {
+        "falcon-gt": "https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor"
+      },
+      "_fit": {
+        "79BIKE Falcon GT": "direct_fit"
+      },
       "name": "VTB 28kW Light E-moto Motor",
       "brand": "VTB",
       "category": "motor",
@@ -1098,6 +1229,11 @@
           "vendor": "Charged Cycle Works",
           "price_usd": 799.0,
           "buy_url": "https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor"
+        },
+        {
+          "vendor": "GritShift",
+          "price_usd": 799.99,
+          "buy_url": "https://gritshift.com/products/ventus-28kw-motor"
         }
       ],
       "stock_status": "in_stock",
@@ -1164,6 +1300,16 @@
           "vendor": "TB Electric Moto",
           "price_usd": 1199.0,
           "buy_url": "https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1"
+        },
+        {
+          "vendor": "GritShift",
+          "price_usd": 1199.99,
+          "buy_url": "https://gritshift.com/products/ventus-vtb-ryuga-52kw-motor-upgrade"
+        },
+        {
+          "vendor": "Pinned Electric",
+          "price_usd": 1199.0,
+          "buy_url": "https://pinnedelectric.com/products/ventus-vtb-motor-ryuga-52kw-for-surron-lightbee-79bike-or-eridepro-hairpin"
         }
       ],
       "stock_status": "out_of_stock",
@@ -1518,6 +1664,182 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-prickly-ultra-bee-motor-cover.webp"
+    },
+{
+      "id": "chargedcycleworks-kyvex-billet-motor-cover-79bike",
+      "name": "KyVex Billet Motor Cover – Surron LBX / Ventus One / 79Bike",
+      "brand": "KyVex Moto",
+      "category": "motor",
+      "price_usd": 75,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-motor-cover-compatible-w-surron-lbx-ventus-one-79bike",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW Compatible With list names 79 Bike Falcon M / Falcon Pro / Falcon GT (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-motor-cover-compatible-w-surron-lbx-ventus-one-79bike"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 75,
+          "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-motor-cover-compatible-w-surron-lbx-ventus-one-79bike"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "eco-rtr-alpha-revolver-motor-70h",
+      "name": "E&Co Revolver Alpha 70H Motor",
+      "brand": "Electro & Co",
+      "category": "motor",
+      "price_usd": 359.0,
+      "vendor": "Electro & Co",
+      "buy_url": "https://electroandcompany.com/products/motor-etm-rtr-alpha-revolver-motor-70h",
+      "vendors": [
+        {
+          "vendor": "Electro & Co",
+          "price_usd": 359.0,
+          "buy_url": "https://electroandcompany.com/products/motor-etm-rtr-alpha-revolver-motor-70h"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "tier": "budget",
+      "is_upgrade": true,
+      "badge": "Revolver Alpha 70H",
+      "power_change_kw": 18,
+      "weight_kg": null,
+      "notes": "Standalone Alpha 70H Revolver motor. E&Co support names it the recommended motor upgrade for the ETM RTR Sport; the Sport already has a 420 chain so no conversion kit is needed. 420 chain setup only. Out of stock at E&Co as of Nov 11, 2026.",
+      "source_urls": [
+        "https://electroandcompany.com/products/motor-etm-rtr-alpha-revolver-motor-70h",
+        "https://support.electroandcompany.com/hc/en-us/articles/54820201573779-How-Should-I-Upgrade-My-ETM-RTR-Sport"
+      ],
+      "last_checked": "2026-11-11",
+      "motor_peak_kw": 18,
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "eco-rtr-high-speed-mod-motor",
+      "name": "E&Co High Speed Mod Motor",
+      "brand": "Electro & Co",
+      "category": "motor",
+      "price_usd": 349.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/etm-rtr-high-speed-mod-motor",
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 349.0,
+          "buy_url": "https://tbelectricmoto.com/products/etm-rtr-high-speed-mod-motor"
+        }
+      ],
+      "stock_status": "in_stock",
+      "tier": "budget",
+      "is_upgrade": true,
+      "badge": "High Speed Mod",
+      "power_change_kw": 13,
+      "weight_kg": null,
+      "notes": "Speed-focused mod motor for the ETM RTR Lite; up to 67 MPH on 72V when paired with the E&Co 13kW TruMoto 6+7 Mod Powertrain Kit. TBEM fitment lists the ETM RTR Lite.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/etm-rtr-high-speed-mod-motor"
+      ],
+      "last_checked": "2026-11-11",
+      "motor_peak_kw": 13,
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "eco-rtr-high-torque-mod-motor",
+      "name": "E&Co High Torque Mod Motor",
+      "brand": "Electro & Co",
+      "category": "motor",
+      "price_usd": 299.0,
+      "vendor": "Electro & Co",
+      "buy_url": "https://electroandcompany.com/products/etm-rtr-high-torque-mod-motor",
+      "vendors": [
+        {
+          "vendor": "Electro & Co",
+          "price_usd": 299.0,
+          "buy_url": "https://electroandcompany.com/products/etm-rtr-high-torque-mod-motor"
+        }
+      ],
+      "stock_status": "in_stock",
+      "tier": "budget",
+      "is_upgrade": true,
+      "badge": "High Torque Mod",
+      "power_change_kw": 5,
+      "weight_kg": null,
+      "notes": "Drop-in torque upgrade for the ETM RTR Lite on the stock controller; #35 chain only. Does not increase kW output — increases torque per amp. E&Co fitment lists the ETM RTR Lite.",
+      "source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-high-torque-mod-motor"
+      ],
+      "last_checked": "2026-11-11",
+      "motor_peak_kw": 5,
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "eco-rtr-revolver-alpha-420-kit",
+      "name": "E&Co Revolver Alpha Motor & 420 Chain Conversion Kit",
+      "brand": "Electro & Co",
+      "category": "motor",
+      "price_usd": 449.0,
+      "vendor": "Electro & Co",
+      "buy_url": "https://electroandcompany.com/products/rtr-revolver-motor-420-chain-conversion-kit",
+      "vendors": [
+        {
+          "vendor": "Electro & Co",
+          "price_usd": 449.0,
+          "buy_url": "https://electroandcompany.com/products/rtr-revolver-motor-420-chain-conversion-kit"
+        }
+      ],
+      "stock_status": "in_stock",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "badge": "Revolver Alpha Kit",
+      "power_change_kw": 18,
+      "weight_kg": null,
+      "notes": "Alpha 70H Revolver motor + 420 chain conversion, bolts straight onto the 2025 ETM RTR or RTR Lite; works with the stock controller. $449 for 12in rear wheel, $469 for 14in rear wheel.",
+      "source_urls": [
+        "https://electroandcompany.com/products/rtr-revolver-motor-420-chain-conversion-kit"
+      ],
+      "last_checked": "2026-11-11",
+      "motor_peak_kw": 18,
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "econic-yozma-in10-gear-reduction-motor",
+      "name": "E-Conic Yozma IN10 Gear Reduction Motor",
+      "brand": "E-Conic Cycles",
+      "category": "motor",
+      "price_usd": 315.0,
+      "vendor": "E-Conic Cycles",
+      "buy_url": "https://econiccycles.com/products/yozma-in10-valtinsu-em-5-tasaca-v58-upgraded-gear-reduction-motor-w-420-14t-sprocket",
+      "vendors": [
+        {
+          "vendor": "E-Conic Cycles",
+          "price_usd": 315.0,
+          "buy_url": "https://econiccycles.com/products/yozma-in10-valtinsu-em-5-tasaca-v58-upgraded-gear-reduction-motor-w-420-14t-sprocket"
+        }
+      ],
+      "stock_status": "in_stock",
+      "tier": "budget",
+      "is_upgrade": true,
+      "badge": "Gear Reduction",
+      "power_change_kw": 10.8,
+      "weight_kg": null,
+      "notes": "Custom gear-reduction motor (2.37) with 420 14T sprocket for the Yozma IN10 / Valtinsu EM-5 / Tasaca V58. Spacers + washers supplied (70mm per mounting point). Recommended power at 72V: 150 line amps (~10.8 kW).",
+      "source_urls": [
+        "https://econiccycles.com/products/yozma-in10-valtinsu-em-5-tasaca-v58-upgraded-gear-reduction-motor-w-420-14t-sprocket"
+      ],
+      "last_checked": "2026-11-11",
+      "motor_peak_kw": 10.8,
+      "weight_delta_kg": null,
+      "image": null
     }
   ]
 }

@@ -918,6 +918,100 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s.webp"
+    },
+{
+      "id": "chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r",
+      "name": "Thrill Seekers Seat Cover for Arctic Leopard XE Pro R",
+      "brand": "Thrill Seekers",
+      "category": "seats",
+      "badge": "Thrill Seekers",
+      "tier": "midrange",
+      "price_usd": 79.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.0,
+          "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: Fits the Arctic Leopard XE Pro R OEM Seat (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-2025-black-seat",
+      "_fit_src": {
+        "rtr-sport": "https://chargedcycleworks.com/products/etm-rtr-2025-black-seat",
+        "rtr-alpha": "https://chargedcycleworks.com/products/etm-rtr-2025-black-seat"
+      },
+      "_fit": {
+        "ETM RTR Sport": "direct_fit",
+        "ETM RTR Alpha": "direct_fit"
+      },
+      "name": "ETM RTR - OEM Seat",
+      "brand": "Electro & Company",
+      "category": "seats",
+      "price_usd": 100,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-2025-black-seat",
+      "tier": "OEM",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "OEM seat for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-2025-black-seat"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 100,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-2025-black-seat"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-thrill-seekers-seat-cover-for-etm-rtr",
+      "_fit_src": {
+        "rtr-sport": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr",
+        "rtr-alpha": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr"
+      },
+      "_fit": {
+        "ETM RTR Sport": "verify",
+        "ETM RTR Alpha": "verify"
+      },
+      "name": "Thrill Seekers Seat Cover for ETM RTR",
+      "brand": "Thrill Seekers",
+      "category": "seats",
+      "price_usd": 79,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Title names ETM RTR (not Lite specifically); tag-only evidence, so verify per the seat-cover precedent. All variants out of stock at CCW (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79,
+          "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr"
+        }
+      ],
+      "image": null
     }
   ],
   "compatibility": [
@@ -1328,6 +1422,66 @@
         "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s"
       ],
       "notes": "CCW: Fits the Arctic Leopard XE Pro, and XE Pro S OEM Seat (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-seat-lock-oem",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-lock-oem"
+      ],
+      "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro R); shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r"
+      ],
+      "notes": "CCW: Fits the Arctic Leopard XE Pro R OEM Seat (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-etm-rtr-2025-black-seat",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-2025-black-seat"
+      ],
+      "notes": "CCW page: designed specifically for ETM RTR 2025 models; ETM RTR SPORT tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-2025-black-seat"
+    },
+    {
+      "product_id": "chargedcycleworks-thrill-seekers-seat-cover-for-etm-rtr",
+      "bike_id": "rtr-sport",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr"
+      ],
+      "notes": "CCW page: fits the ETM RTR with the OEM seat - names the ETM RTR family, not the RTR Sport specifically, so this stays verify per the graphics/cover precedent; all colour variants out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr"
+    },
+    {
+      "product_id": "chargedcycleworks-etm-rtr-2025-black-seat",
+      "bike_id": "rtr-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-2025-black-seat"
+      ],
+      "notes": "CCW page: designed specifically for ETM RTR 2025 models; ETM RTR ALPHA tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-2025-black-seat"
+    },
+    {
+      "product_id": "chargedcycleworks-thrill-seekers-seat-cover-for-etm-rtr",
+      "bike_id": "rtr-alpha",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr"
+      ],
+      "notes": "CCW page: fits the ETM RTR with the OEM seat - names the ETM RTR family, not the RTR Alpha specifically; tag-only evidence, so verify. All variants out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr"
     }
   ]
 }

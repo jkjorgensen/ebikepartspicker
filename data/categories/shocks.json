@@ -808,6 +808,86 @@
         "https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
       ],
       "notes": "CCW product page fitment list names the Sur-Ron Light Bee 2; also tagged SURLB2 and in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r"
+      ],
+      "notes": "CCW: This R38 fits all three Arctic Leopard models: XE Pro S, Enduro, and R (checked 2026-11-11). Requires the TMB linkage; stock linkage will not work."
+    },
+    {
+      "product_id": "chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway"
+      ],
+      "notes": "CCW fitment list names Arctic Leopard XE Pro / Pro S / Pro R (checked 2026-11-11)."
+    },
+    {
+      "product_id": "rfloxa-rab53rv",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-rab53rv"
+      ],
+      "notes": "CCW fitment list names Talaria / Altis Sigma / E Ride Pro / SurRon only; no Arctic Leopard model named - eye-to-eye length and mounts unverified for XE Pro R (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-etm-rtr-race-shock",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-race-shock"
+      ],
+      "notes": "CCW page: ETM RTR Race Shock, lowers the bike by 1 inch; ETM RTR SPORT tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-race-shock"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
+      ],
+      "notes": "CCW fitment list names 'RAWRR Mantis, Mantis X' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
+    },
+    {
+      "product_id": "chargedcycleworks-tech-suspension-er34-racing-kashima-shock",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+      ],
+      "notes": "CCW fitment text names 79Bike Falcon Pro / GT, with TECH linkage included (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
+      ],
+      "notes": "CCW fitment text names 79Bike Falcon M, Falcon Pro, Falcon GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
+    },
+    {
+      "product_id": "tech-er30-283",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the 79Bike Falcon GT; 283x80 with included TECH linkage (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee"
     }
   ],
   "products": [
@@ -898,6 +978,12 @@
       "buy_url": "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee",
       "category": "shock",
       "id": "tech-er30-283",
+      "_fit_src": {
+        "falcon-gt": "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee"
+      },
+      "_fit": {
+        "79BIKE Falcon GT": "direct_fit"
+      },
       "is_upgrade": true,
       "last_checked": "2026-10-11",
       "name": "TECH ER30 Rear Shock (283x80)",
@@ -2057,6 +2143,12 @@
     },
     {
       "id": "chargedcycleworks-tech-suspension-er34-racing-kashima-shock",
+      "_fit_src": {
+        "falcon-gt": "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+      },
+      "_fit": {
+        "79BIKE Falcon GT": "direct_fit"
+      },
       "name": "Tech Suspension ER34 Racing Kashima E-Moto Shock",
       "brand": "Pinned Electric",
       "category": "shock",
@@ -2107,6 +2199,12 @@
     },
     {
       "id": "chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto",
+      "_fit_src": {
+        "falcon-gt": "https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
+      },
+      "_fit": {
+        "79BIKE Falcon GT": "direct_fit"
+      },
       "name": "Warp9 4mm Neoprene Shock Cover \u2013 Surron / Talaria / E-Ride Pro",
       "brand": "Warp9Racing",
       "category": "shock",
@@ -2343,6 +2441,37 @@
       "weight_kg": null,
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s-enduro-r.webp"
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-race-shock",
+      "_fit_src": {
+        "rtr-sport": "https://chargedcycleworks.com/products/etm-rtr-race-shock"
+      },
+      "_fit": {
+        "ETM RTR Sport": "direct_fit"
+      },
+      "name": "ETM RTR Race Shock",
+      "brand": "Electro & Company",
+      "category": "shock",
+      "price_usd": 149,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-race-shock",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "ETM RTR Race Shock. CCW search-by-bike (ETM RTR LITE tag) lists it for the RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-race-shock"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 149,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-race-shock"
+        }
+      ],
+      "image": null
     }
   ]
 }

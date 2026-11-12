@@ -1046,6 +1046,16 @@
         "https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork"
       ],
       "notes": "CCW: Built around Arctic Leopard XE PRO S specifications; Fitment Arctic Leopard XE PRO S (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-tech-suspension-e39-racing-kashima-fork",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
+      ],
+      "notes": "CCW fitment text names 79Bike Falcon Pro / GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
     }
   ],
   "products": [
@@ -2453,6 +2463,12 @@
     },
     {
       "id": "chargedcycleworks-tech-suspension-e39-racing-kashima-fork",
+      "_fit_src": {
+        "falcon-gt": "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
+      },
+      "_fit": {
+        "79BIKE Falcon GT": "direct_fit"
+      },
       "name": "Tech Suspension E39 Racing Kashima E-Moto Fork",
       "brand": "Pinned Electric",
       "category": "fork",
@@ -2698,6 +2714,31 @@
       "weight_kg": null,
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-rfloxa-hawk36-max-fork.webp"
+    },
+{
+      "id": "chargedcycleworks-rfloxa-hawk31-max-plus-fork-1",
+      "name": "RFloXa Hawk31 Max Plus Fork for Lightweight eMoto",
+      "brand": "RFloXa",
+      "category": "fork",
+      "price_usd": 1099,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW compatibility names 79 Bike Falcon M only (not Pro), verify (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1099,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1"
+        }
+      ],
+      "image": null
     }
   ]
 }

@@ -2809,6 +2809,72 @@
       ],
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-surron-light-bee-number-plate.webp"
+    },
+{
+      "id": "chargedcycleworks-etm-rtr-complete-body-plastic-kit",
+      "_fit_src": {
+        "rtr-sport": "https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit",
+        "rtr-alpha": "https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit"
+      },
+      "_fit": {
+        "ETM RTR Sport": "direct_fit",
+        "ETM RTR Alpha": "direct_fit"
+      },
+      "name": "ETM RTR Complete Body Plastic Kit",
+      "brand": "Electro & Company",
+      "category": "plastics",
+      "price_usd": 89.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Complete body plastic kit for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 89.99,
+          "buy_url": "https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-rear-fender-etm-rtr-2025",
+      "_fit_src": {
+        "rtr-sport": "https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025",
+        "rtr-alpha": "https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025"
+      },
+      "_fit": {
+        "ETM RTR Sport": "direct_fit",
+        "ETM RTR Alpha": "direct_fit"
+      },
+      "name": "ETM RTR - OEM Rear Fender",
+      "brand": "Electro & Company",
+      "category": "plastics",
+      "price_usd": 13,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "OEM rear fender for the ETM RTR. CCW search-by-bike (ETM RTR LITE tag) lists it for the ETM RTR Lite (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 13,
+          "buy_url": "https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025"
+        }
+      ],
+      "image": null
     }
   ],
   "compatibility": [
@@ -4103,6 +4169,86 @@
         "https://chargedcycleworks.com/products/surron-light-bee-number-plate"
       ],
       "notes": "Universal e-moto number plate; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "plastics-odi-downhill-e-bike-number-plate",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate"
+      ],
+      "notes": "Universal e-moto number plate; CCW ALXEPROR tag only, XE Pro R not named - verify before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "plastics-odi-downhill-e-bike-number-plate",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate"
+      ],
+      "notes": "CCW search-by-bike (ALXF tag) lists this part for the Arctic Leopard XF; universal number plate. (checked 2026-11-11)"
+    },
+    {
+      "product_id": "chargedcycleworks-etm-rtr-complete-body-plastic-kit",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit"
+      ],
+      "notes": "CCW page: full body plastic kit for the ETM RTR; ETM RTR SPORT tag (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-fender-etm-rtr-2025",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025"
+      ],
+      "notes": "CCW page: compatible with all ETM RTR 2025 models; ETM RTR SPORT tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025"
+    },
+    {
+      "product_id": "plastics-odi-downhill-e-bike-number-plate",
+      "bike_id": "rawrr-mantis-72v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate"
+      ],
+      "notes": "CCW search-by-bike (Rawrr Mantis collection) lists this universal part for the Rawrr Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate"
+    },
+    {
+      "product_id": "chargedcycleworks-etm-rtr-complete-body-plastic-kit",
+      "bike_id": "rtr-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit"
+      ],
+      "notes": "CCW page: full body plastic kit for the ETM RTR; ETM RTR ALPHA tag (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-fender-etm-rtr-2025",
+      "bike_id": "rtr-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025"
+      ],
+      "notes": "CCW page: compatible with all ETM RTR 2025 models; ETM RTR ALPHA tag; out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025"
+    },
+    {
+      "product_id": "plastics-odi-downhill-e-bike-number-plate",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate"
+      ],
+      "notes": "Universal number plate; CCW lists this part for the Mantis Mini but the product page names no Mini model — verify mounting before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate"
     }
   ]
 }
