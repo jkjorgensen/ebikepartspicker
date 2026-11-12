@@ -1847,10 +1847,12 @@
     {
       "id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
       "_fit_src": {
-        "falcon-gt": "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+        "falcon-gt": "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
       },
       "_fit": {
-        "79BIKE Falcon GT": "direct_fit"
+        "79BIKE Falcon GT": "direct_fit",
+        "Sur-Ron Ultra Bee 21kW": "likely_fit"
       },
       "name": "Ventus VTB V9600 Gen.2 Wiring Harness 1.7",
       "brand": "Pinned Electric",
@@ -2037,10 +2039,12 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Arctic Leopard XE Pro S Enduro": "verify"
+        "Arctic Leopard XE Pro S Enduro": "verify",
+        "Sur-Ron Ultra Bee 21kW": "direct_fit"
       },
       "_fit_src": {
-        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses"
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses",
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses"
       },
       "vendors": [
         {
@@ -2123,6 +2127,1035 @@
       "_fit_src": {
         "rawrr-mantis-mini-r": "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display"
       }
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-control-switch",
+          "name": "Altis Delta DBK Control Switch",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 15.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-control-switch",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-control-switch"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-control-switch"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 15.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-control-switch"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-display",
+          "name": "Altis Delta DBK Display",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 150.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-display",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-display"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-display"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 150.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-display"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-key-ignition",
+          "name": "Altis Delta DBK Key Ignition",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 25.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-key-ignition",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-key-ignition"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-key-ignition"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 25.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-key-ignition"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-key-ignition-bracket",
+          "name": "Altis Delta DBK Key Ignition Bracket",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 10.99,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-key-ignition-bracket",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-key-ignition-bracket"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-key-ignition-bracket"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 10.99,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-key-ignition-bracket"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-wire-harness",
+          "name": "Altis Delta DBK Wire Harness",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 100.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-wire-harness",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-wire-harness"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-wire-harness"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 100.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-wire-harness"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dc-to-dc-converter",
+          "name": "Altis Delta DC to DC Convertor",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 28.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dc-to-dc-converter",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dc-to-dc-converter"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dc-to-dc-converter"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 28.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dc-to-dc-converter"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-key-ignition",
+          "name": "Altis Delta Key Ignition",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 20.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-key-ignition",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-key-ignition"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-key-ignition"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 20.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-key-ignition"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-key-switch-bracket",
+          "name": "Altis Delta Key Switch Bracket",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 5.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-key-switch-bracket",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-key-switch-bracket"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-key-switch-bracket"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 5.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-key-switch-bracket"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-main-wire-harness",
+          "name": "Altis Delta Main Wire Harness",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 90.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-main-wire-harness",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-main-wire-harness"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-main-wire-harness"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 90.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-main-wire-harness"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-power-cable",
+          "name": "Altis Delta Power Cable",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 80.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-power-cable",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-power-cable"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-power-cable"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 80.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-power-cable"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-tft-display",
+          "name": "Altis Delta TFT Display",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 150.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-tft-display",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-tft-display"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-tft-display"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 150.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-tft-display"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-ebmx-display-case",
+          "name": "EBMX X9000 BC351 3.5\" Display Case",
+          "brand": "Ebmx",
+          "category": "electrical",
+          "price_usd": 59.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/ebmx-display-case",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/ebmx-display-case"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/ebmx-display-case"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 59.99,
+                      "buy_url": "https://gritshift.com/products/ebmx-display-case"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-ebmx-x-9000-bluetooth-module",
+          "name": "EBMX X-9000 Bluetooth Module",
+          "brand": "Ebmx",
+          "category": "electrical",
+          "price_usd": 49.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/ebmx-x-9000-bluetooth-module",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/ebmx-x-9000-bluetooth-module"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/ebmx-x-9000-bluetooth-module"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 49.99,
+                      "buy_url": "https://gritshift.com/products/ebmx-x-9000-bluetooth-module"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-ebmx-x-9000-v3-sw102-color-display",
+          "name": "EBMX X-9000-V3 SW102 Color Display",
+          "brand": "Ebmx",
+          "category": "electrical",
+          "price_usd": 84.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/ebmx-x-9000-v3-sw102-color-display",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/ebmx-x-9000-v3-sw102-color-display"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/ebmx-x-9000-v3-sw102-color-display"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 84.99,
+                      "buy_url": "https://gritshift.com/products/ebmx-x-9000-v3-sw102-color-display"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-ebmx-x9000v2-3-5-display-upgrade",
+          "name": "EBMX X9000 BC351 3.5\" Color Display Upgrade",
+          "brand": "Ebmx",
+          "category": "electrical",
+          "price_usd": 189.89,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/ebmx-x9000v2-3-5-display-upgrade",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/ebmx-x9000v2-3-5-display-upgrade"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/ebmx-x9000v2-3-5-display-upgrade"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 189.89,
+                      "buy_url": "https://gritshift.com/products/ebmx-x9000v2-3-5-display-upgrade"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-electro-co-emx-5-pin-ignition-and-power-mode-switch",
+          "name": "Electro & Co  EMX 5 Pin  ignition, and power mode switch",
+          "brand": "Electro & Co",
+          "category": "electrical",
+          "price_usd": 39.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/electro-co-emx-5-pin-ignition-and-power-mode-switch",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/electro-co-emx-5-pin-ignition-and-power-mode-switch"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/electro-co-emx-5-pin-ignition-and-power-mode-switch"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 39.99,
+                      "buy_url": "https://gritshift.com/products/electro-co-emx-5-pin-ignition-and-power-mode-switch"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits",
+          "name": "Electro & Co Razor Display Kit for Ultimate, ETM 2.0 and Extreme Kits",
+          "brand": "Electro & Co",
+          "category": "electrical",
+          "price_usd": 79.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...r Kit Razor MX500 / MX650 / SX500 with E&amp;C V2 Fork Kit Tuttio Soleil 01 (order the Ultimate 3.0 option) NO...\"",
+          "source_urls": [
+                "https://gritshift.com/products/electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://gritshift.com/products/electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 79.99,
+                      "buy_url": "https://gritshift.com/products/electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-high-voltage-fuse-kit-replacement-fuses",
+          "name": "ION High Voltage Fuse Kit & Replacement Fuses",
+          "brand": "Ion",
+          "category": "electrical",
+          "price_usd": 22.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 22.99,
+                      "buy_url": "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports",
+          "name": "Altis Delta Key Ignition | OEM Ignition Switch & Keys | By Altis Powersports",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 20.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 20.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-key-switch-bracket-oem-ignition-mount-bracket-by-altis-powersports",
+          "name": "Altis Delta Key Switch Bracket | OEM Ignition Mount Bracket | By Altis Powersports",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 5.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-key-switch-bracket-oem-ignition-mount-bracket-by-altis-powersports",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-key-switch-bracket-oem-ignition-mount-bracket-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-key-switch-bracket-oem-ignition-mount-bracket-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 5.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-key-switch-bracket-oem-ignition-mount-bracket-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-main-wire-harness-oem-electrical-harness-by-altis-powersports",
+          "name": "Altis Delta Main Wire Harness | OEM Electrical Harness | By Altis Powersports",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 90.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-main-wire-harness-oem-electrical-harness-by-altis-powersports",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-main-wire-harness-oem-electrical-harness-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-main-wire-harness-oem-electrical-harness-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 90.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-main-wire-harness-oem-electrical-harness-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-power-cable-oem-electrical-harness-component-by-altis-powersports",
+          "name": "Altis Delta Power Cable | OEM Electrical Harness Component | By Altis Powersports",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 90.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-power-cable-oem-electrical-harness-component-by-altis-powersports",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-power-cable-oem-electrical-harness-component-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-power-cable-oem-electrical-harness-component-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 90.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-power-cable-oem-electrical-harness-component-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-tft-display-oem-dashboard-display-by-altis-powersports",
+          "name": "Altis Delta TFT Display | OEM Dashboard Display | By Altis Powersports",
+          "brand": "Altis",
+          "category": "electrical",
+          "price_usd": 150.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-tft-display-oem-dashboard-display-by-altis-powersports",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-tft-display-oem-dashboard-display-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-tft-display-oem-dashboard-display-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 150.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-tft-display-oem-dashboard-display-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-eggrider-case-center-mount-extender-for-ntc-design-eggrider-display-case",
+          "name": "NTC Designs Clamp Extender | EggRider Protective Display Case",
+          "brand": "REV Rides",
+          "category": "electrical",
+          "price_usd": 24.99,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/eggrider-case-center-mount-extender-for-ntc-design-eggrider-display-case",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...for factory and custom electric-bike cockpit layouts Fitment Altis Delta EBMX-equipped bikes using an EggRider...\"",
+          "source_urls": [
+                "https://revrides.com/products/eggrider-case-center-mount-extender-for-ntc-design-eggrider-display-case"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/eggrider-case-center-mount-extender-for-ntc-design-eggrider-display-case"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 24.99,
+                      "buy_url": "https://revrides.com/products/eggrider-case-center-mount-extender-for-ntc-design-eggrider-display-case"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-ebike-soliel01-lo-magnetic-safety-switch-top-cover",
+          "name": "Tuttio Ebike Soliel01 LO Magnetic Safety Switch Top Cover",
+          "brand": "Tuttio",
+          "category": "electrical",
+          "price_usd": 12.99,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-ebike-soliel01-lo-magnetic-safety-switch-top-cover",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (LO) only; base Soleil01 fit not stated.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-ebike-soliel01-lo-magnetic-safety-switch-top-cover"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-ebike-soliel01-lo-magnetic-safety-switch-top-cover"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 12.99,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-ebike-soliel01-lo-magnetic-safety-switch-top-cover"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-dc-dc-converter-delta-delta-s",
+          "name": "OEM DC-DC Converter (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "electrical",
+          "price_usd": 35.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_dc-dc-converter",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_dc-dc-converter"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_dc-dc-converter"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 35.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_dc-dc-converter"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-key-ignition-switch-delta-delta-s",
+          "name": "OEM Key Ignition Switch (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "electrical",
+          "price_usd": 25.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_key-ignition",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_key-ignition"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_key-ignition"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 25.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_key-ignition"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-key-switch-bracket-delta-delta-s",
+          "name": "OEM Key Switch Bracket (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "electrical",
+          "price_usd": 6.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_key-switch-bracket",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_key-switch-bracket"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_key-switch-bracket"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 6.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_key-switch-bracket"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-main-wire-harness-delta-delta-s",
+          "name": "OEM Main Wire Harness (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "electrical",
+          "price_usd": 113.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_wire-harness",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_wire-harness"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_wire-harness"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 113.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_wire-harness"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-power-cable-delta-delta-s",
+          "name": "OEM Power Cable (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "electrical",
+          "price_usd": 100.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_power-cable",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_power-cable"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_power-cable"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 100.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_power-cable"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-tft-color-display-delta-delta-s",
+          "name": "OEM TFT Color Display (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "electrical",
+          "price_usd": 185.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_display",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_display"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_display"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 185.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_display"
+                }
+          ]
     }
   ],
   "compatibility": [
@@ -3379,6 +4412,629 @@
         "https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display"
       ],
       "notes": "CCW: 'Rawrr Mantis Mini R/R17, 72V Display', part 03-06-05 — genuine OEM (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawrr-mantis-mini-r-r17-oem-display"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-control-switch",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-control-switch"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-display",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-display"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-key-ignition",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-key-ignition"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-key-ignition-bracket",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-key-ignition-bracket"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-wire-harness",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-wire-harness"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dc-to-dc-converter",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dc-to-dc-converter"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-key-ignition",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-key-ignition"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-key-switch-bracket",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-key-switch-bracket"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-main-wire-harness",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-main-wire-harness"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-power-cable",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-power-cable"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-tft-display",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-tft-display"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-ebmx-display-case",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/ebmx-display-case",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-ebmx-x-9000-bluetooth-module",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/ebmx-x-9000-bluetooth-module",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-ebmx-x-9000-v3-sw102-color-display",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/ebmx-x-9000-v3-sw102-color-display",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-ebmx-x9000v2-3-5-display-upgrade",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/ebmx-x9000v2-3-5-display-upgrade",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-electro-co-emx-5-pin-ignition-and-power-mode-switch",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/electro-co-emx-5-pin-ignition-and-power-mode-switch",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...r Kit Razor MX500 / MX650 / SX500 with E&amp;C V2 Fork Kit Tuttio Soleil 01 (order the Ultimate 3.0 option) NO...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-high-voltage-fuse-kit-replacement-fuses",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-key-switch-bracket-oem-ignition-mount-bracket-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-key-switch-bracket-oem-ignition-mount-bracket-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-main-wire-harness-oem-electrical-harness-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-main-wire-harness-oem-electrical-harness-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-power-cable-oem-electrical-harness-component-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-power-cable-oem-electrical-harness-component-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-tft-display-oem-dashboard-display-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-tft-display-oem-dashboard-display-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-eggrider-case-center-mount-extender-for-ntc-design-eggrider-display-case",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/eggrider-case-center-mount-extender-for-ntc-design-eggrider-display-case"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...for factory and custom electric-bike cockpit layouts Fitment Altis Delta EBMX-equipped bikes using an EggRider...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-ebike-soliel01-lo-magnetic-safety-switch-top-cover",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-ebike-soliel01-lo-magnetic-safety-switch-top-cover"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (LO) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-dc-dc-converter-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_dc-dc-converter"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-key-ignition-switch-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_key-ignition"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-key-switch-bracket-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_key-switch-bracket"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-main-wire-harness-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_wire-harness"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-power-cable-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_power-cable"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-tft-color-display-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_display"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-gigigo-gi03-headlight",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-headlight-cover",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/headlight-cover"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-high-voltage-fuse-kit-replacement-fuses",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-oem-ultra-bee-kickstand-switch",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/oem-ultra-bee-kickstand-switch"
+          ],
+          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-project-9-surron-ultra-bee-brake-light",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/project-9-surron-ultra-bee-brake-light"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-rtech-front-headlight-mask-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/rtech-front-headlight-mask-surron-ultra-bee"
+          ],
+          "notes": "Product text names \"Ultra Bee Models (2023 to 2025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-squadron-headlight-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/squadron-headlight-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ub-dashboard-bracket",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ub-dashboard-bracket",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-dashboard-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 41350-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ub-oem-dashboard",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ub-oem-dashboard",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-dashboard-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 25100-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ub-oem-headlight",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ub-oem-headlight",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-head-light-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 22110-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ub-oem-headlight-shroud",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ub-oem-headlight-shroud",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-head-light-shroud-front-turn-signal-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 31110-YQ5A-0000-Y4 listed MY25 in OEM catalog: fits 21kW; MY23-24 variant also sold. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-headlight-bracket-oem",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-headlight-bracket-oem"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-headlight-trim-block-oem",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-headlight-trim-block-oem",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-head-light-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 41341-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-oem-right-hand-3-combination-switch-my25",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-oem-right-hand-3-combination-switch-my25",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-handlebar-controls-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 23300-YQ5A-0001 listed MY25 in OEM catalog: fits 21kW; not the MY26 part. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-torp-ultra-bee-replacement-wiring-loom",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/torp-ultra-bee-replacement-wiring-loom"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ub-communication-cable",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ub-communication-cable",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-main-harness-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 24120-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ub-key-switch-set",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ub-key-switch-set",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-key-switch-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 27000-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ub-main-harness",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ub-main-harness",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-main-harness-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 24100-YQ5C-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-converter",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-converter",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-battery-front-supporting-plate-converter-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 21300-YQ5A-0200 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-left-hand-combination-switch-light-horn-asr",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-left-hand-combination-switch-light-horn-asr",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-handlebar-controls-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 23200-YQ5C-0000 listed MY25 in OEM catalog: fits 21kW; MY23-24 variant also sold. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-right-hand-3-combination-switch-s-d-e-control",
+          "bike_id": "ultrabee-21kw",
+          "status": "not_compatible",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-right-hand-3-combination-switch-s-d-e-control",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-handlebar-controls-parts-diagram/"
+          ],
+          "notes": "Part # 23300-YQ5A-0000 is MY23-24 only per Sur-Ron catalog. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-stock-display-harness-compatible-with-x-9000",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-stock-display-harness-compatible-with-x-9000"
+          ],
+          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+          ],
+          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
     }
   ]
 }

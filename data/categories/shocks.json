@@ -889,6 +889,271 @@
       ],
       "notes": "CCW fitment text names the 79Bike Falcon GT; 283x80 with included TECH linkage (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee"
     }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-rear-shock",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-rear-shock"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-rear-shock",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-rear-shock"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-warp-9-e-moto-shock-protector",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/warp-9-e-moto-shock-protector",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-shock-cover-fits-sur-ron-talaria-e-ride-pro-rawrr-more-by-warp-9-racing",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/shock-cover-fits-sur-ron-talaria-e-ride-pro-rawrr-more-by-warp-9-racing"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...3.0, SR, and Mini), Rawrr Mantis and Mantis X, SRPNT / Throne Cycles, Altis Sigma and Delta, Vetra Blazer, 79B...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-gb-ebike-rear-shock",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-shock"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (GB) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-se-ebike-rear-shock",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-rear-shock"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-rear-shock-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_rear-shock"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-rear-shock-mounting-bolt-set-soleil-01-rear-shock-mounting-bolt-set",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_rear-shock-bolts"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-warp-9-e-moto-shock-protector-altis-omega",
+          "bike_id": "altis-omega",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis_omega_shock-cover-warp9"
+          ],
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ext-rea-mx-rear-shock-for-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ext-rea-mx-rear-shock-for-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-kke-500lbs-rear-absorber-suspension-shock-spring-for",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/kke-500lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+          ],
+          "notes": "Product text names \"Ultra Bee 2023-2025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-kke-550lbs-rear-absorber-suspension-shock-spring-for",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+          ],
+          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-kke-rear-shock-for-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/kke-rear-shock-for-ultra-bee"
+          ],
+          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-kke-rear-shock-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/kke-rear-shock-surron-ultra-bee"
+          ],
+          "notes": "Product text names \"Ultra Bee | 2023\u20132025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-sirris-r46-mx-tune-rear-shock-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/sirris-r46-mx-tune-rear-shock-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-sirris-r46-sx-tune-rear-shock-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/sirris-r46-sx-tune-rear-shock-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-sirris-r46-trail-tune-rear-shock-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/sirris-r46-trail-tune-rear-shock-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-traxion-260mm-travel-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/traxion-260mm-travel-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-traxion-s-tialn-260mm-travel-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/traxion-s-tialn-260mm-travel-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-trx-shock-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/trx-shock-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "rfloxa-raf55rv-ultrabee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/rfloxa-raf55rv"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "shock-sirris-r46-rear-shock-spring",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/sirris-r46-rear-shock-spring"
+          ],
+          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "sirris-r46-ultrabee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/sirris-r46-shock-for-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
   ],
   "products": [
     {
@@ -1207,10 +1472,12 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit",
+        "Sur-Ron Ultra Bee 21kW": "direct_fit"
       },
       "_fit_src": {
-        "ultrabee": "https://chargedcycleworks.com/products/kke-500lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+        "ultrabee": "https://chargedcycleworks.com/products/kke-500lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective",
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/kke-500lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
       },
       "vendors": [
         {
@@ -1275,10 +1542,12 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit",
+        "Sur-Ron Ultra Bee 21kW": "likely_fit"
       },
       "_fit_src": {
-        "ultrabee": "https://chargedcycleworks.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
+        "ultrabee": "https://chargedcycleworks.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective",
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective"
       },
       "vendors": [
         {
@@ -1519,10 +1788,12 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit",
+        "Sur-Ron Ultra Bee 21kW": "direct_fit"
       },
       "_fit_src": {
-        "ultrabee": "https://chargedcycleworks.com/products/trx-shock-surron-ultra-bee"
+        "ultrabee": "https://chargedcycleworks.com/products/trx-shock-surron-ultra-bee",
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/trx-shock-surron-ultra-bee"
       },
       "vendors": [
         {
@@ -2472,6 +2743,337 @@
         }
       ],
       "image": null
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-rear-shock",
+          "name": "Altis Delta DBK Rear Shock",
+          "brand": "Altis",
+          "category": "shock",
+          "price_usd": 200.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-rear-shock",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-rear-shock"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-rear-shock"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 200.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-rear-shock"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-rear-shock",
+          "name": "Altis Delta Rear Shock",
+          "brand": "Altis",
+          "category": "shock",
+          "price_usd": 180.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-rear-shock",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-rear-shock"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-rear-shock"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 180.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-rear-shock"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-warp-9-e-moto-shock-protector",
+          "name": "Warp 9 E-Moto Shock Protector",
+          "brand": "Warp 9",
+          "category": "shock",
+          "price_usd": 18.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/warp-9-e-moto-shock-protector",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/warp-9-e-moto-shock-protector"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/warp-9-e-moto-shock-protector"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 18.99,
+                      "buy_url": "https://gritshift.com/products/warp-9-e-moto-shock-protector"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-shock-cover-fits-sur-ron-talaria-e-ride-pro-rawrr-more-by-warp-9-racing",
+          "name": "Shock Cover | Fits Sur Ron, Talaria, E-Ride Pro, Rawrr & More | By Warp 9 Racing",
+          "brand": "REV Rides",
+          "category": "shock",
+          "price_usd": 17.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/shock-cover-fits-sur-ron-talaria-e-ride-pro-rawrr-more-by-warp-9-racing",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...3.0, SR, and Mini), Rawrr Mantis and Mantis X, SRPNT / Throne Cycles, Altis Sigma and Delta, Vetra Blazer, 79B...\"",
+          "source_urls": [
+                "https://revrides.com/products/shock-cover-fits-sur-ron-talaria-e-ride-pro-rawrr-more-by-warp-9-racing"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/shock-cover-fits-sur-ron-talaria-e-ride-pro-rawrr-more-by-warp-9-racing"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 17.0,
+                      "buy_url": "https://revrides.com/products/shock-cover-fits-sur-ron-talaria-e-ride-pro-rawrr-more-by-warp-9-racing"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set",
+          "name": "Tuttio Soleil01 Ebike Rear Shock Mounting Bolt Set",
+          "brand": "Tuttio",
+          "category": "shock",
+          "price_usd": 24.99,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 24.99,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-gb-ebike-rear-shock",
+          "name": "Tuttio Soleil01 GB Ebike Rear Shock",
+          "brand": "Tuttio",
+          "category": "shock",
+          "price_usd": 99.98,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-shock",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (GB) only; base Soleil01 fit not stated.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-shock"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-shock"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 99.98,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-shock"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-se-ebike-rear-shock",
+          "name": "Tuttio Soleil01 SE Ebike Rear Shock",
+          "brand": "Tuttio",
+          "category": "shock",
+          "price_usd": 159.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-rear-shock",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-rear-shock"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-rear-shock"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 159.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-rear-shock"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-rear-shock-delta-delta-s",
+          "name": "OEM Rear Shock (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "shock",
+          "price_usd": 223.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_rear-shock",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_rear-shock"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_rear-shock"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 223.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_rear-shock"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-rear-shock-mounting-bolt-set-soleil-01-rear-shock-mounting-bolt-set",
+          "name": "OEM Soleil01 Rear Shock Mounting Bolt Set (soleil-01-rear-shock-mounting-bolt-set)",
+          "brand": "Wired Whips",
+          "category": "shock",
+          "price_usd": 31.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-shock-bolts",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_rear-shock-bolts"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_rear-shock-bolts"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 31.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-shock-bolts"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-warp-9-e-moto-shock-protector-altis-omega",
+          "name": "Warp 9 E-Moto Shock Protector - Altis Omega",
+          "brand": "Warp 9",
+          "category": "shock",
+          "price_usd": 24.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis_omega_shock-cover-warp9",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis_omega_shock-cover-warp9"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Omega": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-omega": "https://wiredwhips.com/parts/altis_omega_shock-cover-warp9"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 24.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis_omega_shock-cover-warp9"
+                }
+          ]
     }
   ]
 }

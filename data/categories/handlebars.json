@@ -1256,6 +1256,588 @@
       ],
       "notes": "CCW page names no bike model — bar-mount riser fitment unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser"
     }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-crossbar-pad",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-crossbar-pad"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-crossbar-pad-cover",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-crossbar-pad-cover"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-handlebar",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-handlebar"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-handlebar-mount",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-handlebar-mount"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-handlebar",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-handlebar"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-handlebar-crossbar-dbk",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-handlebar-crossbar-dbk"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-handlebar-mount-set",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-handlebar-mount-set",
+                "https://wiredwhips.com/parts/altis-powersports_delta_handlebar-mount"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-electro-co-handlebar-mounted-volt-meter",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/electro-co-handlebar-mounted-volt-meter",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-g2-ergonomics-slicer-pre-tapped-handlebar-e-moto",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/g2-ergonomics-slicer-pre-tapped-handlebar-e-moto",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-moose-racing-eko-1-1-8-handlebar-e-moto",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/moose-racing-eko-1-1-8-handlebar-e-moto",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-moose-racing-eko-7-8-handlebar-e-moto",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/moose-racing-eko-7-8-handlebar-e-moto",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-moose-racing-flex-series-1-1-8-handlebar-e-moto",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/moose-racing-flex-series-1-1-8-handlebar-e-moto",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-moose-racing-led-headlight-7-8-inch-handlebar-mount",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/moose-racing-led-headlight-7-8-inch-handlebar-mount",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-odi-podium-7-8-handlebar-e-moto",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/odi-podium-7-8-handlebar-e-moto",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-odi-podium-flight-1-1-8-handlebar-e-moto",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/odi-podium-flight-1-1-8-handlebar-e-moto",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-renthal-fatbar-1-1-8-inch-handlebar-e-moto",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/renthal-fatbar-1-1-8-inch-handlebar-e-moto",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-renthal-twinwall-1-1-8-handlebar-e-moto",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/renthal-twinwall-1-1-8-handlebar-e-moto",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-warp-9-bar-end-sliders-tapped-handlebars-e-moto",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/warp-9-bar-end-sliders-tapped-handlebars-e-moto",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-warp-9-reusable-rubber-handlebar-straps-e-moto",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/warp-9-reusable-rubber-handlebar-straps-e-moto",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-warp-9-tapped-1-1-8-handlebar-e-moto",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/warp-9-tapped-1-1-8-handlebar-e-moto",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-handlebar-mount-set-oem-bar-clamp-kit-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-handlebar-mount-set-oem-bar-clamp-kit-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-handlebar-oem-replacement-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-handlebar-oem-replacement-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-mika-metals-billet-dirt-bar-clamps",
+          "bike_id": "altis-omega",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/mika-metals-billet-dirt-bar-clamps"
+          ],
+          "notes": "WEAK \u2014 Page says Omega needs the factory clamp hole opened up (modification). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-handlebar-shims-converts-31-8-to-28-6-mx-bars",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...R1 Plus Ventus One and One Plus Rawrr Mantis and Mantis X Altis Sigma and Delta Arctic Leopard XE Pro S Vetra ...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-odi-podium-handlebars-7-8th-altis-sigma-rtr",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/odi-podium-handlebars-7-8th-altis-sigma-rtr"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-handlebar",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebar"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-handlebars-mount",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-handlebars-mount-assembly",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount-assembly"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-se-ebike-crossbar-pad",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-crossbar-pad"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "warp9racing-bar-straps",
+          "bike_id": "altis-omega",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://warp9racing.com/products/bar-straps",
+                "https://warp9racing.com/collections/omega"
+          ],
+          "notes": "WEAK \u2014 In Warp 9 \"Altis Omega Parts\" collection; product page does not name Omega (Omega uses standard 1-1/8\" bar clamp per REV Rides). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "warp9racing-tapped-handlebar-ends",
+          "bike_id": "altis-omega",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://warp9racing.com/products/tapped-handlebar-ends",
+                "https://warp9racing.com/collections/omega"
+          ],
+          "notes": "WEAK \u2014 In Warp 9 \"Altis Omega Parts\" collection; product page does not name Omega (Omega uses standard 1-1/8\" bar clamp per REV Rides). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "warp9racing-tapped-handlebar-slider",
+          "bike_id": "altis-omega",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://warp9racing.com/products/tapped-handlebar-slider",
+                "https://warp9racing.com/collections/omega"
+          ],
+          "notes": "WEAK \u2014 In Warp 9 \"Altis Omega Parts\" collection; product page does not name Omega (Omega uses standard 1-1/8\" bar clamp per REV Rides). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "warp9racing-ultra-bee-bar-pad",
+          "bike_id": "altis-omega",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://warp9racing.com/products/ultra-bee-bar-pad",
+                "https://warp9racing.com/collections/omega"
+          ],
+          "notes": "WEAK \u2014 In Warp 9 \"Altis Omega Parts\" collection; product page does not name Omega (Omega uses standard 1-1/8\" bar clamp per REV Rides). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "warp9racing-warp-9-tapped-handlebars",
+          "bike_id": "altis-omega",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://warp9racing.com/products/warp-9-tapped-handlebars",
+                "https://warp9racing.com/collections/omega"
+          ],
+          "notes": "WEAK \u2014 In Warp 9 \"Altis Omega Parts\" collection; product page does not name Omega (Omega uses standard 1-1/8\" bar clamp per REV Rides). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-heavy-hitter-2-direct-mount-riser-stem-altis-omega",
+          "bike_id": "altis-omega",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis_omega_stem-hh-2in"
+          ],
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-odi-aluminum-bar-end-plugs-altis-omega",
+          "bike_id": "altis-omega",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis_omega_bar-ends-odi"
+          ],
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-handlebar-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_handlebar"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-handlebar-mount-stem-set-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_stem-handlebar-mount"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-handlebar-tuttio-soleil01-handlebar",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_handlebar"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-handlebars-mount-assembly-soleil01-handlebars-mounts-screws",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_handlebars-mount-assembly"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-handlebars-mounts-soleil01-handlebars-mount-a-pair",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_handlebars-mount"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-universal-handlebar-end-caps-pair",
+          "bike_id": "altis-omega",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_multi_bar-ends-universal"
+          ],
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-warp-9-3-rise-handlebars-31-8mm-altis-omega",
+          "bike_id": "altis-omega",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis_omega_bars-warp9-3rise"
+          ],
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-kke-ultra-bee-steering-stabilizer",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/kke-ultra-bee-steering-stabilizer"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ub-oem-handlebar-riser",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ub-oem-handlebar-riser",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-handlebar-riser-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 51172-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-handlebar-lower-mount",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-handlebar-controls-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 51162-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-oem-bar-mounts",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-oem-bar-mounts"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-warp9-surron-ultra-bee-flex-bar-mounts",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-flex-bar-mounts"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "handlebar-odi-podium-mx-handlebars",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/odi-podium-mx-handlebars"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "handlebar-renthal-fatbar-1-1-8",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tusk-chub-118-stormbee",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars"
+          ],
+          "notes": "CCW search-by-bike does NOT tag 2025; no variant named. (checked Nov 11, 2026)"
+    }
   ],
   "products": [
     {
@@ -1619,10 +2201,12 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit",
+        "Sur-Ron Ultra Bee 21kW": "direct_fit"
       },
       "_fit_src": {
-        "ultrabee": "https://chargedcycleworks.com/products/surron-ub-oem-handlebar-riser"
+        "ultrabee": "https://chargedcycleworks.com/products/surron-ub-oem-handlebar-riser",
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/surron-ub-oem-handlebar-riser"
       },
       "vendors": [
         {
@@ -1837,11 +2421,13 @@
       "id": "handlebar-odi-podium-mx-handlebars",
       "_fit_src": {
         "zero-xe": "https://chargedcycleworks.com/products/odi-podium-mx-handlebars",
-        "storm-bee": "https://chargedcycleworks.com/products/odi-podium-mx-handlebars"
+        "storm-bee": "https://chargedcycleworks.com/products/odi-podium-mx-handlebars",
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/odi-podium-mx-handlebars"
       },
       "_fit": {
         "Zero XE": "verify",
-        "Sur-Ron Storm Bee F": "direct_fit"
+        "Sur-Ron Storm Bee F": "direct_fit",
+        "Sur-Ron Ultra Bee 21kW": "direct_fit"
       },
       "name": "ODI Podium MX Handlebars 28.6mm",
       "brand": "ODI",
@@ -1874,11 +2460,13 @@
       "id": "handlebar-renthal-fatbar-1-1-8",
       "_fit_src": {
         "zero-xe": "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8",
-        "storm-bee": "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8"
+        "storm-bee": "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8",
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8"
       },
       "_fit": {
         "Zero XE": "verify",
-        "Sur-Ron Storm Bee F": "direct_fit"
+        "Sur-Ron Storm Bee F": "direct_fit",
+        "Sur-Ron Ultra Bee 21kW": "direct_fit"
       },
       "name": "Renthal FatBar MX Handlebar 28.6mm",
       "brand": "Renthal",
@@ -1966,10 +2554,12 @@
     {
       "id": "tusk-chub-118-stormbee",
       "_fit_src": {
-        "storm-bee": "https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars"
+        "storm-bee": "https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars",
+        "ultrabee-21kw": "https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars"
       },
       "_fit": {
-        "Sur-Ron Storm Bee F": "direct_fit"
+        "Sur-Ron Storm Bee F": "direct_fit",
+        "Sur-Ron Ultra Bee 21kW": "likely_fit"
       },
       "name": "Tusk Chub 1-1/8\" Big Bar (Storm Bee)",
       "brand": "Tusk",
@@ -2551,6 +3141,1449 @@
         }
       ],
       "image": null
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-crossbar-pad",
+          "name": "Altis Delta DBK Crossbar Pad",
+          "brand": "Altis",
+          "category": "handlebar",
+          "price_usd": 12.99,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-crossbar-pad",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-crossbar-pad"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-crossbar-pad"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 12.99,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-crossbar-pad"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-crossbar-pad-cover",
+          "name": "Altis Delta DBK Crossbar Pad Cover",
+          "brand": "Altis",
+          "category": "handlebar",
+          "price_usd": 10.99,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-crossbar-pad-cover",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-crossbar-pad-cover"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-crossbar-pad-cover"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 10.99,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-crossbar-pad-cover"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-handlebar",
+          "name": "Altis Delta DBK Handlebar",
+          "brand": "Altis",
+          "category": "handlebar",
+          "price_usd": 45.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-handlebar",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-handlebar"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-handlebar"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 45.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-handlebar"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-handlebar-mount",
+          "name": "Altis Delta DBK Handlebar Mount",
+          "brand": "Altis",
+          "category": "handlebar",
+          "price_usd": 45.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-handlebar-mount",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-handlebar-mount"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-handlebar-mount"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 45.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-handlebar-mount"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-handlebar",
+          "name": "Altis Delta Handlebar",
+          "brand": "Altis",
+          "category": "handlebar",
+          "price_usd": 35.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-handlebar",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-handlebar"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-handlebar"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 35.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-handlebar"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-handlebar-crossbar-dbk",
+          "name": "Altis Delta Handlebar Crossbar DBK",
+          "brand": "Altis",
+          "category": "handlebar",
+          "price_usd": 25.99,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-handlebar-crossbar-dbk",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-handlebar-crossbar-dbk"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-handlebar-crossbar-dbk"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 25.99,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-handlebar-crossbar-dbk"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-handlebar-mount-set",
+          "name": "Altis Delta Handlebar Mount Set",
+          "brand": "Altis",
+          "category": "handlebar",
+          "price_usd": 35.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-handlebar-mount-set",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "out_of_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_handlebar-mount",
+                "https://www.altispowersports.com/products/altis-delta-handlebar-mount-set"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-handlebar-mount-set"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 35.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-handlebar-mount-set"
+                },
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 44.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_handlebar-mount"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-electro-co-handlebar-mounted-volt-meter",
+          "name": "Electro & Co  Handlebar Mounted Volt Meter",
+          "brand": "Electro & Co",
+          "category": "handlebar",
+          "price_usd": 19.99,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/electro-co-handlebar-mounted-volt-meter",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/electro-co-handlebar-mounted-volt-meter"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/electro-co-handlebar-mounted-volt-meter"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 19.99,
+                      "buy_url": "https://gritshift.com/products/electro-co-handlebar-mounted-volt-meter"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-g2-ergonomics-slicer-pre-tapped-handlebar-e-moto",
+          "name": "G2 Ergonomics Slicer Pre-Tapped 1-1/8 Handlebar",
+          "brand": "GritShift",
+          "category": "handlebar",
+          "price_usd": 119.95,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/g2-ergonomics-slicer-pre-tapped-handlebar-e-moto",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/g2-ergonomics-slicer-pre-tapped-handlebar-e-moto"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/g2-ergonomics-slicer-pre-tapped-handlebar-e-moto"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 119.95,
+                      "buy_url": "https://gritshift.com/products/g2-ergonomics-slicer-pre-tapped-handlebar-e-moto"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-moose-racing-eko-1-1-8-handlebar-e-moto",
+          "name": "Moose Racing EKO 1-1/8 Handlebar",
+          "brand": "Moose Racing",
+          "category": "handlebar",
+          "price_usd": 75.95,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/moose-racing-eko-1-1-8-handlebar-e-moto",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/moose-racing-eko-1-1-8-handlebar-e-moto"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/moose-racing-eko-1-1-8-handlebar-e-moto"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 75.95,
+                      "buy_url": "https://gritshift.com/products/moose-racing-eko-1-1-8-handlebar-e-moto"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-moose-racing-eko-7-8-handlebar-e-moto",
+          "name": "Moose Racing EKO 7/8 Handlebar",
+          "brand": "Moose Racing",
+          "category": "handlebar",
+          "price_usd": 59.95,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/moose-racing-eko-7-8-handlebar-e-moto",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/moose-racing-eko-7-8-handlebar-e-moto"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/moose-racing-eko-7-8-handlebar-e-moto"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 59.95,
+                      "buy_url": "https://gritshift.com/products/moose-racing-eko-7-8-handlebar-e-moto"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-moose-racing-flex-series-1-1-8-handlebar-e-moto",
+          "name": "Moose Racing Flex Series 1-1/8 Handlebar",
+          "brand": "Moose Racing",
+          "category": "handlebar",
+          "price_usd": 89.95,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/moose-racing-flex-series-1-1-8-handlebar-e-moto",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/moose-racing-flex-series-1-1-8-handlebar-e-moto"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/moose-racing-flex-series-1-1-8-handlebar-e-moto"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 89.95,
+                      "buy_url": "https://gritshift.com/products/moose-racing-flex-series-1-1-8-handlebar-e-moto"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-moose-racing-led-headlight-7-8-inch-handlebar-mount",
+          "name": "Moose Racing LED Headlight - 7/8 Inch Handlebar Mount",
+          "brand": "Moose Racing",
+          "category": "handlebar",
+          "price_usd": 114.95,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/moose-racing-led-headlight-7-8-inch-handlebar-mount",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/moose-racing-led-headlight-7-8-inch-handlebar-mount"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/moose-racing-led-headlight-7-8-inch-handlebar-mount"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 114.95,
+                      "buy_url": "https://gritshift.com/products/moose-racing-led-headlight-7-8-inch-handlebar-mount"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-odi-podium-7-8-handlebar-e-moto",
+          "name": "ODI Podium 7/8 Handlebar",
+          "brand": "Odi",
+          "category": "handlebar",
+          "price_usd": 94.95,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/odi-podium-7-8-handlebar-e-moto",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/odi-podium-7-8-handlebar-e-moto"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/odi-podium-7-8-handlebar-e-moto"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 94.95,
+                      "buy_url": "https://gritshift.com/products/odi-podium-7-8-handlebar-e-moto"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-odi-podium-flight-1-1-8-handlebar-e-moto",
+          "name": "ODI Podium Flight 1-1/8 Handlebar",
+          "brand": "Odi",
+          "category": "handlebar",
+          "price_usd": 114.95,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/odi-podium-flight-1-1-8-handlebar-e-moto",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/odi-podium-flight-1-1-8-handlebar-e-moto"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/odi-podium-flight-1-1-8-handlebar-e-moto"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 114.95,
+                      "buy_url": "https://gritshift.com/products/odi-podium-flight-1-1-8-handlebar-e-moto"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-renthal-fatbar-1-1-8-inch-handlebar-e-moto",
+          "name": "Renthal Fatbar 1-1/8 Handlebar",
+          "brand": "Renthal",
+          "category": "handlebar",
+          "price_usd": 134.95,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/renthal-fatbar-1-1-8-inch-handlebar-e-moto",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/renthal-fatbar-1-1-8-inch-handlebar-e-moto"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/renthal-fatbar-1-1-8-inch-handlebar-e-moto"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 134.95,
+                      "buy_url": "https://gritshift.com/products/renthal-fatbar-1-1-8-inch-handlebar-e-moto"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-renthal-twinwall-1-1-8-handlebar-e-moto",
+          "name": "Renthal Twinwall 1-1/8 Handlebar",
+          "brand": "Renthal",
+          "category": "handlebar",
+          "price_usd": 194.95,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/renthal-twinwall-1-1-8-handlebar-e-moto",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/renthal-twinwall-1-1-8-handlebar-e-moto"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/renthal-twinwall-1-1-8-handlebar-e-moto"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 194.95,
+                      "buy_url": "https://gritshift.com/products/renthal-twinwall-1-1-8-handlebar-e-moto"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-warp-9-bar-end-sliders-tapped-handlebars-e-moto",
+          "name": "Warp 9 Bar End Sliders for Warp 9 Tapped Handlebars",
+          "brand": "Warp 9",
+          "category": "handlebar",
+          "price_usd": 15.89,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/warp-9-bar-end-sliders-tapped-handlebars-e-moto",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/warp-9-bar-end-sliders-tapped-handlebars-e-moto"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/warp-9-bar-end-sliders-tapped-handlebars-e-moto"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 15.89,
+                      "buy_url": "https://gritshift.com/products/warp-9-bar-end-sliders-tapped-handlebars-e-moto"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-warp-9-reusable-rubber-handlebar-straps-e-moto",
+          "name": "Warp 9 Reusable Rubber Handlebar Straps, Set of 4",
+          "brand": "Warp 9",
+          "category": "handlebar",
+          "price_usd": 11.89,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/warp-9-reusable-rubber-handlebar-straps-e-moto",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/warp-9-reusable-rubber-handlebar-straps-e-moto"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/warp-9-reusable-rubber-handlebar-straps-e-moto"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 11.89,
+                      "buy_url": "https://gritshift.com/products/warp-9-reusable-rubber-handlebar-straps-e-moto"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-warp-9-tapped-1-1-8-handlebar-e-moto",
+          "name": "Warp 9 Tapped 1-1/8 Handlebar",
+          "brand": "Warp 9",
+          "category": "handlebar",
+          "price_usd": 98.89,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/warp-9-tapped-1-1-8-handlebar-e-moto",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/warp-9-tapped-1-1-8-handlebar-e-moto"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/warp-9-tapped-1-1-8-handlebar-e-moto"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 98.89,
+                      "buy_url": "https://gritshift.com/products/warp-9-tapped-1-1-8-handlebar-e-moto"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-handlebar-mount-set-oem-bar-clamp-kit-by-altis-powersports",
+          "name": "Altis Delta Handlebar Mount Set | OEM Bar Clamp Kit | By Altis Powersports",
+          "brand": "Altis",
+          "category": "handlebar",
+          "price_usd": 35.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-handlebar-mount-set-oem-bar-clamp-kit-by-altis-powersports",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-handlebar-mount-set-oem-bar-clamp-kit-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-handlebar-mount-set-oem-bar-clamp-kit-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 35.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-handlebar-mount-set-oem-bar-clamp-kit-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-handlebar-oem-replacement-by-altis-powersports",
+          "name": "Altis Delta Handlebar | OEM Replacement | By Altis Powersports",
+          "brand": "Altis",
+          "category": "handlebar",
+          "price_usd": 35.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-handlebar-oem-replacement-by-altis-powersports",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-handlebar-oem-replacement-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-handlebar-oem-replacement-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 35.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-handlebar-oem-replacement-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-mika-metals-billet-dirt-bar-clamps",
+          "name": "Mika Metals billet 1 1/8th Dirt bar clamps",
+          "brand": "Mika Metals",
+          "category": "handlebar",
+          "price_usd": 69.99,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/mika-metals-billet-dirt-bar-clamps",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 Page says Omega needs the factory clamp hole opened up (modification).",
+          "source_urls": [
+                "https://revrides.com/products/mika-metals-billet-dirt-bar-clamps"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Omega": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-omega": "https://revrides.com/products/mika-metals-billet-dirt-bar-clamps"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 69.99,
+                      "buy_url": "https://revrides.com/products/mika-metals-billet-dirt-bar-clamps"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-handlebar-shims-converts-31-8-to-28-6-mx-bars",
+          "name": "Handlebar Shims \u2013 31.8mm Stem to 28.6mm (1-1/8\") MX Bars",
+          "brand": "TB Electric Moto",
+          "category": "handlebar",
+          "price_usd": 9.99,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...R1 Plus Ventus One and One Plus Rawrr Mantis and Mantis X Altis Sigma and Delta Arctic Leopard XE Pro S Vetra ...\"",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://tbelectricmoto.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 9.99,
+                      "buy_url": "https://tbelectricmoto.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-odi-podium-handlebars-7-8th-altis-sigma-rtr",
+          "name": "ODI Podium Handlebars 7/8th For Altis Sigma, Delta, RTR",
+          "brand": "Odi",
+          "category": "handlebar",
+          "price_usd": 89.95,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/odi-podium-handlebars-7-8th-altis-sigma-rtr",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/odi-podium-handlebars-7-8th-altis-sigma-rtr"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://tbelectricmoto.com/products/odi-podium-handlebars-7-8th-altis-sigma-rtr"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 89.95,
+                      "buy_url": "https://tbelectricmoto.com/products/odi-podium-handlebars-7-8th-altis-sigma-rtr"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-handlebar",
+          "name": "Tuttio Soleil01 Handlebar",
+          "brand": "Tuttio",
+          "category": "handlebar",
+          "price_usd": 99.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebar",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebar"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebar"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 99.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebar"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-handlebars-mount",
+          "name": "Tuttio Soleil01 Ebike Handlebars Mounts",
+          "brand": "Tuttio",
+          "category": "handlebar",
+          "price_usd": 35.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 35.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-handlebars-mount-assembly",
+          "name": "Tuttio Soleil01 Ebike Handlebars Mount Assembly",
+          "brand": "Tuttio",
+          "category": "handlebar",
+          "price_usd": 28.79,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount-assembly",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount-assembly"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount-assembly"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 28.79,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount-assembly"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-se-ebike-crossbar-pad",
+          "name": "Tuttio Soleil01 SE Ebike Crossbar Pad",
+          "brand": "Tuttio",
+          "category": "handlebar",
+          "price_usd": 59.99,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-crossbar-pad",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-crossbar-pad"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-crossbar-pad"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 59.99,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-crossbar-pad"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "warp9racing-bar-straps",
+          "name": "Bar Straps",
+          "brand": "Warp 9 Racing",
+          "category": "handlebar",
+          "price_usd": 11.0,
+          "vendor": "Warp 9 Racing",
+          "buy_url": "https://warp9racing.com/products/bar-straps",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 In Warp 9 \"Altis Omega Parts\" collection; product page does not name Omega (Omega uses standard 1-1/8\" bar clamp per REV Rides).",
+          "source_urls": [
+                "https://warp9racing.com/collections/omega",
+                "https://warp9racing.com/products/bar-straps"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Omega": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-omega": "https://warp9racing.com/products/bar-straps"
+          },
+          "vendors": [
+                {
+                      "vendor": "Warp 9 Racing",
+                      "price_usd": 11.0,
+                      "buy_url": "https://warp9racing.com/products/bar-straps"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "warp9racing-tapped-handlebar-ends",
+          "name": "Tapped Handlebar Ends",
+          "brand": "Warp 9 Racing",
+          "category": "handlebar",
+          "price_usd": 9.0,
+          "vendor": "Warp 9 Racing",
+          "buy_url": "https://warp9racing.com/products/tapped-handlebar-ends",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 In Warp 9 \"Altis Omega Parts\" collection; product page does not name Omega (Omega uses standard 1-1/8\" bar clamp per REV Rides).",
+          "source_urls": [
+                "https://warp9racing.com/collections/omega",
+                "https://warp9racing.com/products/tapped-handlebar-ends"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Omega": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-omega": "https://warp9racing.com/products/tapped-handlebar-ends"
+          },
+          "vendors": [
+                {
+                      "vendor": "Warp 9 Racing",
+                      "price_usd": 9.0,
+                      "buy_url": "https://warp9racing.com/products/tapped-handlebar-ends"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "warp9racing-tapped-handlebar-slider",
+          "name": "Tapped Bar End Slider",
+          "brand": "Warp 9 Racing",
+          "category": "handlebar",
+          "price_usd": 15.0,
+          "vendor": "Warp 9 Racing",
+          "buy_url": "https://warp9racing.com/products/tapped-handlebar-slider",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 In Warp 9 \"Altis Omega Parts\" collection; product page does not name Omega (Omega uses standard 1-1/8\" bar clamp per REV Rides).",
+          "source_urls": [
+                "https://warp9racing.com/collections/omega",
+                "https://warp9racing.com/products/tapped-handlebar-slider"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Omega": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-omega": "https://warp9racing.com/products/tapped-handlebar-slider"
+          },
+          "vendors": [
+                {
+                      "vendor": "Warp 9 Racing",
+                      "price_usd": 15.0,
+                      "buy_url": "https://warp9racing.com/products/tapped-handlebar-slider"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "warp9racing-ultra-bee-bar-pad",
+          "name": "Ultra Bee Bar Pad",
+          "brand": "Warp 9 Racing",
+          "category": "handlebar",
+          "price_usd": 21.0,
+          "vendor": "Warp 9 Racing",
+          "buy_url": "https://warp9racing.com/products/ultra-bee-bar-pad",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 In Warp 9 \"Altis Omega Parts\" collection; product page does not name Omega (Omega uses standard 1-1/8\" bar clamp per REV Rides).",
+          "source_urls": [
+                "https://warp9racing.com/collections/omega",
+                "https://warp9racing.com/products/ultra-bee-bar-pad"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Omega": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-omega": "https://warp9racing.com/products/ultra-bee-bar-pad"
+          },
+          "vendors": [
+                {
+                      "vendor": "Warp 9 Racing",
+                      "price_usd": 21.0,
+                      "buy_url": "https://warp9racing.com/products/ultra-bee-bar-pad"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "warp9racing-warp-9-tapped-handlebars",
+          "name": "MX/Offroad 1-1/8\" Tapped Handlebars",
+          "brand": "Warp 9 Racing",
+          "category": "handlebar",
+          "price_usd": 98.0,
+          "vendor": "Warp 9 Racing",
+          "buy_url": "https://warp9racing.com/products/warp-9-tapped-handlebars",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 In Warp 9 \"Altis Omega Parts\" collection; product page does not name Omega (Omega uses standard 1-1/8\" bar clamp per REV Rides).",
+          "source_urls": [
+                "https://warp9racing.com/collections/omega",
+                "https://warp9racing.com/products/warp-9-tapped-handlebars"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Omega": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-omega": "https://warp9racing.com/products/warp-9-tapped-handlebars"
+          },
+          "vendors": [
+                {
+                      "vendor": "Warp 9 Racing",
+                      "price_usd": 98.0,
+                      "buy_url": "https://warp9racing.com/products/warp-9-tapped-handlebars"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-heavy-hitter-2-direct-mount-riser-stem-altis-omega",
+          "name": "Heavy Hitter 2\" Direct-Mount Riser Stem - Altis Omega",
+          "brand": "Wired Whips",
+          "category": "handlebar",
+          "price_usd": 81.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis_omega_stem-hh-2in",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis_omega_stem-hh-2in"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Omega": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-omega": "https://wiredwhips.com/parts/altis_omega_stem-hh-2in"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 81.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis_omega_stem-hh-2in"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-odi-aluminum-bar-end-plugs-altis-omega",
+          "name": "ODI Aluminum Bar End Plugs - Altis Omega",
+          "brand": "Odi",
+          "category": "handlebar",
+          "price_usd": 25.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis_omega_bar-ends-odi",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis_omega_bar-ends-odi"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Omega": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-omega": "https://wiredwhips.com/parts/altis_omega_bar-ends-odi"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 25.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis_omega_bar-ends-odi"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-handlebar-delta-delta-s",
+          "name": "OEM Handlebar (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "handlebar",
+          "price_usd": 44.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_handlebar",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_handlebar"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_handlebar"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 44.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_handlebar"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-handlebar-mount-stem-set-delta-delta-s",
+          "name": "OEM Handlebar Mount / Stem Set (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "handlebar",
+          "price_usd": 44.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_stem-handlebar-mount",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "out_of_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_stem-handlebar-mount"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_stem-handlebar-mount"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 44.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_stem-handlebar-mount"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-handlebar-tuttio-soleil01-handlebar",
+          "name": "OEM Soleil01 Handlebar (tuttio-soleil01-handlebar)",
+          "brand": "Wired Whips",
+          "category": "handlebar",
+          "price_usd": 124.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_handlebar",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_handlebar"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_handlebar"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 124.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_handlebar"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-handlebars-mount-assembly-soleil01-handlebars-mounts-screws",
+          "name": "OEM Soleil01 Handlebars Mount Assembly (soleil01-handlebars-mounts-screws)",
+          "brand": "Wired Whips",
+          "category": "handlebar",
+          "price_usd": 36.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_handlebars-mount-assembly",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_handlebars-mount-assembly"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_handlebars-mount-assembly"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 36.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_handlebars-mount-assembly"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-handlebars-mounts-soleil01-handlebars-mount-a-pair",
+          "name": "OEM Soleil01 Handlebars Mounts (soleil01-handlebars-mount-a-pair)",
+          "brand": "Wired Whips",
+          "category": "handlebar",
+          "price_usd": 44.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_handlebars-mount",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_handlebars-mount"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_handlebars-mount"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 44.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_handlebars-mount"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-universal-handlebar-end-caps-pair",
+          "name": "Universal Handlebar End Caps (Pair)",
+          "brand": "Wired Whips",
+          "category": "handlebar",
+          "price_usd": 17.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_multi_bar-ends-universal",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_multi_bar-ends-universal"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Omega": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-omega": "https://wiredwhips.com/parts/altis-powersports_multi_bar-ends-universal"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 17.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_multi_bar-ends-universal"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-warp-9-3-rise-handlebars-31-8mm-altis-omega",
+          "name": "Warp 9 3\" Rise Handlebars 31.8mm - Altis Omega",
+          "brand": "Warp 9",
+          "category": "handlebar",
+          "price_usd": 109.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis_omega_bars-warp9-3rise",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis_omega_bars-warp9-3rise"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Omega": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-omega": "https://wiredwhips.com/parts/altis_omega_bars-warp9-3rise"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 109.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis_omega_bars-warp9-3rise"
+                }
+          ]
     }
   ]
 }
