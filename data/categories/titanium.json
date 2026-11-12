@@ -522,7 +522,8 @@
       },
       "_fit": {
         "Zero XE": "direct_fit",
-        "Sur-Ron Ultra Bee 21kW": "direct_fit"
+        "Sur-Ron Ultra Bee 21kW": "direct_fit",
+        "Re Rode RX": "verify"
       },
       "name": "Warp9 eMoto Handguard Titanium Bolt Kit",
       "brand": "Warp 9",
@@ -537,7 +538,9 @@
       "power_change_kw": null,
       "is_upgrade": true,
       "source_urls": [
-        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit",
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/warp-9-e-moto-handguard-titanium-bolt-kit"
       ],
       "last_checked": "2026-11-05",
       "notes": "In CCW's Bonnell 805 Upgrades collection.",
@@ -626,7 +629,7 @@
       ],
       "image": "img/parts/chargedcycleworks-surron-ultra-titanium-chassis-kit.webp"
     },
-{
+    {
       "id": "titanium-warp9-countershaft-bolt-stark-varg",
       "name": "Warp9 Stark Varg Titanium Counter Shaft Replacement Bolt",
       "brand": "Warp9",
@@ -655,7 +658,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
+    {
       "id": "titanium-warp9-front-axle-stark-varg",
       "name": "Warp9 Stark Varg Titanium Front Axle",
       "brand": "Warp9",
@@ -684,7 +687,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
+    {
       "id": "titanium-warp9-peg-pins-stark-varg",
       "name": "Warp9 Stark Varg Titanium Peg Pins",
       "brand": "Warp9",
@@ -713,7 +716,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
+    {
       "id": "titanium-warp9-rear-axle-stark-varg",
       "name": "Warp9 Stark Varg Titanium Rear Axle",
       "brand": "Warp9",
@@ -742,32 +745,7 @@
       "weight_delta_kg": null,
       "image": null
     },
-{
-      "id": "chargedcycleworks-titanium-bolts-for-emoto-big-light-kit",
-      "name": "Warp9 E-Moto Big Light Kit Titanium Bolt Kit",
-      "brand": "Warp9Racing",
-      "category": "titanium",
-      "price_usd": 59.0,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit",
-      "tier": "midrange",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
-      "source_urls": [
-        "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
-      ],
-      "last_checked": "2026-11-11",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 59.0,
-          "buy_url": "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
-        }
-      ],
-      "image": null
-    },
-{
+    {
       "id": "chargedcycleworks-warp9-titanium-stem-lock-replacement-bolt",
       "name": "Titanium Stem Lock Replacement Bolt",
       "brand": "Charged Cycle Works",
@@ -796,62 +774,61 @@
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-warp9-titanium-stem-lock-replacement-bolt.webp"
     },
-{
-     "id": "ti-warp9-big-light-kit-bolt-kit",
-     "name": "Warp9 E-Moto Big Light Kit Titanium Bolt Kit",
-     "brand": "Warp 9",
-     "category": "titanium",
-     "price_usd": 59.0,
-     "vendor": "Charged Cycle Works",
-     "buy_url": "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit",
-     "tier": "midrange",
-     "is_upgrade": true,
-     "stock_status": "in_stock",
-     "notes": "Titanium bolt kit for the Warp9 E-Moto Big Light Kit. CCW search-by-bike (SURLB2 tag) lists it for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026).",
-     "source_urls": [
-      "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
-     ],
-     "last_checked": "2026-11-11",
-     "vendors": [
-      {
-       "vendor": "Charged Cycle Works",
-       "price_usd": 59.0,
-       "buy_url": "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
-      }
-     ]
-    }
-  ,
     {
-          "id": "mtnmotoworks-tuttio-soleil-01-titanium-bolt-kit",
-          "name": "Titanium Bolt Kit | Tuttio Soleil 01",
-          "brand": "MTN MotoWorks",
-          "category": "titanium",
-          "price_usd": 94.95,
+      "id": "ti-warp9-big-light-kit-bolt-kit",
+      "name": "Warp9 E-Moto Big Light Kit Titanium Bolt Kit",
+      "brand": "Warp 9",
+      "category": "titanium",
+      "price_usd": 59.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Titanium bolt kit for the Warp9 E-Moto Big Light Kit. CCW search-by-bike (SURLB2 tag) lists it for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.0,
+          "buy_url": "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
+        }
+      ]
+    },
+    {
+      "id": "mtnmotoworks-tuttio-soleil-01-titanium-bolt-kit",
+      "name": "Titanium Bolt Kit | Tuttio Soleil 01",
+      "brand": "MTN MotoWorks",
+      "category": "titanium",
+      "price_usd": 94.95,
+      "vendor": "MTN MotoWorks",
+      "buy_url": "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit"
+      },
+      "vendors": [
+        {
           "vendor": "MTN MotoWorks",
-          "buy_url": "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit",
-          "tier": "midrange",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit"
-          },
-          "vendors": [
-                {
-                      "vendor": "MTN MotoWorks",
-                      "price_usd": 94.95,
-                      "buy_url": "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit"
-                }
-          ]
+          "price_usd": 94.95,
+          "buy_url": "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit"
+        }
+      ]
     }
   ],
   "compatibility": [
@@ -1305,7 +1282,7 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
       ],
-      "notes": "Bolt kit for Warp9 handguards; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+      "notes": "Bolt kit for Warp9 handguards; CCW ALXEPRO tag only, XE Pro S not named \u2014 confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
     },
     {
       "product_id": "ti-warp9-big-light-kit-bolt-kit",
@@ -1365,51 +1342,58 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
       ],
-      "notes": "Bolt kit for the Warp9 eMoto handguards; the handguards themselves are verify-only for the Mini R — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
-    }
-  ,
+      "notes": "Bolt kit for the Warp9 eMoto handguards; the handguards themselves are verify-only for the Mini R \u2014 verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+    },
     {
-          "product_id": "mtnmotoworks-tuttio-soleil-01-titanium-bolt-kit",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "mtnmotoworks-tuttio-soleil-01-titanium-bolt-kit",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-titanium-chassis-kit",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-titanium-chassis-kit"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-ultra-titanium-chassis-kit",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-titanium-chassis-kit"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-shorty-titanium-lever-pivot-bolts-surron-ultra-bee"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+      "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/warp-9-e-moto-handguard-titanium-bolt-kit",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
     }
   ]
 }

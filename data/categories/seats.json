@@ -5,36 +5,6 @@
   },
   "products": [
     {
-      "id": "seat-guts-lightbee-cover",
-      "name": "Guts Seat Cover - Sur-Ron Light Bee",
-      "brand": "Guts Racing",
-      "category": "seats",
-      "badge": "Seat Cover",
-      "tier": "premium",
-      "price_usd": 79.99,
-      "vendor": "Zynx Designs",
-      "buy_url": "https://www.zynxdesigns.us/products/guts-seat-cover-for-surron-light-bee-79bike",
-      "vendors": [
-        {
-          "vendor": "TB Electric Moto",
-          "price_usd": 79.99,
-          "buy_url": "https://tbelectricmoto.com/products/guts-custom-seat-cover"
-        }
-      ],
-      "stock_status": "in_stock",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "is_upgrade": true,
-      "source_urls": [
-        "https://www.zynxdesigns.us/products/guts-seat-cover-for-surron-light-bee-79bike"
-      ],
-      "last_checked": "2026-10-12",
-      "notes": "Price verified $79.99. Gripper cover only - stock or aftermarket seat base required, not a complete seat. Multiple color/rib variants at $79.99.",
-      "variant": "custom",
-      "weight_delta_kg": null,
-      "image": "img/parts/seat-guts-lightbee-cover.webp"
-    },
-    {
       "id": "seat-eride-long-kit",
       "name": "SHE8022 Long Seat Kit - SS2.0 / SS3.0 / SR",
       "brand": "E Ride Pro",
@@ -732,7 +702,7 @@
       ],
       "image": "img/parts/chargedcycleworks-replacement-oem-seat-for-talaria-sting-mx3-mx4.webp"
     },
-{
+    {
       "id": "chargedcycleworks-thrill-seekers-seat-cover-for-altis-sigma",
       "name": "Thrill Seekers Seat Cover for Altis Sigma",
       "brand": "Thrill Seekers",
@@ -757,7 +727,7 @@
       ],
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-arctic-leopard-xe-pro-seat",
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat"
@@ -791,7 +761,7 @@
       "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-arctic-leopard-xe-pro-seat-lock-oem",
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-lock-oem"
@@ -825,7 +795,7 @@
       "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-arctic-leopard-xe-pro-seat-locking-screw-oem",
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-locking-screw-oem"
@@ -859,35 +829,7 @@
       "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
       "image": null
     },
-{
-      "id": "chargedcycleworks-thrill-seekers-seat-cover-arctic-leopard-xe-pro-s",
-      "name": "Thrill Seekers Seat Cover for Arctic Leopard XE Pro S",
-      "brand": "Thrill Seekers",
-      "category": "seats",
-      "badge": "Thrill Seekers",
-      "tier": "midrange",
-      "price_usd": 79.0,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 79.0,
-          "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s"
-        }
-      ],
-      "stock_status": "out_of_stock",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "is_upgrade": true,
-      "source_urls": [
-        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s"
-      ],
-      "last_checked": "2026-11-11",
-      "notes": "CCW: Fits the Arctic Leopard XE Pro, and XE Pro S OEM Seat (checked 2026-11-11).",
-      "image": null
-    },
-{
+    {
       "id": "chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s",
       "name": "Thrill Seekers Seat Cover for Arctic Leopard XE Pro S",
       "brand": "Thrill Seekers",
@@ -906,7 +848,8 @@
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Arctic Leopard XE Pro S Enduro": "verify"
+        "Arctic Leopard XE Pro S Enduro": "verify",
+        "Arctic Leopard XE Pro S": "direct_fit"
       },
       "_fit_src": {
         "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s"
@@ -921,7 +864,7 @@
       "weight_delta_kg": null,
       "image": "img/parts/chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s.webp"
     },
-{
+    {
       "id": "chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r",
       "name": "Thrill Seekers Seat Cover for Arctic Leopard XE Pro R",
       "brand": "Thrill Seekers",
@@ -949,7 +892,7 @@
       "notes": "CCW: Fits the Arctic Leopard XE Pro R OEM Seat (checked 2026-11-11).",
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-etm-rtr-2025-black-seat",
       "_fit_src": {
         "rtr-sport": "https://chargedcycleworks.com/products/etm-rtr-2025-black-seat",
@@ -982,7 +925,7 @@
       ],
       "image": null
     },
-{
+    {
       "id": "chargedcycleworks-thrill-seekers-seat-cover-for-etm-rtr",
       "_fit_src": {
         "rtr-sport": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr",
@@ -1014,698 +957,553 @@
         }
       ],
       "image": null
-    }
-  ,
+    },
     {
-          "id": "altispowersports-altis-delta-dbk-seat",
-          "name": "Altis Delta DBK Seat",
-          "brand": "Altis",
-          "category": "seats",
+      "id": "altispowersports-altis-delta-dbk-seat",
+      "name": "Altis Delta DBK Seat",
+      "brand": "Altis",
+      "category": "seats",
+      "price_usd": 80.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-seat",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-dbk-seat"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-seat"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 80.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-seat",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-dbk-seat"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-seat"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 80.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-seat"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-seat"
+        }
+      ]
+    },
     {
-          "id": "altispowersports-altis-delta-seat",
-          "name": "Altis Delta Seat",
-          "brand": "Altis",
-          "category": "seats",
+      "id": "altispowersports-altis-delta-seat",
+      "name": "Altis Delta Seat",
+      "brand": "Altis",
+      "category": "seats",
+      "price_usd": 65.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-seat",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-seat"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-seat"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 65.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-seat",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-seat"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-seat"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 65.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-seat"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-seat"
+        }
+      ]
+    },
     {
-          "id": "altispowersports-altis-delta-seat-lock-nut",
-          "name": "Altis Delta Seat Lock Nut",
-          "brand": "Altis",
-          "category": "seats",
+      "id": "altispowersports-altis-delta-seat-lock-nut",
+      "name": "Altis Delta Seat Lock Nut",
+      "brand": "Altis",
+      "category": "seats",
+      "price_usd": 9.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-seat-lock-nut",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-seat-lock-nut"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-seat-lock-nut"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 9.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-seat-lock-nut",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-seat-lock-nut"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-seat-lock-nut"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 9.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-seat-lock-nut"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-seat-lock-nut"
+        }
+      ]
+    },
     {
-          "id": "altispowersports-altis-delta-seat-lock-nut-dbk",
-          "name": "Altis Delta Seat Lock Nut DBK",
-          "brand": "Altis",
-          "category": "seats",
+      "id": "altispowersports-altis-delta-seat-lock-nut-dbk",
+      "name": "Altis Delta Seat Lock Nut DBK",
+      "brand": "Altis",
+      "category": "seats",
+      "price_usd": 9.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-seat-lock-nut-dbk",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-seat-lock-nut-dbk"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-seat-lock-nut-dbk"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 9.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-seat-lock-nut-dbk",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-seat-lock-nut-dbk"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-seat-lock-nut-dbk"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 9.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-seat-lock-nut-dbk"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-seat-lock-nut-dbk"
+        }
+      ]
+    },
     {
-          "id": "gutsracing-guts-racing-rerode-ribbed-seat-cover",
-          "name": "Guts Racing ReRode Ribbed Seat Cover",
-          "brand": "Guts",
-          "category": "seats",
-          "price_usd": 79.99,
+      "id": "gutsracing-guts-racing-rerode-ribbed-seat-cover",
+      "name": "Guts Racing ReRode Ribbed Seat Cover",
+      "brand": "Guts",
+      "category": "seats",
+      "price_usd": 79.99,
+      "vendor": "Guts Racing",
+      "buy_url": "https://www.gutsracing.com/product-p/91-8-rerode-ribbed-cover.htm",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK \u2014 ReRode-brand seat cover; RX not named on page.",
+      "source_urls": [
+        "https://www.gutsracing.com/product-p/91-8-rerode-ribbed-cover.htm"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://www.gutsracing.com/product-p/91-8-rerode-ribbed-cover.htm"
+      },
+      "vendors": [
+        {
           "vendor": "Guts Racing",
-          "buy_url": "https://www.gutsracing.com/product-p/91-8-rerode-ribbed-cover.htm",
-          "tier": "midrange",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK \u2014 ReRode-brand seat cover; RX not named on page.",
-          "source_urls": [
-                "https://www.gutsracing.com/product-p/91-8-rerode-ribbed-cover.htm"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://www.gutsracing.com/product-p/91-8-rerode-ribbed-cover.htm"
-          },
-          "vendors": [
-                {
-                      "vendor": "Guts Racing",
-                      "price_usd": 79.99,
-                      "buy_url": "https://www.gutsracing.com/product-p/91-8-rerode-ribbed-cover.htm"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "revrides-altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports",
-          "name": "Altis Delta Seat Lock Nut | OEM Replacement Hardware | By Altis Powersports",
-          "brand": "Altis",
-          "category": "seats",
-          "price_usd": 9.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 9.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "revrides-altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports",
-          "name": "Altis Delta Seat | OEM Replacement Seat Assembly | By Altis Powersports",
-          "brand": "Altis",
-          "category": "seats",
-          "price_usd": 65.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 65.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "tbelectricmoto-guts-custom-seat-cover-rf1-design",
-          "name": "Guts Custom Seat Cover RF1 Design",
-          "brand": "Guts",
-          "category": "seats",
-          "price_usd": 99.99,
-          "vendor": "TB Electric Moto",
-          "buy_url": "https://tbelectricmoto.com/products/guts-custom-seat-cover-rf1-design",
-          "tier": "midrange",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Fitment list on product page names the bike: \"...gma ETM RTR / RTR Lite / Sport / Alpha / Alpha XL / XL Tuttio Soleil01 Rawrr Mantis / Mantis X / Mantis Mini S...\"",
-          "source_urls": [
-                "https://tbelectricmoto.com/products/guts-custom-seat-cover-rf1-design"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tbelectricmoto.com/products/guts-custom-seat-cover-rf1-design"
-          },
-          "vendors": [
-                {
-                      "vendor": "TB Electric Moto",
-                      "price_usd": 99.99,
-                      "buy_url": "https://tbelectricmoto.com/products/guts-custom-seat-cover-rf1-design"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "tbelectricmoto-guts-seat-cover-for-tuttio-soleil01",
-          "name": "Guts Seat Cover for Tuttio Soleil01",
-          "brand": "Guts",
-          "category": "seats",
           "price_usd": 79.99,
-          "vendor": "TB Electric Moto",
-          "buy_url": "https://tbelectricmoto.com/products/guts-seat-cover-for-tuttio-soleil01",
-          "tier": "midrange",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://tbelectricmoto.com/products/guts-seat-cover-for-tuttio-soleil01"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tbelectricmoto.com/products/guts-seat-cover-for-tuttio-soleil01"
-          },
-          "vendors": [
-                {
-                      "vendor": "TB Electric Moto",
-                      "price_usd": 79.99,
-                      "buy_url": "https://tbelectricmoto.com/products/guts-seat-cover-for-tuttio-soleil01"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.gutsracing.com/product-p/91-8-rerode-ribbed-cover.htm"
+        }
+      ]
+    },
     {
-          "id": "tbelectricmoto-tuttio-soleil01-replacement-seat",
-          "name": "Tuttio Soleil01 Complete Replacement Seat",
-          "brand": "Tuttio",
-          "category": "seats",
+      "id": "revrides-altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports",
+      "name": "Altis Delta Seat Lock Nut | OEM Replacement Hardware | By Altis Powersports",
+      "brand": "Altis",
+      "category": "seats",
+      "price_usd": 9.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 9.0,
+          "buy_url": "https://revrides.com/products/altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports"
+        }
+      ]
+    },
+    {
+      "id": "revrides-altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports",
+      "name": "Altis Delta Seat | OEM Replacement Seat Assembly | By Altis Powersports",
+      "brand": "Altis",
+      "category": "seats",
+      "price_usd": 65.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
+          "price_usd": 65.0,
+          "buy_url": "https://revrides.com/products/altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports"
+        }
+      ]
+    },
+    {
+      "id": "tbelectricmoto-guts-custom-seat-cover-rf1-design",
+      "name": "Guts Custom Seat Cover RF1 Design",
+      "brand": "Guts",
+      "category": "seats",
+      "price_usd": 99.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/guts-custom-seat-cover-rf1-design",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment list on product page names the bike: \"...gma ETM RTR / RTR Lite / Sport / Alpha / Alpha XL / XL Tuttio Soleil01 Rawrr Mantis / Mantis X / Mantis Mini S...\"",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover-rf1-design"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tbelectricmoto.com/products/guts-custom-seat-cover-rf1-design"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 99.99,
+          "buy_url": "https://tbelectricmoto.com/products/guts-custom-seat-cover-rf1-design"
+        }
+      ]
+    },
+    {
+      "id": "tbelectricmoto-guts-seat-cover-for-tuttio-soleil01",
+      "name": "Guts Seat Cover for Tuttio Soleil01",
+      "brand": "Guts",
+      "category": "seats",
+      "price_usd": 79.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/guts-seat-cover-for-tuttio-soleil01",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/guts-seat-cover-for-tuttio-soleil01"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tbelectricmoto.com/products/guts-seat-cover-for-tuttio-soleil01"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 79.99,
+          "buy_url": "https://tbelectricmoto.com/products/guts-seat-cover-for-tuttio-soleil01"
+        }
+      ]
+    },
+    {
+      "id": "tbelectricmoto-tuttio-soleil01-replacement-seat",
+      "name": "Tuttio Soleil01 Complete Replacement Seat",
+      "brand": "Tuttio",
+      "category": "seats",
+      "price_usd": 35.99,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-seat",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-seat"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-seat"
+      },
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
           "price_usd": 35.99,
-          "vendor": "TB Electric Moto",
-          "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-seat",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-seat"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-seat"
-          },
-          "vendors": [
-                {
-                      "vendor": "TB Electric Moto",
-                      "price_usd": 35.99,
-                      "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-seat"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-seat"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-replacement-seat",
-          "name": "Tuttio Soleil01 Replacement Seat",
-          "brand": "Tuttio",
-          "category": "seats",
+      "id": "tuttio-tuttio-soleil01-replacement-seat",
+      "name": "Tuttio Soleil01 Replacement Seat",
+      "brand": "Tuttio",
+      "category": "seats",
+      "price_usd": 120.0,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-replacement-seat",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-replacement-seat"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-replacement-seat"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 120.0,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-replacement-seat",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-replacement-seat"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-replacement-seat"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 120.0,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-replacement-seat"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-replacement-seat"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-se-ebike-seat",
-          "name": "Tuttio Soleil01 SE Ebike Seat",
-          "brand": "Tuttio",
-          "category": "seats",
+      "id": "tuttio-tuttio-soleil01-se-ebike-seat",
+      "name": "Tuttio Soleil01 SE Ebike Seat",
+      "brand": "Tuttio",
+      "category": "seats",
+      "price_usd": 219.99,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 219.99,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 219.99,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-seat-khob-screws",
-          "name": "Tuttio Soleil01 Seat Khob Screws",
-          "brand": "Tuttio",
-          "category": "seats",
+      "id": "tuttio-tuttio-soleil01-seat-khob-screws",
+      "name": "Tuttio Soleil01 Seat Khob Screws",
+      "brand": "Tuttio",
+      "category": "seats",
+      "price_usd": 20.0,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 20.0,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 20.0,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-replacement-seat-delta-delta-s",
-          "name": "OEM Replacement Seat (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "seats",
+      "id": "wiredwhips-oem-replacement-seat-delta-delta-s",
+      "name": "OEM Replacement Seat (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "seats",
+      "price_usd": 81.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_seat",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_seat"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_seat"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 81.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_seat",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_seat"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_seat"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 81.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_seat"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_seat"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-seat-lock-nut-delta-delta-s",
-          "name": "OEM Seat Lock Nut (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "seats",
+      "id": "wiredwhips-oem-seat-lock-nut-delta-delta-s",
+      "name": "OEM Seat Lock Nut (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "seats",
+      "price_usd": 11.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_seat-lock-nut",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_seat-lock-nut"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_seat-lock-nut"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 11.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_seat-lock-nut",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_seat-lock-nut"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_seat-lock-nut"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 11.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_seat-lock-nut"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_seat-lock-nut"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-replacement-seat-tuttio-soleil01-seat",
-          "name": "OEM Soleil01 Replacement Seat (tuttio-soleil01-seat)",
-          "brand": "Wired Whips",
-          "category": "seats",
+      "id": "wiredwhips-oem-soleil01-replacement-seat-tuttio-soleil01-seat",
+      "name": "OEM Soleil01 Replacement Seat (tuttio-soleil01-seat)",
+      "brand": "Wired Whips",
+      "category": "seats",
+      "price_usd": 148.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_replacement-seat",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_replacement-seat"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_replacement-seat"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 148.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_replacement-seat",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_replacement-seat"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_replacement-seat"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 148.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_replacement-seat"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_replacement-seat"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-seat-knob-screws-tuttio-soleil01-seat-srew",
-          "name": "OEM Soleil01 Seat Knob Screws (tuttio-soleil01-seat-srew)",
-          "brand": "Wired Whips",
-          "category": "seats",
-          "price_usd": 25.99,
+      "id": "wiredwhips-oem-soleil01-seat-knob-screws-tuttio-soleil01-seat-srew",
+      "name": "OEM Soleil01 Seat Knob Screws (tuttio-soleil01-seat-srew)",
+      "brand": "Wired Whips",
+      "category": "seats",
+      "price_usd": 25.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_seat-knob-screws",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_seat-knob-screws"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_seat-knob-screws"
+      },
+      "vendors": [
+        {
           "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_seat-knob-screws",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_seat-knob-screws"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_seat-knob-screws"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 25.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_seat-knob-screws"
-                }
-          ]
+          "price_usd": 25.99,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_seat-knob-screws"
+        }
+      ]
     }
   ],
   "compatibility": [
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "arctic-xd",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "bonnell-805rx",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "ss30",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
-      ],
-      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)"
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "ss40",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "sr",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
-      ],
-      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "ss20",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
-      ],
-      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "lightbee",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
-      ],
-      "notes": "Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)"
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "storm-bee",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "ultrabee",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
-      ],
-      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "komodo",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "mx5",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
-      ],
-      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)"
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "mx4",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
-      ],
-      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "ventus-plus",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
-      ],
-      "notes": "Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)"
-    },
-    {
-      "product_id": "seat-guts-lightbee-cover",
-      "bike_id": "ventus-evo",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
-    },
     {
       "product_id": "seat-eride-long-kit",
       "bike_id": "arctic-xd",
@@ -1977,7 +1775,7 @@
       "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11)."
     },
     {
-      "product_id": "chargedcycleworks-thrill-seekers-seat-cover-arctic-leopard-xe-pro-s",
+      "product_id": "chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s",
       "bike_id": "arctic-leopard-xe-pro-s",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -2045,227 +1843,207 @@
         "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr"
       ],
       "notes": "CCW page: fits the ETM RTR with the OEM seat - names the ETM RTR family, not the RTR Alpha specifically; tag-only evidence, so verify. All variants out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr"
-    }
-  ,
+    },
     {
-          "product_id": "altispowersports-altis-delta-dbk-seat",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-dbk-seat"
-          ],
-          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-dbk-seat",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-dbk-seat"
+      ],
+      "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "altispowersports-altis-delta-seat",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-seat"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-seat",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-seat"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "altispowersports-altis-delta-seat-lock-nut",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-seat-lock-nut"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-seat-lock-nut",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-seat-lock-nut"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "altispowersports-altis-delta-seat-lock-nut-dbk",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-seat-lock-nut-dbk"
-          ],
-          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-seat-lock-nut-dbk",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-seat-lock-nut-dbk"
+      ],
+      "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gutsracing-guts-racing-rerode-ribbed-seat-cover",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.gutsracing.com/product-p/91-8-rerode-ribbed-cover.htm"
-          ],
-          "notes": "WEAK \u2014 ReRode-brand seat cover; RX not named on page. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gutsracing-guts-racing-rerode-ribbed-seat-cover",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.gutsracing.com/product-p/91-8-rerode-ribbed-cover.htm"
+      ],
+      "notes": "WEAK \u2014 ReRode-brand seat cover; RX not named on page. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tbelectricmoto-guts-custom-seat-cover-rf1-design",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tbelectricmoto.com/products/guts-custom-seat-cover-rf1-design"
-          ],
-          "notes": "Fitment list on product page names the bike: \"...gma ETM RTR / RTR Lite / Sport / Alpha / Alpha XL / XL Tuttio Soleil01 Rawrr Mantis / Mantis X / Mantis Mini S...\" (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tbelectricmoto-guts-custom-seat-cover-rf1-design",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover-rf1-design"
+      ],
+      "notes": "Fitment list on product page names the bike: \"...gma ETM RTR / RTR Lite / Sport / Alpha / Alpha XL / XL Tuttio Soleil01 Rawrr Mantis / Mantis X / Mantis Mini S...\" (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tbelectricmoto-guts-seat-cover-for-tuttio-soleil01",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tbelectricmoto.com/products/guts-seat-cover-for-tuttio-soleil01"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tbelectricmoto-guts-seat-cover-for-tuttio-soleil01",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-seat-cover-for-tuttio-soleil01"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tbelectricmoto-tuttio-soleil01-replacement-seat",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-seat"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tbelectricmoto-tuttio-soleil01-replacement-seat",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-seat"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-replacement-seat",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-replacement-seat"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-replacement-seat",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-replacement-seat"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-se-ebike-seat",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-se-ebike-seat",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-seat-khob-screws",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-seat-khob-screws",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-replacement-seat-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_seat"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-replacement-seat-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_seat"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-seat-lock-nut-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_seat-lock-nut"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-seat-lock-nut-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_seat-lock-nut"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-replacement-seat-tuttio-soleil01-seat",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_replacement-seat"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-replacement-seat-tuttio-soleil01-seat",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_replacement-seat"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-seat-knob-screws-tuttio-soleil01-seat-srew",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_seat-knob-screws"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-seat-knob-screws-tuttio-soleil01-seat-srew",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_seat-knob-screws"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-surron-ultra-bee-oem-seat",
-          "bike_id": "ultrabee-21kw",
-          "status": "not_compatible",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat",
-                "https://shopeastcentralsports.com/2026-surron-ultra-bee-seat-parts-diagram/"
-          ],
-          "notes": "Part # 32300-YQ5A-0000 is MY23-24 only per Sur-Ron catalog. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-seat",
+      "bike_id": "ultrabee-21kw",
+      "status": "not_compatible",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat",
+        "https://shopeastcentralsports.com/2026-surron-ultra-bee-seat-parts-diagram/"
+      ],
+      "notes": "Part # 32300-YQ5A-0000 is MY23-24 only per Sur-Ron catalog. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-thrill-seekers-seat-cover-for-surron-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-surron-ultra-bee"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-thrill-seekers-seat-cover-for-surron-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-surron-ultra-bee"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-warp9-seat-spacer-surron-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/warp9-seat-spacer-surron-ultra-bee"
-          ],
-          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+      "product_id": "chargedcycleworks-warp9-seat-spacer-surron-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-seat-spacer-surron-ultra-bee"
+      ],
+      "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
     }
   ]
 }

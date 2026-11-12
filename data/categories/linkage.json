@@ -10,7 +10,7 @@
       "brand": "EBMX",
       "category": "linkage",
       "price_usd": 105,
-      "vendor": "Charged Cycle Works",
+      "vendor": "Charged Powersports",
       "buy_url": "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee",
       "vendors": [
         {
@@ -24,14 +24,18 @@
       "stock_status": "out_of_stock",
       "notes": "Requires EBMX Ultra Bee triangle, sold separately \u2014 not a complete drop-in kit. Designed for stock Ultra Bee shock size (fits EXT REA etc.); 30mm rise suits mixed 21/18 wheel setups.",
       "source_urls": [
-        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+        "https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee",
+        "https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
       ],
       "last_checked": "2026-10-12",
       "weight_kg": null,
       "power_change_kw": null,
       "badge": "EBMX",
       "weight_delta_kg": null,
-      "image": "img/parts/linkage-ultrabeemx.webp"
+      "image": "img/parts/linkage-ultrabeemx.webp",
+      "_fit": {
+        "Sur-Ron Ultra Bee 21kW": "verify"
+      }
     },
     {
       "id": "linkage-ultrabee-emx",
@@ -232,13 +236,15 @@
       "stock_status": "in_stock",
       "notes": "Fitment from the seller listing title; other bikes not verified.",
       "source_urls": [
-        "https://tbelectricmoto.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit"
+        "https://tbelectricmoto.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit",
+        "https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit"
       ],
       "last_checked": "2026-10-27",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
-        "Sur-Ron Ultra Bee 24.5kW": "direct_fit"
+        "Sur-Ron Ultra Bee 24.5kW": "direct_fit",
+        "Sur-Ron Ultra Bee 21kW": "verify"
       },
       "_fit_src": {
         "ultrabee": "https://tbelectricmoto.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit"
@@ -726,35 +732,7 @@
       ],
       "image": "img/parts/chargedcycleworks-warp9-ultra-bee-suspension-triangle-v2.webp"
     },
-{
-      "id": "chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s",
-      "name": "TMB Linkage for Sirris R38 (Arctic Leopard XE Pro S / Enduro / R)",
-      "brand": "TMB",
-      "category": "linkage",
-      "badge": "TMB",
-      "tier": "midrange",
-      "price_usd": 125.0,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 125.0,
-          "buy_url": "https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r"
-        }
-      ],
-      "stock_status": "in_stock",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "is_upgrade": true,
-      "source_urls": [
-        "https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r"
-      ],
-      "last_checked": "2026-11-11",
-      "notes": "CCW: designed specifically to fit the Sirris R38 rear shock on Arctic Leopard XE Pro S / Enduro / R; R38 shock only, not the stock shock (checked 2026-11-11).",
-      "image": null
-    },
-{
+    {
       "id": "chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r",
       "name": "TMB Linkage for Sirris R38 (Arctic Leopard XE Pro S / Enduro / R)",
       "brand": "TMB",
@@ -781,34 +759,12 @@
       "power_change_kw": null,
       "badge": "TMB",
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r.webp"
+      "image": "img/parts/chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r.webp",
+      "_fit": {
+        "Arctic Leopard XE Pro S": "direct_fit"
+      }
     },
-{
-      "id": "chargedcycleworks-bearing-kit-suspension-triangle-surron-lbx",
-      "name": "Needle Bearing Kit for Suspension Triangle | Surron LBX",
-      "brand": "DirtyBike",
-      "category": "linkage",
-      "price_usd": 11,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx",
-      "tier": "budget",
-      "is_upgrade": true,
-      "stock_status": "out_of_stock",
-      "notes": "CCW Fits list names 79bike Falcon; LBX triangle bearings, Falcon Pro fit unverified (checked 2026-11-11).",
-      "source_urls": [
-        "https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx"
-      ],
-      "last_checked": "2026-11-11",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 11,
-          "buy_url": "https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx"
-        }
-      ],
-      "image": null
-    },
-{
+    {
       "id": "chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade",
       "name": "Heavy Hitter Titanium 1.5\" Linkage Upgrade",
       "brand": "GritShift",
@@ -836,72 +792,6 @@
       "weight_delta_kg": null,
       "image": null,
       "variant": null
-    }
-  ,
-    {
-          "id": "chargedcycleworks-ebmx-upgraded-oem-linkage-for-surron-ultra-bee",
-          "name": "EBMX Upgraded OEM Linkage for SurRon Ultra Bee",
-          "brand": "Ebmx",
-          "category": "linkage",
-          "price_usd": 89.25,
-          "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named.",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "likely_fit"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 89.25,
-                      "buy_url": "https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "chargedcycleworks-warp-9-ultra-bee-triangle-pivot-bolt-kit",
-          "name": "Warp 9 \u2013 Triangle Pivot Bolt Kit for Surron Ultra Bee",
-          "brand": "Warp 9",
-          "category": "linkage",
-          "price_usd": 21.0,
-          "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named.",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "likely_fit"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 21.0,
-                      "buy_url": "https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit"
-                }
-          ]
     }
   ],
   "compatibility": [
@@ -1437,7 +1327,7 @@
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2"
     },
     {
-      "product_id": "chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s",
+      "product_id": "chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r",
       "bike_id": "arctic-leopard-xe-pro-s",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -1465,116 +1355,106 @@
         "https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade"
       ],
       "notes": "CCW fitment names 79Bike Falcon Pro / GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade"
-    }
-  ,
+    },
     {
-          "product_id": "chargedcycleworks-ebmx-upgraded-oem-linkage-for-surron-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "linkage-ultrabeemx",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-warp-9-ultra-bee-triangle-pivot-bolt-kit",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tbelectricmoto-warp-9-ultra-bee-triangle-pivot-bolt-kit",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-heavy-hitter-ultra-bee-linkage",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-heavy-hitter-ultra-bee-linkage",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-heavy-hitter-ultra-bee-triangle",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-heavy-hitter-ultra-bee-triangle",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-sirris-triangle-for-r46-shock-on-surron-ultra-bee-1",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/sirris-triangle-for-r46-shock-on-surron-ultra-bee-1"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-sirris-triangle-for-r46-shock-on-surron-ultra-bee-1",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sirris-triangle-for-r46-shock-on-surron-ultra-bee-1"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ultra-bee-rear-linkage",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ultra-bee-rear-linkage"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ultra-bee-rear-linkage",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ultra-bee-rear-linkage"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-warp9-surron-ultra-bee-suspension-triangle-bearing-kit",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-suspension-triangle-bearing-kit"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-warp9-surron-ultra-bee-suspension-triangle-bearing-kit",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-suspension-triangle-bearing-kit"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-warp9-surron-ultra-bee-triangles",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-triangles"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-warp9-surron-ultra-bee-triangles",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-surron-ultra-bee-triangles"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-warp9-ultra-bee-suspension-triangle-v2",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+      "product_id": "chargedcycleworks-warp9-ultra-bee-suspension-triangle-v2",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
     }
   ]
 }

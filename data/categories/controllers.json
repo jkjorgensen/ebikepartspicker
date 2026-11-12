@@ -546,146 +546,6 @@
       "notes": ""
     },
     {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "lightbee",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": ""
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "ultrabee",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": "Ultra Bee harness variant out of stock as of 2026-10-12"
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "mx4",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": ""
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "mx5",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": ""
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "ss20",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": "E Ride Pro variant is $90"
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "ss30",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": "E Ride Pro variant is $90"
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "sr",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": "E Ride Pro variant is $90"
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "ss40",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": ""
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "storm-bee",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": ""
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "komodo",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": ""
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "ventus-plus",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": ""
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "ventus-evo",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": ""
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "bonnell-805rx",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": ""
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness",
-      "bike_id": "arctic-xd",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "notes": ""
-    },
-    {
       "product_id": "stormbee-controller-oem",
       "bike_id": "storm-bee",
       "status": "verify",
@@ -920,333 +780,304 @@
         "https://chargedcycleworks.com/products/x-9000-controller-race-harness-for-ultra-bee"
       ],
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/x-9000-controller-race-harness-for-ultra-bee"
-    }
-  ,
+    },
     {
-          "product_id": "altispowersports-altis-delta-controller-cover",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-controller-cover"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-controller-cover",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-controller-cover"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "altispowersports-altis-delta-controller-wire-cover",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-controller-wire-cover"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "altispowersports-altis-delta-controller-wire-cover",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-controller-wire-cover"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ventus-aetos-max-controller",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ventus-aetos-max-controller"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "ctrl-ventus-aetos-max",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-aetos-max-controller"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-ebmx-x-9000-controller-thumb-throttle",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-ebmx-x-9000-controller-thumb-throttle",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-ebmx-x-9000-v2-controller-sw102-display-e-moto",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-ebmx-x-9000-v2-controller-sw102-display-e-moto",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-ebmx-x-9000-v3-controller-2-1-harness",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-ebmx-x-9000-v3-controller-2-1-harness",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-ebmx-x9000-v3-base-controller",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/ebmx-x9000-v3-base-controller",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-ebmx-x9000-v3-base-controller",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/ebmx-x9000-v3-base-controller",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-ventus-heatsink-vtb-aetos-gen-2-controllers",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-ventus-heatsink-vtb-aetos-gen-2-controllers",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-ventus-vtb-aetos-pro-controller",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/ventus-vtb-aetos-pro-controller",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "gritshift-ventus-vtb-aetos-pro-controller",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/ventus-vtb-aetos-pro-controller",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "gritshift-ventus-vtb-v9600-aetos-max-controller",
-          "bike_id": "rerode-rx",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller",
-                "https://gritshift.com/collections/rerode-rx-parts"
-          ],
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "ctrl-ventus-aetos-max",
+      "bike_id": "rerode-rx",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller",
+        "https://gritshift.com/collections/rerode-rx-parts"
+      ],
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "revrides-altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports",
-          "bike_id": "altis-delta",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://revrides.com/products/altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports"
-          ],
-          "notes": "Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "revrides-altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports"
+      ],
+      "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-ebike-controller-bracket",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-ebike-controller-bracket",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-ebike-controller-housing",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-ebike-controller-housing",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "tuttio-tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display",
-          "bike_id": "tuttio-soleil01",
-          "status": "confirmed_direct_fit",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display"
-          ],
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "tuttio-tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display"
+      ],
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-controller-cover-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_controller-cover"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-controller-cover-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_controller-cover"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-controller-wire-cover-delta-delta-s",
-          "bike_id": "altis-delta",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_controller-wire-cover"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-controller-wire-cover-delta-delta-s",
+      "bike_id": "altis-delta",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_controller-wire-cover"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-controller-bracket-soleil01-controller-bracket",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_controller-bracket"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-controller-bracket-soleil01-controller-bracket",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_controller-bracket"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-controller-housing-soleil01-controller-housing",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_controller-housing"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-controller-housing-soleil01-controller-housing",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_controller-housing"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-controller-m-button-kh-display-soleil01-controller-kh",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_controller-kh"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-controller-m-button-kh-display-soleil01-controller-kh",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_controller-kh"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "wiredwhips-oem-soleil01-controller-main-line-m-button-soleil01-main-line",
-          "bike_id": "tuttio-soleil01",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_controller-mainline-kh"
-          ],
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "wiredwhips-oem-soleil01-controller-main-line-m-button-soleil01-main-line",
+      "bike_id": "tuttio-soleil01",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_controller-mainline-kh"
+      ],
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ebmx-x-9000-v3-controller-race-harness-for-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-race-harness-for-ultra-bee"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ebmx-x-9000-v3-controller-race-harness-for-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-race-harness-for-ultra-bee"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-ventus-aetos-pro-controller",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ventus-aetos-pro-controller"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-ventus-aetos-pro-controller",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-aetos-pro-controller"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "chargedcycleworks-x-9000-controller-race-harness-for-ultra-bee",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/x-9000-controller-race-harness-for-ultra-bee"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "chargedcycleworks-x-9000-controller-race-harness-for-ultra-bee",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/x-9000-controller-race-harness-for-ultra-bee"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "ebmx-x-9000-v3",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "ebmx-x-9000-v3",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "torp-tc1000-v1-ultrabee",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/torp-tc1000-controller",
-                "https://www.torpmotors.com/bikes/surron-ultra-bee/"
-          ],
-          "notes": "WEAK: evidence is a table column on TORP (EU maker) page, not the CCW listing \u2014 TORP Ultra Bee page lists TC1000 output on the \"Stock 2025 72V\" battery (27 kW): names the 2025/21kW bike. MY26 MCU changed; 24.5kW fit not stated. (checked Nov 11, 2026)"
-    }
-  ,
+      "product_id": "torp-tc1000-v1-ultrabee",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/torp-tc1000-controller",
+        "https://www.torpmotors.com/bikes/surron-ultra-bee/"
+      ],
+      "notes": "WEAK: evidence is a table column on TORP (EU maker) page, not the CCW listing \u2014 TORP Ultra Bee page lists TC1000 output on the \"Stock 2025 72V\" battery (27 kW): names the 2025/21kW bike. MY26 MCU changed; 24.5kW fit not stated. (checked Nov 11, 2026)"
+    },
     {
-          "product_id": "ventus-aetos-ultra",
-          "bike_id": "ultrabee-21kw",
-          "status": "verify",
-          "required_adapters": [],
-          "fitment_source_urls": [
-                "https://chargedcycleworks.com/products/ventus-aetos-ultra-controller"
-          ],
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+      "product_id": "ventus-aetos-ultra",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-aetos-ultra-controller"
+      ],
+      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
     }
   ],
   "products": [
@@ -1422,34 +1253,6 @@
       "image": "img/parts/vtb-aetos-pro.webp"
     },
     {
-      "id": "vtb-aetos-gen2-harness",
-      "name": "VTB Aetos Gen.2 Bike-Specific Harness Kit",
-      "brand": "VTB",
-      "category": "controller",
-      "price_usd": 60.0,
-      "vendor": "TB Electric Moto",
-      "buy_url": "https://tbelectricmoto.com/products/ventus-aetos-harness-kits",
-      "tier": "accessory",
-      "is_upgrade": false,
-      "stock_status": "in_stock",
-      "notes": "Harness-only; no controller included. Only for Gen.2 / 1.7 controllers (Aetos Pro, Max, Ultra). Bike-specific variants: Light Bee $60, Ultra Bee $60 (variant out of stock as of check), Talaria MX3/4/5 $60, E Ride Pro SS 2.0/3.0/SR $90.",
-      "source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-      ],
-      "last_checked": "2026-10-12",
-      "weight_kg": null,
-      "power_change_kw": null,
-      "vendors": [
-        {
-          "vendor": "TB Electric Moto",
-          "price_usd": 60.0,
-          "buy_url": "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
-        }
-      ],
-      "weight_delta_kg": null,
-      "image": "img/parts/vtb-aetos-gen2-harness.webp"
-    },
-    {
       "id": "ctrl-ventus-aetos-max",
       "name": "VTB Aetos Max Controller",
       "brand": "VTB",
@@ -1464,7 +1267,10 @@
       "power_change_kw": null,
       "is_upgrade": true,
       "source_urls": [
-        "https://ventusbikes.us/products/ventus-aetos-max-controller"
+        "https://ventusbikes.us/products/ventus-aetos-max-controller",
+        "https://chargedcycleworks.com/products/ventus-aetos-max-controller",
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller"
       ],
       "last_checked": "2026-10-12",
       "notes": "Price verified $1,199, in stock. EVO already uses the Aetos Pro \u2014 confirm controller generation, harness, battery voltage and whether this is a true upgrade before purchase.",
@@ -1477,7 +1283,11 @@
       ],
       "weight_delta_kg": null,
       "controller_max_kw": 76.0,
-      "image": "img/parts/ctrl-ventus-aetos-max.webp"
+      "image": "img/parts/ctrl-ventus-aetos-max.webp",
+      "_fit": {
+        "Sur-Ron Ultra Bee 21kW": "verify",
+        "Re Rode RX": "verify"
+      }
     },
     {
       "id": "torp-tc1000-v1-ultrabee",
@@ -1932,739 +1742,652 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-ventus-aetos-pro-controller.webp"
-    }
-  ,
+    },
     {
-          "id": "altispowersports-altis-delta-controller-cover",
-          "name": "Altis Delta Controller Cover",
-          "brand": "Altis",
-          "category": "controller",
+      "id": "altispowersports-altis-delta-controller-cover",
+      "name": "Altis Delta Controller Cover",
+      "brand": "Altis",
+      "category": "controller",
+      "price_usd": 28.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-controller-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-controller-cover"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-controller-cover"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 28.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-controller-cover",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-controller-cover"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-controller-cover"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 28.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-controller-cover"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-controller-cover"
+        }
+      ]
+    },
     {
-          "id": "altispowersports-altis-delta-controller-wire-cover",
-          "name": "Altis Delta Controller Wire cover",
-          "brand": "Altis",
-          "category": "controller",
+      "id": "altispowersports-altis-delta-controller-wire-cover",
+      "name": "Altis Delta Controller Wire cover",
+      "brand": "Altis",
+      "category": "controller",
+      "price_usd": 15.0,
+      "vendor": "Altis Powersports",
+      "buy_url": "https://www.altispowersports.com/products/altis-delta-controller-wire-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://www.altispowersports.com/products/altis-delta-controller-wire-cover"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://www.altispowersports.com/products/altis-delta-controller-wire-cover"
+      },
+      "vendors": [
+        {
+          "vendor": "Altis Powersports",
           "price_usd": 15.0,
-          "vendor": "Altis Powersports",
-          "buy_url": "https://www.altispowersports.com/products/altis-delta-controller-wire-cover",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://www.altispowersports.com/products/altis-delta-controller-wire-cover"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://www.altispowersports.com/products/altis-delta-controller-wire-cover"
-          },
-          "vendors": [
-                {
-                      "vendor": "Altis Powersports",
-                      "price_usd": 15.0,
-                      "buy_url": "https://www.altispowersports.com/products/altis-delta-controller-wire-cover"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-controller-wire-cover"
+        }
+      ]
+    },
     {
-          "id": "chargedcycleworks-ventus-aetos-max-controller",
-          "name": "Ventus Aetos Max Controller for 88V and 96V Batteries",
-          "brand": "Charged Cycle Works",
-          "category": "controller",
-          "price_usd": 1199.0,
-          "vendor": "Charged Cycle Works",
-          "buy_url": "https://chargedcycleworks.com/products/ventus-aetos-max-controller",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named.",
-          "source_urls": [
-                "https://chargedcycleworks.com/products/ventus-aetos-max-controller"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Sur-Ron Ultra Bee 21kW": "likely_fit"
-          },
-          "_fit_src": {
-                "ultrabee-21kw": "https://chargedcycleworks.com/products/ventus-aetos-max-controller"
-          },
-          "vendors": [
-                {
-                      "vendor": "Charged Cycle Works",
-                      "price_usd": 1199.0,
-                      "buy_url": "https://chargedcycleworks.com/products/ventus-aetos-max-controller"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "gritshift-ebmx-x-9000-controller-thumb-throttle",
-          "name": "EBMX X-9000 Controller Thumb Throttle",
-          "brand": "Ebmx",
-          "category": "controller",
+      "id": "gritshift-ebmx-x-9000-controller-thumb-throttle",
+      "name": "EBMX X-9000 Controller Thumb Throttle",
+      "brand": "Ebmx",
+      "category": "controller",
+      "price_usd": 34.99,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
           "price_usd": 34.99,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 34.99,
-                      "buy_url": "https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle"
+        }
+      ]
+    },
     {
-          "id": "gritshift-ebmx-x-9000-v2-controller-sw102-display-e-moto",
-          "name": "EBMX X-9000 V2 Controller SW102 Display for E-Motos",
-          "brand": "Ebmx",
-          "category": "controller",
+      "id": "gritshift-ebmx-x-9000-v2-controller-sw102-display-e-moto",
+      "name": "EBMX X-9000 V2 Controller SW102 Display for E-Motos",
+      "brand": "Ebmx",
+      "category": "controller",
+      "price_usd": 84.99,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
           "price_usd": 84.99,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto",
-          "tier": "midrange",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 84.99,
-                      "buy_url": "https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto"
+        }
+      ]
+    },
     {
-          "id": "gritshift-ebmx-x-9000-v3-controller-2-1-harness",
-          "name": "EBMX X-9000 V3 Controller 2-1 Harness",
-          "brand": "Ebmx",
-          "category": "controller",
+      "id": "gritshift-ebmx-x-9000-v3-controller-2-1-harness",
+      "name": "EBMX X-9000 V3 Controller 2-1 Harness",
+      "brand": "Ebmx",
+      "category": "controller",
+      "price_usd": 39.99,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
           "price_usd": 39.99,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness",
-          "tier": "budget",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 39.99,
-                      "buy_url": "https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness"
+        }
+      ]
+    },
     {
-          "id": "gritshift-ebmx-x9000-v3-base-controller",
-          "name": "EBMX X9000 V3 Base Controller",
-          "brand": "Ebmx",
-          "category": "controller",
+      "id": "gritshift-ebmx-x9000-v3-base-controller",
+      "name": "EBMX X9000 V3 Base Controller",
+      "brand": "Ebmx",
+      "category": "controller",
+      "price_usd": 1099.99,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/ebmx-x9000-v3-base-controller",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/ebmx-x9000-v3-base-controller"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/ebmx-x9000-v3-base-controller"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
           "price_usd": 1099.99,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/ebmx-x9000-v3-base-controller",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/ebmx-x9000-v3-base-controller"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/ebmx-x9000-v3-base-controller"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 1099.99,
-                      "buy_url": "https://gritshift.com/products/ebmx-x9000-v3-base-controller"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://gritshift.com/products/ebmx-x9000-v3-base-controller"
+        }
+      ]
+    },
     {
-          "id": "gritshift-ventus-heatsink-vtb-aetos-gen-2-controllers",
-          "name": "Ventus Heatsink for VTB Aetos Gen 2 Controllers",
-          "brand": "GritShift",
-          "category": "controller",
+      "id": "gritshift-ventus-heatsink-vtb-aetos-gen-2-controllers",
+      "name": "Ventus Heatsink for VTB Aetos Gen 2 Controllers",
+      "brand": "GritShift",
+      "category": "controller",
+      "price_usd": 89.99,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
           "price_usd": 89.99,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers",
-          "tier": "midrange",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 89.99,
-                      "buy_url": "https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers"
+        }
+      ]
+    },
     {
-          "id": "gritshift-ventus-vtb-aetos-pro-controller",
-          "name": "Ventus Aetos Pro V9600 Controller",
-          "brand": "GritShift",
-          "category": "controller",
+      "id": "gritshift-ventus-vtb-aetos-pro-controller",
+      "name": "Ventus Aetos Pro V9600 Controller",
+      "brand": "GritShift",
+      "category": "controller",
+      "price_usd": 1099.99,
+      "vendor": "GritShift",
+      "buy_url": "https://gritshift.com/products/ventus-vtb-aetos-pro-controller",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+      "source_urls": [
+        "https://gritshift.com/collections/rerode-rx-parts",
+        "https://gritshift.com/products/ventus-vtb-aetos-pro-controller"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Re Rode RX": "likely_fit"
+      },
+      "_fit_src": {
+        "rerode-rx": "https://gritshift.com/products/ventus-vtb-aetos-pro-controller"
+      },
+      "vendors": [
+        {
+          "vendor": "GritShift",
           "price_usd": 1099.99,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/ventus-vtb-aetos-pro-controller",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/ventus-vtb-aetos-pro-controller"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/ventus-vtb-aetos-pro-controller"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 1099.99,
-                      "buy_url": "https://gritshift.com/products/ventus-vtb-aetos-pro-controller"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://gritshift.com/products/ventus-vtb-aetos-pro-controller"
+        }
+      ]
+    },
     {
-          "id": "gritshift-ventus-vtb-v9600-aetos-max-controller",
-          "name": "Ventus Aetos Max V9600 Controller",
-          "brand": "GritShift",
-          "category": "controller",
-          "price_usd": 1199.99,
-          "vendor": "GritShift",
-          "buy_url": "https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller",
-          "tier": "premium",
-          "is_upgrade": true,
-          "stock_status": "in_stock",
-          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
-          "source_urls": [
-                "https://gritshift.com/collections/rerode-rx-parts",
-                "https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Re Rode RX": "likely_fit"
-          },
-          "_fit_src": {
-                "rerode-rx": "https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller"
-          },
-          "vendors": [
-                {
-                      "vendor": "GritShift",
-                      "price_usd": 1199.99,
-                      "buy_url": "https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller"
-                }
-          ]
-    }
-  ,
-    {
-          "id": "revrides-altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports",
-          "name": "Altis Delta Controller Cover | OEM Controller Protection Cover | By Altis Powersports",
-          "brand": "Altis",
-          "category": "controller",
+      "id": "revrides-altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports",
+      "name": "Altis Delta Controller Cover | OEM Controller Protection Cover | By Altis Powersports",
+      "brand": "Altis",
+      "category": "controller",
+      "price_usd": 28.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
           "price_usd": 28.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 28.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://revrides.com/products/altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports"
+        }
+      ]
+    },
     {
-          "id": "revrides-altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports",
-          "name": "Altis Delta Controller Wire Cover | OEM Electrical Protection Cover | By Altis Powersports",
-          "brand": "Altis",
-          "category": "controller",
+      "id": "revrides-altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports",
+      "name": "Altis Delta Controller Wire Cover | OEM Electrical Protection Cover | By Altis Powersports",
+      "brand": "Altis",
+      "category": "controller",
+      "price_usd": 15.0,
+      "vendor": "REV Rides",
+      "buy_url": "https://revrides.com/products/altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Product title names the bike.",
+      "source_urls": [
+        "https://revrides.com/products/altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "direct_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://revrides.com/products/altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports"
+      },
+      "vendors": [
+        {
+          "vendor": "REV Rides",
           "price_usd": 15.0,
-          "vendor": "REV Rides",
-          "buy_url": "https://revrides.com/products/altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Product title names the bike.",
-          "source_urls": [
-                "https://revrides.com/products/altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "direct_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://revrides.com/products/altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports"
-          },
-          "vendors": [
-                {
-                      "vendor": "REV Rides",
-                      "price_usd": 15.0,
-                      "buy_url": "https://revrides.com/products/altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://revrides.com/products/altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display",
-          "name": "Tuttio Soleil01 Ebike Controller (be compatible with M button display)",
-          "brand": "Tuttio",
-          "category": "controller",
+      "id": "tuttio-tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display",
+      "name": "Tuttio Soleil01 Ebike Controller (be compatible with M button display)",
+      "brand": "Tuttio",
+      "category": "controller",
+      "price_usd": 165.99,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 165.99,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 165.99,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-ebike-controller-bracket",
-          "name": "Tuttio Soleil01 Ebike Controller Bracket",
-          "brand": "Tuttio",
-          "category": "controller",
+      "id": "tuttio-tuttio-soleil01-ebike-controller-bracket",
+      "name": "Tuttio Soleil01 Ebike Controller Bracket",
+      "brand": "Tuttio",
+      "category": "controller",
+      "price_usd": 45.0,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 45.0,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 45.0,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-ebike-controller-housing",
-          "name": "Tuttio Soleil01 Ebike Controller Housing",
-          "brand": "Tuttio",
-          "category": "controller",
+      "id": "tuttio-tuttio-soleil01-ebike-controller-housing",
+      "name": "Tuttio Soleil01 Ebike Controller Housing",
+      "brand": "Tuttio",
+      "category": "controller",
+      "price_usd": 45.0,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 45.0,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 45.0,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing"
+        }
+      ]
+    },
     {
-          "id": "tuttio-tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display",
-          "name": "Tuttio Soleil01 Ebike Controller Main Line (be compatible with M button display)",
-          "brand": "Tuttio",
-          "category": "controller",
+      "id": "tuttio-tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display",
+      "name": "Tuttio Soleil01 Ebike Controller Main Line (be compatible with M button display)",
+      "brand": "Tuttio",
+      "category": "controller",
+      "price_usd": 35.0,
+      "vendor": "Tuttio",
+      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+      "source_urls": [
+        "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "direct_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display"
+      },
+      "vendors": [
+        {
+          "vendor": "Tuttio",
           "price_usd": 35.0,
-          "vendor": "Tuttio",
-          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
-          "source_urls": [
-                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "direct_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display"
-          },
-          "vendors": [
-                {
-                      "vendor": "Tuttio",
-                      "price_usd": 35.0,
-                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-controller-cover-delta-delta-s",
-          "name": "OEM Controller Cover (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "controller",
+      "id": "wiredwhips-oem-controller-cover-delta-delta-s",
+      "name": "OEM Controller Cover (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "controller",
+      "price_usd": 35.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_controller-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_controller-cover"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_controller-cover"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 35.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_controller-cover",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_controller-cover"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_controller-cover"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 35.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_controller-cover"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_controller-cover"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-controller-wire-cover-delta-delta-s",
-          "name": "OEM Controller Wire Cover (Delta / Delta S)",
-          "brand": "Wired Whips",
-          "category": "controller",
+      "id": "wiredwhips-oem-controller-wire-cover-delta-delta-s",
+      "name": "OEM Controller Wire Cover (Delta / Delta S)",
+      "brand": "Wired Whips",
+      "category": "controller",
+      "price_usd": 19.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_controller-wire-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/altis-powersports_delta_controller-wire-cover"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Altis Delta": "likely_fit"
+      },
+      "_fit_src": {
+        "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_controller-wire-cover"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 19.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_controller-wire-cover",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/altis-powersports_delta_controller-wire-cover"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Altis Delta": "likely_fit"
-          },
-          "_fit_src": {
-                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_controller-wire-cover"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 19.99,
-                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_controller-wire-cover"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_controller-wire-cover"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-controller-bracket-soleil01-controller-bracket",
-          "name": "OEM Soleil01 Controller Bracket (soleil01-controller-bracket)",
-          "brand": "Wired Whips",
-          "category": "controller",
+      "id": "wiredwhips-oem-soleil01-controller-bracket-soleil01-controller-bracket",
+      "name": "OEM Soleil01 Controller Bracket (soleil01-controller-bracket)",
+      "brand": "Wired Whips",
+      "category": "controller",
+      "price_usd": 56.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-bracket",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_controller-bracket"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_controller-bracket"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 56.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-bracket",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_controller-bracket"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_controller-bracket"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 56.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-bracket"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-bracket"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-controller-housing-soleil01-controller-housing",
-          "name": "OEM Soleil01 Controller Housing (soleil01-controller-housing)",
-          "brand": "Wired Whips",
-          "category": "controller",
+      "id": "wiredwhips-oem-soleil01-controller-housing-soleil01-controller-housing",
+      "name": "OEM Soleil01 Controller Housing (soleil01-controller-housing)",
+      "brand": "Wired Whips",
+      "category": "controller",
+      "price_usd": 56.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-housing",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_controller-housing"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_controller-housing"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 56.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-housing",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_controller-housing"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_controller-housing"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 56.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-housing"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-housing"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-controller-m-button-kh-display-soleil01-controller-kh",
-          "name": "OEM Soleil01 Controller (M-button / KH display) (soleil01-controller-kh)",
-          "brand": "Wired Whips",
-          "category": "controller",
+      "id": "wiredwhips-oem-soleil01-controller-m-button-kh-display-soleil01-controller-kh",
+      "name": "OEM Soleil01 Controller (M-button / KH display) (soleil01-controller-kh)",
+      "brand": "Wired Whips",
+      "category": "controller",
+      "price_usd": 205.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-kh",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_controller-kh"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_controller-kh"
+      },
+      "vendors": [
+        {
+          "vendor": "Wired Whips",
           "price_usd": 205.99,
-          "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-kh",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "out_of_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check; OUT OF STOCK \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_controller-kh"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_controller-kh"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 205.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-kh"
-                }
-          ]
-    }
-  ,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-kh"
+        }
+      ]
+    },
     {
-          "id": "wiredwhips-oem-soleil01-controller-main-line-m-button-soleil01-main-line",
-          "name": "OEM Soleil01 Controller Main Line (M-button) (soleil01-main-line)",
-          "brand": "Wired Whips",
-          "category": "controller",
-          "price_usd": 44.99,
+      "id": "wiredwhips-oem-soleil01-controller-main-line-m-button-soleil01-main-line",
+      "name": "OEM Soleil01 Controller Main Line (M-button) (soleil01-main-line)",
+      "brand": "Wired Whips",
+      "category": "controller",
+      "price_usd": 44.99,
+      "vendor": "Wired Whips",
+      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-mainline-kh",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+      "source_urls": [
+        "https://wiredwhips.com/parts/tuttio_soleil01_controller-mainline-kh"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Tuttio Soleil01": "likely_fit"
+      },
+      "_fit_src": {
+        "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_controller-mainline-kh"
+      },
+      "vendors": [
+        {
           "vendor": "Wired Whips",
-          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-mainline-kh",
-          "tier": "OEM",
-          "is_upgrade": false,
-          "stock_status": "in_stock",
-          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
-          "source_urls": [
-                "https://wiredwhips.com/parts/tuttio_soleil01_controller-mainline-kh"
-          ],
-          "last_checked": "2026-11-11",
-          "weight_kg": null,
-          "power_change_kw": null,
-          "_fit": {
-                "Tuttio Soleil01": "likely_fit"
-          },
-          "_fit_src": {
-                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_controller-mainline-kh"
-          },
-          "vendors": [
-                {
-                      "vendor": "Wired Whips",
-                      "price_usd": 44.99,
-                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-mainline-kh"
-                }
-          ]
+          "price_usd": 44.99,
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-mainline-kh"
+        }
+      ]
     }
   ]
 }
