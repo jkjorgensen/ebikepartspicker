@@ -3463,6 +3463,1987 @@
         "rawrr-mantis-72v": "https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective"
       }
     }
+  ,
+    {
+          "id": "altispowersports-altis-delta-brake-assembly",
+          "name": "Altis Delta Brake Assembly",
+          "brand": "Altis",
+          "category": "brakes",
+          "price_usd": 150.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-brake-assembly",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-brake-assembly"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-brake-assembly"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 150.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-brake-assembly"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-brake-disc",
+          "name": "Altis Delta Brake Disc",
+          "brand": "Altis",
+          "category": "brakes",
+          "price_usd": 28.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-brake-disc",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-brake-disc"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-brake-disc"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 28.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-brake-disc"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-brake-pads-2pcs",
+          "name": "Altis Delta Brake Pads (2pcs)",
+          "brand": "Altis",
+          "category": "brakes",
+          "price_usd": 18.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-brake-pads-2pcs",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-brake-pads-2pcs"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-brake-pads-2pcs"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 18.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-brake-pads-2pcs"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-footbrake-assembly",
+          "name": "Altis Delta DBK FootBrake Assembly",
+          "brand": "Altis",
+          "category": "brakes",
+          "price_usd": 250.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-footbrake-assembly",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-footbrake-assembly"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-footbrake-assembly"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 250.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-footbrake-assembly"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-footbrake-lever",
+          "name": "Altis Delta DBK Footbrake Lever",
+          "brand": "Altis",
+          "category": "brakes",
+          "price_usd": 28.99,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-footbrake-lever",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-footbrake-lever"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-footbrake-lever"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 28.99,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-footbrake-lever"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-front-brake-assembly",
+          "name": "Altis Delta DBK Front Brake Assembly",
+          "brand": "Altis",
+          "category": "brakes",
+          "price_usd": 150.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-front-brake-assembly",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-front-brake-assembly"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-front-brake-assembly"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 150.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-front-brake-assembly"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-number-plate-bracket",
+          "name": "Altis Delta DBK Number Plate Braket",
+          "brand": "Altis",
+          "category": "brakes",
+          "price_usd": 6.99,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-number-plate-bracket",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-number-plate-bracket"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-number-plate-bracket"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 6.99,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-number-plate-bracket"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-dbk-rear-reflector-bracket",
+          "name": "Altis Delta DBK Rear Reflector Braket",
+          "brand": "Altis",
+          "category": "brakes",
+          "price_usd": 5.99,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-rear-reflector-bracket",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Part is for the Delta DBK variant, not the standard Delta.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-rear-reflector-bracket"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-dbk-rear-reflector-bracket"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 5.99,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-dbk-rear-reflector-bracket"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-delta-footbrake",
+          "name": "Altis Delta Footbrake",
+          "brand": "Altis",
+          "category": "brakes",
+          "price_usd": 250.0,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-delta-footbrake",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-footbrake"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-delta-footbrake"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 250.0,
+                      "buy_url": "https://www.altispowersports.com/products/altis-delta-footbrake"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "altispowersports-altis-upgraded-brake-lever-set",
+          "name": "ALTIS Upgraded Brake Lever Set",
+          "brand": "Altis",
+          "category": "brakes",
+          "price_usd": 35.99,
+          "vendor": "Altis Powersports",
+          "buy_url": "https://www.altispowersports.com/products/altis-upgraded-brake-lever-set",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...rake Lever Set ALTIS Upgraded Brake Lever Set Compatible with ALTIS Delta and Sigma Off-road Silver Red Black...\"",
+          "source_urls": [
+                "https://www.altispowersports.com/products/altis-upgraded-brake-lever-set"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://www.altispowersports.com/products/altis-upgraded-brake-lever-set"
+          },
+          "vendors": [
+                {
+                      "vendor": "Altis Powersports",
+                      "price_usd": 35.99,
+                      "buy_url": "https://www.altispowersports.com/products/altis-upgraded-brake-lever-set"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "gritshift-helix-brake-bleeder-caps-e-motos-4-pack",
+          "name": "Helix Brake Bleeder Caps for E-Motos - 4 Pack",
+          "brand": "GritShift",
+          "category": "brakes",
+          "price_usd": 12.95,
+          "vendor": "GritShift",
+          "buy_url": "https://gritshift.com/products/helix-brake-bleeder-caps-e-motos-4-pack",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
+          "source_urls": [
+                "https://gritshift.com/collections/rerode-rx-parts",
+                "https://gritshift.com/products/helix-brake-bleeder-caps-e-motos-4-pack"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Re Rode RX": "likely_fit"
+          },
+          "_fit_src": {
+                "rerode-rx": "https://gritshift.com/products/helix-brake-bleeder-caps-e-motos-4-pack"
+          },
+          "vendors": [
+                {
+                      "vendor": "GritShift",
+                      "price_usd": 12.95,
+                      "buy_url": "https://gritshift.com/products/helix-brake-bleeder-caps-e-motos-4-pack"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "howlingmoto-surron-foot-brake-master-cylinder-hsk",
+          "name": "Surron Foot Brake Master Cylinder HSK",
+          "brand": "Howling Moto",
+          "category": "brakes",
+          "price_usd": 19.99,
+          "vendor": "Howling Moto",
+          "buy_url": "https://howlingmoto.com/products/surron-foot-brake-master-cylinder-hsk",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...Talaria X3, MX3, MX4, MX5 Eride Pro SS 1.0, 2.0, 3.0, SR Tuttio Soleil 01 Ships from USA! FactoryZ Shopify Col...\"",
+          "source_urls": [
+                "https://howlingmoto.com/products/surron-foot-brake-master-cylinder-hsk"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://howlingmoto.com/products/surron-foot-brake-master-cylinder-hsk"
+          },
+          "vendors": [
+                {
+                      "vendor": "Howling Moto",
+                      "price_usd": 19.99,
+                      "buy_url": "https://howlingmoto.com/products/surron-foot-brake-master-cylinder-hsk"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "howlingmoto-tuttio-soleil-01-foot-brake-bracket",
+          "name": "Tuttio Soleil 01 Foot Brake Bracket",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 179.99,
+          "vendor": "Howling Moto",
+          "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-foot-brake-bracket",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://howlingmoto.com/products/tuttio-soleil-01-foot-brake-bracket"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://howlingmoto.com/products/tuttio-soleil-01-foot-brake-bracket"
+          },
+          "vendors": [
+                {
+                      "vendor": "Howling Moto",
+                      "price_usd": 179.99,
+                      "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-foot-brake-bracket"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "howlingmoto-tuttio-soleil-01-front-brake-pads",
+          "name": "Tuttio Soleil 01 Front Brake Pads",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 14.99,
+          "vendor": "Howling Moto",
+          "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-front-brake-pads",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://howlingmoto.com/products/tuttio-soleil-01-front-brake-pads"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://howlingmoto.com/products/tuttio-soleil-01-front-brake-pads"
+          },
+          "vendors": [
+                {
+                      "vendor": "Howling Moto",
+                      "price_usd": 14.99,
+                      "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-front-brake-pads"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "howlingmoto-tuttio-soleil-01-rear-brake-pads",
+          "name": "Tuttio Soleil 01 Rear Brake Pads",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 14.99,
+          "vendor": "Howling Moto",
+          "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-rear-brake-pads",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://howlingmoto.com/products/tuttio-soleil-01-rear-brake-pads"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://howlingmoto.com/products/tuttio-soleil-01-rear-brake-pads"
+          },
+          "vendors": [
+                {
+                      "vendor": "Howling Moto",
+                      "price_usd": 14.99,
+                      "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-rear-brake-pads"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "howlingmoto-tuttio-soleil-01-ultra-bee-brake-bracket",
+          "name": "Tuttio Soleil 01 Ultra Bee Brake Bracket",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 98.99,
+          "vendor": "Howling Moto",
+          "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-ultra-bee-brake-bracket",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://howlingmoto.com/products/tuttio-soleil-01-ultra-bee-brake-bracket"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://howlingmoto.com/products/tuttio-soleil-01-ultra-bee-brake-bracket"
+          },
+          "vendors": [
+                {
+                      "vendor": "Howling Moto",
+                      "price_usd": 98.99,
+                      "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-ultra-bee-brake-bracket"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "howlingmoto-tuttio-soleil-01-ultra-brake-foot-brake-kit-pre-bled",
+          "name": "Tuttio Soleil 01 Ultra Brake Foot Brake Kit, Pre-Bled",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 279.99,
+          "vendor": "Howling Moto",
+          "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-ultra-brake-foot-brake-kit-pre-bled",
+          "tier": "premium",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://howlingmoto.com/products/tuttio-soleil-01-ultra-brake-foot-brake-kit-pre-bled"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://howlingmoto.com/products/tuttio-soleil-01-ultra-brake-foot-brake-kit-pre-bled"
+          },
+          "vendors": [
+                {
+                      "vendor": "Howling Moto",
+                      "price_usd": 279.99,
+                      "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-ultra-brake-foot-brake-kit-pre-bled"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "howlingmoto-tuttio-soleil-01-ultra-brake-hand-brake-kit-pre-bled",
+          "name": "Tuttio Soleil 01 Ultra Brake Hand Brake Kit, Pre-Bled",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 209.99,
+          "vendor": "Howling Moto",
+          "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-ultra-brake-hand-brake-kit-pre-bled",
+          "tier": "premium",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://howlingmoto.com/products/tuttio-soleil-01-ultra-brake-hand-brake-kit-pre-bled"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://howlingmoto.com/products/tuttio-soleil-01-ultra-brake-hand-brake-kit-pre-bled"
+          },
+          "vendors": [
+                {
+                      "vendor": "Howling Moto",
+                      "price_usd": 209.99,
+                      "buy_url": "https://howlingmoto.com/products/tuttio-soleil-01-ultra-brake-hand-brake-kit-pre-bled"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "mtnmotoworks-ultra-bee-rear-brake-kit",
+          "name": "Ultra Bee-Style Rear Brake Kit | Strike, Yozma & Tuttio",
+          "brand": "MTN MotoWorks",
+          "category": "brakes",
+          "price_usd": 199.95,
+          "vendor": "MTN MotoWorks",
+          "buy_url": "https://mtnmotoworks.com/products/ultra-bee-rear-brake-kit",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...able clearance must also match. 12mm rear axle \u2014 including Tuttio Soleil 01, Yozma IN10, Strike (12mm models),...\"",
+          "source_urls": [
+                "https://mtnmotoworks.com/products/ultra-bee-rear-brake-kit"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://mtnmotoworks.com/products/ultra-bee-rear-brake-kit"
+          },
+          "vendors": [
+                {
+                      "vendor": "MTN MotoWorks",
+                      "price_usd": 199.95,
+                      "buy_url": "https://mtnmotoworks.com/products/ultra-bee-rear-brake-kit"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-brake-assembly-front-or-rear-by-altis-powersports",
+          "name": "Altis Delta Brake Disc Rotor | Front or Rear | By Altis Powersports",
+          "brand": "Altis",
+          "category": "brakes",
+          "price_usd": 28.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-brake-assembly-front-or-rear-by-altis-powersports",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-brake-assembly-front-or-rear-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-brake-assembly-front-or-rear-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 28.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-brake-assembly-front-or-rear-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "revrides-altis-delta-brake-pads-2-piece-set-for-one-brake-by-altis-powersports",
+          "name": "Altis Delta Brake Pads | 2-Piece Set for One Brake | By Altis Powersports",
+          "brand": "Altis",
+          "category": "brakes",
+          "price_usd": 15.0,
+          "vendor": "REV Rides",
+          "buy_url": "https://revrides.com/products/altis-delta-brake-pads-2-piece-set-for-one-brake-by-altis-powersports",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://revrides.com/products/altis-delta-brake-pads-2-piece-set-for-one-brake-by-altis-powersports"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://revrides.com/products/altis-delta-brake-pads-2-piece-set-for-one-brake-by-altis-powersports"
+          },
+          "vendors": [
+                {
+                      "vendor": "REV Rides",
+                      "price_usd": 15.0,
+                      "buy_url": "https://revrides.com/products/altis-delta-brake-pads-2-piece-set-for-one-brake-by-altis-powersports"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr",
+          "name": "ASV F3-E Break Away Levers For Altis, Talaria MX5, Ultra Bee, E-Ride 3.0/SR-Type 2 Brakes",
+          "brand": "Asv",
+          "category": "brakes",
+          "price_usd": 150.0,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...eak Away Levers are forged-aluminum replacement brake levers for the Altis Sigma and Delta, Talaria Sting MX5,...\"",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://tbelectricmoto.com/products/asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 150.0,
+                      "buy_url": "https://tbelectricmoto.com/products/asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-asv-f4-e-break-away-levers-for-e-ride-pro-3-0-sr-talaria-sting-mx5-altis-sigma",
+          "name": "ASV F4-E Break Away Levers For Ultra Bee, MX5, E-Ride 3.0/ SR",
+          "brand": "Asv",
+          "category": "brakes",
+          "price_usd": 175.0,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/asv-f4-e-break-away-levers-for-e-ride-pro-3-0-sr-talaria-sting-mx5-altis-sigma",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...(Type 2 brakes only) 2025 E-Ride Pro SS 3.0 (Type 2 brakes only) Altis Sigma Altis Delta Tork Pro Sport Arctic...\"",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/asv-f4-e-break-away-levers-for-e-ride-pro-3-0-sr-talaria-sting-mx5-altis-sigma"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://tbelectricmoto.com/products/asv-f4-e-break-away-levers-for-e-ride-pro-3-0-sr-talaria-sting-mx5-altis-sigma"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 175.0,
+                      "buy_url": "https://tbelectricmoto.com/products/asv-f4-e-break-away-levers-for-e-ride-pro-3-0-sr-talaria-sting-mx5-altis-sigma"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-brake-rotors-for-pitbikes-yozma-heybike-tuttio",
+          "name": "Brake Rotors for Pitbikes Yozma, Heybike, Tuttio",
+          "brand": "TB Electric Moto",
+          "category": "brakes",
+          "price_usd": 15.0,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/brake-rotors-for-pitbikes-yozma-heybike-tuttio",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...NT Yozma IN10 Yozma IN10 Pro Heybike Villain Tuttio Soleil and Soleil01 Strike Shadow Tasaca T500-V5...\"",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/brake-rotors-for-pitbikes-yozma-heybike-tuttio"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tbelectricmoto.com/products/brake-rotors-for-pitbikes-yozma-heybike-tuttio"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 15.0,
+                      "buy_url": "https://tbelectricmoto.com/products/brake-rotors-for-pitbikes-yozma-heybike-tuttio"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-tb-brake-lever-replacement-parts",
+          "name": "TB Brake Lever Replacement Parts",
+          "brand": "TB Electric Moto",
+          "category": "brakes",
+          "price_usd": 20.0,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/tb-brake-lever-replacement-parts",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...ro SS 3.0 E-Ride Pro SR E-Ride Pro 4.0 Tork Pro Sport Altis Sigma Altis Delta Full bike fitment for the comple...\"",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/tb-brake-lever-replacement-parts"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://tbelectricmoto.com/products/tb-brake-lever-replacement-parts"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 20.0,
+                      "buy_url": "https://tbelectricmoto.com/products/tb-brake-lever-replacement-parts"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr",
+          "name": "TB Brake Levers for Talaria Sting MX5, E-Ride 3.0/SR, Altis Sigma",
+          "brand": "TB Electric Moto",
+          "category": "brakes",
+          "price_usd": 55.0,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...t. \u2705 BIKE FITMENT Talaria Sting MX5 Surron Ultra Bee Altis Sigma Altis Delta E-Ride Pro SS 3.0 (2025 version b...\"",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://tbelectricmoto.com/products/tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 55.0,
+                      "buy_url": "https://tbelectricmoto.com/products/tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-tuttio-soleil01-folding-brake-levers",
+          "name": "Tuttio Soleil01 CNC Folding Brake Levers",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 30.0,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-folding-brake-levers",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/tuttio-soleil01-folding-brake-levers"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tbelectricmoto.com/products/tuttio-soleil01-folding-brake-levers"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 30.0,
+                      "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-folding-brake-levers"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-tuttio-soleil01-replacement-brake-pads",
+          "name": "Tuttio Soleil01 Replacement Brake Pads",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 15.0,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-brake-pads",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Product title names the bike.",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-brake-pads"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-brake-pads"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 15.0,
+                      "buy_url": "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-brake-pads"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-ultra-bee-brake-upgrade-kit-for-yozma-tuttio-strike-shadow",
+          "name": "Ultra Bee Brake Upgrade Kit for Yozma, Tuttio, Strike, Valtinsu, Tasaca, Villain",
+          "brand": "TB Electric Moto",
+          "category": "brakes",
+          "price_usd": 179.0,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/ultra-bee-brake-upgrade-kit-for-yozma-tuttio-strike-shadow",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...cket. 12MM Axle V1 Fitment HeyBike Villain Tuttio Soleil01 These other models below if they came with Ripp...\"",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/ultra-bee-brake-upgrade-kit-for-yozma-tuttio-strike-shadow"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tbelectricmoto.com/products/ultra-bee-brake-upgrade-kit-for-yozma-tuttio-strike-shadow"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 179.0,
+                      "buy_url": "https://tbelectricmoto.com/products/ultra-bee-brake-upgrade-kit-for-yozma-tuttio-strike-shadow"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tbelectricmoto-warp-9-folding-brake-levers",
+          "name": "Warp 9 Folding Brake Levers for E-Ride 3.0/SR, Altis, MX5",
+          "brand": "Warp 9",
+          "category": "brakes",
+          "price_usd": 46.0,
+          "vendor": "TB Electric Moto",
+          "buy_url": "https://tbelectricmoto.com/products/warp-9-folding-brake-levers",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "Fitment list on product page names the bike: \"...(Version 2 brakes only) E-Ride Pro 4.0 Talaria Sting MX5 Altis Sigma Altis Delta Tork Pro Sport Important: The...\"",
+          "source_urls": [
+                "https://tbelectricmoto.com/products/warp-9-folding-brake-levers"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "direct_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://tbelectricmoto.com/products/warp-9-folding-brake-levers"
+          },
+          "vendors": [
+                {
+                      "vendor": "TB Electric Moto",
+                      "price_usd": 46.0,
+                      "buy_url": "https://tbelectricmoto.com/products/warp-9-folding-brake-levers"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-soleil01-brake-pads",
+          "name": "TUTTIO SOLEIL01 BRAKE PADS",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 15.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/soleil01-brake-pads",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/soleil01-brake-pads"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/soleil01-brake-pads"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 15.0,
+                      "buy_url": "https://tuttiosport.com/products/soleil01-brake-pads"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver",
+          "name": "Tuttio Soleil01 Dirt Bike Hand Brake Levers\uff08Sliver\uff09",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 20.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 20.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-brake-assembly",
+          "name": "Tuttio Soleil01 Brake Assembly",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 85.99,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-assembly",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-assembly"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-assembly"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 85.99,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-assembly"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-brake-caliper-guide-pin-set",
+          "name": "Tuttio Soleil01 Ebike Brake Caliper Guide Pin Set",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 20.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-caliper-guide-pin-set",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-caliper-guide-pin-set"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-caliper-guide-pin-set"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 20.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-caliper-guide-pin-set"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-brake-cut-off-switch",
+          "name": "Tuttio Soleil01 Ebike Brake Cut-off Switch",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 39.99,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-cut-off-switch",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-cut-off-switch"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-cut-off-switch"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 39.99,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-cut-off-switch"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-brake-pads",
+          "name": "Tuttio Soleil01 Ebike Brake Disc",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 29.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-pads",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-pads"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-pads"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 29.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-pads"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-caliper-bolts",
+          "name": "Tuttio Soleil01 Ebike Caliper Bolts",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 15.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-caliper-bolts",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-caliper-bolts"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-caliper-bolts"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 15.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-caliper-bolts"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt",
+          "name": "Tuttio Soleil01 Ebike Rear Brake Caliper Mounting Bolt",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 10.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 10.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-electric-bike-brake-caliper-mount",
+          "name": "Tuttio Soleil01 Ebike Brake Caliper Mount",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 20.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-brake-caliper-mount",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-brake-caliper-mount"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "direct_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-brake-caliper-mount"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 20.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-brake-caliper-mount"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-lo-brake-assembly",
+          "name": "Tuttio Soleil01 LO Brake Assembly",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 64.99,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-lo-brake-assembly",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (LO) only; base Soleil01 fit not stated.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-lo-brake-assembly"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-lo-brake-assembly"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 64.99,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-lo-brake-assembly"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "tuttio-tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black",
+          "name": "Tuttio Soleil01 SE/LO Dirt Bike Hand Brake Levers (Black)",
+          "brand": "Tuttio",
+          "category": "brakes",
+          "price_usd": 16.0,
+          "vendor": "Tuttio",
+          "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated.",
+          "source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://tuttiosport.com/products/tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black"
+          },
+          "vendors": [
+                {
+                      "vendor": "Tuttio",
+                      "price_usd": 16.0,
+                      "buy_url": "https://tuttiosport.com/products/tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-asv-f3-e-break-away-brake-clutch-levers-altis-delta-delta-s",
+          "name": "ASV F3-E Break-Away Brake & Clutch Levers - Altis Delta / Delta S",
+          "brand": "Asv",
+          "category": "brakes",
+          "price_usd": 185.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-levers-asv-f3e",
+          "tier": "midrange",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Delta but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-levers-asv-f3e"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_brake-levers-asv-f3e"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 185.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-levers-asv-f3e"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-brake-assembly-left-front-delta-delta-s",
+          "name": "OEM Brake Assembly Left/Front (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 185.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-assembly-left",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-assembly-left"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_brake-assembly-left"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 185.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-assembly-left"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-brake-assembly-right-rear-delta-delta-s",
+          "name": "OEM Brake Assembly Right/Rear (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 161.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-assembly-right",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-assembly-right"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_brake-assembly-right"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 161.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-assembly-right"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-brake-pads-2pcs-delta-delta-s",
+          "name": "OEM Brake Pads 2pcs (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 23.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-pads",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-pads"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_brake-pads"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 23.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-pads"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-footbrake-set-delta-delta-s",
+          "name": "OEM Footbrake Set (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 304.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_footbrake",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_footbrake"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_footbrake"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 304.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_footbrake"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-front-brake-caliper-assembly-delta-delta-s",
+          "name": "OEM Front Brake Caliper Assembly (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 161.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-caliper-front-assembly",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-caliper-front-assembly"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_brake-caliper-front-assembly"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 161.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-caliper-front-assembly"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-front-brake-disc-delta-delta-s",
+          "name": "OEM Front Brake Disc (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 35.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-rotor-front",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-rotor-front"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_brake-rotor-front"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 35.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-rotor-front"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-rear-brake-caliper-assembly-delta-delta-s",
+          "name": "OEM Rear Brake Caliper Assembly (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 185.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-caliper-rear-assembly",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-caliper-rear-assembly"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_brake-caliper-rear-assembly"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 185.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-caliper-rear-assembly"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-rear-brake-disc-delta-delta-s",
+          "name": "OEM Rear Brake Disc (Delta / Delta S)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 35.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-rotor-rear",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-rotor-rear"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Delta": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-delta": "https://wiredwhips.com/parts/altis-powersports_delta_brake-rotor-rear"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 35.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_brake-rotor-rear"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-brake-assembly-soleil01-front-brake-assembly",
+          "name": "OEM Soleil01 Brake Assembly (soleil01-front-brake-assembly)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 108.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_brake-assembly",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_brake-assembly"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_brake-assembly"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 108.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_brake-assembly"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-brake-caliper-guide-pin-set-soleil01-brake-caliper-guide-pin-set-front",
+          "name": "OEM Soleil01 Brake Caliper Guide Pin Set (soleil01-brake-caliper-guide-pin-set-front)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 25.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_caliper-guide-pins",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_caliper-guide-pins"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_caliper-guide-pins"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 25.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_caliper-guide-pins"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-brake-caliper-mount-soleil-01-brake-caliper-mount-for-rear",
+          "name": "OEM Soleil01 Brake Caliper Mount (soleil-01-brake-caliper-mount-for-rear)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 25.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_caliper-mount",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_caliper-mount"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_caliper-mount"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 25.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_caliper-mount"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-brake-cut-off-switch-soleil01-brake-cut-off-switch",
+          "name": "OEM Soleil01 Brake Cut-off Switch (soleil01-brake-cut-off-switch)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 51.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_brake-cutoff-switch",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_brake-cutoff-switch"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_brake-cutoff-switch"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 51.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_brake-cutoff-switch"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-brake-disc-rotor-soleil-disk",
+          "name": "OEM Soleil01 Brake Disc / Rotor (soleil-disk)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 37.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_brake-disc",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_brake-disc"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_brake-disc"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 37.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_brake-disc"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-brake-pads-soleil01-front-brake-pads",
+          "name": "OEM Soleil01 Brake Pads (SOLEIL01-FRONT-BRAKE-PADS)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 19.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_brake-pads-true",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_brake-pads-true"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_brake-pads-true"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 19.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_brake-pads-true"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-caliper-bolts-soleil01-front-caliper-bolt",
+          "name": "OEM Soleil01 Caliper Bolts (soleil01-front-caliper-bolt)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 19.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_caliper-bolts",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_caliper-bolts"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_caliper-bolts"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 19.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_caliper-bolts"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-hand-brake-levers-silver-soleil01-brake-lever-right",
+          "name": "OEM Soleil01 Hand Brake Levers (Silver) (soleil01-brake-lever-right)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 25.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_brake-levers-silver",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_brake-levers-silver"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_brake-levers-silver"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 25.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_brake-levers-silver"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-oem-soleil01-rear-brake-caliper-mounting-bolt-soleil01-rear-brake-caliper-mounting-bolt",
+          "name": "OEM Soleil01 Rear Brake Caliper Mounting Bolt (soleil01-rear-brake-caliper-mounting-bolt)",
+          "brand": "Wired Whips",
+          "category": "brakes",
+          "price_usd": 12.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-caliper-bolt",
+          "tier": "OEM",
+          "is_upgrade": false,
+          "stock_status": "in_stock",
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic.",
+          "source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_rear-caliper-bolt"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Tuttio Soleil01": "likely_fit"
+          },
+          "_fit_src": {
+                "tuttio-soleil01": "https://wiredwhips.com/parts/tuttio_soleil01_rear-caliper-bolt"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 12.99,
+                      "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-caliper-bolt"
+                }
+          ]
+    }
+  ,
+    {
+          "id": "wiredwhips-warp-9-titanium-rotor-bolts-6-bolt-pattern",
+          "name": "Warp 9 Titanium Rotor Bolts (6-Bolt Pattern)",
+          "brand": "Warp 9",
+          "category": "brakes",
+          "price_usd": 39.99,
+          "vendor": "Wired Whips",
+          "buy_url": "https://wiredwhips.com/parts/altis-powersports_multi_rotor-bolts-ti-generic",
+          "tier": "budget",
+          "is_upgrade": true,
+          "stock_status": "in_stock",
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega).",
+          "source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_multi_rotor-bolts-ti-generic"
+          ],
+          "last_checked": "2026-11-11",
+          "weight_kg": null,
+          "power_change_kw": null,
+          "_fit": {
+                "Altis Omega": "likely_fit"
+          },
+          "_fit_src": {
+                "altis-omega": "https://wiredwhips.com/parts/altis-powersports_multi_rotor-bolts-ti-generic"
+          },
+          "vendors": [
+                {
+                      "vendor": "Wired Whips",
+                      "price_usd": 39.99,
+                      "buy_url": "https://wiredwhips.com/parts/altis-powersports_multi_rotor-bolts-ti-generic"
+                }
+          ]
+    }
   ],
   "compatibility": [
     {
@@ -5360,6 +7341,1000 @@
         "https://chargedcycleworks.com/products/formula-eb9"
       ],
       "notes": "CCW fitment names Ventus One + Evo (95.5mm variant; 95.5mm model only works with Ventus One + Evo models) (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-brake-assembly",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-brake-assembly"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-brake-disc",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-brake-disc"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-brake-pads-2pcs",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-brake-pads-2pcs"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-footbrake-assembly",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-footbrake-assembly"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-footbrake-lever",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-footbrake-lever"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-front-brake-assembly",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-front-brake-assembly"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-number-plate-bracket",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-number-plate-bracket"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-dbk-rear-reflector-bracket",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-dbk-rear-reflector-bracket"
+          ],
+          "notes": "Part is for the Delta DBK variant, not the standard Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-delta-footbrake",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-delta-footbrake"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "altispowersports-altis-upgraded-brake-lever-set",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://www.altispowersports.com/products/altis-upgraded-brake-lever-set"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...rake Lever Set ALTIS Upgraded Brake Lever Set Compatible with ALTIS Delta and Sigma Off-road Silver Red Black...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "gritshift-helix-brake-bleeder-caps-e-motos-4-pack",
+          "bike_id": "rerode-rx",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://gritshift.com/products/helix-brake-bleeder-caps-e-motos-4-pack",
+                "https://gritshift.com/collections/rerode-rx-parts"
+          ],
+          "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "howlingmoto-surron-foot-brake-master-cylinder-hsk",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://howlingmoto.com/products/surron-foot-brake-master-cylinder-hsk"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...Talaria X3, MX3, MX4, MX5 Eride Pro SS 1.0, 2.0, 3.0, SR Tuttio Soleil 01 Ships from USA! FactoryZ Shopify Col...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "howlingmoto-tuttio-soleil-01-foot-brake-bracket",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://howlingmoto.com/products/tuttio-soleil-01-foot-brake-bracket"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "howlingmoto-tuttio-soleil-01-front-brake-pads",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://howlingmoto.com/products/tuttio-soleil-01-front-brake-pads"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "howlingmoto-tuttio-soleil-01-rear-brake-pads",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://howlingmoto.com/products/tuttio-soleil-01-rear-brake-pads"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "howlingmoto-tuttio-soleil-01-ultra-bee-brake-bracket",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://howlingmoto.com/products/tuttio-soleil-01-ultra-bee-brake-bracket"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "howlingmoto-tuttio-soleil-01-ultra-brake-foot-brake-kit-pre-bled",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://howlingmoto.com/products/tuttio-soleil-01-ultra-brake-foot-brake-kit-pre-bled"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "howlingmoto-tuttio-soleil-01-ultra-brake-hand-brake-kit-pre-bled",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://howlingmoto.com/products/tuttio-soleil-01-ultra-brake-hand-brake-kit-pre-bled"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "mtnmotoworks-ultra-bee-rear-brake-kit",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://mtnmotoworks.com/products/ultra-bee-rear-brake-kit"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...able clearance must also match. 12mm rear axle \u2014 including Tuttio Soleil 01, Yozma IN10, Strike (12mm models),...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-brake-assembly-front-or-rear-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-brake-assembly-front-or-rear-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "revrides-altis-delta-brake-pads-2-piece-set-for-one-brake-by-altis-powersports",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://revrides.com/products/altis-delta-brake-pads-2-piece-set-for-one-brake-by-altis-powersports"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...eak Away Levers are forged-aluminum replacement brake levers for the Altis Sigma and Delta, Talaria Sting MX5,...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-asv-f4-e-break-away-levers-for-e-ride-pro-3-0-sr-talaria-sting-mx5-altis-sigma",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/asv-f4-e-break-away-levers-for-e-ride-pro-3-0-sr-talaria-sting-mx5-altis-sigma"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...(Type 2 brakes only) 2025 E-Ride Pro SS 3.0 (Type 2 brakes only) Altis Sigma Altis Delta Tork Pro Sport Arctic...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-brake-rotors-for-pitbikes-yozma-heybike-tuttio",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/brake-rotors-for-pitbikes-yozma-heybike-tuttio"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...NT Yozma IN10 Yozma IN10 Pro Heybike Villain Tuttio Soleil and Soleil01 Strike Shadow Tasaca T500-V5...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-tb-brake-lever-replacement-parts",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/tb-brake-lever-replacement-parts"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...ro SS 3.0 E-Ride Pro SR E-Ride Pro 4.0 Tork Pro Sport Altis Sigma Altis Delta Full bike fitment for the comple...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...t. \u2705 BIKE FITMENT Talaria Sting MX5 Surron Ultra Bee Altis Sigma Altis Delta E-Ride Pro SS 3.0 (2025 version b...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-tuttio-soleil01-folding-brake-levers",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/tuttio-soleil01-folding-brake-levers"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-tuttio-soleil01-replacement-brake-pads",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/tuttio-soleil01-replacement-brake-pads"
+          ],
+          "notes": "Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-ultra-bee-brake-upgrade-kit-for-yozma-tuttio-strike-shadow",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/ultra-bee-brake-upgrade-kit-for-yozma-tuttio-strike-shadow"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...cket. 12MM Axle V1 Fitment HeyBike Villain Tuttio Soleil01 These other models below if they came with Ripp...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tbelectricmoto-warp-9-folding-brake-levers",
+          "bike_id": "altis-delta",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tbelectricmoto.com/products/warp-9-folding-brake-levers"
+          ],
+          "notes": "Fitment list on product page names the bike: \"...(Version 2 brakes only) E-Ride Pro 4.0 Talaria Sting MX5 Altis Sigma Altis Delta Tork Pro Sport Important: The...\" (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-soleil01-brake-pads",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/soleil01-brake-pads"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-brake-assembly",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-assembly"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-brake-caliper-guide-pin-set",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-caliper-guide-pin-set"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-brake-cut-off-switch",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-cut-off-switch"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-brake-pads",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-pads"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-caliper-bolts",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-caliper-bolts"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-electric-bike-brake-caliper-mount",
+          "bike_id": "tuttio-soleil01",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-electric-bike-brake-caliper-mount"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-lo-brake-assembly",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-lo-brake-assembly"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (LO) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "tuttio-tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://tuttiosport.com/products/tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black"
+          ],
+          "notes": "Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Names a Soleil01 sub-variant (SE) only; base Soleil01 fit not stated. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-asv-f3-e-break-away-brake-clutch-levers-altis-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-levers-asv-f3e"
+          ],
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Delta but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-brake-assembly-left-front-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-assembly-left"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-brake-assembly-right-rear-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-assembly-right"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-brake-pads-2pcs-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-pads"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-footbrake-set-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_footbrake"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-front-brake-caliper-assembly-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-caliper-front-assembly"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-front-brake-disc-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-rotor-front"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-rear-brake-caliper-assembly-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-caliper-rear-assembly"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-rear-brake-disc-delta-delta-s",
+          "bike_id": "altis-delta",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_delta_brake-rotor-rear"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Altis Delta. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-brake-assembly-soleil01-front-brake-assembly",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_brake-assembly"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-brake-caliper-guide-pin-set-soleil01-brake-caliper-guide-pin-set-front",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_caliper-guide-pins"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-brake-caliper-mount-soleil-01-brake-caliper-mount-for-rear",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_caliper-mount"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-brake-cut-off-switch-soleil01-brake-cut-off-switch",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_brake-cutoff-switch"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-brake-disc-rotor-soleil-disk",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_brake-disc"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-brake-pads-soleil01-front-brake-pads",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_brake-pads-true"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-caliper-bolts-soleil01-front-caliper-bolt",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_caliper-bolts"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-hand-brake-levers-silver-soleil01-brake-lever-right",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_brake-levers-silver"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-oem-soleil01-rear-brake-caliper-mounting-bolt-soleil01-rear-brake-caliper-mounting-bolt",
+          "bike_id": "tuttio-soleil01",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/tuttio_soleil01_rear-caliper-bolt"
+          ],
+          "notes": "WEAK: Wired Whips (small UT reseller); fitment list looks auto-generated - double-check \u2014 OEM-brand part; fits list names Tuttio Soleil01 Classic. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "wiredwhips-warp-9-titanium-rotor-bolts-6-bolt-pattern",
+          "bike_id": "altis-omega",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://wiredwhips.com/parts/altis-powersports_multi_rotor-bolts-ti-generic"
+          ],
+          "notes": "WEAK \u2014 Aftermarket; Wired Whips fits list names Altis Omega but its fitment looks auto-generated (lists an RFloXa Hawk 31 mini-class fork for the full-size Omega). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "brakes-asv-f4-type2-lever-set",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/asv-f4-brake-lever-set-surron-eride-talaria"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "charged-brake-pads-emoto",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-300mm-rotor-and-caliper-bracket-for-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/300mm-rotor-and-caliper-bracket-for-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-brake-pads-for-surron-ultra-bee-oem",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/brake-pads-for-surron-ultra-bee-oem"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-brake-rotor-for-surron-ultra-bee-tusk-typhoon",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/brake-rotor-for-surron-ultra-bee-tusk-typhoon"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/dp-pro-mx-brake-pads-front-rear-for-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ebmx-competition-brake-pads-for-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ebmx-competition-brake-pads-for-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-kke-240mm-brake-rotor-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/kke-240mm-brake-rotor-surron-ultra-bee"
+          ],
+          "notes": "Product text names \"Ultra Bee (2023\u20132025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective",
+          "bike_id": "ultrabee-21kw",
+          "status": "verify",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-surron-ultra-bee-2023-2024-collective"
+          ],
+          "notes": "WEAK: handle/title says 2023-2024, fitment text says 2023-2025 \u2014 Product text names \"Ultra Bee 2023-2025\" for Ultra Bee (2025 = 21kW). (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-oem-ultra-bee-rear-brake-line",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-oem-ultra-bee-rear-brake-line-copy",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line-copy"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-prickly-moto-brake-lever",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/prickly-moto-brake-lever"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-project9-brake-pads-for-eride-surron-talaria",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-240-x-3-20-mm-fixed-rotor",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-240-x-3-20-mm-fixed-rotor"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-260mm-floating-front-rotor",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-260mm-floating-front-rotor"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-brake-lever-mount",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-brake-lever-mount",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-handlebar-controls-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 51164-YS1A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-floating-240mm-rotor",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-floating-240mm-rotor"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-oem-brake-lever-set",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-oem-brake-lever-set",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-front-brake-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 52111-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-surron-ultra-bee-titanium-rotor-bolts-by-warp9",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-titanium-rotor-bolts-by-warp9"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-brake-disk-2403",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-brake-disk-2403",
+                "https://shopeastcentralsports.com/2026-surron-ultra-bee-100-80-17-supermoto-front-wheel-assy-parts-diagram/"
+          ],
+          "notes": "Sur-Ron part # 52171-YQ5A-0000 listed \"ALL MY\" in 2026 Ultra Bee OEM catalog: fits both 21kW and 24.5kW. (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-brake-pads",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-brake-pads"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-competition-folder-lever-set",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-competition-folder-lever-set"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-complete-front-brake-assembly-copy",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly-copy"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-front-brake-caliper-assy-2",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-front-brake-caliper-assy-2"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-ultra-bee-rear-brake-caliper",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-warp9-disc-guard-surron-ultra-bee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/warp9-disc-guard-surron-ultra-bee"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "chargedcycleworks-warp9-ultra-bee-brake-lever",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/warp9-ultra-bee-brake-lever"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "ultrabee-oem-front-brake",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    }
+  ,
+    {
+          "product_id": "warp9-260mm-bracket-ultrabee",
+          "bike_id": "ultrabee-21kw",
+          "status": "confirmed_direct_fit",
+          "required_adapters": [],
+          "fitment_source_urls": [
+                "https://chargedcycleworks.com/products/surron-ultra-bee-260mm-front-brake-bracket"
+          ],
+          "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
     }
   ]
 }
