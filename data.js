@@ -1,5 +1,5 @@
-/* eBikePartsPicker catalog. Catalog v4.15.4, last researched 2026-11-10.
-   46 bikes / 23 categories / 2043 parts (2036 listed, 7 hidden).
+/* eBikePartsPicker catalog. Catalog v4.15.9, last researched 2026-11-11.
+   46 bikes / 23 categories / 1981 parts (1975 listed, 6 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
    && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py
@@ -71,7 +71,6 @@ var FITMENT = {
   'warp9-emoto-318-handlebar|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 lists this bar in its Surron Light Bee 2 collection; LB2 uses a 31.8mm clamp (checked Nov 4, 2026)',u:['https://warp9racing.com/collections/surron-light-bee-2', 'https://radmotousa.com/blogs/news/surron-light-bee-2-parts-fitment-guide']},
   'warp9-elite-pegs|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)',u:['https://warp9racing.com/products/e-moto-elite-foot-pegs']},
   'warp9-pegs-lbx-ventus|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)',u:['https://warp9racing.com/products/surron-foot-pegs']},
-  'chargedcycleworks-warp9-foot-pegs-for-surron-segway|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 listing for these pegs names the Light Bee 2 (checked Nov 4, 2026)',u:['https://warp9racing.com/products/surron-foot-pegs']},
   'mika-pro-118-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee 2023\u20132025 (checked Nov 4, 2026)',u:['https://adventurepartsllc.com/products/mika-metals-pro-series-1-1-8-oversize-handlebars-sur-ron-storm-bee-2023-2025']},
   'tusk-chub-118-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee 2023\u20132025 (checked Nov 4, 2026)',u:['https://adventurepartsllc.com/products/tusk-chub-1-1-8-big-bar-sur-ron-storm-bee-2023-2025']},
   'mxps-billet-pegs-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)',u:['https://mxpartshop.com/products/mx-billet-footpegs-footrest-for-sur-ron-storm-bee']},
@@ -82,7 +81,6 @@ var FITMENT = {
   'guts-seat-cover|ultrabee':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ss20':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ss30':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
-  'guts-seat-cover|ss40':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|sr':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ventus-plus':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ventus-evo':{s:'verify',n:'TB page lists Ventus One / One Plus only - no EVO evidence (downgraded Nov 11, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
@@ -534,14 +532,6 @@ var CATEGORIES = [
      fits:["lightbee","ultrabee","mx4"], likely:["ss40","storm-bee","komodo","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd","mx5","sr","ss20","ss30"], no:[],
      ctrlMaxKw:76, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-aetos-pro.webp'
     },
-    {name:'VTB Aetos Gen.2 Bike-Specific Harness Kit', pid:'vtb-aetos-gen2-harness', hidden:1, /* moved to Electrical as vtb-aetos-gen2-harness-kit */ tier:'accessory',
-     prices:[
-      {v:'TB Electric Moto', p:60, url:'https://tbelectricmoto.com/products/ventus-aetos-harness-kits', chk:'2026-10-18'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr"], likely:["ss40","storm-bee","komodo","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd"], no:[],
-     stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-aetos-gen2-harness.webp'
-    },
     {name:'Storm Bee FOC Sine Wave Controller', pid:'stormbee-controller-oem', hidden:1, /* retired: only seller was a copycat store */ tier:'OEM',
      prices:[
       /* AFFILIATE: replace with affiliate link */
@@ -552,9 +542,11 @@ var CATEGORIES = [
     {name:'VTB Aetos Max Controller', pid:'ctrl-ventus-aetos-max', tier:'premium',
      prices:[
       {v:'Ventus Bikes USA', p:1199, url:'https://ventusbikes.us/products/ventus-aetos-max-controller', chk:'2026-10-18'},
+      {v:'Charged Cycle Works', p:1199.0, url:'https://chargedcycleworks.com/products/ventus-aetos-max-controller', chk:'2026-11-11'},
+      {v:'GritShift', p:1199.99, url:'https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ultrabee'], likely:['ventus-evo'], no:[],
+     fits:['ultrabee'], likely:['rerode-rx','ultrabee-21kw','ventus-evo'], no:[],
      badge:'Controller', ctrlMaxKw:76, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ctrl-ventus-aetos-max.webp'
     },
     {name:'Torp TC1000 V1 Controller for Sur-Ron Ultra Bee', pid:'torp-tc1000-v1-ultrabee', tier:'performance',
@@ -689,13 +681,6 @@ var CATEGORIES = [
      fits:['altis-delta'], likely:[], no:[],
      badge:'Altis', stock:'in_stock', stockChk:'2026-11-11'
     },
-    {name:'Ventus Aetos Max Controller for 88V and 96V Batteries', pid:'chargedcycleworks-ventus-aetos-max-controller', tier:'premium',
-     prices:[
-      {v:'Charged Cycle Works', p:1199.0, url:'https://chargedcycleworks.com/products/ventus-aetos-max-controller', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-11'
-    },
     {name:'EBMX X-9000 Controller Thumb Throttle', pid:'gritshift-ebmx-x-9000-controller-thumb-throttle', tier:'budget',
      prices:[
       {v:'GritShift', p:34.99, url:'https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle', chk:'2026-11-11'},
@@ -733,12 +718,6 @@ var CATEGORIES = [
     {name:'Ventus Aetos Pro V9600 Controller', pid:'gritshift-ventus-vtb-aetos-pro-controller', tier:'premium',
      prices:[
       {v:'GritShift', p:1099.99, url:'https://gritshift.com/products/ventus-vtb-aetos-pro-controller', chk:'2026-11-11'},
-     ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Ventus Aetos Max V9600 Controller', pid:'gritshift-ventus-vtb-v9600-aetos-max-controller', tier:'premium',
-     prices:[
-      {v:'GritShift', p:1199.99, url:'https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller', chk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
@@ -922,13 +901,6 @@ var CATEGORIES = [
      ],
      fits:["arctic-leopard-xe-pro-s","arctic-leopard-xe-pro-s-enduro"], likely:[], no:[],
      badge:'Sirris', stock:'in_stock', stockChk:'2026-10-21', wtKg:8, img:'img/parts/sirris-f43-cmx-arctic-leopard-xe-pro-s.webp'
-    },
-    {name:'RFloXa HAWK36 MAX Fork - Arctic Leopard XE Pro S | 228mm', pid:'chargedcycleworks-rfloxa-hawk36-max-fork-arctic-leopard-xe-pro-s', tier:'premium',
-     prices:[
-      {v:'Charged Cycle Works', p:999.0, url:'https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
-     badge:'RFloXa', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Sirris F43 CMX Fork (Arctic Leopard XE Pro R)', pid:'sirris-f43-cmx-arctic-leopard-xe-pro-r', tier:'premium',
      prices:[
@@ -1215,7 +1187,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-rfloxa-hawk36-max-fork.webp'
     },
     {name:'RFloXa Hawk31 Max (Gold)', pid:'chargedcycleworks-rfloxa-hawk31-max-gold', tier:'mid',
@@ -1613,16 +1585,10 @@ var CATEGORIES = [
     {name:'KKE 550LBS Shock Spring for Ultra Bee OEM', pid:'chargedcycleworks-kke-550lbs-rear-absorber-suspension-shock-spring-for', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective', chk:'2026-10-27'},
+      {v:'REV Rides', p:79.99, url:'https://revrides.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective', chk:'2026-10-27'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      badge:'Shock', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-kke-550lbs-rear-absorber-suspension-shock-spring-for.webp'
-    },
-    {name:'KKE 550LBS Rear Absorber Suspension Shock Spring For SurRon Ultra Bee', pid:'revrides-kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-u', tier:'mid',
-     prices:[
-      {v:'REV Rides', p:79.99, url:'https://revrides.com/products/kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective', chk:'2026-10-27'},
-     ],
-     fits:["ultrabee"], likely:[], no:[],
-     badge:'Shock', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-u.webp'
     },
     {name:'E Ride Pro OEM Rear Shock Options | By FastAce and KKE | For E Ride Pro Mini, S, SS 2.0, SS 3.0 and SR', pid:'revrides-e-ride-pro-ss-rear-shock', tier:'OEM',
      prices:[
@@ -1874,28 +1840,14 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s-enduro-r.webp'
-    },
-    {name:'RFloXa RAB50RC', pid:'rfloxa-rab50rc', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:150.0, url:'https://chargedcycleworks.com/products/rfloxa-rab50rc', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
-     badge:'RFloXa', stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Sirris R38 | 2SC | Arctic Leopard XE Pro S/Enduro/R', pid:'chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s', tier:'premium',
-     prices:[
-      {v:'Charged Cycle Works', p:899.0, url:'https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:[], no:[],
-     badge:'Sirris', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'RFloXa RAB50RC', pid:'chargedcycleworks-rfloxa-rab50rc', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:150.0, url:'https://chargedcycleworks.com/products/rfloxa-rab50rc', chk:'2026-11-11'},
      ],
-     fits:['altis-sigma','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Nibbi Rear Shock', pid:'chargedcycleworks-nibbi-rear-shock', tier:'midrange',
@@ -2034,9 +1986,10 @@ var CATEGORIES = [
     {name:'ION E Ride Pro 3.0 / SR 16/19-Inch Wheelset', pid:'wheels-ion-eride30-sr-1619', tier:'midrange',
      prices:[
       {v:'Electrix Moto', p:599, url:'https://electrixmotoco.com/products/ion-e-ride-pro-3-0-sr-16-19-wheelset', chk:'2026-10-18'},
+      {v:'Charged Cycle Works', p:599, url:'https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr', chk:'2026-11-10'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['sr','ss30'], likely:['lightbee','ultrabee','storm-bee','ventus-plus','ventus-evo','ss20','ss40','mx4','komodo','bonnell-805rx','arctic-xd','mx5'], no:[],
+     fits:['sr','ss30'], likely:['arctic-xd','bonnell-805rx','komodo','lightbee','mx4','mx5','ss20','ss40','storm-bee','ultrabee','ventus-evo','ventus-plus'], no:['arctic-leopard-xe-pro-s-enduro','zero-xe'],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/wheels-ion-eride30-sr-1619.webp'
     },
     {name:'Storm Bee Supermoto Wheel Kit', pid:'stormbee-supermoto-wheels', hidden:1, /* retired: only seller was a copycat store */ tier:'midrange',
@@ -2265,13 +2218,6 @@ var CATEGORIES = [
      fits:['komodo','ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee.webp'
     },
-    {name:'ION - E Ride Pro 3.0 / SR - 16/19 Wheelset', pid:'chargedcycleworks-ion-16-19-wheelset-for-e-ride-pro-3-0-sr', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:599, url:'https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr', chk:'2026-11-10'},
-     ],
-     fits:['sr'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ion-16-19-wheelset-for-e-ride-pro-3-0-sr.webp'
-    },
     {name:'Arctic Leopard - XE Rear Wheel Spacers | OEM', pid:'chargedcycleworks-arctic-leopard-xe-rear-wheel-spacers-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:35.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-rear-wheel-spacers-oem', chk:'2026-11-11'},
@@ -2300,20 +2246,6 @@ var CATEGORIES = [
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
     },
-    {name:'TMB Wheel Spacer Set - Arctic Leopard XE Pro S / Pro R / Vetra', pid:'chargedcycleworks-tmb-wheel-spacer-set-arctic-leopard-xe-pro-s', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:55.0, url:'https://chargedcycleworks.com/products/tmb-wheel-spacer-set-arctic-leopard-xe-pro', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
-     badge:'TMB', stock:'out_of_stock', stockChk:'2026-11-11'
-    },
-    {name:'Arctic Leopard XE Pro S OEM Takeoff Wheelset', pid:'chargedcycleworks-arctic-leopard-xe-pro-s-oem-takeoff-wheelset', tier:'premium',
-     prices:[
-      {v:'Charged Cycle Works', p:599.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-takeoff-wheelset', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-r'], no:[],
-     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-11'
-    },
     {name:'Arctic Leopard - XE Front Axle | OEM', pid:'chargedcycleworks-arctic-leopard-xe-front-axle-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:45.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-front-axle-oem', chk:'2026-11-11'},
@@ -2338,13 +2270,6 @@ var CATEGORIES = [
     {name:'ION - Arctic Leopard XE PRO / Vetra Blazer - 16/19" Wheelset', pid:'chargedcycleworks-ion-16-19-wheelset-for-arctic-leopard-xe-pro-s', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:469.0, url:'https://chargedcycleworks.com/products/ion-16-19-wheelset-for-arctic-leopard-xe-pro-s', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:[], no:[],
-     badge:'ION', stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'ION - 21" Front Wheel Upgrade for Arctic Leopard XE Pro / Vetra Blazer', pid:'chargedcycleworks-ion-21-front-wheel-upgrade-arctic-leopard-xe-pro-s', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:249.0, url:'https://chargedcycleworks.com/products/21-front-wheel-upgrade-arctic-leopard-xe-pro', chk:'2026-11-11'},
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:[], no:[],
      badge:'ION', stock:'in_stock', stockChk:'2026-11-11'
@@ -2739,21 +2664,21 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/tmb-wheel-spacer-set-arctic-leopard-xe-pro', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-tmb-wheel-spacer-set-arctic-leopard-xe-pro.webp'
     },
     {name:'ION - 21" Front Wheel Upgrade for Arctic Leopard XE Pro / Vetra Blazer', pid:'chargedcycleworks-21-front-wheel-upgrade-arctic-leopard-xe-pro', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:249, url:'https://chargedcycleworks.com/products/21-front-wheel-upgrade-arctic-leopard-xe-pro', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-21-front-wheel-upgrade-arctic-leopard-xe-pro.webp'
     },
     {name:'Arctic Leopard XE Pro S OEM Takeoff Wheelset', pid:'chargedcycleworks-arctic-leopard-xe-pro-oem-takeoff-wheelset', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:599, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-takeoff-wheelset', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-oem-takeoff-wheelset.webp'
     },
     {name:'ION - Altis Sigma 18"/21" Wheelset', pid:'chargedcycleworks-ion-altis-sigma-18-21-wheelset', tier:'midrange',
@@ -3016,7 +2941,7 @@ var CATEGORIES = [
     },
     {name:'Pivotrax Cyber Supermoto Tires (12in-19in Wheels)', pid:'tbelectricmoto-sm01-6000-electric-off-road-vehicle', tier:'midrange',
      prices:[
-      {v:'TB Electric Moto', p:89.0, url:'https://www.supermach.com/products/sm01-6000-electric-off-road-vehicle', chk:'2026-11-11'},
+      {v:'TB Electric Moto', p:89.0, url:'https://tbelectricmoto.com/products/pivotrax-cyber-supermoto-tires-12-14-17-18-19-inch-wheels', chk:'2026-11-11'},
      ],
      fits:[], likely:['supermach-sm01'], no:[],
      badge:'Pivotrax', stock:'in_stock', stockChk:'2026-11-11'
@@ -3348,19 +3273,13 @@ var CATEGORIES = [
      fits:["arctic-leopard-xe-pro-r","ultrabee"], likely:[], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/voro-xepror-ultrabee-brake-pads.webp'
     },
-      {name:'Titanium Surron Ultra Bee Brake Reservoir Cap Bolts', pid:'tbelectricmoto-titanium-surron-ultra-bee-brake-reservoir-cap-bolts', tier:'budget',
-     prices:[
-      {v:'TB Electric Moto', p:7.99, url:'https://tbelectricmoto.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts', chk:'2026-10-27'},
-     ],
-     fits:["ultrabee"], likely:[], no:[],
-     badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-titanium-surron-ultra-bee-brake-reservoir-cap-bolts.webp'
-    },
     {name:'Titanium Brake Reservoir Bolts | Surron Ultra Bee', pid:'revrides-titanium-surron-ultra-bee-brake-reservoir-cap-bolts', tier:'budget',
      prices:[
       {v:'REV Rides', p:7.99, url:'https://revrides.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts', chk:'2026-10-27'},
       {v:'GritShift', p:7.99, url:'https://gritshift.com/products/titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee', chk:'2026-10-27'},
+      {v:'TB Electric Moto', p:7.99, url:'https://tbelectricmoto.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts', chk:'2026-10-27'},
      ],
-     fits:["ultrabee"], likely:[], no:[],
+     fits:['ultrabee'], likely:[], no:[],
      badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-titanium-surron-ultra-bee-brake-reservoir-cap-bolts.webp'
     },
     {name:'Surron Ultra Bee Brake Caliper Pad Pin | OEM Replacement | Ships from USA', pid:'howlingmoto-surron-ultra-bee-brake-caliper-pad-pin-oem-replacement-shi', tier:'OEM',
@@ -3443,8 +3362,10 @@ var CATEGORIES = [
     {name:'E Ride Pro SR Regen Brake', pid:'tbelectricmoto-e-ride-pro-sr-regen-brake', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:25, url:'https://tbelectricmoto.com/products/e-ride-pro-sr-regen-brake', chk:'2026-10-27'},
+      {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-regen', chk:'2026-10-27'},
+      {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake', chk:'2026-11-10'},
      ],
-     fits:["sr"], likely:[], no:[],
+     fits:['sr'], likely:[], no:[],
      badge:'Brakes', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-e-ride-pro-sr-regen-brake.webp'
     },
     {name:'Eride Pro SR / 3.0 Brake Pads Talaria MX5', pid:'howlingmoto-eride-pro-sr-3-0-brake-pads-talaria-mx5', tier:'budget',
@@ -3592,34 +3513,6 @@ var CATEGORIES = [
      ],
      fits:['mx5','sr','ss30','ventus-plus','altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','ventus-evo'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-formula-eb9.webp'
-    },
-    {name:'Arctic Leopard - XE/XF Brake Lever | OEM Front & Rear', pid:'chargedcycleworks-arctic-leopard-xe-xf-brake-lever-oem', tier:'OEM',
-     prices:[
-      {v:'Charged Cycle Works', p:12.5, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-s'], no:[],
-     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-11'
-    },
-    {name:'AL XE Pro Brake Pad (Arctic Leopard XE Pro OEM)', pid:'chargedcycleworks-al-xe-pro-brake-pad-oem', tier:'OEM',
-     prices:[
-      {v:'Charged Cycle Works', p:30.0, url:'https://chargedcycleworks.com/products/al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem', chk:'2026-11-11'},
-     ],
-     fits:[], likely:['arctic-leopard-xe-pro-s'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'TECH Brake Adapter & Headset Spacer - Arctic Leopard XE Pro S / Enduro', pid:'chargedcycleworks-tech-e39-brake-adapter-arctic-leopard-xe-pro-s', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:75.0, url:'https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
-     badge:'TECH', stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Arctic Leopard - XE Pro OEM Brake Rotors', pid:'chargedcycleworks-arctic-leopard-xe-pro-oem-brake-rotors', tier:'OEM',
-     prices:[
-      {v:'Charged Cycle Works', p:32.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-rear-brake-rotor', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Arctic Leopard - XE PRO Rear Brake Hose | OEM', pid:'chargedcycleworks-arctic-leopard-xe-rear-brake-hose-oem', tier:'OEM',
      prices:[
@@ -3921,28 +3814,28 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:75, url:'https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro.webp'
     },
     {name:'Arctic Leopard - XE/XF Brake Lever | OEM Front & Rear', pid:'chargedcycleworks-arctic-leopard-xe-xf-brake-lever-front-rear-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:12.5, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-arctic-leopard-xe-xf-brake-lever-front-rear-oem.webp'
     },
     {name:'Arctic Leopard - XE Pro OEM Brake Rotors', pid:'chargedcycleworks-arctic-leopard-xe-pro-oem-rear-brake-rotor', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:32, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-rear-brake-rotor', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-oem-rear-brake-rotor.webp'
     },
     {name:'AL XE Pro Brake Pad (Arctic Leopard XE Pro OEM)', pid:'chargedcycleworks-al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:30, url:'https://chargedcycleworks.com/products/al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem.webp'
     },
     {name:'Altis Sigma — OEM Brake Rotor | Front and Rear', pid:'chargedcycleworks-oem-brake-disc-altis-sigma', tier:'OEM',
@@ -4289,6 +4182,7 @@ var CATEGORIES = [
     {name:'Tuttio Soleil01 Replacement Brake Pads', pid:'tbelectricmoto-tuttio-soleil01-replacement-brake-pads', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:15.0, url:'https://tbelectricmoto.com/products/tuttio-soleil01-replacement-brake-pads', chk:'2026-11-11'},
+      {v:'Tuttio', p:15.0, url:'https://tuttiosport.com/products/soleil01-brake-pads', chk:'2026-11-11'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-11'
@@ -4305,13 +4199,6 @@ var CATEGORIES = [
      ],
      fits:['altis-delta'], likely:[], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'TUTTIO SOLEIL01 BRAKE PADS', pid:'tuttio-soleil01-brake-pads', tier:'OEM',
-     prices:[
-      {v:'Tuttio', p:15.0, url:'https://tuttiosport.com/products/soleil01-brake-pads', chk:'2026-11-11'},
-     ],
-     fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Tuttio Soleil01 Dirt Bike Hand Brake Levers（Sliver）', pid:'tuttio-tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver', tier:'OEM',
      prices:[
@@ -4507,7 +4394,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:79.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['altis-delta','arctic-leopard-xe-pro-s','lightbee','mx4','mx5','sr','ss20','ss30','ss40','tuttio-soleil01','ultrabee','ventus-plus'], likely:['komodo','storm-bee','ventus-evo'], no:[],
+     fits:['altis-delta','arctic-leopard-xe-pro-s','lightbee','mx4','mx5','sr','ss20','ss30','tuttio-soleil01','ultrabee','ventus-plus'], likely:['arctic-xd','bonnell-805rx','komodo','storm-bee','ventus-evo'], no:['zero-xe'],
      badge:'Guts', variant:'custom', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/guts-seat-cover.webp'
     },
     {name:'Luna Float Seat', pid:'luna-float-seat', tier:'budget',
@@ -4695,16 +4582,10 @@ var CATEGORIES = [
     {name:'DirtyBike Long Rear Fender for Talaria Sting MX3 / MX4 – Extended Protection', pid:'howlingmoto-dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-exten', tier:'budget',
      prices:[
       {v:'Howling Moto', p:28, url:'https://howlingmoto.com/products/dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-extended-protection', chk:'2026-10-27'},
-     ],
-     fits:["mx4"], likely:[], no:[],
-     badge:'Plastics', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-exten.webp'
-    },
-    {name:'DirtyBike Long Rear Fender - Talaria Sting MX3 / MX4', pid:'gritshift-dirtybike-long-rear-fender-talaria-sting-mx3-mx4', tier:'budget',
-     prices:[
       {v:'GritShift', p:28, url:'https://gritshift.com/products/dirtybike-long-rear-fender-talaria-sting-mx3-mx4', chk:'2026-10-27'},
      ],
-     fits:["mx4"], likely:[], no:[],
-     badge:'Plastics', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/gritshift-dirtybike-long-rear-fender-talaria-sting-mx3-mx4.webp'
+     fits:['mx4'], likely:[], no:[],
+     badge:'Plastics', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-exten.webp'
     },
     {name:'Torp TC500 / TC1000 Replacement Plastic Shield For Talaria MX3/MX4', pid:'chargedcycleworks-torp-replacement-plastic-shield-for-surron-talaria-m', tier:'budget',
      prices:[
@@ -5097,13 +4978,6 @@ var CATEGORIES = [
      fits:['ventus-evo','rawrr-mantis-x','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf','rawrr-mantis-72v'], likely:['arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/plastics-odi-downhill-e-bike-number-plate.webp'
     },
-    {name:'ODI (Style) Front Number Plate for E-Moto', pid:'plastics-odi-style-front-number-plate', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/surron-light-bee-number-plate', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
-     badge:'ODI', stock:'out_of_stock', stockChk:'2026-11-11'
-    },
     {name:'ETM RTR Complete Body Plastic Kit', pid:'chargedcycleworks-etm-rtr-complete-body-plastic-kit', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:89.99, url:'https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit', chk:'2026-11-11'},
@@ -5150,7 +5024,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/surron-light-bee-number-plate', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['falcon-pro'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-surron-light-bee-number-plate.webp'
     },
     {name:'ALTIS SIGMA - TORQUE', pid:'chargedcycleworks-altis-sigma-torque', tier:'mid',
@@ -5399,6 +5273,7 @@ var CATEGORIES = [
     {name:'Altis Delta Rear Fender – OEM Replacement by Altis Powersports', pid:'howlingmoto-altis-delta-rear-fender-oem-replacement-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'Howling Moto', p:15.0, url:'https://howlingmoto.com/products/altis-delta-rear-fender-oem-replacement-by-altis-powersports', chk:'2026-11-11'},
+      {v:'REV Rides', p:15.0, url:'https://revrides.com/products/altis-delta-rear-fender-by-altis-powersports', chk:'2026-11-11'},
      ],
      fits:['altis-delta'], likely:[], no:[],
      badge:'Altis', stock:'in_stock', stockChk:'2026-11-11'
@@ -5448,13 +5323,6 @@ var CATEGORIES = [
     {name:'Altis Delta Front Side plastics | Left or Right Side | By Altis Powersports', pid:'revrides-altis-delta-front-side-plastics-left-or-right-side-by-altis-powersports', tier:'budget',
      prices:[
       {v:'REV Rides', p:20.0, url:'https://revrides.com/products/altis-delta-front-side-plastics-left-or-right-side-by-altis-powersports', chk:'2026-11-11'},
-     ],
-     fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Altis Delta Rear Fender | By Altis Powersports', pid:'revrides-altis-delta-rear-fender-by-altis-powersports', tier:'budget',
-     prices:[
-      {v:'REV Rides', p:15.0, url:'https://revrides.com/products/altis-delta-rear-fender-by-altis-powersports', chk:'2026-11-11'},
      ],
      fits:['altis-delta'], likely:[], no:[],
      badge:'Altis', stock:'in_stock', stockChk:'2026-11-11'
@@ -6096,7 +5964,7 @@ var CATEGORIES = [
       {v:'Adventure Parts', p:53.99, url:'https://adventurepartsllc.com/products/tusk-chub-1-1-8-big-bar-sur-ron-storm-bee-2023-2025', chk:'2026-11-04'},
       {v:'Charged Cycle Works', p:53.99, url:'https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars', chk:'2026-11-11'},
      ],
-     fits:['storm-bee'], likely:['ultrabee-21kw'], no:[],
+     fits:['stark-vargex','storm-bee'], likely:['ultrabee-21kw'], no:[],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-11-04', img:'img/parts/tusk-chub-118-stormbee.webp'
     },
     {name:'Warp 9 3" Rise Handlebar', pid:'warp9-3in-rise', tier:'midrange',
@@ -6250,13 +6118,6 @@ var CATEGORIES = [
      fits:['lightbee2','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','stark-vargex','storm-bee','ultrabee-21kw','ventus-evo'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s','arctic-leopard-xf','rawrr-mantis-72v','zero-xe'], no:[],
      stock:'in_stock', stockChk:'2026-11-05', img:'img/parts/handlebar-renthal-fatbar-1-1-8.webp'
     },
-    {name:'Prickly 31.8 Handlebars', pid:'prickly-31-8-handlebars', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:89.0, url:'https://chargedcycleworks.com/products/prickly-31-8-bars', chk:'2026-11-11'},
-     ],
-     fits:[], likely:['arctic-leopard-xe-pro-s'], no:[],
-     badge:'Prickly', stock:'in_stock', stockChk:'2026-11-11'
-    },
     {name:'Surron Ultra Bee - Handlebar Lower Mount', pid:'chargedcycleworks-surron-ultra-bee-handlebar-lower-mount', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:34.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount', chk:'2026-11-10'},
@@ -6310,7 +6171,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:64.89, url:'https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars.webp'
     },
     {name:'Direct Mount Stem Lift Kit', pid:'chargedcycleworks-surron-light-bee-stem-lift-kit', tier:'midrange',
@@ -6345,7 +6206,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:89, url:'https://chargedcycleworks.com/products/prickly-31-8-bars', chk:'2026-11-11'},
      ],
-     fits:[], likely:['rawrr-mantis-x','rawrr-mantis-72v'], no:[],
+     fits:[], likely:['arctic-leopard-xe-pro-s','rawrr-mantis-72v','rawrr-mantis-x'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'KyVex Billet Bar Mount Riser', pid:'chargedcycleworks-kyvex-billet-bar-mount-riser', tier:'midrange',
@@ -6365,18 +6226,11 @@ var CATEGORIES = [
     {name:'Handlebar Shims converts 31.8 to 28.6 MX Bars', pid:'chargedcycleworks-handlebar-shims-31-8-to-28-6', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars', chk:'2026-11-11'},
+      {v:'TB Electric Moto', p:9.99, url:'https://tbelectricmoto.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-11'
-    },
-    {name:'Tusk Chub MX Handlebars 28.6mm', pid:'handlebar-tusk-chub-mx-handlebars', tier:'mid',
-     prices:[
-      {v:'Charged Cycle Works', p:53.99, url:'https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:['stark-vargex'], likely:[], no:[],
+     fits:['altis-delta','rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
-    }
+    },
 ,
     {name:'Altis Delta DBK Crossbar Pad', pid:'altispowersports-altis-delta-dbk-crossbar-pad', tier:'OEM',
      prices:[
@@ -6539,12 +6393,6 @@ var CATEGORIES = [
      fits:[], likely:['altis-omega'], no:[],
      badge:'Mika Metals', stock:'in_stock', stockChk:'2026-11-11'
     },
-    {name:'Handlebar Shims – 31.8mm Stem to 28.6mm (1-1/8") MX Bars', pid:'tbelectricmoto-handlebar-shims-converts-31-8-to-28-6-mx-bars', tier:'budget',
-     prices:[
-      {v:'TB Electric Moto', p:9.99, url:'https://tbelectricmoto.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars', chk:'2026-11-11'},
-     ],
-     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-11'
-    },
     {name:'ODI Podium Handlebars 7/8th For Altis Sigma, Delta, RTR', pid:'tbelectricmoto-odi-podium-handlebars-7-8th-altis-sigma-rtr', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:89.95, url:'https://tbelectricmoto.com/products/odi-podium-handlebars-7-8th-altis-sigma-rtr', chk:'2026-11-11'},
@@ -6677,13 +6525,6 @@ var CATEGORIES = [
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/surron-lightbee-oem-charger.webp'
     },
-    {name:'Arctic Leopard 10A OEM Charger - XE / XF / Pro R / EX Pro', pid:'chargedcycleworks-arctic-leopard-10a-oem-charger', tier:'OEM',
-     prices:[
-      {v:'Charged Cycle Works', p:168.0, url:'https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-r','arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-s'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
-    },
     {name:'E7305 72V UL-Certified Charger - Pro-S / SS2.0 / SS3.0 / SR', pid:'eride-e7305-charger', tier:'OEM',
      prices:[
       {v:'VORO Motors', p:306.0, url:'https://voromotors.com/products/84v-charger-for-e-ride-pro-ss', chk:'2026-10-18'},
@@ -6791,7 +6632,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:168, url:'https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-r','arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-al-xe-pro-charger-artic-leopard-xe-pro-oem.webp'
     }
 ,
@@ -6947,13 +6788,6 @@ var CATEGORIES = [
      fits:["ventus-plus"], likely:[], no:[],
      badge:'Controls', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-ventus-throttle-with-grip-1-7-ventus-oem.webp'
     },
-    {name:'E Ride Pro SR - OEM Regen/Mode Switch', pid:'chargedcycleworks-e-ride-pro-oem-regen', tier:'OEM',
-     prices:[
-      {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-regen', chk:'2026-10-27'},
-     ],
-     fits:["sr"], likely:[], no:[],
-     badge:'Controls', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-e-ride-pro-oem-regen.webp'
-    },
     {name:'ASV F3-E Unbreakable Brake Levers for E Ride Pro SR | 3.0 (Type 1)', pid:'chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-pro-sr', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:180, url:'https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-pro-sr-3-0', chk:'2026-10-27'},
@@ -7011,9 +6845,10 @@ var CATEGORIES = [
     {name:'ODI Universal Lock-On Half Waffle Grips for eMoto', pid:'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:22.95, url:'https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto', chk:'2026-11-05'},
+      {v:'GritShift', p:22.95, url:'https://gritshift.com/products/odi-universal-lock-on-half-waffle-grips', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf','bonnell-805rx','lightbee2','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','rtr-alpha','rtr-lite','rtr-sport','stark-vargex','storm-bee','ultrabee-21kw','ventus-evo','zero-xe'], likely:['altis-sigma','arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf','bonnell-805rx','lightbee2','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','rtr-alpha','rtr-lite','rtr-sport','stark-vargex','storm-bee','ultrabee-21kw','ventus-evo','zero-xe'], likely:['altis-sigma','arctic-leopard-xe-pro-r','falcon-pro','rawrr-mantis-mini-r','rerode-rx'], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
     },
     {name:'ODI Ruffian full-waffle grips', pid:'cockpit-odi-ruffian-full-waffle-grips', tier:'budget',
@@ -7185,7 +7020,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:9.57, url:'https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x'], likely:['rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-handlebar-stem-spacer-talaria-sting-mx3-mx4-x3.webp'
     },
     {name:'Prickly 31.8mm Direct Mount Stem – Surron', pid:'chargedcycleworks-prickly-31-8-direct-mount-stem-surron', tier:'midrange',
@@ -7199,7 +7034,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-72v','rawrr-mantis-x'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective.webp'
     },
     {name:'EBikeZilla - Direct Mount Stem', pid:'chargedcycleworks-ebikezilla-direct-mount-stem', tier:'midrange',
@@ -7234,22 +7069,15 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:11.66, url:'https://chargedcycleworks.com/products/renthal-grip-glue', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','stark-vargex'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ODI Grip Glue', pid:'chargedcycleworks-odi-grip-glue', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:2.49, url:'https://chargedcycleworks.com/products/odi-grip-glue', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','stark-vargex'], likely:['altis-sigma'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Stem Spacer', pid:'chargedcycleworks-handlebar-stem-spacer', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:9.57, url:'https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3', chk:'2026-11-11'},
-     ],
-     fits:['rawrr-mantis-x'], likely:['rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Direct Mount Stem 1" Spacer (25mm)', pid:'chargedcycleworks-direct-mount-stem-1-spacer-25mm', tier:'budget',
      prices:[
@@ -7265,13 +7093,6 @@ var CATEGORIES = [
      fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:['rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
-    {name:'Heavy Hitter Direct Mount Stem Riser 2" Rise 31.8mm Bars', pid:'chargedcycleworks-heavy-hitter-direct-mount-stem-riser-2-rise-31-8mm', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:64.89, url:'https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars', chk:'2026-11-11'},
-     ],
-     fits:['rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
     {name:'Warp9 Transformer Direct Bar Mount Stem', pid:'chargedcycleworks-warp9-transformer-direct-bar-mount-stem', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem', chk:'2026-11-11'},
@@ -7286,13 +7107,6 @@ var CATEGORIES = [
      fits:['rawrr-mantis-x'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
-    {name:'KKE Direct Mount Stem', pid:'chargedcycleworks-kke-direct-mount-stem-fit-rawrr-mantis-mantis-x-collective', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective', chk:'2026-11-11'},
-     ],
-     fits:['rawrr-mantis-x','rawrr-mantis-72v'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
     {name:'Stark Varg Docking Station', pid:'cockpit-stark-varg-docking-station', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:6.99, url:'https://chargedcycleworks.com/products/stark-varg-docking-station-bottom-cover', chk:'2026-11-11'},
@@ -7301,22 +7115,6 @@ var CATEGORIES = [
      fits:['stark-vargex'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
-    {name:'Renthal Grip Glue', pid:'cockpit-renthal-grip-glue', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:11.66, url:'https://chargedcycleworks.com/products/renthal-grip-glue', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'ODI Grip Glue', pid:'cockpit-odi-grip-glue', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:2.49, url:'https://chargedcycleworks.com/products/odi-grip-glue', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    }
 ,
     {name:'Altis Delta Throttle', pid:'altispowersports-altis-delta-throttle', tier:'OEM',
      prices:[
@@ -7471,13 +7269,6 @@ var CATEGORIES = [
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Odi', stock:'in_stock', stockChk:'2026-11-11'
     },
-    {name:'ODI Universal Lock-On Half Waffle Grips', pid:'gritshift-odi-universal-lock-on-half-waffle-grips', tier:'budget',
-     prices:[
-      {v:'GritShift', p:22.95, url:'https://gritshift.com/products/odi-universal-lock-on-half-waffle-grips', chk:'2026-11-11'},
-     ],
-     fits:[], likely:['rerode-rx'], no:[],
-     badge:'Odi', stock:'in_stock', stockChk:'2026-11-11'
-    },
     {name:'Pro Grip 794 Single Density MX Grips - Half Waffle', pid:'gritshift-pro-grip-794-single-density-mx-grips-half-waffle', tier:'budget',
      prices:[
       {v:'GritShift', p:9.12, url:'https://gritshift.com/products/pro-grip-794-single-density-mx-grips-half-waffle', chk:'2026-11-11'},
@@ -7581,13 +7372,6 @@ var CATEGORIES = [
       {v:'GritShift', p:13.0, url:'https://gritshift.com/products/scott-sx-ii-grips-donuts-double-density-diamond', chk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Warp 9 E-Moto Handguard Titanium Bolt Kit', pid:'gritshift-warp-9-e-moto-handguard-titanium-bolt-kit', tier:'budget',
-     prices:[
-      {v:'GritShift', p:22.99, url:'https://gritshift.com/products/warp-9-e-moto-handguard-titanium-bolt-kit', chk:'2026-11-11'},
-     ],
-     fits:[], likely:['rerode-rx'], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp 9 Handguard Kit', pid:'gritshift-warp-9-racing-handguard-kit-e-bike', tier:'budget',
      prices:[
@@ -7939,23 +7723,11 @@ var CATEGORIES = [
       {name:'DirtyBike Final Drive Front Sprocket Surron LBX', pid:'tbelectricmoto-dirtybike-final-drive-front-sprocket-surron-lbx', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:6, url:'https://tbelectricmoto.com/products/dirtybike-final-drive-front-sprocket-surron-lbx', chk:'2026-10-27'},
-     ],
-     fits:["lightbee"], likely:[], no:[],
-     badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-final-drive-front-sprocket-surron-lbx.webp'
-    },
-    {name:'Final Drive Front Sprocket | 14T | Surron LBX', pid:'howlingmoto-final-drive-front-sprocket-14t-surron-lbx', tier:'budget',
-     prices:[
       {v:'Howling Moto', p:6, url:'https://howlingmoto.com/products/final-drive-front-sprocket-14t-surron-lbx', chk:'2026-10-27'},
-     ],
-     fits:["lightbee"], likely:[], no:[],
-     badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-final-drive-front-sprocket-14t-surron-lbx.webp'
-    },
-    {name:'DirtyBike 14T Final Drive Front Sprocket | Surron Light Bee, E Ride Pro', pid:'revrides-dirtybike-final-drive-front-sprocket-surron-lbx', tier:'budget',
-     prices:[
       {v:'REV Rides', p:6, url:'https://revrides.com/products/dirtybike-final-drive-front-sprocket-surron-lbx', chk:'2026-10-27'},
      ],
-     fits:["lightbee"], likely:[], no:[],
-     badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-dirtybike-final-drive-front-sprocket-surron-lbx.webp'
+     fits:['lightbee'], likely:[], no:[],
+     badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-final-drive-front-sprocket-surron-lbx.webp'
     },
     {name:'DirtyBike 420 Primary Chain Drive Alignment Shim Surron LBX', pid:'tbelectricmoto-dirtybike-420-primary-chain-drive-alignment-shim-surron', tier:'budget',
      prices:[
@@ -8282,13 +8054,6 @@ var CATEGORIES = [
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf'], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-11'
     },
-    {name:'Warp9 428 Rear Sprocket - Arctic Leopard XE Pro S / Pro R', pid:'chargedcycleworks-warp9-428-rear-sprocket-arctic-leopard-xe-pro-s', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:42.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
-     badge:'Warp9', stock:'out_of_stock', stockChk:'2026-11-11'
-    },
     {name:'Surron Ultra Bee - EBMX 52T Sprocket', pid:'chargedcycleworks-52t-sprocket-for-surron-ultra-bee', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/52t-sprocket-for-surron-ultra-bee', chk:'2026-11-10'},
@@ -8463,7 +8228,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:42, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-s-pro-r-sprocket.webp'
     },
     {name:'E Ride Pro – 110-Link Chain 428 Chain | Take-Off', pid:'chargedcycleworks-eride-pro-55-link-chain-take-off', tier:'OEM',
@@ -8953,7 +8718,7 @@ var CATEGORIES = [
       {v:'Sur-Ron', p:8, url:'https://shop.sur-ron.com/products/light-bee-horn', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","lightbee","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:[], likely:['arctic-xd','bonnell-805rx','komodo','lightbee','mx4','mx5','sr','ss20','ss30','ss40','storm-bee','ultrabee','ventus-evo','ventus-plus'], no:[],
      badge:'Horn', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/electrical-surron-horn.webp'
     },
     {name:'GiGigo Gi02-S Headlight', pid:'electrical-gigigo-headlight', tier:'midrange',
@@ -8982,7 +8747,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:60, url:'https://tbelectricmoto.com/products/ventus-aetos-harness-kits', chk:'2026-10-18'},
      ],
-     fits:["lightbee","ultrabee","mx4","mx5"], likely:[], no:[],
+     fits:['lightbee','mx4','mx5','sr','ss20','ss30','ultrabee'], likely:['arctic-xd','bonnell-805rx','komodo','ss40','storm-bee','ventus-evo','ventus-plus'], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-aetos-gen2-harness.webp'
     },
       {name:'Talaria Sting MX4 and XXX OEM Replacement Display', pid:'tbelectricmoto-talaria-sting-oem-replacement-display', tier:'OEM',
@@ -9142,13 +8907,6 @@ var CATEGORIES = [
      ],
      fits:['sr'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-display-cable-she7045.webp'
-    },
-    {name:'E Ride Pro SR – Regen Brake | OEM', pid:'chargedcycleworks-e-ride-pro-oem-rengen-brake', tier:'OEM',
-     prices:[
-      {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake', chk:'2026-11-10'},
-     ],
-     fits:['sr'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-e-ride-pro-oem-rengen-brake.webp'
     },
     {name:'E Ride Pro – Mini / Mini R / SR Horn Switch | OEM', pid:'chargedcycleworks-eride-pro-horn-switch-mini-mini-r-sr-oem', tier:'OEM',
      prices:[
@@ -9965,13 +9723,6 @@ var CATEGORIES = [
      fits:['ss30'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tmb-heavy-duty-bash-plate-e-ride-pro-ss.webp'
     },
-    {name:'TMB Rear Rotor Guard - Arctic Leopard XE Pro S / Vetra', pid:'chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:175.0, url:'https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
-     badge:'TMB', stock:'in_stock', stockChk:'2026-11-11'
-    },
     {name:'TMB Heavy Duty Bash Plate - Arctic Leopard XE Pro S / Enduro / Vetra', pid:'chargedcycleworks-tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:200.0, url:'https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s', chk:'2026-11-11'},
@@ -10039,7 +9790,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:175, url:'https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra.webp'
     },
     {name:'KKE Rear Brake Disc Guard for Rawrr Mantis', pid:'chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-collective', tier:'midrange',
@@ -10154,11 +9905,12 @@ var CATEGORIES = [
     {name:'Stock linkage', prices:[]},
     {name:'EBMX Upgraded OEM Linkage for Sur-Ron Ultra Bee', pid:'linkage-ultrabeemx', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:105, url:'https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee', chk:'2026-10-18'},
+      {v:'Charged Powersports', p:105, url:'https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee', chk:'2026-10-18'},
+      {v:'Charged Cycle Works', p:89.25, url:'https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ultrabee'], likely:['storm-bee','ventus-plus','ventus-evo','ss20','ss30','ss40','sr','mx5','komodo','bonnell-805rx','arctic-xd'], no:[],
-     badge:'EBMX', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/linkage-ultrabeemx.webp'
+     fits:['ultrabee'], likely:['arctic-xd','bonnell-805rx','komodo','mx5','sr','ss20','ss30','ss40','storm-bee','ultrabee-21kw','ventus-evo','ventus-plus'], no:['zero-xe'],
+     badge:'EBMX', stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/linkage-ultrabeemx.webp'
     },
     {name:'Ultra Bee Rear Suspension Linkage & Triangle Upgrade Kit', pid:'linkage-ultrabee-emx', tier:'budget',
      prices:[
@@ -10207,8 +9959,9 @@ var CATEGORIES = [
     {name:'Warp 9 Ultra Bee Triangle Pivot Bolt Kit', pid:'tbelectricmoto-warp-9-ultra-bee-triangle-pivot-bolt-kit', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:21, url:'https://tbelectricmoto.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit', chk:'2026-10-27'},
+      {v:'Charged Cycle Works', p:21.0, url:'https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit', chk:'2026-11-11'},
      ],
-     fits:['ultrabee'], likely:[], no:[],
+     fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      badge:'Linkage', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-warp-9-ultra-bee-triangle-pivot-bolt-kit.webp'
     },
     {name:'DirtyBike Aluminum Suspension Triangle Surron LBX', pid:'tbelectricmoto-dirtybike-aluminum-suspension-triangle-surron-lbx', tier:'budget',
@@ -10238,13 +9991,6 @@ var CATEGORIES = [
      ],
      fits:["sr"], likely:[], no:[],
      badge:'Linkage', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/revrides-prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0.webp'
-    },
-    {name:'TMB Linkage for Sirris R38 (Arctic Leopard XE Pro S / Enduro / R)', pid:'chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:125.0, url:'https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
-     badge:'TMB', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Bonnell 805 - Linkage / Suspension Bearing Kit', pid:'linkage-bonnell-805-rx-linkage-suspension-bearing-kit', tier:'OEM',
      prices:[
@@ -10352,33 +10098,10 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:125, url:'https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r.webp'
     },
-    {name:'Needle Bearing Kit for Suspension Triangle | Surron LBX', pid:'chargedcycleworks-bearing-kit-suspension-triangle-surron-lbx', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:11, url:'https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx', chk:'2026-11-11'},
-     ],
-     fits:[], likely:['falcon-pro'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-11'
-    }
 ,
-    {name:'EBMX Upgraded OEM Linkage for SurRon Ultra Bee', pid:'chargedcycleworks-ebmx-upgraded-oem-linkage-for-surron-ultra-bee', tier:'OEM',
-     prices:[
-      {v:'Charged Cycle Works', p:89.25, url:'https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:[], likely:['ultrabee-21kw'], no:[],
-     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Warp 9 – Triangle Pivot Bolt Kit for Surron Ultra Bee', pid:'chargedcycleworks-warp-9-ultra-bee-triangle-pivot-bolt-kit', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:21.0, url:'https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:[], likely:['ultrabee-21kw'], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-11'
-    },
 ]},
   {id:'maintenance', name:'Maintenance', blurb:'Consumables and shop supplies to keep the build running.', tips:['Stock up on what wears: chains, brake pads, tires'], options:[
     {name:'Stock maintenance', prices:[]},
@@ -10416,16 +10139,11 @@ var CATEGORIES = [
     {name:'Bearing Kit | Suspension Triangle | Surron LBX', pid:'tbelectricmoto-bearing-kit-suspension-triangle-surron-lbx', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:11, url:'https://tbelectricmoto.com/products/bearing-kit-suspension-triangle-surron-lbx', chk:'2026-10-27'},
-     ],
-     fits:["lightbee"], likely:[], no:[],
-     badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-bearing-kit-suspension-triangle-surron-lbx.webp'
-    },
-    {name:'Sur-Ron Light Bee LBX Suspension Triangle Needle Bearing Kit | DirtyBike', pid:'howlingmoto-sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-k', tier:'budget',
-     prices:[
+      {v:'Charged Cycle Works', p:11, url:'https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx', chk:'2026-11-11'},
       {v:'Howling Moto', p:11, url:'https://howlingmoto.com/products/sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-kit-dirtybike', chk:'2026-10-27'},
      ],
-     fits:["lightbee"], likely:[], no:[],
-     badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-k.webp'
+     fits:['lightbee'], likely:['falcon-pro'], no:[],
+     badge:'Maintenance', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-bearing-kit-suspension-triangle-surron-lbx.webp'
     },
     {name:'Titanium Kickstand Bolt/ Nut Set- Surron LBS LBX, Segway X160 X260', pid:'revrides-titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x2', tier:'budget',
      prices:[
@@ -10807,46 +10525,39 @@ var CATEGORIES = [
      fits:['ventus-evo','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/maintenance-warp9-stemlock-replacement-bolt.webp'
     },
-    {name:'Maxima DOT 5.1 Brake Fluid – 500 mL', pid:'maintenance-maxima-dot51-brake-fluid-500ml', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:12.99, url:'https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml', chk:'2026-11-11'},
-     ],
-     fits:['lightbee2'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
     {name:'Wolf Tooth Precision Headset Spacers', pid:'chargedcycleworks-precision-headset-spacers-for-surron-talaria', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:6.26, url:'https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x'], likely:['rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-precision-headset-spacers-for-surron-talaria.webp'
     },
     {name:'Maxima Hi-Temp waterproof grease 16oz tub', pid:'chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro','ultrabee-21kw'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','stark-vargex','ultrabee-21kw'], likely:['altis-sigma'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub.webp'
     },
     {name:'Maxima DOT 5.1 Brake Fluid – 500 mL', pid:'chargedcycleworks-maxima-dot-5-1-brake-fluid-500ml', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:12.99, url:'https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','lightbee2'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-maxima-dot-5-1-brake-fluid-500ml.webp'
     },
     {name:'Maxima Chain Guard Lube', pid:'chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:8.99, url:'https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','stark-vargex'], likely:['altis-sigma'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260.webp'
     },
     {name:'Maxima Chain Guard Care Kit', pid:'chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','stark-vargex'], likely:['altis-sigma'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260.webp'
     },
     {name:'Warp9 Tire Levers', pid:'chargedcycleworks-warp9-surron-tire-levers', tier:'budget',
@@ -10860,28 +10571,14 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:131.0, url:'https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','stark-vargex'], likely:['altis-sigma'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Tusk Spoke Wrench for Surron Segway', pid:'chargedcycleworks-spoke-wrench-set', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:8.99, url:'https://chargedcycleworks.com/products/spoke-wrench-set', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Stem Spacer Kit', pid:'chargedcycleworks-stem-lock-spacer-kit', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:10.0, url:'https://chargedcycleworks.com/products/stem-lock-spacer-kit', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Maxima Hi-Temp waterproof grease 16oz tub', pid:'chargedcycleworks-maxima-hi-temp-waterproof-grease', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub', chk:'2026-11-11'},
-     ],
-     fits:[], likely:['altis-sigma'], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','stark-vargex'], likely:['altis-sigma'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'KyVex Billet Stem Lock – Direct Mount Triple Clamps', pid:'chargedcycleworks-kyvex-billet-stem-lock', tier:'midrange',
@@ -10889,27 +10586,6 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:70.0, url:'https://chargedcycleworks.com/products/kyvex-billet-stem-lock', chk:'2026-11-11'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma','arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Maxima Hi-Temp waterproof grease 16oz tub', pid:'chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub', chk:'2026-11-11'},
-     ],
-     fits:['rawrr-mantis-x'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Maxima Chain Guard Lube', pid:'chargedcycleworks-maxima-chain-guard-lube', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:8.99, url:'https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260', chk:'2026-11-11'},
-     ],
-     fits:['rawrr-mantis-x'], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Maxima Chain Guard Care Kit', pid:'chargedcycleworks-maxima-chain-guard-care-kit', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260', chk:'2026-11-11'},
-     ],
-     fits:['rawrr-mantis-x'], likely:['altis-sigma'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 Stem Lock & Fender Adapter', pid:'chargedcycleworks-warp9-stem-lock-fender-adapter', tier:'midrange',
@@ -10933,18 +10609,11 @@ var CATEGORIES = [
      fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x-pro'], likely:['rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
     },
-    {name:'Wolf Tooth Precision Headset Spacers', pid:'chargedcycleworks-wolf-tooth-precision-headset-spacers', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:6.26, url:'https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria', chk:'2026-11-11'},
-     ],
-     fits:['rawrr-mantis-x'], likely:['rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
     {name:'Stem Spacer Kit', pid:'chargedcycleworks-warp9-stem-lock-spacer-kit', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:10, url:'https://chargedcycleworks.com/products/stem-lock-spacer-kit', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x','rawrr-mantis-x-pro'], likely:['rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','rawrr-mantis-x-pro'], likely:['altis-sigma','rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 Stark Varg Adjustable Kickstand And Bracket', pid:'maintenance-warp9-adjustable-kickstand-stark-varg', tier:'midrange',
@@ -10954,22 +10623,6 @@ var CATEGORIES = [
      ],
      fits:['stark-vargex'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11'
-    },
-    {name:'Warp9 Adjustable Spoke Torque Wrench Kit', pid:'maintenance-warp9-spoke-torque-wrench-kit', tier:'mid',
-     prices:[
-      {v:'Charged Cycle Works', p:131, url:'https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Tusk Spoke Wrench for Surron Segway', pid:'maintenance-tusk-spoke-wrench', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:8.99, url:'https://chargedcycleworks.com/products/spoke-wrench-set', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Tusk Adjustable Height Motorcycle Tire Changing Stand', pid:'maintenance-tusk-tire-changing-stand', tier:'mid',
      prices:[
@@ -10982,30 +10635,6 @@ var CATEGORIES = [
     {name:'PBR Chain Press Tool Motion Pro', pid:'maintenance-pbr-chain-press-tool-motion-pro', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:144.99, url:'https://chargedcycleworks.com/products/pbr-chain-press-tool-motion-pro', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Maxima Hi-Temp waterproof grease 16oz tub', pid:'maintenance-maxima-hi-temp-grease', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Maxima Chain Guard Lube', pid:'maintenance-maxima-chain-guard-lube', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:8.99, url:'https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'Maxima Chain Guard Care Kit', pid:'maintenance-maxima-chain-guard-care-kit', tier:'mid',
-     prices:[
-      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
@@ -11302,7 +10931,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway', chk:'2026-10-18'},
      ],
-     fits:['lightbee2','lightbee','ventus-plus'], likely:['ventus-evo','ss20','ss30','sr'], no:[],
+     fits:['lightbee','lightbee2'], likely:['sr','ss20','ss30','ventus-evo'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp'
     },
       {name:'Surron Light Bee - OEM Foot Peg Connection Assembly', pid:'chargedcycleworks-surron-light-bee-pedal-connection-bracket-pair', tier:'OEM',
@@ -11382,13 +11011,6 @@ var CATEGORIES = [
      fits:["ventus-plus"], likely:[], no:[],
      badge:'Pegs', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-ventus-foot-peg-mounting-bracket-ventus-oem.webp'
     },
-    {name:'Warp9 Foot Pegs for Surron Light Bee, Ventus One, and E Ride Pro', pid:'chargedcycleworks-warp9-foot-pegs-for-surron-segway', tier:'mid',
-     prices:[
-      {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway', chk:'2026-10-27'},
-     ],
-     fits:["lightbee2","lightbee"], likely:["ventus-plus"], no:[],
-     badge:'Pegs', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp'
-    },
     {name:'Bonnell 805 - Footpeg Mount | Left & Right', pid:'pegs-bonnell-805-rx-footpeg-mount', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:28.95, url:'https://chargedcycleworks.com/products/bonnell-805-rx-footpeg-mount', chk:'2026-11-05'},
@@ -11396,13 +11018,6 @@ var CATEGORIES = [
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-05'
-    },
-    {name:'TMB Adjustable Footpeg Mounts - Arctic Leopard XE Pro S / Pro R / Enduro / Vetra', pid:'chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-s', tier:'premium',
-     prices:[
-      {v:'Charged Cycle Works', p:255.0, url:'https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
-     badge:'TMB', stock:'out_of_stock', stockChk:'2026-11-11'
     },
     {name:'Bonnell 805 - Footpeg Set', pid:'pegs-bonnell-805-rx-footpeg-set', tier:'OEM',
      prices:[
@@ -11612,7 +11227,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:255, url:'https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra', chk:'2026-11-11'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra.webp'
     },
     {name:'KyVex Replacement Pins for Billet Wide Foot Pegs', pid:'chargedcycleworks-kyvex-replacement-foot-peg-pins', tier:'budget',
@@ -11819,21 +11434,6 @@ var CATEGORIES = [
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-11'
     },
-    {name:'Thrill Seekers Seat Cover for Arctic Leopard XE Pro S', pid:'chargedcycleworks-thrill-seekers-seat-cover-arctic-leopard-xe-pro-s', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:79.0, url:'https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s', chk:'2026-11-11'},
-     ],
-     fits:['arctic-leopard-xe-pro-s'], likely:[], no:[],
-     badge:'Thrill Seekers', stock:'out_of_stock', stockChk:'2026-11-11'
-    },
-    {name:'Guts Seat Cover - Sur-Ron Light Bee', pid:'seat-guts-lightbee-cover', tier:'premium',
-     prices:[
-      {v:'TB Electric Moto', p:79.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover', chk:'2026-10-18'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:["lightbee","mx4","mx5","sr","ss20","ss30","ultrabee","ventus-plus"], likely:["arctic-xd","bonnell-805rx","ss40","storm-bee","komodo","ventus-evo"], no:[],
-     badge:'Seat Cover', variant:'custom', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/seat-guts-lightbee-cover.webp'
-    },
     {name:'SHE8022 Long Seat Kit - SS2.0 / SS3.0 / SR', pid:'seat-eride-long-kit', tier:'premium',
      prices:[
       {v:'E Ride Pro', p:490, url:'https://www.eridepro.com/products/she8022-long-seat-kits', chk:'2026-10-18'},
@@ -12010,7 +11610,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:79, url:'https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s', chk:'2026-11-11'},
      ],
-     fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s.webp'
     },
     {name:'Thrill Seekers Seat Cover for Altis Sigma', pid:'chargedcycleworks-thrill-seekers-seat-cover-for-altis-sigma', tier:'midrange',
@@ -12146,14 +11746,6 @@ var CATEGORIES = [
      ],
      fits:["lightbee"], likely:["storm-bee","ultrabee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
      badge:'Rare Form', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/street-lightbee-street-kit.webp'
-    },
-    {name:'Sur-Ron Light Bee OEM Horn', pid:'street-surron-oem-horn', tier:'stock_replacement',
-     prices:[
-      {v:'Sur-Ron', p:8, url:'https://shop.sur-ron.com/products/light-bee-horn', chk:'2026-10-18'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:[], likely:["lightbee","storm-bee","ultrabee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
-     badge:'Sur-Ron', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/street-surron-oem-horn.webp'
     },
     {name:'Tusk Plug and Play Turn Signal Kit', pid:'street-tusk-signal-kit', tier:'midrange',
      prices:[
@@ -13232,7 +12824,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:92.99, url:'https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto', chk:'2026-11-11'},
      ],
-     fits:['zero-xe'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s-enduro','ultrabee-21kw'], no:[],
+     fits:['zero-xe'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s-enduro','stark-vargex','ultrabee-21kw'], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-dunlop-k990-tires-for-emoto.webp'
     },
     {name:'Tusk Recon Sticky Tire for eMoto', pid:'chargedcycleworks-tusk-recon-sticky-19-tire-for-surron-segway', tier:'mid',
@@ -13274,7 +12866,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:24.95, url:'https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit', chk:'2026-11-11'},
      ],
-     fits:['rawrr-mantis-x'], likely:['altis-sigma','ultrabee-21kw'], no:[],
+     fits:['rawrr-mantis-x','stark-vargex'], likely:['altis-sigma','ultrabee-21kw'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Michelin StarCross 6 Medium Hard Terrain Tire', pid:'tires-michelin-starcross-6-medium-hard', tier:'mid',
@@ -13293,22 +12885,6 @@ var CATEGORIES = [
      fits:[], likely:['stark-vargex','ultrabee-21kw','zero-xe'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
-    {name:'Dunlop K990 Light Weight 18/21 for eMoto', pid:'tire-dunlop-k990-emoto', tier:'mid',
-     prices:[
-      {v:'Charged Cycle Works', p:92.99, url:'https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:[], likely:['stark-vargex'], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    },
-    {name:'COUNTERACT BALANCING BEAD DIY KIT', pid:'tires-counteract-balancing-bead-kit', tier:'budget',
-     prices:[
-      {v:'Charged Cycle Works', p:24.95, url:'https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit', chk:'2026-11-11'},
-      /* AFFILIATE: replace with affiliate link */
-     ],
-     fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
-    }
 ,
     {name:'Altis Delta Inner Tube', pid:'altispowersports-altis-delta-inner-tube', tier:'OEM',
      prices:[
@@ -13326,7 +12902,7 @@ var CATEGORIES = [
     },
     {name:'Bridgestone Battlecross X31 Soft/Int Terrain Tire (80/100-21 front)', pid:'chargedcycleworks-bridgestone-battlecross-x31-soft-int-terrain-tire-80-100-21', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:103.99, url:'https://www.altispowersports.com/products/altis-omega', chk:'2026-11-11'},
+      {v:'Charged Cycle Works', p:103.99, url:'https://chargedcycleworks.com/products/bridgestone-battlecross-x31-soft-intermediate-terrain-tire-110-100x18', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
@@ -13334,7 +12910,7 @@ var CATEGORIES = [
     },
     {name:'BRIDGESTONE M204 Rear Tire (90/100-14 rear)', pid:'chargedcycleworks-bridgestone-m204-rear-tire-90-100-14', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:61.88, url:'https://www.altispowersports.com/products/altis-delta-tires', chk:'2026-11-11'},
+      {v:'Charged Cycle Works', p:61.88, url:'https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['altis-delta'], likely:[], no:[],
@@ -13342,7 +12918,7 @@ var CATEGORIES = [
     },
     {name:'IRC IX-09 Gekkota Gummy Tires for Hard Enduro (80/100-21 front)', pid:'chargedcycleworks-irc-ix-09-gekkota-gummy-tires-for-hard-enduro-80-100-21', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:94.88, url:'https://www.altispowersports.com/products/altis-omega', chk:'2026-11-11'},
+      {v:'Charged Cycle Works', p:94.88, url:'https://chargedcycleworks.com/products/irc-ix-09-gekkota-gummy-rear-tire-90-100x16', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
@@ -13350,7 +12926,7 @@ var CATEGORIES = [
     },
     {name:'Kenda K760 Trakmaster REAR Tire (70/100-17 front)', pid:'chargedcycleworks-kenda-k760-trakmaster-rear-tire-70-100-17', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:51.49, url:'https://www.altispowersports.com/products/altis-delta-tires', chk:'2026-11-11'},
+      {v:'Charged Cycle Works', p:51.49, url:'https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['altis-delta'], likely:[], no:[],
@@ -13434,14 +13010,14 @@ var CATEGORIES = [
     },
     {name:'Bridgestone Battlecross X30 Tire (80/100-21 front)', pid:'gritshift-bridgestone-battlecross-x30-tire-80-100-21', tier:'midrange',
      prices:[
-      {v:'GritShift', p:125.27, url:'https://www.altispowersports.com/products/altis-omega', chk:'2026-11-11'},
+      {v:'GritShift', p:125.27, url:'https://gritshift.com/products/bridgestone-battlecross-x30f-70-100-19', chk:'2026-11-11'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Bridgestone Battlecross X30 Tire (70/100-19 front)', pid:'gritshift-bridgestone-battlecross-x30f-70-100-19', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:63.99, url:'https://www.supermach.com/products/sm62-electric-dirt-bike', chk:'2026-11-11'},
+      {v:'Charged Cycle Works', p:63.99, url:'https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
       {v:'GritShift', p:49.99, url:'https://gritshift.com/products/bridgestone-battlecross-x30f-70-100-19', chk:'2026-11-11'},
      ],
@@ -13457,7 +13033,7 @@ var CATEGORIES = [
     },
     {name:'Bridgestone Battlecross X31 Intermediate Motocross Tire (90/100-16 rear)', pid:'gritshift-bridgestone-battlecross-x31-intermediate-motocross-tire-90-100-16', tier:'midrange',
      prices:[
-      {v:'GritShift', p:102.99, url:'https://www.supermach.com/products/sm62-electric-dirt-bike', chk:'2026-11-11'},
+      {v:'GritShift', p:102.99, url:'https://gritshift.com/products/bridgestone-battlecross-x31-front-tire-80-100-21', chk:'2026-11-11'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-11'
@@ -13520,28 +13096,28 @@ var CATEGORIES = [
     },
     {name:'Dunlop Geomax MX53 Tire (70/100-19 front)', pid:'gritshift-dunlop-geomax-mx53-tire-70-100-19', tier:'midrange',
      prices:[
-      {v:'GritShift', p:74.95, url:'https://www.supermach.com/products/sm62-electric-dirt-bike', chk:'2026-11-11'},
+      {v:'GritShift', p:74.95, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-11'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX53 Tire (80/100-21 front)', pid:'gritshift-dunlop-geomax-mx53-tire-80-100-21', tier:'midrange',
      prices:[
-      {v:'GritShift', p:149.89, url:'https://www.altispowersports.com/products/altis-omega', chk:'2026-11-11'},
+      {v:'GritShift', p:149.89, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-11'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX53 Tire (90/100-14 rear)', pid:'gritshift-dunlop-geomax-mx53-tire-90-100-14', tier:'midrange',
      prices:[
-      {v:'GritShift', p:74.99, url:'https://www.altispowersports.com/products/altis-delta-tires', chk:'2026-11-11'},
+      {v:'GritShift', p:74.99, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-11'},
      ],
      fits:['altis-delta'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX53 Tire (90/100-16 rear)', pid:'gritshift-dunlop-geomax-mx53-tire-90-100-16', tier:'midrange',
      prices:[
-      {v:'GritShift', p:88.99, url:'https://www.supermach.com/products/sm62-electric-dirt-bike', chk:'2026-11-11'},
+      {v:'GritShift', p:88.99, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-11'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
@@ -13562,14 +13138,14 @@ var CATEGORIES = [
     },
     {name:'Kenda K774 Ibex Super Soft Extreme Enduro Tire (90/100-14 rear)', pid:'gritshift-kenda-k774-ibex-super-soft-extreme-enduro-tire-90-100-14', tier:'midrange',
      prices:[
-      {v:'GritShift', p:71.95, url:'https://www.altispowersports.com/products/altis-delta-tires', chk:'2026-11-11'},
+      {v:'GritShift', p:71.95, url:'https://gritshift.com/products/kenda-k774-ibex-front-tire-80-100-21', chk:'2026-11-11'},
      ],
      fits:['altis-delta'], likely:[], no:[],
      badge:'Kenda', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Kenda K774 Ibex Super Soft Extreme Enduro Tire (90/100-16 rear)', pid:'gritshift-kenda-k774-ibex-super-soft-extreme-enduro-tire-90-100-16', tier:'midrange',
      prices:[
-      {v:'GritShift', p:78.99, url:'https://www.supermach.com/products/sm62-electric-dirt-bike', chk:'2026-11-11'},
+      {v:'GritShift', p:78.99, url:'https://gritshift.com/products/kenda-k774-ibex-front-tire-80-100-21', chk:'2026-11-11'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Kenda', stock:'in_stock', stockChk:'2026-11-11'
@@ -13597,35 +13173,35 @@ var CATEGORIES = [
     },
     {name:'Maxxis Maxxcross IT Tire (70/100-19 front)', pid:'gritshift-maxxis-maxxcross-it-tire-70-100-19', tier:'midrange',
      prices:[
-      {v:'GritShift', p:76.89, url:'https://www.supermach.com/products/sm62-electric-dirt-bike', chk:'2026-11-11'},
+      {v:'GritShift', p:76.89, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-11'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Maxxis Maxxcross IT Tire (80/100-21 front)', pid:'gritshift-maxxis-maxxcross-it-tire-80-100-21', tier:'midrange',
      prices:[
-      {v:'GritShift', p:159.89, url:'https://www.altispowersports.com/products/altis-omega', chk:'2026-11-11'},
+      {v:'GritShift', p:159.89, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-11'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Maxxis Maxxcross IT Tire (90/100-16 rear)', pid:'gritshift-maxxis-maxxcross-it-tire-90-100-16', tier:'midrange',
      prices:[
-      {v:'GritShift', p:98.99, url:'https://www.supermach.com/products/sm62-electric-dirt-bike', chk:'2026-11-11'},
+      {v:'GritShift', p:98.99, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-11'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Maxxis Maxxcross SI Tire (80/100-21 front)', pid:'gritshift-maxxis-maxxcross-si-tire-80-100-21', tier:'midrange',
      prices:[
-      {v:'GritShift', p:149.89, url:'https://www.altispowersports.com/products/altis-omega', chk:'2026-11-11'},
+      {v:'GritShift', p:149.89, url:'https://gritshift.com/products/maxxis-m7311-maxxcross-si-70-100-19', chk:'2026-11-11'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Maxxis Maxxcross SI Tire (90/100-16 rear)', pid:'gritshift-maxxis-maxxcross-si-tire-90-100-16', tier:'midrange',
      prices:[
-      {v:'GritShift', p:86.89, url:'https://www.supermach.com/products/sm62-electric-dirt-bike', chk:'2026-11-11'},
+      {v:'GritShift', p:86.89, url:'https://gritshift.com/products/maxxis-m7311-maxxcross-si-70-100-19', chk:'2026-11-11'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-11'
@@ -14006,7 +13582,7 @@ var CATEGORIES = [
      prices:[
       {v:'Rerode USA', p:55.0, url:'https://rerode.bike/products/mxe-9-70-100-19', chk:'2026-11-11'},
       {v:'Pinned Electric', p:55.0, url:'https://pinnedelectric.com/products/mxe-9-70-100-19', chk:'2026-11-11'},
-      {v:'Warp 9 Racing', p:55.0, url:'https://www.supermach.com/products/sm62-electric-dirt-bike', chk:'2026-11-11'},
+      {v:'Warp 9 Racing', p:55.0, url:'https://warp9racing.com/products/mxe-9-70-100-19', chk:'2026-11-11'},
      ],
      fits:['supermach-sm62'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
@@ -14014,7 +13590,7 @@ var CATEGORIES = [
      prices:[
       {v:'Rerode USA', p:59.0, url:'https://rerode.bike/products/mxe-9-90-100-16', chk:'2026-11-11'},
       {v:'Pinned Electric', p:59.0, url:'https://pinnedelectric.com/products/mxe-9-90-100-16', chk:'2026-11-11'},
-      {v:'Warp 9 Racing', p:59.0, url:'https://www.supermach.com/products/sm62-electric-dirt-bike', chk:'2026-11-11'},
+      {v:'Warp 9 Racing', p:59.0, url:'https://warp9racing.com/products/mxe-9-90-100-16', chk:'2026-11-11'},
      ],
      fits:['supermach-sm62'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
@@ -14074,7 +13650,7 @@ var CATEGORIES = [
     },
     {name:'E Ride Pro OEM Tires | For E Ride Pro and Compatible E-Motos (70/100-17 front)', pid:'revrides-e-ride-pro-oem-tires-for-e-ride-pro-and-compatible-e-motos-70-100-17', tier:'OEM',
      prices:[
-      {v:'REV Rides', p:55.0, url:'https://www.altispowersports.com/products/altis-delta-tires', chk:'2026-11-11'},
+      {v:'REV Rides', p:55.0, url:'https://revrides.com/products/fatty-off-road-100-90-18-rear-tire-kit-by-e-ride-pro-for-e-moto-and-electric-dirt-bikes', chk:'2026-11-11'},
      ],
      fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
@@ -14168,19 +13744,19 @@ var CATEGORIES = [
     },
     {name:'E Ride Pro OEM Tires | For E Ride Pro and Compatible E-Motos', pid:'revrides-sm01-6000-electric-off-road-vehicle', tier:'OEM',
      prices:[
-      {v:'REV Rides', p:59.0, url:'https://www.supermach.com/products/sm01-6000-electric-off-road-vehicle', chk:'2026-11-11'},
+      {v:'REV Rides', p:59.0, url:'https://revrides.com/products/fatty-off-road-100-90-18-rear-tire-kit-by-e-ride-pro-for-e-moto-and-electric-dirt-bikes', chk:'2026-11-11'},
      ],
      fits:[], likely:['supermach-sm01'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Strike Shadow Knobby Tires | 12”, 14” & 17” Front & Rear Options (70/100-17 front)', pid:'revrides-strike-shadow-knobby-tires-12-14-17-front-rear-options-70-100-17', tier:'budget',
      prices:[
-      {v:'REV Rides', p:39.99, url:'https://www.altispowersports.com/products/altis-delta-tires', chk:'2026-11-11'},
+      {v:'REV Rides', p:39.99, url:'https://revrides.com/products/strike-shadow-knobby-tires-12-14-17-front-rear-options', chk:'2026-11-11'},
      ],
      fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Strike Shadow Knobby Tires | 12”, 14” & 17” Front & Rear Options (90/100-14 rear)', pid:'revrides-strike-shadow-knobby-tires-12-14-17-front-rear-options-90-100-14', tier:'budget',
      prices:[
-      {v:'REV Rides', p:39.99, url:'https://www.altispowersports.com/products/altis-delta-tires', chk:'2026-11-11'},
+      {v:'REV Rides', p:39.99, url:'https://revrides.com/products/strike-shadow-knobby-tires-12-14-17-front-rear-options', chk:'2026-11-11'},
      ],
      fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
@@ -14626,9 +14202,10 @@ var CATEGORIES = [
     {name:'Warp9 eMoto Handguard Titanium Bolt Kit', pid:'titanium-warp9-e-moto-handguard-titanium-bolt-kit', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:22, url:'https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit', chk:'2026-11-05'},
+      {v:'GritShift', p:22.99, url:'https://gritshift.com/products/warp-9-e-moto-handguard-titanium-bolt-kit', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','bonnell-805rx','rawrr-mantis-72v','rawrr-mantis-x','rtr-alpha','rtr-lite','rtr-sport','stark-vargex','ultrabee-21kw','zero-xe'], likely:['altis-sigma','rawrr-mantis-mini-r'], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','bonnell-805rx','rawrr-mantis-72v','rawrr-mantis-x','rtr-alpha','rtr-lite','rtr-sport','stark-vargex','ultrabee-21kw','zero-xe'], likely:['altis-sigma','rawrr-mantis-mini-r','rerode-rx'], no:[],
      stock:'in_stock', stockChk:'2026-11-05'
     },
     {name:'Talaria Komodo Titanium Body Bolt Kit', pid:'chargedcycleworks-talaria-komodotitanium-body-bolt-kit', tier:'midrange',
@@ -14656,7 +14233,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:59, url:'https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit', chk:'2026-11-11'},
      ],
-     fits:['lightbee2','ss40'], likely:[], no:[],
+     fits:['lightbee2','ss40'], likely:['altis-sigma'], no:[],
      stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Titanium Stem Lock Replacement Bolt', pid:'chargedcycleworks-warp9-titanium-stem-lock-replacement-bolt', tier:'budget',
@@ -14665,13 +14242,6 @@ var CATEGORIES = [
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/chargedcycleworks-warp9-titanium-stem-lock-replacement-bolt.webp'
-    },
-    {name:'Warp9 E-Moto Big Light Kit Titanium Bolt Kit', pid:'chargedcycleworks-titanium-bolts-for-emoto-big-light-kit', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:59.0, url:'https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit', chk:'2026-11-11'},
-     ],
-     fits:[], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp9 Stark Varg Titanium Rear Axle', pid:'titanium-warp9-rear-axle-stark-varg', tier:'midrange',
      prices:[
@@ -14763,7 +14333,6 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'guts-seat-cover|ultrabee':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ss20':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ss30':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
-  'guts-seat-cover|ss40':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|sr':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ventus-plus':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ventus-evo':{s:'verify',n:'TB page lists Ventus One / One Plus only - no EVO evidence (downgraded Nov 11, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
@@ -14809,7 +14378,6 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'sirris-r46-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee (checked Oct 18, 2026)',u:['https://chargedcycleworks.com/products/sirris-r46-shock-for-surron-ultra-bee']},
   'ion-18-21-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee (checked Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ion-ultra-bee-18-21-wheelset']},
   'warp9-3in-rise|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)',u:['https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria']},
-  'seat-guts-lightbee-cover|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'charged-brake-pads-emoto|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
   'kke-37mm-fork-kit|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)',u:['https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective']},
   'sirris-f43-cmx-light-bee|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)',u:['https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-surron-light-bee-x']},
@@ -14848,7 +14416,6 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'warp9-1619|mx5':{s:'confirmed_fit_with_modifications',n:'CCW: Talaria needs an adapter, which voids the Warp 9 wheel warranty; Talaria-specific wheels are sold separately',u:['https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9']},
   /* owner-verified: Josh (site owner) runs these on his own Ventus One Plus */
   'warp9-1619|ventus-plus':{s:'confirmed_direct_fit',ov:1,n:'Owner-verified install (site owner\'s bike), Oct 18, 2026',u:[]},
-  'warp9-pegs-lbx-ventus|ventus-plus':{s:'confirmed_direct_fit',ov:1,n:'Owner-verified install (site owner\'s bike), Oct 18, 2026',u:[]},
   /* fitment audit Oct 18, 2026: every fits/likely bike checked against the seller listing text */
   'ebmx-xlb-60|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor']},
   'ebmx-xlb-60|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor']},
@@ -15143,13 +14710,6 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'pegs-ultrabee-oem-brackets|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://voromotors.com/products/foot-pegs-with-mounts-for-ultra-bee']},
   'pegs-ventus-lbx|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://ventusbikes.us/products/surron-lbx-foot-pegs-collective']},
   'warp9-pegs-lbx-ventus|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway']},
-  'seat-guts-lightbee-cover|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
-  'seat-guts-lightbee-cover|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
-  'seat-guts-lightbee-cover|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
-  'seat-guts-lightbee-cover|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
-  'seat-guts-lightbee-cover|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
-  'seat-guts-lightbee-cover|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
-  'seat-guts-lightbee-cover|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'seat-talaria-mx34-oem|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://zealracing.com/products/seat-r-mx4']},
   'street-lightbee-street-kit|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit']},
   'street-tusk-signal-kit|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit']},
@@ -15301,7 +14861,7 @@ Object.assign(FITMENT,{
   'armysctv-talaria-custom|zero-xe':{s:'not_compatible',n:'Evidence listing is Talaria MX3/MX4 specific',u:['https://armysctv.com/en/products/kit-deco-100-perso-talaria-sting-mx3-r-mx4']},
   'ecr-graphics-talaria|zero-xe':{s:'not_compatible',n:'Evidence listing is Talaria MX3/MX4 specific',u:['https://parts.electriccyclerider.com/products/180-decals-graphics-for-talaria-sting-mx3-mx4']},
   'rawrr-mantis-graphic-kit|zero-xe':{s:'not_compatible',n:'Evidence listing is Rawrr Mantis specific',u:['https://www.riderawrr.com/product/mantis-graphic-kit']},
-  'seat-guts-lightbee-cover|zero-xe':{s:'not_compatible',n:'Evidence listing is for Sur-Ron Light Bee only',u:['https://www.zynxdesigns.us/products/guts-seat-cover-for-surron-light-bee-79bike']},
+  'guts-seat-cover|zero-xe':{s:'not_compatible',n:'Evidence listing is for Sur-Ron Light Bee only',u:['https://www.zynxdesigns.us/products/guts-seat-cover-for-surron-light-bee-79bike']},
   'seat-eride-long-kit|zero-xe':{s:'not_compatible',n:'Evidence listing is E Ride Pro SS2.0/SS3.0/SR specific',u:['https://www.eridepro.com/products/she8022-long-seat-kits']},
   'seat-talaria-mx34-oem|zero-xe':{s:'not_compatible',n:'Evidence listing is Talaria MX3/MX4 specific seat',u:['https://zealracing.com/products/seat-r-mx4']},
   'street-lightbee-street-kit|zero-xe':{s:'not_compatible',n:'Evidence listing is for Sur-Ron Light Bee X only',u:['https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit']},
@@ -15559,7 +15119,7 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-10 (supersedes entries above) */
   'chargedcycleworks-e-ride-pro-oem-rear-brake-hose|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-rear-brake-hose']},
   'chargedcycleworks-e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit']},
   'chargedcycleworks-e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit|ss30':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-rear-wheel-axle-with-1pc-rear-wheel-axle-1nut-1-shim-bushing-kit']},
-  'chargedcycleworks-e-ride-pro-oem-rengen-brake|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake']},
+  'tbelectricmoto-e-ride-pro-sr-regen-brake|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake']},
   'chargedcycleworks-e-ride-pro-oem-right-foot-peg-mount-copy|ss30':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-right-foot-peg-mount-copy',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-right-foot-peg-mount-copy']},
   'chargedcycleworks-e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip|sr':{s:'confirmed_direct_fit',n:'CCW body: \'OEM Skid Plate for E Ride Pro SS 3.0 and SR\' ($79, in stock). Checked 2026-11-10.',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip']},
   'chargedcycleworks-e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip|ss30':{s:'confirmed_direct_fit',n:'CCW body: \'OEM Skid Plate for E Ride Pro SS 3.0 and SR\'. Checked 2026-11-10.',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-skid-platewith-6csrews-2pcs-nuts-2pcs-big-nut-clip']},
@@ -15676,7 +15236,6 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-10 (supersedes entries above) */
   'chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade',u:['https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade']},
   'chargedcycleworks-heavy-hitter-ultra-bee-linkage|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage',u:['https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage']},
   'chargedcycleworks-heavy-hitter-ultra-bee-triangle|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle',u:['https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle']},
-  'chargedcycleworks-ion-16-19-wheelset-for-e-ride-pro-3-0-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr',u:['https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr']},
   'chargedcycleworks-ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee|komodo':{s:'confirmed_direct_fit',n:'CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee']},
   'chargedcycleworks-ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee|ultrabee':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee',u:['https://chargedcycleworks.com/products/ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee']},
   'chargedcycleworks-ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr|sr':{s:'confirmed_direct_fit',n:'CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr',u:['https://chargedcycleworks.com/products/ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr']},
@@ -16810,7 +16369,7 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Stark Varg EX (merged run 1) 
   'cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260']},
   'cockpit-odi-aluminum-grip-end-plugs|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260']},
   'cockpit-odi-grip-donuts|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260']},
-  'cockpit-odi-grip-glue|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-grip-glue',u:['https://chargedcycleworks.com/products/odi-grip-glue']},
+  'chargedcycleworks-odi-grip-glue|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-grip-glue',u:['https://chargedcycleworks.com/products/odi-grip-glue']},
   'cockpit-odi-ruffian-full-waffle-grips|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips',u:['https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips']},
   'cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260']},
   'cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260',u:['https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260']},
@@ -16818,7 +16377,7 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Stark Varg EX (merged run 1) 
   'cockpit-protaper-pillow-top-grips|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-grips']},
   'cockpit-protaper-pillow-top-lite-grips|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips',u:['https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips']},
   'cockpit-renthal-50-50-mx-grips|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-50-50-mx-grips',u:['https://chargedcycleworks.com/products/renthal-50-50-mx-grips']},
-  'cockpit-renthal-grip-glue|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-grip-glue',u:['https://chargedcycleworks.com/products/renthal-grip-glue']},
+  'chargedcycleworks-renthal-grip-glue|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-grip-glue',u:['https://chargedcycleworks.com/products/renthal-grip-glue']},
   'cockpit-stark-varg-docking-station|stark-vargex':{s:'confirmed_direct_fit',n:'CCW description names the Stark Varg EX and MX docking station (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-docking-station-bottom-cover',u:['https://chargedcycleworks.com/products/stark-varg-docking-station-bottom-cover']},
   'cockpit-sxs-burly-shields-hand-guards|stark-vargex':{s:'verify',n:'CCW tags it Varg EX, but the $55 variant is named for the Surron Ultra Bee; only the $154 universal-mount variant could fit the EX - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards',u:['https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards']},
   'cockpit-warp9-e-moto-handguards|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguards',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguards']},
@@ -16833,17 +16392,17 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Stark Varg EX (merged run 1) 
   'fork-skf-seals-stark-varg|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/skf-fork-seals-for-stark-varg',u:['https://chargedcycleworks.com/products/skf-fork-seals-for-stark-varg']},
   'handlebar-odi-podium-mx-handlebars|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-podium-mx-handlebars',u:['https://chargedcycleworks.com/products/odi-podium-mx-handlebars']},
   'handlebar-renthal-fatbar-1-1-8|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-fatbar-1-1-8',u:['https://chargedcycleworks.com/products/renthal-fatbar-1-1-8']},
-  'handlebar-tusk-chub-mx-handlebars|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars',u:['https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars']},
+  'tusk-chub-118-stormbee|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars',u:['https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars']},
   'maintenance-drc-bike-lift-stand|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bike-lift-stand-by-drc',u:['https://chargedcycleworks.com/products/bike-lift-stand-by-drc']},
-  'maintenance-maxima-chain-guard-care-kit|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260']},
-  'maintenance-maxima-chain-guard-lube|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260']},
-  'maintenance-maxima-hi-temp-grease|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub',u:['https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub']},
+  'chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260']},
+  'chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260']},
+  'chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub',u:['https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub']},
   'maintenance-pbr-chain-press-tool-motion-pro|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pbr-chain-press-tool-motion-pro',u:['https://chargedcycleworks.com/products/pbr-chain-press-tool-motion-pro']},
   'maintenance-tie-down-straps-1in-fire-power|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/1-tie-down-straps-2-pk-by-fire-power',u:['https://chargedcycleworks.com/products/1-tie-down-straps-2-pk-by-fire-power']},
-  'maintenance-tusk-spoke-wrench|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/spoke-wrench-set',u:['https://chargedcycleworks.com/products/spoke-wrench-set']},
+  'chargedcycleworks-spoke-wrench-set|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/spoke-wrench-set',u:['https://chargedcycleworks.com/products/spoke-wrench-set']},
   'maintenance-tusk-tire-changing-stand|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-adjustable-height-motorcycle-tire-changing-stand',u:['https://chargedcycleworks.com/products/tusk-adjustable-height-motorcycle-tire-changing-stand']},
   'maintenance-warp9-adjustable-kickstand-stark-varg|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-bracket-stark-varg',u:['https://chargedcycleworks.com/products/warp9-adjustable-kickstand-bracket-stark-varg']},
-  'maintenance-warp9-spoke-torque-wrench-kit|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench',u:['https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench']},
+  'chargedcycleworks-warp-9-torque-spoke-wrench|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench',u:['https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench']},
   'pegs-warp9-elite-foot-pegs-stark-varg|stark-vargex':{s:'confirmed_direct_fit',n:'CCW description names the Stark Varg and says the pegs are specifically designed to fit the Stark Varg using the OEM peg pivot pin; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-elite-foot-pegs-by-warp9',u:['https://chargedcycleworks.com/products/stark-varg-elite-foot-pegs-by-warp9']},
   'plastics-flux|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/flux',u:['https://chargedcycleworks.com/products/flux']},
   'plastics-grand-prix|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/grand-prix',u:['https://chargedcycleworks.com/products/grand-prix']},
@@ -16856,7 +16415,7 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Stark Varg EX (merged run 1) 
   'shock-race-tech-gold-valves-stark-varg|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; rear KYB shock kit $199.99 (front fork kit $339.99) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/race-tech-suspension-gold-valves-for-stark-varg',u:['https://chargedcycleworks.com/products/race-tech-suspension-gold-valves-for-stark-varg']},
   'tire-bikemaster-tr6-inner-tubes|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front and 120/100-18 rear tube sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes',u:['https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes']},
   'tire-dunlop-geomax-en91ex-gummy-tire|stark-vargex':{s:'verify',n:'CCW tags it Varg EX, but the page does not state the tire size - verify it is the stock 140/80-18 rear before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-geomax-en91ex-gummy-tire',u:['https://chargedcycleworks.com/products/dunlop-geomax-en91ex-gummy-tire']},
-  'tire-dunlop-k990-emoto|stark-vargex':{s:'verify',n:'CCW tags it Varg EX; offers 70/100-21 front and 90/100-18 rear, which fit the stock 21 in front / 18 in rear wheels but are not the stock tire sizes - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto',u:['https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto']},
+  'chargedcycleworks-dunlop-k990-tires-for-emoto|stark-vargex':{s:'verify',n:'CCW tags it Varg EX; offers 70/100-21 front and 90/100-18 rear, which fit the stock 21 in front / 18 in rear wheels but are not the stock tire sizes - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto',u:['https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto']},
   'tire-dunlop-mx14-sand-scoop-tire|stark-vargex':{s:'verify',n:'CCW tags it Varg EX; the 110/100-18 variant fits the stock 18 in rear wheel but is not the stock tire size - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire',u:['https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire']},
   'tire-dunlop-mx33-ccw|stark-vargex':{s:'verify',n:'CCW tags it Varg EX; offers 70/100-21 front and 90/100-18 rear, which fit the stock 21 in front / 18 in rear wheels but are not the stock tire sizes - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto',u:['https://chargedcycleworks.com/products/dunlop-mx33-soft-int-tires-for-emoto']},
   'tire-dunlop-mx54-geomax-soft-int-terrain-tires|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front size and a 120/90-18 rear (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires']},
@@ -16872,7 +16431,7 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Stark Varg EX (merged run 1) 
   'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front and 120/100-18 rear tube sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260']},
   'tire-tire-ve-33s-gekkota-rear-tire|stark-vargex':{s:'verify',n:'CCW tags it Varg EX; the 110/100-18 size fits the stock 18 in rear wheel but is not the stock tire size - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire',u:['https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire']},
   'tire-wps-rim-strip|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip',u:['https://chargedcycleworks.com/products/wps-rim-strip']},
-  'tires-counteract-balancing-bead-kit|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit',u:['https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit']},
+  'chargedcycleworks-counteract-balancing-bead-diy-kit|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit',u:['https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit']},
   'tires-michelin-starcross-6-medium-hard|stark-vargex':{s:'confirmed_direct_fit',n:'CCW description: Perfect for the Stark Varg; offers the stock 80/100-21 front size and a 120/90-18 rear (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/michelin-starcross-6-medium-hard-terrain-tire',u:['https://chargedcycleworks.com/products/michelin-starcross-6-medium-hard-terrain-tire']},
   'titanium-warp9-countershaft-bolt-stark-varg|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-titanium-countershaft-bolt-stark-varg',u:['https://chargedcycleworks.com/products/warp9-titanium-countershaft-bolt-stark-varg']},
   'titanium-warp9-e-moto-handguard-titanium-bolt-kit|stark-vargex':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit',u:['https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit']},
@@ -16915,7 +16474,7 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Rawrr Mantis X (merged run 1)
   'chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fitment E Ride Pro SS 2.0 Rawrr Mantis, Mantis X\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr',u:['https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr']},
   'chargedcycleworks-kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis X 2024-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective',u:['https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective']},
   'chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis X 2024-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-black-and-red-collective',u:['https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-black-and-red-collective']},
-  'chargedcycleworks-kke-direct-mount-stem-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis X 2024-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective',u:['https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective']},
+  'chargedcycleworks-kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis X 2024-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective',u:['https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective']},
   'chargedcycleworks-kke-footpegs-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis X 2024-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective',u:['https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective']},
   'chargedcycleworks-kke-rear-chain-guide-fit-rawrr-mantis-x-collective|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis X 2024-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-rear-chain-guard-fit-rawrr-mantis-x-black-and-red-collective',u:['https://chargedcycleworks.com/products/kke-rear-chain-guard-fit-rawrr-mantis-x-black-and-red-collective']},
   'chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-x':{s:'verify',n:'KKE lists "Fit For Rawrr Mantis X 2024-2025" but the guard only fits a 220mm rotor and the Mantis X rear rotor is 203mm per CCW - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective',u:['https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective']},
@@ -16925,22 +16484,22 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Rawrr Mantis X (merged run 1)
   'chargedcycleworks-warp9-elite-foot-pegs-rawrr-mantis-x-mini|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fitment: Mantis X and Mantis mini\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini',u:['https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini']},
   'chargedcycleworks-bearing-kit-front-wheel|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW title and fitment text name Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bearing-kit-front-wheel',u:['https://chargedcycleworks.com/products/bearing-kit-front-wheel']},
   'chargedcycleworks-warp9-transformer-direct-bar-mount-stem|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem',u:['https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem']},
-  'chargedcycleworks-heavy-hitter-direct-mount-stem-riser-2-rise-31-8mm|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars',u:['https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars']},
+  'chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars',u:['https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars']},
   'chargedcycleworks-heavy-hitter-titanium-direct-mount-riser|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser',u:['https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser']},
   'chargedcycleworks-handlebar-shims-31-8-to-28-6|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars',u:['https://chargedcycleworks.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars']},
   'chargedcycleworks-direct-mount-stem-1-spacer-25mm|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm',u:['https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm']},
-  'chargedcycleworks-handlebar-stem-spacer|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-handlebar-stem-spacer-talaria-sting-mx3-mx4-x3|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3']},
   'chargedcycleworks-warp9-stem-lock-spacer-kit|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stem-lock-spacer-kit',u:['https://chargedcycleworks.com/products/stem-lock-spacer-kit']},
-  'chargedcycleworks-wolf-tooth-precision-headset-spacers|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria',u:['https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria']},
+  'chargedcycleworks-precision-headset-spacers-for-surron-talaria|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria',u:['https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria']},
   'chargedcycleworks-rfloxa-steering-stem-lock|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rfloxa-steering-stem-lock',u:['https://chargedcycleworks.com/products/rfloxa-steering-stem-lock']},
   'chargedcycleworks-warp9-standard-stem-lock|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-standard-stem-lock',u:['https://chargedcycleworks.com/products/warp9-standard-stem-lock']},
   'chargedcycleworks-warp9-stem-lock-fender-adapter|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter',u:['https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter']},
   'chargedcycleworks-kyvex-billet-bar-mount|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-bar-mount',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount']},
   'chargedcycleworks-kyvex-billet-bar-mount-riser|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser']},
   'chargedcycleworks-kyvex-replacement-foot-peg-pins|rawrr-mantis-x':{s:'verify',n:'CCW search-by-bike (Mantis X tag) lists these replacement pins for KyVex Billet Wide Foot Pegs - verify they match the pegs on the bike (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins',u:['https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins']},
-  'chargedcycleworks-maxima-chain-guard-care-kit|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260']},
-  'chargedcycleworks-maxima-chain-guard-lube|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260']},
-  'chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub',u:['https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub']},
+  'chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260']},
+  'chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260']},
+  'chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub',u:['https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub']},
   'chargedcycleworks-odi-grip-glue|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-grip-glue',u:['https://chargedcycleworks.com/products/odi-grip-glue']},
   'chargedcycleworks-renthal-grip-glue|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-grip-glue',u:['https://chargedcycleworks.com/products/renthal-grip-glue']},
   'chargedcycleworks-counteract-balancing-bead-diy-kit|rawrr-mantis-x':{s:'confirmed_direct_fit',n:'CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit',u:['https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit']},
@@ -17025,18 +16584,18 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Altis Sigma (merged run 1) (s
   'chargedcycleworks-kenda-k760-trakmaster-rear-tire|altis-sigma':{s:'verify',n:'70/100-19 variant (stock 19-inch rear wheel); CCW does not name the Altis Sigma - verify (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260']},
   'chargedcycleworks-kyvex-billet-bar-mount-riser|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser']},
   'chargedcycleworks-kyvex-billet-stem-lock|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/kyvex-billet-stem-lock']},
-  'chargedcycleworks-maxima-chain-guard-care-kit|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260']},
-  'chargedcycleworks-maxima-chain-guard-lube|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260']},
-  'chargedcycleworks-maxima-hi-temp-waterproof-grease|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub']},
+  'chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260']},
+  'chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260']},
+  'chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub']},
   'chargedcycleworks-maxxis-maxxcross-intermediate-tire|altis-sigma':{s:'verify',n:'70/100-19 variant (stock 19-inch rear wheel); CCW does not name the Altis Sigma - verify (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front']},
   'chargedcycleworks-odi-grip-glue|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/odi-grip-glue']},
   'chargedcycleworks-pivotrax-cyber-street-tire|altis-sigma':{s:'verify',n:'80/100-19 variant available (stock 19-inch wheels); CCW does not name the Altis Sigma - verify (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/pivotrax-cyber-street-tire']},
   'chargedcycleworks-rtech-hp2-handguards|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/rtech-hp2-handguards']},
-  'chargedcycleworks-stem-lock-spacer-kit|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/stem-lock-spacer-kit']},
+  'chargedcycleworks-warp9-stem-lock-spacer-kit|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/stem-lock-spacer-kit']},
   'chargedcycleworks-thrill-seekers-bag-9000|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/thrill-seekers-bag-9000']},
   'chargedcycleworks-spoke-wrench-set|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/spoke-wrench-set']},
   'chargedcycleworks-warp-9-torque-spoke-wrench|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench']},
-  'chargedcycleworks-titanium-bolts-for-emoto-big-light-kit|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit']},
+  'ti-warp9-big-light-kit-bolt-kit|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit']},
   'chargedcycleworks-warp9-surron-tire-levers|altis-sigma':{s:'verify',n:'In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/warp9-surron-tire-levers']},
 });
 
@@ -17046,26 +16605,26 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Arctic Leopard XE Pro S (merg
   'chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW fitment list names Arctic Leopard XE Pro / Pro S / Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway']},
   'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW fitment list names Arctic Leopard XE Pro S (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto']},
   'chargedcycleworks-ion-16-rear-wheel-upgrade-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Bike Fitment Arctic Leopard XE Pro S / Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-arctic-leopard-xe-pro-s']},
-  'chargedcycleworks-ion-21-front-wheel-upgrade-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Bike Fitment Arctic Leopard XE Pro S / Pro R; 21in front upgrade for bikes with extended 775mm forks (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/21-front-wheel-upgrade-arctic-leopard-xe-pro']},
+  'chargedcycleworks-21-front-wheel-upgrade-arctic-leopard-xe-pro|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Bike Fitment Arctic Leopard XE Pro S / Pro R; 21in front upgrade for bikes with extended 775mm forks (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/21-front-wheel-upgrade-arctic-leopard-xe-pro']},
   'chargedcycleworks-ion-16-19-wheelset-for-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Fitment Arctic Leopard XE Pro / Pro S / Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/ion-16-19-wheelset-for-arctic-leopard-xe-pro-s']},
   'chargedcycleworks-ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Bike Fitment Arctic Leopard XE Pro / Pro S / Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s']},
   'chargedcycleworks-ion-18-21-wheelset-for-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Fitment Arctic Leopard XE Pro / Pro S / Pro R / Vetra Blazer; note: 21in front needs the longer 775mm gold forks or a drop crown on shorter OEM black forks (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/ion-18-21-wheelset-for-arctic-leopard-xe-pro-s']},
   'chargedcycleworks-arctic-leopard-xe-front-axle-oem|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW fitment list names Arctic Leopard XE Pro S (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-front-axle-oem']},
   'chargedcycleworks-arctic-leopard-xe-front-brake-hose-oem|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Arctic Leopard XE PRO / PRO S Front Brake Hose (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-front-brake-hose-oem']},
   'chargedcycleworks-arctic-leopard-xe-rear-brake-hose-oem|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Arctic Leopard XE PRO / PRO S Rear Brake Hose (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-rear-brake-hose-oem']},
-  'chargedcycleworks-arctic-leopard-xe-pro-oem-brake-rotors|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: OEM Replacement Part for Arctic Leopard XE Pro / XE Pro S (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-rear-brake-rotor']},
-  'chargedcycleworks-arctic-leopard-xe-pro-s-oem-takeoff-wheelset|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: wheelset off a new Arctic Leopard XE Pro S; 16/19in with 90/100-16 rear and 70/100-19 front, XE Pro S stock sizes (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-takeoff-wheelset']},
-  'chargedcycleworks-warp9-428-rear-sprocket-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: designed specifically for the Arctic Leopard XE Pro S and XE Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket']},
+  'chargedcycleworks-arctic-leopard-xe-pro-oem-rear-brake-rotor|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: OEM Replacement Part for Arctic Leopard XE Pro / XE Pro S (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-rear-brake-rotor']},
+  'chargedcycleworks-arctic-leopard-xe-pro-oem-takeoff-wheelset|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: wheelset off a new Arctic Leopard XE Pro S; 16/19in with 90/100-16 rear and 70/100-19 front, XE Pro S stock sizes (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-takeoff-wheelset']},
+  'chargedcycleworks-arctic-leopard-xe-pro-s-pro-r-sprocket|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: designed specifically for the Arctic Leopard XE Pro S and XE Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket']},
   'chargedcycleworks-arctic-leopard-xe-rear-sprocket-48t-oem|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW fitment list names Arctic Leopard XE Pro S (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-rear-sprocket-48t-oem']},
-  'chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: This R38 fits all three Arctic Leopard models: XE Pro S, Enduro, and R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r']},
-  'chargedcycleworks-rfloxa-hawk36-max-fork-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Built around Arctic Leopard XE PRO S specifications; Fitment Arctic Leopard XE PRO S (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork']},
-  'chargedcycleworks-tech-e39-brake-adapter-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Upgrade your Arctic Leopard XE Pro S or XE Pro S Enduro with a TECH Suspension fork; TECH-fork conversion only (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro']},
-  'chargedcycleworks-thrill-seekers-seat-cover-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Fits the Arctic Leopard XE Pro, and XE Pro S OEM Seat (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s']},
-  'chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW compatibility list names Arctic Leopard XE Pro S (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra']},
+  'chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s-enduro-r|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: This R38 fits all three Arctic Leopard models: XE Pro S, Enduro, and R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r']},
+  'chargedcycleworks-rfloxa-hawk36-max-fork|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Built around Arctic Leopard XE PRO S specifications; Fitment Arctic Leopard XE PRO S (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork']},
+  'chargedcycleworks-tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Upgrade your Arctic Leopard XE Pro S or XE Pro S Enduro with a TECH Suspension fork; TECH-fork conversion only (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro']},
+  'chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Fits the Arctic Leopard XE Pro, and XE Pro S OEM Seat (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s']},
+  'chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW compatibility list names Arctic Leopard XE Pro S (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra']},
   'chargedcycleworks-tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW compatibility list names Arctic Leopard XE Pro S (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s']},
-  'chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: designed specifically to fit the Sirris R38 rear shock on Arctic Leopard XE Pro S / Enduro / R; R38 shock only, not the stock shock (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r']},
-  'chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW compatibility list names Arctic Leopard XE Pro S; does not fit the XE Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra']},
-  'chargedcycleworks-tmb-wheel-spacer-set-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Upgrade the factory wheel spacers on your Arctic Leopard XE Pro S, XE Pro R, or Vetra (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-wheel-spacer-set-arctic-leopard-xe-pro']},
+  'chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: designed specifically to fit the Sirris R38 rear shock on Arctic Leopard XE Pro S / Enduro / R; R38 shock only, not the stock shock (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r']},
+  'chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW compatibility list names Arctic Leopard XE Pro S; does not fit the XE Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra']},
+  'chargedcycleworks-tmb-wheel-spacer-set-arctic-leopard-xe-pro|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW: Upgrade the factory wheel spacers on your Arctic Leopard XE Pro S, XE Pro R, or Vetra (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-wheel-spacer-set-arctic-leopard-xe-pro']},
   'tire-bridgestone-x30-ccw|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'90/100-16 variant = XE Pro S stock rear size; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16']},
   'tire-bridgestone-m203-ccw|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'70/100-19 variant = XE Pro S stock front size; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11).',u:['https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate']},
   'tire-bridgestone-m204-ccw|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'90/100-16 variant = XE Pro S stock rear size; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
@@ -17111,8 +16670,8 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Arctic Leopard XE Pro S (merg
   'chargedcycleworks-fastace-rear-shock-for-surron-talaria|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW ALXEPRO tag only; no XE Pro S fitment text - eye-to-eye length and mounts unverified for XE Pro S — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/fastace-rear-shock-for-surron-talaria']},
   'kke-performance|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW ALXEPRO tag only; no XE Pro S fitment text - eye-to-eye length and mounts unverified for XE Pro S — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock']},
   'rfloxa-rab53rv|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW ALXEPRO tag only; no XE Pro S fitment text - eye-to-eye length and mounts unverified for XE Pro S — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/rfloxa-rab53rv']},
-  'chargedcycleworks-al-xe-pro-brake-pad-oem|arctic-leopard-xe-pro-s':{s:'verify',n:'CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem']},
-  'chargedcycleworks-arctic-leopard-10a-oem-charger|arctic-leopard-xe-pro-s':{s:'verify',n:'CCW fitment list names XE / XE Pro / XF / Pro R / EX Pro; XE Pro S not named - verify voltage and connector before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem']},
+  'chargedcycleworks-al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem|arctic-leopard-xe-pro-s':{s:'verify',n:'CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem']},
+  'chargedcycleworks-al-xe-pro-charger-artic-leopard-xe-pro-oem|arctic-leopard-xe-pro-s':{s:'verify',n:'CCW fitment list names XE / XE Pro / XF / Pro R / EX Pro; XE Pro S not named - verify voltage and connector before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem']},
   'chargedcycleworks-arctic-leopard-xe-left-hand-control-oem|arctic-leopard-xe-pro-s':{s:'verify',n:'CCW description names Arctic Leopard XE only; shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem']},
   'chargedcycleworks-arctic-leopard-xe-pro-battery-charging-cable|arctic-leopard-xe-pro-s':{s:'verify',n:'CCW description names the XE Pro platform only; fitment note says battery and charging configurations may vary between models - verify S fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-battery-charging-cable']},
   'chargedcycleworks-arctic-leopard-xe-pro-battery-connector-power-cord|arctic-leopard-xe-pro-s':{s:'verify',n:'CCW description names the XE Pro platform only; fitment note says battery and wiring configurations can vary between models - verify S fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-battery-connector-power-cord']},
@@ -17126,11 +16685,11 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Arctic Leopard XE Pro S (merg
   'chargedcycleworks-arctic-leopard-xe-pro-16-rear-wheel|arctic-leopard-xe-pro-s':{s:'verify',n:'CCW description names Arctic Leopard XE Pro only (no XE Pro S); 16/19in setup matches XE Pro S stock sizes - verify S fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arcticleopardxepro-16wheel']},
   'chargedcycleworks-arctic-leopard-xe-rear-axle-oem|arctic-leopard-xe-pro-s':{s:'verify',n:'CCW description names Arctic Leopard XE only; shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-rear-axle-oem']},
   'chargedcycleworks-arctic-leopard-xe-rear-wheel-spacers-oem|arctic-leopard-xe-pro-s':{s:'verify',n:'CCW description names Arctic Leopard XE / XF only; shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-rear-wheel-spacers-oem']},
-  'chargedcycleworks-arctic-leopard-xe-xf-brake-lever-oem|arctic-leopard-xe-pro-s':{s:'verify',n:'CCW description names Arctic Leopard XE and XF models only; shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem']},
-  'prickly-31-8-handlebars|arctic-leopard-xe-pro-s':{s:'verify',n:'31.8mm clamp; CCW names Surron Light Bee X, E Ride Pro and Talaria only, XE Pro S not named - verify clamp fit before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/prickly-31-8-bars']},
-  'plastics-odi-style-front-number-plate|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'Universal e-moto number plate; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/surron-light-bee-number-plate']},
+  'chargedcycleworks-arctic-leopard-xe-xf-brake-lever-front-rear-oem|arctic-leopard-xe-pro-s':{s:'verify',n:'CCW description names Arctic Leopard XE and XF models only; shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem']},
+  'chargedcycleworks-prickly-31-8-handlebars|arctic-leopard-xe-pro-s':{s:'verify',n:'31.8mm clamp; CCW names Surron Light Bee X, E Ride Pro and Talaria only, XE Pro S not named - verify clamp fit before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/prickly-31-8-bars']},
+  'chargedcycleworks-surron-light-bee-number-plate|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'Universal e-moto number plate; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/surron-light-bee-number-plate']},
   'chargedcycleworks-nibbi-rear-shock|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW ALXEPRO tag only; no XE Pro S fitment text - eye-to-eye length and mounts unverified for XE Pro S — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/nibbi-rear-shock']},
-  'rfloxa-rab50rc|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW ALXEPRO tag only; no XE Pro S fitment text - eye-to-eye length and mounts unverified for XE Pro S — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/rfloxa-rab50rc']},
+  'chargedcycleworks-rfloxa-rab50rc|arctic-leopard-xe-pro-s':{s:'confirmed_direct_fit',n:'CCW ALXEPRO tag only; no XE Pro S fitment text - eye-to-eye length and mounts unverified for XE Pro S — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/rfloxa-rab50rc']},
 });
 
 Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Arctic Leopard XE Pro S Enduro (merged run 1) (supersedes entries above) */
@@ -17198,7 +16757,7 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Arctic Leopard XE Pro S Endur
   'chargedcycleworks-rfloxa-rab50rc|arctic-leopard-xe-pro-s-enduro':{s:'confirmed_direct_fit',n:'CCW ALXEPRO collection only; product page does not name the XE Pro S Enduro — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/rfloxa-rab50rc']},
   'chargedcycleworks-rfloxa-steering-stem-lock|arctic-leopard-xe-pro-s-enduro':{s:'confirmed_direct_fit',n:'CCW ALXEPRO collection only; product page does not name the XE Pro S Enduro — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/rfloxa-steering-stem-lock']},
   'chargedcycleworks-spoke-wrench-set|arctic-leopard-xe-pro-s-enduro':{s:'confirmed_direct_fit',n:'CCW ALXEPRO collection only; product page does not name the XE Pro S Enduro — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/spoke-wrench-set']},
-  'chargedcycleworks-stem-lock-spacer-kit|arctic-leopard-xe-pro-s-enduro':{s:'confirmed_direct_fit',n:'CCW ALXEPRO collection only; product page does not name the XE Pro S Enduro — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/stem-lock-spacer-kit']},
+  'chargedcycleworks-warp9-stem-lock-spacer-kit|arctic-leopard-xe-pro-s-enduro':{s:'confirmed_direct_fit',n:'CCW ALXEPRO collection only; product page does not name the XE Pro S Enduro — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/stem-lock-spacer-kit']},
   'chargedcycleworks-surron-light-bee-front-fork-fender-water-transfer-printing-matte|arctic-leopard-xe-pro-s-enduro':{s:'confirmed_direct_fit',n:'CCW ALXEPRO collection only; product page does not name the XE Pro S Enduro — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/surron-light-bee-front-fork-fender-water-transfer-printing-matte']},
   'chargedcycleworks-surron-light-bee-number-plate|arctic-leopard-xe-pro-s-enduro':{s:'confirmed_direct_fit',n:'CCW ALXEPRO collection only; product page does not name the XE Pro S Enduro — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/surron-light-bee-number-plate']},
   'chargedcycleworks-surron-light-bee-stem-lift-kit|arctic-leopard-xe-pro-s-enduro':{s:'confirmed_direct_fit',n:'CCW ALXEPRO collection only; product page does not name the XE Pro S Enduro — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/surron-light-bee-stem-lift-kit']},
@@ -17265,7 +16824,7 @@ Object.assign(FITMENT, { /* CCW Light Bee 2 sweep 2026-11-11 (merged run 1) (sup
   'cockpit-acerbis-x-ultimate-handguards|lightbee2':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW\'s Light Bee 2 collection (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards',u:['https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards']},
   'drivetrain-did-520-ervt-gold-x-ring-chain|lightbee2':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW\'s Light Bee 2 collection (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain',u:['https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain']},
   'tire-irc-tubes|lightbee2':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW\'s Light Bee 2 collection (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes',u:['https://chargedcycleworks.com/products/irc-tubes']},
-  'maintenance-maxima-dot51-brake-fluid-500ml|lightbee2':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW\'s Light Bee 2 collection (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml',u:['https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml']},
+  'chargedcycleworks-maxima-dot-5-1-brake-fluid-500ml|lightbee2':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW\'s Light Bee 2 collection (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml',u:['https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml']},
   'cockpit-odi-aluminum-grip-end-plugs|lightbee2':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW\'s Light Bee 2 collection (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260']},
   'cockpit-odi-grip-donuts|lightbee2':{s:'confirmed_direct_fit',n:'CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW\'s Light Bee 2 collection (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260',u:['https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260']},
   'handlebar-odi-podium-mx-handlebars|lightbee2':{s:'confirmed_fit_with_modifications',n:'CCW search-by-bike (SURLB2 tag) lists this 28.6mm bar for the Sur-Ron Light Bee 2; the LB2 stock clamp is 31.8mm, so it needs a matching 28.6mm mount or 31.8-to-28.6mm shims (Rad Moto Light Bee 2 fitment guide, Oct 14, 2026) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-podium-mx-handlebars',u:['https://chargedcycleworks.com/products/odi-podium-mx-handlebars']},
@@ -17288,13 +16847,13 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Arctic Leopard XE Pro R (merg
   'tire-shinko-sr241-ccw|arctic-leopard-xe-pro-r':{s:'verify',n:'3.00x21 front and 3.00x18 rear variants fit the XE Pro R 21/18in wheels; earlier not_compatible grade was based on the 2.75x19 listing only - verify variant before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
   'chargedcycleworks-arctic-leopard-xe-front-axle-oem|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW fitment list names Arctic Leopard XE Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-front-axle-oem']},
   'chargedcycleworks-arctic-leopard-xe-rear-sprocket-48t-oem|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW fitment list names Arctic Leopard XE Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-rear-sprocket-48t-oem']},
-  'chargedcycleworks-arctic-leopard-10a-oem-charger|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW fitment list names Arctic Leopard XE / XE Pro / XF / Pro R / EX Pro (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem']},
+  'chargedcycleworks-al-xe-pro-charger-artic-leopard-xe-pro-oem|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW fitment list names Arctic Leopard XE / XE Pro / XF / Pro R / EX Pro (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem']},
   'chargedcycleworks-ion-16-rear-wheel-upgrade-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Bike Fitment Arctic Leopard XE Pro S / Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-arctic-leopard-xe-pro-s']},
-  'chargedcycleworks-ion-21-front-wheel-upgrade-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Bike Fitment Arctic Leopard XE Pro S / Pro R (checked 2026-11-11). R already runs a 21in front, so the 775mm-fork caveat for shorter-fork models does not apply.',u:['https://chargedcycleworks.com/products/21-front-wheel-upgrade-arctic-leopard-xe-pro']},
+  'chargedcycleworks-21-front-wheel-upgrade-arctic-leopard-xe-pro|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Bike Fitment Arctic Leopard XE Pro S / Pro R (checked 2026-11-11). R already runs a 21in front, so the 775mm-fork caveat for shorter-fork models does not apply.',u:['https://chargedcycleworks.com/products/21-front-wheel-upgrade-arctic-leopard-xe-pro']},
   'chargedcycleworks-ion-16-19-wheelset-for-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Fitment Arctic Leopard XE Pro / Pro S / Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/ion-16-19-wheelset-for-arctic-leopard-xe-pro-s']},
   'chargedcycleworks-ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Bike Fitment Arctic Leopard XE Pro / Pro S / Pro R / XF (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s']},
   'chargedcycleworks-ion-18-21-wheelset-for-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Fitment Arctic Leopard XE Pro / Pro S / Pro R (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/ion-18-21-wheelset-for-arctic-leopard-xe-pro-s']},
-  'chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: This R38 fits all three Arctic Leopard models: XE Pro S, Enduro, and R (checked 2026-11-11). Requires the TMB linkage; stock linkage will not work.',u:['https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r']},
+  'chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s-enduro-r|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: This R38 fits all three Arctic Leopard models: XE Pro S, Enduro, and R (checked 2026-11-11). Requires the TMB linkage; stock linkage will not work.',u:['https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r']},
   'chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: made specifically to fit the Sirris R38 rear shock on Arctic Leopard XE Pro S / Enduro / R models (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r']},
   'chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Adjustable Footpeg Mounts for the Arctic Leopard XE Pro S, XE Pro R, Enduro, and Vetra (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra']},
   'chargedcycleworks-tmb-wheel-spacer-set-arctic-leopard-xe-pro|arctic-leopard-xe-pro-r':{s:'confirmed_direct_fit',n:'CCW: Upgrade the factory wheel spacers on your Arctic Leopard XE Pro S, XE Pro R, or Vetra (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/tmb-wheel-spacer-set-arctic-leopard-xe-pro']},
@@ -17308,7 +16867,7 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Arctic Leopard XE Pro R (merg
   'chargedcycleworks-arctic-leopard-xe-left-hand-control-oem|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW description names Arctic Leopard XE only; shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem']},
   'chargedcycleworks-arctic-leopard-xe-pro-seat-lock-oem|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW description names Arctic Leopard XE Pro only (no XE Pro R); shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-lock-oem']},
   'chargedcycleworks-arctic-leopard-xe-pro-16-rear-wheel|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW description names Arctic Leopard XE Pro 16/19 setup only (no XE Pro R); shared ALXEPRO list - verify R fitment before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arcticleopardxepro-16wheel']},
-  'chargedcycleworks-arctic-leopard-xe-pro-s-oem-takeoff-wheelset|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW: wheelset off a new Arctic Leopard XE Pro S (16/19in); XE Pro R not named - verify fit before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-takeoff-wheelset']},
+  'chargedcycleworks-arctic-leopard-xe-pro-oem-takeoff-wheelset|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW: wheelset off a new Arctic Leopard XE Pro S (16/19in); XE Pro R not named - verify fit before buying (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-takeoff-wheelset']},
   'chargedcycleworks-kyvex-billet-bar-mount|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW ALXEPROR collection only; product page does not name the XE Pro R - verify fit (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount']},
   'chargedcycleworks-kyvex-billet-bar-mount-riser|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW ALXEPROR collection only; product page does not name the XE Pro R - verify fit (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser']},
   'chargedcycleworks-kyvex-billet-stem-lock|arctic-leopard-xe-pro-r':{s:'verify',n:'CCW ALXEPROR collection only; product page does not name the XE Pro R - verify fit (checked 2026-11-11).',u:['https://chargedcycleworks.com/products/kyvex-billet-stem-lock']},
@@ -17470,8 +17029,8 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Arctic Leopard XF (merged fin
   'tire-bridgestone-x30-ccw|arctic-leopard-xf':{s:'not_compatible',n:'Rear tire offered in 90/100-16 and 70/100-19 only; neither matches the XF 17in front / 14in rear rims. (checked 2026-11-11)'},
   'tire-shinko-sr241-ccw|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW search-by-bike (ALXF tag) lists this part for the XF; offers 2.75x17 front and 2.75x14 rear, the inch equivalents of the XF stock 70/100-17 front and 90/100-14 rear sizes. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/shinko-sr241-trials-rear-tire-for-sur-ron-or-segway-x260-2-75x19']},
   'chargedcycleworks-arctic-leopard-xe-pro-xf-throttle-oem|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW title names the XF (XE PRO / XF OEM throttle); CCW ALXF tag. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-pro-xf-throttle-oem']},
-  'chargedcycleworks-arctic-leopard-xe-xf-brake-lever-oem|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW title names the XF (XE/XF OEM brake lever); CCW ALXF tag. Both front and rear variants out of stock at CCW. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem']},
-  'chargedcycleworks-arctic-leopard-10a-oem-charger|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW title and fitment list name the XF (XE / XF / Pro R / EX Pro); 10A OEM charger for 72V Arctic Leopard packs. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem']},
+  'chargedcycleworks-arctic-leopard-xe-xf-brake-lever-front-rear-oem|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW title names the XF (XE/XF OEM brake lever); CCW ALXF tag. Both front and rear variants out of stock at CCW. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem']},
+  'chargedcycleworks-al-xe-pro-charger-artic-leopard-xe-pro-oem|arctic-leopard-xf':{s:'confirmed_direct_fit',n:'CCW title and fitment list name the XF (XE / XF / Pro R / EX Pro); 10A OEM charger for 72V Arctic Leopard packs. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem']},
   'chargedcycleworks-arctic-leopard-xe-pro-16-rear-wheel|arctic-leopard-xf':{s:'verify',n:'CCW title names Arctic Leopard XE Pro only; 16in rear vs XF stock 14in rear, and the XF uses its own swingarm - verify fit before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/arcticleopardxepro-16wheel']},
   'chargedcycleworks-arctic-leopard-xe-rear-sprocket-48t-oem|arctic-leopard-xf':{s:'verify',n:'CCW title names Arctic Leopard XE only; the XF is not an XE Pro variant and sprocket bolt pattern/offset is unverified for the XF - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-rear-sprocket-48t-oem']},
   'chargedcycleworks-arctic-leopard-xe-rear-wheel-spacers-oem|arctic-leopard-xf':{s:'verify',n:'CCW title names Arctic Leopard XE only; rear wheel spacers are axle/hub-specific and the XF uses its own swingarm - verify before buying. (checked 2026-11-11)',u:['https://chargedcycleworks.com/products/arctic-leopard-xe-rear-wheel-spacers-oem']},
@@ -17597,7 +17156,7 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Rawrr Mantis 72V (merged fina
   'chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment list: \'E Ride Pro SS 2.0 Rawrr Mantis, Mantis X\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr',u:['https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr']},
   'chargedcycleworks-kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis 2023-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective',u:['https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective']},
   'chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis 2023-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-black-and-red-collective',u:['https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-black-and-red-collective']},
-  'chargedcycleworks-kke-direct-mount-stem-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis 2023-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective',u:['https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective']},
+  'chargedcycleworks-kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis 2023-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective',u:['https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective']},
   'chargedcycleworks-kke-footpegs-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis 2023-2025\' (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective',u:['https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective']},
   'chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-collective|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fit For Rawrr Mantis 2023-2025\' and \'ONLY FITS 220 MM BRAKE ROTOR\'; the 72V rear rotor is 220mm (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective',u:['https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective']},
   'chargedcycleworks-rawr-sigma-sprocket|rawrr-mantis-72v':{s:'confirmed_direct_fit',n:'CCW fitment text: \'Fitment: RAWRR Mantis (Mantis X / Mantis X Pro sprocket go here instead)\'; 428 chain = stock (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rawr-sigma-sprocket',u:['https://chargedcycleworks.com/products/rawr-sigma-sprocket']},
@@ -17610,12 +17169,12 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Rawrr Mantis 72V (merged fina
   'chargedcycleworks-kyvex-billet-bar-mount|rawrr-mantis-72v':{s:'verify',n:'CCW page names no bike model — bar-mount fitment unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-bar-mount',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount']},
   'chargedcycleworks-kyvex-billet-bar-mount-riser|rawrr-mantis-72v':{s:'verify',n:'CCW page names no bike model — bar-mount riser fitment unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser']},
   'chargedcycleworks-kyvex-replacement-foot-peg-pins|rawrr-mantis-72v':{s:'verify',n:'Replacement pins for KyVex Billet Wide Foot Pegs; the pegs themselves are unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins',u:['https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins']},
-  'chargedcycleworks-heavy-hitter-direct-mount-stem-riser-2-rise-31-8mm|rawrr-mantis-72v':{s:'verify',n:'CCW fitment is \'Universal 31.8 bar mount (fits all standard mountain bike dual crown forks)\' — no Mantis naming; 72V fork clamp unverified (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars',u:['https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars']},
+  'chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars|rawrr-mantis-72v':{s:'verify',n:'CCW fitment is \'Universal 31.8 bar mount (fits all standard mountain bike dual crown forks)\' — no Mantis naming; 72V fork clamp unverified (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars',u:['https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars']},
   'chargedcycleworks-heavy-hitter-titanium-direct-mount-riser|rawrr-mantis-72v':{s:'verify',n:'CCW fitment list names Sur-Ron / Segway / Talaria / E Ride Pro only, never Rawrr (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser',u:['https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser']},
   'chargedcycleworks-direct-mount-stem-1-spacer-25mm|rawrr-mantis-72v':{s:'verify',n:'Generic direct-mount stem spacer; CCW names no bike model (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm',u:['https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm']},
-  'chargedcycleworks-handlebar-stem-spacer|rawrr-mantis-72v':{s:'verify',n:'Talaria stem spacer; CCW names no Mantis fitment (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-handlebar-stem-spacer-talaria-sting-mx3-mx4-x3|rawrr-mantis-72v':{s:'verify',n:'Talaria stem spacer; CCW names no Mantis fitment (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3']},
   'chargedcycleworks-warp9-stem-lock-spacer-kit|rawrr-mantis-72v':{s:'verify',n:'Spacers made exclusively for Warp 9 Stem Locks; the stem lock itself is unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stem-lock-spacer-kit',u:['https://chargedcycleworks.com/products/stem-lock-spacer-kit']},
-  'chargedcycleworks-wolf-tooth-precision-headset-spacers|rawrr-mantis-72v':{s:'verify',n:'Generic headset spacers; steer-tube diameter unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria',u:['https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria']},
+  'chargedcycleworks-precision-headset-spacers-for-surron-talaria|rawrr-mantis-72v':{s:'verify',n:'Generic headset spacers; steer-tube diameter unverified for the 72V (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria',u:['https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria']},
   'chargedcycleworks-handlebar-shims-31-8-to-28-6|rawrr-mantis-72v':{s:'verify',n:'Shims convert a 31.8mm stem to 28.6mm bars; stock Mantis clamp diameter unverified (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars',u:['https://chargedcycleworks.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars']},
   'chargedcycleworks-warp9-transformer-direct-bar-mount-stem|rawrr-mantis-72v':{s:'verify',n:'CCW page names Fox / Manitou / EXT / RST / DNM / DVO / KKE forks with a standard 4-bolt DH top triple clamp; no Mantis naming (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem',u:['https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem']},
   'chargedcycleworks-warp9-e-moto-tapped-handlebar-31-8mm|rawrr-mantis-72v':{s:'verify',n:'CCW page names Surron / Segway / Talaria / E Ride Pro only, never the Mantis (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar',u:['https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar']},
@@ -17803,7 +17362,7 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - 79BIKE Falcon Pro (merged fin
   'chargedcycleworks-warp9-adjustable-foot-peg-mount-surron-light-bee-79bike|falcon-pro':{s:'verify',n:'CCW fitment says Sur-ron Light Bee and 79Bike (family, not Pro specifically) - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-adjustable-foot-peg-mount-surron-light-bee-79bike',u:['https://chargedcycleworks.com/products/warp9-adjustable-foot-peg-mount-surron-light-bee-79bike']},
   'drivetrain-did-420nz3g-gold-chain|falcon-pro':{s:'verify',n:'420 chain in the CCW 79Bike collection; stock Falcon Pro chain is 420/106 links, CCW sells 110 links ($71.62) to cut to fit, page never names the Falcon Pro - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/did-super-420nz3g-gold-chain-non-o-ring-high-strength',u:['https://chargedcycleworks.com/products/did-super-420nz3g-gold-chain-non-o-ring-high-strength']},
   'chargedcycleworks-rfloxa-hawk31-max-plus-fork-1|falcon-pro':{s:'verify',n:'CCW compatibility names 79 Bike Falcon M only (not Pro) - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1']},
-  'chargedcycleworks-bearing-kit-suspension-triangle-surron-lbx|falcon-pro':{s:'verify',n:'CCW Fits list names 79bike Falcon (family, not Pro); LBX suspension-triangle bearings, Falcon Pro triangle compatibility unverified - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx',u:['https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx']},
+  'tbelectricmoto-bearing-kit-suspension-triangle-surron-lbx|falcon-pro':{s:'verify',n:'CCW Fits list names 79bike Falcon (family, not Pro); LBX suspension-triangle bearings, Falcon Pro triangle compatibility unverified - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx',u:['https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx']},
 });
 
 Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - 79BIKE Falcon GT (merged final) (supersedes entries above) */
@@ -17898,9 +17457,9 @@ Object.assign(FITMENT, { /* CCW sweep 2026-11-11 - Rawrr Mantis Mini R (merged f
   'chargedcycleworks-kyvex-billet-bar-mount-riser|rawrr-mantis-mini-r':{s:'verify',n:'CCW page names no bike model — bar-mount riser fitment unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser',u:['https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser']},
   'chargedcycleworks-kyvex-replacement-foot-peg-pins|rawrr-mantis-mini-r':{s:'verify',n:'Replacement pins for KyVex Billet Wide Foot Pegs; the pegs themselves are unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins',u:['https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins']},
   'chargedcycleworks-direct-mount-stem-1-spacer-25mm|rawrr-mantis-mini-r':{s:'verify',n:'Generic direct-mount stem spacer; CCW names no bike model (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm',u:['https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm']},
-  'chargedcycleworks-handlebar-stem-spacer|rawrr-mantis-mini-r':{s:'verify',n:'Talaria stem spacer; CCW names no Mantis fitment (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-handlebar-stem-spacer-talaria-sting-mx3-mx4-x3|rawrr-mantis-mini-r':{s:'verify',n:'Talaria stem spacer; CCW names no Mantis fitment (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3']},
   'chargedcycleworks-warp9-stem-lock-spacer-kit|rawrr-mantis-mini-r':{s:'verify',n:'Spacers made exclusively for Warp 9 Stem Locks; the stem lock itself is unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stem-lock-spacer-kit',u:['https://chargedcycleworks.com/products/stem-lock-spacer-kit']},
-  'chargedcycleworks-wolf-tooth-precision-headset-spacers|rawrr-mantis-mini-r':{s:'verify',n:'Generic headset spacers; steer-tube diameter unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria',u:['https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria']},
+  'chargedcycleworks-precision-headset-spacers-for-surron-talaria|rawrr-mantis-mini-r':{s:'verify',n:'Generic headset spacers; steer-tube diameter unverified for the Mini R (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria',u:['https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria']},
   'tire-bridgestone-m204-ccw|rawrr-mantis-mini-r':{s:'verify',n:'CCW offers 90/100-14 (R17 rear size) and 80/100-12 (one size up from the stock 2.75-12 rear), but no exact stock size — verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire',u:['https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
   'tire-kenda-k760-trakmaster|rawrr-mantis-mini-r':{s:'verify',n:'CCW offers 70/100-17, the R17 front size — fits only with the R17 upsizing kit; no 14-inch stock-front size. All variants currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260',u:['https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260']},
   'tire-kenda-k774-ibex-hybrid-sticky-front-tire|rawrr-mantis-mini-r':{s:'verify',n:'CCW offers 90/100-14, the R17 rear size — fits only with the R17 upsizing kit; no stock 14/12 size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire',u:['https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire']},
@@ -18075,7 +17634,6 @@ Object.assign(FITMENT, { /* Grok leftovers research 2026-11-11 - 8 bikes, 1,357 
   'revrides-altis-delta-motor-sprocket-cover-oem-drivetrain-protection-cover-by-altis-powersports|altis-delta':{s:'confirmed_direct_fit',n:'Product title names the bike. (checked Nov 11, 2026)',u:['https://revrides.com/products/altis-delta-motor-sprocket-cover-oem-drivetrain-protection-cover-by-altis-powersports']},
   'revrides-altis-delta-power-cable-oem-electrical-harness-component-by-altis-powersports|altis-delta':{s:'confirmed_direct_fit',n:'Product title names the bike. (checked Nov 11, 2026)',u:['https://revrides.com/products/altis-delta-power-cable-oem-electrical-harness-component-by-altis-powersports']},
   'revrides-altis-delta-rear-axle-block-oem-chain-adjuster-block|altis-delta':{s:'confirmed_direct_fit',n:'Product title names the bike. (checked Nov 11, 2026)',u:['https://revrides.com/products/altis-delta-rear-axle-block-oem-chain-adjuster-block']},
-  'revrides-altis-delta-rear-fender-by-altis-powersports|altis-delta':{s:'confirmed_direct_fit',n:'Product title names the bike. (checked Nov 11, 2026)',u:['https://revrides.com/products/altis-delta-rear-fender-by-altis-powersports']},
   'revrides-altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports|altis-delta':{s:'confirmed_direct_fit',n:'Product title names the bike. (checked Nov 11, 2026)',u:['https://revrides.com/products/altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports']},
   'revrides-altis-delta-rear-side-fenders-left-or-right-side-by-altis-powersports|altis-delta':{s:'confirmed_direct_fit',n:'Product title names the bike. (checked Nov 11, 2026)',u:['https://revrides.com/products/altis-delta-rear-side-fenders-left-or-right-side-by-altis-powersports']},
   'revrides-altis-delta-rear-underside-mud-cover-by-altis-powersports|altis-delta':{s:'confirmed_direct_fit',n:'Product title names the bike. (checked Nov 11, 2026)',u:['https://revrides.com/products/altis-delta-rear-underside-mud-cover-by-altis-powersports']},
@@ -18113,7 +17671,7 @@ Object.assign(FITMENT, { /* Grok leftovers research 2026-11-11 - 8 bikes, 1,357 
   'tbelectricmoto-dunlop-mx34-geomax-soft-intermediate-terrain-tire|altis-delta':{s:'confirmed_direct_fit',n:'Exact stock front size 70/100-17 (stock spec: https://www.altispowersports.com/products/altis-delta-tires). (checked Nov 11, 2026)',u:['https://tbelectricmoto.com/products/dunlop-mx34-geomax-soft-intermediate-terrain-tire', 'https://www.altispowersports.com/products/altis-delta-tires']},
   'tbelectricmoto-dunlop-mx53-geomax-intermediate-hard-terrain-tire|altis-delta':{s:'confirmed_direct_fit',n:'Exact stock front size 70/100-17 (stock spec: https://www.altispowersports.com/products/altis-delta-tires). (checked Nov 11, 2026)',u:['https://tbelectricmoto.com/products/dunlop-mx53-geomax-intermediate-hard-terrain-tire', 'https://www.altispowersports.com/products/altis-delta-tires']},
   'tbelectricmoto-dunlop-mx54-geomax-intermediate-hard-terrain-tire|altis-delta':{s:'confirmed_direct_fit',n:'Exact stock front size 70/100-17 (stock spec: https://www.altispowersports.com/products/altis-delta-tires). (checked Nov 11, 2026)',u:['https://tbelectricmoto.com/products/dunlop-mx54-geomax-intermediate-hard-terrain-tire', 'https://www.altispowersports.com/products/altis-delta-tires']},
-  'tbelectricmoto-handlebar-shims-converts-31-8-to-28-6-mx-bars|altis-delta':{s:'confirmed_direct_fit',n:'Fitment list on product page names the bike: "...R1 Plus Ventus One and One Plus Rawrr Mantis and Mantis X Altis Sigma and Delta Arctic Leopard XE Pro S Vetra ..." (checked Nov 11, 2026)',u:['https://tbelectricmoto.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars']},
+  'chargedcycleworks-handlebar-shims-31-8-to-28-6|altis-delta':{s:'confirmed_direct_fit',n:'Fitment list on product page names the bike: "...R1 Plus Ventus One and One Plus Rawrr Mantis and Mantis X Altis Sigma and Delta Arctic Leopard XE Pro S Vetra ..." (checked Nov 11, 2026)',u:['https://tbelectricmoto.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars']},
   'tbelectricmoto-odi-podium-handlebars-7-8th-altis-sigma-rtr|altis-delta':{s:'confirmed_direct_fit',n:'Product title names the bike. (checked Nov 11, 2026)',u:['https://tbelectricmoto.com/products/odi-podium-handlebars-7-8th-altis-sigma-rtr']},
   'tbelectricmoto-pivotrax-heavy-duty-tubes|altis-delta':{s:'confirmed_direct_fit',n:'Exact stock front size 70/100-17 (stock spec: https://www.altispowersports.com/products/altis-delta-tires). (checked Nov 11, 2026)',u:['https://tbelectricmoto.com/products/pivotrax-heavy-duty-tubes', 'https://www.altispowersports.com/products/altis-delta-tires']},
   'tbelectricmoto-renthal-420-r-1-works-chain|altis-delta':{s:'confirmed_direct_fit',n:'Fitment list on product page names the bike: "...79Bike Falcon GT 79Bike Falcon Lite 79Bike Falcon Pro 79Bike Viper S Altis Delta Chain E-Ride Pro Mini E-Ride ..." (checked Nov 11, 2026)',u:['https://tbelectricmoto.com/products/renthal-420-r-1-works-chain']},
@@ -18502,7 +18060,7 @@ Object.assign(FITMENT, { /* Grok leftovers research 2026-11-11 - 8 bikes, 1,357 
   'gritshift-odi-podium-flight-1-1-8-handlebar-e-moto|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/odi-podium-flight-1-1-8-handlebar-e-moto', 'https://gritshift.com/collections/rerode-rx-parts']},
   'gritshift-odi-ruffian-half-waffle-mx-grips-black|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/odi-ruffian-half-waffle-mx-grips-black', 'https://gritshift.com/collections/rerode-rx-parts']},
   'gritshift-odi-ruffian-half-waffle-mx-grips-gray|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/odi-ruffian-half-waffle-mx-grips-gray', 'https://gritshift.com/collections/rerode-rx-parts']},
-  'gritshift-odi-universal-lock-on-half-waffle-grips|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/odi-universal-lock-on-half-waffle-grips', 'https://gritshift.com/collections/rerode-rx-parts']},
+  'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/odi-universal-lock-on-half-waffle-grips', 'https://gritshift.com/collections/rerode-rx-parts']},
   'gritshift-parts-unlimited-520-px-series-x-ring-drive-chain-120-link|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/parts-unlimited-520-px-series-x-ring-drive-chain-120-link', 'https://gritshift.com/collections/rerode-rx-parts']},
   'gritshift-parts-unlimited-520h-drive-chain-120-links|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/parts-unlimited-520h-drive-chain-120-links', 'https://gritshift.com/collections/rerode-rx-parts']},
   'gritshift-pirelli-scorpion-mx32-mid-soft-tire|rerode-rx':{s:'confirmed_direct_fit',n:'Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)',u:['https://gritshift.com/products/pirelli-scorpion-mx32-mid-soft-tire', 'https://pinnedelectric.com/pages/rx']},
@@ -18545,9 +18103,9 @@ Object.assign(FITMENT, { /* Grok leftovers research 2026-11-11 - 8 bikes, 1,357 
   'gritshift-scott-sx-ii-grips-donuts-double-density-diamond|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/scott-sx-ii-grips-donuts-double-density-diamond', 'https://gritshift.com/collections/rerode-rx-parts']},
   'gritshift-ventus-heatsink-vtb-aetos-gen-2-controllers|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers', 'https://gritshift.com/collections/rerode-rx-parts']},
   'gritshift-ventus-vtb-aetos-pro-controller|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/ventus-vtb-aetos-pro-controller', 'https://gritshift.com/collections/rerode-rx-parts']},
-  'gritshift-ventus-vtb-v9600-aetos-max-controller|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller', 'https://gritshift.com/collections/rerode-rx-parts']},
+  'ctrl-ventus-aetos-max|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller', 'https://gritshift.com/collections/rerode-rx-parts']},
   'gritshift-warp-9-bar-end-sliders-tapped-handlebars-e-moto|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/warp-9-bar-end-sliders-tapped-handlebars-e-moto', 'https://gritshift.com/collections/rerode-rx-parts']},
-  'gritshift-warp-9-e-moto-handguard-titanium-bolt-kit|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/warp-9-e-moto-handguard-titanium-bolt-kit', 'https://gritshift.com/collections/rerode-rx-parts']},
+  'titanium-warp9-e-moto-handguard-titanium-bolt-kit|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/warp-9-e-moto-handguard-titanium-bolt-kit', 'https://gritshift.com/collections/rerode-rx-parts']},
   'gritshift-warp-9-e-moto-shock-protector|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/warp-9-e-moto-shock-protector', 'https://gritshift.com/collections/rerode-rx-parts']},
   'gritshift-warp-9-elite-foot-peg-sliders|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/warp-9-elite-foot-peg-sliders', 'https://gritshift.com/collections/rerode-rx-parts']},
   'gritshift-warp-9-racing-handguard-kit-e-bike|rerode-rx':{s:'verify',n:'WEAK: collection includes items that cannot fit (e.g. 19" front tires on a 21" bike) — Listed in GritShift "ReRode RX Parts" collection; product page does not name the RX. (checked Nov 11, 2026)',u:['https://gritshift.com/products/warp-9-racing-handguard-kit-e-bike', 'https://gritshift.com/collections/rerode-rx-parts']},
@@ -18752,7 +18310,6 @@ Object.assign(FITMENT, { /* Grok leftovers research 2026-11-11 - 8 bikes, 1,357 
   'tbelectricmoto-upgraded-handlebar-grips|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Fitment list on product page names the bike: "...Shadow SVT , Throne Strike Shadow SX Tork Pro Sport Tuttio Soleil01 Valtinsu EM-5 , Valtinsu EM-5 Pro Ven..." (checked Nov 11, 2026)',u:['https://tbelectricmoto.com/products/upgraded-handlebar-grips']},
   'tbelectricmoto-upgraded-headlight-baja-light-battery-powered|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Fitment list on product page names the bike: ".../Pro/GT/M, Lynx, Viper S) Yozma IN10 , HeyBike Villain , Tuttio Soleil01 , Throne Strike Shadow Arctic Leopard..." (checked Nov 11, 2026)',u:['https://tbelectricmoto.com/products/upgraded-headlight-baja-light-battery-powered']},
   'tbelectricmoto-warp-9-aluminum-420-rear-sprocket-for-pitbikes-yozma-heybike-tuttio-rtr|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Fitment list on product page names the bike: "...e Fitment Yozma IN10 Yozma IN10 Pro Heybike Villain Tuttio Soleil and Soleil01 Strike Shadow Tasaca T500-58V..." (checked Nov 11, 2026)',u:['https://tbelectricmoto.com/products/warp-9-aluminum-420-rear-sprocket-for-pitbikes-yozma-heybike-tuttio-rtr']},
-  'tuttio-soleil01-brake-pads|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)',u:['https://tuttiosport.com/products/soleil01-brake-pads']},
   'tuttio-soleil01-rear-fender-rear-suspension-mud-dust-protection|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)',u:['https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection']},
   'tuttio-soleil01-street-wheelset-kit|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)',u:['https://tuttiosport.com/products/soleil01-street-wheelset-kit']},
   'tuttio-tuttio-ebike-smart-bike-tail-light|tuttio-soleil01':{s:'confirmed_direct_fit',n:'Store: Tuttio factory store (HK-registered, USD, ships from US/NJ) | Product title names the bike. (checked Nov 11, 2026)',u:['https://tuttiosport.com/products/tuttio-ebike-smart-bike-tail-light']},
@@ -18939,7 +18496,7 @@ Object.assign(FITMENT, { /* Grok leftovers research 2026-11-11 - 8 bikes, 1,357 
   'chargedcycleworks-ebmx-competition-brake-pads-for-ultra-bee|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only "Ultra Bee". (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ebmx-competition-brake-pads-for-ultra-bee']},
   'chargedcycleworks-ebmx-competition-chain-guide-for-ultra-bee|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only "Ultra Bee". (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee']},
   'chargedcycleworks-ebmx-competition-jackshaft-for-ultra-bee-1|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only "Ultra Bee". (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ebmx-competition-jackshaft-for-ultra-bee-1']},
-  'chargedcycleworks-ebmx-upgraded-oem-linkage-for-surron-ultra-bee|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee']},
+  'linkage-ultrabeemx|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee']},
   'chargedcycleworks-ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ebmx-upgraded-triangle-for-surron-ultra-bee-sirrus-compatible']},
   'chargedcycleworks-ebmx-x-9000-v3-controller-open-box-no-harness|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-open-box-no-harness']},
   'chargedcycleworks-ebmx-x-9000-v3-controller-race-harness-for-ultra-bee|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-race-harness-for-ultra-bee']},
@@ -19185,12 +18742,12 @@ Object.assign(FITMENT, { /* Grok leftovers research 2026-11-11 - 8 bikes, 1,357 
   'chargedcycleworks-used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only "Ultra Bee". (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps']},
   'chargedcycleworks-used-ktm-wp-43-xact-air-fork-with-black-triple-clamps|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only "Ultra Bee". (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/used-ktm-wp-43-xact-air-fork-with-black-triple-clamps']},
   'chargedcycleworks-used-wp-43-front-suspension-air-fork|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only "Ultra Bee". (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/used-wp-43-front-suspension-air-fork']},
-  'chargedcycleworks-ventus-aetos-max-controller|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ventus-aetos-max-controller']},
+  'ctrl-ventus-aetos-max|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ventus-aetos-max-controller']},
   'chargedcycleworks-ventus-aetos-pro-controller|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ventus-aetos-pro-controller']},
   'chargedcycleworks-ventus-oem-carbon-belt|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only "Ultra Bee". (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ventus-oem-carbon-belt']},
   'chargedcycleworks-ventus-primary-chain-drive-conversion-kit-ryuga|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ventus-primary-chain-drive-conversion-kit-ryuga']},
   'chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7']},
-  'chargedcycleworks-warp-9-ultra-bee-triangle-pivot-bolt-kit|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit']},
+  'tbelectricmoto-warp-9-ultra-bee-triangle-pivot-bolt-kit|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/warp-9-ultra-bee-triangle-pivot-bolt-kit']},
   'chargedcycleworks-warp9-adjustable-kickstand-surron-ultra-bee|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only "Ultra Bee". (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-ultra-bee']},
   'chargedcycleworks-warp9-disc-guard-surron-ultra-bee|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only "Ultra Bee". (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/warp9-disc-guard-surron-ultra-bee']},
   'chargedcycleworks-warp9-jackshaft-sprocket-surron-ultra-bee|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only "Ultra Bee". (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/warp9-jackshaft-sprocket-surron-ultra-bee']},
