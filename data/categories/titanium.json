@@ -617,6 +617,200 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-surron-ultra-titanium-chassis-kit.webp"
+    },
+{
+      "id": "titanium-warp9-countershaft-bolt-stark-varg",
+      "name": "Warp9 Stark Varg Titanium Counter Shaft Replacement Bolt",
+      "brand": "Warp9",
+      "category": "titanium",
+      "badge": "Warp9",
+      "tier": "budget",
+      "price_usd": 24.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-countershaft-bolt-stark-varg",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-countershaft-bolt-stark-varg"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-titanium-countershaft-bolt-stark-varg",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-countershaft-bolt-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "titanium-warp9-front-axle-stark-varg",
+      "name": "Warp9 Stark Varg Titanium Front Axle",
+      "brand": "Warp9",
+      "category": "titanium",
+      "badge": "Warp9",
+      "tier": "midrange",
+      "price_usd": 229.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-front-axle-stark-varg",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-front-axle-stark-varg"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-titanium-front-axle-stark-varg",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 229.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-front-axle-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "titanium-warp9-peg-pins-stark-varg",
+      "name": "Warp9 Stark Varg Titanium Peg Pins",
+      "brand": "Warp9",
+      "category": "titanium",
+      "badge": "Warp9",
+      "tier": "mid",
+      "price_usd": 58.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-foot-peg-pins-stark-varg",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-foot-peg-pins-stark-varg"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-titanium-foot-peg-pins-stark-varg",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 58.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-foot-peg-pins-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "titanium-warp9-rear-axle-stark-varg",
+      "name": "Warp9 Stark Varg Titanium Rear Axle",
+      "brand": "Warp9",
+      "category": "titanium",
+      "badge": "Warp9",
+      "tier": "midrange",
+      "price_usd": 269.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-rear-axle-stark-varg",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-rear-axle-stark-varg"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-titanium-rear-axle-stark-varg",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 269.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-rear-axle-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-titanium-bolts-for-emoto-big-light-kit",
+      "name": "Warp9 E-Moto Big Light Kit Titanium Bolt Kit",
+      "brand": "Warp9Racing",
+      "category": "titanium",
+      "price_usd": 59.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.0,
+          "buy_url": "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-titanium-stem-lock-replacement-bolt",
+      "name": "Titanium Stem Lock Replacement Bolt",
+      "brand": "Charged Cycle Works",
+      "category": "titanium",
+      "badge": "Charged Cycle Works",
+      "tier": "budget",
+      "price_usd": 35.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-stem-lock-replacement-bolt",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-stem-lock-replacement-bolt"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 35.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-titanium-stem-lock-replacement-bolt"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-warp9-titanium-stem-lock-replacement-bolt.webp"
+    },
+{
+     "id": "ti-warp9-big-light-kit-bolt-kit",
+     "name": "Warp9 E-Moto Big Light Kit Titanium Bolt Kit",
+     "brand": "Warp 9",
+     "category": "titanium",
+     "price_usd": 59.0,
+     "vendor": "Charged Cycle Works",
+     "buy_url": "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit",
+     "tier": "midrange",
+     "is_upgrade": true,
+     "stock_status": "in_stock",
+     "notes": "Titanium bolt kit for the Warp9 E-Moto Big Light Kit. CCW search-by-bike (SURLB2 tag) lists it for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026).",
+     "source_urls": [
+      "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
+     ],
+     "last_checked": "2026-11-11",
+     "vendors": [
+      {
+       "vendor": "Charged Cycle Works",
+       "price_usd": 59.0,
+       "buy_url": "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
+      }
+     ]
     }
   ],
   "compatibility": [
@@ -1001,6 +1195,86 @@
         "https://warp9racing.com/products/surron-talaria-boost-spacer-front-rotor-bolts"
       ],
       "notes": "Evidence page shows M5x16 spec and fits all front hubs; universal rotor bolt"
+    },
+    {
+      "product_id": "titanium-warp9-countershaft-bolt-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-countershaft-bolt-stark-varg"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-titanium-countershaft-bolt-stark-varg"
+    },
+    {
+      "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+    },
+    {
+      "product_id": "titanium-warp9-front-axle-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-front-axle-stark-varg"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-titanium-front-axle-stark-varg"
+    },
+    {
+      "product_id": "titanium-warp9-peg-pins-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-foot-peg-pins-stark-varg"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-titanium-foot-peg-pins-stark-varg"
+    },
+    {
+      "product_id": "titanium-warp9-rear-axle-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-titanium-rear-axle-stark-varg"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-titanium-rear-axle-stark-varg"
+    },
+    {
+      "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit"
+      ],
+      "notes": "Bolt kit for Warp9 handguards; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "ti-warp9-big-light-kit-bolt-kit",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
     }
   ]
 }

@@ -622,6 +622,11 @@
           "vendor": "RevZilla",
           "price_usd": 85,
           "buy_url": "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138"
+        },
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 51.49,
+          "buy_url": "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
         }
       ],
       "stock_status": "unknown",
@@ -750,6 +755,11 @@
           "vendor": "Rocky Mountain ATV/MC",
           "price_usd": 100,
           "buy_url": "https://www.rockymountainatvmc.com/tires-and-wheels/irc-m5b-evo-soft-terrain-tire-p"
+        },
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 105.88,
+          "buy_url": "https://chargedcycleworks.com/products/irc-tire-m5b-evo-rear-130-80-18"
         }
       ],
       "stock_status": "unknown",
@@ -2738,6 +2748,318 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-shinko-777-cruiser-hd-front-100-90-19.webp"
+    },
+{
+      "id": "tire-dunlop-k990-emoto",
+      "name": "Dunlop K990 Light Weight 18/21 for eMoto",
+      "brand": "Dunlop",
+      "category": "tires",
+      "badge": "Dunlop",
+      "tier": "mid",
+      "price_usd": 92.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 92.99,
+          "buy_url": "https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW tags it Varg EX; offers 70/100-21 front and 90/100-18 rear, which fit the stock 21 in front / 18 in rear wheels but are not the stock tire sizes - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto",
+      "sizes": [
+        "70/100-21",
+        "90/100-18"
+      ],
+      "position": "both",
+      "image": null,
+      "_fit": {
+        "Stark Varg EX": "verify"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto"
+      }
+    },
+{
+      "id": "tire-irc-tr-8-street-legal",
+      "name": "IRC TR-8 Street Legal Tires",
+      "brand": "IRC",
+      "category": "tires",
+      "badge": "IRC",
+      "tier": "mid",
+      "price_usd": 84.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 84.95,
+          "buy_url": "https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg and the 3.00x21 / 4.00x18 sizes fit the stock wheels, but neither is the stock tire size - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee",
+      "sizes": [
+        "3.00x21",
+        "4.00x18"
+      ],
+      "position": "both",
+      "image": null,
+      "_fit": {
+        "Stark Varg EX": "verify"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee"
+      }
+    },
+{
+      "id": "tires-counteract-balancing-bead-kit",
+      "name": "COUNTERACT BALANCING BEAD DIY KIT",
+      "brand": "Counteract",
+      "category": "tires",
+      "badge": "Counteract",
+      "tier": "budget",
+      "price_usd": 24.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.95,
+          "buy_url": "https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit",
+      "sizes": null,
+      "position": null,
+      "image": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit"
+      }
+    },
+{
+      "id": "tires-michelin-starcross-6-medium-hard",
+      "name": "Michelin StarCross 6 Medium Hard Terrain Tire",
+      "brand": "Michelin",
+      "category": "tires",
+      "badge": "Michelin",
+      "tier": "mid",
+      "price_usd": 105.97,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/michelin-starcross-6-medium-hard-terrain-tire",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 105.97,
+          "buy_url": "https://chargedcycleworks.com/products/michelin-starcross-6-medium-hard-terrain-tire"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/michelin-starcross-6-medium-hard-terrain-tire"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description: Perfect for the Stark Varg; offers the stock 80/100-21 front size and a 120/90-18 rear (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/michelin-starcross-6-medium-hard-terrain-tire",
+      "sizes": [
+        "80/100-21",
+        "120/90-18",
+        "110/90-19"
+      ],
+      "position": "both",
+      "image": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/michelin-starcross-6-medium-hard-terrain-tire"
+      }
+    },
+{
+      "id": "chargedcycleworks-counteract-balancing-bead-diy-kit",
+      "name": "COUNTERACT BALANCING BEAD DIY KIT",
+      "brand": "Counteract",
+      "category": "tires",
+      "tier": "budget",
+      "price_usd": 24.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.95,
+          "buy_url": "https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-maxxis-maxxcross-intermediate-tire",
+      "name": "Maxxis Maxxcross Intermediate Rear Tire",
+      "brand": "Maxxis",
+      "category": "tires",
+      "tier": "mid",
+      "price_usd": 66.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 66.5,
+          "buy_url": "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026). Stock-size variant(s): 70/100-19.",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-pivotrax-cyber-street-tire",
+      "name": "Pivotrax Cyber Street Tire",
+      "brand": "Pivotrax",
+      "category": "tires",
+      "tier": "mid",
+      "price_usd": 99.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/pivotrax-cyber-street-tire",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.0,
+          "buy_url": "https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but the sizes (80/100-19, 90/100-18) do not match the stock sizes (70/100-19 front, 90/100-17 rear) - verify before buying (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-shinko-524-19-tire",
+      "name": "Shinko 524 19\" Tire",
+      "brand": "Shinko",
+      "category": "tires",
+      "tier": "mid",
+      "price_usd": 71.11,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/shinko-524-19-tire",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 71.11,
+          "buy_url": "https://chargedcycleworks.com/products/shinko-524-19-tire"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/shinko-524-19-tire"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part; it is a 19in front tire but the exact size is not stated on the listing - verify it matches the stock 70/100-19 front before buying (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-kenda-k760-trakmaster-rear-tire",
+      "name": "Kenda K760 Trakmaster REAR Tire",
+      "brand": "Kenda",
+      "category": "tires",
+      "price_usd": 56.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "70/100-19 variant (stock 19-inch rear wheel); CCW does not name the Altis Sigma - verify (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 56.99,
+          "buy_url": "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-dunlop-k990-tires-for-emoto",
+      "name": "Dunlop K990 Light Weight 18/21 for eMoto",
+      "brand": "Dunlop",
+      "category": "tires",
+      "badge": "Dunlop",
+      "tier": "mid",
+      "price_usd": 92.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 92.99,
+          "buy_url": "https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "Sizes 70/100-21 and 90/100-18 fit Enduro 21/18 wheels; CCW notes the K990 is discontinued and points to the MX33. CCW ALXEPRO tag only - verify before buying (checked 2026-11-11).",
+      "sizes": [
+        "90/100-18",
+        "70/100-21"
+      ],
+      "position": "both",
+      "image": "img/parts/chargedcycleworks-dunlop-k990-tires-for-emoto.webp"
     }
   ],
   "compatibility": [
@@ -16706,6 +17028,556 @@
         "https://chargedcycleworks.com/products/wps-rim-strip"
       ],
       "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "bike_id": "stark-vargex",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      ],
+      "notes": "CCW tags it Varg EX; the 90/100-18 size fits the stock 18 in rear wheel but is not the stock tire size - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+    },
+    {
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front and 120/100-18 rear tube sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+    },
+    {
+      "product_id": "tire-dunlop-geomax-en91ex-gummy-tire",
+      "bike_id": "stark-vargex",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-geomax-en91ex-gummy-tire"
+      ],
+      "notes": "CCW tags it Varg EX, but the page does not state the tire size - verify it is the stock 140/80-18 rear before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-geomax-en91ex-gummy-tire"
+    },
+    {
+      "product_id": "tire-dunlop-k990-emoto",
+      "bike_id": "stark-vargex",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto"
+      ],
+      "notes": "CCW tags it Varg EX; offers 70/100-21 front and 90/100-18 rear, which fit the stock 21 in front / 18 in rear wheels but are not the stock tire sizes - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto"
+    },
+    {
+      "product_id": "tire-dunlop-mx14-sand-scoop-tire",
+      "bike_id": "stark-vargex",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      ],
+      "notes": "CCW tags it Varg EX; the 110/100-18 variant fits the stock 18 in rear wheel but is not the stock tire size - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+    },
+    {
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front size and a 120/90-18 rear (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+    },
+    {
+      "product_id": "tire-irc-ix-07s-21-front-tire-light-weight",
+      "bike_id": "stark-vargex",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight"
+      ],
+      "notes": "CCW tags it Varg EX and the description calls it a 21 in front tire, but the exact size is not stated on the page - verify 80/100-21 before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-ix-07s-21-front-tire-light-weight"
+    },
+    {
+      "product_id": "tire-irc-jx8-gekkota-rear-gummy-tire",
+      "bike_id": "stark-vargex",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire"
+      ],
+      "notes": "CCW tags it Varg EX; the 110/100-18 size fits the stock 18 in rear wheel but is not the stock tire size - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-jx8-gekkota-rear-gummy-tire"
+    },
+    {
+      "product_id": "tire-irc-tr-8-street-legal",
+      "bike_id": "stark-vargex",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee"
+      ],
+      "notes": "CCW description names the Stark Varg and the 3.00x21 / 4.00x18 sizes fit the stock wheels, but neither is the stock tire size - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tr-8-street-legal-tire-for-ultra-bee"
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front tube size and 18 in rear sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes"
+    },
+    {
+      "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+    },
+    {
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+    },
+    {
+      "product_id": "tire-nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19"
+      ],
+      "notes": "CCW description: fits the Varg with an 18 in rear and a tire of 110 or larger; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/nuetech-5150-platinum-mousse-18-19-rear-tires-110-140-width-18-19"
+    },
+    {
+      "product_id": "tire-nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria",
+      "bike_id": "stark-vargex",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria"
+      ],
+      "notes": "CCW tags it Varg EX; mousse size codes (NM21-220 / NM18-270/285/305) do not map to a stock tire size on the page - verify the size for the stock 80/100-21 front / 120/100-18 rear before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/nuetech-nitro-mousse-foam-tube-for-surron-segway-talaria"
+    },
+    {
+      "product_id": "tire-nuetech-tubliss-gen-2-0-tubeless-tire-system",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/nuetech-tubliss-gen-2-0-tubeless-tire-system"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; 18 in and 21 in systems match the stock 18 in rear / 21 in front wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/nuetech-tubliss-gen-2-0-tubeless-tire-system"
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front and 120/100-18 rear tube sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+    },
+    {
+      "product_id": "tire-tire-ve-33s-gekkota-rear-tire",
+      "bike_id": "stark-vargex",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire"
+      ],
+      "notes": "CCW tags it Varg EX; the 110/100-18 size fits the stock 18 in rear wheel but is not the stock tire size - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire"
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/wps-rim-strip"
+    },
+    {
+      "product_id": "tires-counteract-balancing-bead-kit",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit"
+    },
+    {
+      "product_id": "tires-michelin-starcross-6-medium-hard",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/michelin-starcross-6-medium-hard-terrain-tire"
+      ],
+      "notes": "CCW description: Perfect for the Stark Varg; offers the stock 80/100-21 front size and a 120/90-18 rear (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/michelin-starcross-6-medium-hard-terrain-tire"
+    },
+    {
+      "product_id": "chargedcycleworks-counteract-balancing-bead-diy-kit",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-maxxis-maxxcross-intermediate-tire",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026). Stock-size variant(s): 70/100-19."
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-cyber-street-tire",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-cyber-street-tire"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but the sizes (80/100-19, 90/100-18) do not match the stock sizes (70/100-19 front, 90/100-17 rear) - verify before buying (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-pivotrax-kilowatt-climber-90-100-18-rear-tire",
+      "bike_id": "rawrr-mantis-x",
+      "status": "not_compatible",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pivotrax-kilowatt-climber-90-100-18-rear-tire"
+      ],
+      "notes": "90/100-18 rear tire does not fit the stock 17in rear wheel (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-shinko-524-19-tire",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-524-19-tire"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part; it is a 19in front tire but the exact size is not stated on the listing - verify it matches the stock 70/100-19 front before buying (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026). Stock-size variant(s): 70/100-19."
+    },
+    {
+      "product_id": "tire-dunlop-mx14-sand-scoop-tire",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but no variant matches the stock tire sizes (70/100-19 front, 90/100-17 rear) - verify before buying (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026). Stock-size variant(s): 70/100-19."
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026). Stock-size variant(s): 70/100-19 HD 3mm."
+    },
+    {
+      "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but no variant matches the stock tire sizes (70/100-19 front, 90/100-17 rear) - verify before buying (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026). Stock-size variant(s): 70/100-19."
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026). Stock-size variant(s): 70/100-19 | 250/275-19."
+    },
+    {
+      "product_id": "tire-shinko-525-soft-intermediate-terrain-tire",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but no variant matches the stock tire sizes (70/100-19 front, 90/100-17 rear) - verify before buying (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026). Stock-size variant(s): 19in."
+    },
+    {
+      "product_id": "tire-bikemaster-tr6-inner-tubes",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      ],
+      "notes": "CCW ALXEPRO tag only; 19in front / 16in rear variant — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-bridgestone-m203-ccw",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate"
+      ],
+      "notes": "70/100-19 variant = XE Pro S stock front size; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-bridgestone-m204-ccw",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire"
+      ],
+      "notes": "90/100-16 variant = XE Pro S stock rear size; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-bridgestone-x30-ccw",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16"
+      ],
+      "notes": "90/100-16 variant = XE Pro S stock rear size; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-dunlop-mx14-sand-scoop-tire",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire"
+      ],
+      "notes": "90/100-16 variant = XE Pro S stock rear size; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-dunlop-mx34",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "70/100-19 variant = XE Pro S stock front size; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-dunlop-mx53-ccw",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx53-geomax-int-hard-terrain-tires"
+      ],
+      "notes": "70/100-19 front and 90/100-16 rear variants = XE Pro S stock sizes; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-dunlop-mx54-geomax-soft-int-terrain-tires",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires"
+      ],
+      "notes": "70/100-19 variant = XE Pro S stock front size; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "CCW ALXEPRO tag only; 19in front / 16in rear variant — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-kenda-k775-washougal-ii-front-tire",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire"
+      ],
+      "notes": "70/100-19 variant = XE Pro S stock front size; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-kenda-millville2-k785",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.cyclegear.com/tires/kenda-k785-millville-ii-tires?facet_ids[]=1249"
+      ],
+      "notes": "70/100-19 = XE Pro S stock front size; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-kenda-washougal3-ccw",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k7102-washougal-iii"
+      ],
+      "notes": "70/100-19 front and 90/100-16 rear variants = XE Pro S stock sizes; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-maxxis-mxsi",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010"
+      ],
+      "notes": "70/100-19 front and 90/100-16 rear variants = XE Pro S stock sizes; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW ALXEPRO tag only; 19in front / 16in rear variant — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-shinko-525-cheater",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "90/100-16 variant = XE Pro S stock rear size; CCW notes a 16in rear wheel is required, which the XE Pro S has stock; XE Pro S not named - verify variant before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-shinko-525-soft-intermediate-terrain-tire",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/shinko-525-soft-intermediate-terrain-tire"
+      ],
+      "notes": "90/100-16 variant = XE Pro S stock rear size; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-tusk-recon-ccw",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/collections/surron-tires/products/tusk-recon-sticky-19-tire-for-surron-segway"
+      ],
+      "notes": "70/100-19 front and 90/100-16 rear variants = XE Pro S stock sizes; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "Universal rim strip; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "tire-irc-tubes",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/irc-tubes"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "tire-wps-rim-strip",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wps-rim-strip"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
     }
   ]
 }

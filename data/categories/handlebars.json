@@ -774,6 +774,156 @@
         "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8"
       ],
       "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "handlebar-odi-podium-mx-handlebars",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-podium-mx-handlebars"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-podium-mx-handlebars"
+    },
+    {
+      "product_id": "handlebar-renthal-fatbar-1-1-8",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-fatbar-1-1-8"
+    },
+    {
+      "product_id": "handlebar-tusk-chub-mx-handlebars",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars"
+    },
+    {
+      "product_id": "chargedcycleworks-handlebar-shims-31-8-to-28-6",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-billet-bar-mount",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-bar-mount"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-billet-bar-mount-riser",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-31-8-handlebars",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-31-8-bars"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but the listing says designed/tested for Surron Light Bee X, E Ride Pro and Talaria - verify before buying (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-e-moto-tapped-handlebar-31-8mm",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but the listing names OEM fit for Surron/Segway/E Ride Pro/Talaria only - verify the 31.8mm clamp fits the Mantis X stem (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "handlebar-renthal-fatbar-1-1-8",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026). 28.6mm clamp; the stock stem is 31.8mm, so shims or a 28.6mm clamp are needed."
+    },
+    {
+      "product_id": "warp9-3in-rise",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but the listing names OEM fit for Surron/Talaria/E Ride Pro only - verify the 31.8mm clamp fits the Mantis X stem (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "handlebar-odi-podium-mx-handlebars",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-podium-mx-handlebars"
+      ],
+      "notes": "28.6mm clamp; XE Pro S stock clamp size unverified (Enduro is 31.8mm) - verify before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "handlebar-renthal-fatbar-1-1-8",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8"
+      ],
+      "notes": "28.6mm clamp; XE Pro S stock clamp size unverified (Enduro is 31.8mm) - verify before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "prickly-31-8-handlebars",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-31-8-bars"
+      ],
+      "notes": "31.8mm clamp; CCW names Surron Light Bee X, E Ride Pro and Talaria only, XE Pro S not named - verify clamp fit before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "handlebar-odi-podium-mx-handlebars",
+      "bike_id": "lightbee2",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": ["31.8-to-28.6 mm shims or a 28.6 mm bar mount"],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-podium-mx-handlebars"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this 28.6mm bar for the Sur-Ron Light Bee 2; the LB2 stock clamp is 31.8mm, so it needs a matching 28.6mm mount or 31.8-to-28.6mm shims (Rad Moto Light Bee 2 fitment guide, Oct 14, 2026) (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "handlebar-renthal-fatbar-1-1-8",
+      "bike_id": "lightbee2",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": ["31.8-to-28.6 mm shims or a 28.6 mm bar mount"],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-fatbar-1-1-8"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this 28.6mm bar for the Sur-Ron Light Bee 2; the LB2 stock clamp is 31.8mm, so it needs a matching 28.6mm mount or 31.8-to-28.6mm shims (Rad Moto Light Bee 2 fitment guide, Oct 14, 2026) (checked Nov 11, 2026)."
     }
   ],
   "products": [
@@ -1593,6 +1743,354 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-warp9-surron-ultra-bee-flex-bar-mounts.webp"
+    },
+{
+      "badge": "Tusk",
+      "brand": "Tusk",
+      "buy_url": "https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars",
+      "category": "handlebar",
+      "id": "handlebar-tusk-chub-mx-handlebars",
+      "is_upgrade": true,
+      "last_checked": "2026-11-11",
+      "name": "Tusk Chub MX Handlebars 28.6mm",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars",
+      "power_change_kw": null,
+      "price_usd": 53.99,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars"
+      ],
+      "stock_status": "in_stock",
+      "tier": "mid",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 53.99,
+          "buy_url": "https://chargedcycleworks.com/products/tusk-chub-1-1-8-big-bars"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-handlebar-shims-31-8-to-28-6",
+      "name": "Handlebar Shims converts 31.8 to 28.6 MX Bars",
+      "brand": "Charged Cycle Works",
+      "category": "handlebar",
+      "tier": "budget",
+      "price_usd": 9.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.99,
+          "buy_url": "https://chargedcycleworks.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-kyvex-billet-bar-mount",
+      "name": "KyVex Billet Bar Mount",
+      "brand": "KyVex",
+      "category": "handlebar",
+      "tier": "midrange",
+      "price_usd": 100.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-bar-mount",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 100.0,
+          "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-bar-mount"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-bar-mount"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-kyvex-billet-bar-mount-riser",
+      "name": "KyVex Billet Bar Mount Riser",
+      "brand": "KyVex",
+      "category": "handlebar",
+      "tier": "midrange",
+      "price_usd": 100.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 100.0,
+          "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-prickly-31-8-handlebars",
+      "name": "Prickly 31.8 Handlebars",
+      "brand": "Prickly",
+      "category": "handlebar",
+      "tier": "midrange",
+      "price_usd": 89.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/prickly-31-8-bars",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 89.0,
+          "buy_url": "https://chargedcycleworks.com/products/prickly-31-8-bars"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/prickly-31-8-bars"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but the listing says designed/tested for Surron Light Bee X, E Ride Pro and Talaria - verify before buying (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-e-moto-tapped-handlebar-31-8mm",
+      "name": "Warp9 E-Moto Tapped Handlebar 31.8mm",
+      "brand": "Warp9",
+      "category": "handlebar",
+      "tier": "midrange",
+      "price_usd": 97.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 97.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but the listing names OEM fit for Surron/Segway/E Ride Pro/Talaria only - verify the 31.8mm clamp fits the Mantis X stem (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-odi-7-8-podium-handlebars",
+      "name": "ODI 7/8\" Podium Handlebars",
+      "brand": "ODI",
+      "category": "handlebar",
+      "price_usd": 85.46,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/odi-7-8-podium-handlebars-for-beta-apollo-rfn",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW: the Altis Sigma uses 7/8-inch bars; this is the 7/8-inch Podium bar (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/odi-7-8-podium-handlebars-for-beta-apollo-rfn"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 85.46,
+          "buy_url": "https://chargedcycleworks.com/products/odi-7-8-podium-handlebars-for-beta-apollo-rfn"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-altis-sigma-direct-bar-mount",
+      "name": "Warp9 Altis Sigma Direct Bar Mount",
+      "brand": "Warp9Racing",
+      "category": "handlebar",
+      "price_usd": 119.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-altis-sigma-direct-bar-mount",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-altis-sigma-direct-bar-mount"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 119.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-altis-sigma-direct-bar-mount"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "prickly-31-8-handlebars",
+      "name": "Prickly 31.8 Handlebars",
+      "brand": "Prickly",
+      "category": "handlebar",
+      "badge": "Prickly",
+      "tier": "midrange",
+      "price_usd": 89.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/prickly-31-8-bars",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 89.0,
+          "buy_url": "https://chargedcycleworks.com/products/prickly-31-8-bars"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/prickly-31-8-bars"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "31.8mm clamp; CCW names Surron Light Bee X, E Ride Pro and Talaria only, XE Pro S not named - verify clamp fit before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "badge": "Heavy Hitter",
+      "brand": "Heavy Hitter",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars",
+      "category": "handlebar",
+      "id": "chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars",
+      "is_upgrade": true,
+      "last_checked": "2026-11-11",
+      "name": "Heavy Hitter Direct Mount Stem Riser 2\" Rise 31.8mm Bars",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "power_change_kw": null,
+      "price_usd": 64.89,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars"
+      ],
+      "stock_status": "in_stock",
+      "tier": "midrange",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 64.89,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars.webp"
+    },
+{
+      "badge": "Heavy Hitter",
+      "brand": "Heavy Hitter",
+      "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp",
+      "category": "handlebar",
+      "id": "chargedcycleworks-heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp",
+      "is_upgrade": true,
+      "last_checked": "2026-11-11",
+      "name": "Heavy Hitter MX Direct Mount Riser Fat Bar 1 1/8\" Clamp",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "power_change_kw": null,
+      "price_usd": 79.99,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp"
+      ],
+      "stock_status": "in_stock",
+      "tier": "midrange",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.99,
+          "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp.webp"
+    },
+{
+      "badge": "Heavy Hitter",
+      "brand": "Heavy Hitter",
+      "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser",
+      "category": "handlebar",
+      "id": "chargedcycleworks-heavy-hitter-titanium-direct-mount-riser",
+      "is_upgrade": true,
+      "last_checked": "2026-11-11",
+      "name": "Heavy Hitter Titanium Direct Mount Riser",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "power_change_kw": null,
+      "price_usd": 199.89,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser"
+      ],
+      "stock_status": "out_of_stock",
+      "tier": "midrange",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 199.89,
+          "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-heavy-hitter-titanium-direct-mount-riser.webp"
+    },
+{
+      "badge": "Charged Cycle Works",
+      "brand": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-stem-lift-kit",
+      "category": "handlebar",
+      "id": "chargedcycleworks-surron-light-bee-stem-lift-kit",
+      "is_upgrade": true,
+      "last_checked": "2026-11-11",
+      "name": "Direct Mount Stem Lift Kit",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "power_change_kw": null,
+      "price_usd": 24.99,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-stem-lift-kit"
+      ],
+      "stock_status": "in_stock",
+      "tier": "midrange",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-stem-lift-kit"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-surron-light-bee-stem-lift-kit.webp"
     }
   ]
 }

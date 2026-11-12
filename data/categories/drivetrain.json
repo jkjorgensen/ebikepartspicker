@@ -2076,6 +2076,299 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors.webp"
+    },
+{
+      "id": "drivetrain-renthal-twinring-sprocket-stark-varg",
+      "name": "Renthal TwinRing Sprocket for Stark Varg",
+      "brand": "Renthal",
+      "category": "drivetrain",
+      "badge": "Renthal",
+      "tier": "mid",
+      "price_usd": 137.66,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/renthal-twinring-sprocket-stark-varg",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/renthal-twinring-sprocket-stark-varg"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-twinring-sprocket-stark-varg",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 137.66,
+          "buy_url": "https://chargedcycleworks.com/products/renthal-twinring-sprocket-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-collective",
+      "name": "KKE Axle Chain Adjuster Blocks for Rawrr Mantis",
+      "brand": "KKE",
+      "category": "drivetrain",
+      "tier": "midrange",
+      "price_usd": 19.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-black-and-red-collective",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-black-and-red-collective"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-black-and-red-collective"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis X 2024-2025' (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-kke-rear-chain-guide-fit-rawrr-mantis-x-collective",
+      "name": "KKE Rear Chain Guide for Rawrr Mantis X",
+      "brand": "KKE",
+      "category": "drivetrain",
+      "tier": "midrange",
+      "price_usd": 39.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-rear-chain-guard-fit-rawrr-mantis-x-black-and-red-collective",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-rear-chain-guard-fit-rawrr-mantis-x-black-and-red-collective"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-chain-guard-fit-rawrr-mantis-x-black-and-red-collective"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis X 2024-2025' (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-stainless-steel-e-moto-sprocket-54t",
+      "name": "Warp9 Stainless Steel E-Moto Sprocket",
+      "brand": "Warp9",
+      "category": "drivetrain",
+      "tier": "budget",
+      "price_usd": 35.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp-9-stainless-steel-e-moto-sprocket-54t",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 35.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp-9-stainless-steel-e-moto-sprocket-54t"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp-9-stainless-steel-e-moto-sprocket-54t"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but the fitment text names Surron/E Ride Pro/Talaria/Ventus/Falcon only, and it is a 54T sprocket vs the stock 51T - verify before buying (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-rawr-sigma-sprocket",
+      "name": "Warp9 Sprocket \u2013 RAWRR Mantis / Altis Sigma",
+      "brand": "Warp9Racing",
+      "category": "drivetrain",
+      "price_usd": 65.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rawr-sigma-sprocket",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text names Altis Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rawr-sigma-sprocket"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 65.0,
+          "buy_url": "https://chargedcycleworks.com/products/rawr-sigma-sprocket"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-sigma-limited-edition-sprocket-mid-25-current",
+      "name": "Warp9 520 Rear Sprocket \u2013 Altis Sigma Mid-2025+ / Limited Edition",
+      "brand": "Warp9Racing",
+      "category": "drivetrain",
+      "price_usd": 58.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/sigma-limited-edition-sprocket-mid-25-current",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW: designed for the updated Altis Sigma drivetrain, Mid-2025 and newer incl. Limited Edition (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/sigma-limited-edition-sprocket-mid-25-current"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 58.0,
+          "buy_url": "https://chargedcycleworks.com/products/sigma-limited-edition-sprocket-mid-25-current"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-front-sprocket-altis-sigma",
+      "name": "Warp9 Altis Sigma Front Sprocket",
+      "brand": "Warp9Racing",
+      "category": "drivetrain",
+      "price_usd": 22.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-front-sprocket-altis-sigma",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; 13T is stock OEM size (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-front-sprocket-altis-sigma"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 22.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-front-sprocket-altis-sigma"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-rear-sprocket-48t-oem",
+      "name": "Arctic Leopard - XE Rear Sprocket 48T | OEM",
+      "brand": "OEM",
+      "category": "drivetrain",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 59.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-rear-sprocket-48t-oem",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-rear-sprocket-48t-oem"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-rear-sprocket-48t-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW fitment list names Arctic Leopard XE Pro S (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-428-rear-sprocket-arctic-leopard-xe-pro-s",
+      "name": "Warp9 428 Rear Sprocket - Arctic Leopard XE Pro S / Pro R",
+      "brand": "Warp9",
+      "category": "drivetrain",
+      "badge": "Warp9",
+      "tier": "budget",
+      "price_usd": 42.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 42.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: designed specifically for the Arctic Leopard XE Pro S and XE Pro R (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-pro-s-pro-r-sprocket",
+      "name": "Warp9 428 Rear Sprocket - Arctic Leopard XE Pro S / Pro R",
+      "brand": "Warp9",
+      "category": "drivetrain",
+      "badge": "Warp9",
+      "tier": "midrange",
+      "price_usd": 42.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 42.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-arctic-leopard-xe-pro-s-pro-r-sprocket.webp"
+    },
+{
+      "id": "chargedcycleworks-eride-pro-55-link-chain-take-off",
+      "name": "E Ride Pro \u2013 110-Link Chain 428 Chain | Take-Off",
+      "brand": "E Ride Pro",
+      "category": "drivetrain",
+      "badge": "E Ride Pro",
+      "tier": "OEM",
+      "price_usd": 19.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/eride-pro-55-link-chain-take-off",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/eride-pro-55-link-chain-take-off"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 19.99,
+          "buy_url": "https://chargedcycleworks.com/products/eride-pro-55-link-chain-take-off"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-eride-pro-55-link-chain-take-off.webp"
     }
   ],
   "compatibility": [
@@ -3088,6 +3381,176 @@
         "https://chargedcycleworks.com/products/ventus-oem-jackshaft-assembly"
       ],
       "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-oem-jackshaft-assembly"
+    },
+    {
+      "product_id": "drivetrain-520-renthal-r-1-works-chain",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/520-renthal-r-1-works-chain"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; 520 chain with a 114-link variant (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/520-renthal-r-1-works-chain"
+    },
+    {
+      "product_id": "drivetrain-did-520-ervt-gold-x-ring-chain",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; 520 chain with a 114-link variant (stock length for the Varg) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain"
+    },
+    {
+      "product_id": "drivetrain-dirt-tricks-zirconium-rear-sprocket-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dirt-tricks-zirconium-rear-sprocket-stark-varg"
+      ],
+      "notes": "CCW description: 520 rear sprocket designed for the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dirt-tricks-zirconium-rear-sprocket-stark-varg"
+    },
+    {
+      "product_id": "drivetrain-primary-drive-520-orh-gold-x-ring-chain",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain"
+      ],
+      "notes": "CCW description lists Stark Varg (114 stock); 114-link variant available; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain"
+    },
+    {
+      "product_id": "drivetrain-renthal-twinring-sprocket-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-twinring-sprocket-stark-varg"
+      ],
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-twinring-sprocket-stark-varg"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-collective",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-black-and-red-collective"
+      ],
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis X 2024-2025' (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-kke-rear-chain-guide-fit-rawrr-mantis-x-collective",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-chain-guard-fit-rawrr-mantis-x-black-and-red-collective"
+      ],
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis X 2024-2025' (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-stainless-steel-e-moto-sprocket-54t",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp-9-stainless-steel-e-moto-sprocket-54t"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but the fitment text names Surron/E Ride Pro/Talaria/Ventus/Falcon only, and it is a 54T sprocket vs the stock 51T - verify before buying (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-428-d-i-d-black-chain-non-o-ring",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/428-d-i-d-black-chain-non-o-ring"
+      ],
+      "notes": "428 pitch matches XE Pro S (Warp9 428 rear sprocket is XE Pro S-specific); CCW ALXEPRO tag only, cut to length — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-428-d-i-d-x-ring-vx-chain",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/428-d-i-d-x-ring-vx-chain"
+      ],
+      "notes": "428 pitch matches XE Pro S (Warp9 428 rear sprocket is XE Pro S-specific); CCW ALXEPRO tag only, cut to length — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-428-gold-plated-chain-by-primary-drive",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/428-gold-plated-chain-by-primary-drive"
+      ],
+      "notes": "428 pitch matches XE Pro S (Warp9 428 rear sprocket is XE Pro S-specific); CCW ALXEPRO tag only, cut to length — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-428-renthal-r-1-works-chain-copy",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/428-renthal-r-1-works-chain-copy"
+      ],
+      "notes": "428 pitch matches XE Pro S (Warp9 428 rear sprocket is XE Pro S-specific); CCW ALXEPRO tag only, cut to length — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-rear-sprocket-48t-oem",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-rear-sprocket-48t-oem"
+      ],
+      "notes": "CCW fitment list names Arctic Leopard XE Pro S (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-428-rear-sprocket-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket"
+      ],
+      "notes": "CCW: designed specifically for the Arctic Leopard XE Pro S and XE Pro R (checked 2026-11-11)."
+    },
+    {
+      "product_id": "drivetrain-520-renthal-r-1-works-chain",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/520-renthal-r-1-works-chain"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "drivetrain-did-520-ervt-gold-x-ring-chain",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/did-520-ervt-gold-x-ring-chain"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "drivetrain-primary-drive-520-orh-gold-x-ring-chain",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/primary-drive-520-orh-gold-x-ring-chain"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
     }
   ]
 }

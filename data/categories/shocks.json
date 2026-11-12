@@ -698,6 +698,116 @@
         "https://chargedcycleworks.com/products/rfloxa-rab53rv"
       ],
       "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "shock-race-tech-gold-valves-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/race-tech-suspension-gold-valves-for-stark-varg"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; rear KYB shock kit $199.99 (front fork kit $339.99) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/race-tech-suspension-gold-valves-for-stark-varg"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
+      ],
+      "notes": "CCW fitment text names RAWRR Mantis, Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-fastace-rear-shock-for-surron-talaria",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/fastace-rear-shock-for-surron-talaria"
+      ],
+      "notes": "CCW ALXEPRO tag only; no XE Pro S fitment text - eye-to-eye length and mounts unverified for XE Pro S — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-nibbi-rear-shock",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/nibbi-rear-shock"
+      ],
+      "notes": "CCW ALXEPRO tag only; no XE Pro S fitment text - eye-to-eye length and mounts unverified for XE Pro S — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r"
+      ],
+      "notes": "CCW: This R38 fits all three Arctic Leopard models: XE Pro S, Enduro, and R (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway"
+      ],
+      "notes": "CCW fitment list names Arctic Leopard XE Pro / Pro S / Pro R (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
+      ],
+      "notes": "CCW fitment list names Arctic Leopard XE Pro S (checked 2026-11-11)."
+    },
+    {
+      "product_id": "kke-performance",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock"
+      ],
+      "notes": "CCW ALXEPRO tag only; no XE Pro S fitment text - eye-to-eye length and mounts unverified for XE Pro S — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "rfloxa-rab50rc",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-rab50rc"
+      ],
+      "notes": "CCW ALXEPRO tag only; no XE Pro S fitment text - eye-to-eye length and mounts unverified for XE Pro S — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "rfloxa-rab53rv",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-rab53rv"
+      ],
+      "notes": "CCW ALXEPRO tag only; no XE Pro S fitment text - eye-to-eye length and mounts unverified for XE Pro S — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto"
+      ],
+      "notes": "CCW product page fitment list names the Sur-Ron Light Bee 2; also tagged SURLB2 and in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
     }
   ],
   "products": [
@@ -2069,6 +2179,170 @@
         }
       ],
       "image": "img/parts/rfloxa-rab53rv.webp"
+    },
+{
+      "badge": "Race Tech",
+      "brand": "Race Tech",
+      "buy_url": "https://chargedcycleworks.com/products/race-tech-suspension-gold-valves-for-stark-varg",
+      "category": "shock",
+      "id": "shock-race-tech-gold-valves-stark-varg",
+      "is_upgrade": true,
+      "last_checked": "2026-11-11",
+      "name": "Race Tech Suspension Gold Valves for Stark Varg",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; rear KYB shock kit $199.99 (front fork kit $339.99) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/race-tech-suspension-gold-valves-for-stark-varg",
+      "power_change_kw": null,
+      "price_usd": 199.99,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/race-tech-suspension-gold-valves-for-stark-varg"
+      ],
+      "stock_status": "in_stock",
+      "tier": "midrange",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 199.99,
+          "buy_url": "https://chargedcycleworks.com/products/race-tech-suspension-gold-valves-for-stark-varg"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-nibbi-rear-shock",
+      "name": "Nibbi Rear Shock",
+      "brand": "Nibbi",
+      "category": "shock",
+      "price_usd": 239.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/nibbi-rear-shock",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW fitment list names Altis Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/nibbi-rear-shock"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 239.89,
+          "buy_url": "https://chargedcycleworks.com/products/nibbi-rear-shock"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-rfloxa-rab50rc",
+      "name": "RFloXa RAB50RC",
+      "brand": "RFloXa",
+      "category": "shock",
+      "price_usd": 150.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-rab50rc",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment list names Altis Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-rab50rc"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 150.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-rab50rc"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s",
+      "name": "Sirris R38 | 2SC | Arctic Leopard XE Pro S/Enduro/R",
+      "brand": "Sirris",
+      "category": "shock",
+      "badge": "Sirris",
+      "tier": "premium",
+      "price_usd": 899.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 899.0,
+          "buy_url": "https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: This R38 fits all three Arctic Leopard models: XE Pro S, Enduro, and R (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "rfloxa-rab50rc",
+      "name": "RFloXa RAB50RC",
+      "brand": "RFloXa",
+      "category": "shock",
+      "badge": "RFloXa",
+      "tier": "midrange",
+      "price_usd": 150.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-rab50rc",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 150.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-rab50rc"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-rab50rc"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW ALXEPRO tag only; no XE Pro S fitment text - eye-to-eye length and mounts unverified for XE Pro S (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "badge": "Sirris",
+      "brand": "Sirris",
+      "buy_url": "https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r",
+      "category": "shock",
+      "id": "chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s-enduro-r",
+      "is_upgrade": true,
+      "last_checked": "2026-11-11",
+      "name": "Sirris R38 | 2SC | Arctic Leopard XE Pro S/Enduro/R",
+      "notes": "CCW product text names the Arctic Leopard XE Pro S Enduro explicitly (checked 2026-11-11).",
+      "power_change_kw": null,
+      "price_usd": 899.0,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r"
+      ],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 899.0,
+          "buy_url": "https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s-enduro-r.webp"
     }
   ]
 }

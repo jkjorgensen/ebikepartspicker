@@ -2412,6 +2412,858 @@
         "79BIKE Falcon Pro": "direct_fit",
         "79BIKE Falcon GT": "direct_fit"
       }
+    },
+{
+      "id": "brakes-arc-flex-brake-levers-stark-varg",
+      "name": "ARC Flex Brake Levers for Stark Varg",
+      "brand": "ARC",
+      "category": "brakes",
+      "badge": "ARC",
+      "tier": "mid",
+      "price_usd": 78.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arc-flex-brake-levers-for-stark-varg",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arc-flex-brake-levers-for-stark-varg"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW tags it Varg EX and the description names the Stark Varg, but the rear lever will not work on the newer Brembo rear hand brake (the EX runs Brembo) - verify which lever before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/arc-flex-brake-levers-for-stark-varg",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 78.95,
+          "buy_url": "https://chargedcycleworks.com/products/arc-flex-brake-levers-for-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-asv-f4-front-lever-stark-varg",
+      "name": "ASV F4 Front Brake Lever for Stark Varg",
+      "brand": "ASV",
+      "category": "brakes",
+      "badge": "ASV",
+      "tier": "mid",
+      "price_usd": 95.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/asv-f4-front-brake-lever-for-stark-varg-with-foot-brake",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/asv-f4-front-brake-lever-for-stark-varg-with-foot-brake"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/asv-f4-front-brake-lever-for-stark-varg-with-foot-brake",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 95.0,
+          "buy_url": "https://chargedcycleworks.com/products/asv-f4-front-brake-lever-for-stark-varg-with-foot-brake"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-asv-f4-lever-set-stark-varg",
+      "name": "ASV F4 Brake Lever Set for Stark Varg with Brembo",
+      "brand": "ASV",
+      "category": "brakes",
+      "badge": "ASV",
+      "tier": "midrange",
+      "price_usd": 175.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/asv-f4-brake-levers-for-stark-varg",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/asv-f4-brake-levers-for-stark-varg"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; product variants include EX (Brembo) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/asv-f4-brake-levers-for-stark-varg",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 175.0,
+          "buy_url": "https://chargedcycleworks.com/products/asv-f4-brake-levers-for-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-ebc-brake-pads-stark-varg",
+      "name": "EBC Brake Pads for Stark Varg",
+      "brand": "EBC",
+      "category": "brakes",
+      "badge": "EBC",
+      "tier": "mid",
+      "price_usd": 35.13,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebc-brake-pads-for-stark-varg",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebc-brake-pads-for-stark-varg"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; Carbon X front/rear $35.13 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/ebc-brake-pads-for-stark-varg",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 35.13,
+          "buy_url": "https://chargedcycleworks.com/products/ebc-brake-pads-for-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-motion-pro-levers-stark-varg",
+      "name": "Motion Pro Brake Levers for Stark Varg",
+      "brand": "Motion Pro",
+      "category": "brakes",
+      "badge": "Motion Pro",
+      "tier": "budget",
+      "price_usd": 29.39,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/motion-pro-brake-levers-for-stark-varg",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/motion-pro-brake-levers-for-stark-varg"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; Front OE lever $29.39 (forged front $41.99, forged rear $55.65) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/motion-pro-brake-levers-for-stark-varg",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.39,
+          "buy_url": "https://chargedcycleworks.com/products/motion-pro-brake-levers-for-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-oxbrake-rear-hand-foot-combo-stark-varg",
+      "name": "OxBrake Rear Hand & Foot Brake Combo for Stark Varg",
+      "brand": "OxBrake",
+      "category": "brakes",
+      "badge": "OxBrake",
+      "tier": "premium",
+      "price_usd": 599.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/oxbrake-stark-varg-rear-hand-brake-brembo",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/oxbrake-stark-varg-rear-hand-brake-brembo"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/oxbrake-stark-varg-rear-hand-brake-brembo",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 599.95,
+          "buy_url": "https://chargedcycleworks.com/products/oxbrake-stark-varg-rear-hand-brake-brembo"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-stark-varg-brake-line-copper-washer",
+      "name": "Stark Varg - Brake Line Copper Washer (Brembo)",
+      "brand": "Stark",
+      "category": "brakes",
+      "badge": "Stark",
+      "tier": "OEM",
+      "price_usd": 1.9,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stark-varg-brake-line-copper-washer-brembo",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-brake-line-copper-washer-brembo"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg Brembo brakes; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-brake-line-copper-washer-brembo",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1.9,
+          "buy_url": "https://chargedcycleworks.com/products/stark-varg-brake-line-copper-washer-brembo"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-stark-varg-complete-pedal-assembly",
+      "name": "Stark Varg Complete Pedal Assembly",
+      "brand": "Stark",
+      "category": "brakes",
+      "badge": "Stark",
+      "tier": "OEM",
+      "price_usd": 99.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stark-varg-complete-pedal-assembly",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-complete-pedal-assembly"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-complete-pedal-assembly",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 99.0,
+          "buy_url": "https://chargedcycleworks.com/products/stark-varg-complete-pedal-assembly"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-stark-varg-complete-rear-hand-brake-kit",
+      "name": "Stark Varg Complete rear hand brake kit (Brembo)",
+      "brand": "Stark",
+      "category": "brakes",
+      "badge": "Stark",
+      "tier": "OEM",
+      "price_usd": 278.9,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stark-varg-complete-rear-hand-brake-kit-brembo",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-complete-rear-hand-brake-kit-brembo"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-complete-rear-hand-brake-kit-brembo",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 278.9,
+          "buy_url": "https://chargedcycleworks.com/products/stark-varg-complete-rear-hand-brake-kit-brembo"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-stark-varg-master-cylinder-bolt",
+      "name": "Stark Varg - Master Cylinder Bolt",
+      "brand": "Stark",
+      "category": "brakes",
+      "badge": "Stark",
+      "tier": "OEM",
+      "price_usd": 2.49,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stark-varg-master-cylinder-bolt",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-master-cylinder-bolt"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg rear brake master cylinder; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-master-cylinder-bolt",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2.49,
+          "buy_url": "https://chargedcycleworks.com/products/stark-varg-master-cylinder-bolt"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-stark-varg-rear-foot-brake-hose",
+      "name": "Stark Varg - Rear Foot Brake Hose",
+      "brand": "Stark",
+      "category": "brakes",
+      "badge": "Stark",
+      "tier": "OEM",
+      "price_usd": 56.49,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stark-varg-rear-brake-hose",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-rear-brake-hose"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg Brembo foot brake; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-rear-brake-hose",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 56.49,
+          "buy_url": "https://chargedcycleworks.com/products/stark-varg-rear-brake-hose"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-stark-varg-rear-footbrake-master-cylinder",
+      "name": "Stark Varg - Brembo Rear Footbrake Master Cylinder Assembly",
+      "brand": "Stark",
+      "category": "brakes",
+      "badge": "Stark",
+      "tier": "OEM",
+      "price_usd": 199.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stark-varg-rear-footbrake-master-cylinder-assembly",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-rear-footbrake-master-cylinder-assembly"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-rear-footbrake-master-cylinder-assembly",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 199.0,
+          "buy_url": "https://chargedcycleworks.com/products/stark-varg-rear-footbrake-master-cylinder-assembly"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-stark-varg-rear-master-cylinder-bracket",
+      "name": "Stark Varg - Rear Master Cylinder Bracket",
+      "brand": "Stark",
+      "category": "brakes",
+      "badge": "Stark",
+      "tier": "OEM",
+      "price_usd": 17.49,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stark-varg-rear-master-cylinder-bracket",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-rear-master-cylinder-bracket"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-rear-master-cylinder-bracket",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 17.49,
+          "buy_url": "https://chargedcycleworks.com/products/stark-varg-rear-master-cylinder-bracket"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-stark-varg-swingarm-brake-hose-guide",
+      "name": "Stark Varg - Swingarm Brake Hose Guide",
+      "brand": "Stark",
+      "category": "brakes",
+      "badge": "Stark",
+      "tier": "OEM",
+      "price_usd": 11.49,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stark-varg-swingarm-brake-hose-guide",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-swingarm-brake-hose-guide"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-swingarm-brake-hose-guide",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 11.49,
+          "buy_url": "https://chargedcycleworks.com/products/stark-varg-swingarm-brake-hose-guide"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-stark-varg-swingarm-brake-line-bracket-bolt",
+      "name": "Stark Varg - Swingarm Brake Line Bracket Bolt",
+      "brand": "Stark",
+      "category": "brakes",
+      "badge": "Stark",
+      "tier": "OEM",
+      "price_usd": 5.9,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stark-varg-swingarm-brake-line-bracket-bolt",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-swingarm-brake-line-bracket-bolt"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-swingarm-brake-line-bracket-bolt",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 5.9,
+          "buy_url": "https://chargedcycleworks.com/products/stark-varg-swingarm-brake-line-bracket-bolt"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-warp9-320mm-front-brake-adapter-stark-varg",
+      "name": "Warp9 Stark Varg 320mm Front Brake Adapter",
+      "brand": "Warp9",
+      "category": "brakes",
+      "badge": "Warp9",
+      "tier": "mid",
+      "price_usd": 69.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-320mm-front-brake-rotor-adapter-stark-varg",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-320mm-front-brake-rotor-adapter-stark-varg"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-320mm-front-brake-rotor-adapter-stark-varg",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 69.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-320mm-front-brake-rotor-adapter-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "brakes-zap-competition-folder-lever-set-stark-varg",
+      "name": "ZAP Competition Folder Lever Set for Stark Varg",
+      "brand": "ZAP",
+      "category": "brakes",
+      "badge": "ZAP",
+      "tier": "mid",
+      "price_usd": 89.1,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/zap-competition-folder-lever-set-for-stark-varg",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/zap-competition-folder-lever-set-for-stark-varg"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/zap-competition-folder-lever-set-for-stark-varg",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 89.1,
+          "buy_url": "https://chargedcycleworks.com/products/zap-competition-folder-lever-set-for-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr",
+      "name": "ASV F3-E Unbreakable Brake Levers for E Ride 2.0 | Rawrr",
+      "brand": "ASV",
+      "category": "brakes",
+      "tier": "mid",
+      "price_usd": 175.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 175.0,
+          "buy_url": "https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW fitment text: 'Fitment E Ride Pro SS 2.0 Rawrr Mantis, Mantis X' (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective",
+      "name": "KKE Aluminum Brake Levers for Rawrr Mantis",
+      "brand": "KKE",
+      "category": "brakes",
+      "tier": "midrange",
+      "price_usd": 49.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis X 2024-2025' (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-oem-brake-disc-altis-sigma",
+      "name": "Altis Sigma \u2014 OEM Brake Rotor | Front and Rear",
+      "brand": "Altis",
+      "category": "brakes",
+      "price_usd": 36.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/oem-brake-disc-altis-sigma",
+      "tier": "OEM",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text names Altis Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/oem-brake-disc-altis-sigma"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 36.0,
+          "buy_url": "https://chargedcycleworks.com/products/oem-brake-disc-altis-sigma"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-al-xe-pro-brake-pad-oem",
+      "name": "AL XE Pro Brake Pad (Arctic Leopard XE Pro OEM)",
+      "brand": "OEM",
+      "category": "brakes",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 30.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 30.0,
+          "buy_url": "https://chargedcycleworks.com/products/al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-front-brake-hose-oem",
+      "name": "Arctic Leopard - XE Front Brake Hose | OEM",
+      "brand": "OEM",
+      "category": "brakes",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 39.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-front-brake-hose-oem",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-front-brake-hose-oem"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-front-brake-hose-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: Arctic Leopard XE PRO / PRO S Front Brake Hose (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-pro-oem-brake-rotors",
+      "name": "Arctic Leopard - XE Pro OEM Brake Rotors",
+      "brand": "OEM",
+      "category": "brakes",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 32.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-rear-brake-rotor",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 32.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-rear-brake-rotor"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-rear-brake-rotor"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: OEM Replacement Part for Arctic Leopard XE Pro / XE Pro S (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-rear-brake-hose-oem",
+      "name": "Arctic Leopard - XE PRO Rear Brake Hose | OEM",
+      "brand": "OEM",
+      "category": "brakes",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 39.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-rear-brake-hose-oem",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-rear-brake-hose-oem"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-rear-brake-hose-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: Arctic Leopard XE PRO / PRO S Rear Brake Hose (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-xf-brake-lever-oem",
+      "name": "Arctic Leopard - XE/XF Brake Lever | OEM Front & Rear",
+      "brand": "OEM",
+      "category": "brakes",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 12.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 12.5,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names Arctic Leopard XE and XF models only; shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-tech-e39-brake-adapter-arctic-leopard-xe-pro-s",
+      "name": "TECH Brake Adapter & Headset Spacer - Arctic Leopard XE Pro S / Enduro",
+      "brand": "TECH",
+      "category": "brakes",
+      "badge": "TECH",
+      "tier": "midrange",
+      "price_usd": 75.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 75.0,
+          "buy_url": "https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: Upgrade your Arctic Leopard XE Pro S or XE Pro S Enduro with a TECH Suspension fork; TECH-fork conversion only (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem",
+      "name": "AL XE Pro Brake Pad (Arctic Leopard XE Pro OEM)",
+      "brand": "Arctic Leopard",
+      "category": "brakes",
+      "badge": "Arctic Leopard",
+      "tier": "OEM",
+      "price_usd": 30.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 30.0,
+          "buy_url": "https://chargedcycleworks.com/products/al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem.webp"
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-pro-oem-rear-brake-rotor",
+      "name": "Arctic Leopard - XE Pro OEM Brake Rotors",
+      "brand": "Arctic Leopard",
+      "category": "brakes",
+      "badge": "Arctic Leopard",
+      "tier": "OEM",
+      "price_usd": 32.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-rear-brake-rotor",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-rear-brake-rotor"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 32.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-rear-brake-rotor"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-arctic-leopard-xe-pro-oem-rear-brake-rotor.webp"
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-xf-brake-lever-front-rear-oem",
+      "name": "Arctic Leopard - XE/XF Brake Lever | OEM Front & Rear",
+      "brand": "Arctic Leopard",
+      "category": "brakes",
+      "badge": "Arctic Leopard",
+      "tier": "OEM",
+      "price_usd": 12.5,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem",
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 12.5,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-arctic-leopard-xe-xf-brake-lever-front-rear-oem.webp"
+    },
+{
+      "id": "chargedcycleworks-tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro",
+      "name": "TECH Brake Adapter & Headset Spacer \u2013 Arctic Leopard XE Pro S / Enduro",
+      "brand": "TECH",
+      "category": "brakes",
+      "badge": "TECH",
+      "tier": "midrange",
+      "price_usd": 75.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro",
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW product text names the Arctic Leopard XE Pro S Enduro explicitly (checked 2026-11-11).",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 75.0,
+          "buy_url": "https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro.webp"
     }
   ],
   "compatibility": [
@@ -3970,6 +4822,276 @@
       "product_id": "chargedcycleworks-formula-eb7-e-moto-brakes",
       "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "brakes-arc-flex-brake-levers-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arc-flex-brake-levers-for-stark-varg"
+      ],
+      "notes": "CCW tags it Varg EX and the description names the Stark Varg, but the rear lever will not work on the newer Brembo rear hand brake (the EX runs Brembo) - verify which lever before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/arc-flex-brake-levers-for-stark-varg"
+    },
+    {
+      "product_id": "brakes-asv-f4-front-lever-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/asv-f4-front-brake-lever-for-stark-varg-with-foot-brake"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/asv-f4-front-brake-lever-for-stark-varg-with-foot-brake"
+    },
+    {
+      "product_id": "brakes-asv-f4-lever-set-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/asv-f4-brake-levers-for-stark-varg"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; product variants include EX (Brembo) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/asv-f4-brake-levers-for-stark-varg"
+    },
+    {
+      "product_id": "brakes-ebc-brake-pads-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebc-brake-pads-for-stark-varg"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; Carbon X front/rear $35.13 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/ebc-brake-pads-for-stark-varg"
+    },
+    {
+      "product_id": "brakes-motion-pro-levers-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/motion-pro-brake-levers-for-stark-varg"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; Front OE lever $29.39 (forged front $41.99, forged rear $55.65) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/motion-pro-brake-levers-for-stark-varg"
+    },
+    {
+      "product_id": "brakes-oxbrake-rear-hand-foot-combo-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/oxbrake-stark-varg-rear-hand-brake-brembo"
+      ],
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/oxbrake-stark-varg-rear-hand-brake-brembo"
+    },
+    {
+      "product_id": "brakes-stark-varg-brake-line-copper-washer",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-brake-line-copper-washer-brembo"
+      ],
+      "notes": "CCW description names the Stark Varg Brembo brakes; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-brake-line-copper-washer-brembo"
+    },
+    {
+      "product_id": "brakes-stark-varg-complete-pedal-assembly",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-complete-pedal-assembly"
+      ],
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-complete-pedal-assembly"
+    },
+    {
+      "product_id": "brakes-stark-varg-complete-rear-hand-brake-kit",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-complete-rear-hand-brake-kit-brembo"
+      ],
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-complete-rear-hand-brake-kit-brembo"
+    },
+    {
+      "product_id": "brakes-stark-varg-master-cylinder-bolt",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-master-cylinder-bolt"
+      ],
+      "notes": "CCW description names the Stark Varg rear brake master cylinder; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-master-cylinder-bolt"
+    },
+    {
+      "product_id": "brakes-stark-varg-rear-foot-brake-hose",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-rear-brake-hose"
+      ],
+      "notes": "CCW description names the Stark Varg Brembo foot brake; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-rear-brake-hose"
+    },
+    {
+      "product_id": "brakes-stark-varg-rear-footbrake-master-cylinder",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-rear-footbrake-master-cylinder-assembly"
+      ],
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-rear-footbrake-master-cylinder-assembly"
+    },
+    {
+      "product_id": "brakes-stark-varg-rear-master-cylinder-bracket",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-rear-master-cylinder-bracket"
+      ],
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-rear-master-cylinder-bracket"
+    },
+    {
+      "product_id": "brakes-stark-varg-swingarm-brake-hose-guide",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-swingarm-brake-hose-guide"
+      ],
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-swingarm-brake-hose-guide"
+    },
+    {
+      "product_id": "brakes-stark-varg-swingarm-brake-line-bracket-bolt",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-swingarm-brake-line-bracket-bolt"
+      ],
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-swingarm-brake-line-bracket-bolt"
+    },
+    {
+      "product_id": "brakes-warp9-320mm-front-brake-adapter-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-320mm-front-brake-rotor-adapter-stark-varg"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-320mm-front-brake-rotor-adapter-stark-varg"
+    },
+    {
+      "product_id": "brakes-zap-competition-folder-lever-set-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/zap-competition-folder-lever-set-for-stark-varg"
+      ],
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/zap-competition-folder-lever-set-for-stark-varg"
+    },
+    {
+      "product_id": "chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr"
+      ],
+      "notes": "CCW fitment text: 'Fitment E Ride Pro SS 2.0 Rawrr Mantis, Mantis X' (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective"
+      ],
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis X 2024-2025' (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-al-xe-pro-brake-pad-oem",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem"
+      ],
+      "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-front-brake-hose-oem",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-front-brake-hose-oem"
+      ],
+      "notes": "CCW: Arctic Leopard XE PRO / PRO S Front Brake Hose (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-oem-brake-rotors",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-rear-brake-rotor"
+      ],
+      "notes": "CCW: OEM Replacement Part for Arctic Leopard XE Pro / XE Pro S (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-rear-brake-hose-oem",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-rear-brake-hose-oem"
+      ],
+      "notes": "CCW: Arctic Leopard XE PRO / PRO S Rear Brake Hose (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-xf-brake-lever-oem",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem"
+      ],
+      "notes": "CCW description names Arctic Leopard XE and XF models only; shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-formula-eb9",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-eb9"
+      ],
+      "notes": "CCW: 90mm Mount compatible-bikes list names Arctic Leopard XE Pro S (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-project9-brake-pads-for-eride-surron-talaria",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/project9-brake-pads-for-eride-surron-talaria"
+      ],
+      "notes": "CCW ALXEPRO tag only; pad shape not verified against XE Pro S caliper — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-tech-e39-brake-adapter-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro"
+      ],
+      "notes": "CCW: Upgrade your Arctic Leopard XE Pro S or XE Pro S Enduro with a TECH Suspension fork; TECH-fork conversion only (checked 2026-11-11)."
     }
   ]
 }

@@ -1241,6 +1241,594 @@
         }
       ],
       "image": "img/parts/cockpit-odi-aluminum-grip-end-plugs.webp"
+    },
+{
+      "id": "cockpit-odi-grip-glue",
+      "name": "ODI Grip Glue",
+      "brand": "ODI",
+      "category": "cockpit",
+      "badge": "ODI",
+      "tier": "budget",
+      "price_usd": 2.49,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/odi-grip-glue",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2.49,
+          "buy_url": "https://chargedcycleworks.com/products/odi-grip-glue"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/odi-grip-glue"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-grip-glue",
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "cockpit-renthal-grip-glue",
+      "name": "Renthal Grip Glue",
+      "brand": "Renthal",
+      "category": "cockpit",
+      "badge": "Renthal",
+      "tier": "budget",
+      "price_usd": 11.66,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/renthal-grip-glue",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 11.66,
+          "buy_url": "https://chargedcycleworks.com/products/renthal-grip-glue"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/renthal-grip-glue"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-grip-glue",
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "cockpit-stark-varg-docking-station",
+      "name": "Stark Varg Docking Station",
+      "brand": "Stark",
+      "category": "cockpit",
+      "badge": "Stark",
+      "tier": "OEM",
+      "price_usd": 6.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stark-varg-docking-station-bottom-cover",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.99,
+          "buy_url": "https://chargedcycleworks.com/products/stark-varg-docking-station-bottom-cover"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-docking-station-bottom-cover"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the Stark Varg EX and MX docking station (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-docking-station-bottom-cover",
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-direct-mount-stem-1-spacer-25mm",
+      "name": "Direct Mount Stem 1\" Spacer (25mm)",
+      "brand": "Charged Cycle Works",
+      "category": "cockpit",
+      "tier": "budget",
+      "price_usd": 27.38,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 27.38,
+          "buy_url": "https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-handlebar-stem-spacer",
+      "name": "Stem Spacer",
+      "brand": "Charged Cycle Works",
+      "category": "cockpit",
+      "tier": "budget",
+      "price_usd": 9.57,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.57,
+          "buy_url": "https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-heavy-hitter-direct-mount-stem-riser-2-rise-31-8mm",
+      "name": "Heavy Hitter Direct Mount Stem Riser 2\" Rise 31.8mm Bars",
+      "brand": "Heavy Hitter",
+      "category": "cockpit",
+      "tier": "midrange",
+      "price_usd": 64.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 64.89,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-heavy-hitter-titanium-direct-mount-riser",
+      "name": "Heavy Hitter Titanium Direct Mount Riser",
+      "brand": "Heavy Hitter",
+      "category": "cockpit",
+      "tier": "premium",
+      "price_usd": 199.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 199.89,
+          "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-kke-direct-mount-stem-fit-rawrr-mantis-mantis-x-collective",
+      "name": "KKE Direct Mount Stem",
+      "brand": "KKE",
+      "category": "cockpit",
+      "tier": "midrange",
+      "price_usd": 79.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis X 2024-2025' (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-mantis-x-right-handlebar-throttle",
+      "name": "Rawrr Mantis X - OEM Throttle",
+      "brand": "Rawrr",
+      "category": "cockpit",
+      "tier": "OEM",
+      "price_usd": 56.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/mantis-x-right-handlebar-throttle",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 56.0,
+          "buy_url": "https://chargedcycleworks.com/products/mantis-x-right-handlebar-throttle"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/mantis-x-right-handlebar-throttle"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW listing: 'Compatibility: Mantis X' (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-odi-grip-glue",
+      "name": "ODI Grip Glue",
+      "brand": "ODI",
+      "category": "cockpit",
+      "tier": "budget",
+      "price_usd": 2.49,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/odi-grip-glue",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2.49,
+          "buy_url": "https://chargedcycleworks.com/products/odi-grip-glue"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/odi-grip-glue"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-prickly-35mm-direct-mount-stem-surron",
+      "name": "Prickly 35mm Direct Mount Stem \u2013 Surron",
+      "brand": "Prickly",
+      "category": "cockpit",
+      "tier": "premium",
+      "price_usd": 170.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/prickly-35mm-direct-mount-stem-surron",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 170.0,
+          "buy_url": "https://chargedcycleworks.com/products/prickly-35mm-direct-mount-stem-surron"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/prickly-35mm-direct-mount-stem-surron"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but the listing is Surron-focused and the 35mm clamp does not match the stock 31.8mm bars - verify before buying (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-renthal-grip-glue",
+      "name": "Renthal Grip Glue",
+      "brand": "Renthal",
+      "category": "cockpit",
+      "tier": "budget",
+      "price_usd": 11.66,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/renthal-grip-glue",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 11.66,
+          "buy_url": "https://chargedcycleworks.com/products/renthal-grip-glue"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/renthal-grip-glue"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-transformer-direct-bar-mount-stem",
+      "name": "Warp9 Transformer Direct Bar Mount Stem",
+      "brand": "Warp9",
+      "category": "cockpit",
+      "tier": "midrange",
+      "price_usd": 109.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 109.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-kyvex-billet-bar-mount-riser",
+      "name": "KyVex Billet Bar Mount Riser",
+      "brand": "KyVex",
+      "category": "cockpit",
+      "price_usd": 100.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 100.0,
+          "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-rtech-hp2-handguards",
+      "name": "RTECH HP2 Handguards",
+      "brand": "RTECH",
+      "category": "cockpit",
+      "price_usd": 32.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rtech-hp2-handguards",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rtech-hp2-handguards"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 32.99,
+          "buy_url": "https://chargedcycleworks.com/products/rtech-hp2-handguards"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-thrill-seekers-bag-9000",
+      "name": "Thrill Seekers Bar Bag",
+      "brand": "Thrill Seekers",
+      "category": "cockpit",
+      "price_usd": 60.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-bag-9000",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-bag-9000"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 60.0,
+          "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-bag-9000"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-left-hand-control-oem",
+      "name": "Arctic Leopard - XE PRO Left Hand Control | OEM",
+      "brand": "OEM",
+      "category": "cockpit",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 42.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 42.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names Arctic Leopard XE only; shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-pro-xf-throttle-oem",
+      "name": "Arctic Leopard - Throttle for XE PRO / XF | OEM",
+      "brand": "OEM",
+      "category": "cockpit",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 55.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-xf-throttle-oem",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 55.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-xf-throttle-oem"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-xf-throttle-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names Arctic Leopard XE Pro / XF only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-ebikezilla-direct-mount-stem",
+      "name": "EBikeZilla - Direct Mount Stem",
+      "brand": "EBikeZilla",
+      "category": "cockpit",
+      "badge": "EBikeZilla",
+      "tier": "midrange",
+      "price_usd": 59.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebikezilla-direct-mount-stem",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.0,
+          "buy_url": "https://chargedcycleworks.com/products/ebikezilla-direct-mount-stem"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebikezilla-direct-mount-stem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-ebikezilla-direct-mount-stem.webp"
+    },
+{
+      "id": "chargedcycleworks-handlebar-stem-spacer-talaria-sting-mx3-mx4-x3",
+      "name": "Stem Spacer",
+      "brand": "Charged Cycle Works",
+      "category": "cockpit",
+      "badge": "Charged Cycle Works",
+      "tier": "budget",
+      "price_usd": 9.57,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.57,
+          "buy_url": "https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-handlebar-stem-spacer-talaria-sting-mx3-mx4-x3.webp"
+    },
+{
+      "id": "chargedcycleworks-kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective",
+      "name": "KKE Direct Mount Stem",
+      "brand": "KKE",
+      "category": "cockpit",
+      "badge": "KKE",
+      "tier": "midrange",
+      "price_usd": 79.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective.webp"
+    },
+{
+      "id": "chargedcycleworks-prickly-31-8-direct-mount-stem-surron",
+      "name": "Prickly 31.8mm Direct Mount Stem \u2013 Surron",
+      "brand": "Prickly",
+      "category": "cockpit",
+      "badge": "Prickly",
+      "tier": "midrange",
+      "price_usd": 145.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/prickly-31-8-direct-mount-stem-surron",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 145.0,
+          "buy_url": "https://chargedcycleworks.com/products/prickly-31-8-direct-mount-stem-surron"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/prickly-31-8-direct-mount-stem-surron"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "variant": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-prickly-31-8-direct-mount-stem-surron.webp"
     }
   ],
   "compatibility": [
@@ -1909,6 +2497,656 @@
         "https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260"
       ],
       "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-acerbis-x-factory-handguards",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/acerbis-x-factory-handguards"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-factory-handguards"
+    },
+    {
+      "product_id": "cockpit-acerbis-x-ultimate-handguards",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards"
+    },
+    {
+      "product_id": "cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260"
+    },
+    {
+      "product_id": "cockpit-odi-aluminum-grip-end-plugs",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260"
+    },
+    {
+      "product_id": "cockpit-odi-grip-donuts",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260"
+    },
+    {
+      "product_id": "cockpit-odi-grip-glue",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-grip-glue"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-grip-glue"
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-full-waffle-grips",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips"
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260"
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260"
+    },
+    {
+      "product_id": "cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto"
+    },
+    {
+      "product_id": "cockpit-protaper-pillow-top-grips",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/protaper-pillow-top-grips"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-grips"
+    },
+    {
+      "product_id": "cockpit-protaper-pillow-top-lite-grips",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips"
+    },
+    {
+      "product_id": "cockpit-renthal-50-50-mx-grips",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-50-50-mx-grips"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-50-50-mx-grips"
+    },
+    {
+      "product_id": "cockpit-renthal-grip-glue",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-grip-glue"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/renthal-grip-glue"
+    },
+    {
+      "product_id": "cockpit-stark-varg-docking-station",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-docking-station-bottom-cover"
+      ],
+      "notes": "CCW description names the Stark Varg EX and MX docking station (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-docking-station-bottom-cover"
+    },
+    {
+      "product_id": "cockpit-sxs-burly-shields-hand-guards",
+      "bike_id": "stark-vargex",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards"
+      ],
+      "notes": "CCW tags it Varg EX, but the $55 variant is named for the Surron Ultra Bee; only the $154 universal-mount variant could fit the EX - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards"
+    },
+    {
+      "product_id": "cockpit-warp9-e-moto-handguards",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguards"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-e-moto-handguards"
+    },
+    {
+      "product_id": "chargedcycleworks-direct-mount-stem-1-spacer-25mm",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-handlebar-stem-spacer",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-direct-mount-stem-riser-2-rise-31-8mm",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-titanium-direct-mount-riser",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-kke-direct-mount-stem-fit-rawrr-mantis-mantis-x-collective",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective"
+      ],
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis X 2024-2025' (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-mantis-x-right-handlebar-throttle",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/mantis-x-right-handlebar-throttle"
+      ],
+      "notes": "CCW listing: 'Compatibility: Mantis X' (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-odi-grip-glue",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-grip-glue"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-35mm-direct-mount-stem-surron",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-35mm-direct-mount-stem-surron"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but the listing is Surron-focused and the 35mm clamp does not match the stock 31.8mm bars - verify before buying (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-renthal-grip-glue",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-grip-glue"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-transformer-direct-bar-mount-stem",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-transformer-direct-bar-mount-stem"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-acerbis-x-factory-handguards",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/acerbis-x-factory-handguards"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-acerbis-x-ultimate-handguards",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-grip-donuts",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-full-waffle-grips",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-protaper-pillow-top-grips",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/protaper-pillow-top-grips"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-protaper-pillow-top-lite-grips",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-renthal-50-50-mx-grips",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-50-50-mx-grips"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-sxs-burly-shields-hand-guards",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part, but the $55 variant is \"Handguard Only (Surron Ultra Bee)\" - verify the Universal mount version fits (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-warp9-e-moto-handguards",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguards"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-left-hand-control-oem",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem"
+      ],
+      "notes": "CCW description names Arctic Leopard XE only; shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-xf-throttle-oem",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-xf-throttle-oem"
+      ],
+      "notes": "CCW description names Arctic Leopard XE Pro / XF only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-acerbis-x-factory-handguards",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/acerbis-x-factory-handguards"
+      ],
+      "notes": "Universal bar-mount handguards; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-acerbis-x-ultimate-handguards",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards"
+      ],
+      "notes": "Universal bar-mount handguards; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "Universal 22.2mm grips; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-odi-aluminum-grip-end-plugs",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "Universal bar-end plugs; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-odi-grip-donuts",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "Universal grip donuts; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-full-waffle-grips",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips"
+      ],
+      "notes": "Universal 22.2mm grips; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "Universal 22.2mm grips; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260"
+      ],
+      "notes": "Universal 22.2mm grips; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto"
+      ],
+      "notes": "Universal lock-on grips; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-protaper-pillow-top-grips",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/protaper-pillow-top-grips"
+      ],
+      "notes": "Universal 22.2mm grips; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-protaper-pillow-top-lite-grips",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/protaper-pillow-top-lite-grips"
+      ],
+      "notes": "Universal 22.2mm grips; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-renthal-50-50-mx-grips",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-50-50-mx-grips"
+      ],
+      "notes": "Universal 22.2mm grips; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-sxs-burly-shields-hand-guards",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sxs-burly-shields-hand-guards"
+      ],
+      "notes": "Universal handguards; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-warp9-e-moto-handguards",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-e-moto-handguards"
+      ],
+      "notes": "Universal e-moto handguards; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "cockpit-acerbis-x-factory-handguards",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/acerbis-x-factory-handguards"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-acerbis-x-ultimate-handguards",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/acerbis-x-ultimate-handguards"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dual-compound-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-aluminum-grip-end-plugs",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-grip-donuts",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/grip-donuts-for-sur-ron-or-segway-x-260"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-full-waffle-grips",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-full-waffle-grips"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-half-waffle-grips-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-ruffian-no-waffle-grips-for-sur-ron-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "cockpit-renthal-50-50-mx-grips",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/renthal-50-50-mx-grips"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
     }
   ]
 }

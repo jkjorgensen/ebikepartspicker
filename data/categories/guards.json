@@ -1303,6 +1303,116 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-surron-ultra-bee-hand-guards-black-oem.webp"
+    },
+{
+      "id": "chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-collective",
+      "name": "KKE Rear Brake Disc Guard for Rawrr Mantis",
+      "brand": "KKE",
+      "category": "guards",
+      "tier": "midrange",
+      "price_usd": 79.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "KKE lists \"Fit For Rawrr Mantis X 2024-2025\" but the guard only fits a 220mm rotor and the Mantis X rear rotor is 203mm per CCW - verify before buying (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s",
+      "name": "TMB Heavy Duty Bash Plate - Arctic Leopard XE Pro S / Enduro / Vetra",
+      "brand": "TMB",
+      "category": "guards",
+      "badge": "TMB",
+      "tier": "midrange",
+      "price_usd": 200.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 200.0,
+          "buy_url": "https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW compatibility list names Arctic Leopard XE Pro S (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s",
+      "name": "TMB Rear Rotor Guard - Arctic Leopard XE Pro S / Vetra",
+      "brand": "TMB",
+      "category": "guards",
+      "badge": "TMB",
+      "tier": "midrange",
+      "price_usd": 175.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 175.0,
+          "buy_url": "https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW compatibility list names Arctic Leopard XE Pro S; does not fit the XE Pro R (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra",
+      "name": "TMB Rear Rotor Guard – Arctic Leopard XE Pro S / Vetra",
+      "brand": "TMB",
+      "category": "guards",
+      "price_usd": 175.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 175.0,
+          "buy_url": "https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "TMB",
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra.webp"
     }
   ],
   "compatibility": [
@@ -2017,6 +2127,36 @@
         "https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway"
       ],
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/uhmw-skid-plate-by-sxs-for-surron-segway"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-collective",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective"
+      ],
+      "notes": "KKE lists \"Fit For Rawrr Mantis X 2024-2025\" but the guard only fits a 220mm rotor and the Mantis X rear rotor is 203mm per CCW - verify before buying (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s"
+      ],
+      "notes": "CCW compatibility list names Arctic Leopard XE Pro S (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra"
+      ],
+      "notes": "CCW compatibility list names Arctic Leopard XE Pro S; does not fit the XE Pro R (checked 2026-11-11)."
     }
   ]
 }

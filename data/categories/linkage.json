@@ -725,6 +725,63 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-warp9-ultra-bee-suspension-triangle-v2.webp"
+    },
+{
+      "id": "chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s",
+      "name": "TMB Linkage for Sirris R38 (Arctic Leopard XE Pro S / Enduro / R)",
+      "brand": "TMB",
+      "category": "linkage",
+      "badge": "TMB",
+      "tier": "midrange",
+      "price_usd": 125.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 125.0,
+          "buy_url": "https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: designed specifically to fit the Sirris R38 rear shock on Arctic Leopard XE Pro S / Enduro / R; R38 shock only, not the stock shock (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r",
+      "name": "TMB Linkage for Sirris R38 (Arctic Leopard XE Pro S / Enduro / R)",
+      "brand": "TMB",
+      "category": "linkage",
+      "price_usd": 125.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 125.0,
+          "buy_url": "https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r"
+        }
+      ],
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW product text names the Arctic Leopard XE Pro S Enduro explicitly (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "badge": "TMB",
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r.webp"
     }
   ],
   "compatibility": [
@@ -1258,6 +1315,16 @@
         "https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2"
       ],
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2"
+    },
+    {
+      "product_id": "chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r"
+      ],
+      "notes": "CCW: designed specifically to fit the Sirris R38 rear shock on Arctic Leopard XE Pro S / Enduro / R; R38 shock only, not the stock shock (checked 2026-11-11)."
     }
   ]
 }

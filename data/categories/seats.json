@@ -729,6 +729,195 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-replacement-oem-seat-for-talaria-sting-mx3-mx4.webp"
+    },
+{
+      "id": "chargedcycleworks-thrill-seekers-seat-cover-for-altis-sigma",
+      "name": "Thrill Seekers Seat Cover for Altis Sigma",
+      "brand": "Thrill Seekers",
+      "category": "seats",
+      "price_usd": 79.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-altis-sigma",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW: fits the Altis Sigma with the OEM seat (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-altis-sigma"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.0,
+          "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-altis-sigma"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-pro-seat",
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat"
+      },
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "name": "Arctic Leopard XE Pro Seat",
+      "brand": "OEM",
+      "category": "seats",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 95.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 95.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-pro-seat-lock-oem",
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-lock-oem"
+      },
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "name": "Arctic Leopard - XE Pro Seat Lock | OEM",
+      "brand": "OEM",
+      "category": "seats",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 40.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-lock-oem",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 40.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-lock-oem"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-lock-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-pro-seat-locking-screw-oem",
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-locking-screw-oem"
+      },
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "name": "Arctic Leopard - XE Pro Seat Locking Screw | OEM",
+      "brand": "OEM",
+      "category": "seats",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 10.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-locking-screw-oem",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 10.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-locking-screw-oem"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-locking-screw-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-thrill-seekers-seat-cover-arctic-leopard-xe-pro-s",
+      "name": "Thrill Seekers Seat Cover for Arctic Leopard XE Pro S",
+      "brand": "Thrill Seekers",
+      "category": "seats",
+      "badge": "Thrill Seekers",
+      "tier": "midrange",
+      "price_usd": 79.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.0,
+          "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: Fits the Arctic Leopard XE Pro, and XE Pro S OEM Seat (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s",
+      "name": "Thrill Seekers Seat Cover for Arctic Leopard XE Pro S",
+      "brand": "Thrill Seekers",
+      "category": "seats",
+      "price_usd": 79.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 79.0,
+          "buy_url": "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s.webp"
     }
   ],
   "compatibility": [
@@ -1099,6 +1288,46 @@
         "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-surron-ultra-bee"
       ],
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-surron-ultra-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-seat",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat"
+      ],
+      "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-seat-lock-oem",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-lock-oem"
+      ],
+      "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-seat-locking-screw-oem",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-locking-screw-oem"
+      ],
+      "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-thrill-seekers-seat-cover-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s"
+      ],
+      "notes": "CCW: Fits the Arctic Leopard XE Pro, and XE Pro S OEM Seat (checked 2026-11-11)."
     }
   ]
 }

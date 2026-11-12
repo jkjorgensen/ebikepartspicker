@@ -564,6 +564,26 @@
         "https://chargedcycleworks.com/products/ultra-bee-r-battery-protector"
       ],
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ultra-bee-r-battery-protector"
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-battery-charging-cable",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-battery-charging-cable"
+      ],
+      "notes": "CCW description names the XE Pro platform only; fitment note says battery and charging configurations may vary between models - verify S fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-battery-connector-power-cord",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-battery-connector-power-cord"
+      ],
+      "notes": "CCW description names the XE Pro platform only; fitment note says battery and wiring configurations can vary between models - verify S fitment before buying (checked 2026-11-11)."
     }
   ],
   "products": [
@@ -1230,6 +1250,62 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-ultra-bee-72v-73ah-battery-lid-charger-bundle-ewatt.webp"
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-pro-battery-charging-cable",
+      "name": "Arctic Leopard XE Pro - OEM Battery Charging Cable Assembly",
+      "brand": "OEM",
+      "category": "batteries",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 65.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-battery-charging-cable",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 65.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-battery-charging-cable"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-battery-charging-cable"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the XE Pro platform only; fitment note says battery and charging configurations may vary between models - verify S fitment before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-pro-battery-connector-power-cord",
+      "name": "Arctic Leopard XE Pro - OEM Battery Connector & Power Cord",
+      "brand": "OEM",
+      "category": "batteries",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 65.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-battery-connector-power-cord",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 65.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-battery-connector-power-cord"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-battery-connector-power-cord"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names the XE Pro platform only; fitment note says battery and wiring configurations can vary between models - verify S fitment before buying (checked 2026-11-11).",
+      "image": null
     }
   ]
 }

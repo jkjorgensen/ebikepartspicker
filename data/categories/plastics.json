@@ -2295,6 +2295,520 @@
         "79BIKE Falcon Pro": "direct_fit",
         "79BIKE Falcon GT": "direct_fit"
       }
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-aero",
+      "name": "ALTIS SIGMA - AERO",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-aero",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-aero"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-aero"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-battle-camo",
+      "name": "ALTIS SIGMA - BATTLE CAMO",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-battle-camo",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-battle-camo"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-battle-camo"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-camo",
+      "name": "ALTIS SIGMA - CAMO",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-camo",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-camo"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-camo"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-covert",
+      "name": "ALTIS SIGMA - COVERT",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-covert",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-covert"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-covert"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-forest-camo",
+      "name": "ALTIS SIGMA - FOREST CAMO",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-forest-camo",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-forest-camo"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-forest-camo"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-funhouse",
+      "name": "ALTIS SIGMA - FUNHOUSE",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-funhouse",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-funhouse"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-funhouse"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-grand-prix",
+      "name": "ALTIS SIGMA - GRAND PRIX",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-grand-prix",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-grand-prix"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-grand-prix"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-hue",
+      "name": "ALTIS SIGMA - HUE",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-hue",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-hue"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-hue"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-hyper",
+      "name": "ALTIS SIGMA - HYPER",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-hyper",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-hyper"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-hyper"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-modern-bomber",
+      "name": "ALTIS SIGMA - MODERN BOMBER",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-modern-bomber",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-modern-bomber"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-modern-bomber"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-radiant",
+      "name": "ALTIS SIGMA - RADIANT",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-radiant",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-radiant"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-radiant"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-ridge",
+      "name": "ALTIS SIGMA - RIDGE",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-ridge",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-ridge"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-ridge"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-shredlight",
+      "name": "ALTIS SIGMA - SHREDLIGHT",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-shredlight",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-shredlight"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-shredlight"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-altis-sigma-torque",
+      "name": "ALTIS SIGMA - TORQUE",
+      "brand": "ECD Customs",
+      "category": "plastics",
+      "price_usd": 240.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/altis-sigma-torque",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma; ECD wrap cut for the Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/altis-sigma-torque"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 240.0,
+          "buy_url": "https://chargedcycleworks.com/products/altis-sigma-torque"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "plastics-odi-style-front-number-plate",
+      "name": "ODI (Style) Front Number Plate for E-Moto",
+      "brand": "ODI",
+      "category": "plastics",
+      "badge": "ODI",
+      "tier": "budget",
+      "price_usd": 14.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-number-plate",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 14.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-number-plate"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-number-plate"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "Universal e-moto number plate; CCW ALXEPRO tag only, XE Pro S not named - verify before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-front-fender-type-2-for-talaria-surron-segway-x260",
+      "name": "Talaria Front Fender | Type 2",
+      "brand": "Charged Cycle Works",
+      "category": "plastics",
+      "price_usd": 29.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/front-fender-type-2-for-talaria-surron-segway-x260",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/front-fender-type-2-for-talaria-surron-segway-x260"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/front-fender-type-2-for-talaria-surron-segway-x260"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.0,
+          "buy_url": "https://chargedcycleworks.com/products/front-fender-type-2-for-talaria-surron-segway-x260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-front-fender-type-2-for-talaria-surron-segway-x260.webp"
+    },
+{
+      "id": "chargedcycleworks-real-carbon-fiber-front-fender-type-1-talaria-surron-segway",
+      "name": "Simulated Carbon Fiber Front Fender - Type 1",
+      "brand": "Charged Cycle Works",
+      "category": "plastics",
+      "price_usd": 39.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/real-carbon-fiber-front-fender-type-1-talaria-surron-segway",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/real-carbon-fiber-front-fender-type-1-talaria-surron-segway"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/real-carbon-fiber-front-fender-type-1-talaria-surron-segway"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/real-carbon-fiber-front-fender-type-1-talaria-surron-segway"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-real-carbon-fiber-front-fender-type-1-talaria-surron-segway.webp"
+    },
+{
+      "id": "chargedcycleworks-surron-light-bee-front-fork-fender-water-transfer-printing-matte",
+      "name": "Simulated Matte Carbon Fiber Front Fender - Type 1",
+      "brand": "Charged Cycle Works",
+      "category": "plastics",
+      "price_usd": 34.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-front-fork-fender-water-transfer-printing-matte",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-front-fork-fender-water-transfer-printing-matte"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/surron-light-bee-front-fork-fender-water-transfer-printing-matte"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 34.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-front-fork-fender-water-transfer-printing-matte"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-surron-light-bee-front-fork-fender-water-transfer-printing-matte.webp"
+    },
+{
+      "id": "chargedcycleworks-surron-light-bee-number-plate",
+      "name": "ODI (Style) Front Number Plate for E-Moto",
+      "brand": "ODI",
+      "category": "plastics",
+      "price_usd": 14.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-number-plate",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-number-plate"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/surron-light-bee-number-plate"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 14.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-number-plate"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-surron-light-bee-number-plate.webp"
     }
   ],
   "compatibility": [
@@ -3479,6 +3993,116 @@
       "product_id": "chargedcycleworks-extended-rear-fender-v2-side-shrouds",
       "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "plastics-flux",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/flux"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/flux"
+    },
+    {
+      "product_id": "plastics-grand-prix",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/grand-prix"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/grand-prix"
+    },
+    {
+      "product_id": "plastics-morph",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/morph"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/morph"
+    },
+    {
+      "product_id": "plastics-outlaw",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/outlaw"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/outlaw"
+    },
+    {
+      "product_id": "plastics-resin",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/resin"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/resin"
+    },
+    {
+      "product_id": "plastics-sketcher",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/sketcher"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sketcher"
+    },
+    {
+      "product_id": "plastics-virus",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/virus"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/virus"
+    },
+    {
+      "product_id": "plastics-vision",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/vision"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/vision"
+    },
+    {
+      "product_id": "plastics-odi-downhill-e-bike-number-plate",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "plastics-odi-downhill-e-bike-number-plate",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/odi-downhill-e-bike-number-plate"
+      ],
+      "notes": "Universal e-moto number plate; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "plastics-odi-style-front-number-plate",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-number-plate"
+      ],
+      "notes": "Universal e-moto number plate; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
     }
   ]
 }

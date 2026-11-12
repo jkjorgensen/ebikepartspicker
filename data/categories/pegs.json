@@ -1431,6 +1431,177 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-cnc-aluminum-wide-foot-pegs.webp"
+    },
+{
+      "id": "pegs-warp9-elite-foot-pegs-stark-varg",
+      "name": "Warp9 Stark Varg Elite Foot Pegs",
+      "brand": "Warp9",
+      "category": "pegs",
+      "price_usd": 147.6,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stark-varg-elite-foot-pegs-by-warp9",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW description names the Stark Varg and says the pegs are specifically designed to fit the Stark Varg using the OEM peg pivot pin; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-elite-foot-pegs-by-warp9",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-elite-foot-pegs-by-warp9"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/stark-varg-elite-foot-pegs-by-warp9"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 147.6,
+          "buy_url": "https://chargedcycleworks.com/products/stark-varg-elite-foot-pegs-by-warp9"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-kke-footpegs-fit-rawrr-mantis-mantis-x-collective",
+      "name": "KKE Foot Pegs for Rawrr Mantis",
+      "brand": "KKE",
+      "category": "pegs",
+      "tier": "midrange",
+      "price_usd": 49.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 49.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis X 2024-2025' (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-kyvex-replacement-foot-peg-pins",
+      "name": "KyVex Replacement Pins for Billet Wide Foot Pegs",
+      "brand": "KyVex",
+      "category": "pegs",
+      "tier": "budget",
+      "price_usd": 30.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 30.0,
+          "buy_url": "https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists these replacement pins for KyVex Billet Wide Foot Pegs - verify they match the pegs on the bike (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-elite-foot-pegs-rawrr-mantis-x-mini",
+      "name": "Warp9 Rawrr Mantis X & Mini Elite Foot Pegs",
+      "brand": "Warp9",
+      "category": "pegs",
+      "tier": "midrange",
+      "price_usd": 142.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 142.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW fitment text: 'Fitment: Mantis X and Mantis mini' (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-s",
+      "name": "TMB Adjustable Footpeg Mounts - Arctic Leopard XE Pro S / Pro R / Enduro / Vetra",
+      "brand": "TMB",
+      "category": "pegs",
+      "badge": "TMB",
+      "tier": "premium",
+      "price_usd": 255.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 255.0,
+          "buy_url": "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW compatibility list names Arctic Leopard XE Pro S (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra",
+      "name": "TMB Adjustable Footpeg Mounts \u2013 Arctic Leopard XE Pro S / Pro R / Enduro / Vetra",
+      "brand": "TMB",
+      "category": "pegs",
+      "price_usd": 255.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW product text names the Arctic Leopard XE Pro S Enduro explicitly (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "direct_fit"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 255.0,
+          "buy_url": "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra.webp"
     }
   ],
   "compatibility": [
@@ -2278,6 +2449,56 @@
         "https://warp9racing.com/products/surron-foot-pegs"
       ],
       "notes": "Warp 9 listing for these pegs names the Light Bee 2 (checked Nov 4, 2026)"
+    },
+    {
+      "product_id": "pegs-warp9-elite-foot-pegs-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stark-varg-elite-foot-pegs-by-warp9"
+      ],
+      "notes": "CCW description names the Stark Varg and says the pegs are specifically designed to fit the Stark Varg using the OEM peg pivot pin; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/stark-varg-elite-foot-pegs-by-warp9"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-footpegs-fit-rawrr-mantis-mantis-x-collective",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective"
+      ],
+      "notes": "CCW fitment text: 'Fit For Rawrr Mantis X 2024-2025' (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-replacement-foot-peg-pins",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists these replacement pins for KyVex Billet Wide Foot Pegs - verify they match the pegs on the bike (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-elite-foot-pegs-rawrr-mantis-x-mini",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini"
+      ],
+      "notes": "CCW fitment text: 'Fitment: Mantis X and Mantis mini' (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra"
+      ],
+      "notes": "CCW compatibility list names Arctic Leopard XE Pro S (checked 2026-11-11)."
     }
   ]
 }

@@ -1868,6 +1868,183 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7.webp"
+    },
+{
+      "id": "chargedcycleworks-mantis-x-left-function-switch-assembly",
+      "name": "Rawrr Mantis X - OEM Left function switch",
+      "brand": "Rawrr",
+      "category": "electrical",
+      "tier": "OEM",
+      "price_usd": 22.98,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/mantis-x-left-function-switch-assembly",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 22.98,
+          "buy_url": "https://chargedcycleworks.com/products/mantis-x-left-function-switch-assembly"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/mantis-x-left-function-switch-assembly"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW listing: 'Compatibility: Mantis X' (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-mantis-x-right-function-switch-assembly",
+      "name": "Rawrr Mantis X - OEM Right Switch Assembly",
+      "brand": "Rawrr",
+      "category": "electrical",
+      "tier": "OEM",
+      "price_usd": 21.45,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/mantis-x-right-function-switch-assembly",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 21.45,
+          "buy_url": "https://chargedcycleworks.com/products/mantis-x-right-function-switch-assembly"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/mantis-x-right-function-switch-assembly"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW listing: 'Compatibility: Mantis X' (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-headlight-adapter-altis-sigma",
+      "name": "Warp9 Altis Sigma Headlight Adapter",
+      "brand": "Warp9Racing",
+      "category": "electrical",
+      "price_usd": 15.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-headlight-adapter-altis-sigma",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW title names the Altis Sigma (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-headlight-adapter-altis-sigma"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 15.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-headlight-adapter-altis-sigma"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-pro-oem-display",
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-display"
+      },
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "name": "Arctic Leopard XE Pro - OEM Display",
+      "brand": "OEM",
+      "category": "electrical",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 150.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-display",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 150.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-display"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-display"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-xe-pro-oem-main-wiring-harness",
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-main-wiring-harness"
+      },
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "name": "Arctic Leopard XE Pro - OEM Main Wiring Harness",
+      "brand": "OEM",
+      "category": "electrical",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 50.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-main-wiring-harness",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 50.0,
+          "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-main-wiring-harness"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-main-wiring-harness"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW description names Arctic Leopard XE Pro only; fitment note says wiring configurations can vary between models - verify S fitment before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-high-voltage-fuse-kit-replacement-fuses",
+      "name": "High Voltage Fuse Kit & Replacement Fuses",
+      "brand": "Charged Cycle Works",
+      "category": "electrical",
+      "price_usd": 8.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.99,
+          "buy_url": "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-high-voltage-fuse-kit-replacement-fuses.webp"
     }
   ],
   "compatibility": [
@@ -3044,6 +3221,56 @@
         "https://chargedcycleworks.com/products/ventus-oem-display"
       ],
       "notes": "CCW body: 'OEM Display for Ventus One / One +' with 1.8 (4-connector) and 1.9 (2-connector) versions. Checked 2026-11-10. https://chargedcycleworks.com/products/ventus-oem-display"
+    },
+    {
+      "product_id": "chargedcycleworks-mantis-x-left-function-switch-assembly",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/mantis-x-left-function-switch-assembly"
+      ],
+      "notes": "CCW listing: 'Compatibility: Mantis X' (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-mantis-x-right-function-switch-assembly",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/mantis-x-right-function-switch-assembly"
+      ],
+      "notes": "CCW listing: 'Compatibility: Mantis X' (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-oem-display",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-display"
+      ],
+      "notes": "CCW description names Arctic Leopard XE Pro only (no XE Pro S); shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-xe-pro-oem-main-wiring-harness",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-main-wiring-harness"
+      ],
+      "notes": "CCW description names Arctic Leopard XE Pro only; fitment note says wiring configurations can vary between models - verify S fitment before buying (checked 2026-11-11)."
+    },
+    {
+      "product_id": "chargedcycleworks-gigigo-gi03-headlight",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+      ],
+      "notes": "CCW fitment list names Arctic Leopard XE PRO / PRO S (checked 2026-11-11)."
     }
   ]
 }

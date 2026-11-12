@@ -489,6 +489,62 @@
       "power_change_kw": null,
       "weight_delta_kg": null,
       "image": "img/parts/ccw-fast-charger-72v-15a.webp"
+    },
+{
+      "id": "chargedcycleworks-arctic-leopard-10a-oem-charger",
+      "name": "Arctic Leopard 10A OEM Charger - XE / XF / Pro R / EX Pro",
+      "brand": "OEM",
+      "category": "chargers",
+      "badge": "OEM",
+      "tier": "OEM",
+      "price_usd": 168.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 168.0,
+          "buy_url": "https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": false,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW fitment list names XE / XE Pro / XF / Pro R / EX Pro; XE Pro S not named - verify voltage and connector before buying (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-al-xe-pro-charger-artic-leopard-xe-pro-oem",
+      "name": "Arctic Leopard 10A OEM Charger \u2013 XE / XF / Pro R / EX Pro",
+      "brand": "Arctic Leopard",
+      "category": "chargers",
+      "price_usd": 168.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 168.0,
+          "buy_url": "https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-al-xe-pro-charger-artic-leopard-xe-pro-oem.webp"
     }
   ],
   "compatibility": [
@@ -780,6 +836,16 @@
       "product_id": "ccw-fast-charger-72v-15a",
       "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "chargedcycleworks-arctic-leopard-10a-oem-charger",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem"
+      ],
+      "notes": "CCW fitment list names XE / XE Pro / XF / Pro R / EX Pro; XE Pro S not named - verify voltage and connector before buying (checked 2026-11-11)."
     }
   ]
 }

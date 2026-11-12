@@ -1631,6 +1631,1000 @@
         }
       ],
       "image": "img/parts/maintenance-warp9-stemlock-replacement-bolt.webp"
+    },
+{
+      "id": "maintenance-drc-bike-lift-stand",
+      "name": "DRC Bike Lift Stand",
+      "brand": "DRC",
+      "category": "maintenance",
+      "price_usd": 189.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bike-lift-stand-by-drc",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bike-lift-stand-by-drc",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bike-lift-stand-by-drc"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/bike-lift-stand-by-drc"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 189.95,
+          "buy_url": "https://chargedcycleworks.com/products/bike-lift-stand-by-drc"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "maintenance-maxima-chain-guard-care-kit",
+      "name": "Maxima Chain Guard Care Kit",
+      "brand": "Maxima",
+      "category": "maintenance",
+      "price_usd": 39.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "maintenance-maxima-chain-guard-lube",
+      "name": "Maxima Chain Guard Lube",
+      "brand": "Maxima",
+      "category": "maintenance",
+      "price_usd": 8.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.99,
+          "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "maintenance-maxima-hi-temp-grease",
+      "name": "Maxima Hi-Temp waterproof grease 16oz tub",
+      "brand": "Maxima",
+      "category": "maintenance",
+      "price_usd": 16.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.99,
+          "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "maintenance-pbr-chain-press-tool-motion-pro",
+      "name": "PBR Chain Press Tool Motion Pro",
+      "brand": "Motion Pro",
+      "category": "maintenance",
+      "price_usd": 144.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/pbr-chain-press-tool-motion-pro",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pbr-chain-press-tool-motion-pro",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/pbr-chain-press-tool-motion-pro"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/pbr-chain-press-tool-motion-pro"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 144.99,
+          "buy_url": "https://chargedcycleworks.com/products/pbr-chain-press-tool-motion-pro"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "maintenance-tie-down-straps-1in-fire-power",
+      "name": "1\" Tie-Down Straps 2/PK by Fire Power",
+      "brand": "Fire Power",
+      "category": "maintenance",
+      "price_usd": 29.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/1-tie-down-straps-2-pk-by-fire-power",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/1-tie-down-straps-2-pk-by-fire-power",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/1-tie-down-straps-2-pk-by-fire-power"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/1-tie-down-straps-2-pk-by-fire-power"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 29.99,
+          "buy_url": "https://chargedcycleworks.com/products/1-tie-down-straps-2-pk-by-fire-power"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "maintenance-tusk-spoke-wrench",
+      "name": "Tusk Spoke Wrench for Surron Segway",
+      "brand": "Tusk",
+      "category": "maintenance",
+      "price_usd": 8.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/spoke-wrench-set",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/spoke-wrench-set",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/spoke-wrench-set"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/spoke-wrench-set"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.99,
+          "buy_url": "https://chargedcycleworks.com/products/spoke-wrench-set"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "maintenance-tusk-tire-changing-stand",
+      "name": "Tusk Adjustable Height Motorcycle Tire Changing Stand",
+      "brand": "Tusk",
+      "category": "maintenance",
+      "price_usd": 139.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/tusk-adjustable-height-motorcycle-tire-changing-stand",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-adjustable-height-motorcycle-tire-changing-stand",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/tusk-adjustable-height-motorcycle-tire-changing-stand"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/tusk-adjustable-height-motorcycle-tire-changing-stand"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 139.99,
+          "buy_url": "https://chargedcycleworks.com/products/tusk-adjustable-height-motorcycle-tire-changing-stand"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "maintenance-warp9-adjustable-kickstand-stark-varg",
+      "name": "Warp9 Stark Varg Adjustable Kickstand And Bracket",
+      "brand": "Warp9",
+      "category": "maintenance",
+      "price_usd": 199.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-bracket-stark-varg",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-bracket-stark-varg",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-bracket-stark-varg"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-bracket-stark-varg"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 199.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-bracket-stark-varg"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "maintenance-warp9-spoke-torque-wrench-kit",
+      "name": "Warp9 Adjustable Spoke Torque Wrench Kit",
+      "brand": "Warp9",
+      "category": "maintenance",
+      "price_usd": 131.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Stark Varg EX": "direct_fit"
+      },
+      "_fit_src": {
+        "stark-vargex": "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 131.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-maxima-chain-guard-care-kit",
+      "name": "Maxima Chain Guard Care Kit",
+      "brand": "Maxima",
+      "category": "maintenance",
+      "tier": "budget",
+      "price_usd": 39.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-maxima-chain-guard-lube",
+      "name": "Maxima Chain Guard Lube",
+      "brand": "Maxima",
+      "category": "maintenance",
+      "tier": "budget",
+      "price_usd": 8.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.99,
+          "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz",
+      "name": "Maxima Hi-Temp waterproof grease 16oz tub",
+      "brand": "Maxima",
+      "category": "maintenance",
+      "tier": "budget",
+      "price_usd": 16.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.99,
+          "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-rfloxa-steering-stem-lock",
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/rfloxa-steering-stem-lock"
+      },
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "name": "RFloXa Steering Stem Lock",
+      "brand": "RFloXa",
+      "category": "maintenance",
+      "tier": "budget",
+      "price_usd": 25.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-steering-stem-lock",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 25.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-steering-stem-lock"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-steering-stem-lock"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-standard-stem-lock",
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/warp9-standard-stem-lock"
+      },
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "name": "Warp9 Stem Lock for Surron / Talaria / E Ride Pro",
+      "brand": "Warp9",
+      "category": "maintenance",
+      "tier": "midrange",
+      "price_usd": 39.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-standard-stem-lock",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-standard-stem-lock"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-standard-stem-lock"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-stem-lock-fender-adapter",
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter"
+      },
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "name": "Warp9 Stem Lock & Fender Adapter",
+      "brand": "Warp9",
+      "category": "maintenance",
+      "tier": "midrange",
+      "price_usd": 39.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-stem-lock-spacer-kit",
+      "name": "Stem Spacer Kit",
+      "brand": "Warp9",
+      "category": "maintenance",
+      "tier": "budget",
+      "price_usd": 10.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stem-lock-spacer-kit",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 10.0,
+          "buy_url": "https://chargedcycleworks.com/products/stem-lock-spacer-kit"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stem-lock-spacer-kit"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-wolf-tooth-precision-headset-spacers",
+      "name": "Wolf Tooth Precision Headset Spacers",
+      "brand": "Wolf Tooth",
+      "category": "maintenance",
+      "tier": "budget",
+      "price_usd": 6.26,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.26,
+          "buy_url": "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria"
+        }
+      ],
+      "stock_status": "in_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-kyvex-billet-stem-lock",
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/kyvex-billet-stem-lock"
+      },
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "name": "KyVex Billet Stem Lock \u2013 Direct Mount Triple Clamps",
+      "brand": "KyVex",
+      "category": "maintenance",
+      "price_usd": 70.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-stem-lock",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-stem-lock"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 70.0,
+          "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-stem-lock"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-maxima-hi-temp-waterproof-grease",
+      "name": "Maxima Hi-Temp waterproof grease 16oz tub",
+      "brand": "Maxima",
+      "category": "maintenance",
+      "price_usd": 16.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.99,
+          "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-spoke-wrench-set",
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/spoke-wrench-set"
+      },
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "name": "Tusk Spoke Wrench for Surron Segway",
+      "brand": "Tusk",
+      "category": "maintenance",
+      "price_usd": 8.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/spoke-wrench-set",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/spoke-wrench-set"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.99,
+          "buy_url": "https://chargedcycleworks.com/products/spoke-wrench-set"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-stem-lock-spacer-kit",
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/stem-lock-spacer-kit"
+      },
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "name": "Stem Spacer Kit",
+      "brand": "Warp9Racing",
+      "category": "maintenance",
+      "price_usd": 10.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/stem-lock-spacer-kit",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/stem-lock-spacer-kit"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 10.0,
+          "buy_url": "https://chargedcycleworks.com/products/stem-lock-spacer-kit"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp-9-torque-spoke-wrench",
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
+      },
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "name": "Warp9 Adjustable Spoke Torque Wrench Kit",
+      "brand": "Warp9Racing",
+      "category": "maintenance",
+      "price_usd": 131.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 131.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-warp9-surron-tire-levers",
+      "name": "Warp9 Tire Levers",
+      "brand": "Warp9Racing",
+      "category": "maintenance",
+      "price_usd": 50.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-surron-tire-levers",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-surron-tire-levers"
+      ],
+      "last_checked": "2026-11-11",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 50.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-surron-tire-levers"
+        }
+      ],
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260",
+      "name": "Maxima Chain Guard Care Kit",
+      "brand": "Maxima",
+      "category": "maintenance",
+      "price_usd": 39.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260.webp"
+    },
+{
+      "id": "chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260",
+      "name": "Maxima Chain Guard Lube",
+      "brand": "Maxima",
+      "category": "maintenance",
+      "price_usd": 8.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.99,
+          "buy_url": "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260.webp"
+    },
+{
+      "id": "chargedcycleworks-maxima-dot-5-1-brake-fluid-500ml",
+      "name": "Maxima DOT 5.1 Brake Fluid \u2013 500 mL",
+      "brand": "Maxima",
+      "category": "maintenance",
+      "price_usd": 12.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 12.99,
+          "buy_url": "https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-maxima-dot-5-1-brake-fluid-500ml.webp"
+    },
+{
+      "id": "chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub",
+      "name": "Maxima Hi-Temp waterproof grease 16oz tub",
+      "brand": "Maxima",
+      "category": "maintenance",
+      "price_usd": 16.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 16.99,
+          "buy_url": "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub.webp"
+    },
+{
+      "id": "chargedcycleworks-odi-grip-glue",
+      "name": "ODI Grip Glue",
+      "brand": "ODI",
+      "category": "maintenance",
+      "price_usd": 2.49,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/odi-grip-glue",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/odi-grip-glue"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/odi-grip-glue"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 2.49,
+          "buy_url": "https://chargedcycleworks.com/products/odi-grip-glue"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-odi-grip-glue.webp"
+    },
+{
+      "id": "chargedcycleworks-precision-headset-spacers-for-surron-talaria",
+      "name": "Wolf Tooth Precision Headset Spacers",
+      "brand": "Wolf Tooth",
+      "category": "maintenance",
+      "price_usd": 6.26,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 6.26,
+          "buy_url": "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-precision-headset-spacers-for-surron-talaria.webp"
+    },
+{
+      "id": "chargedcycleworks-renthal-grip-glue",
+      "name": "Renthal Grip Glue",
+      "brand": "Renthal",
+      "category": "maintenance",
+      "price_usd": 11.66,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/renthal-grip-glue",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/renthal-grip-glue"
+      ],
+      "last_checked": "2026-11-11",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Arctic Leopard XE Pro S Enduro": "verify"
+      },
+      "_fit_src": {
+        "arctic-leopard-xe-pro-s-enduro": "https://chargedcycleworks.com/products/renthal-grip-glue"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 11.66,
+          "buy_url": "https://chargedcycleworks.com/products/renthal-grip-glue"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-renthal-grip-glue.webp"
+    },
+{
+     "id": "maintenance-maxima-dot51-brake-fluid-500ml",
+     "name": "Maxima DOT 5.1 Brake Fluid – 500 mL",
+     "brand": "Maxima",
+     "category": "maintenance",
+     "price_usd": 12.99,
+     "vendor": "Charged Cycle Works",
+     "buy_url": "https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml",
+     "tier": "budget",
+     "is_upgrade": true,
+     "stock_status": "in_stock",
+     "notes": "DOT 5.1 brake fluid, 500 mL. CCW search-by-bike (SURLB2 tag) lists it for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026).",
+     "source_urls": [
+      "https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml"
+     ],
+     "last_checked": "2026-11-11",
+     "vendors": [
+      {
+       "vendor": "Charged Cycle Works",
+       "price_usd": 12.99,
+       "buy_url": "https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml"
+      }
+     ]
     }
   ],
   "compatibility": [
@@ -2563,6 +3557,206 @@
         "https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9"
       ],
       "notes": "CCW search-by-bike (V1-EVO tag) lists this part for the Ventus V1+ EVO (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "maintenance-drc-bike-lift-stand",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bike-lift-stand-by-drc"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bike-lift-stand-by-drc"
+    },
+    {
+      "product_id": "maintenance-maxima-chain-guard-care-kit",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
+    },
+    {
+      "product_id": "maintenance-maxima-chain-guard-lube",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
+    },
+    {
+      "product_id": "maintenance-maxima-hi-temp-grease",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+    },
+    {
+      "product_id": "maintenance-pbr-chain-press-tool-motion-pro",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/pbr-chain-press-tool-motion-pro"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/pbr-chain-press-tool-motion-pro"
+    },
+    {
+      "product_id": "maintenance-tie-down-straps-1in-fire-power",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/1-tie-down-straps-2-pk-by-fire-power"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/1-tie-down-straps-2-pk-by-fire-power"
+    },
+    {
+      "product_id": "maintenance-tusk-spoke-wrench",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/spoke-wrench-set"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/spoke-wrench-set"
+    },
+    {
+      "product_id": "maintenance-tusk-tire-changing-stand",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/tusk-adjustable-height-motorcycle-tire-changing-stand"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/tusk-adjustable-height-motorcycle-tire-changing-stand"
+    },
+    {
+      "product_id": "maintenance-warp9-adjustable-kickstand-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-adjustable-kickstand-bracket-stark-varg"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp9-adjustable-kickstand-bracket-stark-varg"
+    },
+    {
+      "product_id": "maintenance-warp9-spoke-torque-wrench-kit",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench"
+    },
+    {
+      "product_id": "chargedcycleworks-maxima-chain-guard-care-kit",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-maxima-chain-guard-lube",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxima-hi-temp-waterproof-grease-16oz-tub"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-steering-stem-lock",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-steering-stem-lock"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-standard-stem-lock",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-standard-stem-lock"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-stem-lock-fender-adapter",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-stem-lock-spacer-kit",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stem-lock-spacer-kit"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-wolf-tooth-precision-headset-spacers",
+      "bike_id": "rawrr-mantis-x",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria"
+      ],
+      "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "maintenance-warp9-stemlock-replacement-bolt",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9"
+      ],
+      "notes": "Replacement bolt for Warp9 stem lock; CCW ALXEPRO tag only, XE Pro S not named — confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
+    },
+    {
+      "product_id": "maintenance-maxima-dot51-brake-fluid-500ml",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml"
+      ],
+      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
     }
   ]
 }

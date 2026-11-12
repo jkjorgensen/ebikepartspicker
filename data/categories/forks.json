@@ -966,6 +966,86 @@
       "product_id": "fastace-ahx12rv",
       "required_adapters": [],
       "status": "confirmed_direct_fit"
+    },
+    {
+      "product_id": "fork-motion-pro-bleeders-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/motion-pro-fork-bleeders-for-stark-varg"
+      ],
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/motion-pro-fork-bleeders-for-stark-varg"
+    },
+    {
+      "product_id": "fork-motion-pro-compression-adjuster-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/motion-pro-compression-adjuster-for-stark-varg"
+      ],
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/motion-pro-compression-adjuster-for-stark-varg"
+    },
+    {
+      "product_id": "fork-race-tech-springs-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/race-tech-fork-springs-for-stark-varg"
+      ],
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/race-tech-fork-springs-for-stark-varg"
+    },
+    {
+      "product_id": "fork-skf-seals-stark-varg",
+      "bike_id": "stark-vargex",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/skf-fork-seals-for-stark-varg"
+      ],
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/skf-fork-seals-for-stark-varg"
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk31-max-black",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-max-black"
+      ],
+      "notes": "CCW tag names Mantis X, but the fitment text names \"Rawrr Mantis\" only - verify the fork fits the Mantis X before buying (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk31-max-gold",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold"
+      ],
+      "notes": "CCW tag names Mantis X, but the fitment text names \"Rawrr Mantis\" only - verify the fork fits the Mantis X before buying (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "rfloxa-hawk31-pro",
+      "bike_id": "rawrr-mantis-x",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
+      ],
+      "notes": "CCW tag names Mantis X, but the fitment text names \"Rawrr Mantis\" only - verify the fork fits the Mantis X before buying (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk36-max-fork-arctic-leopard-xe-pro-s",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork"
+      ],
+      "notes": "CCW: Built around Arctic Leopard XE PRO S specifications; Fitment Arctic Leopard XE PRO S (checked 2026-11-11)."
     }
   ],
   "products": [
@@ -2395,6 +2475,229 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-tech-suspension-e39-racing-kashima-fork.webp"
+    },
+{
+      "badge": "Motion Pro",
+      "brand": "Motion Pro",
+      "buy_url": "https://chargedcycleworks.com/products/motion-pro-fork-bleeders-for-stark-varg",
+      "category": "fork",
+      "id": "fork-motion-pro-bleeders-stark-varg",
+      "is_upgrade": true,
+      "last_checked": "2026-11-11",
+      "name": "Motion Pro Fork Bleeders for Stark Varg",
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/motion-pro-fork-bleeders-for-stark-varg",
+      "power_change_kw": null,
+      "price_usd": 26.99,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/motion-pro-fork-bleeders-for-stark-varg"
+      ],
+      "stock_status": "in_stock",
+      "tier": "budget",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 26.99,
+          "buy_url": "https://chargedcycleworks.com/products/motion-pro-fork-bleeders-for-stark-varg"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "badge": "Motion Pro",
+      "brand": "Motion Pro",
+      "buy_url": "https://chargedcycleworks.com/products/motion-pro-compression-adjuster-for-stark-varg",
+      "category": "fork",
+      "id": "fork-motion-pro-compression-adjuster-stark-varg",
+      "is_upgrade": true,
+      "last_checked": "2026-11-11",
+      "name": "Motion Pro Fork Compression Adjuster for Stark Varg",
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/motion-pro-compression-adjuster-for-stark-varg",
+      "power_change_kw": null,
+      "price_usd": 94.99,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/motion-pro-compression-adjuster-for-stark-varg"
+      ],
+      "stock_status": "in_stock",
+      "tier": "mid",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 94.99,
+          "buy_url": "https://chargedcycleworks.com/products/motion-pro-compression-adjuster-for-stark-varg"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "badge": "Race Tech",
+      "brand": "Race Tech",
+      "buy_url": "https://chargedcycleworks.com/products/race-tech-fork-springs-for-stark-varg",
+      "category": "fork",
+      "id": "fork-race-tech-springs-stark-varg",
+      "is_upgrade": true,
+      "last_checked": "2026-11-11",
+      "name": "RACE TECH FORK SPRINGS for Stark Varg",
+      "notes": "CCW description names the Stark Varg; tagged Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/race-tech-fork-springs-for-stark-varg",
+      "power_change_kw": null,
+      "price_usd": 149.99,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/race-tech-fork-springs-for-stark-varg"
+      ],
+      "stock_status": "in_stock",
+      "tier": "mid",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 149.99,
+          "buy_url": "https://chargedcycleworks.com/products/race-tech-fork-springs-for-stark-varg"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "badge": "SKF",
+      "brand": "SKF",
+      "buy_url": "https://chargedcycleworks.com/products/skf-fork-seals-for-stark-varg",
+      "category": "fork",
+      "id": "fork-skf-seals-stark-varg",
+      "is_upgrade": true,
+      "last_checked": "2026-11-11",
+      "name": "SKF Fork Seals for Stark Varg",
+      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/skf-fork-seals-for-stark-varg",
+      "power_change_kw": null,
+      "price_usd": 39.99,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/skf-fork-seals-for-stark-varg"
+      ],
+      "stock_status": "in_stock",
+      "tier": "mid",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/skf-fork-seals-for-stark-varg"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-rfloxa-hawk31-max-black",
+      "name": "RFloXa Hawk31 Max (Black)",
+      "brand": "RFloXa",
+      "category": "fork",
+      "tier": "mid",
+      "price_usd": 999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk31-max-black",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 999.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk31-max-black"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-max-black"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW tag names Mantis X, but the fitment text names \"Rawrr Mantis\" only - verify the fork fits the Mantis X before buying (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-rfloxa-hawk31-max-gold",
+      "name": "RFloXa Hawk31 Max (Gold)",
+      "brand": "RFloXa",
+      "category": "fork",
+      "tier": "mid",
+      "price_usd": 999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 999.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold"
+        }
+      ],
+      "stock_status": "out_of_stock",
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW tag names Mantis X, but the fitment text names \"Rawrr Mantis\" only - verify the fork fits the Mantis X before buying (checked Nov 11, 2026).",
+      "image": null
+    },
+{
+      "id": "chargedcycleworks-rfloxa-hawk36-max-fork-arctic-leopard-xe-pro-s",
+      "name": "RFloXa HAWK36 MAX Fork - Arctic Leopard XE Pro S | 228mm",
+      "brand": "RFloXa",
+      "category": "fork",
+      "badge": "RFloXa",
+      "tier": "premium",
+      "price_usd": 999.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 999.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork"
+      ],
+      "last_checked": "2026-11-11",
+      "notes": "CCW: Built around Arctic Leopard XE PRO S specifications; Fitment Arctic Leopard XE PRO S (checked 2026-11-11).",
+      "image": null
+    },
+{
+      "badge": "RFloXa",
+      "brand": "RFloXa",
+      "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork",
+      "category": "fork",
+      "id": "chargedcycleworks-rfloxa-hawk36-max-fork",
+      "is_upgrade": true,
+      "last_checked": "2026-11-11",
+      "name": "RFloXa HAWK36 MAX Fork \u2013 Arctic Leopard XE Pro S | 228mm",
+      "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
+      "power_change_kw": null,
+      "price_usd": 999.0,
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork"
+      ],
+      "stock_status": "in_stock",
+      "tier": "premium",
+      "vendor": "Charged Cycle Works",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 999.0,
+          "buy_url": "https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork"
+        }
+      ],
+      "weight_kg": null,
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-rfloxa-hawk36-max-fork.webp"
     }
   ]
 }
