@@ -1,0 +1,33 @@
+/* eBikePartsPicker premium scroll motion v4 (2026-11-12), driven by motion.js.
+   Everything sits behind html.mo-on, which motion.js only adds when GSAP, ScrollTrigger and Lenis
+   have loaded and the user does NOT prefer reduced motion. No JS = static page. */
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+.lenis.lenis-stopped{overflow:clip}
+.lenis [data-lenis-prevent]{overscroll-behavior:contain}
+.lenis.lenis-smooth iframe{pointer-events:none}
+
+/* hero: longer pin so the scrubbed zoom has room; the popular grid rises over the zoomed bike */
+.mo-on .hero-pin{height:290vh}
+.mo-on .hero-pin .herostage{transform-origin:50% 50%;will-change:transform,opacity,border-radius;backface-visibility:hidden}
+.mo-on .hero-pin .herostage .hero{transform-origin:50% 56%;will-change:transform}
+.mo-on .popular{position:relative;z-index:2;margin-top:-62vh}
+.mo-on .start .display,.mo-on .start .tagline,.mo-on .start .eyebrow{will-change:transform,opacity}
+.mo-vig{position:absolute;inset:0;z-index:2;pointer-events:none;opacity:0;border-radius:inherit;
+  background:radial-gradient(120% 90% at 50% 50%,transparent 40%,#07090c 100%)}
+@media (max-width:779px){
+  .mo-on .hero-pin{height:175vh}
+  .mo-on .popular{margin-top:-48vh}
+}
+
+/* volt glow that eases toward the hovered card (hover devices only, added by motion.js) */
+.mo-glowhost{position:relative;isolation:isolate}
+.mo-glow{position:absolute;left:0;top:0;width:560px;height:560px;margin:-280px 0 0 -280px;z-index:-1;
+  pointer-events:none;opacity:0;border-radius:50%;will-change:transform,opacity;
+  background:radial-gradient(closest-side,color-mix(in srgb,#C6F028 20%,transparent),color-mix(in srgb,#C6F028 6%,transparent) 55%,transparent)}
+
+@media (prefers-reduced-motion: reduce){
+  .mo-on .hero-pin{height:auto}
+  .mo-on .popular{margin-top:34px}
+  .mo-glow,.mo-vig{display:none}
+}
