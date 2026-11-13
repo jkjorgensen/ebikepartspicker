@@ -1540,7 +1540,7 @@
         "https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor",
         "https://tbelectricmoto.com/products/ventus-28-kw-light-emoto-motor"
       ],
-      "last_checked": "2026-10-12",
+      "last_checked": "2026-11-13",
       "motor_peak_kw": 28,
       "weight_delta_kg": null,
       "image": "img/parts/vtb-28kw-light.webp"
@@ -2275,13 +2275,13 @@
           "buy_url": "https://gritshift.com/products/electro-co-emx-25kw-kit-qs138-70h-v3",
           "tier": "premium",
           "is_upgrade": true,
-          "stock_status": "in_stock",
+          "stock_status": "out_of_stock",
           "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
           "source_urls": [
                 "https://gritshift.com/collections/rerode-rx-parts",
                 "https://gritshift.com/products/electro-co-emx-25kw-kit-qs138-70h-v3"
           ],
-          "last_checked": "2026-11-11",
+          "last_checked": "2026-11-13",
           "weight_kg": null,
           "power_change_kw": null,
           "_fit": {
@@ -2410,13 +2410,13 @@
           "buy_url": "https://gritshift.com/products/qs138-70h-v3-motor",
           "tier": "premium",
           "is_upgrade": true,
-          "stock_status": "in_stock",
+          "stock_status": "out_of_stock",
           "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX.",
           "source_urls": [
                 "https://gritshift.com/collections/rerode-rx-parts",
                 "https://gritshift.com/products/qs138-70h-v3-motor"
           ],
-          "last_checked": "2026-11-11",
+          "last_checked": "2026-11-13",
           "weight_kg": null,
           "power_change_kw": null,
           "_fit": {

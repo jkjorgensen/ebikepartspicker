@@ -1,4 +1,4 @@
-/* eBikePartsPicker catalog. Catalog v4.16.5, last researched 2026-11-13.
+/* eBikePartsPicker catalog. Catalog v4.16.6, last researched 2026-11-13.
    46 bikes / 23 categories / 1984 parts (1977 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
@@ -190,11 +190,11 @@ var CATEGORIES = [
     {name:'VTB 28kW Light E-moto Motor', pid:'vtb-28kw-light', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:799, url:'https://chargedcycleworks.com/products/ventus-28-kw-light-emoto-motor', chk:'2026-10-18'},
-      {v:'GritShift', p:799.99, url:'https://gritshift.com/products/ventus-28kw-motor', chk:'2026-11-11'},
+      {v:'GritShift', p:799.99, url:'https://gritshift.com/products/ventus-28kw-motor', chk:'2026-11-13', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['lightbee','ss20','falcon-gt','ss40','falcon-pro'], likely:['ultrabee','storm-bee','mx4','mx5','komodo','sr','ventus-plus','ventus-evo','bonnell-805rx','arctic-xd','ss30'], no:[],
-     badge:'VTB 28kW', motorKw:28, motorPeakKw:28, stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/vtb-28kw-light.webp'
+     badge:'VTB 28kW', motorKw:28, motorPeakKw:28, stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/vtb-28kw-light.webp'
     },
     {name:'Ventus Ryuga 81kW Motor', pid:'ventus-ryuga-81kw', tier:'premium',
      prices:[
@@ -211,7 +211,7 @@ var CATEGORIES = [
     {name:'Ventus Ryuga 52kW Motor', pid:'ventus-ryuga-52kw', tier:'premium',
      prices:[
       {v:'TB Electric Moto', p:1199, url:'https://tbelectricmoto.com/products/ventus-ryuga-52kw-motor-1', chk:'2026-10-18'},
-      {v:'GritShift', p:1199.99, url:'https://gritshift.com/products/ventus-vtb-ryuga-52kw-motor-upgrade', chk:'2026-11-11'},
+      {v:'GritShift', p:1199.99, url:'https://gritshift.com/products/ventus-vtb-ryuga-52kw-motor-upgrade', chk:'2026-11-13', stock:'out_of_stock'},
       {v:'Pinned Electric', p:1199, url:'https://pinnedelectric.com/products/ventus-vtb-motor-ryuga-52kw-for-surron-lightbee-79bike-or-eridepro-hairpin', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
@@ -381,46 +381,46 @@ var CATEGORIES = [
     },
     {name:'EBMX X9000 V2 Race Harness For QS138', pid:'gritshift-ebmx-x-9000-qs138-race-harness', tier:'midrange',
      prices:[
-      {v:'GritShift', p:96.99, url:'https://gritshift.com/products/ebmx-x-9000-qs138-race-harness', chk:'2026-11-11'},
+      {v:'GritShift', p:96.99, url:'https://gritshift.com/products/ebmx-x-9000-qs138-race-harness', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Electro & Co EMX 28KW Kit - QS138 70h V3', pid:'gritshift-electro-co-emx-25kw-kit-qs138-70h-v3', tier:'premium',
      prices:[
-      {v:'GritShift', p:1399.0, url:'https://gritshift.com/products/electro-co-emx-25kw-kit-qs138-70h-v3', chk:'2026-11-11'},
+      {v:'GritShift', p:1399.0, url:'https://gritshift.com/products/electro-co-emx-25kw-kit-qs138-70h-v3', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Electro & Co', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Electro & Co Tuttio Soleil 01 Ultimate Upgrade Kit', pid:'gritshift-electro-co-ultimate-upgrade-kit-tuttio-soleil-01', tier:'premium',
      prices:[
-      {v:'GritShift', p:1499.99, url:'https://gritshift.com/products/electro-co-ultimate-upgrade-kit-tuttio-soleil-01', chk:'2026-11-11'},
+      {v:'GritShift', p:1499.99, url:'https://gritshift.com/products/electro-co-ultimate-upgrade-kit-tuttio-soleil-01', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Heavy Hitter QS165 60h V3 Billet Gear Box Cover', pid:'gritshift-heavy-hitter-qs165-60h-v3-billet-gear-box-cover', tier:'midrange',
      prices:[
-      {v:'GritShift', p:172.89, url:'https://gritshift.com/products/heavy-hitter-qs165-60h-v3-billet-gear-box-cover', chk:'2026-11-11'},
+      {v:'GritShift', p:172.89, url:'https://gritshift.com/products/heavy-hitter-qs165-60h-v3-billet-gear-box-cover', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Lithium King QS138 70h v3 520 Sprocket', pid:'gritshift-qs138-70h-v3-520-sprocket', tier:'budget',
      prices:[
-      {v:'GritShift', p:42.89, url:'https://gritshift.com/products/qs138-70h-v3-520-sprocket', chk:'2026-11-11'},
+      {v:'GritShift', p:42.89, url:'https://gritshift.com/products/qs138-70h-v3-520-sprocket', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'QS138 70h V3 Motor', pid:'gritshift-qs138-70h-v3-motor', tier:'premium',
      prices:[
-      {v:'GritShift', p:699.99, url:'https://gritshift.com/products/qs138-70h-v3-motor', chk:'2026-11-11'},
+      {v:'GritShift', p:699.99, url:'https://gritshift.com/products/qs138-70h-v3-motor', chk:'2026-11-13', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'EBMX X-9000 V3 Race Harness For QS138 Motor', pid:'gritshift-x-9000-race-harness-for-qs138', tier:'midrange',
      prices:[
-      {v:'GritShift', p:139.89, url:'https://gritshift.com/products/x-9000-race-harness-for-qs138', chk:'2026-11-11'},
+      {v:'GritShift', p:139.89, url:'https://gritshift.com/products/x-9000-race-harness-for-qs138', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-11'
@@ -567,7 +567,7 @@ var CATEGORIES = [
      prices:[
       {v:'Ventus Bikes USA', p:1199, url:'https://ventusbikes.us/products/ventus-aetos-max-controller', chk:'2026-10-18'},
       {v:'Charged Cycle Works', p:1199.0, url:'https://chargedcycleworks.com/products/ventus-aetos-max-controller', chk:'2026-11-11'},
-      {v:'GritShift', p:1199.99, url:'https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller', chk:'2026-11-11'},
+      {v:'GritShift', p:1199.99, url:'https://gritshift.com/products/ventus-vtb-v9600-aetos-max-controller', chk:'2026-11-13', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['ultrabee'], likely:['rerode-rx','ultrabee-21kw','ventus-evo'], no:[],
@@ -707,41 +707,41 @@ var CATEGORIES = [
     },
     {name:'EBMX X-9000 Controller Thumb Throttle', pid:'gritshift-ebmx-x-9000-controller-thumb-throttle', tier:'budget',
      prices:[
-      {v:'GritShift', p:34.99, url:'https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle', chk:'2026-11-11'},
+      {v:'GritShift', p:34.99, url:'https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'EBMX X-9000 V2 Controller SW102 Display for E-Motos', pid:'gritshift-ebmx-x-9000-v2-controller-sw102-display-e-moto', tier:'midrange',
      prices:[
-      {v:'GritShift', p:84.99, url:'https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto', chk:'2026-11-11'},
+      {v:'GritShift', p:84.99, url:'https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Ebmx', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'EBMX X-9000 V3 Controller 2-1 Harness', pid:'gritshift-ebmx-x-9000-v3-controller-2-1-harness', tier:'budget',
      prices:[
-      {v:'GritShift', p:39.99, url:'https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness', chk:'2026-11-11'},
+      {v:'GritShift', p:39.99, url:'https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'EBMX X9000 V3 Base Controller', pid:'gritshift-ebmx-x9000-v3-base-controller', tier:'premium',
      prices:[
-      {v:'GritShift', p:1099.99, url:'https://gritshift.com/products/ebmx-x9000-v3-base-controller', chk:'2026-11-11'},
+      {v:'GritShift', p:1099.99, url:'https://gritshift.com/products/ebmx-x9000-v3-base-controller', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Ventus Heatsink for VTB Aetos Gen 2 Controllers', pid:'gritshift-ventus-heatsink-vtb-aetos-gen-2-controllers', tier:'midrange',
      prices:[
-      {v:'GritShift', p:89.99, url:'https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers', chk:'2026-11-11'},
+      {v:'GritShift', p:89.99, url:'https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Ventus Aetos Pro V9600 Controller', pid:'gritshift-ventus-vtb-aetos-pro-controller', tier:'premium',
      prices:[
-      {v:'GritShift', p:1099.99, url:'https://gritshift.com/products/ventus-vtb-aetos-pro-controller', chk:'2026-11-11'},
+      {v:'GritShift', p:1099.99, url:'https://gritshift.com/products/ventus-vtb-aetos-pro-controller', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
@@ -991,7 +991,7 @@ var CATEGORIES = [
     },
     {name:'Titanium Surron KKE OEM Fork Bolt Kit - Sur Ron LBX', pid:'gritshift-titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx', tier:'OEM',
      prices:[
-      {v:'GritShift', p:54.99, url:'https://gritshift.com/products/titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx', chk:'2026-10-27'},
+      {v:'GritShift', p:54.99, url:'https://gritshift.com/products/titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:["lightbee"], likely:[], no:[],
      badge:'Fork', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/gritshift-titanium-surron-kke-oem-fork-bolt-kit-sur-ron-lbx.webp'
@@ -1605,7 +1605,7 @@ var CATEGORIES = [
     },
     {name:'KKE Racing Rear Ultra Bee Shock Spring Upgrade', pid:'gritshift-kke-racing-rear-shock-spring-upgrade', tier:'mid',
      prices:[
-      {v:'GritShift', p:79.89, url:'https://gritshift.com/products/kke-racing-rear-shock-spring-upgrade', chk:'2026-10-27'},
+      {v:'GritShift', p:79.89, url:'https://gritshift.com/products/kke-racing-rear-shock-spring-upgrade', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:["ultrabee"], likely:[], no:[],
      badge:'Shock', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/gritshift-kke-racing-rear-shock-spring-upgrade.webp'
@@ -1914,7 +1914,7 @@ var CATEGORIES = [
     },
     {name:'Warp 9 E-Moto Shock Protector', pid:'gritshift-warp-9-e-moto-shock-protector', tier:'budget',
      prices:[
-      {v:'GritShift', p:18.99, url:'https://gritshift.com/products/warp-9-e-moto-shock-protector', chk:'2026-11-11'},
+      {v:'GritShift', p:18.99, url:'https://gritshift.com/products/warp-9-e-moto-shock-protector', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-11'
@@ -2799,56 +2799,56 @@ var CATEGORIES = [
     },
     {name:'IRC VX-10 Mini Motocross Small Wheel Tire', pid:'gritshift-irc-vx-10-mini-motocross-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:67.95, url:'https://gritshift.com/products/irc-vx-10-mini-motocross-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:67.95, url:'https://gritshift.com/products/irc-vx-10-mini-motocross-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
      badge:'Irc', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Offroad Rim Lock 1.4"', pid:'gritshift-moose-offroad-rim-lock-1-4', tier:'budget',
      prices:[
-      {v:'GritShift', p:14.99, url:'https://gritshift.com/products/moose-offroad-rim-lock-1-4', chk:'2026-11-11'},
+      {v:'GritShift', p:14.99, url:'https://gritshift.com/products/moose-offroad-rim-lock-1-4', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Offroad Rim Lock 1.6"', pid:'gritshift-moose-offroad-rim-lock-1-6', tier:'budget',
      prices:[
-      {v:'GritShift', p:12.99, url:'https://gritshift.com/products/moose-offroad-rim-lock-1-6', chk:'2026-11-11'},
+      {v:'GritShift', p:12.99, url:'https://gritshift.com/products/moose-offroad-rim-lock-1-6', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Offroad Rim Lock 1.85"', pid:'gritshift-moose-offroad-rim-lock-1-85', tier:'budget',
      prices:[
-      {v:'GritShift', p:14.99, url:'https://gritshift.com/products/moose-offroad-rim-lock-1-85', chk:'2026-11-11'},
+      {v:'GritShift', p:14.99, url:'https://gritshift.com/products/moose-offroad-rim-lock-1-85', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Offroad Rim Lock 2.15"', pid:'gritshift-moose-offroad-rim-lock-2-15', tier:'budget',
      prices:[
-      {v:'GritShift', p:12.99, url:'https://gritshift.com/products/moose-offroad-rim-lock-2-15', chk:'2026-11-11'},
+      {v:'GritShift', p:12.99, url:'https://gritshift.com/products/moose-offroad-rim-lock-2-15', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Motion Pro LiteLoc II 1.6 Inch Rim Lock for Electric Dirt Bike Wheels', pid:'gritshift-motion-pro-liteloc-ii-1-6-inch-rim-lock-electric-dirt-bike-wheels', tier:'budget',
      prices:[
-      {v:'GritShift', p:22.89, url:'https://gritshift.com/products/motion-pro-liteloc-ii-1-6-inch-rim-lock-electric-dirt-bike-wheels', chk:'2026-11-11'},
+      {v:'GritShift', p:22.89, url:'https://gritshift.com/products/motion-pro-liteloc-ii-1-6-inch-rim-lock-electric-dirt-bike-wheels', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Motion Pro LiteLoc II 1.85 Inch Rim Lock for Electric Dirt Bike Wheels', pid:'gritshift-motion-pro-liteloc-ii-1-85-inch-rim-lock-electric-dirt-bike-wheels', tier:'budget',
      prices:[
-      {v:'GritShift', p:22.89, url:'https://gritshift.com/products/motion-pro-liteloc-ii-1-85-inch-rim-lock-electric-dirt-bike-wheels', chk:'2026-11-11'},
+      {v:'GritShift', p:22.89, url:'https://gritshift.com/products/motion-pro-liteloc-ii-1-85-inch-rim-lock-electric-dirt-bike-wheels', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Motion Pro LiteLoc II 2.15 Inch Rim Lock for Electric Dirt Bike Wheels', pid:'gritshift-motion-pro-liteloc-ii-2-15-inch-rim-lock-electric-dirt-bike-wheels', tier:'budget',
      prices:[
-      {v:'GritShift', p:22.89, url:'https://gritshift.com/products/motion-pro-liteloc-ii-2-15-inch-rim-lock-electric-dirt-bike-wheels', chk:'2026-11-11'},
+      {v:'GritShift', p:22.89, url:'https://gritshift.com/products/motion-pro-liteloc-ii-2-15-inch-rim-lock-electric-dirt-bike-wheels', chk:'2026-11-13', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'12" Mini E-Moto Supermoto Wheelset Kit – Yozma, Tuttio, Razor & ETM RTR', pid:'howlingmoto-12-mini-e-moto-supermoto-wheelset-kit-yozma-tuttio-razor-etm-rtr', tier:'premium',
      prices:[
@@ -3239,7 +3239,7 @@ var CATEGORIES = [
     },
     {name:'Warp 9 E-Moto Folding Brake Lever Type 2', pid:'brakes-warp9-folding-lever', tier:'midrange',
      prices:[
-      {v:'GritShift', p:46.89, url:'https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro', chk:'2026-10-18'},
+      {v:'GritShift', p:46.89, url:'https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro', chk:'2026-11-13', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
       {v:'Charged Cycle Works', p:46, url:'https://chargedcycleworks.com/products/emoto-folding-brake-levers', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
@@ -3310,7 +3310,7 @@ var CATEGORIES = [
     {name:'Titanium Brake Reservoir Bolts | Surron Ultra Bee', pid:'revrides-titanium-surron-ultra-bee-brake-reservoir-cap-bolts', tier:'budget',
      prices:[
       {v:'REV Rides', p:7.99, url:'https://revrides.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts', chk:'2026-10-27'},
-      {v:'GritShift', p:7.99, url:'https://gritshift.com/products/titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee', chk:'2026-10-27'},
+      {v:'GritShift', p:7.99, url:'https://gritshift.com/products/titanium-surron-brake-reservoir-cap-bolts-sur-ron-ultra-bee', chk:'2026-11-13', stock:'in_stock'},
       {v:'TB Electric Moto', p:7.99, url:'https://tbelectricmoto.com/products/titanium-surron-ultra-bee-brake-reservoir-cap-bolts', chk:'2026-10-27'},
      ],
      fits:['ultrabee'], likely:[], no:[],
@@ -4108,7 +4108,7 @@ var CATEGORIES = [
     },
     {name:'Helix Brake Bleeder Caps for E-Motos - 4 Pack', pid:'gritshift-helix-brake-bleeder-caps-e-motos-4-pack', tier:'budget',
      prices:[
-      {v:'GritShift', p:12.95, url:'https://gritshift.com/products/helix-brake-bleeder-caps-e-motos-4-pack', chk:'2026-11-11'},
+      {v:'GritShift', p:12.95, url:'https://gritshift.com/products/helix-brake-bleeder-caps-e-motos-4-pack', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
@@ -4622,7 +4622,7 @@ var CATEGORIES = [
     {name:'DirtyBike Long Rear Fender for Talaria Sting MX3 / MX4 – Extended Protection', pid:'howlingmoto-dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-exten', tier:'budget',
      prices:[
       {v:'Howling Moto', p:28, url:'https://howlingmoto.com/products/dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-extended-protection', chk:'2026-10-27'},
-      {v:'GritShift', p:28, url:'https://gritshift.com/products/dirtybike-long-rear-fender-talaria-sting-mx3-mx4', chk:'2026-10-27'},
+      {v:'GritShift', p:28, url:'https://gritshift.com/products/dirtybike-long-rear-fender-talaria-sting-mx3-mx4', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['mx4'], likely:[], no:[],
      badge:'Plastics', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/howlingmoto-dirtybike-long-rear-fender-for-talaria-sting-mx3-mx4-exten.webp'
@@ -5830,7 +5830,7 @@ var CATEGORIES = [
     },
     {name:'Electro & Co High Power 76V Battery', pid:'gritshift-eon-lithium-high-power-76v-battery', tier:'premium',
      prices:[
-      {v:'GritShift', p:1889.99, url:'https://gritshift.com/products/eon-lithium-high-power-76v-battery', chk:'2026-11-11'},
+      {v:'GritShift', p:1889.99, url:'https://gritshift.com/products/eon-lithium-high-power-76v-battery', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-11'
@@ -6074,7 +6074,7 @@ var CATEGORIES = [
     {name:'Warp 9 Talaria Komodo 1" Bar Risers', pid:'tbelectricmoto-talaria-komodo-1-bar-risers', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:27, url:'https://tbelectricmoto.com/products/talaria-komodo-1-bar-risers', chk:'2026-10-27'},
-      {v:'GritShift', p:29.89, url:'https://gritshift.com/products/warp-9-talaria-komodo-1-inch-bar-risers', chk:'2026-10-27'},
+      {v:'GritShift', p:29.89, url:'https://gritshift.com/products/warp-9-talaria-komodo-1-inch-bar-risers', chk:'2026-11-13', stock:'in_stock'},
       {v:'Charged Cycle Works', p:27, url:'https://chargedcycleworks.com/products/talaria-komodo-1-bar-risers', chk:'2026-11-10'},
      ],
      fits:['komodo'], likely:[], no:[],
@@ -6330,90 +6330,90 @@ var CATEGORIES = [
     },
     {name:'Electro & Co  Handlebar Mounted Volt Meter', pid:'gritshift-electro-co-handlebar-mounted-volt-meter', tier:'budget',
      prices:[
-      {v:'GritShift', p:19.99, url:'https://gritshift.com/products/electro-co-handlebar-mounted-volt-meter', chk:'2026-11-11'},
+      {v:'GritShift', p:19.99, url:'https://gritshift.com/products/electro-co-handlebar-mounted-volt-meter', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'G2 Ergonomics Slicer Pre-Tapped 1-1/8 Handlebar', pid:'gritshift-g2-ergonomics-slicer-pre-tapped-handlebar-e-moto', tier:'midrange',
      prices:[
-      {v:'GritShift', p:119.95, url:'https://gritshift.com/products/g2-ergonomics-slicer-pre-tapped-handlebar-e-moto', chk:'2026-11-11'},
+      {v:'GritShift', p:119.95, url:'https://gritshift.com/products/g2-ergonomics-slicer-pre-tapped-handlebar-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing EKO 1-1/8 Handlebar', pid:'gritshift-moose-racing-eko-1-1-8-handlebar-e-moto', tier:'midrange',
      prices:[
-      {v:'GritShift', p:75.95, url:'https://gritshift.com/products/moose-racing-eko-1-1-8-handlebar-e-moto', chk:'2026-11-11'},
+      {v:'GritShift', p:75.95, url:'https://gritshift.com/products/moose-racing-eko-1-1-8-handlebar-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing EKO 7/8 Handlebar', pid:'gritshift-moose-racing-eko-7-8-handlebar-e-moto', tier:'midrange',
      prices:[
-      {v:'GritShift', p:59.95, url:'https://gritshift.com/products/moose-racing-eko-7-8-handlebar-e-moto', chk:'2026-11-11'},
+      {v:'GritShift', p:59.95, url:'https://gritshift.com/products/moose-racing-eko-7-8-handlebar-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing Flex Series 1-1/8 Handlebar', pid:'gritshift-moose-racing-flex-series-1-1-8-handlebar-e-moto', tier:'midrange',
      prices:[
-      {v:'GritShift', p:89.95, url:'https://gritshift.com/products/moose-racing-flex-series-1-1-8-handlebar-e-moto', chk:'2026-11-11'},
+      {v:'GritShift', p:89.95, url:'https://gritshift.com/products/moose-racing-flex-series-1-1-8-handlebar-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing LED Headlight - 7/8 Inch Handlebar Mount', pid:'gritshift-moose-racing-led-headlight-7-8-inch-handlebar-mount', tier:'midrange',
      prices:[
-      {v:'GritShift', p:114.95, url:'https://gritshift.com/products/moose-racing-led-headlight-7-8-inch-handlebar-mount', chk:'2026-11-11'},
+      {v:'GritShift', p:114.95, url:'https://gritshift.com/products/moose-racing-led-headlight-7-8-inch-handlebar-mount', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ODI Podium 7/8 Handlebar', pid:'gritshift-odi-podium-7-8-handlebar-e-moto', tier:'midrange',
      prices:[
-      {v:'GritShift', p:94.95, url:'https://gritshift.com/products/odi-podium-7-8-handlebar-e-moto', chk:'2026-11-11'},
+      {v:'GritShift', p:94.95, url:'https://gritshift.com/products/odi-podium-7-8-handlebar-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Odi', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ODI Podium Flight 1-1/8 Handlebar', pid:'gritshift-odi-podium-flight-1-1-8-handlebar-e-moto', tier:'midrange',
      prices:[
-      {v:'GritShift', p:114.95, url:'https://gritshift.com/products/odi-podium-flight-1-1-8-handlebar-e-moto', chk:'2026-11-11'},
+      {v:'GritShift', p:114.95, url:'https://gritshift.com/products/odi-podium-flight-1-1-8-handlebar-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Odi', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Renthal Fatbar 1-1/8 Handlebar', pid:'gritshift-renthal-fatbar-1-1-8-inch-handlebar-e-moto', tier:'midrange',
      prices:[
-      {v:'GritShift', p:134.95, url:'https://gritshift.com/products/renthal-fatbar-1-1-8-inch-handlebar-e-moto', chk:'2026-11-11'},
+      {v:'GritShift', p:134.95, url:'https://gritshift.com/products/renthal-fatbar-1-1-8-inch-handlebar-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Renthal', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Renthal Twinwall 1-1/8 Handlebar', pid:'gritshift-renthal-twinwall-1-1-8-handlebar-e-moto', tier:'midrange',
      prices:[
-      {v:'GritShift', p:194.95, url:'https://gritshift.com/products/renthal-twinwall-1-1-8-handlebar-e-moto', chk:'2026-11-11'},
+      {v:'GritShift', p:194.95, url:'https://gritshift.com/products/renthal-twinwall-1-1-8-handlebar-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Renthal', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp 9 Bar End Sliders for Warp 9 Tapped Handlebars', pid:'gritshift-warp-9-bar-end-sliders-tapped-handlebars-e-moto', tier:'budget',
      prices:[
-      {v:'GritShift', p:15.89, url:'https://gritshift.com/products/warp-9-bar-end-sliders-tapped-handlebars-e-moto', chk:'2026-11-11'},
+      {v:'GritShift', p:15.89, url:'https://gritshift.com/products/warp-9-bar-end-sliders-tapped-handlebars-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp 9 Reusable Rubber Handlebar Straps, Set of 4', pid:'gritshift-warp-9-reusable-rubber-handlebar-straps-e-moto', tier:'budget',
      prices:[
-      {v:'GritShift', p:11.89, url:'https://gritshift.com/products/warp-9-reusable-rubber-handlebar-straps-e-moto', chk:'2026-11-11'},
+      {v:'GritShift', p:11.89, url:'https://gritshift.com/products/warp-9-reusable-rubber-handlebar-straps-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp 9 Tapped 1-1/8 Handlebar', pid:'gritshift-warp-9-tapped-1-1-8-handlebar-e-moto', tier:'midrange',
      prices:[
-      {v:'GritShift', p:98.89, url:'https://gritshift.com/products/warp-9-tapped-1-1-8-handlebar-e-moto', chk:'2026-11-11'},
+      {v:'GritShift', p:98.89, url:'https://gritshift.com/products/warp-9-tapped-1-1-8-handlebar-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-11'
@@ -6691,14 +6691,14 @@ var CATEGORIES = [
     },
     {name:'Electro & Co EMX 12Amp 72V/76V Charger', pid:'gritshift-electro-co-emx-12amp-charger', tier:'midrange',
      prices:[
-      {v:'GritShift', p:159.99, url:'https://gritshift.com/products/electro-co-emx-12amp-charger', chk:'2026-11-11'},
+      {v:'GritShift', p:159.99, url:'https://gritshift.com/products/electro-co-emx-12amp-charger', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Electro & Co EMX 0V-100V Lightning Charger', pid:'gritshift-electro-co-emx-lightning-charger', tier:'premium',
      prices:[
-      {v:'GritShift', p:449.99, url:'https://gritshift.com/products/electro-co-emx-lightning-charger', chk:'2026-11-11'},
+      {v:'GritShift', p:449.99, url:'https://gritshift.com/products/electro-co-emx-lightning-charger', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-11'
@@ -6893,7 +6893,7 @@ var CATEGORIES = [
     {name:'ODI Universal Lock-On Half Waffle Grips for eMoto', pid:'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:22.95, url:'https://chargedcycleworks.com/products/odi-universal-lock-on-grips-half-waffle-for-emoto', chk:'2026-11-05'},
-      {v:'GritShift', p:22.95, url:'https://gritshift.com/products/odi-universal-lock-on-half-waffle-grips', chk:'2026-11-11'},
+      {v:'GritShift', p:22.95, url:'https://gritshift.com/products/odi-universal-lock-on-half-waffle-grips', chk:'2026-11-13', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf','bonnell-805rx','lightbee2','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','rtr-alpha','rtr-lite','rtr-sport','stark-vargex','storm-bee','ultrabee-21kw','ventus-evo','zero-xe'], likely:['altis-sigma','arctic-leopard-xe-pro-r','falcon-pro','rawrr-mantis-mini-r','rerode-rx'], no:[],
@@ -7177,264 +7177,264 @@ var CATEGORIES = [
     },
     {name:'Acerbis X-Ultimate Handguards for E-Motos', pid:'gritshift-acerbis-ultimate-x-handguards', tier:'budget',
      prices:[
-      {v:'GritShift', p:45.95, url:'https://gritshift.com/products/acerbis-ultimate-x-handguards', chk:'2026-11-11'},
+      {v:'GritShift', p:45.95, url:'https://gritshift.com/products/acerbis-ultimate-x-handguards', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Acerbis', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Acerbis X-Factory Handguards for E-Motos', pid:'gritshift-acerbis-x-factory-handguards-e-motos', tier:'midrange',
      prices:[
-      {v:'GritShift', p:109.99, url:'https://gritshift.com/products/acerbis-x-factory-handguards-e-motos', chk:'2026-11-11'},
+      {v:'GritShift', p:109.99, url:'https://gritshift.com/products/acerbis-x-factory-handguards-e-motos', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Acerbis', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Acerbis X-Future Handguards for E-Motos', pid:'gritshift-acerbis-x-future-handguards', tier:'budget',
      prices:[
-      {v:'GritShift', p:45.95, url:'https://gritshift.com/products/acerbis-x-future-handguards', chk:'2026-11-11'},
+      {v:'GritShift', p:45.95, url:'https://gritshift.com/products/acerbis-x-future-handguards', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Acerbis', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'D\'Cor Visuals Rubber Grip Tape Sheet - 12 x 18 Inch', pid:'gritshift-d-cor-visuals-rubber-grip-tape-sheet-12-x-18-inch', tier:'budget',
      prices:[
-      {v:'GritShift', p:19.95, url:'https://gritshift.com/products/d-cor-visuals-rubber-grip-tape-sheet-12-x-18-inch', chk:'2026-11-11'},
+      {v:'GritShift', p:19.95, url:'https://gritshift.com/products/d-cor-visuals-rubber-grip-tape-sheet-12-x-18-inch', chk:'2026-11-13', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'D\'Cor Visuals Universal Grip Tape Sheet - 12 x 18 Inch', pid:'gritshift-d-cor-visuals-universal-grip-tape-sheet-12-x-18-inch', tier:'budget',
      prices:[
-      {v:'GritShift', p:14.95, url:'https://gritshift.com/products/d-cor-visuals-universal-grip-tape-sheet-12-x-18-inch', chk:'2026-11-11'},
+      {v:'GritShift', p:14.95, url:'https://gritshift.com/products/d-cor-visuals-universal-grip-tape-sheet-12-x-18-inch', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Domino Billet Grip Protectors - Tap and Guide Kit', pid:'gritshift-domino-billet-grip-protectors-tap-guide-kit', tier:'budget',
      prices:[
-      {v:'GritShift', p:32.99, url:'https://gritshift.com/products/domino-billet-grip-protectors-tap-guide-kit', chk:'2026-11-11'},
+      {v:'GritShift', p:32.99, url:'https://gritshift.com/products/domino-billet-grip-protectors-tap-guide-kit', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Domino Victor Half Waffle Grips - Medium Soft', pid:'gritshift-domino-victor-half-waffle-grips-medium-soft', tier:'budget',
      prices:[
-      {v:'GritShift', p:19.95, url:'https://gritshift.com/products/domino-victor-half-waffle-grips-medium-soft', chk:'2026-11-11'},
+      {v:'GritShift', p:19.95, url:'https://gritshift.com/products/domino-victor-half-waffle-grips-medium-soft', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Hirschmann Dual Hall Throttle Upgrade W/Extended Harness', pid:'gritshift-dual-hall-e-moto-throttle-upgrade', tier:'midrange',
      prices:[
-      {v:'GritShift', p:169.99, url:'https://gritshift.com/products/dual-hall-e-moto-throttle-upgrade', chk:'2026-11-11'},
+      {v:'GritShift', p:169.99, url:'https://gritshift.com/products/dual-hall-e-moto-throttle-upgrade', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Hirschmann Dual Hall Throttle Upgrade W/Shortened Harness', pid:'gritshift-dual-hall-throttle-upgrade', tier:'midrange',
      prices:[
-      {v:'GritShift', p:169.99, url:'https://gritshift.com/products/dual-hall-throttle-upgrade', chk:'2026-11-11'},
+      {v:'GritShift', p:169.99, url:'https://gritshift.com/products/dual-hall-throttle-upgrade', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Guts Racing Tuttio Soleil 01 Gripper Ribbed Seat Cover', pid:'gritshift-guts-tuttio-gripper-ribbed-seat-cover', tier:'midrange',
      prices:[
-      {v:'GritShift', p:79.99, url:'https://gritshift.com/products/guts-tuttio-gripper-ribbed-seat-cover', chk:'2026-11-11'},
+      {v:'GritShift', p:79.99, url:'https://gritshift.com/products/guts-tuttio-gripper-ribbed-seat-cover', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Guts', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Kev-TeK Dual Compound Enduro Grips', pid:'gritshift-kevtek-dual-compound-enduro-grips', tier:'budget',
      prices:[
-      {v:'GritShift', p:19.89, url:'https://gritshift.com/products/kevtek-dual-compound-enduro-grips', chk:'2026-11-11'},
+      {v:'GritShift', p:19.89, url:'https://gritshift.com/products/kevtek-dual-compound-enduro-grips', chk:'2026-11-13', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Mika Off Road Grips 7/8', pid:'gritshift-mika-off-road-grips-7-8', tier:'budget',
      prices:[
-      {v:'GritShift', p:14.89, url:'https://gritshift.com/products/mika-off-road-grips-7-8', chk:'2026-11-11'},
+      {v:'GritShift', p:14.89, url:'https://gritshift.com/products/mika-off-road-grips-7-8', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Mika', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Mika', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Moose Racing Stealth MX Grips', pid:'gritshift-moose-racing-handlebar-grips-stealth-mx', tier:'budget',
      prices:[
-      {v:'GritShift', p:13.99, url:'https://gritshift.com/products/moose-racing-handlebar-grips-stealth-mx', chk:'2026-11-11'},
+      {v:'GritShift', p:13.99, url:'https://gritshift.com/products/moose-racing-handlebar-grips-stealth-mx', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing Qualifier Grips - Diamond - Gray', pid:'gritshift-moose-racing-qualifier-grips-diamond-gray', tier:'budget',
      prices:[
-      {v:'GritShift', p:10.05, url:'https://gritshift.com/products/moose-racing-qualifier-grips-diamond-gray', chk:'2026-11-11'},
+      {v:'GritShift', p:10.05, url:'https://gritshift.com/products/moose-racing-qualifier-grips-diamond-gray', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Moose Racing', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Moose Racing Qualifier Grips - Full Waffle', pid:'gritshift-moose-racing-qualifier-grips-full-waffle', tier:'budget',
      prices:[
-      {v:'GritShift', p:9.04, url:'https://gritshift.com/products/moose-racing-qualifier-grips-full-waffle', chk:'2026-11-11'},
+      {v:'GritShift', p:9.04, url:'https://gritshift.com/products/moose-racing-qualifier-grips-full-waffle', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing Qualifier Grips - Half Waffle', pid:'gritshift-moose-racing-qualifier-grips-half-waffle', tier:'budget',
      prices:[
-      {v:'GritShift', p:9.04, url:'https://gritshift.com/products/moose-racing-qualifier-grips-half-waffle', chk:'2026-11-11'},
+      {v:'GritShift', p:9.04, url:'https://gritshift.com/products/moose-racing-qualifier-grips-half-waffle', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing Roost 2 Handguards for E-Motos', pid:'gritshift-moose-racing-roost-2-handguards-e-motos', tier:'budget',
      prices:[
-      {v:'GritShift', p:49.99, url:'https://gritshift.com/products/moose-racing-roost-2-handguards-e-motos', chk:'2026-11-11'},
+      {v:'GritShift', p:49.99, url:'https://gritshift.com/products/moose-racing-roost-2-handguards-e-motos', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Motion Pro DirtControl II Grips - Full Waffle', pid:'gritshift-motion-pro-dirtcontrol-ii-grips-full-waffle', tier:'budget',
      prices:[
-      {v:'GritShift', p:14.29, url:'https://gritshift.com/products/motion-pro-dirtcontrol-ii-grips-full-waffle', chk:'2026-11-11'},
+      {v:'GritShift', p:14.29, url:'https://gritshift.com/products/motion-pro-dirtcontrol-ii-grips-full-waffle', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ODI Grip Donuts for E-Motos - Foam Blister Guards', pid:'gritshift-odi-grip-donuts-e-motos-foam-blister-guards', tier:'budget',
      prices:[
-      {v:'GritShift', p:8.99, url:'https://gritshift.com/products/odi-grip-donuts-e-motos-foam-blister-guards', chk:'2026-11-11'},
+      {v:'GritShift', p:8.99, url:'https://gritshift.com/products/odi-grip-donuts-e-motos-foam-blister-guards', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Odi', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ODI MX Pro Edition Soft Half Waffle Grips, White', pid:'gritshift-odi-mx-pro-edition-soft-half-waffle-grips-white', tier:'budget',
      prices:[
-      {v:'GritShift', p:14.95, url:'https://gritshift.com/products/odi-mx-pro-edition-soft-half-waffle-grips-white', chk:'2026-11-11'},
+      {v:'GritShift', p:14.95, url:'https://gritshift.com/products/odi-mx-pro-edition-soft-half-waffle-grips-white', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Odi', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ODI Ruffian Half Waffle Slip-On MX Grips, Black', pid:'gritshift-odi-ruffian-half-waffle-mx-grips-black', tier:'budget',
      prices:[
-      {v:'GritShift', p:14.95, url:'https://gritshift.com/products/odi-ruffian-half-waffle-mx-grips-black', chk:'2026-11-11'},
+      {v:'GritShift', p:14.95, url:'https://gritshift.com/products/odi-ruffian-half-waffle-mx-grips-black', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Odi', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ODI Ruffian Half Waffle Slip-On MX Grips, Gray', pid:'gritshift-odi-ruffian-half-waffle-mx-grips-gray', tier:'budget',
      prices:[
-      {v:'GritShift', p:14.95, url:'https://gritshift.com/products/odi-ruffian-half-waffle-mx-grips-gray', chk:'2026-11-11'},
+      {v:'GritShift', p:14.95, url:'https://gritshift.com/products/odi-ruffian-half-waffle-mx-grips-gray', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Odi', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Pro Grip 794 Single Density MX Grips - Half Waffle', pid:'gritshift-pro-grip-794-single-density-mx-grips-half-waffle', tier:'budget',
      prices:[
-      {v:'GritShift', p:9.12, url:'https://gritshift.com/products/pro-grip-794-single-density-mx-grips-half-waffle', chk:'2026-11-11'},
+      {v:'GritShift', p:9.12, url:'https://gritshift.com/products/pro-grip-794-single-density-mx-grips-half-waffle', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Pro Grip 799 Gel Cross Grips - Half Waffle', pid:'gritshift-pro-grip-799-gel-cross-grips-half-waffle', tier:'budget',
      prices:[
-      {v:'GritShift', p:15.25, url:'https://gritshift.com/products/pro-grip-799-gel-cross-grips-half-waffle', chk:'2026-11-11'},
+      {v:'GritShift', p:15.25, url:'https://gritshift.com/products/pro-grip-799-gel-cross-grips-half-waffle', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ProTaper Dual Density MX Grips', pid:'gritshift-protaper-dual-density-mx-grips', tier:'budget',
      prices:[
-      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/protaper-dual-density-mx-grips', chk:'2026-11-11'},
+      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/protaper-dual-density-mx-grips', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Protaper', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ProTaper Tri-Density Half Waffle MX Grips', pid:'gritshift-protaper-tri-density-half-waffle-mx-grips', tier:'budget',
      prices:[
-      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/protaper-tri-density-half-waffle-mx-grips', chk:'2026-11-11'},
+      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/protaper-tri-density-half-waffle-mx-grips', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Protaper', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Protaper', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Renthal Grip Donutz for E-Motos - Foam Pair', pid:'gritshift-renthal-grip-donutz-e-motos-foam-pair', tier:'budget',
      prices:[
-      {v:'GritShift', p:9.99, url:'https://gritshift.com/products/renthal-grip-donutz-e-motos-foam-pair', chk:'2026-11-11'},
+      {v:'GritShift', p:9.99, url:'https://gritshift.com/products/renthal-grip-donutz-e-motos-foam-pair', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Renthal', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Renthal Half Waffle MX Grips, Firm Compound', pid:'gritshift-renthal-half-waffle-mx-grips-firm', tier:'budget',
      prices:[
-      {v:'GritShift', p:19.95, url:'https://gritshift.com/products/renthal-half-waffle-mx-grips-firm', chk:'2026-11-11'},
+      {v:'GritShift', p:19.95, url:'https://gritshift.com/products/renthal-half-waffle-mx-grips-firm', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Renthal', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Renthal Half Waffle MX Grips, Medium Compound', pid:'gritshift-renthal-half-waffle-mx-grips-medium', tier:'budget',
      prices:[
-      {v:'GritShift', p:19.95, url:'https://gritshift.com/products/renthal-half-waffle-mx-grips-medium', chk:'2026-11-11'},
+      {v:'GritShift', p:19.95, url:'https://gritshift.com/products/renthal-half-waffle-mx-grips-medium', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Renthal', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Renthal Half Waffle MX Grips, Soft Compound', pid:'gritshift-renthal-half-waffle-mx-grips-soft', tier:'budget',
      prices:[
-      {v:'GritShift', p:19.95, url:'https://gritshift.com/products/renthal-half-waffle-mx-grips-soft', chk:'2026-11-11'},
+      {v:'GritShift', p:19.95, url:'https://gritshift.com/products/renthal-half-waffle-mx-grips-soft', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Renthal', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Renthal Single Compound MX Grips', pid:'gritshift-renthal-single-compound-mx-grips', tier:'budget',
      prices:[
-      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/renthal-single-compound-mx-grips', chk:'2026-11-11'},
+      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/renthal-single-compound-mx-grips', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Renthal', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Renthal Ultra Tacky Dual Compound Half Waffle Grips', pid:'gritshift-renthal-ultra-tacky-dual-compound-half-waffle-grips', tier:'budget',
      prices:[
-      {v:'GritShift', p:29.95, url:'https://gritshift.com/products/renthal-ultra-tacky-dual-compound-half-waffle-grips', chk:'2026-11-11'},
+      {v:'GritShift', p:29.95, url:'https://gritshift.com/products/renthal-ultra-tacky-dual-compound-half-waffle-grips', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Renthal', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Scott Deuce MX Grips', pid:'gritshift-scott-deuce-mx-grips', tier:'budget',
      prices:[
-      {v:'GritShift', p:13.89, url:'https://gritshift.com/products/scott-deuce-mx-grips', chk:'2026-11-11'},
+      {v:'GritShift', p:13.89, url:'https://gritshift.com/products/scott-deuce-mx-grips', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Scott Diamond MX Grips', pid:'gritshift-scott-diamond-mx-grips', tier:'budget',
      prices:[
-      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/scott-diamond-mx-grips', chk:'2026-11-11'},
+      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/scott-diamond-mx-grips', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Scott Mellow MX Grips', pid:'gritshift-scott-mellow-mx-grips', tier:'budget',
      prices:[
-      {v:'GritShift', p:13.89, url:'https://gritshift.com/products/scott-mellow-mx-grips', chk:'2026-11-11'},
+      {v:'GritShift', p:13.89, url:'https://gritshift.com/products/scott-mellow-mx-grips', chk:'2026-11-13', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Scott Radial Full Waffle Grips - Single Density', pid:'gritshift-scott-radial-full-waffle-grips', tier:'budget',
      prices:[
-      {v:'GritShift', p:12.99, url:'https://gritshift.com/products/scott-radial-full-waffle-grips', chk:'2026-11-11'},
+      {v:'GritShift', p:12.99, url:'https://gritshift.com/products/scott-radial-full-waffle-grips', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Scott Radial Half Waffle Grips - Single Density', pid:'gritshift-scott-radial-half-waffle-grips-single-density', tier:'budget',
      prices:[
-      {v:'GritShift', p:10.0, url:'https://gritshift.com/products/scott-radial-half-waffle-grips-single-density', chk:'2026-11-11'},
+      {v:'GritShift', p:10.0, url:'https://gritshift.com/products/scott-radial-half-waffle-grips-single-density', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Scott SX II Grips with Donuts - Double Density Diamond', pid:'gritshift-scott-sx-ii-grips-donuts-double-density-diamond', tier:'budget',
      prices:[
-      {v:'GritShift', p:13.0, url:'https://gritshift.com/products/scott-sx-ii-grips-donuts-double-density-diamond', chk:'2026-11-11'},
+      {v:'GritShift', p:13.0, url:'https://gritshift.com/products/scott-sx-ii-grips-donuts-double-density-diamond', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp 9 Handguard Kit', pid:'gritshift-warp-9-racing-handguard-kit-e-bike', tier:'budget',
      prices:[
-      {v:'GritShift', p:44.99, url:'https://gritshift.com/products/warp-9-racing-handguard-kit-e-bike', chk:'2026-11-11'},
+      {v:'GritShift', p:44.99, url:'https://gritshift.com/products/warp-9-racing-handguard-kit-e-bike', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Zeta Impact X3 Handguards', pid:'gritshift-zeta-impact-x3-handguards', tier:'midrange',
      prices:[
-      {v:'GritShift', p:52.89, url:'https://gritshift.com/products/zeta-impact-x3-handguards', chk:'2026-11-11'},
+      {v:'GritShift', p:52.89, url:'https://gritshift.com/products/zeta-impact-x3-handguards', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
@@ -7702,7 +7702,7 @@ var CATEGORIES = [
 
     {name:'EBMX Heatsink Replacement Cover For V2/V3 X9000', pid:'gritshift-ebmx-x-9000-v2-colored-heat-sink', tier:'midrange',
      prices:[
-      {v:'GritShift', p:72.99, url:'https://gritshift.com/products/ebmx-x-9000-v2-colored-heat-sink', chk:'2026-11-11'},
+      {v:'GritShift', p:72.99, url:'https://gritshift.com/products/ebmx-x-9000-v2-colored-heat-sink', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-11'
@@ -7819,7 +7819,7 @@ var CATEGORIES = [
     },
     {name:'Warp 9 Countershaft Sprocket - Talaria Komodo', pid:'gritshift-warp-9-countershaft-sprocket-talaria-komodo', tier:'budget',
      prices:[
-      {v:'GritShift', p:22.89, url:'https://gritshift.com/products/warp-9-countershaft-sprocket-talaria-komodo', chk:'2026-10-27'},
+      {v:'GritShift', p:22.89, url:'https://gritshift.com/products/warp-9-countershaft-sprocket-talaria-komodo', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:["komodo"], likely:[], no:[],
      badge:'Drivetrain', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/gritshift-warp-9-countershaft-sprocket-talaria-komodo.webp'
@@ -8377,174 +8377,174 @@ var CATEGORIES = [
     },
     {name:'D.I.D 428 VX Series X-Ring Chain 120 Links', pid:'gritshift-d-i-d-428-vx-series-x-ring-chain-120-links', tier:'midrange',
      prices:[
-      {v:'GritShift', p:126.89, url:'https://gritshift.com/products/d-i-d-428-vx-series-x-ring-chain-120-links', chk:'2026-11-11'},
+      {v:'GritShift', p:126.89, url:'https://gritshift.com/products/d-i-d-428-vx-series-x-ring-chain-120-links', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'EK SRO O-Ring 420 Chain 132-Link', pid:'gritshift-ek-sro-o-ring-420-chain', tier:'midrange',
      prices:[
-      {v:'GritShift', p:89.99, url:'https://gritshift.com/products/ek-sro-o-ring-420-chain', chk:'2026-11-11'},
+      {v:'GritShift', p:89.99, url:'https://gritshift.com/products/ek-sro-o-ring-420-chain', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Fire Power 420 Standard Gold Chain 130 Link', pid:'gritshift-fire-power-420-standard-gold-chain-130-link', tier:'budget',
      prices:[
-      {v:'GritShift', p:34.99, url:'https://gritshift.com/products/fire-power-420-standard-gold-chain-130-link', chk:'2026-11-11'},
+      {v:'GritShift', p:34.99, url:'https://gritshift.com/products/fire-power-420-standard-gold-chain-130-link', chk:'2026-11-13', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'JT 520 HDR Competition Chain - Steel - 120 Links', pid:'gritshift-jt-520-hdr-competition-chain-steel-120-links', tier:'budget',
      prices:[
-      {v:'GritShift', p:42.83, url:'https://gritshift.com/products/jt-520-hdr-competition-chain-steel-120-links', chk:'2026-11-11'},
+      {v:'GritShift', p:42.83, url:'https://gritshift.com/products/jt-520-hdr-competition-chain-steel-120-links', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'JT 520 HDS Super Heavy Duty Non-Sealed Chain', pid:'gritshift-jt-520-hds-super-heavy-duty-chain', tier:'budget',
      prices:[
-      {v:'GritShift', p:44.26, url:'https://gritshift.com/products/jt-520-hds-super-heavy-duty-chain', chk:'2026-11-11'},
+      {v:'GritShift', p:44.26, url:'https://gritshift.com/products/jt-520-hds-super-heavy-duty-chain', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing 420 RXP Pro-MX Chain 110 Link', pid:'gritshift-moose-racing-420-rxp-pro-mx-chain-110-links', tier:'budget',
      prices:[
-      {v:'GritShift', p:28.89, url:'https://gritshift.com/products/moose-racing-420-rxp-pro-mx-chain-110-links', chk:'2026-11-11'},
+      {v:'GritShift', p:28.89, url:'https://gritshift.com/products/moose-racing-420-rxp-pro-mx-chain-110-links', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing 420 RXP Pro-MX Gold Chain 114 Link', pid:'gritshift-moose-racing-420-rxp-pro-mx-chain-114-link', tier:'budget',
      prices:[
-      {v:'GritShift', p:32.89, url:'https://gritshift.com/products/moose-racing-420-rxp-pro-mx-chain-114-link', chk:'2026-11-11'},
+      {v:'GritShift', p:32.89, url:'https://gritshift.com/products/moose-racing-420-rxp-pro-mx-chain-114-link', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Moose Racing', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Moose Racing 428 RXP Pro-MX Chain 120 Link', pid:'gritshift-moose-racing-428-rxp-pro-mx-chain-120-link', tier:'budget',
      prices:[
-      {v:'GritShift', p:42.89, url:'https://gritshift.com/products/moose-racing-428-rxp-pro-mx-chain-120-link', chk:'2026-11-11'},
+      {v:'GritShift', p:42.89, url:'https://gritshift.com/products/moose-racing-428-rxp-pro-mx-chain-120-link', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing 520 Gold RXP Pro-MX Chain 120 Link', pid:'gritshift-moose-racing-520-rxp-pro-mx-chain-120-link', tier:'midrange',
      prices:[
-      {v:'GritShift', p:89.99, url:'https://gritshift.com/products/moose-racing-520-rxp-pro-mx-chain-120-link', chk:'2026-11-11'},
+      {v:'GritShift', p:89.99, url:'https://gritshift.com/products/moose-racing-520-rxp-pro-mx-chain-120-link', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Moose Racing', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Moto-Master V4 520 O-Ring Drive Chain, Gold, 120 Link', pid:'gritshift-moto-master-v4-520-o-ring-drive-chain-gold-120-link', tier:'midrange',
      prices:[
-      {v:'GritShift', p:116.99, url:'https://gritshift.com/products/moto-master-v4-520-o-ring-drive-chain-gold-120-link', chk:'2026-11-11'},
+      {v:'GritShift', p:116.99, url:'https://gritshift.com/products/moto-master-v4-520-o-ring-drive-chain-gold-120-link', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Parts Unlimited 520 PX Series X-Ring Drive Chain, 120 Link', pid:'gritshift-parts-unlimited-520-px-series-x-ring-drive-chain-120-link', tier:'midrange',
      prices:[
-      {v:'GritShift', p:142.99, url:'https://gritshift.com/products/parts-unlimited-520-px-series-x-ring-drive-chain-120-link', chk:'2026-11-11'},
+      {v:'GritShift', p:142.99, url:'https://gritshift.com/products/parts-unlimited-520-px-series-x-ring-drive-chain-120-link', chk:'2026-11-13', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Parts Unlimited 520H Drive Chain - 120 Links', pid:'gritshift-parts-unlimited-520h-drive-chain-120-links', tier:'budget',
      prices:[
-      {v:'GritShift', p:44.95, url:'https://gritshift.com/products/parts-unlimited-520h-drive-chain-120-links', chk:'2026-11-11'},
+      {v:'GritShift', p:44.95, url:'https://gritshift.com/products/parts-unlimited-520h-drive-chain-120-links', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ProX 520 MX Non-Seal Drive Chain, Gold, 120 Link', pid:'gritshift-prox-520-mx-non-seal-drive-chain-gold-120-link', tier:'midrange',
      prices:[
-      {v:'GritShift', p:104.99, url:'https://gritshift.com/products/prox-520-mx-non-seal-drive-chain-gold-120-link', chk:'2026-11-11'},
+      {v:'GritShift', p:104.99, url:'https://gritshift.com/products/prox-520-mx-non-seal-drive-chain-gold-120-link', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ProX 520 X-Ring Drive Chain, Gold, 120 Link', pid:'gritshift-prox-520-x-ring-drive-chain-gold-120-link', tier:'midrange',
      prices:[
-      {v:'GritShift', p:129.99, url:'https://gritshift.com/products/prox-520-x-ring-drive-chain-gold-120-link', chk:'2026-11-11'},
+      {v:'GritShift', p:129.99, url:'https://gritshift.com/products/prox-520-x-ring-drive-chain-gold-120-link', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Regina 520 GPXV Non-Sealed Racing Chain 120 Links Gold', pid:'gritshift-regina-520-gpxv-racing-chain', tier:'premium',
      prices:[
-      {v:'GritShift', p:232.95, url:'https://gritshift.com/products/regina-520-gpxv-racing-chain', chk:'2026-11-11'},
+      {v:'GritShift', p:232.95, url:'https://gritshift.com/products/regina-520-gpxv-racing-chain', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Regina 520 RX3 Non-Sealed Off-Road Chain Gold', pid:'gritshift-regina-520-rx3-off-road-chain', tier:'midrange',
      prices:[
-      {v:'GritShift', p:136.95, url:'https://gritshift.com/products/regina-520-rx3-off-road-chain', chk:'2026-11-11'},
+      {v:'GritShift', p:136.95, url:'https://gritshift.com/products/regina-520-rx3-off-road-chain', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Regina 520 ZSE Z-Ring Sealed Enduro Chain', pid:'gritshift-regina-520-zse-z-ring-chain', tier:'midrange',
      prices:[
-      {v:'GritShift', p:191.95, url:'https://gritshift.com/products/regina-520-zse-z-ring-chain', chk:'2026-11-11'},
+      {v:'GritShift', p:191.95, url:'https://gritshift.com/products/regina-520-zse-z-ring-chain', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Renthal 520 R1 Works Non-Sealed Chain Gold', pid:'gritshift-renthal-r1-520-works-drive-chain-120-link', tier:'midrange',
      prices:[
-      {v:'GritShift', p:139.65, url:'https://gritshift.com/products/renthal-r1-520-works-drive-chain-120-link', chk:'2026-11-11'},
+      {v:'GritShift', p:139.65, url:'https://gritshift.com/products/renthal-r1-520-works-drive-chain-120-link', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Renthal', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'RK 420 RK-M Standard Chain 110-Link', pid:'gritshift-rk-420-rk-m-standard-chain', tier:'budget',
      prices:[
-      {v:'GritShift', p:24.99, url:'https://gritshift.com/products/rk-420-rk-m-standard-chain', chk:'2026-11-11'},
+      {v:'GritShift', p:24.99, url:'https://gritshift.com/products/rk-420-rk-m-standard-chain', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'RK 420 RK-M Standard Chain 120 Link', pid:'gritshift-rk-420-rk-m-standard-chain-120-link', tier:'budget',
      prices:[
-      {v:'GritShift', p:19.89, url:'https://gritshift.com/products/rk-420-rk-m-standard-chain-120-link', chk:'2026-11-11'},
+      {v:'GritShift', p:19.89, url:'https://gritshift.com/products/rk-420-rk-m-standard-chain-120-link', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'RK 420 RK-M Standard Chain 130 Link', pid:'gritshift-rk-420-rk-m-standard-chain-130-link', tier:'budget',
      prices:[
-      {v:'GritShift', p:24.89, url:'https://gritshift.com/products/rk-420-rk-m-standard-chain-130-link', chk:'2026-11-11'},
+      {v:'GritShift', p:24.89, url:'https://gritshift.com/products/rk-420-rk-m-standard-chain-130-link', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'RK M428 Standard Chain 110 Link', pid:'gritshift-rk-428-chain-110-link', tier:'budget',
      prices:[
-      {v:'GritShift', p:24.99, url:'https://gritshift.com/products/rk-428-chain-110-link', chk:'2026-11-11'},
+      {v:'GritShift', p:24.99, url:'https://gritshift.com/products/rk-428-chain-110-link', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'RK 428 MXZ1 Gold Chain Link', pid:'gritshift-rk-428-mxz1-gold-chain-110-link', tier:'midrange',
      prices:[
-      {v:'GritShift', p:82.03, url:'https://gritshift.com/products/rk-428-mxz1-gold-chain-110-link', chk:'2026-11-11'},
+      {v:'GritShift', p:82.03, url:'https://gritshift.com/products/rk-428-mxz1-gold-chain-110-link', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'RK 520 Max O Drive Chain - Gold - 120 Links', pid:'gritshift-rk-520-max-o-drive-chain-gold-120-links', tier:'midrange',
      prices:[
-      {v:'GritShift', p:118.34, url:'https://gritshift.com/products/rk-520-max-o-drive-chain-gold-120-links', chk:'2026-11-11'},
+      {v:'GritShift', p:118.34, url:'https://gritshift.com/products/rk-520-max-o-drive-chain-gold-120-links', chk:'2026-11-13', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'RK 520 Max Z RX-Ring Drive Chain, Black and Gold, 130 Link', pid:'gritshift-rk-520-max-z-rx-ring-drive-chain-black-gold-130-link', tier:'premium',
      prices:[
-      {v:'GritShift', p:254.99, url:'https://gritshift.com/products/rk-520-max-z-rx-ring-drive-chain-black-gold-130-link', chk:'2026-11-11'},
+      {v:'GritShift', p:254.99, url:'https://gritshift.com/products/rk-520-max-z-rx-ring-drive-chain-black-gold-130-link', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'RK Chain Natural 428 120 Link', pid:'gritshift-rk-chain-428-120-link-natural', tier:'budget',
      prices:[
-      {v:'GritShift', p:24.89, url:'https://gritshift.com/products/rk-chain-428-120-link-natural', chk:'2026-11-11'},
+      {v:'GritShift', p:24.89, url:'https://gritshift.com/products/rk-chain-428-120-link-natural', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'RK Heavy-Duty GB420MXZ Gold Chain 120-Link', pid:'gritshift-rk-heavy-duty-gb420mxz-chain', tier:'midrange',
      prices:[
-      {v:'GritShift', p:62.99, url:'https://gritshift.com/products/rk-heavy-duty-gb420mxz-chain', chk:'2026-11-11'},
+      {v:'GritShift', p:62.99, url:'https://gritshift.com/products/rk-heavy-duty-gb420mxz-chain', chk:'2026-11-13', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'RK M520H Heavy Duty Non-Sealed Drive Chain', pid:'gritshift-rk-m520h-heavy-duty-chain', tier:'midrange',
      prices:[
-      {v:'GritShift', p:53.62, url:'https://gritshift.com/products/rk-m520h-heavy-duty-chain', chk:'2026-11-11'},
+      {v:'GritShift', p:53.62, url:'https://gritshift.com/products/rk-m520h-heavy-duty-chain', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
@@ -9383,49 +9383,49 @@ var CATEGORIES = [
     },
     {name:'EBMX X9000 BC351 3.5" Display Case', pid:'gritshift-ebmx-display-case', tier:'midrange',
      prices:[
-      {v:'GritShift', p:59.99, url:'https://gritshift.com/products/ebmx-display-case', chk:'2026-11-11'},
+      {v:'GritShift', p:59.99, url:'https://gritshift.com/products/ebmx-display-case', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'EBMX X-9000 Bluetooth Module', pid:'gritshift-ebmx-x-9000-bluetooth-module', tier:'budget',
      prices:[
-      {v:'GritShift', p:49.99, url:'https://gritshift.com/products/ebmx-x-9000-bluetooth-module', chk:'2026-11-11'},
+      {v:'GritShift', p:49.99, url:'https://gritshift.com/products/ebmx-x-9000-bluetooth-module', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Ebmx', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'EBMX X-9000-V3 SW102 Color Display', pid:'gritshift-ebmx-x-9000-v3-sw102-color-display', tier:'midrange',
      prices:[
-      {v:'GritShift', p:84.99, url:'https://gritshift.com/products/ebmx-x-9000-v3-sw102-color-display', chk:'2026-11-11'},
+      {v:'GritShift', p:84.99, url:'https://gritshift.com/products/ebmx-x-9000-v3-sw102-color-display', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'EBMX X9000 BC351 3.5" Color Display Upgrade', pid:'gritshift-ebmx-x9000v2-3-5-display-upgrade', tier:'midrange',
      prices:[
-      {v:'GritShift', p:189.89, url:'https://gritshift.com/products/ebmx-x9000v2-3-5-display-upgrade', chk:'2026-11-11'},
+      {v:'GritShift', p:189.89, url:'https://gritshift.com/products/ebmx-x9000v2-3-5-display-upgrade', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Electro & Co  EMX 5 Pin  ignition, and power mode switch', pid:'gritshift-electro-co-emx-5-pin-ignition-and-power-mode-switch', tier:'budget',
      prices:[
-      {v:'GritShift', p:39.99, url:'https://gritshift.com/products/electro-co-emx-5-pin-ignition-and-power-mode-switch', chk:'2026-11-11'},
+      {v:'GritShift', p:39.99, url:'https://gritshift.com/products/electro-co-emx-5-pin-ignition-and-power-mode-switch', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Electro & Co Razor Display Kit for Ultimate, ETM 2.0 and Extreme Kits', pid:'gritshift-electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits', tier:'midrange',
      prices:[
-      {v:'GritShift', p:79.99, url:'https://gritshift.com/products/electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits', chk:'2026-11-11'},
+      {v:'GritShift', p:79.99, url:'https://gritshift.com/products/electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'ION High Voltage Fuse Kit & Replacement Fuses', pid:'gritshift-high-voltage-fuse-kit-replacement-fuses', tier:'budget',
      prices:[
-      {v:'GritShift', p:22.99, url:'https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses', chk:'2026-11-11'},
+      {v:'GritShift', p:22.99, url:'https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ion', stock:'in_stock', stockChk:'2026-11-11'
@@ -9887,14 +9887,14 @@ var CATEGORIES = [
     },
     {name:'Moose Racing Foot Peg Protectors for E-Motos - Black', pid:'gritshift-moose-racing-foot-peg-protectors-e-motos-black', tier:'budget',
      prices:[
-      {v:'GritShift', p:29.99, url:'https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black', chk:'2026-11-11'},
+      {v:'GritShift', p:29.99, url:'https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing Skid Plate Foam - 8 x 10 x 2 Inch', pid:'gritshift-moose-racing-skid-plate-foam-8-x-10-x-2-inch', tier:'budget',
      prices:[
-      {v:'GritShift', p:22.95, url:'https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch', chk:'2026-11-11'},
+      {v:'GritShift', p:22.95, url:'https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
@@ -10257,7 +10257,7 @@ var CATEGORIES = [
     {name:'Swingarm Bearing Kit | Talaria Sting | MX3 / MX4 / MX5', pid:'chargedcycleworks-swingarm-bearing-kit-talaria-sting-mx3-mx4-mx5', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:18, url:'https://chargedcycleworks.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4-mx5', chk:'2026-10-27'},
-      {v:'GritShift', p:18, url:'https://gritshift.com/products/dirtybike-swingarm-bearing-kit-talaria-sting', chk:'2026-10-27'},
+      {v:'GritShift', p:18, url:'https://gritshift.com/products/dirtybike-swingarm-bearing-kit-talaria-sting', chk:'2026-11-13', stock:'in_stock'},
       {v:'TB Electric Moto', p:18, url:'https://tbelectricmoto.com/products/swingarm-bearing-kit-talaria-sting-mx3-mx4', chk:'2026-10-27'},
      ],
      fits:["mx4", "mx5"], likely:[], no:[],
@@ -10793,86 +10793,86 @@ var CATEGORIES = [
     },
     {name:'Maxima Assembly Grease', pid:'gritshift-maxima-assembly-grease', tier:'budget',
      prices:[
-      {v:'GritShift', p:19.89, url:'https://gritshift.com/products/maxima-assembly-grease', chk:'2026-11-11'},
+      {v:'GritShift', p:19.89, url:'https://gritshift.com/products/maxima-assembly-grease', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing Stainless Safety Wire - .028 Inch x 120 ft', pid:'gritshift-moose-racing-stainless-safety-wire-028-inch-x-120-ft', tier:'budget',
      prices:[
-      {v:'GritShift', p:19.95, url:'https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft', chk:'2026-11-11'},
+      {v:'GritShift', p:19.95, url:'https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Moose Racing Stainless Safety Wire - .032 Inch x 75 ft', pid:'gritshift-moose-racing-stainless-safety-wire-032-inch-x-75-ft', tier:'budget',
      prices:[
-      {v:'GritShift', p:18.95, url:'https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft', chk:'2026-11-11'},
+      {v:'GritShift', p:18.95, url:'https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Muc-Off High-Pressure Quick Drying Degreaser', pid:'gritshift-muc-off-high-pressure-quick-drying-degreaser', tier:'budget',
      prices:[
-      {v:'GritShift', p:21.89, url:'https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser', chk:'2026-11-11'},
+      {v:'GritShift', p:21.89, url:'https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Muc-Off', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Muc-Off Motorcycle Protectant Vanilla Scented', pid:'gritshift-muc-off-motorcycle-protectant-vanilla-scented', tier:'budget',
      prices:[
-      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented', chk:'2026-11-11'},
+      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'MUC-OFF Bio Chain Degreaser', pid:'gritshift-muc-off-usa-degreaser-500-ml-aerosol-948us', tier:'budget',
      prices:[
-      {v:'GritShift', p:18.89, url:'https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us', chk:'2026-11-11'},
+      {v:'GritShift', p:18.89, url:'https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Muc-Off', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'MUC-OFF E-Bike Ultra Corrosion Defense', pid:'gritshift-muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us', tier:'budget',
      prices:[
-      {v:'GritShift', p:18.99, url:'https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us', chk:'2026-11-11'},
+      {v:'GritShift', p:18.99, url:'https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Muc-Off', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'MUC-OFF Matt Finish Spray Detailer', pid:'gritshift-muc-off-usa-matt-finish-detailer-250ml-20004us', tier:'budget',
      prices:[
-      {v:'GritShift', p:18.89, url:'https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us', chk:'2026-11-11'},
+      {v:'GritShift', p:18.89, url:'https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'MUC-OFF PTFE Protectant Spray', pid:'gritshift-muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us', tier:'budget',
      prices:[
-      {v:'GritShift', p:18.89, url:'https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us', chk:'2026-11-11'},
+      {v:'GritShift', p:18.89, url:'https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'MUC-OFF Spray-On Quick-Dry Degreaser', pid:'gritshift-muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us', tier:'budget',
      prices:[
-      {v:'GritShift', p:11.99, url:'https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us', chk:'2026-11-11'},
+      {v:'GritShift', p:11.99, url:'https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'MUC-OFF USA Silicone SC1 Shine', pid:'gritshift-muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us', tier:'budget',
      prices:[
-      {v:'GritShift', p:9.89, url:'https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us', chk:'2026-11-11'},
+      {v:'GritShift', p:9.89, url:'https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'MUC-OFF USA Speed Polish Spray', pid:'gritshift-muc-off-usa-speed-polish-400ml-aerosol-1143us', tier:'budget',
      prices:[
-      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us', chk:'2026-11-11'},
+      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Muc-Off', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Altis Delta Steering Roller Bearing | Upper or Lower Steering Stem Bearing | By Altis Powersports', pid:'revrides-altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports', tier:'budget',
      prices:[
@@ -11403,13 +11403,13 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter Grappler Stainless Steel Foot Peg Cleat Kit', pid:'gritshift-replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler', tier:'budget',
      prices:[
-      {v:'GritShift', p:28.99, url:'https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler', chk:'2026-11-11'},
+      {v:'GritShift', p:28.99, url:'https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Warp 9 Elite Foot Peg Sliders', pid:'gritshift-warp-9-elite-foot-peg-sliders', tier:'budget',
      prices:[
-      {v:'GritShift', p:21.89, url:'https://gritshift.com/products/warp-9-elite-foot-peg-sliders', chk:'2026-11-11'},
+      {v:'GritShift', p:21.89, url:'https://gritshift.com/products/warp-9-elite-foot-peg-sliders', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-11'
@@ -12039,13 +12039,13 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter Rift Headlight Mask', pid:'gritshift-heavy-hitter-rift-headlight-mask', tier:'budget',
      prices:[
-      {v:'GritShift', p:39.99, url:'https://gritshift.com/products/heavy-hitter-rift-headlight-mask', chk:'2026-11-11'},
+      {v:'GritShift', p:39.99, url:'https://gritshift.com/products/heavy-hitter-rift-headlight-mask', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'XTC Power Products  6″ Led License Plate Frame Universal', pid:'gritshift-xtc-power-products-6-led-license-plate-frame-universal', tier:'midrange',
      prices:[
-      {v:'GritShift', p:59.89, url:'https://gritshift.com/products/xtc-power-products-6-led-license-plate-frame-universal', chk:'2026-11-11'},
+      {v:'GritShift', p:59.89, url:'https://gritshift.com/products/xtc-power-products-6-led-license-plate-frame-universal', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
@@ -12128,7 +12128,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:14, url:'https://tbelectricmoto.com/products/dirtybike-swingarm-alignment-tool-for-sur-ron-ultra-bee', chk:'2026-10-27'},
       {v:'Howling Moto', p:14, url:'https://howlingmoto.com/products/swingarm-alignment-tool-surron-ultra-bee', chk:'2026-10-27'},
-      {v:'GritShift', p:14, url:'https://gritshift.com/products/dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee', chk:'2026-10-27'},
+      {v:'GritShift', p:14, url:'https://gritshift.com/products/dirtybike-swingarm-alignment-tool-sur-ron-ultra-bee', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:["ultrabee"], likely:[], no:[],
      badge:'Swingarm', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-dirtybike-swingarm-alignment-tool-for-sur-ron-ultra-bee.webp'
@@ -13089,27 +13089,27 @@ var CATEGORIES = [
     },
     {name:'Pivotrax Cyber 80/100-19 Street Tire', pid:'gritshift-80-100-19-street-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:99.99, url:'https://gritshift.com/products/80-100-19-street-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:99.99, url:'https://gritshift.com/products/80-100-19-street-tire', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:[], likely:['supermach-sm01'], no:[],
-     badge:'Pivotrax', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Pivotrax', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'AMS Sand Snake MX Sand Only Rear Paddle Tire', pid:'gritshift-ams-sand-snake-mx-rear-paddle-tire', tier:'budget',
      prices:[
-      {v:'GritShift', p:47.95, url:'https://gritshift.com/products/ams-sand-snake-mx-rear-paddle-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:47.95, url:'https://gritshift.com/products/ams-sand-snake-mx-rear-paddle-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Bridgestone Battlecross X10 Sand and Mud Tire (80/100-21 front)', pid:'gritshift-bridgestone-battlecross-x10-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:133.22, url:'https://gritshift.com/products/bridgestone-battlecross-x10-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:133.22, url:'https://gritshift.com/products/bridgestone-battlecross-x10-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Bridgestone Battlecross X30 Tire (80/100-21 front)', pid:'gritshift-bridgestone-battlecross-x30-tire-80-100-21', tier:'midrange',
      prices:[
-      {v:'GritShift', p:125.27, url:'https://gritshift.com/products/bridgestone-battlecross-x30f-70-100-19', chk:'2026-11-11'},
+      {v:'GritShift', p:125.27, url:'https://gritshift.com/products/bridgestone-battlecross-x30f-70-100-19', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-11'
@@ -13118,266 +13118,266 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:63.99, url:'https://chargedcycleworks.com/products/bridgestone-battlecross-x30-rear-tire-90-100x16', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'GritShift', p:49.99, url:'https://gritshift.com/products/bridgestone-battlecross-x30f-70-100-19', chk:'2026-11-11'},
+      {v:'GritShift', p:49.99, url:'https://gritshift.com/products/bridgestone-battlecross-x30f-70-100-19', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Bridgestone Battlecross X31 Intermediate Motocross Tire (80/100-21 front)', pid:'gritshift-bridgestone-battlecross-x31-front-tire-80-100-21', tier:'midrange',
      prices:[
-      {v:'GritShift', p:138.99, url:'https://gritshift.com/products/bridgestone-battlecross-x31-front-tire-80-100-21', chk:'2026-11-11'},
+      {v:'GritShift', p:138.99, url:'https://gritshift.com/products/bridgestone-battlecross-x31-front-tire-80-100-21', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Bridgestone Battlecross X31 Intermediate Motocross Tire (90/100-16 rear)', pid:'gritshift-bridgestone-battlecross-x31-intermediate-motocross-tire-90-100-16', tier:'midrange',
      prices:[
-      {v:'GritShift', p:102.99, url:'https://gritshift.com/products/bridgestone-battlecross-x31-front-tire-80-100-21', chk:'2026-11-11'},
+      {v:'GritShift', p:102.99, url:'https://gritshift.com/products/bridgestone-battlecross-x31-front-tire-80-100-21', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax AT82 Rugged Off-Road Racing Tire (120/90-18 rear)', pid:'gritshift-dunlop-geomax-at82-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:143.95, url:'https://gritshift.com/products/dunlop-geomax-at82-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:143.95, url:'https://gritshift.com/products/dunlop-geomax-at82-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['arctic-xd'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX14 Rear Sand and Mud Tire', pid:'gritshift-dunlop-geomax-mx14-rear-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:80.95, url:'https://gritshift.com/products/dunlop-geomax-mx14-rear-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:80.95, url:'https://gritshift.com/products/dunlop-geomax-mx14-rear-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX34 70/100-17 Front Tire (70/100-17 front)', pid:'gritshift-dunlop-geomax-mx34-70-100-17-front-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:72.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-70-100-17-front-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:72.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-70-100-17-front-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX34 70/100-19 Front Tire (70/100-19 front)', pid:'gritshift-dunlop-geomax-mx34-70-100-19-front-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:84.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-70-100-19-front-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:84.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-70-100-19-front-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX34 80/100-21 Front Tire (80/100-21 front)', pid:'gritshift-dunlop-geomax-mx34-80-100-21-front-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:144.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-80-100-21-front-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:144.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-80-100-21-front-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX34 90/100-14 Rear Tire (90/100-14 rear)', pid:'gritshift-dunlop-geomax-mx34-90-100-14-rear-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:84.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-90-100-14-rear-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:84.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-90-100-14-rear-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX34 90/100-16 Rear Tire (90/100-16 rear)', pid:'gritshift-dunlop-geomax-mx34-90-100-16-rear', tier:'midrange',
      prices:[
-      {v:'GritShift', p:86.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-90-100-16-rear', chk:'2026-11-11'},
+      {v:'GritShift', p:86.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-90-100-16-rear', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Dunlop', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Dunlop Geomax MX53 Tire (70/100-17 front)', pid:'gritshift-dunlop-geomax-mx53-70-100-17', tier:'midrange',
      prices:[
-      {v:'GritShift', p:63.89, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-11'},
+      {v:'GritShift', p:63.89, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX53 Tire (70/100-19 front)', pid:'gritshift-dunlop-geomax-mx53-tire-70-100-19', tier:'midrange',
      prices:[
-      {v:'GritShift', p:74.95, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-11'},
+      {v:'GritShift', p:74.95, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX53 Tire (80/100-21 front)', pid:'gritshift-dunlop-geomax-mx53-tire-80-100-21', tier:'midrange',
      prices:[
-      {v:'GritShift', p:149.89, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-11'},
+      {v:'GritShift', p:149.89, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX53 Tire (90/100-14 rear)', pid:'gritshift-dunlop-geomax-mx53-tire-90-100-14', tier:'midrange',
      prices:[
-      {v:'GritShift', p:74.99, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-11'},
+      {v:'GritShift', p:74.99, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Dunlop Geomax MX53 Tire (90/100-16 rear)', pid:'gritshift-dunlop-geomax-mx53-tire-90-100-16', tier:'midrange',
      prices:[
-      {v:'GritShift', p:88.99, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-11'},
+      {v:'GritShift', p:88.99, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'IRC iX-09 Gekkota Gummy Extreme Enduro Tire (80/100-21 front)', pid:'gritshift-irc-ix-09-gekkota-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:138.95, url:'https://gritshift.com/products/irc-ix-09-gekkota-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:138.95, url:'https://gritshift.com/products/irc-ix-09-gekkota-tire', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Irc', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Irc', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Kenda K774 Ibex Super Soft Extreme Enduro Tire (80/100-21 front)', pid:'gritshift-kenda-k774-ibex-front-tire-80-100-21', tier:'midrange',
      prices:[
-      {v:'GritShift', p:96.99, url:'https://gritshift.com/products/kenda-k774-ibex-front-tire-80-100-21', chk:'2026-11-11'},
+      {v:'GritShift', p:96.99, url:'https://gritshift.com/products/kenda-k774-ibex-front-tire-80-100-21', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Kenda', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Kenda K774 Ibex Super Soft Extreme Enduro Tire (90/100-14 rear)', pid:'gritshift-kenda-k774-ibex-super-soft-extreme-enduro-tire-90-100-14', tier:'midrange',
      prices:[
-      {v:'GritShift', p:71.95, url:'https://gritshift.com/products/kenda-k774-ibex-front-tire-80-100-21', chk:'2026-11-11'},
+      {v:'GritShift', p:71.95, url:'https://gritshift.com/products/kenda-k774-ibex-front-tire-80-100-21', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
      badge:'Kenda', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Kenda K774 Ibex Super Soft Extreme Enduro Tire (90/100-16 rear)', pid:'gritshift-kenda-k774-ibex-super-soft-extreme-enduro-tire-90-100-16', tier:'midrange',
      prices:[
-      {v:'GritShift', p:78.99, url:'https://gritshift.com/products/kenda-k774-ibex-front-tire-80-100-21', chk:'2026-11-11'},
+      {v:'GritShift', p:78.99, url:'https://gritshift.com/products/kenda-k774-ibex-front-tire-80-100-21', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Kenda', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Kenda K778 Knarly 18 Inch Rear Enduro Tire (120/90-18 rear)', pid:'gritshift-kenda-k778-knarly-rear-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:126.95, url:'https://gritshift.com/products/kenda-k778-knarly-rear-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:126.95, url:'https://gritshift.com/products/kenda-k778-knarly-rear-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['arctic-xd'], likely:[], no:[],
      badge:'Kenda', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Maxxis Maxxcross IT Tire (70/100-17 front)', pid:'gritshift-maxxis-m7304-maxxcross-i-t-70-100-17', tier:'budget',
      prices:[
-      {v:'GritShift', p:48.32, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-11'},
+      {v:'GritShift', p:48.32, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Maxxis', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Maxxis Maxxcross SI Tire (70/100-19 front)', pid:'gritshift-maxxis-m7311-maxxcross-si-70-100-19', tier:'midrange',
      prices:[
-      {v:'GritShift', p:76.89, url:'https://gritshift.com/products/maxxis-m7311-maxxcross-si-70-100-19', chk:'2026-11-11'},
+      {v:'GritShift', p:76.89, url:'https://gritshift.com/products/maxxis-m7311-maxxcross-si-70-100-19', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Maxxis Maxxcross IT Tire (70/100-19 front)', pid:'gritshift-maxxis-maxxcross-it-tire-70-100-19', tier:'midrange',
      prices:[
-      {v:'GritShift', p:76.89, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-11'},
+      {v:'GritShift', p:76.89, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Maxxis', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Maxxis Maxxcross IT Tire (80/100-21 front)', pid:'gritshift-maxxis-maxxcross-it-tire-80-100-21', tier:'midrange',
      prices:[
-      {v:'GritShift', p:159.89, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-11'},
+      {v:'GritShift', p:159.89, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Maxxis', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Maxxis Maxxcross IT Tire (90/100-16 rear)', pid:'gritshift-maxxis-maxxcross-it-tire-90-100-16', tier:'midrange',
      prices:[
-      {v:'GritShift', p:98.99, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-11'},
+      {v:'GritShift', p:98.99, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Maxxis', stock:'out_of_stock', stockChk:'2026-11-13'
     },
     {name:'Maxxis Maxxcross SI Tire (80/100-21 front)', pid:'gritshift-maxxis-maxxcross-si-tire-80-100-21', tier:'midrange',
      prices:[
-      {v:'GritShift', p:149.89, url:'https://gritshift.com/products/maxxis-m7311-maxxcross-si-70-100-19', chk:'2026-11-11'},
+      {v:'GritShift', p:149.89, url:'https://gritshift.com/products/maxxis-m7311-maxxcross-si-70-100-19', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Maxxis Maxxcross SI Tire (90/100-16 rear)', pid:'gritshift-maxxis-maxxcross-si-tire-90-100-16', tier:'midrange',
      prices:[
-      {v:'GritShift', p:86.89, url:'https://gritshift.com/products/maxxis-m7311-maxxcross-si-70-100-19', chk:'2026-11-11'},
+      {v:'GritShift', p:86.89, url:'https://gritshift.com/products/maxxis-m7311-maxxcross-si-70-100-19', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Michelin StarCross 5 Soft Front Motocross Tire', pid:'gritshift-michelin-starcross-5-soft-front-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:79.49, url:'https://gritshift.com/products/michelin-starcross-5-soft-front-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:79.49, url:'https://gritshift.com/products/michelin-starcross-5-soft-front-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
      badge:'Michelin', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Michelin StarCross 5 Soft Rear Motocross Tire', pid:'gritshift-michelin-starcross-5-soft-rear-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:88.95, url:'https://gritshift.com/products/michelin-starcross-5-soft-rear-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:88.95, url:'https://gritshift.com/products/michelin-starcross-5-soft-rear-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
      badge:'Michelin', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Michelin StarCross 6 Medium Soft Motocross Tire', pid:'gritshift-michelin-starcross-6-medium-soft-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:132.45, url:'https://gritshift.com/products/michelin-starcross-6-medium-soft-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:132.45, url:'https://gritshift.com/products/michelin-starcross-6-medium-soft-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Michelin', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Michelin StarCross 6 Sand Motocross Tire (80/100-21 front)', pid:'gritshift-michelin-starcross-6-sand-mx-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:132.45, url:'https://gritshift.com/products/michelin-starcross-6-sand-mx-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:132.45, url:'https://gritshift.com/products/michelin-starcross-6-sand-mx-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Michelin', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Mitas Terra Force-EX MH Super Light Enduro Tire (120/90-18 rear)', pid:'gritshift-mitas-terra-force-ex-mh-super-light-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:144.99, url:'https://gritshift.com/products/mitas-terra-force-ex-mh-super-light-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:144.99, url:'https://gritshift.com/products/mitas-terra-force-ex-mh-super-light-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['arctic-xd'], likely:[], no:[],
      badge:'Mitas', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Mitas Terra Force-EX MH Super Soft Rear Enduro Tire', pid:'gritshift-mitas-terra-force-ex-mh-super-soft-rear-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:162.99, url:'https://gritshift.com/products/mitas-terra-force-ex-mh-super-soft-rear-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:162.99, url:'https://gritshift.com/products/mitas-terra-force-ex-mh-super-soft-rear-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['arctic-xd','supermach-sm62'], likely:[], no:[],
      badge:'Mitas', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Mitas Terra Force-EX MH Super Enduro Tire', pid:'gritshift-mitas-terra-force-ex-mh-super-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:109.99, url:'https://gritshift.com/products/mitas-terra-force-ex-mh-super-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:109.99, url:'https://gritshift.com/products/mitas-terra-force-ex-mh-super-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
      badge:'Mitas', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Mitas Terra Force-EX SM Super Light Enduro Tire', pid:'gritshift-mitas-terra-force-ex-sm-super-light-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:114.99, url:'https://gritshift.com/products/mitas-terra-force-ex-sm-super-light-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:114.99, url:'https://gritshift.com/products/mitas-terra-force-ex-sm-super-light-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
      badge:'Mitas', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Pirelli Scorpion MX Soft Rear Mud and Sand Tire', pid:'gritshift-pirelli-scorpion-mx-soft-rear-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:146.95, url:'https://gritshift.com/products/pirelli-scorpion-mx-soft-rear-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:146.95, url:'https://gritshift.com/products/pirelli-scorpion-mx-soft-rear-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['arctic-xd','supermach-sm62'], likely:[], no:[],
      badge:'Pirelli', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Pirelli Scorpion MX32 Mid Soft Motocross Tire', pid:'gritshift-pirelli-scorpion-mx32-mid-soft-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:87.02, url:'https://gritshift.com/products/pirelli-scorpion-mx32-mid-soft-tire', chk:'2026-11-11'},
+      {v:'GritShift', p:87.02, url:'https://gritshift.com/products/pirelli-scorpion-mx32-mid-soft-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-delta','altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
      badge:'Pirelli', stock:'in_stock', stockChk:'2026-11-11'
     },
     {name:'Tusk Ground Wire E-Moto Performance Tire (70/100-19 front)', pid:'gritshift-tursk-ground-wire-e-motorcycle', tier:'midrange',
      prices:[
-      {v:'GritShift', p:68.99, url:'https://gritshift.com/products/tursk-ground-wire-e-motorcycle', chk:'2026-11-11'},
+      {v:'GritShift', p:68.99, url:'https://gritshift.com/products/tursk-ground-wire-e-motorcycle', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-11-11'
@@ -14305,7 +14305,7 @@ var CATEGORIES = [
     {name:'Warp9 eMoto Handguard Titanium Bolt Kit', pid:'titanium-warp9-e-moto-handguard-titanium-bolt-kit', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:22, url:'https://chargedcycleworks.com/products/warp9-e-moto-handguard-titanium-bolt-kit', chk:'2026-11-05'},
-      {v:'GritShift', p:22.99, url:'https://gritshift.com/products/warp-9-e-moto-handguard-titanium-bolt-kit', chk:'2026-11-11'},
+      {v:'GritShift', p:22.99, url:'https://gritshift.com/products/warp-9-e-moto-handguard-titanium-bolt-kit', chk:'2026-11-13', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','bonnell-805rx','rawrr-mantis-72v','rawrr-mantis-x','rtr-alpha','rtr-lite','rtr-sport','stark-vargex','ultrabee-21kw','zero-xe'], likely:['altis-sigma','rawrr-mantis-mini-r','rerode-rx'], no:[],
