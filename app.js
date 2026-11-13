@@ -25,12 +25,34 @@ function bikeById(id){ return BIKES.find(function(b){return b.id===id;}); }
 function catById(id){ return CATEGORIES.find(function(c){return c.id===id;}); }
 function catOption(cat){ return cat.options[state.sel[cat.id]||0] || cat.options[0]; }
 
-/* primary vendor entry for an option (affiliate partner first), or null */
+/* primary vendor entry for an option. Prefer an in-stock store when any
+   offer has a verified stock flag; then affiliate partner; then lowest price. */
 function best(opt){
   if(!opt.prices || !opt.prices.length) return null;
-  var af = opt.prices.filter(function(p){ return p.aff; });
+  var priced = opt.prices.filter(function(p){ return p.p != null; });
+  var instock = priced.filter(function(p){ return p.stock==='in_stock'; });
+  var pool = instock.length ? instock : priced;
+  var af = pool.filter(function(p){ return p.aff; });
   if(af.length) return af[0]; /* affiliate partner link is primary */
-  return opt.prices.reduce(function(a,b){ return b.p < a.p ? b : a; });
+  if(!pool.length) return opt.prices[0];
+  return pool.reduce(function(a,b){ return b.p < a.p ? b : a; });
+}
+
+/* Don't label a part "out of stock" unless the part-level flag was checked
+   within STOCK_RECENT_DAYS. The flag itself is in_stock if any linked store
+   had the part at last check. Stale out-of-stock shows as "stock: check". */
+var STOCK_RECENT_DAYS = 14;
+function stockAgeDays(chk){
+  if(!chk) return Infinity;
+  var p = Date.parse(chk);
+  if(isNaN(p)) return Infinity;
+  return (Date.now() - p) / 86400000;
+}
+function effectiveStock(o){
+  if(!o) return '';
+  var s = o.stock || '';
+  if(s==='out_of_stock' && stockAgeDays(o.stockChk) > STOCK_RECENT_DAYS) return 'verify';
+  return s;
 }
 function optPrice(opt){ var b = best(opt); return b ? b.p : 0; }
 
@@ -554,9 +576,10 @@ function renderPick(c, b, host){
       ws.textContent = 'part: '+(co.wtKg*2.20462).toFixed(1)+' lb';
       pl.appendChild(ws);
     }
-    if(co.stock){
-      var sb = document.createElement('span'); sb.className='tier stock-'+co.stock.replace(/_/g,'-');
-      sb.textContent = (co.stock==='verify' ? 'stock: check' : co.stock.replace(/_/g,' '))+(co.stockChk ? ' \u00b7 checked '+co.stockChk : '');
+    var stk = effectiveStock(co);
+    if(stk){
+      var sb = document.createElement('span'); sb.className='tier stock-'+stk.replace(/_/g,'-');
+      sb.textContent = (stk==='verify' ? 'stock: check' : stk.replace(/_/g,' '))+(co.stockChk ? ' \u00b7 checked '+co.stockChk : '');
       pl.appendChild(sb);
     }
     row.appendChild(pl);
@@ -967,7 +990,7 @@ function guideCard(host, gd, r){
     var n = document.createElement('span'); n.className='gp-name';
     var sm = document.createElement('small'); sm.textContent=x.cat.name; n.appendChild(sm);
     n.appendChild(document.createTextNode(x.opt.name));
-    if(x.opt.stock==='out_of_stock'){ var so=document.createElement('em'); so.className='gp-oos'; so.textContent=' \u00b7 out of stock at last check'; n.appendChild(so); }
+    if(effectiveStock(x.opt)==='out_of_stock'){ var so=document.createElement('em'); so.className='gp-oos'; so.textContent=' \u00b7 out of stock at last check'; n.appendChild(so); }
     var pr = document.createElement('span'); pr.className='gp-price'; pr.textContent=money(x.bp.p);
     if(x.bp.url){ var pa=document.createElement('a'); pa.className='rb'; pa.href=x.bp.url; pa.target='_blank';
       pa.rel='noopener'+(x.bp.aff?' sponsored':''); if(x.bp.aff) pa.className+=' rb-voro'; pa.textContent='Buy at '+x.bp.v; var bw=document.createElement('div'); bw.className='gp-buy'; bw.appendChild(pa); n.appendChild(bw); }
@@ -1355,9 +1378,10 @@ initSizeChips('startSizeChips');
     var chip = document.createElement('span'); chip.className='bsum-fit fit-'+fr.status;
     chip.textContent=FIT_ICON[fr.status]+' '+FIT_LABEL[fr.status]; chip.title=fr.reasons[0];
     var meta = document.createElement('div'); meta.className='feat-meta'; meta.appendChild(chip);
-    if(r.o.stock==='out_of_stock' || r.o.stock==='unknown' || !r.o.stock){
+    var fst = effectiveStock(r.o);
+    if(fst==='out_of_stock' || fst==='unknown' || fst==='verify' || !fst){
       var st=document.createElement('em'); st.className='gp-oos';
-      st.textContent = r.o.stock==='out_of_stock' ? 'out of stock at last check' : 'stock unknown'; meta.appendChild(st);
+      st.textContent = fst==='out_of_stock' ? 'out of stock at last check' : (fst==='verify' ? 'stock: check' : 'stock unknown'); meta.appendChild(st);
     }
     n.appendChild(meta);
     var pr = document.createElement('span'); pr.className='gp-price';

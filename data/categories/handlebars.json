@@ -2888,14 +2888,15 @@
       "category": "handlebar",
       "id": "chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars",
       "is_upgrade": true,
-      "last_checked": "2026-11-11",
+      "last_checked": "2026-11-13",
       "name": "Heavy Hitter Direct Mount Stem Riser 2\" Rise 31.8mm Bars",
       "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
       "power_change_kw": null,
       "price_usd": 64.89,
       "source_urls": [
-        "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars"
-      ],
+        "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars",
+      "https://gritshift.com/products/direct-mount-stem-riser-2-inch"
+    ],
       "stock_status": "in_stock",
       "tier": "midrange",
       "vendor": "Charged Cycle Works",
@@ -2904,6 +2905,11 @@
           "vendor": "Charged Cycle Works",
           "price_usd": 64.89,
           "buy_url": "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/direct-mount-stem-riser-2-inch",
+          "price_usd": 64.89,
+          "vendor": "GritShift"
         }
       ],
       "weight_kg": null,
@@ -2917,14 +2923,15 @@
       "category": "handlebar",
       "id": "chargedcycleworks-heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp",
       "is_upgrade": true,
-      "last_checked": "2026-11-11",
+      "last_checked": "2026-11-13",
       "name": "Heavy Hitter MX Direct Mount Riser Fat Bar 1 1/8\" Clamp",
       "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
       "power_change_kw": null,
       "price_usd": 79.99,
       "source_urls": [
-        "https://chargedcycleworks.com/products/heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp"
-      ],
+        "https://chargedcycleworks.com/products/heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp",
+      "https://gritshift.com/products/gritshift-heavy-hitter-mx-direct-mount-riser"
+    ],
       "stock_status": "in_stock",
       "tier": "midrange",
       "vendor": "Charged Cycle Works",
@@ -2933,6 +2940,11 @@
           "vendor": "Charged Cycle Works",
           "price_usd": 79.99,
           "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/gritshift-heavy-hitter-mx-direct-mount-riser",
+          "price_usd": 79.99,
+          "vendor": "GritShift"
         }
       ],
       "weight_kg": null,

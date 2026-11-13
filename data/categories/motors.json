@@ -1331,7 +1331,7 @@
       "category": "motor",
       "id": "ebmx-xlb-60",
       "is_upgrade": true,
-      "last_checked": "2026-10-12",
+      "last_checked": "2026-11-13",
       "name": "EBMX XLB-60 Motor",
       "notes": "Needs X-9000 controller + high-output battery. XLB-60 RACE (air-cooled): 50kW peak, 24kW continuous for 2m20s, 95KV, NJDC 605 encoder, 10-pole/12-slot dual-Y. EBMX lists Light Bee, Talaria XXX and E Ride Pro SS fitment (harness adapters required for Talaria XXX / E Ride Pro SS). Earlier research cited 42kW peak at 92V/1200A.",
       "power_change_kw": 41,
@@ -1339,9 +1339,10 @@
       "source_urls": [
         "https://parts.electriccyclerider.com/products/ebmx-xlb-60-race-motor-kit",
         "https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor",
-        "https://www.ebmx.com/xlb-60-race"
-      ],
-      "stock_status": "verify",
+        "https://www.ebmx.com/xlb-60-race",
+      "https://gritshift.com/products/ebmx-sur-ron-lbx-xlb-60-core-motor-upgrade"
+    ],
+      "stock_status": "in_stock",
       "tier": "premium",
       "vendor": "TB Electric Moto",
       "vendors": [
@@ -1354,6 +1355,11 @@
           "buy_url": "https://parts.electriccyclerider.com/products/ebmx-xlb-60-race-motor-kit",
           "price_usd": 1249.99,
           "vendor": "Electric Cycle Rider"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/ebmx-sur-ron-lbx-xlb-60-core-motor-upgrade",
+          "price_usd": 999.89,
+          "vendor": "GritShift"
         }
       ],
       "weight_kg": null,
@@ -1414,6 +1420,11 @@
           "vendor": "TB Electric Moto",
           "price_usd": 1034.1,
           "buy_url": "https://tbelectricmoto.com/products/ebmx-xta-60-upgraded-talaria-motor"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/ebmx-talaria-sting-mx4-xlb-60-core-motor-upgrade",
+          "price_usd": 999.99,
+          "vendor": "GritShift"
         }
       ],
       "stock_status": "in_stock",
@@ -1426,9 +1437,10 @@
       "source_urls": [
         "https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit",
         "https://tbelectricmoto.com/products/ebmx-xta-60-upgraded-talaria-motor",
-        "https://www.ebmx.com/xta-60"
-      ],
-      "last_checked": "2026-10-12",
+        "https://www.ebmx.com/xta-60",
+      "https://gritshift.com/products/ebmx-talaria-sting-mx4-xlb-60-core-motor-upgrade"
+    ],
+      "last_checked": "2026-11-13",
       "motor_peak_kw": 40,
       "weight_delta_kg": null,
       "image": "img/parts/ebmx-xta-60.webp"
@@ -1551,6 +1563,11 @@
           "vendor": "TB Electric Moto",
           "price_usd": 1399.0,
           "buy_url": "https://tbelectricmoto.com/products/ventus-ryuga-81kw-ultra-bee"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/ventus-vtb-ryuga-81kw-motor-upgrade",
+          "price_usd": 1399.99,
+          "vendor": "GritShift"
         }
       ],
       "stock_status": "in_stock",
@@ -1562,9 +1579,10 @@
       "notes": "Requires VTB AETOS V9600 controller for 81+ kW. 114 Nm. Direct plug-and-play for Ultra Bee.",
       "source_urls": [
         "https://chargedcycleworks.com/products/ventus-ryuga-81kw-motor",
-        "https://tbelectricmoto.com/products/ventus-ryuga-81kw-ultra-bee"
-      ],
-      "last_checked": "2026-10-12",
+        "https://tbelectricmoto.com/products/ventus-ryuga-81kw-ultra-bee",
+      "https://gritshift.com/products/ventus-vtb-ryuga-81kw-motor-upgrade"
+    ],
+      "last_checked": "2026-11-13",
       "weight_delta_kg": null,
       "image": "img/parts/ventus-ryuga-81kw.webp"
     },
@@ -1831,17 +1849,23 @@
       "buy_url": "https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled",
       "tier": "midrange",
       "is_upgrade": true,
-      "stock_status": "out_of_stock",
+      "stock_status": "in_stock",
       "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled",
+      "https://gritshift.com/products/ebmx-xlb-60race-motor-upgrade"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 1249.0,
           "buy_url": "https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/ebmx-xlb-60race-motor-upgrade",
+          "price_usd": 1249.89,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-ebmx-xlb-60-race-motor-kit-air-cooled.webp"
@@ -1909,14 +1933,20 @@
       "stock_status": "in_stock",
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/kyvex-surron-ultra-bee-compatible-billet-motor-cover"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/kyvex-surron-ultra-bee-compatible-billet-motor-cover",
+      "https://gritshift.com/products/kyvex-billet-aluminum-motor-cover-sur-ron-ultra-bee"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 80.0,
           "buy_url": "https://chargedcycleworks.com/products/kyvex-surron-ultra-bee-compatible-billet-motor-cover"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/kyvex-billet-aluminum-motor-cover-sur-ron-ultra-bee",
+          "price_usd": 80,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-kyvex-surron-ultra-bee-compatible-billet-motor-cover.webp"
@@ -2045,6 +2075,11 @@
           "vendor": "Electro & Co",
           "price_usd": 299.0,
           "buy_url": "https://electroandcompany.com/products/etm-rtr-high-torque-mod-motor"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/etm-rtr-high-torque-mod-motor-upgrade",
+          "price_usd": 299.99,
+          "vendor": "GritShift"
         }
       ],
       "stock_status": "in_stock",
@@ -2055,9 +2090,10 @@
       "weight_kg": null,
       "notes": "Drop-in torque upgrade for the ETM RTR Lite on the stock controller; #35 chain only. Does not increase kW output — increases torque per amp. E&Co fitment lists the ETM RTR Lite.",
       "source_urls": [
-        "https://electroandcompany.com/products/etm-rtr-high-torque-mod-motor"
-      ],
-      "last_checked": "2026-11-11",
+        "https://electroandcompany.com/products/etm-rtr-high-torque-mod-motor",
+      "https://gritshift.com/products/etm-rtr-high-torque-mod-motor-upgrade"
+    ],
+      "last_checked": "2026-11-13",
       "motor_peak_kw": 5,
       "weight_delta_kg": null,
       "image": null
@@ -2075,6 +2111,11 @@
           "vendor": "Electro & Co",
           "price_usd": 449.0,
           "buy_url": "https://electroandcompany.com/products/rtr-revolver-motor-420-chain-conversion-kit"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/electro-co-revolver-alpha-motor-420-chain-conversion-kit-etm-rtr",
+          "price_usd": 449.99,
+          "vendor": "GritShift"
         }
       ],
       "stock_status": "in_stock",
@@ -2085,9 +2126,10 @@
       "weight_kg": null,
       "notes": "Alpha 70H Revolver motor + 420 chain conversion, bolts straight onto the 2025 ETM RTR or RTR Lite; works with the stock controller. $449 for 12in rear wheel, $469 for 14in rear wheel.",
       "source_urls": [
-        "https://electroandcompany.com/products/rtr-revolver-motor-420-chain-conversion-kit"
-      ],
-      "last_checked": "2026-11-11",
+        "https://electroandcompany.com/products/rtr-revolver-motor-420-chain-conversion-kit",
+      "https://gritshift.com/products/electro-co-revolver-alpha-motor-420-chain-conversion-kit-etm-rtr"
+    ],
+      "last_checked": "2026-11-13",
       "motor_peak_kw": 18,
       "weight_delta_kg": null,
       "image": null

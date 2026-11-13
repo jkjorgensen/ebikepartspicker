@@ -8544,9 +8544,10 @@
       "source_urls": [
         "https://arctic-leopard-usa.com/products/xd-pro",
         "https://pinnedelectric.com/pages/rx",
-        "https://warp9racing.com/products/dunlop-geomax-at82-tire"
-      ],
-      "last_checked": "2026-11-11",
+        "https://warp9racing.com/products/dunlop-geomax-at82-tire",
+      "https://gritshift.com/products/dunlop-geomax-at82-tire"
+    ],
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
@@ -8564,6 +8565,11 @@
           "vendor": "Warp 9 Racing",
           "price_usd": 116.99,
           "buy_url": "https://warp9racing.com/products/dunlop-geomax-at82-tire"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/dunlop-geomax-at82-tire",
+          "price_usd": 143.95,
+          "vendor": "GritShift"
         }
       ]
     },

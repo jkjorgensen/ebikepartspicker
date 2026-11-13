@@ -2,16 +2,16 @@
    stamped from V in scripts/build_seo.py on every regen. Do NOT bump by hand:
    a new V changes these bytes, the browser installs the new worker, and
    activate() purges the old cache. */
-const CACHE = 'ebpp-4.16.4-m6';
+const CACHE = 'ebpp-4.16.5';
 
 /* App shell: precached on install. data.js is deliberately NOT here —
    the catalog and prices change often, so it is always fetched fresh
    (see the network-first rule below) and never served stale. */
 const APP_SHELL = [
   '/',
- '/styles.css?v=4.16.4',
-  '/app.js?v=4.16.4',
-  '/ux.js?v=4.16.4',
+ '/styles.css?v=4.16.5',
+  '/app.js?v=4.16.5',
+  '/ux.js?v=4.16.4-m6',
   '/img/icons/icon-192.png',
   '/img/icons/icon-512.png'
 ];

@@ -545,14 +545,20 @@
       "stock_status": "in_stock",
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage",
+      "https://gritshift.com/products/heavy-hitter-ultra-bee-linkage"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 99.89,
           "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/heavy-hitter-ultra-bee-linkage",
+          "price_usd": 99.89,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-heavy-hitter-ultra-bee-linkage.webp"
@@ -777,6 +783,11 @@
           "vendor": "Charged Cycle Works",
           "price_usd": 169.99,
           "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/heavy-hitter-titanium-linkage-upgrade",
+          "price_usd": 169.99,
+          "vendor": "GritShift"
         }
       ],
       "tier": "midrange",
@@ -784,9 +795,10 @@
       "stock_status": "in_stock",
       "notes": "CCW fitment names 79Bike Falcon Pro / GT (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade",
       "source_urls": [
-        "https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade"
-      ],
-      "last_checked": "2026-11-11",
+        "https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade",
+      "https://gritshift.com/products/heavy-hitter-titanium-linkage-upgrade"
+    ],
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "weight_delta_kg": null,

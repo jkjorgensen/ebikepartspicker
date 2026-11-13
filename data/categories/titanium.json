@@ -320,6 +320,11 @@
           "vendor": "Warp 9 Racing",
           "price_usd": 69.0,
           "buy_url": "https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/warp-9-bar-mount-titanium-bolt-kit",
+          "price_usd": 69.89,
+          "vendor": "GritShift"
         }
       ],
       "stock_status": "in_stock",
@@ -327,9 +332,10 @@
       "power_change_kw": 0,
       "is_upgrade": true,
       "source_urls": [
-        "https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit"
-      ],
-      "last_checked": "2026-10-12",
+        "https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit",
+      "https://gritshift.com/products/warp-9-bar-mount-titanium-bolt-kit"
+    ],
+      "last_checked": "2026-11-13",
       "notes": "Burnt blue titanium bolts for Warp 9 Transformer direct bar mounts (high and low positions). Bracket not included.",
       "variant": null,
       "weight_delta_kg": null,
