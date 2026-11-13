@@ -29,6 +29,7 @@ Usage (from the repo root, or with this path):
           && python3 scripts/build_upgrades_vs.py
 
   python3 tools/stock_check.py --pids ebmx-xlb-60,ventus-ryuga-81kw
+  python3 tools/stock_check.py --hosts gritshift.com
   python3 tools/stock_check.py --limit 50
   python3 tools/stock_check.py --report /tmp/stock_check_report.json
   python3 tools/stock_check.py --workers 6 --delay 0.15
@@ -115,6 +116,43 @@ OUT_STOCK_TOKENS = (
 )
 
 
+def shopify_catalog(host, delay=0.25):
+    """Fetch /products.json pages for a Shopify host. Returns {handle: available}."""
+    host = host.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    out = {}
+    page = 1
+    while page <= 40:
+        url = f"https://{host}/products.json?limit=250&page={page}"
+        try:
+            code, body = fetch(url, delay)
+        except Exception as e:
+            log(f"  catalog {host} page {page}: {e}")
+            break
+        if code != 200:
+            log(f"  catalog {host} page {page}: HTTP {code}")
+            break
+        try:
+            data = json.loads(body)
+        except Exception:
+            break
+        products = data.get("products") or []
+        if not products:
+            break
+        for p in products:
+            handle = (p.get("handle") or "").lower()
+            variants = p.get("variants") or []
+            avail = any(bool(v.get("available")) for v in variants if isinstance(v, dict))
+            if "available" in p:
+                avail = bool(p["available"]) or avail
+            if handle:
+                out[handle] = avail
+        page += 1
+    return out
+
+
+
 def log(msg: str) -> None:
     print(msg, file=sys.stderr, flush=True)
 
@@ -168,6 +206,15 @@ def fetch(url: str, delay: float) -> tuple[int, str]:
                 except Exception:
                     pass
                 return e.code, body
+            if e.code == 429:
+                retry_after = e.headers.get("Retry-After") if e.headers else None
+                try:
+                    wait = float(retry_after)
+                except (TypeError, ValueError):
+                    wait = 8 * (attempt + 1)
+                log(f"  429 on {url} — sleeping {wait:.0f}s")
+                time.sleep(wait)
+                continue
             time.sleep(0.6 * (attempt + 1))
         except Exception as e:
             last_err = e
@@ -466,6 +513,7 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0, help="Max parts to check (0 = all)")
     ap.add_argument("--workers", type=int, default=6, help="Parallel fetches")
     ap.add_argument("--delay", type=float, default=0.12, help="Per-request delay in each worker (seconds)")
+    ap.add_argument("--hosts", default="", help="Comma-separated URL host filter, e.g. gritshift.com (default: all stores)")
     args = ap.parse_args()
 
     if not os.path.isfile(DATA_JS):
@@ -478,9 +526,25 @@ def main() -> int:
     for p in parts:
         if want and p["pid"] not in want:
             continue
-        urls = [pr.get("url") for pr in p["prices"] if pr.get("url")]
+        hosts = {h.strip().lower().lstrip("www.") for h in args.hosts.split(",") if h.strip()}
+        def _ok(url):
+            if not url:
+                return False
+            if not hosts:
+                return True
+            from urllib.parse import urlparse
+            h = (urlparse(url).netloc or "").lower()
+            if h.startswith("www."):
+                h = h[4:]
+            return h in hosts or any(h.endswith("." + x) for x in hosts)
+        urls = [pr.get("url") for pr in p["prices"] if _ok(pr.get("url"))]
         if not urls:
             continue
+        # When filtering by host, only check those offers (still apply part-level
+        # in_stock if any of the filtered stores has the part).
+        p = dict(p)
+        p["all_store_count"] = len([pr for pr in p["prices"] if pr.get("url")])
+        p["prices"] = [pr for pr in p["prices"] if _ok(pr.get("url"))]
         jobs.append(p)
         if args.limit and len(jobs) >= args.limit:
             break
@@ -497,7 +561,45 @@ def main() -> int:
 
     url_results: dict[str, dict] = {}
     urls = list(url_to_parts)
+    all_urls = list(urls)
+    # Bulk-fetch Shopify catalogs first (one paginated /products.json per host)
+    # so a store like GritShift can be fully checked without per-URL 429s.
+    remaining = []
+    hosts = {}
+    for u in urls:
+        hosts.setdefault(host_of(u), []).append(u)
+    for host, host_urls in hosts.items():
+        h = host.lower().removeprefix("www.")
+        if h not in SHOPIFY_HOSTS and not h.endswith(".myshopify.com"):
+            remaining.extend(host_urls)
+            continue
+        if len(host_urls) < 3:
+            remaining.extend(host_urls)
+            continue
+        log(f"bulk catalog {host} ({len(host_urls)} URLs)")
+        cat = shopify_catalog(host)
+        log(f"  {len(cat)} products from {host}")
+        for u in host_urls:
+            js = product_js_url(u)
+            handle = None
+            if js:
+                import os as _os
+                handle = _os.path.basename(urlparse(js).path).removesuffix(".js").removesuffix(".json").lower()
+            if handle and handle in cat:
+                url_results[u] = {
+                    "url": u,
+                    "host": host,
+                    "method": "shopify.products.json",
+                    "available": bool(cat[handle]),
+                    "error": None,
+                    "http": 200,
+                }
+            else:
+                remaining.append(u)
+    urls = remaining
     done = 0
+    if urls:
+        log(f"individual checks for {len(urls)} remaining URLs")
     with ThreadPoolExecutor(max_workers=max(1, args.workers)) as ex:
         futs = {ex.submit(check_url, u, args.delay): u for u in urls}
         for fut in as_completed(futs):
@@ -515,7 +617,7 @@ def main() -> int:
     summary = {
         "checked_on": TODAY,
         "parts": len(jobs),
-        "urls": len(urls),
+        "urls": len(all_urls),
         "url_in_stock": 0,
         "url_out_of_stock": 0,
         "url_unknown": 0,
@@ -546,6 +648,16 @@ def main() -> int:
         new_stock, reason = propose_part_stock(checks)
         current = p.get("stock") or ""
         apply = False
+        # If we only checked a subset of stores (e.g. --hosts gritshift.com),
+        # we may raise a part to in_stock, but must not mark it out_of_stock
+        # unless every store URL on the original part was successfully checked.
+        checked_all = all(
+            (c.get("available") is True or c.get("available") is False)
+            for c in checks
+        ) and len(checks) >= int(p.get("all_store_count") or len(p["prices"]))
+        if new_stock == "out_of_stock" and not checked_all:
+            new_stock = current
+            reason = "oos-not-applied-partial-check"
         if new_stock and new_stock != current:
             apply = True
             if new_stock == "in_stock":

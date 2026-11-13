@@ -3860,13 +3860,13 @@
       "buy_url": "https://gritshift.com/products/80-100-19-street-tire",
       "tier": "midrange",
       "is_upgrade": true,
-      "stock_status": "in_stock",
+      "stock_status": "out_of_stock",
       "notes": "WEAK: SM01 spec sheet lists 80/100-19 for both front and rear - confirm rear size \u2014 Exact stock front size 80/100-19 (stock spec:\u2026",
       "source_urls": [
         "https://gritshift.com/products/80-100-19-street-tire",
         "https://www.supermach.com/products/sm01-6000-electric-off-road-vehicle"
       ],
-      "last_checked": "2026-11-11",
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
@@ -4319,13 +4319,13 @@
       "buy_url": "https://gritshift.com/products/dunlop-geomax-mx34-90-100-16-rear",
       "tier": "midrange",
       "is_upgrade": true,
-      "stock_status": "in_stock",
+      "stock_status": "out_of_stock",
       "notes": "Exact stock rear size 90/100-16 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike).",
       "source_urls": [
         "https://gritshift.com/products/dunlop-geomax-mx34-90-100-16-rear",
         "https://www.supermach.com/products/sm62-electric-dirt-bike"
       ],
-      "last_checked": "2026-11-11",
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
@@ -4519,14 +4519,14 @@
       "buy_url": "https://gritshift.com/products/irc-ix-09-gekkota-tire",
       "tier": "midrange",
       "is_upgrade": true,
-      "stock_status": "in_stock",
+      "stock_status": "out_of_stock",
       "notes": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega).",
       "source_urls": [
         "https://arctic-leopard-usa.com/products/xd-pro",
         "https://gritshift.com/products/irc-ix-09-gekkota-tire",
         "https://pinnedelectric.com/pages/rx"
       ],
-      "last_checked": "2026-11-11",
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
@@ -4692,13 +4692,13 @@
       "buy_url": "https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17",
       "tier": "budget",
       "is_upgrade": true,
-      "stock_status": "in_stock",
+      "stock_status": "out_of_stock",
       "notes": "Exact stock front size 70/100-17 (stock spec: https://www.altispowersports.com/products/altis-delta-tires).",
       "source_urls": [
         "https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17",
         "https://www.altispowersports.com/products/altis-delta-tires"
       ],
-      "last_checked": "2026-11-11",
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
@@ -4758,12 +4758,12 @@
       "buy_url": "https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17",
       "tier": "midrange",
       "is_upgrade": true,
-      "stock_status": "in_stock",
+      "stock_status": "out_of_stock",
       "notes": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike).",
       "source_urls": [
         "https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17"
       ],
-      "last_checked": "2026-11-11",
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
@@ -4790,14 +4790,14 @@
       "buy_url": "https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17",
       "tier": "midrange",
       "is_upgrade": true,
-      "stock_status": "in_stock",
+      "stock_status": "out_of_stock",
       "notes": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega).",
       "source_urls": [
         "https://arctic-leopard-usa.com/products/xd-pro",
         "https://pinnedelectric.com/pages/rx",
         "https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17"
       ],
-      "last_checked": "2026-11-11",
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
@@ -4828,12 +4828,12 @@
       "buy_url": "https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17",
       "tier": "midrange",
       "is_upgrade": true,
-      "stock_status": "in_stock",
+      "stock_status": "out_of_stock",
       "notes": "Exact stock rear size 90/100-16 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike).",
       "source_urls": [
         "https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17"
       ],
-      "last_checked": "2026-11-11",
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
