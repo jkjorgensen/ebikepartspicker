@@ -1596,14 +1596,20 @@
       "stock_status": "in_stock",
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade",
+      "https://gritshift.com/products/heavy-hitter-ultra-bee-rotor"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 49.99,
           "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/heavy-hitter-ultra-bee-rotor",
+          "price_usd": 49.99,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade.webp"
@@ -1896,14 +1902,20 @@
       "stock_status": "out_of_stock",
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper"
-      ],
+        "https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper",
+      "https://gritshift.com/products/sur-ron-oem-rear-brake-caliper-ultra-bee"
+    ],
       "last_checked": "2026-11-10",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 98.0,
           "buy_url": "https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/sur-ron-oem-rear-brake-caliper-ultra-bee",
+          "price_usd": 82.5,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-ultra-bee-rear-brake-caliper.webp"
@@ -3284,14 +3296,20 @@
       "stock_status": "in_stock",
       "notes": "ETM RTR Wave Rotors, sold individually. CCW search-by-bike (ETM RTR LITE tag) lists them for the ETM RTR Lite (checked Nov 11, 2026).",
       "source_urls": [
-        "https://chargedcycleworks.com/products/etm-rtr-wave-rotors"
-      ],
-      "last_checked": "2026-11-11",
+        "https://chargedcycleworks.com/products/etm-rtr-wave-rotors",
+      "https://gritshift.com/products/etm-rtr-wave-rotors"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 34.99,
           "buy_url": "https://chargedcycleworks.com/products/etm-rtr-wave-rotors"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/etm-rtr-wave-rotors",
+          "price_usd": 34.99,
+          "vendor": "GritShift"
         }
       ],
       "image": null

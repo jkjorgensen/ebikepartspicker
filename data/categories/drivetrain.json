@@ -1404,14 +1404,20 @@
       "stock_status": "out_of_stock",
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee"
-      ],
+        "https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee",
+      "https://gritshift.com/products/ebmx-competition-chain-guide-for-ultra-bee"
+    ],
       "last_checked": "2026-11-10",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 100.0,
           "buy_url": "https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/ebmx-competition-chain-guide-for-ultra-bee",
+          "price_usd": 99.89,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-ebmx-competition-chain-guide-for-ultra-bee.webp"
@@ -1454,14 +1460,20 @@
       "stock_status": "in_stock",
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket",
+      "https://gritshift.com/products/heavy-hitter-520-ultra-bee-sprocket"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 42.99,
           "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/heavy-hitter-520-ultra-bee-sprocket",
+          "price_usd": 52.99,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-heavy-hitter-520-ultra-bee-sprocket.webp"
@@ -2037,14 +2049,20 @@
       "stock_status": "in_stock",
       "notes": "CCW fitment text name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors",
+      "https://gritshift.com/products/520-primary-drive-ultra-bee"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 129.99,
           "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/520-primary-drive-ultra-bee",
+          "price_usd": 129.99,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors.webp"

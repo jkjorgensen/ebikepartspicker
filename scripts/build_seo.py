@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse,re
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.net'; V='4.16.4'; IMGV='4.5.0'; TODAY='2026-11-12'
+BASE='https://ebikepartspicker.net'; V='4.16.5'; IMGV='4.5.0'; TODAY='2026-11-13'
 # PWA service-worker registration snippet (plain string, NOT an f-string:
 # its braces would break the page() f-string below).
 SWREG="<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>"
@@ -269,6 +269,21 @@ BN={b['id']:b['name'] for b in SNAP['bikes']}
 seob0={b['id'] for b in seo_bikes}
 SPECL=[('wtKg','Part weight',lambda v:f'{v*2.20462:.1f} lb ({v:g} kg)'),('motorKw','Motor power (continuous)',lambda v:f'{v:g} kW'),('motorPeakKw','Motor power (peak)',lambda v:f'{v:g} kW'),('ctrlMaxKw','Controller max output',lambda v:f'{v:g} kW'),('battKwh','Battery capacity',lambda v:f'{v:g} kWh'),('battMaxKw','Battery continuous output',lambda v:f'{v:g} kW'),('battPeakKw','Battery peak output',lambda v:f'{v:g} kW')]
 STK={'in_stock':'In stock','out_of_stock':'Out of stock','preorder':'Pre-order','verify':'Not verified'}
+STOCK_RECENT_DAYS=14
+def effective_stock(o):
+  """Don't publish 'Out of stock' unless the flag was checked within STOCK_RECENT_DAYS."""
+  s=o.get('stock') or ''
+  if s!='out_of_stock': return s
+  chk=o.get('stockChk')
+  if not chk: return 'verify'
+  try:
+    from datetime import datetime
+    today=datetime.strptime(TODAY,'%Y-%m-%d').date()
+    d=datetime.strptime(chk,'%Y-%m-%d').date()
+    if (today-d).days>STOCK_RECENT_DAYS: return 'verify'
+  except Exception:
+    return 'verify'
+  return s
 STL={'confirmed':('yes','\u2713 Fits'),'requires_mod':('mod','Fits with modifications'),'likely_verify':('nv','Likely \u2014 verify'),'no_fit':('no','Doesn\u2019t fit')}
 def plain(pr):
   if not pr.get('url'): return '<span class="sp-chk">No link on file</span>'
@@ -282,7 +297,7 @@ for c in SNAP['cats']:
     known=[o['pid'] and (lab,fmt(sp[k])) for k,lab,fmt in SPECL if sp.get(k) is not None]
     prs=[x for x in o['prices'] if x.get('p') is not None]
     lo=min(prs,key=lambda x:x['p']) if prs else None
-    keys=[('Category',e(c['name'])),('Brand',e(o.get('badge')) or 'Not verified'),('Lowest checked price',f'{money(lo["p"])} <span class="sp-chk">{e(lo["v"])}, checked {e(lo.get("chk") or "date not recorded")}</span>' if lo else 'Not verified'),('Stock',(e(STK.get(o.get('stock'),'Not verified'))+(f' <span class="sp-chk">checked {e(o["stockChk"])}</span>' if o.get('stockChk') else '')) if o.get('stock') else 'Not verified')]+[(l,e(v)) for l,v in known]
+    keys=[('Category',e(c['name'])),('Brand',e(o.get('badge')) or 'Not verified'),('Lowest checked price',f'{money(lo["p"])} <span class="sp-chk">{e(lo["v"])}, checked {e(lo.get("chk") or "date not recorded")}</span>' if lo else 'Not verified'),('Stock',(e(STK.get(effective_stock(o),'Not verified'))+(f' <span class="sp-chk">checked {e(o["stockChk"])}</span>' if o.get('stockChk') else '')) if effective_stock(o) or o.get('stock') else 'Not verified')]+[(l,e(v)) for l,v in known]
     dl=''.join(f'<div><dt>{l}</dt><dd>{v}</dd></div>' for l,v in keys)
     if not known: dl+='<div><dt>Weight &amp; power specs</dt><dd>Not verified</dd></div>'
     rows=''.join(f'<tr><td>{e(x.get("v") or host(x.get("url","")))}</td><td class="pp-num">{money(x["p"]) if x.get("p") is not None else "Not verified"}</td><td>{e(x.get("chk") or "Not re-checked")}</td><td>{plain(x)}</td></tr>' for x in o['prices'])
@@ -355,7 +370,10 @@ def _stamp_sw():
   _p=os.path.join(ROOT,'sw.js')
   _s=open(_p).read(); _o=_s
   _s=re.sub(r"const CACHE = 'ebpp-[^']*';","const CACHE = 'ebpp-"+V+"';",_s,count=1)
-  _s=re.sub(r"\?v=[\d.]+","?v="+V,_s)
+  # Only stamp assets that track V. Leave ux.js (may have a -mN suffix) and
+  # any motion.js / vendor ?v= alone if they ever land in APP_SHELL.
+  for _name in ('styles.css', 'app.js'):
+    _s=re.sub(r"/"+_name+r"\?v=[^']+", "/"+_name+"?v="+V, _s)
   if _s!=_o:
     open(_p,'w').write(_s); print('sw.js stamped to',V)
   else:

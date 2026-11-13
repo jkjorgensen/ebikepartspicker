@@ -1,4 +1,4 @@
-/* eBikePartsPicker catalog. Catalog v4.16.4, last researched 2026-11-12.
+/* eBikePartsPicker catalog. Catalog v4.16.5, last researched 2026-11-13.
    46 bikes / 23 categories / 1984 parts (1977 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
@@ -139,13 +139,15 @@ var CATEGORIES = [
     {name:'Stock motor', prices:[]},
     {name:'EBMX XLB-60 Motor', pid:'ebmx-xlb-60', tier:'premium',
      prices:[
-      {v:'TB Electric Moto', p:999.89, url:'https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor', chk:'2026-10-18'},
+      {v:'TB Electric Moto', p:999.89, url:'https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor', chk:'2026-11-13', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'Electric Cycle Rider', p:1249.99, url:'https://parts.electriccyclerider.com/products/ebmx-xlb-60-race-motor-kit', chk:'2026-10-18'},
+      {v:'Electric Cycle Rider', p:1249.99, url:'https://parts.electriccyclerider.com/products/ebmx-xlb-60-race-motor-kit', chk:'2026-11-13', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
+     
+      {v:'GritShift', p:999.89, url:'https://gritshift.com/products/ebmx-sur-ron-lbx-xlb-60-core-motor-upgrade', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['lightbee','ss20','ss30','sr'], likely:['ss40','arctic-xd','bonnell-805rx','storm-bee','ultrabee','komodo','mx5','mx4','ventus-plus','ventus-evo'], no:[],
-     badge:'XLB-60', motorKw:41, motorPeakKw:50, stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/ebmx-xlb-60.webp'
+     badge:'XLB-60', motorKw:41, motorPeakKw:50, stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/ebmx-xlb-60.webp'
     },
     {name:'Sotion FW01 Motor', pid:'sotion-fw01', tier:'mid',
      prices:[
@@ -163,9 +165,11 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
       {v:'TB Electric Moto', p:1034.1, url:'https://tbelectricmoto.com/products/ebmx-xta-60-upgraded-talaria-motor', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
+     
+      {v:'GritShift', p:999.99, url:'https://gritshift.com/products/ebmx-talaria-sting-mx4-xlb-60-core-motor-upgrade', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:["mx4","mx5"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","komodo","bonnell-805rx","arctic-xd"], no:[],
-     badge:'XTA-60', motorKw:40, motorPeakKw:40, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ebmx-xta-60.webp'
+     badge:'XTA-60', motorKw:40, motorPeakKw:40, stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/ebmx-xta-60.webp'
     },
     {name:'Sotion FW02 Talaria Motor', pid:'sotion-fw02', tier:'mid',
      prices:[
@@ -198,9 +202,11 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
       {v:'TB Electric Moto', p:1399, url:'https://tbelectricmoto.com/products/ventus-ryuga-81kw-ultra-bee', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
+     
+      {v:'GritShift', p:1399.99, url:'https://gritshift.com/products/ventus-vtb-ryuga-81kw-motor-upgrade', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
-     badge:'Ryuga 81kW', motorKw:81, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/ventus-ryuga-81kw.webp'
+     badge:'Ryuga 81kW', motorKw:81, stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/ventus-ryuga-81kw.webp'
     },
     {name:'Ventus Ryuga 52kW Motor', pid:'ventus-ryuga-52kw', tier:'premium',
      prices:[
@@ -275,10 +281,12 @@ var CATEGORIES = [
     },
     {name:'EBMX XLB-60 RACE Motor KIT', pid:'chargedcycleworks-ebmx-xlb-60-race-motor-kit-air-cooled', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:1249, url:'https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled', chk:'2026-11-10'},
+      {v:'Charged Cycle Works', p:1249, url:'https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled', chk:'2026-11-13', stock:'out_of_stock'},
+     
+      {v:'GritShift', p:1249.89, url:'https://gritshift.com/products/ebmx-xlb-60race-motor-upgrade', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['sr','ss30'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-xlb-60-race-motor-kit-air-cooled.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-ebmx-xlb-60-race-motor-kit-air-cooled.webp'
     },
     {name:'EBMX XTA-60 Motor Adapter Kit for Talaria MX5', pid:'chargedcycleworks-ebmx-xta-60-motor-adapter-kit-for-talaria-mx5', tier:'midrange',
      prices:[
@@ -297,9 +305,11 @@ var CATEGORIES = [
     {name:'KyVex Billet Motor Cover – Surron Ultra Bee', pid:'chargedcycleworks-kyvex-surron-ultra-bee-compatible-billet-motor-cover', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:80, url:'https://chargedcycleworks.com/products/kyvex-surron-ultra-bee-compatible-billet-motor-cover', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:80, url:'https://gritshift.com/products/kyvex-billet-aluminum-motor-cover-sur-ron-ultra-bee', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-kyvex-surron-ultra-bee-compatible-billet-motor-cover.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-kyvex-surron-ultra-bee-compatible-billet-motor-cover.webp'
     },
     {name:'Prickly Motor Cover – Ultra Bee', pid:'chargedcycleworks-prickly-ultra-bee-motor-cover', tier:'midrange',
      prices:[
@@ -332,16 +342,20 @@ var CATEGORIES = [
     {name:'E&Co Revolver Alpha Motor & 420 Chain Conversion Kit', pid:'eco-rtr-revolver-alpha-420-kit', tier:'midrange',
      prices:[
       {v:'Electro & Co', p:449, url:'https://electroandcompany.com/products/rtr-revolver-motor-420-chain-conversion-kit', chk:'2026-11-11'},
+     
+      {v:'GritShift', p:449.99, url:'https://gritshift.com/products/electro-co-revolver-alpha-motor-420-chain-conversion-kit-etm-rtr', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     badge:'Revolver Alpha Kit', motorKw:18, stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Revolver Alpha Kit', motorKw:18, stock:'in_stock', stockChk:'2026-11-13'
     },
     {name:'E&Co High Torque Mod Motor', pid:'eco-rtr-high-torque-mod-motor', tier:'budget',
      prices:[
       {v:'Electro & Co', p:299, url:'https://electroandcompany.com/products/etm-rtr-high-torque-mod-motor', chk:'2026-11-11'},
+     
+      {v:'GritShift', p:299.99, url:'https://gritshift.com/products/etm-rtr-high-torque-mod-motor-upgrade', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     badge:'High Torque Mod', motorKw:5, stock:'in_stock', stockChk:'2026-11-11'
+     badge:'High Torque Mod', motorKw:5, stock:'in_stock', stockChk:'2026-11-13'
     },
     {name:'KyVex Billet Motor Cover \u2013 Surron LBX / Ventus One / 79Bike', pid:'chargedcycleworks-kyvex-billet-motor-cover-79bike', tier:'midrange',
      prices:[
@@ -1112,9 +1126,11 @@ var CATEGORIES = [
     {name:'Rfloxa Front Fork Suspension Kit for Talaria Komodo TK43', pid:'chargedcycleworks-rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:1590, url:'https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:1589.99, url:'https://gritshift.com/products/rfloxa-tk43-front-fork-suspension-kit-talaria-komodo', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['komodo'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43.webp'
     },
     {name:'SKF Fork Seal kit for Surron, Talaria, E Ride Pro', pid:'chargedcycleworks-skf-fork-seal-kit-for-surron-talaria', tier:'midrange',
      prices:[
@@ -1189,9 +1205,11 @@ var CATEGORIES = [
     {name:'Tech Suspension E39 Racing Kashima E-Moto Fork', pid:'chargedcycleworks-tech-suspension-e39-racing-kashima-fork', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:1699, url:'https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:1699, url:'https://gritshift.com/products/tech-suspension-e39-racing-kashima-fork-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['sr','ventus-evo','falcon-pro','falcon-gt'], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tech-suspension-e39-racing-kashima-fork.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-tech-suspension-e39-racing-kashima-fork.webp'
     },
     {name:'RFloXa HAWK36 MAX Fork – Arctic Leopard XE Pro S | 228mm', pid:'chargedcycleworks-rfloxa-hawk36-max-fork', tier:'premium',
      prices:[
@@ -1807,16 +1825,20 @@ var CATEGORIES = [
     {name:'Tech Suspension ER34 Racing Kashima E-Moto Shock', pid:'chargedcycleworks-tech-suspension-er34-racing-kashima-shock', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:955, url:'https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:955.99, url:'https://gritshift.com/products/tech-suspension-er34-racing-kashima-shock-e-moto', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['sr','ss30','ventus-evo','ventus-plus','falcon-pro','falcon-gt'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-tech-suspension-er34-racing-kashima-shock.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-tech-suspension-er34-racing-kashima-shock.webp'
     },
     {name:'Vonkat TENfive V2 Shock for SurRon Talaria Segway', pid:'chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:699, url:'https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:699.89, url:'https://gritshift.com/products/vonkat-tenfive-shock', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['mx5','sr','altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway.webp'
     },
     {name:'Warp9 4mm Neoprene Shock Cover – Surron / Talaria / E-Ride Pro', pid:'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto', tier:'midrange',
      prices:[
@@ -2217,9 +2239,11 @@ var CATEGORIES = [
     {name:'EBMX Competition Axle & Axle Blocks for Surron Ultra Bee', pid:'chargedcycleworks-ebmx-competition-axle-axle-blocks-for-surron-ultra-bee', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:148.75, url:'https://chargedcycleworks.com/products/ebmx-competition-axle-axle-blocks-for-surron-ultra-bee', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:169.99, url:'https://gritshift.com/products/ebmx-competition-axle-axle-blocks-ultra-bee', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-competition-axle-axle-blocks-for-surron-ultra-bee.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-ebmx-competition-axle-axle-blocks-for-surron-ultra-bee.webp'
     },
     {name:'ION - 17/17" Supermoto / Street Wheelset for Surron Ultra Bee', pid:'chargedcycleworks-ion-17-17-supermoto-street-wheelset-for-surron-ultra-bee', tier:'midrange',
      prices:[
@@ -3548,9 +3572,11 @@ var CATEGORIES = [
     {name:'Heavy Hitter Ultra Bee F/R Brake Rotor Upgrade', pid:'chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:49.99, url:'https://gritshift.com/products/heavy-hitter-ultra-bee-rotor', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade.webp'
     },
     {name:'KKE 240mm Brake Rotor for Surron Ultra Bee | Front or Rear', pid:'chargedcycleworks-kke-240mm-brake-rotor-surron-ultra-bee', tier:'midrange',
      prices:[
@@ -3632,6 +3658,8 @@ var CATEGORIES = [
     {name:'Surron Ultra Bee - OEM Rear Brake Caliper', pid:'chargedcycleworks-ultra-bee-rear-brake-caliper', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:98, url:'https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:82.50, url:'https://gritshift.com/products/sur-ron-oem-rear-brake-caliper-ultra-bee', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ultra-bee-rear-brake-caliper.webp'
@@ -3730,9 +3758,11 @@ var CATEGORIES = [
     {name:'ETM RTR | Wave Rotors', pid:'chargedcycleworks-etm-rtr-wave-rotors', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:34.99, url:'https://chargedcycleworks.com/products/etm-rtr-wave-rotors', chk:'2026-11-11'},
+     
+      {v:'GritShift', p:34.99, url:'https://gritshift.com/products/etm-rtr-wave-rotors', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
+     stock:'in_stock', stockChk:'2026-11-13'
     },
     {name:'ETM RTR - OEM Rear Brake Assembly', pid:'chargedcycleworks-etm-rtr-oem-rear-brake-assembly', tier:'midrange',
      prices:[
@@ -5005,6 +5035,8 @@ var CATEGORIES = [
     {name:'Extended Rear Fender V2 W/Side Shrouds', pid:'chargedcycleworks-extended-rear-fender-v2-side-shrouds', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:79.89, url:'https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:79.89, url:'https://gritshift.com/products/gritshift-extended-rear-fender-v2', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:["falcon-pro","falcon-gt"], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-10'
@@ -6173,16 +6205,20 @@ var CATEGORIES = [
     {name:'Heavy Hitter MX Direct Mount Riser Fat Bar 1 1/8" Clamp', pid:'chargedcycleworks-heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp', chk:'2026-11-11'},
+     
+      {v:'GritShift', p:79.99, url:'https://gritshift.com/products/gritshift-heavy-hitter-mx-direct-mount-riser', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
+     stock:'in_stock', stockChk:'2026-11-13'
     },
     {name:'Heavy Hitter Direct Mount Stem Riser 2" Rise 31.8mm Bars', pid:'chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:64.89, url:'https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars', chk:'2026-11-11'},
+     
+      {v:'GritShift', p:64.89, url:'https://gritshift.com/products/direct-mount-stem-riser-2-inch', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
+     stock:'in_stock', stockChk:'2026-11-13'
     },
     {name:'Direct Mount Stem Lift Kit', pid:'chargedcycleworks-surron-light-bee-stem-lift-kit', tier:'midrange',
      prices:[
@@ -6848,9 +6884,11 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/protaper-pillow-top-grips', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
+     
+      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/protaper-pillow-top-grips', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf','bonnell-805rx','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rtr-alpha','rtr-lite','rtr-sport','stark-vargex','storm-bee','ultrabee-21kw','zero-xe'], likely:['altis-sigma','rawrr-mantis-mini-r','rerode-rx'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05', img:'img/parts/cockpit-protaper-pillow-top-grips.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/cockpit-protaper-pillow-top-grips.webp'
     },
     {name:'ODI Universal Lock-On Half Waffle Grips for eMoto', pid:'cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto', tier:'budget',
      prices:[
@@ -6879,9 +6917,11 @@ var CATEGORIES = [
     {name:'Arctic Leopard - XE PRO Left Hand Control | OEM', pid:'chargedcycleworks-arctic-leopard-xe-left-hand-control-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:42.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem', chk:'2026-11-11'},
+     
+      {v:'GritShift', p:49.99, url:'https://gritshift.com/products/oem-xe-pro-left-hand-control-switch', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-13'
     },
     {name:'SXS Burly Shields Hand Guards', pid:'cockpit-sxs-burly-shields-hand-guards', tier:'midrange',
      prices:[
@@ -7022,9 +7062,11 @@ var CATEGORIES = [
     {name:'ODI Aluminum Bar End Plugs', pid:'cockpit-odi-aluminum-grip-end-plugs', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:17.99, url:'https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260', chk:'2026-11-11'},
+     
+      {v:'GritShift', p:19.89, url:'https://gritshift.com/products/odi-aluminum-bar-end-plugs', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','lightbee2','rfn-warrior-pro','stark-vargex','storm-bee','ultrabee-21kw','ventus-evo','zero-xe'], likely:['altis-sigma','arctic-leopard-xe-pro-r','rerode-rx'], no:[],
-     stock:'in_stock', stockChk:'2026-11-11', img:'img/parts/cockpit-odi-aluminum-grip-end-plugs.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/cockpit-odi-aluminum-grip-end-plugs.webp'
     },
     {name:'Stem Spacer', pid:'chargedcycleworks-handlebar-stem-spacer-talaria-sting-mx3-mx4-x3', tier:'budget',
      prices:[
@@ -8004,6 +8046,8 @@ var CATEGORIES = [
     {name:'EBMX Competition Chain Guide for Ultra Bee', pid:'chargedcycleworks-ebmx-competition-chain-guide-for-ultra-bee', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:99.89, url:'https://gritshift.com/products/ebmx-competition-chain-guide-for-ultra-bee', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ebmx-competition-chain-guide-for-ultra-bee.webp'
@@ -8018,9 +8062,11 @@ var CATEGORIES = [
     {name:'Heavy Hitter 520 Ultra Bee Sprocket', pid:'chargedcycleworks-heavy-hitter-520-ultra-bee-sprocket', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:42.99, url:'https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:52.99, url:'https://gritshift.com/products/heavy-hitter-520-ultra-bee-sprocket', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-heavy-hitter-520-ultra-bee-sprocket.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-heavy-hitter-520-ultra-bee-sprocket.webp'
     },
     {name:'KKE 50T Rear Aluminum Sprocket for Ultra Bee', pid:'chargedcycleworks-kke-rear-50t-aluminum-sprocket-for-surron-ultra-bee-electric-bike-collective', tier:'midrange',
      prices:[
@@ -8230,9 +8276,11 @@ var CATEGORIES = [
     {name:'Heavy Hitter 520 Primary Drive Conversion OEM/EBMX Ultra Motors', pid:'chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:129.99, url:'https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:129.99, url:'https://gritshift.com/products/520-primary-drive-ultra-bee', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors.webp'
     },
     {name:'Warp9 428 Rear Sprocket - Arctic Leopard XE Pro S / Pro R', pid:'chargedcycleworks-arctic-leopard-xe-pro-s-pro-r-sprocket', tier:'midrange',
      prices:[
@@ -8984,9 +9032,11 @@ var CATEGORIES = [
     {name:'GritShift Halo Headlight Kill Switch', pid:'chargedcycleworks-gritshift-halo-headlight-kill-switch', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:19.89, url:'https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:19.89, url:'https://gritshift.com/products/gritshift-halo-headlight-kill-switch', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['mx5','sr','ventus-plus'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-gritshift-halo-headlight-kill-switch.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-gritshift-halo-headlight-kill-switch.webp'
     },
     {name:'RTech Front Headlight Mask for Surron Ultra Bee Models (2023 to 2025)', pid:'chargedcycleworks-rtech-front-headlight-mask-surron-ultra-bee', tier:'midrange',
      prices:[
@@ -9201,16 +9251,20 @@ var CATEGORIES = [
     {name:'Ventus VTB V9600 Gen.2 Wiring Harness 1.7', pid:'chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:90, url:'https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7', chk:'2026-11-11'},
+     
+      {v:'GritShift', p:59.99, url:'https://gritshift.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['falcon-gt','falcon-pro','sr','ultrabee'], likely:['ultrabee-21kw'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7.webp'
     },
     {name:'High Voltage Fuse Kit & Replacement Fuses', pid:'chargedcycleworks-high-voltage-fuse-kit-replacement-fuses', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:8.99, url:'https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses', chk:'2026-11-11'},
+     
+      {v:'GritShift', p:22.99, url:'https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['ultrabee-21kw'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
+     stock:'in_stock', stockChk:'2026-11-13'
     },
     {name:'Warp9 Altis Sigma Headlight Adapter', pid:'chargedcycleworks-warp9-headlight-adapter-altis-sigma', tier:'midrange',
      prices:[
@@ -9637,17 +9691,21 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:27, url:'https://chargedcycleworks.com/products/dirtybike-shock-protector-mud-flap-bonnell-805', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
+     
+      {v:'GritShift', p:27, url:'https://gritshift.com/products/shock-protector-mud-guard-bonnell-805', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-13'
     },
     {name:'DirtyBike Hard Enduro Skid Plate - Bonnell 805', pid:'guards-dirtybike-hard-enduro-skid-plate-bonnell-805', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:159, url:'https://chargedcycleworks.com/products/dirtybike-hard-enduro-skid-plate-bonnell-805', chk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
+     
+      {v:'GritShift', p:159, url:'https://gritshift.com/products/skid-plate-bonnell-805', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-05'
+     stock:'in_stock', stockChk:'2026-11-13'
     },
     {name:"RTech Bi-Material Frame Protectors — Sur-Ron Ultra Bee (2023-2025), Black", pid:'cpdusa-rtech-bi-material-frame-protectors-ultra-bee-black', tier:'budget',
      prices:[
@@ -9708,9 +9766,11 @@ var CATEGORIES = [
     {name:'Heavy Hitter E-Ride Skid Plate', pid:'chargedcycleworks-heavy-hitter-e-ride-skid-plate', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:219.99, url:'https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:219.99, url:'https://gritshift.com/products/heavy-hitter-skid-plate-e-ride', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['sr','ss30'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-heavy-hitter-e-ride-skid-plate.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-heavy-hitter-e-ride-skid-plate.webp'
     },
     {name:'SXS UHMW Skid plate', pid:'chargedcycleworks-uhmw-skid-plate-by-sxs-for-surron-segway', tier:'midrange',
      prices:[
@@ -10044,16 +10104,20 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:169.99, url:'https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade', chk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
+     
+      {v:'GritShift', p:169.99, url:'https://gritshift.com/products/heavy-hitter-titanium-linkage-upgrade', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['falcon-gt'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-11'
+     stock:'in_stock', stockChk:'2026-11-13'
     },
     {name:'Heavy Hitter Ultra Bee Linkage', pid:'chargedcycleworks-heavy-hitter-ultra-bee-linkage', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:99.89, url:'https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:99.89, url:'https://gritshift.com/products/heavy-hitter-ultra-bee-linkage', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-heavy-hitter-ultra-bee-linkage.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-heavy-hitter-ultra-bee-linkage.webp'
     },
     {name:'Heavy Hitter Ultra Bee Triangle', pid:'chargedcycleworks-heavy-hitter-ultra-bee-triangle', tier:'midrange',
      prices:[
@@ -10321,9 +10385,11 @@ var CATEGORIES = [
     {name:'EBMX Pro Mount for X-9000 for SurRon Ultra Bee', pid:'chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:75, url:'https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1', chk:'2026-11-10'},
+     
+      {v:'GritShift', p:74.99, url:'https://gritshift.com/products/ebmx-x-9000-controller-pro-mount-sur-ron-ultra-bee', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-10', img:'img/parts/chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1.webp'
     },
     {name:'GritShift Billet Gear Box Breather Kit V2', pid:'chargedcycleworks-gritshift-billet-gear-box-breather-kit-v2', tier:'midrange',
      prices:[
@@ -11776,9 +11842,11 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:169.99, url:'https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
+     
+      {v:'GritShift', p:189.89, url:'https://gritshift.com/products/ebike-turn-signal-kit', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:["lightbee","mx4","sr","ss20"], likely:["ultrabee","mx5","ss30","ventus-plus","ventus-evo"], no:[],
-     badge:'Turn Signals', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/street-tusk-signal-kit.webp'
+     badge:'Turn Signals', stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/street-tusk-signal-kit.webp'
     },
     {name:'Project 9 Talaria Sting MX4/MX5 Turn Signal Kit', pid:'street-project9-talaria', tier:'midrange',
      prices:[
@@ -11839,23 +11907,29 @@ var CATEGORIES = [
     {name:'GritShift Blazer LED Headlight for Talaria (Talaria Sting MX4/MX5 Only)', pid:'tbelectricmoto-gritshift-blazer-led-headlight-for-talaria-mx4-talaria', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:19, url:'https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only', chk:'2026-10-27'},
+     
+      {v:'GritShift', p:19.99, url:'https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:["mx5", "mx4"], likely:[], no:[],
-     badge:'Street', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/tbelectricmoto-gritshift-blazer-led-headlight-for-talaria-mx4-talaria.webp'
+     badge:'Street', stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/tbelectricmoto-gritshift-blazer-led-headlight-for-talaria-mx4-talaria.webp'
     },
     {name:'GritShift Blazer LED Headlight for Talaria MX4/MX5', pid:'chargedcycleworks-gritshift-blazer-led-headlight-for-talaria-mx4-mx5', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5', chk:'2026-10-27'},
+     
+      {v:'GritShift', p:19.99, url:'https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:["mx5", "mx4"], likely:[], no:[],
-     badge:'Street', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-gritshift-blazer-led-headlight-for-talaria-mx4-mx5.webp'
+     badge:'Street', stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-gritshift-blazer-led-headlight-for-talaria-mx4-mx5.webp'
     },
     {name:'GritShift Blinder LED Light Bar Headlight MX4/MX5', pid:'chargedcycleworks-gritshift-blinder-led-light-bar-headlight-mx4-mx5', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:32.99, url:'https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5', chk:'2026-10-27'},
+     
+      {v:'GritShift', p:32.99, url:'https://gritshift.com/products/talaria-blinder-led-light-bar-headlight', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:["mx5", "mx4"], likely:[], no:[],
-     badge:'Street', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-gritshift-blinder-led-light-bar-headlight-mx4-mx5.webp'
+     badge:'Street', stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/chargedcycleworks-gritshift-blinder-led-light-bar-headlight-mx4-mx5.webp'
     },
     {name:'Project 9 Cyber Tail Light for Talaria Sting MX4/MX5', pid:'tbelectricmoto-project-9-cyber-tail-light-for-talaria-sting-mx4', tier:'mid',
      prices:[
@@ -13919,9 +13993,11 @@ var CATEGORIES = [
     {name:'Dunlop Geomax AT82 Tire', pid:'warp9racing-dunlop-geomax-at82-tire', tier:'midrange',
      prices:[
       {v:'Warp 9 Racing', p:116.99, url:'https://warp9racing.com/products/dunlop-geomax-at82-tire', chk:'2026-11-11'},
+     
+      {v:'GritShift', p:143.95, url:'https://gritshift.com/products/dunlop-geomax-at82-tire', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-11'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-13'
     },
     {name:'Dunlop Geomax EN91 Tire (120/90-18 rear)', pid:'warp9racing-dunlop-geomax-en91-tire', tier:'midrange',
      prices:[
@@ -14172,9 +14248,11 @@ var CATEGORIES = [
      prices:[
       {v:'Warp 9 Racing', p:69, url:'https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
+     
+      {v:'GritShift', p:69.89, url:'https://gritshift.com/products/warp-9-bar-mount-titanium-bolt-kit', chk:'2026-11-13', stock:'in_stock'},
      ],
      fits:["lightbee","mx4"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/warp9-bar-mount-ti.webp'
+     stock:'in_stock', stockChk:'2026-11-13', img:'img/parts/warp9-bar-mount-ti.webp'
     },
     {name:'Warp 9 Boost Spacer Front Rotor Bolts (M5x16, 6 pc)', pid:'warp9-rotor-bolts-boost', tier:'mid',
      prices:[

@@ -429,13 +429,19 @@
        "v": "TB Electric Moto",
        "p": 999.89,
        "url": "https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor",
-       "chk": "2026-10-18"
+       "chk": "2026-11-13"
       },
       {
        "v": "Electric Cycle Rider",
        "p": 1249.99,
        "url": "https://parts.electriccyclerider.com/products/ebmx-xlb-60-race-motor-kit",
-       "chk": "2026-10-18"
+       "chk": "2026-11-13"
+      },
+      {
+       "v": "GritShift",
+       "p": 999.89,
+       "url": "https://gritshift.com/products/ebmx-sur-ron-lbx-xlb-60-core-motor-upgrade",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -486,8 +492,8 @@
       "altis-delta": "unknown",
       "rawrr-mantis-mini-r": "unknown"
      },
-     "stock": "out_of_stock",
-     "stockChk": "2026-10-18",
+     "stock": "in_stock",
+     "stockChk": "2026-11-13",
      "tier": "premium",
      "badge": "XLB-60",
      "spec": {
@@ -609,6 +615,12 @@
        "p": 1034.1,
        "url": "https://tbelectricmoto.com/products/ebmx-xta-60-upgraded-talaria-motor",
        "chk": "2026-10-18"
+      },
+      {
+       "v": "GritShift",
+       "p": 999.99,
+       "url": "https://gritshift.com/products/ebmx-talaria-sting-mx4-xlb-60-core-motor-upgrade",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -660,7 +672,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-10-18",
+     "stockChk": "2026-11-13",
      "tier": "premium",
      "badge": "XTA-60",
      "spec": {
@@ -939,6 +951,12 @@
        "p": 1399,
        "url": "https://tbelectricmoto.com/products/ventus-ryuga-81kw-ultra-bee",
        "chk": "2026-10-18"
+      },
+      {
+       "v": "GritShift",
+       "p": 1399.99,
+       "url": "https://gritshift.com/products/ventus-vtb-ryuga-81kw-motor-upgrade",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -990,7 +1008,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-10-18",
+     "stockChk": "2026-11-13",
      "tier": "premium",
      "badge": "Ryuga 81kW",
      "spec": {
@@ -1600,7 +1618,13 @@
        "v": "Charged Cycle Works",
        "p": 1249,
        "url": "https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled",
-       "chk": "2026-11-10"
+       "chk": "2026-11-13"
+      },
+      {
+       "v": "GritShift",
+       "p": 1249.89,
+       "url": "https://gritshift.com/products/ebmx-xlb-60race-motor-upgrade",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -1651,8 +1675,8 @@
       "altis-delta": "unknown",
       "rawrr-mantis-mini-r": "unknown"
      },
-     "stock": "out_of_stock",
-     "stockChk": "2026-11-10",
+     "stock": "in_stock",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -1833,6 +1857,12 @@
        "p": 80,
        "url": "https://chargedcycleworks.com/products/kyvex-surron-ultra-bee-compatible-billet-motor-cover",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 80,
+       "url": "https://gritshift.com/products/kyvex-billet-aluminum-motor-cover-sur-ron-ultra-bee",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -1884,7 +1914,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -2220,6 +2250,12 @@
        "p": 449,
        "url": "https://electroandcompany.com/products/rtr-revolver-motor-420-chain-conversion-kit",
        "chk": "2026-11-11"
+      },
+      {
+       "v": "GritShift",
+       "p": 449.99,
+       "url": "https://gritshift.com/products/electro-co-revolver-alpha-motor-420-chain-conversion-kit-etm-rtr",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -2271,7 +2307,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-11",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "Revolver Alpha Kit",
      "spec": {
@@ -2297,6 +2333,12 @@
        "p": 299,
        "url": "https://electroandcompany.com/products/etm-rtr-high-torque-mod-motor",
        "chk": "2026-11-11"
+      },
+      {
+       "v": "GritShift",
+       "p": 299.99,
+       "url": "https://gritshift.com/products/etm-rtr-high-torque-mod-motor-upgrade",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -2348,7 +2390,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-11",
+     "stockChk": "2026-11-13",
      "tier": "budget",
      "badge": "High Torque Mod",
      "spec": {
@@ -10322,6 +10364,12 @@
        "p": 1590,
        "url": "https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 1589.99,
+       "url": "https://gritshift.com/products/rfloxa-tk43-front-fork-suspension-kit-talaria-komodo",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -10373,7 +10421,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -11177,6 +11225,12 @@
        "p": 1699,
        "url": "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 1699,
+       "url": "https://gritshift.com/products/tech-suspension-e39-racing-kashima-fork-e-moto",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -11228,7 +11282,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -17945,6 +17999,12 @@
        "p": 955,
        "url": "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 955.99,
+       "url": "https://gritshift.com/products/tech-suspension-er34-racing-kashima-shock-e-moto",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -17996,7 +18056,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -18027,6 +18087,12 @@
        "p": 699,
        "url": "https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 699.89,
+       "url": "https://gritshift.com/products/vonkat-tenfive-shock",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -18078,7 +18144,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -22264,6 +22330,12 @@
        "p": 148.75,
        "url": "https://chargedcycleworks.com/products/ebmx-competition-axle-axle-blocks-for-surron-ultra-bee",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 169.99,
+       "url": "https://gritshift.com/products/ebmx-competition-axle-axle-blocks-ultra-bee",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -22315,7 +22387,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -37034,6 +37106,12 @@
        "p": 49.99,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 49.99,
+       "url": "https://gritshift.com/products/heavy-hitter-ultra-bee-rotor",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -37085,7 +37163,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -37978,6 +38056,12 @@
        "p": 98,
        "url": "https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 82.5,
+       "url": "https://gritshift.com/products/sur-ron-oem-rear-brake-caliper-ultra-bee",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -39065,6 +39149,12 @@
        "p": 34.99,
        "url": "https://chargedcycleworks.com/products/etm-rtr-wave-rotors",
        "chk": "2026-11-11"
+      },
+      {
+       "v": "GritShift",
+       "p": 34.99,
+       "url": "https://gritshift.com/products/etm-rtr-wave-rotors",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -39116,7 +39206,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-11",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -52890,6 +52980,12 @@
        "p": 79.89,
        "url": "https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 79.89,
+       "url": "https://gritshift.com/products/gritshift-extended-rear-fender-v2",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -65760,6 +65856,12 @@
        "p": 79.99,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp",
        "chk": "2026-11-11"
+      },
+      {
+       "v": "GritShift",
+       "p": 79.99,
+       "url": "https://gritshift.com/products/gritshift-heavy-hitter-mx-direct-mount-riser",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -65811,7 +65913,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-11",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -65837,6 +65939,12 @@
        "p": 64.89,
        "url": "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars",
        "chk": "2026-11-11"
+      },
+      {
+       "v": "GritShift",
+       "p": 64.89,
+       "url": "https://gritshift.com/products/direct-mount-stem-riser-2-inch",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -65888,7 +65996,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-11",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -73166,6 +73274,12 @@
        "p": 14.99,
        "url": "https://chargedcycleworks.com/products/protaper-pillow-top-grips",
        "chk": "2026-11-05"
+      },
+      {
+       "v": "GritShift",
+       "p": 16.89,
+       "url": "https://gritshift.com/products/protaper-pillow-top-grips",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -73216,8 +73330,8 @@
       "altis-delta": "unknown",
       "rawrr-mantis-mini-r": "likely_verify"
      },
-     "stock": "out_of_stock",
-     "stockChk": "2026-11-05",
+     "stock": "in_stock",
+     "stockChk": "2026-11-13",
      "tier": "budget",
      "badge": "",
      "spec": {
@@ -73541,6 +73655,12 @@
        "p": 42,
        "url": "https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem",
        "chk": "2026-11-11"
+      },
+      {
+       "v": "GritShift",
+       "p": 49.99,
+       "url": "https://gritshift.com/products/oem-xe-pro-left-hand-control-switch",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -73592,7 +73712,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-11",
+     "stockChk": "2026-11-13",
      "tier": "OEM",
      "badge": "OEM",
      "spec": {
@@ -75163,6 +75283,12 @@
        "p": 17.99,
        "url": "https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260",
        "chk": "2026-11-11"
+      },
+      {
+       "v": "GritShift",
+       "p": 19.89,
+       "url": "https://gritshift.com/products/odi-aluminum-bar-end-plugs",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -75214,7 +75340,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-11",
+     "stockChk": "2026-11-13",
      "tier": "budget",
      "badge": "",
      "spec": {
@@ -85982,6 +86108,12 @@
        "p": 100,
        "url": "https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 99.89,
+       "url": "https://gritshift.com/products/ebmx-competition-chain-guide-for-ultra-bee",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -86138,6 +86270,12 @@
        "p": 42.99,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 52.99,
+       "url": "https://gritshift.com/products/heavy-hitter-520-ultra-bee-sprocket",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -86189,7 +86327,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -88483,6 +88621,12 @@
        "p": 129.99,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 129.99,
+       "url": "https://gritshift.com/products/520-primary-drive-ultra-bee",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -88534,7 +88678,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "OEM",
      "badge": "",
      "spec": {
@@ -97071,6 +97215,12 @@
        "p": 19.89,
        "url": "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 19.89,
+       "url": "https://gritshift.com/products/gritshift-halo-headlight-kill-switch",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -97122,7 +97272,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -99478,6 +99628,12 @@
        "p": 90,
        "url": "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7",
        "chk": "2026-11-11"
+      },
+      {
+       "v": "GritShift",
+       "p": 59.99,
+       "url": "https://gritshift.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -99528,8 +99684,8 @@
       "altis-delta": "unknown",
       "rawrr-mantis-mini-r": "unknown"
      },
-     "stock": "out_of_stock",
-     "stockChk": "2026-11-10",
+     "stock": "in_stock",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -99559,6 +99715,12 @@
        "p": 8.99,
        "url": "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses",
        "chk": "2026-11-11"
+      },
+      {
+       "v": "GritShift",
+       "p": 22.99,
+       "url": "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -99610,7 +99772,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-11",
+     "stockChk": "2026-11-13",
      "tier": "budget",
      "badge": "",
      "spec": {
@@ -104197,6 +104359,12 @@
        "p": 27,
        "url": "https://chargedcycleworks.com/products/dirtybike-shock-protector-mud-flap-bonnell-805",
        "chk": "2026-11-05"
+      },
+      {
+       "v": "GritShift",
+       "p": 27,
+       "url": "https://gritshift.com/products/shock-protector-mud-guard-bonnell-805",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -104248,7 +104416,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-05",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -104274,6 +104442,12 @@
        "p": 159,
        "url": "https://chargedcycleworks.com/products/dirtybike-hard-enduro-skid-plate-bonnell-805",
        "chk": "2026-11-05"
+      },
+      {
+       "v": "GritShift",
+       "p": 159,
+       "url": "https://gritshift.com/products/skid-plate-bonnell-805",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -104324,8 +104498,8 @@
       "altis-delta": "unknown",
       "rawrr-mantis-mini-r": "unknown"
      },
-     "stock": "out_of_stock",
-     "stockChk": "2026-11-05",
+     "stock": "in_stock",
+     "stockChk": "2026-11-13",
      "tier": "premium",
      "badge": "",
      "spec": {
@@ -104977,6 +105151,12 @@
        "p": 219.99,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 219.99,
+       "url": "https://gritshift.com/products/heavy-hitter-skid-plate-e-ride",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -105028,7 +105208,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -108637,6 +108817,12 @@
        "p": 169.99,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade",
        "chk": "2026-11-11"
+      },
+      {
+       "v": "GritShift",
+       "p": 169.99,
+       "url": "https://gritshift.com/products/heavy-hitter-titanium-linkage-upgrade",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -108688,7 +108874,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-11",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -108714,6 +108900,12 @@
        "p": 99.89,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 99.89,
+       "url": "https://gritshift.com/products/heavy-hitter-ultra-bee-linkage",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -108765,7 +108957,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -111536,6 +111728,12 @@
        "p": 75,
        "url": "https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1",
        "chk": "2026-11-10"
+      },
+      {
+       "v": "GritShift",
+       "p": 74.99,
+       "url": "https://gritshift.com/products/ebmx-x-9000-controller-pro-mount-sur-ron-ultra-bee",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -111587,7 +111785,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-10",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "",
      "spec": {
@@ -127481,6 +127679,12 @@
        "p": 169.99,
        "url": "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit",
        "chk": "2026-10-18"
+      },
+      {
+       "v": "GritShift",
+       "p": 189.89,
+       "url": "https://gritshift.com/products/ebike-turn-signal-kit",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -127532,7 +127736,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-10-18",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "Turn Signals",
      "spec": {
@@ -128176,6 +128380,12 @@
        "p": 19,
        "url": "https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only",
        "chk": "2026-10-27"
+      },
+      {
+       "v": "GritShift",
+       "p": 19.99,
+       "url": "https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -128227,7 +128437,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-10-27",
+     "stockChk": "2026-11-13",
      "tier": "budget",
      "badge": "Street",
      "spec": {
@@ -128254,6 +128464,12 @@
        "p": 19.99,
        "url": "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5",
        "chk": "2026-10-27"
+      },
+      {
+       "v": "GritShift",
+       "p": 19.99,
+       "url": "https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -128305,7 +128521,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-10-27",
+     "stockChk": "2026-11-13",
      "tier": "budget",
      "badge": "Street",
      "spec": {
@@ -128332,6 +128548,12 @@
        "p": 32.99,
        "url": "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5",
        "chk": "2026-10-27"
+      },
+      {
+       "v": "GritShift",
+       "p": 32.99,
+       "url": "https://gritshift.com/products/talaria-blinder-led-light-bar-headlight",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -128383,7 +128605,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-10-27",
+     "stockChk": "2026-11-13",
      "tier": "budget",
      "badge": "Street",
      "spec": {
@@ -151880,6 +152102,12 @@
        "p": 116.99,
        "url": "https://warp9racing.com/products/dunlop-geomax-at82-tire",
        "chk": "2026-11-11"
+      },
+      {
+       "v": "GritShift",
+       "p": 143.95,
+       "url": "https://gritshift.com/products/dunlop-geomax-at82-tire",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -151931,7 +152159,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-11-11",
+     "stockChk": "2026-11-13",
      "tier": "midrange",
      "badge": "Dunlop",
      "spec": {
@@ -154682,6 +154910,12 @@
        "p": 69,
        "url": "https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit",
        "chk": "2026-10-18"
+      },
+      {
+       "v": "GritShift",
+       "p": 69.89,
+       "url": "https://gritshift.com/products/warp-9-bar-mount-titanium-bolt-kit",
+       "chk": "2026-11-13"
       }
      ],
      "fit": {
@@ -154733,7 +154967,7 @@
       "rawrr-mantis-mini-r": "unknown"
      },
      "stock": "in_stock",
-     "stockChk": "2026-10-18",
+     "stockChk": "2026-11-13",
      "tier": "mid",
      "badge": "",
      "spec": {

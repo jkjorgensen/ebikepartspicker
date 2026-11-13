@@ -2253,16 +2253,24 @@
       "stock_status": "out_of_stock",
       "notes": "Extended rear fender with side shrouds. CCW fitment names 79Bike Falcon Pro / GT. Installs to the factory location, no modifications.",
       "source_urls": [
-        "https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds"
-      ],
+        "https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds",
+      "https://gritshift.com/products/gritshift-extended-rear-fender-v2"
+    ],
       "last_checked": "2026-11-10",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
         "79BIKE Falcon Pro": "direct_fit",
         "79BIKE Falcon GT": "direct_fit"
+      },
+    "vendors": [
+      {
+        "buy_url": "https://gritshift.com/products/gritshift-extended-rear-fender-v2",
+        "price_usd": 79.89,
+        "vendor": "GritShift"
       }
-    },
+    ]
+  },
     {
       "id": "chargedcycleworks-altis-sigma-aero",
       "name": "ALTIS SIGMA - AERO",

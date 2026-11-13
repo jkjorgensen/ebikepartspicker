@@ -837,14 +837,20 @@
       "stock_status": "in_stock",
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1",
+      "https://gritshift.com/products/ebmx-x-9000-controller-pro-mount-sur-ron-ultra-bee"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 75.0,
           "buy_url": "https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/ebmx-x-9000-controller-pro-mount-sur-ron-ultra-bee",
+          "price_usd": 74.99,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1.webp"

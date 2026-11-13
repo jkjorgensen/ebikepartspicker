@@ -1057,14 +1057,20 @@
       "stock_status": "in_stock",
       "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch",
+      "https://gritshift.com/products/gritshift-halo-headlight-kill-switch"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 19.89,
           "buy_url": "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/gritshift-halo-headlight-kill-switch",
+          "price_usd": 19.89,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-gritshift-halo-headlight-kill-switch.webp"
@@ -1840,14 +1846,20 @@
       "stock_status": "in_stock",
       "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10); CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "https://gritshift.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 60.0,
           "buy_url": "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+          "price_usd": 59.99,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7.webp"
@@ -2008,9 +2020,10 @@
       "stock_status": "in_stock",
       "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
       "source_urls": [
-        "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses"
-      ],
-      "last_checked": "2026-11-11",
+        "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses",
+      "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses"
+    ],
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
@@ -2026,6 +2039,11 @@
           "vendor": "Charged Cycle Works",
           "price_usd": 8.99,
           "buy_url": "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses",
+          "price_usd": 22.99,
+          "vendor": "GritShift"
         }
       ],
       "weight_delta_kg": null,

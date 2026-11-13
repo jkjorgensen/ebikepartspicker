@@ -2374,14 +2374,20 @@
       "stock_status": "in_stock",
       "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) ventus-evo exactly (checked 2026-11-10); CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock",
+      "https://gritshift.com/products/tech-suspension-er34-racing-kashima-shock-e-moto"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 955.0,
           "buy_url": "https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/tech-suspension-er34-racing-kashima-shock-e-moto",
+          "price_usd": 955.99,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-tech-suspension-er34-racing-kashima-shock.webp"
@@ -2399,14 +2405,20 @@
       "stock_status": "in_stock",
       "notes": "CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway",
+      "https://gritshift.com/products/vonkat-tenfive-shock"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 699.0,
           "buy_url": "https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/vonkat-tenfive-shock",
+          "price_usd": 699.89,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway.webp"

@@ -717,20 +717,26 @@
       "price_usd": 14.99,
       "vendor": "Charged Cycle Works",
       "buy_url": "https://chargedcycleworks.com/products/protaper-pillow-top-grips",
-      "stock_status": "out_of_stock",
+      "stock_status": "in_stock",
       "weight_kg": null,
       "power_change_kw": null,
       "is_upgrade": true,
       "source_urls": [
-        "https://chargedcycleworks.com/products/protaper-pillow-top-grips"
+        "https://chargedcycleworks.com/products/protaper-pillow-top-grips",
+        "https://gritshift.com/products/protaper-pillow-top-grips"
       ],
-      "last_checked": "2026-11-05",
+      "last_checked": "2026-11-13",
       "notes": "In CCW's Bonnell 805 Upgrades collection.",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 14.99,
           "buy_url": "https://chargedcycleworks.com/products/protaper-pillow-top-grips"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/protaper-pillow-top-grips",
+          "price_usd": 16.89,
+          "vendor": "GritShift"
         }
       ],
       "weight_delta_kg": null,
@@ -1343,14 +1349,20 @@
       "stock_status": "in_stock",
       "notes": "Aluminum bar end plugs; $17.99-$19.89 by color. CCW search-by-bike (V1-EVO tag) lists them for the Ventus V1+ EVO (checked Nov 11, 2026).",
       "source_urls": [
-        "https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260"
+        "https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260",
+        "https://gritshift.com/products/odi-aluminum-bar-end-plugs"
       ],
-      "last_checked": "2026-11-11",
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 17.99,
           "buy_url": "https://chargedcycleworks.com/products/odi-aluminum-grip-end-plugs-for-sur-ron-or-segway-x-260"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/odi-aluminum-bar-end-plugs",
+          "price_usd": 19.89,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/cockpit-odi-aluminum-grip-end-plugs.webp"
@@ -1679,6 +1691,11 @@
           "vendor": "Charged Cycle Works",
           "price_usd": 42.0,
           "buy_url": "https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/oem-xe-pro-left-hand-control-switch",
+          "price_usd": 49.99,
+          "vendor": "GritShift"
         }
       ],
       "stock_status": "in_stock",
@@ -1686,9 +1703,10 @@
       "power_change_kw": null,
       "is_upgrade": false,
       "source_urls": [
-        "https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem"
-      ],
-      "last_checked": "2026-11-11",
+        "https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem",
+      "https://gritshift.com/products/oem-xe-pro-left-hand-control-switch"
+    ],
+      "last_checked": "2026-11-13",
       "notes": "CCW description names Arctic Leopard XE only; shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
       "image": null
     },

@@ -2710,14 +2710,20 @@
       "stock_status": "in_stock",
       "notes": "CCW title/variants name(s) komodo exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43",
+      "https://gritshift.com/products/rfloxa-tk43-front-fork-suspension-kit-talaria-komodo"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 1590.0,
           "buy_url": "https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/rfloxa-tk43-front-fork-suspension-kit-talaria-komodo",
+          "price_usd": 1589.99,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43.webp"
@@ -2991,14 +2997,20 @@
       "stock_status": "in_stock",
       "notes": "CCW fitment text name(s) ventus-evo exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
       "source_urls": [
-        "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
-      ],
-      "last_checked": "2026-11-10",
+        "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork",
+      "https://gritshift.com/products/tech-suspension-e39-racing-kashima-fork-e-moto"
+    ],
+      "last_checked": "2026-11-13",
       "vendors": [
         {
           "vendor": "Charged Cycle Works",
           "price_usd": 1699.0,
           "buy_url": "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/tech-suspension-e39-racing-kashima-fork-e-moto",
+          "price_usd": 1699,
+          "vendor": "GritShift"
         }
       ],
       "image": "img/parts/chargedcycleworks-tech-suspension-e39-racing-kashima-fork.webp"

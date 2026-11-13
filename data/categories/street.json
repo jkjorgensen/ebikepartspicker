@@ -48,15 +48,21 @@
       "power_change_kw": null,
       "is_upgrade": true,
       "source_urls": [
-        "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
-      ],
-      "last_checked": "2026-10-12",
+        "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit",
+      "https://gritshift.com/products/ebike-turn-signal-kit"
+    ],
+      "last_checked": "2026-11-13",
       "notes": "Price verified $169.99 at TB Electric Moto, in stock. Kit includes front/rear turn signals and tail/brake lights. Not bike-specific \u2014 confirm the exact harness and electrical compatibility per bike.",
       "vendors": [
         {
           "vendor": "TB Electric Moto",
           "price_usd": 169.99,
           "buy_url": "https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/ebike-turn-signal-kit",
+          "price_usd": 189.89,
+          "vendor": "GritShift"
         }
       ],
       "weight_delta_kg": null,
@@ -330,9 +336,10 @@
       "stock_status": "in_stock",
       "notes": "Fitment from the seller listing title; other bikes not verified.",
       "source_urls": [
-        "https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only"
-      ],
-      "last_checked": "2026-10-27",
+        "https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only",
+      "https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4"
+    ],
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
@@ -348,6 +355,11 @@
           "vendor": "TB Electric Moto",
           "price_usd": 19.0,
           "buy_url": "https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4",
+          "price_usd": 19.99,
+          "vendor": "GritShift"
         }
       ],
       "weight_delta_kg": null,
@@ -366,9 +378,10 @@
       "stock_status": "in_stock",
       "notes": "Fitment from the seller listing title; other bikes not verified.",
       "source_urls": [
-        "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5"
-      ],
-      "last_checked": "2026-10-27",
+        "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5",
+      "https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4"
+    ],
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
@@ -384,6 +397,11 @@
           "vendor": "Charged Cycle Works",
           "price_usd": 19.99,
           "buy_url": "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4",
+          "price_usd": 19.99,
+          "vendor": "GritShift"
         }
       ],
       "weight_delta_kg": null,
@@ -402,9 +420,10 @@
       "stock_status": "in_stock",
       "notes": "Fitment from the seller listing title; other bikes not verified.",
       "source_urls": [
-        "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5"
-      ],
-      "last_checked": "2026-10-27",
+        "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5",
+      "https://gritshift.com/products/talaria-blinder-led-light-bar-headlight"
+    ],
+      "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
       "_fit": {
@@ -420,6 +439,11 @@
           "vendor": "Charged Cycle Works",
           "price_usd": 32.99,
           "buy_url": "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/talaria-blinder-led-light-bar-headlight",
+          "price_usd": 32.99,
+          "vendor": "GritShift"
         }
       ],
       "weight_delta_kg": null,
