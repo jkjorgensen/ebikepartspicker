@@ -99,7 +99,8 @@
     var oldSizes = img.getAttribute('sizes');
     img.setAttribute('sizes', '(max-width: 900px) 200vw, 1600px'); /* sharper photo once it is zoomed */
     var card = mk('mo-card', '', stage, stage.firstChild);
-    var word = mk('mo-word', '<span>PART BY PART&nbsp;&nbsp;PART BY PART</span>', stage, img);
+    var word = mk('mo-word', '<span>PART</span> <span>BY</span> <span>PART</span>', stage, img); /* exactly once, sized to fit (motion.css) */
+    var sh = function () { return (mobile ? 0.05 : 0.08) * window.innerWidth; };
     var sweep = mk('mo-sweep', '', stage);
     var caps = mk('mo-caps', (name ? '<div class="mo-cap mo-cap0">' + name.replace(/[<>&]/g, '') + '</div>' : '') +
       '<div class="mo-cap mo-cap1"><i></i>Real parts.</div><div class="mo-cap mo-cap2"><i></i>Real prices.</div><div class="mo-cap mo-cap3"><i></i>Real fitment.</div>', stage);
@@ -110,12 +111,13 @@
     var vw = function () { return window.innerWidth; };
     gsap.set([card, img], { transformPerspective: 1100 });
     gsap.set(sweep, { skewX: -18 });
+    gsap.set(word, { yPercent: -50 });
 
     /* a) tilt up out of the page as the stage scrolls into view */
     var pre = gsap.timeline({ defaults: { ease: 'none' }, scrollTrigger: { trigger: pin, start: 'top bottom', end: 'top top', scrub: true, invalidateOnRefresh: true } });
     pre.fromTo(card, { rotationX: 38, scale: 0.72, y: 120, opacity: 0.4 }, { rotationX: 0, scale: 1, y: 0, opacity: 1, ease: 'power2.out' }, 0)
        .fromTo(img, { rotationX: 30, rotation: -9, scale: 0.78, y: 160, opacity: 0.25 }, { rotationX: 0, rotation: -4, scale: 1, y: 0, opacity: 0.6, ease: 'power2.out' }, 0)
-       .fromTo(word, { xPercent: 28, opacity: 0 }, { xPercent: 12, opacity: 0.55 }, 0);
+       .fromTo(word, { x: function () { return 2 * sh(); }, opacity: 0 }, { x: sh, opacity: 0.55 }, 0);
 
     /* b) pinned (CSS sticky) reveal over the length of .hero-pin */
     var s1 = mobile ? 1.65 : 1.45, s2 = mobile ? 3.6 : 3.0;
@@ -126,7 +128,7 @@
       .to(rail.firstChild, { scaleX: 1, duration: 1 }, 0)
       .to(card, { scale: cover, ease: 'power2.inOut', duration: 0.38 }, 0)
       .to(img, { scale: s1, rotation: 0, opacity: 1, yPercent: mobile ? 0 : 4, ease: 'power2.inOut', duration: 0.38 }, 0)
-      .fromTo(word, { xPercent: 12 }, { xPercent: -62, duration: 0.9 }, 0)
+      .fromTo(word, { x: sh }, { x: function () { return -sh(); }, duration: 0.9 }, 0)
       .to(word, { opacity: 1, duration: 0.2 }, 0.05)
       .fromTo(sweep, { x: function () { return -0.6 * vw(); } }, { x: function () { return 1.4 * vw(); }, ease: 'power1.inOut', duration: 0.3 }, 0.14)
       .fromTo(sweep, { opacity: 0 }, { opacity: 1, duration: 0.06, yoyo: true, repeat: 1, repeatDelay: 0.18 }, 0.14);

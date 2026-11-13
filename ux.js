@@ -204,7 +204,21 @@ function closePicker(){ if(pickCard){ pickCard.hidden = true; } }
 function maybeFirstVisit(){
   if(myBike() || lsGet('pickDone', 0)) return;
   if(/^#\{|^#%7B/i.test(location.hash)) return; /* opened a shared build: don't interrupt */
-  setTimeout(function(){ if(!myBike() && !lsGet('pickDone',0) && !$('[data-ux-pagebike]') && !/^\/parts\//.test(location.pathname) && !$('.modal-overlay:not([hidden])')) (IDX||typeof BIKES!=='undefined' ? Promise.resolve() : loadIndex()).then(function(){ openPicker(false); }); }, 900);
+  var fired = false;
+  function go(){ if(fired) return; fired = true; cleanup();
+    setTimeout(function(){ if(!myBike() && !lsGet('pickDone',0) && !$('[data-ux-pagebike]') && !/^\/parts\//.test(location.pathname) && !$('.modal-overlay:not([hidden])')) (IDX||typeof BIKES!=='undefined' ? Promise.resolve() : loadIndex()).then(function(){ openPicker(false); }); }, 900); }
+  /* Home page: don't cover the hero intro. Wait until the visitor has scrolled past the hero
+     (Popular bikes in view), or leaves the start page for the builder, or ~20s with no scrolling. */
+  var start = $('#start'), pop = start && $('.popular', start), io = null, mo = null, idle = 0;
+  function cleanup(){ if(io) io.disconnect(); if(mo) mo.disconnect(); clearTimeout(idle); window.removeEventListener('scroll', onScroll); }
+  function onHome(){ return start && !start.hidden && start.offsetParent !== null; }
+  function past(){ var r = pop.getBoundingClientRect(); return r.top < window.innerHeight * 0.7; }
+  function onScroll(){ if(!onHome()) return go(); if(past()) go(); }
+  if(!pop || !$('.hero-pin', start) || !onHome()) return go();
+  if('IntersectionObserver' in window){ io = new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting && past()) go(); }); }, { threshold: [0, .1, .3, .6] }); io.observe(pop); }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  mo = new MutationObserver(function(){ if(!onHome()) go(); }); mo.observe(start, { attributes: true, attributeFilter: ['hidden'] });
+  (function wait(){ idle = setTimeout(function(){ if((window.scrollY || 0) < 40) go(); else wait(); }, 20000); })();
 }
 
 /* ---------- static pages: "Fits your bike" from generator data only ---------- */
