@@ -1,4 +1,4 @@
-/* eBikePartsPicker premium scroll motion v4 (2026-11-12), driven by motion.js.
+/* eBikePartsPicker cinematic scroll motion v5 (2026-11-12), driven by motion.js.
    Everything sits behind html.mo-on, which motion.js only adds when GSAP, ScrollTrigger and Lenis
    have loaded and the user does NOT prefer reduced motion. No JS = static page. */
 html.lenis,html.lenis body{height:auto}
@@ -7,17 +7,62 @@ html.lenis,html.lenis body{height:auto}
 .lenis [data-lenis-prevent]{overscroll-behavior:contain}
 .lenis.lenis-smooth iframe{pointer-events:none}
 
-/* hero: longer pin so the scrubbed zoom has room; the popular grid rises over the zoomed bike */
-.mo-on .hero-pin{height:290vh}
-.mo-on .hero-pin .herostage{transform-origin:50% 50%;will-change:transform,opacity,border-radius;backface-visibility:hidden}
-.mo-on .hero-pin .herostage .hero{transform-origin:50% 56%;will-change:transform}
-.mo-on .popular{position:relative;z-index:2;margin-top:-62vh}
-.mo-on .start .display,.mo-on .start .tagline,.mo-on .start .eyebrow{will-change:transform,opacity}
-.mo-vig{position:absolute;inset:0;z-index:2;pointer-events:none;opacity:0;border-radius:inherit;
-  background:radial-gradient(120% 90% at 50% 50%,transparent 40%,#07090c 100%)}
+/* headline letters (split by motion.js) */
+.mo-on .display .mo-wd{display:inline-block;white-space:nowrap}
+.mo-on .display .mo-c{display:inline-block;background:none;padding:0;color:inherit;will-change:transform,opacity}
+.mo-on .start .tagline,.mo-on .start .eyebrow{will-change:transform,opacity}
+
+/* hero: a full-screen sticky stage over a long scroll; the studio card grows to fill it */
+.mo-on .hero-pin{height:380vh;width:calc(100% + 48px);max-width:none;margin-top:0}
+.mo-on .hero-pin .herostage{position:sticky;top:0;width:100%;height:100vh;height:100svh;aspect-ratio:auto;
+  border-radius:0;background:none;box-shadow:none;overflow:hidden;display:flex;align-items:center;justify-content:center;perspective:1100px}
+.mo-on .hero-pin .herostage .hero{position:relative;z-index:3;width:min(780px,90vw);height:auto;aspect-ratio:16/10;
+  transform-origin:50% 56%;will-change:transform,opacity;backface-visibility:hidden}
+.mo-on .hz-glow{z-index:1}
+.mo-on .hz-floor{z-index:2}
+.mo-card{position:absolute;left:50%;top:50%;z-index:0;width:min(780px,90vw);aspect-ratio:16/10;margin:calc(min(780px,90vw) * -.3125) 0 0 calc(min(780px,90vw) * -.5);
+  border-radius:24px;background:var(--studio);box-shadow:0 30px 80px #000a;will-change:transform,opacity;backface-visibility:hidden}
+.mo-word{position:absolute;left:0;top:50%;z-index:1;margin-top:-.55em;white-space:nowrap;pointer-events:none;
+  font:700 clamp(110px,19vw,300px)/1.1 var(--display);letter-spacing:-.04em;color:transparent;
+  -webkit-text-stroke:2px #C6F028;opacity:0;will-change:transform,opacity}
+.mo-sweep{position:absolute;top:-20%;left:0;z-index:4;width:34vw;height:140%;pointer-events:none;opacity:0;
+  background:linear-gradient(90deg,transparent,#ffffff10 30%,#ffffff38 50%,#c6f02822 62%,transparent);will-change:transform,opacity}
+.mo-caps{position:absolute;inset:0;z-index:5;pointer-events:none}
+.mo-cap{position:absolute;display:flex;align-items:center;gap:12px;opacity:0;will-change:transform,opacity;
+  font:700 clamp(26px,3.6vw,52px)/1 var(--display);letter-spacing:-.03em;color:#f2f5f3;text-shadow:0 6px 30px #000c}
+.mo-cap i{width:12px;height:12px;border-radius:50%;background:#C6F028;box-shadow:0 0 24px #C6F028;flex:none}
+.mo-cap0{left:0;right:0;justify-content:center;top:9%;font:600 12px/1 var(--body);letter-spacing:5px;text-transform:uppercase;color:#C6F028;white-space:nowrap}
+.mo-cap1{left:7%;top:20%}
+.mo-cap2{right:7%;top:46%}
+.mo-cap3{left:12%;bottom:15%}
+.mo-rail{position:absolute;left:50%;bottom:28px;z-index:6;width:min(220px,40vw);height:2px;margin-left:calc(min(220px,40vw) / -2);background:#ffffff1f;border-radius:2px;overflow:hidden}
+.mo-rail span{display:block;height:100%;background:#C6F028;transform:scaleX(0);transform-origin:0 50%;box-shadow:0 0 12px #C6F028}
+.mo-hint{position:absolute;left:0;right:0;text-align:center;bottom:44px;z-index:6;font:600 11px/1 var(--body);letter-spacing:4px;text-transform:uppercase;color:#9fa8b1}
+.mo-on .popular{position:relative;z-index:7;margin-top:-62vh}
+
+/* Popular cards fly in with depth (motion.js), so skip the hover transition that would fight the scrub */
+.mo-on .pop-grid{perspective:1200px}
+html.mo-on .pop-grid>.pop-card{transition:border-color .15s,box-shadow .2s;will-change:transform,opacity}
+.mo-on .pop-card:hover,.mo-on .pop-card:focus-visible{box-shadow:0 0 0 1px var(--accent),0 18px 40px #0009}
+html.mo-on .pop-title{position:relative;top:auto;background:none;font-size:clamp(30px,4.4vw,54px);line-height:1.15;letter-spacing:-1.2px;overflow:hidden;padding:4px 0 .12em}
+.mo-on .pop-title .w{will-change:transform,opacity}
+
+/* two-row type marquee */
+.mo-marq{width:100vw;margin:clamp(40px,8vh,90px) 0 0;overflow:hidden;pointer-events:none;will-change:transform}
+.mo-row{white-space:nowrap;font:700 clamp(56px,11vw,170px)/1.02 var(--display);letter-spacing:-.04em;text-transform:uppercase;color:#f2f5f3}
+.mo-row span{display:inline-block;will-change:transform}
+.mo-row2{color:transparent;-webkit-text-stroke:2px #C6F028}
+
 @media (max-width:779px){
-  .mo-on .hero-pin{height:175vh}
+  .mo-on .hero-pin{height:300vh}
   .mo-on .popular{margin-top:-48vh}
+  .mo-word{-webkit-text-stroke:1.5px #C6F028;font-size:clamp(96px,30vw,200px)}
+  .mo-cap{font-size:clamp(24px,7.4vw,34px)}
+  .mo-cap1{left:6%;top:15%}
+  .mo-cap2{right:6%;top:auto;bottom:30%}
+  .mo-cap3{left:6%;bottom:14%}
+  .mo-cap0{top:8%;letter-spacing:4px}
+  .mo-row2{-webkit-text-stroke:1.5px #C6F028}
 }
 
 /* volt glow that eases toward the hovered card (hover devices only, added by motion.js) */
@@ -29,5 +74,5 @@ html.lenis,html.lenis body{height:auto}
 @media (prefers-reduced-motion: reduce){
   .mo-on .hero-pin{height:auto}
   .mo-on .popular{margin-top:34px}
-  .mo-glow,.mo-vig{display:none}
+  .mo-glow,.mo-card,.mo-word,.mo-sweep,.mo-caps,.mo-rail,.mo-hint,.mo-marq{display:none}
 }
