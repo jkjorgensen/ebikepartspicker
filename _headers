@@ -28,8 +28,10 @@
 /*.css
   Cache-Control: public, max-age=604800, must-revalidate
 
+# Unversioned /data.js must revalidate immediately so deploys are not
+# stuck behind a 7-day CDN cache (index.html already uses data.js?v=).
 /data.js
-  Cache-Control: public, max-age=604800, must-revalidate
+  Cache-Control: public, max-age=0, must-revalidate
 
 /search-index.json
   Cache-Control: public, max-age=86400, must-revalidate
