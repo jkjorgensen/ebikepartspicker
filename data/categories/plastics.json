@@ -26,8 +26,7 @@
       "power_change_kw": 0,
       "is_upgrade": true,
       "source_urls": [
-        "https://tbelectricmoto.com/products/guts-custom-seat-cover",
-        "https://www.zynxdesigns.us/products/guts-seat-cover-for-surron-light-bee-79bike"
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
       ],
       "last_checked": "2026-10-11",
       "notes": "Made to order \u2014 pick bike + colors",
@@ -4902,6 +4901,16 @@
     },
     {
       "product_id": "guts-seat-cover",
+      "bike_id": "ss40",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Made to order per bike"
+    },
+    {
+      "product_id": "guts-seat-cover",
       "bike_id": "sr",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -4965,6 +4974,36 @@
       "required_adapters": null,
       "fitment_source_urls": [],
       "notes": "Confirm cover pattern with vendor"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller fitment list names Arctic Leopard XE Pro S / Pro S Enduro / Pro R"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Fitment list on product page names the bike: \"...XE, XB Tasaca : T500, T500 Pro Valtinsu : EM-5, EM-5 Pro Altis : Sigma, Sigma MX, Delta P51 : Ace, Bullet, Roa...\" (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "guts-seat-cover",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Fitment list on product page names the bike: \"...Honda : CRF-E2 NIU : XQi3 Juiced : Scrambler Tuttio : Soleil01 Vetra : Blazer HeyBike : Villain Fr...\" (checked Nov 11, 2026)"
     },
     {
       "product_id": "luna-float-seat",
@@ -5991,16 +6030,6 @@
         "https://chargedcycleworks.com/products/u-lock-latch-ventus-oem"
       ],
       "notes": "CCW body: 'Replacement Latch for Ventus One and Ventus One +'. Checked 2026-11-10."
-    },
-    {
-      "product_id": "guts-seat-cover",
-      "bike_id": "arctic-leopard-xe-pro-s",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
-      ],
-      "notes": "Seller fitment list names Arctic Leopard XE Pro S / Pro S Enduro / Pro R"
     },
     {
       "product_id": "plastics-odi-downhill-e-bike-number-plate",
@@ -7126,42 +7155,6 @@
         "https://chargedcycleworks.com/products/ultra-bee-rear-fender-rtech"
       ],
       "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
-    },
-    {
-      "product_id": "guts-seat-cover",
-      "bike_id": "altis-delta",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
-      ],
-      "notes": "Fitment list on product page names the bike: \"...XE, XB Tasaca : T500, T500 Pro Valtinsu : EM-5, EM-5 Pro Altis : Sigma, Sigma MX, Delta P51 : Ace, Bullet, Roa...\" (checked Nov 11, 2026)"
-    },
-    {
-      "product_id": "guts-seat-cover",
-      "bike_id": "tuttio-soleil01",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
-      ],
-      "notes": "Fitment list on product page names the bike: \"...Honda : CRF-E2 NIU : XQi3 Juiced : Scrambler Tuttio : Soleil01 Vetra : Blazer HeyBike : Villain Fr...\" (checked Nov 11, 2026)"
-    },
-    {
-      "product_id": "guts-seat-cover",
-      "bike_id": "arctic-xd",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
-    },
-    {
-      "product_id": "guts-seat-cover",
-      "bike_id": "bonnell-805rx",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
     }
   ]
 }

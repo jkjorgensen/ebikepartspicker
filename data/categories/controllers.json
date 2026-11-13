@@ -1078,6 +1078,146 @@
         "https://chargedcycleworks.com/products/ventus-aetos-ultra-controller"
       ],
       "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": "Ultra Bee harness variant out of stock as of 2026-10-12"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": "E Ride Pro variant is $90"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": "E Ride Pro variant is $90"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": "E Ride Pro variant is $90"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "ventus-plus",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "notes": ""
     }
   ],
   "products": [
@@ -2388,6 +2528,34 @@
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_controller-mainline-kh"
         }
       ]
+    },
+    {
+      "id": "vtb-aetos-gen2-harness",
+      "name": "VTB Aetos Gen.2 Bike-Specific Harness Kit",
+      "brand": "VTB",
+      "category": "controller",
+      "price_usd": 60.0,
+      "vendor": "TB Electric Moto",
+      "buy_url": "https://tbelectricmoto.com/products/ventus-aetos-harness-kits",
+      "tier": "accessory",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Harness-only; no controller included. Only for Gen.2 / 1.7 controllers (Aetos Pro, Max, Ultra). Bike-specific variants: Light Bee $60, Ultra Bee $60 (variant out of stock as of check), Talaria MX3/4/5 $60, E Ride Pro SS 2.0/3.0/SR $90.",
+      "source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+      ],
+      "last_checked": "2026-10-12",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 60.0,
+          "buy_url": "https://tbelectricmoto.com/products/ventus-aetos-harness-kits"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/vtb-aetos-gen2-harness.webp"
     }
   ]
 }
