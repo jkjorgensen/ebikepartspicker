@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse,re
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.net'; V='4.16.1'; IMGV='4.5.0'; TODAY='2026-11-12'
+BASE='https://ebikepartspicker.net'; V='4.16.2'; IMGV='4.5.0'; TODAY='2026-11-12'
 # PWA service-worker registration snippet (plain string, NOT an f-string:
 # its braces would break the page() f-string below).
 SWREG="<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>"

@@ -518,7 +518,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-al-xe-pro-charger-artic-leopard-xe-pro-oem.webp",
+      "image": null,
       "_fit": {
         "Arctic Leopard XE Pro S": "verify",
         "Arctic Leopard XE Pro R": "direct_fit",

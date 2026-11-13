@@ -2601,7 +2601,7 @@
       ],
       "weight_kg": null,
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s-enduro-r.webp",
+      "image": null,
       "_fit": {
         "Arctic Leopard XE Pro S": "direct_fit",
         "Arctic Leopard XE Pro R": "direct_fit"

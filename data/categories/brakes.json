@@ -3044,7 +3044,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem.webp",
+      "image": null,
       "_fit": {
         "Arctic Leopard XE Pro S": "verify"
       }
@@ -3076,7 +3076,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-arctic-leopard-xe-pro-oem-rear-brake-rotor.webp",
+      "image": null,
       "_fit": {
         "Arctic Leopard XE Pro S": "direct_fit"
       }
@@ -3108,7 +3108,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-arctic-leopard-xe-xf-brake-lever-front-rear-oem.webp",
+      "image": null,
       "_fit": {
         "Arctic Leopard XE Pro S": "verify",
         "Arctic Leopard XF": "direct_fit"
@@ -3141,7 +3141,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro.webp",
+      "image": null,
       "_fit": {
         "Arctic Leopard XE Pro S": "direct_fit"
       }
