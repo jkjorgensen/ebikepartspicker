@@ -1,4 +1,4 @@
-/* eBikePartsPicker catalog. Catalog v4.15.9, last researched 2026-11-11.
+/* eBikePartsPicker catalog. Catalog v4.16.1, last researched 2026-11-11.
    46 bikes / 23 categories / 1981 parts (1975 listed, 6 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
@@ -71,6 +71,7 @@ var FITMENT = {
   'warp9-emoto-318-handlebar|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 lists this bar in its Surron Light Bee 2 collection; LB2 uses a 31.8mm clamp (checked Nov 4, 2026)',u:['https://warp9racing.com/collections/surron-light-bee-2', 'https://radmotousa.com/blogs/news/surron-light-bee-2-parts-fitment-guide']},
   'warp9-elite-pegs|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)',u:['https://warp9racing.com/products/e-moto-elite-foot-pegs']},
   'warp9-pegs-lbx-ventus|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)',u:['https://warp9racing.com/products/surron-foot-pegs']},
+  'chargedcycleworks-warp9-foot-pegs-for-surron-segway|lightbee2':{s:'confirmed_direct_fit',n:'Warp 9 listing for these pegs names the Light Bee 2 (checked Nov 4, 2026)',u:['https://warp9racing.com/products/surron-foot-pegs']},
   'mika-pro-118-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee 2023\u20132025 (checked Nov 4, 2026)',u:['https://adventurepartsllc.com/products/mika-metals-pro-series-1-1-8-oversize-handlebars-sur-ron-storm-bee-2023-2025']},
   'tusk-chub-118-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee 2023\u20132025 (checked Nov 4, 2026)',u:['https://adventurepartsllc.com/products/tusk-chub-1-1-8-big-bar-sur-ron-storm-bee-2023-2025']},
   'mxps-billet-pegs-stormbee|storm-bee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Storm Bee (checked Nov 4, 2026)',u:['https://mxpartshop.com/products/mx-billet-footpegs-footrest-for-sur-ron-storm-bee']},
@@ -81,6 +82,7 @@ var FITMENT = {
   'guts-seat-cover|ultrabee':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ss20':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ss30':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'guts-seat-cover|ss40':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|sr':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ventus-plus':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ventus-evo':{s:'verify',n:'TB page lists Ventus One / One Plus only - no EVO evidence (downgraded Nov 11, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
@@ -531,6 +533,14 @@ var CATEGORIES = [
      ],
      fits:["lightbee","ultrabee","mx4"], likely:["ss40","storm-bee","komodo","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd","mx5","sr","ss20","ss30"], no:[],
      ctrlMaxKw:76, stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-aetos-pro.webp'
+    },
+    {name:'VTB Aetos Gen.2 Bike-Specific Harness Kit', pid:'vtb-aetos-gen2-harness', hidden:1, /* moved to Electrical as vtb-aetos-gen2-harness-kit */ tier:'accessory',
+     prices:[
+      {v:'TB Electric Moto', p:60, url:'https://tbelectricmoto.com/products/ventus-aetos-harness-kits', chk:'2026-10-18'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["lightbee","ultrabee","mx4","mx5","ss20","ss30","sr"], likely:["ss40","storm-bee","komodo","ventus-plus","ventus-evo","bonnell-805rx","arctic-xd"], no:[],
+     stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-aetos-gen2-harness.webp'
     },
     {name:'Storm Bee FOC Sine Wave Controller', pid:'stormbee-controller-oem', hidden:1, /* retired: only seller was a copycat store */ tier:'OEM',
      prices:[
@@ -4394,7 +4404,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:79.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover', chk:'2026-10-18'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['altis-delta','arctic-leopard-xe-pro-s','lightbee','mx4','mx5','sr','ss20','ss30','tuttio-soleil01','ultrabee','ventus-plus'], likely:['arctic-xd','bonnell-805rx','komodo','storm-bee','ventus-evo'], no:['zero-xe'],
+     fits:['altis-delta','arctic-leopard-xe-pro-s','lightbee','mx4','mx5','sr','ss20','ss30','ss40','tuttio-soleil01','ultrabee','ventus-plus'], likely:['komodo','storm-bee','ventus-evo'], no:[],
      badge:'Guts', variant:'custom', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/guts-seat-cover.webp'
     },
     {name:'Luna Float Seat', pid:'luna-float-seat', tier:'budget',
@@ -8747,7 +8757,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:60, url:'https://tbelectricmoto.com/products/ventus-aetos-harness-kits', chk:'2026-10-18'},
      ],
-     fits:['lightbee','mx4','mx5','sr','ss20','ss30','ultrabee'], likely:['arctic-xd','bonnell-805rx','komodo','ss40','storm-bee','ventus-evo','ventus-plus'], no:[],
+     fits:["lightbee","ultrabee","mx4","mx5"], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/vtb-aetos-gen2-harness.webp'
     },
       {name:'Talaria Sting MX4 and XXX OEM Replacement Display', pid:'tbelectricmoto-talaria-sting-oem-replacement-display', tier:'OEM',
@@ -10931,7 +10941,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway', chk:'2026-10-18'},
      ],
-     fits:['lightbee','lightbee2'], likely:['sr','ss20','ss30','ventus-evo'], no:[],
+     fits:['lightbee2','lightbee','ventus-plus'], likely:['ventus-evo','ss20','ss30','sr'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp'
     },
       {name:'Surron Light Bee - OEM Foot Peg Connection Assembly', pid:'chargedcycleworks-surron-light-bee-pedal-connection-bracket-pair', tier:'OEM',
@@ -11010,6 +11020,13 @@ var CATEGORIES = [
      ],
      fits:["ventus-plus"], likely:[], no:[],
      badge:'Pegs', stock:'out_of_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-ventus-foot-peg-mounting-bracket-ventus-oem.webp'
+    },
+    {name:'Warp9 Foot Pegs for Surron Light Bee, Ventus One, and E Ride Pro', pid:'chargedcycleworks-warp9-foot-pegs-for-surron-segway', tier:'mid',
+     prices:[
+      {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway', chk:'2026-10-27'},
+     ],
+     fits:["lightbee2","lightbee"], likely:["ventus-plus"], no:[],
+     badge:'Pegs', stock:'in_stock', stockChk:'2026-10-27', img:'img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp'
     },
     {name:'Bonnell 805 - Footpeg Mount | Left & Right', pid:'pegs-bonnell-805-rx-footpeg-mount', tier:'OEM',
      prices:[
@@ -11433,6 +11450,14 @@ var CATEGORIES = [
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-11'
+    },
+    {name:'Guts Seat Cover - Sur-Ron Light Bee', pid:'seat-guts-lightbee-cover', tier:'premium',
+     prices:[
+      {v:'TB Electric Moto', p:79.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover', chk:'2026-10-18'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:["lightbee","mx4","mx5","sr","ss20","ss30","ultrabee","ventus-plus"], likely:["arctic-xd","bonnell-805rx","ss40","storm-bee","komodo","ventus-evo"], no:[],
+     badge:'Seat Cover', variant:'custom', stock:'in_stock', stockChk:'2026-10-18', img:'img/parts/seat-guts-lightbee-cover.webp'
     },
     {name:'SHE8022 Long Seat Kit - SS2.0 / SS3.0 / SR', pid:'seat-eride-long-kit', tier:'premium',
      prices:[
@@ -12491,7 +12516,7 @@ var CATEGORIES = [
      prices:[
       {v:'VORO Motors', p:49.95, url:'https://voromotors.com/products/cst-80-100-19-tire-for-e-ride-pro-ss', chk:'2026-10-18'},
      ],
-     fits:["ss20"], likely:["ss30"], no:[],
+     fits:["ss20"], likely:["ss30", "supermach-sm01"], no:[],
      badge:'OEM', stock:'out_of_stock', stockChk:'2026-10-18', img:'img/parts/voro-eride-ss-cst-80100-19.webp'
     },
     {name:"Altis Sigma OEM Tire (19\" F $45 / 19\" R $50 / 16\" R $55)", pid:'voro-altis-sigma-tire', tier:'OEM',
@@ -14333,6 +14358,7 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'guts-seat-cover|ultrabee':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ss20':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ss30':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'guts-seat-cover|ss40':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|sr':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ventus-plus':{s:'confirmed_direct_fit',n:'Made to order per bike',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'guts-seat-cover|ventus-evo':{s:'verify',n:'TB page lists Ventus One / One Plus only - no EVO evidence (downgraded Nov 11, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
@@ -14378,6 +14404,7 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'sirris-r46-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee (checked Oct 18, 2026)',u:['https://chargedcycleworks.com/products/sirris-r46-shock-for-surron-ultra-bee']},
   'ion-18-21-ultrabee|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee (checked Oct 18, 2026)',u:['https://chargedcycleworks.com/products/ion-ultra-bee-18-21-wheelset']},
   'warp9-3in-rise|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)',u:['https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria']},
+  'seat-guts-lightbee-cover|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'charged-brake-pads-emoto|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
   'kke-37mm-fork-kit|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)',u:['https://howlingmoto.com/products/kke-37mm-aluminum-front-fork-suspension-kit-fit-surron-light-bee-e-ride-pro-ss-talaria-sting-mx3-mx4-r-collective']},
   'sirris-f43-cmx-light-bee|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)',u:['https://revrides.com/products/sirris-f43-220mm-fork-cmx-tune-tool-free-lsc-surron-light-bee-x']},
@@ -14416,6 +14443,7 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'warp9-1619|mx5':{s:'confirmed_fit_with_modifications',n:'CCW: Talaria needs an adapter, which voids the Warp 9 wheel warranty; Talaria-specific wheels are sold separately',u:['https://chargedcycleworks.com/products/16-19-complete-wheel-tire-combo-warp9']},
   /* owner-verified: Josh (site owner) runs these on his own Ventus One Plus */
   'warp9-1619|ventus-plus':{s:'confirmed_direct_fit',ov:1,n:'Owner-verified install (site owner\'s bike), Oct 18, 2026',u:[]},
+  'warp9-pegs-lbx-ventus|ventus-plus':{s:'confirmed_direct_fit',ov:1,n:'Owner-verified install (site owner\'s bike), Oct 18, 2026',u:[]},
   /* fitment audit Oct 18, 2026: every fits/likely bike checked against the seller listing text */
   'ebmx-xlb-60|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor']},
   'ebmx-xlb-60|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/ebmx-xlb-60-core-motor']},
@@ -14710,6 +14738,13 @@ Object.assign(FITMENT, { /* later research batch (supersedes entries above) */
   'pegs-ultrabee-oem-brackets|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://voromotors.com/products/foot-pegs-with-mounts-for-ultra-bee']},
   'pegs-ventus-lbx|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://ventusbikes.us/products/surron-lbx-foot-pegs-collective']},
   'warp9-pegs-lbx-ventus|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway']},
+  'seat-guts-lightbee-cover|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-guts-lightbee-cover|mx5':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-guts-lightbee-cover|sr':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-guts-lightbee-cover|ss20':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-guts-lightbee-cover|ss30':{s:'confirmed_direct_fit',n:'Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-guts-lightbee-cover|ultrabee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
+  'seat-guts-lightbee-cover|ventus-plus':{s:'confirmed_direct_fit',n:'Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/guts-custom-seat-cover']},
   'seat-talaria-mx34-oem|mx4':{s:'confirmed_direct_fit',n:'Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)',u:['https://zealracing.com/products/seat-r-mx4']},
   'street-lightbee-street-kit|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit']},
   'street-tusk-signal-kit|lightbee':{s:'confirmed_direct_fit',n:'Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)',u:['https://tbelectricmoto.com/products/tusk-plug-and-play-turn-signal-kit']},
@@ -14861,7 +14896,7 @@ Object.assign(FITMENT,{
   'armysctv-talaria-custom|zero-xe':{s:'not_compatible',n:'Evidence listing is Talaria MX3/MX4 specific',u:['https://armysctv.com/en/products/kit-deco-100-perso-talaria-sting-mx3-r-mx4']},
   'ecr-graphics-talaria|zero-xe':{s:'not_compatible',n:'Evidence listing is Talaria MX3/MX4 specific',u:['https://parts.electriccyclerider.com/products/180-decals-graphics-for-talaria-sting-mx3-mx4']},
   'rawrr-mantis-graphic-kit|zero-xe':{s:'not_compatible',n:'Evidence listing is Rawrr Mantis specific',u:['https://www.riderawrr.com/product/mantis-graphic-kit']},
-  'guts-seat-cover|zero-xe':{s:'not_compatible',n:'Evidence listing is for Sur-Ron Light Bee only',u:['https://www.zynxdesigns.us/products/guts-seat-cover-for-surron-light-bee-79bike']},
+  'seat-guts-lightbee-cover|zero-xe':{s:'not_compatible',n:'Evidence listing is for Sur-Ron Light Bee only',u:['https://www.zynxdesigns.us/products/guts-seat-cover-for-surron-light-bee-79bike']},
   'seat-eride-long-kit|zero-xe':{s:'not_compatible',n:'Evidence listing is E Ride Pro SS2.0/SS3.0/SR specific',u:['https://www.eridepro.com/products/she8022-long-seat-kits']},
   'seat-talaria-mx34-oem|zero-xe':{s:'not_compatible',n:'Evidence listing is Talaria MX3/MX4 specific seat',u:['https://zealracing.com/products/seat-r-mx4']},
   'street-lightbee-street-kit|zero-xe':{s:'not_compatible',n:'Evidence listing is for Sur-Ron Light Bee X only',u:['https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit']},
@@ -18847,4 +18882,5 @@ Object.assign(FITMENT, { /* Grok leftovers research 2026-11-11 - 8 bikes, 1,357 
   'ventus-ultrabee-96v-56ah|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah']},
   'vtb-41kw-ultra-bee|ultrabee-21kw':{s:'verify',n:'Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/ventus-41-kw-ultra-bee-motor']},
   'warp9-260mm-bracket-ultrabee|ultrabee-21kw':{s:'confirmed_direct_fit',n:'Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only "Ultra Bee". (checked Nov 11, 2026)',u:['https://chargedcycleworks.com/products/surron-ultra-bee-260mm-front-brake-bracket']},
+  'voro-eride-ss-cst-80100-19|supermach-sm01':{s:'verify',n:'Verify: stock size 80/100-19 per Supermach SM01 spec sheet (sheet lists it for front and rear - confirm). No page names the SM01. (checked Nov 11, 2026)',u:['https://voromotors.com/products/cst-80-100-19-tire-for-e-ride-pro-ss','https://www.supermach.com/products/sm01-6000-electric-off-road-vehicle']},
 });

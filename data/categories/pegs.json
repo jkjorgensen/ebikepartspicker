@@ -670,6 +670,41 @@
       "variant": "custom"
     },
     {
+      "id": "chargedcycleworks-warp9-foot-pegs-for-surron-segway",
+      "name": "Warp9 Foot Pegs for Surron Light Bee, Ventus One, and E Ride Pro",
+      "brand": "Warp9",
+      "category": "pegs",
+      "price_usd": 109.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway",
+      "tier": "mid",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Fitment from the seller listing title; other bikes not verified. Listed for Ventus One; One Plus fit is likely but not confirmed by the seller.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+      ],
+      "last_checked": "2026-10-27",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "_fit": {
+        "Sur-Ron Light Bee X": "direct_fit",
+        "Ventus One Plus": "likely_fit"
+      },
+      "_fit_src": {
+        "lightbee": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+      },
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 109.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
+        }
+      ],
+      "weight_delta_kg": null,
+      "image": "img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp"
+    },
+    {
       "id": "warp9-pegs-lbx-ventus",
       "name": "Warp 9 Foot Pegs (Light Bee / Ventus One / E Ride Pro)",
       "brand": "Warp 9",
@@ -2679,6 +2714,14 @@
       "status": "confirmed_direct_fit"
     },
     {
+      "bike_id": "ventus-plus",
+      "fitment_source_urls": [],
+      "notes": "Owner-verified install (site owner's bike), Oct 18, 2026",
+      "product_id": "warp9-pegs-lbx-ventus",
+      "required_adapters": [],
+      "status": "confirmed_direct_fit"
+    },
+    {
       "bike_id": "lightbee",
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
@@ -2727,6 +2770,16 @@
       "product_id": "warp9-pegs-lbx-ventus",
       "required_adapters": null,
       "status": "verify"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-foot-pegs-for-surron-segway",
+      "bike_id": "lightbee2",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://warp9racing.com/products/surron-foot-pegs"
+      ],
+      "notes": "Warp 9 listing for these pegs names the Light Bee 2 (checked Nov 4, 2026)"
     },
     {
       "product_id": "chargedcycleworks-kke-cnc-footpegs-billet-foot-rest-fit-talaria-sting-mx3-mx4-collective",

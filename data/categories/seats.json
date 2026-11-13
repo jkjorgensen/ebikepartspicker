@@ -1501,6 +1501,36 @@
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_seat-knob-screws"
         }
       ]
+    },
+    {
+      "id": "seat-guts-lightbee-cover",
+      "name": "Guts Seat Cover - Sur-Ron Light Bee",
+      "brand": "Guts Racing",
+      "category": "seats",
+      "badge": "Seat Cover",
+      "tier": "premium",
+      "price_usd": 79.99,
+      "vendor": "Zynx Designs",
+      "buy_url": "https://www.zynxdesigns.us/products/guts-seat-cover-for-surron-light-bee-79bike",
+      "vendors": [
+        {
+          "vendor": "TB Electric Moto",
+          "price_usd": 79.99,
+          "buy_url": "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+        }
+      ],
+      "stock_status": "in_stock",
+      "weight_kg": null,
+      "power_change_kw": null,
+      "is_upgrade": true,
+      "source_urls": [
+        "https://www.zynxdesigns.us/products/guts-seat-cover-for-surron-light-bee-79bike"
+      ],
+      "last_checked": "2026-10-12",
+      "notes": "Price verified $79.99. Gripper cover only - stock or aftermarket seat base required, not a complete seat. Multiple color/rib variants at $79.99.",
+      "variant": "custom",
+      "weight_delta_kg": null,
+      "image": "img/parts/seat-guts-lightbee-cover.webp"
     }
   ],
   "compatibility": [
@@ -2044,6 +2074,134 @@
         "https://chargedcycleworks.com/products/warp9-seat-spacer-surron-ultra-bee"
       ],
       "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "arctic-xd",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "bonnell-805rx",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 3.0 (fitment audit Oct 18, 2026)"
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the E Ride Pro SR (fitment audit Oct 18, 2026)"
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the E Ride Pro SS 2.0 (fitment audit Oct 18, 2026)"
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the Sur-Ron Light Bee (checked Oct 18, 2026)"
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "storm-bee",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the Sur-Ron Ultra Bee 24.5kW (fitment audit Oct 18, 2026)"
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "komodo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the Talaria Sting MX5 Pro (fitment audit Oct 18, 2026)"
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the Talaria Sting R MX4 (fitment audit Oct 18, 2026)"
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "ventus-plus",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/guts-custom-seat-cover"
+      ],
+      "notes": "Seller listing names the Ventus One Plus (fitment audit Oct 18, 2026)"
+    },
+    {
+      "product_id": "seat-guts-lightbee-cover",
+      "bike_id": "ventus-evo",
+      "status": "verify",
+      "required_adapters": null,
+      "fitment_source_urls": [],
+      "notes": ""
     }
   ]
 }
