@@ -13272,24 +13272,21 @@ var CATEGORIES = [
     },
     {name:'Maxxis Maxxcross IT Tire (70/100-19 front)', pid:'gritshift-maxxis-maxxcross-it-tire-70-100-19', tier:'midrange',
      prices:[
-      {v:'GritShift', p:76.89, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Maxxis', stock:'out_of_stock', stockChk:'2026-11-13'
+     badge:'Maxxis', stock:'unknown'
     },
     {name:'Maxxis Maxxcross IT Tire (80/100-21 front)', pid:'gritshift-maxxis-maxxcross-it-tire-80-100-21', tier:'midrange',
      prices:[
-      {v:'GritShift', p:159.89, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Maxxis', stock:'out_of_stock', stockChk:'2026-11-13'
+     badge:'Maxxis', stock:'unknown'
     },
     {name:'Maxxis Maxxcross IT Tire (90/100-16 rear)', pid:'gritshift-maxxis-maxxcross-it-tire-90-100-16', tier:'midrange',
      prices:[
-      {v:'GritShift', p:98.99, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-13', stock:'out_of_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Maxxis', stock:'out_of_stock', stockChk:'2026-11-13'
+     badge:'Maxxis', stock:'unknown'
     },
     {name:'Maxxis Maxxcross SI Tire (80/100-21 front)', pid:'gritshift-maxxis-maxxcross-si-tire-80-100-21', tier:'midrange',
      prices:[
