@@ -1748,7 +1748,7 @@
       "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
       "variant": null,
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-ebikezilla-direct-mount-stem.webp"
+      "image": null
     },
     {
       "id": "chargedcycleworks-handlebar-stem-spacer-talaria-sting-mx3-mx4-x3",
@@ -1778,7 +1778,7 @@
       "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
       "variant": null,
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-handlebar-stem-spacer-talaria-sting-mx3-mx4-x3.webp",
+      "image": null,
       "_fit": {
         "Rawrr Mantis X": "direct_fit",
         "Rawrr Mantis 72V": "verify",
@@ -1813,7 +1813,7 @@
       "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
       "variant": null,
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective.webp",
+      "image": null,
       "_fit": {
         "Rawrr Mantis X": "direct_fit",
         "Rawrr Mantis 72V": "direct_fit"
@@ -1847,7 +1847,7 @@
       "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
       "variant": null,
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-prickly-31-8-direct-mount-stem-surron.webp"
+      "image": null
     },
     {
       "id": "chargedcycleworks-etm-rtr-oem-grips",

@@ -2645,7 +2645,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-front-fender-type-2-for-talaria-surron-segway-x260.webp"
+      "image": null
     },
     {
       "id": "chargedcycleworks-real-carbon-fiber-front-fender-type-1-talaria-surron-segway",
@@ -2679,7 +2679,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-real-carbon-fiber-front-fender-type-1-talaria-surron-segway.webp"
+      "image": null
     },
     {
       "id": "chargedcycleworks-surron-light-bee-front-fork-fender-water-transfer-printing-matte",
@@ -2713,7 +2713,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-surron-light-bee-front-fork-fender-water-transfer-printing-matte.webp"
+      "image": null
     },
     {
       "id": "chargedcycleworks-surron-light-bee-number-plate",
@@ -2748,7 +2748,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-surron-light-bee-number-plate.webp"
+      "image": null
     },
     {
       "id": "chargedcycleworks-etm-rtr-complete-body-plastic-kit",

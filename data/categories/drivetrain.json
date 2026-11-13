@@ -2295,7 +2295,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-arctic-leopard-xe-pro-s-pro-r-sprocket.webp",
+      "image": null,
       "_fit": {
         "Arctic Leopard XE Pro S": "direct_fit"
       }
@@ -2327,7 +2327,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": "img/parts/chargedcycleworks-eride-pro-55-link-chain-take-off.webp"
+      "image": null
     },
     {
       "id": "chargedcycleworks-etm-rtr-oem-73t-sprocket",
