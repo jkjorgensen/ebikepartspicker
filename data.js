@@ -1,4 +1,4 @@
-/* eBikePartsPicker catalog. Catalog v4.16.6, last researched 2026-11-13.
+/* eBikePartsPicker catalog. Catalog v4.16.7, last researched 2026-11-13.
    46 bikes / 23 categories / 1984 parts (1977 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
