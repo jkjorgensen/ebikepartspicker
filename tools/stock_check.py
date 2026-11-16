@@ -459,11 +459,22 @@ def apply_updates(text: str, updates: list[dict]) -> tuple[str, int]:
             obj = text[start:end]
             orig = obj
             new_stock = u["new_stock"]
-            # part-level stock
+            # part-level stock (the field immediately before stockChk, not
+            # the first stock: inside prices[]).
             if new_stock in ("in_stock", "out_of_stock"):
-                obj2, n = re.subn(r"stock:\s*'[^']*'", f"stock:'{new_stock}'", obj, count=1)
+                obj2, n = re.subn(
+                    r"stock:\s*'[^']*'(?=\s*,\s*stockChk:)",
+                    f"stock:'{new_stock}'",
+                    obj,
+                    count=1,
+                )
                 if n == 0:
-                    obj2, n = re.subn(r'stock:\s*"[^"]*"', f'stock:"{new_stock}"', obj, count=1)
+                    obj2, n = re.subn(
+                        r'stock:\s*"[^"]*"(?=\s*,\s*stockChk:)',
+                        f'stock:"{new_stock}"',
+                        obj,
+                        count=1,
+                    )
                 if n == 0:
                     # insert before closing of object
                     obj2 = re.sub(r"(\s*)}$", f", stock:'{new_stock}', stockChk:'{TODAY}'\\1}}", obj, count=1)
