@@ -46,6 +46,9 @@ html.mo-on .pop-grid>.pop-card{transition:border-color .15s,box-shadow .2s;will-
 .mo-on .pop-card:hover,.mo-on .pop-card:focus-visible{box-shadow:0 0 0 1px var(--accent),0 18px 40px #0009}
 html.mo-on .pop-title{position:relative;top:auto;background:none;font-size:clamp(30px,4.4vw,54px);line-height:1.15;letter-spacing:-1.2px;overflow:hidden;padding:4px 0 .12em}
 .mo-on .pop-title .w{will-change:transform,opacity}
+/* v6.0.2: motion.js owns these now; switch off polish.js's CSS word/card offsets so the two never stack */
+html.mo-on .pop-title .w{transform:none;opacity:1}
+html.mo-on .pop-grid>.pop-card{transform:none;opacity:1}
 
 /* two-row type marquee */
 .mo-marq{width:100vw;margin:clamp(40px,8vh,90px) 0 0;overflow:hidden;pointer-events:none;will-change:transform}

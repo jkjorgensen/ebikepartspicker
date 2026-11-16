@@ -1,4 +1,4 @@
-/* eBikePartsPicker cinematic scroll motion v6 (2026-11-16): v5 story, now spring-driven.
+/* eBikePartsPicker cinematic scroll motion v6.0.2 (2026-11-16): v5 story, now spring-driven.
    Lenis inertial scrolling synced to GSAP ScrollTrigger. Home page story, all scrubbed by scroll:
    1. the headline splits into letters that scatter away as you scroll;
    2. the hero bike tilts up out of the page, then a full-screen pinned reveal: the studio card
@@ -98,28 +98,42 @@
   function aim(sp, t) { if (sp.t === t) return; sp.t = t; if (!rafId) { lastT = 0; rafId = requestAnimationFrame(step); } }
   function stopSprings() { if (rafId) cancelAnimationFrame(rafId); rafId = 0; lastT = 0; springs.length = 0; }
   /* drive a paused GSAP timeline with a spring instead of scrub */
-  function springTL(tl, stv, k, zeta) {
+  /* v6.0.2 "settle": a reveal follows scroll while you scroll, but it never rests half-done.
+     Once it has fully arrived, or once scrolling stops (incl. iOS momentum) with it already on its
+     way in, it springs to its final state and stays there. Still scroll-triggered only. */
+  var settlers = [];
+  function settleTarget(sp, p) { if (p >= 1) sp.done = true; return sp.done ? 1 : p; }
+  function settleAll() {
+    for (var i = 0; i < settlers.length; i++) { var o = settlers[i]; if (o.st.progress > 0 && !o.sp.done) { o.sp.done = true; aim(o.sp, 1); } }
+  }
+  ST.addEventListener('scrollEnd', settleAll);
+  function springTL(tl, stv, k, zeta, settle) {
     tl.pause();
     var sp = spring(k, zeta, function (x) { tl.progress(clamp01(x)); });
+    var tgt = function (p) { return settle ? settleTarget(sp, p) : p; };
     var st = ST.create(Object.assign({}, stv, {
-      onUpdate: function (self) { aim(sp, self.progress); },
-      onRefresh: function (self) { if (stv.invalidateOnRefresh) tl.invalidate(); snapTo(sp, self.progress); }
+      onUpdate: function (self) { aim(sp, tgt(self.progress)); },
+      onRefresh: function (self) { if (stv.invalidateOnRefresh) tl.invalidate(); snapTo(sp, tgt(self.progress)); }
     }));
-    snapTo(sp, st.progress);
+    snapTo(sp, tgt(st.progress));
+    if (settle) settlers.push({ st: st, sp: sp });
     return st;
   }
   /* per-element spring: render(p) gets an unclamped progress (overshoot past 1 is the settle) */
-  function springEl(stv, k, zeta, render) {
+  function springEl(stv, k, zeta, render) { /* reveals: always settle (see above) */
     var sp = spring(k, zeta, render);
     var st = ST.create(Object.assign({}, stv, {
-      onUpdate: function (self) { aim(sp, self.progress); },
-      onRefresh: function (self) { snapTo(sp, self.progress); }
+      onUpdate: function (self) { aim(sp, settleTarget(sp, self.progress)); },
+      onRefresh: function (self) { snapTo(sp, settleTarget(sp, self.progress)); }
     }));
-    snapTo(sp, st.progress);
-    st.__sp = sp;
+    snapTo(sp, settleTarget(sp, st.progress));
+    st.__sp = sp; settlers.push({ st: st, sp: sp });
     return st;
   }
-  function killEl(st) { st.kill(); var i = springs.indexOf(st.__sp); if (i > -1) springs.splice(i, 1); }
+  function killEl(st) {
+    st.kill(); var i = springs.indexOf(st.__sp); if (i > -1) springs.splice(i, 1);
+    for (var j = settlers.length - 1; j >= 0; j--) if (settlers[j].st === st) settlers.splice(j, 1);
+  }
   var BLUR = window.matchMedia('(min-width: 780px) and (hover: hover)').matches && window.CSS && CSS.supports('filter', 'blur(1px)');
   function arrive(el, p, o) { /* shared reveal look: rise + depth + scale, blur-to-sharp on desktop */
     var q = 1 - p, a = clamp01(p * 1.25);
@@ -267,8 +281,10 @@
     var title = $('.pop-title', sec), trig = [], done = new WeakSet(), cleanup = [];
     if (title) {
       var ws = $$('.w', title);
-      if (ws.length) springTL(gsap.timeline().fromTo(ws, { yPercent: 120, rotation: 10, opacity: 0 }, { yPercent: 0, rotation: 0, opacity: 1, stagger: 0.12, ease: 'power3.out' }),
-        { trigger: title, start: 'top 98%', end: 'top 62%' }, 170, 0.66);
+      /* y:0 explicitly, so GSAP never bakes polish.js's CSS word offset into its own transform
+         (that left the title stuck ~0.6em low and half hidden by its overflow mask) */
+      if (ws.length) springTL(gsap.timeline().fromTo(ws, { y: 0, yPercent: 120, rotation: 10, opacity: 0 }, { y: 0, yPercent: 0, rotation: 0, opacity: 1, stagger: 0.12, ease: 'power3.out' }),
+        { trigger: title, start: 'top 98%', end: 'top 62%' }, 170, 0.66, true);
     }
     function build() {
       var cards = [].slice.call(grid.children).filter(function (c) { return !c.classList.contains('ux-skel-card'); });
@@ -375,7 +391,7 @@
     var m = !!c.mob;
     var undo = [smooth(), headline(), hero(m), popular(m), marquee(), reveals(), accents(), c.hover ? glows() : null];
     refresh();
-    return function () { root.classList.remove('mo-on'); undo.forEach(function (f) { if (f) f(); }); stopSprings(); };
+    return function () { root.classList.remove('mo-on'); undo.forEach(function (f) { if (f) f(); }); stopSprings(); settlers.length = 0; };
   });
 
   /* layout changes (bike photos, data.js filling the grids, start/app switching) -> re-measure */
