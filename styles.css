@@ -1104,3 +1104,13 @@ html.ux-lock,html.ux-lock body{overflow:hidden}
 /* category hubs: A-Z list of every listing in the category (build_seo.py, v4.17.0) */
 .seo-az{columns:2 260px;column-gap:28px;padding-left:18px}
 .seo-az li{break-inside:avoid;margin:4px 0}
+/* v4.17.2 content pages: volt accent line under section headings, drawn by a CSS scroll timeline
+   (no JS, compositor-only transform). Browsers without scroll timelines show the line static. */
+.seo-main h2::after{content:'';display:block;width:56px;height:2px;margin-top:10px;border-radius:2px;
+  background:var(--accent,#C6F028);box-shadow:0 0 12px color-mix(in srgb,var(--accent,#C6F028) 45%,transparent);transform-origin:0 50%}
+@supports (animation-timeline: view()){
+  @media (prefers-reduced-motion: no-preference){
+    .seo-main h2::after{animation:ebpp-acc linear both;animation-timeline:view();animation-range:entry 20% cover 38%}
+  }
+}
+@keyframes ebpp-acc{from{transform:scaleX(0)}70%{transform:scaleX(1.06)}to{transform:scaleX(1)}}
