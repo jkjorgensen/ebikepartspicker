@@ -1,4 +1,4 @@
-/* eBikePartsPicker cinematic scroll motion v5 (2026-11-12), driven by motion.js.
+/* eBikePartsPicker cinematic scroll motion v6 (2026-11-16; v5 2026-11-12), driven by motion.js.
    Everything sits behind html.mo-on, which motion.js only adds when GSAP, ScrollTrigger and Lenis
    have loaded and the user does NOT prefer reduced motion. No JS = static page. */
 html.lenis,html.lenis body{height:auto}
@@ -72,6 +72,11 @@ html.mo-on .pop-title{position:relative;top:auto;background:none;font-size:clamp
   pointer-events:none;opacity:0;border-radius:50%;will-change:transform,opacity;
   background:radial-gradient(closest-side,color-mix(in srgb,#C6F028 20%,transparent),color-mix(in srgb,#C6F028 6%,transparent) 55%,transparent)}
 
+/* v6: volt accent line under section titles, drawn by a scroll-driven spring (motion.js) */
+.mo-acc{display:block;width:72px;height:2px;margin-top:12px;border-radius:2px;background:#C6F028;
+  box-shadow:0 0 14px color-mix(in srgb,#C6F028 55%,transparent);transform:scaleX(0);transform-origin:0 50%;will-change:transform}
+.mo-on .hz-glow,.mo-on .hz-floor{will-change:transform,opacity}
+
 /* reduced motion: opacity-only fade for content below the fold (motion.js adds .mo-fd / .mo-in) */
 html.mo-rm .mo-fd{opacity:0}
 html.mo-rm .mo-fd.mo-in{opacity:1;transition:opacity .45s cubic-bezier(.2,.7,.2,1)}
@@ -79,5 +84,5 @@ html.mo-rm .mo-fd.mo-in{opacity:1;transition:opacity .45s cubic-bezier(.2,.7,.2,
 @media (prefers-reduced-motion: reduce){
   .mo-on .hero-pin{height:auto}
   .mo-on .popular{margin-top:34px}
-  .mo-glow,.mo-card,.mo-word,.mo-sweep,.mo-caps,.mo-rail,.mo-hint,.mo-marq{display:none}
+  .mo-glow,.mo-card,.mo-word,.mo-sweep,.mo-caps,.mo-rail,.mo-hint,.mo-marq,.mo-acc{display:none}
 }
