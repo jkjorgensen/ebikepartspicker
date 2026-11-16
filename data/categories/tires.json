@@ -8526,8 +8526,8 @@
         "https://arctic-leopard-usa.com/products/xd-pro",
         "https://pinnedelectric.com/pages/rx",
         "https://warp9racing.com/products/dunlop-geomax-at82-tire",
-      "https://gritshift.com/products/dunlop-geomax-at82-tire"
-    ],
+        "https://gritshift.com/products/dunlop-geomax-at82-tire"
+      ],
       "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
@@ -16242,12 +16242,12 @@
     {
       "product_id": "tire-cst-cm713-80100-19",
       "bike_id": "ventus-evo",
-      "status": "not_compatible",
+      "status": "verify",
       "required_adapters": null,
       "fitment_source_urls": [
         "https://pinnedelectric.com/products/ventus-v1-evo"
       ],
-      "notes": "No 19\" sizes; stock wheels are 19\"/16\"."
+      "notes": "80/100-19 is a rear-pattern tire; the V1+ EVO runs a 19in front / 16in rear, so only the front diameter matches - verify (was wrongly not_compatible, fixed 2026-11-16)"
     },
     {
       "product_id": "tire-cst-cm713-80100-19",

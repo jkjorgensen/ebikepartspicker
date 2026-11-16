@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse,re
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.net'; V='4.16.9'; IMGV='4.5.0'; TODAY='2026-11-15'
+BASE='https://ebikepartspicker.net'; V='4.17.0'; IMGV='4.5.0'; TODAY='2026-11-16'
 # PWA service-worker registration snippet (plain string, NOT an f-string:
 # its braces would break the page() f-string below).
 SWREG="<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>"
@@ -255,12 +255,15 @@ for cid in [c['id'] for c in D['cats']]:
   for b in D['bikes']:
     for p in b['parts']:
       if p['cat']==cid and p['status']=='confirmed': seen.setdefault(p['pid'],[p,[]])[1].append(b)
-  if len(seen)<3: continue
+  # every listed part in this category gets an inbound link from its hub (no orphan part pages)
+  snapc=next((sc for sc in SNAP['cats'] if sc['id']==cid),None)
+  others=sorted([o for o in (snapc['opts'] if snapc else []) if o['pid'] not in seen],key=lambda o:o['name'].lower())
+  if len(seen)<3 and not others: continue
   items=sorted(seen.values(),key=lambda x:x[0]['name'])
   li=''.join(f'<li class="sp-row" id="{e(p["pid"])}"{fitattrs(p["pid"])}>'+(img96(p["img"], p["name"]) if p['img'] else '<span class="sp-noimg"></span>')+f'<div class="sp-info"><strong><a class="sp-pl" href="/parts/{cid}/{e(p["pid"])}/">{e(p["name"])}</a></strong><div class="sp-chk">Confirmed for: '+', '.join(f'<a href="/bikes/{bb["id"]}/">{e(bb["name"])}</a>' if bb in seo_bikes else e(bb['name']) for bb in bs[:8])+(' and more' if len(bs)>8 else '')+'</div>'+(f'<div><span class="sp-price">{money(p["price"]["p"])}</span><span class="sp-chk">{e(p["price"].get("v") or "")}{", checked "+e(p["price"]["chk"]) if p["price"].get("chk") else ""}</span></div>' if p['price'] and p['price'].get('p') is not None else '')+f'</div><div class="sp-act">{buy(p["price"])}</div></li>' for p,bs in items)
   urls.append(page(f'/parts/{cid}/',f"E-Moto {c['name']} Upgrades: Which Bikes They Fit | eBikePartsPicker",
-    f"{len(items)} aftermarket {c['name'].lower()} options for Sur-Ron, Talaria, E Ride Pro and more, each with the bikes the seller confirms, and prices checked {D['checked']}.",
-    f'<h1>{e(c["name"])} upgrades</h1><p class="seo-lede">{e(c["blurb"])}</p><ul class="sp-list" data-ux-fitlist>{li}</ul>',[('Home','/'),('Parts','/parts/'),(c['name'],f'/parts/{cid}/')]))
+    f"{len(items)+len(others)} aftermarket {c['name'].lower()} options for Sur-Ron, Talaria, E Ride Pro and more, with the bikes each seller confirms, and prices checked {D['checked']}.",
+    f'<h1>{e(c["name"])} upgrades</h1><p class="seo-lede">{e(c["blurb"])}</p>'+(f'<ul class="sp-list" data-ux-fitlist>{li}</ul>' if li else '')+(f'<h2 id="more">More {e(c["name"].lower())} listings</h2><p class="sp-chk">Fit not confirmed for a specific bike yet. Open a part to see store prices and the fit status for each bike.</p><ul class="seo-links seo-az">'+''.join(f'<li><a href="/parts/{cid}/{e(o["pid"])}/">{e(o["name"])}</a></li>' for o in others)+'</ul>' if others else ''),[('Home','/'),('Parts','/parts/'),(c['name'],f'/parts/{cid}/')]))
 cats_done=[u for u in urls if '/parts/' in u]
 li=''.join(f'<li><a href="{u.replace(BASE,"")}">{e(CAT[u.rstrip("/").split("/")[-1]]["name"])}</a></li>' for u in cats_done)
 urls.append(page('/parts/','E-Moto Parts by Category | eBikePartsPicker','Aftermarket e-moto parts by category, with the bikes each part is confirmed to fit.',f'<h1>Parts by category</h1><ul class="seo-links">{li}</ul>',[('Home','/'),('Parts','/parts/')]))

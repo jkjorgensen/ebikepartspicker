@@ -495,8 +495,9 @@
         "peak_kw": 25,
         "weight_lb": 198.4,
         "front_wheel_in": 19,
-        "rear_wheel_in": 19,
-        "wheel_source_url": "https://howlingmoto.com/products/altis-powersports-sigma-electric-dirt-bike"
+        "rear_wheel_in": 18,
+        "wheel_source_url": "https://www.altispowersports.com/products/altis-sigma",
+        "wheel_note": "Altis: Sigma Standard 70/100-19 front, 90/100-18 rear; Sigma MX 90/100-16 rear (checked 2026-11-16)"
       },
       "fitment_sparse": true,
       "size": "mid"
