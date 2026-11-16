@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse,re
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.net'; V='4.17.4'; IMGV='4.5.0'; TODAY='2026-11-16'
+BASE='https://ebikepartspicker.net'; V='4.17.5'; IMGV='4.5.0'; TODAY='2026-11-16'
 # PWA service-worker registration snippet (plain string, NOT an f-string:
 # its braces would break the page() f-string below).
 SWREG="<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>"
@@ -106,8 +106,9 @@ def host(u):
   except Exception: return 'retailer'
 def buy(pr,label=None):
   if not pr or not pr.get('url'): return ''
-  if pr.get('aff'): return f'<a class="sbuy sbuy-voro" href="{e(pr["url"])}" rel="sponsored noopener" target="_blank">Buy at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure">(affiliate link)</a>'
-  return f'<a class="sbuy" href="{e(pr["url"])}" rel="noopener" target="_blank">View at {e(pr.get("v") or host(pr["url"]))}</a>'
+  vendor = pr.get('v') or host(pr['url'])
+  if pr.get('aff'): return f'<a class="sbuy sbuy-voro" href="{e(pr["url"])}" rel="sponsored noopener" target="_blank">Buy at {e(vendor)}</a> <a class="sp-chk" href="/affiliate-disclosure">(affiliate link)</a>'
+  return f'<a class="sbuy" href="{e(pr["url"])}" rel="noopener" target="_blank">View at {e(vendor)}</a>'
 def fit_title(t,mx=70):
   """Keep titles <=70 chars: drop middle ' | ' segments, then shorten long phrases, then trim the name at a word."""
   if len(t)<=mx: return t
@@ -267,7 +268,7 @@ for cid in [c['id'] for c in D['cats']]:
 cats_done=[u for u in urls if '/parts/' in u]
 li=''.join(f'<li><a href="{u.replace(BASE,"")}">{e(CAT[u.rstrip("/").split("/")[-1]]["name"])}</a></li>' for u in cats_done)
 urls.append(page('/parts/','E-Moto Parts by Category | eBikePartsPicker','Aftermarket e-moto parts by category, with the bikes each part is confirmed to fit.',f'<h1>Parts by category</h1><ul class="seo-links">{li}</ul>',[('Home','/'),('Parts','/parts/')]))
-# per-part pages: real catalog fields only; unknown values say "Not verified"; plain store links (no affiliate)
+# per-part pages: real catalog fields only; unknown values say "Not verified"; affiliate store links marked when the offer has aff
 BN={b['id']:b['name'] for b in SNAP['bikes']}
 seob0={b['id'] for b in seo_bikes}
 SPECL=[('wtKg','Part weight',lambda v:f'{v*2.20462:.1f} lb ({v:g} kg)'),('motorKw','Motor power (continuous)',lambda v:f'{v:g} kW'),('motorPeakKw','Motor power (peak)',lambda v:f'{v:g} kW'),('ctrlMaxKw','Controller max output',lambda v:f'{v:g} kW'),('battKwh','Battery capacity',lambda v:f'{v:g} kWh'),('battMaxKw','Battery continuous output',lambda v:f'{v:g} kW'),('battPeakKw','Battery peak output',lambda v:f'{v:g} kW')]
@@ -290,7 +291,9 @@ def effective_stock(o):
 STL={'confirmed':('yes','\u2713 Fits'),'requires_mod':('mod','Fits with modifications'),'likely_verify':('nv','Likely \u2014 verify'),'no_fit':('no','Doesn\u2019t fit')}
 def plain(pr):
   if not pr.get('url'): return '<span class="sp-chk">No link on file</span>'
-  return f'<a class="sbuy" href="{e(pr["url"])}" rel="noopener" target="_blank">View at {e(pr.get("v") or host(pr["url"]))}</a>'
+  vendor = pr.get('v') or host(pr.get('url',''))
+  if pr.get('aff'): return f'<a class="sbuy sbuy-voro" href="{e(pr["url"])}" rel="sponsored noopener" target="_blank">View at {e(vendor)}</a> <a class="sp-chk" href="/affiliate-disclosure">(affiliate link)</a>'
+  return f'<a class="sbuy" href="{e(pr["url"])}" rel="noopener" target="_blank">View at {e(vendor)}</a>'
 PARTURL={}
 for c in SNAP['cats']:
   for o in c['opts']:

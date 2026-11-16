@@ -38,6 +38,12 @@ function best(opt){
   return pool.reduce(function(a,b){ return b.p < a.p ? b : a; });
 }
 
+function isAff(p){
+  if(!p) return false;
+  if(typeof p==='string') return /sjv\.io/.test(p) || /[?&]ref=eejkbrkx(?:&|#|$)/.test(p);
+  return !!(p.aff || isAff(p.url||''));
+}
+
 /* Don't label a part "out of stock" unless the part-level flag was checked
    within STOCK_RECENT_DAYS. The flag itself is in_stock if any linked store
    had the part at last check. Stale out-of-stock shows as "stock: check". */
@@ -585,7 +591,7 @@ function renderPick(c, b, host){
     row.appendChild(pl);
     if(bb && bb.url){
       var a = document.createElement('a'); a.className='buy'; a.href=bb.url;
-      a.target='_blank'; a.rel='noopener'; a.textContent='Buy this part';
+      a.target='_blank'; a.rel='noopener'+(isAff(bb)?' sponsored':''); a.textContent='Buy this part';
       row.appendChild(a);
     }
     wrap.appendChild(row);
@@ -656,7 +662,7 @@ function buildListEl(){
     var pr = document.createElement('div');
     var ps = document.createElement('span'); ps.className='p'; ps.textContent=money(price); pr.appendChild(ps);
     if(url){ pr.appendChild(document.createTextNode(' '));
-      var a=document.createElement('a'); a.className='rb'; a.href=url; a.target='_blank'; a.rel='noopener'+(/sjv\.io/.test(url)?' sponsored':'');
+      var a=document.createElement('a'); a.className='rb'; a.href=url; a.target='_blank'; a.rel='noopener'+(isAff(url)?' sponsored':'');
       a.textContent=vendor ? ('Buy at '+vendor) : 'Buy'; pr.appendChild(a); }
     r.appendChild(l); r.appendChild(pr); list.appendChild(r);
   }
@@ -815,7 +821,7 @@ function partCard(opts){
     var li=document.createElement('li');
     var n=document.createElement('span'); n.textContent=p.name;
     var pr=document.createElement('span'); pr.textContent=money(p.price);
-    if(p.url){ var pa=document.createElement('a'); pa.className='rb'; pa.href=p.url; pa.target='_blank'; pa.rel='noopener'+(/sjv\.io/.test(p.url)?' sponsored':'');
+    if(p.url){ var pa=document.createElement('a'); pa.className='rb'; pa.href=p.url; pa.target='_blank'; pa.rel='noopener'+(isAff(p)?' sponsored':'');
       pa.textContent=p.v?('Buy at '+p.v):'Buy'; pr.appendChild(document.createTextNode(' ')); pr.appendChild(pa); }
     li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
   });

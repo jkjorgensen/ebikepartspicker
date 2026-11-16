@@ -1,4 +1,4 @@
-/* eBikePartsPicker catalog. Catalog v4.17.4, last researched 2026-11-16.
+/* eBikePartsPicker catalog. Catalog v4.17.5, last researched 2026-11-16.
    46 bikes / 23 categories / 1984 parts (1977 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
@@ -448,21 +448,21 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Ebike Motor Cover', pid:'tuttio-tuttio-soleil01-ebike-motor-cover', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-cover', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-cover?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-motor-cover.webp'
     },
     {name:'Tuttio Soleil01 Ebike Motor Side Cover Replacement Screws', pid:'tuttio-tuttio-soleil01-ebike-motor-side-cover-replacement-screws', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-side-cover-replacement-screws', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-side-cover-replacement-screws?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-motor-side-cover-replacement-screws.webp'
     },
     {name:'Tuttio Soleil01 Motor Kits', pid:'tuttio-tuttio-soleil01-motor-kits', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:459.99, url:'https://tuttiosport.com/products/tuttio-soleil01-motor-kits', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:459.99, url:'https://tuttiosport.com/products/tuttio-soleil01-motor-kits?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-motor-kits.webp'
@@ -761,28 +761,28 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Ebike Controller (be compatible with M button display)', pid:'tuttio-tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:165.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:165.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display.webp'
     },
     {name:'Tuttio Soleil01 Ebike Controller Bracket', pid:'tuttio-tuttio-soleil01-ebike-controller-bracket', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-controller-bracket.webp'
     },
     {name:'Tuttio Soleil01 Ebike Controller Housing', pid:'tuttio-tuttio-soleil01-ebike-controller-housing', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-controller-housing.webp'
     },
     {name:'Tuttio Soleil01 Ebike Controller Main Line (be compatible with M button display)', pid:'tuttio-tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:35.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:35.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display.webp'
@@ -1379,62 +1379,62 @@ var CATEGORIES = [
     },
     {name:'Soleil01 Rear Fender – Rear Suspension Mud & Dust Protection', pid:'tuttio-soleil01-rear-fender-rear-suspension-mud-dust-protection', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:14.99, url:'https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:14.99, url:'https://tuttiosport.com/products/soleil01-rear-fender-rear-suspension-mud-dust-protection?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-16'
     },
     {name:'Tuttio Soleil01 Ebike Fork Guards', pid:'tuttio-tuttio-soleil01-ebike-fork-guards', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:19.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:19.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-fork-guards.webp'
     },
     {name:'Tuttio Soleil01 Rear Fork', pid:'tuttio-tuttio-soleil01-ebike-rear-fork', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:195.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:195.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-rear-fork.webp'
     },
     {name:'Tuttio Soleil01 Ebike Top Triple Clamp Assembly', pid:'tuttio-tuttio-soleil01-ebike-top-triple-clamp-assembly', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:43.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:43.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-top-triple-clamp-assembly.webp'
     },
     {name:'Tuttio Soleil01 Ebike Front Fork', pid:'tuttio-tuttio-soleil01-electric-bike-front-fork', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:128.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:128.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-front-fork.webp'
     },
     {name:'Tuttio Soleil01 Ebike Rear Suspension', pid:'tuttio-tuttio-soleil01-electric-bike-rear-suspension', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:119.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:119.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-rear-suspension.webp'
     },
     {name:'Tuttio Soleil01 GB Ebike Rear Fork', pid:'tuttio-tuttio-soleil01-gb-ebike-rear-fork', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:245.0, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:245.0, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-rear-fork.webp'
     },
     {name:'Tuttio Soleil01 GB EBike Sliver Front Forks', pid:'tuttio-tuttio-soleil01-gb-ebike-sliver-front-forks', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:188.99, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:188.99, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-sliver-front-forks.webp'
     },
     {name:'Tuttio Soleil01 SE EBike Front Forks', pid:'tuttio-tuttio-soleil01-se-ebike-front-forks', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:98.99, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:98.99, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-front-forks.webp'
@@ -1927,21 +1927,21 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Ebike Rear Shock Mounting Bolt Set', pid:'tuttio-tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:24.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:24.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set.webp'
     },
     {name:'Tuttio Soleil01 GB Ebike Rear Shock', pid:'tuttio-tuttio-soleil01-gb-ebike-rear-shock', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:99.98, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-shock', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:99.98, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-shock?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-rear-shock.webp'
     },
     {name:'Tuttio Soleil01 SE Ebike Rear Shock', pid:'tuttio-tuttio-soleil01-se-ebike-rear-shock', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:159.0, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-rear-shock', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:159.0, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-rear-shock?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-rear-shock.webp'
@@ -2982,56 +2982,56 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Street Wheelset Kit – Complete with Street Tires & Rims', pid:'tuttio-soleil01-street-wheelset-kit', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:449.99, url:'https://tuttiosport.com/products/soleil01-street-wheelset-kit', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:449.99, url:'https://tuttiosport.com/products/soleil01-street-wheelset-kit?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-soleil01-street-wheelset-kit.webp'
     },
     {name:'Tuttio Soleil01 Ebike Axle Nut(M12)', pid:'tuttio-tuttio-soleil01-ebike-axle-nut-m12', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:9.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-axle-nut-m12', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:9.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-axle-nut-m12?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-axle-nut-m12.webp'
     },
     {name:'Tuttio Soleil01 Entire Wheel', pid:'tuttio-tuttio-soleil01-ebike-entire-wheel', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:249.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-entire-wheel', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:249.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-entire-wheel?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-entire-wheel.webp'
     },
     {name:'Tuttio Soleil01 Ebike 12" Supermoto Wheelset Kit with Street Tires & Rims', pid:'tuttio-tuttio-soleil01-ebike-supermoto-wheelset-kit-with-street-tires-rims', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:499.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-supermoto-wheelset-kit-with-street-tires-rims', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:499.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-supermoto-wheelset-kit-with-street-tires-rims?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16'
     },
     {name:'Tuttio Soleil01 Ebike Wheel Bearing Set', pid:'tuttio-tuttio-soleil01-ebike-wheel-bearing-set', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:59.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-wheel-bearing-set', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:59.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-wheel-bearing-set?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-wheel-bearing-set.webp'
     },
     {name:'Tuttio Soleil01 Ebike Axle Set-Front or Rear', pid:'tuttio-tuttio-soleil01-electric-bike-axle-set-front-or-rear', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:35.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-axle-set-front-or-rear', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:35.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-axle-set-front-or-rear?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-axle-set-front-or-rear.webp'
     },
     {name:'Tuttio Soleil01 GB Ebike Wheel Assembly', pid:'tuttio-tuttio-soleil01-gb-ebike-wheel-assembly', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:209.0, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-wheel-assembly', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:209.0, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-wheel-assembly?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-wheel-assembly.webp'
     },
     {name:'Tuttio Soleil01 SE Ebike Wheel Assembly For Sale', pid:'tuttio-tuttio-soleil01-se-ebike-wheel-assembly-for-sale', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:299.0, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-wheel-assembly-for-sale', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:299.0, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-wheel-assembly-for-sale?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-wheel-assembly-for-sale.webp'
@@ -4222,7 +4222,7 @@ var CATEGORIES = [
     {name:'Tuttio Soleil01 Replacement Brake Pads', pid:'tbelectricmoto-tuttio-soleil01-replacement-brake-pads', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:15.0, url:'https://tbelectricmoto.com/products/tuttio-soleil01-replacement-brake-pads', chk:'2026-11-16', stock:'in_stock'},
-      {v:'Tuttio', p:15.0, url:'https://tuttiosport.com/products/soleil01-brake-pads', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:15.0, url:'https://tuttiosport.com/products/soleil01-brake-pads?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tbelectricmoto-tuttio-soleil01-replacement-brake-pads.webp'
@@ -4242,70 +4242,70 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Dirt Bike Hand Brake Levers（Sliver）', pid:'tuttio-tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver.webp'
     },
     {name:'Tuttio Soleil01 Brake Assembly', pid:'tuttio-tuttio-soleil01-ebike-brake-assembly', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:85.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-assembly', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:85.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-assembly?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-brake-assembly.webp'
     },
     {name:'Tuttio Soleil01 Ebike Brake Caliper Guide Pin Set', pid:'tuttio-tuttio-soleil01-ebike-brake-caliper-guide-pin-set', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-caliper-guide-pin-set', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-caliper-guide-pin-set?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-brake-caliper-guide-pin-set.webp'
     },
     {name:'Tuttio Soleil01 Ebike Brake Cut-off Switch', pid:'tuttio-tuttio-soleil01-ebike-brake-cut-off-switch', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:39.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-cut-off-switch', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:39.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-cut-off-switch?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-brake-cut-off-switch.webp'
     },
     {name:'Tuttio Soleil01 Ebike Brake Disc', pid:'tuttio-tuttio-soleil01-ebike-brake-pads', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:29.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-pads', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:29.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-pads?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-brake-pads.webp'
     },
     {name:'Tuttio Soleil01 Ebike Caliper Bolts', pid:'tuttio-tuttio-soleil01-ebike-caliper-bolts', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:15.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-caliper-bolts', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:15.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-caliper-bolts?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-caliper-bolts.webp'
     },
     {name:'Tuttio Soleil01 Ebike Rear Brake Caliper Mounting Bolt', pid:'tuttio-tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:10.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:10.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt.webp'
     },
     {name:'Tuttio Soleil01 Ebike Brake Caliper Mount', pid:'tuttio-tuttio-soleil01-electric-bike-brake-caliper-mount', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-brake-caliper-mount', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-brake-caliper-mount?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-brake-caliper-mount.webp'
     },
     {name:'Tuttio Soleil01 LO Brake Assembly', pid:'tuttio-tuttio-soleil01-lo-brake-assembly', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:64.99, url:'https://tuttiosport.com/products/tuttio-soleil01-lo-brake-assembly', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:64.99, url:'https://tuttiosport.com/products/tuttio-soleil01-lo-brake-assembly?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-lo-brake-assembly.webp'
     },
     {name:'Tuttio Soleil01 SE/LO Dirt Bike Hand Brake Levers (Black)', pid:'tuttio-tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:16.0, url:'https://tuttiosport.com/products/tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:16.0, url:'https://tuttiosport.com/products/tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black.webp'
@@ -5399,133 +5399,133 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Front Number Plate Dirt Bike Number Plate', pid:'tuttio-tuttio-soleil01-dirt-bike-number-plate', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:25.99, url:'https://tuttiosport.com/products/tuttio-soleil01-dirt-bike-number-plate', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:25.99, url:'https://tuttiosport.com/products/tuttio-soleil01-dirt-bike-number-plate?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-dirt-bike-number-plate.webp'
     },
     {name:'Tuttio Soleil01 Ebike Custom Number Plate Series 1', pid:'tuttio-tuttio-soleil01-ebike-custom-number-plate-series-1', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-custom-number-plate-series-1', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-custom-number-plate-series-1?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-custom-number-plate-series-1.webp'
     },
     {name:'Tuttio Soleil01 Ebike Custom Number Plate Series 2', pid:'tuttio-tuttio-soleil01-ebike-custom-number-plate-series-1-copy', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-custom-number-plate-series-1-副本', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-custom-number-plate-series-1-副本?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16'
     },
     {name:'Tuttio Soleil01 Ebike Custom Number Plate Series 3', pid:'tuttio-tuttio-soleil01-ebike-custom-number-plate-series-1-copy-1', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-custom-number-plate-series-1-副本-1', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-custom-number-plate-series-1-副本-1?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16'
     },
     {name:'Tuttio Soleil01 Ebike Custom Number Plate Series 4', pid:'tuttio-tuttio-soleil01-ebike-custom-number-plate-series-4', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-custom-number-plate-series-4', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-custom-number-plate-series-4?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-custom-number-plate-series-4.webp'
     },
     {name:'Tuttio Soleil01 Ebike Halloween Special Number Plates', pid:'tuttio-tuttio-soleil01-ebike-downhill-electric-bike-number-plate', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-downhill-electric-bike-number-plate', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-downhill-electric-bike-number-plate?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-downhill-electric-bike-number-plate.webp'
     },
     {name:'Tuttio Soleil01 Ebike Frame Front Plastic Cover', pid:'tuttio-tuttio-soleil01-ebike-frame-front-plastic-cover', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:29.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-frame-front-plastic-cover', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:29.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-frame-front-plastic-cover?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16'
     },
     {name:'Tuttio Soleil01 Front Fender For dirt bike', pid:'tuttio-tuttio-soleil01-front-fender-for-electric-dirt-bike', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:30.0, url:'https://tuttiosport.com/products/tuttio-soleil01-front-fender-for-electric-dirt-bike', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:30.0, url:'https://tuttiosport.com/products/tuttio-soleil01-front-fender-for-electric-dirt-bike?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-front-fender-for-electric-dirt-bike.webp'
     },
     {name:'Tuttio Soleil01 GB Ebike Fender', pid:'tuttio-tuttio-soleil01-gb-ebike-fender', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:85.0, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-fender', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:85.0, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-fender?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-fender.webp'
     },
     {name:'Tuttio Soleil01 GB Ebike Upgraded Number Plate – Series 1', pid:'tuttio-tuttio-soleil01-gb-ebike-upgraded-number-plate-series-1', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-upgraded-number-plate-series-1', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-upgraded-number-plate-series-1?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-upgraded-number-plate-series-1.webp'
     },
     {name:'Tuttio Soleil01 GB Ebike Upgraded Number Plate – Series 2', pid:'tuttio-tuttio-soleil01-gb-ebike-upgraded-number-plate-series-2', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-upgraded-number-plate-series-2', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-upgraded-number-plate-series-2?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-upgraded-number-plate-series-2.webp'
     },
     {name:'Tuttio Soleil01 GB Original Number Plate', pid:'tuttio-tuttio-soleil01-gb-original-number-plate', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-original-number-plate', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-original-number-plate?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-gb-original-number-plate.webp'
     },
     {name:'Tuttio Soleil01 LO Ebike Number Plate', pid:'tuttio-tuttio-soleil01-lo-ebike-number-plate', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-lo-ebike-number-plate', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-lo-ebike-number-plate?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-lo-ebike-number-plate.webp'
     },
     {name:'Tuttio Soleil01 Models Ebike Christmas Special Number Plates For One', pid:'tuttio-tuttio-soleil01-models-ebike-christmas-special-number-plates', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-models-ebike-christmas-special-number-plates', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-models-ebike-christmas-special-number-plates?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-models-ebike-christmas-special-number-plates.webp'
     },
     {name:'Tuttio Soleil01 Models Ebike Christmas Special Number Plates For Two', pid:'tuttio-tuttio-soleil01-models-ebike-christmas-special-number-plates-copy', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-models-ebike-christmas-special-number-plates-副本', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-models-ebike-christmas-special-number-plates-副本?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-models-ebike-christmas-special-number-plates-copy.webp'
     },
     {name:'Tuttio Soleil01 Models Ebike Christmas Special Number Plates For Three', pid:'tuttio-tuttio-soleil01-models-ebike-christmas-special-number-plates-copy-1', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-models-ebike-christmas-special-number-plates-副本-1', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-models-ebike-christmas-special-number-plates-副本-1?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16'
     },
     {name:'Tuttio Soleil01 Rear Fender For Dirt Bike', pid:'tuttio-tuttio-soleil01-rear-fender-for-electric-dirt-bike', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:30.0, url:'https://tuttiosport.com/products/tuttio-soleil01-rear-fender-for-electric-dirt-bike', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:30.0, url:'https://tuttiosport.com/products/tuttio-soleil01-rear-fender-for-electric-dirt-bike?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-rear-fender-for-electric-dirt-bike.webp'
     },
     {name:'Tuttio Soleil01 SE Ebike Fender', pid:'tuttio-tuttio-soleil01-se-ebike-fender', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:85.0, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-fender', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:85.0, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-fender?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-fender.webp'
     },
     {name:'Tuttio Soleil01 SE Ebike Number Plate', pid:'tuttio-tuttio-soleil01-se-ebike-number-plate', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-number-plate', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-number-plate?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-number-plate.webp'
@@ -5857,63 +5857,63 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Battery Charger', pid:'tuttio-tuttio-soleil01-battery-charger', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:55.0, url:'https://tuttiosport.com/products/tuttio-soleil01-battery-charger', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:55.0, url:'https://tuttiosport.com/products/tuttio-soleil01-battery-charger?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-battery-charger.webp'
     },
     {name:'TUTTIO Soleil01 Ebike 27Ah Extended Range Battery Upgrade Kit (Battery + 3A Charger)', pid:'tuttio-tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:759.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:759.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger.webp'
     },
     {name:'Tuttio Soleil01 Ebike Battery Charging Port', pid:'tuttio-tuttio-soleil01-ebike-battery-charging-port', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:25.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-charging-port', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:25.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-charging-port?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-battery-charging-port.webp'
     },
     {name:'Tuttio Soleil01 Ebike Battery Connector (Spark-Proof)', pid:'tuttio-tuttio-soleil01-ebike-battery-connector-spark-proof-1', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:19.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connector-spark-proof-1', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:19.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connector-spark-proof-1?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-battery-connector-spark-proof-1.webp'
     },
     {name:'Tuttio Soleil01 Ebike Battery Connector & Discharge Port (Non-Spark-Proof)', pid:'tuttio-tuttio-soleil01-ebike-battery-connectornon-spark-proof', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connectornon-spark-proof', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connectornon-spark-proof?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-battery-connectornon-spark-proof.webp'
     },
     {name:'Tuttio Soleil01 Ebike Battery Securing Clamp', pid:'tuttio-tuttio-soleil01-ebike-battery-securing-clamp', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:65.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-securing-clamp', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:65.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-securing-clamp?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-battery-securing-clamp.webp'
     },
     {name:'Tuttio Soleil01 Electric Bike Battery', pid:'tuttio-tuttio-soleil01-electric-bike-battery', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:649.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:649.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-battery.webp'
     },
     {name:'Tuttio Soleil01 Ebike Battery Connector & Discharge Port (Spark-Proof)', pid:'tuttio-tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof.webp'
     },
     {name:'Tuttio Soleil01 LO Battery Charger', pid:'tuttio-tuttio-soleil01-lo-battery-charger', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:45.99, url:'https://tuttiosport.com/products/tuttio-soleil01-lo-battery-charger', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:45.99, url:'https://tuttiosport.com/products/tuttio-soleil01-lo-battery-charger?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-lo-battery-charger.webp'
@@ -6448,28 +6448,28 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Handlebar', pid:'tuttio-tuttio-soleil01-ebike-handlebar', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:99.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebar', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:99.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebar?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-handlebar.webp'
     },
     {name:'Tuttio Soleil01 Ebike Handlebars Mounts', pid:'tuttio-tuttio-soleil01-ebike-handlebars-mount', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:35.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:35.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-handlebars-mount.webp'
     },
     {name:'Tuttio Soleil01 Ebike Handlebars Mount Assembly', pid:'tuttio-tuttio-soleil01-ebike-handlebars-mount-assembly', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:28.79, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount-assembly', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:28.79, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount-assembly?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-handlebars-mount-assembly.webp'
     },
     {name:'Tuttio Soleil01 SE Ebike Crossbar Pad', pid:'tuttio-tuttio-soleil01-se-ebike-crossbar-pad', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:59.99, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-crossbar-pad', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:59.99, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-crossbar-pad?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-crossbar-pad.webp'
@@ -7467,49 +7467,49 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Ebike Handguards', pid:'tuttio-tuttio-soleil01-ebike-handguards', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:39.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-handguards', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:39.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-handguards?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-handguards.webp'
     },
     {name:'Tuttio Soleil01 Ebike Headset Assembly', pid:'tuttio-tuttio-soleil01-ebike-headset-assembly', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:39.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-headset-assembly', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:39.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-headset-assembly?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-headset-assembly.webp'
     },
     {name:'Tuttio Soleil01 Ebike Left Grip', pid:'tuttio-tuttio-soleil01-ebike-left-grip', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:24.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-left-grip', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:24.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-left-grip?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-left-grip.webp'
     },
     {name:'Tuttio Soleil01 eBike New & Upgraded NFC Keyless Smart Display & Throttle', pid:'tuttio-tuttio-soleil01-ebike-new-and-upgraded-nfc-keyless-smart-display-and-throttle', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:169.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-new-and-upgraded-nfc-keyless-smart-display-and-throttle', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:169.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-new-and-upgraded-nfc-keyless-smart-display-and-throttle?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-new-and-upgraded-nfc-keyless-smart-display-and-throttle.webp'
     },
     {name:'Tuttio Soleil01 SE Ebike Throttle Integrated Display', pid:'tuttio-tuttio-soleil01-se-ebike-throttle-integrated-display', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:148.99, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-throttle-integrated-display', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:148.99, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-throttle-integrated-display?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-throttle-integrated-display.webp'
     },
     {name:'Tuttio Soleil01 Self-Locking Silicone Throttle Grip Covers (Pair)', pid:'tuttio-tuttio-soleil01-self-locking-silicone-throttle-grip-cover', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:16.99, url:'https://tuttiosport.com/products/tuttio-soleil01-self-locking-silicone-throttle-grip-cover', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:16.99, url:'https://tuttiosport.com/products/tuttio-soleil01-self-locking-silicone-throttle-grip-cover?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16'
     },
     {name:'Tuttio Soleil01 Throttle-Integrated Display（M Button）', pid:'tuttio-tuttio-soleil01-throttle-integrated-display-kh', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:169.99, url:'https://tuttiosport.com/products/tuttio-soleil01-throttle-integrated-display-kh', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:169.99, url:'https://tuttiosport.com/products/tuttio-soleil01-throttle-integrated-display-kh?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16'
@@ -8632,21 +8632,21 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Chains For Dirt Bike', pid:'tuttio-tuttio-soleil01-chains-for-dirt-bike', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:35.0, url:'https://tuttiosport.com/products/tuttio-soleil01-chains-for-dirt-bike', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:35.0, url:'https://tuttiosport.com/products/tuttio-soleil01-chains-for-dirt-bike?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-chains-for-dirt-bike.webp'
     },
     {name:'Tuttio Soleil01 Ebike Chain Tensioner Block Kit', pid:'tuttio-tuttio-soleil01-ebike-chain-tensioner-block-kit', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:39.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-chain-tensioner-block-kit', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:39.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-chain-tensioner-block-kit?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-chain-tensioner-block-kit.webp'
     },
     {name:'Tuttio Soleil01 Ebike Sprocket For Sale', pid:'tuttio-tuttio-soleil01-ebike-sprocket-for-sale', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:15.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-sprocket-for-sale', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:15.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-sprocket-for-sale?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16'
@@ -9473,7 +9473,7 @@ var CATEGORIES = [
     },
     {name:'Tuttio Ebike Soliel01 LO Magnetic Safety Switch Top Cover', pid:'tuttio-tuttio-ebike-soliel01-lo-magnetic-safety-switch-top-cover', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:12.99, url:'https://tuttiosport.com/products/tuttio-ebike-soliel01-lo-magnetic-safety-switch-top-cover', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:12.99, url:'https://tuttiosport.com/products/tuttio-ebike-soliel01-lo-magnetic-safety-switch-top-cover?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16'
@@ -9929,7 +9929,7 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Chain Protector for Pit Dirt Bike', pid:'tuttio-tuttio-soleil-01-chain-protector-for-pit-dirt-bike', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:25.0, url:'https://tuttiosport.com/products/tuttio-soleil-01-chain-protector-for-pit-dirt-bike', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:25.0, url:'https://tuttiosport.com/products/tuttio-soleil-01-chain-protector-for-pit-dirt-bike?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16'
@@ -11443,21 +11443,21 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil 01 Aluminum Die Casting Pedals', pid:'tuttio-tuttio-soleil-01-aluminum-alloy-pedals', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:69.0, url:'https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:69.0, url:'https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil-01-aluminum-alloy-pedals.webp'
     },
     {name:'Tuttio Soleil 01 LO Aluminum Die Casting Pedals', pid:'tuttio-tuttio-soleil-01-lo-aluminum-die-casting-pedals', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:43.99, url:'https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:43.99, url:'https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil-01-lo-aluminum-die-casting-pedals.webp'
     },
     {name:'Tuttio Soleil01 Foot Peg Mount', pid:'tuttio-tuttio-soleil01-ebike-foot-peg-mount', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:19.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:19.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-ebike-foot-peg-mount.webp'
@@ -11784,21 +11784,21 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Replacement Seat', pid:'tuttio-tuttio-soleil01-replacement-seat', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:120.0, url:'https://tuttiosport.com/products/tuttio-soleil01-replacement-seat', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:120.0, url:'https://tuttiosport.com/products/tuttio-soleil01-replacement-seat?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16'
     },
     {name:'Tuttio Soleil01 SE Ebike Seat', pid:'tuttio-tuttio-soleil01-se-ebike-seat', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:219.99, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:219.99, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-seat.webp'
     },
     {name:'Tuttio Soleil01 Seat Khob Screws', pid:'tuttio-tuttio-soleil01-seat-khob-screws', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-seat-khob-screws.webp'
@@ -12051,7 +12051,7 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil01 Ebike Smart Bike Tail Light', pid:'tuttio-tuttio-ebike-smart-bike-tail-light', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:34.99, url:'https://tuttiosport.com/products/tuttio-ebike-smart-bike-tail-light', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:34.99, url:'https://tuttiosport.com/products/tuttio-ebike-smart-bike-tail-light?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-ebike-smart-bike-tail-light.webp'
@@ -13962,20 +13962,20 @@ var CATEGORIES = [
     },
     {name:'Soleil01 Electric Bike Fat Tire Bike Tube', pid:'tuttio-tuttio-soleil01-electric-bike-fat-tire-bike-tube', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:29.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-fat-tire-bike-tube', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:29.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-fat-tire-bike-tube?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-fat-tire-bike-tube.webp'
     },
     {name:'Tuttio Soleil01 Electric Dirt Bike Street Tire Set', pid:'tuttio-tuttio-soleil01-electric-dirt-bike-street-tire-set', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:245.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-dirt-bike-street-tire-set', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:245.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-dirt-bike-street-tire-set?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16'
     },
     {name:'Tuttio Soleil01 Outer Tire', pid:'tuttio-tuttio-soleil01-front-and-rear-tire-1', tier:'OEM',
      prices:[
-      {v:'Tuttio', p:86.0, url:'https://tuttiosport.com/products/tuttio-soleil01-front-and-rear-tire-1', chk:'2026-11-16', stock:'in_stock'},
+      {v:'Tuttio', p:86.0, url:'https://tuttiosport.com/products/tuttio-soleil01-front-and-rear-tire-1?ref=eejkbrkx', chk:'2026-11-16', stock:'in_stock', aff:true},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-16', img:'img/parts/tuttio-tuttio-soleil01-front-and-rear-tire-1.webp'
