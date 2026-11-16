@@ -1,4 +1,4 @@
-/* eBikePartsPicker catalog. Catalog v4.17.0, last researched 2026-11-16.
+/* eBikePartsPicker catalog. Catalog v4.17.1, last researched 2026-11-16.
    46 bikes / 23 categories / 1984 parts (1977 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
@@ -323,21 +323,21 @@ var CATEGORIES = [
       {v:'E-Conic Cycles', p:315, url:'https://econiccycles.com/products/yozma-in10-valtinsu-em-5-tasaca-v58-upgraded-gear-reduction-motor-w-420-14t-sprocket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['yozma-in10'], likely:[], no:[],
-     badge:'Gear Reduction', motorKw:10.8, stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Gear Reduction', motorKw:10.8, stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/econic-yozma-in10-gear-reduction-motor.webp'
     },
     {name:'E&Co Revolver Alpha 70H Motor', pid:'eco-rtr-alpha-revolver-motor-70h', tier:'budget',
      prices:[
       {v:'Electro & Co', p:359, url:'https://electroandcompany.com/products/motor-etm-rtr-alpha-revolver-motor-70h', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-sport'], likely:[], no:[],
-     badge:'Revolver Alpha 70H', motorKw:18, stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Revolver Alpha 70H', motorKw:18, stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/eco-rtr-alpha-revolver-motor-70h.webp'
     },
     {name:'E&Co High Speed Mod Motor', pid:'eco-rtr-high-speed-mod-motor', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:349, url:'https://tbelectricmoto.com/products/etm-rtr-high-speed-mod-motor', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     badge:'High Speed Mod', motorKw:13, stock:'in_stock', stockChk:'2026-11-15'
+     badge:'High Speed Mod', motorKw:13, stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/eco-rtr-high-speed-mod-motor.webp'
     },
     {name:'E&Co Revolver Alpha Motor & 420 Chain Conversion Kit', pid:'eco-rtr-revolver-alpha-420-kit', tier:'midrange',
      prices:[
@@ -346,7 +346,7 @@ var CATEGORIES = [
       {v:'GritShift', p:449.99, url:'https://gritshift.com/products/electro-co-revolver-alpha-motor-420-chain-conversion-kit-etm-rtr', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     badge:'Revolver Alpha Kit', motorKw:18, stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Revolver Alpha Kit', motorKw:18, stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/eco-rtr-revolver-alpha-420-kit.webp'
     },
     {name:'E&Co High Torque Mod Motor', pid:'eco-rtr-high-torque-mod-motor', tier:'budget',
      prices:[
@@ -355,14 +355,14 @@ var CATEGORIES = [
       {v:'GritShift', p:299.99, url:'https://gritshift.com/products/etm-rtr-high-torque-mod-motor-upgrade', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     badge:'High Torque Mod', motorKw:5, stock:'in_stock', stockChk:'2026-11-15'
+     badge:'High Torque Mod', motorKw:5, stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/eco-rtr-high-torque-mod-motor.webp'
     },
     {name:'KyVex Billet Motor Cover \u2013 Surron LBX / Ventus One / 79Bike', pid:'chargedcycleworks-kyvex-billet-motor-cover-79bike', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:75, url:'https://chargedcycleworks.com/products/kyvex-billet-motor-cover-compatible-w-surron-lbx-ventus-one-79bike', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['falcon-pro','falcon-gt'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kyvex-billet-motor-cover-79bike.webp'
     }
   ,
     {name:'Altis Delta Motor Bracket', pid:'altispowersports-altis-delta-motor-bracket', tier:'OEM',
@@ -370,28 +370,28 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:125.0, url:'https://www.altispowersports.com/products/altis-delta-motor-bracket', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-motor-bracket.webp'
     },
     {name:'Altis Delta Motor Sprocket Cover', pid:'altispowersports-altis-delta-motor-sprocket-cover', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:9.0, url:'https://www.altispowersports.com/products/altis-delta-motor-sprocket-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-motor-sprocket-cover.webp'
     },
     {name:'EBMX X9000 V2 Race Harness For QS138', pid:'gritshift-ebmx-x-9000-qs138-race-harness', tier:'midrange',
      prices:[
       {v:'GritShift', p:96.99, url:'https://gritshift.com/products/ebmx-x-9000-qs138-race-harness', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ebmx-x-9000-qs138-race-harness.webp'
     },
     {name:'Electro & Co EMX 28KW Kit - QS138 70h V3', pid:'gritshift-electro-co-emx-25kw-kit-qs138-70h-v3', tier:'premium',
      prices:[
       {v:'GritShift', p:1399.0, url:'https://gritshift.com/products/electro-co-emx-25kw-kit-qs138-70h-v3', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Electro & Co', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Electro & Co', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-electro-co-emx-25kw-kit-qs138-70h-v3.webp'
     },
     {name:'Electro & Co Tuttio Soleil 01 Ultimate Upgrade Kit', pid:'gritshift-electro-co-ultimate-upgrade-kit-tuttio-soleil-01', tier:'premium',
      prices:[
@@ -404,98 +404,98 @@ var CATEGORIES = [
      prices:[
       {v:'GritShift', p:172.89, url:'https://gritshift.com/products/heavy-hitter-qs165-60h-v3-billet-gear-box-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-heavy-hitter-qs165-60h-v3-billet-gear-box-cover.webp'
     },
     {name:'Lithium King QS138 70h v3 520 Sprocket', pid:'gritshift-qs138-70h-v3-520-sprocket', tier:'budget',
      prices:[
       {v:'GritShift', p:42.89, url:'https://gritshift.com/products/qs138-70h-v3-520-sprocket', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-qs138-70h-v3-520-sprocket.webp'
     },
     {name:'QS138 70h V3 Motor', pid:'gritshift-qs138-70h-v3-motor', tier:'premium',
      prices:[
       {v:'GritShift', p:699.99, url:'https://gritshift.com/products/qs138-70h-v3-motor', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-qs138-70h-v3-motor.webp'
     },
     {name:'EBMX X-9000 V3 Race Harness For QS138 Motor', pid:'gritshift-x-9000-race-harness-for-qs138', tier:'midrange',
      prices:[
       {v:'GritShift', p:139.89, url:'https://gritshift.com/products/x-9000-race-harness-for-qs138', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-x-9000-race-harness-for-qs138.webp'
     },
     {name:'Altis Delta Motor Bracket | OEM Motor Mount | By Altis Powersports', pid:'revrides-altis-delta-motor-bracket-oem-motor-mount-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:125.0, url:'https://revrides.com/products/altis-delta-motor-bracket-oem-motor-mount-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-motor-bracket-oem-motor-mount-by-altis-powersports.webp'
     },
     {name:'Altis Delta Motor Sprocket Cover | OEM Drivetrain Protection Cover | By Altis Powersports', pid:'revrides-altis-delta-motor-sprocket-cover-oem-drivetrain-protection-cover-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:9.0, url:'https://revrides.com/products/altis-delta-motor-sprocket-cover-oem-drivetrain-protection-cover-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-motor-sprocket-cover-oem-drivetrain-protection-cover-by-altis-powersports.webp'
     },
     {name:'Tuttio Soleil01 Motor Cover', pid:'tbelectricmoto-tuttio-soleil01-moto-cover', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:35.0, url:'https://tbelectricmoto.com/products/tuttio-soleil01-moto-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tuttio-soleil01-moto-cover.webp'
     },
     {name:'Tuttio Soleil01 Ebike Motor Cover', pid:'tuttio-tuttio-soleil01-ebike-motor-cover', tier:'OEM',
      prices:[
       {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-motor-cover.webp'
     },
     {name:'Tuttio Soleil01 Ebike Motor Side Cover Replacement Screws', pid:'tuttio-tuttio-soleil01-ebike-motor-side-cover-replacement-screws', tier:'OEM',
      prices:[
       {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-motor-side-cover-replacement-screws', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-motor-side-cover-replacement-screws.webp'
     },
     {name:'Tuttio Soleil01 Motor Kits', pid:'tuttio-tuttio-soleil01-motor-kits', tier:'OEM',
      prices:[
       {v:'Tuttio', p:459.99, url:'https://tuttiosport.com/products/tuttio-soleil01-motor-kits', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-motor-kits.webp'
     },
     {name:'OEM Motor Bracket (Delta / Delta S)', pid:'wiredwhips-oem-motor-bracket-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:154.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_motor-bracket', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-motor-bracket-delta-delta-s.webp'
     },
     {name:'OEM Motor Sprocket Cover (Delta / Delta S)', pid:'wiredwhips-oem-motor-sprocket-cover-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:11.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_motor-sprocket-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-motor-sprocket-cover-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 Motor Cover Set (soleil01-motor-front-cover)', pid:'wiredwhips-oem-soleil01-motor-cover-set-soleil01-motor-front-cover', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:56.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_motor-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-motor-cover-set-soleil01-motor-front-cover.webp'
     },
     {name:'OEM Soleil01 Motor Kit (1500W rated / 2000W peak class) (soleil01-motor)', pid:'wiredwhips-oem-soleil01-motor-kit-1500w-rated-2000w-peak-class-soleil01-motor', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:561.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_motor-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-motor-kit-1500w-rated-2000w-peak-class-soleil01-motor.webp'
     },
     {name:'OEM Soleil01 Motor Side Cover Screws (soleil01-motor-side-cover-screws)', pid:'wiredwhips-oem-soleil01-motor-side-cover-screws-soleil01-motor-side-cover-screws', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:25.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_motor-cover-screws', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-motor-side-cover-screws-soleil01-motor-side-cover-screws.webp'
     },
 ]},
   {id:'controller', name:'Controller', blurb:'The controller is the brain — it meters power from the battery to the motor and sets how the bike feels.', tips:['Voltage range must cover your battery','Match phase amps to your motor — too small chokes it','Some bikes need a wiring harness adapter — check fitment','App and Bluetooth tuning varies a lot by brand'], options:[
@@ -696,132 +696,132 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:28.0, url:'https://www.altispowersports.com/products/altis-delta-controller-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-controller-cover.webp'
     },
     {name:'Altis Delta Controller Wire cover', pid:'altispowersports-altis-delta-controller-wire-cover', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:15.0, url:'https://www.altispowersports.com/products/altis-delta-controller-wire-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-controller-wire-cover.webp'
     },
     {name:'EBMX X-9000 Controller Thumb Throttle', pid:'gritshift-ebmx-x-9000-controller-thumb-throttle', tier:'budget',
      prices:[
       {v:'GritShift', p:34.99, url:'https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ebmx-x-9000-controller-thumb-throttle.webp'
     },
     {name:'EBMX X-9000 V2 Controller SW102 Display for E-Motos', pid:'gritshift-ebmx-x-9000-v2-controller-sw102-display-e-moto', tier:'midrange',
      prices:[
       {v:'GritShift', p:84.99, url:'https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Ebmx', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ebmx-x-9000-v2-controller-sw102-display-e-moto.webp'
     },
     {name:'EBMX X-9000 V3 Controller 2-1 Harness', pid:'gritshift-ebmx-x-9000-v3-controller-2-1-harness', tier:'budget',
      prices:[
       {v:'GritShift', p:39.99, url:'https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ebmx-x-9000-v3-controller-2-1-harness.webp'
     },
     {name:'EBMX X9000 V3 Base Controller', pid:'gritshift-ebmx-x9000-v3-base-controller', tier:'premium',
      prices:[
       {v:'GritShift', p:1099.99, url:'https://gritshift.com/products/ebmx-x9000-v3-base-controller', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ebmx-x9000-v3-base-controller.webp'
     },
     {name:'Ventus Heatsink for VTB Aetos Gen 2 Controllers', pid:'gritshift-ventus-heatsink-vtb-aetos-gen-2-controllers', tier:'midrange',
      prices:[
       {v:'GritShift', p:89.99, url:'https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ventus-heatsink-vtb-aetos-gen-2-controllers.webp'
     },
     {name:'Ventus Aetos Pro V9600 Controller', pid:'gritshift-ventus-vtb-aetos-pro-controller', tier:'premium',
      prices:[
       {v:'GritShift', p:1099.99, url:'https://gritshift.com/products/ventus-vtb-aetos-pro-controller', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ventus-vtb-aetos-pro-controller.webp'
     },
     {name:'Altis Delta Controller Cover | OEM Controller Protection Cover | By Altis Powersports', pid:'revrides-altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:28.0, url:'https://revrides.com/products/altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports.webp'
     },
     {name:'Altis Delta Controller Wire Cover | OEM Electrical Protection Cover | By Altis Powersports', pid:'revrides-altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:15.0, url:'https://revrides.com/products/altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-controller-wire-cover-oem-electrical-protection-cover-by-altis-powersports.webp'
     },
     {name:'Tuttio Soleil01 Ebike Controller (be compatible with M button display)', pid:'tuttio-tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display', tier:'OEM',
      prices:[
       {v:'Tuttio', p:165.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-controller-be-compatible-with-m-button-display.webp'
     },
     {name:'Tuttio Soleil01 Ebike Controller Bracket', pid:'tuttio-tuttio-soleil01-ebike-controller-bracket', tier:'OEM',
      prices:[
       {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-controller-bracket.webp'
     },
     {name:'Tuttio Soleil01 Ebike Controller Housing', pid:'tuttio-tuttio-soleil01-ebike-controller-housing', tier:'OEM',
      prices:[
       {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-controller-housing', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-controller-housing.webp'
     },
     {name:'Tuttio Soleil01 Ebike Controller Main Line (be compatible with M button display)', pid:'tuttio-tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display', tier:'OEM',
      prices:[
       {v:'Tuttio', p:35.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-controller-main-line-be-compatible-with-m-button-display.webp'
     },
     {name:'OEM Controller Cover (Delta / Delta S)', pid:'wiredwhips-oem-controller-cover-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:35.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_controller-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-controller-cover-delta-delta-s.webp'
     },
     {name:'OEM Controller Wire Cover (Delta / Delta S)', pid:'wiredwhips-oem-controller-wire-cover-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_controller-wire-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-controller-wire-cover-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 Controller Bracket (soleil01-controller-bracket)', pid:'wiredwhips-oem-soleil01-controller-bracket-soleil01-controller-bracket', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:56.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_controller-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-controller-bracket-soleil01-controller-bracket.webp'
     },
     {name:'OEM Soleil01 Controller Housing (soleil01-controller-housing)', pid:'wiredwhips-oem-soleil01-controller-housing-soleil01-controller-housing', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:56.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_controller-housing', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-controller-housing-soleil01-controller-housing.webp'
     },
     {name:'OEM Soleil01 Controller (M-button / KH display) (soleil01-controller-kh)', pid:'wiredwhips-oem-soleil01-controller-m-button-kh-display-soleil01-controller-kh', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:205.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_controller-kh', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-controller-m-button-kh-display-soleil01-controller-kh.webp'
     },
     {name:'OEM Soleil01 Controller Main Line (M-button) (soleil01-main-line)', pid:'wiredwhips-oem-soleil01-controller-main-line-m-button-soleil01-main-line', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:44.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_controller-mainline-kh', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-controller-main-line-m-button-soleil01-main-line.webp'
     },
 ]},
   {id:'fork', name:'Fork', blurb:'Front suspension — dictates how the bike handles braking bumps, rocks, and landings.', tips:['Axle size and triple-clamp fitment must match your bike','Spring rate should suit your weight — ask the vendor','More travel isn\'t always better if the geometry suffers'], options:[
@@ -973,7 +973,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/komodo-fork-left-oem.webp'
     },
     {name:"E Ride Pro SS Adjustable RST OEM Fork (E7024)", pid:'voro-eride-ss-rst-fork', tier:'OEM',
      prices:[
@@ -1216,21 +1216,21 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/rfloxa-hawk36-max-fork', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rfloxa-hawk36-max-fork.webp'
     },
     {name:'RFloXa Hawk31 Max (Gold)', pid:'chargedcycleworks-rfloxa-hawk31-max-gold', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rawrr-mantis-x'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rfloxa-hawk31-max-gold.webp'
     },
     {name:'RFloXa Hawk31 Max (Black)', pid:'chargedcycleworks-rfloxa-hawk31-max-black', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/rfloxa-hawk31-max-black', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rawrr-mantis-x'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rfloxa-hawk31-max-black.webp'
     },
     {name:'SKF Fork Seals for Stark Varg', pid:'fork-skf-seals-stark-varg', tier:'mid',
      prices:[
@@ -1238,7 +1238,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/fork-skf-seals-stark-varg.webp'
     },
     {name:'RACE TECH FORK SPRINGS for Stark Varg', pid:'fork-race-tech-springs-stark-varg', tier:'mid',
      prices:[
@@ -1246,7 +1246,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/fork-race-tech-springs-stark-varg.webp'
     },
     {name:'Motion Pro Fork Compression Adjuster for Stark Varg', pid:'fork-motion-pro-compression-adjuster-stark-varg', tier:'mid',
      prices:[
@@ -1254,7 +1254,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/fork-motion-pro-compression-adjuster-stark-varg.webp'
     },
     {name:'Motion Pro Fork Bleeders for Stark Varg', pid:'fork-motion-pro-bleeders-stark-varg', tier:'budget',
      prices:[
@@ -1262,14 +1262,14 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/fork-motion-pro-bleeders-stark-varg.webp'
     },
     {name:'RFloXa Hawk31 Max Plus Fork for Lightweight eMoto', pid:'chargedcycleworks-rfloxa-hawk31-max-plus-fork-1', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:1099, url:'https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['falcon-pro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rfloxa-hawk31-max-plus-fork-1.webp'
     }
 ,
     {name:'Altis Delta DBK Front Suspension', pid:'altispowersports-altis-delta-dbk-front-suspension', tier:'OEM',
@@ -1277,105 +1277,105 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:0.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-front-suspension', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-front-suspension.webp'
     },
     {name:'Altis Delta Lower Triple Clamp', pid:'altispowersports-altis-delta-lower-triple-clamp', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:110.0, url:'https://www.altispowersports.com/products/altis-delta-lower-triple-clamp', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-lower-triple-clamp.webp'
     },
     {name:'Altis Delta Suspension', pid:'altispowersports-altis-delta-suspension', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:200.0, url:'https://www.altispowersports.com/products/altis-delta-suspension', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-suspension.webp'
     },
     {name:'Altis Delta Upper Triple Altis Clamp', pid:'altispowersports-altis-delta-upper-triple-clamp', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:60.0, url:'https://www.altispowersports.com/products/altis-delta-upper-triple-clamp', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-upper-triple-clamp.webp'
     },
     {name:'NEW: KTM WP 43 Gold Fork Legs (Coil Spring)', pid:'chargedcycleworks-new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:999.0, url:'https://chargedcycleworks.com/products/new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ultrabee-21kw'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['ultrabee-21kw'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-new-wp-43-xact-front-suspension-with-triple-clamp-front-axle-and-formula-brake-copy.webp'
     },
     {name:'Used: Black KTM WP 43 XACT Air Fork - With XTRIG Triple Clamps', pid:'chargedcycleworks-used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:1199.0, url:'https://chargedcycleworks.com/products/used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ultrabee-21kw'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['ultrabee-21kw'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-used-black-ktm-wp-43-xact-air-fork-with-xtrig-triple-clamps.webp'
     },
     {name:'Used: KTM WP 43 XACT Air Fork - With Black Triple Clamps', pid:'chargedcycleworks-used-ktm-wp-43-xact-air-fork-with-black-triple-clamps', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:799.0, url:'https://chargedcycleworks.com/products/used-ktm-wp-43-xact-air-fork-with-black-triple-clamps', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ultrabee-21kw'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['ultrabee-21kw'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-used-ktm-wp-43-xact-air-fork-with-black-triple-clamps.webp'
     },
     {name:'Used: KTM WP 43 XACT Air Fork', pid:'chargedcycleworks-used-wp-43-front-suspension-air-fork', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:799.0, url:'https://chargedcycleworks.com/products/used-wp-43-front-suspension-air-fork', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ultrabee-21kw'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['ultrabee-21kw'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-used-wp-43-front-suspension-air-fork.webp'
     },
     {name:'Tuttio Soleil 01 Carbon Fiber Fork Guards', pid:'howlingmoto-tuttio-soleil-01-carbon-fiber-fork-guards', tier:'budget',
      prices:[
       {v:'Howling Moto', p:44.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-fork-guards', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-carbon-fiber-fork-guards.webp'
     },
     {name:'Altis Delta Black Aluminum Swingarm | OEM Rear Suspension Component | By Altis Powersports', pid:'revrides-altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:390.0, url:'https://revrides.com/products/altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-black-aluminum-swingarm-oem-rear-suspension-component-by-altis-powersports.webp'
     },
     {name:'Altis Delta Front Fork | Left or Right Fork Leg | By Altis Powersports', pid:'revrides-altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports', tier:'midrange',
      prices:[
       {v:'REV Rides', p:200.0, url:'https://revrides.com/products/altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-front-fork-left-or-right-fork-leg-by-altis-powersports.webp'
     },
     {name:'Altis Delta Lower Triple Clamp | OEM Front End Component | By Altis Powersports', pid:'revrides-altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:100.0, url:'https://revrides.com/products/altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-lower-triple-clamp-oem-front-end-component-by-altis-powersports.webp'
     },
     {name:'Altis Delta Rear Shock | OEM Rear Suspension | By Altis Powersports', pid:'revrides-altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:180.0, url:'https://revrides.com/products/altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-rear-shock-oem-rear-suspension-by-altis-powersports.webp'
     },
     {name:'Altis Delta Upper Triple Clamp | OEM Steering & Suspension Component | By Altis Powersports', pid:'revrides-altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:60.0, url:'https://revrides.com/products/altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-upper-triple-clamp-oem-steering-suspension-component-by-altis-powersports.webp'
     },
     {name:'Tuttio Soleil01 Carbon Fiber Effect Fork Guards', pid:'tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-fork-guards', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:35.0, url:'https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-fork-guards', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-fork-guards.webp'
     },
     {name:'Soleil01 Rear Fender – Rear Suspension Mud & Dust Protection', pid:'tuttio-soleil01-rear-fender-rear-suspension-mud-dust-protection', tier:'OEM',
      prices:[
@@ -1388,92 +1388,92 @@ var CATEGORIES = [
       {v:'Tuttio', p:19.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-fork-guards', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-fork-guards.webp'
     },
     {name:'Tuttio Soleil01 Rear Fork', pid:'tuttio-tuttio-soleil01-ebike-rear-fork', tier:'OEM',
      prices:[
       {v:'Tuttio', p:195.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-fork', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-rear-fork.webp'
     },
     {name:'Tuttio Soleil01 Ebike Top Triple Clamp Assembly', pid:'tuttio-tuttio-soleil01-ebike-top-triple-clamp-assembly', tier:'OEM',
      prices:[
       {v:'Tuttio', p:43.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-top-triple-clamp-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-top-triple-clamp-assembly.webp'
     },
     {name:'Tuttio Soleil01 Ebike Front Fork', pid:'tuttio-tuttio-soleil01-electric-bike-front-fork', tier:'OEM',
      prices:[
       {v:'Tuttio', p:128.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-front-fork', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-front-fork.webp'
     },
     {name:'Tuttio Soleil01 Ebike Rear Suspension', pid:'tuttio-tuttio-soleil01-electric-bike-rear-suspension', tier:'OEM',
      prices:[
       {v:'Tuttio', p:119.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-suspension', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-rear-suspension.webp'
     },
     {name:'Tuttio Soleil01 GB Ebike Rear Fork', pid:'tuttio-tuttio-soleil01-gb-ebike-rear-fork', tier:'OEM',
      prices:[
       {v:'Tuttio', p:245.0, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-fork', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-rear-fork.webp'
     },
     {name:'Tuttio Soleil01 GB EBike Sliver Front Forks', pid:'tuttio-tuttio-soleil01-gb-ebike-sliver-front-forks', tier:'OEM',
      prices:[
       {v:'Tuttio', p:188.99, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-sliver-front-forks', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-sliver-front-forks.webp'
     },
     {name:'Tuttio Soleil01 SE EBike Front Forks', pid:'tuttio-tuttio-soleil01-se-ebike-front-forks', tier:'OEM',
      prices:[
       {v:'Tuttio', p:98.99, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-front-forks', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-front-forks.webp'
     },
     {name:'OEM Front Fork Assembly 180mm (Delta / Delta S)', pid:'wiredwhips-oem-front-fork-assembly-180mm-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:247.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_front-fork', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-front-fork-assembly-180mm-delta-delta-s.webp'
     },
     {name:'OEM Lower Triple Clamp (Delta / Delta S)', pid:'wiredwhips-oem-lower-triple-clamp-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:136.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_lower-triple-clamp', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-lower-triple-clamp-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 Fork Guards (soleil01-fork-guard-left)', pid:'wiredwhips-oem-soleil01-fork-guards-soleil01-fork-guard-left', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:25.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_fork-guards', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-fork-guards-soleil01-fork-guard-left.webp'
     },
     {name:'OEM Soleil01 Front Fork (base) (tuttio-soleil01-left-front-fork)', pid:'wiredwhips-oem-soleil01-front-fork-base-tuttio-soleil01-left-front-fork', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:159.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_front-fork-base', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-front-fork-base-tuttio-soleil01-left-front-fork.webp'
     },
     {name:'OEM Soleil01 GB Silver Front Forks (soleil01-gb-left-front-fork)', pid:'wiredwhips-oem-soleil01-gb-silver-front-forks-soleil01-gb-left-front-fork', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:234.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_gb-silver-front-forks', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-gb-silver-front-forks-soleil01-gb-left-front-fork.webp'
     },
     {name:'OEM Soleil01 Rear Fork / Swingarm (soleil01-rear-fork)', pid:'wiredwhips-oem-soleil01-rear-fork-swingarm-soleil01-rear-fork', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:241.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_rear-fork-base', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-rear-fork-swingarm-soleil01-rear-fork.webp'
     },
     {name:'OEM Soleil01 Rear Suspension Mud/Dust Fender (soleil01-rear-fender-custom)', pid:'wiredwhips-oem-soleil01-rear-suspension-mud-dust-fender-soleil01-rear-fender-custom', tier:'OEM',
      prices:[
@@ -1485,20 +1485,20 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:147.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_rear-suspension', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-rear-suspension-shock-soleil01-rear-suspension.webp'
     },
     {name:'OEM Upper Triple Clamp (Delta / Delta S)', pid:'wiredwhips-oem-upper-triple-clamp-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:75.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_upper-triple-clamp', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-upper-triple-clamp-delta-delta-s.webp'
     },
     {name:'RFloXa Hawk 31 Pro Front Fork - Altis Omega Fitment Class', pid:'wiredwhips-rfloxa-hawk-31-pro-front-fork-altis-omega-fitment-class', tier:'premium',
      prices:[
       {v:'Wired Whips', p:1079.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_fork-rfloxa-hawk31-pro', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Rfloxa', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Rfloxa', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-rfloxa-hawk-31-pro-front-fork-altis-omega-fitment-class.webp'
     },
     {name:'SKF 37mm Fork Seal Kit (per leg) - Altis Omega/Sigma', pid:'wiredwhips-skf-37mm-fork-seal-kit-per-leg-altis-omega-sigma', tier:'midrange',
      prices:[
@@ -1557,7 +1557,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/komodo-shock-absorber-oem.webp'
     },
     {name:'RFloXa RAF55RV Rear Shock for Surron Ultra Bee', pid:'rfloxa-raf55rv-ultrabee', tier:'performance',
      prices:[
@@ -1866,28 +1866,28 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:149, url:'https://chargedcycleworks.com/products/etm-rtr-race-shock', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite','rtr-sport'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-race-shock.webp'
     },
     {name:'Sirris R38 | 2SC | Arctic Leopard XE Pro S/Enduro/R', pid:'chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s-enduro-r', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/r38-2sc-arctic-leopard-xe-pro-s-enduro-r', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-r38-2sc-arctic-leopard-xe-pro-s-enduro-r.webp'
     },
     {name:'RFloXa RAB50RC', pid:'chargedcycleworks-rfloxa-rab50rc', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:150.0, url:'https://chargedcycleworks.com/products/rfloxa-rab50rc', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rfloxa-rab50rc.webp'
     },
     {name:'Nibbi Rear Shock', pid:'chargedcycleworks-nibbi-rear-shock', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:239.89, url:'https://chargedcycleworks.com/products/nibbi-rear-shock', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-nibbi-rear-shock.webp'
     },
     {name:'Race Tech Suspension Gold Valves for Stark Varg', pid:'shock-race-tech-gold-valves-stark-varg', tier:'midrange',
      prices:[
@@ -1895,7 +1895,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/shock-race-tech-gold-valves-stark-varg.webp'
     }
 ,
     {name:'Altis Delta DBK Rear Shock', pid:'altispowersports-altis-delta-dbk-rear-shock', tier:'OEM',
@@ -1903,67 +1903,67 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:200.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-rear-shock', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-rear-shock.webp'
     },
     {name:'Altis Delta Rear Shock', pid:'altispowersports-altis-delta-rear-shock', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:180.0, url:'https://www.altispowersports.com/products/altis-delta-rear-shock', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-rear-shock.webp'
     },
     {name:'Warp 9 E-Moto Shock Protector', pid:'gritshift-warp-9-e-moto-shock-protector', tier:'budget',
      prices:[
       {v:'GritShift', p:18.99, url:'https://gritshift.com/products/warp-9-e-moto-shock-protector', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-warp-9-e-moto-shock-protector.webp'
     },
     {name:'Shock Cover | Fits Sur Ron, Talaria, E-Ride Pro, Rawrr & More | By Warp 9 Racing', pid:'revrides-shock-cover-fits-sur-ron-talaria-e-ride-pro-rawrr-more-by-warp-9-racing', tier:'budget',
      prices:[
       {v:'REV Rides', p:17.0, url:'https://revrides.com/products/shock-cover-fits-sur-ron-talaria-e-ride-pro-rawrr-more-by-warp-9-racing', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-shock-cover-fits-sur-ron-talaria-e-ride-pro-rawrr-more-by-warp-9-racing.webp'
     },
     {name:'Tuttio Soleil01 Ebike Rear Shock Mounting Bolt Set', pid:'tuttio-tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set', tier:'OEM',
      prices:[
       {v:'Tuttio', p:24.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-rear-shock-mounting-bolt-set.webp'
     },
     {name:'Tuttio Soleil01 GB Ebike Rear Shock', pid:'tuttio-tuttio-soleil01-gb-ebike-rear-shock', tier:'OEM',
      prices:[
       {v:'Tuttio', p:99.98, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-rear-shock', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-rear-shock.webp'
     },
     {name:'Tuttio Soleil01 SE Ebike Rear Shock', pid:'tuttio-tuttio-soleil01-se-ebike-rear-shock', tier:'OEM',
      prices:[
       {v:'Tuttio', p:159.0, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-rear-shock', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-rear-shock.webp'
     },
     {name:'OEM Rear Shock (Delta / Delta S)', pid:'wiredwhips-oem-rear-shock-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:223.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_rear-shock', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-rear-shock-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 Rear Shock Mounting Bolt Set (soleil-01-rear-shock-mounting-bolt-set)', pid:'wiredwhips-oem-soleil01-rear-shock-mounting-bolt-set-soleil-01-rear-shock-mounting-bolt-set', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:31.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_rear-shock-bolts', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-rear-shock-mounting-bolt-set-soleil-01-rear-shock-mounting-bolt-set.webp'
     },
     {name:'Warp 9 E-Moto Shock Protector - Altis Omega', pid:'wiredwhips-warp-9-e-moto-shock-protector-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:24.99, url:'https://wiredwhips.com/parts/altis_omega_shock-cover-warp9', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-warp-9-e-moto-shock-protector-altis-omega.webp'
     },
 ]},
   {id:'wheels', name:'Wheels', blurb:'Lighter, stronger wheels sharpen handling and acceleration — often the best-feeling upgrade per dollar.', tips:['Hub and axle size must match your bike','Check your brake rotor bolt pattern carries over','Spoked vs billet — weight vs strength tradeoff'], options:[
@@ -2185,7 +2185,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wheels-bonnell-805-rx-17-17-supermoto-wheel-set.webp'
     },
     {name:'16" Rear Wheel Upgrade for E Ride Pro 3.0 / SR', pid:'chargedcycleworks-16-rear-wheel-upgrade-for-e-ride-pro-3-0-sr', tier:'midrange',
      prices:[
@@ -2257,63 +2257,63 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:35.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-rear-wheel-spacers-oem', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-rear-wheel-spacers-oem.webp'
     },
     {name:'Arctic Leopard - XE Rear Axle | OEM', pid:'chargedcycleworks-arctic-leopard-xe-rear-axle-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:45.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-rear-axle-oem', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-rear-axle-oem.webp'
     },
     {name:'16" Rear Wheel for Arctic Leopard XE Pro', pid:'chargedcycleworks-arctic-leopard-xe-pro-16-rear-wheel', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:299.0, url:'https://chargedcycleworks.com/products/arcticleopardxepro-16wheel', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-16-rear-wheel.webp'
     },
     {name:'Arctic Leopard - XE Pro Front Wheel Spacers | OEM', pid:'chargedcycleworks-arctic-leopard-xe-pro-front-wheel-spacers-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:29.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-front-wheel-spacers-oem', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-front-wheel-spacers-oem.webp'
     },
     {name:'Arctic Leopard - XE Front Axle | OEM', pid:'chargedcycleworks-arctic-leopard-xe-front-axle-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:45.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-front-axle-oem', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-front-axle-oem.webp'
     },
     {name:'ION - Arctic Leopard XE PRO / Vetra Blazer - 18/21" Wheelset', pid:'chargedcycleworks-ion-18-21-wheelset-for-arctic-leopard-xe-pro-s', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:499.0, url:'https://chargedcycleworks.com/products/ion-18-21-wheelset-for-arctic-leopard-xe-pro-s', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     badge:'ION', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'ION', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-ion-18-21-wheelset-for-arctic-leopard-xe-pro-s.webp'
     },
     {name:'ION - Arctic Leopard XE PRO / Vetra Blazer - 17" Supermoto Wheelset', pid:'chargedcycleworks-ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:599.0, url:'https://chargedcycleworks.com/products/ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xf'], no:[],
-     badge:'ION', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'ION', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-ion-17-17-supermoto-wheelset-for-arctic-leopard-xe-pro-s.webp'
     },
     {name:'ION - Arctic Leopard XE PRO / Vetra Blazer - 16/19" Wheelset', pid:'chargedcycleworks-ion-16-19-wheelset-for-arctic-leopard-xe-pro-s', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:469.0, url:'https://chargedcycleworks.com/products/ion-16-19-wheelset-for-arctic-leopard-xe-pro-s', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:[], no:[],
-     badge:'ION', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'ION', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-ion-16-19-wheelset-for-arctic-leopard-xe-pro-s.webp'
     },
     {name:'ION - 16" Rear Wheel Upgrade for Arctic Leopard XE PRO / Vetra Blazer', pid:'chargedcycleworks-ion-16-rear-wheel-upgrade-arctic-leopard-xe-pro-s', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:249.0, url:'https://chargedcycleworks.com/products/16-rear-wheel-upgrade-for-arctic-leopard-xe-pro-s', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xf'], no:[],
-     badge:'ION', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'ION', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-ion-16-rear-wheel-upgrade-arctic-leopard-xe-pro-s.webp'
     },
     {name:'ION - E Ride Pro 3.0 / SR - 17" Supermoto Wheelset', pid:'chargedcycleworks-ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr', tier:'midrange',
      prices:[
@@ -2586,28 +2586,28 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:349, url:'https://chargedcycleworks.com/products/etm-rtr-14in-supermoto-wheel-set', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-14in-supermoto-wheel-set.webp'
     },
     {name:'ETM RTR | 12in Supermoto Wheel Set', pid:'chargedcycleworks-etm-rtr-12in-supermoto-wheel-set', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:249, url:'https://chargedcycleworks.com/products/etm-rtr-12in-supermoto-wheel-set', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-12in-supermoto-wheel-set.webp'
     },
     {name:'ETM RTR - Big Wheel Kit', pid:'chargedcycleworks-etm-rtr-big-wheel-kit', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:349.99, url:'https://chargedcycleworks.com/products/etm-rtr-big-wheel-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-big-wheel-kit.webp'
     },
     {name:'Electro & Company ETM RTR 2025 Complete Wheelset', pid:'chargedcycleworks-etm-rtr-2025-complete-wheelset', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:275, url:'https://chargedcycleworks.com/products/etm-rtr-2025-complete-wheelset', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-2025-complete-wheelset.webp'
     },
     {name:'Warp9 18/21" Wheelset for Surron Ultra Bee', pid:'chargedcycleworks-ultra-bee-18-21-wheel-and-tire-combo-warp9', tier:'midrange',
      prices:[
@@ -2685,56 +2685,56 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:699, url:'https://chargedcycleworks.com/products/ion-17-supermoto-wheelset', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['falcon-pro','falcon-gt','ventus-evo'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wheels-ion-lightbee-eride20-17supermoto.webp'
     },
     {name:'Warp9 18/21 Complete Wheel & Tire Combo', pid:'chargedcycleworks-warp9-18-21-combo-lbx-falcon', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:1249, url:'https://chargedcycleworks.com/products/18-21-complete-wheel-tire-combo-warp9-for-surron-segway', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:["falcon-pro","falcon-gt"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-18-21-combo-lbx-falcon.webp'
     },
     {name:'TMB Wheel Spacer Set – Arctic Leopard XE Pro S / Pro R / Vetra', pid:'chargedcycleworks-tmb-wheel-spacer-set-arctic-leopard-xe-pro', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/tmb-wheel-spacer-set-arctic-leopard-xe-pro', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-tmb-wheel-spacer-set-arctic-leopard-xe-pro.webp'
     },
     {name:'ION - 21" Front Wheel Upgrade for Arctic Leopard XE Pro / Vetra Blazer', pid:'chargedcycleworks-21-front-wheel-upgrade-arctic-leopard-xe-pro', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:249, url:'https://chargedcycleworks.com/products/21-front-wheel-upgrade-arctic-leopard-xe-pro', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-21-front-wheel-upgrade-arctic-leopard-xe-pro.webp'
     },
     {name:'Arctic Leopard XE Pro S OEM Takeoff Wheelset', pid:'chargedcycleworks-arctic-leopard-xe-pro-oem-takeoff-wheelset', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:599, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-takeoff-wheelset', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-oem-takeoff-wheelset.webp'
     },
     {name:'ION - Altis Sigma 18"/21" Wheelset', pid:'chargedcycleworks-ion-altis-sigma-18-21-wheelset', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:699.0, url:'https://chargedcycleworks.com/products/ion-altis-sigma-18-21-wheelset', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-ion-altis-sigma-18-21-wheelset.webp'
     },
     {name:'ION - Altis Sigma 17/17 Supermoto Wheelset', pid:'chargedcycleworks-altis-sigma-17-17-supermoto-wheelset', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:699.0, url:'https://chargedcycleworks.com/products/altis-sigma-17-17-supermoto-wheelset', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-17-17-supermoto-wheelset.webp'
     },
     {name:'Bearing Kit | Front Wheel | Surron LBX | Talaria | E Ride Pro | Rawrr Mantis X', pid:'chargedcycleworks-bearing-kit-front-wheel', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:16, url:'https://chargedcycleworks.com/products/bearing-kit-front-wheel', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-bearing-kit-front-wheel.webp'
     },
     {name:'Tusk Rear Wheel for Stark Varg', pid:'wheels-tusk-rear-wheel-stark-varg', tier:'midrange',
      prices:[
@@ -2742,7 +2742,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wheels-tusk-rear-wheel-stark-varg.webp'
     },
     {name:'Tusk 21" Front Wheel for Stark Varg', pid:'wheels-tusk-21-front-wheel-stark-varg', tier:'midrange',
      prices:[
@@ -2750,7 +2750,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wheels-tusk-21-front-wheel-stark-varg.webp'
     },
     {name:'Rawrr – Mantis Mini R Upsizing Kit', pid:'chargedcycleworks-rawrr-mantis-mini-wheel-assemblies', tier:'OEM',
      prices:[
@@ -2758,7 +2758,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['rawrr-mantis-mini-r'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rawrr-mantis-mini-wheel-assemblies.webp'
     },
     {name:'Rawrr Mantis Mini R - OEM 12/14 Wheelset Upgrade Kit', pid:'chargedcycleworks-rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit', tier:'OEM',
      prices:[
@@ -2766,7 +2766,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['rawrr-mantis-mini-r'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rawrr-mantis-mini-r-oem-12-14-wheelset-upgrade-kit.webp'
     }
   ,
     {name:'Altis Delta 14" Supermoto Rim Set', pid:'altispowersports-altis-delta-14-supermoto-rim-set', tier:'OEM',
@@ -2774,93 +2774,93 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:250.0, url:'https://www.altispowersports.com/products/altis-delta-14-supermoto-rim-set', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-14-supermoto-rim-set.webp'
     },
     {name:'Altis Delta DBK Rim', pid:'altispowersports-altis-delta-dbk-rear-rim', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:180.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-rear-rim', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-rear-rim.webp'
     },
     {name:'Altis Delta Rear Axle Block', pid:'altispowersports-altis-delta-rear-axle-block', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:15.0, url:'https://www.altispowersports.com/products/altis-delta-rear-axle-block', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-rear-axle-block.webp'
     },
     {name:'Altis Delta Rim', pid:'altispowersports-altis-delta-rim', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:150.0, url:'https://www.altispowersports.com/products/altis-delta-rim', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-rim.webp'
     },
     {name:'IRC VX-10 Mini Motocross Small Wheel Tire', pid:'gritshift-irc-vx-10-mini-motocross-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:67.95, url:'https://gritshift.com/products/irc-vx-10-mini-motocross-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
-     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-irc-vx-10-mini-motocross-tire.webp'
     },
     {name:'Moose Offroad Rim Lock 1.4"', pid:'gritshift-moose-offroad-rim-lock-1-4', tier:'budget',
      prices:[
       {v:'GritShift', p:14.99, url:'https://gritshift.com/products/moose-offroad-rim-lock-1-4', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-offroad-rim-lock-1-4.webp'
     },
     {name:'Moose Offroad Rim Lock 1.6"', pid:'gritshift-moose-offroad-rim-lock-1-6', tier:'budget',
      prices:[
       {v:'GritShift', p:12.99, url:'https://gritshift.com/products/moose-offroad-rim-lock-1-6', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-offroad-rim-lock-1-6.webp'
     },
     {name:'Moose Offroad Rim Lock 1.85"', pid:'gritshift-moose-offroad-rim-lock-1-85', tier:'budget',
      prices:[
       {v:'GritShift', p:14.99, url:'https://gritshift.com/products/moose-offroad-rim-lock-1-85', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-offroad-rim-lock-1-85.webp'
     },
     {name:'Moose Offroad Rim Lock 2.15"', pid:'gritshift-moose-offroad-rim-lock-2-15', tier:'budget',
      prices:[
       {v:'GritShift', p:12.99, url:'https://gritshift.com/products/moose-offroad-rim-lock-2-15', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-offroad-rim-lock-2-15.webp'
     },
     {name:'Motion Pro LiteLoc II 1.6 Inch Rim Lock for Electric Dirt Bike Wheels', pid:'gritshift-motion-pro-liteloc-ii-1-6-inch-rim-lock-electric-dirt-bike-wheels', tier:'budget',
      prices:[
       {v:'GritShift', p:22.89, url:'https://gritshift.com/products/motion-pro-liteloc-ii-1-6-inch-rim-lock-electric-dirt-bike-wheels', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-motion-pro-liteloc-ii-1-6-inch-rim-lock-electric-dirt-bike-wheels.webp'
     },
     {name:'Motion Pro LiteLoc II 1.85 Inch Rim Lock for Electric Dirt Bike Wheels', pid:'gritshift-motion-pro-liteloc-ii-1-85-inch-rim-lock-electric-dirt-bike-wheels', tier:'budget',
      prices:[
       {v:'GritShift', p:22.89, url:'https://gritshift.com/products/motion-pro-liteloc-ii-1-85-inch-rim-lock-electric-dirt-bike-wheels', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-motion-pro-liteloc-ii-1-85-inch-rim-lock-electric-dirt-bike-wheels.webp'
     },
     {name:'Motion Pro LiteLoc II 2.15 Inch Rim Lock for Electric Dirt Bike Wheels', pid:'gritshift-motion-pro-liteloc-ii-2-15-inch-rim-lock-electric-dirt-bike-wheels', tier:'budget',
      prices:[
       {v:'GritShift', p:22.89, url:'https://gritshift.com/products/motion-pro-liteloc-ii-2-15-inch-rim-lock-electric-dirt-bike-wheels', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-motion-pro-liteloc-ii-2-15-inch-rim-lock-electric-dirt-bike-wheels.webp'
     },
     {name:'12" Mini E-Moto Supermoto Wheelset Kit – Yozma, Tuttio, Razor & ETM RTR', pid:'howlingmoto-12-mini-e-moto-supermoto-wheelset-kit-yozma-tuttio-razor-etm-rtr', tier:'premium',
      prices:[
       {v:'Howling Moto', p:309.99, url:'https://howlingmoto.com/products/12-mini-e-moto-supermoto-wheelset-kit-yozma-tuttio-razor-etm-rtr', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-12-mini-e-moto-supermoto-wheelset-kit-yozma-tuttio-razor-etm-rtr.webp'
     },
     {name:'Upgraded High Speed Rear Wheel Sprocket For Tuttio & Yozma (53t)', pid:'howlingmoto-upgraded-high-speed-rear-wheel-sprocket-for-tuttio-yozma-53t', tier:'budget',
      prices:[
       {v:'Howling Moto', p:49.99, url:'https://howlingmoto.com/products/upgraded-high-speed-rear-wheel-sprocket-for-tuttio-yozma-53t', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-upgraded-high-speed-rear-wheel-sprocket-for-tuttio-yozma-53t.webp'
     },
     {name:'MotoTec 72v 5000w Pro Dirt Bike Front Wheel 70/100-17 (70/100-17 front)', pid:'lithiumpowersports-mototec-72v-5000w-pro-dirt-bike-front-wheel-70-100-17', tier:'midrange',
      prices:[
@@ -2878,128 +2878,128 @@ var CATEGORIES = [
      prices:[
       {v:'MTN MotoWorks', p:329.95, url:'https://mtnmotoworks.com/products/12-inch-supermoto-wheel-tire-set-standard-90-front-120-rear', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/mtnmotoworks-12-inch-supermoto-wheel-tire-set-standard-90-front-120-rear.webp'
     },
     {name:'12-Inch CNC Supermoto Wheel & Tire Set', pid:'mtnmotoworks-mtn-12-inch-cnc-supermoto-wheel-set', tier:'premium',
      prices:[
       {v:'MTN MotoWorks', p:429.95, url:'https://mtnmotoworks.com/products/mtn-12-inch-cnc-supermoto-wheel-set', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/mtnmotoworks-mtn-12-inch-cnc-supermoto-wheel-set.webp'
     },
     {name:'12-Inch Spoke Supermoto Wheel & Tire Set', pid:'mtnmotoworks-mtn-12-inch-spoke-supermoto-wheel-set', tier:'premium',
      prices:[
       {v:'MTN MotoWorks', p:289.95, url:'https://mtnmotoworks.com/products/mtn-12-inch-spoke-supermoto-wheel-set', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/mtnmotoworks-mtn-12-inch-spoke-supermoto-wheel-set.webp'
     },
     {name:'12-Inch Supermoto Wheel & Tire Set | Wide 110 Front & 120 Rear', pid:'mtnmotoworks-mtn-12-inch-supermoto-wheel-set', tier:'premium',
      prices:[
       {v:'MTN MotoWorks', p:329.95, url:'https://mtnmotoworks.com/products/mtn-12-inch-supermoto-wheel-set', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/mtnmotoworks-mtn-12-inch-supermoto-wheel-set.webp'
     },
     {name:'14-Inch CNC Supermoto Wheel & Tire Set', pid:'mtnmotoworks-mtn-14-inch-cnc-supermoto-wheel-set', tier:'premium',
      prices:[
       {v:'MTN MotoWorks', p:459.95, url:'https://mtnmotoworks.com/products/mtn-14-inch-cnc-supermoto-wheel-set', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/mtnmotoworks-mtn-14-inch-cnc-supermoto-wheel-set.webp'
     },
     {name:'14-Inch Supermoto Wheel & Tire Set | Standard 90 Front & 120 Rear', pid:'mtnmotoworks-mtn-14-inch-standard-supermoto-wheel-tire-set', tier:'premium',
      prices:[
       {v:'MTN MotoWorks', p:389.95, url:'https://mtnmotoworks.com/products/mtn-14-inch-standard-supermoto-wheel-tire-set', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/mtnmotoworks-mtn-14-inch-standard-supermoto-wheel-tire-set.webp'
     },
     {name:'14-Inch Supermoto Wheel & Tire Set | Wide 110 Front & 120 Rear', pid:'mtnmotoworks-mtn-14-inch-wide-supermoto-wheel-tire-set', tier:'premium',
      prices:[
       {v:'MTN MotoWorks', p:389.95, url:'https://mtnmotoworks.com/products/mtn-14-inch-wide-supermoto-wheel-tire-set', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/mtnmotoworks-mtn-14-inch-wide-supermoto-wheel-tire-set.webp'
     },
     {name:'17/14-Inch Supermoto Wheel & Tire Set | Strike & Yozma', pid:'mtnmotoworks-mtn-17-14-supermoto-wheel-tire-set', tier:'premium',
      prices:[
       {v:'MTN MotoWorks', p:399.95, url:'https://mtnmotoworks.com/products/mtn-17-14-supermoto-wheel-tire-set', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/mtnmotoworks-mtn-17-14-supermoto-wheel-tire-set.webp'
     },
     {name:'Altis Delta Rear Axle Block | OEM Chain Adjuster Block | By Altis Powersports', pid:'revrides-altis-delta-rear-axle-block-oem-chain-adjuster-block', tier:'OEM',
      prices:[
       {v:'REV Rides', p:15.0, url:'https://revrides.com/products/altis-delta-rear-axle-block-oem-chain-adjuster-block', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-rear-axle-block-oem-chain-adjuster-block.webp'
     },
     {name:'Altis Delta Wheels | Front or Rear OEM Replacement Wheel | By Altis Powersports', pid:'revrides-altis-delta-wheels-front-or-rear-oem-replacement-wheel-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:150.0, url:'https://revrides.com/products/altis-delta-wheels-front-or-rear-oem-replacement-wheel-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-wheels-front-or-rear-oem-replacement-wheel-by-altis-powersports.webp'
     },
     {name:'Rippin Moto Blackline Off-Road Wheelset | Stark Varg & Altis Omega', pid:'revrides-blackline-off-road-wheelset-for-stark-varg', tier:'premium',
      prices:[
       {v:'REV Rides', p:849.0, url:'https://revrides.com/products/blackline-off-road-wheelset-for-stark-varg', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-omega'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-omega'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-blackline-off-road-wheelset-for-stark-varg.webp'
     },
     {name:'Rippin Moto Blackline RTR Off-Road Wheelset | Stark Varg & Altis Omega', pid:'revrides-blackline-ready-to-ride-off-road-wheelset-for-stark-varg', tier:'premium',
      prices:[
       {v:'REV Rides', p:1207.0, url:'https://revrides.com/products/blackline-ready-to-ride-off-road-wheelset-for-stark-varg', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-omega'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-omega'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-blackline-ready-to-ride-off-road-wheelset-for-stark-varg.webp'
     },
     {name:'Rippin Moto Blackline RTR Supermoto Wheelset | Stark Varg & Altis Omega', pid:'revrides-blackline-ready-to-ride-supermoto-wheelset-for-stark-varg', tier:'premium',
      prices:[
       {v:'REV Rides', p:1384.0, url:'https://revrides.com/products/blackline-ready-to-ride-supermoto-wheelset-for-stark-varg', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-omega'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-omega'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-blackline-ready-to-ride-supermoto-wheelset-for-stark-varg.webp'
     },
     {name:'Rippin Moto Blackline Supermoto Wheelset | Stark Varg & Altis Omega', pid:'revrides-blackline-supermoto-wheelset-for-stark-varg', tier:'premium',
      prices:[
       {v:'REV Rides', p:899.0, url:'https://revrides.com/products/blackline-supermoto-wheelset-for-stark-varg', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-omega'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-omega'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-blackline-supermoto-wheelset-for-stark-varg.webp'
     },
     {name:'KKE 17/17 Supermoto Wheelset | For Stark Varg MX, EX & Altis Omega', pid:'revrides-kke-3-5-17-4-25-17-supermoto-wheels-rims-fit-stark-varg-mx-ex-electric-dirt-bike-all-black', tier:'premium',
      prices:[
       {v:'REV Rides', p:759.0, url:'https://revrides.com/products/kke-3-5-17-4-25-17-supermoto-wheels-rims-fit-stark-varg-mx-ex-electric-dirt-bike-all-black', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega'], likely:[], no:[],
-     badge:'Kke', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Kke', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-kke-3-5-17-4-25-17-supermoto-wheels-rims-fit-stark-varg-mx-ex-electric-dirt-bike-all-black.webp'
     },
     {name:'Enduro 21/18 CNC Alloy Wheel Set | By KKE Racing | For Stark Varg & Altis Omega Electric Dirtbikes', pid:'revrides-kke-enduro-1-6-21-2-15-18-cnc-hub-electric-dirtbike-alloy-wheels-rims-fit-stark-varg-all-black', tier:'premium',
      prices:[
       {v:'REV Rides', p:629.0, url:'https://revrides.com/products/kke-enduro-1-6-21-2-15-18-cnc-hub-electric-dirtbike-alloy-wheels-rims-fit-stark-varg-all-black', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-omega'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-omega'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-kke-enduro-1-6-21-2-15-18-cnc-hub-electric-dirtbike-alloy-wheels-rims-fit-stark-varg-all-black.webp'
     },
     {name:'Pivotrax Cyber Supermoto Tires (12in-19in Wheels)', pid:'tbelectricmoto-sm01-6000-electric-off-road-vehicle', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:89.0, url:'https://tbelectricmoto.com/products/pivotrax-cyber-supermoto-tires-12-14-17-18-19-inch-wheels', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['supermach-sm01'], no:[],
-     badge:'Pivotrax', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Pivotrax', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-sm01-6000-electric-off-road-vehicle.webp'
     },
     {name:'Tuttio Soleil01 Street Wheelset Kit – Complete with Street Tires & Rims', pid:'tuttio-soleil01-street-wheelset-kit', tier:'OEM',
      prices:[
       {v:'Tuttio', p:449.99, url:'https://tuttiosport.com/products/soleil01-street-wheelset-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-soleil01-street-wheelset-kit.webp'
     },
     {name:'Tuttio Soleil01 Ebike Axle Nut(M12)', pid:'tuttio-tuttio-soleil01-ebike-axle-nut-m12', tier:'OEM',
      prices:[
       {v:'Tuttio', p:9.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-axle-nut-m12', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-axle-nut-m12.webp'
     },
     {name:'Tuttio Soleil01 Entire Wheel', pid:'tuttio-tuttio-soleil01-ebike-entire-wheel', tier:'OEM',
      prices:[
       {v:'Tuttio', p:249.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-entire-wheel', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-entire-wheel.webp'
     },
     {name:'Tuttio Soleil01 Ebike 12" Supermoto Wheelset Kit with Street Tires & Rims', pid:'tuttio-tuttio-soleil01-ebike-supermoto-wheelset-kit-with-street-tires-rims', tier:'OEM',
      prices:[
@@ -3013,96 +3013,96 @@ var CATEGORIES = [
       {v:'Tuttio', p:59.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-wheel-bearing-set', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-wheel-bearing-set.webp'
     },
     {name:'Tuttio Soleil01 Ebike Axle Set-Front or Rear', pid:'tuttio-tuttio-soleil01-electric-bike-axle-set-front-or-rear', tier:'OEM',
      prices:[
       {v:'Tuttio', p:35.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-axle-set-front-or-rear', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-axle-set-front-or-rear.webp'
     },
     {name:'Tuttio Soleil01 GB Ebike Wheel Assembly', pid:'tuttio-tuttio-soleil01-gb-ebike-wheel-assembly', tier:'OEM',
      prices:[
       {v:'Tuttio', p:209.0, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-wheel-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-wheel-assembly.webp'
     },
     {name:'Tuttio Soleil01 SE Ebike Wheel Assembly For Sale', pid:'tuttio-tuttio-soleil01-se-ebike-wheel-assembly-for-sale', tier:'OEM',
      prices:[
       {v:'Tuttio', p:299.0, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-wheel-assembly-for-sale', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-wheel-assembly-for-sale.webp'
     },
     {name:'6301-2RS Sealed Wheel Bearing (Soleil01)', pid:'wiredwhips-6301-2rs-sealed-wheel-bearing-soleil01', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:75.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_am-6301rs-bearing', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-6301-2rs-sealed-wheel-bearing-soleil01.webp'
     },
     {name:'Altis Delta Rear Axle Block (Chain Adjuster)', pid:'wiredwhips-altis-delta-rear-axle-block-chain-adjuster', tier:'budget',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_rear-axle-block', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-altis-delta-rear-axle-block-chain-adjuster.webp'
     },
     {name:'KKE CNC Enduro Wheelset 21/18 - Altis Omega', pid:'wiredwhips-kke-cnc-enduro-wheelset-21-18-altis-omega', tier:'premium',
      prices:[
       {v:'Wired Whips', p:767.99, url:'https://wiredwhips.com/parts/altis_omega_kke-enduro-wheelset-21-18', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Kke', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Kke', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-kke-cnc-enduro-wheelset-21-18-altis-omega.webp'
     },
     {name:'Motion Pro Rim Lock 1.60" - Altis Omega Front', pid:'wiredwhips-motion-pro-rim-lock-1-60-altis-omega-front', tier:'budget',
      prices:[
       {v:'Wired Whips', p:15.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_rim-lock-motion-pro-160', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-motion-pro-rim-lock-1-60-altis-omega-front.webp'
     },
     {name:'Motion Pro Rim Lock 2.15" - Altis Omega', pid:'wiredwhips-motion-pro-rim-lock-2-15-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:15.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_rim-lock-motion-pro-215', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-motion-pro-rim-lock-2-15-altis-omega.webp'
     },
     {name:'OEM 14" Supermoto Rim Set (Delta / Delta S)', pid:'wiredwhips-oem-14-supermoto-rim-set-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:304.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_supermoto-rim-set-14', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-14-supermoto-rim-set-delta-delta-s.webp'
     },
     {name:'OEM Front Rim 17x1.6 (Delta / Delta S)', pid:'wiredwhips-oem-front-rim-17x1-6-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:185.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_rim-front', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-front-rim-17x1-6-delta-delta-s.webp'
     },
     {name:'OEM Front Wheel 17x1.60 (Delta / Delta S)', pid:'wiredwhips-oem-front-wheel-17x1-60-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:185.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_wheel-front-complete', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-front-wheel-17x1-60-delta-delta-s.webp'
     },
     {name:'OEM Rear Axle Blocks (Delta / Delta S)', pid:'wiredwhips-oem-rear-axle-blocks-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_rear-axle-blocks', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-rear-axle-blocks-delta-delta-s.webp'
     },
     {name:'OEM Rear Rim 14x1.85 (Delta / Delta S)', pid:'wiredwhips-oem-rear-rim-14x1-85-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:185.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_rim-rear', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-rear-rim-14x1-85-delta-delta-s.webp'
     },
     {name:'OEM Rear Wheel 14x1.85 (Delta / Delta S)', pid:'wiredwhips-oem-rear-wheel-14x1-85-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:198.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_wheel-rear-complete', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-rear-wheel-14x1-85-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 12" Supermoto Wheelset Kit (Street) (soleil01-wheelset-kit)', pid:'wiredwhips-oem-soleil01-12-supermoto-wheelset-kit-street-soleil01-wheelset-kit', tier:'OEM',
      prices:[
@@ -3114,53 +3114,53 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:12.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_axle-nut-m12', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-axle-nut-m12-tuttio-soleil01-axle-nut.webp'
     },
     {name:'OEM Soleil01 Axle Set (Front or Rear) (tuttio-soleil01-front-axle-set)', pid:'wiredwhips-oem-soleil01-axle-set-front-or-rear-tuttio-soleil01-front-axle-set', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:44.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_axle-set', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-axle-set-front-or-rear-tuttio-soleil01-front-axle-set.webp'
     },
     {name:'OEM Soleil01 Entire Wheel (F/R options) (tuttio-soleil01-front-wheel)', pid:'wiredwhips-oem-soleil01-entire-wheel-f-r-options-tuttio-soleil01-front-wheel', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:308.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_entire-wheel', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-entire-wheel-f-r-options-tuttio-soleil01-front-wheel.webp'
     },
     {name:'OEM Soleil01 Wheel Bearing Set (6301RS class) (soleil01-bearing-set-with-sleeve-front)', pid:'wiredwhips-oem-soleil01-wheel-bearing-set-6301rs-class-soleil01-bearing-set-with-sleeve-front', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:75.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_wheel-bearing-set', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-wheel-bearing-set-6301rs-class-soleil01-bearing-set-with-sleeve-front.webp'
     },
     {name:'Tusk Billet Aluminum Rim Lock 1.60" - Altis Omega Front', pid:'wiredwhips-tusk-billet-aluminum-rim-lock-1-60-altis-omega-front', tier:'budget',
      prices:[
       {v:'Wired Whips', p:24.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_rim-lock-tusk-billet-160', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-tusk-billet-aluminum-rim-lock-1-60-altis-omega-front.webp'
     },
     {name:'Tusk Billet Aluminum Rim Lock 2.15" - Altis Omega', pid:'wiredwhips-tusk-billet-aluminum-rim-lock-2-15-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:24.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_rim-lock-tusk-billet-215', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-tusk-billet-aluminum-rim-lock-2-15-altis-omega.webp'
     },
     {name:'Tusk Rim Lock 1.60" - Altis Omega Front', pid:'wiredwhips-tusk-rim-lock-1-60-altis-omega-front', tier:'budget',
      prices:[
       {v:'Wired Whips', p:11.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_rim-lock-tusk-160', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-tusk-rim-lock-1-60-altis-omega-front.webp'
     },
     {name:'Tusk Rim Lock 2.15" - Altis Omega Rear', pid:'wiredwhips-tusk-rim-lock-2-15-altis-omega-rear', tier:'budget',
      prices:[
       {v:'Wired Whips', p:11.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_rim-lock-tusk-215', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-tusk-rim-lock-2-15-altis-omega-rear.webp'
     },
 ]},
   {id:'brakes', name:'Brakes', blurb:'As the bike gets faster, stopping matters more. Bigger rotors and better calipers transform confidence.', tips:['Rotor size changes may need a caliper relocation bracket','Match master cylinder to caliper','Pad compound: organic for feel, sintered for bite and life'], options:[
@@ -3211,7 +3211,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/komodo-rear-brake-pads.webp'
     },
     {name:'Rear Brake Caliper — Komodo OEM', pid:'komodo-rear-brake-caliper', tier:'OEM',
      prices:[
@@ -3219,7 +3219,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/komodo-rear-brake-caliper.webp'
     },
     {name:'Front Brake Lever — Komodo OEM', pid:'komodo-front-brake-lever', tier:'OEM',
      prices:[
@@ -3227,7 +3227,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/komodo-front-brake-lever.webp'
     },
     {name:'Emoto Folding Brake Levers', pid:'brakes-ventus-folding-levers', tier:'budget',
      prices:[
@@ -3431,7 +3431,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/brakes-bonnell-805-rx-brake-disc-set.webp'
     },
     {name:'Bonnell 805 - Brake System | Front & Rear', pid:'brakes-bonnell-805-rx-brake-system', tier:'OEM',
      prices:[
@@ -3439,7 +3439,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/brakes-bonnell-805-rx-brake-system.webp'
     },
     {name:'Bonnell 805 - Brake Line | Front & Rear', pid:'brakes-bonnell-805-rx-brake-line', tier:'OEM',
      prices:[
@@ -3553,14 +3553,14 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:39.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-rear-brake-hose-oem', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-rear-brake-hose-oem.webp'
     },
     {name:'Arctic Leopard - XE Front Brake Hose | OEM', pid:'chargedcycleworks-arctic-leopard-xe-front-brake-hose-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:39.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-front-brake-hose-oem', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-front-brake-hose-oem.webp'
     },
     {name:'Front Brake Hose w/ bolts (Type 1) - SS3.0/SR', pid:'chargedcycleworks-front-brake-hose-w-bolts-type-1-ss3-0-sr', tier:'OEM',
      prices:[
@@ -3762,42 +3762,42 @@ var CATEGORIES = [
       {v:'GritShift', p:34.99, url:'https://gritshift.com/products/etm-rtr-wave-rotors', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-wave-rotors.webp'
     },
     {name:'ETM RTR - OEM Rear Brake Assembly', pid:'chargedcycleworks-etm-rtr-oem-rear-brake-assembly', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:80, url:'https://chargedcycleworks.com/products/etm-rtr-oem-rear-brake-assembly', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-oem-rear-brake-assembly.webp'
     },
     {name:'ETM RTR - OEM Front Brake Assembly', pid:'chargedcycleworks-etm-rtr-oem-complete-front-brake-assembly', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:80, url:'https://chargedcycleworks.com/products/etm-rtr-oem-complete-front-brake-assembly', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-oem-complete-front-brake-assembly.webp'
     },
     {name:'ETM RTR - OEM Brake Rotor', pid:'chargedcycleworks-etm-rtr-oem-brake-rotor', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:28, url:'https://chargedcycleworks.com/products/etm-rtr-oem-brake-rotor', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-oem-brake-rotor.webp'
     },
     {name:'ETM RTR - OEM Brake Pads', pid:'chargedcycleworks-etm-rtr-oem-brake-pads', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:29, url:'https://chargedcycleworks.com/products/etm-rtr-oem-brake-pads', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-oem-brake-pads.webp'
     },
     {name:'ETM RTR - OEM Brake Lever', pid:'chargedcycleworks-etm-rtr-oem-brake-lever', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:15, url:'https://chargedcycleworks.com/products/etm-rtr-oem-brake-lever', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-oem-brake-lever.webp'
     },
     {name:'Warp9 Surron Ultra Bee 260mm Floating Front Rotor', pid:'chargedcycleworks-surron-ultra-bee-260mm-floating-front-rotor', tier:'midrange',
      prices:[
@@ -3819,7 +3819,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:['rawrr-mantis-72v'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective.webp'
     },
     {name:'Warp9 Ultra Bee Titanium Brake Rotor Bolts', pid:'chargedcycleworks-surron-ultra-bee-titanium-rotor-bolts-by-warp9', tier:'midrange',
      prices:[
@@ -3848,56 +3848,56 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:779, url:'https://chargedcycleworks.com/products/formula-eb7-74-2mm-brakes-lbx-v1-erp-2-0-rerode-talaria-mx3-mx4-xxx', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:["falcon-pro","falcon-gt"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-formula-eb7-e-moto-brakes.webp'
     },
     {name:'TECH Brake Adapter & Headset Spacer – Arctic Leopard XE Pro S / Enduro', pid:'chargedcycleworks-tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:75, url:'https://chargedcycleworks.com/products/tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-tech-e39-brake-adapter-arctic-leopard-xe-pro-s-enduro.webp'
     },
     {name:'Arctic Leopard - XE/XF Brake Lever | OEM Front & Rear', pid:'chargedcycleworks-arctic-leopard-xe-xf-brake-lever-front-rear-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:12.5, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-xf-brake-lever-front-rear-oem', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-xf-brake-lever-front-rear-oem.webp'
     },
     {name:'Arctic Leopard - XE Pro OEM Brake Rotors', pid:'chargedcycleworks-arctic-leopard-xe-pro-oem-rear-brake-rotor', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:32, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-rear-brake-rotor', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-oem-rear-brake-rotor.webp'
     },
     {name:'AL XE Pro Brake Pad (Arctic Leopard XE Pro OEM)', pid:'chargedcycleworks-al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:30, url:'https://chargedcycleworks.com/products/al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-al-xe-pro-brake-pad-arctic-leopard-xe-pro-oem.webp'
     },
     {name:'Altis Sigma — OEM Brake Rotor | Front and Rear', pid:'chargedcycleworks-oem-brake-disc-altis-sigma', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:36.0, url:'https://chargedcycleworks.com/products/oem-brake-disc-altis-sigma', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-oem-brake-disc-altis-sigma.webp'
     },
     {name:'KKE Aluminum Brake Levers for Rawrr Mantis', pid:'chargedcycleworks-kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-x','rawrr-mantis-72v'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kke-aluminum-brake-levers-fit-rawrr-mantis-mantis-x-collective.webp'
     },
     {name:'ASV F3-E Unbreakable Brake Levers for E Ride 2.0 | Rawrr', pid:'chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:175, url:'https://chargedcycleworks.com/products/asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-x','rawrr-mantis-72v'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-asv-f3-e-unbreakable-brake-levers-for-e-ride-2-0-rawrr.webp'
     },
     {name:'ZAP Competition Folder Lever Set for Stark Varg', pid:'brakes-zap-competition-folder-lever-set-stark-varg', tier:'mid',
      prices:[
@@ -3905,7 +3905,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/brakes-zap-competition-folder-lever-set-stark-varg.webp'
     },
     {name:'Warp9 Stark Varg 320mm Front Brake Adapter', pid:'brakes-warp9-320mm-front-brake-adapter-stark-varg', tier:'mid',
      prices:[
@@ -3913,7 +3913,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/brakes-warp9-320mm-front-brake-adapter-stark-varg.webp'
     },
     {name:'Stark Varg Complete rear hand brake kit (Brembo)', pid:'brakes-stark-varg-complete-rear-hand-brake-kit', tier:'OEM',
      prices:[
@@ -3921,7 +3921,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/brakes-stark-varg-complete-rear-hand-brake-kit.webp'
     },
     {name:'Stark Varg Complete Pedal Assembly', pid:'brakes-stark-varg-complete-pedal-assembly', tier:'OEM',
      prices:[
@@ -3929,7 +3929,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/brakes-stark-varg-complete-pedal-assembly.webp'
     },
     {name:'Stark Varg - Swingarm Brake Line Bracket Bolt', pid:'brakes-stark-varg-swingarm-brake-line-bracket-bolt', tier:'OEM',
      prices:[
@@ -3945,7 +3945,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/brakes-stark-varg-swingarm-brake-hose-guide.webp'
     },
     {name:'Stark Varg - Rear Master Cylinder Bracket', pid:'brakes-stark-varg-rear-master-cylinder-bracket', tier:'OEM',
      prices:[
@@ -3961,7 +3961,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/brakes-stark-varg-rear-foot-brake-hose.webp'
     },
     {name:'Stark Varg - Master Cylinder Bolt', pid:'brakes-stark-varg-master-cylinder-bolt', tier:'OEM',
      prices:[
@@ -3977,7 +3977,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/brakes-stark-varg-rear-footbrake-master-cylinder.webp'
     },
     {name:'Stark Varg - Brake Line Copper Washer (Brembo)', pid:'brakes-stark-varg-brake-line-copper-washer', tier:'OEM',
      prices:[
@@ -3993,7 +3993,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/brakes-oxbrake-rear-hand-foot-combo-stark-varg.webp'
     },
     {name:'Motion Pro Brake Levers for Stark Varg', pid:'brakes-motion-pro-levers-stark-varg', tier:'budget',
      prices:[
@@ -4001,7 +4001,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/brakes-motion-pro-levers-stark-varg.webp'
     },
     {name:'EBC Brake Pads for Stark Varg', pid:'brakes-ebc-brake-pads-stark-varg', tier:'mid',
      prices:[
@@ -4009,7 +4009,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/brakes-ebc-brake-pads-stark-varg.webp'
     },
     {name:'ASV F4 Front Brake Lever for Stark Varg', pid:'brakes-asv-f4-front-lever-stark-varg', tier:'mid',
      prices:[
@@ -4017,7 +4017,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/brakes-asv-f4-front-lever-stark-varg.webp'
     },
     {name:'ASV F4 Brake Lever Set for Stark Varg with Brembo', pid:'brakes-asv-f4-lever-set-stark-varg', tier:'midrange',
      prices:[
@@ -4025,7 +4025,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/brakes-asv-f4-lever-set-stark-varg.webp'
     },
     {name:'ARC Flex Brake Levers for Stark Varg', pid:'brakes-arc-flex-brake-levers-stark-varg', tier:'mid',
      prices:[
@@ -4033,7 +4033,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:['stark-vargex'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/brakes-arc-flex-brake-levers-stark-varg.webp'
     }
   ,
     {name:'Altis Delta Brake Assembly', pid:'altispowersports-altis-delta-brake-assembly', tier:'OEM',
@@ -4041,176 +4041,176 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:150.0, url:'https://www.altispowersports.com/products/altis-delta-brake-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-brake-assembly.webp'
     },
     {name:'Altis Delta Brake Disc', pid:'altispowersports-altis-delta-brake-disc', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:28.0, url:'https://www.altispowersports.com/products/altis-delta-brake-disc', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-brake-disc.webp'
     },
     {name:'Altis Delta Brake Pads (2pcs)', pid:'altispowersports-altis-delta-brake-pads-2pcs', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:18.0, url:'https://www.altispowersports.com/products/altis-delta-brake-pads-2pcs', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-brake-pads-2pcs.webp'
     },
     {name:'Altis Delta DBK FootBrake Assembly', pid:'altispowersports-altis-delta-dbk-footbrake-assembly', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:250.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-footbrake-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-footbrake-assembly.webp'
     },
     {name:'Altis Delta DBK Footbrake Lever', pid:'altispowersports-altis-delta-dbk-footbrake-lever', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:28.99, url:'https://www.altispowersports.com/products/altis-delta-dbk-footbrake-lever', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-footbrake-lever.webp'
     },
     {name:'Altis Delta DBK Front Brake Assembly', pid:'altispowersports-altis-delta-dbk-front-brake-assembly', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:150.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-front-brake-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-front-brake-assembly.webp'
     },
     {name:'Altis Delta DBK Number Plate Braket', pid:'altispowersports-altis-delta-dbk-number-plate-bracket', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:6.99, url:'https://www.altispowersports.com/products/altis-delta-dbk-number-plate-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-number-plate-bracket.webp'
     },
     {name:'Altis Delta DBK Rear Reflector Braket', pid:'altispowersports-altis-delta-dbk-rear-reflector-bracket', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:5.99, url:'https://www.altispowersports.com/products/altis-delta-dbk-rear-reflector-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-rear-reflector-bracket.webp'
     },
     {name:'Altis Delta Footbrake', pid:'altispowersports-altis-delta-footbrake', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:250.0, url:'https://www.altispowersports.com/products/altis-delta-footbrake', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-footbrake.webp'
     },
     {name:'ALTIS Upgraded Brake Lever Set', pid:'altispowersports-altis-upgraded-brake-lever-set', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:35.99, url:'https://www.altispowersports.com/products/altis-upgraded-brake-lever-set', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-upgraded-brake-lever-set.webp'
     },
     {name:'Helix Brake Bleeder Caps for E-Motos - 4 Pack', pid:'gritshift-helix-brake-bleeder-caps-e-motos-4-pack', tier:'budget',
      prices:[
       {v:'GritShift', p:12.95, url:'https://gritshift.com/products/helix-brake-bleeder-caps-e-motos-4-pack', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-helix-brake-bleeder-caps-e-motos-4-pack.webp'
     },
     {name:'Surron Foot Brake Master Cylinder HSK', pid:'howlingmoto-surron-foot-brake-master-cylinder-hsk', tier:'budget',
      prices:[
       {v:'Howling Moto', p:19.99, url:'https://howlingmoto.com/products/surron-foot-brake-master-cylinder-hsk', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-surron-foot-brake-master-cylinder-hsk.webp'
     },
     {name:'Tuttio Soleil 01 Foot Brake Bracket', pid:'howlingmoto-tuttio-soleil-01-foot-brake-bracket', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:179.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-foot-brake-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-foot-brake-bracket.webp'
     },
     {name:'Tuttio Soleil 01 Front Brake Pads', pid:'howlingmoto-tuttio-soleil-01-front-brake-pads', tier:'budget',
      prices:[
       {v:'Howling Moto', p:14.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-front-brake-pads', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-front-brake-pads.webp'
     },
     {name:'Tuttio Soleil 01 Rear Brake Pads', pid:'howlingmoto-tuttio-soleil-01-rear-brake-pads', tier:'budget',
      prices:[
       {v:'Howling Moto', p:14.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-rear-brake-pads', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-rear-brake-pads.webp'
     },
     {name:'Tuttio Soleil 01 Ultra Bee Brake Bracket', pid:'howlingmoto-tuttio-soleil-01-ultra-bee-brake-bracket', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:98.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-ultra-bee-brake-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-ultra-bee-brake-bracket.webp'
     },
     {name:'Tuttio Soleil 01 Ultra Brake Foot Brake Kit, Pre-Bled', pid:'howlingmoto-tuttio-soleil-01-ultra-brake-foot-brake-kit-pre-bled', tier:'premium',
      prices:[
       {v:'Howling Moto', p:279.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-ultra-brake-foot-brake-kit-pre-bled', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-ultra-brake-foot-brake-kit-pre-bled.webp'
     },
     {name:'Tuttio Soleil 01 Ultra Brake Hand Brake Kit, Pre-Bled', pid:'howlingmoto-tuttio-soleil-01-ultra-brake-hand-brake-kit-pre-bled', tier:'premium',
      prices:[
       {v:'Howling Moto', p:209.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-ultra-brake-hand-brake-kit-pre-bled', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-ultra-brake-hand-brake-kit-pre-bled.webp'
     },
     {name:'Ultra Bee-Style Rear Brake Kit | Strike, Yozma & Tuttio', pid:'mtnmotoworks-ultra-bee-rear-brake-kit', tier:'midrange',
      prices:[
       {v:'MTN MotoWorks', p:199.95, url:'https://mtnmotoworks.com/products/ultra-bee-rear-brake-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/mtnmotoworks-ultra-bee-rear-brake-kit.webp'
     },
     {name:'Altis Delta Brake Disc Rotor | Front or Rear | By Altis Powersports', pid:'revrides-altis-delta-brake-assembly-front-or-rear-by-altis-powersports', tier:'budget',
      prices:[
       {v:'REV Rides', p:28.0, url:'https://revrides.com/products/altis-delta-brake-assembly-front-or-rear-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-brake-assembly-front-or-rear-by-altis-powersports.webp'
     },
     {name:'Altis Delta Brake Pads | 2-Piece Set for One Brake | By Altis Powersports', pid:'revrides-altis-delta-brake-pads-2-piece-set-for-one-brake-by-altis-powersports', tier:'budget',
      prices:[
       {v:'REV Rides', p:15.0, url:'https://revrides.com/products/altis-delta-brake-pads-2-piece-set-for-one-brake-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-brake-pads-2-piece-set-for-one-brake-by-altis-powersports.webp'
     },
     {name:'ASV F3-E Break Away Levers For Altis, Talaria MX5, Ultra Bee, E-Ride 3.0/SR-Type 2 Brakes', pid:'tbelectricmoto-asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:150.0, url:'https://tbelectricmoto.com/products/asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Asv', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Asv', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr.webp'
     },
     {name:'ASV F4-E Break Away Levers For Ultra Bee, MX5, E-Ride 3.0/ SR', pid:'tbelectricmoto-asv-f4-e-break-away-levers-for-e-ride-pro-3-0-sr-talaria-sting-mx5-altis-sigma', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:175.0, url:'https://tbelectricmoto.com/products/asv-f4-e-break-away-levers-for-e-ride-pro-3-0-sr-talaria-sting-mx5-altis-sigma', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Asv', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Asv', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-asv-f4-e-break-away-levers-for-e-ride-pro-3-0-sr-talaria-sting-mx5-altis-sigma.webp'
     },
     {name:'Brake Rotors for Pitbikes Yozma, Heybike, Tuttio', pid:'tbelectricmoto-brake-rotors-for-pitbikes-yozma-heybike-tuttio', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:15.0, url:'https://tbelectricmoto.com/products/brake-rotors-for-pitbikes-yozma-heybike-tuttio', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-brake-rotors-for-pitbikes-yozma-heybike-tuttio.webp'
     },
     {name:'TB Brake Lever Replacement Parts', pid:'tbelectricmoto-tb-brake-lever-replacement-parts', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:20.0, url:'https://tbelectricmoto.com/products/tb-brake-lever-replacement-parts', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tb-brake-lever-replacement-parts.webp'
     },
     {name:'TB Brake Levers for Talaria Sting MX5, E-Ride 3.0/SR, Altis Sigma', pid:'tbelectricmoto-tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:55.0, url:'https://tbelectricmoto.com/products/tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr.webp'
     },
     {name:'Tuttio Soleil01 CNC Folding Brake Levers', pid:'tbelectricmoto-tuttio-soleil01-folding-brake-levers', tier:'budget',
      prices:[
@@ -4225,193 +4225,193 @@ var CATEGORIES = [
       {v:'Tuttio', p:15.0, url:'https://tuttiosport.com/products/soleil01-brake-pads', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tuttio-soleil01-replacement-brake-pads.webp'
     },
     {name:'Ultra Bee Brake Upgrade Kit for Yozma, Tuttio, Strike, Valtinsu, Tasaca, Villain', pid:'tbelectricmoto-ultra-bee-brake-upgrade-kit-for-yozma-tuttio-strike-shadow', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:179.0, url:'https://tbelectricmoto.com/products/ultra-bee-brake-upgrade-kit-for-yozma-tuttio-strike-shadow', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-ultra-bee-brake-upgrade-kit-for-yozma-tuttio-strike-shadow.webp'
     },
     {name:'Warp 9 Folding Brake Levers for E-Ride 3.0/SR, Altis, MX5', pid:'tbelectricmoto-warp-9-folding-brake-levers', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:46.0, url:'https://tbelectricmoto.com/products/warp-9-folding-brake-levers', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-warp-9-folding-brake-levers.webp'
     },
     {name:'Tuttio Soleil01 Dirt Bike Hand Brake Levers（Sliver）', pid:'tuttio-tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver', tier:'OEM',
      prices:[
       {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver.webp'
     },
     {name:'Tuttio Soleil01 Brake Assembly', pid:'tuttio-tuttio-soleil01-ebike-brake-assembly', tier:'OEM',
      prices:[
       {v:'Tuttio', p:85.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-brake-assembly.webp'
     },
     {name:'Tuttio Soleil01 Ebike Brake Caliper Guide Pin Set', pid:'tuttio-tuttio-soleil01-ebike-brake-caliper-guide-pin-set', tier:'OEM',
      prices:[
       {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-caliper-guide-pin-set', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-brake-caliper-guide-pin-set.webp'
     },
     {name:'Tuttio Soleil01 Ebike Brake Cut-off Switch', pid:'tuttio-tuttio-soleil01-ebike-brake-cut-off-switch', tier:'OEM',
      prices:[
       {v:'Tuttio', p:39.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-cut-off-switch', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-brake-cut-off-switch.webp'
     },
     {name:'Tuttio Soleil01 Ebike Brake Disc', pid:'tuttio-tuttio-soleil01-ebike-brake-pads', tier:'OEM',
      prices:[
       {v:'Tuttio', p:29.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-brake-pads', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-brake-pads.webp'
     },
     {name:'Tuttio Soleil01 Ebike Caliper Bolts', pid:'tuttio-tuttio-soleil01-ebike-caliper-bolts', tier:'OEM',
      prices:[
       {v:'Tuttio', p:15.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-caliper-bolts', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-caliper-bolts.webp'
     },
     {name:'Tuttio Soleil01 Ebike Rear Brake Caliper Mounting Bolt', pid:'tuttio-tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt', tier:'OEM',
      prices:[
       {v:'Tuttio', p:10.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-rear-brake-caliper-mounting-bolt.webp'
     },
     {name:'Tuttio Soleil01 Ebike Brake Caliper Mount', pid:'tuttio-tuttio-soleil01-electric-bike-brake-caliper-mount', tier:'OEM',
      prices:[
       {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-brake-caliper-mount', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-brake-caliper-mount.webp'
     },
     {name:'Tuttio Soleil01 LO Brake Assembly', pid:'tuttio-tuttio-soleil01-lo-brake-assembly', tier:'OEM',
      prices:[
       {v:'Tuttio', p:64.99, url:'https://tuttiosport.com/products/tuttio-soleil01-lo-brake-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-lo-brake-assembly.webp'
     },
     {name:'Tuttio Soleil01 SE/LO Dirt Bike Hand Brake Levers (Black)', pid:'tuttio-tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black', tier:'OEM',
      prices:[
       {v:'Tuttio', p:16.0, url:'https://tuttiosport.com/products/tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-se-lo-dirt-bike-hand-brake-levers-black.webp'
     },
     {name:'ASV F3-E Break-Away Brake & Clutch Levers - Altis Delta / Delta S', pid:'wiredwhips-asv-f3-e-break-away-brake-clutch-levers-altis-delta-delta-s', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:185.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_brake-levers-asv-f3e', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Asv', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Asv', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-asv-f3-e-break-away-brake-clutch-levers-altis-delta-delta-s.webp'
     },
     {name:'OEM Brake Assembly Left/Front (Delta / Delta S)', pid:'wiredwhips-oem-brake-assembly-left-front-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:185.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_brake-assembly-left', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-brake-assembly-left-front-delta-delta-s.webp'
     },
     {name:'OEM Brake Assembly Right/Rear (Delta / Delta S)', pid:'wiredwhips-oem-brake-assembly-right-rear-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:161.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_brake-assembly-right', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-brake-assembly-right-rear-delta-delta-s.webp'
     },
     {name:'OEM Brake Pads 2pcs (Delta / Delta S)', pid:'wiredwhips-oem-brake-pads-2pcs-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:23.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_brake-pads', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-brake-pads-2pcs-delta-delta-s.webp'
     },
     {name:'OEM Footbrake Set (Delta / Delta S)', pid:'wiredwhips-oem-footbrake-set-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:304.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_footbrake', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-footbrake-set-delta-delta-s.webp'
     },
     {name:'OEM Front Brake Caliper Assembly (Delta / Delta S)', pid:'wiredwhips-oem-front-brake-caliper-assembly-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:161.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_brake-caliper-front-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-front-brake-caliper-assembly-delta-delta-s.webp'
     },
     {name:'OEM Front Brake Disc (Delta / Delta S)', pid:'wiredwhips-oem-front-brake-disc-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:35.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_brake-rotor-front', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-front-brake-disc-delta-delta-s.webp'
     },
     {name:'OEM Rear Brake Caliper Assembly (Delta / Delta S)', pid:'wiredwhips-oem-rear-brake-caliper-assembly-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:185.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_brake-caliper-rear-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-rear-brake-caliper-assembly-delta-delta-s.webp'
     },
     {name:'OEM Rear Brake Disc (Delta / Delta S)', pid:'wiredwhips-oem-rear-brake-disc-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:35.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_brake-rotor-rear', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-rear-brake-disc-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 Brake Assembly (soleil01-front-brake-assembly)', pid:'wiredwhips-oem-soleil01-brake-assembly-soleil01-front-brake-assembly', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:108.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_brake-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-brake-assembly-soleil01-front-brake-assembly.webp'
     },
     {name:'OEM Soleil01 Brake Caliper Guide Pin Set (soleil01-brake-caliper-guide-pin-set-front)', pid:'wiredwhips-oem-soleil01-brake-caliper-guide-pin-set-soleil01-brake-caliper-guide-pin-set-front', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:25.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_caliper-guide-pins', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-brake-caliper-guide-pin-set-soleil01-brake-caliper-guide-pin-set-front.webp'
     },
     {name:'OEM Soleil01 Brake Caliper Mount (soleil-01-brake-caliper-mount-for-rear)', pid:'wiredwhips-oem-soleil01-brake-caliper-mount-soleil-01-brake-caliper-mount-for-rear', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:25.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_caliper-mount', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-brake-caliper-mount-soleil-01-brake-caliper-mount-for-rear.webp'
     },
     {name:'OEM Soleil01 Brake Cut-off Switch (soleil01-brake-cut-off-switch)', pid:'wiredwhips-oem-soleil01-brake-cut-off-switch-soleil01-brake-cut-off-switch', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:51.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_brake-cutoff-switch', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-brake-cut-off-switch-soleil01-brake-cut-off-switch.webp'
     },
     {name:'OEM Soleil01 Brake Disc / Rotor (soleil-disk)', pid:'wiredwhips-oem-soleil01-brake-disc-rotor-soleil-disk', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:37.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_brake-disc', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-brake-disc-rotor-soleil-disk.webp'
     },
     {name:'OEM Soleil01 Brake Pads (SOLEIL01-FRONT-BRAKE-PADS)', pid:'wiredwhips-oem-soleil01-brake-pads-soleil01-front-brake-pads', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_brake-pads-true', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-brake-pads-soleil01-front-brake-pads.webp'
     },
     {name:'OEM Soleil01 Caliper Bolts (soleil01-front-caliper-bolt)', pid:'wiredwhips-oem-soleil01-caliper-bolts-soleil01-front-caliper-bolt', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_caliper-bolts', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-caliper-bolts-soleil01-front-caliper-bolt.webp'
     },
     {name:'OEM Soleil01 Hand Brake Levers (Silver) (soleil01-brake-lever-right)', pid:'wiredwhips-oem-soleil01-hand-brake-levers-silver-soleil01-brake-lever-right', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:25.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_brake-levers-silver', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-hand-brake-levers-silver-soleil01-brake-lever-right.webp'
     },
     {name:'OEM Soleil01 Rear Brake Caliper Mounting Bolt (soleil01-rear-brake-caliper-mounting-bolt)', pid:'wiredwhips-oem-soleil01-rear-brake-caliper-mounting-bolt-soleil01-rear-brake-caliper-mounting-bolt', tier:'OEM',
      prices:[
@@ -4654,7 +4654,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['bonnell-805rx','stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/plastics-outlaw.webp'
     },
     {name:'GRAND PRIX Graphics Wrap for Stark or Bonnell', pid:'plastics-grand-prix', tier:'premium',
      prices:[
@@ -4662,7 +4662,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['bonnell-805rx','stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/plastics-grand-prix.webp'
     },
     {name:'RESIN Graphics Wrap for Stark or Bonnell', pid:'plastics-resin', tier:'premium',
      prices:[
@@ -4670,7 +4670,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['bonnell-805rx','stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/plastics-resin.webp'
     },
     {name:'MORPH Graphics Wrap for Stark or Bonnell', pid:'plastics-morph', tier:'premium',
      prices:[
@@ -4678,7 +4678,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['bonnell-805rx','stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/plastics-morph.webp'
     },
     {name:'FLUX Graphics Wrap for Stark or Bonnell', pid:'plastics-flux', tier:'premium',
      prices:[
@@ -4686,7 +4686,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['bonnell-805rx','stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/plastics-flux.webp'
     },
     {name:'VIRUS Graphics Wrap for Stark or Bonnell', pid:'plastics-virus', tier:'premium',
      prices:[
@@ -4694,7 +4694,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['bonnell-805rx','stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/plastics-virus.webp'
     },
     {name:'VISION Graphics Wrap for Stark or Bonnell', pid:'plastics-vision', tier:'premium',
      prices:[
@@ -4702,7 +4702,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['bonnell-805rx','stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/plastics-vision.webp'
     },
     {name:'SKETCHER Graphics Wrap for Stark or Bonnell', pid:'plastics-sketcher', tier:'premium',
      prices:[
@@ -4710,7 +4710,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['bonnell-805rx','stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/plastics-sketcher.webp'
     },
     {name:'Bonnell 805 - Front White Fender', pid:'plastics-bonnell-805-rx-front-white-fender', tier:'OEM',
      prices:[
@@ -4726,7 +4726,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/plastics-bonnell-805-rx-rear-white-fender.webp'
     },
     {name:'Bonnell 805 - White Number Plate 1', pid:'plastics-bonnell-805-rx-white-number-plate-1', tier:'OEM',
      prices:[
@@ -4734,7 +4734,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/plastics-bonnell-805-rx-white-number-plate-1.webp'
     },
     {name:'Bonnell 805 - OEM Plastics Kit', pid:'plastics-bonnell-805-oem-plastics-kit', tier:'OEM',
      prices:[
@@ -5023,14 +5023,14 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:89.99, url:'https://chargedcycleworks.com/products/etm-rtr-complete-body-plastic-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-complete-body-plastic-kit.webp'
     },
     {name:'ETM RTR - OEM Rear Fender', pid:'chargedcycleworks-rear-fender-etm-rtr-2025', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:13, url:'https://chargedcycleworks.com/products/rear-fender-etm-rtr-2025', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rear-fender-etm-rtr-2025.webp'
     },
     {name:'Extended Rear Fender V2 W/Side Shrouds', pid:'chargedcycleworks-extended-rear-fender-v2-side-shrouds', tier:'midrange',
      prices:[
@@ -5039,133 +5039,133 @@ var CATEGORIES = [
       {v:'GritShift', p:79.89, url:'https://gritshift.com/products/gritshift-extended-rear-fender-v2', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:["falcon-pro","falcon-gt"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-extended-rear-fender-v2-side-shrouds.webp'
     },
     {name:'Talaria Front Fender | Type 2', pid:'chargedcycleworks-front-fender-type-2-for-talaria-surron-segway-x260', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:29, url:'https://chargedcycleworks.com/products/front-fender-type-2-for-talaria-surron-segway-x260', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-front-fender-type-2-for-talaria-surron-segway-x260.webp'
     },
     {name:'Simulated Matte Carbon Fiber Front Fender - Type 1', pid:'chargedcycleworks-surron-light-bee-front-fork-fender-water-transfer-printing-matte', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:34.99, url:'https://chargedcycleworks.com/products/surron-light-bee-front-fork-fender-water-transfer-printing-matte', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-light-bee-front-fork-fender-water-transfer-printing-matte.webp'
     },
     {name:'Simulated Carbon Fiber Front Fender - Type 1', pid:'chargedcycleworks-real-carbon-fiber-front-fender-type-1-talaria-surron-segway', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/real-carbon-fiber-front-fender-type-1-talaria-surron-segway', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-real-carbon-fiber-front-fender-type-1-talaria-surron-segway.webp'
     },
     {name:'ODI (Style) Front Number Plate for E-Moto', pid:'chargedcycleworks-surron-light-bee-number-plate', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/surron-light-bee-number-plate', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['falcon-pro'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-light-bee-number-plate.webp'
     },
     {name:'ALTIS SIGMA - TORQUE', pid:'chargedcycleworks-altis-sigma-torque', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-torque', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-torque.webp'
     },
     {name:'ALTIS SIGMA - SHREDLIGHT', pid:'chargedcycleworks-altis-sigma-shredlight', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-shredlight', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-shredlight.webp'
     },
     {name:'ALTIS SIGMA - RIDGE', pid:'chargedcycleworks-altis-sigma-ridge', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-ridge', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-ridge.webp'
     },
     {name:'ALTIS SIGMA - RADIANT', pid:'chargedcycleworks-altis-sigma-radiant', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-radiant', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-radiant.webp'
     },
     {name:'ALTIS SIGMA - MODERN BOMBER', pid:'chargedcycleworks-altis-sigma-modern-bomber', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-modern-bomber', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-modern-bomber.webp'
     },
     {name:'ALTIS SIGMA - HYPER', pid:'chargedcycleworks-altis-sigma-hyper', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-hyper', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-hyper.webp'
     },
     {name:'ALTIS SIGMA - HUE', pid:'chargedcycleworks-altis-sigma-hue', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-hue', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-hue.webp'
     },
     {name:'ALTIS SIGMA - GRAND PRIX', pid:'chargedcycleworks-altis-sigma-grand-prix', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-grand-prix', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-grand-prix.webp'
     },
     {name:'ALTIS SIGMA - FUNHOUSE', pid:'chargedcycleworks-altis-sigma-funhouse', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-funhouse', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-funhouse.webp'
     },
     {name:'ALTIS SIGMA - FOREST CAMO', pid:'chargedcycleworks-altis-sigma-forest-camo', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-forest-camo', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-forest-camo.webp'
     },
     {name:'ALTIS SIGMA - COVERT', pid:'chargedcycleworks-altis-sigma-covert', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-covert', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-covert.webp'
     },
     {name:'ALTIS SIGMA - CAMO', pid:'chargedcycleworks-altis-sigma-camo', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-camo', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-camo.webp'
     },
     {name:'ALTIS SIGMA - BATTLE CAMO', pid:'chargedcycleworks-altis-sigma-battle-camo', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-battle-camo', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-battle-camo.webp'
     },
     {name:'ALTIS SIGMA - AERO', pid:'chargedcycleworks-altis-sigma-aero', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/altis-sigma-aero', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-altis-sigma-aero.webp'
     }
   ,
     {name:'Altis Delta Front Fender', pid:'altispowersports-altis-delta-front-fender', tier:'OEM',
@@ -5173,7 +5173,7 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:30.0, url:'https://www.altispowersports.com/products/altis-delta-front-fender', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-front-fender.webp'
     },
     {name:'Altis Delta Front Number Plate', pid:'altispowersports-altis-delta-front-number-plate', tier:'OEM',
      prices:[
@@ -5181,21 +5181,21 @@ var CATEGORIES = [
       {v:'Howling Moto', p:14.0, url:'https://howlingmoto.com/products/altis-delta-front-number-plate', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-front-number-plate.webp'
     },
     {name:'Altis Delta Rear Fender', pid:'altispowersports-altis-delta-rear-fender', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:18.0, url:'https://www.altispowersports.com/products/altis-delta-rear-fender', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-rear-fender.webp'
     },
     {name:'Altis Delta Rear Mud Cover', pid:'altispowersports-altis-delta-rear-mud-cover', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:25.0, url:'https://www.altispowersports.com/products/altis-delta-rear-mud-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-rear-mud-cover.webp'
     },
     {name:'Altis Delta Rear Side Fenders', pid:'altispowersports-altis-delta-rear-side-fenders', tier:'OEM',
      prices:[
@@ -5203,7 +5203,7 @@ var CATEGORIES = [
       {v:'Howling Moto', p:15.0, url:'https://howlingmoto.com/products/altis-delta-rear-side-fenders', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-rear-side-fenders.webp'
     },
     {name:'Altis Delta Side Fenders', pid:'altispowersports-altis-delta-side-fenders', tier:'OEM',
      prices:[
@@ -5212,105 +5212,105 @@ var CATEGORIES = [
       {v:'Wired Whips', p:21.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_side-fenders', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-side-fenders.webp'
     },
     {name:'Altis Delta Front Side Fender Bracket', pid:'altispowersports-altis-delta-side-front-fender-bracket', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:15.0, url:'https://www.altispowersports.com/products/altis-delta-side-front-fender-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-side-front-fender-bracket.webp'
     },
     {name:'Altis Delta Sub-frame', pid:'altispowersports-altis-delta-sub-frame', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:280.0, url:'https://www.altispowersports.com/products/altis-delta-sub-frame', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-sub-frame.webp'
     },
     {name:'SURRON ULTRA - 8BALL', pid:'chargedcycleworks-surron-ultra-8ball', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/surron-ultra-8ball', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-ultra-8ball.webp'
     },
     {name:'SURRON ULTRA - BATTLE CAMO', pid:'chargedcycleworks-surron-ultra-battle-camo', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/surron-ultra-battle-camo', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-ultra-battle-camo.webp'
     },
     {name:'SURRON ULTRA - CAMO CCW', pid:'chargedcycleworks-surron-ultra-camo-ccw', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/surron-ultra-camo-ccw', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-ultra-camo-ccw.webp'
     },
     {name:'SURRON ULTRA - CRANX', pid:'chargedcycleworks-surron-ultra-cranx', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/surron-ultra-cranx', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-ultra-cranx.webp'
     },
     {name:'SURRON ULTRA - GHOSTLINES', pid:'chargedcycleworks-surron-ultra-ghostlines', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/surron-ultra-ghostlines', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-ultra-ghostlines.webp'
     },
     {name:'SURRON ULTRA - PSYCADELIC CCW', pid:'chargedcycleworks-surron-ultra-psycadelic-ccw', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/surron-ultra-psycadelic-ccw', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-ultra-psycadelic-ccw.webp'
     },
     {name:'SURRON ULTRA - SKETCHER CCW', pid:'chargedcycleworks-surron-ultra-sketcher-ccw', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/surron-ultra-sketcher-ccw', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-ultra-sketcher-ccw.webp'
     },
     {name:'SURRON ULTRA - SLASHER CCW', pid:'chargedcycleworks-surron-ultra-slasher-ccw', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/surron-ultra-slasher-ccw', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-ultra-slasher-ccw.webp'
     },
     {name:'SURRON ULTRA - SPLATTER', pid:'chargedcycleworks-surron-ultra-splatter', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/surron-ultra-splatter', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-ultra-splatter.webp'
     },
     {name:'SURRON ULTRA - STRIPES', pid:'chargedcycleworks-surron-ultra-stripes', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/surron-ultra-stripes', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-ultra-stripes.webp'
     },
     {name:'SURRON ULTRA - WOOD CAMO', pid:'chargedcycleworks-surron-ultra-wood-camo', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:240.0, url:'https://chargedcycleworks.com/products/surron-ultra-wood-camo', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['ultrabee-21kw'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-ultra-wood-camo.webp'
     },
     {name:'Altis Delta OEM Replacement Front Fender', pid:'howlingmoto-altis-delta-oem-replacement-front-fender', tier:'OEM',
      prices:[
       {v:'Howling Moto', p:25.0, url:'https://howlingmoto.com/products/altis-delta-oem-replacement-front-fender', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-altis-delta-oem-replacement-front-fender.webp'
     },
     {name:'Altis Delta Rear Fender – OEM Replacement by Altis Powersports', pid:'howlingmoto-altis-delta-rear-fender-oem-replacement-by-altis-powersports', tier:'OEM',
      prices:[
@@ -5318,98 +5318,98 @@ var CATEGORIES = [
       {v:'REV Rides', p:15.0, url:'https://revrides.com/products/altis-delta-rear-fender-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-altis-delta-rear-fender-oem-replacement-by-altis-powersports.webp'
     },
     {name:'Tuttio Soleil 01 Carbon Fiber Front Fender', pid:'howlingmoto-tuttio-soleil-01-carbon-fiber-front-fender', tier:'budget',
      prices:[
       {v:'Howling Moto', p:44.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-front-fender', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-carbon-fiber-front-fender.webp'
     },
     {name:'Tuttio Soleil 01 Carbon Fiber Rear Fender', pid:'howlingmoto-tuttio-soleil-01-carbon-fiber-rear-fender', tier:'budget',
      prices:[
       {v:'Howling Moto', p:44.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-rear-fender', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-carbon-fiber-rear-fender.webp'
     },
     {name:'Altis Delta Aluminum Subframe | Black OEM Replacement | By Altis Powersports', pid:'revrides-altis-delta-aluminum-subframe-black-oem-replacement-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:230.0, url:'https://revrides.com/products/altis-delta-aluminum-subframe-black-oem-replacement-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-aluminum-subframe-black-oem-replacement-by-altis-powersports.webp'
     },
     {name:'Altis Delta Front Fender | By Altis Powersports', pid:'revrides-altis-delta-front-fender-by-altis-powersports', tier:'budget',
      prices:[
       {v:'REV Rides', p:25.0, url:'https://revrides.com/products/altis-delta-front-fender-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-front-fender-by-altis-powersports.webp'
     },
     {name:'Altis Delta Front Number Plate | By Altis Powersports', pid:'revrides-altis-delta-front-number-plate-by-altis-powersports', tier:'budget',
      prices:[
       {v:'REV Rides', p:14.0, url:'https://revrides.com/products/altis-delta-front-number-plate-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-front-number-plate-by-altis-powersports.webp'
     },
     {name:'Altis Delta Front Side Fender Bracket | OEM Plastic Mount Bracket | By Altis Powersports', pid:'revrides-altis-delta-front-side-fender-bracket-oem-plastic-mount-bracket-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:12.0, url:'https://revrides.com/products/altis-delta-front-side-fender-bracket-oem-plastic-mount-bracket-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-front-side-fender-bracket-oem-plastic-mount-bracket-by-altis-powersports.webp'
     },
     {name:'Altis Delta Front Side plastics | Left or Right Side | By Altis Powersports', pid:'revrides-altis-delta-front-side-plastics-left-or-right-side-by-altis-powersports', tier:'budget',
      prices:[
       {v:'REV Rides', p:20.0, url:'https://revrides.com/products/altis-delta-front-side-plastics-left-or-right-side-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-front-side-plastics-left-or-right-side-by-altis-powersports.webp'
     },
     {name:'Altis Delta Rear Side Fenders | Left or Right Side | By Altis Powersports', pid:'revrides-altis-delta-rear-side-fenders-left-or-right-side-by-altis-powersports', tier:'budget',
      prices:[
       {v:'REV Rides', p:15.0, url:'https://revrides.com/products/altis-delta-rear-side-fenders-left-or-right-side-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-rear-side-fenders-left-or-right-side-by-altis-powersports.webp'
     },
     {name:'Altis Delta Rear Underside Mud Cover | By Altis Powersports', pid:'revrides-altis-delta-rear-underside-mud-cover-by-altis-powersports', tier:'budget',
      prices:[
       {v:'REV Rides', p:25.0, url:'https://revrides.com/products/altis-delta-rear-underside-mud-cover-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-rear-underside-mud-cover-by-altis-powersports.webp'
     },
     {name:'Tuttio Soleil01 Carbon Fiber Effect Front Fender', pid:'tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-front-fender', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:30.0, url:'https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-front-fender', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-front-fender.webp'
     },
     {name:'Tuttio Soleil01 Carbon Fiber Effect Rear Fender', pid:'tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-rear-fender', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:30.0, url:'https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-rear-fender', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-rear-fender.webp'
     },
     {name:'Tuttio Soleil01 Front Number Plate Dirt Bike Number Plate', pid:'tuttio-tuttio-soleil01-dirt-bike-number-plate', tier:'OEM',
      prices:[
       {v:'Tuttio', p:25.99, url:'https://tuttiosport.com/products/tuttio-soleil01-dirt-bike-number-plate', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-dirt-bike-number-plate.webp'
     },
     {name:'Tuttio Soleil01 Ebike Custom Number Plate Series 1', pid:'tuttio-tuttio-soleil01-ebike-custom-number-plate-series-1', tier:'OEM',
      prices:[
       {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-custom-number-plate-series-1', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-custom-number-plate-series-1.webp'
     },
     {name:'Tuttio Soleil01 Ebike Custom Number Plate Series 2', pid:'tuttio-tuttio-soleil01-ebike-custom-number-plate-series-1-copy', tier:'OEM',
      prices:[
@@ -5430,14 +5430,14 @@ var CATEGORIES = [
       {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-custom-number-plate-series-4', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-custom-number-plate-series-4.webp'
     },
     {name:'Tuttio Soleil01 Ebike Halloween Special Number Plates', pid:'tuttio-tuttio-soleil01-ebike-downhill-electric-bike-number-plate', tier:'OEM',
      prices:[
       {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-downhill-electric-bike-number-plate', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-downhill-electric-bike-number-plate.webp'
     },
     {name:'Tuttio Soleil01 Ebike Frame Front Plastic Cover', pid:'tuttio-tuttio-soleil01-ebike-frame-front-plastic-cover', tier:'OEM',
      prices:[
@@ -5451,56 +5451,56 @@ var CATEGORIES = [
       {v:'Tuttio', p:30.0, url:'https://tuttiosport.com/products/tuttio-soleil01-front-fender-for-electric-dirt-bike', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-front-fender-for-electric-dirt-bike.webp'
     },
     {name:'Tuttio Soleil01 GB Ebike Fender', pid:'tuttio-tuttio-soleil01-gb-ebike-fender', tier:'OEM',
      prices:[
       {v:'Tuttio', p:85.0, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-fender', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-fender.webp'
     },
     {name:'Tuttio Soleil01 GB Ebike Upgraded Number Plate – Series 1', pid:'tuttio-tuttio-soleil01-gb-ebike-upgraded-number-plate-series-1', tier:'OEM',
      prices:[
       {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-upgraded-number-plate-series-1', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-upgraded-number-plate-series-1.webp'
     },
     {name:'Tuttio Soleil01 GB Ebike Upgraded Number Plate – Series 2', pid:'tuttio-tuttio-soleil01-gb-ebike-upgraded-number-plate-series-2', tier:'OEM',
      prices:[
       {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-ebike-upgraded-number-plate-series-2', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-gb-ebike-upgraded-number-plate-series-2.webp'
     },
     {name:'Tuttio Soleil01 GB Original Number Plate', pid:'tuttio-tuttio-soleil01-gb-original-number-plate', tier:'OEM',
      prices:[
       {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-gb-original-number-plate', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-gb-original-number-plate.webp'
     },
     {name:'Tuttio Soleil01 LO Ebike Number Plate', pid:'tuttio-tuttio-soleil01-lo-ebike-number-plate', tier:'OEM',
      prices:[
       {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-lo-ebike-number-plate', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-lo-ebike-number-plate.webp'
     },
     {name:'Tuttio Soleil01 Models Ebike Christmas Special Number Plates For One', pid:'tuttio-tuttio-soleil01-models-ebike-christmas-special-number-plates', tier:'OEM',
      prices:[
       {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-models-ebike-christmas-special-number-plates', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-models-ebike-christmas-special-number-plates.webp'
     },
     {name:'Tuttio Soleil01 Models Ebike Christmas Special Number Plates For Two', pid:'tuttio-tuttio-soleil01-models-ebike-christmas-special-number-plates-copy', tier:'OEM',
      prices:[
       {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-models-ebike-christmas-special-number-plates-副本', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-models-ebike-christmas-special-number-plates-copy.webp'
     },
     {name:'Tuttio Soleil01 Models Ebike Christmas Special Number Plates For Three', pid:'tuttio-tuttio-soleil01-models-ebike-christmas-special-number-plates-copy-1', tier:'OEM',
      prices:[
@@ -5514,93 +5514,93 @@ var CATEGORIES = [
       {v:'Tuttio', p:30.0, url:'https://tuttiosport.com/products/tuttio-soleil01-rear-fender-for-electric-dirt-bike', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-rear-fender-for-electric-dirt-bike.webp'
     },
     {name:'Tuttio Soleil01 SE Ebike Fender', pid:'tuttio-tuttio-soleil01-se-ebike-fender', tier:'OEM',
      prices:[
       {v:'Tuttio', p:85.0, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-fender', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-fender.webp'
     },
     {name:'Tuttio Soleil01 SE Ebike Number Plate', pid:'tuttio-tuttio-soleil01-se-ebike-number-plate', tier:'OEM',
      prices:[
       {v:'Tuttio', p:23.1, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-number-plate', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-number-plate.webp'
     },
     {name:'OEM Front Fender (Delta / Delta S)', pid:'wiredwhips-oem-front-fender-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:31.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_front-fender', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-front-fender-delta-delta-s.webp'
     },
     {name:'OEM Front Number Plate (Delta / Delta S)', pid:'wiredwhips-oem-front-number-plate-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:18.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_front-number-plate', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-front-number-plate-delta-delta-s.webp'
     },
     {name:'OEM Front Side Fender Bracket (Delta / Delta S)', pid:'wiredwhips-oem-front-side-fender-bracket-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:15.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_front-side-fender-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-front-side-fender-bracket-delta-delta-s.webp'
     },
     {name:'OEM Plastic Mounting Hardware Kit (Delta / Delta S)', pid:'wiredwhips-oem-plastic-mounting-hardware-kit-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:12.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_plastic-mounting-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-plastic-mounting-hardware-kit-delta-delta-s.webp'
     },
     {name:'OEM Rear Fender (Delta / Delta S)', pid:'wiredwhips-oem-rear-fender-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_rear-fender', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-rear-fender-delta-delta-s.webp'
     },
     {name:'OEM Rear Mud Cover (Delta / Delta S)', pid:'wiredwhips-oem-rear-mud-cover-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:31.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_rear-mud-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-rear-mud-cover-delta-delta-s.webp'
     },
     {name:'OEM Rear Side Fenders (Delta / Delta S)', pid:'wiredwhips-oem-rear-side-fenders-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_rear-side-fenders', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-rear-side-fenders-delta-delta-s.webp'
     },
     {name:'OEM Side Covers (Delta / Delta S)', pid:'wiredwhips-oem-side-covers-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:21.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_side-covers', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-side-covers-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 Front Fender (tuttio-soleil01-front-fender)', pid:'wiredwhips-oem-soleil01-front-fender-tuttio-soleil01-front-fender', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:38.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_front-fender-base', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-front-fender-tuttio-soleil01-front-fender.webp'
     },
     {name:'OEM Soleil01 Front Number Plate (soleil01-plate)', pid:'wiredwhips-oem-soleil01-front-number-plate-soleil01-plate', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:33.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_number-plate', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-front-number-plate-soleil01-plate.webp'
     },
     {name:'OEM Soleil01 Rear Fender (tuttio-soleil01-rear-fender)', pid:'wiredwhips-oem-soleil01-rear-fender-tuttio-soleil01-rear-fender', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:38.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_rear-fender-base', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-rear-fender-tuttio-soleil01-rear-fender.webp'
     },
     {name:'OEM Sub-frame (Delta / Delta S)', pid:'wiredwhips-oem-sub-frame-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:341.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_sub-frame', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-sub-frame-delta-delta-s.webp'
     },
 ]},
   {id:'batteries', name:'Batteries', blurb:'Your fuel tank and your power ceiling. A weak battery chokes even the best motor and controller combo.', tips:['Continuous kW rating must meet what your controller pulls — check the Powertrain panel for bottlenecks','Voltage must match your controller\'s range','Confirm it physically fits your frame — sizes vary a lot','Swappable packs are convenient; fixed packs usually hold more capacity'], options:[
@@ -5669,7 +5669,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
-     badge:'DHS', battMaxKw:52.8, battPeakKw:74.8, battKwh:5.28, dw:10.47, stock:'in_stock', stockChk:'2026-11-15', wtKg:24.95
+     badge:'DHS', battMaxKw:52.8, battPeakKw:74.8, battKwh:5.28, dw:10.47, stock:'in_stock', stockChk:'2026-11-15', wtKg:24.95, img:'img/parts/dhs-88v-60ah-ultrabee.webp'
     },
     {name:'Ventus Ultra Bee Battery 96V 56AH', pid:'ventus-ultrabee-96v-56ah', tier:'premium',
      prices:[
@@ -5735,14 +5735,14 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:65.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-battery-connector-power-cord', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
-     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-battery-connector-power-cord.webp'
     },
     {name:'Arctic Leopard XE Pro - OEM Battery Charging Cable Assembly', pid:'chargedcycleworks-arctic-leopard-xe-pro-battery-charging-cable', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:65.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-battery-charging-cable', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
-     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-battery-charging-cable.webp'
     },
     {name:'Surron Ultra Bee - OEM 74v 55Ah battery', pid:'chargedcycleworks-surron-ultra-bee-oem-74v-battery', tier:'OEM',
      prices:[
@@ -5806,183 +5806,183 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:15.0, url:'https://www.altispowersports.com/products/altis-delta-battery-latch', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-battery-latch.webp'
     },
     {name:'Altis Delta Battery Tray', pid:'altispowersports-altis-delta-battery-tray', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:18.0, url:'https://www.altispowersports.com/products/altis-delta-battery-tray', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-battery-tray.webp'
     },
     {name:'Altis Delta Battery Lock Latch Pins', pid:'altispowersports-battery-lock-latch-pins', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:5.99, url:'https://www.altispowersports.com/products/battery-lock-latch-pins', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-battery-lock-latch-pins.webp'
     },
     {name:'Delta Battery', pid:'altispowersports-delta-battery', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:1100.0, url:'https://www.altispowersports.com/products/delta-battery', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-delta-battery.webp'
     },
     {name:'Electro & Co High Power 76V Battery', pid:'gritshift-eon-lithium-high-power-76v-battery', tier:'premium',
      prices:[
       {v:'GritShift', p:1889.99, url:'https://gritshift.com/products/eon-lithium-high-power-76v-battery', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-eon-lithium-high-power-76v-battery.webp'
     },
     {name:'Altis Delta Battery Latch | OEM Battery Retention Latch | By Altis Powersports', pid:'revrides-altis-delta-battery-latch-oem-battery-retention-latch-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:18.0, url:'https://revrides.com/products/altis-delta-battery-latch-oem-battery-retention-latch-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-battery-latch-oem-battery-retention-latch-by-altis-powersports.webp'
     },
     {name:'Altis Delta Battery Tray | OEM Battery Mounting Tray | By Altis Powersports', pid:'revrides-altis-delta-battery-tray-oem-battery-mounting-tray-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:18.0, url:'https://revrides.com/products/altis-delta-battery-tray-oem-battery-mounting-tray-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-battery-tray-oem-battery-mounting-tray-by-altis-powersports.webp'
     },
     {name:'Upgraded Headlight "Baja Light" Battery Powered', pid:'tbelectricmoto-upgraded-headlight-baja-light-battery-powered', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:42.99, url:'https://tbelectricmoto.com/products/upgraded-headlight-baja-light-battery-powered', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-upgraded-headlight-baja-light-battery-powered.webp'
     },
     {name:'Tuttio Soleil01 Battery Charger', pid:'tuttio-tuttio-soleil01-battery-charger', tier:'OEM',
      prices:[
       {v:'Tuttio', p:55.0, url:'https://tuttiosport.com/products/tuttio-soleil01-battery-charger', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-battery-charger.webp'
     },
     {name:'TUTTIO Soleil01 Ebike 27Ah Extended Range Battery Upgrade Kit (Battery + 3A Charger)', pid:'tuttio-tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger', tier:'OEM',
      prices:[
       {v:'Tuttio', p:759.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-27ah-extended-range-battery-upgrade-kit-battery-3a-charger.webp'
     },
     {name:'Tuttio Soleil01 Ebike Battery Charging Port', pid:'tuttio-tuttio-soleil01-ebike-battery-charging-port', tier:'OEM',
      prices:[
       {v:'Tuttio', p:25.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-charging-port', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-battery-charging-port.webp'
     },
     {name:'Tuttio Soleil01 Ebike Battery Connector (Spark-Proof)', pid:'tuttio-tuttio-soleil01-ebike-battery-connector-spark-proof-1', tier:'OEM',
      prices:[
       {v:'Tuttio', p:19.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connector-spark-proof-1', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-battery-connector-spark-proof-1.webp'
     },
     {name:'Tuttio Soleil01 Ebike Battery Connector & Discharge Port (Non-Spark-Proof)', pid:'tuttio-tuttio-soleil01-ebike-battery-connectornon-spark-proof', tier:'OEM',
      prices:[
       {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-connectornon-spark-proof', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-battery-connectornon-spark-proof.webp'
     },
     {name:'Tuttio Soleil01 Ebike Battery Securing Clamp', pid:'tuttio-tuttio-soleil01-ebike-battery-securing-clamp', tier:'OEM',
      prices:[
       {v:'Tuttio', p:65.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-battery-securing-clamp', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-battery-securing-clamp.webp'
     },
     {name:'Tuttio Soleil01 Electric Bike Battery', pid:'tuttio-tuttio-soleil01-electric-bike-battery', tier:'OEM',
      prices:[
       {v:'Tuttio', p:649.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-battery.webp'
     },
     {name:'Tuttio Soleil01 Ebike Battery Connector & Discharge Port (Spark-Proof)', pid:'tuttio-tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof', tier:'OEM',
      prices:[
       {v:'Tuttio', p:45.0, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-battery-connector-discharge-port-spark-proof.webp'
     },
     {name:'Tuttio Soleil01 LO Battery Charger', pid:'tuttio-tuttio-soleil01-lo-battery-charger', tier:'OEM',
      prices:[
       {v:'Tuttio', p:45.99, url:'https://tuttiosport.com/products/tuttio-soleil01-lo-battery-charger', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-lo-battery-charger.webp'
     },
     {name:'OEM Battery Latch (Delta / Delta S)', pid:'wiredwhips-oem-battery-latch-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_battery-latch', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-battery-latch-delta-delta-s.webp'
     },
     {name:'OEM Battery Pack 72V 35Ah (Delta)', pid:'wiredwhips-oem-battery-pack-72v-35ah-delta', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:1319.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_battery-72v35ah', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-battery-pack-72v-35ah-delta.webp'
     },
     {name:'OEM Battery Tray (Delta / Delta S)', pid:'wiredwhips-oem-battery-tray-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:23.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_battery-tray', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-battery-tray-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 27Ah Extended Range Battery Upgrade Kit (Battery + 3A Charger) (soleil01-gb-pro-battery-with-charger)', pid:'wiredwhips-oem-soleil01-27ah-extended-range-battery-upgrade-kit-battery-3a-charger-soleil01-gb-pro-ba', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:911.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_battery-27ah-upgrade-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-27ah-extended-range-battery-upgrade-kit-battery-3a-charger-soleil01-gb-pro-ba.webp'
     },
     {name:'OEM Soleil01 48V 21Ah Lithium Battery (soleil01-battery)', pid:'wiredwhips-oem-soleil01-48v-21ah-lithium-battery-soleil01-battery', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:792.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_battery-48v-21ah', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-48v-21ah-lithium-battery-soleil01-battery.webp'
     },
     {name:'OEM Soleil01 Battery Charger (soleil01-battery-charger)', pid:'wiredwhips-oem-soleil01-battery-charger-soleil01-battery-charger', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:69.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_battery-charger', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-battery-charger-soleil01-battery-charger.webp'
     },
     {name:'OEM Soleil01 Battery Charging Port (US) (soleil01-battery-charging-port)', pid:'wiredwhips-oem-soleil01-battery-charging-port-us-soleil01-battery-charging-port', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:31.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_battery-charging-port', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-battery-charging-port-us-soleil01-battery-charging-port.webp'
     },
     {name:'OEM Soleil01 Battery Connector & Discharge Port (Non-Spark-Proof)...', pid:'wiredwhips-oem-soleil01-battery-connector-discharge-port-non-spark-proof', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:56.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-nonspark-discharge', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-battery-connector-discharge-port-non-spark-proof.webp'
     },
     {name:'OEM Soleil01 Battery Connector & Discharge Port (Spark-Proof)...', pid:'wiredwhips-oem-soleil01-battery-connector-discharge-port-spark-proof', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:56.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-spark-discharge', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-battery-connector-discharge-port-spark-proof.webp'
     },
     {name:'OEM Soleil01 Battery Connector (Spark-Proof) (soleil01-battery-connector-spark-proof)', pid:'wiredwhips-oem-soleil01-battery-connector-spark-proof-soleil01-battery-connector-spark-proof', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:25.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_battery-connector-sparkproof', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-battery-connector-spark-proof-soleil01-battery-connector-spark-proof.webp'
     },
     {name:'OEM Soleil01 Battery Securing Clamp (soleil01-battery-securing-clamp)', pid:'wiredwhips-oem-soleil01-battery-securing-clamp-soleil01-battery-securing-clamp', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:81.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_battery-securing-clamp', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-battery-securing-clamp-soleil01-battery-securing-clamp.webp'
     },
 ]},
   {id:'handlebar', name:'Handlebar', blurb:'Your main control point — bend and rise change the whole riding position.', tips:['Bar diameter must match your clamps (7/8" vs 1-1/8")','Taller riders usually want more rise','Cut to width if they feel too wide'], options:[
@@ -6186,14 +6186,14 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:69, url:'https://chargedcycleworks.com/products/etm-rtr-oem-low-rise-handlebar', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-oem-low-rise-handlebar.webp'
     },
     {name:'E&C Pit Bike High Bars', pid:'chargedcycleworks-e-c-pit-bike-high-bars', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:69, url:'https://chargedcycleworks.com/products/e-c-pit-bike-high-bars', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-e-c-pit-bike-high-bars.webp'
     },
     {name:'Warp9 Surron Ultra Bee Flex Bar mounts', pid:'chargedcycleworks-warp9-surron-ultra-bee-flex-bar-mounts', tier:'midrange',
      prices:[
@@ -6209,7 +6209,7 @@ var CATEGORIES = [
       {v:'GritShift', p:79.99, url:'https://gritshift.com/products/gritshift-heavy-hitter-mx-direct-mount-riser', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp.webp'
     },
     {name:'Heavy Hitter Direct Mount Stem Riser 2" Rise 31.8mm Bars', pid:'chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars', tier:'midrange',
      prices:[
@@ -6218,56 +6218,56 @@ var CATEGORIES = [
       {v:'GritShift', p:64.89, url:'https://gritshift.com/products/direct-mount-stem-riser-2-inch', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars.webp'
     },
     {name:'Direct Mount Stem Lift Kit', pid:'chargedcycleworks-surron-light-bee-stem-lift-kit', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:24.99, url:'https://chargedcycleworks.com/products/surron-light-bee-stem-lift-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-surron-light-bee-stem-lift-kit.webp'
     },
     {name:'Warp9 Altis Sigma Direct Bar Mount', pid:'chargedcycleworks-warp9-altis-sigma-direct-bar-mount', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:119.0, url:'https://chargedcycleworks.com/products/warp9-altis-sigma-direct-bar-mount', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-altis-sigma-direct-bar-mount.webp'
     },
     {name:'ODI 7/8" Podium Handlebars', pid:'chargedcycleworks-odi-7-8-podium-handlebars', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:85.46, url:'https://chargedcycleworks.com/products/odi-7-8-podium-handlebars-for-beta-apollo-rfn', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma','rtr-lite','rtr-alpha'], likely:['rtr-sport'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-odi-7-8-podium-handlebars.webp'
     },
     {name:'Warp9 E-Moto Tapped Handlebar 31.8mm', pid:'chargedcycleworks-warp9-e-moto-tapped-handlebar-31-8mm', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:97, url:'https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rawrr-mantis-x','rawrr-mantis-72v'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-e-moto-tapped-handlebar-31-8mm.webp'
     },
     {name:'Prickly 31.8 Handlebars', pid:'chargedcycleworks-prickly-31-8-handlebars', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:89, url:'https://chargedcycleworks.com/products/prickly-31-8-bars', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','rawrr-mantis-72v','rawrr-mantis-x'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-prickly-31-8-handlebars.webp'
     },
     {name:'KyVex Billet Bar Mount Riser', pid:'chargedcycleworks-kyvex-billet-bar-mount-riser', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/kyvex-billet-bar-mount-riser', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x-pro'], likely:['altis-sigma','arctic-leopard-xe-pro-r','arctic-leopard-xf','rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kyvex-billet-bar-mount-riser.webp'
     },
     {name:'KyVex Billet Bar Mount', pid:'chargedcycleworks-kyvex-billet-bar-mount', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/kyvex-billet-bar-mount', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x-pro'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xf','rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kyvex-billet-bar-mount.webp'
     },
     {name:'Handlebar Shims converts 31.8 to 28.6 MX Bars', pid:'chargedcycleworks-handlebar-shims-31-8-to-28-6', tier:'budget',
      prices:[
@@ -6275,7 +6275,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:9.99, url:'https://tbelectricmoto.com/products/handlebar-shims-converts-31-8-to-28-6-mx-bars', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta','rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-handlebar-shims-31-8-to-28-6.webp'
     },
 ,
     {name:'Altis Delta DBK Crossbar Pad', pid:'altispowersports-altis-delta-dbk-crossbar-pad', tier:'OEM',
@@ -6283,28 +6283,28 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:12.99, url:'https://www.altispowersports.com/products/altis-delta-dbk-crossbar-pad', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-crossbar-pad.webp'
     },
     {name:'Altis Delta DBK Crossbar Pad Cover', pid:'altispowersports-altis-delta-dbk-crossbar-pad-cover', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:10.99, url:'https://www.altispowersports.com/products/altis-delta-dbk-crossbar-pad-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-crossbar-pad-cover.webp'
     },
     {name:'Altis Delta DBK Handlebar', pid:'altispowersports-altis-delta-dbk-handlebar', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:45.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-handlebar', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-handlebar.webp'
     },
     {name:'Altis Delta DBK Handlebar Mount', pid:'altispowersports-altis-delta-dbk-handlebar-mount', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:45.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-handlebar-mount', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-handlebar-mount.webp'
     },
     {name:'Altis Delta Handlebar', pid:'altispowersports-altis-delta-handlebar', tier:'OEM',
      prices:[
@@ -6318,7 +6318,7 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:25.99, url:'https://www.altispowersports.com/products/altis-delta-handlebar-crossbar-dbk', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-handlebar-crossbar-dbk.webp'
     },
     {name:'Altis Delta Handlebar Mount Set', pid:'altispowersports-altis-delta-handlebar-mount-set', tier:'OEM',
      prices:[
@@ -6326,41 +6326,41 @@ var CATEGORIES = [
       {v:'Wired Whips', p:44.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_handlebar-mount', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-handlebar-mount-set.webp'
     },
     {name:'Electro & Co  Handlebar Mounted Volt Meter', pid:'gritshift-electro-co-handlebar-mounted-volt-meter', tier:'budget',
      prices:[
       {v:'GritShift', p:19.99, url:'https://gritshift.com/products/electro-co-handlebar-mounted-volt-meter', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-electro-co-handlebar-mounted-volt-meter.webp'
     },
     {name:'G2 Ergonomics Slicer Pre-Tapped 1-1/8 Handlebar', pid:'gritshift-g2-ergonomics-slicer-pre-tapped-handlebar-e-moto', tier:'midrange',
      prices:[
       {v:'GritShift', p:119.95, url:'https://gritshift.com/products/g2-ergonomics-slicer-pre-tapped-handlebar-e-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-g2-ergonomics-slicer-pre-tapped-handlebar-e-moto.webp'
     },
     {name:'Moose Racing EKO 1-1/8 Handlebar', pid:'gritshift-moose-racing-eko-1-1-8-handlebar-e-moto', tier:'midrange',
      prices:[
       {v:'GritShift', p:75.95, url:'https://gritshift.com/products/moose-racing-eko-1-1-8-handlebar-e-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-eko-1-1-8-handlebar-e-moto.webp'
     },
     {name:'Moose Racing EKO 7/8 Handlebar', pid:'gritshift-moose-racing-eko-7-8-handlebar-e-moto', tier:'midrange',
      prices:[
       {v:'GritShift', p:59.95, url:'https://gritshift.com/products/moose-racing-eko-7-8-handlebar-e-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-eko-7-8-handlebar-e-moto.webp'
     },
     {name:'Moose Racing Flex Series 1-1/8 Handlebar', pid:'gritshift-moose-racing-flex-series-1-1-8-handlebar-e-moto', tier:'midrange',
      prices:[
       {v:'GritShift', p:89.95, url:'https://gritshift.com/products/moose-racing-flex-series-1-1-8-handlebar-e-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-flex-series-1-1-8-handlebar-e-moto.webp'
     },
     {name:'Moose Racing LED Headlight - 7/8 Inch Handlebar Mount', pid:'gritshift-moose-racing-led-headlight-7-8-inch-handlebar-mount', tier:'midrange',
      prices:[
@@ -6374,56 +6374,56 @@ var CATEGORIES = [
       {v:'GritShift', p:94.95, url:'https://gritshift.com/products/odi-podium-7-8-handlebar-e-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-odi-podium-7-8-handlebar-e-moto.webp'
     },
     {name:'ODI Podium Flight 1-1/8 Handlebar', pid:'gritshift-odi-podium-flight-1-1-8-handlebar-e-moto', tier:'midrange',
      prices:[
       {v:'GritShift', p:114.95, url:'https://gritshift.com/products/odi-podium-flight-1-1-8-handlebar-e-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-odi-podium-flight-1-1-8-handlebar-e-moto.webp'
     },
     {name:'Renthal Fatbar 1-1/8 Handlebar', pid:'gritshift-renthal-fatbar-1-1-8-inch-handlebar-e-moto', tier:'midrange',
      prices:[
       {v:'GritShift', p:134.95, url:'https://gritshift.com/products/renthal-fatbar-1-1-8-inch-handlebar-e-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-renthal-fatbar-1-1-8-inch-handlebar-e-moto.webp'
     },
     {name:'Renthal Twinwall 1-1/8 Handlebar', pid:'gritshift-renthal-twinwall-1-1-8-handlebar-e-moto', tier:'midrange',
      prices:[
       {v:'GritShift', p:194.95, url:'https://gritshift.com/products/renthal-twinwall-1-1-8-handlebar-e-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-renthal-twinwall-1-1-8-handlebar-e-moto.webp'
     },
     {name:'Warp 9 Bar End Sliders for Warp 9 Tapped Handlebars', pid:'gritshift-warp-9-bar-end-sliders-tapped-handlebars-e-moto', tier:'budget',
      prices:[
       {v:'GritShift', p:15.89, url:'https://gritshift.com/products/warp-9-bar-end-sliders-tapped-handlebars-e-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-warp-9-bar-end-sliders-tapped-handlebars-e-moto.webp'
     },
     {name:'Warp 9 Reusable Rubber Handlebar Straps, Set of 4', pid:'gritshift-warp-9-reusable-rubber-handlebar-straps-e-moto', tier:'budget',
      prices:[
       {v:'GritShift', p:11.89, url:'https://gritshift.com/products/warp-9-reusable-rubber-handlebar-straps-e-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-warp-9-reusable-rubber-handlebar-straps-e-moto.webp'
     },
     {name:'Warp 9 Tapped 1-1/8 Handlebar', pid:'gritshift-warp-9-tapped-1-1-8-handlebar-e-moto', tier:'midrange',
      prices:[
       {v:'GritShift', p:98.89, url:'https://gritshift.com/products/warp-9-tapped-1-1-8-handlebar-e-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-warp-9-tapped-1-1-8-handlebar-e-moto.webp'
     },
     {name:'Altis Delta Handlebar Mount Set | OEM Bar Clamp Kit | By Altis Powersports', pid:'revrides-altis-delta-handlebar-mount-set-oem-bar-clamp-kit-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:35.0, url:'https://revrides.com/products/altis-delta-handlebar-mount-set-oem-bar-clamp-kit-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-handlebar-mount-set-oem-bar-clamp-kit-by-altis-powersports.webp'
     },
     {name:'Altis Delta Handlebar | OEM Replacement | By Altis Powersports', pid:'revrides-altis-delta-handlebar-oem-replacement-by-altis-powersports', tier:'OEM',
      prices:[
@@ -6437,60 +6437,60 @@ var CATEGORIES = [
       {v:'REV Rides', p:69.99, url:'https://revrides.com/products/mika-metals-billet-dirt-bar-clamps', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Mika Metals', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Mika Metals', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-mika-metals-billet-dirt-bar-clamps.webp'
     },
     {name:'ODI Podium Handlebars 7/8th For Altis Sigma, Delta, RTR', pid:'tbelectricmoto-odi-podium-handlebars-7-8th-altis-sigma-rtr', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:89.95, url:'https://tbelectricmoto.com/products/odi-podium-handlebars-7-8th-altis-sigma-rtr', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Odi', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Odi', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-odi-podium-handlebars-7-8th-altis-sigma-rtr.webp'
     },
     {name:'Tuttio Soleil01 Handlebar', pid:'tuttio-tuttio-soleil01-ebike-handlebar', tier:'OEM',
      prices:[
       {v:'Tuttio', p:99.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebar', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-handlebar.webp'
     },
     {name:'Tuttio Soleil01 Ebike Handlebars Mounts', pid:'tuttio-tuttio-soleil01-ebike-handlebars-mount', tier:'OEM',
      prices:[
       {v:'Tuttio', p:35.0, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-handlebars-mount.webp'
     },
     {name:'Tuttio Soleil01 Ebike Handlebars Mount Assembly', pid:'tuttio-tuttio-soleil01-ebike-handlebars-mount-assembly', tier:'OEM',
      prices:[
       {v:'Tuttio', p:28.79, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-handlebars-mount-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-handlebars-mount-assembly.webp'
     },
     {name:'Tuttio Soleil01 SE Ebike Crossbar Pad', pid:'tuttio-tuttio-soleil01-se-ebike-crossbar-pad', tier:'OEM',
      prices:[
       {v:'Tuttio', p:59.99, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-crossbar-pad', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-crossbar-pad.webp'
     },
     {name:'Bar Straps', pid:'warp9racing-bar-straps', tier:'budget',
      prices:[
       {v:'Warp 9 Racing', p:11.0, url:'https://warp9racing.com/products/bar-straps', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/warp9racing-bar-straps.webp'
     },
     {name:'Tapped Handlebar Ends', pid:'warp9racing-tapped-handlebar-ends', tier:'budget',
      prices:[
       {v:'Warp 9 Racing', p:9.0, url:'https://warp9racing.com/products/tapped-handlebar-ends', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/warp9racing-tapped-handlebar-ends.webp'
     },
     {name:'Tapped Bar End Slider', pid:'warp9racing-tapped-handlebar-slider', tier:'budget',
      prices:[
       {v:'Warp 9 Racing', p:15.0, url:'https://warp9racing.com/products/tapped-handlebar-slider', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/warp9racing-tapped-handlebar-slider.webp'
     },
     {name:'Ultra Bee Bar Pad', pid:'warp9racing-ultra-bee-bar-pad', tier:'budget',
      prices:[
@@ -6502,20 +6502,20 @@ var CATEGORIES = [
      prices:[
       {v:'Warp 9 Racing', p:98.0, url:'https://warp9racing.com/products/warp-9-tapped-handlebars', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/warp9racing-warp-9-tapped-handlebars.webp'
     },
     {name:'Heavy Hitter 2" Direct-Mount Riser Stem - Altis Omega', pid:'wiredwhips-heavy-hitter-2-direct-mount-riser-stem-altis-omega', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:81.99, url:'https://wiredwhips.com/parts/altis_omega_stem-hh-2in', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-heavy-hitter-2-direct-mount-riser-stem-altis-omega.webp'
     },
     {name:'ODI Aluminum Bar End Plugs - Altis Omega', pid:'wiredwhips-odi-aluminum-bar-end-plugs-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:25.99, url:'https://wiredwhips.com/parts/altis_omega_bar-ends-odi', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-odi-aluminum-bar-end-plugs-altis-omega.webp'
     },
     {name:'OEM Handlebar (Delta / Delta S)', pid:'wiredwhips-oem-handlebar-delta-delta-s', tier:'OEM',
      prices:[
@@ -6527,13 +6527,13 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:44.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_stem-handlebar-mount', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-handlebar-mount-stem-set-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 Handlebar (tuttio-soleil01-handlebar)', pid:'wiredwhips-oem-soleil01-handlebar-tuttio-soleil01-handlebar', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:124.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_handlebar', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-handlebar-tuttio-soleil01-handlebar.webp'
     },
     {name:'OEM Soleil01 Handlebars Mount Assembly (soleil01-handlebars-mounts-screws)', pid:'wiredwhips-oem-soleil01-handlebars-mount-assembly-soleil01-handlebars-mounts-screws', tier:'OEM',
      prices:[
@@ -6545,7 +6545,7 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:44.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_handlebars-mount', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-handlebars-mounts-soleil01-handlebars-mount-a-pair.webp'
     },
     {name:'Universal Handlebar End Caps (Pair)', pid:'wiredwhips-universal-handlebar-end-caps-pair', tier:'budget',
      prices:[
@@ -6558,7 +6558,7 @@ var CATEGORIES = [
       {v:'Wired Whips', p:109.99, url:'https://wiredwhips.com/parts/altis_omega_bars-warp9-3rise', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-warp-9-3-rise-handlebars-31-8mm-altis-omega.webp'
     },
 ]},
   {id:'chargers', name:'Charger', blurb:'Faster charging means less downtime between rides.', tips:['Voltage must match your battery exactly','More amps = faster charging, but also more heat','Some fast chargers need 220V for full speed'], options:[
@@ -6679,7 +6679,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:168, url:'https://chargedcycleworks.com/products/al-xe-pro-charger-artic-leopard-xe-pro-oem', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-r','arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-al-xe-pro-charger-artic-leopard-xe-pro-oem.webp'
     }
 ,
     {name:'Altis Delta 10A Charger', pid:'altispowersports-altis-delta-10a-charger', tier:'OEM',
@@ -6687,40 +6687,40 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:300.0, url:'https://www.altispowersports.com/products/altis-delta-10a-charger', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-10a-charger.webp'
     },
     {name:'Electro & Co EMX 12Amp 72V/76V Charger', pid:'gritshift-electro-co-emx-12amp-charger', tier:'midrange',
      prices:[
       {v:'GritShift', p:159.99, url:'https://gritshift.com/products/electro-co-emx-12amp-charger', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-electro-co-emx-12amp-charger.webp'
     },
     {name:'Electro & Co EMX 0V-100V Lightning Charger', pid:'gritshift-electro-co-emx-lightning-charger', tier:'premium',
      prices:[
       {v:'GritShift', p:449.99, url:'https://gritshift.com/products/electro-co-emx-lightning-charger', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-electro-co-emx-lightning-charger.webp'
     },
     {name:'Fast Charger for Tuttio Soleil 01 | Upgraded High-Speed E-Bike Charger', pid:'howlingmoto-fast-charger-for-tuttio-soleil-01-upgraded-high-speed-e-bike-charger', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:54.99, url:'https://howlingmoto.com/products/fast-charger-for-tuttio-soleil-01-upgraded-high-speed-e-bike-charger', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-fast-charger-for-tuttio-soleil-01-upgraded-high-speed-e-bike-charger.webp'
     },
     {name:'Altis Delta 10A Charger | OEM Fast Charger | By Altis Powersports', pid:'revrides-altis-delta-10a-charger-oem-fast-charger-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:300.0, url:'https://revrides.com/products/altis-delta-10a-charger-oem-fast-charger-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-10a-charger-oem-fast-charger-by-altis-powersports.webp'
     },
     {name:'OEM 10A Charger 72V (Delta / Delta S)', pid:'wiredwhips-oem-10a-charger-72v-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:365.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_charger', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-10a-charger-72v-delta-delta-s.webp'
     },
 ]},
   {id:'cockpit', name:'Cockpit', blurb:'Grips, throttles, and displays — the details you touch every ride.', tips:['Throttle type must match your controller','Lock-on grips stay put; slip-ons are cheaper'], options:[
@@ -6897,7 +6897,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf','bonnell-805rx','lightbee2','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','rfn-warrior-pro','rtr-alpha','rtr-lite','rtr-sport','stark-vargex','storm-bee','ultrabee-21kw','ventus-evo','zero-xe'], likely:['altis-sigma','arctic-leopard-xe-pro-r','falcon-pro','rawrr-mantis-mini-r','rerode-rx'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/cockpit-odi-universal-lock-on-grips-half-waffle-for-emoto.webp'
     },
     {name:'ODI Ruffian full-waffle grips', pid:'cockpit-odi-ruffian-full-waffle-grips', tier:'budget',
      prices:[
@@ -6912,7 +6912,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:55.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-xf-throttle-oem', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xf'], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-xf-throttle-oem.webp'
     },
     {name:'Arctic Leopard - XE PRO Left Hand Control | OEM', pid:'chargedcycleworks-arctic-leopard-xe-left-hand-control-oem', tier:'OEM',
      prices:[
@@ -6921,7 +6921,7 @@ var CATEGORIES = [
       {v:'GritShift', p:49.99, url:'https://gritshift.com/products/oem-xe-pro-left-hand-control-switch', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-left-hand-control-oem.webp'
     },
     {name:'SXS Burly Shields Hand Guards', pid:'cockpit-sxs-burly-shields-hand-guards', tier:'midrange',
      prices:[
@@ -7036,21 +7036,21 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['storm-bee'], likely:['ultrabee-21kw'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/cockpit-quad-lock-moto-handlebar-mount.webp'
     },
     {name:'ETM RTR OEM Grips', pid:'chargedcycleworks-etm-rtr-oem-grips', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:5.85, url:'https://chargedcycleworks.com/products/etm-rtr-oem-grips', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-oem-grips.webp'
     },
     {name:'ETM RTR - OEM Throttle', pid:'chargedcycleworks-etm-rtr-oem-throttle', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:40.98, url:'https://chargedcycleworks.com/products/etm-rtr-oem-throttle', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-oem-throttle.webp'
     },
     {name:'ODI Grip Donuts', pid:'cockpit-odi-grip-donuts', tier:'budget',
      prices:[
@@ -7073,77 +7073,77 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:9.57, url:'https://chargedcycleworks.com/products/handlebar-stem-spacer-talaria-sting-mx3-mx4-x3', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rawrr-mantis-x'], likely:['rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-handlebar-stem-spacer-talaria-sting-mx3-mx4-x3.webp'
     },
     {name:'Prickly 31.8mm Direct Mount Stem – Surron', pid:'chargedcycleworks-prickly-31-8-direct-mount-stem-surron', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:145, url:'https://chargedcycleworks.com/products/prickly-31-8-direct-mount-stem-surron', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-prickly-31-8-direct-mount-stem-surron.webp'
     },
     {name:'KKE Direct Mount Stem', pid:'chargedcycleworks-kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-72v','rawrr-mantis-x'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective.webp'
     },
     {name:'EBikeZilla - Direct Mount Stem', pid:'chargedcycleworks-ebikezilla-direct-mount-stem', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:59, url:'https://chargedcycleworks.com/products/ebikezilla-direct-mount-stem', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-ebikezilla-direct-mount-stem.webp'
     },
     {name:'Thrill Seekers Bar Bag', pid:'chargedcycleworks-thrill-seekers-bag-9000', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:60.0, url:'https://chargedcycleworks.com/products/thrill-seekers-bag-9000', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['ultrabee-21kw'], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-thrill-seekers-bag-9000.webp'
     },
     {name:'RTECH HP2 Handguards', pid:'chargedcycleworks-rtech-hp2-handguards', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:32.99, url:'https://chargedcycleworks.com/products/rtech-hp2-handguards', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-sigma','ultrabee-21kw'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rtech-hp2-handguards.webp'
     },
     {name:'Prickly 35mm Direct Mount Stem – Surron', pid:'chargedcycleworks-prickly-35mm-direct-mount-stem-surron', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:170, url:'https://chargedcycleworks.com/products/prickly-35mm-direct-mount-stem-surron', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rawrr-mantis-x','rawrr-mantis-72v'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-prickly-35mm-direct-mount-stem-surron.webp'
     },
     {name:'Renthal Grip Glue', pid:'chargedcycleworks-renthal-grip-glue', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:11.66, url:'https://chargedcycleworks.com/products/renthal-grip-glue', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-renthal-grip-glue.webp'
     },
     {name:'ODI Grip Glue', pid:'chargedcycleworks-odi-grip-glue', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:2.49, url:'https://chargedcycleworks.com/products/odi-grip-glue', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','stark-vargex'], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-odi-grip-glue.webp'
     },
     {name:'Direct Mount Stem 1" Spacer (25mm)', pid:'chargedcycleworks-direct-mount-stem-1-spacer-25mm', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:27.38, url:'https://chargedcycleworks.com/products/direct-mount-stem-1-spacer-25mm', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:['rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-direct-mount-stem-1-spacer-25mm.webp'
     },
     {name:'Heavy Hitter Titanium Direct Mount Riser', pid:'chargedcycleworks-heavy-hitter-titanium-direct-mount-riser', tier:'premium',
      prices:[
       {v:'Charged Cycle Works', p:199.89, url:'https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:['rawrr-mantis-72v'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-heavy-hitter-titanium-direct-mount-riser.webp'
     },
     {name:'Warp9 Transformer Direct Bar Mount Stem', pid:'chargedcycleworks-warp9-transformer-direct-bar-mount-stem', tier:'midrange',
      prices:[
@@ -7157,7 +7157,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:56, url:'https://chargedcycleworks.com/products/mantis-x-right-handlebar-throttle', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rawrr-mantis-x'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-mantis-x-right-handlebar-throttle.webp'
     },
     {name:'Stark Varg Docking Station', pid:'cockpit-stark-varg-docking-station', tier:'OEM',
      prices:[
@@ -7165,7 +7165,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/cockpit-stark-varg-docking-station.webp'
     },
 ,
     {name:'Altis Delta Throttle', pid:'altispowersports-altis-delta-throttle', tier:'OEM',
@@ -7173,28 +7173,28 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:55.0, url:'https://www.altispowersports.com/products/altis-delta-throttle', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-throttle.webp'
     },
     {name:'Acerbis X-Ultimate Handguards for E-Motos', pid:'gritshift-acerbis-ultimate-x-handguards', tier:'budget',
      prices:[
       {v:'GritShift', p:45.95, url:'https://gritshift.com/products/acerbis-ultimate-x-handguards', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Acerbis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Acerbis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-acerbis-ultimate-x-handguards.webp'
     },
     {name:'Acerbis X-Factory Handguards for E-Motos', pid:'gritshift-acerbis-x-factory-handguards-e-motos', tier:'midrange',
      prices:[
       {v:'GritShift', p:109.99, url:'https://gritshift.com/products/acerbis-x-factory-handguards-e-motos', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Acerbis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Acerbis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-acerbis-x-factory-handguards-e-motos.webp'
     },
     {name:'Acerbis X-Future Handguards for E-Motos', pid:'gritshift-acerbis-x-future-handguards', tier:'budget',
      prices:[
       {v:'GritShift', p:45.95, url:'https://gritshift.com/products/acerbis-x-future-handguards', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Acerbis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Acerbis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-acerbis-x-future-handguards.webp'
     },
     {name:'D\'Cor Visuals Rubber Grip Tape Sheet - 12 x 18 Inch', pid:'gritshift-d-cor-visuals-rubber-grip-tape-sheet-12-x-18-inch', tier:'budget',
      prices:[
@@ -7212,32 +7212,32 @@ var CATEGORIES = [
      prices:[
       {v:'GritShift', p:32.99, url:'https://gritshift.com/products/domino-billet-grip-protectors-tap-guide-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-domino-billet-grip-protectors-tap-guide-kit.webp'
     },
     {name:'Domino Victor Half Waffle Grips - Medium Soft', pid:'gritshift-domino-victor-half-waffle-grips-medium-soft', tier:'budget',
      prices:[
       {v:'GritShift', p:19.95, url:'https://gritshift.com/products/domino-victor-half-waffle-grips-medium-soft', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-domino-victor-half-waffle-grips-medium-soft.webp'
     },
     {name:'Hirschmann Dual Hall Throttle Upgrade W/Extended Harness', pid:'gritshift-dual-hall-e-moto-throttle-upgrade', tier:'midrange',
      prices:[
       {v:'GritShift', p:169.99, url:'https://gritshift.com/products/dual-hall-e-moto-throttle-upgrade', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dual-hall-e-moto-throttle-upgrade.webp'
     },
     {name:'Hirschmann Dual Hall Throttle Upgrade W/Shortened Harness', pid:'gritshift-dual-hall-throttle-upgrade', tier:'midrange',
      prices:[
       {v:'GritShift', p:169.99, url:'https://gritshift.com/products/dual-hall-throttle-upgrade', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dual-hall-throttle-upgrade.webp'
     },
     {name:'Guts Racing Tuttio Soleil 01 Gripper Ribbed Seat Cover', pid:'gritshift-guts-tuttio-gripper-ribbed-seat-cover', tier:'midrange',
      prices:[
       {v:'GritShift', p:79.99, url:'https://gritshift.com/products/guts-tuttio-gripper-ribbed-seat-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Guts', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Guts', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-guts-tuttio-gripper-ribbed-seat-cover.webp'
     },
     {name:'Kev-TeK Dual Compound Enduro Grips', pid:'gritshift-kevtek-dual-compound-enduro-grips', tier:'budget',
      prices:[
@@ -7250,255 +7250,255 @@ var CATEGORIES = [
       {v:'GritShift', p:14.89, url:'https://gritshift.com/products/mika-off-road-grips-7-8', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Mika', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Mika', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-mika-off-road-grips-7-8.webp'
     },
     {name:'Moose Racing Stealth MX Grips', pid:'gritshift-moose-racing-handlebar-grips-stealth-mx', tier:'budget',
      prices:[
       {v:'GritShift', p:13.99, url:'https://gritshift.com/products/moose-racing-handlebar-grips-stealth-mx', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-handlebar-grips-stealth-mx.webp'
     },
     {name:'Moose Racing Qualifier Grips - Diamond - Gray', pid:'gritshift-moose-racing-qualifier-grips-diamond-gray', tier:'budget',
      prices:[
       {v:'GritShift', p:10.05, url:'https://gritshift.com/products/moose-racing-qualifier-grips-diamond-gray', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-qualifier-grips-diamond-gray.webp'
     },
     {name:'Moose Racing Qualifier Grips - Full Waffle', pid:'gritshift-moose-racing-qualifier-grips-full-waffle', tier:'budget',
      prices:[
       {v:'GritShift', p:9.04, url:'https://gritshift.com/products/moose-racing-qualifier-grips-full-waffle', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-qualifier-grips-full-waffle.webp'
     },
     {name:'Moose Racing Qualifier Grips - Half Waffle', pid:'gritshift-moose-racing-qualifier-grips-half-waffle', tier:'budget',
      prices:[
       {v:'GritShift', p:9.04, url:'https://gritshift.com/products/moose-racing-qualifier-grips-half-waffle', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-qualifier-grips-half-waffle.webp'
     },
     {name:'Moose Racing Roost 2 Handguards for E-Motos', pid:'gritshift-moose-racing-roost-2-handguards-e-motos', tier:'budget',
      prices:[
       {v:'GritShift', p:49.99, url:'https://gritshift.com/products/moose-racing-roost-2-handguards-e-motos', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-roost-2-handguards-e-motos.webp'
     },
     {name:'Motion Pro DirtControl II Grips - Full Waffle', pid:'gritshift-motion-pro-dirtcontrol-ii-grips-full-waffle', tier:'budget',
      prices:[
       {v:'GritShift', p:14.29, url:'https://gritshift.com/products/motion-pro-dirtcontrol-ii-grips-full-waffle', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-motion-pro-dirtcontrol-ii-grips-full-waffle.webp'
     },
     {name:'ODI Grip Donuts for E-Motos - Foam Blister Guards', pid:'gritshift-odi-grip-donuts-e-motos-foam-blister-guards', tier:'budget',
      prices:[
       {v:'GritShift', p:8.99, url:'https://gritshift.com/products/odi-grip-donuts-e-motos-foam-blister-guards', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-odi-grip-donuts-e-motos-foam-blister-guards.webp'
     },
     {name:'ODI MX Pro Edition Soft Half Waffle Grips, White', pid:'gritshift-odi-mx-pro-edition-soft-half-waffle-grips-white', tier:'budget',
      prices:[
       {v:'GritShift', p:14.95, url:'https://gritshift.com/products/odi-mx-pro-edition-soft-half-waffle-grips-white', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-odi-mx-pro-edition-soft-half-waffle-grips-white.webp'
     },
     {name:'ODI Ruffian Half Waffle Slip-On MX Grips, Black', pid:'gritshift-odi-ruffian-half-waffle-mx-grips-black', tier:'budget',
      prices:[
       {v:'GritShift', p:14.95, url:'https://gritshift.com/products/odi-ruffian-half-waffle-mx-grips-black', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-odi-ruffian-half-waffle-mx-grips-black.webp'
     },
     {name:'ODI Ruffian Half Waffle Slip-On MX Grips, Gray', pid:'gritshift-odi-ruffian-half-waffle-mx-grips-gray', tier:'budget',
      prices:[
       {v:'GritShift', p:14.95, url:'https://gritshift.com/products/odi-ruffian-half-waffle-mx-grips-gray', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-odi-ruffian-half-waffle-mx-grips-gray.webp'
     },
     {name:'Pro Grip 794 Single Density MX Grips - Half Waffle', pid:'gritshift-pro-grip-794-single-density-mx-grips-half-waffle', tier:'budget',
      prices:[
       {v:'GritShift', p:9.12, url:'https://gritshift.com/products/pro-grip-794-single-density-mx-grips-half-waffle', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-pro-grip-794-single-density-mx-grips-half-waffle.webp'
     },
     {name:'Pro Grip 799 Gel Cross Grips - Half Waffle', pid:'gritshift-pro-grip-799-gel-cross-grips-half-waffle', tier:'budget',
      prices:[
       {v:'GritShift', p:15.25, url:'https://gritshift.com/products/pro-grip-799-gel-cross-grips-half-waffle', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-pro-grip-799-gel-cross-grips-half-waffle.webp'
     },
     {name:'ProTaper Dual Density MX Grips', pid:'gritshift-protaper-dual-density-mx-grips', tier:'budget',
      prices:[
       {v:'GritShift', p:16.89, url:'https://gritshift.com/products/protaper-dual-density-mx-grips', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Protaper', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Protaper', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-protaper-dual-density-mx-grips.webp'
     },
     {name:'ProTaper Tri-Density Half Waffle MX Grips', pid:'gritshift-protaper-tri-density-half-waffle-mx-grips', tier:'budget',
      prices:[
       {v:'GritShift', p:16.89, url:'https://gritshift.com/products/protaper-tri-density-half-waffle-mx-grips', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Protaper', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Protaper', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-protaper-tri-density-half-waffle-mx-grips.webp'
     },
     {name:'Renthal Grip Donutz for E-Motos - Foam Pair', pid:'gritshift-renthal-grip-donutz-e-motos-foam-pair', tier:'budget',
      prices:[
       {v:'GritShift', p:9.99, url:'https://gritshift.com/products/renthal-grip-donutz-e-motos-foam-pair', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-renthal-grip-donutz-e-motos-foam-pair.webp'
     },
     {name:'Renthal Half Waffle MX Grips, Firm Compound', pid:'gritshift-renthal-half-waffle-mx-grips-firm', tier:'budget',
      prices:[
       {v:'GritShift', p:19.95, url:'https://gritshift.com/products/renthal-half-waffle-mx-grips-firm', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-renthal-half-waffle-mx-grips-firm.webp'
     },
     {name:'Renthal Half Waffle MX Grips, Medium Compound', pid:'gritshift-renthal-half-waffle-mx-grips-medium', tier:'budget',
      prices:[
       {v:'GritShift', p:19.95, url:'https://gritshift.com/products/renthal-half-waffle-mx-grips-medium', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-renthal-half-waffle-mx-grips-medium.webp'
     },
     {name:'Renthal Half Waffle MX Grips, Soft Compound', pid:'gritshift-renthal-half-waffle-mx-grips-soft', tier:'budget',
      prices:[
       {v:'GritShift', p:19.95, url:'https://gritshift.com/products/renthal-half-waffle-mx-grips-soft', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-renthal-half-waffle-mx-grips-soft.webp'
     },
     {name:'Renthal Single Compound MX Grips', pid:'gritshift-renthal-single-compound-mx-grips', tier:'budget',
      prices:[
       {v:'GritShift', p:16.89, url:'https://gritshift.com/products/renthal-single-compound-mx-grips', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-renthal-single-compound-mx-grips.webp'
     },
     {name:'Renthal Ultra Tacky Dual Compound Half Waffle Grips', pid:'gritshift-renthal-ultra-tacky-dual-compound-half-waffle-grips', tier:'budget',
      prices:[
       {v:'GritShift', p:29.95, url:'https://gritshift.com/products/renthal-ultra-tacky-dual-compound-half-waffle-grips', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-renthal-ultra-tacky-dual-compound-half-waffle-grips.webp'
     },
     {name:'Scott Deuce MX Grips', pid:'gritshift-scott-deuce-mx-grips', tier:'budget',
      prices:[
       {v:'GritShift', p:13.89, url:'https://gritshift.com/products/scott-deuce-mx-grips', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-scott-deuce-mx-grips.webp'
     },
     {name:'Scott Diamond MX Grips', pid:'gritshift-scott-diamond-mx-grips', tier:'budget',
      prices:[
       {v:'GritShift', p:16.89, url:'https://gritshift.com/products/scott-diamond-mx-grips', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-scott-diamond-mx-grips.webp'
     },
     {name:'Scott Mellow MX Grips', pid:'gritshift-scott-mellow-mx-grips', tier:'budget',
      prices:[
       {v:'GritShift', p:13.89, url:'https://gritshift.com/products/scott-mellow-mx-grips', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-scott-mellow-mx-grips.webp'
     },
     {name:'Scott Radial Full Waffle Grips - Single Density', pid:'gritshift-scott-radial-full-waffle-grips', tier:'budget',
      prices:[
       {v:'GritShift', p:12.99, url:'https://gritshift.com/products/scott-radial-full-waffle-grips', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-scott-radial-full-waffle-grips.webp'
     },
     {name:'Scott Radial Half Waffle Grips - Single Density', pid:'gritshift-scott-radial-half-waffle-grips-single-density', tier:'budget',
      prices:[
       {v:'GritShift', p:10.0, url:'https://gritshift.com/products/scott-radial-half-waffle-grips-single-density', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-scott-radial-half-waffle-grips-single-density.webp'
     },
     {name:'Scott SX II Grips with Donuts - Double Density Diamond', pid:'gritshift-scott-sx-ii-grips-donuts-double-density-diamond', tier:'budget',
      prices:[
       {v:'GritShift', p:13.0, url:'https://gritshift.com/products/scott-sx-ii-grips-donuts-double-density-diamond', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-scott-sx-ii-grips-donuts-double-density-diamond.webp'
     },
     {name:'Warp 9 Handguard Kit', pid:'gritshift-warp-9-racing-handguard-kit-e-bike', tier:'budget',
      prices:[
       {v:'GritShift', p:44.99, url:'https://gritshift.com/products/warp-9-racing-handguard-kit-e-bike', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-warp-9-racing-handguard-kit-e-bike.webp'
     },
     {name:'Zeta Impact X3 Handguards', pid:'gritshift-zeta-impact-x3-handguards', tier:'midrange',
      prices:[
       {v:'GritShift', p:52.89, url:'https://gritshift.com/products/zeta-impact-x3-handguards', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-zeta-impact-x3-handguards.webp'
     },
     {name:'Tuttio Soleil 01 Throttle Replacement With Grips', pid:'howlingmoto-tuttio-soleil-01-throttle-replacement-with-grips', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:59.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-throttle-replacement-with-grips', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-throttle-replacement-with-grips.webp'
     },
     {name:'Altis Delta Throttle | OEM Replacement Throttle Assembly | By Altis Powersports', pid:'revrides-altis-delta-throttle-oem-replacement-throttle-assembly-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:55.0, url:'https://revrides.com/products/altis-delta-throttle-oem-replacement-throttle-assembly-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-throttle-oem-replacement-throttle-assembly-by-altis-powersports.webp'
     },
     {name:'Tuttio Soleil01 OEM Replacement Throttle With Keys & Display', pid:'tbelectricmoto-tuttio-soleil01-replacement-throttle', tier:'OEM',
      prices:[
       {v:'TB Electric Moto', p:35.99, url:'https://tbelectricmoto.com/products/tuttio-soleil01-replacement-throttle', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tuttio-soleil01-replacement-throttle.webp'
     },
     {name:'Upgraded Handlebar Grips', pid:'tbelectricmoto-upgraded-handlebar-grips', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:9.99, url:'https://tbelectricmoto.com/products/upgraded-handlebar-grips', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-upgraded-handlebar-grips.webp'
     },
     {name:'Tuttio Soleil01 Ebike Handguards', pid:'tuttio-tuttio-soleil01-ebike-handguards', tier:'OEM',
      prices:[
       {v:'Tuttio', p:39.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-handguards', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-handguards.webp'
     },
     {name:'Tuttio Soleil01 Ebike Headset Assembly', pid:'tuttio-tuttio-soleil01-ebike-headset-assembly', tier:'OEM',
      prices:[
       {v:'Tuttio', p:39.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-headset-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-headset-assembly.webp'
     },
     {name:'Tuttio Soleil01 Ebike Left Grip', pid:'tuttio-tuttio-soleil01-ebike-left-grip', tier:'OEM',
      prices:[
       {v:'Tuttio', p:24.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-left-grip', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-left-grip.webp'
     },
     {name:'Tuttio Soleil01 eBike New & Upgraded NFC Keyless Smart Display & Throttle', pid:'tuttio-tuttio-soleil01-ebike-new-and-upgraded-nfc-keyless-smart-display-and-throttle', tier:'OEM',
      prices:[
       {v:'Tuttio', p:169.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-new-and-upgraded-nfc-keyless-smart-display-and-throttle', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-new-and-upgraded-nfc-keyless-smart-display-and-throttle.webp'
     },
     {name:'Tuttio Soleil01 SE Ebike Throttle Integrated Display', pid:'tuttio-tuttio-soleil01-se-ebike-throttle-integrated-display', tier:'OEM',
      prices:[
       {v:'Tuttio', p:148.99, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-throttle-integrated-display', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-throttle-integrated-display.webp'
     },
     {name:'Tuttio Soleil01 Self-Locking Silicone Throttle Grip Covers (Pair)', pid:'tuttio-tuttio-soleil01-self-locking-silicone-throttle-grip-cover', tier:'OEM',
      prices:[
@@ -7518,14 +7518,14 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:6.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_grip-donuts', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-grip-donuts-altis-omega.webp'
     },
     {name:'Mika Metals 50/50 Waffle Grips - Altis Omega', pid:'wiredwhips-mika-metals-50-50-waffle-grips-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:18.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_grips-mika-5050', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Mika Metals', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Mika Metals', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-mika-metals-50-50-waffle-grips-altis-omega.webp'
     },
     {name:'ODI EMIG Pro V2 Lock-On Grips for Altis Powersports (Altis Delta, Altis Delta S +2 more)', pid:'wiredwhips-odi-emig-pro-v2-lock-on-grips-for-altis-powersports-altis-delta-altis-delta-s-2-more', tier:'budget',
      prices:[
@@ -7539,21 +7539,21 @@ var CATEGORIES = [
       {v:'Wired Whips', p:44.99, url:'https://wiredwhips.com/parts/altis-powersports_multi_grips-odi-emig', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta','altis-omega'], no:[],
-     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-odi-emig-pro-v2-lock-on-grips-for-altis-powersports-altis-sigma-altis-delta-2-more.webp'
     },
     {name:'ODI Emig Pro V2 Lock-On Grips (ODI-EMIG-V2) - Soleil01 (universal MX) for Tuttio (Soleil01 Classic, Soleil01 BF...', pid:'wiredwhips-odi-emig-pro-v2-lock-on-grips-odi-emig-v2-soleil01-universal-mx-for-tuttio-soleil01-classi', tier:'budget',
      prices:[
       {v:'Wired Whips', p:44.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_am-odi-grips', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-odi-emig-pro-v2-lock-on-grips-odi-emig-v2-soleil01-universal-mx-for-tuttio-soleil01-classi.webp'
     },
     {name:'ODI Rogue Single-Ply MX Grips for Altis Powersports (Altis Omega, Altis Sigma +2 more)', pid:'wiredwhips-odi-rogue-single-ply-mx-grips-for-altis-powersports-altis-omega-altis-sigma-2-more', tier:'budget',
      prices:[
       {v:'Wired Whips', p:16.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_grips-odi-rogue', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta','altis-omega'], no:[],
-     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-odi-rogue-single-ply-mx-grips-for-altis-powersports-altis-omega-altis-sigma-2-more.webp'
     },
     {name:'ODI Ruffian Half-Waffle MX Grips for Altis Powersports (Altis Sigma, Altis Delta +2 more)', pid:'wiredwhips-odi-ruffian-half-waffle-mx-grips-for-altis-powersports-altis-sigma-altis-delta-2-more', tier:'budget',
      prices:[
@@ -7567,31 +7567,31 @@ var CATEGORIES = [
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_grips-odi-ruffian-no-waffle', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta','altis-omega'], no:[],
-     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Odi', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-odi-ruffian-no-waffle-mx-grips-for-altis-powersports-altis-omega-altis-sigma-2-more.webp'
     },
     {name:'OEM Soleil01 Handguards (soleil01-handguards-black)', pid:'wiredwhips-oem-soleil01-handguards-soleil01-handguards-black', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:51.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_handguards', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-handguards-soleil01-handguards-black.webp'
     },
     {name:'OEM Soleil01 Headset Assembly (soleil01-headset-assembly)', pid:'wiredwhips-oem-soleil01-headset-assembly-soleil01-headset-assembly', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:51.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_headset-assembly', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-headset-assembly-soleil01-headset-assembly.webp'
     },
     {name:'OEM Soleil01 Left Grip (soleil01-left-grip)', pid:'wiredwhips-oem-soleil01-left-grip-soleil01-left-grip', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:31.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_left-grip', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-left-grip-soleil01-left-grip.webp'
     },
     {name:'OEM Soleil01 NFC Keyless Smart Display & Throttle (soleil01-nfc-keyless-display-and-throttle)', pid:'wiredwhips-oem-soleil01-nfc-keyless-smart-display-throttle-soleil01-nfc-keyless-display-and-throttle', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:210.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_nfc-display-throttle', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-nfc-keyless-smart-display-throttle-soleil01-nfc-keyless-display-and-throttle.webp'
     },
     {name:'OEM Soleil01 Self-Locking Silicone Throttle Grip Cover (soleil01-grip-cover)', pid:'wiredwhips-oem-soleil01-self-locking-silicone-throttle-grip-cover-soleil01-grip-cover', tier:'OEM',
      prices:[
@@ -7609,61 +7609,61 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:69.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_throttle', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-throttle-delta-delta-s.webp'
     },
     {name:'ProTaper Pillow Top MX Grips for Altis Omega', pid:'wiredwhips-protaper-pillow-top-mx-grips-for-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_grips-protaper-pillow-top', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Protaper', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Protaper', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-protaper-pillow-top-mx-grips-for-altis-omega.webp'
     },
     {name:'ProTaper Pillow Top MX Grips for Altis Omega (Full-Size Bar)', pid:'wiredwhips-protaper-pillow-top-mx-grips-for-altis-omega-full-size-bar', tier:'budget',
      prices:[
       {v:'Wired Whips', p:21.99, url:'https://wiredwhips.com/parts/altis_omega_grips-protaper-pillow', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Protaper', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Protaper', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-protaper-pillow-top-mx-grips-for-altis-omega-full-size-bar.webp'
     },
     {name:'Renthal Grip Glue for Altis Powersports (Altis Omega)', pid:'wiredwhips-renthal-grip-glue-for-altis-powersports-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:14.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_grip-glue-renthal', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-renthal-grip-glue-for-altis-powersports-altis-omega.webp'
     },
     {name:'SCOTT Mellow + Donut Grips - Altis Omega', pid:'wiredwhips-scott-mellow-donut-grips-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:16.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_grips-scott-mellow', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-scott-mellow-donut-grips-altis-omega.webp'
     },
     {name:'Tusk Grip Glue 5 ml for Altis Powersports (Altis Delta, Altis Delta S +2 more)', pid:'wiredwhips-tusk-grip-glue-5-ml-for-altis-powersports-altis-delta-altis-delta-s-2-more', tier:'budget',
      prices:[
       {v:'Wired Whips', p:6.99, url:'https://wiredwhips.com/parts/altis-powersports_multi_grip-glue', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta','altis-omega'], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-tusk-grip-glue-5-ml-for-altis-powersports-altis-delta-altis-delta-s-2-more.webp'
     },
     {name:'Tusk / ODI Grip Glue for Altis Powersports (Altis Omega)', pid:'wiredwhips-tusk-odi-grip-glue-for-altis-powersports-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:6.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_grip-glue-tusk', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-tusk-odi-grip-glue-for-altis-powersports-altis-omega.webp'
     },
     {name:'Vortex Medium Compound Grips - Altis Omega', pid:'wiredwhips-vortex-medium-compound-grips-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:22.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_grips-vortex', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-vortex-medium-compound-grips-altis-omega.webp'
     },
     {name:'Warp 9 E-Moto Handguard Kit - Altis Omega', pid:'wiredwhips-warp-9-e-moto-handguard-kit-altis-omega', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:56.99, url:'https://wiredwhips.com/parts/altis_omega_handguards-warp9', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-warp-9-e-moto-handguard-kit-altis-omega.webp'
     },
 ]},
   {id:'cooling', name:'Cooling', blurb:'High-power builds make serious heat. Cooling keeps your motor and controller alive when you\'re pushing hard.', tips:['Mostly needed above ~15 kW or for sustained high load','Check fitment against your specific motor'], options:[
@@ -7705,7 +7705,7 @@ var CATEGORIES = [
       {v:'GritShift', p:72.99, url:'https://gritshift.com/products/ebmx-x-9000-v2-colored-heat-sink', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ebmx-x-9000-v2-colored-heat-sink.webp'
     },
 ]},
   {id:'drivetrain', name:'Drivetrain', blurb:'Chain or belt and sprockets — how power actually reaches the rear wheel.', tips:['Chain pitch must match front and rear sprockets','Gearing changes trade top speed for torque (and vice versa)','Belt drives are quieter but less tolerant of misalignment'], options:[
@@ -7748,7 +7748,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["komodo"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/komodo-chain-520.webp'
     },
     {name:'Ventus Primary Chain Drive Conversion Kit', pid:'drivetrain-ventus-chain-kit', tier:'midrange',
      prices:[
@@ -7906,7 +7906,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/drivetrain-bonnell-805-rx-520-primary-chain-conversion-kit.webp'
     },
     {name:'Bonnell 805 - Primary Drive Belt 26.5 mm', pid:'drivetrain-bonnell-805-rx-primary-drive-belt-26-5-mm', tier:'OEM',
      prices:[
@@ -7914,7 +7914,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/drivetrain-bonnell-805-rx-primary-drive-belt-26-5-mm.webp'
     },
     {name:'Bonnell 805 - Secondary Rear Sprocket', pid:'drivetrain-bonnell-805-rx-secondary-rear-sprocket', tier:'OEM',
      prices:[
@@ -7922,7 +7922,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/drivetrain-bonnell-805-rx-secondary-rear-sprocket.webp'
     },
     {name:'Bonnell 805 - Primary Belt-Drive Kit', pid:'drivetrain-bonnell-805-rx-primary-belt-drive-kit', tier:'OEM',
      prices:[
@@ -7930,7 +7930,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/drivetrain-bonnell-805-rx-primary-belt-drive-kit.webp'
     },
     {name:'Bonnell 805 - Secondary Chain Sliders', pid:'drivetrain-bonnell-805-rx-secondary-chain-sliders', tier:'OEM',
      prices:[
@@ -7938,7 +7938,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/drivetrain-bonnell-805-rx-secondary-chain-sliders.webp'
     },
     {name:'Bonnell 805 - Rear Chain Guide', pid:'drivetrain-bonnell-805-rx-rear-chain-guide', tier:'OEM',
      prices:[
@@ -7946,7 +7946,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/drivetrain-bonnell-805-rx-rear-chain-guide.webp'
     },
     {name:'Bonnell 805 - Primary Chain Slider', pid:'drivetrain-bonnell-805-rx-primary-chain-slider', tier:'OEM',
      prices:[
@@ -7954,7 +7954,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/drivetrain-bonnell-805-rx-primary-chain-slider.webp'
     },
     {name:'Bonnell 805 - 520 Master Clip Link', pid:'drivetrain-bonnell-805-rx-520-master-clip-link', tier:'OEM',
      prices:[
@@ -7962,7 +7962,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/drivetrain-bonnell-805-rx-520-master-clip-link.webp'
     },
     {name:'Bonnell 805 - Jackshaft Sub-Assembly', pid:'drivetrain-bonnell-805-rx-jackshaft-sub-assembly', tier:'OEM',
      prices:[
@@ -7970,7 +7970,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/drivetrain-bonnell-805-rx-jackshaft-sub-assembly.webp'
     },
     {name:'Primary Drive 520 ORH Gold X-Ring Chain', pid:'drivetrain-primary-drive-520-orh-gold-x-ring-chain', tier:'midrange',
      prices:[
@@ -8108,7 +8108,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:59.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-rear-sprocket-48t-oem', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf'], no:[],
-     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-rear-sprocket-48t-oem.webp'
     },
     {name:'Surron Ultra Bee - EBMX 52T Sprocket', pid:'chargedcycleworks-52t-sprocket-for-surron-ultra-bee', tier:'midrange',
      prices:[
@@ -8228,7 +8228,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['falcon-gt'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit.webp'
     },
     {name:'D.I.D Super 420NZ3G Gold Chain', pid:'drivetrain-did-420nz3g-gold-chain', tier:'mid',
      prices:[
@@ -8236,35 +8236,35 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:['rtr-sport','falcon-pro','rtr-alpha'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/drivetrain-did-420nz3g-gold-chain.webp'
     },
     {name:'ETM RTR - OEM Front Sprocket', pid:'chargedcycleworks-etm-rtr-oem-front-sprocket', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:20, url:'https://chargedcycleworks.com/products/etm-rtr-oem-front-sprocket', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-oem-front-sprocket.webp'
     },
     {name:'ETM RTR - OEM Chain', pid:'chargedcycleworks-etm-rtr-oem-chain', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:24.99, url:'https://chargedcycleworks.com/products/etm-rtr-oem-chain', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-oem-chain.webp'
     },
     {name:'ETM RTR - OEM 73T Sprocket', pid:'chargedcycleworks-etm-rtr-oem-73t-sprocket', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:35, url:'https://chargedcycleworks.com/products/etm-rtr-oem-73t-sprocket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-oem-73t-sprocket.webp'
     },
     {name:'ETM RTR - Extreme High Performance #35 RLV Chain', pid:'chargedcycleworks-high-performance-35-rlv-pit-bike-chain-for-etm-rtr', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/high-performance-35-rlv-pit-bike-chain-for-etm-rtr', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-high-performance-35-rlv-pit-bike-chain-for-etm-rtr.webp'
     },
     {name:'Warp9 Ultra Bee Titanium Sprocket Bolts', pid:'chargedcycleworks-warp9-ultra-bee-titanium-sprocket-bolts', tier:'midrange',
      prices:[
@@ -8287,56 +8287,56 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:42, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-s-pro-r-sprocket', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-s-pro-r-sprocket.webp'
     },
     {name:'E Ride Pro – 110-Link Chain 428 Chain | Take-Off', pid:'chargedcycleworks-eride-pro-55-link-chain-take-off', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/eride-pro-55-link-chain-take-off', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-eride-pro-55-link-chain-take-off.webp'
     },
     {name:'Warp9 Sprocket – RAWRR Mantis / Altis Sigma', pid:'chargedcycleworks-rawr-sigma-sprocket', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:65.0, url:'https://chargedcycleworks.com/products/rawr-sigma-sprocket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma','rawrr-mantis-72v'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rawr-sigma-sprocket.webp'
     },
     {name:'Warp9 Altis Sigma Front Sprocket', pid:'chargedcycleworks-warp9-front-sprocket-altis-sigma', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:22.0, url:'https://chargedcycleworks.com/products/warp9-front-sprocket-altis-sigma', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-front-sprocket-altis-sigma.webp'
     },
     {name:'Warp9 520 Rear Sprocket – Altis Sigma Mid-2025+ / Limited Edition', pid:'chargedcycleworks-sigma-limited-edition-sprocket-mid-25-current', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:58.0, url:'https://chargedcycleworks.com/products/sigma-limited-edition-sprocket-mid-25-current', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-sigma-limited-edition-sprocket-mid-25-current.webp'
     },
     {name:'Warp9 Stainless Steel E-Moto Sprocket', pid:'chargedcycleworks-warp9-stainless-steel-e-moto-sprocket-54t', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:35, url:'https://chargedcycleworks.com/products/warp-9-stainless-steel-e-moto-sprocket-54t', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rawrr-mantis-x'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-stainless-steel-e-moto-sprocket-54t.webp'
     },
     {name:'KKE Rear Chain Guide for Rawrr Mantis X', pid:'chargedcycleworks-kke-rear-chain-guide-fit-rawrr-mantis-x-collective', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/kke-rear-chain-guard-fit-rawrr-mantis-x-black-and-red-collective', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-x'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kke-rear-chain-guide-fit-rawrr-mantis-x-collective.webp'
     },
     {name:'KKE Axle Chain Adjuster Blocks for Rawrr Mantis', pid:'chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-collective', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-black-and-red-collective', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-x','rawrr-mantis-72v'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kke-axle-chain-adjuster-blocks-fit-rawrr-mantis-mantis-x-collective.webp'
     },
     {name:'Renthal TwinRing Sprocket for Stark Varg', pid:'drivetrain-renthal-twinring-sprocket-stark-varg', tier:'mid',
      prices:[
@@ -8344,7 +8344,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/drivetrain-renthal-twinring-sprocket-stark-varg.webp'
     }
 ,
     {name:'Altis Delta 420 Chain', pid:'altispowersports-altis-delta-420-chain', tier:'OEM',
@@ -8352,7 +8352,7 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:40.0, url:'https://www.altispowersports.com/products/altis-delta-420-chain', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-420-chain.webp'
     },
     {name:'Altis Delta 45T Sprocket', pid:'altispowersports-altis-delta-45t-sprocket', tier:'OEM',
      prices:[
@@ -8366,14 +8366,14 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:12.0, url:'https://www.altispowersports.com/products/altis-delta-chain-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-chain-cover.webp'
     },
     {name:'Altis Delta Chain Guide', pid:'altispowersports-altis-delta-chain-guide', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:12.0, url:'https://www.altispowersports.com/products/altis-delta-chain-guide', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-chain-guide.webp'
     },
     {name:'D.I.D 428 VX Series X-Ring Chain 120 Links', pid:'gritshift-d-i-d-428-vx-series-x-ring-chain-120-links', tier:'midrange',
      prices:[
@@ -8385,83 +8385,83 @@ var CATEGORIES = [
      prices:[
       {v:'GritShift', p:89.99, url:'https://gritshift.com/products/ek-sro-o-ring-420-chain', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ek-sro-o-ring-420-chain.webp'
     },
     {name:'Fire Power 420 Standard Gold Chain 130 Link', pid:'gritshift-fire-power-420-standard-gold-chain-130-link', tier:'budget',
      prices:[
       {v:'GritShift', p:34.99, url:'https://gritshift.com/products/fire-power-420-standard-gold-chain-130-link', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-fire-power-420-standard-gold-chain-130-link.webp'
     },
     {name:'JT 520 HDR Competition Chain - Steel - 120 Links', pid:'gritshift-jt-520-hdr-competition-chain-steel-120-links', tier:'budget',
      prices:[
       {v:'GritShift', p:42.83, url:'https://gritshift.com/products/jt-520-hdr-competition-chain-steel-120-links', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-jt-520-hdr-competition-chain-steel-120-links.webp'
     },
     {name:'JT 520 HDS Super Heavy Duty Non-Sealed Chain', pid:'gritshift-jt-520-hds-super-heavy-duty-chain', tier:'budget',
      prices:[
       {v:'GritShift', p:44.26, url:'https://gritshift.com/products/jt-520-hds-super-heavy-duty-chain', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-jt-520-hds-super-heavy-duty-chain.webp'
     },
     {name:'Moose Racing 420 RXP Pro-MX Chain 110 Link', pid:'gritshift-moose-racing-420-rxp-pro-mx-chain-110-links', tier:'budget',
      prices:[
       {v:'GritShift', p:28.89, url:'https://gritshift.com/products/moose-racing-420-rxp-pro-mx-chain-110-links', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-420-rxp-pro-mx-chain-110-links.webp'
     },
     {name:'Moose Racing 420 RXP Pro-MX Gold Chain 114 Link', pid:'gritshift-moose-racing-420-rxp-pro-mx-chain-114-link', tier:'budget',
      prices:[
       {v:'GritShift', p:32.89, url:'https://gritshift.com/products/moose-racing-420-rxp-pro-mx-chain-114-link', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-420-rxp-pro-mx-chain-114-link.webp'
     },
     {name:'Moose Racing 428 RXP Pro-MX Chain 120 Link', pid:'gritshift-moose-racing-428-rxp-pro-mx-chain-120-link', tier:'budget',
      prices:[
       {v:'GritShift', p:42.89, url:'https://gritshift.com/products/moose-racing-428-rxp-pro-mx-chain-120-link', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-428-rxp-pro-mx-chain-120-link.webp'
     },
     {name:'Moose Racing 520 Gold RXP Pro-MX Chain 120 Link', pid:'gritshift-moose-racing-520-rxp-pro-mx-chain-120-link', tier:'midrange',
      prices:[
       {v:'GritShift', p:89.99, url:'https://gritshift.com/products/moose-racing-520-rxp-pro-mx-chain-120-link', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-520-rxp-pro-mx-chain-120-link.webp'
     },
     {name:'Moto-Master V4 520 O-Ring Drive Chain, Gold, 120 Link', pid:'gritshift-moto-master-v4-520-o-ring-drive-chain-gold-120-link', tier:'midrange',
      prices:[
       {v:'GritShift', p:116.99, url:'https://gritshift.com/products/moto-master-v4-520-o-ring-drive-chain-gold-120-link', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moto-master-v4-520-o-ring-drive-chain-gold-120-link.webp'
     },
     {name:'Parts Unlimited 520 PX Series X-Ring Drive Chain, 120 Link', pid:'gritshift-parts-unlimited-520-px-series-x-ring-drive-chain-120-link', tier:'midrange',
      prices:[
       {v:'GritShift', p:142.99, url:'https://gritshift.com/products/parts-unlimited-520-px-series-x-ring-drive-chain-120-link', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-parts-unlimited-520-px-series-x-ring-drive-chain-120-link.webp'
     },
     {name:'Parts Unlimited 520H Drive Chain - 120 Links', pid:'gritshift-parts-unlimited-520h-drive-chain-120-links', tier:'budget',
      prices:[
       {v:'GritShift', p:44.95, url:'https://gritshift.com/products/parts-unlimited-520h-drive-chain-120-links', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-parts-unlimited-520h-drive-chain-120-links.webp'
     },
     {name:'ProX 520 MX Non-Seal Drive Chain, Gold, 120 Link', pid:'gritshift-prox-520-mx-non-seal-drive-chain-gold-120-link', tier:'midrange',
      prices:[
       {v:'GritShift', p:104.99, url:'https://gritshift.com/products/prox-520-mx-non-seal-drive-chain-gold-120-link', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-prox-520-mx-non-seal-drive-chain-gold-120-link.webp'
     },
     {name:'ProX 520 X-Ring Drive Chain, Gold, 120 Link', pid:'gritshift-prox-520-x-ring-drive-chain-gold-120-link', tier:'midrange',
      prices:[
       {v:'GritShift', p:129.99, url:'https://gritshift.com/products/prox-520-x-ring-drive-chain-gold-120-link', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-prox-520-x-ring-drive-chain-gold-120-link.webp'
     },
     {name:'Regina 520 GPXV Non-Sealed Racing Chain 120 Links Gold', pid:'gritshift-regina-520-gpxv-racing-chain', tier:'premium',
      prices:[
@@ -8486,31 +8486,31 @@ var CATEGORIES = [
       {v:'GritShift', p:139.65, url:'https://gritshift.com/products/renthal-r1-520-works-drive-chain-120-link', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-renthal-r1-520-works-drive-chain-120-link.webp'
     },
     {name:'RK 420 RK-M Standard Chain 110-Link', pid:'gritshift-rk-420-rk-m-standard-chain', tier:'budget',
      prices:[
       {v:'GritShift', p:24.99, url:'https://gritshift.com/products/rk-420-rk-m-standard-chain', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-rk-420-rk-m-standard-chain.webp'
     },
     {name:'RK 420 RK-M Standard Chain 120 Link', pid:'gritshift-rk-420-rk-m-standard-chain-120-link', tier:'budget',
      prices:[
       {v:'GritShift', p:19.89, url:'https://gritshift.com/products/rk-420-rk-m-standard-chain-120-link', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-rk-420-rk-m-standard-chain-120-link.webp'
     },
     {name:'RK 420 RK-M Standard Chain 130 Link', pid:'gritshift-rk-420-rk-m-standard-chain-130-link', tier:'budget',
      prices:[
       {v:'GritShift', p:24.89, url:'https://gritshift.com/products/rk-420-rk-m-standard-chain-130-link', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-rk-420-rk-m-standard-chain-130-link.webp'
     },
     {name:'RK M428 Standard Chain 110 Link', pid:'gritshift-rk-428-chain-110-link', tier:'budget',
      prices:[
       {v:'GritShift', p:24.99, url:'https://gritshift.com/products/rk-428-chain-110-link', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-rk-428-chain-110-link.webp'
     },
     {name:'RK 428 MXZ1 Gold Chain Link', pid:'gritshift-rk-428-mxz1-gold-chain-110-link', tier:'midrange',
      prices:[
@@ -8522,13 +8522,13 @@ var CATEGORIES = [
      prices:[
       {v:'GritShift', p:118.34, url:'https://gritshift.com/products/rk-520-max-o-drive-chain-gold-120-links', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-rk-520-max-o-drive-chain-gold-120-links.webp'
     },
     {name:'RK 520 Max Z RX-Ring Drive Chain, Black and Gold, 130 Link', pid:'gritshift-rk-520-max-z-rx-ring-drive-chain-black-gold-130-link', tier:'premium',
      prices:[
       {v:'GritShift', p:254.99, url:'https://gritshift.com/products/rk-520-max-z-rx-ring-drive-chain-black-gold-130-link', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-rk-520-max-z-rx-ring-drive-chain-black-gold-130-link.webp'
     },
     {name:'RK Chain Natural 428 120 Link', pid:'gritshift-rk-chain-428-120-link-natural', tier:'budget',
      prices:[
@@ -8540,34 +8540,34 @@ var CATEGORIES = [
      prices:[
       {v:'GritShift', p:62.99, url:'https://gritshift.com/products/rk-heavy-duty-gb420mxz-chain', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-rk-heavy-duty-gb420mxz-chain.webp'
     },
     {name:'RK M520H Heavy Duty Non-Sealed Drive Chain', pid:'gritshift-rk-m520h-heavy-duty-chain', tier:'midrange',
      prices:[
       {v:'GritShift', p:53.62, url:'https://gritshift.com/products/rk-m520h-heavy-duty-chain', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-rk-m520h-heavy-duty-chain.webp'
     },
     {name:'Tuttio Soleil 01 Shift Lock', pid:'howlingmoto-tuttio-soleil-01-shift-lock', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:54.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-shift-lock', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-shift-lock.webp'
     },
     {name:'Tuttio Soleil 01 & Yozma Gold Chain Upgrade – Heavy Duty 420 E-Bike Chain (116 Links)', pid:'howlingmoto-tuttio-soleil-01-yozma-gold-chain-upgrade-heavy-duty-420-e-bike-chain-116-links', tier:'budget',
      prices:[
       {v:'Howling Moto', p:34.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-yozma-gold-chain-upgrade-heavy-duty-420-e-bike-chain-116-links', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-yozma-gold-chain-upgrade-heavy-duty-420-e-bike-chain-116-links.webp'
     },
     {name:'Altis Delta 420 Chain | OEM Replacement Drive Chain | By Altis Powersports', pid:'revrides-altis-delta-420-chain-oem-replacement-drive-chain-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:40.0, url:'https://revrides.com/products/altis-delta-420-chain-oem-replacement-drive-chain-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-420-chain-oem-replacement-drive-chain-by-altis-powersports.webp'
     },
     {name:'Altis Delta 45T Sprocket | OEM Rear Drive Sprocket | By Altis Powersports', pid:'revrides-altis-delta-45t-sprocket-oem-rear-drive-sprocket-by-altis-powersports', tier:'OEM',
      prices:[
@@ -8581,68 +8581,68 @@ var CATEGORIES = [
       {v:'REV Rides', p:12.0, url:'https://revrides.com/products/altis-delta-chain-guide-oem-replacement-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-chain-guide-oem-replacement-by-altis-powersports.webp'
     },
     {name:'EK 520 Masterlinks', pid:'revrides-ek-520-masterlinks', tier:'budget',
      prices:[
       {v:'REV Rides', p:9.99, url:'https://revrides.com/products/ek-520-masterlinks', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-omega'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-omega'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-ek-520-masterlinks.webp'
     },
     {name:'E-Moto Shift Lock Stunt Pegs for Tuttio Soleil01', pid:'tbelectricmoto-e-moto-shift-lock-stunt-pegs-for-tuttio-soleil01', tier:'budget',
      prices:[
       {v:'Howling Moto', p:36.0, url:'https://howlingmoto.com/products/e-moto-shift-lock-stunt-pegs-for-tuttio-soleil01', chk:'2026-11-15', stock:'out_of_stock'},
       {v:'TB Electric Moto', p:36.0, url:'https://tbelectricmoto.com/products/e-moto-shift-lock-stunt-pegs-for-tuttio-soleil01', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-e-moto-shift-lock-stunt-pegs-for-tuttio-soleil01.webp'
     },
     {name:'Renthal 420 R-1 Works Chain', pid:'tbelectricmoto-renthal-420-r-1-works-chain', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:61.56, url:'https://tbelectricmoto.com/products/renthal-420-r-1-works-chain', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Renthal', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-renthal-420-r-1-works-chain.webp'
     },
     {name:'420 Sprockets for Pitbikes Yozma, Heybike, Tuttio, RTR', pid:'tbelectricmoto-sprockets-for-pitbikes-yozma-heybike-tuttio-rtr', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:25.0, url:'https://tbelectricmoto.com/products/sprockets-for-pitbikes-yozma-heybike-tuttio-rtr', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-sprockets-for-pitbikes-yozma-heybike-tuttio-rtr.webp'
     },
     {name:'Tuttio Soleil01 Replacement Chain', pid:'tbelectricmoto-tuttio-soleil01-replacement-chain', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:30.0, url:'https://tbelectricmoto.com/products/tuttio-soleil01-replacement-chain', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tuttio-soleil01-replacement-chain.webp'
     },
     {name:'Tuttio Soleil01 Replacement Front Sprocket', pid:'tbelectricmoto-tuttio-soleil01-replacement-front-sprocket', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:8.99, url:'https://tbelectricmoto.com/products/tuttio-soleil01-replacement-front-sprocket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tuttio-soleil01-replacement-front-sprocket.webp'
     },
     {name:'Warp 9 Aluminum 420 Rear Sprocket for Yozma, Heybike, Tuttio, RTR', pid:'tbelectricmoto-warp-9-aluminum-420-rear-sprocket-for-pitbikes-yozma-heybike-tuttio-rtr', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:57.0, url:'https://tbelectricmoto.com/products/warp-9-aluminum-420-rear-sprocket-for-pitbikes-yozma-heybike-tuttio-rtr', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-warp-9-aluminum-420-rear-sprocket-for-pitbikes-yozma-heybike-tuttio-rtr.webp'
     },
     {name:'Tuttio Soleil01 Chains For Dirt Bike', pid:'tuttio-tuttio-soleil01-chains-for-dirt-bike', tier:'OEM',
      prices:[
       {v:'Tuttio', p:35.0, url:'https://tuttiosport.com/products/tuttio-soleil01-chains-for-dirt-bike', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-chains-for-dirt-bike.webp'
     },
     {name:'Tuttio Soleil01 Ebike Chain Tensioner Block Kit', pid:'tuttio-tuttio-soleil01-ebike-chain-tensioner-block-kit', tier:'OEM',
      prices:[
       {v:'Tuttio', p:39.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-chain-tensioner-block-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-chain-tensioner-block-kit.webp'
     },
     {name:'Tuttio Soleil01 Ebike Sprocket For Sale', pid:'tuttio-tuttio-soleil01-ebike-sprocket-for-sale', tier:'OEM',
      prices:[
@@ -8655,13 +8655,13 @@ var CATEGORIES = [
      prices:[
       {v:'Warp 9 Racing', p:51.0, url:'https://warp9racing.com/products/ktm-spro', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/warp9racing-ktm-spro.webp'
     },
     {name:'Titanium Sprocket Bolt Kit', pid:'warp9racing-titanium-sprocket-bolt-kit', tier:'midrange',
      prices:[
       {v:'Warp 9 Racing', p:59.0, url:'https://warp9racing.com/products/titanium-sprocket-bolt-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/warp9racing-titanium-sprocket-bolt-kit.webp'
     },
     {name:'428MX Gold O-Ring Chain - Altis Sigma / Omega', pid:'wiredwhips-428mx-gold-o-ring-chain-altis-sigma-omega', tier:'midrange',
      prices:[
@@ -8673,43 +8673,43 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:77.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_am-did-420-chain', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-did-420-drive-chain-420nz3-soleil01-420-pitch.webp'
     },
     {name:'DID 420 NZ3 Chain - Non-Ring Standard (Gold or Natural)', pid:'wiredwhips-did-420-nz3-chain-non-ring-standard-gold-or-natural', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:77.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_chain-did-420', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-did-420-nz3-chain-non-ring-standard-gold-or-natural.webp'
     },
     {name:'DID 420 NZ3 Connecting Link - Clip Type (Pack of 5) for Altis Powersports', pid:'wiredwhips-did-420-nz3-connecting-link-clip-type-pack-of-5-for-altis-powersports', tier:'budget',
      prices:[
       {v:'Wired Whips', p:3.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_chain-masterlink-420', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-did-420-nz3-connecting-link-clip-type-pack-of-5-for-altis-powersports.webp'
     },
     {name:'DID 420 VX X-Ring Chain - Sealed Premium (Gold or Natural)', pid:'wiredwhips-did-420-vx-x-ring-chain-sealed-premium-gold-or-natural', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:90.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_chain-did-420-vx', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-did-420-vx-x-ring-chain-sealed-premium-gold-or-natural.webp'
     },
     {name:'EK 520 M3 Roller Chain - Altis Omega Fitment Class', pid:'wiredwhips-ek-520-m3-roller-chain-altis-omega-fitment-class', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:141.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_chain-ek-520-m3', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-ek-520-m3-roller-chain-altis-omega-fitment-class.webp'
     },
     {name:'EK 520 Master Link - Altis Omega', pid:'wiredwhips-ek-520-master-link-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:12.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_masterlink-ek-520', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-ek-520-master-link-altis-omega.webp'
     },
     {name:'EK 520 MVXZ X-Ring Chain 130L - Altis Omega', pid:'wiredwhips-ek-520-mvxz-x-ring-chain-130l-altis-omega', tier:'premium',
      prices:[
       {v:'Wired Whips', p:238.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_chain-ek-520-mvxz', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-ek-520-mvxz-x-ring-chain-130l-altis-omega.webp'
     },
     {name:'Motion Pro Chain Cleaning Brush - Altis Omega', pid:'wiredwhips-motion-pro-chain-cleaning-brush-altis-omega', tier:'budget',
      prices:[
@@ -8721,13 +8721,13 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:50.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_chain', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-420-drive-chain-delta-delta-s.webp'
     },
     {name:'OEM Chain Guide (Delta / Delta S)', pid:'wiredwhips-oem-chain-guide-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:15.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_chain-guide', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-chain-guide-delta-delta-s.webp'
     },
     {name:'OEM Rear Sprocket 45T (Delta / Delta S)', pid:'wiredwhips-oem-rear-sprocket-45t-delta-delta-s', tier:'OEM',
      prices:[
@@ -8739,7 +8739,7 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:51.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_chain-tensioner-block', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-chain-tensioner-block-kit-soleil01-chain-tensioner-block-set.webp'
     },
     {name:'OEM Soleil01 Dirt Bike Chain (420 / 116 link class) (Soleil01-Chains)', pid:'wiredwhips-oem-soleil01-dirt-bike-chain-420-116-link-class-soleil01-chains', tier:'OEM',
      prices:[
@@ -8751,7 +8751,7 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_sprocket', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-sprocket-chainring-soleil-01-front-sprocket.webp'
     },
 ]},
   {id:'electrical', name:'Electrical', blurb:'Dashboards, lights, and wiring that tie the build together.', tips:['Check voltage compatibility with your battery','Plug-and-play beats splicing — look for bike-specific kits'], options:[
@@ -8915,7 +8915,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/electrical-bonnell-805-rx-bluetooth-adapter.webp'
     },
     {name:'Baja Designs S2 Pro Headlight', pid:'chargedcycleworks-baja-designs-s2-pro-headlight', tier:'midrange',
      prices:[
@@ -9013,14 +9013,14 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:50.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-main-wiring-harness', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
-     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-oem-main-wiring-harness.webp'
     },
     {name:'Arctic Leopard XE Pro - OEM Display', pid:'chargedcycleworks-arctic-leopard-xe-pro-oem-display', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:150.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-oem-display', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
-     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-oem-display.webp'
     },
     {name:'GritShift Blazer LED Headlight for Sur Ron, Segway, & Talaria E-Bikes', pid:'chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes', tier:'midrange',
      prices:[
@@ -9264,28 +9264,28 @@ var CATEGORIES = [
       {v:'GritShift', p:22.99, url:'https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['ultrabee-21kw'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-high-voltage-fuse-kit-replacement-fuses.webp'
     },
     {name:'Warp9 Altis Sigma Headlight Adapter', pid:'chargedcycleworks-warp9-headlight-adapter-altis-sigma', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:15.0, url:'https://chargedcycleworks.com/products/warp9-headlight-adapter-altis-sigma', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-headlight-adapter-altis-sigma.webp'
     },
     {name:'Rawrr Mantis X - OEM Right Switch Assembly', pid:'chargedcycleworks-mantis-x-right-function-switch-assembly', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:21.45, url:'https://chargedcycleworks.com/products/mantis-x-right-function-switch-assembly', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rawrr-mantis-x'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-mantis-x-right-function-switch-assembly.webp'
     },
     {name:'Rawrr Mantis X - OEM Left function switch', pid:'chargedcycleworks-mantis-x-left-function-switch-assembly', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:22.98, url:'https://chargedcycleworks.com/products/mantis-x-left-function-switch-assembly', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rawrr-mantis-x'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-mantis-x-left-function-switch-assembly.webp'
     },
     {name:'Rawrr Mantis Mini – Magnetic Safety Switch | OEM', pid:'chargedcycleworks-rawrr-mantis-mini-magnetic-switch', tier:'OEM',
      prices:[
@@ -9293,7 +9293,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['rawrr-mantis-mini-r'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rawrr-mantis-mini-magnetic-switch.webp'
     },
     {name:'Rawrr Mantis Mini R/R17 - OEM Display', pid:'chargedcycleworks-rawrr-mantis-mini-r-r17-oem-display', tier:'OEM',
      prices:[
@@ -9301,7 +9301,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['rawrr-mantis-mini-r'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rawrr-mantis-mini-r-r17-oem-display.webp'
     }
 ,
     {name:'Altis Delta DBK Control Switch', pid:'altispowersports-altis-delta-dbk-control-switch', tier:'OEM',
@@ -9309,161 +9309,161 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:15.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-control-switch', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-control-switch.webp'
     },
     {name:'Altis Delta DBK Display', pid:'altispowersports-altis-delta-dbk-display', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:150.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-display', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-display.webp'
     },
     {name:'Altis Delta DBK Key Ignition', pid:'altispowersports-altis-delta-dbk-key-ignition', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:25.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-key-ignition', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-key-ignition.webp'
     },
     {name:'Altis Delta DBK Key Ignition Bracket', pid:'altispowersports-altis-delta-dbk-key-ignition-bracket', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:10.99, url:'https://www.altispowersports.com/products/altis-delta-dbk-key-ignition-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-key-ignition-bracket.webp'
     },
     {name:'Altis Delta DBK Wire Harness', pid:'altispowersports-altis-delta-dbk-wire-harness', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:100.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-wire-harness', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-wire-harness.webp'
     },
     {name:'Altis Delta DC to DC Convertor', pid:'altispowersports-altis-delta-dc-to-dc-converter', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:28.0, url:'https://www.altispowersports.com/products/altis-delta-dc-to-dc-converter', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dc-to-dc-converter.webp'
     },
     {name:'Altis Delta Key Ignition', pid:'altispowersports-altis-delta-key-ignition', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:20.0, url:'https://www.altispowersports.com/products/altis-delta-key-ignition', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-key-ignition.webp'
     },
     {name:'Altis Delta Key Switch Bracket', pid:'altispowersports-altis-delta-key-switch-bracket', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:5.0, url:'https://www.altispowersports.com/products/altis-delta-key-switch-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-key-switch-bracket.webp'
     },
     {name:'Altis Delta Main Wire Harness', pid:'altispowersports-altis-delta-main-wire-harness', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:90.0, url:'https://www.altispowersports.com/products/altis-delta-main-wire-harness', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-main-wire-harness.webp'
     },
     {name:'Altis Delta Power Cable', pid:'altispowersports-altis-delta-power-cable', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:80.0, url:'https://www.altispowersports.com/products/altis-delta-power-cable', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-power-cable.webp'
     },
     {name:'Altis Delta TFT Display', pid:'altispowersports-altis-delta-tft-display', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:150.0, url:'https://www.altispowersports.com/products/altis-delta-tft-display', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-tft-display.webp'
     },
     {name:'EBMX X9000 BC351 3.5" Display Case', pid:'gritshift-ebmx-display-case', tier:'midrange',
      prices:[
       {v:'GritShift', p:59.99, url:'https://gritshift.com/products/ebmx-display-case', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ebmx-display-case.webp'
     },
     {name:'EBMX X-9000 Bluetooth Module', pid:'gritshift-ebmx-x-9000-bluetooth-module', tier:'budget',
      prices:[
       {v:'GritShift', p:49.99, url:'https://gritshift.com/products/ebmx-x-9000-bluetooth-module', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Ebmx', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ebmx-x-9000-bluetooth-module.webp'
     },
     {name:'EBMX X-9000-V3 SW102 Color Display', pid:'gritshift-ebmx-x-9000-v3-sw102-color-display', tier:'midrange',
      prices:[
       {v:'GritShift', p:84.99, url:'https://gritshift.com/products/ebmx-x-9000-v3-sw102-color-display', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ebmx-x-9000-v3-sw102-color-display.webp'
     },
     {name:'EBMX X9000 BC351 3.5" Color Display Upgrade', pid:'gritshift-ebmx-x9000v2-3-5-display-upgrade', tier:'midrange',
      prices:[
       {v:'GritShift', p:189.89, url:'https://gritshift.com/products/ebmx-x9000v2-3-5-display-upgrade', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ebmx-x9000v2-3-5-display-upgrade.webp'
     },
     {name:'Electro & Co  EMX 5 Pin  ignition, and power mode switch', pid:'gritshift-electro-co-emx-5-pin-ignition-and-power-mode-switch', tier:'budget',
      prices:[
       {v:'GritShift', p:39.99, url:'https://gritshift.com/products/electro-co-emx-5-pin-ignition-and-power-mode-switch', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-electro-co-emx-5-pin-ignition-and-power-mode-switch.webp'
     },
     {name:'Electro & Co Razor Display Kit for Ultimate, ETM 2.0 and Extreme Kits', pid:'gritshift-electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits', tier:'midrange',
      prices:[
       {v:'GritShift', p:79.99, url:'https://gritshift.com/products/electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Electro & Co', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits.webp'
     },
     {name:'ION High Voltage Fuse Kit & Replacement Fuses', pid:'gritshift-high-voltage-fuse-kit-replacement-fuses', tier:'budget',
      prices:[
       {v:'GritShift', p:22.99, url:'https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Ion', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Ion', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-high-voltage-fuse-kit-replacement-fuses.webp'
     },
     {name:'Altis Delta Key Ignition | OEM Ignition Switch & Keys | By Altis Powersports', pid:'revrides-altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:20.0, url:'https://revrides.com/products/altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports.webp'
     },
     {name:'Altis Delta Key Switch Bracket | OEM Ignition Mount Bracket | By Altis Powersports', pid:'revrides-altis-delta-key-switch-bracket-oem-ignition-mount-bracket-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:5.0, url:'https://revrides.com/products/altis-delta-key-switch-bracket-oem-ignition-mount-bracket-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-key-switch-bracket-oem-ignition-mount-bracket-by-altis-powersports.webp'
     },
     {name:'Altis Delta Main Wire Harness | OEM Electrical Harness | By Altis Powersports', pid:'revrides-altis-delta-main-wire-harness-oem-electrical-harness-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:90.0, url:'https://revrides.com/products/altis-delta-main-wire-harness-oem-electrical-harness-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-main-wire-harness-oem-electrical-harness-by-altis-powersports.webp'
     },
     {name:'Altis Delta Power Cable | OEM Electrical Harness Component | By Altis Powersports', pid:'revrides-altis-delta-power-cable-oem-electrical-harness-component-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:90.0, url:'https://revrides.com/products/altis-delta-power-cable-oem-electrical-harness-component-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-power-cable-oem-electrical-harness-component-by-altis-powersports.webp'
     },
     {name:'Altis Delta TFT Display | OEM Dashboard Display | By Altis Powersports', pid:'revrides-altis-delta-tft-display-oem-dashboard-display-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:150.0, url:'https://revrides.com/products/altis-delta-tft-display-oem-dashboard-display-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-tft-display-oem-dashboard-display-by-altis-powersports.webp'
     },
     {name:'NTC Designs Clamp Extender | EggRider Protective Display Case', pid:'revrides-eggrider-case-center-mount-extender-for-ntc-design-eggrider-display-case', tier:'budget',
      prices:[
@@ -9482,37 +9482,37 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:35.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_dc-dc-converter', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-dc-dc-converter-delta-delta-s.webp'
     },
     {name:'OEM Key Ignition Switch (Delta / Delta S)', pid:'wiredwhips-oem-key-ignition-switch-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:25.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_key-ignition', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-key-ignition-switch-delta-delta-s.webp'
     },
     {name:'OEM Key Switch Bracket (Delta / Delta S)', pid:'wiredwhips-oem-key-switch-bracket-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:6.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_key-switch-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-key-switch-bracket-delta-delta-s.webp'
     },
     {name:'OEM Main Wire Harness (Delta / Delta S)', pid:'wiredwhips-oem-main-wire-harness-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:113.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_wire-harness', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-main-wire-harness-delta-delta-s.webp'
     },
     {name:'OEM Power Cable (Delta / Delta S)', pid:'wiredwhips-oem-power-cable-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:100.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_power-cable', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-power-cable-delta-delta-s.webp'
     },
     {name:'OEM TFT Color Display (Delta / Delta S)', pid:'wiredwhips-oem-tft-color-display-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:185.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_display', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-tft-color-display-delta-delta-s.webp'
     },
 ]},
   {id:'guards', name:'Guards', blurb:'Cheap insurance — frame, rotor, and case protection that pays for itself the first crash.', tips:['Bike-specific fitment','Rotor guards need caliper clearance'], options:[
@@ -9677,7 +9677,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/guards-bonnell-805-rx-bash-guard.webp'
     },
     {name:'Bonnell 805 - Welded Bashguard', pid:'guards-bonnell-805-rx-welded-bashguard', tier:'OEM',
      prices:[
@@ -9685,7 +9685,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/guards-bonnell-805-rx-welded-bashguard.webp'
     },
     {name:'DirtyBike Shock Protector Mud Flap - Bonnell 805', pid:'guards-dirtybike-shock-protector-mud-flap-bonnell-805', tier:'midrange',
      prices:[
@@ -9861,14 +9861,14 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:175, url:'https://chargedcycleworks.com/products/tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra.webp'
     },
     {name:'KKE Rear Brake Disc Guard for Rawrr Mantis', pid:'chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-collective', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-red-and-black-collective', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-72v'], likely:['rawrr-mantis-x'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kke-aluminum-rear-brake-disc-guard-fit-rawrr-mantis-mantis-x-collective.webp'
     }
 ,
     {name:'Altis Delta Rubber Mud Guard', pid:'altispowersports-altis-delta-rubber-mud-cover', tier:'OEM',
@@ -9876,56 +9876,56 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:18.0, url:'https://www.altispowersports.com/products/altis-delta-rubber-mud-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-rubber-mud-cover.webp'
     },
     {name:'Altis Delta Skid Plate', pid:'altispowersports-altis-delta-skid-plate', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:50.0, url:'https://www.altispowersports.com/products/altis-delta-skid-plate', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-skid-plate.webp'
     },
     {name:'Moose Racing Foot Peg Protectors for E-Motos - Black', pid:'gritshift-moose-racing-foot-peg-protectors-e-motos-black', tier:'budget',
      prices:[
       {v:'GritShift', p:29.99, url:'https://gritshift.com/products/moose-racing-foot-peg-protectors-e-motos-black', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-foot-peg-protectors-e-motos-black.webp'
     },
     {name:'Moose Racing Skid Plate Foam - 8 x 10 x 2 Inch', pid:'gritshift-moose-racing-skid-plate-foam-8-x-10-x-2-inch', tier:'budget',
      prices:[
       {v:'GritShift', p:22.95, url:'https://gritshift.com/products/moose-racing-skid-plate-foam-8-x-10-x-2-inch', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-skid-plate-foam-8-x-10-x-2-inch.webp'
     },
     {name:'Tuttio Soleil 01 Carbon Fiber Frame Cover', pid:'howlingmoto-tuttio-soleil-01-carbon-fiber-frame-cover', tier:'budget',
      prices:[
       {v:'Howling Moto', p:44.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-carbon-fiber-frame-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-tuttio-soleil-01-carbon-fiber-frame-cover.webp'
     },
     {name:'Altis Delta Bash Guard Skid Plate | OEM Underbody Protection | By Altis Powersports', pid:'revrides-altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:50.0, url:'https://revrides.com/products/altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-bash-guard-skid-plate-oem-underbody-protection-by-altis-powersports.webp'
     },
     {name:'Altis Delta Chain Cover | OEM Chain Guard | By Altis Powersports', pid:'revrides-altis-delta-chain-cover-oem-chain-guard-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:12.0, url:'https://revrides.com/products/altis-delta-chain-cover-oem-chain-guard-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-chain-cover-oem-chain-guard-by-altis-powersports.webp'
     },
     {name:'Tuttio Soleil01 Carbon Fiber Effect Frame Cover', pid:'tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-frame-cover', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:30.0, url:'https://tbelectricmoto.com/products/tuttio-soleil01-carbon-fiber-effect-frame-cover', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tuttio-soleil01-carbon-fiber-effect-frame-cover.webp'
     },
     {name:'Tuttio Soleil01 Chain Protector for Pit Dirt Bike', pid:'tuttio-tuttio-soleil-01-chain-protector-for-pit-dirt-bike', tier:'OEM',
      prices:[
@@ -9938,37 +9938,37 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:55.99, url:'https://wiredwhips.com/parts/altis-powersports_multi_rotor-guard', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta','altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta','altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-front-rotor-guard-altis.webp'
     },
     {name:'Maxima Chain Guard Spray for Altis Powersports (Altis Omega)', pid:'wiredwhips-maxima-chain-guard-spray-for-altis-powersports-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:12.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_chain-lube-maxima-guard', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-maxima-chain-guard-spray-for-altis-powersports-altis-omega.webp'
     },
     {name:'OEM Chain Guard / Cover (Delta / Delta S)', pid:'wiredwhips-oem-chain-guard-cover-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:15.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_chain-guard', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-chain-guard-cover-delta-delta-s.webp'
     },
     {name:'OEM Rubber Mud Guard (Delta / Delta S)', pid:'wiredwhips-oem-rubber-mud-guard-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:23.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_rubber-mud-guard', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-rubber-mud-guard-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 Chain Protector (soleil01-chain-protector-harder)', pid:'wiredwhips-oem-soleil01-chain-protector-soleil01-chain-protector-harder', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:31.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_chain-protector', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-chain-protector-soleil01-chain-protector-harder.webp'
     },
     {name:'Skid Plate / Bash Guard (Delta Platform)', pid:'wiredwhips-skid-plate-bash-guard-delta-platform', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:62.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_skid-plate', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-skid-plate-bash-guard-delta-platform.webp'
     },
 ]},
   {id:'linkage', name:'Linkage', blurb:'Connects the shock to the swingarm and sets the leverage curve — subtle but noticeable.', tips:['Bike-specific fitment — no universal options','Usually chosen alongside the shock'], options:[
@@ -10068,7 +10068,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/linkage-bonnell-805-rx-linkage-suspension-bearing-kit.webp'
     },
     {name:'Bonnell 805 - Linkage', pid:'linkage-bonnell-805-rx-linkage', tier:'OEM',
      prices:[
@@ -10108,7 +10108,7 @@ var CATEGORIES = [
       {v:'GritShift', p:169.99, url:'https://gritshift.com/products/heavy-hitter-titanium-linkage-upgrade', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['falcon-gt'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade.webp'
     },
     {name:'Heavy Hitter Ultra Bee Linkage', pid:'chargedcycleworks-heavy-hitter-ultra-bee-linkage', tier:'midrange',
      prices:[
@@ -10173,7 +10173,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:125, url:'https://chargedcycleworks.com/products/tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r.webp'
     },
 ,
 ]},
@@ -10606,7 +10606,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:6.26, url:'https://chargedcycleworks.com/products/precision-headset-spacers-for-surron-talaria', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x'], likely:['rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-precision-headset-spacers-for-surron-talaria.webp'
     },
     {name:'Maxima Hi-Temp waterproof grease 16oz tub', pid:'chargedcycleworks-maxima-hi-temp-waterproof-grease-16oz-tub', tier:'budget',
      prices:[
@@ -10620,77 +10620,77 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:12.99, url:'https://chargedcycleworks.com/products/maxima-dot-5-1-brake-fluid-500ml', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','lightbee2'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-maxima-dot-5-1-brake-fluid-500ml.webp'
     },
     {name:'Maxima Chain Guard Lube', pid:'chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:8.99, url:'https://chargedcycleworks.com/products/maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','stark-vargex'], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-maxima-chain-guard-lube-17-3-oz-for-sur-ron-or-segway-x260.webp'
     },
     {name:'Maxima Chain Guard Care Kit', pid:'chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','stark-vargex'], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-maxima-chain-guard-care-kit-for-sur-ron-or-segway-x260.webp'
     },
     {name:'Warp9 Tire Levers', pid:'chargedcycleworks-warp9-surron-tire-levers', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:50.0, url:'https://chargedcycleworks.com/products/warp9-surron-tire-levers', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-surron-tire-levers.webp'
     },
     {name:'Warp9 Adjustable Spoke Torque Wrench Kit', pid:'chargedcycleworks-warp-9-torque-spoke-wrench', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:131.0, url:'https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','stark-vargex'], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp-9-torque-spoke-wrench.webp'
     },
     {name:'Tusk Spoke Wrench for Surron Segway', pid:'chargedcycleworks-spoke-wrench-set', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:8.99, url:'https://chargedcycleworks.com/products/spoke-wrench-set', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','stark-vargex'], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-spoke-wrench-set.webp'
     },
     {name:'KyVex Billet Stem Lock – Direct Mount Triple Clamps', pid:'chargedcycleworks-kyvex-billet-stem-lock', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:70.0, url:'https://chargedcycleworks.com/products/kyvex-billet-stem-lock', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:['altis-sigma','arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kyvex-billet-stem-lock.webp'
     },
     {name:'Warp9 Stem Lock & Fender Adapter', pid:'chargedcycleworks-warp9-stem-lock-fender-adapter', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:39, url:'https://chargedcycleworks.com/products/warp9-stem-lock-fender-adapter', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:['rawrr-mantis-72v'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-stem-lock-fender-adapter.webp'
     },
     {name:'Warp9 Stem Lock for Surron / Talaria / E Ride Pro', pid:'chargedcycleworks-warp9-standard-stem-lock', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:39, url:'https://chargedcycleworks.com/products/warp9-standard-stem-lock', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:['rawrr-mantis-72v'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-standard-stem-lock.webp'
     },
     {name:'RFloXa Steering Stem Lock', pid:'chargedcycleworks-rfloxa-steering-stem-lock', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/rfloxa-steering-stem-lock', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x-pro'], likely:['rawrr-mantis-72v'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rfloxa-steering-stem-lock.webp'
     },
     {name:'Stem Spacer Kit', pid:'chargedcycleworks-warp9-stem-lock-spacer-kit', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:10, url:'https://chargedcycleworks.com/products/stem-lock-spacer-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','rawrr-mantis-x-pro'], likely:['altis-sigma','rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-stem-lock-spacer-kit.webp'
     },
     {name:'Warp9 Stark Varg Adjustable Kickstand And Bracket', pid:'maintenance-warp9-adjustable-kickstand-stark-varg', tier:'midrange',
      prices:[
@@ -10706,7 +10706,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/maintenance-tusk-tire-changing-stand.webp'
     },
     {name:'PBR Chain Press Tool Motion Pro', pid:'maintenance-pbr-chain-press-tool-motion-pro', tier:'mid',
      prices:[
@@ -10714,7 +10714,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/maintenance-pbr-chain-press-tool-motion-pro.webp'
     },
     {name:'DRC Bike Lift Stand', pid:'maintenance-drc-bike-lift-stand', tier:'midrange',
      prices:[
@@ -10722,7 +10722,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/maintenance-drc-bike-lift-stand.webp'
     },
     {name:'1" Tie-Down Straps 2/PK by Fire Power', pid:'maintenance-tie-down-straps-1in-fire-power', tier:'budget',
      prices:[
@@ -10738,7 +10738,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:['rawrr-mantis-mini-r'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rawrr-mantis-mini-r17-kickstand-assembly.webp'
     }
 ,
     {name:'Altis Delta STEERING ROD ROLLER BEARING', pid:'altispowersports-altis-delta-steering-rod-roller-bearing', tier:'OEM',
@@ -10747,21 +10747,21 @@ var CATEGORIES = [
       {v:'Wired Whips', p:31.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_steering-rod-roller-bearing', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-steering-rod-roller-bearing.webp'
     },
     {name:'Altis Delta Steering Stem Nut', pid:'altispowersports-altis-delta-steering-stem-nut', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:9.0, url:'https://www.altispowersports.com/products/altis-delta-steering-stem-nut', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-steering-stem-nut.webp'
     },
     {name:'Altis Delta Steering Washer', pid:'altispowersports-altis-delta-steering-washer', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:3.0, url:'https://www.altispowersports.com/products/altis-delta-steering-washer', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-steering-washer.webp'
     },
     {name:'Surron Ultra Bee – Stage 1 Package', pid:'chargedcycleworks-surron-ultra-bee-hp-stage-1-package', tier:'premium',
      prices:[
@@ -10795,141 +10795,141 @@ var CATEGORIES = [
      prices:[
       {v:'GritShift', p:19.89, url:'https://gritshift.com/products/maxima-assembly-grease', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-maxima-assembly-grease.webp'
     },
     {name:'Moose Racing Stainless Safety Wire - .028 Inch x 120 ft', pid:'gritshift-moose-racing-stainless-safety-wire-028-inch-x-120-ft', tier:'budget',
      prices:[
       {v:'GritShift', p:19.95, url:'https://gritshift.com/products/moose-racing-stainless-safety-wire-028-inch-x-120-ft', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-stainless-safety-wire-028-inch-x-120-ft.webp'
     },
     {name:'Moose Racing Stainless Safety Wire - .032 Inch x 75 ft', pid:'gritshift-moose-racing-stainless-safety-wire-032-inch-x-75-ft', tier:'budget',
      prices:[
       {v:'GritShift', p:18.95, url:'https://gritshift.com/products/moose-racing-stainless-safety-wire-032-inch-x-75-ft', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-moose-racing-stainless-safety-wire-032-inch-x-75-ft.webp'
     },
     {name:'Muc-Off High-Pressure Quick Drying Degreaser', pid:'gritshift-muc-off-high-pressure-quick-drying-degreaser', tier:'budget',
      prices:[
       {v:'GritShift', p:21.89, url:'https://gritshift.com/products/muc-off-high-pressure-quick-drying-degreaser', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Muc-Off', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-muc-off-high-pressure-quick-drying-degreaser.webp'
     },
     {name:'Muc-Off Motorcycle Protectant Vanilla Scented', pid:'gritshift-muc-off-motorcycle-protectant-vanilla-scented', tier:'budget',
      prices:[
       {v:'GritShift', p:16.89, url:'https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-muc-off-motorcycle-protectant-vanilla-scented.webp'
     },
     {name:'MUC-OFF Bio Chain Degreaser', pid:'gritshift-muc-off-usa-degreaser-500-ml-aerosol-948us', tier:'budget',
      prices:[
       {v:'GritShift', p:18.89, url:'https://gritshift.com/products/muc-off-usa-degreaser-500-ml-aerosol-948us', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Muc-Off', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-muc-off-usa-degreaser-500-ml-aerosol-948us.webp'
     },
     {name:'MUC-OFF E-Bike Ultra Corrosion Defense', pid:'gritshift-muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us', tier:'budget',
      prices:[
       {v:'GritShift', p:18.99, url:'https://gritshift.com/products/muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Muc-Off', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-muc-off-usa-ebike-ultra-corrosion-defense-485-ml-aerosol-1112us.webp'
     },
     {name:'MUC-OFF Matt Finish Spray Detailer', pid:'gritshift-muc-off-usa-matt-finish-detailer-250ml-20004us', tier:'budget',
      prices:[
       {v:'GritShift', p:18.89, url:'https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-muc-off-usa-matt-finish-detailer-250ml-20004us.webp'
     },
     {name:'MUC-OFF PTFE Protectant Spray', pid:'gritshift-muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us', tier:'budget',
      prices:[
       {v:'GritShift', p:18.89, url:'https://gritshift.com/products/muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-muc-off-usa-protectant-16-9-u-s-fl-oz-aerosol-608us.webp'
     },
     {name:'MUC-OFF Spray-On Quick-Dry Degreaser', pid:'gritshift-muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us', tier:'budget',
      prices:[
       {v:'GritShift', p:11.99, url:'https://gritshift.com/products/muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-muc-off-usa-quick-dry-degreaser-500ml-aerosol-959us.webp'
     },
     {name:'MUC-OFF USA Silicone SC1 Shine', pid:'gritshift-muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us', tier:'budget',
      prices:[
       {v:'GritShift', p:9.89, url:'https://gritshift.com/products/muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-muc-off-usa-silicone-shine-11-oz-net-wt-aerosol-227us.webp'
     },
     {name:'MUC-OFF USA Speed Polish Spray', pid:'gritshift-muc-off-usa-speed-polish-400ml-aerosol-1143us', tier:'budget',
      prices:[
       {v:'GritShift', p:16.89, url:'https://gritshift.com/products/muc-off-usa-speed-polish-400ml-aerosol-1143us', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Muc-Off', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Muc-Off', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-muc-off-usa-speed-polish-400ml-aerosol-1143us.webp'
     },
     {name:'Altis Delta Steering Roller Bearing | Upper or Lower Steering Stem Bearing | By Altis Powersports', pid:'revrides-altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports', tier:'budget',
      prices:[
       {v:'REV Rides', p:25.0, url:'https://revrides.com/products/altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-steering-roller-bearing-upper-or-lower-steering-stem-bearing-by-altis-powersports.webp'
     },
     {name:'Altis Delta Steering Stem Nut | OEM Steering Hardware | By Altis Powersports', pid:'revrides-altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:9.0, url:'https://revrides.com/products/altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-steering-stem-nut-oem-steering-hardware-by-altis-powersports.webp'
     },
     {name:'Altis Delta Steering Washer | OEM Steering Stem Hardware | By Altis Powersports', pid:'revrides-altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:3.0, url:'https://revrides.com/products/altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-steering-washer-oem-steering-stem-hardware-by-altis-powersports.webp'
     },
     {name:'Maxima Hi-Temp Waterproof Grease 16oz - Altis Omega', pid:'wiredwhips-maxima-hi-temp-waterproof-grease-16oz-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_grease-maxima-hi-temp', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-maxima-hi-temp-waterproof-grease-16oz-altis-omega.webp'
     },
     {name:'Maxima MPPL Multi-Purpose Penetrant - Altis Omega', pid:'wiredwhips-maxima-mppl-multi-purpose-penetrant-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:14.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_mppl-maxima', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-maxima-mppl-multi-purpose-penetrant-altis-omega.webp'
     },
     {name:'Motul Chain Clean Degreaser for Altis Powersports (Altis Omega)', pid:'wiredwhips-motul-chain-clean-degreaser-for-altis-powersports-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:15.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_chain-cleaner-motul', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-motul-chain-clean-degreaser-for-altis-powersports-altis-omega.webp'
     },
     {name:'OEM Steering Rod Roller Bearing (Delta / Delta S)', pid:'wiredwhips-oem-steering-rod-roller-bearing-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:31.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_steering-bearing', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-steering-rod-roller-bearing-delta-delta-s.webp'
     },
     {name:'OEM Steering Stem Nut (Delta / Delta S)', pid:'wiredwhips-oem-steering-stem-nut-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:11.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_steering-stem-nut', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-steering-stem-nut-delta-delta-s.webp'
     },
     {name:'OEM Steering Washer (Delta / Delta S)', pid:'wiredwhips-oem-steering-washer-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:3.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_steering-washer', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-steering-washer-delta-delta-s.webp'
     },
 ]},
   {id:'pegs', name:'Foot Pegs', blurb:'Wider, sharper pegs mean more control — especially standing up.', tips:['Mounts are bike-specific','Titanium saves weight; steel lasts longer'], options:[
@@ -10963,7 +10963,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['zero-xe'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/pegs-warp9-zero-xe-elite-foot-pegs.webp'
     },
     {name:'Sur-Ron Ultra Bee OEM Pegs & Brackets', pid:'pegs-ultrabee-oem-brackets', tier:'budget',
      prices:[
@@ -11100,7 +11100,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["bonnell-805rx"], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/pegs-bonnell-805-rx-footpeg-mount.webp'
     },
     {name:'Bonnell 805 - Footpeg Set', pid:'pegs-bonnell-805-rx-footpeg-set', tier:'OEM',
      prices:[
@@ -11318,21 +11318,21 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:30, url:'https://chargedcycleworks.com/products/kyvex-replacement-foot-peg-pins', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xf','rawrr-mantis-72v','rawrr-mantis-mini-r','rawrr-mantis-x','rawrr-mantis-x-pro','ultrabee-21kw'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kyvex-replacement-foot-peg-pins.webp'
     },
     {name:'Warp9 Rawrr Mantis X & Mini Elite Foot Pegs', pid:'chargedcycleworks-warp9-elite-foot-pegs-rawrr-mantis-x-mini', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:142, url:'https://chargedcycleworks.com/products/warp9-elite-foot-pegs-rawrr-mantis-x-mini', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-x'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-elite-foot-pegs-rawrr-mantis-x-mini.webp'
     },
     {name:'KKE Foot Pegs for Rawrr Mantis', pid:'chargedcycleworks-kke-footpegs-fit-rawrr-mantis-mantis-x-collective', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-rawrr-mantis-mantis-x-red-and-black-collective', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-x','rawrr-mantis-72v'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kke-footpegs-fit-rawrr-mantis-mantis-x-collective.webp'
     },
     {name:'Warp9 Stark Varg Elite Foot Pegs', pid:'pegs-warp9-elite-foot-pegs-stark-varg', tier:'mid',
      prices:[
@@ -11340,7 +11340,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/pegs-warp9-elite-foot-pegs-stark-varg.webp'
     },
     {name:'Rawrr Mantis Mini – Foot Peg Assembly | OEM', pid:'chargedcycleworks-rawrr-mantis-mini-foot-peg-assembly', tier:'OEM',
      prices:[
@@ -11348,7 +11348,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rawrr-mantis-mini-foot-peg-assembly.webp'
     },
     {name:'Rawrr Mantis Mini R & R17 –  Foot Peg Assembly | OEM', pid:'chargedcycleworks-rawrr-mantis-mini-r-r17-foot-peg-assembly', tier:'OEM',
      prices:[
@@ -11356,14 +11356,14 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['rawrr-mantis-mini-r'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-rawrr-mantis-mini-r-r17-foot-peg-assembly.webp'
     },
     {name:'Warp9 Adjustable Foot Peg Mount for Surron Light Bee & 79Bike', pid:'chargedcycleworks-warp9-adjustable-foot-peg-mount-surron-light-bee-79bike', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:186, url:'https://chargedcycleworks.com/products/warp9-adjustable-foot-peg-mount-surron-light-bee-79bike', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['falcon-pro'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-adjustable-foot-peg-mount-surron-light-bee-79bike.webp'
     }
 ,
     {name:'Altis Delta DBK Footpeg', pid:'altispowersports-altis-delta-dbk-footpeg', tier:'OEM',
@@ -11371,28 +11371,28 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:35.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-footpeg', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-footpeg.webp'
     },
     {name:'Altis Delta Foot Peg', pid:'altispowersports-altis-delta-foot-peg', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:15.0, url:'https://www.altispowersports.com/products/altis-delta-foot-peg', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-foot-peg.webp'
     },
     {name:'Altis Delta Foot Peg Bracket', pid:'altispowersports-altis-delta-foot-peg-bracket', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:20.0, url:'https://www.altispowersports.com/products/altis-delta-foot-peg-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-foot-peg-bracket.webp'
     },
     {name:'Prickly Foot Peg Replacement Pins', pid:'chargedcycleworks-peg-replacment-pins', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:10.0, url:'https://chargedcycleworks.com/products/peg-replacment-pins', chk:'2026-11-15', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['ultrabee-21kw'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['ultrabee-21kw'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-peg-replacment-pins.webp'
     },
     {name:'Prickly Titanium Foot Peg Cleats', pid:'chargedcycleworks-titanium-footpeg-cleats', tier:'budget',
      prices:[
@@ -11405,86 +11405,86 @@ var CATEGORIES = [
      prices:[
       {v:'GritShift', p:28.99, url:'https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler.webp'
     },
     {name:'Warp 9 Elite Foot Peg Sliders', pid:'gritshift-warp-9-elite-foot-peg-sliders', tier:'budget',
      prices:[
       {v:'GritShift', p:21.89, url:'https://gritshift.com/products/warp-9-elite-foot-peg-sliders', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-warp-9-elite-foot-peg-sliders.webp'
     },
     {name:'Altis Delta Foot Peg Bracket | By Altis Powersports', pid:'revrides-altis-delta-foot-peg-bracket-by-altis-powersports', tier:'budget',
      prices:[
       {v:'REV Rides', p:10.0, url:'https://revrides.com/products/altis-delta-foot-peg-bracket-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-foot-peg-bracket-by-altis-powersports.webp'
     },
     {name:'Altis Delta Foot Peg | Left or Right Side | By Altis Powersports', pid:'revrides-altis-delta-foot-peg-left-or-right-side-by-altis-powersports', tier:'budget',
      prices:[
       {v:'REV Rides', p:15.0, url:'https://revrides.com/products/altis-delta-foot-peg-left-or-right-side-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-foot-peg-left-or-right-side-by-altis-powersports.webp'
     },
     {name:'E-moto Race Spec FootPegs by Rippin Moto | E-ride pro, Altis, & Surron', pid:'revrides-e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron', tier:'midrange',
      prices:[
       {v:'REV Rides', p:98.99, url:'https://revrides.com/products/e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-e-moto-rs-footpegs-by-rippin-moto-e-ride-pro-surron.webp'
     },
     {name:'Tuttio Soleil01 CNC Upgraded Footpegs', pid:'tbelectricmoto-tuttio-soleil01-cnc-footpegs', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:35.0, url:'https://tbelectricmoto.com/products/tuttio-soleil01-cnc-footpegs', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tuttio-soleil01-cnc-footpegs.webp'
     },
     {name:'Tuttio Soleil 01 Aluminum Die Casting Pedals', pid:'tuttio-tuttio-soleil-01-aluminum-alloy-pedals', tier:'OEM',
      prices:[
       {v:'Tuttio', p:69.0, url:'https://tuttiosport.com/products/tuttio-soleil-01-aluminum-alloy-pedals', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil-01-aluminum-alloy-pedals.webp'
     },
     {name:'Tuttio Soleil 01 LO Aluminum Die Casting Pedals', pid:'tuttio-tuttio-soleil-01-lo-aluminum-die-casting-pedals', tier:'OEM',
      prices:[
       {v:'Tuttio', p:43.99, url:'https://tuttiosport.com/products/tuttio-soleil-01-lo-aluminum-die-casting-pedals', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil-01-lo-aluminum-die-casting-pedals.webp'
     },
     {name:'Tuttio Soleil01 Foot Peg Mount', pid:'tuttio-tuttio-soleil01-ebike-foot-peg-mount', tier:'OEM',
      prices:[
       {v:'Tuttio', p:19.99, url:'https://tuttiosport.com/products/tuttio-soleil01-ebike-foot-peg-mount', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-ebike-foot-peg-mount.webp'
     },
     {name:'OEM Aluminum Pedals / Footpegs (soleil01-pedals) - Soleil01', pid:'wiredwhips-oem-aluminum-pedals-footpegs-soleil01-pedals-soleil01', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:86.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_aluminum-pedals', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-aluminum-pedals-footpegs-soleil01-pedals-soleil01.webp'
     },
     {name:'OEM Foot Peg Bracket (Delta / Delta S)', pid:'wiredwhips-oem-foot-peg-bracket-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:25.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_foot-peg-bracket', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-foot-peg-bracket-delta-delta-s.webp'
     },
     {name:'OEM Foot Pegs (Delta / Delta S)', pid:'wiredwhips-oem-foot-pegs-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_foot-pegs', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-foot-pegs-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 Foot Peg Mount (tuttio-soleil01-foot-peg-mount)', pid:'wiredwhips-oem-soleil01-foot-peg-mount-tuttio-soleil01-foot-peg-mount', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:25.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_foot-peg-mount', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-foot-peg-mount-tuttio-soleil01-foot-peg-mount.webp'
     },
 ]},
   {id:'seats', name:'Seats', blurb:'Where you spend the whole ride — comfort and control.', tips:['Tall seats help taller riders; standard keeps footing easy','Gripper covers for aggressive riding, smooth for moving around'], options:[
@@ -11501,21 +11501,21 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:10.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-locking-screw-oem', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-seat-locking-screw-oem.webp'
     },
     {name:'Arctic Leopard - XE Pro Seat Lock | OEM', pid:'chargedcycleworks-arctic-leopard-xe-pro-seat-lock-oem', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:40.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat-lock-oem', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
-     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-seat-lock-oem.webp'
     },
     {name:'Arctic Leopard XE Pro Seat', pid:'chargedcycleworks-arctic-leopard-xe-pro-seat', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:95.0, url:'https://chargedcycleworks.com/products/arctic-leopard-xe-pro-seat', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], no:[],
-     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-arctic-leopard-xe-pro-seat.webp'
     },
     {name:'Guts Seat Cover - Sur-Ron Light Bee', pid:'seat-guts-lightbee-cover', tier:'premium',
      prices:[
@@ -11653,21 +11653,21 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:79, url:'https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-etm-rtr', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['rtr-lite','rtr-sport','rtr-alpha'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-thrill-seekers-seat-cover-for-etm-rtr.webp'
     },
     {name:'ETM RTR - OEM Seat', pid:'chargedcycleworks-etm-rtr-2025-black-seat', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/etm-rtr-2025-black-seat', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['rtr-lite','rtr-sport','rtr-alpha'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-etm-rtr-2025-black-seat.webp'
     },
     {name:'Thrill Seekers Seat Cover for Arctic Leopard XE Pro R', pid:'chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:79.0, url:'https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-r'], likely:[], no:[],
-     badge:'Thrill Seekers', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Thrill Seekers', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-r.webp'
     },
     {name:'Thrill Seekers Seat Cover for Talaria', pid:'chargedcycleworks-copy-of-thrill-seekers-seat-cover-for-talaria', tier:'midrange',
      prices:[
@@ -11702,14 +11702,14 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:79, url:'https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-thrill-seekers-seat-cover-for-arctic-leopard-xe-pro-s.webp'
     },
     {name:'Thrill Seekers Seat Cover for Altis Sigma', pid:'chargedcycleworks-thrill-seekers-seat-cover-for-altis-sigma', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:79.0, url:'https://chargedcycleworks.com/products/thrill-seekers-seat-cover-for-altis-sigma', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-thrill-seekers-seat-cover-for-altis-sigma.webp'
     }
 ,
     {name:'Altis Delta DBK Seat', pid:'altispowersports-altis-delta-dbk-seat', tier:'OEM',
@@ -11717,28 +11717,28 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:80.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-seat', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-seat.webp'
     },
     {name:'Altis Delta Seat', pid:'altispowersports-altis-delta-seat', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:65.0, url:'https://www.altispowersports.com/products/altis-delta-seat', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-seat.webp'
     },
     {name:'Altis Delta Seat Lock Nut', pid:'altispowersports-altis-delta-seat-lock-nut', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:9.0, url:'https://www.altispowersports.com/products/altis-delta-seat-lock-nut', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-seat-lock-nut.webp'
     },
     {name:'Altis Delta Seat Lock Nut DBK', pid:'altispowersports-altis-delta-seat-lock-nut-dbk', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:9.0, url:'https://www.altispowersports.com/products/altis-delta-seat-lock-nut-dbk', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-seat-lock-nut-dbk.webp'
     },
     {name:'Guts Racing ReRode Ribbed Seat Cover', pid:'gutsracing-guts-racing-rerode-ribbed-seat-cover', tier:'midrange',
      prices:[
@@ -11752,21 +11752,21 @@ var CATEGORIES = [
       {v:'REV Rides', p:9.0, url:'https://revrides.com/products/altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-seat-lock-nut-oem-replacement-hardware-by-altis-powersports.webp'
     },
     {name:'Altis Delta Seat | OEM Replacement Seat Assembly | By Altis Powersports', pid:'revrides-altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:65.0, url:'https://revrides.com/products/altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-seat-oem-replacement-seat-assembly-by-altis-powersports.webp'
     },
     {name:'Guts Custom Seat Cover RF1 Design', pid:'tbelectricmoto-guts-custom-seat-cover-rf1-design', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:99.99, url:'https://tbelectricmoto.com/products/guts-custom-seat-cover-rf1-design', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Guts', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Guts', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-guts-custom-seat-cover-rf1-design.webp'
     },
     {name:'Guts Seat Cover for Tuttio Soleil01', pid:'tbelectricmoto-guts-seat-cover-for-tuttio-soleil01', tier:'midrange',
      prices:[
@@ -11780,7 +11780,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:35.99, url:'https://tbelectricmoto.com/products/tuttio-soleil01-replacement-seat', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tuttio-soleil01-replacement-seat.webp'
     },
     {name:'Tuttio Soleil01 Replacement Seat', pid:'tuttio-tuttio-soleil01-replacement-seat', tier:'OEM',
      prices:[
@@ -11794,26 +11794,26 @@ var CATEGORIES = [
       {v:'Tuttio', p:219.99, url:'https://tuttiosport.com/products/tuttio-soleil01-se-ebike-seat', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-se-ebike-seat.webp'
     },
     {name:'Tuttio Soleil01 Seat Khob Screws', pid:'tuttio-tuttio-soleil01-seat-khob-screws', tier:'OEM',
      prices:[
       {v:'Tuttio', p:20.0, url:'https://tuttiosport.com/products/tuttio-soleil01-seat-khob-screws', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-seat-khob-screws.webp'
     },
     {name:'OEM Replacement Seat (Delta / Delta S)', pid:'wiredwhips-oem-replacement-seat-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:81.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_seat', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-replacement-seat-delta-delta-s.webp'
     },
     {name:'OEM Seat Lock Nut (Delta / Delta S)', pid:'wiredwhips-oem-seat-lock-nut-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:11.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_seat-lock-nut', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-seat-lock-nut-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 Replacement Seat (tuttio-soleil01-seat)', pid:'wiredwhips-oem-soleil01-replacement-seat-tuttio-soleil01-seat', tier:'OEM',
      prices:[
@@ -11825,7 +11825,7 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:25.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_seat-knob-screws', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-seat-knob-screws-tuttio-soleil01-seat-srew.webp'
     },
 ]},
   {id:'street', name:'Street', blurb:'Lights, mirrors, and signals for road-legal riding where it\'s allowed.', tips:['Legality varies wildly by state — check yours','Wiring effort ranges from plug-and-play to a full afternoon'], options:[
@@ -12000,67 +12000,67 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:40.0, url:'https://www.altispowersports.com/products/altis-delta-dbk-headlight', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-headlight.webp'
     },
     {name:'Altis Delta DBK Light Reflector', pid:'altispowersports-altis-delta-dbk-light-reflector', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:5.99, url:'https://www.altispowersports.com/products/altis-delta-dbk-light-reflector', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-dbk-light-reflector.webp'
     },
     {name:'Baja Designs S2 Driving/Combo Replacement Lens Kit', pid:'chargedcycleworks-baja-designs-s2-driving-combo-replacement-lens-kit', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:26.95, url:'https://chargedcycleworks.com/products/baja-designs-s2-driving-combo-replacement-lens-kit', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ultrabee-21kw'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['ultrabee-21kw'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-baja-designs-s2-driving-combo-replacement-lens-kit.webp'
     },
     {name:'Baja Designs S2 Spot Replacement Lens Kit', pid:'chargedcycleworks-baja-designs-s2-spot-replacement-lens-kit', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:26.95, url:'https://chargedcycleworks.com/products/baja-designs-s2-spot-replacement-lens-kit', chk:'2026-11-15', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ultrabee-21kw'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['ultrabee-21kw'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-baja-designs-s2-spot-replacement-lens-kit.webp'
     },
     {name:'Timber Bike Bell', pid:'chargedcycleworks-bike-bell-by-timber', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:29.95, url:'https://chargedcycleworks.com/products/bike-bell-by-timber', chk:'2026-11-15', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ultrabee-21kw'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['ultrabee-21kw'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-bike-bell-by-timber.webp'
     },
     {name:'Replacement Horn for E Moto', pid:'chargedcycleworks-replacement-horn-for-e-moto', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:15.0, url:'https://chargedcycleworks.com/products/replacement-horn-for-e-moto', chk:'2026-11-15', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ultrabee-21kw'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['ultrabee-21kw'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-replacement-horn-for-e-moto.webp'
     },
     {name:'Heavy Hitter Rift Headlight Mask', pid:'gritshift-heavy-hitter-rift-headlight-mask', tier:'budget',
      prices:[
       {v:'GritShift', p:39.99, url:'https://gritshift.com/products/heavy-hitter-rift-headlight-mask', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-heavy-hitter-rift-headlight-mask.webp'
     },
     {name:'XTC Power Products  6″ Led License Plate Frame Universal', pid:'gritshift-xtc-power-products-6-led-license-plate-frame-universal', tier:'midrange',
      prices:[
       {v:'GritShift', p:59.89, url:'https://gritshift.com/products/xtc-power-products-6-led-license-plate-frame-universal', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-xtc-power-products-6-led-license-plate-frame-universal.webp'
     },
     {name:'Tuttio Soleil01 Ebike Smart Bike Tail Light', pid:'tuttio-tuttio-ebike-smart-bike-tail-light', tier:'OEM',
      prices:[
       {v:'Tuttio', p:34.99, url:'https://tuttiosport.com/products/tuttio-ebike-smart-bike-tail-light', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-ebike-smart-bike-tail-light.webp'
     },
     {name:'OEM Soleil01 Smart Bike Tail Light (tuttio-smart-bike-tail-light)', pid:'wiredwhips-oem-soleil01-smart-bike-tail-light-tuttio-smart-bike-tail-light', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:44.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_smart-tail-light', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-smart-bike-tail-light-tuttio-smart-bike-tail-light.webp'
     },
 ]},
   {id:'swingarm', name:'Swingarm', blurb:'A longer swingarm adds straight-line stability at speed.', tips:['Axle and linkage fitment are bike-specific','A longer arm usually means a longer chain','Check tire clearance'], options:[
@@ -12273,13 +12273,13 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:390.0, url:'https://www.altispowersports.com/products/altis-delta-swingarm', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-swingarm.webp'
     },
     {name:'OEM Swingarm (Delta / Delta S)', pid:'wiredwhips-oem-swingarm-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:475.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_swingarm', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-swingarm-delta-delta-s.webp'
     },
 ]},
   {id:'tires', name:'Tires & Tubes', blurb:'Traction. The right tire for your terrain matters more than most upgrades.', tips:['Size must match your rims','Soft-terrain, intermediate, and hard-pack tires are very different','DOT-rated if you ride street'], options:[
@@ -12924,49 +12924,49 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:92.99, url:'https://chargedcycleworks.com/products/dunlop-k990-tires-for-emoto', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['zero-xe'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s-enduro','stark-vargex','ultrabee-21kw'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-dunlop-k990-tires-for-emoto.webp'
     },
     {name:'Tusk Recon Sticky Tire for eMoto', pid:'chargedcycleworks-tusk-recon-sticky-19-tire-for-surron-segway', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:49.88, url:'https://chargedcycleworks.com/products/tusk-recon-sticky-19-tire-for-surron-segway', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:['rtr-lite','ultrabee-21kw'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-tusk-recon-sticky-19-tire-for-surron-segway.webp'
     },
     {name:'Kenda K760 Trakmaster REAR Tire', pid:'chargedcycleworks-kenda-k760-trakmaster-rear-tire', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:56.99, url:'https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['altis-sigma'], no:[],
-     stock:'out_of_stock', stockChk:'2026-11-15'
+     stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kenda-k760-trakmaster-rear-tire.webp'
     },
     {name:'Pivotrax Cyber Street Tire', pid:'chargedcycleworks-pivotrax-cyber-street-tire', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:99, url:'https://chargedcycleworks.com/products/pivotrax-cyber-street-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-72v','ultrabee-21kw'], likely:['altis-sigma','arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','rawrr-mantis-x-pro','supermach-sm01','zero-xe'], no:['yozma-in10','yozma-in10-pro'],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-pivotrax-cyber-street-tire.webp'
     },
     {name:'Shinko 524 19" Tire', pid:'chargedcycleworks-shinko-524-19-tire', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:71.11, url:'https://chargedcycleworks.com/products/shinko-524-19-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','ultrabee-21kw'], no:['arctic-leopard-xe-pro-r','rawrr-mantis-mini-r'],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-shinko-524-19-tire.webp'
     },
     {name:'Maxxis Maxxcross Intermediate Rear Tire', pid:'chargedcycleworks-maxxis-maxxcross-intermediate-tire', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:66.50, url:'https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-x','rtr-sport','rawrr-mantis-72v'], likely:['altis-sigma','rtr-lite','rawrr-mantis-mini-r'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-maxxis-maxxcross-intermediate-tire.webp'
     },
     {name:'COUNTERACT BALANCING BEAD DIY KIT', pid:'chargedcycleworks-counteract-balancing-bead-diy-kit', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:24.95, url:'https://chargedcycleworks.com/products/counteract-balancing-bead-diy-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['rawrr-mantis-x','stark-vargex'], likely:['altis-sigma','ultrabee-21kw'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-counteract-balancing-bead-diy-kit.webp'
     },
     {name:'Michelin StarCross 6 Medium Hard Terrain Tire', pid:'tires-michelin-starcross-6-medium-hard', tier:'mid',
      prices:[
@@ -12974,7 +12974,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['altis-omega','arctic-xd','rerode-rx','stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tires-michelin-starcross-6-medium-hard.webp'
     },
     {name:'IRC TR-8 Street Legal Tires', pid:'tire-irc-tr-8-street-legal', tier:'mid',
      prices:[
@@ -12982,7 +12982,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:['stark-vargex','ultrabee-21kw','zero-xe'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tire-irc-tr-8-street-legal.webp'
     },
 ,
     {name:'Altis Delta Inner Tube', pid:'altispowersports-altis-delta-inner-tube', tier:'OEM',
@@ -12990,14 +12990,14 @@ var CATEGORIES = [
       {v:'Altis Powersports', p:15.0, url:'https://www.altispowersports.com/products/altis-delta-inner-tube', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-inner-tube.webp'
     },
     {name:'Altis Delta Tires', pid:'altispowersports-altis-delta-tires', tier:'OEM',
      prices:[
       {v:'Altis Powersports', p:40.0, url:'https://www.altispowersports.com/products/altis-delta-tires', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/altispowersports-altis-delta-tires.webp'
     },
     {name:'Bridgestone Battlecross X31 Soft/Int Terrain Tire (80/100-21 front)', pid:'chargedcycleworks-bridgestone-battlecross-x31-soft-int-terrain-tire-80-100-21', tier:'midrange',
      prices:[
@@ -13005,7 +13005,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-bridgestone-battlecross-x31-soft-int-terrain-tire-80-100-21.webp'
     },
     {name:'BRIDGESTONE M204 Rear Tire (90/100-14 rear)', pid:'chargedcycleworks-bridgestone-m204-rear-tire-90-100-14', tier:'midrange',
      prices:[
@@ -13013,7 +13013,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-bridgestone-m204-rear-tire-90-100-14.webp'
     },
     {name:'IRC IX-09 Gekkota Gummy Tires for Hard Enduro (80/100-21 front)', pid:'chargedcycleworks-irc-ix-09-gekkota-gummy-tires-for-hard-enduro-80-100-21', tier:'midrange',
      prices:[
@@ -13021,7 +13021,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-irc-ix-09-gekkota-gummy-tires-for-hard-enduro-80-100-21.webp'
     },
     {name:'Kenda K760 Trakmaster REAR Tire (70/100-17 front)', pid:'chargedcycleworks-kenda-k760-trakmaster-rear-tire-70-100-17', tier:'midrange',
      prices:[
@@ -13029,7 +13029,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:[], no:[],
-     badge:'Kenda', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Kenda', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-kenda-k760-trakmaster-rear-tire-70-100-17.webp'
     },
     {name:'MICHELIN Enduro Medium Tire (120/90-18 rear)', pid:'chargedcycleworks-michelin-enduro-medium-tire', tier:'midrange',
      prices:[
@@ -13045,7 +13045,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
-     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-michelin-starcross-5-medium-terrain-rear-tire.webp'
     },
     {name:'ProTaper MXT 04 Tires', pid:'chargedcycleworks-protaper-mxt-04', tier:'midrange',
      prices:[
@@ -13061,7 +13061,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:['ultrabee-21kw'], no:[],
-     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-shinko-740-series-front-street-tire.webp'
     },
     {name:'Shinko 804 Dual Sport 100/90-19', pid:'chargedcycleworks-shinko-804-dual-sport-front-100-90-19', tier:'midrange',
      prices:[
@@ -13069,7 +13069,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:[], likely:['ultrabee-21kw'], no:[],
-     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-shinko-804-dual-sport-front-100-90-19.webp'
     },
     {name:'SHINKO 741 REAR Street Tire 130/70-17', pid:'chargedcycleworks-shinko-tire-741-series-rear-130-70-17', tier:'midrange',
      prices:[
@@ -13085,34 +13085,34 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-tusk-t-35-soft-intermediate-terrain-rear-16-tire.webp'
     },
     {name:'Pivotrax Cyber 80/100-19 Street Tire', pid:'gritshift-80-100-19-street-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:99.99, url:'https://gritshift.com/products/80-100-19-street-tire', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['supermach-sm01'], no:[],
-     badge:'Pivotrax', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Pivotrax', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-80-100-19-street-tire.webp'
     },
     {name:'AMS Sand Snake MX Sand Only Rear Paddle Tire', pid:'gritshift-ams-sand-snake-mx-rear-paddle-tire', tier:'budget',
      prices:[
       {v:'GritShift', p:47.95, url:'https://gritshift.com/products/ams-sand-snake-mx-rear-paddle-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-delta','supermach-sm62'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-delta','supermach-sm62'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-ams-sand-snake-mx-rear-paddle-tire.webp'
     },
     {name:'Bridgestone Battlecross X10 Sand and Mud Tire (80/100-21 front)', pid:'gritshift-bridgestone-battlecross-x10-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:133.22, url:'https://gritshift.com/products/bridgestone-battlecross-x10-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-bridgestone-battlecross-x10-tire.webp'
     },
     {name:'Bridgestone Battlecross X30 Tire (80/100-21 front)', pid:'gritshift-bridgestone-battlecross-x30-tire-80-100-21', tier:'midrange',
      prices:[
       {v:'GritShift', p:125.27, url:'https://gritshift.com/products/bridgestone-battlecross-x30f-70-100-19', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-bridgestone-battlecross-x30-tire-80-100-21.webp'
     },
     {name:'Bridgestone Battlecross X30 Tire (70/100-19 front)', pid:'gritshift-bridgestone-battlecross-x30f-70-100-19', tier:'budget',
      prices:[
@@ -13121,277 +13121,277 @@ var CATEGORIES = [
       {v:'GritShift', p:49.99, url:'https://gritshift.com/products/bridgestone-battlecross-x30f-70-100-19', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-bridgestone-battlecross-x30f-70-100-19.webp'
     },
     {name:'Bridgestone Battlecross X31 Intermediate Motocross Tire (80/100-21 front)', pid:'gritshift-bridgestone-battlecross-x31-front-tire-80-100-21', tier:'midrange',
      prices:[
       {v:'GritShift', p:138.99, url:'https://gritshift.com/products/bridgestone-battlecross-x31-front-tire-80-100-21', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-bridgestone-battlecross-x31-front-tire-80-100-21.webp'
     },
     {name:'Bridgestone Battlecross X31 Intermediate Motocross Tire (90/100-16 rear)', pid:'gritshift-bridgestone-battlecross-x31-intermediate-motocross-tire-90-100-16', tier:'midrange',
      prices:[
       {v:'GritShift', p:102.99, url:'https://gritshift.com/products/bridgestone-battlecross-x31-front-tire-80-100-21', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-bridgestone-battlecross-x31-intermediate-motocross-tire-90-100-16.webp'
     },
     {name:'Dunlop Geomax AT82 Rugged Off-Road Racing Tire (120/90-18 rear)', pid:'gritshift-dunlop-geomax-at82-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:143.95, url:'https://gritshift.com/products/dunlop-geomax-at82-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-xd'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dunlop-geomax-at82-tire.webp'
     },
     {name:'Dunlop Geomax MX14 Rear Sand and Mud Tire', pid:'gritshift-dunlop-geomax-mx14-rear-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:80.95, url:'https://gritshift.com/products/dunlop-geomax-mx14-rear-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dunlop-geomax-mx14-rear-tire.webp'
     },
     {name:'Dunlop Geomax MX34 70/100-17 Front Tire (70/100-17 front)', pid:'gritshift-dunlop-geomax-mx34-70-100-17-front-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:72.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-70-100-17-front-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dunlop-geomax-mx34-70-100-17-front-tire.webp'
     },
     {name:'Dunlop Geomax MX34 70/100-19 Front Tire (70/100-19 front)', pid:'gritshift-dunlop-geomax-mx34-70-100-19-front-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:84.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-70-100-19-front-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dunlop-geomax-mx34-70-100-19-front-tire.webp'
     },
     {name:'Dunlop Geomax MX34 80/100-21 Front Tire (80/100-21 front)', pid:'gritshift-dunlop-geomax-mx34-80-100-21-front-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:144.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-80-100-21-front-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dunlop-geomax-mx34-80-100-21-front-tire.webp'
     },
     {name:'Dunlop Geomax MX34 90/100-14 Rear Tire (90/100-14 rear)', pid:'gritshift-dunlop-geomax-mx34-90-100-14-rear-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:84.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-90-100-14-rear-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dunlop-geomax-mx34-90-100-14-rear-tire.webp'
     },
     {name:'Dunlop Geomax MX34 90/100-16 Rear Tire (90/100-16 rear)', pid:'gritshift-dunlop-geomax-mx34-90-100-16-rear', tier:'midrange',
      prices:[
       {v:'GritShift', p:86.99, url:'https://gritshift.com/products/dunlop-geomax-mx34-90-100-16-rear', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dunlop-geomax-mx34-90-100-16-rear.webp'
     },
     {name:'Dunlop Geomax MX53 Tire (70/100-17 front)', pid:'gritshift-dunlop-geomax-mx53-70-100-17', tier:'midrange',
      prices:[
       {v:'GritShift', p:63.89, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17?variant=42458006585573', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dunlop-geomax-mx53-70-100-17.webp'
     },
     {name:'Dunlop Geomax MX53 Tire (70/100-19 front)', pid:'gritshift-dunlop-geomax-mx53-tire-70-100-19', tier:'midrange',
      prices:[
       {v:'GritShift', p:74.95, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17?variant=42458006618341', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dunlop-geomax-mx53-tire-70-100-19.webp'
     },
     {name:'Dunlop Geomax MX53 Tire (80/100-21 front)', pid:'gritshift-dunlop-geomax-mx53-tire-80-100-21', tier:'midrange',
      prices:[
       {v:'GritShift', p:149.89, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17?variant=42458006651109', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dunlop-geomax-mx53-tire-80-100-21.webp'
     },
     {name:'Dunlop Geomax MX53 Tire (90/100-14 rear)', pid:'gritshift-dunlop-geomax-mx53-tire-90-100-14', tier:'midrange',
      prices:[
       {v:'GritShift', p:74.99, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17?variant=46480967368933', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dunlop-geomax-mx53-tire-90-100-14.webp'
     },
     {name:'Dunlop Geomax MX53 Tire (90/100-16 rear)', pid:'gritshift-dunlop-geomax-mx53-tire-90-100-16', tier:'midrange',
      prices:[
       {v:'GritShift', p:88.99, url:'https://gritshift.com/products/dunlop-geomax-mx53-70-100-17?variant=42458006552805', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-dunlop-geomax-mx53-tire-90-100-16.webp'
     },
     {name:'IRC iX-09 Gekkota Gummy Extreme Enduro Tire (80/100-21 front)', pid:'gritshift-irc-ix-09-gekkota-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:138.95, url:'https://gritshift.com/products/irc-ix-09-gekkota-tire', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Irc', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-irc-ix-09-gekkota-tire.webp'
     },
     {name:'Kenda K774 Ibex Super Soft Extreme Enduro Tire (80/100-21 front)', pid:'gritshift-kenda-k774-ibex-front-tire-80-100-21', tier:'midrange',
      prices:[
       {v:'GritShift', p:96.99, url:'https://gritshift.com/products/kenda-k774-ibex-front-tire-80-100-21', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-kenda-k774-ibex-front-tire-80-100-21.webp'
     },
     {name:'Kenda K774 Ibex Super Soft Extreme Enduro Tire (90/100-14 rear)', pid:'gritshift-kenda-k774-ibex-super-soft-extreme-enduro-tire-90-100-14', tier:'midrange',
      prices:[
       {v:'GritShift', p:71.95, url:'https://gritshift.com/products/kenda-k774-ibex-front-tire-80-100-21', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-kenda-k774-ibex-super-soft-extreme-enduro-tire-90-100-14.webp'
     },
     {name:'Kenda K774 Ibex Super Soft Extreme Enduro Tire (90/100-16 rear)', pid:'gritshift-kenda-k774-ibex-super-soft-extreme-enduro-tire-90-100-16', tier:'midrange',
      prices:[
       {v:'GritShift', p:78.99, url:'https://gritshift.com/products/kenda-k774-ibex-front-tire-80-100-21', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-kenda-k774-ibex-super-soft-extreme-enduro-tire-90-100-16.webp'
     },
     {name:'Kenda K778 Knarly 18 Inch Rear Enduro Tire (120/90-18 rear)', pid:'gritshift-kenda-k778-knarly-rear-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:126.95, url:'https://gritshift.com/products/kenda-k778-knarly-rear-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-xd'], likely:[], no:[],
-     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Kenda', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-kenda-k778-knarly-rear-tire.webp'
     },
     {name:'Maxxis Maxxcross IT Tire (70/100-17 front)', pid:'gritshift-maxxis-m7304-maxxcross-i-t-70-100-17', tier:'budget',
      prices:[
       {v:'GritShift', p:48.32, url:'https://gritshift.com/products/maxxis-m7304-maxxcross-i-t-70-100-17', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Maxxis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Maxxis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-maxxis-m7304-maxxcross-i-t-70-100-17.webp'
     },
     {name:'Maxxis Maxxcross SI Tire (70/100-19 front)', pid:'gritshift-maxxis-m7311-maxxcross-si-70-100-19', tier:'midrange',
      prices:[
       {v:'GritShift', p:76.89, url:'https://gritshift.com/products/maxxis-m7311-maxxcross-si-70-100-19', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-maxxis-m7311-maxxcross-si-70-100-19.webp'
     },
     {name:'Maxxis Maxxcross IT Tire (70/100-19 front)', pid:'gritshift-maxxis-maxxcross-it-tire-70-100-19', tier:'midrange',
      prices:[
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Maxxis', stock:'unknown'
+     badge:'Maxxis', stock:'unknown', img:'img/parts/gritshift-maxxis-maxxcross-it-tire-70-100-19.webp'
     },
     {name:'Maxxis Maxxcross IT Tire (80/100-21 front)', pid:'gritshift-maxxis-maxxcross-it-tire-80-100-21', tier:'midrange',
      prices:[
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Maxxis', stock:'unknown'
+     badge:'Maxxis', stock:'unknown', img:'img/parts/gritshift-maxxis-maxxcross-it-tire-80-100-21.webp'
     },
     {name:'Maxxis Maxxcross IT Tire (90/100-16 rear)', pid:'gritshift-maxxis-maxxcross-it-tire-90-100-16', tier:'midrange',
      prices:[
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Maxxis', stock:'unknown'
+     badge:'Maxxis', stock:'unknown', img:'img/parts/gritshift-maxxis-maxxcross-it-tire-90-100-16.webp'
     },
     {name:'Maxxis Maxxcross SI Tire (80/100-21 front)', pid:'gritshift-maxxis-maxxcross-si-tire-80-100-21', tier:'midrange',
      prices:[
       {v:'GritShift', p:149.89, url:'https://gritshift.com/products/maxxis-m7311-maxxcross-si-70-100-19', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-maxxis-maxxcross-si-tire-80-100-21.webp'
     },
     {name:'Maxxis Maxxcross SI Tire (90/100-16 rear)', pid:'gritshift-maxxis-maxxcross-si-tire-90-100-16', tier:'midrange',
      prices:[
       {v:'GritShift', p:86.89, url:'https://gritshift.com/products/maxxis-m7311-maxxcross-si-70-100-19', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Maxxis', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-maxxis-maxxcross-si-tire-90-100-16.webp'
     },
     {name:'Michelin StarCross 5 Soft Front Motocross Tire', pid:'gritshift-michelin-starcross-5-soft-front-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:79.49, url:'https://gritshift.com/products/michelin-starcross-5-soft-front-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
-     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-michelin-starcross-5-soft-front-tire.webp'
     },
     {name:'Michelin StarCross 5 Soft Rear Motocross Tire', pid:'gritshift-michelin-starcross-5-soft-rear-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:88.95, url:'https://gritshift.com/products/michelin-starcross-5-soft-rear-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
-     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-michelin-starcross-5-soft-rear-tire.webp'
     },
     {name:'Michelin StarCross 6 Medium Soft Motocross Tire', pid:'gritshift-michelin-starcross-6-medium-soft-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:132.45, url:'https://gritshift.com/products/michelin-starcross-6-medium-soft-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-michelin-starcross-6-medium-soft-tire.webp'
     },
     {name:'Michelin StarCross 6 Sand Motocross Tire (80/100-21 front)', pid:'gritshift-michelin-starcross-6-sand-mx-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:132.45, url:'https://gritshift.com/products/michelin-starcross-6-sand-mx-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-michelin-starcross-6-sand-mx-tire.webp'
     },
     {name:'Mitas Terra Force-EX MH Super Light Enduro Tire (120/90-18 rear)', pid:'gritshift-mitas-terra-force-ex-mh-super-light-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:144.99, url:'https://gritshift.com/products/mitas-terra-force-ex-mh-super-light-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-xd'], likely:[], no:[],
-     badge:'Mitas', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Mitas', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-mitas-terra-force-ex-mh-super-light-tire.webp'
     },
     {name:'Mitas Terra Force-EX MH Super Soft Rear Enduro Tire', pid:'gritshift-mitas-terra-force-ex-mh-super-soft-rear-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:162.99, url:'https://gritshift.com/products/mitas-terra-force-ex-mh-super-soft-rear-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-xd','supermach-sm62'], likely:[], no:[],
-     badge:'Mitas', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Mitas', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-mitas-terra-force-ex-mh-super-soft-rear-tire.webp'
     },
     {name:'Mitas Terra Force-EX MH Super Enduro Tire', pid:'gritshift-mitas-terra-force-ex-mh-super-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:109.99, url:'https://gritshift.com/products/mitas-terra-force-ex-mh-super-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
-     badge:'Mitas', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Mitas', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-mitas-terra-force-ex-mh-super-tire.webp'
     },
     {name:'Mitas Terra Force-EX SM Super Light Enduro Tire', pid:'gritshift-mitas-terra-force-ex-sm-super-light-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:114.99, url:'https://gritshift.com/products/mitas-terra-force-ex-sm-super-light-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Mitas', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Mitas', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-mitas-terra-force-ex-sm-super-light-tire.webp'
     },
     {name:'Pirelli Scorpion MX Soft Rear Mud and Sand Tire', pid:'gritshift-pirelli-scorpion-mx-soft-rear-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:146.95, url:'https://gritshift.com/products/pirelli-scorpion-mx-soft-rear-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-xd','supermach-sm62'], likely:[], no:[],
-     badge:'Pirelli', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Pirelli', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-pirelli-scorpion-mx-soft-rear-tire.webp'
     },
     {name:'Pirelli Scorpion MX32 Mid Soft Motocross Tire', pid:'gritshift-pirelli-scorpion-mx32-mid-soft-tire', tier:'midrange',
      prices:[
       {v:'GritShift', p:87.02, url:'https://gritshift.com/products/pirelli-scorpion-mx32-mid-soft-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
-     badge:'Pirelli', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Pirelli', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-pirelli-scorpion-mx32-mid-soft-tire.webp'
     },
     {name:'Tusk Ground Wire E-Moto Performance Tire (70/100-19 front)', pid:'gritshift-tursk-ground-wire-e-motorcycle', tier:'midrange',
      prices:[
       {v:'GritShift', p:68.99, url:'https://gritshift.com/products/tursk-ground-wire-e-motorcycle', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/gritshift-tursk-ground-wire-e-motorcycle.webp'
     },
     {name:'BRIDGESTONE M203 Front Tire 70/100-17 for 4-Stroke Engines (70/100-17 front)', pid:'howlingmoto-bridgestone-m203-front-tire-70-100-17-for-4-stroke-engines-1', tier:'premium',
      prices:[
       {v:'Howling Moto', p:257.63, url:'https://howlingmoto.com/products/bridgestone-m203-front-tire-70-100-17-for-4-stroke-engines-1', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-bridgestone-m203-front-tire-70-100-17-for-4-stroke-engines-1.webp'
     },
     {name:'Dunlop MX34 Geomax Soft/Intermediate Terrain MX Tire – Front & Rear', pid:'howlingmoto-dunlop-mx34-geomax-soft-intermediate-terrain-mx-tire-front-rear', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:66.95, url:'https://howlingmoto.com/products/dunlop-mx34-geomax-soft-intermediate-terrain-mx-tire-front-rear', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-dunlop-mx34-geomax-soft-intermediate-terrain-mx-tire-front-rear.webp'
     },
     {name:'IRC Durotire RS-310 Front Motorcycle Tire 100/90-18 56H for Enhanced Mileage and Performance (100/90-18 rear)', pid:'howlingmoto-irc-durotire-rs-310-front-motorcycle-tire-100-90-18-56h-for-enhanced-mileage-and-performance', tier:'midrange',
      prices:[
@@ -13419,14 +13419,14 @@ var CATEGORIES = [
       {v:'Howling Moto', p:71.95, url:'https://howlingmoto.com/products/irc-ix05h-mini-front-tire-70-100-17-40m-t10256-for-hard-to-intermediate-terrain', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-irc-ix05h-mini-front-tire-70-100-17-40m-t10256-for-hard-to-intermediate-terrain.webp'
     },
     {name:'IRC iX07S Front Motorcycle Tire 80/100-21 51M - Model 302273 (80/100-21 front)', pid:'howlingmoto-irc-ix07s-front-motorcycle-tire-80-100-21-51m-model-302273', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:121.95, url:'https://howlingmoto.com/products/irc-ix07s-front-motorcycle-tire-80-100-21-51m-model-302273', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Irc', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-irc-ix07s-front-motorcycle-tire-80-100-21-51m-model-302273.webp'
     },
     {name:'IRC Volcanduro VE-35 Front Tire - 80/100-21, 51M, T10180 for Cross-Country Enduro Racing (80/100-21 front)', pid:'howlingmoto-irc-volcanduro-ve-35-front-tire-80-100-21-51m-t10180-for-cross-country-enduro-racing', tier:'midrange',
      prices:[
@@ -13440,14 +13440,14 @@ var CATEGORIES = [
       {v:'Howling Moto', p:76.95, url:'https://howlingmoto.com/products/irc-vx-10-mini-motocross-rear-tire-90-100-14-49m-t10527', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-irc-vx-10-mini-motocross-rear-tire-90-100-14-49m-t10527.webp'
     },
     {name:'IRC VX-10 Mini Motocross Rear Tire – 90/100-16 Off-Road (90/100-16 rear)', pid:'howlingmoto-irc-vx-10-mini-motocross-rear-tire-90-100-16-off-road', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:85.95, url:'https://howlingmoto.com/products/irc-vx-10-mini-motocross-rear-tire-90-100-16-off-road', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-irc-vx-10-mini-motocross-rear-tire-90-100-16-off-road.webp'
     },
     {name:'IRC VX-30 Front Tire - 80/100-21 - 51M T10554 for Enhanced Handling and Durability (80/100-21 front)', pid:'howlingmoto-irc-vx-30-front-tire-80-100-21-51m-t10554-for-enhanced-handling-and-durability', tier:'midrange',
      prices:[
@@ -13461,21 +13461,21 @@ var CATEGORIES = [
       {v:'Howling Moto', p:137.95, url:'https://howlingmoto.com/products/irc-vx-30-rear-tire-120-90-18-65m-t10557-for-enhanced-handling-and-durability', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-xd'], likely:[], no:[],
-     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-irc-vx-30-rear-tire-120-90-18-65m-t10557-for-enhanced-handling-and-durability.webp'
     },
     {name:'IRC VX-40 Front Motorcycle Tire 80/100-21 - 51M T10570 for Off-Road Performance (80/100-21 front)', pid:'howlingmoto-irc-vx-40-front-motorcycle-tire-80-100-21-51m-t10570-for-off-road-performance', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:105.95, url:'https://howlingmoto.com/products/irc-vx-40-front-motorcycle-tire-80-100-21-51m-t10570-for-off-road-performance', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-irc-vx-40-front-motorcycle-tire-80-100-21-51m-t10570-for-off-road-performance.webp'
     },
     {name:'IRC VX-40 Rear Motorcycle Tire 120/90-18 T10573 for Hard Pack Terrain (120/90-18 rear)', pid:'howlingmoto-irc-vx-40-rear-motorcycle-tire-120-90-18-t10573-for-hard-pack-terrain', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:137.95, url:'https://howlingmoto.com/products/irc-vx-40-rear-motorcycle-tire-120-90-18-t10573-for-hard-pack-terrain', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-xd'], likely:[], no:[],
-     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-irc-vx-40-rear-motorcycle-tire-120-90-18-t10573-for-hard-pack-terrain.webp'
     },
     {name:'IRC WF-920 Wild Flare Front Tire 120/90-18 65H for Motorcycles (120/90-18 rear)', pid:'howlingmoto-irc-wf-920-wild-flare-front-tire-120-90-18-65h-for-motorcycles', tier:'midrange',
      prices:[
@@ -13488,28 +13488,28 @@ var CATEGORIES = [
      prices:[
       {v:'Howling Moto', p:76.95, url:'https://howlingmoto.com/products/kenda-kenda-k270-dual-sport-rear-tire-100-90-18-56p-for-high-performance-dual-purpose-motorcycles-1', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-omega','rerode-rx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-omega','rerode-rx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-kenda-kenda-k270-dual-sport-rear-tire-100-90-18-56p-for-high-performance-dual-purpose-motorcycles.webp'
     },
     {name:'Pivotrax Cyber Street Tire for E-Moto & Supermoto', pid:'howlingmoto-pivotrax-cyber-street-tire-for-e-moto-supermoto', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:106.99, url:'https://howlingmoto.com/products/pivotrax-cyber-street-tire-for-e-moto-supermoto', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['supermach-sm01'], no:[],
-     badge:'Pivotrax', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Pivotrax', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-pivotrax-cyber-street-tire-for-e-moto-supermoto.webp'
     },
     {name:'Shinko 777 Cruiser Tire – Front & Rear | All Sizes | Heavy Duty Available (120/90-18 rear)', pid:'howlingmoto-shinko-777-cruiser-tire-front-rear-all-sizes-heavy-duty-available', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:168.95, url:'https://howlingmoto.com/products/shinko-777-cruiser-tire-front-rear-all-sizes-heavy-duty-available', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-xd'], likely:[], no:[],
-     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-shinko-777-cruiser-tire-front-rear-all-sizes-heavy-duty-available.webp'
     },
     {name:'Shinko R525 Hybrid Cheater Gummy Tire – Soft/Intermediate Enduro (90/100-16 rear)', pid:'howlingmoto-shinko-r525-hybrid-cheater-gummy-tire-soft-intermediate-enduro', tier:'midrange',
      prices:[
       {v:'Howling Moto', p:102.95, url:'https://howlingmoto.com/products/shinko-r525-hybrid-cheater-gummy-tire-soft-intermediate-enduro', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/howlingmoto-shinko-r525-hybrid-cheater-gummy-tire-soft-intermediate-enduro.webp'
     },
     {name:'SHINKO, SHINKO Tire 230 Tour Master Front 100/90-18 Bias TL - High Performance Motorcycle Tire (100/90-18 rear)', pid:'howlingmoto-shinko-shinko-tire-230-tour-master-front-100-90-18-bias-tl-high-performance-motorcycle-tire', tier:'midrange',
      prices:[
@@ -13521,19 +13521,19 @@ var CATEGORIES = [
      prices:[
       {v:'Lithium Powersports', p:59.95, url:'https://lithiumpowersports.com/products/bonnell-805-kenda-millville-ii-emx-k7101-front-tire-80-100-19', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['supermach-sm01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['supermach-sm01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/lithiumpowersports-bonnell-805-kenda-millville-ii-emx-k7101-front-tire-80-100-19.webp'
     },
     {name:'Bonnell 805 Kenda Millville II eMX K7101 Front Tire - 80/100-21 (80/100-21 front)', pid:'lithiumpowersports-bonnell-805-kenda-millville-ii-emx-k7101-front-tire-80-100-21', tier:'midrange',
      prices:[
       {v:'Lithium Powersports', p:59.95, url:'https://lithiumpowersports.com/products/bonnell-805-kenda-millville-ii-emx-k7101-front-tire-80-100-21', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/lithiumpowersports-bonnell-805-kenda-millville-ii-emx-k7101-front-tire-80-100-21.webp'
     },
     {name:'Bonnell 805 Kenda Millville II eMX K7101 Rear Tire - 100/90-18 (100/90-18 rear)', pid:'lithiumpowersports-bonnell-805-kenda-millville-ii-emx-k7101-rear-tire-100-90-18', tier:'midrange',
      prices:[
       {v:'Lithium Powersports', p:69.95, url:'https://lithiumpowersports.com/products/bonnell-805-kenda-millville-ii-emx-k7101-rear-tire-100-90-18', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:['altis-omega','rerode-rx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['altis-omega','rerode-rx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/lithiumpowersports-bonnell-805-kenda-millville-ii-emx-k7101-rear-tire-100-90-18.webp'
     },
     {name:'Dunlop Geomax Enduro EN91 Tire Bias TT (120/90-18 rear)', pid:'lithiumpowersports-dunlop-geomax-enduro-en91-tire-bias-tt', tier:'midrange',
      prices:[
@@ -13554,14 +13554,14 @@ var CATEGORIES = [
       {v:'Lithium Powersports', p:82.95, url:'https://lithiumpowersports.com/products/dunlop-geomax-mx53-12-rear-off-road-tires', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/lithiumpowersports-dunlop-geomax-mx53-12-rear-off-road-tires.webp'
     },
     {name:'Dunlop MX34 Geomax Tire Soft/Intermediate Terrain Tire', pid:'lithiumpowersports-dunlop-mx34-geomax-tire-soft-intermediate-terrain-tire', tier:'midrange',
      prices:[
       {v:'Lithium Powersports', p:56.99, url:'https://lithiumpowersports.com/products/dunlop-mx34-geomax-tire-soft-intermediate-terrain-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/lithiumpowersports-dunlop-mx34-geomax-tire-soft-intermediate-terrain-tire.webp'
     },
     {name:'IRC Mini Front & Rear Tire (90/100-14 rear)', pid:'lithiumpowersports-irc-mini-front-rear-tire', tier:'midrange',
      prices:[
@@ -13592,13 +13592,13 @@ var CATEGORIES = [
      prices:[
       {v:'Lithium Powersports', p:79.0, url:'https://lithiumpowersports.com/products/stark-varg-oem-pirelli-scorpion-mx32-front-tire-80-100-21-mid-soft-crosscountry', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/lithiumpowersports-stark-varg-oem-pirelli-scorpion-mx32-front-tire-80-100-21-mid-soft-crosscountry.webp'
     },
     {name:'Stark Varg OEM Pirelli Scorpion MX32 Front tire 80/100-21 MID SOFT Motocross (80/100-21 front)', pid:'lithiumpowersports-stark-varg-oem-pirelli-scorpion-mx32-front-tire-80-100-21-mid-soft-motocross', tier:'OEM',
      prices:[
       {v:'Lithium Powersports', p:79.0, url:'https://lithiumpowersports.com/products/stark-varg-oem-pirelli-scorpion-mx32-front-tire-80-100-21-mid-soft-motocross', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/lithiumpowersports-stark-varg-oem-pirelli-scorpion-mx32-front-tire-80-100-21-mid-soft-motocross.webp'
     },
     {name:'Surron Light Bee X OEM Rear Offroad Tire (19") (E-Mark-70/100-19-CM708) (70/100-19 front)', pid:'lithiumpowersports-surron-light-bee-x-oem-rear-offroad-tire-19-e-mark-70-100-19-cm708', tier:'OEM',
      prices:[
@@ -13622,7 +13622,7 @@ var CATEGORIES = [
      prices:[
       {v:'Lithium Powersports', p:104.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-mx-tyre-100-90-18', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:['altis-omega','rerode-rx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['altis-omega','rerode-rx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-rear-mx-tyre-100-90-18.webp'
     },
     {name:'Surron Storm Bee OEM REAR MX Tire 100/90-18 CPL. (100/90-18 rear)', pid:'lithiumpowersports-surron-storm-bee-oem-rear-mx-tyre-100-90-18-cpl', tier:'OEM',
      prices:[
@@ -13634,7 +13634,7 @@ var CATEGORIES = [
      prices:[
       {v:'Lithium Powersports', p:84.99, url:'https://lithiumpowersports.com/products/surron-ultra-bee-oem-front-mx-tyre-80-100-19', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['supermach-sm01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['supermach-sm01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/lithiumpowersports-surron-ultra-bee-oem-front-mx-tyre-80-100-19.webp'
     },
     {name:'Surron Ultra Bee OEM Rear MX Tire 100/90-18 (100/90-18 rear)', pid:'lithiumpowersports-surron-ultra-bee-oem-rear-mx-tyre-100-90-18', tier:'OEM',
      prices:[
@@ -13653,7 +13653,7 @@ var CATEGORIES = [
       {v:'Lithium Powersports', p:42.0, url:'https://lithiumpowersports.com/products/tusk-ground-wire-aggressive-oem-replacement-tires-for-surron-segway-talaria', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Tusk', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/lithiumpowersports-tusk-ground-wire-aggressive-oem-replacement-tires-for-surron-segway-talaria.webp'
     },
     {name:'Tusk Recon Hybrid Aggressive OEM Replacement Tires for Surron Segway Talaria', pid:'lithiumpowersports-tusk-recon-hybrid-aggressive-oem-replacement-tires-for-surron-segway-talaria', tier:'OEM',
      prices:[
@@ -13666,13 +13666,13 @@ var CATEGORIES = [
      prices:[
       {v:'Pinned Electric', p:65.0, url:'https://pinnedelectric.com/products/arctic-leopard-xe-pro-r-rear-tire-100-90-18', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-omega','rerode-rx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-omega','rerode-rx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/pinnedelectric-arctic-leopard-xe-pro-r-rear-tire-100-90-18.webp'
     },
     {name:'Arctic Leopard XE Pro S Front Tire 70/100 - 19 (70/100-19 front)', pid:'pinnedelectric-arctic-leopard-xe-pro-s-front-tire-70-100-19', tier:'midrange',
      prices:[
       {v:'Pinned Electric', p:65.0, url:'https://pinnedelectric.com/products/arctic-leopard-xe-pro-s-front-tire-70-100-19', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['supermach-sm62'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['supermach-sm62'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/pinnedelectric-arctic-leopard-xe-pro-s-front-tire-70-100-19.webp'
     },
     {name:'MXE-9 70/100-19" (70/100-19 front)', pid:'rerodeusa-mxe-9-70-100-19', tier:'OEM',
      prices:[
@@ -13688,114 +13688,114 @@ var CATEGORIES = [
       {v:'Pinned Electric', p:59.0, url:'https://pinnedelectric.com/products/mxe-9-90-100-16', chk:'2026-11-15', stock:'in_stock'},
       {v:'Warp 9 Racing', p:59.0, url:'https://warp9racing.com/products/mxe-9-90-100-16', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['supermach-sm62'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['supermach-sm62'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/rerodeusa-mxe-9-90-100-16.webp'
     },
     {name:'Altis Delta Inner Tube | Front or Rear Replacement | By Altis Powersports', pid:'revrides-altis-delta-inner-tube-front-or-rear-replacement-by-altis-powersports', tier:'budget',
      prices:[
       {v:'REV Rides', p:15.0, url:'https://revrides.com/products/altis-delta-inner-tube-front-or-rear-replacement-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-inner-tube-front-or-rear-replacement-by-altis-powersports.webp'
     },
     {name:'Altis Delta Tires | OEM Replacement Front or Rear Tire | By Altis Powersports', pid:'revrides-altis-delta-tires-oem-replacement-front-or-rear-tire-by-altis-powersports', tier:'OEM',
      prices:[
       {v:'REV Rides', p:40.0, url:'https://revrides.com/products/altis-delta-tires-oem-replacement-front-or-rear-tire-by-altis-powersports', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Altis', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-altis-delta-tires-oem-replacement-front-or-rear-tire-by-altis-powersports.webp'
     },
     {name:'CYBER Street Tire | 19” for E-Moto | by PIVOTRAX', pid:'revrides-cyber-tire-80-100-19-street-tire-19-for-e-moto-by-pivotrax', tier:'midrange',
      prices:[
       {v:'REV Rides', p:99.99, url:'https://revrides.com/products/cyber-tire-80-100-19-street-tire-19-for-e-moto-by-pivotrax', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['supermach-sm01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['supermach-sm01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-cyber-tire-80-100-19-street-tire-19-for-e-moto-by-pivotrax.webp'
     },
     {name:'CYBER tires 80/100-19 Street Tire – Pair Bundle | by Pivotrax | For Sur Ron, Talaria, Altis, E-Ride Pro | by Pivotrax', pid:'revrides-cyber-tires-80-100-19-street-tire-pair-bundle-by-pivotrax-for-sur-ron-talaria-altis-e-ride-pro-by-piv', tier:'midrange',
      prices:[
       {v:'REV Rides', p:175.0, url:'https://revrides.com/products/cyber-tires-80-100-19-street-tire-pair-bundle-by-pivotrax-for-sur-ron-talaria-altis-e-ride-pro-by-pivotrax', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['supermach-sm01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['supermach-sm01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-cyber-tires-80-100-19-street-tire-pair-bundle-by-pivotrax-for-sur-ron-talaria-altis-e-ride-pro-by-piv.webp'
     },
     {name:'Dunlop geo max Mx34 for Surron, E-ride pro, Talaria and more...', pid:'revrides-dunlop-geo-max-mx34-for-surron-e-ride-pro-talaria-and-more', tier:'midrange',
      prices:[
       {v:'REV Rides', p:72.95, url:'https://revrides.com/products/dunlop-geo-max-mx34-for-surron-e-ride-pro-talaria-and-more', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-dunlop-geo-max-mx34-for-surron-e-ride-pro-talaria-and-more.webp'
     },
     {name:'Dunlop geo max Mx53 for Surron, E-ride pro, Talaria and more...', pid:'revrides-dunlop-geo-max-mx53-for-surron-e-ride-pro-talaria-and-more', tier:'midrange',
      prices:[
       {v:'REV Rides', p:71.95, url:'https://revrides.com/products/dunlop-geo-max-mx53-for-surron-e-ride-pro-talaria-and-more', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-dunlop-geo-max-mx53-for-surron-e-ride-pro-talaria-and-more.webp'
     },
     {name:'Dunlop Geomax MX34 Front + MX53 Rear Tire Bundle | For Pit Bikes, Mini E-Motos, and Lightweight E-Bikes', pid:'revrides-dunlop-geomax-mx34-front-mx53-rear-tire-bundle-for-pit-bikes-mini-e-motos-and-lightweight-e-bikes', tier:'midrange',
      prices:[
       {v:'REV Rides', p:129.99, url:'https://revrides.com/products/dunlop-geomax-mx34-front-mx53-rear-tire-bundle-for-pit-bikes-mini-e-motos-and-lightweight-e-bikes', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-dunlop-geomax-mx34-front-mx53-rear-tire-bundle-for-pit-bikes-mini-e-motos-and-lightweight-e-bikes.webp'
     },
     {name:'Dunlop Geomax MX34 Tire & Heavy Duty Tube Bundle | Strike Shadow, Altis Delta, RTR XL, Arctic Leopard XF', pid:'revrides-dunlop-geomax-mx34-tire-heavy-duty-tube-bundle-strike-shadow-altis-delta-rtr-xl-arctic-leopard-xf', tier:'midrange',
      prices:[
       {v:'REV Rides', p:179.99, url:'https://revrides.com/products/dunlop-geomax-mx34-tire-heavy-duty-tube-bundle-strike-shadow-altis-delta-rtr-xl-arctic-leopard-xf', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Dunlop', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-dunlop-geomax-mx34-tire-heavy-duty-tube-bundle-strike-shadow-altis-delta-rtr-xl-arctic-leopard-xf.webp'
     },
     {name:'E Ride Pro OEM Tires | For E Ride Pro and Compatible E-Motos (70/100-17 front)', pid:'revrides-e-ride-pro-oem-tires-for-e-ride-pro-and-compatible-e-motos-70-100-17', tier:'OEM',
      prices:[
       {v:'REV Rides', p:55.0, url:'https://revrides.com/products/fatty-off-road-100-90-18-rear-tire-kit-by-e-ride-pro-for-e-moto-and-electric-dirt-bikes', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['altis-delta'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-e-ride-pro-oem-tires-for-e-ride-pro-and-compatible-e-motos-70-100-17.webp'
     },
     {name:'IRC  VX-10 Zenkai Dirt tire for Surron, E-ride pro, Talaria and more...', pid:'revrides-irc-vx-10-zenkai-dirt-tire-for-surron-e-ride-pro-talaria-and-more', tier:'midrange',
      prices:[
       {v:'REV Rides', p:67.95, url:'https://revrides.com/products/irc-vx-10-zenkai-dirt-tire-for-surron-e-ride-pro-talaria-and-more', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
-     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-irc-vx-10-zenkai-dirt-tire-for-surron-e-ride-pro-talaria-and-more.webp'
     },
     {name:'Maxxcross IT tire for Mini Emoto (90/100-14 rear)', pid:'revrides-maxxcross-it-tire-for-altis-sigma-super-moto', tier:'midrange',
      prices:[
       {v:'REV Rides', p:56.0, url:'https://revrides.com/products/maxxcross-it-tire-for-altis-sigma-super-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-maxxcross-it-tire-for-altis-sigma-super-moto.webp'
     },
     {name:'Maxxcross MX-SI tire for Emoto', pid:'revrides-maxxcross-mx-si-tire-for-emoto', tier:'budget',
      prices:[
       {v:'REV Rides', p:48.0, url:'https://revrides.com/products/maxxcross-mx-si-tire-for-emoto', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-maxxcross-mx-si-tire-for-emoto.webp'
     },
     {name:'MICHELIN STARCROSS 5 Soft Dirt tire for Surron, E-ride pro, Talaria and more... (70/100-19 front)', pid:'revrides-michelin-starcross-5-soft-dirt-tire-for-surron-e-ride-pro-talaria-and-more', tier:'midrange',
      prices:[
       {v:'REV Rides', p:91.95, url:'https://revrides.com/products/michelin-starcross-5-soft-dirt-tire-for-surron-e-ride-pro-talaria-and-more', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-michelin-starcross-5-soft-dirt-tire-for-surron-e-ride-pro-talaria-and-more.webp'
     },
     {name:'MICHELIN STARCROSS 5 Medium Dirt tire for Surron, E-ride pro, Talaria and more...', pid:'revrides-michelin-starcross-dirt-tire-for-surron-e-ride-pro-talaria-and-more', tier:'midrange',
      prices:[
       {v:'REV Rides', p:87.95, url:'https://revrides.com/products/michelin-starcross-dirt-tire-for-surron-e-ride-pro-talaria-and-more', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
-     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Michelin', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-michelin-starcross-dirt-tire-for-surron-e-ride-pro-talaria-and-more.webp'
     },
     {name:'Pivotrax AP102 Dirt Bike Tire | Front and Rear Tire Options for Soft to Intermediate Terrain', pid:'revrides-pivotrax-ap102-21-front-tire-soft-to-intermediate-dirt-bike-terrain', tier:'midrange',
      prices:[
       {v:'REV Rides', p:89.1, url:'https://revrides.com/products/pivotrax-ap102-21-front-tire-soft-to-intermediate-dirt-bike-terrain', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Pivotrax', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Pivotrax', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-pivotrax-ap102-21-front-tire-soft-to-intermediate-dirt-bike-terrain.webp'
     },
     {name:'Pivotrax EXP Rear Dirt Bike Tire | Pit Bikes, E-Motos and Motocross', pid:'revrides-pivotrax-exp-rear-dirt-bike-tire-pit-bikes-e-motos-and-motocross', tier:'midrange',
      prices:[
       {v:'REV Rides', p:59.99, url:'https://revrides.com/products/pivotrax-exp-rear-dirt-bike-tire-pit-bikes-e-motos-and-motocross', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
-     badge:'Pivotrax', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Pivotrax', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-pivotrax-exp-rear-dirt-bike-tire-pit-bikes-e-motos-and-motocross.webp'
     },
     {name:'Pivotrax KC Kilowatt Climber Tire for E-Motos', pid:'revrides-pivotrax-kc-kilowatt-climber-tire-for-e-motos', tier:'midrange',
      prices:[
@@ -13808,163 +13808,163 @@ var CATEGORIES = [
      prices:[
       {v:'REV Rides', p:35.99, url:'https://revrides.com/products/rippin-moto-heavy-duty-inner-tubes-17-14-front-rear-combo-pack-for-mini-moto-pit-bike-by-rippin-moto', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-rippin-moto-heavy-duty-inner-tubes-17-14-front-rear-combo-pack-for-mini-moto-pit-bike-by-rippin-moto.webp'
     },
     {name:'Shinko R525 for Surron, E-ride pro, Talaria and more... (90/100-16 rear)', pid:'revrides-shinko-244-for-surron-e-ride-pro-talaria-and-more-copy', tier:'midrange',
      prices:[
       {v:'REV Rides', p:86.95, url:'https://revrides.com/products/shinko-244-for-surron-e-ride-pro-talaria-and-more-copy', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-shinko-244-for-surron-e-ride-pro-talaria-and-more-copy.webp'
     },
     {name:'Shinko 520 for Surron, E-ride pro, Talaria and more... (70/100-19 front)', pid:'revrides-shinko-520-for-surron-e-ride-pro-talaria-and-more', tier:'midrange',
      prices:[
       {v:'REV Rides', p:86.95, url:'https://revrides.com/products/shinko-520-for-surron-e-ride-pro-talaria-and-more', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-shinko-520-for-surron-e-ride-pro-talaria-and-more.webp'
     },
     {name:'Shinko 540 for Surron, E-ride pro, Talaria and more...', pid:'revrides-shinko-546-for-surron-e-ride-pro-talaria-and-more', tier:'midrange',
      prices:[
       {v:'REV Rides', p:83.95, url:'https://revrides.com/products/shinko-546-for-surron-e-ride-pro-talaria-and-more', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
-     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-shinko-546-for-surron-e-ride-pro-talaria-and-more.webp'
     },
     {name:'Shinko SR712 F/ R Street tire for Surron, E-ride pro, Talaria and more... (100/90-18 rear)', pid:'revrides-shinko-sr712-street-tire-for-surron-e-ride-pro-talaria-and-more', tier:'midrange',
      prices:[
       {v:'REV Rides', p:107.95, url:'https://revrides.com/products/shinko-sr712-street-tire-for-surron-e-ride-pro-talaria-and-more', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','rerode-rx'], likely:[], no:[],
-     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/revrides-shinko-sr712-street-tire-for-surron-e-ride-pro-talaria-and-more.webp'
     },
     {name:'E Ride Pro OEM Tires | For E Ride Pro and Compatible E-Motos', pid:'revrides-sm01-6000-electric-off-road-vehicle', tier:'OEM',
      prices:[
       {v:'REV Rides', p:59.0, url:'https://revrides.com/products/fatty-off-road-100-90-18-rear-tire-kit-by-e-ride-pro-for-e-moto-and-electric-dirt-bikes', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['supermach-sm01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['supermach-sm01'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-sm01-6000-electric-off-road-vehicle.webp'
     },
     {name:'Strike Shadow Knobby Tires | 12”, 14” & 17” Front & Rear Options (70/100-17 front)', pid:'revrides-strike-shadow-knobby-tires-12-14-17-front-rear-options-70-100-17', tier:'budget',
      prices:[
       {v:'REV Rides', p:39.99, url:'https://revrides.com/products/strike-shadow-knobby-tires-12-14-17-front-rear-options', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['altis-delta'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-strike-shadow-knobby-tires-12-14-17-front-rear-options-70-100-17.webp'
     },
     {name:'Strike Shadow Knobby Tires | 12”, 14” & 17” Front & Rear Options (90/100-14 rear)', pid:'revrides-strike-shadow-knobby-tires-12-14-17-front-rear-options-90-100-14', tier:'budget',
      prices:[
       {v:'REV Rides', p:39.99, url:'https://revrides.com/products/strike-shadow-knobby-tires-12-14-17-front-rear-options', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['altis-delta'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-strike-shadow-knobby-tires-12-14-17-front-rear-options-90-100-14.webp'
     },
     {name:'ULTIMATE DIRT TIRE BUNDLE 19/16 Altis Sigma MX and E-motos (90/100-16 rear)', pid:'revrides-ultimate-dirt-tire-bundle-19-16', tier:'midrange',
      prices:[
       {v:'REV Rides', p:170.95, url:'https://revrides.com/products/ultimate-dirt-tire-bundle-19-16', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:['supermach-sm62'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:['supermach-sm62'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/revrides-ultimate-dirt-tire-bundle-19-16.webp'
     },
     {name:'Bridgestone BattleCross X30 Intermediate Terrain Tire', pid:'tbelectricmoto-bridgestone-battle-cross-x30-tire-16in', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:60.71, url:'https://tbelectricmoto.com/products/bridgestone-battle-cross-x30-tire-16in', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-bridgestone-battle-cross-x30-tire-16in.webp'
     },
     {name:'Bridgestone M203 Soft/ Intermediate Terrain Tire', pid:'tbelectricmoto-bridgestone-m203-soft-intermediate-terrain-tire', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:49.88, url:'https://tbelectricmoto.com/products/bridgestone-m203-soft-intermediate-terrain-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-bridgestone-m203-soft-intermediate-terrain-tire.webp'
     },
     {name:'Bridgestone M204 Soft/ Intermediate Terrain Tire', pid:'tbelectricmoto-bridgestone-m204-soft-intermediate-terrain-tire', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:48.88, url:'https://tbelectricmoto.com/products/bridgestone-m204-soft-intermediate-terrain-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta'], likely:[], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-bridgestone-m204-soft-intermediate-terrain-tire.webp'
     },
     {name:'Dunlop MX34 Geomax Soft/Intermediate Terrain Tire', pid:'tbelectricmoto-dunlop-mx34-geomax-soft-intermediate-terrain-tire', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:65.95, url:'https://tbelectricmoto.com/products/dunlop-mx34-geomax-soft-intermediate-terrain-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-dunlop-mx34-geomax-soft-intermediate-terrain-tire.webp'
     },
     {name:'Dunlop MX53 Geomax Intermediate/Hard Terrain Tire', pid:'tbelectricmoto-dunlop-mx53-geomax-intermediate-hard-terrain-tire', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:64.95, url:'https://tbelectricmoto.com/products/dunlop-mx53-geomax-intermediate-hard-terrain-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-dunlop-mx53-geomax-intermediate-hard-terrain-tire.webp'
     },
     {name:'Dunlop MX54 Geomax Intermediate/Hard Terrain Tire', pid:'tbelectricmoto-dunlop-mx54-geomax-intermediate-hard-terrain-tire', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:66.95, url:'https://tbelectricmoto.com/products/dunlop-mx54-geomax-intermediate-hard-terrain-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-dunlop-mx54-geomax-intermediate-hard-terrain-tire.webp'
     },
     {name:'Pivotrax EXP Rear 16in and 18in tires (90/100-16 rear)', pid:'tbelectricmoto-pivotrax-90-100x16-rear-tire', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:69.99, url:'https://tbelectricmoto.com/products/pivotrax-90-100x16-rear-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Pivotrax', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Pivotrax', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-pivotrax-90-100x16-rear-tire.webp'
     },
     {name:'Pivotrax heavy Duty Tubes', pid:'tbelectricmoto-pivotrax-heavy-duty-tubes', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:20.99, url:'https://tbelectricmoto.com/products/pivotrax-heavy-duty-tubes', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','supermach-sm62'], likely:[], no:[],
-     badge:'Pivotrax', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Pivotrax', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-pivotrax-heavy-duty-tubes.webp'
     },
     {name:'Shinko 524 Soft / Intermediate Tire (70/100-19 front)', pid:'tbelectricmoto-shinko-524-soft-intermediate-tire', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:77.95, url:'https://tbelectricmoto.com/products/shinko-524-soft-intermediate-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Shinko', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-shinko-524-soft-intermediate-tire.webp'
     },
     {name:'TUSK GROUND WIRE E-MOTORCYCLE TIRE (70/100-19 front)', pid:'tbelectricmoto-tusk-ground-wire-e-motorcycle-tire', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:50.88, url:'https://tbelectricmoto.com/products/tusk-ground-wire-e-motorcycle-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tusk-ground-wire-e-motorcycle-tire.webp'
     },
     {name:'Tusk Recon Hybrid Tire', pid:'tbelectricmoto-tusk-recon-hybrid-tire', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:49.88, url:'https://tbelectricmoto.com/products/tusk-recon-hybrid-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tusk-recon-hybrid-tire.webp'
     },
     {name:'Tusk T35 Soft/Intermediate Terrain Tire', pid:'tbelectricmoto-tusk-t35-soft-intermediate-terrain-tire', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:37.27, url:'https://tbelectricmoto.com/products/tusk-t35-soft-intermediate-terrain-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tusk-t35-soft-intermediate-terrain-tire.webp'
     },
     {name:'Tusk T45 Intermediate/Hard Terrain Tire', pid:'tbelectricmoto-tusk-t45-intermediate-hard-pack-terrain-tire', tier:'budget',
      prices:[
       {v:'TB Electric Moto', p:37.27, url:'https://tbelectricmoto.com/products/tusk-t45-intermediate-hard-pack-terrain-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
-     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tusk', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-tusk-t45-intermediate-hard-pack-terrain-tire.webp'
     },
     {name:'Warp 9 MXE-9 Tire', pid:'tbelectricmoto-warp-9-mxe-9-tire', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:55.0, url:'https://tbelectricmoto.com/products/warp-9-mxe-9-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tbelectricmoto-warp-9-mxe-9-tire.webp'
     },
     {name:'Soleil01 Electric Bike Fat Tire Bike Tube', pid:'tuttio-tuttio-soleil01-electric-bike-fat-tire-bike-tube', tier:'OEM',
      prices:[
       {v:'Tuttio', p:29.99, url:'https://tuttiosport.com/products/tuttio-soleil01-electric-bike-fat-tire-bike-tube', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-electric-bike-fat-tire-bike-tube.webp'
     },
     {name:'Tuttio Soleil01 Electric Dirt Bike Street Tire Set', pid:'tuttio-tuttio-soleil01-electric-dirt-bike-street-tire-set', tier:'OEM',
      prices:[
@@ -13978,14 +13978,14 @@ var CATEGORIES = [
       {v:'Tuttio', p:86.0, url:'https://tuttiosport.com/products/tuttio-soleil01-front-and-rear-tire-1', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
-     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/tuttio-tuttio-soleil01-front-and-rear-tire-1.webp'
     },
     {name:'Dunlop D606 Tire (120/90-18 rear)', pid:'warp9racing-dunlop-d606-tire', tier:'midrange',
      prices:[
       {v:'Warp 9 Racing', p:139.99, url:'https://warp9racing.com/products/dunlop-d606-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-xd'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/warp9racing-dunlop-d606-tire.webp'
     },
     {name:'Dunlop Geomax AT82 Tire', pid:'warp9racing-dunlop-geomax-at82-tire', tier:'midrange',
      prices:[
@@ -13994,28 +13994,28 @@ var CATEGORIES = [
       {v:'GritShift', p:143.95, url:'https://gritshift.com/products/dunlop-geomax-at82-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/warp9racing-dunlop-geomax-at82-tire.webp'
     },
     {name:'Dunlop Geomax EN91 Tire (120/90-18 rear)', pid:'warp9racing-dunlop-geomax-en91-tire', tier:'midrange',
      prices:[
       {v:'Warp 9 Racing', p:144.95, url:'https://warp9racing.com/products/dunlop-geomax-en91-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-xd'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/warp9racing-dunlop-geomax-en91-tire.webp'
     },
     {name:'Dunlop Geomax MX34 Soft/Intermediate Terrain Tire', pid:'warp9racing-dunlop-geomax-mx34-tire', tier:'midrange',
      prices:[
       {v:'Warp 9 Racing', p:57.99, url:'https://warp9racing.com/products/dunlop-geomax-mx34-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['altis-delta','altis-omega','arctic-xd','rerode-rx','supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/warp9racing-dunlop-geomax-mx34-tire.webp'
     },
     {name:'Dunlop Geomax MX53 Intermediate/Hard Terrain Tire', pid:'warp9racing-dunlop-geomax-mx53-tire', tier:'midrange',
      prices:[
       {v:'Warp 9 Racing', p:111.95, url:'https://warp9racing.com/products/dunlop-geomax-mx53-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['supermach-sm62'], likely:[], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/warp9racing-dunlop-geomax-mx53-tire.webp'
     },
     {name:'Dunlop Geomax MX54 Intermediate/Hard Terrain Tire', pid:'warp9racing-dunlop-geomax-mx54-tire', tier:'midrange',
      prices:[
@@ -14029,28 +14029,28 @@ var CATEGORIES = [
       {v:'Wired Whips', p:146.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_tire-rear-bridgestone-x30-100-100-18', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-bridgestone-battlecross-x30-rear-tire-100-100-18-altis-omega.webp'
     },
     {name:'Bridgestone M59 Front Tire - Altis Omega 21" Class', pid:'wiredwhips-bridgestone-m59-front-tire-altis-omega-21-class', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:136.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_tire-front-m59', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Bridgestone', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-bridgestone-m59-front-tire-altis-omega-21-class.webp'
     },
     {name:'Dunlop Geomax MX34 Front Tire 80/100-21 - Altis Omega', pid:'wiredwhips-dunlop-geomax-mx34-front-tire-80-100-21-altis-omega', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:140.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_tire-front-dunlop-mx34-80-100-21', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-dunlop-geomax-mx34-front-tire-80-100-21-altis-omega.webp'
     },
     {name:'Dunlop Geomax MX34 Rear Tire 100/100-18 - Altis Omega', pid:'wiredwhips-dunlop-geomax-mx34-rear-tire-100-100-18-altis-omega', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:153.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_tire-rear-dunlop-mx34-100-100-18', chk:'2026-11-15', stock:'out_of_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Dunlop', stock:'out_of_stock', stockChk:'2026-11-15'
+     badge:'Dunlop', stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-dunlop-geomax-mx34-rear-tire-100-100-18-altis-omega.webp'
     },
     {name:'Heavy-Duty Front Inner Tube - Altis Omega/Sigma', pid:'wiredwhips-heavy-duty-front-inner-tube-altis-omega-sigma', tier:'budget',
      prices:[
@@ -14062,7 +14062,7 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:31.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_tube-front-21-hd', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-heavy-duty-front-tube-80-100-21-90-90-21-altis-omega.webp'
     },
     {name:'Heavy-Duty Inner Tube Front - Altis Sigma / Omega', pid:'wiredwhips-heavy-duty-inner-tube-front-altis-sigma-omega', tier:'budget',
      prices:[
@@ -14080,57 +14080,57 @@ var CATEGORIES = [
      prices:[
       {v:'Wired Whips', p:31.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_tube-rear-18-hd', chk:'2026-11-15', stock:'out_of_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'out_of_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'out_of_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-heavy-duty-rear-tube-100-100-18-altis-omega.webp'
     },
     {name:'IRC VE33 Enduro Rear Tire 100/100-18 - Altis Omega', pid:'wiredwhips-irc-ve33-enduro-rear-tire-100-100-18-altis-omega', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:100.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_tire-rear-irc-ve33-100-100-18', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-irc-ve33-enduro-rear-tire-100-100-18-altis-omega.webp'
     },
     {name:'IRC VE35 Enduro Front Tire 80/100-21 - Altis Omega', pid:'wiredwhips-irc-ve35-enduro-front-tire-80-100-21-altis-omega', tier:'midrange',
      prices:[
       {v:'Wired Whips', p:93.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_tire-front-irc-ve35-80-100-21', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Irc', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-irc-ve35-enduro-front-tire-80-100-21-altis-omega.webp'
     },
     {name:'OEM Front Inner Tube 2.50/2.75-17 (Delta / Delta S)', pid:'wiredwhips-oem-front-inner-tube-2-50-2-75-17-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_tube-front', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-front-inner-tube-2-50-2-75-17-delta-delta-s.webp'
     },
     {name:'OEM Front Tire 70/100-17 (Delta / Delta S)', pid:'wiredwhips-oem-front-tire-70-100-17-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:50.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_tire-front', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-front-tire-70-100-17-delta-delta-s.webp'
     },
     {name:'OEM Rear Inner Tube 2.75/3.00-14 (Delta / Delta S)', pid:'wiredwhips-oem-rear-inner-tube-2-75-3-00-14-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:19.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_tube-rear', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-rear-inner-tube-2-75-3-00-14-delta-delta-s.webp'
     },
     {name:'OEM Rear Tire 90/100-14 (Delta / Delta S)', pid:'wiredwhips-oem-rear-tire-90-100-14-delta-delta-s', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:56.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_tire-rear', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-rear-tire-90-100-14-delta-delta-s.webp'
     },
     {name:'OEM Soleil01 Fat Tire Inner Tube (tuttio-soleil01-front-inner-tube)', pid:'wiredwhips-oem-soleil01-fat-tire-inner-tube-tuttio-soleil01-front-inner-tube', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:38.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_inner-tube', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-fat-tire-inner-tube-tuttio-soleil01-front-inner-tube.webp'
     },
     {name:'OEM Soleil01 Outer Tire (front/rear options) (TUTTIO-SOLEIL01-FRONT-TIRE)', pid:'wiredwhips-oem-soleil01-outer-tire-front-rear-options-tuttio-soleil01-front-tire', tier:'OEM',
      prices:[
       {v:'Wired Whips', p:108.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_outer-tire', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-oem-soleil01-outer-tire-front-rear-options-tuttio-soleil01-front-tire.webp'
     },
     {name:'OEM Soleil01 Street Tire Set (14" F / 12" R) (soleil01-street-tires)', pid:'wiredwhips-oem-soleil01-street-tire-set-14-f-12-r-soleil01-street-tires', tier:'OEM',
      prices:[
@@ -14143,20 +14143,20 @@ var CATEGORIES = [
       {v:'Wired Whips', p:120.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_tire-front-pirelli-scorpion-mx32-80-100-21', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Pirelli', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Pirelli', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-pirelli-scorpion-mx32-front-tire-80-100-21-altis-omega.webp'
     },
     {name:'Pivotrax HD Tube 90/90-21 - Altis Omega (Spare)', pid:'wiredwhips-pivotrax-hd-tube-90-90-21-altis-omega-spare', tier:'budget',
      prices:[
       {v:'Wired Whips', p:31.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_tube-front-pivotrax-alt', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[],
-     badge:'Pivotrax', stock:'in_stock', stockChk:'2026-11-15'
+     badge:'Pivotrax', stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-pivotrax-hd-tube-90-90-21-altis-omega-spare.webp'
     },
     {name:'Rear Tube 90/90-18 - Altis Omega', pid:'wiredwhips-rear-tube-90-90-18-altis-omega', tier:'budget',
      prices:[
       {v:'Wired Whips', p:24.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_tube-rear-90-90-18', chk:'2026-11-15', stock:'in_stock'},
      ],
-     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15'
+     fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/wiredwhips-rear-tube-90-90-18-altis-omega.webp'
     },
 ]},
   {id:'titanium', name:'Titanium Hardware', blurb:'Titanium bolt kits and hardware — shed grams and add color to your build.', tips:['Match thread pitch and length to your OEM bolts before ordering','Use anti-seize — titanium galls easily','Axle, brake and motor-mount bolts are safety-critical: follow torque specs','Anodized colors vary between batches — order kits together for a match'], options:[
@@ -14306,7 +14306,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','bonnell-805rx','rawrr-mantis-72v','rawrr-mantis-x','rtr-alpha','rtr-lite','rtr-sport','stark-vargex','ultrabee-21kw','zero-xe'], likely:['altis-sigma','rawrr-mantis-mini-r','rerode-rx'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/titanium-warp9-e-moto-handguard-titanium-bolt-kit.webp'
     },
     {name:'Talaria Komodo Titanium Body Bolt Kit', pid:'chargedcycleworks-talaria-komodotitanium-body-bolt-kit', tier:'midrange',
      prices:[
@@ -14334,14 +14334,14 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:59, url:'https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['lightbee2','ss40'], likely:['altis-sigma'], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/ti-warp9-big-light-kit-bolt-kit.webp'
     },
     {name:'Titanium Stem Lock Replacement Bolt', pid:'chargedcycleworks-warp9-titanium-stem-lock-replacement-bolt', tier:'budget',
      prices:[
       {v:'Charged Cycle Works', p:35, url:'https://chargedcycleworks.com/products/warp9-titanium-stem-lock-replacement-bolt', chk:'2026-11-15', stock:'in_stock'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/chargedcycleworks-warp9-titanium-stem-lock-replacement-bolt.webp'
     },
     {name:'Warp9 Stark Varg Titanium Rear Axle', pid:'titanium-warp9-rear-axle-stark-varg', tier:'midrange',
      prices:[
@@ -14349,7 +14349,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/titanium-warp9-rear-axle-stark-varg.webp'
     },
     {name:'Warp9 Stark Varg Titanium Peg Pins', pid:'titanium-warp9-peg-pins-stark-varg', tier:'mid',
      prices:[
@@ -14357,7 +14357,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/titanium-warp9-peg-pins-stark-varg.webp'
     },
     {name:'Warp9 Stark Varg Titanium Front Axle', pid:'titanium-warp9-front-axle-stark-varg', tier:'midrange',
      prices:[
@@ -14365,7 +14365,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/titanium-warp9-front-axle-stark-varg.webp'
     },
     {name:'Warp9 Stark Varg Titanium Counter Shaft Replacement Bolt', pid:'titanium-warp9-countershaft-bolt-stark-varg', tier:'budget',
      prices:[
@@ -14373,7 +14373,7 @@ var CATEGORIES = [
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-15'
+     stock:'in_stock', stockChk:'2026-11-15', img:'img/parts/titanium-warp9-countershaft-bolt-stark-varg.webp'
     }
   ,
     {name:'Titanium Bolt Kit | Tuttio Soleil 01', pid:'mtnmotoworks-tuttio-soleil-01-titanium-bolt-kit', tier:'midrange',
