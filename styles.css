@@ -1101,3 +1101,6 @@ html.ux-lock,html.ux-lock body{overflow:hidden}
 .showall input{width:16px;height:16px;flex:0 0 auto;margin:0}
 .nofit-note{font-size:13px;color:var(--muted,#9aa3ad);margin:6px 0 0;line-height:1.35}
 .nofit-hint{display:block;font-size:12px;margin-top:2px}
+/* category hubs: A-Z list of every listing in the category (build_seo.py, v4.17.0) */
+.seo-az{columns:2 260px;column-gap:28px;padding-left:18px}
+.seo-az li{break-inside:avoid;margin:4px 0}

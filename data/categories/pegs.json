@@ -2387,14 +2387,6 @@
       "notes": ""
     },
     {
-      "product_id": "pegs-kke-ultrabee",
-      "bike_id": "ventus-evo",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
-    },
-    {
       "product_id": "pegs-ultrabee-oem-brackets",
       "bike_id": "arctic-xd",
       "status": "verify",
@@ -2698,7 +2690,7 @@
         "https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective",
         "https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective"
       ],
-      "notes": "From data.js likely list (no FITMENT note)",
+      "notes": "Probable fit from a related model; no seller page names the V1+ EVO - verify before buying (cleaned 2026-11-16)",
       "product_id": "pegs-kke-ultrabee",
       "required_adapters": null,
       "status": "verify"

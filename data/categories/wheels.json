@@ -1130,8 +1130,8 @@
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
         "https://chargedcycleworks.com/products/ebmx-competition-axle-axle-blocks-for-surron-ultra-bee",
-      "https://gritshift.com/products/ebmx-competition-axle-axle-blocks-ultra-bee"
-    ],
+        "https://gritshift.com/products/ebmx-competition-axle-axle-blocks-ultra-bee"
+      ],
       "last_checked": "2026-11-13",
       "vendors": [
         {
@@ -5277,14 +5277,6 @@
     },
     {
       "product_id": "wheels-kke-lightbee-16-19",
-      "bike_id": "ventus-evo",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
-    },
-    {
-      "product_id": "wheels-kke-lightbee-16-19",
       "bike_id": "ss20",
       "status": "confirmed_direct_fit",
       "required_adapters": [],
@@ -5777,7 +5769,7 @@
         "https://chargedcycleworks.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective",
         "https://tbelectricmoto.com/products/kke-1-6-19-1-85-16-e-motor-wheels-fit-surron-light-bee-x-e-ride-pro-ss-collective"
       ],
-      "notes": "From data.js likely list (no FITMENT note)",
+      "notes": "Probable fit from a related model; no seller page names the V1+ EVO - verify before buying (cleaned 2026-11-16)",
       "product_id": "wheels-kke-lightbee-16-19",
       "required_adapters": null,
       "status": "verify"

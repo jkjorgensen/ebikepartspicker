@@ -1058,8 +1058,8 @@
       "notes": "CCW fitment text name(s) ventus-plus exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10); CCW fitment text name(s) mx5 exactly (checked 2026-11-10)",
       "source_urls": [
         "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch",
-      "https://gritshift.com/products/gritshift-halo-headlight-kill-switch"
-    ],
+        "https://gritshift.com/products/gritshift-halo-headlight-kill-switch"
+      ],
       "last_checked": "2026-11-13",
       "vendors": [
         {
@@ -1847,8 +1847,8 @@
       "notes": "CCW title/variants name(s) sr exactly (checked 2026-11-10); CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
         "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7",
-      "https://gritshift.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
-    ],
+        "https://gritshift.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
       "last_checked": "2026-11-13",
       "vendors": [
         {
@@ -2021,8 +2021,8 @@
       "notes": "CCW ALXEPRO tag only; no Enduro-specific fitment text - verify before buying (checked 2026-11-11).",
       "source_urls": [
         "https://chargedcycleworks.com/products/high-voltage-fuse-kit-replacement-fuses",
-      "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses"
-    ],
+        "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses"
+      ],
       "last_checked": "2026-11-13",
       "weight_kg": null,
       "power_change_kw": null,
@@ -3226,14 +3226,6 @@
       "notes": ""
     },
     {
-      "product_id": "electrical-torp-egg-rider",
-      "bike_id": "ventus-evo",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
-    },
-    {
       "product_id": "electrical-surron-oem-dashboard",
       "bike_id": "arctic-xd",
       "status": "verify",
@@ -3650,7 +3642,7 @@
     {
       "bike_id": "ventus-evo",
       "fitment_source_urls": [],
-      "notes": "From data.js likely list (no FITMENT note)",
+      "notes": "Probable fit from a related model; no seller page names the V1+ EVO - verify before buying (cleaned 2026-11-16)",
       "product_id": "electrical-torp-egg-rider",
       "required_adapters": null,
       "status": "verify"
@@ -4932,6 +4924,72 @@
         "https://chargedcycleworks.com/products/x-9000-controller-ultra-bee-harness-ultra-bee-stock-display-harness-and-brackets"
       ],
       "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness-kit",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits?variant=52509563355435",
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "See data.js FITMENT (MUSE research corrections 2026-11-16)"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness-kit",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits?variant=52509563355435",
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "See data.js FITMENT (MUSE research corrections 2026-11-16)"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness-kit",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits?variant=52509563355435",
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "See data.js FITMENT (MUSE research corrections 2026-11-16)"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness-kit",
+      "bike_id": "falcon-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits",
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "See data.js FITMENT (MUSE research corrections 2026-11-16)"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness-kit",
+      "bike_id": "falcon-gt",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits",
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "See data.js FITMENT (MUSE research corrections 2026-11-16)"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness-kit",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits",
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "See data.js FITMENT (MUSE research corrections 2026-11-16)"
     }
   ]
 }

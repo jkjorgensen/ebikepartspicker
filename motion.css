@@ -72,6 +72,10 @@ html.mo-on .pop-title{position:relative;top:auto;background:none;font-size:clamp
   pointer-events:none;opacity:0;border-radius:50%;will-change:transform,opacity;
   background:radial-gradient(closest-side,color-mix(in srgb,#C6F028 20%,transparent),color-mix(in srgb,#C6F028 6%,transparent) 55%,transparent)}
 
+/* reduced motion: opacity-only fade for content below the fold (motion.js adds .mo-fd / .mo-in) */
+html.mo-rm .mo-fd{opacity:0}
+html.mo-rm .mo-fd.mo-in{opacity:1;transition:opacity .45s cubic-bezier(.2,.7,.2,1)}
+
 @media (prefers-reduced-motion: reduce){
   .mo-on .hero-pin{height:auto}
   .mo-on .popular{margin-top:34px}

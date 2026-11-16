@@ -8,9 +8,47 @@
    3. Popular cards rise in with 3D depth, a two-row type marquee slides between sections,
       later sections slide up as they enter, and a volt glow follows the hovered card.
    Scroll-driven only: nothing plays or loops on its own. Transforms and opacity only.
-   prefers-reduced-motion: none of it runs (gsap.matchMedia reverts everything if it flips).
+   prefers-reduced-motion: none of it runs (gsap.matchMedia reverts everything if it flips); the
+   block below gives those visitors a short opacity-only fade instead.
    Never touches builder logic, prices, fitment, tracking or forms. polish.js still owns the
    progress bar, stats count, Popular title words and the volt band wipe. */
+/* ---------- prefers-reduced-motion: a gentle, short opacity fade instead of movement ----------
+   No transforms, no scrubbing, no smooth scroll. Elements already on screen are never hidden;
+   ones below the fold fade in (0.45s) the first time they enter. Independent of GSAP so it
+   also works if the motion libraries fail to load. Turns itself off if the setting flips. */
+(function () {
+  'use strict';
+  var mq = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)');
+  if (!mq || !('IntersectionObserver' in window)) return;
+  var root = document.documentElement, io = null, gm = null;
+  var SEL = '.pop-title,.stats .stat,.voltband,.notify,.qstep,.qtitle,.qsub,.gstep,.alerts-box,.featured';
+  var GRIDS = '#popGrid,#guideBikes,#upcomingList,#powerList';
+  function mark(el) {
+    if (!el || el.__rm || el.classList.contains('ux-skel-card')) return; el.__rm = 1;
+    var r = el.getBoundingClientRect();
+    if (el.offsetParent === null || r.top < window.innerHeight * 0.95) return; /* visible or hidden: leave alone */
+    el.classList.add('mo-fd'); io.observe(el);
+  }
+  function on() {
+    if (io) return;
+    root.classList.add('mo-rm');
+    io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { io.unobserve(e.target); e.target.classList.add('mo-in'); } });
+    }, { rootMargin: '0px 0px -6% 0px' });
+    [].forEach.call(document.querySelectorAll(SEL), mark);
+    gm = new MutationObserver(function (ms) { ms.forEach(function (m) { [].forEach.call(m.addedNodes, function (n) { if (n.nodeType === 1) mark(n); }); }); });
+    [].forEach.call(document.querySelectorAll(GRIDS), function (g) { [].forEach.call(g.children, mark); gm.observe(g, { childList: true }); });
+  }
+  function off() {
+    if (!io) return;
+    io.disconnect(); gm.disconnect(); io = gm = null; root.classList.remove('mo-rm');
+    [].forEach.call(document.querySelectorAll('.mo-fd'), function (el) { el.classList.remove('mo-fd', 'mo-in'); el.__rm = 0; });
+  }
+  function sync() { mq.matches ? on() : off(); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', sync); else sync();
+  if (mq.addEventListener) mq.addEventListener('change', sync); else if (mq.addListener) mq.addListener(sync);
+})();
+
 (function () {
   'use strict';
   if (!window.gsap || !window.ScrollTrigger || !window.Lenis) return;

@@ -903,14 +903,6 @@
       "notes": ""
     },
     {
-      "product_id": "talaria-mx4-oem-charger",
-      "bike_id": "ventus-evo",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [],
-      "notes": ""
-    },
-    {
       "bike_id": "bonnell-805rx",
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/bonnell-805-rx-charger-2500w-100-8v-30a-us"
@@ -995,7 +987,7 @@
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
       ],
-      "notes": "From data.js likely list (no FITMENT note)",
+      "notes": "Probable fit from a related model; no seller page names the V1+ EVO - verify before buying (cleaned 2026-11-16)",
       "product_id": "talaria-mx4-oem-charger",
       "required_adapters": null,
       "status": "verify"
