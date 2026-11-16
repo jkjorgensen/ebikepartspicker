@@ -33,7 +33,7 @@ var BUY_URLS = {
   "rtr-xl-alpha": {"url":"https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest","source":"ETM official"},
   "yozma-in10": {"url":"https://yozmasport.com/products/in-10","source":"Yozma official"},
   "yozma-in10-pro": {"url":"https://yozmasport.com/products/in-10-pro","source":"Yozma official"},
-  "tuttio-soleil01": {"url":"https://tuttiosport.com/products/tuttio-soleil01-electric-bike","source":"Tuttio official"},
+  "tuttio-soleil01": {"url":"https://tuttiosport.com/products/tuttio-soleil01-electric-bike?ref=eejkbrkx","source":"Tuttio official","aff":true},
   "stark-vargex": {"url":"https://starkfuture.com/products/stark-varg-ex","source":"Stark Future official"},
   "altis-sigma": {"url":"https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Faltis-sigma-best-electric-dirt-bike-98v-35ah-e-dirt-bike","source":"VORO Motors (authorized US dealer)"},
   "yvolt-surge-v": {"url":"https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Fyvolt-surge-v","source":"VORO Motors","alt":"https://www.yvolt.com/products/surge-v","altSource":"Yvolt official"},
@@ -49,7 +49,7 @@ var BUY_URLS = {
 function buyBikeEl(bikeId, name, compact){
   var buy = BUY_URLS[bikeId]; if(!buy || !buy.url) return null;
   var w = document.createElement('div'); w.className = 'buybox' + (compact ? ' compact' : '');
-  var a = document.createElement('a'); a.className = 'buybtn'; var aff = /sjv\.io/.test(buy.url);
+  var a = document.createElement('a'); a.className = 'buybtn'; var aff = buy.aff || /sjv\.io/.test(buy.url);
   a.href = buy.url; a.target = '_blank'; a.rel = 'noopener' + (aff ? ' sponsored' : '');
   a.textContent = (compact ? 'Buy' : 'Buy the ' + (name||'bike')) + ' \u2014 ' + buy.source; w.appendChild(a);
   if(aff){ var d = document.createElement('a'); d.className = 'buyalt'; d.href = '/affiliate-disclosure'; d.textContent = 'Affiliate link \u2014 disclosure'; w.appendChild(d); }
