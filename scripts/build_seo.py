@@ -1,77 +1,38 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse,re
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.net'; V='4.17.6'; IMGV='4.5.0'; TODAY='2026-11-16'
+BASE='https://ebikepartspicker.net'; V='4.17.7'; IMGV='4.5.0'; TODAY='2026-11-17'
 # PWA service-worker registration snippet (plain string, NOT an f-string:
 # its braces would break the page() f-string below).
 SWREG="<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>"
-# PWA install banner (plain string, NOT an f-string: its braces would break the page() f-string below).
-INSTALLBANNER="""<!-- PWA install banner: iOS never prompts on its own, so the site tells visitors how to add it. -->
-<div id="ebpp-install" class="ebpp-install" hidden role="dialog" aria-label="Add to home screen">
-  <img class="ebpp-install-icon" src="/img/icons/icon-192.png" alt="" width="44" height="44">
-  <div class="ebpp-install-text"><strong>Add the picker to your home screen</strong><span>One tap, opens like an app.</span><span class="ebpp-install-steps" id="ebpp-install-steps">Tap Share, then Add to Home Screen.</span></div>
-  <button type="button" class="ebpp-install-btn" id="ebpp-install-btn" hidden>Install</button>
-  <button type="button" class="ebpp-install-x" id="ebpp-install-x" aria-label="Dismiss">&times;</button>
-</div>
-<style>
-.ebpp-install{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:9999;display:flex;align-items:center;gap:10px;background:#171b20;border:1px solid #2b3138;border-radius:14px;padding:10px 12px;box-shadow:0 10px 32px rgba(0,0,0,.55);color:#f2f4f6;font-family:inherit}
-.ebpp-install[hidden]{display:none!important}
-.ebpp-install.ebpp-above-mbar{bottom:calc(74px + env(safe-area-inset-bottom,0px))}
-.ebpp-install-icon{width:44px;height:44px;border-radius:10px;flex:0 0 auto}
-.ebpp-install-text{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:1px}
-.ebpp-install-text strong{font-size:14px;line-height:1.25}
-.ebpp-install-text span{font-size:12px;line-height:1.35;color:#aab2bb}
-.ebpp-install-btn{flex:0 0 auto;background:#c8f04a;color:#0b0d10;border:0;border-radius:999px;padding:9px 16px;font:700 14px/1 inherit;cursor:pointer}
-.ebpp-install-btn[hidden]{display:none!important}
-.ebpp-install-x{flex:0 0 auto;background:none;border:0;color:#8b939c;font-size:18px;line-height:1;padding:6px;cursor:pointer}
-</style>
-<script>
-(function(){
-  var KEY='ebpp-install-dismissed';
-  try{ if(localStorage.getItem(KEY)) return; }catch(e){}
-  if(window.matchMedia('(display-mode: standalone)').matches) return;
-  if(window.navigator.standalone) return;
-  var coarse=window.matchMedia('(pointer: coarse)').matches;
-  var small=window.innerWidth<=820;
-  if(!coarse && !small) return;
-  var box=document.getElementById('ebpp-install');
-  var btn=document.getElementById('ebpp-install-btn');
-  var steps=document.getElementById('ebpp-install-steps');
-  var x=document.getElementById('ebpp-install-x');
-  if(!box||!btn||!steps||!x) return;
-  var deferred=null, shown=false, ready=false;
-  var ua=navigator.userAgent||'';
-  var isIOS=/iphone|ipad|ipod/i.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
-  var isAndroid=/android/i.test(ua);
-  function modalOpen(){ return !!document.querySelector('.ux-pick.in:not([hidden]),.ux-sov:not([hidden]),.modal-overlay:not([hidden])'); }
-  function hide(temp){ box.hidden=true; document.body.style.paddingBottom=''; if(!temp){ try{localStorage.setItem(KEY,'1');}catch(e){} } }
-  function show(){
-    if(shown || modalOpen()) return;
-    shown=true;
-    if(deferred){ btn.hidden=false; steps.hidden=true; }
-    else { btn.hidden=true; steps.hidden=false; steps.textContent=isIOS?'Tap Share, then Add to Home Screen.':(isAndroid?'Tap \u22ee, then Add to Home screen.':'Tap Share, then Add to Home Screen.'); }
-    var mbar=document.querySelector('.ux-mbar');
-    if(mbar && !mbar.hidden && mbar.offsetHeight>0) box.classList.add('ebpp-above-mbar');
-    box.hidden=false;
-    document.body.style.paddingBottom=(box.offsetHeight+24)+'px';
-  }
-  window.addEventListener('beforeinstallprompt',function(e){ e.preventDefault(); deferred=e; if(shown){ btn.hidden=false; steps.hidden=true; } });
-  window.addEventListener('appinstalled',function(){ hide(false); });
-  btn.addEventListener('click',function(){ if(!deferred) return; var d=deferred; deferred=null; d.prompt(); if(d.userChoice) d.userChoice.then(function(){ hide(false); }); else hide(false); });
-  x.addEventListener('click',function(){ hide(false); });
-  document.addEventListener('click',function(e){ if(e.target.closest('[data-ux-bike],[data-ux-search]')) hide(true); });
-  if(window.MutationObserver){
-    var mo=new MutationObserver(function(){
-      if(modalOpen()){ if(!box.hidden) hide(true); }
-      else if(ready && !shown){ show(); }
-    });
-    mo.observe(document.body,{subtree:true,attributes:true,attributeFilter:['class','hidden']});
-  }
-  setTimeout(function(){ ready=true; show(); },1500);
-})();
-</script>"""
+# PWA install banner is off for now (Josh, Nov 17). Keep the manifest and
+# service worker so it can come back later. preventDefault stops the browser
+# native mini-infobar; do not call prompt(). Plain string, not an f-string.
+NOPROMPT="<script>window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();});</script>"
 e=lambda s: html.escape(str(s if s is not None else ''),quote=True)
 money=lambda p: '${:,.0f}'.format(p) if p is not None else ''
+
+def load_buy_urls():
+  raw=open(os.path.join(ROOT,'buy.js')).read()
+  m=re.search(r'var BUY_URLS\s*=\s*(\{.*?\});\s*\n', raw, re.S)
+  if not m: raise SystemExit('could not parse BUY_URLS from buy.js')
+  obj=re.sub(r',\s*}', '}', m.group(1), count=1)
+  return json.loads(obj)
+BUY_URLS=load_buy_urls()
+def bike_buy_html(bid, name):
+  """Same markup as buy.js buyBikeEl(bid, name): .buybox/.buybtn, rel=sponsored + disclosure for affiliate/Voro links."""
+  buy=BUY_URLS.get(bid)
+  if not buy or not buy.get('url'): return ''
+  aff=bool(buy.get('aff')) or ('sjv.io' in buy['url'])
+  rel='noopener sponsored' if aff else 'noopener'
+  out=['<div class="buybox">',
+       f'<a class="buybtn" href="{e(buy["url"])}" target="_blank" rel="{rel}">Buy the {e(name)} \u2014 {e(buy.get("source") or "store")}</a>']
+  if aff:
+    out.append('<a class="buyalt" href="/affiliate-disclosure">Affiliate link \u2014 disclosure</a>')
+  if buy.get('alt'):
+    out.append(f'<a class="buyalt" href="{e(buy["alt"])}" target="_blank" rel="noopener">Also at {e(buy.get("altSource") or "another store")}</a>')
+  out.append('</div>')
+  return ''.join(out)
 
 FONTQ='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap'
 FONTS=(\
@@ -162,7 +123,7 @@ def page(path,title,desc,body,crumbs,img=None,ld_extra=None,preload=''):
 <script src="/ux.js?v={V}" defer></script>
 <script src="/track.js?v=1" defer></script>
 <script src="/view.js?v=1" defer></script>
-{INSTALLBANNER}
+{NOPROMPT}
 {SWREG}
 </body></html>
 """
@@ -198,7 +159,7 @@ for b in seo_bikes:
   FM='<a href="/fitment-methodology">How we confirm fitment</a> \u00b7 ' if os.path.exists(os.path.join(ROOT,'fitment-methodology.html')) else ''
   spec=[('Price',bike_price(b))]+([('Peak power',f'{b["kw"]} kW')] if b.get('kw') else [])+([('Weight',f'{b["weight"]} lb')] if b.get('weight') else [])
   specs=''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k,v in spec)
-  bikebuy=f'<a class="sbuy sbuy-voro" href="{e(b["srcUrl"])}" rel="sponsored noopener" target="_blank">Buy the {e(b["name"])} at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure">(affiliate link)</a>' if b['src']=='voro' and b['srcUrl'] else ''
+  bikebuy=bike_buy_html(bid, b['name'])
   gl=''.join(f'<li><a href="/guides/{bid}-{g["tier"]}/">{e(b["name"])} {e(TIER.get(g["tier"],g["tier"]))} build</a></li>' for g in guides_by_bike.get(bid,[]))
   extra=(f'<h2>Build guides</h2><ul class="seo-links">{gl}</ul>' if gl else '')+(f'<p><a href="/power/#{bid}">Power upgrades for the {e(b["name"])}</a></p>' if bid in power_bikes else '')
   toc=' '.join(f'<a href="#{c["id"]}">{e(c["name"])}</a>' for c,_ in cats)
@@ -207,7 +168,8 @@ for b in seo_bikes:
 <p class="seo-lede">{lede}</p>
 <figure class="seo-hero" data-ux-pagebike="{e(bid)}" data-name="{e(b['name'])}"><img src="/img/bikes/{bid}-800.webp?v={IMGV}" srcset="/img/bikes/{bid}-800.webp?v={IMGV} 800w, /img/bikes/{bid}.webp?v={IMGV} 1600w" sizes="(max-width: 900px) 100vw, 720px" fetchpriority="high" decoding="async" alt="{e(b['name'])} electric dirt bike" width="1600" height="1000"></figure>
 <dl class="seo-specs">{specs}</dl>
-<p class="seo-cta"><a class="cta" href="{e(builder(bid))}">Build your {e(b['name'])}</a> {bikebuy}</p>
+{bikebuy}
+<p class="seo-cta"><a class="cta" href="{e(builder(bid))}">Build your {e(b['name'])}</a></p>
 {extra}<nav class="seo-toc">{toc}</nav>{secs}
 <p>{FM}<a href="/bikes/">All bikes</a></p>"""
   il={"@context":"https://schema.org","@type":"ItemList","name":f"{b['name']} upgrades and parts","numberOfItems":len(parts),"itemListElement":[{"@type":"ListItem","position":i+1,"name":p['name']} for i,p in enumerate(parts[:100])]}
