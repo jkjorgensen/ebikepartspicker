@@ -798,7 +798,9 @@ details.more[open]{padding-bottom:14px}
 .tp-main h1{font:700 32px/1.15 var(--display);color:var(--text,#fff);margin:10px 0 18px}
 .tp-main h2{font:700 19px var(--display);color:var(--text,#fff);margin:26px 0 8px}
 .tp-main a{color:var(--accent-hi)}
-.tp-main .sbuy-voro,.tp-main .cta{color:var(--accent-ink)!important}
+.tp-main .sbuy-voro,.tp-main .cta,.tp-main .buybtn{color:var(--accent-ink)!important;text-decoration:none}
+.tp-main .buyalt{color:#e8edf2}
+.seo-main .buybox{margin:8px 0 12px}
 
 /* trust pages */
 .tp-table{border-collapse:collapse;width:100%;margin:8px 0 10px}
