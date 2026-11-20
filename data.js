@@ -1,5 +1,5 @@
-/* eBikePartsPicker catalog. Catalog v4.17.9, last researched 2026-11-19.
-   46 bikes / 23 categories / 1984 parts (1977 listed, 7 hidden).
+/* eBikePartsPicker catalog. Catalog v4.17.11, last researched 2026-11-19.
+   46 bikes / 23 categories / 2026 parts (2019 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
    && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py
@@ -168,7 +168,7 @@ var CATEGORIES = [
      
       {v:'GritShift', p:999.99, url:'https://gritshift.com/products/ebmx-talaria-sting-mx4-xlb-60-core-motor-upgrade', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:["mx4","mx5"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['mx4','mx5'], likely:['lightbee','ultrabee','storm-bee','ventus-plus','ventus-evo','ss20','ss30','sr','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      badge:'XTA-60', motorKw:40, motorPeakKw:40, stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/ebmx-xta-60.webp'
     },
     {name:'Sotion FW02 Talaria Motor', pid:'sotion-fw02', tier:'mid',
@@ -527,7 +527,7 @@ var CATEGORIES = [
       {v:'Darwin EV', p:1295, url:'https://darwinev.com/products/torp-tc1000-2-controller-sur-ron-light-bee', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","mx5"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","komodo","ventus-plus","ventus-evo"], no:[],
+     fits:['lightbee','mx4','mx5'], likely:['arctic-xd','bonnell-805rx','ss30','sr','ss20','komodo','ventus-plus','ventus-evo'], no:['ss40'],
      ctrlMaxKw:50, stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/torp-tc1000-2x.jpg'
     },
     {name:'TORP TC500 2.X Controller Kit', pid:'torp-tc500-2x', tier:'midrange',
@@ -537,7 +537,7 @@ var CATEGORIES = [
       {v:'E-Moto USA', p:929.99, url:'https://e-motousa.com/product/torp-tc500-2-x-controller-kit-for-surron-talaria/', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee","mx4","mx5"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","ventus-plus","ventus-evo"], no:[],
+     fits:['lightbee','mx4','mx5'], likely:['arctic-xd','bonnell-805rx','ss30','sr','ss20','ventus-plus','ventus-evo'], no:['ss40'],
      ctrlMaxKw:30, stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/torp-tc500-2x.jpg'
     },
     {name:'VTB V9600 Aetos Pro Gen.2 Controller', pid:'vtb-aetos-pro', tier:'premium',
@@ -1057,7 +1057,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:689, url:'https://chargedcycleworks.com/products/e-ride-pro-sr-775-fork', chk:'2026-11-20', stock:'out_of_stock'},
      ],
-     fits:['sr','ss30'], likely:[], no:[],
+     fits:['sr','ss30','ss40'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-e-ride-pro-sr-775-fork.webp'
     },
     {name:'EXT Ferro Fork - Open Box', pid:'chargedcycleworks-ext-ferro-fork-open-box', tier:'midrange',
@@ -1113,7 +1113,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:1099, url:'https://chargedcycleworks.com/products/rfloxa-hawk35-max-plus-fork-1', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['sr'], likely:[], no:[],
+     fits:['sr','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-rfloxa-hawk35-max-plus-fork-1.webp'
     },
     {name:'RTech Fork Protectors for Surron Ultra Bee Models (2023 to 2025)', pid:'chargedcycleworks-rtech-fork-protectors-surron-ultra-bee', tier:'midrange',
@@ -1208,7 +1208,7 @@ var CATEGORIES = [
      
       {v:'GritShift', p:1699, url:'https://gritshift.com/products/tech-suspension-e39-racing-kashima-fork-e-moto', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['sr','ventus-evo','falcon-pro','falcon-gt'], likely:['altis-sigma'], no:[],
+     fits:['sr','ventus-evo','falcon-pro','falcon-gt','ss40'], likely:['altis-sigma'], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-tech-suspension-e39-racing-kashima-fork.webp'
     },
     {name:'RFloXa HAWK36 MAX Fork – Arctic Leopard XE Pro S | 228mm', pid:'chargedcycleworks-rfloxa-hawk36-max-fork', tier:'premium',
@@ -1548,7 +1548,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:950, url:'https://tbelectricmoto.com/products/ext-arma', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['lightbee','mx4','mx5','ss20','ss30','ventus-plus','arctic-leopard-xf','sr','altis-sigma'], likely:['ventus-evo','komodo','ss40'], no:[],
+     fits:['lightbee','mx4','mx5','ss20','ss30','ventus-plus','arctic-leopard-xf','sr','altis-sigma','ss40'], likely:['ventus-evo','komodo'], no:[],
      badge:'EXT Arma', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/ext-arma-mx.webp'
     },
     {name:'Shock Absorber Black — Komodo OEM', pid:'komodo-shock-absorber-oem', tier:'OEM',
@@ -1668,13 +1668,6 @@ var CATEGORIES = [
      fits:['bonnell-805rx'], likely:['ultrabee-21kw'], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/shock-sirris-r46-rear-shock-spring.webp'
     },
-    {name:'Prickly Linkage for Sirris R38 Rear Shock E Ride Pro', pid:'chargedcycleworks-prickly-performance-linkage-e-ride-pro', tier:'midrange',
-     prices:[
-      {v:'Charged Cycle Works', p:125, url:'https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro', chk:'2026-11-20', stock:'in_stock'},
-     ],
-     fits:['sr','ss30'], likely:[], no:[],
-     stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-prickly-performance-linkage-e-ride-pro.webp'
-    },
     {name:'PURE Racing - TRAXION S | TiAlN | 260mm Travel for Surron Ultra Bee', pid:'chargedcycleworks-traxion-s-tialn-260mm-travel-surron-ultra-bee', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/traxion-s-tialn-260mm-travel-surron-ultra-bee', chk:'2026-11-20', stock:'in_stock'},
@@ -1700,7 +1693,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:2250, url:'https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['ss30'], likely:[], no:[],
+     fits:['ss30','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0.webp'
     },
     {name:'F43 CMX Tune | Tool Free LSC | 220 mm Travel | Talaria MX5', pid:'chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-talaria-mx5', tier:'midrange',
@@ -1784,7 +1777,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-3-0', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['ss30'], likely:[], no:[],
+     fits:['ss30'], likely:['ss40'], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-r38-2sc-e-ride-pro-3-0.webp'
     },
     {name:'Sirris R46 MX Tune | 2SC | Surron Ultra Bee 1.2', pid:'chargedcycleworks-sirris-r46-mx-tune-rear-shock-surron-ultra-bee', tier:'midrange',
@@ -1828,7 +1821,7 @@ var CATEGORIES = [
      
       {v:'GritShift', p:955.99, url:'https://gritshift.com/products/tech-suspension-er34-racing-kashima-shock-e-moto', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['sr','ss30','ventus-evo','ventus-plus','falcon-pro','falcon-gt'], likely:[], no:[],
+     fits:['sr','ss30','ventus-evo','ventus-plus','falcon-pro','falcon-gt','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-tech-suspension-er34-racing-kashima-shock.webp'
     },
     {name:'Vonkat TENfive V2 Shock for SurRon Talaria Segway', pid:'chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway', tier:'midrange',
@@ -1837,7 +1830,7 @@ var CATEGORIES = [
      
       {v:'GritShift', p:699.89, url:'https://gritshift.com/products/vonkat-tenfive-shock', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['mx5','sr','altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['mx5','sr','altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r','ss40'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway.webp'
     },
     {name:'Warp9 4mm Neoprene Shock Cover – Surron / Talaria / E-Ride Pro', pid:'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto', tier:'midrange',
@@ -2021,7 +2014,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:599, url:'https://chargedcycleworks.com/products/ion-16-19-wheelset-for-e-ride-pro-3-0-sr', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['sr','ss30'], likely:['arctic-xd','bonnell-805rx','komodo','lightbee','mx4','mx5','ss20','ss40','storm-bee','ultrabee','ventus-evo','ventus-plus'], no:['arctic-leopard-xe-pro-s-enduro','zero-xe'],
+     fits:['sr','ss30','ss40'], likely:['arctic-xd','bonnell-805rx','komodo','lightbee','mx4','mx5','ss20','storm-bee','ultrabee','ventus-evo','ventus-plus'], no:['arctic-leopard-xe-pro-s-enduro','zero-xe'],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/wheels-ion-eride30-sr-1619.webp'
     },
     {name:'Storm Bee Supermoto Wheel Kit', pid:'stormbee-supermoto-wheels', hidden:1, /* retired: only seller was a copycat store */ tier:'midrange',
@@ -2198,7 +2191,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:299.99, url:'https://chargedcycleworks.com/products/ion-21-eride-sr-front-wheel', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['sr','ss30'], likely:[], no:[],
+     fits:['sr','ss30','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-ion-21-eride-sr-front-wheel.webp'
     },
     {name:'21" Front Wheel with CST Tire for Surron Ultra Bee', pid:'chargedcycleworks-surron-ultra-bee-21-inch-front-wheel-cst-tire', tier:'OEM',
@@ -2319,7 +2312,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:699, url:'https://chargedcycleworks.com/products/ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['sr'], likely:[], no:[],
+     fits:['sr','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr.webp'
     },
     {name:'ION - E Ride Pro 3.0 / SR - 18/21 Wheelset', pid:'chargedcycleworks-ion-18-21-wheelset-for-e-ride-pro-3-0-sr', tier:'midrange',
@@ -3162,6 +3155,62 @@ var CATEGORIES = [
      fits:[], likely:['altis-omega'], no:[],
      badge:'Tusk', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/wiredwhips-tusk-rim-lock-2-15-altis-omega-rear.webp'
     },
+    {name:'Heavy Hitter 4340 Chromoly Upgraded E Ride Rear Axle', pid:'chargedcycleworks-heavy-hitter-4340-chromoly-upgraded-rear-axle', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:48.89, url:'https://chargedcycleworks.com/products/heavy-hitter-4340-chromoly-upgraded-rear-axle', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'Warp 9 12mm Rear Axle Kit - E Ride Pro 3.0 / 4.0 / SR', pid:'gritshift-warp-9-12mm-rear-axle-kit-e-ride-pro-ss-3-0-sr', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:89.89, url:'https://gritshift.com/products/warp-9-12mm-rear-axle-kit-e-ride-pro-ss-3-0-sr', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'Warp 9 Eride Pro 12.9 Cryo Steel Rear Axle (12mm)', pid:'tbelectricmoto-eride-12-9-cryo-steel-rear-axel-12mm', tier:'midrange',
+     prices:[
+      {v:'TB Electric Moto', p:149, url:'https://tbelectricmoto.com/products/eride-12-9-cryo-steel-rear-axel-12mm', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'Warp 9 Lockdown Axle Blocks', pid:'gritshift-warp-9-lockdown-axle-blocks-sur-ron-segway', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:86.99, url:'https://gritshift.com/products/warp-9-lockdown-axle-blocks-sur-ron-segway', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'SHE8004+SHE8005 Gold Supermoto Wheel Set - SS3.0/SR/4.0/SE', pid:'eridepro-she8004-she8005-gold-supermoto-wheel-assembly-setfront-and-rear-wheel-assembly-ss3-0-sr', tier:'OEM',
+     prices:[
+      {v:'E Ride Pro', p:890, url:'https://www.eridepro.com/products/she8004-she8005-gold-supermoto-wheel-assembly-setfront-and-rear-wheel-assembly-ss3-0-sr', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'SHE7988+SHE7987 Black Supermoto Wheel Set - SS3.0/SR/4.0/SE', pid:'eridepro-she7988-rear-wheel-assembly-ss3-0-sr', tier:'OEM',
+     prices:[
+      {v:'E Ride Pro', p:790, url:'https://www.eridepro.com/products/she7988-rear-wheel-assembly-ss3-0-sr', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'SHE8019 21" Front Fatty Wheel Assembly - SR/4.0', pid:'eridepro-she8019-21-front-wheel-tire-assembly-sr', tier:'OEM',
+     prices:[
+      {v:'E Ride Pro', p:399, url:'https://www.eridepro.com/products/she8019-21-front-wheel-tire-assembly-sr', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'16in Rear Wheel for E-Ride Pro SS 3.0/SR/4.0', pid:'tbelectricmoto-16in-wheel-for-e-ride-pro-ss-3-0-sr', tier:'midrange',
+     prices:[
+      {v:'TB Electric Moto', p:279, url:'https://tbelectricmoto.com/products/16in-wheel-for-e-ride-pro-ss-3-0-sr', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
 ]},
   {id:'brakes', name:'Brakes', blurb:'As the bike gets faster, stopping matters more. Bigger rotors and better calipers transform confidence.', tips:['Rotor size changes may need a caliper relocation bracket','Match master cylinder to caliper','Pad compound: organic for feel, sintered for bite and life'], options:[
     {name:'Stock brakes', prices:[]},
@@ -3194,7 +3243,7 @@ var CATEGORIES = [
       {v:'E Ride Pro', p:109, url:'https://www.eridepro.com/products/e7094', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20"], likely:["ss30","ss40","sr","ventus-plus","ventus-evo","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['ss20'], likely:['ss30','sr','ventus-plus','ventus-evo','mx5','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/brakes-eride-e7094-front.webp'
     },
     {name:'Sur-Ron Light Bee Moto Foot Brake Kit', pid:'brakes-factoryz-lightbee-foot', tier:'premium',
@@ -3399,7 +3448,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-regen', chk:'2026-11-20', stock:'out_of_stock'},
       {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake', chk:'2026-11-20', stock:'out_of_stock'},
      ],
-     fits:['sr'], likely:[], no:[],
+     fits:['sr','ss40'], likely:[], no:[],
      badge:'Brakes', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/tbelectricmoto-e-ride-pro-sr-regen-brake.webp'
     },
     {name:'Eride Pro SR / 3.0 Brake Pads Talaria MX5', pid:'howlingmoto-eride-pro-sr-3-0-brake-pads-talaria-mx5', tier:'budget',
@@ -3510,7 +3559,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:149, url:'https://chargedcycleworks.com/products/eride-pro-260mm-floating-racing-rotor-kit-team-edition', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['sr','ss30'], likely:[], no:[],
+     fits:['sr','ss30','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-eride-pro-260mm-floating-racing-rotor-kit-team-edition.webp'
     },
     {name:'E Ride SS3.0/SR - DOT4  Brake Assembly (Type 2)', pid:'chargedcycleworks-eride-ss3-sr-brake-assembly-dot4-type-2', tier:'OEM',
@@ -3545,7 +3594,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:779, url:'https://chargedcycleworks.com/products/formula-eb9', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['mx5','sr','ss30','ventus-plus','altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','ventus-evo'], likely:[], no:[],
+     fits:['mx5','sr','ss30','ventus-plus','altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','ventus-evo','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-formula-eb9.webp'
     },
     {name:'Arctic Leopard - XE PRO Rear Brake Hose | OEM', pid:'chargedcycleworks-arctic-leopard-xe-rear-brake-hose-oem', tier:'OEM',
@@ -4184,7 +4233,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:150.0, url:'https://tbelectricmoto.com/products/asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[],
+     fits:['altis-delta','ss40'], likely:[], no:[],
      badge:'Asv', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/tbelectricmoto-asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr.webp'
     },
     {name:'ASV F4-E Break Away Levers For Ultra Bee, MX5, E-Ride 3.0/ SR', pid:'tbelectricmoto-asv-f4-e-break-away-levers-for-e-ride-pro-3-0-sr-talaria-sting-mx5-altis-sigma', tier:'midrange',
@@ -4204,13 +4253,13 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:20.0, url:'https://tbelectricmoto.com/products/tb-brake-lever-replacement-parts', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/tbelectricmoto-tb-brake-lever-replacement-parts.webp'
+     fits:['altis-delta','ss40'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/tbelectricmoto-tb-brake-lever-replacement-parts.webp'
     },
     {name:'TB Brake Levers for Talaria Sting MX5, E-Ride 3.0/SR, Altis Sigma', pid:'tbelectricmoto-tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr', tier:'midrange',
      prices:[
       {v:'TB Electric Moto', p:55.0, url:'https://tbelectricmoto.com/products/tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/tbelectricmoto-tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr.webp'
+     fits:['altis-delta','ss40'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/tbelectricmoto-tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr.webp'
     },
     {name:'Tuttio Soleil01 CNC Folding Brake Levers', pid:'tbelectricmoto-tuttio-soleil01-folding-brake-levers', tier:'budget',
      prices:[
@@ -4237,7 +4286,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:46.0, url:'https://tbelectricmoto.com/products/warp-9-folding-brake-levers', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['altis-delta'], likely:[], no:[],
+     fits:['altis-delta','ss40'], likely:[], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/tbelectricmoto-warp-9-folding-brake-levers.webp'
     },
     {name:'Tuttio Soleil01 Dirt Bike Hand Brake Levers（Sliver）', pid:'tuttio-tuttio-soleil-01-dirt-bike-hand-brake-levers-sliver', tier:'OEM',
@@ -4426,6 +4475,55 @@ var CATEGORIES = [
      fits:[], likely:['altis-omega'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-20'
     },
+    {name:'Formula EB9 99.5mm Front Brake Kit (E-Ride Pro)', pid:'gritshift-formula-eb9-eridepro-front-kit', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:349.99, url:'https://gritshift.com/products/formula-eb9-eridepro', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'Formula EB9 99.5mm Rear Brake Kit (E-Ride Pro)', pid:'gritshift-formula-eb9-eridepro-rear-kit', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:349.99, url:'https://gritshift.com/products/formula-eb9-eridepro', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'EBike Garage Moto Brake Conversion Kit (Ultra Bee brakes) - E-Ride Pro SS 3.0/SR/4.0', pid:'tbelectricmoto-ebike-garage-rear-single-caliper-moto-brake-conversion-kit-e-ride-pro-ss-3-0-sr', tier:'premium',
+     prices:[
+      {v:'TB Electric Moto', p:444, url:'https://tbelectricmoto.com/products/ebike-garage-rear-single-caliper-moto-brake-conversion-kit-e-ride-pro-ss-3-0-sr', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'EBike Garage Foot Brake Kit - E-Ride Pro SS 3.0/SR/4.0', pid:'tbelectricmoto-ebike-garage-foot-brake-kit-for-e-ride-pro-ss-3-0-sr', tier:'premium',
+     prices:[
+      {v:'TB Electric Moto', p:308, url:'https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-e-ride-pro-ss-3-0-sr', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'Heavy Hitter 220mm Front Brake Rotor 3mm SR/3.0/4.0', pid:'gritshift-heavy-hitter-220mm-front-brake-rotor-1', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:26.99, url:'https://gritshift.com/products/heavy-hitter-220mm-front-brake-rotor-1', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'Heavy Hitter 220mm Rear Brake Rotor 3mm SR/3.0/4.0', pid:'gritshift-heavy-hitter-220mm-rear-brake-rotor-1', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:26.99, url:'https://gritshift.com/products/heavy-hitter-220mm-rear-brake-rotor-1', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'ASV F3-E Super Shorty F/R Brake Lever Set - Type 2', pid:'gritshift-asv-f3-super-shorty-brake-lever-set-ultra-bee-eride', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:174.99, url:'https://gritshift.com/products/asv-f3-super-shorty-brake-lever-set-ultra-bee-eride', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
 ]},
   {id:'plastics', name:'Plastics', blurb:'Bodywork — the look of the bike plus roost protection.', tips:['Mounting is bike-specific — \'universal\' rarely is','Full kits look cleaner than piecing together','Graphics usually sold separately'], options:[
     {name:'Stock plastics', prices:[]},
@@ -4466,7 +4564,7 @@ var CATEGORIES = [
       {v:'ThrottleCo', p:120, url:'https://throttleco.store/products/pre-designed-ultrabee-graphics-kit-plastics-only', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","ventus-plus","ventus-evo"], no:[],
+     fits:['ultrabee'], likely:['arctic-xd','bonnell-805rx','ss30','sr','ss20','storm-bee','komodo','mx5','ventus-plus','ventus-evo'], no:['ss40'],
      badge:'Graphics', variant:'custom', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/plastics-ultrabee-graphics.webp'
     },
     {name:'Sur-Ron Light Bee Front Number Plate', pid:'plastics-lightbee-numberplate', tier:'budget',
@@ -5602,6 +5700,20 @@ var CATEGORIES = [
      ],
      fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/wiredwhips-oem-sub-frame-delta-delta-s.webp'
     },
+    {name:'E-Ride Pro Front Number Plate', pid:'tbelectricmoto-e-ride-pro-front-number-plate', tier:'midrange',
+     prices:[
+      {v:'TB Electric Moto', p:26, url:'https://tbelectricmoto.com/products/e-ride-pro-front-number-plate', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'E-Ride Pro Real Carbon Fiber Plastics', pid:'tbelectricmoto-e-ride-pro-real-carbon-fiber-plastics', tier:'midrange',
+     prices:[
+      {v:'TB Electric Moto', p:70, url:'https://tbelectricmoto.com/products/e-ride-pro-real-carbon-fiber-plastics', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
 ]},
   {id:'batteries', name:'Batteries', blurb:'Your fuel tank and your power ceiling. A weak battery chokes even the best motor and controller combo.', tips:['Continuous kW rating must meet what your controller pulls — check the Powertrain panel for bottlenecks','Voltage must match your controller\'s range','Confirm it physically fits your frame — sizes vary a lot','Swappable packs are convenient; fixed packs usually hold more capacity'], options:[
     {name:'Stock batteries', prices:[]},
@@ -5644,7 +5756,7 @@ var CATEGORIES = [
       {v:'Peak Power E-Motos', p:1869, url:'https://peakpoweremotos.com/parts/ultra-bee-battery', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:['ultrabee'], likely:['arctic-xd','bonnell-805rx','ss30','sr','ss20','komodo','mx5','mx4','ventus-plus','ventus-evo'], no:['ss40'],
      battKwh:4.44, stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/ultrabee-2025-oem-battery.webp'
     },
     {name:'E7271 72V 50Ah Battery - SS3.0 Type A / SS2.0 / Pro-S', pid:'eride-e7271-battery', tier:'OEM',
@@ -5652,7 +5764,7 @@ var CATEGORIES = [
       {v:'E Ride Pro', p:2099, url:'https://www.eridepro.com/products/e7271', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20","ss30"], likely:["sr","arctic-xd","bonnell-805rx","ss40","komodo","ventus-plus","ventus-evo"], no:[],
+     fits:['ss20','ss30'], likely:['sr','arctic-xd','bonnell-805rx','komodo','ventus-plus','ventus-evo'], no:['ss40'],
      battKwh:3.6, stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/eride-e7271-battery.webp'
     },
     {name:'E Ride Pro 4.0 72V 50Ah Pouch Cell Battery', pid:'eride-pro40-oem-battery', tier:'OEM',
@@ -5660,7 +5772,7 @@ var CATEGORIES = [
       {v:'E Ride Pro', p:2099, url:'https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["ss30","sr","arctic-xd","bonnell-805rx","ss20","komodo","ventus-plus","ventus-evo","ss40"], no:[],
+     fits:['ss40'], likely:['ss30','sr','arctic-xd','bonnell-805rx','ss20','komodo','ventus-plus','ventus-evo'], no:[],
      battKwh:3.6, stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/eride-pro40-oem-battery.webp'
     },
     {name:'DHS 88V 60Ah Race Battery w RS50 cells producing 75kw peak!', pid:'dhs-88v-60ah-ultrabee', tier:'premium',
@@ -6217,7 +6329,7 @@ var CATEGORIES = [
      
       {v:'GritShift', p:64.89, url:'https://gritshift.com/products/direct-mount-stem-riser-2-inch', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x'], likely:['rawrr-mantis-72v','ss40'], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars.webp'
     },
     {name:'Direct Mount Stem Lift Kit', pid:'chargedcycleworks-surron-light-bee-stem-lift-kit', tier:'midrange',
@@ -6245,7 +6357,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:97, url:'https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar', chk:'2026-11-20', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rawrr-mantis-x','rawrr-mantis-72v'], no:[],
+     fits:['ss40'], likely:['rawrr-mantis-x','rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-warp9-e-moto-tapped-handlebar-31-8mm.webp'
     },
     {name:'Prickly 31.8 Handlebars', pid:'chargedcycleworks-prickly-31-8-handlebars', tier:'midrange',
@@ -6730,7 +6842,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:69, url:'https://chargedcycleworks.com/products/oem-replacement-throttle-for-surron-light-bee', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:['lightbee'], likely:['arctic-xd','bonnell-805rx','ss30','sr','ss20','storm-bee','ultrabee','komodo','mx5','mx4','ventus-plus','ventus-evo'], no:['ss40'],
      badge:'Throttle', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/cockpit-surron-oem-throttle.webp'
     },
     {name:'Sur-Ron Light Bee Handle Grips (Left and Right)', pid:'cockpit-surron-oem-grips', tier:'budget',
@@ -6746,7 +6858,7 @@ var CATEGORIES = [
       {v:'Sur-Ron', p:23.6, url:'https://shop.sur-ron.com/products/%E8%BD%BB%E8%9C%82%E9%85%8D%E4%BB%B6-%E6%8A%8A%E7%AB%8B', chk:'2026-11-20', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:['lightbee'], likely:['arctic-xd','bonnell-805rx','ss30','sr','ss20','storm-bee','komodo','mx5','mx4','ventus-plus','ventus-evo'], no:['ss40'],
      badge:'Stem', stock:'out_of_stock', stockChk:'2026-11-20', img:'img/parts/cockpit-surron-stem.webp'
     },
     {name:"E Ride Pro SS OEM Twist Throttle (E7084)", pid:'voro-eride-ss-twist-throttle', tier:'OEM',
@@ -7079,7 +7191,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:145, url:'https://chargedcycleworks.com/products/prickly-31-8-direct-mount-stem-surron', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['arctic-leopard-xe-pro-s-enduro'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
+     fits:['arctic-leopard-xe-pro-s-enduro'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xf','ss40'], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-prickly-31-8-direct-mount-stem-surron.webp'
     },
     {name:'KKE Direct Mount Stem', pid:'chargedcycleworks-kke-handlebar-risers-fit-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-talaria-sting-mx3-mx4-collective', tier:'midrange',
@@ -7463,7 +7575,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:9.99, url:'https://tbelectricmoto.com/products/upgraded-handlebar-grips', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/tbelectricmoto-upgraded-handlebar-grips.webp'
+     fits:['tuttio-soleil01','ss40'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/tbelectricmoto-upgraded-handlebar-grips.webp'
     },
     {name:'Tuttio Soleil01 Ebike Handguards', pid:'tuttio-tuttio-soleil01-ebike-handguards', tier:'OEM',
      prices:[
@@ -7665,6 +7777,41 @@ var CATEGORIES = [
      fits:[], likely:['altis-omega'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/wiredwhips-warp-9-e-moto-handguard-kit-altis-omega.webp'
     },
+    {name:'TB Heavy Duty Direct Mount Stem', pid:'tbelectricmoto-tb-direct-mount-stem-2', tier:'midrange',
+     prices:[
+      {v:'TB Electric Moto', p:70, url:'https://tbelectricmoto.com/products/tb-direct-mount-stem-2', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'Heavy Hitter Adjustable Billet Display Mount', pid:'gritshift-heavy-hitter-adjustable-billet-display-mount', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:36.89, url:'https://gritshift.com/products/heavy-hitter-adjustable-billet-display-mount', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'Warp 9 CNC E-Ride Pro Display Mount', pid:'tbelectricmoto-warp-9-e-ride-pro-display', tier:'midrange',
+     prices:[
+      {v:'TB Electric Moto', p:55, url:'https://tbelectricmoto.com/products/warp-9-e-ride-pro-display', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'(00240-E7-01) OEM Throttle with P/Headlight/Taillight Switch - Pro 4.0', pid:'eridepro-00240-e7-01-throttlewith-p-head-light-tail-light-swich', tier:'OEM',
+     prices:[
+      {v:'E Ride Pro', p:69, url:'https://www.eridepro.com/products/00240-e7-01-throttlewith-p-head-light-tail-light-swich', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'SHE8057 Handlebar Stem Adapter Assembly - Pro 4.0', pid:'eridepro-she8057-handlebar-stem-adapter-assembly-pro-4-0', tier:'OEM',
+     prices:[
+      {v:'E Ride Pro', p:25, url:'https://www.eridepro.com/products/she8057-handlebar-stem-adapter-assembly-pro-4-0', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
 ]},
   {id:'cooling', name:'Cooling', blurb:'High-power builds make serious heat. Cooling keeps your motor and controller alive when you\'re pushing hard.', tips:['Mostly needed above ~15 kW or for sustained high load','Check fitment against your specific motor'], options:[
     {name:'Stock cooling', prices:[]},
@@ -7722,7 +7869,7 @@ var CATEGORIES = [
       {v:'E Ride Pro', p:99, url:'https://www.eridepro.com/products/she8011-420-chain-drive-set-ss2-0-3-0-sr', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20","ss30","sr"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss40","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['ss20','ss30','sr'], likely:['lightbee','ultrabee','storm-bee','ventus-plus','ventus-evo','mx4','mx5','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/drivetrain-eride-chain-kit.webp'
     },
     {name:'E7004 Upgraded Drive Belt Pulley - Pro-S / SS2.0', pid:'drivetrain-eride-belt-pulley', tier:'OEM',
@@ -7731,7 +7878,7 @@ var CATEGORIES = [
       {v:'E Ride Pro', p:89, url:'https://www.eridepro.com/products/e7004', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['ss20'], likely:['lightbee','ultrabee','storm-bee','ventus-plus','ventus-evo','ss30','sr','mx4','mx5','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/drivetrain-eride-belt-pulley.webp'
     },
     {name:'E7006 Drive Belt - Pro-S / SS2.0', pid:'drivetrain-eride-belt', tier:'OEM',
@@ -7739,7 +7886,7 @@ var CATEGORIES = [
       {v:'VORO Motors', p:64.95, url:'https://voromotors.com/products/drive-belt-for-e-ride-pro-ss', chk:'2026-11-20', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20"], likely:["lightbee","ultrabee","storm-bee","ventus-plus","ventus-evo","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['ss20'], likely:['lightbee','ultrabee','storm-bee','ventus-plus','ventus-evo','ss30','sr','mx4','mx5','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      stock:'out_of_stock', stockChk:'2026-11-20', img:'img/parts/drivetrain-eride-belt.webp'
     },
     {name:'O-ring Chain 520-108 — Komodo OEM', pid:'komodo-chain-520', tier:'OEM',
@@ -7828,7 +7975,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:60, url:'https://tbelectricmoto.com/products/ebmx-sprocket-for-e-ride-pro-sr-3-0', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:["sr"], likely:[], no:[],
+     fits:['sr','ss40'], likely:[], no:[],
      badge:'Drivetrain', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/tbelectricmoto-ebmx-sprocket-for-e-ride-pro-sr-3-0.webp'
     },
     {name:'DirtyBike RK 420 Primary Chain Drive Conversion Kit – E Ride Pro SR', pid:'howlingmoto-dirtybike-rk-420-primary-chain-drive-conversion-kit-e-ride', tier:'mid',
@@ -7842,7 +7989,7 @@ var CATEGORIES = [
      prices:[
       {v:'REV Rides', p:48.99, url:'https://revrides.com/products/heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-for-e-ride-pro-sr-ss-3-0', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:["ss30", "sr"], likely:[], no:[],
+     fits:['ss30','sr','ss40'], likely:[], no:[],
      badge:'Drivetrain', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/revrides-heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-f.webp'
     },
     {name:'E-Moto 428 Chain by Warp 9 For Altis Sigma, Eride Pro Sr, 3.0', pid:'revrides-e-moto-428-chain-by-warp-9-for-altis-sigma-eride-pro-sr-3-0', tier:'mid',
@@ -8205,7 +8352,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:50, url:'https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['sr','ss30'], likely:[], no:[],
+     fits:['sr','ss30','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-e-ride-pro-3-0-sr-rear-sprocket.webp'
     },
     {name:'Warp9 Surron Ultra Bee 520 Aluminum Sprocket', pid:'chargedcycleworks-ultra-bee-aluminum-sprocket-by-warp9', tier:'midrange',
@@ -8227,7 +8374,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:99.89, url:'https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['falcon-gt'], likely:[], no:[],
+     fits:['falcon-gt','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit.webp'
     },
     {name:'D.I.D Super 420NZ3G Gold Chain', pid:'drivetrain-did-420nz3g-gold-chain', tier:'mid',
@@ -8753,6 +8900,34 @@ var CATEGORIES = [
      ],
      fits:[], likely:['tuttio-soleil01'], no:[], stock:'out_of_stock', stockChk:'2026-11-20', img:'img/parts/wiredwhips-oem-soleil01-sprocket-chainring-soleil-01-front-sprocket.webp'
     },
+    {name:'Heavy Hitter 300M Chromoly Upgraded 12mm E Ride Jackshaft Bolt', pid:'gritshift-heavy-hitter-300m-chromoly-upgraded-12mm-e-ride-jackshaft-bolt', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:40.89, url:'https://gritshift.com/products/heavy-hitter-300m-chromoly-upgraded-12mm-e-ride-jackshaft-bolt', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'E-Ride Pro OEM 428 Rear Sprocket (44-58T)', pid:'tbelectricmoto-e-ride-oem-sprocket-for-e-ride-pro-ss-3-0-sr-44-48-50-52', tier:'midrange',
+     prices:[
+      {v:'TB Electric Moto', p:55, url:'https://tbelectricmoto.com/products/e-ride-oem-sprocket-for-e-ride-pro-ss-3-0-sr-44-48-50-52', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'E Ride Pro OEM 18mm Carbon Drive Belt - SS 3.0 / 4.0', pid:'gritshift-e-ride-pro-oem-18mm-drive-belt', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:69.99, url:'https://gritshift.com/products/e-ride-pro-oem-18mm-drive-belt', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'E Ride Pro OEM 428HZ Gold Chain 114 Link', pid:'gritshift-e-ride-pro-428hz-gold-chain-114-link', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:29, url:'https://gritshift.com/products/e-ride-pro-428hz-gold-chain-114-link', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
 ]},
   {id:'electrical', name:'Electrical', blurb:'Dashboards, lights, and wiring that tie the build together.', tips:['Check voltage compatibility with your battery','Plug-and-play beats splicing — look for bike-specific kits'], options:[
     {name:'Stock electrical', prices:[]},
@@ -8768,7 +8943,7 @@ var CATEGORIES = [
       {v:'Sur-Ron', p:56, url:'https://shop.sur-ron.com/products/light-bee-replacement-dashboard', chk:'2026-11-20', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
+     fits:['lightbee'], likely:['arctic-xd','bonnell-805rx','ss30','sr','ss20','storm-bee','komodo','mx5','mx4','ventus-plus','ventus-evo'], no:['ss40'],
      badge:'Dashboard', stock:'out_of_stock', stockChk:'2026-11-20', img:'img/parts/electrical-surron-oem-dashboard.webp'
     },
     {name:'Sur-Ron Light Bee OEM Horn', pid:'electrical-surron-horn', tier:'budget',
@@ -8847,7 +9022,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:24, url:'https://tbelectricmoto.com/products/tb-e-ride-pro-ss-key-ignition-cover', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:["ss20"], likely:[], no:[],
+     fits:['ss20','ss40'], likely:[], no:[],
      badge:'Electrical', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/tbelectricmoto-tb-e-ride-pro-ss-key-ignition-cover.webp'
     },
     {name:'E7032 - Converter - S/SS 2.0/SS3.0/SR', pid:'eridepro-e7032', tier:'budget',
@@ -9514,6 +9689,34 @@ var CATEGORIES = [
      ],
      fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/wiredwhips-oem-tft-color-display-delta-delta-s.webp'
     },
+    {name:'SHE8059 Off-Road Headlight LED Light Bar - Pro 4.0', pid:'eridepro-she8059-off-road-headlight-led-light-bar-pro-4-0', tier:'OEM',
+     prices:[
+      {v:'E Ride Pro', p:49, url:'https://www.eridepro.com/products/she8059-off-road-headlight-led-light-bar-pro-4-0', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'Heavy Hitter E-Ride Painless Billet Ignition Cover', pid:'gritshift-heavy-hitter-e-ride-mini-mod-ignition-cover', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:31.89, url:'https://gritshift.com/products/heavy-hitter-e-ride-mini-mod-ignition-cover', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'(00244-E7-01) OEM Display with Screws - Pro 4.0', pid:'eridepro-00244-e7-01-displaywith-screws-pro-4-0', tier:'OEM',
+     prices:[
+      {v:'E Ride Pro', p:169, url:'https://www.eridepro.com/products/00244-e7-01-displaywith-screws-pro-4-0', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'(00113-DJ-01) OEM Control Switch with Reverse - Pro 4.0', pid:'eridepro-00113-dj-01-control-switch-with-reverse-pro-4-0', tier:'OEM',
+     prices:[
+      {v:'E Ride Pro', p:49, url:'https://www.eridepro.com/products/00113-dj-01-control-switch-with-reverse-pro-4-0', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
 ]},
   {id:'guards', name:'Guards', blurb:'Cheap insurance — frame, rotor, and case protection that pays for itself the first crash.', tips:['Bike-specific fitment','Rotor guards need caliper clearance'], options:[
     {name:'Stock guards', prices:[]},
@@ -9537,7 +9740,7 @@ var CATEGORIES = [
       {v:'E Ride Pro', p:9, url:'https://www.eridepro.com/products/e7020', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ss20"], likely:["ventus-plus","ventus-evo","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['ss20'], likely:['ventus-plus','ventus-evo','ss30','sr','mx5','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      badge:'E Ride Pro', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/guards-eride-motor-guard.webp'
     },
     {name:'Sur-Ron Ultra Bee OEM Skid Plate', pid:'guards-ultrabee-skid', tier:'stock_replacement',
@@ -9553,7 +9756,7 @@ var CATEGORIES = [
       {v:'Sur-Ron', p:7.8, url:'https://shop.sur-ron.com/products/sur-ron-chain-protection-box', chk:'2026-11-20', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['lightbee'], likely:['storm-bee','ventus-plus','ventus-evo','ss20','ss30','sr','mx4','mx5','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      badge:'Sur-Ron', stock:'out_of_stock', stockChk:'2026-11-20', img:'img/parts/guards-lightbee-chain.webp'
     },
     {name:'Storm Bee Upgrade Parts (Brake Levers / Guards)', pid:'stormbee-upgrade-parts-kit', tier:'budget',
@@ -9769,7 +9972,7 @@ var CATEGORIES = [
      
       {v:'GritShift', p:219.99, url:'https://gritshift.com/products/heavy-hitter-skid-plate-e-ride', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['sr','ss30'], likely:[], no:[],
+     fits:['sr','ss30','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-heavy-hitter-e-ride-skid-plate.webp'
     },
     {name:'SXS UHMW Skid plate', pid:'chargedcycleworks-uhmw-skid-plate-by-sxs-for-surron-segway', tier:'midrange',
@@ -9979,7 +10182,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:89.25, url:'https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee', chk:'2026-11-20', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ultrabee'], likely:['arctic-xd','bonnell-805rx','komodo','mx5','sr','ss20','ss30','ss40','storm-bee','ultrabee-21kw','ventus-evo','ventus-plus'], no:['zero-xe'],
+     fits:['ultrabee'], likely:['arctic-xd','bonnell-805rx','komodo','mx5','sr','ss20','ss30','storm-bee','ultrabee-21kw','ventus-evo','ventus-plus'], no:['zero-xe','ss40'],
      badge:'EBMX', stock:'out_of_stock', stockChk:'2026-11-20', img:'img/parts/linkage-ultrabeemx.webp'
     },
     {name:'Ultra Bee Rear Suspension Linkage & Triangle Upgrade Kit', pid:'linkage-ultrabee-emx', tier:'budget',
@@ -9987,7 +10190,7 @@ var CATEGORIES = [
       {v:'EMXDesigns', p:114.99, url:'https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit', chk:'2026-11-20', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ultrabee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['ultrabee'], likely:['storm-bee','ventus-plus','ventus-evo','ss20','ss30','sr','mx5','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      badge:'EMXDesigns', stock:'out_of_stock', stockChk:'2026-11-20', img:'img/parts/linkage-ultrabee-emx.webp'
     },
     {name:'Rippin Moto Rear Suspension Linkage Kit for Talaria MX3/MX4', pid:'linkage-talaria-mx34', tier:'midrange',
@@ -9995,7 +10198,7 @@ var CATEGORIES = [
       {v:'Rippin Moto', p:99.99, url:'https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4', chk:'2026-11-20', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["mx4"], likely:["lightbee","storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['mx4'], likely:['lightbee','storm-bee','ventus-plus','ventus-evo','ss20','ss30','sr','mx5','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      badge:'Rippin Moto', stock:'out_of_stock', stockChk:'2026-11-20', img:'img/parts/linkage-talaria-mx34.webp'
     },
     {name:"E Ride Pro SS OEM Rear Progression Triangle (E7026)", pid:'voro-eride-ss-progression-triangle', tier:'OEM',
@@ -10059,8 +10262,15 @@ var CATEGORIES = [
      prices:[
       {v:'REV Rides', p:125, url:'https://revrides.com/products/prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:["sr"], likely:[], no:[],
+     fits:['sr','ss40'], likely:[], no:[],
      badge:'Linkage', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/revrides-prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0.webp'
+    },
+    {name:'Prickly Linkage for Sirris R38 Rear Shock E Ride Pro', pid:'chargedcycleworks-prickly-performance-linkage-e-ride-pro', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:125, url:'https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro', chk:'2026-11-20', stock:'in_stock'},
+     ],
+     fits:['sr','ss30','ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-prickly-performance-linkage-e-ride-pro.webp'
     },
     {name:'Bonnell 805 - Linkage / Suspension Bearing Kit', pid:'linkage-bonnell-805-rx-linkage-suspension-bearing-kit', tier:'OEM',
      prices:[
@@ -10175,7 +10385,27 @@ var CATEGORIES = [
      fits:['arctic-leopard-xe-pro-r','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-tmb-linkage-for-sirris-r38-arctic-leopard-xe-pro-s-enduro-r.webp'
     },
-,
+    {name:'Heavy Hitter E Ride Billet Suspension Linkage Upgrade', pid:'chargedcycleworks-heavy-hitter-billet-suspension-linkage-upgrade', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:82.89, url:'https://chargedcycleworks.com/products/heavy-hitter-billet-suspension-linkage-upgrade', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'Heavy Hitter Adjustable Height E Ride Suspension Triangle', pid:'chargedcycleworks-heavy-hitter-adjustable-height-suspension-triangle', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:144.89, url:'https://chargedcycleworks.com/products/heavy-hitter-adjustable-height-suspension-triangle', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'Heavy Hitter 4140 Chromoly E Ride Linkage/Triangle/Shock Bolt Upgrade Kit', pid:'chargedcycleworks-heavy-hitter-4140-chromoly-e-ride-linkage-triangle-shock-bolt-upgrade-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:42.89, url:'https://chargedcycleworks.com/products/heavy-hitter-4140-chromoly-e-ride-linkage-triangle-shock-bolt-upgrade-kit', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
 ]},
   {id:'maintenance', name:'Maintenance', blurb:'Consumables and shop supplies to keep the build running.', tips:['Stock up on what wears: chains, brake pads, tires'], options:[
     {name:'Stock maintenance', prices:[]},
@@ -10200,7 +10430,7 @@ var CATEGORIES = [
       {v:'IZI Brothers', p:109, url:'https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['lightbee'], likely:['storm-bee','ventus-plus','ventus-evo','ss20','ss30','sr','mx4','mx5','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      badge:'IZI Brothers', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/maintenance-lightbee-swingarm-axle.webp'
     },
       {name:'E Ride Pro SS Kickstand magnetic switch', pid:'revrides-e-ride-pro-ss-kickstand-magnetic-switch', tier:'budget',
@@ -10267,7 +10497,7 @@ var CATEGORIES = [
      prices:[
       {v:'REV Rides', p:18, url:'https://revrides.com/products/bearing-kit-swingarm-12mm-shaft-e-ride-pro-sr-3-0', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:["sr"], likely:[], no:[],
+     fits:['sr','ss40'], likely:[], no:[],
      badge:'Maintenance', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/revrides-bearing-kit-swingarm-12mm-shaft-e-ride-pro-sr-3-0.webp'
     },
     {name:'eDirtybike Bearing Kit | Swingarm | E Ride Pro SR and 3.0', pid:'tbelectricmoto-bearing-kit-swingarm-e-ride-pro-sr-and-3-0', tier:'budget',
@@ -10542,7 +10772,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:120, url:'https://chargedcycleworks.com/products/warp9-adjustable-kickstand-surron-eride-falcon-ventus', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['mx5','sr','ss30'], likely:[], no:[],
+     fits:['mx5','sr','ss30','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus.webp'
     },
     {name:'Warp9 Surron Ultra Bee Adjustable Kickstand', pid:'chargedcycleworks-warp9-adjustable-kickstand-surron-ultra-bee', tier:'midrange',
@@ -10931,6 +11161,20 @@ var CATEGORIES = [
      ],
      fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/wiredwhips-oem-steering-washer-delta-delta-s.webp'
     },
+    {name:'Warp 9 E-Ride Pro SR / SS 3.0 / 4.0 Wheel Bearing Kit', pid:'warp9-e-ride-pro-sr-ss-3-0-4-0-wheel-bearing-kit', tier:'midrange',
+     prices:[
+      {v:'Warp 9 Racing', p:35, url:'https://warp9racing.com/products/e-ride-pro-sr-ss-3-0-4-0-wheel-bearing-kit', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'SHE7076 330mm Kickstand + Spring + Bolt Kit - SS2.0/SS3.0/SR/Pro 4.0', pid:'eridepro-she7076', tier:'OEM',
+     prices:[
+      {v:'E Ride Pro', p:29, url:'https://www.eridepro.com/products/she7076', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
 ]},
   {id:'pegs', name:'Foot Pegs', blurb:'Wider, sharper pegs mean more control — especially standing up.', tips:['Mounts are bike-specific','Titanium saves weight; steel lasts longer'], options:[
     {name:'Stock foot pegs', prices:[]},
@@ -10938,7 +11182,7 @@ var CATEGORIES = [
      prices:[
       {v:'Warp 9 Racing', p:142, url:'https://warp9racing.com/products/e-moto-elite-foot-pegs', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:["lightbee2"], likely:[], no:[],
+     fits:['lightbee2','ss40'], likely:[], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/warp9-elite-pegs.webp'
     },
     {name:'MX Billet Foot Pegs (Storm Bee)', pid:'mxps-billet-pegs-stormbee', tier:'budget',
@@ -10954,7 +11198,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:59.99, url:'https://tbelectricmoto.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['ultrabee'], likely:['arctic-xd','bonnell-805rx','komodo','mx5','sr','ss20','ss30','ss40','storm-bee','ultrabee-21kw','ventus-evo','ventus-plus'], no:[],
+     fits:['ultrabee'], likely:['arctic-xd','bonnell-805rx','komodo','mx5','sr','ss20','ss30','storm-bee','ultrabee-21kw','ventus-evo','ventus-plus'], no:['ss40'],
      badge:'Foot Pegs', variant:'custom', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/pegs-kke-ultrabee.webp'
     },
     {name:'Warp9 E-Moto Elite Foot Pegs for Zero XE', pid:'pegs-warp9-zero-xe-elite-foot-pegs', tier:'midrange',
@@ -10970,7 +11214,7 @@ var CATEGORIES = [
       {v:'VORO Motors', p:99.0, url:'https://voromotors.com/products/foot-pegs-with-mounts-for-ultra-bee', chk:'2026-11-20', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["ultrabee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","komodo","mx5","ventus-plus","ventus-evo"], no:[],
+     fits:['ultrabee'], likely:['arctic-xd','bonnell-805rx','ss30','sr','ss20','storm-bee','komodo','mx5','ventus-plus','ventus-evo'], no:['ss40'],
      badge:'Peg Brackets', stock:'out_of_stock', stockChk:'2026-11-20', img:'img/parts/pegs-ultrabee-oem-brackets.webp'
     },
     {name:'Prickly Foot Pegs Wide', pid:'pegs-prickly-wide', tier:'premium',
@@ -10978,7 +11222,7 @@ var CATEGORIES = [
       {v:'Ventus Bikes USA', p:170, url:'https://ventusbikes.us/products/prickly-foot-pegs-wide', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["ventus-evo"], no:[],
+     fits:['ss40'], likely:['ventus-evo'], no:[],
      badge:'Foot Pegs', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/pegs-prickly-wide.webp'
     },
     {name:'Prickly Foot Pegs MX', pid:'pegs-prickly-mx', tier:'premium',
@@ -10986,7 +11230,7 @@ var CATEGORIES = [
       {v:'Ventus Bikes USA', p:170, url:'https://ventusbikes.us/products/prickly-foot-pegs-mx', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:["ventus-evo"], no:[],
+     fits:['ss40'], likely:['ventus-evo'], no:[],
      badge:'Foot Pegs', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/pegs-prickly-mx.webp'
     },
     {name:'Surron LBX Foot Pegs (Collective)', pid:'pegs-ventus-lbx', tier:'midrange',
@@ -11007,7 +11251,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:109, url:'https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:['lightbee2','lightbee','ventus-plus'], likely:['ventus-evo','ss20','ss30','sr'], no:[],
+     fits:['lightbee2','lightbee','ventus-plus','ss40'], likely:['ventus-evo','ss20','ss30','sr'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-warp9-foot-pegs-for-surron-segway.webp'
     },
       {name:'Surron Light Bee - OEM Foot Peg Connection Assembly', pid:'chargedcycleworks-surron-light-bee-pedal-connection-bracket-pair', tier:'OEM',
@@ -11035,7 +11279,7 @@ var CATEGORIES = [
      prices:[
       {v:'REV Rides', p:6.99, url:'https://revrides.com/products/e-ride-pro-ss-3-0-peg-brace-spacers-only', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:["ss30"], likely:[], no:[],
+     fits:['ss30','ss40'], likely:[], no:[],
      badge:'Pegs', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/revrides-e-ride-pro-ss-3-0-peg-brace-spacers-only.webp'
     },
     {name:'Surron Ultra Bee Footpeg Pins, Springs, and Washers', pid:'tbelectricmoto-ultra-bee-e-moto-footpeg-pins-springs-and-washers', tier:'budget',
@@ -11063,7 +11307,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:19, url:'https://tbelectricmoto.com/products/e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:["ss30", "ss20"], likely:[], no:[],
+     fits:['ss30','ss20','ss40'], likely:[], no:[],
      badge:'Pegs', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/tbelectricmoto-e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr.webp'
     },
     {name:'SHE7066 - Foot Peg Mount Assembly for - PRO S/SS2.0/3.0/SR', pid:'eridepro-she7066-foot-peg-mount-assembly', tier:'budget',
@@ -11486,6 +11730,34 @@ var CATEGORIES = [
      ],
      fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/wiredwhips-oem-soleil01-foot-peg-mount-tuttio-soleil01-foot-peg-mount.webp'
     },
+    {name:'KyVex Billet Footpeg Bracket - E-Ride Pro SS 3.0/4.0/SR', pid:'tbelectricmoto-kyvex-billet-footpeg-bracket-compatible-w-e-ride-pro-ss-3-0-4-0-and-sr', tier:'midrange',
+     prices:[
+      {v:'TB Electric Moto', p:260, url:'https://tbelectricmoto.com/products/kyvex-billet-footpeg-bracket-compatible-w-e-ride-pro-ss-3-0-4-0-and-sr', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'Heavy Hitter Billet Aluminum Adjustable Footpeg Bracket', pid:'gritshift-heavy-hitter-billet-footpeg-bracket', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:69.99, url:'https://gritshift.com/products/heavy-hitter-billet-footpeg-bracket', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'KKE Racing Type 1 Billet Aluminum Foot Pegs', pid:'gritshift-kke-racing-billet-foot-peg-1', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:32.99, url:'https://gritshift.com/products/kke-racing-billet-foot-peg-1', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'EMoto-X Upgraded Foot Pegs', pid:'tbelectricmoto-emoto-x-upgraded-foot-pegs', tier:'midrange',
+     prices:[
+      {v:'TB Electric Moto', p:124.95, url:'https://tbelectricmoto.com/products/emoto-x-upgraded-foot-pegs', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
 ]},
   {id:'seats', name:'Seats', blurb:'Where you spend the whole ride — comfort and control.', tips:['Tall seats help taller riders; standard keeps footing easy','Gripper covers for aggressive riding, smooth for moving around'], options:[
     {name:'Stock seats', prices:[]},
@@ -11827,6 +12099,20 @@ var CATEGORIES = [
      ],
      fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/wiredwhips-oem-soleil01-seat-knob-screws-tuttio-soleil01-seat-srew.webp'
     },
+    {name:'Heavy Hitter Ribbed Gripper Seat Cover - E Ride Pro', pid:'gritshift-heavy-hitter-ribbed-gripper-seat-cover-e-ride-pro', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:59.89, url:'https://gritshift.com/products/heavy-hitter-ribbed-gripper-seat-cover-e-ride-pro', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
+    {name:'E-Ride Pro Fatty Upgraded Seat', pid:'tbelectricmoto-e-ride-pro-fatty-upgraded-seat', tier:'midrange',
+     prices:[
+      {v:'TB Electric Moto', p:55, url:'https://tbelectricmoto.com/products/e-ride-pro-fatty-upgraded-seat', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
+    },
 ]},
   {id:'street', name:'Street', blurb:'Lights, mirrors, and signals for road-legal riding where it\'s allowed.', tips:['Legality varies wildly by state — check yours','Wiring effort ranges from plug-and-play to a full afternoon'], options:[
     {name:'Stock street', prices:[]},
@@ -11835,7 +12121,7 @@ var CATEGORIES = [
       {v:'Rare Form Company', p:310, url:'https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["storm-bee","ultrabee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx4","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['lightbee'], likely:['storm-bee','ultrabee','ventus-plus','ventus-evo','ss20','ss30','sr','mx4','mx5','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      badge:'Rare Form', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/street-lightbee-street-kit.webp'
     },
     {name:'Tusk Plug and Play Turn Signal Kit', pid:'street-tusk-signal-kit', tier:'midrange',
@@ -12070,7 +12356,7 @@ var CATEGORIES = [
       {v:'Electric Cycle Rider', p:399, url:'https://parts.electriccyclerider.com/products/surron-light-bee-swingarm', chk:'2026-11-20', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["lightbee"], likely:["storm-bee","ventus-plus","ventus-evo","ss20","ss30","ss40","sr","mx5","komodo","bonnell-805rx","arctic-xd"], no:[],
+     fits:['lightbee'], likely:['storm-bee','ventus-plus','ventus-evo','ss20','ss30','sr','mx5','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/swingarm-surron-oem.webp'
     },
     {name:'EBMX Extended Swingarm', pid:'swingarm-ebmx-extended', tier:'premium',
@@ -12280,6 +12566,13 @@ var CATEGORIES = [
       {v:'Wired Whips', p:475.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_swingarm', chk:'2026-11-20', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/wiredwhips-oem-swingarm-delta-delta-s.webp'
+    },
+    {name:'Heavy Hitter Rogue 2.5 Inch Extended E Ride Billet Swingarm', pid:'gritshift-heavy-hitter-billet-swing-arm', tier:'midrange',
+     prices:[
+      {v:'GritShift', p:765.89, url:'https://gritshift.com/products/heavy-hitter-billet-swing-arm', chk:'2026-11-17', stock:'in_stock'},
+     ],
+     fits:['ss40'], likely:[], no:[],
+     stock:'in_stock', stockChk:'2026-11-17'
     },
 ]},
   {id:'tires', name:'Tires & Tubes', blurb:'Traction. The right tire for your terrain matters more than most upgrades.', tips:['Size must match your rims','Soft-terrain, intermediate, and hard-pack tires are very different','DOT-rated if you ride street'], options:[
@@ -12639,14 +12932,14 @@ var CATEGORIES = [
      prices:[
       {v:'E Ride Pro', p:69, url:'https://www.eridepro.com/products/e7513-1-babyfat-rear-tire-18-w-o-tire-tube-3-0-sr', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:["ss30"], likely:[], no:[],
+     fits:['ss30','ss40'], likely:[], no:[],
      badge:'Tire', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/eridepro-e7513-1-babyfat-rear-tire-18-w-o-tire-tube-3-0-sr.webp'
     },
     {name:'(E7511-1) - 19" BabyFat Front Tire w/o Tire Tube - SS3.0/SR', pid:'eridepro-e7511-1-babyfat-front-tire-19-w-o-tire-tube-3-0-sr', tier:'mid',
      prices:[
       {v:'E Ride Pro', p:69, url:'https://www.eridepro.com/products/e7511-1-babyfat-front-tire-19-w-o-tire-tube-3-0-sr', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:["ss30"], likely:[], no:[],
+     fits:['ss30','ss40'], likely:[], no:[],
      badge:'Tire', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/eridepro-e7511-1-babyfat-front-tire-19-w-o-tire-tube-3-0-sr.webp'
     },
     {name:'SHE7004 - 19" Babyfat Front Tire +Tube+Rim Stripe - SS2.0/SS3.0/SR', pid:'eridepro-she7004-babyfat-front-tire-tube-rim-stripe', tier:'mid',
@@ -12667,7 +12960,7 @@ var CATEGORIES = [
      prices:[
       {v:'E Ride Pro', p:279, url:'https://www.eridepro.com/products/she8052-rear-hub-assy-w-o-tire-1-85-18-straight-pull-hub-ss3-0-sr-pro-4-0', chk:'2026-11-20', stock:'in_stock'},
      ],
-     fits:["ss30"], likely:[], no:[],
+     fits:['ss30','ss40'], likely:[], no:[],
      badge:'Tire', stock:'in_stock', stockChk:'2026-11-20', img:'img/parts/eridepro-she8052-rear-hub-assy-w-o-tire-1-85-18-straight-pull-hub-ss3.webp'
     },
     {name:'E7731-1 - 16" Rear Fatty Tire - SS 3.0/SR', pid:'eridepro-e7731-1-fatty-tire-ss-3-0-sr', tier:'mid',
@@ -12888,7 +13181,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:79, url:'https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe', chk:'2026-11-20', stock:'out_of_stock'},
      ],
-     fits:['sr','ss30'], likely:[], no:[],
+     fits:['sr','ss30','ss40'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-20', img:'img/parts/chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe.webp'
     },
     {name:'Talaria - OEM Head Tube Spacer (42-30-0.5)', pid:'chargedcycleworks-head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3', tier:'OEM',
@@ -20312,4 +20605,116 @@ Object.assign(FITMENT, { /* MUSE research corrections 2026-11-16 (supersedes ent
   'tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260|altis-sigma':{s:'verify',n:'Altis Sigma wheels are 19in front with an 18in (Standard) or 16in (MX) rear per Altis; CCW does not name the Sigma - verify the tube size before buying (checked 2026-11-16).',u:['https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260', 'https://www.altispowersports.com/products/altis-sigma']},
   'tire-dunlop-mx14-sand-scoop-tire|altis-sigma':{s:'verify',n:'Altis Sigma wheels are 19in front with an 18in (Standard) or 16in (MX) rear per Altis; CCW does not name the Sigma - verify the tire size before buying (checked 2026-11-16).',u:['https://chargedcycleworks.com/products/dunlop-mx14-sand-scoop-tire', 'https://www.altispowersports.com/products/altis-sigma']},
   'tire-dunlop-mx54-geomax-soft-int-terrain-tires|altis-sigma':{s:'verify',n:'Altis Sigma wheels are 19in front with an 18in (Standard) or 16in (MX) rear per Altis; CCW does not name the Sigma - verify the tire size before buying (checked 2026-11-16).',u:['https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires', 'https://www.altispowersports.com/products/altis-sigma']},
+});
+
+// 2026-11-17 SS 4.0 research (v4.17.11): 75 graded rows (3 confirmed, 23 not_compatible), 39 catalog additions (36 direct, 3 adapter), REV Rides R38 linkage row, 42 new parts (incl. EB9 front/rear split)
+Object.assign(FITMENT, {
+  'ext-arma-mx|ss40':{s:'confirmed_direct_fit',n:'TB Electric BIKE FITMENT list names "E-Ride Pro 4.0" (bolt-on, no extra hardware); CCW lists E Ride Pro SS/SR/S - no conflict (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/ext-arma']},
+  'wheels-ion-eride30-sr-1619|ss40':{s:'confirmed_direct_fit',n:'GritShift ION 16/19 E Ride Pro wheelset page: "Fitment E Ride Pro SS 3.0 / 4.0 / SR" (same ION 3.0/SR wheelset; CCW/Electrix pages list 3.0/SR only, no exclusion). Add GritShift as evidence (checked 2026-11-17)',u:['https://gritshift.com/products/ion-16-19-e-ride-pro-wheel-set']},
+  'eride-pro40-oem-battery|ss40':{s:'confirmed_direct_fit',n:'Maker part titled "72V 50Ah Pouch Cell Battery - Pro 4.0" (tag Pro 4.0) = stock SS 4.0 pack (checked 2026-11-17)',u:['https://www.eridepro.com/products/00236-e7-01-72v-50ah-pouch-cell-battery-pro-4-0']},
+  'torp-tc1000-2x|ss40':{s:'not_compatible',n:'TORP: kit/harness for 60V Sur-Ron Light Bee (up to 2025) only; no E Ride Pro option (checked 2026-11-17)',u:['https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/']},
+  'torp-tc500-2x|ss40':{s:'not_compatible',n:'TORP: Light Bee/TM25 kit, harness for 60V Light Bee only; E-Moto USA variants are Light Bee/Talaria only (checked 2026-11-17)',u:['https://www.torpmotors.com/shop/tc500-2x-controller-kit-for-surron-light-bee/']},
+  'brakes-eride-e7094-front|ss40':{s:'not_compatible',n:'E Ride Pro lists E7094 for ProS/SS 2.0; SS 4.0 uses 100mm calipers on 99.5mm bracket vs 2.0 74mm (CCW SS2.0 vs SS4.0 chart) (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/e-ride-pro-4-0-18kw-72v-electric-dirt-bike']},
+  'plastics-ultrabee-graphics|ss40':{s:'not_compatible',n:'Ultra Bee-only plastics/graphics kit (title: Ultrabee Graphics Kit); different bodywork (checked 2026-11-17)',u:['https://throttleco.store/products/pre-designed-ultrabee-graphics-kit-plastics-only']},
+  'ultrabee-2025-oem-battery|ss40':{s:'not_compatible',n:'Seller: "compatible with the 2025 Ultra Bee only" (checked 2026-11-17)',u:['https://peakpoweremotos.com/parts/ultra-bee-battery']},
+  'eride-e7271-battery|ss40':{s:'not_compatible',n:'E Ride Pro lists E7271 for SS3.0 Type A/SS2.0/ProS; maker sells a separate 4.0 pack (00236-E7-01 pouch cell) (checked 2026-11-17)',u:['https://www.eridepro.com/products/e7271']},
+  'cockpit-surron-oem-throttle|ss40':{s:'not_compatible',n:'CCW: dual-hall throttle "explicitly designed for the Light Bee X"; E Ride Pro sells its own Pro 4.0 throttle (00240-E7-01) (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/oem-replacement-throttle-for-surron-light-bee']},
+  'cockpit-surron-stem|ss40':{s:'not_compatible',n:'Light Bee stem; SS 4.0 ships with a direct-mount stem (CCW/E Ride Pro spec) - different system (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/e-ride-pro-4-0-18kw-72v-electric-dirt-bike']},
+  'drivetrain-eride-chain-kit|ss40':{s:'not_compatible',n:'SHE8011 is a 420 chain set (SS2.0/3.0/SR); SS 4.0 runs 428 chain + 58T sprocket per CCW spec chart (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/e-ride-pro-4-0-18kw-72v-electric-dirt-bike']},
+  'drivetrain-eride-belt-pulley|ss40':{s:'not_compatible',n:'E7004 is ProS/SS2.0; SS 4.0 uses a widened 22mm pulley with mud grooves (CCW spec) (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/e-ride-pro-4-0-18kw-72v-electric-dirt-bike']},
+  'drivetrain-eride-belt|ss40':{s:'not_compatible',n:'E7006 is ProS/SS2.0 16mm belt; SS 4.0 belt widened to 18mm (CCW chart; GritShift sells 18mm SS 3.0/4.0 belt) (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/e-ride-pro-4-0-18kw-72v-electric-dirt-bike']},
+  'electrical-surron-oem-dashboard|ss40':{s:'not_compatible',n:'Light Bee dashboard; E Ride Pro sells a Pro 4.0-specific display (00244-E7-01) (checked 2026-11-17)',u:['https://shop.sur-ron.com/products/light-bee-replacement-dashboard']},
+  'guards-eride-motor-guard|ss40':{s:'not_compatible',n:'E7020 aluminum guard is ProS/SS2.0; SS 4.0 motor guard is steel frame + hard plastic (CCW chart) (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/e-ride-pro-4-0-18kw-72v-electric-dirt-bike']},
+  'guards-lightbee-chain|ss40':{s:'not_compatible',n:'Sur-Ron fitment: Light Bee Original/X/L1e only - frame-specific OEM part (checked 2026-11-17)',u:['https://shop.sur-ron.com/products/sur-ron-chain-protection-box']},
+  'linkage-ultrabeemx|ss40':{s:'not_compatible',n:'EBMX Ultra Bee rocker linkage - Ultra Bee frame only (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee']},
+  'linkage-ultrabee-emx|ss40':{s:'not_compatible',n:'EMX Ultra Bee linkage/triangle kit - Ultra Bee only (checked 2026-11-17)',u:['https://emxdesigns.us/products/ultra-bee-rear-suspension-linkage-triangle-upgrade-kit']},
+  'linkage-talaria-mx34|ss40':{s:'not_compatible',n:'Rippin: "Compatible with Talaria Sting R MX3 and MX4 models" only (checked 2026-11-17)',u:['https://rippinmoto.com/products/rippin-moto-rear-suspension-linkage-kit-for-talaria-mx3-mx4']},
+  'maintenance-lightbee-swingarm-axle|ss40':{s:'not_compatible',n:'IZI: fits IZI swingarm and OEM Sur-Ron Light Bee X/L1E swingarms only (checked 2026-11-17)',u:['https://www.izibrothers.com/products/swingarm-axle-sur-ron-light-bee']},
+  'pegs-kke-ultrabee|ss40':{s:'not_compatible',n:'CCW/TBE fitment: Sur-Ron Ultra Bee 2023-2025 only (Ultra Bee peg mount) (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/kke-footpegs-billet-foot-rest-for-surron-ultra-bee-2023-2024-e-bike-collective']},
+  'pegs-ultrabee-oem-brackets|ss40':{s:'not_compatible',n:'Voro: "Fits: Surron Ultra Bee" - Ultra Bee frame brackets (checked 2026-11-17)',u:['https://voromotors.com/products/foot-pegs-with-mounts-for-ultra-bee']},
+  'street-lightbee-street-kit|ss40':{s:'not_compatible',n:'Rare Form kit is for Sur-Ron Light Bee X only (wiring/mounts) (checked 2026-11-17)',u:['https://rareformcompany.com/products/surron-light-bee-x-street-legal-kit']},
+  'swingarm-surron-oem|ss40':{s:'not_compatible',n:'ECR fitment: Surron Light Bee X only (checked 2026-11-17)',u:['https://parts.electriccyclerider.com/products/surron-light-bee-swingarm']},
+  'ebmx-xta-60|ss40':{s:'not_compatible',n:'XTA-60 ships with Talaria MX3/MX4 hardware (MX5 adapter); Talaria-only (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit']},
+  'chargedcycleworks-r38-2sc-e-ride-pro-3-0|ss40':{s:'confirmed_fit_with_adapter',n:'Needs the Prickly R38-specific linkage (sold separately); the stock E-Ride Pro linkage WILL NOT WORK with the R38 shock. CCW title "E-Ride Pro 3.0 / 4.0" (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/r38-2sc-e-ride-pro-3-0']},
+  'chargedcycleworks-f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0|ss40':{s:'confirmed_direct_fit',n:'SIRRIS F43 CMX - CCW title "E-Ride Pro 3.0 / 4.0"; 220mm travel / 775mm = SS 4.0 stock fork size (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0']},
+  'chargedcycleworks-tech-suspension-er34-racing-kashima-shock|ss40':{s:'confirmed_direct_fit',n:'CCW: "283x80mm - E Ride Pro 3.0, 4.0 & SR (direct fit)" (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/tech-suspension-er34-racing-kashima-shock']},
+  'chargedcycleworks-tech-suspension-e39-racing-kashima-fork|ss40':{s:'confirmed_direct_fit',n:'CCW fits list: "E Ride Pro 3.0, 4.0 & SR" (brake mount sold separately) (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork']},
+  'chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway|ss40':{s:'confirmed_direct_fit',n:'CCW fitment: "E Ride Pro SS 2.0 / 3.0 / 4.0"; GritShift also names 4.0 (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway']},
+  'chargedcycleworks-rfloxa-hawk35-max-plus-fork-1|ss40':{s:'confirmed_direct_fit',n:'GritShift RFloXa Hawk 35 Max Plus: "Fitment: E Ride Pro-SS 3.0 / SS 4.0 / SR" (CCW page 775mm, 3.0/SR, no exclusion) (checked 2026-11-17)',u:['https://gritshift.com/products/rfloxa-hawk-35-max-plus-fork-e-ride-pro-ss-3-0-sr']},
+  'chargedcycleworks-e-ride-pro-sr-775-fork|ss40':{s:'confirmed_direct_fit',n:'= stock part. Maker SHE7989 "FASTACE Front Fork 775mm - SR/SS3.0/Pro 4.0"; TBE also names 4.0 (checked 2026-11-17)',u:['https://www.eridepro.com/products/she7989-fastace-front-fork-775-sr']},
+  'chargedcycleworks-heavy-hitter-e-ride-skid-plate|ss40':{s:'confirmed_direct_fit',n:'CCW + GritShift fitment: "E Ride Pro S / SS / 2.0 / 3.0 / 4.0 / SR" (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate']},
+  'chargedcycleworks-e-ride-pro-3-0-sr-rear-sprocket|ss40':{s:'confirmed_direct_fit',n:'CCW: "Designed for E-Ride Pro SS 3.0/4.0 and SR" (Warp9 428 rear sprocket) (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/e-ride-pro-3-0-sr-rear-sprocket']},
+  'chargedcycleworks-heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit|ss40':{s:'confirmed_direct_fit',n:'CCW fitment: "E Ride Pro 3.0 / 4.0 / SR (MUST use Surron side outwards)" (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit']},
+  'revrides-heavy-hitter-428-lightweight-billet-aluminum-super-sprocket-f|ss40':{s:'confirmed_direct_fit',n:'GritShift HH 428 Super Sprocket: "Fitment: E Ride Pro 3.0 / 4.0 / SR"; TBE same (checked 2026-11-17)',u:['https://gritshift.com/products/heavy-hitter-428-sprocket']},
+  'tbelectricmoto-ebmx-sprocket-for-e-ride-pro-sr-3-0|ss40':{s:'confirmed_direct_fit',n:'TBE fitment: E-Ride Pro SR / SS 3.0 / 4.0 (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/ebmx-sprocket-for-e-ride-pro-sr-3-0']},
+  'chargedcycleworks-prickly-performance-linkage-e-ride-pro|ss40':{s:'confirmed_direct_fit',n:'TBE Prickly Performance Linkage fitment list names "E Ride Pro SS 4.0" (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/prickly-performance-linkage-for-e-ride-pro']},
+  'chargedcycleworks-ion-17-supermoto-wheelset-for-e-ride-pro-3-0-sr|ss40':{s:'confirmed_direct_fit',n:'GritShift ION 17/17 E Ride Pro supermoto: "Fitment E Ride Pro SS 3.0 / 4.0 / SR" (checked 2026-11-17)',u:['https://gritshift.com/products/ion-17-17-e-ride-pro-supermoto-wheel-set']},
+  'chargedcycleworks-ion-21-eride-sr-front-wheel|ss40':{s:'confirmed_direct_fit',n:'GritShift ION 21" E Ride Pro front: "Fitment E Ride Pro SS 3.0 / 4.0 / SR" (needs a 21" tire) (checked 2026-11-17)',u:['https://gritshift.com/products/ion-21-e-ride-pro-front-wheel-upgrade']},
+  'chargedcycleworks-formula-eb9|ss40':{s:'confirmed_direct_fit',n:'99.5mm-mount version only. TBE EB9 fitment lists E-Ride Pro 4.0 (99.5mm mount = SS 4.0 per CCW chart); GritShift EB9 kit names SS 4.0 (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/formula-eb9-e-moto-brakes-for-e-ride-pro-ss-3-0-sr']},
+  'chargedcycleworks-eride-pro-260mm-floating-racing-rotor-kit-team-edition|ss40':{s:'confirmed_direct_fit',n:'TBE "E-Ride Pro 260mm rotor upgrade for 3.0/4.0/SR" (front only, bracket included) - confirm same Factory Racing kit as CCW Team Edition before merging (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/e-ride-pro-260mm-rotor-upgrade-for-3-0-4-0-sr']},
+  'tbelectricmoto-asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr|ss40':{s:'confirmed_direct_fit',n:'TBE fitment lists "E-Ride Pro 4.0" (Type 2 brakes) (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/asv-f3-e-break-away-levers-for-e-ride-pro-3-0-sr']},
+  'tbelectricmoto-warp-9-folding-brake-levers|ss40':{s:'confirmed_direct_fit',n:'TBE fitment lists "E-Ride Pro 4.0" (Version 2 brakes) (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/warp-9-folding-brake-levers']},
+  'tbelectricmoto-tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr|ss40':{s:'confirmed_direct_fit',n:'TBE fitment lists "E-Ride Pro 4.0" (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/tb-brake-levers-for-talaria-mx5-e-ride-3-0-sr']},
+  'tbelectricmoto-tb-brake-lever-replacement-parts|ss40':{s:'confirmed_direct_fit',n:'TBE: fits bikes running TB levers incl. E-Ride Pro 4.0 (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/tb-brake-lever-replacement-parts']},
+  'tbelectricmoto-e-ride-pro-sr-regen-brake|ss40':{s:'confirmed_direct_fit',n:'TBE fitment: E-Ride Pro SR + 4.0; FAQ "Does it fit the 4.0? Yes" (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/e-ride-pro-sr-regen-brake']},
+  'warp9-elite-pegs|ss40':{s:'confirmed_direct_fit',n:'TBE Warp 9 Elite pegs fitment: "E-Ride Pro S, S (17\\"), SR, SS 1.0, SS 2.0, SS 3.0, 4.0" (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/warp-9-elite-foot-pegs-for-surron-e-ride']},
+  'warp9-pegs-lbx-ventus|ss40':{s:'confirmed_direct_fit',n:'GritShift Warp 9 Footpegs fitment: "E Ride Pro-S / SS / 2.0 / 3.0 / 4.0 / SR" (checked 2026-11-17)',u:['https://gritshift.com/products/warp-9-foot-pegs-e-bike']},
+  'pegs-prickly-wide|ss40':{s:'confirmed_direct_fit',n:'TBE Prickly Wide pegs fitment lists "E-Ride Pro 4.0" (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/prickly-foot-pegs-wide-surron-lightbee-e-ride']},
+  'pegs-prickly-mx|ss40':{s:'confirmed_direct_fit',n:'TBE Prickly MX pegs fitment lists "E-Ride Pro 4.0" (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/prickly-foot-pegs-mx-surron-lightbee-e-ride']},
+  'tbelectricmoto-e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr|ss40':{s:'confirmed_direct_fit',n:'TBE fitment + FAQ: fits S, SS 1.0/2.0/3.0, SR and 4.0 (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/e-ride-pro-foot-peg-mount-bracket-s-ss2-0-ss3-0-sr']},
+  'revrides-e-ride-pro-ss-3-0-peg-brace-spacers-only|ss40':{s:'confirmed_direct_fit',n:'REV Rides title: "E Ride Pro SS 3.0 4.0 SR Peg Brace Spacers" (checked 2026-11-17)',u:['https://revrides.com/products/e-ride-pro-ss-3-0-peg-brace-spacers-only']},
+  'chargedcycleworks-warp9-e-moto-tapped-handlebar-31-8mm|ss40':{s:'confirmed_direct_fit',n:'TBE Warp 9 Tapped Handlebars (31.8mm) fitment lists "E-Ride Pro 4.0" (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/warp-9-tapped-handlebar']},
+  'chargedcycleworks-prickly-31-8-direct-mount-stem-surron|ss40':{s:'confirmed_fit_with_adapter',n:'Fits the E-Ride Pro 4.0 but does not fit with the OEM display; use a new display mount or modify the stock one (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/prickly-31-8mm-direct-mount-stem']},
+  'chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars|ss40':{s:'confirmed_fit_with_adapter',n:'Fits the E-Ride Pro 4.0 but does not fit the OEM display mount; needs a new display mount or trim (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/heavy-hitter-2-rise-direct-mount-stem']},
+  'chargedcycleworks-warp9-adjustable-kickstand-surron-eride-falcon-ventus|ss40':{s:'confirmed_direct_fit',n:'GritShift Warp 9 Adjustable Kickstand fitment: "E Ride Pro-SS / 2.0 / 3.0 / 4.0 / SR" (checked 2026-11-17)',u:['https://gritshift.com/products/warp-9-adjustable-kickstand']},
+  'revrides-bearing-kit-swingarm-12mm-shaft-e-ride-pro-sr-3-0|ss40':{s:'confirmed_direct_fit',n:'REV Rides title: "Swingarm 12mm Shaft E Ride Pro SR/3.0/4.0" (checked 2026-11-17)',u:['https://revrides.com/products/bearing-kit-swingarm-12mm-shaft-e-ride-pro-sr-3-0']},
+  'tbelectricmoto-tb-e-ride-pro-ss-key-ignition-cover|ss40':{s:'confirmed_direct_fit',n:'TBE fitment + FAQ list E-Ride Pro 4.0 (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/tb-e-ride-pro-ss-key-ignition-cover']},
+  'tbelectricmoto-upgraded-handlebar-grips|ss40':{s:'confirmed_direct_fit',n:'TBE fitment list includes "E-Ride Pro 4.0" (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/upgraded-handlebar-grips']},
+  'eridepro-she8052-rear-hub-assy-w-o-tire-1-85-18-straight-pull-hub-ss3|ss40':{s:'confirmed_direct_fit',n:'= stock part. Maker title "SS3.0/SR/Pro 4.0" (1.85x18 straight-pull) (checked 2026-11-17)',u:['https://www.eridepro.com/products/she8052-rear-hub-assy-w-o-tire-1-85-18-straight-pull-hub-ss3-0-sr-pro-4-0']},
+  'eridepro-e7511-1-babyfat-front-tire-19-w-o-tire-tube-3-0-sr|ss40':{s:'confirmed_direct_fit',n:'FRONT ONLY. Maker lists size 2.75-19 = exact SS 4.0 stock front (maker spec FR 2.75-19) (checked 2026-11-17)',u:['https://www.eridepro.com/products/e7511-1-babyfat-front-tire-19-w-o-tire-tube-3-0-sr']},
+  'eridepro-e7513-1-babyfat-rear-tire-18-w-o-tire-tube-3-0-sr|ss40':{s:'confirmed_direct_fit',n:'REAR ONLY. Maker lists size 3.00-18 = exact SS 4.0 stock rear (maker spec RR 3.00-18) (checked 2026-11-17)',u:['https://www.eridepro.com/products/e7513-1-babyfat-rear-tire-18-w-o-tire-tube-3-0-sr']},
+  'chargedcycleworks-e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe|ss40':{s:'confirmed_direct_fit',n:'REAR ONLY. CCW "OEM 3.00-18 BabyFat Rear Tire Kit" = exact stock rear size (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/e-ride-pro-oem-babyfat-rear-tire-tube-rim-stripe']},
+  'revrides-prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0|ss40':{s:'confirmed_direct_fit',n:'Same Prickly R38 linkage sold at REV Rides ($125, in stock); GritShift listing of the same part names E Ride Pro SS 4.0 fitment (checked 2026-11-17)',u:['https://gritshift.com/products/prickly-r38-suspension-linkage']},
+  'chargedcycleworks-heavy-hitter-billet-suspension-linkage-upgrade|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Heavy Hitter E Ride Billet Suspension Linkage Upgrade (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/heavy-hitter-billet-suspension-linkage-upgrade']},
+  'chargedcycleworks-heavy-hitter-adjustable-height-suspension-triangle|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Heavy Hitter Adjustable Height E Ride Suspension Triangle (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/heavy-hitter-adjustable-height-suspension-triangle']},
+  'chargedcycleworks-heavy-hitter-4140-chromoly-e-ride-linkage-triangle-shock-bolt-upgrade-kit|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Heavy Hitter 4140 Chromoly E Ride Linkage/Triangle/Shock Bolt Upgrade Kit (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/heavy-hitter-4140-chromoly-e-ride-linkage-triangle-shock-bolt-upgrade-kit']},
+  'chargedcycleworks-heavy-hitter-4340-chromoly-upgraded-rear-axle|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Heavy Hitter 4340 Chromoly Upgraded E Ride Rear Axle (checked 2026-11-17)',u:['https://chargedcycleworks.com/products/heavy-hitter-4340-chromoly-upgraded-rear-axle']},
+  'gritshift-heavy-hitter-billet-swing-arm|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Heavy Hitter Rogue 2.5 Inch Extended E Ride Billet Swingarm (checked 2026-11-17)',u:['https://gritshift.com/products/heavy-hitter-billet-swing-arm']},
+  'gritshift-warp-9-12mm-rear-axle-kit-e-ride-pro-ss-3-0-sr|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Warp 9 12mm Rear Axle Kit - E Ride Pro 3.0 / 4.0 / SR (checked 2026-11-17)',u:['https://gritshift.com/products/warp-9-12mm-rear-axle-kit-e-ride-pro-ss-3-0-sr']},
+  'tbelectricmoto-eride-12-9-cryo-steel-rear-axel-12mm|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Warp 9 Eride Pro 12.9 Cryo Steel Rear Axle (12mm) (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/eride-12-9-cryo-steel-rear-axel-12mm']},
+  'gritshift-warp-9-lockdown-axle-blocks-sur-ron-segway|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Warp 9 Lockdown Axle Blocks (checked 2026-11-17)',u:['https://gritshift.com/products/warp-9-lockdown-axle-blocks-sur-ron-segway']},
+  'gritshift-heavy-hitter-300m-chromoly-upgraded-12mm-e-ride-jackshaft-bolt|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Heavy Hitter 300M Chromoly Upgraded 12mm E Ride Jackshaft Bolt (checked 2026-11-17)',u:['https://gritshift.com/products/heavy-hitter-300m-chromoly-upgraded-12mm-e-ride-jackshaft-bolt']},
+  'gritshift-formula-eb9-eridepro-front-kit|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Formula EB9 99.5mm Front Brake Kit (E-Ride Pro) (Front Kit Only; $349.99 buys one end only, F/R complete is $698.99) (checked 2026-11-17)',u:['https://gritshift.com/products/formula-eb9-eridepro']},
+  'gritshift-formula-eb9-eridepro-rear-kit|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Formula EB9 99.5mm Rear Brake Kit (E-Ride Pro) (Rear Kit Only; $349.99 buys one end only, F/R complete is $698.99) (checked 2026-11-17)',u:['https://gritshift.com/products/formula-eb9-eridepro']},
+  'tbelectricmoto-ebike-garage-rear-single-caliper-moto-brake-conversion-kit-e-ride-pro-ss-3-0-sr|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — EBike Garage Moto Brake Conversion Kit (Ultra Bee brakes) - E-Ride Pro SS 3.0/SR/4.0 (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/ebike-garage-rear-single-caliper-moto-brake-conversion-kit-e-ride-pro-ss-3-0-sr']},
+  'tbelectricmoto-ebike-garage-foot-brake-kit-for-e-ride-pro-ss-3-0-sr|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — EBike Garage Foot Brake Kit - E-Ride Pro SS 3.0/SR/4.0 (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/ebike-garage-foot-brake-kit-for-e-ride-pro-ss-3-0-sr']},
+  'gritshift-heavy-hitter-220mm-front-brake-rotor-1|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Heavy Hitter 220mm Front Brake Rotor 3mm SR/3.0/4.0 (checked 2026-11-17)',u:['https://gritshift.com/products/heavy-hitter-220mm-front-brake-rotor-1']},
+  'gritshift-heavy-hitter-220mm-rear-brake-rotor-1|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Heavy Hitter 220mm Rear Brake Rotor 3mm SR/3.0/4.0 (checked 2026-11-17)',u:['https://gritshift.com/products/heavy-hitter-220mm-rear-brake-rotor-1']},
+  'gritshift-asv-f3-super-shorty-brake-lever-set-ultra-bee-eride|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — ASV F3-E Super Shorty F/R Brake Lever Set - Type 2 (checked 2026-11-17)',u:['https://gritshift.com/products/asv-f3-super-shorty-brake-lever-set-ultra-bee-eride']},
+  'tbelectricmoto-kyvex-billet-footpeg-bracket-compatible-w-e-ride-pro-ss-3-0-4-0-and-sr|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — KyVex Billet Footpeg Bracket - E-Ride Pro SS 3.0/4.0/SR (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/kyvex-billet-footpeg-bracket-compatible-w-e-ride-pro-ss-3-0-4-0-and-sr']},
+  'gritshift-heavy-hitter-billet-footpeg-bracket|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Heavy Hitter Billet Aluminum Adjustable Footpeg Bracket (checked 2026-11-17)',u:['https://gritshift.com/products/heavy-hitter-billet-footpeg-bracket']},
+  'gritshift-kke-racing-billet-foot-peg-1|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — KKE Racing Type 1 Billet Aluminum Foot Pegs (checked 2026-11-17)',u:['https://gritshift.com/products/kke-racing-billet-foot-peg-1']},
+  'tbelectricmoto-emoto-x-upgraded-foot-pegs|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — EMoto-X Upgraded Foot Pegs (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/emoto-x-upgraded-foot-pegs']},
+  'tbelectricmoto-tb-direct-mount-stem-2|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — TB Heavy Duty Direct Mount Stem (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/tb-direct-mount-stem-2']},
+  'gritshift-heavy-hitter-adjustable-billet-display-mount|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Heavy Hitter Adjustable Billet Display Mount (checked 2026-11-17)',u:['https://gritshift.com/products/heavy-hitter-adjustable-billet-display-mount']},
+  'tbelectricmoto-warp-9-e-ride-pro-display|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Warp 9 CNC E-Ride Pro Display Mount (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/warp-9-e-ride-pro-display']},
+  'gritshift-heavy-hitter-ribbed-gripper-seat-cover-e-ride-pro|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Heavy Hitter Ribbed Gripper Seat Cover - E Ride Pro (checked 2026-11-17)',u:['https://gritshift.com/products/heavy-hitter-ribbed-gripper-seat-cover-e-ride-pro']},
+  'tbelectricmoto-e-ride-pro-fatty-upgraded-seat|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — E-Ride Pro Fatty Upgraded Seat (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/e-ride-pro-fatty-upgraded-seat']},
+  'tbelectricmoto-e-ride-oem-sprocket-for-e-ride-pro-ss-3-0-sr-44-48-50-52|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — E-Ride Pro OEM 428 Rear Sprocket (44-58T) (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/e-ride-oem-sprocket-for-e-ride-pro-ss-3-0-sr-44-48-50-52']},
+  'gritshift-e-ride-pro-oem-18mm-drive-belt|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — E Ride Pro OEM 18mm Carbon Drive Belt - SS 3.0 / 4.0 (checked 2026-11-17)',u:['https://gritshift.com/products/e-ride-pro-oem-18mm-drive-belt']},
+  'gritshift-e-ride-pro-428hz-gold-chain-114-link|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — E Ride Pro OEM 428HZ Gold Chain 114 Link (checked 2026-11-17)',u:['https://gritshift.com/products/e-ride-pro-428hz-gold-chain-114-link']},
+  'eridepro-she8004-she8005-gold-supermoto-wheel-assembly-setfront-and-rear-wheel-assembly-ss3-0-sr|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — SHE8004+SHE8005 Gold Supermoto Wheel Set - SS3.0/SR/4.0/SE (checked 2026-11-17)',u:['https://www.eridepro.com/products/she8004-she8005-gold-supermoto-wheel-assembly-setfront-and-rear-wheel-assembly-ss3-0-sr']},
+  'eridepro-she7988-rear-wheel-assembly-ss3-0-sr|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — SHE7988+SHE7987 Black Supermoto Wheel Set - SS3.0/SR/4.0/SE (checked 2026-11-17)',u:['https://www.eridepro.com/products/she7988-rear-wheel-assembly-ss3-0-sr']},
+  'eridepro-she8019-21-front-wheel-tire-assembly-sr|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — SHE8019 21" Front Fatty Wheel Assembly - SR/4.0 (checked 2026-11-17)',u:['https://www.eridepro.com/products/she8019-21-front-wheel-tire-assembly-sr']},
+  'tbelectricmoto-16in-wheel-for-e-ride-pro-ss-3-0-sr|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — 16in Rear Wheel for E-Ride Pro SS 3.0/SR/4.0 (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/16in-wheel-for-e-ride-pro-ss-3-0-sr']},
+  'warp9-e-ride-pro-sr-ss-3-0-4-0-wheel-bearing-kit|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Warp 9 E-Ride Pro SR / SS 3.0 / 4.0 Wheel Bearing Kit (checked 2026-11-17)',u:['https://warp9racing.com/products/e-ride-pro-sr-ss-3-0-4-0-wheel-bearing-kit']},
+  'tbelectricmoto-e-ride-pro-front-number-plate|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — E-Ride Pro Front Number Plate (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/e-ride-pro-front-number-plate']},
+  'tbelectricmoto-e-ride-pro-real-carbon-fiber-plastics|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — E-Ride Pro Real Carbon Fiber Plastics (checked 2026-11-17)',u:['https://tbelectricmoto.com/products/e-ride-pro-real-carbon-fiber-plastics']},
+  'eridepro-she8059-off-road-headlight-led-light-bar-pro-4-0|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — SHE8059 Off-Road Headlight LED Light Bar - Pro 4.0 (checked 2026-11-17)',u:['https://www.eridepro.com/products/she8059-off-road-headlight-led-light-bar-pro-4-0']},
+  'gritshift-heavy-hitter-e-ride-mini-mod-ignition-cover|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — Heavy Hitter E-Ride Painless Billet Ignition Cover (checked 2026-11-17)',u:['https://gritshift.com/products/heavy-hitter-e-ride-mini-mod-ignition-cover']},
+  'eridepro-00244-e7-01-displaywith-screws-pro-4-0|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — (00244-E7-01) OEM Display with Screws - Pro 4.0 (checked 2026-11-17)',u:['https://www.eridepro.com/products/00244-e7-01-displaywith-screws-pro-4-0']},
+  'eridepro-00240-e7-01-throttlewith-p-head-light-tail-light-swich|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — (00240-E7-01) OEM Throttle with P/Headlight/Taillight Switch - Pro 4.0 (checked 2026-11-17)',u:['https://www.eridepro.com/products/00240-e7-01-throttlewith-p-head-light-tail-light-swich']},
+  'eridepro-00113-dj-01-control-switch-with-reverse-pro-4-0|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — (00113-DJ-01) OEM Control Switch with Reverse - Pro 4.0 (checked 2026-11-17)',u:['https://www.eridepro.com/products/00113-dj-01-control-switch-with-reverse-pro-4-0']},
+  'eridepro-she8057-handlebar-stem-adapter-assembly-pro-4-0|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — SHE8057 Handlebar Stem Adapter Assembly - Pro 4.0 (checked 2026-11-17)',u:['https://www.eridepro.com/products/she8057-handlebar-stem-adapter-assembly-pro-4-0']},
+  'eridepro-she7076|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — SHE7076 330mm Kickstand + Spring + Bolt Kit - SS2.0/SS3.0/SR/Pro 4.0 (checked 2026-11-17)',u:['https://www.eridepro.com/products/she7076']},
 });
