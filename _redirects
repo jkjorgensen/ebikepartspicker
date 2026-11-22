@@ -9,3 +9,6 @@
 /parts/wheels/chargedcycleworks-ion-16-19-wheelset-for-e-ride-pro-3-0-sr/ /parts/wheels/ 301
 /parts/drivetrain/howlingmoto-final-drive-front-sprocket-14t-surron-lbx/ /parts/drivetrain/ 301
 /parts/drivetrain/revrides-dirtybike-final-drive-front-sprocket-surron-lbx/ /parts/drivetrain/ 301
+
+# Moved from shock to linkage in v4.17.11; leftover static page removed in v4.17.14.
+/parts/shock/chargedcycleworks-prickly-performance-linkage-e-ride-pro/ /parts/linkage/chargedcycleworks-prickly-performance-linkage-e-ride-pro/ 301

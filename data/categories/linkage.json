@@ -396,6 +396,31 @@
       "image": "img/parts/revrides-prickly-linkage-for-sirris-r38-e-ride-pro-sr-3-0.webp"
     },
     {
+      "id": "chargedcycleworks-prickly-performance-linkage-e-ride-pro",
+      "name": "Prickly Linkage for Sirris R38 Rear Shock E Ride Pro",
+      "brand": "Prickly Motorsports",
+      "category": "linkage",
+      "price_usd": 125.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
+      ],
+      "last_checked": "2026-11-10",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 125.0,
+          "buy_url": "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-prickly-performance-linkage-e-ride-pro.webp"
+    },
+    {
       "id": "linkage-bonnell-805-rx-linkage-suspension-bearing-kit",
       "name": "Bonnell 805 - Linkage / Suspension Bearing Kit",
       "brand": "Bonnell",
@@ -1467,6 +1492,26 @@
         "https://chargedcycleworks.com/products/warp9-ultra-bee-suspension-triangle-v2"
       ],
       "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-performance-linkage-e-ride-pro",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-performance-linkage-e-ride-pro",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
+      ],
+      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
     }
   ]
 }
