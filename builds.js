@@ -2,14 +2,34 @@
    parts reference CATEGORIES by {cat, opt} index into data.js.
    "Copy this build" loads them straight into the builder. */
 
+/* Featured builds. Every pid must be a CONFIRMED fit for that bike in data.js
+   (checkFit === 'confirmed'). photo = a REAL owner photo in img/builds/ (never stock,
+   never AI). A build only shows on the homepage once it has a photo, unless
+   stockPhotoOk is set (the original Ventus card, which uses the stock bike image).
+   photoCaption is shown under the photo; photoAlt is the alt text. */
 var BUILDS = [
   {
+    id: 'josh-ventus-plus',
     owner: 'Josh',
     bike: 'ventus-plus',
     title: 'Josh\u2019s Ventus One Plus build',
     blurb: 'Full EXT suspension, Warp 9 wheels and pegs, VTB controller.',
-    pids: ['warp9-1619','ext-ferro','ext-arma-mx','vtb-aetos','ventus-graphics','warp9-pegs-lbx-ventus']
+    pids: ['warp9-1619','ext-ferro','ext-arma-mx','vtb-aetos','ventus-graphics','warp9-pegs-lbx-ventus'],
+    photo: '', photoAlt: '', photoCaption: '',
+    stockPhotoOk: true
+  },
+  {
+    id: 'josh-bonnell-805rx',
+    owner: 'Josh',
+    bike: 'bonnell-805rx',
+    title: 'Josh\u2019s Bonnell 805 RX build',
+    blurb: 'MORPH graphics, Bonnell kickstand from Charged Cycle Works and a DirtyBike shock mud flap, on the stock SIRRIS suspension.',
+    pids: ['plastics-morph','maintenance-bonnell-805-rx-kickstand-set','guards-dirtybike-shock-protector-mud-flap-bonnell-805'],
+    /* Waiting on Josh's real photo: save it as img/builds/josh-bonnell-805rx.webp, then fill these in. */
+    photo: '', photoAlt: 'Josh\u2019s Bonnell 805 RX with the MORPH graphics kit', photoCaption: 'Josh\u2019s Bonnell 805 RX (owner photo)'
   }
+  /* Josh's 2025 Sur-Ron Ultra Bee HP (bike id 'ultrabee-21kw') goes here once Josh lists
+     the parts actually installed on it. Do not guess the parts. */
 ];
 
 /* Build guides (Oct 18, 2026): Budget / Smart money / Dream for the most popular bikes.

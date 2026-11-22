@@ -735,6 +735,7 @@ details.more[open]{padding-bottom:14px}
 /* homepage featured build */
 .featured{width:min(1100px,94vw);margin:28px auto 10px}
 .featured[hidden]{display:none}
+.feat-card+.feat-card{margin-top:18px}
 .feat-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--bg2,#12161b);text-align:left}
 .feat-fig{margin:0;background:radial-gradient(90% 70% at 50% 45%, #3b4450 0%, #2a313b 34%, #1d2229 68%, #15191f 100%);display:flex;flex-direction:column;justify-content:center}
 .feat-fig img{width:100%;height:auto;aspect-ratio:16/10;object-fit:contain;padding:10px}
