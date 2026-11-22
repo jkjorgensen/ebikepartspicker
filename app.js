@@ -773,9 +773,12 @@ function render(){
   if(window.__ux) window.__ux.rendered();
   /* real catalog-checked date; if the data has none, drop the dangling "checked" */
   var when = (typeof STOCK_CHECKED!=='undefined' && STOCK_CHECKED) || (typeof CHECKED!=='undefined' && CHECKED) || '';
-  ['checkedDate','homeCheckedDate'].forEach(function(id){
-    var el = $(id); if(el && when) el.textContent = when;
-  });
+  var cw = $('checkedWrap');
+  if(when){
+    ['checkedDate','homeCheckedDate'].forEach(function(id){
+      var el = $(id); if(el) el.textContent = when;
+    });
+  }
   else if(cw){ cw.style.display = 'none'; }
 }
 
