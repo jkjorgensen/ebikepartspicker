@@ -639,8 +639,20 @@ details.more[open]{padding-bottom:14px}
 .popular{width:min(1100px,94vw);margin:34px auto 10px}
 .pop-title{font:700 20px/1.2 var(--display);letter-spacing:-.4px;margin:0 0 14px;text-align:left}
 .pop-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.home-intro{margin:0 0 28px;color:var(--muted);font-size:clamp(14px,1.8vw,16px);line-height:1.55;max-width:640px}
+.home-intro a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.home-faq{width:min(800px,94vw);margin:40px auto 16px;text-align:left}
+.home-faq h2{font:700 20px/1.2 var(--display);letter-spacing:-.4px;margin:0 0 8px}
+.home-faq details{border-top:1px solid var(--line);padding:12px 0}
+.home-faq details:last-of-type{border-bottom:1px solid var(--line)}
+.home-faq summary{cursor:pointer;font-weight:600;line-height:1.4}
+.home-faq details p{margin:10px 0 0;color:var(--muted);font-size:14.5px;line-height:1.55}
+.home-faq a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.used-safety{margin:8px 0 16px;color:var(--muted);font-size:13px;line-height:1.5;max-width:720px}
+.used-safety a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 .pop-card{display:flex;flex-direction:column;gap:4px;text-align:left;padding:0 0 12px;cursor:pointer;
   background:var(--bg2,#12161b);border:1px solid var(--line);border-radius:16px;overflow:hidden;color:inherit;font:inherit;
+  text-decoration:none;
   transition:transform .15s,border-color .15s}
 .pop-card:hover,.pop-card:focus-visible{transform:translateY(-2px);border-color:var(--accent)}
 .pop-card img{width:100%;height:auto;aspect-ratio:16/10;object-fit:contain;background:var(--studio);padding:6px;margin-bottom:6px}

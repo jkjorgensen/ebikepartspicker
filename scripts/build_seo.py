@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse,re
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.net'; V='4.17.14'; IMGV='4.5.0'; TODAY='2026-11-22'
+BASE='https://ebikepartspicker.net'; V='4.17.15'; IMGV='4.5.0'; TODAY='2026-11-22'; STOCK_CHECKED='Nov 22, 2026'
 # PWA service-worker registration snippet (plain string, NOT an f-string:
 # its braces would break the page() f-string below).
 SWREG="<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>"
@@ -91,7 +91,7 @@ def builder(bid,sel=None):
   h={'b':bid}; 
   if sel: h['s']=sel
   return '/#'+urllib.parse.quote(json.dumps(h,separators=(',',':')),safe='{}":,')
-def page(path,title,desc,body,crumbs,img=None,ld_extra=None,preload=''):
+def page(path,title,desc,body,crumbs,img=None,ld_extra=None,preload='',robots=None):
   title=fit_title(title); desc=fit_desc(desc)
   url=BASE+path; img=img or BASE+'/img/bikes/og-ventus-plus.jpg'
   bl={"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":BASE+u} for i,(n,u) in enumerate(crumbs)]}
@@ -101,7 +101,7 @@ def page(path,title,desc,body,crumbs,img=None,ld_extra=None,preload=''):
   AFF=' (<a href="/affiliate-disclosure">disclosure</a>)' if os.path.exists(os.path.join(ROOT,'affiliate-disclosure.html')) else ''
   out=f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="{e(desc)}">
+<title>{e(title)}</title>{('<meta name="robots" content="'+e(robots)+'">') if robots else ''}<meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{url}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="eBikePartsPicker"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{e(img)}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{e(img)}">
@@ -130,6 +130,8 @@ def page(path,title,desc,body,crumbs,img=None,ld_extra=None,preload=''):
   d=os.path.join(ROOT,path.strip('/')); os.makedirs(d,exist_ok=True); open(os.path.join(d,'index.html'),'w').write(out)
   return url
 urls=[]
+NOINDEX=set()
+THIN=10  # fewer confirmed+mod parts than this: noindex, omit from /bikes/ and the sitemap
 def bike_price(b):
   if b['price'] is None: return 'Price not yet verified'
   t={'msrp':' MSRP','voro':' at Voro Motors'}.get(b['src'],'')
@@ -152,7 +154,7 @@ for b in seo_bikes:
   nconf=sum(p['status']=='confirmed' for p in parts)
   if nconf:
     lede=f'{nconf} aftermarket parts that fit the {e(b["name"])}: each is either listed for this bike by the seller or manufacturer, or sold as a universal-fit part. Prices were checked on the retailer\u2019s page. Pick parts to see your build\u2019s total price, weight and estimated power.'
-    desc=f'{nconf} aftermarket parts that fit the {b["name"]}: suspension, wheels, brakes, controls and more, with prices checked {D["checked"]}. Build and price your {b["name"]}.'
+    desc=f'{nconf} aftermarket parts that fit the {b["name"]}: suspension, wheels, brakes, controls and more, with retailer prices (stock last checked {STOCK_CHECKED}). Build and price your {b["name"]}.'
   else:
     lede=f'No aftermarket parts are confirmed to fit the {e(b["name"])} yet. Open the builder to browse unverified options, or check back as we add exact-model evidence.'
     desc=f'Build and price the {b["name"]}. No confirmed aftermarket fitment yet. Specs and a link to the parts builder are below.'
@@ -173,11 +175,13 @@ for b in seo_bikes:
 {extra}<nav class="seo-toc">{toc}</nav>{secs}
 <p>{FM}<a href="/bikes/">All bikes</a></p>"""
   il={"@context":"https://schema.org","@type":"ItemList","name":f"{b['name']} upgrades and parts","numberOfItems":len(parts),"itemListElement":[{"@type":"ListItem","position":i+1,"name":p['name']} for i,p in enumerate(parts[:100])]}
-  urls.append(page(f'/bikes/{bid}/',f"{b['name']} Upgrades & Parts | Fit-Checked, Prices Checked | eBikePartsPicker",
+  u=page(f'/bikes/{bid}/',f"{b['name']} Upgrades & Parts | Fit-Checked, Prices Checked | eBikePartsPicker",
     desc,
-    body,[('Home','/'),('Bikes','/bikes/'),(b['name'],f'/bikes/{bid}/')],BASE+f'/img/og/{bid}.jpg',[il],preload=f'<link rel="preload" as="image" href="/img/bikes/{bid}-800.webp?v={IMGV}" imagesrcset="/img/bikes/{bid}-800.webp?v={IMGV} 800w, /img/bikes/{bid}.webp?v={IMGV} 1600w" imagesizes="(max-width: 900px) 100vw, 720px" fetchpriority="high">'))
+    body,[('Home','/'),('Bikes','/bikes/'),(b['name'],f'/bikes/{bid}/')],BASE+f'/img/og/{bid}.jpg',[il],preload=f'<link rel="preload" as="image" href="/img/bikes/{bid}-800.webp?v={IMGV}" imagesrcset="/img/bikes/{bid}-800.webp?v={IMGV} 800w, /img/bikes/{bid}.webp?v={IMGV} 1600w" imagesizes="(max-width: 900px) 100vw, 720px" fetchpriority="high">',robots=('noindex,follow' if len(parts)<THIN else None))
+  urls.append(u)
+  if len(parts)<THIN: NOINDEX.add(u)
 # bikes index
-li=''.join(f'<li><a href="/bikes/{b["id"]}/">{e(b["name"])} upgrades &amp; parts</a> <span class="sp-chk">{sum(p["status"]=="confirmed" for p in b["parts"])} confirmed parts</span></li>' for b in seo_bikes)
+li=''.join(f'<li><a href="/bikes/{b["id"]}/">{e(b["name"])} upgrades &amp; parts</a> <span class="sp-chk">{sum(p["status"]=="confirmed" for p in b["parts"])} confirmed parts</span></li>' for b in seo_bikes if len(b['parts'])>=THIN)
 urls.append(page('/bikes/','E-Moto Bikes: Upgrades & Parts by Model | eBikePartsPicker','Browse fit-checked aftermarket parts for the Sur-Ron Light Bee, Ultra Bee, Talaria Sting MX4, E Ride Pro and more, with checked prices.',
   f'<h1>Upgrades &amp; parts by bike</h1><ul class="seo-links">{li}</ul>',[('Home','/'),('Bikes','/bikes/')]))
 # guides
@@ -199,7 +203,7 @@ for g in D['guides']:
 <div class="seo-pc"><div><h2>Pros</h2><ul>{pc}</ul></div><div><h2>Cons</h2><ul>{cc}</ul></div></div>
 <p>More: <a href="/bikes/{b['id']}/">all {e(b['name'])} parts</a>{''.join(f' \u00b7 <a href="/guides/{b["id"]}-{o["tier"]}/">{e(TIER.get(o["tier"]))} build</a>' for o in guides_by_bike[b['id']] if o['tier']!=g['tier'])}</p>"""
   urls.append(page(f'/guides/{b["id"]}-{g["tier"]}/',f"{b['name']} {tn} Build: Parts List & Total ({money(tot)}) | eBikePartsPicker",
-    f"{tn} {b['name']} build: {', '.join(r['name'] for r in g['rows'][:3])}. Every part fit-confirmed, prices checked {D['checked']}. Parts total {money(tot)}.",
+    f"{tn} {b['name']} build: {', '.join(r['name'] for r in g['rows'][:3])}. Every part fit-confirmed, retailer prices, stock last checked {STOCK_CHECKED}. Parts total {money(tot)}.",
     body,[('Home','/'),('Bikes','/bikes/'),(b['name'],f'/bikes/{b["id"]}/'),(f'{tn} build',f'/guides/{b["id"]}-{g["tier"]}/')],BASE+f'/img/og/{b["id"]}.jpg'))
 # power
 ps=''
@@ -225,7 +229,7 @@ for cid in [c['id'] for c in D['cats']]:
   items=sorted(seen.values(),key=lambda x:x[0]['name'])
   li=''.join(f'<li class="sp-row" id="{e(p["pid"])}"{fitattrs(p["pid"])}>'+(img96(p["img"], p["name"]) if p['img'] else '<span class="sp-noimg"></span>')+f'<div class="sp-info"><strong><a class="sp-pl" href="/parts/{cid}/{e(p["pid"])}/">{e(p["name"])}</a></strong><div class="sp-chk">Confirmed for: '+', '.join(f'<a href="/bikes/{bb["id"]}/">{e(bb["name"])}</a>' if bb in seo_bikes else e(bb['name']) for bb in bs[:8])+(' and more' if len(bs)>8 else '')+'</div>'+(f'<div><span class="sp-price">{money(p["price"]["p"])}</span><span class="sp-chk">{e(p["price"].get("v") or "")}{", checked "+e(p["price"]["chk"]) if p["price"].get("chk") else ""}</span></div>' if p['price'] and p['price'].get('p') is not None else '')+f'</div><div class="sp-act">{buy(p["price"])}</div></li>' for p,bs in items)
   urls.append(page(f'/parts/{cid}/',f"E-Moto {c['name']} Upgrades: Which Bikes They Fit | eBikePartsPicker",
-    f"{len(items)+len(others)} aftermarket {c['name'].lower()} options for Sur-Ron, Talaria, E Ride Pro and more, with the bikes each seller confirms, and prices checked {D['checked']}.",
+    f"{len(items)+len(others)} aftermarket {c['name'].lower()} options for Sur-Ron, Talaria, E Ride Pro and more, with the bikes each seller confirms, and retailer prices, stock last checked {STOCK_CHECKED}.",
     f'<h1>{e(c["name"])} upgrades</h1><p class="seo-lede">{e(c["blurb"])}</p>'+(f'<ul class="sp-list" data-ux-fitlist>{li}</ul>' if li else '')+(f'<h2 id="more">More {e(c["name"].lower())} listings</h2><p class="sp-chk">Fit not confirmed for a specific bike yet. Open a part to see store prices and the fit status for each bike.</p><ul class="seo-links seo-az">'+''.join(f'<li><a href="/parts/{cid}/{e(o["pid"])}/">{e(o["name"])}</a></li>' for o in others)+'</ul>' if others else ''),[('Home','/'),('Parts','/parts/'),(c['name'],f'/parts/{cid}/')]))
 cats_done=[u for u in urls if '/parts/' in u]
 li=''.join(f'<li><a href="{u.replace(BASE,"")}">{e(CAT[u.rstrip("/").split("/")[-1]]["name"])}</a></li>' for u in cats_done)
@@ -311,10 +315,10 @@ for c in SNAP['cats']:
     SI['p'].append([o['pid'],o['name'],c['id'],u,o['img'],fits,pr])
 open(os.path.join(ROOT,'search-index.json'),'w').write(json.dumps(SI,separators=(',',':'),ensure_ascii=False))
 static=['/','/about.html','/fitment-methodology.html','/affiliate-disclosure.html','/contact.html','/privacy.html','/terms.html','/report-a-part.html','/submission-guidelines.html']
-allu=[BASE+(s[:-5] if s.endswith('.html') else s) for s in static if os.path.exists(os.path.join(ROOT,s.strip('/') or 'index.html'))]+urls
+allu=[BASE+(s[:-5] if s.endswith('.html') else s) for s in static if os.path.exists(os.path.join(ROOT,s.strip('/') or 'index.html'))]+[u for u in urls if u not in NOINDEX]
 open(os.path.join(ROOT,'sitemap.xml'),'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod></url>\n' for u in allu)+'</urlset>\n')
 open(os.path.join(ROOT,'robots.txt'),'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n')
-print(len(allu),'urls')
+print(len(allu),'urls',len(NOINDEX),'thin bike pages noindex')
 # keep site-wide additions on generated pages: click tracking + upgrades-by-goal link
 import glob as _g
 for _f in _g.glob(os.path.join(ROOT,'bikes','**','index.html'),recursive=True)+_g.glob(os.path.join(ROOT,'guides','*','index.html'))+_g.glob(os.path.join(ROOT,'parts','**','index.html'),recursive=True)+[os.path.join(ROOT,'power','index.html')]:

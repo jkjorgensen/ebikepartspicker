@@ -4,13 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>eBikePartsPicker — E-Moto Parts Builder & Bike Finder</title>
-<meta name="description" content="Build your e-moto part by part. Compare real parts, prices, weight and power in one place.">
+<meta name="description" content="Free e-moto parts builder: 46 bikes and 2,019 parts with sourced fit statuses, checked prices, and retailer buy links. No sign-up.">
 <meta property="og:title" content="eBikePartsPicker — E-Moto Parts Builder">
 <meta property="og:description" content="Build your e-moto part by part. Compare real parts, prices, weight and power in one place.">
 <meta property="og:image" content="https://ebikepartspicker.net/img/bikes/og-ventus-plus.jpg">
 <link rel="canonical" href="https://ebikepartspicker.net/">
 <meta property="og:url" content="https://ebikepartspicker.net/">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"eBikePartsPicker","url":"https://ebikepartspicker.net/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How do you confirm that a part fits?","acceptedAnswer":{"@type":"Answer","text":"Confirmed means a seller or manufacturer listing names this exact bike, or the site owner installed it on his own bike (marked owner-verified). Likely means there is a source that does not clearly name your exact model. See the fitment methodology page for every status."}},
+{"@type":"Question","name":"Do you sell the parts?","acceptedAnswer":{"@type":"Answer","text":"No. The site links to retailer product pages. Only Voro Motors bike buy buttons and Tuttio (tuttiosport.com) buy links are affiliate links. Other store links are ordinary links. Used listings are person-to-person; this site does not handle payments."}},
+{"@type":"Question","name":"How current are the prices?","acceptedAnswer":{"@type":"Answer","text":"Prices are estimates from retailer pages. Stock was last checked November 22, 2026. Always confirm price, stock, and fitment on the seller’s page before you buy."}},
+{"@type":"Question","name":"How do I report a mistake or list a used part?","acceptedAnswer":{"@type":"Answer","text":"Use the Report a part form, or Sell a part on the Used Parts tab. Used-listing photos are emailed after you submit. Every used listing is checked and hand-approved before it goes live."}}
+]}</script>
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="eBikePartsPicker — E-Moto Parts Builder">
@@ -42,7 +48,7 @@
   });
 })();
 </script>
-<link rel="stylesheet" href="styles.css?v=4.17.14">
+<link rel="stylesheet" href="styles.css?v=4.17.15">
 <link rel="stylesheet" href="motion.css?v=6.0.2">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,6 +65,7 @@
   <div class="eyebrow">The e-moto parts builder</div>
   <h1 class="display">Build your e-moto, <span>part by part.</span></h1>
   <p class="tagline">Real parts, real prices, real fitment. Free, no sign-up.</p>
+  <p class="home-intro">eBikePartsPicker is a free e-moto parts builder. It covers 46 bikes and 2,019 aftermarket parts in 23 categories. Every part has a fit status — Confirmed, Likely, Needs mod, Doesn’t fit, or Unknown — with a source. <a href="/fitment-methodology">How fitment is confirmed</a>. Stock was last checked <span id="homeCheckedDate">Nov 22, 2026</span>. Prices are estimates — verify price, stock and fitment with the seller before you buy.</p>
     <div class="start-cta-row">
     <span class="havebike">Already have a bike?</span>
     <div class="combobox start-combo">
@@ -79,7 +86,16 @@
   <div class="hero-pin"><div class="herostage"><div class="hz-glow" aria-hidden="true"></div><img class="hero" id="heroImg" src="img/bikes/ventus-plus.webp?v=4.8.1" srcset="img/bikes/ventus-plus-800.webp?v=4.8.1 800w, img/bikes/ventus-plus.webp?v=4.8.1 1600w" sizes="(max-width: 900px) 100vw, 900px" decoding="async" alt="Ventus One Plus electric dirt bike" width="1600" height="1000" fetchpriority="high"><div class="hz-floor" aria-hidden="true"></div></div></div>
   <section class="popular" aria-labelledby="popTitle">
     <h2 id="popTitle" class="pop-title">Popular bikes</h2>
-    <div class="pop-grid" id="popGrid"><div class="pop-card ux-skel-card" aria-hidden="true"><span class="ux-skel"></span></div><div class="pop-card ux-skel-card" aria-hidden="true"><span class="ux-skel"></span></div><div class="pop-card ux-skel-card" aria-hidden="true"><span class="ux-skel"></span></div><div class="pop-card ux-skel-card" aria-hidden="true"><span class="ux-skel"></span></div></div>
+    <div class="pop-grid" id="popGrid">
+      <a class="pop-card" href="/bikes/bonnell-805rx/"><img src="img/bikes/bonnell-805rx-800.webp?v=4.5.0" alt="Bonnell 805 RX electric dirt bike" width="800" height="500" loading="eager" decoding="async"><strong>Bonnell 805 RX</strong><small>$8,250 · 42 kW</small></a>
+      <a class="pop-card" href="/bikes/ultrabee/"><img src="img/bikes/ultrabee-800.webp?v=4.5.0" alt="Sur-Ron Ultra Bee 24.5kW electric dirt bike" width="800" height="500" loading="eager" decoding="async"><strong>Sur-Ron Ultra Bee 24.5kW</strong><small>$6,399 · 24.5 kW</small></a>
+      <a class="pop-card" href="/bikes/lightbee/"><img src="img/bikes/lightbee-800.webp?v=4.5.0" alt="Sur-Ron Light Bee X electric dirt bike" width="800" height="500" loading="eager" decoding="async"><strong>Sur-Ron Light Bee X</strong><small>$4,999 · 10 kW</small></a>
+      <a class="pop-card" href="/bikes/ss20/"><img src="img/bikes/ss20-800.webp?v=4.5.0" alt="E Ride Pro SS 2.0 electric dirt bike" width="800" height="500" loading="lazy" decoding="async"><strong>E Ride Pro SS 2.0</strong><small>$4,299 · 12 kW</small></a>
+      <a class="pop-card" href="/bikes/sr/"><img src="img/bikes/sr-800.webp?v=4.5.0" alt="E Ride Pro SR electric dirt bike" width="800" height="500" loading="lazy" decoding="async"><strong>E Ride Pro SR</strong><small>$5,599 · 25 kW</small></a>
+      <a class="pop-card" href="/bikes/komodo/"><img src="img/bikes/komodo-800.webp?v=4.5.0" alt="Talaria Komodo electric dirt bike" width="800" height="500" loading="lazy" decoding="async"><strong>Talaria Komodo</strong><small>$5,699 · 32 kW</small></a>
+      <a class="pop-card" href="/bikes/ventus-plus/"><img src="img/bikes/ventus-plus-800.webp?v=4.5.0" alt="Ventus One Plus electric dirt bike" width="800" height="500" loading="lazy" decoding="async"><strong>Ventus One Plus</strong><small>$5,999 · 28 kW</small></a>
+      <a class="pop-card" href="/bikes/altis-sigma/"><img src="img/bikes/altis-sigma-800.webp?v=4.5.0" alt="Altis Sigma electric dirt bike" width="800" height="500" loading="lazy" decoding="async"><strong>Altis Sigma</strong><small>$5,299 · 25 kW</small></a>
+    </div>
   </section>
   <div id="uxShelf" class="ux-shelf" hidden></div>
   <div class="volt-pin"><section class="voltband">
@@ -96,6 +112,26 @@
     </div>
     <p class="formerr" id="notifyErr" hidden>Enter a valid email address.</p>
   </div>
+
+  <section class="home-faq" aria-labelledby="faqTitle">
+    <h2 id="faqTitle">Common questions</h2>
+    <details>
+      <summary>How do you confirm that a part fits?</summary>
+      <p>Confirmed means a seller or manufacturer listing names this exact bike, or the site owner installed it on his own bike (marked owner-verified). Likely means there is a source, but it doesn’t clearly name your exact model. <a href="/fitment-methodology">Read the fitment methodology</a>.</p>
+    </details>
+    <details>
+      <summary>Do you sell the parts?</summary>
+      <p>No. The site links to retailer product pages. Only Voro Motors bike buy buttons and Tuttio (tuttiosport.com) buy links are affiliate links. Other store links are ordinary links. Used listings are person-to-person; this site does not handle payments. <a href="/affiliate-disclosure">Affiliate disclosure</a>.</p>
+    </details>
+    <details>
+      <summary>How current are the prices?</summary>
+      <p>Prices are estimates from retailer pages. Stock was last checked Nov 22, 2026. Always confirm price, stock and fitment on the seller’s page before you buy.</p>
+    </details>
+    <details>
+      <summary>How do I report a mistake or list a used part?</summary>
+      <p>Use <a href="/report-a-part">Report a part</a>, or Sell a part on the Used Parts tab. Used-listing photos are emailed after you submit (there is no photo upload yet). Every used listing is checked and hand-approved before it goes live.</p>
+    </details>
+  </section>
 </div>
 
 <!-- APP -->
@@ -163,7 +199,7 @@
             <button id="btnNext" class="cta">Next</button>
           </div>
         </div>
-        <p class="micro">Prices are estimates<span id="checkedWrap">, checked <span id="checkedDate"></span></span>. Verify before buying.</p>
+        <p class="micro">Prices are estimates. Stock last checked <span id="checkedDate">Nov 22, 2026</span>. Verify before buying.</p>
       </div>
     </div>
   </main>
@@ -199,7 +235,8 @@
   <main id="usedPane" class="wrap" hidden>
     <div class="qstep">Community listings</div>
     <h2 class="qtitle">Used parts.</h2>
-    <p class="qsub" id="usedNote"></p>
+    <p class="qsub" id="usedNote">Community listings, hand-approved before they go live. No payments here — buyer and seller work it out directly.</p>
+    <p class="used-safety" id="usedSafety">This site does not handle payments, escrow, or shipping. Deal directly with the seller. Be cautious of prepaid, gift-card, or wire-only requests, and never send money to someone you have not verified. Hand-approval is not a guarantee. <a href="/terms">Terms</a>.</p>
     <div class="uhead">
       <div id="usedFilters" class="ufilters"></div>
       <button class="cta sellOpen">Sell a part</button>
@@ -270,6 +307,7 @@
       <button class="modal-x" id="sellClose" aria-label="Close">✕</button>
     </div>
     <p class="modal-sub">List your used part. Every submission is checked and hand-approved before it goes live — no payments here, buyer and seller work it out directly.</p>
+    <p class="used-safety">Buyers and sellers deal with each other directly. This site does not handle payments, escrow, or shipping. Be cautious of prepaid, gift-card, or wire-only requests.</p>
     <div id="sellForm">
       <label class="flabel">Find it in our catalog <span class="opt">(optional — we'll fill in what it fits)</span>
         <input id="sellCatalog" type="text" placeholder="Start typing — e.g. EBMX XLB-60…" autocomplete="off" list="sellCatalogList">
@@ -335,15 +373,15 @@
 <label>Email<input type="email" name="email" required maxlength="200" autocomplete="email"></label>
 <input type="hidden" name="bike" id="alBike"><input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
 <button type="submit">Get alerts</button><p class="form-msg" role="status" aria-live="polite" style="grid-column:1/-1"></p></form></section>
-<script src="data.js?v=4.17.14" defer></script>
-<script src="upcoming.js?v=4.17.14" defer></script>
+<script src="data.js?v=4.17.15" defer></script>
+<script src="upcoming.js?v=4.17.15" defer></script>
 <script src="builds.js?v=4.8.4" defer></script>
-<script src="buy.js?v=4.17.14" defer></script>
-<script src="ux.js?v=4.17.14" defer></script>
-<script src="app.js?v=4.17.14" defer></script>
-<script src="quiz.js?v=4.17.14" defer></script>
-<script src="compare.js?v=4.17.14" defer></script>
-<script src="used.js?v=4.8.1" defer></script>
+<script src="buy.js?v=4.17.15" defer></script>
+<script src="ux.js?v=4.17.15" defer></script>
+<script src="app.js?v=4.17.15" defer></script>
+<script src="quiz.js?v=4.17.15" defer></script>
+<script src="compare.js?v=4.17.15" defer></script>
+<script src="used.js?v=4.17.15" defer></script>
 <script src="polish.js?v=3" defer></script>
 <script src="home.js?v=1" defer></script>
 <script src="vendor/gsap.min.js?v=3.15.1" defer></script>
