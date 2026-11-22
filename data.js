@@ -5,7 +5,8 @@
    && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py
    Bike prices: keep data/bikes.json price_usd in sync with BIKES[].price (price alerts read bikes.json). */
 
-var CHECKED = 'Oct 18, 2026'; /* per-price chk = date that price was confirmed on the retailer page */
+var STOCK_CHECKED = 'Nov 22, 2026'; /* last daily store-page stock check (tools/stock_check.py). Does not by itself re-verify every listed price. */
+var CHECKED = 'Oct 18, 2026'; /* original catalog price-research date; per-offer chk is the date on that retailer row */
 
 var BIKES = [
   {id:'ventus-plus', name:'Ventus One Plus', price:5999, src:'msrp', weight:152, kw:28, size:'light'},
