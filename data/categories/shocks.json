@@ -330,16 +330,6 @@
       "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle"
     },
     {
-      "product_id": "chargedcycleworks-prickly-performance-linkage-e-ride-pro",
-      "bike_id": "sr",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
-      ],
-      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
-    },
-    {
       "product_id": "revrides-r38-2sc-e-ride-pro-sr",
       "bike_id": "sr",
       "status": "confirmed_direct_fit",
@@ -388,16 +378,6 @@
         "https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0"
       ],
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/f43-cmx-tune-tool-free-lsc-220-mm-travel-e-ride-pro-ss-3-0"
-    },
-    {
-      "product_id": "chargedcycleworks-prickly-performance-linkage-e-ride-pro",
-      "bike_id": "ss30",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
-      ],
-      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
     },
     {
       "product_id": "chargedcycleworks-r38-2sc-e-ride-pro-3-0",
@@ -1804,31 +1784,6 @@
       "power_change_kw": null,
       "weight_delta_kg": null,
       "image": "img/parts/sirris-r46-zero-xe.webp"
-    },
-    {
-      "id": "chargedcycleworks-prickly-performance-linkage-e-ride-pro",
-      "name": "Prickly Linkage for Sirris R38 Rear Shock E Ride Pro",
-      "brand": "Prickly Motorsports",
-      "category": "shock",
-      "price_usd": 125.0,
-      "vendor": "Charged Cycle Works",
-      "buy_url": "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro",
-      "tier": "midrange",
-      "is_upgrade": true,
-      "stock_status": "in_stock",
-      "notes": "CCW fitment text name(s) ss30 exactly (checked 2026-11-10); CCW fitment text name(s) sr exactly (checked 2026-11-10)",
-      "source_urls": [
-        "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
-      ],
-      "last_checked": "2026-11-10",
-      "vendors": [
-        {
-          "vendor": "Charged Cycle Works",
-          "price_usd": 125.0,
-          "buy_url": "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
-        }
-      ],
-      "image": "img/parts/chargedcycleworks-prickly-performance-linkage-e-ride-pro.webp"
     },
     {
       "id": "chargedcycleworks-traxion-s-tialn-260mm-travel-surron-ultra-bee",
