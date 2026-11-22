@@ -1567,6 +1567,146 @@
         "https://chargedcycleworks.com/products/rfloxa-ultra43"
       ],
       "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk31-max-black",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-max-black"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-black"
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk31-max-gold",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold"
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk31-max-plus-fork-1",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1"
+    },
+    {
+      "product_id": "rfloxa-hawk31-pro",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
+    },
+    {
+      "product_id": "chargedcycleworks-ext-ferro-fork-open-box",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ext-ferro-fork-open-box"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/ext-ferro-fork-open-box"
+    },
+    {
+      "product_id": "ext-ferro",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk31-max-black",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-max-black"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-black"
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk31-max-gold",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold"
+    },
+    {
+      "product_id": "chargedcycleworks-rfloxa-hawk31-max-plus-fork-1",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1"
+    },
+    {
+      "product_id": "rfloxa-hawk31-pro",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-pro"
+    },
+    {
+      "product_id": "chargedcycleworks-formula-tech-39mm-forks",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/formula-tech-39mm-forks"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/formula-tech-39mm-forks"
+    },
+    {
+      "product_id": "chargedcycleworks-fastace-ahx12rv-gravitee-front-fork",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/fastace-ahx12rv-gravitee-front-fork"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/fastace-ahx12rv-gravitee-front-fork"
+    },
+    {
+      "product_id": "chargedcycleworks-upgraded-kke-suspension-forks-for-surron-light-bee",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/upgraded-kke-suspension-forks-for-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/upgraded-kke-suspension-forks-for-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-factory-fork-for-talaria-sur-ron-segway",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-factory-fork-for-talaria-sur-ron-segway"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-factory-fork-for-talaria-sur-ron-segway"
     }
   ],
   "products": [
@@ -4357,6 +4497,80 @@
           "buy_url": "https://wiredwhips.com/parts/altis_omega_fork-seals-skf"
         }
       ]
+    },
+    {
+      "id": "chargedcycleworks-fastace-ahx12rv-gravitee-front-fork",
+      "name": "FastAce AHX12RV Gravitee Front Fork",
+      "brand": "FastAce",
+      "category": "fork",
+      "price_usd": 749.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/fastace-ahx12rv-gravitee-front-fork",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the '50 lb / No' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/fastace-ahx12rv-gravitee-front-fork"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 749.0,
+          "buy_url": "https://chargedcycleworks.com/products/fastace-ahx12rv-gravitee-front-fork"
+        }
+      ]
+    },
+    {
+      "id": "chargedcycleworks-upgraded-kke-suspension-forks-for-surron-light-bee",
+      "name": "KKE GOLD Front Suspension Fork",
+      "brand": "KKE Racing",
+      "category": "fork",
+      "price_usd": 649.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/upgraded-kke-suspension-forks-for-surron-light-bee",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Talaria' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/upgraded-kke-suspension-forks-for-surron-light-bee"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 649.0,
+          "buy_url": "https://chargedcycleworks.com/products/upgraded-kke-suspension-forks-for-surron-light-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-upgraded-kke-suspension-forks-for-surron-light-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-factory-fork-for-talaria-sur-ron-segway",
+      "name": "Talaria - OEM Factory Fork 2.0",
+      "brand": "eBikeZilla",
+      "category": "fork",
+      "price_usd": 699.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-factory-fork-for-talaria-sur-ron-segway",
+      "tier": "premium",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-factory-fork-for-talaria-sur-ron-segway"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 699.0,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-factory-fork-for-talaria-sur-ron-segway"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-factory-fork-for-talaria-sur-ron-segway.webp"
     }
   ]
 }

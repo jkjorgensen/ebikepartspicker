@@ -1,5 +1,5 @@
-/* eBikePartsPicker catalog. Catalog v4.17.11, last researched 2026-11-19.
-   46 bikes / 23 categories / 2026 parts (2019 listed, 7 hidden).
+/* eBikePartsPicker catalog. Catalog v4.17.16, last researched 2026-11-22.
+   49 bikes / 23 categories / 2120 parts (2113 listed, 7 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
    && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py
@@ -55,6 +55,9 @@ var BIKES = [
   {id:'altis-omega', name:'Altis Omega', price:7899, src:'voro', msrp:7899, srcUrl:'https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Faltis-omega', srcChk:'2026-10-18', weight:257, kw:55, size:'full', sparse:1},
   {id:'altis-delta', name:'Altis Delta', price:3299, src:'msrp', weight:163, kw:13, size:'light', sparse:1},
   {id:'rawrr-mantis-mini-r', name:'Rawrr Mantis Mini R', price:2899, src:'msrp', weight:111, kw:4.5, size:'light', sparse:1},
+  {id:'segway-x160', name:'Segway X160', price:null, src:'msrp', weight:105.8, kw:3, size:'light', sparse:1},
+  {id:'segway-x260', name:'Segway X260', price:null, src:'msrp', weight:121.3, kw:5, size:'light', sparse:1},
+  {id:'talaria-xxx', name:'Talaria XXX (X3)', price:null, src:'msrp', weight:125, kw:null, size:'light', sparse:1, noPhoto:1},
 ];
 
 var FITMENT = {
@@ -824,6 +827,24 @@ var CATEGORIES = [
      ],
      fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/wiredwhips-oem-soleil01-controller-main-line-m-button-soleil01-main-line.webp'
     },
+    {name:'OEM Controller for Talaria X3', pid:'chargedcycleworks-oem-controller-for-talaria-x3', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:904.18, url:'https://chargedcycleworks.com/products/oem-controller-for-talaria-x3', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-oem-controller-for-talaria-x3.webp'
+    },
+    {name:'Torp TC1000 Controller for Surron Light Bee', pid:'chargedcycleworks-torp-tc1000-controller-for-surron-light-bee-and-segway-x260-1', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:1126, url:'https://chargedcycleworks.com/products/torp-tc1000-controller-for-surron-light-bee-and-segway-x260-1', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-torp-tc1000-controller-for-surron-light-bee-and-segway-x260-1.webp'
+    },
+    {name:'Torp TC500 Controller for Surron Light Bee', pid:'chargedcycleworks-torp-tc500-controller', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/torp-tc500-controller', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-torp-tc500-controller.webp'
+    },
 ]},
   {id:'fork', name:'Fork', blurb:'Front suspension — dictates how the bike handles braking bumps, rocks, and landings.', tips:['Axle size and triple-clamp fitment must match your bike','Spring rate should suit your weight — ask the vendor','More travel isn\'t always better if the geometry suffers'], options:[
     {name:'Stock fork', prices:[]},
@@ -834,7 +855,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:1599, url:'https://tbelectricmoto.com/products/ext-ferro', chk:'2026-11-22', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['lightbee','mx4','mx5','komodo','ss20','ss30','ss40','sr','ventus-plus','ultrabee'], likely:['storm-bee','ventus-evo'], no:[],
+     fits:['lightbee','mx4','mx5','komodo','ss20','ss30','ss40','sr','ventus-plus','ultrabee', 'talaria-xxx'], likely:['storm-bee','ventus-evo'], no:[],
      badge:'EXT Ferro', stock:'in_stock', stockChk:'2026-11-22', wtKg:4.5, img:'img/parts/ext-ferro.webp'
     },
     {name:'Fastace Fork 2.0', pid:'fastace-20', tier:'mid',
@@ -894,7 +915,7 @@ var CATEGORIES = [
       {v:'RFLOXA', p:863, url:'https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload', chk:'2026-11-22', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['lightbee','mx4','ss20','ventus-plus'], likely:['rawrr-mantis-x'], no:[],
+     fits:['lightbee','mx4','ss20','ventus-plus', 'segway-x260', 'talaria-xxx'], likely:['rawrr-mantis-x'], no:[],
      badge:'RFLOXA', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/rfloxa-hawk31-pro.webp'
     },
     {name:'FASTACE AHX12RV Front Fork', pid:'fastace-ahx12rv', tier:'mid',
@@ -1065,7 +1086,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:1359.15, url:'https://chargedcycleworks.com/products/ext-ferro-fork-open-box', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['sr','ss30'], likely:[], no:[],
+     fits:['sr','ss30', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-ext-ferro-fork-open-box.webp'
     },
     {name:'KKE 26LBS Replacement Spring Kit Fit for Surron Ultra Bee Front Suspension Fork 2023-2024', pid:'chargedcycleworks-kke-26lbs-replaced-spring-kit-fit-surron-ultra-bee-front-suspension-fork-2023-2024', tier:'midrange',
@@ -1200,7 +1221,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:1350.0, url:'https://chargedcycleworks.com/products/formula-tech-39mm-forks', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['mx5','sr'], likely:['altis-sigma'], no:[],
+     fits:['mx5','sr', 'talaria-xxx'], likely:['altis-sigma'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-formula-tech-39mm-forks.webp'
     },
     {name:'Tech Suspension E39 Racing Kashima E-Moto Fork', pid:'chargedcycleworks-tech-suspension-e39-racing-kashima-fork', tier:'midrange',
@@ -1223,14 +1244,14 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rawrr-mantis-x'], no:[],
+     fits:['segway-x260', 'talaria-xxx'], likely:['rawrr-mantis-x'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rfloxa-hawk31-max-gold.webp'
     },
     {name:'RFloXa Hawk31 Max (Black)', pid:'chargedcycleworks-rfloxa-hawk31-max-black', tier:'mid',
      prices:[
       {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/rfloxa-hawk31-max-black', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rawrr-mantis-x'], no:[],
+     fits:['segway-x260', 'talaria-xxx'], likely:['rawrr-mantis-x'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rfloxa-hawk31-max-black.webp'
     },
     {name:'SKF Fork Seals for Stark Varg', pid:'fork-skf-seals-stark-varg', tier:'mid',
@@ -1269,7 +1290,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:1099, url:'https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:[], likely:['falcon-pro'], no:[],
+     fits:['segway-x260', 'talaria-xxx'], likely:['falcon-pro'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rfloxa-hawk31-max-plus-fork-1.webp'
     }
 ,
@@ -1507,6 +1528,24 @@ var CATEGORIES = [
      ],
      fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-22'
     },
+    {name:'FastAce AHX12RV Gravitee Front Fork', pid:'chargedcycleworks-fastace-ahx12rv-gravitee-front-fork', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:749, url:'https://chargedcycleworks.com/products/fastace-ahx12rv-gravitee-front-fork', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22'
+    },
+    {name:'KKE GOLD Front Suspension Fork', pid:'chargedcycleworks-upgraded-kke-suspension-forks-for-surron-light-bee', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:649, url:'https://chargedcycleworks.com/products/upgraded-kke-suspension-forks-for-surron-light-bee', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-upgraded-kke-suspension-forks-for-surron-light-bee.webp'
+    },
+    {name:'Talaria - OEM Factory Fork 2.0', pid:'chargedcycleworks-talaria-factory-fork-for-talaria-sur-ron-segway', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:699, url:'https://chargedcycleworks.com/products/talaria-factory-fork-for-talaria-sur-ron-segway', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-talaria-factory-fork-for-talaria-sur-ron-segway.webp'
+    },
 ]},
   {id:'shock', name:'Shock', blurb:'Rear suspension — traction and comfort over chatter.', tips:['Eye-to-eye length and stroke must match stock','Spring rate should suit your weight','Pairs with linkage choice on some bikes'], options:[
     {name:'Stock shock', prices:[]},
@@ -1515,7 +1554,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:249.99, url:'https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock', chk:'2026-11-22', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['lightbee','mx5','sr','ss20','ss30','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['lightbee','mx5','sr','ss20','ss30','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro', 'talaria-xxx'], likely:[], no:[],
      badge:'KKE', stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/kke-performance.webp'
     },
     {name:'OEM KKE Rear Shock (white spring)', pid:'oem-kke-white', tier:'budget',
@@ -1549,7 +1588,7 @@ var CATEGORIES = [
       {v:'TB Electric Moto', p:950, url:'https://tbelectricmoto.com/products/ext-arma', chk:'2026-11-22', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['lightbee','mx4','mx5','ss20','ss30','ventus-plus','arctic-leopard-xf','sr','altis-sigma','ss40'], likely:['ventus-evo','komodo'], no:[],
+     fits:['lightbee','mx4','mx5','ss20','ss30','ventus-plus','arctic-leopard-xf','sr','altis-sigma','ss40', 'talaria-xxx'], likely:['ventus-evo','komodo'], no:[],
      badge:'EXT Arma', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/ext-arma-mx.webp'
     },
     {name:'Shock Absorber Black — Komodo OEM', pid:'komodo-shock-absorber-oem', tier:'OEM',
@@ -1831,14 +1870,14 @@ var CATEGORIES = [
      
       {v:'GritShift', p:699.89, url:'https://gritshift.com/products/vonkat-tenfive-shock', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['mx5','sr','altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r','ss40'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
+     fits:['mx5','sr','altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-r','ss40', 'talaria-xxx'], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway.webp'
     },
     {name:'Warp9 4mm Neoprene Shock Cover – Surron / Talaria / E-Ride Pro', pid:'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:17, url:'https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['ss30','rawrr-mantis-x','altis-sigma','arctic-leopard-xe-pro-s','lightbee2','arctic-leopard-xe-pro-s-enduro','rawrr-mantis-72v','ss40','falcon-pro','falcon-gt'], likely:[], no:[],
+     fits:['ss30','rawrr-mantis-x','altis-sigma','arctic-leopard-xe-pro-s','lightbee2','arctic-leopard-xe-pro-s-enduro','rawrr-mantis-72v','ss40','falcon-pro','falcon-gt', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto.webp'
     },
     {name:'Warp9 FastAce Gravitee AHX12RV + Warp 9 Triple Clamps Suspension Bundle', pid:'chargedcycleworks-fastace-gravitee-ahx12rv-warp-9-triple-clamps-suspension-bundle', tier:'midrange',
@@ -1852,7 +1891,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:259, url:'https://chargedcycleworks.com/products/rfloxa-rab53rv', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['ventus-evo','arctic-leopard-xe-pro-s'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
+     fits:['ventus-evo','arctic-leopard-xe-pro-s', 'segway-x260', 'talaria-xxx'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xe-pro-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/rfloxa-rab53rv.webp'
     },
     {name:'ETM RTR Race Shock', pid:'chargedcycleworks-etm-rtr-race-shock', tier:'midrange',
@@ -1873,14 +1912,14 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:150.0, url:'https://chargedcycleworks.com/products/rfloxa-rab50rc', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro', 'segway-x260', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rfloxa-rab50rc.webp'
     },
     {name:'Nibbi Rear Shock', pid:'chargedcycleworks-nibbi-rear-shock', tier:'midrange',
      prices:[
       {v:'Charged Cycle Works', p:239.89, url:'https://chargedcycleworks.com/products/nibbi-rear-shock', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
+     fits:['altis-sigma','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro', 'segway-x260'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-nibbi-rear-shock.webp'
     },
     {name:'Race Tech Suspension Gold Valves for Stark Varg', pid:'shock-race-tech-gold-valves-stark-varg', tier:'midrange',
@@ -1958,6 +1997,18 @@ var CATEGORIES = [
      ],
      fits:[], likely:['altis-omega'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/wiredwhips-warp-9-e-moto-shock-protector-altis-omega.webp'
+    },
+    {name:'KKE 550LBS Rear Shock Spring', pid:'chargedcycleworks-kke-550lbs-rear-suspension-spring-for-surron-light-bee-x-segway-collective', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:44.99, url:'https://chargedcycleworks.com/products/kke-550lbs-rear-suspension-spring-for-surron-light-bee-x-segway-collective', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-kke-550lbs-rear-suspension-spring-for-surron-light-bee-x-segway-collective.webp'
+    },
+    {name:'KKE Rear Absorber Suspension Shock 650Ibs Spring For SurRon Light Bee-X, Segway (Collective)', pid:'chargedcycleworks-kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective.webp'
     },
 ]},
   {id:'wheels', name:'Wheels', blurb:'Lighter, stronger wheels sharpen handling and acceleration — often the best-feeling upgrade per dollar.', tips:['Hub and axle size must match your bike','Check your brake rotor bolt pattern carries over','Spoked vs billet — weight vs strength tradeoff'], options:[
@@ -2124,7 +2175,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:569, url:'https://tbelectricmoto.com/products/17in-premium-super-moto-wheel-set-for-talaria-sting-mx4-xxx', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:["mx4"], likely:[], no:[],
+     fits:["mx4", 'talaria-xxx'], likely:[], no:[],
      badge:'Wheel', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/tbelectricmoto-17in-premium-super-moto-wheel-set-for-talaria-sting-mx4.webp'
     },
     {name:'Ventus One + (Plus) - OEM Front Wheel & Spacers', pid:'chargedcycleworks-ventus-one-plus-oem-front-wheel-spacers', tier:'OEM',
@@ -2138,7 +2189,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:499, url:'https://chargedcycleworks.com/products/surron-oem-supermoto-wheelset', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:["lightbee"], likely:["ventus-plus"], no:[],
+     fits:["lightbee", 'segway-x160', 'segway-x260'], likely:["ventus-plus"], no:[],
      badge:'Wheel', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-surron-oem-supermoto-wheelset.webp'
     },
     {name:'Excel Wheels for Bonnell 805 RX', pid:'wheels-excel-wheels-for-bonnell-805-rx', tier:'premium',
@@ -2516,7 +2567,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:23.3, url:'https://chargedcycleworks.com/products/rr-wheel-axle-m15-204-talaria-sting-mx5', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['mx5'], likely:[], no:[],
+     fits:['mx5', 'talaria-xxx'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rr-wheel-axle-m15-204-talaria-sting-mx5.webp'
     },
     {name:'Talaria - OEM Right Rear Wheel Spacer for MX5', pid:'chargedcycleworks-rr-wheel-l-setback-linerφ15-φ25-19-5-talaria-sting-mx5', tier:'OEM',
@@ -2678,7 +2729,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:699, url:'https://chargedcycleworks.com/products/ion-17-supermoto-wheelset', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['falcon-pro','falcon-gt','ventus-evo'], likely:[], no:[],
+     fits:['falcon-pro','falcon-gt','ventus-evo', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/wheels-ion-lightbee-eride20-17supermoto.webp'
     },
     {name:'Warp9 18/21 Complete Wheel & Tire Combo', pid:'chargedcycleworks-warp9-18-21-combo-lbx-falcon', tier:'midrange',
@@ -2727,7 +2778,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:16, url:'https://chargedcycleworks.com/products/bearing-kit-front-wheel', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['rawrr-mantis-x'], likely:['rawrr-mantis-72v'], no:[],
+     fits:['rawrr-mantis-x', 'talaria-xxx'], likely:['rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-bearing-kit-front-wheel.webp'
     },
     {name:'Tusk Rear Wheel for Stark Varg', pid:'wheels-tusk-rear-wheel-stark-varg', tier:'midrange',
@@ -3212,6 +3263,30 @@ var CATEGORIES = [
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22'
     },
+    {name:'21" Front Wheel Upgrade (Small eMoto)', pid:'chargedcycleworks-21-charged-custom-front-wheel-for-sur-ron', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:249.99, url:'https://chargedcycleworks.com/products/21-charged-custom-front-wheel-for-sur-ron', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-21-charged-custom-front-wheel-for-sur-ron.webp'
+    },
+    {name:'ION - Surron Light Bee / E Ride Pro 2.0 - 16/19" Wheelset', pid:'chargedcycleworks-ion-16-19-wheelset', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:599, url:'https://chargedcycleworks.com/products/ion-16-19-wheelset', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-ion-16-19-wheelset.webp'
+    },
+    {name:'KKE 17" Supermoto Wheelset for Talaria MX3/MX4/X3', pid:'chargedcycleworks-kke-17-supermoto-wheelset-for-talaria-mx3-mx4', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:699, url:'https://chargedcycleworks.com/products/kke-17-supermoto-wheelset-for-talaria-mx3-mx4', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-kke-17-supermoto-wheelset-for-talaria-mx3-mx4.webp'
+    },
+    {name:'Talaria - OEM 17" Supermoto wheelset', pid:'chargedcycleworks-talaria-supermoto-wheelset-17', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:602.78, url:'https://chargedcycleworks.com/products/talaria-supermoto-wheelset-17', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-talaria-supermoto-wheelset-17.webp'
+    },
 ]},
   {id:'brakes', name:'Brakes', blurb:'As the bike gets faster, stopping matters more. Bigger rotors and better calipers transform confidence.', tips:['Rotor size changes may need a caliper relocation bracket','Match master cylinder to caliper','Pad compound: organic for feel, sintered for bite and life'], options:[
     {name:'Stock brakes', prices:[]},
@@ -3302,7 +3377,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/performance-brake-pads-for-emoto', chk:'2026-11-22', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','lightbee','mx4','mx5','sr','ss20','ss30','ultrabee','ultrabee-21kw'], likely:['arctic-leopard-xf','ventus-plus'], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','lightbee','mx4','mx5','sr','ss20','ss30','ultrabee','ultrabee-21kw', 'talaria-xxx'], likely:['arctic-leopard-xf','ventus-plus'], no:[],
      badge:'Pads', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/charged-brake-pads-emoto.webp'
     },
     {name:'Warp9 Surron Ultra Bee 260mm Front Brake Bracket', pid:'warp9-260mm-bracket-ultrabee', tier:'performance',
@@ -3511,7 +3586,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:10.94, url:'https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['sr','ventus-plus'], likely:[], no:[],
+     fits:['sr','ventus-plus', 'talaria-xxx'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-10mm-brake-caliper-spacer-for-220mm-rotors.webp'
     },
     {name:'E Ride Pro - OEM 220mm Front Brake Rotor for SS 3.0 / SR', pid:'chargedcycleworks-e-ride-pro-oem-220mm-front-break-disc-3-0mm-with-6screws', tier:'OEM',
@@ -3646,7 +3721,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:51.5, url:'https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['ventus-plus'], likely:[], no:[],
+     fits:['ventus-plus', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-lewis-223mm-x-3-0mm-rotor.webp'
     },
     {name:'Prickly Moto Brake Lever', pid:'chargedcycleworks-prickly-moto-brake-lever', tier:'midrange',
@@ -3868,7 +3943,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective', chk:'2026-11-22', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:[], likely:['rawrr-mantis-72v'], no:[],
+     fits:['segway-x160', 'segway-x260'], likely:['rawrr-mantis-72v'], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective.webp'
     },
     {name:'Warp9 Ultra Bee Titanium Brake Rotor Bolts', pid:'chargedcycleworks-surron-ultra-bee-titanium-rotor-bolts-by-warp9', tier:'midrange',
@@ -4525,6 +4600,168 @@ var CATEGORIES = [
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22'
     },
+    {name:'BiK Dual Bore Rear Brake Kit', pid:'chargedcycleworks-bik-dual-bore-rear-brake-kit', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:349.95, url:'https://chargedcycleworks.com/products/bik-dual-bore-rear-brake-kit', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-bik-dual-bore-rear-brake-kit.webp'
+    },
+    {name:'eBikeZilla Front Oversized Floating Brake Disc 250mm x 2.3 mm', pid:'chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:65, url:'https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria.webp'
+    },
+    {name:'eBikeZilla Rear 250mm Brake Caliper Mounting Bracket for Surron Light Bee', pid:'chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:64.99, url:'https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260.webp'
+    },
+    {name:'eBikeZilla Rear 250mm Brake Caliper Mounting Bracket for Talaria', pid:'chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:59, url:'https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx.webp'
+    },
+    {name:'eBikeZilla Rear Oversized Floating Brake Disc 250mm x 2.3 mm for Surron Light Bee', pid:'chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:102.74, url:'https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260.webp'
+    },
+    {name:'eBikeZilla Rear Oversized Floating Brake Disc 250mm x 2.3 mm for Talaria', pid:'chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:65, url:'https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1.webp'
+    },
+    {name:'EMX Brake Pad - 4 Piston', pid:'chargedcycleworks-emx-brake-pad-4-piston-1', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:24.99, url:'https://chargedcycleworks.com/products/emx-brake-pad-4-piston-1', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-emx-brake-pad-4-piston-1.webp'
+    },
+    {name:'KKE Aluminum Brake Levers for Light Bee', pid:'chargedcycleworks-kke-aluminum-brake-levers-for-light-bee', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:44.99, url:'https://chargedcycleworks.com/products/kke-aluminum-brake-levers-for-light-bee', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-kke-aluminum-brake-levers-for-light-bee.webp'
+    },
+    {name:'KKE Rear 220MM Disc with Adapter For SurRon Light Bee X, Segway X160/X260, E-Ride Pro SS (Collective)', pid:'chargedcycleworks-kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:69.99, url:'https://chargedcycleworks.com/products/kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective.webp'
+    },
+    {name:'Prickly Brake Lever - LBX', pid:'chargedcycleworks-prickly-brake-lever-lbx', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:30, url:'https://chargedcycleworks.com/products/prickly-brake-lever-lbx', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-prickly-brake-lever-lbx.webp'
+    },
+    {name:'Rear Floating Brake Disc 220mm x 2.3mm Talaria Sting MX3 / MX4 / XXX', pid:'chargedcycleworks-rear-floating-brake-disc-220mm-talaria-sting', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:55.99, url:'https://chargedcycleworks.com/products/rear-floating-brake-disc-220mm-talaria-sting', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rear-floating-brake-disc-220mm-talaria-sting.webp'
+    },
+    {name:'Surron Light Bee – Complete Hydraulic Brake System (2019-2024)', pid:'chargedcycleworks-hydraulic-brake-system-surron-light-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:249.99, url:'https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22'
+    },
+    {name:'Surron Light Bee – Front & Rear Brakes (2019-2024) | OEM', pid:'chargedcycleworks-oem-front-brake-assembly-surron-light-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:139, url:'https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-oem-front-brake-assembly-surron-light-bee.webp'
+    },
+    {name:'Surron Light Bee – Front & Rear Brakes 2025 | OEM', pid:'chargedcycleworks-oem-brake-assembly-surron-light-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:301.6, url:'https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22'
+    },
+    {name:'Surron Light Bee – Wave Brake Rotor', pid:'chargedcycleworks-wave-brake-rotor-surron-light-bee', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:27.4, url:'https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-wave-brake-rotor-surron-light-bee.webp'
+    },
+    {name:'Talaria - OEM Complete Front Brake Assembly', pid:'chargedcycleworks-complete-front-brake-assy-lbn-talaria-sting-mx3-mx4', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:232.88, url:'https://chargedcycleworks.com/products/complete-front-brake-assy-lbn-talaria-sting-mx3-mx4', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-complete-front-brake-assy-lbn-talaria-sting-mx3-mx4.webp'
+    },
+    {name:'Talaria - OEM Complete Rear Brake Assembly', pid:'chargedcycleworks-complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:260.28, url:'https://chargedcycleworks.com/products/complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4.webp'
+    },
+    {name:'Talaria - OEM Front / Rear Brake Lever', pid:'chargedcycleworks-front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:10.94, url:'https://chargedcycleworks.com/products/front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1.webp'
+    },
+    {name:'Talaria - OEM Front brake Oil Hose', pid:'chargedcycleworks-front-brake-oil-hose-lbn-talaria-sting-mx3-mx4', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:23.27, url:'https://chargedcycleworks.com/products/front-brake-oil-hose-lbn-talaria-sting-mx3-mx4', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-front-brake-oil-hose-lbn-talaria-sting-mx3-mx4.webp'
+    },
+    {name:'Talaria - OEM Front Brake Rotor 220mm', pid:'chargedcycleworks-talaria-oem-front-brake-rotor-220mm', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:32.86, url:'https://chargedcycleworks.com/products/talaria-oem-front-brake-rotor-220mm', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-talaria-oem-front-brake-rotor-220mm.webp'
+    },
+    {name:'Talaria - OEM Rear Brake Master Cylinder', pid:'chargedcycleworks-rear-brake-master-cylinder-for-talaria-mx4-x3', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:98.62, url:'https://chargedcycleworks.com/products/rear-brake-master-cylinder-for-talaria-mx4-x3', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rear-brake-master-cylinder-for-talaria-mx4-x3.webp'
+    },
+    {name:'Talaria - OEM Rear Brake Oil Hose', pid:'chargedcycleworks-rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:23.27, url:'https://chargedcycleworks.com/products/rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4.webp'
+    },
+    {name:'Talaria - OEM Rear Brake Rotor 220mm', pid:'chargedcycleworks-talaria-oem-rear-brake-rotor-220mm', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:32.86, url:'https://chargedcycleworks.com/products/talaria-oem-rear-brake-rotor-220mm', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-talaria-oem-rear-brake-rotor-220mm.webp'
+    },
+    {name:'Warp9 220mm FRONT Brake Rotor', pid:'chargedcycleworks-warp9-front-brake-rotor-for-surron-and-segway', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/warp9-front-brake-rotor-for-surron-and-segway', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-warp9-front-brake-rotor-for-surron-and-segway.webp'
+    },
+    {name:'Warp9 220mm FRONT Brake Rotor Adapter', pid:'chargedcycleworks-warp9-220mm-brake-rotor-adapter-for-surron', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:33, url:'https://chargedcycleworks.com/products/warp9-220mm-brake-rotor-adapter-for-surron', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-warp9-220mm-brake-rotor-adapter-for-surron.webp'
+    },
+    {name:'Warp9 240mm Floating Brake Rotor (fits Warp9 v3 hubs ONLY)', pid:'chargedcycleworks-warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:69, url:'https://chargedcycleworks.com/products/warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only.webp'
+    },
+    {name:'Warp9 Brake Levers for Surron LBX and Talaria MX3', pid:'chargedcycleworks-warp9-brake-levers-for-surron', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:50, url:'https://chargedcycleworks.com/products/warp9-brake-levers-for-surron', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-warp9-brake-levers-for-surron.webp'
+    },
 ]},
   {id:'plastics', name:'Plastics', blurb:'Bodywork — the look of the bike plus roost protection.', tips:['Mounting is bike-specific — \'universal\' rarely is','Full kits look cleaner than piecing together','Graphics usually sold separately'], options:[
     {name:'Stock plastics', prices:[]},
@@ -4694,7 +4931,7 @@ var CATEGORIES = [
      prices:[
       {v:'Howling Moto', p:17.99, url:'https://howlingmoto.com/products/surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-body-kit-fits-segway-x160-x260', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:["lightbee"], likely:[], no:[],
+     fits:["lightbee", 'segway-x160', 'segway-x260'], likely:[], no:[],
      badge:'Plastics', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/howlingmoto-surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-bo.webp'
     },
     {name:'Surron Light Bee - Extended Rear Fender | OEM', pid:'chargedcycleworks-surron-light-bee-extended-rear-fender-carbon-gloss', tier:'OEM',
@@ -4876,7 +5113,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:1.35, url:'https://chargedcycleworks.com/products/flat-washer-gb-t-97-1-m6-1', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['ss30'], likely:[], no:[],
+     fits:['ss30', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22'
     },
     {name:'Surron Ultra Bee - OEM Carbon Black Plastics Kit', pid:'chargedcycleworks-surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards', tier:'OEM',
@@ -4974,7 +5211,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:29, url:'https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['mx5','ventus-plus'], likely:[], no:[],
+     fits:['mx5','ventus-plus', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-front-fender-for-talaria-oem-surron-oem-segway-x260.webp'
     },
     {name:'Surron Ultra Bee - OEM Front Fender', pid:'chargedcycleworks-oem-ultra-bee-front-fender-black', tier:'OEM',
@@ -5137,7 +5374,7 @@ var CATEGORIES = [
      
       {v:'GritShift', p:79.89, url:'https://gritshift.com/products/gritshift-extended-rear-fender-v2', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:["falcon-pro","falcon-gt"], likely:[], no:[],
+     fits:["falcon-pro","falcon-gt", 'segway-x160', 'segway-x260'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-extended-rear-fender-v2-side-shrouds.webp'
     },
     {name:'Talaria Front Fender | Type 2', pid:'chargedcycleworks-front-fender-type-2-for-talaria-surron-segway-x260', tier:'budget',
@@ -5715,6 +5952,54 @@ var CATEGORIES = [
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22'
     },
+    {name:'Long Rear Fender for Surron Light Bee, Segway x160/x260, and Talaria Sting', pid:'chargedcycleworks-rear-fender-long', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:44.95, url:'https://chargedcycleworks.com/products/rear-fender-long', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22'
+    },
+    {name:'Simulated Carbon Fiber Battery Compartment Lock Surround for Surron Light Bee', pid:'chargedcycleworks-carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee.webp'
+    },
+    {name:'Simulated Carbon Fiber Jackshaft Cover for Surron Light Bee', pid:'chargedcycleworks-carbon-fiber-jackshaft-cover-for-surron-light-bee', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:18.99, url:'https://chargedcycleworks.com/products/carbon-fiber-jackshaft-cover-for-surron-light-bee', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-carbon-fiber-jackshaft-cover-for-surron-light-bee.webp'
+    },
+    {name:'Simulated Carbon Fiber Rear Wheel Fender / Mud Guard for Surron Light Bee', pid:'chargedcycleworks-carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee.webp'
+    },
+    {name:'Surron Light Bee - Chain Guard', pid:'chargedcycleworks-carbon-fiber-chain-guard-for-surron-light-bee', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/carbon-fiber-chain-guard-for-surron-light-bee', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-carbon-fiber-chain-guard-for-surron-light-bee.webp'
+    },
+    {name:'Surron Light Bee - Simulated Carbon Fiber Battery Lid | Matte & Gloss', pid:'chargedcycleworks-surron-light-bee-battery-cover-matte', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/surron-light-bee-battery-cover-matte', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-surron-light-bee-battery-cover-matte.webp'
+    },
+    {name:'Surron Light Bee – Rear Shock Mudguard | OEM', pid:'chargedcycleworks-rear-shock-mudguard-surron-light-bee', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:27.3, url:'https://chargedcycleworks.com/products/rear-shock-mudguard-surron-light-bee', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22'
+    },
+    {name:'Talaria xXx - OEM NFC Sensor Plastic Cover', pid:'chargedcycleworks-nfc-sensor-plastic-cover-talaria-xxx', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:4.99, url:'https://chargedcycleworks.com/products/nfc-sensor-plastic-cover-talaria-xxx', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22'
+    },
 ]},
   {id:'batteries', name:'Batteries', blurb:'Your fuel tank and your power ceiling. A weak battery chokes even the best motor and controller combo.', tips:['Continuous kW rating must meet what your controller pulls — check the Powertrain panel for bottlenecks','Voltage must match your controller\'s range','Confirm it physically fits your frame — sizes vary a lot','Swappable packs are convenient; fixed packs usually hold more capacity'], options:[
     {name:'Stock batteries', prices:[]},
@@ -6127,7 +6412,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:87, url:'https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria', chk:'2026-11-22', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['lightbee','mx4','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['ultrabee','storm-bee','ventus-plus','ventus-evo','komodo','bonnell-805rx','arctic-xd','mx5','sr','ss20','ss30','ss40','rawrr-mantis-x','arctic-leopard-xe-pro-r','arctic-leopard-xf','rawrr-mantis-72v'], no:[],
+     fits:['lightbee','mx4','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro', 'segway-x160', 'segway-x260'], likely:['ultrabee','storm-bee','ventus-plus','ventus-evo','komodo','bonnell-805rx','arctic-xd','mx5','sr','ss20','ss30','ss40','rawrr-mantis-x','arctic-leopard-xe-pro-r','arctic-leopard-xf','rawrr-mantis-72v'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/warp9-3in-rise.webp'
     },
     {name:'Prickly 50mm Rise Handlebar (31.8mm)', pid:'prickly-50mm-318', tier:'midrange',
@@ -6358,7 +6643,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:97, url:'https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['ss40'], likely:['rawrr-mantis-x','rawrr-mantis-72v'], no:[],
+     fits:['ss40', 'segway-x160', 'segway-x260'], likely:['rawrr-mantis-x','rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-warp9-e-moto-tapped-handlebar-31-8mm.webp'
     },
     {name:'Prickly 31.8 Handlebars', pid:'chargedcycleworks-prickly-31-8-handlebars', tier:'midrange',
@@ -6673,6 +6958,12 @@ var CATEGORIES = [
      fits:[], likely:['altis-omega'], no:[],
      badge:'Warp 9', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/wiredwhips-warp-9-3-rise-handlebars-31-8mm-altis-omega.webp'
     },
+    {name:'Direct Mount Riser', pid:'chargedcycleworks-prickly-direct-mount-riser-surron', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:40, url:'https://chargedcycleworks.com/products/prickly-direct-mount-riser-surron', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-prickly-direct-mount-riser-surron.webp'
+    },
 ]},
   {id:'chargers', name:'Charger', blurb:'Faster charging means less downtime between rides.', tips:['Voltage must match your battery exactly','More amps = faster charging, but also more heat','Some fast chargers need 220V for full speed'], options:[
     {name:'Stock charger', prices:[]},
@@ -6698,7 +6989,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:285, url:'https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v', chk:'2026-11-22', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:["mx4"], likely:["komodo","mx5","arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
+     fits:["mx4", 'talaria-xxx'], likely:["komodo","mx5","arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/talaria-mx4-oem-charger.webp'
     },
     {name:'Charged Cycle Works 72V 15A Fast Charger (for eWatt / CCW 72V batteries)', pid:'ccw-fast-charger-72v-15a', tier:'mid',
@@ -7119,7 +7410,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/gates-gt4-power-grip-belt', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['ventus-plus'], likely:[], no:[],
+     fits:['ventus-plus', 'segway-x260', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-gates-gt4-power-grip-belt.webp'
     },
     {name:'Gates GT4 Power Grip Belt - Surron Ultra Bee', pid:'chargedcycleworks-gates-gt4-power-grip-belt-surron-ultra-bee', tier:'OEM',
@@ -7255,7 +7546,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:199.89, url:'https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro'], likely:['rawrr-mantis-72v'], no:[],
+     fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro', 'segway-x260'], likely:['rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-heavy-hitter-titanium-direct-mount-riser.webp'
     },
     {name:'Warp9 Transformer Direct Bar Mount Stem', pid:'chargedcycleworks-warp9-transformer-direct-bar-mount-stem', tier:'midrange',
@@ -7812,6 +8103,12 @@ var CATEGORIES = [
      ],
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22'
+    },
+    {name:'Talaria Extension Wire', pid:'chargedcycleworks-talaria-throttle-extension-cable', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:8, url:'https://chargedcycleworks.com/products/talaria-throttle-extension-cable', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-talaria-throttle-extension-cable.webp'
     },
 ]},
   {id:'cooling', name:'Cooling', blurb:'High-power builds make serious heat. Cooling keeps your motor and controller alive when you\'re pushing hard.', tips:['Mostly needed above ~15 kW or for sustained high load','Check fitment against your specific motor'], options:[
@@ -8375,7 +8672,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:99.89, url:'https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit', chk:'2026-11-22', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['falcon-gt','ss40'], likely:[], no:[],
+     fits:['falcon-gt','ss40', 'segway-x160', 'segway-x260'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit.webp'
     },
     {name:'D.I.D Super 420NZ3G Gold Chain', pid:'drivetrain-did-420nz3g-gold-chain', tier:'mid',
@@ -8469,7 +8766,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:35, url:'https://chargedcycleworks.com/products/warp-9-stainless-steel-e-moto-sprocket-54t', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:[], likely:['rawrr-mantis-x'], no:[],
+     fits:['talaria-xxx'], likely:['rawrr-mantis-x'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-warp9-stainless-steel-e-moto-sprocket-54t.webp'
     },
     {name:'KKE Rear Chain Guide for Rawrr Mantis X', pid:'chargedcycleworks-kke-rear-chain-guide-fit-rawrr-mantis-x-collective', tier:'midrange',
@@ -8929,6 +9226,54 @@ var CATEGORIES = [
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22'
     },
+    {name:'DAYCO Primary Drive Belt', pid:'chargedcycleworks-dayco-primary-drive-belt', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/dayco-primary-drive-belt', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x260', 'talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-dayco-primary-drive-belt.webp'
+    },
+    {name:'KKE 58T Aluminum Sprocket For SurRon Light Bee-X, For Segway, For Rawrr Mantis X (Collective)', pid:'chargedcycleworks-kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective.webp'
+    },
+    {name:'KKE 60T Aluminum Sprocket For SurRon Light Bee-X, Rawrr Mantis X, E-Ride Pro SS (Collective)', pid:'chargedcycleworks-kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective.webp'
+    },
+    {name:'KKE Rear 54T Aluminum Sprocket For SurRon Light Bee-X, Rawrr Mantis, Mantis X, E-Ride Pro SS (Collective)', pid:'chargedcycleworks-kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective.webp'
+    },
+    {name:'KyVex Billet Jackshaft for Talaria XXX', pid:'chargedcycleworks-kyvex-billet-jackshaft-for-talaria-xxx', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:175, url:'https://chargedcycleworks.com/products/kyvex-billet-jackshaft-for-talaria-xxx', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-kyvex-billet-jackshaft-for-talaria-xxx.webp'
+    },
+    {name:'Primary Drive 420 Gold Plated Chain', pid:'chargedcycleworks-420x110-gold-plated-chain-110-by-primary-drive', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:39.95, url:'https://chargedcycleworks.com/products/420x110-gold-plated-chain-110-by-primary-drive', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-420x110-gold-plated-chain-110-by-primary-drive.webp'
+    },
+    {name:'Renthal 420 R-1 Works Chain', pid:'chargedcycleworks-420x120-renthal-420-r-1-works-chain', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:68.99, url:'https://chargedcycleworks.com/products/420x120-renthal-420-r-1-works-chain', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-420x120-renthal-420-r-1-works-chain.webp'
+    },
+    {name:'Warp9 E-Moto Sprocket', pid:'chargedcycleworks-warp9-aluminum-sprocket-for-surron-segway', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:37.8, url:'https://chargedcycleworks.com/products/warp9-aluminum-sprocket-for-surron-segway', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-warp9-aluminum-sprocket-for-surron-segway.webp'
+    },
 ]},
   {id:'electrical', name:'Electrical', blurb:'Dashboards, lights, and wiring that tie the build together.', tips:['Check voltage compatibility with your battery','Plug-and-play beats splicing — look for bike-specific kits'], options:[
     {name:'Stock electrical', prices:[]},
@@ -8988,7 +9333,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:6, url:'https://tbelectricmoto.com/products/talaria-sting-oem-replacement-display', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:["mx4"], likely:[], no:[],
+     fits:["mx4", 'talaria-xxx'], likely:[], no:[],
      badge:'Electrical', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/tbelectricmoto-talaria-sting-oem-replacement-display.webp'
     },
     {name:'E7073 - Ignition Cover - ProS/SS2.0/SS3.0/SR', pid:'eridepro-e7073', tier:'budget',
@@ -9002,7 +9347,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/carbon-fiber-ignition-switch-cover-for-surron-light-bee', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:["lightbee"], likely:[], no:[],
+     fits:["lightbee", 'segway-x160', 'segway-x260'], likely:[], no:[],
      badge:'Electrical', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-carbon-fiber-ignition-switch-cover-for-surron-light.webp'
     },
     {name:'SHE7095 - Ignition cover plate (with 2screws) - ProS/SS2.0/SS3.0/SR', pid:'eridepro-she7095-ignition-cover-plate-with-2screws-s-ss2-0-ss3-0', tier:'budget',
@@ -9044,7 +9389,7 @@ var CATEGORIES = [
      prices:[
       {v:'REV Rides', p:79.99, url:'https://revrides.com/products/psm-eride-pro-ss-billet-display-cover', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:["ss20"], likely:[], no:[],
+     fits:["ss20", 'talaria-xxx'], likely:[], no:[],
      badge:'Electrical', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/revrides-psm-eride-pro-ss-billet-display-cover.webp'
     },
     {name:'Talaria MX3 – Throttle Wire Adapter to Green Connector (MX4/MX5/X3) | OEM', pid:'chargedcycleworks-talaria-mx3-throttle-adapter-green-connector-mx4-mx5', tier:'OEM',
@@ -9097,7 +9442,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:228.95, url:'https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['mx5','ventus-plus'], likely:[], no:[],
+     fits:['mx5','ventus-plus', 'talaria-xxx'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-baja-designs-s2-pro-headlight.webp'
     },
     {name:'Baja Designs S2 Sport Headlight', pid:'chargedcycleworks-baja-designs-s2-sport-headlight-for-surron-talaria', tier:'midrange',
@@ -9118,7 +9463,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:209.95, url:'https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['mx5','ventus-plus'], likely:[], no:[],
+     fits:['mx5','ventus-plus', 'talaria-xxx'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-baja-designs-squadron-headlight-kit-for-surron-talaria.webp'
     },
     {name:'E Ride Pro - OEM 12v Converter', pid:'chargedcycleworks-e-ride-oem-converter', tier:'OEM',
@@ -9181,7 +9526,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:199, url:'https://chargedcycleworks.com/products/gigigo-gi03-headlight', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','mx5','sr','ss30','ultrabee','ultrabee-21kw','ventus-plus'], likely:[], no:[],
+     fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro','mx5','sr','ss30','ultrabee','ultrabee-21kw','ventus-plus', 'talaria-xxx'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-gigigo-gi03-headlight.webp'
     },
     {name:'Arctic Leopard XE Pro - OEM Main Wiring Harness', pid:'chargedcycleworks-arctic-leopard-xe-pro-oem-main-wiring-harness', tier:'OEM',
@@ -9202,7 +9547,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['sr','ventus-plus'], likely:[], no:[],
+     fits:['sr','ventus-plus', 'segway-x160', 'segway-x260'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes.webp'
     },
     {name:'GritShift Halo Headlight Kill Switch', pid:'chargedcycleworks-gritshift-halo-headlight-kill-switch', tier:'midrange',
@@ -9211,7 +9556,7 @@ var CATEGORIES = [
      
       {v:'GritShift', p:19.89, url:'https://gritshift.com/products/gritshift-halo-headlight-kill-switch', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['mx5','sr','ventus-plus'], likely:[], no:[],
+     fits:['mx5','sr','ventus-plus', 'segway-x160', 'segway-x260'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-gritshift-halo-headlight-kill-switch.webp'
     },
     {name:'RTech Front Headlight Mask for Surron Ultra Bee Models (2023 to 2025)', pid:'chargedcycleworks-rtech-front-headlight-mask-surron-ultra-bee', tier:'midrange',
@@ -9274,7 +9619,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:12.3, url:'https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['mx5'], likely:[], no:[],
+     fits:['mx5', 'talaria-xxx'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-headlight-bracket-for-talaria-sting-mx3-mx4-x3.webp'
     },
     {name:'Torp Ultra Bee Replacement Wiring Loom', pid:'chargedcycleworks-torp-ultra-bee-replacement-wiring-loom', tier:'midrange',
@@ -9400,7 +9745,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:31.5, url:'https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['mx5'], likely:[], no:[],
+     fits:['mx5', 'talaria-xxx'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-replacement-dc-converter-talaria-sting-mx3-mx4-x3.webp'
     },
     {name:'Talaria - Sting MX5 - 2 in 1 Combination Switch', pid:'chargedcycleworks-talaria-sting-mx5-2-in-1-combination-switch', tier:'OEM',
@@ -9421,7 +9766,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['mx5'], likely:[], no:[],
+     fits:['mx5', 'talaria-xxx'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem.webp'
     },
     {name:'Ventus VTB V9600 Gen.2 Wiring Harness 1.7', pid:'chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7', tier:'midrange',
@@ -9718,6 +10063,78 @@ var CATEGORIES = [
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22'
     },
+    {name:'EBMX X-9000 Talaria XXX Installation Kit', pid:'chargedcycleworks-x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller.webp'
+    },
+    {name:'EBMX XLB-60 Talaria XXX X-9000-V3 Mount and Harness set', pid:'chargedcycleworks-ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:50, url:'https://chargedcycleworks.com/products/ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:[], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3.webp'
+    },
+    {name:'GritShift Blinder LED Light Bar Headlight', pid:'chargedcycleworks-gritshift-blinder-led-light-bar-headlight', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:28.89, url:'https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-gritshift-blinder-led-light-bar-headlight.webp'
+    },
+    {name:'GritShift Horn Cover/Delete Plate (Sur Ron & Segway)', pid:'chargedcycleworks-gritshift-horn-cover-delete-plate-sur-ron-segway', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:8.99, url:'https://chargedcycleworks.com/products/gritshift-horn-cover-delete-plate-sur-ron-segway', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-gritshift-horn-cover-delete-plate-sur-ron-segway.webp'
+    },
+    {name:'GritShift Sleeper Headlight Kill Switch', pid:'chargedcycleworks-gritshift-sleeper-headlight-kill-switch', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:11.89, url:'https://chargedcycleworks.com/products/gritshift-sleeper-headlight-kill-switch', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-gritshift-sleeper-headlight-kill-switch.webp'
+    },
+    {name:'GritShift Stealth Headlight Kill Switch', pid:'chargedcycleworks-gritshift-stealth-headlight-kill-switch', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:17.89, url:'https://chargedcycleworks.com/products/gritshift-stealth-headlight-kill-switch', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-gritshift-stealth-headlight-kill-switch.webp'
+    },
+    {name:'GritShift Sur Ron & Segway LED Tail Light Mount (w/ Mud Guard Mount)', pid:'chargedcycleworks-gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:14.89, url:'https://chargedcycleworks.com/products/gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount.webp'
+    },
+    {name:'Keyless On/Off Button Talaria xXx / X3', pid:'chargedcycleworks-keyless-on-off-button-talaria-xxx-x3', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:41.08, url:'https://chargedcycleworks.com/products/keyless-on-off-button-talaria-xxx-x3', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22'
+    },
+    {name:'Surron Light Bee - OEM Headlight', pid:'chargedcycleworks-surron-light-bee-oem-headlight', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/surron-light-bee-oem-headlight', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-surron-light-bee-oem-headlight.webp'
+    },
+    {name:'Talaria - OEM Battery Pack Discharge Cable', pid:'chargedcycleworks-battery-pack-discharge-cable-talaria-sting-mx3', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:195.91, url:'https://chargedcycleworks.com/products/battery-pack-discharge-cable-talaria-sting-mx3', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-battery-pack-discharge-cable-talaria-sting-mx3.webp'
+    },
+    {name:'Talaria xXx - OEM NFC Sensor', pid:'chargedcycleworks-nfc-sensor', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:11.99, url:'https://chargedcycleworks.com/products/nfc-sensor', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22'
+    },
+    {name:'Torp SurRon Light Bee Replacement Wiring Loom', pid:'chargedcycleworks-replacement-wiring-loom-for-surron-light-bee', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:58, url:'https://chargedcycleworks.com/products/replacement-wiring-loom-for-surron-light-bee', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-replacement-wiring-loom-for-surron-light-bee.webp'
+    },
 ]},
   {id:'guards', name:'Guards', blurb:'Cheap insurance — frame, rotor, and case protection that pays for itself the first crash.', tips:['Bike-specific fitment','Rotor guards need caliper clearance'], options:[
     {name:'Stock guards', prices:[]},
@@ -9815,7 +10232,7 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:9.99, url:'https://tbelectricmoto.com/products/titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-mx4', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:["mx4"], likely:[], no:[],
+     fits:["mx4", 'talaria-xxx'], likely:[], no:[],
      badge:'Guard', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/tbelectricmoto-titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-m.webp'
     },
     {name:'E Ride Pro SS Motor Cover (Protection Guard)', pid:'revrides-e-ride-pro-ss-motor-cover-protection-guard', tier:'budget',
@@ -9843,7 +10260,7 @@ var CATEGORIES = [
      prices:[
       {v:'Howling Moto', p:29.99, url:'https://howlingmoto.com/products/talaria-xxx-mx4-ebmx-display-guard-cnc-aluminum-screen-protector-for-e-moto-screens', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:["mx4"], likely:[], no:[],
+     fits:["mx4", 'talaria-xxx'], likely:[], no:[],
      badge:'Guard', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/howlingmoto-talaria-xxx-mx4-ebmx-display-guard-cnc-aluminum-screen-pro.webp'
     },
     {name:'Display Protector | Aluminum | Talaria MX3/MX4', pid:'howlingmoto-display-protector-aluminum-talaria-mx3-mx4', tier:'mid',
@@ -9857,7 +10274,7 @@ var CATEGORIES = [
      prices:[
       {v:'REV Rides', p:79.99, url:'https://revrides.com/products/psm-talaria-rotor-guard', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:["mx4"], likely:[], no:[],
+     fits:["mx4", 'talaria-xxx'], likely:[], no:[],
      badge:'Guard', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/revrides-psm-talaria-rotor-guard.webp'
     },
     {name:'Ventus One - OEM Rear Mud Guard', pid:'chargedcycleworks-rear-mud-guard-ventus-oem', tier:'OEM',
@@ -10174,6 +10591,12 @@ var CATEGORIES = [
      ],
      fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/wiredwhips-skid-plate-bash-guard-delta-platform.webp'
     },
+    {name:'Heavy Hitter Surron V2 Skid Plate', pid:'chargedcycleworks-heavy-hitter-surron-v2-skid-plate', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:169.89, url:'https://chargedcycleworks.com/products/heavy-hitter-surron-v2-skid-plate', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-heavy-hitter-surron-v2-skid-plate.webp'
+    },
 ]},
   {id:'linkage', name:'Linkage', blurb:'Connects the shock to the swingarm and sets the leverage curve — subtle but noticeable.', tips:['Bike-specific fitment — no universal options','Usually chosen alongside the shock'], options:[
     {name:'Stock linkage', prices:[]},
@@ -10318,7 +10741,7 @@ var CATEGORIES = [
      
       {v:'GritShift', p:169.99, url:'https://gritshift.com/products/heavy-hitter-titanium-linkage-upgrade', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['falcon-gt'], likely:[], no:[],
+     fits:['falcon-gt', 'segway-x160', 'segway-x260'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade.webp'
     },
     {name:'Heavy Hitter Ultra Bee Linkage', pid:'chargedcycleworks-heavy-hitter-ultra-bee-linkage', tier:'midrange',
@@ -10407,6 +10830,18 @@ var CATEGORIES = [
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22'
     },
+    {name:'Heavy Hitter Lightweight TI Surron LBX Triangle', pid:'chargedcycleworks-heavy-hitter-lightweight-ti-surron-lbx-triangle', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:229.89, url:'https://chargedcycleworks.com/products/heavy-hitter-lightweight-ti-surron-lbx-triangle', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-heavy-hitter-lightweight-ti-surron-lbx-triangle.webp'
+    },
+    {name:'Warp9 12.9 Cryo Hardened Linkage Bolt Kit', pid:'chargedcycleworks-warp-9-cryo-hardened-linkage-bolts', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:95, url:'https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-warp-9-cryo-hardened-linkage-bolts.webp'
+    },
 ]},
   {id:'maintenance', name:'Maintenance', blurb:'Consumables and shop supplies to keep the build running.', tips:['Stock up on what wears: chains, brake pads, tires'], options:[
     {name:'Stock maintenance', prices:[]},
@@ -10447,14 +10882,14 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:11, url:'https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx', chk:'2026-11-22', stock:'out_of_stock'},
       {v:'Howling Moto', p:11, url:'https://howlingmoto.com/products/sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-kit-dirtybike', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['lightbee'], likely:['falcon-pro'], no:[],
+     fits:['lightbee', 'segway-x260'], likely:['falcon-pro'], no:[],
      badge:'Maintenance', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/tbelectricmoto-bearing-kit-suspension-triangle-surron-lbx.webp'
     },
     {name:'Titanium Kickstand Bolt/ Nut Set- Surron LBS LBX, Segway X160 X260', pid:'revrides-titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x2', tier:'budget',
      prices:[
       {v:'REV Rides', p:14.99, url:'https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:["lightbee"], likely:[], no:[],
+     fits:["lightbee", 'segway-x160', 'segway-x260'], likely:[], no:[],
      badge:'Maintenance', stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/revrides-titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x2.webp'
     },
     {name:'DirtyBike Bearing Kit Swingarm Surron LBX', pid:'tbelectricmoto-dirtybike-bearing-kit-swingarm-surron-lbx', tier:'budget',
@@ -10633,7 +11068,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:1.35, url:'https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['mx5','ss30'], likely:[], no:[],
+     fits:['mx5','ss30', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-button-head-screw-gb-t70-2-m6x14-1.webp'
     },
     {name:'Prickly Ultra Bee AirTag Stash', pid:'chargedcycleworks-ultra-bee-airtag-stash', tier:'midrange',
@@ -10724,7 +11159,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:83.8, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['ultrabee'], likely:[], no:[],
+     fits:['ultrabee', 'segway-x160', 'segway-x260'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-tool-kit-torque-wrench.webp'
     },
     {name:'Talaria - OEM Headset Aluminum Housing', pid:'chargedcycleworks-headset-aluminium-housing-talaria-sting-mx3-mx4', tier:'OEM',
@@ -10815,7 +11250,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:47.93, url:'https://chargedcycleworks.com/products/stem-lock', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['mx5','sr','ss30'], likely:[], no:[],
+     fits:['mx5','sr','ss30', 'talaria-xxx'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-stem-lock.webp'
     },
     {name:'EMX Crown Race', pid:'maintenance-emx-crown-race', tier:'budget',
@@ -11176,6 +11611,96 @@ var CATEGORIES = [
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22'
     },
+    {name:'Bearing Kit | Rear Wheel | Surron LBX | Talaria Sting MX3 / MX4', pid:'chargedcycleworks-bearing-kit-rear-wheel', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:21, url:'https://chargedcycleworks.com/products/bearing-kit-rear-wheel', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-bearing-kit-rear-wheel.webp'
+    },
+    {name:'eBikeZilla Lockdown Axle Block CNC Black for Surron Light Bee', pid:'chargedcycleworks-lockdown-axle-block-cnc-black-talaria-surron-segway', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:34.24, url:'https://chargedcycleworks.com/products/lockdown-axle-block-cnc-black-talaria-surron-segway', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-lockdown-axle-block-cnc-black-talaria-surron-segway.webp'
+    },
+    {name:'eBikeZilla Titanium Rear Axle for Surron Light Bee', pid:'chargedcycleworks-titanium-rear-axle-for-surron-light-bee', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:82.18, url:'https://chargedcycleworks.com/products/titanium-rear-axle-for-surron-light-bee', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-titanium-rear-axle-for-surron-light-bee.webp'
+    },
+    {name:'GritShift Belt Change Multi Tool', pid:'chargedcycleworks-gritshift-belt-change-multi-tool', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:28.89, url:'https://chargedcycleworks.com/products/gritshift-belt-change-multi-tool', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-gritshift-belt-change-multi-tool.webp'
+    },
+    {name:'Jackshaft Bolt Surron', pid:'chargedcycleworks-prickly-4340-steel-jackshaft-bolt-surron', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:80, url:'https://chargedcycleworks.com/products/prickly-4340-steel-jackshaft-bolt-surron', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-prickly-4340-steel-jackshaft-bolt-surron.webp'
+    },
+    {name:'Prickly Titanium Nut - Rear Axle', pid:'chargedcycleworks-titanium-nut-rear-axle', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:25, url:'https://chargedcycleworks.com/products/titanium-nut-rear-axle', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-titanium-nut-rear-axle.webp'
+    },
+    {name:'Quick Release Pin Assembly M6x40mm Talaria xXx / X3', pid:'chargedcycleworks-quick-release-pin-assembly-m6x40mm-talaria-xxx-x3', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:12.31, url:'https://chargedcycleworks.com/products/quick-release-pin-assembly-m6x40mm-talaria-xxx-x3', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-quick-release-pin-assembly-m6x40mm-talaria-xxx-x3.webp'
+    },
+    {name:'Rear Shock Triangle Needle Bearings', pid:'chargedcycleworks-surron-light-bee-oem-rear-shock-triangle-need-bearing', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:13.99, url:'https://chargedcycleworks.com/products/surron-light-bee-oem-rear-shock-triangle-need-bearing', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-surron-light-bee-oem-rear-shock-triangle-need-bearing.webp'
+    },
+    {name:'Retainer Clip (E-Clip) (Internal Diameter 6) (1)', pid:'chargedcycleworks-retainer-clip-e-clip-internal-diameter-6-1', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:0.84, url:'https://chargedcycleworks.com/products/retainer-clip-e-clip-internal-diameter-6-1', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22'
+    },
+    {name:'Swing Arm Axle Tool for Talaria X3 (xXx)', pid:'chargedcycleworks-swing-arm-axle-tool-for-talaria-x3-xxx', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:20.54, url:'https://chargedcycleworks.com/products/swing-arm-axle-tool-for-talaria-x3-xxx', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-swing-arm-axle-tool-for-talaria-x3-xxx.webp'
+    },
+    {name:'Talaria - OEM Left Rear Wheel Bushing (Caliper side)', pid:'chargedcycleworks-left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3.webp'
+    },
+    {name:'Talaria - OEM Right Rear Wheel Bushing (Sprocket Side)', pid:'chargedcycleworks-right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3.webp'
+    },
+    {name:'Talaria - OEM Split Snap Ring (To Center Steering Bearing)', pid:'chargedcycleworks-head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3-1', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:12.31, url:'https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3-1', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22'
+    },
+    {name:'Talaria - OEM Upper Headset Cap V1', pid:'chargedcycleworks-upper-headset-cap-talaria-sting-mx3-mx4-x3', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:8.99, url:'https://chargedcycleworks.com/products/upper-headset-cap-talaria-sting-mx3-mx4-x3', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-upper-headset-cap-talaria-sting-mx3-mx4-x3.webp'
+    },
+    {name:'Wheel Hub Bearings (EACH)', pid:'chargedcycleworks-wheel-bearings', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:4.99, url:'https://chargedcycleworks.com/products/wheel-bearings', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-wheel-bearings.webp'
+    },
 ]},
   {id:'pegs', name:'Foot Pegs', blurb:'Wider, sharper pegs mean more control — especially standing up.', tips:['Mounts are bike-specific','Titanium saves weight; steel lasts longer'], options:[
     {name:'Stock foot pegs', prices:[]},
@@ -11401,7 +11926,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:120, url:'https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['mx5','falcon-pro','arctic-leopard-xf'], likely:['arctic-leopard-xf'], no:[],
+     fits:['mx5','falcon-pro','arctic-leopard-xf', 'segway-x160', 'segway-x260', 'talaria-xxx'], likely:['arctic-leopard-xf'], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-kyvex-billet-wide-foot-pegs.webp'
     },
     {name:'KyVex Billet Wide Foot Pegs – Surron Ultra Bee', pid:'chargedcycleworks-kyvex-billet-wide-foot-pegs-ultra-bee-compatible', tier:'midrange',
@@ -11422,7 +11947,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:161.1, url:'https://chargedcycleworks.com/products/prickly-foot-pegs-wide-for-talaria', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['mx5','altis-sigma'], likely:[], no:[],
+     fits:['mx5','altis-sigma', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-prickly-foot-pegs-wide-for-talaria.webp'
     },
     {name:'Prickly Replacement Peg Springs', pid:'chargedcycleworks-replacement-peg-springs', tier:'midrange',
@@ -11464,21 +11989,21 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:16.42, url:'https://chargedcycleworks.com/products/footpeg-connector-talaria-sting-mx3-mx4-x3', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['mx5'], likely:[], no:[],
+     fits:['mx5', 'talaria-xxx'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-footpeg-connector-talaria-sting-mx3-mx4-x3.webp'
     },
     {name:'Talaria - OEM Foot Peg Fixing Pin', pid:'chargedcycleworks-footpeg-fixing-pin-talaria-sting-mx3-mx4-x3', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:4.09, url:'https://chargedcycleworks.com/products/footpeg-fixing-pin-talaria-sting-mx3-mx4-x3', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['mx5'], likely:[], no:[],
+     fits:['mx5', 'talaria-xxx'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-footpeg-fixing-pin-talaria-sting-mx3-mx4-x3.webp'
     },
     {name:'Talaria - OEM Foot Peg Return Spring', pid:'chargedcycleworks-footpeg-return-spring-talaria-sting-mx3-mx4-x3', tier:'OEM',
      prices:[
       {v:'Charged Cycle Works', p:2.72, url:'https://chargedcycleworks.com/products/footpeg-return-spring-talaria-sting-mx3-mx4-x3', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['mx5'], likely:[], no:[],
+     fits:['mx5', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-footpeg-return-spring-talaria-sting-mx3-mx4-x3.webp'
     },
     {name:'Talaria - OEM Foot Peg Support Brace', pid:'chargedcycleworks-replacement-oem-footpeg-support-brace-talaria-sting-mx3-mx4-x3', tier:'OEM',
@@ -11520,7 +12045,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:98.1, url:'https://chargedcycleworks.com/products/warp9-foot-pegs-for-talaria', chk:'2026-11-22', stock:'out_of_stock'},
      ],
-     fits:['komodo','altis-sigma'], likely:[], no:[],
+     fits:['komodo','altis-sigma', 'talaria-xxx'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-warp9-foot-pegs-for-talaria.webp'
     },
     {name:'Warp9 Surron Ultra Bee Elite Foot Pegs', pid:'chargedcycleworks-surron-ultra-bee-foot-pegs', tier:'midrange',
@@ -11534,7 +12059,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:142, url:'https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['komodo','mx5','altis-sigma'], likely:[], no:[],
+     fits:['komodo','mx5','altis-sigma', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-talaria-altis-sigma-elite-foot-pegs.webp'
     },
     {name:'Warp9 Ultra Bee Adjustable Foot Peg Mount', pid:'chargedcycleworks-ultra-bee-adjustable-foot-peg-mount', tier:'midrange',
@@ -11548,7 +12073,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs', chk:'2026-11-22', stock:'in_stock'},
      ],
-     fits:['sr','ss30','ultrabee'], likely:['ultrabee-21kw'], no:[],
+     fits:['sr','ss30','ultrabee', 'segway-x160', 'segway-x260'], likely:['ultrabee-21kw'], no:[],
      stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-cnc-aluminum-wide-foot-pegs.webp'
     },
     {name:'TMB Adjustable Footpeg Mounts – Arctic Leopard XE Pro S / Pro R / Enduro / Vetra', pid:'chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra', tier:'midrange',
@@ -11758,6 +12283,30 @@ var CATEGORIES = [
      ],
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22'
+    },
+    {name:'Heavy Hitter Surron Billet Footpeg Support Brace With O-Rings', pid:'chargedcycleworks-heavy-hitter-billet-footpeg-support-brace-with-o-rings', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:14.89, url:'https://chargedcycleworks.com/products/heavy-hitter-billet-footpeg-support-brace-with-o-rings', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-heavy-hitter-billet-footpeg-support-brace-with-o-rings.webp'
+    },
+    {name:'Prickly Foot Pegs MX for Talaria', pid:'chargedcycleworks-prickly-foot-pegs-mx-for-talaria', tier:'midrange',
+     prices:[
+      {v:'Charged Cycle Works', p:134.1, url:'https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-talaria', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-prickly-foot-pegs-mx-for-talaria.webp'
+    },
+    {name:'Talaria xXx (X3) - OEM Left Foot Peg Mount', pid:'chargedcycleworks-talaria-xxx-x3-oem-left-foot-peg-mount', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:34.24, url:'https://chargedcycleworks.com/products/talaria-xxx-x3-oem-left-foot-peg-mount', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-talaria-xxx-x3-oem-left-foot-peg-mount.webp'
+    },
+    {name:'Talaria xXx (X3) - OEM Right Foot Peg Mount', pid:'chargedcycleworks-talaria-xxx-x3-oem-right-foot-peg-mount', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:34.24, url:'https://chargedcycleworks.com/products/talaria-xxx-x3-oem-right-foot-peg-mount', chk:'2026-11-22', stock:'out_of_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-talaria-xxx-x3-oem-right-foot-peg-mount.webp'
     },
 ]},
   {id:'seats', name:'Seats', blurb:'Where you spend the whole ride — comfort and control.', tips:['Tall seats help taller riders; standard keeps footing easy','Gripper covers for aggressive riding, smooth for moving around'], options:[
@@ -12113,6 +12662,12 @@ var CATEGORIES = [
      ],
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22'
+    },
+    {name:'Surron Light Bee - OEM Seat', pid:'chargedcycleworks-replacement-seat-for-surron-and-segway-x160-x260', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:47, url:'https://chargedcycleworks.com/products/replacement-seat-for-surron-and-segway-x160-x260', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-replacement-seat-for-surron-and-segway-x160-x260.webp'
     },
 ]},
   {id:'street', name:'Street', blurb:'Lights, mirrors, and signals for road-legal riding where it\'s allowed.', tips:['Legality varies wildly by state — check yours','Wiring effort ranges from plug-and-play to a full afternoon'], options:[
@@ -12574,6 +13129,12 @@ var CATEGORIES = [
      ],
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-22'
+    },
+    {name:'EBMX Extended Swingarm', pid:'chargedcycleworks-ebmx-extended-swingarm', tier:'premium',
+     prices:[
+      {v:'Charged Cycle Works', p:789, url:'https://chargedcycleworks.com/products/ebmx-extended-swingarm', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-ebmx-extended-swingarm.webp'
     },
 ]},
   {id:'tires', name:'Tires & Tubes', blurb:'Traction. The right tire for your terrain matters more than most upgrades.', tips:['Size must match your rims','Soft-terrain, intermediate, and hard-pack tires are very different','DOT-rated if you ride street'], options:[
@@ -14675,6 +15236,12 @@ var CATEGORIES = [
       {v:'MTN MotoWorks', p:94.95, url:'https://mtnmotoworks.com/products/tuttio-soleil-01-titanium-bolt-kit', chk:'2026-11-22', stock:'out_of_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-22'
+    },
+    {name:'Titanium Sprocket Bolts - Surron Light Bee / Talaria MX3 / MX4 / XXX / X3 Pro / E-Ride Pro / 79 Bike Falcon / Ventus / RAWR Mantis / Altis Sigma', pid:'chargedcycleworks-warp9-titanium-sprocket-bolts', tier:'budget',
+     prices:[
+      {v:'Charged Cycle Works', p:45, url:'https://chargedcycleworks.com/products/warp9-titanium-sprocket-bolts', chk:'2026-11-22', stock:'in_stock'},
+     ],
+     fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-22', img:'img/parts/chargedcycleworks-warp9-titanium-sprocket-bolts.webp'
     },
 ]},
 ];
@@ -20718,4 +21285,229 @@ Object.assign(FITMENT, {
   'eridepro-00113-dj-01-control-switch-with-reverse-pro-4-0|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — (00113-DJ-01) OEM Control Switch with Reverse - Pro 4.0 (checked 2026-11-17)',u:['https://www.eridepro.com/products/00113-dj-01-control-switch-with-reverse-pro-4-0']},
   'eridepro-she8057-handlebar-stem-adapter-assembly-pro-4-0|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — SHE8057 Handlebar Stem Adapter Assembly - Pro 4.0 (checked 2026-11-17)',u:['https://www.eridepro.com/products/she8057-handlebar-stem-adapter-assembly-pro-4-0']},
   'eridepro-she7076|ss40':{s:'confirmed_direct_fit',n:'Seller fitment names the E Ride Pro SS 4.0 — SHE7076 330mm Kickstand + Spring + Bolt Kit - SS2.0/SS3.0/SR/Pro 4.0 (checked 2026-11-17)',u:['https://www.eridepro.com/products/she7076']},
+});
+
+// 2026-11-22 v4.17.16: Segway X160, Segway X260, Talaria XXX (X3) base model. Confirmed rows only from data/fitment-research-2026-11-22-segway-talaria-xxx.csv
+// (verify rows, tires, X160 forks/shocks and XXX Pro-only parts deliberately left out).
+Object.assign(FITMENT, {
+  'chargedcycleworks-extended-rear-fender-v2-side-shrouds|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds',u:['https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds']},
+  'chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes',u:['https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes']},
+  'chargedcycleworks-gritshift-halo-headlight-kill-switch|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch',u:['https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch']},
+  'chargedcycleworks-heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit|segway-x160':{s:'confirmed_direct_fit',n:'CCW names Segway X160/X260 (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit',u:['https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit']},
+  'chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade',u:['https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade']},
+  'chargedcycleworks-kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective|segway-x160':{s:'confirmed_direct_fit',n:'Title + "Fit for Segway X160 / X260"; adapter included (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective',u:['https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective']},
+  'chargedcycleworks-kyvex-billet-wide-foot-pegs|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs',u:['https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs']},
+  'chargedcycleworks-surron-oem-supermoto-wheelset|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-oem-supermoto-wheelset',u:['https://chargedcycleworks.com/products/surron-oem-supermoto-wheelset']},
+  'chargedcycleworks-carbon-fiber-ignition-switch-cover-for-surron-light|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/carbon-fiber-ignition-switch-cover-for-surron-light-bee',u:['https://chargedcycleworks.com/products/carbon-fiber-ignition-switch-cover-for-surron-light-bee']},
+  'howlingmoto-surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-bo|segway-x160':{s:'confirmed_direct_fit',n:'Non-CCW: Howling Moto title names X160/X260 (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://howlingmoto.com/products/surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-body-kit-fits-segway-x160-x260',u:['https://howlingmoto.com/products/surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-body-kit-fits-segway-x160-x260']},
+  'chargedcycleworks-surron-ultra-bee-oem-tool-kit-torque-wrench|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench']},
+  'revrides-titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x2|segway-x160':{s:'confirmed_direct_fit',n:'Non-CCW: REV Rides title names X160 X260 (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260',u:['https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260']},
+  'warp9-3in-rise|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria',u:['https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria']},
+  'chargedcycleworks-warp9-e-moto-tapped-handlebar-31-8mm|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar',u:['https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar']},
+  'chargedcycleworks-cnc-aluminum-wide-foot-pegs|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs',u:['https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs']},
+  'chargedcycleworks-extended-rear-fender-v2-side-shrouds|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds',u:['https://chargedcycleworks.com/products/extended-rear-fender-v2-w-side-shrouds']},
+  'chargedcycleworks-gates-gt4-power-grip-belt|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gates-gt4-power-grip-belt',u:['https://chargedcycleworks.com/products/gates-gt4-power-grip-belt']},
+  'chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes',u:['https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes']},
+  'chargedcycleworks-gritshift-halo-headlight-kill-switch|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch',u:['https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch']},
+  'chargedcycleworks-heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit|segway-x260':{s:'confirmed_direct_fit',n:'CCW names Segway X160/X260 (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit',u:['https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit']},
+  'chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade',u:['https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade']},
+  'chargedcycleworks-heavy-hitter-titanium-direct-mount-riser|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser',u:['https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser']},
+  'chargedcycleworks-kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective|segway-x260':{s:'confirmed_direct_fit',n:'Title + "Fit for Segway X160 / X260"; adapter included (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective',u:['https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective']},
+  'chargedcycleworks-kyvex-billet-wide-foot-pegs|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs',u:['https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs']},
+  'tbelectricmoto-bearing-kit-suspension-triangle-surron-lbx|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx',u:['https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx']},
+  'chargedcycleworks-nibbi-rear-shock|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/nibbi-rear-shock',u:['https://chargedcycleworks.com/products/nibbi-rear-shock']},
+  'chargedcycleworks-surron-oem-supermoto-wheelset|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-oem-supermoto-wheelset',u:['https://chargedcycleworks.com/products/surron-oem-supermoto-wheelset']},
+  'chargedcycleworks-rfloxa-hawk31-max-black|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-black',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-max-black']},
+  'chargedcycleworks-rfloxa-hawk31-max-gold|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold']},
+  'chargedcycleworks-rfloxa-hawk31-max-plus-fork-1|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1']},
+  'rfloxa-hawk31-pro|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-pro',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-pro']},
+  'chargedcycleworks-rfloxa-rab50rc|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-rab50rc',u:['https://chargedcycleworks.com/products/rfloxa-rab50rc']},
+  'rfloxa-rab53rv|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-rab53rv',u:['https://chargedcycleworks.com/products/rfloxa-rab53rv']},
+  'chargedcycleworks-carbon-fiber-ignition-switch-cover-for-surron-light|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/carbon-fiber-ignition-switch-cover-for-surron-light-bee',u:['https://chargedcycleworks.com/products/carbon-fiber-ignition-switch-cover-for-surron-light-bee']},
+  'howlingmoto-surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-bo|segway-x260':{s:'confirmed_direct_fit',n:'Non-CCW: Howling Moto title names X160/X260 (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://howlingmoto.com/products/surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-body-kit-fits-segway-x160-x260',u:['https://howlingmoto.com/products/surron-light-bee-carbon-fiber-plastics-kit-full-9-piece-body-kit-fits-segway-x160-x260']},
+  'chargedcycleworks-surron-ultra-bee-oem-tool-kit-torque-wrench|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench',u:['https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench']},
+  'revrides-titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x2|segway-x260':{s:'confirmed_direct_fit',n:'Non-CCW: REV Rides title names X160 X260 (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260',u:['https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260']},
+  'warp9-3in-rise|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria',u:['https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria']},
+  'chargedcycleworks-warp9-e-moto-tapped-handlebar-31-8mm|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar',u:['https://chargedcycleworks.com/products/warp9-e-moto-tapped-handlebar']},
+  'chargedcycleworks-cnc-aluminum-wide-foot-pegs|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs',u:['https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs']},
+  'chargedcycleworks-10mm-brake-caliper-spacer-for-220mm-rotors|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors',u:['https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors']},
+  'tbelectricmoto-17in-premium-super-moto-wheel-set-for-talaria-sting-mx4|talaria-xxx':{s:'confirmed_direct_fit',n:'Non-CCW: TB Electric title names XXX (in data.js) (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://tbelectricmoto.com/products/17in-premium-super-moto-wheel-set-for-talaria-sting-mx4-xxx',u:['https://tbelectricmoto.com/products/17in-premium-super-moto-wheel-set-for-talaria-sting-mx4-xxx']},
+  'chargedcycleworks-baja-designs-s2-pro-headlight|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight',u:['https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight']},
+  'chargedcycleworks-baja-designs-squadron-headlight-kit-for-surron-talaria|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria',u:['https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria']},
+  'chargedcycleworks-bearing-kit-front-wheel|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/bearing-kit-front-wheel',u:['https://chargedcycleworks.com/products/bearing-kit-front-wheel']},
+  'ebmx-x-9000-v3|talaria-xxx':{s:'confirmed_fit_with_adapter',n:'Needs the XXX install kit (sold separately) (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit',u:['https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit']},
+  'ext-arma-mx|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron',u:['https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron']},
+  'chargedcycleworks-ext-ferro-fork-open-box|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/ext-ferro-fork-open-box',u:['https://chargedcycleworks.com/products/ext-ferro-fork-open-box']},
+  'ext-ferro|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria',u:['https://chargedcycleworks.com/products/ext-ferro-fork-for-surron-talaria']},
+  'chargedcycleworks-gates-gt4-power-grip-belt|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gates-gt4-power-grip-belt',u:['https://chargedcycleworks.com/products/gates-gt4-power-grip-belt']},
+  'chargedcycleworks-gigigo-gi03-headlight|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gigigo-gi03-headlight',u:['https://chargedcycleworks.com/products/gigigo-gi03-headlight']},
+  'wheels-ion-lightbee-eride20-17supermoto|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/ion-17-supermoto-wheelset',u:['https://chargedcycleworks.com/products/ion-17-supermoto-wheelset']},
+  'kke-performance|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock',u:['https://chargedcycleworks.com/products/kke-performance-upgraded-rear-suspension-shock']},
+  'chargedcycleworks-kyvex-billet-wide-foot-pegs|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs',u:['https://chargedcycleworks.com/products/kyvex-billet-wide-foot-pegs']},
+  'chargedcycleworks-lewis-223mm-x-3-0mm-rotor|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor',u:['https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor']},
+  'chargedcycleworks-flat-washer-gb-t-97-1-m6-1|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/flat-washer-gb-t-97-1-m6-1',u:['https://chargedcycleworks.com/products/flat-washer-gb-t-97-1-m6-1']},
+  'chargedcycleworks-button-head-screw-gb-t70-2-m6x14-1|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1',u:['https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1']},
+  'revrides-psm-eride-pro-ss-billet-display-cover|talaria-xxx':{s:'confirmed_direct_fit',n:'Non-CCW: REV Rides title names Talaria XXX (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://revrides.com/products/psm-eride-pro-ss-billet-display-cover',u:['https://revrides.com/products/psm-eride-pro-ss-billet-display-cover']},
+  'revrides-psm-talaria-rotor-guard|talaria-xxx':{s:'confirmed_direct_fit',n:'Non-CCW: REV Rides title names XXX (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://revrides.com/products/psm-talaria-rotor-guard',u:['https://revrides.com/products/psm-talaria-rotor-guard']},
+  'charged-brake-pads-emoto|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/performance-brake-pads-for-emoto',u:['https://chargedcycleworks.com/products/performance-brake-pads-for-emoto']},
+  'chargedcycleworks-prickly-foot-pegs-wide-for-talaria|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/prickly-foot-pegs-wide-for-talaria',u:['https://chargedcycleworks.com/products/prickly-foot-pegs-wide-for-talaria']},
+  'chargedcycleworks-rfloxa-hawk31-max-black|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-black',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-max-black']},
+  'chargedcycleworks-rfloxa-hawk31-max-gold|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-max-gold']},
+  'chargedcycleworks-rfloxa-hawk31-max-plus-fork-1|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-max-plus-fork-1']},
+  'rfloxa-hawk31-pro|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-hawk31-pro',u:['https://chargedcycleworks.com/products/rfloxa-hawk31-pro']},
+  'chargedcycleworks-rfloxa-rab50rc|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-rab50rc',u:['https://chargedcycleworks.com/products/rfloxa-rab50rc']},
+  'rfloxa-rab53rv|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rfloxa-rab53rv',u:['https://chargedcycleworks.com/products/rfloxa-rab53rv']},
+  'chargedcycleworks-warp9-4mm-neoprene-shock-cover-emoto|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto',u:['https://chargedcycleworks.com/products/warp9-4mm-neoprene-shock-cover-emoto']},
+  'chargedcycleworks-front-fender-for-talaria-oem-surron-oem-segway-x260|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260',u:['https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260']},
+  'talaria-mx4-oem-charger|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v',u:['https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v']},
+  'chargedcycleworks-footpeg-connector-talaria-sting-mx3-mx4-x3|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/footpeg-connector-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/footpeg-connector-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-footpeg-fixing-pin-talaria-sting-mx3-mx4-x3|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/footpeg-fixing-pin-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/footpeg-fixing-pin-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-footpeg-return-spring-talaria-sting-mx3-mx4-x3|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/footpeg-return-spring-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/footpeg-return-spring-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-headlight-bracket-for-talaria-sting-mx3-mx4-x3|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-rr-wheel-axle-m15-204-talaria-sting-mx5|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rr-wheel-axle-m15-204-talaria-sting-mx5',u:['https://chargedcycleworks.com/products/rr-wheel-axle-m15-204-talaria-sting-mx5']},
+  'chargedcycleworks-replacement-dc-converter-talaria-sting-mx3-mx4-x3|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3']},
+  'tbelectricmoto-talaria-sting-oem-replacement-display|talaria-xxx':{s:'confirmed_direct_fit',n:'Non-CCW: TB Electric title names XXX (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://tbelectricmoto.com/products/talaria-sting-oem-replacement-display',u:['https://tbelectricmoto.com/products/talaria-sting-oem-replacement-display']},
+  'howlingmoto-talaria-xxx-mx4-ebmx-display-guard-cnc-aluminum-screen-pro|talaria-xxx':{s:'confirmed_direct_fit',n:'Non-CCW: Howling Moto title names XXX (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://howlingmoto.com/products/talaria-xxx-mx4-ebmx-display-guard-cnc-aluminum-screen-protector-for-e-moto-screens',u:['https://howlingmoto.com/products/talaria-xxx-mx4-ebmx-display-guard-cnc-aluminum-screen-protector-for-e-moto-screens']},
+  'chargedcycleworks-talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem',u:['https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem']},
+  'chargedcycleworks-formula-tech-39mm-forks|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/formula-tech-39mm-forks',u:['https://chargedcycleworks.com/products/formula-tech-39mm-forks']},
+  'tbelectricmoto-titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-m|talaria-xxx':{s:'confirmed_direct_fit',n:'Non-CCW: TB Electric title names XXX (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://tbelectricmoto.com/products/titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-mx4',u:['https://tbelectricmoto.com/products/titanium-chain-guard-bolts-set-of-two-talaria-xxx-mx3-mx4']},
+  'chargedcycleworks-vonkat-tenfive-shock-for-surron-talaria-segway|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway',u:['https://chargedcycleworks.com/products/vonkat-tenfive-shock-for-surron-talaria-segway']},
+  'chargedcycleworks-warp9-foot-pegs-for-talaria|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-foot-pegs-for-talaria',u:['https://chargedcycleworks.com/products/warp9-foot-pegs-for-talaria']},
+  'chargedcycleworks-warp9-stainless-steel-e-moto-sprocket-54t|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp-9-stainless-steel-e-moto-sprocket-54t',u:['https://chargedcycleworks.com/products/warp-9-stainless-steel-e-moto-sprocket-54t']},
+  'chargedcycleworks-talaria-altis-sigma-elite-foot-pegs|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs',u:['https://chargedcycleworks.com/products/talaria-altis-sigma-elite-foot-pegs']},
+  'chargedcycleworks-stem-lock|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/stem-lock',u:['https://chargedcycleworks.com/products/stem-lock']},
+  'chargedcycleworks-prickly-direct-mount-riser-surron|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/prickly-direct-mount-riser-surron',u:['https://chargedcycleworks.com/products/prickly-direct-mount-riser-surron']},
+  'chargedcycleworks-prickly-direct-mount-riser-surron|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/prickly-direct-mount-riser-surron',u:['https://chargedcycleworks.com/products/prickly-direct-mount-riser-surron']},
+  'chargedcycleworks-ebmx-extended-swingarm|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/ebmx-extended-swingarm',u:['https://chargedcycleworks.com/products/ebmx-extended-swingarm']},
+  'chargedcycleworks-ebmx-extended-swingarm|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/ebmx-extended-swingarm',u:['https://chargedcycleworks.com/products/ebmx-extended-swingarm']},
+  'chargedcycleworks-bik-dual-bore-rear-brake-kit|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/bik-dual-bore-rear-brake-kit',u:['https://chargedcycleworks.com/products/bik-dual-bore-rear-brake-kit']},
+  'chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria',u:['https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria']},
+  'chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria',u:['https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria']},
+  'chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260',u:['https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260']},
+  'chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260',u:['https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260']},
+  'chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx',u:['https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx']},
+  'chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260',u:['https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260']},
+  'chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260',u:['https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260']},
+  'chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1',u:['https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1']},
+  'chargedcycleworks-emx-brake-pad-4-piston-1|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/emx-brake-pad-4-piston-1',u:['https://chargedcycleworks.com/products/emx-brake-pad-4-piston-1']},
+  'chargedcycleworks-emx-brake-pad-4-piston-1|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/emx-brake-pad-4-piston-1',u:['https://chargedcycleworks.com/products/emx-brake-pad-4-piston-1']},
+  'chargedcycleworks-kke-aluminum-brake-levers-for-light-bee|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-aluminum-brake-levers-for-light-bee',u:['https://chargedcycleworks.com/products/kke-aluminum-brake-levers-for-light-bee']},
+  'chargedcycleworks-kke-aluminum-brake-levers-for-light-bee|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-aluminum-brake-levers-for-light-bee',u:['https://chargedcycleworks.com/products/kke-aluminum-brake-levers-for-light-bee']},
+  'chargedcycleworks-kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective|segway-x160':{s:'confirmed_direct_fit',n:'Title + "For Segway X160 / X260"; adapter included (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective',u:['https://chargedcycleworks.com/products/kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective']},
+  'chargedcycleworks-kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective|segway-x260':{s:'confirmed_direct_fit',n:'Title + "For Segway X160 / X260"; adapter included (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective',u:['https://chargedcycleworks.com/products/kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective']},
+  'chargedcycleworks-prickly-brake-lever-lbx|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/prickly-brake-lever-lbx',u:['https://chargedcycleworks.com/products/prickly-brake-lever-lbx']},
+  'chargedcycleworks-rear-floating-brake-disc-220mm-talaria-sting|talaria-xxx':{s:'confirmed_direct_fit',n:'Title names XXX; 220 mm matches Luna spec (220 mm rotors F/R) (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-floating-brake-disc-220mm-talaria-sting',u:['https://chargedcycleworks.com/products/rear-floating-brake-disc-220mm-talaria-sting']},
+  'chargedcycleworks-hydraulic-brake-system-surron-light-bee|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee',u:['https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee']},
+  'chargedcycleworks-hydraulic-brake-system-surron-light-bee|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee',u:['https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee']},
+  'chargedcycleworks-oem-front-brake-assembly-surron-light-bee|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee',u:['https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee']},
+  'chargedcycleworks-oem-front-brake-assembly-surron-light-bee|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee',u:['https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee']},
+  'chargedcycleworks-oem-brake-assembly-surron-light-bee|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee',u:['https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee']},
+  'chargedcycleworks-oem-brake-assembly-surron-light-bee|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee',u:['https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee']},
+  'chargedcycleworks-wave-brake-rotor-surron-light-bee|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee',u:['https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee']},
+  'chargedcycleworks-wave-brake-rotor-surron-light-bee|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee',u:['https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee']},
+  'chargedcycleworks-complete-front-brake-assy-lbn-talaria-sting-mx3-mx4|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/complete-front-brake-assy-lbn-talaria-sting-mx3-mx4',u:['https://chargedcycleworks.com/products/complete-front-brake-assy-lbn-talaria-sting-mx3-mx4']},
+  'chargedcycleworks-complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4',u:['https://chargedcycleworks.com/products/complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4']},
+  'chargedcycleworks-front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1',u:['https://chargedcycleworks.com/products/front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1']},
+  'chargedcycleworks-front-brake-oil-hose-lbn-talaria-sting-mx3-mx4|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/front-brake-oil-hose-lbn-talaria-sting-mx3-mx4',u:['https://chargedcycleworks.com/products/front-brake-oil-hose-lbn-talaria-sting-mx3-mx4']},
+  'chargedcycleworks-talaria-oem-front-brake-rotor-220mm|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-oem-front-brake-rotor-220mm',u:['https://chargedcycleworks.com/products/talaria-oem-front-brake-rotor-220mm']},
+  'chargedcycleworks-rear-brake-master-cylinder-for-talaria-mx4-x3|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-brake-master-cylinder-for-talaria-mx4-x3',u:['https://chargedcycleworks.com/products/rear-brake-master-cylinder-for-talaria-mx4-x3']},
+  'chargedcycleworks-rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4',u:['https://chargedcycleworks.com/products/rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4']},
+  'chargedcycleworks-talaria-oem-rear-brake-rotor-220mm|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-oem-rear-brake-rotor-220mm',u:['https://chargedcycleworks.com/products/talaria-oem-rear-brake-rotor-220mm']},
+  'chargedcycleworks-warp9-front-brake-rotor-for-surron-and-segway|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-front-brake-rotor-for-surron-and-segway',u:['https://chargedcycleworks.com/products/warp9-front-brake-rotor-for-surron-and-segway']},
+  'chargedcycleworks-warp9-220mm-brake-rotor-adapter-for-surron|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-220mm-brake-rotor-adapter-for-surron',u:['https://chargedcycleworks.com/products/warp9-220mm-brake-rotor-adapter-for-surron']},
+  'chargedcycleworks-warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only',u:['https://chargedcycleworks.com/products/warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only']},
+  'chargedcycleworks-warp9-brake-levers-for-surron|segway-x160':{s:'confirmed_direct_fit',n:'CCW: OEM brakes on Segway x160/x260 (the "not compatible" is about Talaria MX4) (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-brake-levers-for-surron',u:['https://chargedcycleworks.com/products/warp9-brake-levers-for-surron']},
+  'chargedcycleworks-warp9-brake-levers-for-surron|segway-x260':{s:'confirmed_direct_fit',n:'CCW: OEM brakes on Segway x160/x260 (the "not compatible" is about Talaria MX4) (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-brake-levers-for-surron',u:['https://chargedcycleworks.com/products/warp9-brake-levers-for-surron']},
+  'chargedcycleworks-bearing-kit-rear-wheel|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/bearing-kit-rear-wheel',u:['https://chargedcycleworks.com/products/bearing-kit-rear-wheel']},
+  'chargedcycleworks-lockdown-axle-block-cnc-black-talaria-surron-segway|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/lockdown-axle-block-cnc-black-talaria-surron-segway',u:['https://chargedcycleworks.com/products/lockdown-axle-block-cnc-black-talaria-surron-segway']},
+  'chargedcycleworks-lockdown-axle-block-cnc-black-talaria-surron-segway|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/lockdown-axle-block-cnc-black-talaria-surron-segway',u:['https://chargedcycleworks.com/products/lockdown-axle-block-cnc-black-talaria-surron-segway']},
+  'chargedcycleworks-titanium-rear-axle-for-surron-light-bee|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/titanium-rear-axle-for-surron-light-bee',u:['https://chargedcycleworks.com/products/titanium-rear-axle-for-surron-light-bee']},
+  'chargedcycleworks-titanium-rear-axle-for-surron-light-bee|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/titanium-rear-axle-for-surron-light-bee',u:['https://chargedcycleworks.com/products/titanium-rear-axle-for-surron-light-bee']},
+  'chargedcycleworks-gritshift-belt-change-multi-tool|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-belt-change-multi-tool',u:['https://chargedcycleworks.com/products/gritshift-belt-change-multi-tool']},
+  'chargedcycleworks-gritshift-belt-change-multi-tool|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-belt-change-multi-tool',u:['https://chargedcycleworks.com/products/gritshift-belt-change-multi-tool']},
+  'chargedcycleworks-prickly-4340-steel-jackshaft-bolt-surron|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/prickly-4340-steel-jackshaft-bolt-surron',u:['https://chargedcycleworks.com/products/prickly-4340-steel-jackshaft-bolt-surron']},
+  'chargedcycleworks-prickly-4340-steel-jackshaft-bolt-surron|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/prickly-4340-steel-jackshaft-bolt-surron',u:['https://chargedcycleworks.com/products/prickly-4340-steel-jackshaft-bolt-surron']},
+  'chargedcycleworks-titanium-nut-rear-axle|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/titanium-nut-rear-axle',u:['https://chargedcycleworks.com/products/titanium-nut-rear-axle']},
+  'chargedcycleworks-quick-release-pin-assembly-m6x40mm-talaria-xxx-x3|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/quick-release-pin-assembly-m6x40mm-talaria-xxx-x3',u:['https://chargedcycleworks.com/products/quick-release-pin-assembly-m6x40mm-talaria-xxx-x3']},
+  'chargedcycleworks-surron-light-bee-oem-rear-shock-triangle-need-bearing|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-light-bee-oem-rear-shock-triangle-need-bearing',u:['https://chargedcycleworks.com/products/surron-light-bee-oem-rear-shock-triangle-need-bearing']},
+  'chargedcycleworks-surron-light-bee-oem-rear-shock-triangle-need-bearing|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-light-bee-oem-rear-shock-triangle-need-bearing',u:['https://chargedcycleworks.com/products/surron-light-bee-oem-rear-shock-triangle-need-bearing']},
+  'chargedcycleworks-retainer-clip-e-clip-internal-diameter-6-1|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/retainer-clip-e-clip-internal-diameter-6-1',u:['https://chargedcycleworks.com/products/retainer-clip-e-clip-internal-diameter-6-1']},
+  'chargedcycleworks-swing-arm-axle-tool-for-talaria-x3-xxx|talaria-xxx':{s:'confirmed_direct_fit',n:'Tool; title names X3 (xXx) (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/swing-arm-axle-tool-for-talaria-x3-xxx',u:['https://chargedcycleworks.com/products/swing-arm-axle-tool-for-talaria-x3-xxx']},
+  'chargedcycleworks-left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3-1|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3-1',u:['https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3-1']},
+  'chargedcycleworks-upper-headset-cap-talaria-sting-mx3-mx4-x3|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/upper-headset-cap-talaria-sting-mx3-mx4-x3',u:['https://chargedcycleworks.com/products/upper-headset-cap-talaria-sting-mx3-mx4-x3']},
+  'chargedcycleworks-wheel-bearings|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/wheel-bearings',u:['https://chargedcycleworks.com/products/wheel-bearings']},
+  'chargedcycleworks-x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller',u:['https://chargedcycleworks.com/products/x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller']},
+  'chargedcycleworks-ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3|talaria-xxx':{s:'confirmed_fit_with_modifications',n:'Only with X-9000-V3 controller + XLB-60 motor (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3',u:['https://chargedcycleworks.com/products/ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3']},
+  'chargedcycleworks-gritshift-blinder-led-light-bar-headlight|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight',u:['https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight']},
+  'chargedcycleworks-gritshift-blinder-led-light-bar-headlight|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight',u:['https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight']},
+  'chargedcycleworks-gritshift-horn-cover-delete-plate-sur-ron-segway|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-horn-cover-delete-plate-sur-ron-segway',u:['https://chargedcycleworks.com/products/gritshift-horn-cover-delete-plate-sur-ron-segway']},
+  'chargedcycleworks-gritshift-horn-cover-delete-plate-sur-ron-segway|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-horn-cover-delete-plate-sur-ron-segway',u:['https://chargedcycleworks.com/products/gritshift-horn-cover-delete-plate-sur-ron-segway']},
+  'chargedcycleworks-gritshift-sleeper-headlight-kill-switch|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-sleeper-headlight-kill-switch',u:['https://chargedcycleworks.com/products/gritshift-sleeper-headlight-kill-switch']},
+  'chargedcycleworks-gritshift-sleeper-headlight-kill-switch|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-sleeper-headlight-kill-switch',u:['https://chargedcycleworks.com/products/gritshift-sleeper-headlight-kill-switch']},
+  'chargedcycleworks-gritshift-stealth-headlight-kill-switch|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-stealth-headlight-kill-switch',u:['https://chargedcycleworks.com/products/gritshift-stealth-headlight-kill-switch']},
+  'chargedcycleworks-gritshift-stealth-headlight-kill-switch|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-stealth-headlight-kill-switch',u:['https://chargedcycleworks.com/products/gritshift-stealth-headlight-kill-switch']},
+  'chargedcycleworks-gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount',u:['https://chargedcycleworks.com/products/gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount']},
+  'chargedcycleworks-gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount',u:['https://chargedcycleworks.com/products/gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount']},
+  'chargedcycleworks-keyless-on-off-button-talaria-xxx-x3|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/keyless-on-off-button-talaria-xxx-x3',u:['https://chargedcycleworks.com/products/keyless-on-off-button-talaria-xxx-x3']},
+  'chargedcycleworks-surron-light-bee-oem-headlight|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-light-bee-oem-headlight',u:['https://chargedcycleworks.com/products/surron-light-bee-oem-headlight']},
+  'chargedcycleworks-surron-light-bee-oem-headlight|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-light-bee-oem-headlight',u:['https://chargedcycleworks.com/products/surron-light-bee-oem-headlight']},
+  'chargedcycleworks-battery-pack-discharge-cable-talaria-sting-mx3|talaria-xxx':{s:'confirmed_direct_fit',n:'Pick the "X3 (XXX)" variant (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/battery-pack-discharge-cable-talaria-sting-mx3',u:['https://chargedcycleworks.com/products/battery-pack-discharge-cable-talaria-sting-mx3']},
+  'chargedcycleworks-nfc-sensor|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/nfc-sensor',u:['https://chargedcycleworks.com/products/nfc-sensor']},
+  'chargedcycleworks-replacement-wiring-loom-for-surron-light-bee|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/replacement-wiring-loom-for-surron-light-bee',u:['https://chargedcycleworks.com/products/replacement-wiring-loom-for-surron-light-bee']},
+  'chargedcycleworks-heavy-hitter-lightweight-ti-surron-lbx-triangle|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-lightweight-ti-surron-lbx-triangle',u:['https://chargedcycleworks.com/products/heavy-hitter-lightweight-ti-surron-lbx-triangle']},
+  'chargedcycleworks-heavy-hitter-lightweight-ti-surron-lbx-triangle|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-lightweight-ti-surron-lbx-triangle',u:['https://chargedcycleworks.com/products/heavy-hitter-lightweight-ti-surron-lbx-triangle']},
+  'chargedcycleworks-warp-9-cryo-hardened-linkage-bolts|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts',u:['https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts']},
+  'chargedcycleworks-warp-9-cryo-hardened-linkage-bolts|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts',u:['https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts']},
+  'chargedcycleworks-heavy-hitter-billet-footpeg-support-brace-with-o-rings|segway-x160':{s:'confirmed_direct_fit',n:'CCW: "Sur Ron LBX and Segway X260/X160 ... no modifications" (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-billet-footpeg-support-brace-with-o-rings',u:['https://chargedcycleworks.com/products/heavy-hitter-billet-footpeg-support-brace-with-o-rings']},
+  'chargedcycleworks-heavy-hitter-billet-footpeg-support-brace-with-o-rings|segway-x260':{s:'confirmed_direct_fit',n:'CCW: "Sur Ron LBX and Segway X260/X160 ... no modifications" (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-billet-footpeg-support-brace-with-o-rings',u:['https://chargedcycleworks.com/products/heavy-hitter-billet-footpeg-support-brace-with-o-rings']},
+  'chargedcycleworks-prickly-foot-pegs-mx-for-talaria|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-talaria',u:['https://chargedcycleworks.com/products/prickly-foot-pegs-mx-for-talaria']},
+  'chargedcycleworks-talaria-xxx-x3-oem-left-foot-peg-mount|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-xxx-x3-oem-left-foot-peg-mount',u:['https://chargedcycleworks.com/products/talaria-xxx-x3-oem-left-foot-peg-mount']},
+  'chargedcycleworks-talaria-xxx-x3-oem-right-foot-peg-mount|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-xxx-x3-oem-right-foot-peg-mount',u:['https://chargedcycleworks.com/products/talaria-xxx-x3-oem-right-foot-peg-mount']},
+  'chargedcycleworks-heavy-hitter-surron-v2-skid-plate|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-surron-v2-skid-plate',u:['https://chargedcycleworks.com/products/heavy-hitter-surron-v2-skid-plate']},
+  'chargedcycleworks-heavy-hitter-surron-v2-skid-plate|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-surron-v2-skid-plate',u:['https://chargedcycleworks.com/products/heavy-hitter-surron-v2-skid-plate']},
+  'chargedcycleworks-dayco-primary-drive-belt|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/dayco-primary-drive-belt',u:['https://chargedcycleworks.com/products/dayco-primary-drive-belt']},
+  'chargedcycleworks-dayco-primary-drive-belt|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/dayco-primary-drive-belt',u:['https://chargedcycleworks.com/products/dayco-primary-drive-belt']},
+  'chargedcycleworks-kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective',u:['https://chargedcycleworks.com/products/kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective']},
+  'chargedcycleworks-kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective',u:['https://chargedcycleworks.com/products/kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective']},
+  'chargedcycleworks-kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective',u:['https://chargedcycleworks.com/products/kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective']},
+  'chargedcycleworks-kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective',u:['https://chargedcycleworks.com/products/kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective']},
+  'chargedcycleworks-kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective',u:['https://chargedcycleworks.com/products/kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective']},
+  'chargedcycleworks-kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective',u:['https://chargedcycleworks.com/products/kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective']},
+  'chargedcycleworks-kyvex-billet-jackshaft-for-talaria-xxx|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kyvex-billet-jackshaft-for-talaria-xxx',u:['https://chargedcycleworks.com/products/kyvex-billet-jackshaft-for-talaria-xxx']},
+  'chargedcycleworks-420x110-gold-plated-chain-110-by-primary-drive|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/420x110-gold-plated-chain-110-by-primary-drive',u:['https://chargedcycleworks.com/products/420x110-gold-plated-chain-110-by-primary-drive']},
+  'chargedcycleworks-420x120-renthal-420-r-1-works-chain|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/420x120-renthal-420-r-1-works-chain',u:['https://chargedcycleworks.com/products/420x120-renthal-420-r-1-works-chain']},
+  'chargedcycleworks-warp9-aluminum-sprocket-for-surron-segway|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-aluminum-sprocket-for-surron-segway',u:['https://chargedcycleworks.com/products/warp9-aluminum-sprocket-for-surron-segway']},
+  'chargedcycleworks-rear-fender-long|segway-x160':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-fender-long',u:['https://chargedcycleworks.com/products/rear-fender-long']},
+  'chargedcycleworks-rear-fender-long|segway-x260':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-fender-long',u:['https://chargedcycleworks.com/products/rear-fender-long']},
+  'chargedcycleworks-carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee',u:['https://chargedcycleworks.com/products/carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee']},
+  'chargedcycleworks-carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee',u:['https://chargedcycleworks.com/products/carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee']},
+  'chargedcycleworks-carbon-fiber-jackshaft-cover-for-surron-light-bee|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/carbon-fiber-jackshaft-cover-for-surron-light-bee',u:['https://chargedcycleworks.com/products/carbon-fiber-jackshaft-cover-for-surron-light-bee']},
+  'chargedcycleworks-carbon-fiber-jackshaft-cover-for-surron-light-bee|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/carbon-fiber-jackshaft-cover-for-surron-light-bee',u:['https://chargedcycleworks.com/products/carbon-fiber-jackshaft-cover-for-surron-light-bee']},
+  'chargedcycleworks-carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee',u:['https://chargedcycleworks.com/products/carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee']},
+  'chargedcycleworks-carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee',u:['https://chargedcycleworks.com/products/carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee']},
+  'chargedcycleworks-carbon-fiber-chain-guard-for-surron-light-bee|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/carbon-fiber-chain-guard-for-surron-light-bee',u:['https://chargedcycleworks.com/products/carbon-fiber-chain-guard-for-surron-light-bee']},
+  'chargedcycleworks-carbon-fiber-chain-guard-for-surron-light-bee|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/carbon-fiber-chain-guard-for-surron-light-bee',u:['https://chargedcycleworks.com/products/carbon-fiber-chain-guard-for-surron-light-bee']},
+  'chargedcycleworks-surron-light-bee-battery-cover-matte|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-light-bee-battery-cover-matte',u:['https://chargedcycleworks.com/products/surron-light-bee-battery-cover-matte']},
+  'chargedcycleworks-surron-light-bee-battery-cover-matte|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-light-bee-battery-cover-matte',u:['https://chargedcycleworks.com/products/surron-light-bee-battery-cover-matte']},
+  'chargedcycleworks-rear-shock-mudguard-surron-light-bee|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-shock-mudguard-surron-light-bee',u:['https://chargedcycleworks.com/products/rear-shock-mudguard-surron-light-bee']},
+  'chargedcycleworks-rear-shock-mudguard-surron-light-bee|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-shock-mudguard-surron-light-bee',u:['https://chargedcycleworks.com/products/rear-shock-mudguard-surron-light-bee']},
+  'chargedcycleworks-nfc-sensor-plastic-cover-talaria-xxx|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/nfc-sensor-plastic-cover-talaria-xxx',u:['https://chargedcycleworks.com/products/nfc-sensor-plastic-cover-talaria-xxx']},
+  'chargedcycleworks-replacement-seat-for-surron-and-segway-x160-x260|segway-x160':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/replacement-seat-for-surron-and-segway-x160-x260',u:['https://chargedcycleworks.com/products/replacement-seat-for-surron-and-segway-x160-x260']},
+  'chargedcycleworks-replacement-seat-for-surron-and-segway-x160-x260|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/replacement-seat-for-surron-and-segway-x160-x260',u:['https://chargedcycleworks.com/products/replacement-seat-for-surron-and-segway-x160-x260']},
+  'chargedcycleworks-kke-550lbs-rear-suspension-spring-for-surron-light-bee-x-segway-collective|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-550lbs-rear-suspension-spring-for-surron-light-bee-x-segway-collective',u:['https://chargedcycleworks.com/products/kke-550lbs-rear-suspension-spring-for-surron-light-bee-x-segway-collective']},
+  'chargedcycleworks-kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective',u:['https://chargedcycleworks.com/products/kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective']},
+  'chargedcycleworks-oem-controller-for-talaria-x3|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/oem-controller-for-talaria-x3',u:['https://chargedcycleworks.com/products/oem-controller-for-talaria-x3']},
+  'chargedcycleworks-torp-tc1000-controller-for-surron-light-bee-and-segway-x260-1|segway-x260':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/torp-tc1000-controller-for-surron-light-bee-and-segway-x260-1',u:['https://chargedcycleworks.com/products/torp-tc1000-controller-for-surron-light-bee-and-segway-x260-1']},
+  'chargedcycleworks-torp-tc500-controller|segway-x260':{s:'confirmed_direct_fit',n:'CCW: "Surron Light Bee and Segway x-260 only" (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/torp-tc500-controller',u:['https://chargedcycleworks.com/products/torp-tc500-controller']},
+  'chargedcycleworks-21-charged-custom-front-wheel-for-sur-ron|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/21-charged-custom-front-wheel-for-sur-ron',u:['https://chargedcycleworks.com/products/21-charged-custom-front-wheel-for-sur-ron']},
+  'chargedcycleworks-ion-16-19-wheelset|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/ion-16-19-wheelset',u:['https://chargedcycleworks.com/products/ion-16-19-wheelset']},
+  'chargedcycleworks-kke-17-supermoto-wheelset-for-talaria-mx3-mx4|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-17-supermoto-wheelset-for-talaria-mx3-mx4',u:['https://chargedcycleworks.com/products/kke-17-supermoto-wheelset-for-talaria-mx3-mx4']},
+  'chargedcycleworks-talaria-supermoto-wheelset-17|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-supermoto-wheelset-17',u:['https://chargedcycleworks.com/products/talaria-supermoto-wheelset-17']},
+  'chargedcycleworks-fastace-ahx12rv-gravitee-front-fork|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/fastace-ahx12rv-gravitee-front-fork',u:['https://chargedcycleworks.com/products/fastace-ahx12rv-gravitee-front-fork']},
+  'chargedcycleworks-upgraded-kke-suspension-forks-for-surron-light-bee|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/upgraded-kke-suspension-forks-for-surron-light-bee',u:['https://chargedcycleworks.com/products/upgraded-kke-suspension-forks-for-surron-light-bee']},
+  'chargedcycleworks-talaria-factory-fork-for-talaria-sur-ron-segway|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-factory-fork-for-talaria-sur-ron-segway',u:['https://chargedcycleworks.com/products/talaria-factory-fork-for-talaria-sur-ron-segway']},
+  'chargedcycleworks-talaria-throttle-extension-cable|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-throttle-extension-cable',u:['https://chargedcycleworks.com/products/talaria-throttle-extension-cable']},
+  'chargedcycleworks-warp9-titanium-sprocket-bolts|talaria-xxx':{s:'confirmed_direct_fit',n:'CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-titanium-sprocket-bolts',u:['https://chargedcycleworks.com/products/warp9-titanium-sprocket-bolts']},
 });

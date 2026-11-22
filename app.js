@@ -1120,7 +1120,8 @@ function renderUpcoming(){
 var SUBMIT_EMAIL = 'ebikepartspicker@gmail.com'; /* inbox for vendor part submissions */
 var IMGV = '4.5.0'; /* bump when bike images change so browsers refetch */
 /* real manufacturer/dealer photos, background removed, standardized 1600x1000 (16:10); small=800x500 */
-function bikeImgSrc(id, small){ return 'img/bikes/'+id+(small?'-800':'')+'.webp?v='+IMGV; }
+/* noPhoto bikes (no real photo on file yet) get the neutral "Photo coming soon" placeholder, never a lookalike. */
+function bikeImgSrc(id, small){ var b = bikeById(id); return 'img/bikes/'+((b && b.noPhoto) ? 'no-photo' : id)+(small?'-800':'')+'.webp?v='+IMGV; }
 window.bikeImgSrc = bikeImgSrc; /* used by quiz.js / compare.js */
 /* Responsive bike photo: keep 800w in srcset so the builder LCP is not the 1600px file. */
 function setResponsiveBikePhoto(el, fullSrc, opts){
@@ -1364,6 +1365,7 @@ initSizeChips('startSizeChips');
 (function(){
   var host = $('featBuild'); if(!host || typeof BUILDS==='undefined' || !BUILDS.length) return;
   BUILDS.forEach(function(fb){ if(fb && (fb.photo || fb.stockPhotoOk)) renderFeatBuild(host, fb); });
+  if(host.children.length){ var sb=document.createElement('p'); sb.className='feat-submit'; sb.innerHTML='Built something? <a href="/submit-build">Submit your build</a> with real photos of your bike.'; host.appendChild(sb); }
 })();
 function renderFeatBuild(host, fb){
   var b = bikeById(fb.bike); if(!b || !fb.pids) return;

@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse,re
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.net'; V='4.17.15'; IMGV='4.5.0'; TODAY='2026-11-22'; STOCK_CHECKED='Nov 22, 2026'
+BASE='https://ebikepartspicker.net'; V='4.17.16'; IMGV='4.5.0'; TODAY='2026-11-22'; STOCK_CHECKED='Nov 22, 2026'
 # PWA service-worker registration snippet (plain string, NOT an f-string:
 # its braces would break the page() f-string below).
 SWREG="<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>"
@@ -158,6 +158,8 @@ for b in seo_bikes:
   else:
     lede=f'No aftermarket parts are confirmed to fit the {e(b["name"])} yet. Open the builder to browse unverified options, or check back as we add exact-model evidence.'
     desc=f'Build and price the {b["name"]}. No confirmed aftermarket fitment yet. Specs and a link to the parts builder are below.'
+  # no real photo on file yet: neutral placeholder + default OG image (never a lookalike)
+  pimg=bid if os.path.exists(os.path.join(ROOT,'img','bikes',bid+'.webp')) else 'no-photo'
   FM='<a href="/fitment-methodology">How we confirm fitment</a> \u00b7 ' if os.path.exists(os.path.join(ROOT,'fitment-methodology.html')) else ''
   spec=[('Price',bike_price(b))]+([('Peak power',f'{b["kw"]} kW')] if b.get('kw') else [])+([('Weight',f'{b["weight"]} lb')] if b.get('weight') else [])
   specs=''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k,v in spec)
@@ -168,7 +170,7 @@ for b in seo_bikes:
   secs=''.join(f'<section id="{c["id"]}"><h2>{e(c["name"])} for the {e(b["name"])}</h2><ul class="sp-list" data-ux-fitlist>{"".join(partrow(p,bid) for p in ps)}</ul></section>' for c,ps in cats)
   body=f"""<h1>{e(b['name'])} upgrades &amp; parts</h1>
 <p class="seo-lede">{lede}</p>
-<figure class="seo-hero" data-ux-pagebike="{e(bid)}" data-name="{e(b['name'])}"><img src="/img/bikes/{bid}-800.webp?v={IMGV}" srcset="/img/bikes/{bid}-800.webp?v={IMGV} 800w, /img/bikes/{bid}.webp?v={IMGV} 1600w" sizes="(max-width: 900px) 100vw, 720px" fetchpriority="high" decoding="async" alt="{e(b['name'])} electric dirt bike" width="1600" height="1000"></figure>
+<figure class="seo-hero" data-ux-pagebike="{e(bid)}" data-name="{e(b['name'])}"><img src="/img/bikes/{pimg}-800.webp?v={IMGV}" srcset="/img/bikes/{pimg}-800.webp?v={IMGV} 800w, /img/bikes/{pimg}.webp?v={IMGV} 1600w" sizes="(max-width: 900px) 100vw, 720px" fetchpriority="high" decoding="async" alt="{e(b['name'])} electric dirt bike" width="1600" height="1000"></figure>
 <dl class="seo-specs">{specs}</dl>
 {bikebuy}
 <p class="seo-cta"><a class="cta" href="{e(builder(bid))}">Build your {e(b['name'])}</a></p>
@@ -177,7 +179,7 @@ for b in seo_bikes:
   il={"@context":"https://schema.org","@type":"ItemList","name":f"{b['name']} upgrades and parts","numberOfItems":len(parts),"itemListElement":[{"@type":"ListItem","position":i+1,"name":p['name']} for i,p in enumerate(parts[:100])]}
   u=page(f'/bikes/{bid}/',f"{b['name']} Upgrades & Parts | Fit-Checked, Prices Checked | eBikePartsPicker",
     desc,
-    body,[('Home','/'),('Bikes','/bikes/'),(b['name'],f'/bikes/{bid}/')],BASE+f'/img/og/{bid}.jpg',[il],preload=f'<link rel="preload" as="image" href="/img/bikes/{bid}-800.webp?v={IMGV}" imagesrcset="/img/bikes/{bid}-800.webp?v={IMGV} 800w, /img/bikes/{bid}.webp?v={IMGV} 1600w" imagesizes="(max-width: 900px) 100vw, 720px" fetchpriority="high">',robots=('noindex,follow' if len(parts)<THIN else None))
+    body,[('Home','/'),('Bikes','/bikes/'),(b['name'],f'/bikes/{bid}/')],(BASE+f'/img/og/{bid}.jpg' if pimg==bid else None),[il],preload=f'<link rel="preload" as="image" href="/img/bikes/{pimg}-800.webp?v={IMGV}" imagesrcset="/img/bikes/{pimg}-800.webp?v={IMGV} 800w, /img/bikes/{pimg}.webp?v={IMGV} 1600w" imagesizes="(max-width: 900px) 100vw, 720px" fetchpriority="high">',robots=('noindex,follow' if len(parts)<THIN else None))
   urls.append(u)
   if len(parts)<THIN: NOINDEX.add(u)
 # bikes index
@@ -314,7 +316,7 @@ for c in SNAP['cats']:
     pr=min([x['p'] for x in o['prices'] if x.get('p') is not None] or [None]) if o['prices'] else None
     SI['p'].append([o['pid'],o['name'],c['id'],u,o['img'],fits,pr])
 open(os.path.join(ROOT,'search-index.json'),'w').write(json.dumps(SI,separators=(',',':'),ensure_ascii=False))
-static=['/','/about.html','/fitment-methodology.html','/affiliate-disclosure.html','/contact.html','/privacy.html','/terms.html','/report-a-part.html','/submission-guidelines.html']
+static=['/','/about.html','/fitment-methodology.html','/affiliate-disclosure.html','/contact.html','/privacy.html','/terms.html','/report-a-part.html','/submission-guidelines.html','/submit-build.html']
 allu=[BASE+(s[:-5] if s.endswith('.html') else s) for s in static if os.path.exists(os.path.join(ROOT,s.strip('/') or 'index.html'))]+[u for u in urls if u not in NOINDEX]
 open(os.path.join(ROOT,'sitemap.xml'),'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod></url>\n' for u in allu)+'</urlset>\n')
 open(os.path.join(ROOT,'robots.txt'),'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n')
