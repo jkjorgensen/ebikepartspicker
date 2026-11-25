@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Submit your build | eBikePartsPicker</title><meta name="description" content="Share your e-moto build with real photos of your own bike. Every submission is reviewed before anything is featured on eBikePartsPicker.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='%23c8f04a'/%3E%3C/svg%3E">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0b0d10">
+<link rel="apple-touch-icon" href="/img/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="eBikePartsPicker">
+<link rel="stylesheet" href="styles.css?v=4.17.20">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+</head><body class="tp">
+<header class="tp-head"><a class="tp-brand" href="./">eBikePartsPicker</a><a class="tp-back" href="./">← Back to the builder</a></header>
+<main class="tp-main"><h1>Submit your build</h1>
+<p>Built something you’re proud of? Send us your bike, the parts on it and a few photos. We check every part against its seller’s fitment and may feature the build on the homepage.</p>
+<ul><li>Photos must be <strong>your own real photos of your own bike</strong>. No AI, edited, stock or dealer photos.</li><li>Side profile in daylight works best. Up to 4 photos. Your browser shrinks them before upload.</li><li>Every submission waits for review. Nothing is published automatically, and we may decline or edit a submission.</li></ul>
+<div class="bf-off" id="bfOff" hidden><strong>Build submissions aren’t switched on yet.</strong> Please <a id="bfMail" href="mailto:ebikepartspicker@gmail.com?subject=Build%20submission">email your build</a> with the photos attached instead.</div>
+<form class="eform" data-build-form data-ok="Thanks! Your build is in the review queue. We’ll email you if we feature it." enctype="multipart/form-data">
+<label>Your name or handle<input name="name" maxlength="80" autocomplete="nickname"></label>
+<label>Your email *<input type="email" name="email" required maxlength="200" autocomplete="email"></label>
+<label>Bike (make, model, year) *<input name="bike" required maxlength="120" placeholder="e.g. 2025 Sur-Ron Ultra Bee"></label>
+<label>Build name<input name="title" maxlength="120"></label>
+<label>Parts on the bike (brand and model, one per line) *<textarea name="parts" required maxlength="3000"></textarea></label>
+<label>Anything else? (how it rides, install notes)<textarea name="story" maxlength="3000"></textarea></label>
+<label>Instagram (optional)<input name="instagram" maxlength="80" placeholder="@yourhandle"></label>
+<label>Photos * (JPG, PNG or WebP, up to 4)<input type="file" name="photo" accept="image/jpeg,image/png,image/webp" multiple></label>
+<div class="bf-previews" aria-live="polite"></div>
+<label class="bf-check"><input type="checkbox" name="own_photos" value="yes" required> These are my own real photos of my own bike, and eBikePartsPicker may show them with my build.</label>
+<div class="bf-turnstile"></div>
+<input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button type="submit" disabled>Submit build</button><p class="form-msg" role="status" aria-live="polite"></p></form>
+<p class="form-note">See the <a href="/submission-guidelines">submission guidelines</a> and <a href="/privacy">privacy policy</a>. Your email is only used about this submission.</p>
+</main>
+<footer class="sitefoot tp-foot"><nav class="tp-nav"><a href="/about">About</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms of use</a><a href="/affiliate-disclosure">Affiliate disclosure</a><a href="/fitment-methodology">Fitment methodology</a><a href="/report-a-part">Report a part</a><a href="/submission-guidelines">Submission guidelines</a></nav></footer>
+<!-- Cloudflare Web Analytics: enable in Pages project > Metrics (auto-injected, cookieless) -->
+<script src="/track.js?v=1" defer></script>
+<script src="/view.js?v=1" defer></script>
+<script src="/build-form.js?v=4.17.20" defer></script>
+<!-- PWA install banner off for now (Josh, Nov 17). Manifest + service worker stay so it can come back later. Suppress the browser native prompt; do not call prompt(). -->
+<script>window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();});</script>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
+</body></html>

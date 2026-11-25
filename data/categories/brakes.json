@@ -5239,6 +5239,679 @@
           "buy_url": "https://wiredwhips.com/parts/altis-powersports_multi_rotor-bolts-ti-generic"
         }
       ]
+    },
+    {
+      "id": "chargedcycleworks-emx-brake-pad-4-piston-1",
+      "name": "EMX Brake Pad - 4 Piston",
+      "brand": "Electric Braking",
+      "category": "brakes",
+      "price_usd": 24.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/emx-brake-pad-4-piston-1",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/emx-brake-pad-4-piston-1"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 24.99,
+          "buy_url": "https://chargedcycleworks.com/products/emx-brake-pad-4-piston-1"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-emx-brake-pad-4-piston-1.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-aluminum-brake-levers-for-light-bee",
+      "name": "KKE Aluminum Brake Levers for Light Bee",
+      "brand": "KKE Racing",
+      "category": "brakes",
+      "price_usd": 44.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-for-light-bee",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Red' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-for-light-bee"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 44.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-for-light-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-aluminum-brake-levers-for-light-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective",
+      "name": "KKE Rear 220MM Disc with Adapter For SurRon Light Bee X, Segway X160/X260, E-Ride Pro SS (Collective)",
+      "brand": "KKE Racing",
+      "category": "brakes",
+      "price_usd": 69.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Silver Rotor with Blue Adapter' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 69.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-oem-front-brake-assembly-surron-light-bee",
+      "name": "Surron Light Bee \u2013 Front & Rear Brakes (2019-2024) | OEM",
+      "brand": "Surron-WN",
+      "category": "brakes",
+      "price_usd": 139.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Front' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 139.0,
+          "buy_url": "https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-oem-front-brake-assembly-surron-light-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-hydraulic-brake-system-surron-light-bee",
+      "name": "Surron Light Bee \u2013 Complete Hydraulic Brake System (2019-2024)",
+      "brand": "Surron-WN",
+      "category": "brakes",
+      "price_usd": 249.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 249.99,
+          "buy_url": "https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee"
+        }
+      ]
+    },
+    {
+      "id": "chargedcycleworks-oem-brake-assembly-surron-light-bee",
+      "name": "Surron Light Bee \u2013 Front & Rear Brakes 2025 | OEM",
+      "brand": "Surron-WN",
+      "category": "brakes",
+      "price_usd": 301.6,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 301.6,
+          "buy_url": "https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee"
+        }
+      ]
+    },
+    {
+      "id": "chargedcycleworks-wave-brake-rotor-surron-light-bee",
+      "name": "Surron Light Bee \u2013 Wave Brake Rotor",
+      "brand": "Surron-WN",
+      "category": "brakes",
+      "price_usd": 27.4,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Front' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 27.4,
+          "buy_url": "https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-wave-brake-rotor-surron-light-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-brake-levers-for-surron",
+      "name": "Warp9 Brake Levers for Surron LBX and Talaria MX3",
+      "brand": "Warp9",
+      "category": "brakes",
+      "price_usd": 50.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-brake-levers-for-surron",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Blue' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-brake-levers-for-surron"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 50.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-brake-levers-for-surron"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-brake-levers-for-surron.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria",
+      "name": "eBikeZilla Front Oversized Floating Brake Disc 250mm x 2.3 mm",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 65.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 65.0,
+          "buy_url": "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260",
+      "name": "eBikeZilla Rear 250mm Brake Caliper Mounting Bracket for Surron Light Bee",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 64.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 64.99,
+          "buy_url": "https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260",
+      "name": "eBikeZilla Rear Oversized Floating Brake Disc 250mm x 2.3 mm for Surron Light Bee",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 102.74,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 102.74,
+          "buy_url": "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260.webp"
+    },
+    {
+      "id": "chargedcycleworks-bik-dual-bore-rear-brake-kit",
+      "name": "BiK Dual Bore Rear Brake Kit",
+      "brand": "VONKAT",
+      "category": "brakes",
+      "price_usd": 349.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bik-dual-bore-rear-brake-kit",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Talaria / Warp 9' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bik-dual-bore-rear-brake-kit"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 349.95,
+          "buy_url": "https://chargedcycleworks.com/products/bik-dual-bore-rear-brake-kit"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-bik-dual-bore-rear-brake-kit.webp"
+    },
+    {
+      "id": "chargedcycleworks-prickly-brake-lever-lbx",
+      "name": "Prickly Brake Lever - LBX",
+      "brand": "Prickly Motorsports",
+      "category": "brakes",
+      "price_usd": 30.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/prickly-brake-lever-lbx",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Bronze' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/prickly-brake-lever-lbx"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 30.0,
+          "buy_url": "https://chargedcycleworks.com/products/prickly-brake-lever-lbx"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-prickly-brake-lever-lbx.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-floating-brake-disc-220mm-talaria-sting",
+      "name": "Rear Floating Brake Disc 220mm x 2.3mm Talaria Sting MX3 / MX4 / XXX",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 55.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-floating-brake-disc-220mm-talaria-sting",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-floating-brake-disc-220mm-talaria-sting"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 55.99,
+          "buy_url": "https://chargedcycleworks.com/products/rear-floating-brake-disc-220mm-talaria-sting"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-floating-brake-disc-220mm-talaria-sting.webp"
+    },
+    {
+      "id": "chargedcycleworks-complete-front-brake-assy-lbn-talaria-sting-mx3-mx4",
+      "name": "Talaria - OEM Complete Front Brake Assembly",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 232.88,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/complete-front-brake-assy-lbn-talaria-sting-mx3-mx4",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/complete-front-brake-assy-lbn-talaria-sting-mx3-mx4"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 232.88,
+          "buy_url": "https://chargedcycleworks.com/products/complete-front-brake-assy-lbn-talaria-sting-mx3-mx4"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-complete-front-brake-assy-lbn-talaria-sting-mx3-mx4.webp"
+    },
+    {
+      "id": "chargedcycleworks-complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4",
+      "name": "Talaria - OEM Complete Rear Brake Assembly",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 260.28,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 260.28,
+          "buy_url": "https://chargedcycleworks.com/products/complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4.webp"
+    },
+    {
+      "id": "chargedcycleworks-front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1",
+      "name": "Talaria - OEM Front / Rear Brake Lever",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 10.94,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 10.94,
+          "buy_url": "https://chargedcycleworks.com/products/front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-oem-front-brake-rotor-220mm",
+      "name": "Talaria - OEM Front Brake Rotor 220mm",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 32.86,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-oem-front-brake-rotor-220mm",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-front-brake-rotor-220mm"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 32.86,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-oem-front-brake-rotor-220mm"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-oem-front-brake-rotor-220mm.webp"
+    },
+    {
+      "id": "chargedcycleworks-front-brake-oil-hose-lbn-talaria-sting-mx3-mx4",
+      "name": "Talaria - OEM Front brake Oil Hose",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 23.27,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/front-brake-oil-hose-lbn-talaria-sting-mx3-mx4",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/front-brake-oil-hose-lbn-talaria-sting-mx3-mx4"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 23.27,
+          "buy_url": "https://chargedcycleworks.com/products/front-brake-oil-hose-lbn-talaria-sting-mx3-mx4"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-front-brake-oil-hose-lbn-talaria-sting-mx3-mx4.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-brake-master-cylinder-for-talaria-mx4-x3",
+      "name": "Talaria - OEM Rear Brake Master Cylinder",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 98.62,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-brake-master-cylinder-for-talaria-mx4-x3",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-brake-master-cylinder-for-talaria-mx4-x3"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 98.62,
+          "buy_url": "https://chargedcycleworks.com/products/rear-brake-master-cylinder-for-talaria-mx4-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-brake-master-cylinder-for-talaria-mx4-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4",
+      "name": "Talaria - OEM Rear Brake Oil Hose",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 23.27,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 23.27,
+          "buy_url": "https://chargedcycleworks.com/products/rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4.webp"
+    },
+    {
+      "id": "chargedcycleworks-talaria-oem-rear-brake-rotor-220mm",
+      "name": "Talaria - OEM Rear Brake Rotor 220mm",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 32.86,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/talaria-oem-rear-brake-rotor-220mm",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-rear-brake-rotor-220mm"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 32.86,
+          "buy_url": "https://chargedcycleworks.com/products/talaria-oem-rear-brake-rotor-220mm"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-talaria-oem-rear-brake-rotor-220mm.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-front-brake-rotor-for-surron-and-segway",
+      "name": "Warp9 220mm FRONT Brake Rotor",
+      "brand": "Warp9",
+      "category": "brakes",
+      "price_usd": 55.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-front-brake-rotor-for-surron-and-segway",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Fixed' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-front-brake-rotor-for-surron-and-segway"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 55.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-front-brake-rotor-for-surron-and-segway"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-front-brake-rotor-for-surron-and-segway.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-220mm-brake-rotor-adapter-for-surron",
+      "name": "Warp9 220mm FRONT Brake Rotor Adapter",
+      "brand": "Warp9",
+      "category": "brakes",
+      "price_usd": 33.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-220mm-brake-rotor-adapter-for-surron",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-220mm-brake-rotor-adapter-for-surron"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 33.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-220mm-brake-rotor-adapter-for-surron"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-220mm-brake-rotor-adapter-for-surron.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only",
+      "name": "Warp9 240mm Floating Brake Rotor (fits Warp9 v3 hubs ONLY)",
+      "brand": "Warp9",
+      "category": "brakes",
+      "price_usd": 69.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 69.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx",
+      "name": "eBikeZilla Rear 250mm Brake Caliper Mounting Bracket for Talaria",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 59.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.0,
+          "buy_url": "https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx.webp"
+    },
+    {
+      "id": "chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1",
+      "name": "eBikeZilla Rear Oversized Floating Brake Disc 250mm x 2.3 mm for Talaria",
+      "brand": "eBikeZilla",
+      "category": "brakes",
+      "price_usd": 65.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 65.0,
+          "buy_url": "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1.webp"
     }
   ],
   "compatibility": [
@@ -8041,6 +8714,436 @@
         "https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake"
       ],
       "notes": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/e-ride-pro-oem-rengen-brake"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective"
+      ],
+      "notes": "Title + \"Fit for Segway X160 / X260\"; adapter included (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective"
+      ],
+      "notes": "Title + \"Fit for Segway X160 / X260\"; adapter included (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-front-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pros-ss-talaria-mx3-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-10mm-brake-caliper-spacer-for-220mm-rotors",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/10mm-brake-caliper-spacer-for-220mm-rotors"
+    },
+    {
+      "product_id": "chargedcycleworks-lewis-223mm-x-3-0mm-rotor",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/lewis-223mm-x-3-0mm-rotor"
+    },
+    {
+      "product_id": "charged-brake-pads-emoto",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/performance-brake-pads-for-emoto"
+    },
+    {
+      "product_id": "chargedcycleworks-emx-brake-pad-4-piston-1",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/emx-brake-pad-4-piston-1"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/emx-brake-pad-4-piston-1"
+    },
+    {
+      "product_id": "chargedcycleworks-emx-brake-pad-4-piston-1",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/emx-brake-pad-4-piston-1"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/emx-brake-pad-4-piston-1"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-aluminum-brake-levers-for-light-bee",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-for-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-aluminum-brake-levers-for-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-aluminum-brake-levers-for-light-bee",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-aluminum-brake-levers-for-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-aluminum-brake-levers-for-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective"
+      ],
+      "notes": "Title + \"For Segway X160 / X260\"; adapter included (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective"
+      ],
+      "notes": "Title + \"For Segway X160 / X260\"; adapter included (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-rear-220mm-disc-with-adapter-for-surron-light-bee-x-segway-x160-x260-e-ride-pro-ss-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-oem-front-brake-assembly-surron-light-bee",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-oem-front-brake-assembly-surron-light-bee",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-hydraulic-brake-system-surron-light-bee",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-hydraulic-brake-system-surron-light-bee",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-oem-brake-assembly-surron-light-bee",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-oem-brake-assembly-surron-light-bee",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-wave-brake-rotor-surron-light-bee",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-wave-brake-rotor-surron-light-bee",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-brake-levers-for-surron",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-brake-levers-for-surron"
+      ],
+      "notes": "CCW: OEM brakes on Segway x160/x260 (the \"not compatible\" is about Talaria MX4) (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-brake-levers-for-surron"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-brake-levers-for-surron",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-brake-levers-for-surron"
+      ],
+      "notes": "CCW: OEM brakes on Segway x160/x260 (the \"not compatible\" is about Talaria MX4) (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-brake-levers-for-surron"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-surron-segway-x260"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-surron-segway-x260"
+    },
+    {
+      "product_id": "chargedcycleworks-bik-dual-bore-rear-brake-kit",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bik-dual-bore-rear-brake-kit"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/bik-dual-bore-rear-brake-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-brake-lever-lbx",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-brake-lever-lbx"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/prickly-brake-lever-lbx"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-floating-brake-disc-220mm-talaria-sting",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-floating-brake-disc-220mm-talaria-sting"
+      ],
+      "notes": "Title names XXX; 220 mm matches Luna spec (220 mm rotors F/R) (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-floating-brake-disc-220mm-talaria-sting"
+    },
+    {
+      "product_id": "chargedcycleworks-complete-front-brake-assy-lbn-talaria-sting-mx3-mx4",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/complete-front-brake-assy-lbn-talaria-sting-mx3-mx4"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/complete-front-brake-assy-lbn-talaria-sting-mx3-mx4"
+    },
+    {
+      "product_id": "chargedcycleworks-complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/complete-rear-brake-assy-lbn-talaria-sting-mx3-mx4"
+    },
+    {
+      "product_id": "chargedcycleworks-front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/front-rear-brake-lever-lbn-talaria-sting-mx3-mx4-1"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-oem-front-brake-rotor-220mm",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-front-brake-rotor-220mm"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-oem-front-brake-rotor-220mm"
+    },
+    {
+      "product_id": "chargedcycleworks-front-brake-oil-hose-lbn-talaria-sting-mx3-mx4",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/front-brake-oil-hose-lbn-talaria-sting-mx3-mx4"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/front-brake-oil-hose-lbn-talaria-sting-mx3-mx4"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-brake-master-cylinder-for-talaria-mx4-x3",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-brake-master-cylinder-for-talaria-mx4-x3"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-brake-master-cylinder-for-talaria-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-brake-oil-hose-lbn-talaria-sting-mx3-mx4"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-oem-rear-brake-rotor-220mm",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-rear-brake-rotor-220mm"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-oem-rear-brake-rotor-220mm"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-front-brake-rotor-for-surron-and-segway",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-front-brake-rotor-for-surron-and-segway"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-front-brake-rotor-for-surron-and-segway"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-220mm-brake-rotor-adapter-for-surron",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-220mm-brake-rotor-adapter-for-surron"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-220mm-brake-rotor-adapter-for-surron"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-250mm-brake-caliper-mounting-bracket-talaria-sting-mx3-mx4-xxx"
+    },
+    {
+      "product_id": "chargedcycleworks-rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/rear-oversized-floating-brake-disc-250mm-x-2-3-mm-for-talaria-1"
     }
   ]
 }

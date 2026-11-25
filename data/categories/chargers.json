@@ -1103,6 +1103,16 @@
         "https://chargedcycleworks.com/products/surron-ultra-bee-85v-15a-fast-charger-oem"
       ],
       "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "talaria-mx4-oem-charger",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
     }
   ]
 }

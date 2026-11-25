@@ -320,7 +320,7 @@ function renderResults(q){
   sCur.forEach(function(it, i){
     var o = el('a','ux-sopt'); o.href = urlFor(it); o.setAttribute('role','option'); o.id = 'uxso'+i;
     var th = el('span','ux-sth');
-    if(it.img){ var im = el('img'); im.src = it.img; im.alt=''; im.loading='lazy'; im.width=48; im.height=48; th.appendChild(im); }
+    if(it.img){ var im = el('img'); if(it.k==='bike') im.onerror=function(){ this.onerror=null; this.src='/img/bikes/no-photo-800.webp'; }; im.src = it.img; im.alt=''; im.loading='lazy'; im.width=48; im.height=48; th.appendChild(im); }
     else th.textContent = it.k==='cat' ? '#' : '';
     o.appendChild(th);
     var tx = el('span','ux-stx');
@@ -436,7 +436,7 @@ function renderShelf(){
   sec('My builds', B, function(x){
     var b = A.bikeById(x.b), a = el('a','ux-card');
     a.href = '/#'+encodeURIComponent(JSON.stringify({b:x.b, s:x.s}));
-    var im = el('img'); im.src = '/img/bikes/'+x.b+'-800.webp'; im.alt = ''; im.width = 160; im.height = 100; im.loading = 'lazy'; im.decoding = 'async';
+    var im = el('img'); im.onerror=function(){ this.onerror=null; this.src='/img/bikes/no-photo-800.webp'; }; im.src = '/img/bikes/'+x.b+'-800.webp'; im.alt = ''; im.width = 160; im.height = 100; im.loading = 'lazy'; im.decoding = 'async';
     a.appendChild(im); a.appendChild(el('strong',null,b.name));
     a.appendChild(el('small',null, x.n+' upgrade'+(x.n>1?'s':'')+' \u00b7 '+(x.p!=null?A.money(x.p):'Total not verified')));
     a.addEventListener('click', function(e){ e.preventDefault(); location.hash = a.getAttribute('href').slice(1); location.reload(); });
@@ -444,7 +444,7 @@ function renderShelf(){
   });
   sec('Recently viewed', R, function(x){
     var a = el('a','ux-card ux-card-s'); a.href = x.u;
-    if(x.i){ var im = el('img'); im.src = '/'+x.i.replace(/^\//,''); im.alt = ''; im.width = 160; im.height = 100; im.decoding = 'async'; a.appendChild(im); }
+    if(x.i){ var im = el('img'); if(x.k==='b') im.onerror=function(){ this.onerror=null; this.src='/img/bikes/no-photo-800.webp'; }; im.src = '/'+x.i.replace(/^\//,''); im.alt = ''; im.width = 160; im.height = 100; im.decoding = 'async'; a.appendChild(im); }
     a.appendChild(el('strong',null,x.n)); a.appendChild(el('small',null, x.k==='b'?'Bike':'Part'));
     return a;
   });
