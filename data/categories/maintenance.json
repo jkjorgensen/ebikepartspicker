@@ -3228,6 +3228,379 @@
           "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_steering-washer"
         }
       ]
+    },
+    {
+      "id": "chargedcycleworks-gritshift-belt-change-multi-tool",
+      "name": "GritShift Belt Change Multi Tool",
+      "brand": "GritShift",
+      "category": "maintenance",
+      "price_usd": 28.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-belt-change-multi-tool",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-belt-change-multi-tool"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 28.89,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-belt-change-multi-tool"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-gritshift-belt-change-multi-tool.webp"
+    },
+    {
+      "id": "chargedcycleworks-prickly-4340-steel-jackshaft-bolt-surron",
+      "name": "Jackshaft Bolt Surron",
+      "brand": "Prickly Motorsports",
+      "category": "maintenance",
+      "price_usd": 80.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/prickly-4340-steel-jackshaft-bolt-surron",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Stainless Steel Flange Nut' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/prickly-4340-steel-jackshaft-bolt-surron"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 80.0,
+          "buy_url": "https://chargedcycleworks.com/products/prickly-4340-steel-jackshaft-bolt-surron"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-prickly-4340-steel-jackshaft-bolt-surron.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-light-bee-oem-rear-shock-triangle-need-bearing",
+      "name": "Rear Shock Triangle Needle Bearings",
+      "brand": "Surron",
+      "category": "maintenance",
+      "price_usd": 13.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-oem-rear-shock-triangle-need-bearing",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-rear-shock-triangle-need-bearing"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 13.99,
+          "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-oem-rear-shock-triangle-need-bearing"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-light-bee-oem-rear-shock-triangle-need-bearing.webp"
+    },
+    {
+      "id": "chargedcycleworks-lockdown-axle-block-cnc-black-talaria-surron-segway",
+      "name": "eBikeZilla Lockdown Axle Block CNC Black for Surron Light Bee",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 34.24,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/lockdown-axle-block-cnc-black-talaria-surron-segway",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/lockdown-axle-block-cnc-black-talaria-surron-segway"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 34.24,
+          "buy_url": "https://chargedcycleworks.com/products/lockdown-axle-block-cnc-black-talaria-surron-segway"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-lockdown-axle-block-cnc-black-talaria-surron-segway.webp"
+    },
+    {
+      "id": "chargedcycleworks-titanium-rear-axle-for-surron-light-bee",
+      "name": "eBikeZilla Titanium Rear Axle for Surron Light Bee",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 82.18,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/titanium-rear-axle-for-surron-light-bee",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/titanium-rear-axle-for-surron-light-bee"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 82.18,
+          "buy_url": "https://chargedcycleworks.com/products/titanium-rear-axle-for-surron-light-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-titanium-rear-axle-for-surron-light-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-bearing-kit-rear-wheel",
+      "name": "Bearing Kit | Rear Wheel | Surron LBX | Talaria Sting MX3 / MX4",
+      "brand": "DirtyBike",
+      "category": "maintenance",
+      "price_usd": 21.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/bearing-kit-rear-wheel",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/bearing-kit-rear-wheel"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 21.0,
+          "buy_url": "https://chargedcycleworks.com/products/bearing-kit-rear-wheel"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-bearing-kit-rear-wheel.webp"
+    },
+    {
+      "id": "chargedcycleworks-titanium-nut-rear-axle",
+      "name": "Prickly Titanium Nut - Rear Axle",
+      "brand": "Prickly Motorsports",
+      "category": "maintenance",
+      "price_usd": 25.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/titanium-nut-rear-axle",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/titanium-nut-rear-axle"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 25.0,
+          "buy_url": "https://chargedcycleworks.com/products/titanium-nut-rear-axle"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-titanium-nut-rear-axle.webp"
+    },
+    {
+      "id": "chargedcycleworks-quick-release-pin-assembly-m6x40mm-talaria-xxx-x3",
+      "name": "Quick Release Pin Assembly M6x40mm Talaria xXx / X3",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 12.31,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/quick-release-pin-assembly-m6x40mm-talaria-xxx-x3",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/quick-release-pin-assembly-m6x40mm-talaria-xxx-x3"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 12.31,
+          "buy_url": "https://chargedcycleworks.com/products/quick-release-pin-assembly-m6x40mm-talaria-xxx-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-quick-release-pin-assembly-m6x40mm-talaria-xxx-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-retainer-clip-e-clip-internal-diameter-6-1",
+      "name": "Retainer Clip (E-Clip) (Internal Diameter 6) (1)",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 0.84,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/retainer-clip-e-clip-internal-diameter-6-1",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/retainer-clip-e-clip-internal-diameter-6-1"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 0.84,
+          "buy_url": "https://chargedcycleworks.com/products/retainer-clip-e-clip-internal-diameter-6-1"
+        }
+      ]
+    },
+    {
+      "id": "chargedcycleworks-swing-arm-axle-tool-for-talaria-x3-xxx",
+      "name": "Swing Arm Axle Tool for Talaria X3 (xXx)",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 20.54,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/swing-arm-axle-tool-for-talaria-x3-xxx",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/swing-arm-axle-tool-for-talaria-x3-xxx"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 20.54,
+          "buy_url": "https://chargedcycleworks.com/products/swing-arm-axle-tool-for-talaria-x3-xxx"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-swing-arm-axle-tool-for-talaria-x3-xxx.webp"
+    },
+    {
+      "id": "chargedcycleworks-left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3",
+      "name": "Talaria - OEM Left Rear Wheel Bushing (Caliper side)",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 9.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.99,
+          "buy_url": "https://chargedcycleworks.com/products/left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3",
+      "name": "Talaria - OEM Right Rear Wheel Bushing (Sprocket Side)",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 9.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 9.99,
+          "buy_url": "https://chargedcycleworks.com/products/right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3-1",
+      "name": "Talaria - OEM Split Snap Ring (To Center Steering Bearing)",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 12.31,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3-1",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3-1"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 12.31,
+          "buy_url": "https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3-1"
+        }
+      ]
+    },
+    {
+      "id": "chargedcycleworks-upper-headset-cap-talaria-sting-mx3-mx4-x3",
+      "name": "Talaria - OEM Upper Headset Cap V1",
+      "brand": "eBikeZilla",
+      "category": "maintenance",
+      "price_usd": 8.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/upper-headset-cap-talaria-sting-mx3-mx4-x3",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/upper-headset-cap-talaria-sting-mx3-mx4-x3"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.99,
+          "buy_url": "https://chargedcycleworks.com/products/upper-headset-cap-talaria-sting-mx3-mx4-x3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-upper-headset-cap-talaria-sting-mx3-mx4-x3.webp"
+    },
+    {
+      "id": "chargedcycleworks-wheel-bearings",
+      "name": "Wheel Hub Bearings (EACH)",
+      "brand": "Charged Powersports",
+      "category": "maintenance",
+      "price_usd": 4.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/wheel-bearings",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the '6202-2RS' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/wheel-bearings"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 4.99,
+          "buy_url": "https://chargedcycleworks.com/products/wheel-bearings"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-wheel-bearings.webp"
     }
   ],
   "compatibility": [
@@ -5090,6 +5463,276 @@
         "https://chargedcycleworks.com/products/odi-grip-glue"
       ],
       "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026)."
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-tool-kit-torque-wrench",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench"
+    },
+    {
+      "product_id": "revrides-titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x2",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260"
+      ],
+      "notes": "Non-CCW: REV Rides title names X160 X260 (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260"
+    },
+    {
+      "product_id": "tbelectricmoto-bearing-kit-suspension-triangle-surron-lbx",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/bearing-kit-suspension-triangle-surron-lbx"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-ultra-bee-oem-tool-kit-torque-wrench",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-ultra-bee-oem-tool-kit-torque-wrench"
+    },
+    {
+      "product_id": "revrides-titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x2",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260"
+      ],
+      "notes": "Non-CCW: REV Rides title names X160 X260 (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://revrides.com/products/titanium-kickstand-bolt-nut-set-surron-lbs-lbx-segway-x160-x260"
+    },
+    {
+      "product_id": "chargedcycleworks-button-head-screw-gb-t70-2-m6x14-1",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/button-head-screw-gb-t70-2-m6x14-1"
+    },
+    {
+      "product_id": "chargedcycleworks-stem-lock",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/stem-lock"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/stem-lock"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-belt-change-multi-tool",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-belt-change-multi-tool"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-belt-change-multi-tool"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-belt-change-multi-tool",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-belt-change-multi-tool"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-belt-change-multi-tool"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-4340-steel-jackshaft-bolt-surron",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-4340-steel-jackshaft-bolt-surron"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/prickly-4340-steel-jackshaft-bolt-surron"
+    },
+    {
+      "product_id": "chargedcycleworks-prickly-4340-steel-jackshaft-bolt-surron",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/prickly-4340-steel-jackshaft-bolt-surron"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/prickly-4340-steel-jackshaft-bolt-surron"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-light-bee-oem-rear-shock-triangle-need-bearing",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-rear-shock-triangle-need-bearing"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-light-bee-oem-rear-shock-triangle-need-bearing"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-light-bee-oem-rear-shock-triangle-need-bearing",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-rear-shock-triangle-need-bearing"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-light-bee-oem-rear-shock-triangle-need-bearing"
+    },
+    {
+      "product_id": "chargedcycleworks-lockdown-axle-block-cnc-black-talaria-surron-segway",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/lockdown-axle-block-cnc-black-talaria-surron-segway"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/lockdown-axle-block-cnc-black-talaria-surron-segway"
+    },
+    {
+      "product_id": "chargedcycleworks-lockdown-axle-block-cnc-black-talaria-surron-segway",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/lockdown-axle-block-cnc-black-talaria-surron-segway"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/lockdown-axle-block-cnc-black-talaria-surron-segway"
+    },
+    {
+      "product_id": "chargedcycleworks-titanium-rear-axle-for-surron-light-bee",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/titanium-rear-axle-for-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/titanium-rear-axle-for-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-titanium-rear-axle-for-surron-light-bee",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/titanium-rear-axle-for-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/titanium-rear-axle-for-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-bearing-kit-rear-wheel",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/bearing-kit-rear-wheel"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/bearing-kit-rear-wheel"
+    },
+    {
+      "product_id": "chargedcycleworks-titanium-nut-rear-axle",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/titanium-nut-rear-axle"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/titanium-nut-rear-axle"
+    },
+    {
+      "product_id": "chargedcycleworks-quick-release-pin-assembly-m6x40mm-talaria-xxx-x3",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/quick-release-pin-assembly-m6x40mm-talaria-xxx-x3"
+      ],
+      "notes": "CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/quick-release-pin-assembly-m6x40mm-talaria-xxx-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-retainer-clip-e-clip-internal-diameter-6-1",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/retainer-clip-e-clip-internal-diameter-6-1"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/retainer-clip-e-clip-internal-diameter-6-1"
+    },
+    {
+      "product_id": "chargedcycleworks-swing-arm-axle-tool-for-talaria-x3-xxx",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/swing-arm-axle-tool-for-talaria-x3-xxx"
+      ],
+      "notes": "Tool; title names X3 (xXx) (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/swing-arm-axle-tool-for-talaria-x3-xxx"
+    },
+    {
+      "product_id": "chargedcycleworks-left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/left-rear-wheel-bushing-caliper-side-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/right-rear-wheel-bushing-sprocket-side-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3-1",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3-1"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/head-tube-spacer-42-30-0-5-talaria-sting-mx3-mx4-x3-1"
+    },
+    {
+      "product_id": "chargedcycleworks-upper-headset-cap-talaria-sting-mx3-mx4-x3",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/upper-headset-cap-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/upper-headset-cap-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-wheel-bearings",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/wheel-bearings"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/wheel-bearings"
     }
   ]
 }

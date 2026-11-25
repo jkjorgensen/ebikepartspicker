@@ -829,6 +829,56 @@
       "weight_delta_kg": null,
       "image": null,
       "variant": null
+    },
+    {
+      "id": "chargedcycleworks-heavy-hitter-lightweight-ti-surron-lbx-triangle",
+      "name": "Heavy Hitter Lightweight TI Surron LBX Triangle",
+      "brand": "GritShift",
+      "category": "linkage",
+      "price_usd": 229.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-lightweight-ti-surron-lbx-triangle",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-lightweight-ti-surron-lbx-triangle"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 229.89,
+          "buy_url": "https://chargedcycleworks.com/products/heavy-hitter-lightweight-ti-surron-lbx-triangle"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-heavy-hitter-lightweight-ti-surron-lbx-triangle.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp-9-cryo-hardened-linkage-bolts",
+      "name": "Warp9 12.9 Cryo Hardened Linkage Bolt Kit",
+      "brand": "Warp9",
+      "category": "linkage",
+      "price_usd": 95.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Surron Light Bee' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 95.0,
+          "buy_url": "https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp-9-cryo-hardened-linkage-bolts.webp"
     }
   ],
   "compatibility": [
@@ -1512,6 +1562,66 @@
         "https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
       ],
       "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/prickly-performance-linkage-e-ride-pro"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-lightweight-ti-surron-lbx-triangle",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-lightweight-ti-surron-lbx-triangle"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-lightweight-ti-surron-lbx-triangle"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-lightweight-ti-surron-lbx-triangle",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-lightweight-ti-surron-lbx-triangle"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-lightweight-ti-surron-lbx-triangle"
+    },
+    {
+      "product_id": "chargedcycleworks-warp-9-cryo-hardened-linkage-bolts",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts"
+    },
+    {
+      "product_id": "chargedcycleworks-warp-9-cryo-hardened-linkage-bolts",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts"
     }
   ]
 }

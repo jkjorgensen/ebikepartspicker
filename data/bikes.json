@@ -739,6 +739,75 @@
       "fitment_sparse": true,
       "size": "light",
       "notes": "2000 W rated / ~4500 W peak, 72V 1440 Wh, ~111 lb, 14\"/12\" wheels. $2,899 on voromotors.com (Mini R17 $2,999). Mini size."
+    },
+    {
+      "id": "segway-x160",
+      "image": "img/bikes/segway-x160.webp",
+      "name": "Segway X160",
+      "price_source": "msrp",
+      "price_usd": null,
+      "stock_specs": {
+        "peak_kw": 3,
+        "weight_lb": 105.8,
+        "front_wheel_in": 17,
+        "rear_wheel_in": 17,
+        "wheel_source_url": "https://support.segway.com/support_product.php?segcatid=45",
+        "battery": "48 V 20 Ah",
+        "stock_tires": "70/100-17 front and rear",
+        "rear_travel_mm": 75,
+        "seat_height_in": 29.9,
+        "chain": "420, 112 links",
+        "top_speed_mph": 31.1,
+        "spec_source_url": "https://support.segway.com/support_product.php?segcatid=45"
+      },
+      "notes": "Specs from Segway's support spec table (weight with battery; 88.2 lb without). US price not verified (store page price is script-rendered). Fitment: confirmed rows only from data/fitment-research-2026-11-22-segway-talaria-xxx.csv; forks/shocks held out.",
+      "fitment_sparse": true,
+      "size": "light"
+    },
+    {
+      "id": "segway-x260",
+      "image": "img/bikes/segway-x260.webp",
+      "name": "Segway X260",
+      "price_source": "msrp",
+      "price_usd": null,
+      "stock_specs": {
+        "peak_kw": 5,
+        "weight_lb": 121.3,
+        "front_wheel_in": 19,
+        "rear_wheel_in": 19,
+        "wheel_source_url": "https://support.segway.com/support_product.php?segcatid=50",
+        "battery": "60 V 32 Ah",
+        "stock_tires": "70/100-19 front and rear",
+        "rear_travel_mm": 85,
+        "seat_height_in": 31.9,
+        "chain": "420, 106 links",
+        "top_speed_mph": 46.6,
+        "spec_source_url": "https://support.segway.com/support_product.php?segcatid=50"
+      },
+      "notes": "Specs from Segway's support spec table (weight with battery; 97.0 lb without). US price not verified (the store page now redirects to another model). Fitment: confirmed rows only from data/fitment-research-2026-11-22-segway-talaria-xxx.csv.",
+      "fitment_sparse": true,
+      "size": "light"
+    },
+    {
+      "id": "talaria-xxx",
+      "image": "img/bikes/no-photo.webp",
+      "name": "Talaria XXX (X3)",
+      "price_source": "msrp",
+      "price_usd": null,
+      "stock_specs": {
+        "peak_kw": null,
+        "weight_lb": 125,
+        "front_wheel_in": null,
+        "rear_wheel_in": null,
+        "wheel_source_url": null,
+        "battery": "60 V 40 Ah",
+        "brake_rotors_mm": "220 front / 220 rear",
+        "rear_suspension": "single pivot (base model; the XXX Pro uses a linkage)",
+        "spec_source_url": "https://lunacycle.com/XXX/"
+      },
+      "notes": "Base XXX / X3 only (not the XXX Pro). Peak kW left blank: sources conflict (4.2 / 5.5 / 6.5 kW). Wheel sizes left blank: Luna lists 17/17, Talaria lists 19/17. No real unwatermarked photo yet (placeholder shown). Fitment: confirmed rows only from data/fitment-research-2026-11-22-segway-talaria-xxx.csv.",
+      "fitment_sparse": true,
+      "size": "light"
     }
   ]
 }

@@ -1120,7 +1120,8 @@ function renderUpcoming(){
 var SUBMIT_EMAIL = 'ebikepartspicker@gmail.com'; /* inbox for vendor part submissions */
 var IMGV = '4.5.0'; /* bump when bike images change so browsers refetch */
 /* real manufacturer/dealer photos, background removed, standardized 1600x1000 (16:10); small=800x500 */
-function bikeImgSrc(id, small){ return 'img/bikes/'+id+(small?'-800':'')+'.webp?v='+IMGV; }
+/* noPhoto bikes (no real photo on file yet) get the neutral "Photo coming soon" placeholder, never a lookalike. */
+function bikeImgSrc(id, small){ var b = bikeById(id); return 'img/bikes/'+((b && b.noPhoto) ? 'no-photo' : id)+(small?'-800':'')+'.webp?v='+IMGV; }
 window.bikeImgSrc = bikeImgSrc; /* used by quiz.js / compare.js */
 /* Responsive bike photo: keep 800w in srcset so the builder LCP is not the 1600px file. */
 function setResponsiveBikePhoto(el, fullSrc, opts){
@@ -1357,11 +1358,17 @@ initSizeChips('startSizeChips');
     host.appendChild(btn);
   });
 })();
-/* homepage: featured owner build. Shows CURRENT fit / price / stock for every
-   part and labels anything unconfirmed honestly (no publishing gate: it's a real bike). */
+/* homepage: featured owner builds. Shows CURRENT fit / price / stock for every
+   part and labels anything unconfirmed honestly (no publishing gate: it's a real bike).
+   A build shows only with a real owner photo (fb.photo), or stockPhotoOk for the
+   original card that uses the stock bike image. Never stock/AI photos as owner photos. */
 (function(){
   var host = $('featBuild'); if(!host || typeof BUILDS==='undefined' || !BUILDS.length) return;
-  var fb = BUILDS[0], b = bikeById(fb.bike); if(!b || !fb.pids) return;
+  BUILDS.forEach(function(fb){ if(fb && (fb.photo || fb.stockPhotoOk)) renderFeatBuild(host, fb); });
+  if(host.children.length){ var sb=document.createElement('p'); sb.className='feat-submit'; sb.innerHTML='Built something? <a href="/submit-build">Submit your build</a> with real photos of your bike.'; host.appendChild(sb); }
+})();
+function renderFeatBuild(host, fb){
+  var b = bikeById(fb.bike); if(!b || !fb.pids) return;
   var rows = [];
   fb.pids.forEach(function(pid){
     CATEGORIES.forEach(function(c){ c.options.forEach(function(o,i){ if(o.pid===pid && !rows.some(function(r){return r.o.pid===pid;})) rows.push({c:c,o:o,i:i}); }); });
@@ -1369,9 +1376,14 @@ initSizeChips('startSizeChips');
   if(!rows.length) return;
   var card = document.createElement('div'); card.className='feat-card';
   var fig = document.createElement('figure'); fig.className='feat-fig';
-  var im = document.createElement('img'); im.src=bikeImgSrc(b.id,1); im.alt=b.name+' electric dirt bike';
-  im.loading=(host.children.length<4?'eager':'lazy'); im.decoding='async'; im.width=800; im.height=500; fig.appendChild(im);
-  var cap = document.createElement('figcaption'); cap.textContent=(b.id==='ventus-plus'?'Studio render of the '+b.name:'Stock '+b.name+' photo'); fig.appendChild(cap);
+  var im = document.createElement('img');
+  if(fb.photo){ im.src=fb.photo; im.alt=fb.photoAlt || (fb.owner+'\u2019s '+b.name); fig.className+=' feat-fig-owner'; }
+  else { im.src=bikeImgSrc(b.id,1); im.alt=b.name+' electric dirt bike'; }
+  im.loading=(host.children.length<1?'eager':'lazy'); im.decoding='async'; im.width=800; im.height=500; fig.appendChild(im);
+  var cap = document.createElement('figcaption');
+  cap.textContent = fb.photo ? (fb.photoCaption || (fb.owner+'\u2019s '+b.name+' (owner photo)'))
+    : (b.id==='ventus-plus'?'Studio render of the '+b.name:'Stock '+b.name+' photo');
+  fig.appendChild(cap);
   card.appendChild(fig);
   var body = document.createElement('div'); body.className='feat-body';
   var k = document.createElement('div'); k.className='owner'; k.textContent='Featured build \u00b7 '+fb.owner; body.appendChild(k);
@@ -1424,7 +1436,7 @@ initSizeChips('startSizeChips');
   });
   body.appendChild(btn);
   card.appendChild(body); host.appendChild(card); host.hidden = false;
-})();
+}
 initSizeChips('builderSizeChips');
 syncBikeInputs();
 /* start-page live stats: real catalog counts, or hide the row — never dashes */

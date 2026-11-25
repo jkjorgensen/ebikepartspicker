@@ -15,6 +15,9 @@ e=lambda s: html.escape(str(s),quote=True)
 for b in S['bikes']:
   src=os.path.join(R,'img','bikes',b['id']+'-800.webp')
   if not os.path.exists(src): src=os.path.join(R,'img','bikes',b['id']+'.webp')
+  # No real bike photo on file: no per-bike OG image; the share stub uses the site default image.
+  has_photo=os.path.exists(os.path.join(R,'img','bikes',b['id']+'.webp'))
+  ogimg=f"{BASE}/img/og/{b['id']}.jpg" if has_photo else f"{BASE}/img/bikes/og-ventus-plus.jpg"
   W,H=1200,630; im=Image.new('RGB',(W,H),(8,9,10)); d=ImageDraw.Draw(im)
   g=Image.new('L',(W,H),0); ImageDraw.Draw(g).ellipse((560,120,1180,600),fill=70); g=g.filter(ImageFilter.GaussianBlur(90))
   im.paste(Image.new('RGB',(W,H),(40,48,20)),(0,0),g)
@@ -31,13 +34,13 @@ for b in S['bikes']:
   lines.append(cur); y=230
   for l in lines[:3]: d.text((60,y),l,font=f,fill=(255,255,255)); y+=74
   d.text((60,H-100),'Real parts. Real prices. Real fitment.',font=font(26,500),fill=(170,170,170))
-  im.save(os.path.join(R,'img','og',b['id']+'.jpg'),quality=84,optimize=True,progressive=True)
+  if has_photo: im.save(os.path.join(R,'img','og',b['id']+'.jpg'),quality=84,optimize=True,progressive=True)
   t=f"My {b['name']} build | eBikePartsPicker"; ds=f"See the parts, prices and fitment for this {b['name']} build. Real parts, real prices, real fitment. No sign-up."
   dd=os.path.join(R,'b',b['id']); os.makedirs(dd,exist_ok=True)
   open(os.path.join(dd,'index.html'),'w').write(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(t)}</title><meta name="robots" content="noindex,follow"><meta name="description" content="{e(ds)}">
-<meta property="og:type" content="website"><meta property="og:site_name" content="eBikePartsPicker"><meta property="og:title" content="{e(t)}"><meta property="og:description" content="{e(ds)}"><meta property="og:url" content="{BASE}/b/{b['id']}/"><meta property="og:image" content="{BASE}/img/og/{b['id']}.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(t)}"><meta name="twitter:description" content="{e(ds)}"><meta name="twitter:image" content="{BASE}/img/og/{b['id']}.jpg">
+<meta property="og:type" content="website"><meta property="og:site_name" content="eBikePartsPicker"><meta property="og:title" content="{e(t)}"><meta property="og:description" content="{e(ds)}"><meta property="og:url" content="{BASE}/b/{b['id']}/"><meta property="og:image" content="{ogimg}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(t)}"><meta name="twitter:description" content="{e(ds)}"><meta name="twitter:image" content="{ogimg}">
 <link rel="canonical" href="{BASE}/"><style>html,body{{background:#08090a;color:#ddd;font:16px system-ui;margin:0}}p{{padding:24px}}a{{color:#c8f04a}}</style>
 <script>(function(){{var h=location.hash||('#'+encodeURIComponent(JSON.stringify({{b:{json.dumps(b['id'])}}})));location.replace('/'+h);}})();</script>
 </head><body><p>Opening the build&hellip; <a href="/">Open eBikePartsPicker</a></p></body></html>

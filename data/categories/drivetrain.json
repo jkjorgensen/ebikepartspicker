@@ -4597,6 +4597,206 @@
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_sprocket"
         }
       ]
+    },
+    {
+      "id": "chargedcycleworks-kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective",
+      "name": "KKE 58T Aluminum Sprocket For SurRon Light Bee-X, For Segway, For Rawrr Mantis X (Collective)",
+      "brand": "KKE Racing",
+      "category": "drivetrain",
+      "price_usd": 59.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Black' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective",
+      "name": "KKE 60T Aluminum Sprocket For SurRon Light Bee-X, Rawrr Mantis X, E-Ride Pro SS (Collective)",
+      "brand": "KKE Racing",
+      "category": "drivetrain",
+      "price_usd": 59.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Black' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective",
+      "name": "KKE Rear 54T Aluminum Sprocket For SurRon Light Bee-X, Rawrr Mantis, Mantis X, E-Ride Pro SS (Collective)",
+      "brand": "KKE Racing",
+      "category": "drivetrain",
+      "price_usd": 59.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Black' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 59.99,
+          "buy_url": "https://chargedcycleworks.com/products/kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective.webp"
+    },
+    {
+      "id": "chargedcycleworks-dayco-primary-drive-belt",
+      "name": "DAYCO Primary Drive Belt",
+      "brand": "WPS",
+      "category": "drivetrain",
+      "price_usd": 39.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/dayco-primary-drive-belt",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/dayco-primary-drive-belt"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.99,
+          "buy_url": "https://chargedcycleworks.com/products/dayco-primary-drive-belt"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-dayco-primary-drive-belt.webp"
+    },
+    {
+      "id": "chargedcycleworks-kyvex-billet-jackshaft-for-talaria-xxx",
+      "name": "KyVex Billet Jackshaft for Talaria XXX",
+      "brand": "KyVex Moto",
+      "category": "drivetrain",
+      "price_usd": 175.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-jackshaft-for-talaria-xxx",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'Black' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-jackshaft-for-talaria-xxx"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 175.0,
+          "buy_url": "https://chargedcycleworks.com/products/kyvex-billet-jackshaft-for-talaria-xxx"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-kyvex-billet-jackshaft-for-talaria-xxx.webp"
+    },
+    {
+      "id": "chargedcycleworks-420x110-gold-plated-chain-110-by-primary-drive",
+      "name": "Primary Drive 420 Gold Plated Chain",
+      "brand": "RMATV",
+      "category": "drivetrain",
+      "price_usd": 39.95,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/420x110-gold-plated-chain-110-by-primary-drive",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the '104L' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/420x110-gold-plated-chain-110-by-primary-drive"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 39.95,
+          "buy_url": "https://chargedcycleworks.com/products/420x110-gold-plated-chain-110-by-primary-drive"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-420x110-gold-plated-chain-110-by-primary-drive.webp"
+    },
+    {
+      "id": "chargedcycleworks-420x120-renthal-420-r-1-works-chain",
+      "name": "Renthal 420 R-1 Works Chain",
+      "brand": "RMATV",
+      "category": "drivetrain",
+      "price_usd": 68.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/420x120-renthal-420-r-1-works-chain",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the '104L' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/420x120-renthal-420-r-1-works-chain"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 68.99,
+          "buy_url": "https://chargedcycleworks.com/products/420x120-renthal-420-r-1-works-chain"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-420x120-renthal-420-r-1-works-chain.webp"
+    },
+    {
+      "id": "chargedcycleworks-warp9-aluminum-sprocket-for-surron-segway",
+      "name": "Warp9 E-Moto Sprocket",
+      "brand": "Warp9",
+      "category": "drivetrain",
+      "price_usd": 37.8,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/warp9-aluminum-sprocket-for-surron-segway",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the '40T / Black' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/warp9-aluminum-sprocket-for-surron-segway"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 37.8,
+          "buy_url": "https://chargedcycleworks.com/products/warp9-aluminum-sprocket-for-surron-segway"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-warp9-aluminum-sprocket-for-surron-segway.webp"
     }
   ],
   "compatibility": [
@@ -6905,6 +7105,156 @@
         "https://chargedcycleworks.com/products/ultra-bee-sprocket-drive-kit"
       ],
       "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit"
+      ],
+      "notes": "CCW names Segway X160/X260 (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit"
+      ],
+      "notes": "CCW names Segway X160/X260 (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-stainless-steel-e-moto-sprocket-54t",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp-9-stainless-steel-e-moto-sprocket-54t"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp-9-stainless-steel-e-moto-sprocket-54t"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-58t-aluminum-sprocket-for-surron-light-bee-x-for-segway-for-rawrr-mantis-mantis-x-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-60t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-rear-54t-aluminum-sprocket-for-surron-light-bee-x-rawrr-mantis-mantis-x-e-ride-pro-ss-collective"
+    },
+    {
+      "product_id": "chargedcycleworks-dayco-primary-drive-belt",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dayco-primary-drive-belt"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/dayco-primary-drive-belt"
+    },
+    {
+      "product_id": "chargedcycleworks-dayco-primary-drive-belt",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/dayco-primary-drive-belt"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/dayco-primary-drive-belt"
+    },
+    {
+      "product_id": "chargedcycleworks-kyvex-billet-jackshaft-for-talaria-xxx",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kyvex-billet-jackshaft-for-talaria-xxx"
+      ],
+      "notes": "CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kyvex-billet-jackshaft-for-talaria-xxx"
+    },
+    {
+      "product_id": "chargedcycleworks-420x110-gold-plated-chain-110-by-primary-drive",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/420x110-gold-plated-chain-110-by-primary-drive"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/420x110-gold-plated-chain-110-by-primary-drive"
+    },
+    {
+      "product_id": "chargedcycleworks-420x120-renthal-420-r-1-works-chain",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/420x120-renthal-420-r-1-works-chain"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/420x120-renthal-420-r-1-works-chain"
+    },
+    {
+      "product_id": "chargedcycleworks-warp9-aluminum-sprocket-for-surron-segway",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/warp9-aluminum-sprocket-for-surron-segway"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-aluminum-sprocket-for-surron-segway"
     }
   ]
 }

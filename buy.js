@@ -43,6 +43,9 @@ var BUY_URLS = {
   "altis-delta": {"url":"https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Faltis-delta","source":"VORO Motors"},
   "rawrr-mantis-mini-r": {"url":"https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Frawrr-mantis-mini-r-best-mini-electric-dirt-bike","source":"VORO Motors"},
   "arctic-leopard-xe-pro-r": {"url":"https://voromotors.sjv.io/jRgxnP?u=https%3A%2F%2Fvoromotors.com%2Fproducts%2Farctic-leopard-xe-pro-r","source":"VORO Motors"},
+  "segway-x160": null,
+  "segway-x260": null,
+  "talaria-xxx": null,
 };
 
 /* Shared "Buy this bike" button block: primary (Voro affiliate where available) + "Also at" alternate. */

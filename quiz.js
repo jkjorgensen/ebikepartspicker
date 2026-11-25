@@ -135,7 +135,8 @@ var QUIZ_RANGE = {
   'rtr-alpha':40, 'rtr-xl':35, 'rtr-xl-alpha':40,
   'yozma-in10':30, 'yozma-in10-pro':30, 'tuttio-soleil01':22,
   'yvolt-surge-v':55, 'supermach-sm01':45, 'supermach-sm62':45,
-  'altis-omega':null, 'altis-delta':null, 'rawrr-mantis-mini-r':null
+  'altis-omega':null, 'altis-delta':null, 'rawrr-mantis-mini-r':null,
+  'segway-x160':null, 'segway-x260':null, 'talaria-xxx':null
 };
 var DURATION_NEED = { short:15, medium:30, long:45 }; /* miles wanted */
 

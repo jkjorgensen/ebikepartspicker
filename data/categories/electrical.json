@@ -3118,6 +3118,304 @@
           "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_display"
         }
       ]
+    },
+    {
+      "id": "chargedcycleworks-gritshift-blinder-led-light-bar-headlight",
+      "name": "GritShift Blinder LED Light Bar Headlight",
+      "brand": "GritShift",
+      "category": "electrical",
+      "price_usd": 28.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 28.89,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-gritshift-blinder-led-light-bar-headlight.webp"
+    },
+    {
+      "id": "chargedcycleworks-gritshift-horn-cover-delete-plate-sur-ron-segway",
+      "name": "GritShift Horn Cover/Delete Plate (Sur Ron & Segway)",
+      "brand": "GritShift",
+      "category": "electrical",
+      "price_usd": 8.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-horn-cover-delete-plate-sur-ron-segway",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-horn-cover-delete-plate-sur-ron-segway"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 8.99,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-horn-cover-delete-plate-sur-ron-segway"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-gritshift-horn-cover-delete-plate-sur-ron-segway.webp"
+    },
+    {
+      "id": "chargedcycleworks-gritshift-sleeper-headlight-kill-switch",
+      "name": "GritShift Sleeper Headlight Kill Switch",
+      "brand": "GritShift",
+      "category": "electrical",
+      "price_usd": 11.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-sleeper-headlight-kill-switch",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-sleeper-headlight-kill-switch"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 11.89,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-sleeper-headlight-kill-switch"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-gritshift-sleeper-headlight-kill-switch.webp"
+    },
+    {
+      "id": "chargedcycleworks-gritshift-stealth-headlight-kill-switch",
+      "name": "GritShift Stealth Headlight Kill Switch",
+      "brand": "GritShift",
+      "category": "electrical",
+      "price_usd": 17.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-stealth-headlight-kill-switch",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-stealth-headlight-kill-switch"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 17.89,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-stealth-headlight-kill-switch"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-gritshift-stealth-headlight-kill-switch.webp"
+    },
+    {
+      "id": "chargedcycleworks-gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount",
+      "name": "GritShift Sur Ron & Segway LED Tail Light Mount (w/ Mud Guard Mount)",
+      "brand": "GritShift",
+      "category": "electrical",
+      "price_usd": 14.89,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 14.89,
+          "buy_url": "https://chargedcycleworks.com/products/gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount.webp"
+    },
+    {
+      "id": "chargedcycleworks-surron-light-bee-oem-headlight",
+      "name": "Surron Light Bee - OEM Headlight",
+      "brand": "Surron-WN",
+      "category": "electrical",
+      "price_usd": 55.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-oem-headlight",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-headlight"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 55.0,
+          "buy_url": "https://chargedcycleworks.com/products/surron-light-bee-oem-headlight"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-surron-light-bee-oem-headlight.webp"
+    },
+    {
+      "id": "chargedcycleworks-replacement-wiring-loom-for-surron-light-bee",
+      "name": "Torp SurRon Light Bee Replacement Wiring Loom",
+      "brand": "Torp",
+      "category": "electrical",
+      "price_usd": 58.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/replacement-wiring-loom-for-surron-light-bee",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/replacement-wiring-loom-for-surron-light-bee"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 58.0,
+          "buy_url": "https://chargedcycleworks.com/products/replacement-wiring-loom-for-surron-light-bee"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-replacement-wiring-loom-for-surron-light-bee.webp"
+    },
+    {
+      "id": "chargedcycleworks-x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller",
+      "name": "EBMX X-9000 Talaria XXX Installation Kit",
+      "brand": "EBMX",
+      "category": "electrical",
+      "price_usd": 100.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'EBMX X-9000 V3 Controller' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 100.0,
+          "buy_url": "https://chargedcycleworks.com/products/x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller.webp"
+    },
+    {
+      "id": "chargedcycleworks-ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3",
+      "name": "EBMX XLB-60 Talaria XXX X-9000-V3 Mount and Harness set",
+      "brand": "EBMX",
+      "category": "electrical",
+      "price_usd": 50.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "in_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 50.0,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3.webp"
+    },
+    {
+      "id": "chargedcycleworks-keyless-on-off-button-talaria-xxx-x3",
+      "name": "Keyless On/Off Button Talaria xXx / X3",
+      "brand": "eBikeZilla",
+      "category": "electrical",
+      "price_usd": 41.08,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/keyless-on-off-button-talaria-xxx-x3",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/keyless-on-off-button-talaria-xxx-x3"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 41.08,
+          "buy_url": "https://chargedcycleworks.com/products/keyless-on-off-button-talaria-xxx-x3"
+        }
+      ]
+    },
+    {
+      "id": "chargedcycleworks-battery-pack-discharge-cable-talaria-sting-mx3",
+      "name": "Talaria - OEM Battery Pack Discharge Cable",
+      "brand": "eBikeZilla",
+      "category": "electrical",
+      "price_usd": 195.91,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/battery-pack-discharge-cable-talaria-sting-mx3",
+      "tier": "midrange",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research; price shown is the 'X3 (XXX)' option",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/battery-pack-discharge-cable-talaria-sting-mx3"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 195.91,
+          "buy_url": "https://chargedcycleworks.com/products/battery-pack-discharge-cable-talaria-sting-mx3"
+        }
+      ],
+      "image": "img/parts/chargedcycleworks-battery-pack-discharge-cable-talaria-sting-mx3.webp"
+    },
+    {
+      "id": "chargedcycleworks-nfc-sensor",
+      "name": "Talaria xXx - OEM NFC Sensor",
+      "brand": "eBikeZilla",
+      "category": "electrical",
+      "price_usd": 11.99,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/nfc-sensor",
+      "tier": "budget",
+      "is_upgrade": true,
+      "stock_status": "out_of_stock",
+      "notes": "Added v4.17.16 from the Nov 22, 2026 Segway/Talaria XXX fitment research",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/nfc-sensor"
+      ],
+      "last_checked": "2026-11-22",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 11.99,
+          "buy_url": "https://chargedcycleworks.com/products/nfc-sensor"
+        }
+      ]
     }
   ],
   "compatibility": [
@@ -4990,6 +5288,326 @@
         "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
       ],
       "notes": "See data.js FITMENT (MUSE research corrections 2026-11-16)"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-halo-headlight-kill-switch",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-carbon-fiber-ignition-switch-cover-for-surron-light",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/carbon-fiber-ignition-switch-cover-for-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/carbon-fiber-ignition-switch-cover-for-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-halo-headlight-kill-switch",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-carbon-fiber-ignition-switch-cover-for-surron-light",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/carbon-fiber-ignition-switch-cover-for-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/carbon-fiber-ignition-switch-cover-for-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-baja-designs-s2-pro-headlight",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/baja-designs-s2-pro-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-baja-designs-squadron-headlight-kit-for-surron-talaria",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/baja-designs-squadron-headlight-kit-for-surron-talaria"
+    },
+    {
+      "product_id": "chargedcycleworks-gigigo-gi03-headlight",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gigigo-gi03-headlight"
+    },
+    {
+      "product_id": "revrides-psm-eride-pro-ss-billet-display-cover",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://revrides.com/products/psm-eride-pro-ss-billet-display-cover"
+      ],
+      "notes": "Non-CCW: REV Rides title names Talaria XXX (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://revrides.com/products/psm-eride-pro-ss-billet-display-cover"
+    },
+    {
+      "product_id": "chargedcycleworks-headlight-bracket-for-talaria-sting-mx3-mx4-x3",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/headlight-bracket-for-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-replacement-dc-converter-talaria-sting-mx3-mx4-x3",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/replacement-dc-converter-talaria-sting-mx3-mx4-x3"
+    },
+    {
+      "product_id": "tbelectricmoto-talaria-sting-oem-replacement-display",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/talaria-sting-oem-replacement-display"
+      ],
+      "notes": "Non-CCW: TB Electric title names XXX (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://tbelectricmoto.com/products/talaria-sting-oem-replacement-display"
+    },
+    {
+      "product_id": "chargedcycleworks-talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem"
+      ],
+      "notes": "CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-kickstand-power-off-sensor-mx3-mx4-mx5-x3-oem"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-blinder-led-light-bar-headlight",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-blinder-led-light-bar-headlight",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-horn-cover-delete-plate-sur-ron-segway",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-horn-cover-delete-plate-sur-ron-segway"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-horn-cover-delete-plate-sur-ron-segway"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-horn-cover-delete-plate-sur-ron-segway",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-horn-cover-delete-plate-sur-ron-segway"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-horn-cover-delete-plate-sur-ron-segway"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-sleeper-headlight-kill-switch",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-sleeper-headlight-kill-switch"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-sleeper-headlight-kill-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-sleeper-headlight-kill-switch",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-sleeper-headlight-kill-switch"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-sleeper-headlight-kill-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-stealth-headlight-kill-switch",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-stealth-headlight-kill-switch"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-stealth-headlight-kill-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-stealth-headlight-kill-switch",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-stealth-headlight-kill-switch"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-stealth-headlight-kill-switch"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount"
+    },
+    {
+      "product_id": "chargedcycleworks-gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/gritshift-sur-ron-segway-led-tail-light-mount-w-mud-guard-mount"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-light-bee-oem-headlight",
+      "bike_id": "segway-x160",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-headlight"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-light-bee-oem-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-surron-light-bee-oem-headlight",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/surron-light-bee-oem-headlight"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/surron-light-bee-oem-headlight"
+    },
+    {
+      "product_id": "chargedcycleworks-replacement-wiring-loom-for-surron-light-bee",
+      "bike_id": "segway-x260",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/replacement-wiring-loom-for-surron-light-bee"
+      ],
+      "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/replacement-wiring-loom-for-surron-light-bee"
+    },
+    {
+      "product_id": "chargedcycleworks-x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller"
+      ],
+      "notes": "CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/x-9000-talaria-xxx-harness-brackets-bashguard-excludes-controller"
+    },
+    {
+      "product_id": "chargedcycleworks-ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_fit_with_modifications",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3"
+      ],
+      "notes": "Only with X-9000-V3 controller + XLB-60 motor (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/ebmx-xlb-60-talaria-xxx-mount-and-harness-set-for-x-9000-v3"
+    },
+    {
+      "product_id": "chargedcycleworks-keyless-on-off-button-talaria-xxx-x3",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/keyless-on-off-button-talaria-xxx-x3"
+      ],
+      "notes": "CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/keyless-on-off-button-talaria-xxx-x3"
+    },
+    {
+      "product_id": "chargedcycleworks-battery-pack-discharge-cable-talaria-sting-mx3",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/battery-pack-discharge-cable-talaria-sting-mx3"
+      ],
+      "notes": "Pick the \"X3 (XXX)\" variant (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/battery-pack-discharge-cable-talaria-sting-mx3"
+    },
+    {
+      "product_id": "chargedcycleworks-nfc-sensor",
+      "bike_id": "talaria-xxx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/nfc-sensor"
+      ],
+      "notes": "CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/nfc-sensor"
     }
   ]
 }
