@@ -591,7 +591,7 @@ function renderPick(c, b, host){
     row.appendChild(pl);
     if(bb && bb.url){
       var a = document.createElement('a'); a.className='buy'; a.href=bb.url;
-      a.target='_blank'; a.rel='noopener'+(isAff(bb)?' sponsored':''); a.textContent='Buy this part';
+      if(co.pid) a.setAttribute('data-pid', co.pid); a.target='_blank'; a.rel='noopener'+(isAff(bb)?' sponsored':''); a.textContent='Buy this part';
       row.appendChild(a);
     }
     wrap.appendChild(row);
@@ -997,7 +997,7 @@ function guideCard(host, gd, r){
   body.appendChild(conf);
   var ul = document.createElement('ul'); ul.className='gparts';
   r.rows.forEach(function(x){
-    var li = document.createElement('li');
+    var li = document.createElement('li'); if(x.opt && x.opt.pid) li.setAttribute('data-pid', x.opt.pid);
     var n = document.createElement('span'); n.className='gp-name';
     var sm = document.createElement('small'); sm.textContent=x.cat.name; n.appendChild(sm);
     n.appendChild(document.createTextNode(x.opt.name));
@@ -1512,5 +1512,7 @@ window.__app = {
     if(!$('app').hidden){ state.step = 0; render(); saveHash(); }
   }
 };
+/* read-only accessor for view.js buy-click tracking (which bike the visitor is looking at) */
+window.ebppCurrentBike = function(){ return state.bike; };
 document.dispatchEvent(new Event('ebpp:app'));
 })();
