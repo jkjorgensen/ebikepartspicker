@@ -762,16 +762,6 @@
       "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-aetos-max-controller"
     },
     {
-      "product_id": "chargedcycleworks-ventus-aetos-pro-controller",
-      "bike_id": "ultrabee",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/ventus-aetos-pro-controller"
-      ],
-      "notes": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-aetos-pro-controller"
-    },
-    {
       "product_id": "chargedcycleworks-x-9000-controller-race-harness-for-ultra-bee",
       "bike_id": "ultrabee",
       "status": "confirmed_direct_fit",
@@ -862,17 +852,6 @@
       "required_adapters": [],
       "fitment_source_urls": [
         "https://gritshift.com/products/ventus-heatsink-vtb-aetos-gen-2-controllers",
-        "https://gritshift.com/collections/rerode-rx-parts"
-      ],
-      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-    },
-    {
-      "product_id": "gritshift-ventus-vtb-aetos-pro-controller",
-      "bike_id": "rerode-rx",
-      "status": "verify",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://gritshift.com/products/ventus-vtb-aetos-pro-controller",
         "https://gritshift.com/collections/rerode-rx-parts"
       ],
       "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
@@ -1025,16 +1004,6 @@
       "required_adapters": [],
       "fitment_source_urls": [
         "https://chargedcycleworks.com/products/ebmx-x-9000-v3-controller-race-harness-for-ultra-bee"
-      ],
-      "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-    },
-    {
-      "product_id": "chargedcycleworks-ventus-aetos-pro-controller",
-      "bike_id": "ultrabee-21kw",
-      "status": "verify",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/ventus-aetos-pro-controller"
       ],
       "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
     },
@@ -1286,6 +1255,16 @@
           "vendor": "Ventus Bikes USA",
           "price_usd": 1099.0,
           "buy_url": "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike"
+        },
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1099.0,
+          "buy_url": "https://chargedcycleworks.com/products/ventus-aetos-pro-controller"
+        },
+        {
+          "vendor": "GritShift",
+          "price_usd": 1099.99,
+          "buy_url": "https://gritshift.com/products/ventus-vtb-aetos-pro-controller"
         }
       ],
       "weight_delta_kg": null,
@@ -1781,7 +1760,9 @@
           "buy_url": "https://chargedcycleworks.com/products/ventus-aetos-pro-controller"
         }
       ],
-      "image": "img/parts/chargedcycleworks-ventus-aetos-pro-controller.webp"
+      "image": "img/parts/chargedcycleworks-ventus-aetos-pro-controller.webp",
+      "hidden": true,
+      "merged_into": "vtb-aetos-pro"
     },
     {
       "id": "altispowersports-altis-delta-controller-cover",
@@ -2043,7 +2024,9 @@
           "price_usd": 1099.99,
           "buy_url": "https://gritshift.com/products/ventus-vtb-aetos-pro-controller"
         }
-      ]
+      ],
+      "hidden": true,
+      "merged_into": "vtb-aetos-pro"
     },
     {
       "id": "revrides-altis-delta-controller-cover-oem-controller-protection-cover-by-altis-powersports",

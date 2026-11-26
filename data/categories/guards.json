@@ -701,8 +701,8 @@
       "is_upgrade": true,
       "source_urls": [
         "https://chargedcycleworks.com/products/dirtybike-shock-protector-mud-flap-bonnell-805",
-      "https://gritshift.com/products/shock-protector-mud-guard-bonnell-805"
-    ],
+        "https://gritshift.com/products/shock-protector-mud-guard-bonnell-805"
+      ],
       "last_checked": "2026-11-13",
       "notes": "Keep mud, roost, and trail debris away from the rear suspension of your Bonnell 805 with the DirtyBike Shock Protector Mud Flap .;",
       "vendors": [
@@ -736,8 +736,8 @@
       "is_upgrade": true,
       "source_urls": [
         "https://chargedcycleworks.com/products/dirtybike-hard-enduro-skid-plate-bonnell-805",
-      "https://gritshift.com/products/skid-plate-bonnell-805"
-    ],
+        "https://gritshift.com/products/skid-plate-bonnell-805"
+      ],
       "last_checked": "2026-11-13",
       "notes": "Upgrade your Bonnell 805 with the DirtyBike Hard Enduro Skid Plate , a heavy-duty bash guard designed to protect the motor, frame,",
       "vendors": [
@@ -1034,8 +1034,8 @@
       "notes": "CCW fitment: 'E Ride Pro S / SS / 2.0 / 3.0 / 4.0 / SR'. Checked 2026-11-10. https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate",
       "source_urls": [
         "https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate",
-      "https://gritshift.com/products/heavy-hitter-skid-plate-e-ride"
-    ],
+        "https://gritshift.com/products/heavy-hitter-skid-plate-e-ride"
+      ],
       "last_checked": "2026-11-13",
       "vendors": [
         {
@@ -1383,7 +1383,7 @@
       ],
       "last_checked": "2026-11-11",
       "notes": "CCW compatibility list names Arctic Leopard XE Pro S (checked 2026-11-11).",
-      "image": null
+      "image": "img/parts/chargedcycleworks-tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s.webp"
     },
     {
       "id": "chargedcycleworks-tmb-rear-rotor-guard-arctic-leopard-xe-pro-s-vetra",

@@ -1244,7 +1244,8 @@
           "price_usd": 79.99,
           "buy_url": "https://tbelectricmoto.com/products/guts-seat-cover-for-tuttio-soleil01"
         }
-      ]
+      ],
+      "image": "img/parts/tbelectricmoto-guts-seat-cover-for-tuttio-soleil01.webp"
     },
     {
       "id": "tbelectricmoto-tuttio-soleil01-replacement-seat",
@@ -1468,7 +1469,8 @@
           "price_usd": 148.99,
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_replacement-seat"
         }
-      ]
+      ],
+      "image": "img/parts/wiredwhips-oem-soleil01-replacement-seat-tuttio-soleil01-seat.webp"
     },
     {
       "id": "wiredwhips-oem-soleil01-seat-knob-screws-tuttio-soleil01-seat-srew",

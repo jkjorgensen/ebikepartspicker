@@ -13,3 +13,17 @@
 # Moved from shock to linkage in v4.17.11; leftover static page removed in v4.17.14.
 /parts/shock/chargedcycleworks-prickly-performance-linkage-e-ride-pro/ /parts/linkage/chargedcycleworks-prickly-performance-linkage-e-ride-pro/ 301
 /parts/shock/chargedcycleworks-prickly-performance-linkage-e-ride-pro /parts/linkage/chargedcycleworks-prickly-performance-linkage-e-ride-pro/ 301
+
+# Duplicate listings merged into one part page (Nov 16 open items, 2026-11-26).
+/parts/electrical/gritshift-high-voltage-fuse-kit-replacement-fuses/ /parts/electrical/chargedcycleworks-high-voltage-fuse-kit-replacement-fuses/ 301
+/parts/electrical/gritshift-high-voltage-fuse-kit-replacement-fuses /parts/electrical/chargedcycleworks-high-voltage-fuse-kit-replacement-fuses/ 301
+/parts/tires/warp9racing-dunlop-geomax-at82-tire/ /parts/tires/tire-dunlop-at82-geomax-all-terrain-terrain-tire/ 301
+/parts/tires/warp9racing-dunlop-geomax-at82-tire /parts/tires/tire-dunlop-at82-geomax-all-terrain-terrain-tire/ 301
+/parts/tires/gritshift-dunlop-geomax-at82-tire/ /parts/tires/tire-dunlop-at82-geomax-all-terrain-terrain-tire/ 301
+/parts/tires/gritshift-dunlop-geomax-at82-tire /parts/tires/tire-dunlop-at82-geomax-all-terrain-terrain-tire/ 301
+/parts/controller/chargedcycleworks-ventus-aetos-pro-controller/ /parts/controller/vtb-aetos-pro/ 301
+/parts/controller/chargedcycleworks-ventus-aetos-pro-controller /parts/controller/vtb-aetos-pro/ 301
+/parts/controller/gritshift-ventus-vtb-aetos-pro-controller/ /parts/controller/vtb-aetos-pro/ 301
+/parts/controller/gritshift-ventus-vtb-aetos-pro-controller /parts/controller/vtb-aetos-pro/ 301
+/parts/tires/chargedcycleworks-kenda-k760-trakmaster-rear-tire/ /parts/tires/tire-kenda-k760-trakmaster/ 301
+/parts/tires/chargedcycleworks-kenda-k760-trakmaster-rear-tire /parts/tires/tire-kenda-k760-trakmaster/ 301

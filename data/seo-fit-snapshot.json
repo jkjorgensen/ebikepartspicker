@@ -4566,6 +4566,18 @@
        "p": 1099,
        "url": "https://ventusbikes.us/products/vtb-v9600-aetos-gen-2-controller-for-surron-talaria-eride-pro-or-79bike",
        "chk": "2026-11-26"
+      },
+      {
+       "v": "Charged Cycle Works",
+       "p": 1099,
+       "url": "https://chargedcycleworks.com/products/ventus-aetos-pro-controller",
+       "chk": "2026-11-26"
+      },
+      {
+       "v": "GritShift",
+       "p": 1099.99,
+       "url": "https://gritshift.com/products/ventus-vtb-aetos-pro-controller",
+       "chk": "2026-11-26"
       }
      ],
      "fit": {
@@ -5948,87 +5960,6 @@
      }
     },
     {
-     "pid": "chargedcycleworks-ventus-aetos-pro-controller",
-     "name": "Ventus Aetos Pro Controller for 72v and 80v Batteries",
-     "img": "img/parts/chargedcycleworks-ventus-aetos-pro-controller.webp",
-     "prices": [
-      {
-       "v": "Charged Cycle Works",
-       "p": 1099,
-       "url": "https://chargedcycleworks.com/products/ventus-aetos-pro-controller",
-       "chk": "2026-11-26"
-      }
-     ],
-     "fit": {
-      "ventus-plus": "unknown",
-      "ventus-evo": "unknown",
-      "lightbee": "unknown",
-      "lightbee2": "unknown",
-      "ultrabee": "confirmed",
-      "ss20": "unknown",
-      "ss30": "unknown",
-      "ss40": "unknown",
-      "sr": "unknown",
-      "mx4": "unknown",
-      "mx5": "unknown",
-      "komodo": "unknown",
-      "bonnell-805rx": "unknown",
-      "storm-bee": "unknown",
-      "arctic-xd": "unknown",
-      "rerode-rx": "unknown",
-      "rawrr-mantis-72v": "unknown",
-      "rawrr-mantis-x-pro": "unknown",
-      "rawrr-mantis-x": "unknown",
-      "falcon-pro": "unknown",
-      "falcon-gt": "unknown",
-      "rtr-lite": "unknown",
-      "rtr-lite-2-0": "unknown",
-      "rtr-sport": "unknown",
-      "rtr-alpha": "unknown",
-      "rtr-xl": "unknown",
-      "rtr-xl-alpha": "unknown",
-      "yozma-in10": "unknown",
-      "yozma-in10-pro": "unknown",
-      "tuttio-soleil01": "unknown",
-      "stark-vargex": "unknown",
-      "altis-sigma": "unknown",
-      "ultrabee-21kw": "likely_verify",
-      "ultrabee-hd": "unknown",
-      "yvolt-surge-v": "unknown",
-      "supermach-sm01": "unknown",
-      "supermach-sm62": "unknown",
-      "zero-xe": "unknown",
-      "rfn-warrior-pro": "unknown",
-      "arctic-leopard-xe-pro-s": "unknown",
-      "arctic-leopard-xe-pro-s-enduro": "unknown",
-      "arctic-leopard-xe-pro-r": "unknown",
-      "arctic-leopard-xf": "unknown",
-      "altis-omega": "unknown",
-      "altis-delta": "unknown",
-      "rawrr-mantis-mini-r": "unknown",
-      "segway-x160": "unknown",
-      "segway-x260": "unknown",
-      "talaria-xxx": "unknown"
-     },
-     "stock": "out_of_stock",
-     "stockChk": "2026-11-26",
-     "tier": "midrange",
-     "badge": "",
-     "spec": {
-      "wtKg": null,
-      "motorKw": null,
-      "motorPeakKw": null,
-      "ctrlMaxKw": null,
-      "battKwh": null,
-      "battPeakKw": null,
-      "battMaxKw": null
-     },
-     "why": {
-      "ultrabee": "CCW fitment text name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-aetos-pro-controller",
-      "ultrabee-21kw": "Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
-     }
-    },
-    {
      "pid": "altispowersports-altis-delta-controller-cover",
      "name": "Altis Delta Controller Cover",
      "img": "img/parts/altispowersports-altis-delta-controller-cover.webp",
@@ -6574,86 +6505,6 @@
      "stock": "in_stock",
      "stockChk": "2026-11-26",
      "tier": "midrange",
-     "badge": "",
-     "spec": {
-      "wtKg": null,
-      "motorKw": null,
-      "motorPeakKw": null,
-      "ctrlMaxKw": null,
-      "battKwh": null,
-      "battPeakKw": null,
-      "battMaxKw": null
-     },
-     "why": {
-      "rerode-rx": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) — Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-     }
-    },
-    {
-     "pid": "gritshift-ventus-vtb-aetos-pro-controller",
-     "name": "Ventus Aetos Pro V9600 Controller",
-     "img": "img/parts/gritshift-ventus-vtb-aetos-pro-controller.webp",
-     "prices": [
-      {
-       "v": "GritShift",
-       "p": 1099.99,
-       "url": "https://gritshift.com/products/ventus-vtb-aetos-pro-controller",
-       "chk": "2026-11-26"
-      }
-     ],
-     "fit": {
-      "ventus-plus": "unknown",
-      "ventus-evo": "unknown",
-      "lightbee": "unknown",
-      "lightbee2": "unknown",
-      "ultrabee": "unknown",
-      "ss20": "unknown",
-      "ss30": "unknown",
-      "ss40": "unknown",
-      "sr": "unknown",
-      "mx4": "unknown",
-      "mx5": "unknown",
-      "komodo": "unknown",
-      "bonnell-805rx": "unknown",
-      "storm-bee": "unknown",
-      "arctic-xd": "unknown",
-      "rerode-rx": "likely_verify",
-      "rawrr-mantis-72v": "unknown",
-      "rawrr-mantis-x-pro": "unknown",
-      "rawrr-mantis-x": "unknown",
-      "falcon-pro": "unknown",
-      "falcon-gt": "unknown",
-      "rtr-lite": "unknown",
-      "rtr-lite-2-0": "unknown",
-      "rtr-sport": "unknown",
-      "rtr-alpha": "unknown",
-      "rtr-xl": "unknown",
-      "rtr-xl-alpha": "unknown",
-      "yozma-in10": "unknown",
-      "yozma-in10-pro": "unknown",
-      "tuttio-soleil01": "unknown",
-      "stark-vargex": "unknown",
-      "altis-sigma": "unknown",
-      "ultrabee-21kw": "unknown",
-      "ultrabee-hd": "unknown",
-      "yvolt-surge-v": "unknown",
-      "supermach-sm01": "unknown",
-      "supermach-sm62": "unknown",
-      "zero-xe": "unknown",
-      "rfn-warrior-pro": "unknown",
-      "arctic-leopard-xe-pro-s": "unknown",
-      "arctic-leopard-xe-pro-s-enduro": "unknown",
-      "arctic-leopard-xe-pro-r": "unknown",
-      "arctic-leopard-xf": "unknown",
-      "altis-omega": "unknown",
-      "altis-delta": "unknown",
-      "rawrr-mantis-mini-r": "unknown",
-      "segway-x160": "unknown",
-      "segway-x260": "unknown",
-      "talaria-xxx": "unknown"
-     },
-     "stock": "out_of_stock",
-     "stockChk": "2026-11-26",
-     "tier": "premium",
      "badge": "",
      "spec": {
       "wtKg": null,
@@ -15058,7 +14909,7 @@
     {
      "pid": "wiredwhips-oem-soleil01-rear-suspension-mud-dust-fender-soleil01-rear-fender-custom",
      "name": "OEM Soleil01 Rear Suspension Mud/Dust Fender (soleil01-rear-fender-custom)",
-     "img": "",
+     "img": "img/parts/wiredwhips-oem-soleil01-rear-suspension-mud-dust-fender-soleil01-rear-fender-custom.webp",
      "prices": [
       {
        "v": "Wired Whips",
@@ -15458,7 +15309,7 @@
     {
      "pid": "chargedcycleworks-fastace-ahx12rv-gravitee-front-fork",
      "name": "FastAce AHX12RV Gravitee Front Fork",
-     "img": "",
+     "img": "img/parts/chargedcycleworks-fastace-ahx12rv-gravitee-front-fork.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -30989,7 +30840,7 @@
     {
      "pid": "lithiumpowersports-mototec-72v-5000w-pro-dirt-bike-front-wheel-70-100-17",
      "name": "MotoTec 72v 5000w Pro Dirt Bike Front Wheel 70/100-17 (70/100-17 front)",
-     "img": "",
+     "img": "img/parts/lithiumpowersports-mototec-72v-5000w-pro-dirt-bike-front-wheel-70-100-17.webp",
      "prices": [
       {
        "v": "Lithium Powersports",
@@ -31069,7 +30920,7 @@
     {
      "pid": "lithiumpowersports-mototec-72v-5000w-pro-dirt-bike-rear-wheel-90-100-14",
      "name": "MotoTec 72v 5000w Pro Dirt Bike Rear Wheel 90/100-14 (90/100-14 rear)",
-     "img": "",
+     "img": "img/parts/lithiumpowersports-mototec-72v-5000w-pro-dirt-bike-rear-wheel-90-100-14.webp",
      "prices": [
       {
        "v": "Lithium Powersports",
@@ -34037,7 +33888,7 @@
     {
      "pid": "wiredwhips-oem-soleil01-12-supermoto-wheelset-kit-street-soleil01-wheelset-kit",
      "name": "OEM Soleil01 12\" Supermoto Wheelset Kit (Street) (soleil01-wheelset-kit)",
-     "img": "",
+     "img": "img/parts/wiredwhips-oem-soleil01-12-supermoto-wheelset-kit-street-soleil01-wheelset-kit.webp",
      "prices": [
       {
        "v": "Wired Whips",
@@ -34757,7 +34608,7 @@
     {
      "pid": "chargedcycleworks-heavy-hitter-4340-chromoly-upgraded-rear-axle",
      "name": "Heavy Hitter 4340 Chromoly Upgraded E Ride Rear Axle",
-     "img": "",
+     "img": "img/parts/chargedcycleworks-heavy-hitter-4340-chromoly-upgraded-rear-axle.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -34837,7 +34688,7 @@
     {
      "pid": "gritshift-warp-9-12mm-rear-axle-kit-e-ride-pro-ss-3-0-sr",
      "name": "Warp 9 12mm Rear Axle Kit - E Ride Pro 3.0 / 4.0 / SR",
-     "img": "",
+     "img": "img/parts/gritshift-warp-9-12mm-rear-axle-kit-e-ride-pro-ss-3-0-sr.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -34917,7 +34768,7 @@
     {
      "pid": "tbelectricmoto-eride-12-9-cryo-steel-rear-axel-12mm",
      "name": "Warp 9 Eride Pro 12.9 Cryo Steel Rear Axle (12mm)",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-eride-12-9-cryo-steel-rear-axel-12mm.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -34997,7 +34848,7 @@
     {
      "pid": "gritshift-warp-9-lockdown-axle-blocks-sur-ron-segway",
      "name": "Warp 9 Lockdown Axle Blocks",
-     "img": "",
+     "img": "img/parts/gritshift-warp-9-lockdown-axle-blocks-sur-ron-segway.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -35077,7 +34928,7 @@
     {
      "pid": "eridepro-she8004-she8005-gold-supermoto-wheel-assembly-setfront-and-rear-wheel-assembly-ss3-0-sr",
      "name": "SHE8004+SHE8005 Gold Supermoto Wheel Set - SS3.0/SR/4.0/SE",
-     "img": "",
+     "img": "img/parts/eridepro-she8004-she8005-gold-supermoto-wheel-assembly-setfront-and-rear-wheel-assembly-ss3-0-sr.webp",
      "prices": [
       {
        "v": "E Ride Pro",
@@ -35157,7 +35008,7 @@
     {
      "pid": "eridepro-she7988-rear-wheel-assembly-ss3-0-sr",
      "name": "SHE7988+SHE7987 Black Supermoto Wheel Set - SS3.0/SR/4.0/SE",
-     "img": "",
+     "img": "img/parts/eridepro-she7988-rear-wheel-assembly-ss3-0-sr.webp",
      "prices": [
       {
        "v": "E Ride Pro",
@@ -35237,7 +35088,7 @@
     {
      "pid": "eridepro-she8019-21-front-wheel-tire-assembly-sr",
      "name": "SHE8019 21\" Front Fatty Wheel Assembly - SR/4.0",
-     "img": "",
+     "img": "img/parts/eridepro-she8019-21-front-wheel-tire-assembly-sr.webp",
      "prices": [
       {
        "v": "E Ride Pro",
@@ -35317,7 +35168,7 @@
     {
      "pid": "tbelectricmoto-16in-wheel-for-e-ride-pro-ss-3-0-sr",
      "name": "16in Rear Wheel for E-Ride Pro SS 3.0/SR/4.0",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-16in-wheel-for-e-ride-pro-ss-3-0-sr.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -49810,7 +49661,7 @@
     {
      "pid": "wiredwhips-oem-soleil01-rear-brake-caliper-mounting-bolt-soleil01-rear-brake-caliper-mounting-bolt",
      "name": "OEM Soleil01 Rear Brake Caliper Mounting Bolt (soleil01-rear-brake-caliper-mounting-bolt)",
-     "img": "",
+     "img": "img/parts/wiredwhips-oem-soleil01-rear-brake-caliper-mounting-bolt-soleil01-rear-brake-caliper-mounting-bolt.webp",
      "prices": [
       {
        "v": "Wired Whips",
@@ -49970,7 +49821,7 @@
     {
      "pid": "gritshift-formula-eb9-eridepro-front-kit",
      "name": "Formula EB9 99.5mm Front Brake Kit (E-Ride Pro)",
-     "img": "",
+     "img": "img/parts/gritshift-formula-eb9-eridepro-front-kit.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -50050,7 +49901,7 @@
     {
      "pid": "gritshift-formula-eb9-eridepro-rear-kit",
      "name": "Formula EB9 99.5mm Rear Brake Kit (E-Ride Pro)",
-     "img": "",
+     "img": "img/parts/gritshift-formula-eb9-eridepro-rear-kit.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -50130,7 +49981,7 @@
     {
      "pid": "tbelectricmoto-ebike-garage-rear-single-caliper-moto-brake-conversion-kit-e-ride-pro-ss-3-0-sr",
      "name": "EBike Garage Moto Brake Conversion Kit (Ultra Bee brakes) - E-Ride Pro SS 3.0/SR/4.0",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-ebike-garage-rear-single-caliper-moto-brake-conversion-kit-e-ride-pro-ss-3-0-sr.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -50210,7 +50061,7 @@
     {
      "pid": "tbelectricmoto-ebike-garage-foot-brake-kit-for-e-ride-pro-ss-3-0-sr",
      "name": "EBike Garage Foot Brake Kit - E-Ride Pro SS 3.0/SR/4.0",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-ebike-garage-foot-brake-kit-for-e-ride-pro-ss-3-0-sr.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -50290,7 +50141,7 @@
     {
      "pid": "gritshift-heavy-hitter-220mm-front-brake-rotor-1",
      "name": "Heavy Hitter 220mm Front Brake Rotor 3mm SR/3.0/4.0",
-     "img": "",
+     "img": "img/parts/gritshift-heavy-hitter-220mm-front-brake-rotor-1.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -50370,7 +50221,7 @@
     {
      "pid": "gritshift-heavy-hitter-220mm-rear-brake-rotor-1",
      "name": "Heavy Hitter 220mm Rear Brake Rotor 3mm SR/3.0/4.0",
-     "img": "",
+     "img": "img/parts/gritshift-heavy-hitter-220mm-rear-brake-rotor-1.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -50450,7 +50301,7 @@
     {
      "pid": "gritshift-asv-f3-super-shorty-brake-lever-set-ultra-bee-eride",
      "name": "ASV F3-E Super Shorty F/R Brake Lever Set - Type 2",
-     "img": "",
+     "img": "img/parts/gritshift-asv-f3-super-shorty-brake-lever-set-ultra-bee-eride.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -51416,7 +51267,7 @@
     {
      "pid": "chargedcycleworks-hydraulic-brake-system-surron-light-bee",
      "name": "Surron Light Bee – Complete Hydraulic Brake System (2019-2024)",
-     "img": "",
+     "img": "img/parts/chargedcycleworks-hydraulic-brake-system-surron-light-bee.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -63970,7 +63821,7 @@
     {
      "pid": "tuttio-tuttio-soleil01-ebike-frame-front-plastic-cover",
      "name": "Tuttio Soleil01 Ebike Frame Front Plastic Cover",
-     "img": "",
+     "img": "img/parts/tuttio-tuttio-soleil01-ebike-frame-front-plastic-cover.webp",
      "prices": [
       {
        "v": "Tuttio",
@@ -65983,7 +65834,7 @@
     {
      "pid": "tbelectricmoto-e-ride-pro-front-number-plate",
      "name": "E-Ride Pro Front Number Plate",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-e-ride-pro-front-number-plate.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -66063,7 +65914,7 @@
     {
      "pid": "tbelectricmoto-e-ride-pro-real-carbon-fiber-plastics",
      "name": "E-Ride Pro Real Carbon Fiber Plastics",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-e-ride-pro-real-carbon-fiber-plastics.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -76912,7 +76763,7 @@
     {
      "pid": "warp9racing-ultra-bee-bar-pad",
      "name": "Ultra Bee Bar Pad",
-     "img": "",
+     "img": "img/parts/warp9racing-ultra-bee-bar-pad.webp",
      "prices": [
       {
        "v": "Warp 9 Racing",
@@ -77472,7 +77323,7 @@
     {
      "pid": "wiredwhips-oem-soleil01-handlebars-mount-assembly-soleil01-handlebars-mounts-screws",
      "name": "OEM Soleil01 Handlebars Mount Assembly (soleil01-handlebars-mounts-screws)",
-     "img": "",
+     "img": "img/parts/wiredwhips-oem-soleil01-handlebars-mount-assembly-soleil01-handlebars-mounts-screws.webp",
      "prices": [
       {
        "v": "Wired Whips",
@@ -81115,7 +80966,7 @@
     {
      "pid": "cockpit-bonnell-805-rx-grip-set",
      "name": "Bonnell 805 - Grip Set",
-     "img": "",
+     "img": "img/parts/cockpit-bonnell-805-rx-grip-set.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -84452,7 +84303,7 @@
     {
      "pid": "chargedcycleworks-warp9-transformer-direct-bar-mount-stem",
      "name": "Warp9 Transformer Direct Bar Mount Stem",
-     "img": "",
+     "img": "img/parts/chargedcycleworks-warp9-transformer-direct-bar-mount-stem.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -89827,7 +89678,7 @@
     {
      "pid": "wiredwhips-oem-soleil01-self-locking-silicone-throttle-grip-cover-soleil01-grip-cover",
      "name": "OEM Soleil01 Self-Locking Silicone Throttle Grip Cover (soleil01-grip-cover)",
-     "img": "",
+     "img": "img/parts/wiredwhips-oem-soleil01-self-locking-silicone-throttle-grip-cover-soleil01-grip-cover.webp",
      "prices": [
       {
        "v": "Wired Whips",
@@ -89907,7 +89758,7 @@
     {
      "pid": "wiredwhips-oem-soleil01-throttle-integrated-display-m-button-kh-tuttio-soleil01-throttle-kh",
      "name": "OEM Soleil01 Throttle-Integrated Display (M Button / KH) (Tuttio Soleil01 Throttle-KH)",
-     "img": "",
+     "img": "img/parts/wiredwhips-oem-soleil01-throttle-integrated-display-m-button-kh-tuttio-soleil01-throttle-kh.webp",
      "prices": [
       {
        "v": "Wired Whips",
@@ -90708,7 +90559,7 @@
     {
      "pid": "tbelectricmoto-tb-direct-mount-stem-2",
      "name": "TB Heavy Duty Direct Mount Stem",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-tb-direct-mount-stem-2.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -90788,7 +90639,7 @@
     {
      "pid": "gritshift-heavy-hitter-adjustable-billet-display-mount",
      "name": "Heavy Hitter Adjustable Billet Display Mount",
-     "img": "",
+     "img": "img/parts/gritshift-heavy-hitter-adjustable-billet-display-mount.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -90868,7 +90719,7 @@
     {
      "pid": "tbelectricmoto-warp-9-e-ride-pro-display",
      "name": "Warp 9 CNC E-Ride Pro Display Mount",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-warp-9-e-ride-pro-display.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -90948,7 +90799,7 @@
     {
      "pid": "eridepro-00240-e7-01-throttlewith-p-head-light-tail-light-swich",
      "name": "(00240-E7-01) OEM Throttle with P/Headlight/Taillight Switch - Pro 4.0",
-     "img": "",
+     "img": "img/parts/eridepro-00240-e7-01-throttlewith-p-head-light-tail-light-swich.webp",
      "prices": [
       {
        "v": "E Ride Pro",
@@ -102543,7 +102394,7 @@
     {
      "pid": "wiredwhips-428mx-gold-o-ring-chain-altis-sigma-omega",
      "name": "428MX Gold O-Ring Chain - Altis Sigma / Omega",
-     "img": "",
+     "img": "img/parts/wiredwhips-428mx-gold-o-ring-chain-altis-sigma-omega.webp",
      "prices": [
       {
        "v": "Wired Whips",
@@ -103583,7 +103434,7 @@
     {
      "pid": "wiredwhips-oem-soleil01-dirt-bike-chain-420-116-link-class-soleil01-chains",
      "name": "OEM Soleil01 Dirt Bike Chain (420 / 116 link class) (Soleil01-Chains)",
-     "img": "",
+     "img": "img/parts/wiredwhips-oem-soleil01-dirt-bike-chain-420-116-link-class-soleil01-chains.webp",
      "prices": [
       {
        "v": "Wired Whips",
@@ -103743,7 +103594,7 @@
     {
      "pid": "gritshift-heavy-hitter-300m-chromoly-upgraded-12mm-e-ride-jackshaft-bolt",
      "name": "Heavy Hitter 300M Chromoly Upgraded 12mm E Ride Jackshaft Bolt",
-     "img": "",
+     "img": "img/parts/gritshift-heavy-hitter-300m-chromoly-upgraded-12mm-e-ride-jackshaft-bolt.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -103823,7 +103674,7 @@
     {
      "pid": "tbelectricmoto-e-ride-oem-sprocket-for-e-ride-pro-ss-3-0-sr-44-48-50-52",
      "name": "E-Ride Pro OEM 428 Rear Sprocket (44-58T)",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-e-ride-oem-sprocket-for-e-ride-pro-ss-3-0-sr-44-48-50-52.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -103903,7 +103754,7 @@
     {
      "pid": "gritshift-e-ride-pro-oem-18mm-drive-belt",
      "name": "E Ride Pro OEM 18mm Carbon Drive Belt - SS 3.0 / 4.0",
-     "img": "",
+     "img": "img/parts/gritshift-e-ride-pro-oem-18mm-drive-belt.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -103983,7 +103834,7 @@
     {
      "pid": "gritshift-e-ride-pro-428hz-gold-chain-114-link",
      "name": "E Ride Pro OEM 428HZ Gold Chain 114 Link",
-     "img": "",
+     "img": "img/parts/gritshift-e-ride-pro-428hz-gold-chain-114-link.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -105196,7 +105047,7 @@
       "mx4": "TB Electric Moto: Talaria Sting MX3/4/5 version of the Gen.2 harness",
       "mx5": "TB Electric Moto: Talaria Sting MX3/4/5 version of the Gen.2 harness",
       "falcon-pro": "TB Electric Moto and CCW both name the 79Bike Falcon Pro (checked 2026-11-16).",
-      "falcon-gt": "Sources conflict: CCW lists \"79 Bike Falcon GT (Ventus)\" but TB Electric Moto says the 79Bike version \"does not fit Falcon GT\" - verify before buying (checked 2026-11-16)."
+      "falcon-gt": "TB Electric Moto (the store linked here) sells a 79Bike Falcon Pro variant and says it \"does not fit Falcon GT\". CCW sells a separate \"79 Bike Falcon GT\" variant - that is the \"Ventus VTB V9600 Gen.2 Wiring Harness 1.7\" listing. Do not buy the TB Electric Moto kit for a Falcon GT (checked 2026-11-26)."
      }
     },
     {
@@ -110243,15 +110094,15 @@
      "fit": {
       "ventus-plus": "unknown",
       "ventus-evo": "unknown",
-      "lightbee": "unknown",
+      "lightbee": "confirmed",
       "lightbee2": "unknown",
       "ultrabee": "confirmed",
-      "ss20": "unknown",
-      "ss30": "unknown",
+      "ss20": "confirmed",
+      "ss30": "confirmed",
       "ss40": "unknown",
       "sr": "confirmed",
-      "mx4": "unknown",
-      "mx5": "unknown",
+      "mx4": "confirmed",
+      "mx5": "confirmed",
       "komodo": "unknown",
       "bonnell-805rx": "unknown",
       "storm-bee": "unknown",
@@ -110305,10 +110156,15 @@
       "battMaxKw": null
      },
      "why": {
+      "lightbee": "CCW sells a \"Light Bee\" variant and its fitment text lists \"Light Bee\"; CCW search-by-bike tags SURLBX/SURLBS. Pick the Light Bee variant (checked 2026-11-26).",
       "ultrabee": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "ss20": "CCW variant and fitment text \"Eride Pro 2.0/3.0/SR\" name the E Ride Pro SS 2.0; CCW search-by-bike tag ERPSS2. Pick the E-Ride Pro variant (checked 2026-11-26).",
+      "ss30": "CCW variant and fitment text \"Eride Pro 2.0/3.0/SR\" name the E Ride Pro SS 3.0; CCW search-by-bike tag ERPSS3. Pick the E-Ride Pro variant (checked 2026-11-26).",
       "sr": "CCW title/variants name(s) the exact bike (checked 2026-11-10). Live URL https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7",
-      "falcon-pro": "CCW sells a 79 Bike Falcon PRO variant ($75, in stock) and its fitment list names 79 Bike Falcon PRO (Ventus) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7",
-      "falcon-gt": "CCW fitment text names the 79Bike Falcon GT (Ventus) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "mx4": "CCW sells a \"Talaria Sting\" variant and its fitment text lists \"Talaria Sting\"; CCW search-by-bike tag TALMX4. Pick the Talaria Sting variant (checked 2026-11-26).",
+      "mx5": "CCW sells a \"Talaria Sting\" variant and its fitment text lists \"Talaria Sting\"; CCW search-by-bike tag TALMX5. Pick the Talaria Sting variant (checked 2026-11-26).",
+      "falcon-pro": "CCW sells a \"79 Bike Falcon PRO\" variant and its fitment text names \"79 Bike Falcon PRO (Ventus)\". Pick the Falcon PRO variant (checked 2026-11-26).",
+      "falcon-gt": "CCW sells a dedicated \"79 Bike Falcon GT\" variant and its fitment text names \"79 Bike Falcon GT (Ventus)\". Pick the Falcon GT variant (TB Electric Moto's 79Bike kit does not fit the GT) (checked 2026-11-26).",
       "ultrabee-21kw": "Part touches a system Sur-Ron changed MY25→MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
      }
     },
@@ -112160,86 +112016,6 @@
      }
     },
     {
-     "pid": "gritshift-high-voltage-fuse-kit-replacement-fuses",
-     "name": "ION High Voltage Fuse Kit & Replacement Fuses",
-     "img": "img/parts/gritshift-high-voltage-fuse-kit-replacement-fuses.webp",
-     "prices": [
-      {
-       "v": "GritShift",
-       "p": 22.99,
-       "url": "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses",
-       "chk": "2026-11-26"
-      }
-     ],
-     "fit": {
-      "ventus-plus": "unknown",
-      "ventus-evo": "unknown",
-      "lightbee": "unknown",
-      "lightbee2": "unknown",
-      "ultrabee": "unknown",
-      "ss20": "unknown",
-      "ss30": "unknown",
-      "ss40": "unknown",
-      "sr": "unknown",
-      "mx4": "unknown",
-      "mx5": "unknown",
-      "komodo": "unknown",
-      "bonnell-805rx": "unknown",
-      "storm-bee": "unknown",
-      "arctic-xd": "unknown",
-      "rerode-rx": "likely_verify",
-      "rawrr-mantis-72v": "unknown",
-      "rawrr-mantis-x-pro": "unknown",
-      "rawrr-mantis-x": "unknown",
-      "falcon-pro": "unknown",
-      "falcon-gt": "unknown",
-      "rtr-lite": "unknown",
-      "rtr-lite-2-0": "unknown",
-      "rtr-sport": "unknown",
-      "rtr-alpha": "unknown",
-      "rtr-xl": "unknown",
-      "rtr-xl-alpha": "unknown",
-      "yozma-in10": "unknown",
-      "yozma-in10-pro": "unknown",
-      "tuttio-soleil01": "unknown",
-      "stark-vargex": "unknown",
-      "altis-sigma": "unknown",
-      "ultrabee-21kw": "unknown",
-      "ultrabee-hd": "unknown",
-      "yvolt-surge-v": "unknown",
-      "supermach-sm01": "unknown",
-      "supermach-sm62": "unknown",
-      "zero-xe": "unknown",
-      "rfn-warrior-pro": "unknown",
-      "arctic-leopard-xe-pro-s": "unknown",
-      "arctic-leopard-xe-pro-s-enduro": "unknown",
-      "arctic-leopard-xe-pro-r": "unknown",
-      "arctic-leopard-xf": "unknown",
-      "altis-omega": "unknown",
-      "altis-delta": "unknown",
-      "rawrr-mantis-mini-r": "unknown",
-      "segway-x160": "unknown",
-      "segway-x260": "unknown",
-      "talaria-xxx": "unknown"
-     },
-     "stock": "in_stock",
-     "stockChk": "2026-11-26",
-     "tier": "budget",
-     "badge": "Ion",
-     "spec": {
-      "wtKg": null,
-      "motorKw": null,
-      "motorPeakKw": null,
-      "ctrlMaxKw": null,
-      "battKwh": null,
-      "battPeakKw": null,
-      "battMaxKw": null
-     },
-     "why": {
-      "rerode-rx": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) — Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
-     }
-    },
-    {
      "pid": "revrides-altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports",
      "name": "Altis Delta Key Ignition | OEM Ignition Switch & Keys | By Altis Powersports",
      "img": "img/parts/revrides-altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports.webp",
@@ -113283,7 +113059,7 @@
     {
      "pid": "eridepro-she8059-off-road-headlight-led-light-bar-pro-4-0",
      "name": "SHE8059 Off-Road Headlight LED Light Bar - Pro 4.0",
-     "img": "",
+     "img": "img/parts/eridepro-she8059-off-road-headlight-led-light-bar-pro-4-0.webp",
      "prices": [
       {
        "v": "E Ride Pro",
@@ -113363,7 +113139,7 @@
     {
      "pid": "gritshift-heavy-hitter-e-ride-mini-mod-ignition-cover",
      "name": "Heavy Hitter E-Ride Painless Billet Ignition Cover",
-     "img": "",
+     "img": "img/parts/gritshift-heavy-hitter-e-ride-mini-mod-ignition-cover.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -113443,7 +113219,7 @@
     {
      "pid": "eridepro-00244-e7-01-displaywith-screws-pro-4-0",
      "name": "(00244-E7-01) OEM Display with Screws - Pro 4.0",
-     "img": "",
+     "img": "img/parts/eridepro-00244-e7-01-displaywith-screws-pro-4-0.webp",
      "prices": [
       {
        "v": "E Ride Pro",
@@ -113523,7 +113299,7 @@
     {
      "pid": "eridepro-00113-dj-01-control-switch-with-reverse-pro-4-0",
      "name": "(00113-DJ-01) OEM Control Switch with Reverse - Pro 4.0",
-     "img": "",
+     "img": "img/parts/eridepro-00113-dj-01-control-switch-with-reverse-pro-4-0.webp",
      "prices": [
       {
        "v": "E Ride Pro",
@@ -117584,7 +117360,7 @@
     {
      "pid": "chargedcycleworks-tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s",
      "name": "TMB Heavy Duty Bash Plate - Arctic Leopard XE Pro S / Enduro / Vetra",
-     "img": "",
+     "img": "img/parts/chargedcycleworks-tmb-heavy-duty-bash-plate-arctic-leopard-xe-pro-s.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -122052,7 +121828,7 @@
     {
      "pid": "chargedcycleworks-heavy-hitter-billet-suspension-linkage-upgrade",
      "name": "Heavy Hitter E Ride Billet Suspension Linkage Upgrade",
-     "img": "",
+     "img": "img/parts/chargedcycleworks-heavy-hitter-billet-suspension-linkage-upgrade.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -122132,7 +121908,7 @@
     {
      "pid": "chargedcycleworks-heavy-hitter-adjustable-height-suspension-triangle",
      "name": "Heavy Hitter Adjustable Height E Ride Suspension Triangle",
-     "img": "",
+     "img": "img/parts/chargedcycleworks-heavy-hitter-adjustable-height-suspension-triangle.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -122212,7 +121988,7 @@
     {
      "pid": "chargedcycleworks-heavy-hitter-4140-chromoly-e-ride-linkage-triangle-shock-bolt-upgrade-kit",
      "name": "Heavy Hitter 4140 Chromoly E Ride Linkage/Triangle/Shock Bolt Upgrade Kit",
-     "img": "",
+     "img": "img/parts/chargedcycleworks-heavy-hitter-4140-chromoly-e-ride-linkage-triangle-shock-bolt-upgrade-kit.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -124015,7 +123791,7 @@
     {
      "pid": "maintenance-bonnell-805-rx-seat-steering-lock-kit",
      "name": "Bonnell 805 - Seat/Steering Lock Kit",
-     "img": "",
+     "img": "img/parts/maintenance-bonnell-805-rx-seat-steering-lock-kit.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -130982,7 +130758,7 @@
     {
      "pid": "warp9-e-ride-pro-sr-ss-3-0-4-0-wheel-bearing-kit",
      "name": "Warp 9 E-Ride Pro SR / SS 3.0 / 4.0 Wheel Bearing Kit",
-     "img": "",
+     "img": "img/parts/warp9-e-ride-pro-sr-ss-3-0-4-0-wheel-bearing-kit.webp",
      "prices": [
       {
        "v": "Warp 9 Racing",
@@ -131062,7 +130838,7 @@
     {
      "pid": "eridepro-she7076",
      "name": "SHE7076 330mm Kickstand + Spring + Bolt Kit - SS2.0/SS3.0/SR/Pro 4.0",
-     "img": "",
+     "img": "img/parts/eridepro-she7076.webp",
      "prices": [
       {
        "v": "E Ride Pro",
@@ -133093,10 +132869,10 @@
       "lightbee": "confirmed",
       "lightbee2": "confirmed",
       "ultrabee": "unknown",
-      "ss20": "unknown",
-      "ss30": "unknown",
+      "ss20": "confirmed",
+      "ss30": "confirmed",
       "ss40": "confirmed",
-      "sr": "unknown",
+      "sr": "confirmed",
       "mx4": "unknown",
       "mx5": "unknown",
       "komodo": "unknown",
@@ -133107,8 +132883,8 @@
       "rawrr-mantis-72v": "unknown",
       "rawrr-mantis-x-pro": "unknown",
       "rawrr-mantis-x": "unknown",
-      "falcon-pro": "unknown",
-      "falcon-gt": "unknown",
+      "falcon-pro": "confirmed",
+      "falcon-gt": "confirmed",
       "rtr-lite": "unknown",
       "rtr-lite-2-0": "unknown",
       "rtr-sport": "unknown",
@@ -133122,7 +132898,7 @@
       "altis-sigma": "unknown",
       "ultrabee-21kw": "unknown",
       "ultrabee-hd": "unknown",
-      "yvolt-surge-v": "unknown",
+      "yvolt-surge-v": "confirmed",
       "supermach-sm01": "unknown",
       "supermach-sm62": "unknown",
       "zero-xe": "unknown",
@@ -133155,7 +132931,13 @@
       "ventus-plus": "CCW tags this listing V1P (Ventus One Plus) and sells one OEM peg bracket for the Ventus One and One Plus, so the mount is shared; also an owner-verified install (Oct 18, 2026) (checked 2026-11-16).",
       "lightbee": "Seller listing names the Sur-Ron Light Bee X (fitment audit Oct 18, 2026)",
       "lightbee2": "Warp 9 listing names the Light Bee 2 (checked Nov 4, 2026)",
-      "ss40": "GritShift Warp 9 Footpegs fitment: \"E Ride Pro-S / SS / 2.0 / 3.0 / 4.0 / SR\" (checked 2026-11-17)"
+      "ss20": "GritShift fitment text names \"E Ride Pro-S / SS / 2.0 / 3.0 / 4.0 / SR\"; CCW title names the E Ride Pro and lists it for the 2.0 (tag ERPSS2); Warp 9 fitment says \"E-Ride Pro models\" (checked 2026-11-26).",
+      "ss30": "GritShift fitment text names \"E Ride Pro-S / SS / 2.0 / 3.0 / 4.0 / SR\"; CCW title names the E Ride Pro and lists it for the 3.0 (tag ERPSS3); Warp 9 fitment says \"E-Ride Pro models\" (checked 2026-11-26).",
+      "ss40": "GritShift Warp 9 Footpegs fitment: \"E Ride Pro-S / SS / 2.0 / 3.0 / 4.0 / SR\" (checked 2026-11-17)",
+      "sr": "GritShift fitment text names \"E Ride Pro-S / SS / 2.0 / 3.0 / 4.0 / SR\"; CCW title names the E Ride Pro and lists it for the SR (tag ERPSR); Warp 9 fitment says \"E-Ride Pro models\" (checked 2026-11-26).",
+      "falcon-pro": "GritShift fitment text names \"79Bike Falcon Pro / GT\"; Warp 9 fitment says \"79 Bike Falcon models\" (checked 2026-11-26).",
+      "falcon-gt": "GritShift fitment text names \"79Bike Falcon Pro / GT\"; Warp 9 fitment says \"79 Bike Falcon models\" (checked 2026-11-26).",
+      "yvolt-surge-v": "Warp 9 (maker) listing names the \"Surge V\" (checked 2026-11-26)."
      }
     },
     {
@@ -136559,7 +136341,7 @@
     {
      "pid": "chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra",
      "name": "TMB Adjustable Footpeg Mounts – Arctic Leopard XE Pro S / Pro R / Enduro / Vetra",
-     "img": "",
+     "img": "img/parts/chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra.webp",
      "prices": [
       {
        "v": "Charged Cycle Works",
@@ -138651,7 +138433,7 @@
     {
      "pid": "tbelectricmoto-kyvex-billet-footpeg-bracket-compatible-w-e-ride-pro-ss-3-0-4-0-and-sr",
      "name": "KyVex Billet Footpeg Bracket - E-Ride Pro SS 3.0/4.0/SR",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-kyvex-billet-footpeg-bracket-compatible-w-e-ride-pro-ss-3-0-4-0-and-sr.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -138731,7 +138513,7 @@
     {
      "pid": "gritshift-heavy-hitter-billet-footpeg-bracket",
      "name": "Heavy Hitter Billet Aluminum Adjustable Footpeg Bracket",
-     "img": "",
+     "img": "img/parts/gritshift-heavy-hitter-billet-footpeg-bracket.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -138811,7 +138593,7 @@
     {
      "pid": "gritshift-kke-racing-billet-foot-peg-1",
      "name": "KKE Racing Type 1 Billet Aluminum Foot Pegs",
-     "img": "",
+     "img": "img/parts/gritshift-kke-racing-billet-foot-peg-1.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -138891,7 +138673,7 @@
     {
      "pid": "tbelectricmoto-emoto-x-upgraded-foot-pegs",
      "name": "EMoto-X Upgraded Foot Pegs",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-emoto-x-upgraded-foot-pegs.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -142454,7 +142236,7 @@
     {
      "pid": "tbelectricmoto-guts-seat-cover-for-tuttio-soleil01",
      "name": "Guts Seat Cover for Tuttio Soleil01",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-guts-seat-cover-for-tuttio-soleil01.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -143017,7 +142799,7 @@
     {
      "pid": "wiredwhips-oem-soleil01-replacement-seat-tuttio-soleil01-seat",
      "name": "OEM Soleil01 Replacement Seat (tuttio-soleil01-seat)",
-     "img": "",
+     "img": "img/parts/wiredwhips-oem-soleil01-replacement-seat-tuttio-soleil01-seat.webp",
      "prices": [
       {
        "v": "Wired Whips",
@@ -143177,7 +142959,7 @@
     {
      "pid": "gritshift-heavy-hitter-ribbed-gripper-seat-cover-e-ride-pro",
      "name": "Heavy Hitter Ribbed Gripper Seat Cover - E Ride Pro",
-     "img": "",
+     "img": "img/parts/gritshift-heavy-hitter-ribbed-gripper-seat-cover-e-ride-pro.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -143257,7 +143039,7 @@
     {
      "pid": "tbelectricmoto-e-ride-pro-fatty-upgraded-seat",
      "name": "E-Ride Pro Fatty Upgraded Seat",
-     "img": "",
+     "img": "img/parts/tbelectricmoto-e-ride-pro-fatty-upgraded-seat.webp",
      "prices": [
       {
        "v": "TB Electric Moto",
@@ -148388,7 +148170,7 @@
     {
      "pid": "gritshift-heavy-hitter-billet-swing-arm",
      "name": "Heavy Hitter Rogue 2.5 Inch Extended E Ride Billet Swingarm",
-     "img": "",
+     "img": "img/parts/gritshift-heavy-hitter-billet-swing-arm.webp",
      "prices": [
       {
        "v": "GritShift",
@@ -149257,11 +149039,11 @@
       "ventus-evo": "likely_verify",
       "lightbee": "likely_verify",
       "lightbee2": "unknown",
-      "ultrabee": "likely_verify",
+      "ultrabee": "confirmed",
       "ss20": "likely_verify",
-      "ss30": "confirmed",
-      "ss40": "confirmed",
-      "sr": "likely_verify",
+      "ss30": "likely_verify",
+      "ss40": "likely_verify",
+      "sr": "confirmed",
       "mx4": "likely_verify",
       "mx5": "likely_verify",
       "komodo": "likely_verify",
@@ -149285,16 +149067,16 @@
       "tuttio-soleil01": "likely_verify",
       "stark-vargex": "likely_verify",
       "altis-sigma": "likely_verify",
-      "ultrabee-21kw": "likely_verify",
+      "ultrabee-21kw": "confirmed",
       "ultrabee-hd": "unknown",
-      "yvolt-surge-v": "likely_verify",
+      "yvolt-surge-v": "confirmed",
       "supermach-sm01": "likely_verify",
       "supermach-sm62": "likely_verify",
-      "zero-xe": "confirmed",
+      "zero-xe": "likely_verify",
       "rfn-warrior-pro": "unknown",
       "arctic-leopard-xe-pro-s": "unknown",
-      "arctic-leopard-xe-pro-s-enduro": "likely_verify",
-      "arctic-leopard-xe-pro-r": "likely_verify",
+      "arctic-leopard-xe-pro-s-enduro": "confirmed",
+      "arctic-leopard-xe-pro-r": "confirmed",
       "arctic-leopard-xf": "no_fit",
       "altis-omega": "unknown",
       "altis-delta": "unknown",
@@ -149320,16 +149102,16 @@
       "ventus-plus": "Only the 19\" diameter matches; tire sizes 2.75-19 vs stock front 70/100-19 - verify before buying (checked 2026-11-12)",
       "ventus-evo": "Pinned Electric lists 80/100-19 / 90/100-16 and CCW lists 70/100-19 / 3.5x18: sources conflict - verify before buying (checked 2026-11-12)",
       "lightbee": "Only the 19\" diameter matches; tire sizes 2.75-19 vs stock front 70/100-19 - verify before buying (checked 2026-11-12)",
-      "ultrabee": "Only the 19\" diameter matches; tire sizes 2.75-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
+      "ultrabee": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26).",
       "ss20": "E Ride Pro lists 2.75-19 front with 2.75-19 or 3.0-18 rear, while dealers list 70/100-19 and 80/100-19: sources conflict - verify before buying (checked 2026-11-12)",
-      "ss30": "Full size 2.75-19 exactly matches the stock front tire on the ss30 (spec: https://chargedcycleworks.com/products/e-ride-pro-ss-3-0-16kw-72v-electric-dirt-bike) (checked 2026-11-12)",
-      "ss40": "Full size 2.75-19 exactly matches the stock front tire on the ss40 (spec: https://chargedcycleworks.com/products/e-ride-pro-4-0-18kw-72v-electric-dirt-bike) (checked 2026-11-12)",
-      "sr": "Only the 19\" diameter matches; tire sizes 2.75-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
+      "ss30": "Kenda makes a 2.75-19 FRONT K270 (the stock front size), but neither store here sells it (CCW: 2.75-21, 3.00-21, 3.50-18, 4.00-18; RevZilla 18/21/14in sizes). The 18in rear sizes (3.50-18, 4.00-18, 100/90-18) are not the stock 3.00-18 - verify. The old \"2.75-19 exact match\" confirm was wrong (checked 2026-11-26).",
+      "ss40": "Kenda makes a 2.75-19 FRONT K270 (the stock front size), but neither store here sells it (CCW: 2.75-21, 3.00-21, 3.50-18, 4.00-18; RevZilla 18/21/14in sizes). The 18in rear sizes (3.50-18, 4.00-18, 100/90-18) are not the stock 3.00-18 - verify. The old \"2.75-19 exact match\" confirm was wrong (checked 2026-11-26).",
+      "sr": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26).",
       "mx4": "Only the 19\" diameter matches; tire sizes 2.75-19 vs stock front 70/100-19 - verify before buying (checked 2026-11-12)",
       "mx5": "Only the 19\" diameter matches; tire sizes 2.75-19 vs stock front 70/100-19 - verify before buying (checked 2026-11-12)",
       "komodo": "Talaria lists two tire setups (70/100-21 / 90/100-18 and 80/100-21 / 110/90-18) - verify before buying (checked 2026-11-12)",
-      "bonnell-805rx": "CCW lists 3.00x21 front and 3.50x18 rear (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)",
-      "storm-bee": "CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; K270 comes in 3.00x21 (= 80/100-21 stock front) and 4.00x18 (= 100/90-18 stock rear) - 4.00x18 variant out of stock at CCW on 2026-11-11 (checked 2026-11-11). Live URL kenda-k270-dual-sport-40-dirt-60-road",
+      "bonnell-805rx": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26).",
+      "storm-bee": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26).",
       "arctic-xd": "Size match only; no exact-model fitment evidence",
       "rerode-rx": "Size match only; no exact-model fitment evidence",
       "rawrr-mantis-72v": "DOWNGRADED confirmed -> verify: CCW sells no 19\" K270 (variants are 3.50x18, 4.00x18, 2.75x21, 3.00x21 only), so the old diameter-match confirm for the stock 19\" wheels was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road",
@@ -149347,13 +149129,13 @@
       "tuttio-soleil01": "Only the 14\" diameter matches; tire sizes 180/80-14 vs stock front 60/100-14 - verify before buying (checked 2026-11-12)",
       "stark-vargex": "Only the 21\" diameter matches; tire sizes 2.75-21, 3.00-21, 3.25-21 vs stock front 80/100-21 - verify before buying (checked 2026-11-12)",
       "altis-sigma": "K270 has no 19-inch variant at CCW (18/21 only); cannot match stock 19/19 wheels - verify (checked 2026-11-11)",
-      "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
-      "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 2.75-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
+      "ultrabee-21kw": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26).",
+      "yvolt-surge-v": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26).",
       "supermach-sm01": "Only the 19\" diameter matches; tire sizes 2.75-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
       "supermach-sm62": "Only the 19\" diameter matches; tire sizes 2.75-19 vs stock front 70/100-19 - verify before buying (checked 2026-11-12)",
-      "zero-xe": "CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers 2.75x21 (= stock 70/100-21 front) and 3.50x18 for the stock 21/18in wheels; the 2.75x21 variant is currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road",
-      "arctic-leopard-xe-pro-s-enduro": "Sizes include 2.75x21 front and 3.50x18 rear for Enduro 21/18 wheels; no Enduro-specific fitment text - verify size (checked 2026-11-11)",
-      "arctic-leopard-xe-pro-r": "2.75x21 / 3.00x21 front and 3.50x18 / 4.00x18 rear variants fit the XE Pro R 21/18in wheels (not stock metric sizes); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11).",
+      "zero-xe": "CCW lists this tire for the Zero XE (ZXE tag), but its 2.75x21 variant is an inch size, not the 70/100-21 stock front CCW names, and no Zero XE rear size is on file - inch sizes do not count as an exact match, so verify. The old \"2.75x21 = 70/100-21\" confirm was wrong (checked 2026-11-26).",
+      "arctic-leopard-xe-pro-s-enduro": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26).",
+      "arctic-leopard-xe-pro-r": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26).",
       "arctic-leopard-xf": "CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only; no 17in or 14in size for the XF. (checked 2026-11-11)",
       "rawrr-mantis-mini-r": "CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only — no 14-inch or 12-inch size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
      }
@@ -149763,11 +149545,11 @@
       "falcon-pro": "confirmed",
       "falcon-gt": "confirmed",
       "rtr-lite": "confirmed",
-      "rtr-lite-2-0": "likely_verify",
+      "rtr-lite-2-0": "confirmed",
       "rtr-sport": "confirmed",
       "rtr-alpha": "confirmed",
       "rtr-xl": "confirmed",
-      "rtr-xl-alpha": "likely_verify",
+      "rtr-xl-alpha": "confirmed",
       "yozma-in10": "confirmed",
       "yozma-in10-pro": "confirmed",
       "tuttio-soleil01": "confirmed",
@@ -149826,11 +149608,11 @@
       "falcon-pro": "Full size 70/100-19 exactly matches the stock front tire on the falcon-pro (spec: https://79bike.com/products/79bike-falcon-pro) (checked 2026-11-12)",
       "falcon-gt": "Full size 70/100-19 exactly matches the stock front tire on the falcon-gt (spec: https://79bike.com/products/gt) (checked 2026-11-12)",
       "rtr-lite": "Full size 60/100-14 exactly matches the stock front tire on the rtr-lite (spec: https://chargedcycleworks.com/products/etm-rtr-lite-electric-pit-bike) (checked 2026-11-12)",
-      "rtr-lite-2-0": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
+      "rtr-lite-2-0": "Sold in 60/100-14 and 80/100-12, both exact stock sizes (Electro & Co spec: RTR Lite 2.0 runs 60/100-14 front / 80/100-12 rear) (checked 2026-11-26).",
       "rtr-sport": "Full size 60/100-14 exactly matches the stock front tire on the rtr-sport (spec: https://chargedcycleworks.com/products/etm-rtr-electric-pit-bike) (checked 2026-11-12)",
       "rtr-alpha": "Full size 60/100-14 exactly matches the stock front tire on the rtr-alpha (spec: https://chargedcycleworks.com/products/etm-rtr-alpha-the-worlds-fastest-electric-pit-bike) (checked 2026-11-12)",
       "rtr-xl": "Full size 70/100-17 exactly matches the stock front tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)",
-      "rtr-xl-alpha": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
+      "rtr-xl-alpha": "Sold in 70/100-17 and 90/100-14, both exact stock sizes (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26).",
       "yozma-in10": "CCW search-by-bike (YZI10 tag) lists this part for the Yozma IN10; offers 60/100-14 front and 80/100-12 rear, both IN10 stock sizes. (checked 2026-11-11)",
       "yozma-in10-pro": "CCW search-by-bike (YZI10P tag) lists this part for the Yozma IN10 Pro; offers 70/100-17 and 90/100-14, both IN10 Pro stock sizes. (checked 2026-11-11)",
       "tuttio-soleil01": "Full size 60/100-14 exactly matches the stock front tire on the tuttio-soleil01 (spec: https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike) (checked 2026-11-12)",
@@ -149989,11 +149771,11 @@
       "falcon-pro": "confirmed",
       "falcon-gt": "confirmed",
       "rtr-lite": "confirmed",
-      "rtr-lite-2-0": "likely_verify",
+      "rtr-lite-2-0": "confirmed",
       "rtr-sport": "confirmed",
       "rtr-alpha": "confirmed",
       "rtr-xl": "confirmed",
-      "rtr-xl-alpha": "likely_verify",
+      "rtr-xl-alpha": "confirmed",
       "yozma-in10": "confirmed",
       "yozma-in10-pro": "confirmed",
       "tuttio-soleil01": "confirmed",
@@ -150052,11 +149834,11 @@
       "falcon-pro": "Full size 70/100-19 exactly matches the stock front tire on the falcon-pro (spec: https://79bike.com/products/79bike-falcon-pro) (checked 2026-11-12)",
       "falcon-gt": "Full size 70/100-19 exactly matches the stock front tire on the falcon-gt (spec: https://79bike.com/products/gt) (checked 2026-11-12)",
       "rtr-lite": "Full size 60/100-14 exactly matches the stock front tire on the rtr-lite (spec: https://chargedcycleworks.com/products/etm-rtr-lite-electric-pit-bike) (checked 2026-11-12)",
-      "rtr-lite-2-0": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
+      "rtr-lite-2-0": "Sold in 60/100-14 front and 80/100-12, both exact stock sizes (Electro & Co spec: RTR Lite 2.0 runs 60/100-14 front / 80/100-12 rear) (checked 2026-11-26).",
       "rtr-sport": "Full size 60/100-14 exactly matches the stock front tire on the rtr-sport (spec: https://chargedcycleworks.com/products/etm-rtr-electric-pit-bike) (checked 2026-11-12)",
       "rtr-alpha": "Full size 60/100-14 exactly matches the stock front tire on the rtr-alpha (spec: https://chargedcycleworks.com/products/etm-rtr-alpha-the-worlds-fastest-electric-pit-bike) (checked 2026-11-12)",
       "rtr-xl": "Full size 70/100-17 exactly matches the stock front tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)",
-      "rtr-xl-alpha": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
+      "rtr-xl-alpha": "Sold in 70/100-17 front and 90/100-14 rear, both exact stock sizes (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26).",
       "yozma-in10": "Offers Front 60/100-14 and Rear 80/100-12, both Yozma IN10 stock sizes (stock 14in/12in wheels). (checked 2026-11-11)",
       "yozma-in10-pro": "Offers Front 70/100-17 and Rear 90/100-14, both Yozma IN10 Pro stock sizes (stock 17in/14in wheels). (checked 2026-11-11)",
       "tuttio-soleil01": "Full size 60/100-14 exactly matches the stock front tire on the tuttio-soleil01 (spec: https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike) (checked 2026-11-12)",
@@ -150109,13 +149891,13 @@
       "falcon-pro": "confirmed",
       "falcon-gt": "confirmed",
       "rtr-lite": "confirmed",
-      "rtr-lite-2-0": "likely_verify",
-      "rtr-sport": "likely_verify",
-      "rtr-alpha": "likely_verify",
+      "rtr-lite-2-0": "confirmed",
+      "rtr-sport": "confirmed",
+      "rtr-alpha": "confirmed",
       "rtr-xl": "confirmed",
-      "rtr-xl-alpha": "likely_verify",
-      "yozma-in10": "no_fit",
-      "yozma-in10-pro": "no_fit",
+      "rtr-xl-alpha": "confirmed",
+      "yozma-in10": "likely_verify",
+      "yozma-in10-pro": "likely_verify",
       "tuttio-soleil01": "confirmed",
       "stark-vargex": "confirmed",
       "altis-sigma": "confirmed",
@@ -150124,12 +149906,12 @@
       "yvolt-surge-v": "likely_verify",
       "supermach-sm01": "likely_verify",
       "supermach-sm62": "confirmed",
-      "zero-xe": "no_fit",
+      "zero-xe": "likely_verify",
       "rfn-warrior-pro": "unknown",
-      "arctic-leopard-xe-pro-s": "likely_verify",
-      "arctic-leopard-xe-pro-s-enduro": "no_fit",
-      "arctic-leopard-xe-pro-r": "no_fit",
-      "arctic-leopard-xf": "likely_verify",
+      "arctic-leopard-xe-pro-s": "confirmed",
+      "arctic-leopard-xe-pro-s-enduro": "confirmed",
+      "arctic-leopard-xe-pro-r": "confirmed",
+      "arctic-leopard-xf": "confirmed",
       "altis-omega": "unknown",
       "altis-delta": "unknown",
       "rawrr-mantis-mini-r": "likely_verify",
@@ -150162,8 +149944,8 @@
       "mx4": "Full size 70/100-19 exactly matches the stock front tire on the mx4 (spec: https://talariamotousa.com/product/sting-r-mx4/) (checked 2026-11-12)",
       "mx5": "Full size 70/100-19 exactly matches the stock front tire on the mx5 (spec: https://talariacanada.com/talaria-sting-mx5-pro/) (checked 2026-11-12)",
       "komodo": "Talaria lists two tire setups (70/100-21 / 90/100-18 and 80/100-21 / 110/90-18) - verify before buying (checked 2026-11-12)",
-      "bonnell-805rx": "Full size 80/100-21 exactly matches the stock front tire on the bonnell-805rx (spec: https://ridebonnell.com/products/805) (checked 2026-11-12)",
-      "storm-bee": "Full size 80/100-21 exactly matches the stock front tire on the storm-bee (spec: https://surron.ca/fr/pages/storm-bee) (checked 2026-11-12)",
+      "bonnell-805rx": "Front only: Kenda lists the K760 in 80/100-21 FRONT, the exact stock front size, sold by RevZilla (CCW does not stock 21in). No 100/90-18 rear size (checked 2026-11-26).",
+      "storm-bee": "Front only: Kenda lists the K760 in 80/100-21 FRONT, the exact stock front size, sold by RevZilla (CCW does not stock 21in). No 100/90-18 rear size (checked 2026-11-26).",
       "arctic-xd": "Size match only; no exact-model fitment evidence",
       "rerode-rx": "Size match only; no exact-model fitment evidence",
       "rawrr-mantis-72v": "CCW offers 70/100-19, the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
@@ -150171,27 +149953,27 @@
       "rawrr-mantis-x": "Full size 70/100-19 exactly matches the stock front tire on the rawrr-mantis-x (spec: https://chargedcycleworks.com/products/rawrr-mantis-x-72v-electric-motorcycle) (checked 2026-11-12)",
       "falcon-pro": "Full size 70/100-19 exactly matches the stock front tire on the falcon-pro (spec: https://79bike.com/products/79bike-falcon-pro) (checked 2026-11-12)",
       "falcon-gt": "Full size 70/100-19 exactly matches the stock front tire on the falcon-gt (spec: https://79bike.com/products/gt) (checked 2026-11-12)",
-      "rtr-lite": "Full size 60/100-14 exactly matches the stock front tire on the rtr-lite (spec: https://chargedcycleworks.com/products/etm-rtr-lite-electric-pit-bike) (checked 2026-11-12)",
-      "rtr-lite-2-0": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
-      "rtr-sport": "DOWNGRADED confirmed -> verify: CCW variants are 70/100-19, 70/100-17 and 100/90-19 only, no 14\" size for the stock 14\" front wheel, so the old diameter-match confirm was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
-      "rtr-alpha": "DOWNGRADED confirmed -> verify: CCW variants are 70/100-19, 70/100-17 and 100/90-19 only, no 14\" size for the stock 14\" front wheel, so the old diameter-match confirm was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
-      "rtr-xl": "Full size 70/100-17 exactly matches the stock front tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)",
-      "rtr-xl-alpha": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
-      "yozma-in10": "CCW offers 70/100-19, 70/100-17 and 100/90-19 only; no 14in or 12in size for the IN10 (stock 14in/12in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
-      "yozma-in10-pro": "Rear tire; CCW offers 70/100-19, 70/100-17 and 100/90-19 only - no 14in rear size for the IN10 Pro (stock 14in rear wheel), and the 70/100-17 variant is a rear tire, not a front fit. The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
-      "tuttio-soleil01": "Full size 60/100-14 exactly matches the stock front tire on the tuttio-soleil01 (spec: https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike) (checked 2026-11-12)",
+      "rtr-lite": "Rear: Kenda lists the K760 in 80/100-12 REAR, the exact stock rear size (stock 60/100-14 front / 80/100-12 rear), sold by RevZilla. Kenda also lists a 60/100-14 FRONT, but RevZilla labels that size \"Rear\", so use this listing for the rear tire (checked 2026-11-26).",
+      "rtr-lite-2-0": "Rear: Kenda lists the K760 in 80/100-12 REAR, the exact stock rear size (stock 60/100-14 front / 80/100-12 rear), sold by RevZilla. Kenda also lists a 60/100-14 FRONT, but RevZilla labels that size \"Rear\", so use this listing for the rear tire (checked 2026-11-26).",
+      "rtr-sport": "Rear: Kenda lists the K760 in 80/100-12 REAR, the exact stock rear size (stock 60/100-14 front / 80/100-12 rear), sold by RevZilla. Kenda also lists a 60/100-14 FRONT, but RevZilla labels that size \"Rear\", so use this listing for the rear tire (checked 2026-11-26).",
+      "rtr-alpha": "Rear: Kenda lists the K760 in 80/100-12 REAR, the exact stock rear size (stock 60/100-14 front / 80/100-12 rear), sold by RevZilla. Kenda also lists a 60/100-14 FRONT, but RevZilla labels that size \"Rear\", so use this listing for the rear tire (checked 2026-11-26).",
+      "rtr-xl": "Kenda lists the K760 in 70/100-17 FRONT and 90/100-14 REAR, both exact stock sizes (70/100-17 / 90/100-14, Electro & Co spec). CCW and RevZilla sell the 70/100-17; RevZilla sells the 90/100-14 (checked 2026-11-26).",
+      "rtr-xl-alpha": "Kenda lists the K760 in 70/100-17 FRONT and 90/100-14 REAR, both exact stock sizes (70/100-17 / 90/100-14, Electro & Co spec). CCW and RevZilla sell the 70/100-17; RevZilla sells the 90/100-14 (checked 2026-11-26).",
+      "yozma-in10": "No published full tire sizes for the IN10 on file (14in front / 12in rear only). The K760 does come in 60/100-14 and 80/100-12 (RevZilla), so the wheel diameters match - verify the exact size before buying. Replaces the old \"no 14in or 12in size\" not_compatible, which only looked at CCW (checked 2026-11-26).",
+      "yozma-in10-pro": "No published full tire sizes for the IN10 Pro on file (17in front / 14in rear only). The K760 comes in 70/100-17 front and 90/100-14 rear sizes, so the wheel diameters match - verify the exact size before buying (checked 2026-11-26).",
+      "tuttio-soleil01": "Rear: Kenda lists the K760 in 80/100-12 REAR, the exact stock rear size (stock 60/100-14 front / 80/100-12 rear), sold by RevZilla. Kenda also lists a 60/100-14 FRONT, but RevZilla labels that size \"Rear\", so use this listing for the rear tire (checked 2026-11-26).",
       "stark-vargex": "Full size 80/100-21 exactly matches the stock front tire on the stark-vargex (spec: https://www.starkfuture.com/en-us/varg-ex) (checked 2026-11-12)",
       "altis-sigma": "Full size 70/100-19 exactly matches the stock front tire on the altis-sigma (spec: https://www.altispowersports.com/products/altis-sigma) (checked 2026-11-12)",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/90-19, 120/90-19, 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
       "supermach-sm01": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/90-19, 120/90-19, 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
-      "zero-xe": "CCW listing offers only 70/100-19, 70/100-17 and 100/90-19 — no size fits the Zero XE 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
-      "arctic-leopard-xe-pro-s": "70/100-19 matches the stock front size, but the K760 is a rear-pattern tire and has no 16in rear size - verify (checked 2026-11-16).",
-      "arctic-leopard-xe-pro-s-enduro": "K760 comes in 70/100-19, 70/100-17 and 100/90-19 only; the Enduro runs 21in front / 18in rear (checked 2026-11-16).",
-      "arctic-leopard-xe-pro-r": "No 21in or 18in variant (70/100-19, 70/100-17, 100/90-19 only) - cannot mount on the XE Pro R 21/18in wheels (checked 2026-11-11).",
-      "arctic-leopard-xf": "Rear tire; CCW offers a 70/100-17 variant matching the XF front rim diameter, but it is a rear-pattern tire - verify before buying. (checked 2026-11-11)",
-      "rawrr-mantis-mini-r": "CCW offers 70/100-17, the R17 front size — fits only with the R17 upsizing kit; no 14-inch stock-front size. All variants currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
+      "zero-xe": "CCW gives the Zero XE stock front as 70/100-21; the K760 21in sizes are 80/100-21 and 90/90-21 (RevZilla), and no Zero XE rear size is on file, so no exact match can be confirmed - verify. Replaces the old \"no 21in size\" not_compatible, which only looked at CCW (checked 2026-11-26).",
+      "arctic-leopard-xe-pro-s": "Kenda lists the K760 in 70/100-19 FRONT and 90/100-16 REAR, both exact XE Pro S stock sizes (70/100-19 / 90/100-16, Arctic Leopard spec). CCW and RevZilla sell the 70/100-19; RevZilla sells the 90/100-16. Replaces the Nov 16 \"rear-pattern tire\" note: Kenda designates 70/100-19 as a front size (checked 2026-11-26).",
+      "arctic-leopard-xe-pro-s-enduro": "Front only: Kenda lists the K760 in 80/100-21 FRONT, the exact stock front size (80/100-21, Arctic Leopard spec), and RevZilla sells it (CCW does not). No 100/90-18 rear size exists. Replaces the old \"no 21in size\" not_compatible, which only looked at CCW (checked 2026-11-26).",
+      "arctic-leopard-xe-pro-r": "Front only: Kenda lists the K760 in 80/100-21 FRONT, the exact stock front size (80/100-21, Arctic Leopard spec), and RevZilla sells it (CCW does not). No 100/90-18 rear size exists. Replaces the old \"no 21in size\" not_compatible, which only looked at CCW (checked 2026-11-26).",
+      "arctic-leopard-xf": "Kenda lists the K760 in 70/100-17 FRONT and 90/100-14 REAR, both exact XF stock sizes (70/100-17 / 90/100-14). CCW and RevZilla sell the 70/100-17; RevZilla sells the 90/100-14 (checked 2026-11-26).",
+      "rawrr-mantis-mini-r": "Kenda lists a 60/100-14 FRONT K760, the exact Mini R stock front size, but the only store with that size (RevZilla) labels it \"Rear\" - verify the size and position before buying. No 2.75-12 rear size (checked 2026-11-26)."
      }
     },
     {
@@ -150364,12 +150146,12 @@
       "rtr-sport": "likely_verify",
       "rtr-alpha": "likely_verify",
       "rtr-xl": "confirmed",
-      "rtr-xl-alpha": "likely_verify",
+      "rtr-xl-alpha": "confirmed",
       "yozma-in10": "no_fit",
       "yozma-in10-pro": "confirmed",
       "tuttio-soleil01": "likely_verify",
       "stark-vargex": "confirmed",
-      "altis-sigma": "confirmed",
+      "altis-sigma": "likely_verify",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
       "yvolt-surge-v": "likely_verify",
@@ -150427,12 +150209,12 @@
       "rtr-sport": "Only the 14\" diameter matches; tire sizes 90/100-14 vs stock front 60/100-14 - verify before buying (checked 2026-11-12)",
       "rtr-alpha": "DOWNGRADED confirmed -> verify: CCW offers only a 90/100-14 variant for the stock 14\" front wheel - not the stock 60/100-14 size, and no 80/100-12 rear - so the old diameter-match confirm was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front",
       "rtr-xl": "Full size 70/100-17 exactly matches the stock front tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)",
-      "rtr-xl-alpha": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
+      "rtr-xl-alpha": "Sold in 70/100-17 and 90/100-14 rear, both exact stock sizes (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26).",
       "yozma-in10": "No 14in front or 12in rear size offered (Front 80/100-21, 70/100-17; Rear 110/100-18, 110/90-19, 120/80-19, 90/100-14); nothing fits the IN10 stock 14in/12in wheels. The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010",
       "yozma-in10-pro": "Offers Front 70/100-17 and Rear 90/100-14, both Yozma IN10 Pro stock sizes (stock 17in/14in wheels). (checked 2026-11-11)",
       "tuttio-soleil01": "Only the 14\" diameter matches; tire sizes 90/100-14 vs stock front 60/100-14 - verify before buying (checked 2026-11-12)",
       "stark-vargex": "Full size 80/100-21 exactly matches the stock front tire on the stark-vargex (spec: https://www.starkfuture.com/en-us/varg-ex) (checked 2026-11-12)",
-      "altis-sigma": "Full size 70/100-19 exactly matches the stock front tire on the altis-sigma (spec: https://www.altispowersports.com/products/altis-sigma) (checked 2026-11-12)",
+      "altis-sigma": "The 70/100-19 is sold as a REAR size (CCW \"Maxxcross Intermediate Rear Tire\"; RevZilla lists 70/100-19 under rear), so it does not match the Sigma 70/100-19 FRONT by position; no 90/100-18 rear size (Altis: 70/100-19 front, 90/100-18 rear) - verify (checked 2026-11-26).",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 110/90-19, 120/80-19, 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
       "supermach-sm01": "Only the 19\" diameter matches; tire sizes 110/90-19, 120/80-19, 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
@@ -151536,11 +151318,11 @@
       "falcon-pro": "confirmed",
       "falcon-gt": "confirmed",
       "rtr-lite": "confirmed",
-      "rtr-lite-2-0": "likely_verify",
+      "rtr-lite-2-0": "confirmed",
       "rtr-sport": "confirmed",
       "rtr-alpha": "confirmed",
       "rtr-xl": "confirmed",
-      "rtr-xl-alpha": "likely_verify",
+      "rtr-xl-alpha": "confirmed",
       "yozma-in10": "confirmed",
       "yozma-in10-pro": "confirmed",
       "tuttio-soleil01": "confirmed",
@@ -151599,11 +151381,11 @@
       "falcon-pro": "Full size 70/100-19 exactly matches the stock front tire on the falcon-pro (spec: https://79bike.com/products/79bike-falcon-pro) (checked 2026-11-12)",
       "falcon-gt": "Full size 70/100-19 exactly matches the stock front tire on the falcon-gt (spec: https://79bike.com/products/gt) (checked 2026-11-12)",
       "rtr-lite": "Full size 60/100-14 exactly matches the stock front tire on the rtr-lite (spec: https://chargedcycleworks.com/products/etm-rtr-lite-electric-pit-bike) (checked 2026-11-12)",
-      "rtr-lite-2-0": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
+      "rtr-lite-2-0": "Front: sold in 60/100-14, the exact stock front size (Electro & Co spec: RTR Lite 2.0 runs 60/100-14 front / 80/100-12 rear) (checked 2026-11-26).",
       "rtr-sport": "Full size 60/100-14 exactly matches the stock front tire on the rtr-sport (spec: https://chargedcycleworks.com/products/etm-rtr-electric-pit-bike) (checked 2026-11-12)",
       "rtr-alpha": "Full size 60/100-14 exactly matches the stock front tire on the rtr-alpha (spec: https://chargedcycleworks.com/products/etm-rtr-alpha-the-worlds-fastest-electric-pit-bike) (checked 2026-11-12)",
       "rtr-xl": "Full size 70/100-17 exactly matches the stock front tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)",
-      "rtr-xl-alpha": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
+      "rtr-xl-alpha": "Front: sold in 70/100-17, the exact stock front size (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26).",
       "yozma-in10": "CCW offers 60/100-14, the Yozma IN10 stock front size (stock 14in/12in wheels, 60/100-14 front / 80/100-12 rear). (checked 2026-11-11)",
       "yozma-in10-pro": "CCW offers 70/100-17, the Yozma IN10 Pro stock front size (stock 17in/14in wheels, 70/100-17 front / 90/100-14 rear). Front tire. (checked 2026-11-11)",
       "tuttio-soleil01": "Full size 60/100-14 exactly matches the stock front tire on the tuttio-soleil01 (spec: https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike) (checked 2026-11-12)",
@@ -151980,11 +151762,11 @@
       "falcon-pro": "confirmed",
       "falcon-gt": "confirmed",
       "rtr-lite": "confirmed",
-      "rtr-lite-2-0": "likely_verify",
+      "rtr-lite-2-0": "confirmed",
       "rtr-sport": "confirmed",
       "rtr-alpha": "confirmed",
       "rtr-xl": "confirmed",
-      "rtr-xl-alpha": "likely_verify",
+      "rtr-xl-alpha": "confirmed",
       "yozma-in10": "confirmed",
       "yozma-in10-pro": "confirmed",
       "tuttio-soleil01": "confirmed",
@@ -152043,11 +151825,11 @@
       "falcon-pro": "Full size 70/100-19 exactly matches the stock front tire on the falcon-pro (spec: https://79bike.com/products/79bike-falcon-pro) (checked 2026-11-12)",
       "falcon-gt": "Full size 70/100-19 exactly matches the stock front tire on the falcon-gt (spec: https://79bike.com/products/gt) (checked 2026-11-12)",
       "rtr-lite": "Full size 60/100-14 exactly matches the stock front tire on the rtr-lite (spec: https://chargedcycleworks.com/products/etm-rtr-lite-electric-pit-bike) (checked 2026-11-12)",
-      "rtr-lite-2-0": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
+      "rtr-lite-2-0": "Front: sold in 60/100-14, the exact stock front size (Electro & Co spec: RTR Lite 2.0 runs 60/100-14 front / 80/100-12 rear) (checked 2026-11-26).",
       "rtr-sport": "Full size 60/100-14 exactly matches the stock front tire on the rtr-sport (spec: https://chargedcycleworks.com/products/etm-rtr-electric-pit-bike) (checked 2026-11-12)",
       "rtr-alpha": "Full size 60/100-14 exactly matches the stock front tire on the rtr-alpha (spec: https://chargedcycleworks.com/products/etm-rtr-alpha-the-worlds-fastest-electric-pit-bike) (checked 2026-11-12)",
       "rtr-xl": "Full size 70/100-17 exactly matches the stock front tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)",
-      "rtr-xl-alpha": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
+      "rtr-xl-alpha": "Front: sold in 70/100-17, the exact stock front size (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26).",
       "yozma-in10": "CCW offers 60/100-14, the Yozma IN10 stock front size (stock 14in/12in wheels, 60/100-14 front / 80/100-12 rear). (checked 2026-11-11)",
       "yozma-in10-pro": "CCW offers 70/100-17, the Yozma IN10 Pro stock front size (stock 17in/14in wheels, 70/100-17 front / 90/100-14 rear). Front tire. (checked 2026-11-11)",
       "tuttio-soleil01": "Full size 60/100-14 exactly matches the stock front tire on the tuttio-soleil01 (spec: https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike) (checked 2026-11-12)",
@@ -152102,11 +151884,11 @@
       "falcon-pro": "no_fit",
       "falcon-gt": "no_fit",
       "rtr-lite": "confirmed",
-      "rtr-lite-2-0": "likely_verify",
+      "rtr-lite-2-0": "confirmed",
       "rtr-sport": "confirmed",
       "rtr-alpha": "confirmed",
       "rtr-xl": "confirmed",
-      "rtr-xl-alpha": "likely_verify",
+      "rtr-xl-alpha": "confirmed",
       "yozma-in10": "confirmed",
       "yozma-in10-pro": "confirmed",
       "tuttio-soleil01": "confirmed",
@@ -152165,11 +151947,11 @@
       "falcon-pro": "Not compatible with this bike.",
       "falcon-gt": "Not compatible with this bike.",
       "rtr-lite": "Full size 80/100-12 exactly matches the stock rear tire on the rtr-lite (spec: https://chargedcycleworks.com/products/etm-rtr-lite-electric-pit-bike) (checked 2026-11-12)",
-      "rtr-lite-2-0": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
+      "rtr-lite-2-0": "Rear: sold in 80/100-12, the exact stock rear size (Electro & Co spec: RTR Lite 2.0 runs 60/100-14 front / 80/100-12 rear) (checked 2026-11-26).",
       "rtr-sport": "Full size 80/100-12 exactly matches the stock rear tire on the rtr-sport (spec: https://chargedcycleworks.com/products/etm-rtr-electric-pit-bike) (checked 2026-11-12)",
       "rtr-alpha": "Full size 80/100-12 exactly matches the stock rear tire on the rtr-alpha (spec: https://chargedcycleworks.com/products/etm-rtr-alpha-the-worlds-fastest-electric-pit-bike) (checked 2026-11-12)",
       "rtr-xl": "Full size 90/100-14 exactly matches the stock rear tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)",
-      "rtr-xl-alpha": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)",
+      "rtr-xl-alpha": "Rear: sold in 90/100-14, the exact stock rear size (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26).",
       "yozma-in10": "CCW offers 80/100-12, the Yozma IN10 stock rear size (stock 14in/12in wheels, 60/100-14 front / 80/100-12 rear). (checked 2026-11-11)",
       "yozma-in10-pro": "CCW offers 90/100-14, the Yozma IN10 Pro stock rear size (stock 17in/14in wheels, 70/100-17 front / 90/100-14 rear). Rear tire. (checked 2026-11-11)",
       "tuttio-soleil01": "Full size 80/100-12 exactly matches the stock rear tire on the tuttio-soleil01 (spec: https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike) (checked 2026-11-12)",
@@ -155160,6 +154942,18 @@
        "p": 116.99,
        "url": "https://chargedcycleworks.com/products/dunlop-at82-geomax-all-terrain-terrain-tire",
        "chk": "2026-11-26"
+      },
+      {
+       "v": "Warp 9 Racing",
+       "p": 116.99,
+       "url": "https://warp9racing.com/products/dunlop-geomax-at82-tire",
+       "chk": "2026-11-26"
+      },
+      {
+       "v": "GritShift",
+       "p": 143.95,
+       "url": "https://gritshift.com/products/dunlop-geomax-at82-tire",
+       "chk": "2026-11-26"
       }
      ],
      "fit": {
@@ -156700,86 +156494,6 @@
      }
     },
     {
-     "pid": "chargedcycleworks-kenda-k760-trakmaster-rear-tire",
-     "name": "Kenda K760 Trakmaster REAR Tire",
-     "img": "img/parts/chargedcycleworks-kenda-k760-trakmaster-rear-tire.webp",
-     "prices": [
-      {
-       "v": "Charged Cycle Works",
-       "p": 56.99,
-       "url": "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
-       "chk": "2026-11-26"
-      }
-     ],
-     "fit": {
-      "ventus-plus": "unknown",
-      "ventus-evo": "unknown",
-      "lightbee": "unknown",
-      "lightbee2": "unknown",
-      "ultrabee": "unknown",
-      "ss20": "unknown",
-      "ss30": "unknown",
-      "ss40": "unknown",
-      "sr": "unknown",
-      "mx4": "unknown",
-      "mx5": "unknown",
-      "komodo": "unknown",
-      "bonnell-805rx": "unknown",
-      "storm-bee": "unknown",
-      "arctic-xd": "unknown",
-      "rerode-rx": "unknown",
-      "rawrr-mantis-72v": "unknown",
-      "rawrr-mantis-x-pro": "unknown",
-      "rawrr-mantis-x": "unknown",
-      "falcon-pro": "unknown",
-      "falcon-gt": "unknown",
-      "rtr-lite": "unknown",
-      "rtr-lite-2-0": "unknown",
-      "rtr-sport": "unknown",
-      "rtr-alpha": "unknown",
-      "rtr-xl": "unknown",
-      "rtr-xl-alpha": "unknown",
-      "yozma-in10": "unknown",
-      "yozma-in10-pro": "unknown",
-      "tuttio-soleil01": "unknown",
-      "stark-vargex": "unknown",
-      "altis-sigma": "likely_verify",
-      "ultrabee-21kw": "unknown",
-      "ultrabee-hd": "unknown",
-      "yvolt-surge-v": "unknown",
-      "supermach-sm01": "unknown",
-      "supermach-sm62": "unknown",
-      "zero-xe": "unknown",
-      "rfn-warrior-pro": "unknown",
-      "arctic-leopard-xe-pro-s": "unknown",
-      "arctic-leopard-xe-pro-s-enduro": "unknown",
-      "arctic-leopard-xe-pro-r": "unknown",
-      "arctic-leopard-xf": "unknown",
-      "altis-omega": "unknown",
-      "altis-delta": "unknown",
-      "rawrr-mantis-mini-r": "unknown",
-      "segway-x160": "unknown",
-      "segway-x260": "unknown",
-      "talaria-xxx": "unknown"
-     },
-     "stock": "out_of_stock",
-     "stockChk": "2026-11-26",
-     "tier": "mid",
-     "badge": "",
-     "spec": {
-      "wtKg": null,
-      "motorKw": null,
-      "motorPeakKw": null,
-      "ctrlMaxKw": null,
-      "battKwh": null,
-      "battPeakKw": null,
-      "battMaxKw": null
-     },
-     "why": {
-      "altis-sigma": "70/100-19 variant; the Altis Sigma rear is 18in (Standard, 90/100-18) or 16in (MX, 90/100-16) per Altis, not 19in, and the 19in front stock size is 70/100-19 - verify (checked 2026-11-16)."
-     }
-    },
-    {
      "pid": "chargedcycleworks-pivotrax-cyber-street-tire",
      "name": "Pivotrax Cyber Street Tire",
      "img": "img/parts/chargedcycleworks-pivotrax-cyber-street-tire.webp",
@@ -157748,7 +157462,7 @@
       "arctic-leopard-xe-pro-r": "unknown",
       "arctic-leopard-xf": "unknown",
       "altis-omega": "unknown",
-      "altis-delta": "likely_verify",
+      "altis-delta": "confirmed",
       "rawrr-mantis-mini-r": "unknown",
       "segway-x160": "unknown",
       "segway-x260": "unknown",
@@ -157768,7 +157482,7 @@
       "battMaxKw": null
      },
      "why": {
-      "altis-delta": "70/100-17 is a front size, but CCW sells the K760 as a rear-pattern tire - verify before using it on the front (checked 2026-11-16)."
+      "altis-delta": "Front only: Kenda designates the K760 70/100-17 as a FRONT size (CCW titles the listing \"REAR\"), and it is the exact Altis Delta stock front size (Altis spec: 70/100-17 front, 90/100-14 rear) (checked 2026-11-26)."
      }
     },
     {
@@ -158907,86 +158621,6 @@
      },
      "why": {
       "supermach-sm62": "Exact stock rear size 90/100-16 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)"
-     }
-    },
-    {
-     "pid": "gritshift-dunlop-geomax-at82-tire",
-     "name": "Dunlop Geomax AT82 Rugged Off-Road Racing Tire (120/90-18 rear)",
-     "img": "img/parts/gritshift-dunlop-geomax-at82-tire.webp",
-     "prices": [
-      {
-       "v": "GritShift",
-       "p": 143.95,
-       "url": "https://gritshift.com/products/dunlop-geomax-at82-tire",
-       "chk": "2026-11-26"
-      }
-     ],
-     "fit": {
-      "ventus-plus": "unknown",
-      "ventus-evo": "unknown",
-      "lightbee": "unknown",
-      "lightbee2": "unknown",
-      "ultrabee": "unknown",
-      "ss20": "unknown",
-      "ss30": "unknown",
-      "ss40": "unknown",
-      "sr": "unknown",
-      "mx4": "unknown",
-      "mx5": "unknown",
-      "komodo": "unknown",
-      "bonnell-805rx": "unknown",
-      "storm-bee": "unknown",
-      "arctic-xd": "confirmed",
-      "rerode-rx": "unknown",
-      "rawrr-mantis-72v": "unknown",
-      "rawrr-mantis-x-pro": "unknown",
-      "rawrr-mantis-x": "unknown",
-      "falcon-pro": "unknown",
-      "falcon-gt": "unknown",
-      "rtr-lite": "unknown",
-      "rtr-lite-2-0": "unknown",
-      "rtr-sport": "unknown",
-      "rtr-alpha": "unknown",
-      "rtr-xl": "unknown",
-      "rtr-xl-alpha": "unknown",
-      "yozma-in10": "unknown",
-      "yozma-in10-pro": "unknown",
-      "tuttio-soleil01": "unknown",
-      "stark-vargex": "unknown",
-      "altis-sigma": "unknown",
-      "ultrabee-21kw": "unknown",
-      "ultrabee-hd": "unknown",
-      "yvolt-surge-v": "unknown",
-      "supermach-sm01": "unknown",
-      "supermach-sm62": "unknown",
-      "zero-xe": "unknown",
-      "rfn-warrior-pro": "unknown",
-      "arctic-leopard-xe-pro-s": "unknown",
-      "arctic-leopard-xe-pro-s-enduro": "unknown",
-      "arctic-leopard-xe-pro-r": "unknown",
-      "arctic-leopard-xf": "unknown",
-      "altis-omega": "unknown",
-      "altis-delta": "unknown",
-      "rawrr-mantis-mini-r": "unknown",
-      "segway-x160": "unknown",
-      "segway-x260": "unknown",
-      "talaria-xxx": "unknown"
-     },
-     "stock": "in_stock",
-     "stockChk": "2026-11-26",
-     "tier": "midrange",
-     "badge": "Dunlop",
-     "spec": {
-      "wtKg": null,
-      "motorKw": null,
-      "motorPeakKw": null,
-      "ctrlMaxKw": null,
-      "battKwh": null,
-      "battPeakKw": null,
-      "battMaxKw": null
-     },
-     "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
      }
     },
     {
@@ -163581,7 +163215,7 @@
     {
      "pid": "lithiumpowersports-dunlop-geomax-enduro-en91-tire-bias-tt",
      "name": "Dunlop Geomax Enduro EN91 Tire Bias TT (120/90-18 rear)",
-     "img": "",
+     "img": "img/parts/lithiumpowersports-dunlop-geomax-enduro-en91-tire-bias-tt.webp",
      "prices": [
       {
        "v": "Lithium Powersports",
@@ -164960,7 +164594,7 @@
     {
      "pid": "lithiumpowersports-tire-maxxcross-si-rear-90-100-14-49m-bias-tt",
      "name": "Tire Maxxcross Si Rear 90/100-14 49m Bias Tt (90/100-14 rear)",
-     "img": "",
+     "img": "img/parts/lithiumpowersports-tire-maxxcross-si-rear-90-100-14-49m-bias-tt.webp",
      "prices": [
       {
        "v": "Lithium Powersports",
@@ -165120,7 +164754,7 @@
     {
      "pid": "lithiumpowersports-tusk-recon-hybrid-aggressive-oem-replacement-tires-for-surron-segway-talaria",
      "name": "Tusk Recon Hybrid Aggressive OEM Replacement Tires for Surron Segway Talaria",
-     "img": "",
+     "img": "img/parts/lithiumpowersports-tusk-recon-hybrid-aggressive-oem-replacement-tires-for-surron-segway-talaria.webp",
      "prices": [
       {
        "v": "Lithium Powersports",
@@ -169103,94 +168737,6 @@
      }
     },
     {
-     "pid": "warp9racing-dunlop-geomax-at82-tire",
-     "name": "Dunlop Geomax AT82 Tire",
-     "img": "img/parts/warp9racing-dunlop-geomax-at82-tire.webp",
-     "prices": [
-      {
-       "v": "Warp 9 Racing",
-       "p": 116.99,
-       "url": "https://warp9racing.com/products/dunlop-geomax-at82-tire",
-       "chk": "2026-11-26"
-      },
-      {
-       "v": "GritShift",
-       "p": 143.95,
-       "url": "https://gritshift.com/products/dunlop-geomax-at82-tire",
-       "chk": "2026-11-26"
-      }
-     ],
-     "fit": {
-      "ventus-plus": "unknown",
-      "ventus-evo": "unknown",
-      "lightbee": "unknown",
-      "lightbee2": "unknown",
-      "ultrabee": "unknown",
-      "ss20": "unknown",
-      "ss30": "unknown",
-      "ss40": "unknown",
-      "sr": "unknown",
-      "mx4": "unknown",
-      "mx5": "unknown",
-      "komodo": "unknown",
-      "bonnell-805rx": "unknown",
-      "storm-bee": "unknown",
-      "arctic-xd": "confirmed",
-      "rerode-rx": "confirmed",
-      "rawrr-mantis-72v": "unknown",
-      "rawrr-mantis-x-pro": "unknown",
-      "rawrr-mantis-x": "unknown",
-      "falcon-pro": "unknown",
-      "falcon-gt": "unknown",
-      "rtr-lite": "unknown",
-      "rtr-lite-2-0": "unknown",
-      "rtr-sport": "unknown",
-      "rtr-alpha": "unknown",
-      "rtr-xl": "unknown",
-      "rtr-xl-alpha": "unknown",
-      "yozma-in10": "unknown",
-      "yozma-in10-pro": "unknown",
-      "tuttio-soleil01": "unknown",
-      "stark-vargex": "unknown",
-      "altis-sigma": "unknown",
-      "ultrabee-21kw": "unknown",
-      "ultrabee-hd": "unknown",
-      "yvolt-surge-v": "unknown",
-      "supermach-sm01": "unknown",
-      "supermach-sm62": "unknown",
-      "zero-xe": "unknown",
-      "rfn-warrior-pro": "unknown",
-      "arctic-leopard-xe-pro-s": "unknown",
-      "arctic-leopard-xe-pro-s-enduro": "unknown",
-      "arctic-leopard-xe-pro-r": "unknown",
-      "arctic-leopard-xf": "unknown",
-      "altis-omega": "confirmed",
-      "altis-delta": "unknown",
-      "rawrr-mantis-mini-r": "unknown",
-      "segway-x160": "unknown",
-      "segway-x260": "unknown",
-      "talaria-xxx": "unknown"
-     },
-     "stock": "in_stock",
-     "stockChk": "2026-11-26",
-     "tier": "midrange",
-     "badge": "Dunlop",
-     "spec": {
-      "wtKg": null,
-      "motorKw": null,
-      "motorPeakKw": null,
-      "ctrlMaxKw": null,
-      "battKwh": null,
-      "battPeakKw": null,
-      "battMaxKw": null
-     },
-     "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
-      "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
-      "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
-     }
-    },
-    {
      "pid": "warp9racing-dunlop-geomax-en91-tire",
      "name": "Dunlop Geomax EN91 Tire (120/90-18 rear)",
      "img": "img/parts/warp9racing-dunlop-geomax-en91-tire.webp",
@@ -169437,7 +168983,7 @@
     {
      "pid": "warp9racing-dunlop-geomax-mx54-tire",
      "name": "Dunlop Geomax MX54 Intermediate/Hard Terrain Tire",
-     "img": "",
+     "img": "img/parts/warp9racing-dunlop-geomax-mx54-tire.webp",
      "prices": [
       {
        "v": "Warp 9 Racing",
@@ -170881,7 +170427,7 @@
     {
      "pid": "wiredwhips-oem-soleil01-street-tire-set-14-f-12-r-soleil01-street-tires",
      "name": "OEM Soleil01 Street Tire Set (14\" F / 12\" R) (soleil01-street-tires)",
-     "img": "",
+     "img": "img/parts/wiredwhips-oem-soleil01-street-tire-set-14-f-12-r-soleil01-street-tires.webp",
      "prices": [
       {
        "v": "Wired Whips",
@@ -172944,7 +172490,7 @@
       "ventus-plus": "unknown",
       "ventus-evo": "unknown",
       "lightbee": "unknown",
-      "lightbee2": "confirmed",
+      "lightbee2": "likely_verify",
       "ultrabee": "unknown",
       "ss20": "unknown",
       "ss30": "unknown",
@@ -173005,7 +172551,7 @@
       "battMaxKw": null
      },
      "why": {
-      "lightbee2": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit",
+      "lightbee2": "Both pages say only \"Fits: Warp9 E-Moto Big Light Kit\"; no text names the Light Bee 2 (only a CCW SURLB2 tag), and the Big Light Kit itself is listed for the Light Bee, not the Light Bee 2 - verify before buying. Same rule as the SS 4.0 row (checked 2026-11-26).",
       "ss40": "Both pages say only \"Fits: Warp9 E-Moto Big Light Kit\"; no text names the SS 4.0 (only a CCW ERPSS4 tag) - verify before buying (checked 2026-11-16).",
       "altis-sigma": "In CCW Altis Sigma collection; product page does not name the Altis Sigma - verify fit (checked 2026-11-11)"
      }

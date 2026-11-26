@@ -1405,8 +1405,8 @@
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
         "https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee",
-      "https://gritshift.com/products/ebmx-competition-chain-guide-for-ultra-bee"
-    ],
+        "https://gritshift.com/products/ebmx-competition-chain-guide-for-ultra-bee"
+      ],
       "last_checked": "2026-11-10",
       "vendors": [
         {
@@ -1461,8 +1461,8 @@
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
         "https://chargedcycleworks.com/products/heavy-hitter-520-ultra-bee-sprocket",
-      "https://gritshift.com/products/heavy-hitter-520-ultra-bee-sprocket"
-    ],
+        "https://gritshift.com/products/heavy-hitter-520-ultra-bee-sprocket"
+      ],
       "last_checked": "2026-11-13",
       "vendors": [
         {
@@ -2050,8 +2050,8 @@
       "notes": "CCW fitment text name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
         "https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors",
-      "https://gritshift.com/products/520-primary-drive-ultra-bee"
-    ],
+        "https://gritshift.com/products/520-primary-drive-ultra-bee"
+      ],
       "last_checked": "2026-11-13",
       "vendors": [
         {
@@ -4148,7 +4148,8 @@
           "price_usd": 75.99,
           "buy_url": "https://wiredwhips.com/parts/altis-powersports_multi_chain-rippin-428"
         }
-      ]
+      ],
+      "image": "img/parts/wiredwhips-428mx-gold-o-ring-chain-altis-sigma-omega.webp"
     },
     {
       "id": "wiredwhips-did-420-drive-chain-420nz3-soleil01-420-pitch",
@@ -4564,7 +4565,8 @@
           "price_usd": 44.99,
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_chain-420-116"
         }
-      ]
+      ],
+      "image": "img/parts/wiredwhips-oem-soleil01-dirt-bike-chain-420-116-link-class-soleil01-chains.webp"
     },
     {
       "id": "wiredwhips-oem-soleil01-sprocket-chainring-soleil-01-front-sprocket",

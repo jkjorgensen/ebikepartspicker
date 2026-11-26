@@ -333,8 +333,8 @@
       "is_upgrade": true,
       "source_urls": [
         "https://warp9racing.com/products/surron-light-beetalaria-sting-bar-mount-titanium-bolt-kit",
-      "https://gritshift.com/products/warp-9-bar-mount-titanium-bolt-kit"
-    ],
+        "https://gritshift.com/products/warp-9-bar-mount-titanium-bolt-kit"
+      ],
       "last_checked": "2026-11-13",
       "notes": "Burnt blue titanium bolts for Warp 9 Transformer direct bar mounts (high and low positions). Bracket not included.",
       "variant": null,
@@ -1316,16 +1316,6 @@
       "notes": "Bolt kit for Warp9 handguards; CCW ALXEPRO tag only, XE Pro S not named \u2014 confirmed under the shared ALXEPRO list ruling (Nov 11, 2026) (checked 2026-11-11)."
     },
     {
-      "product_id": "ti-warp9-big-light-kit-bolt-kit",
-      "bike_id": "lightbee2",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit"
-      ],
-      "notes": "CCW search-by-bike (SURLB2 tag) lists this part for the Sur-Ron Light Bee 2; also in CCW's Light Bee 2 collection (checked Nov 11, 2026)."
-    },
-    {
       "product_id": "titanium-warp9-e-moto-handguard-titanium-bolt-kit",
       "bike_id": "zero-xe",
       "status": "confirmed_direct_fit",
@@ -1435,6 +1425,18 @@
         "https://chargedcycleworks.com/products/warp9-titanium-sprocket-bolts"
       ],
       "notes": "CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/warp9-titanium-sprocket-bolts"
+    },
+    {
+      "product_id": "ti-warp9-big-light-kit-bolt-kit",
+      "bike_id": "lightbee2",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/titanium-bolts-for-emoto-big-light-kit",
+        "https://warp9racing.com/products/titanium-bolts-for-emoto-big-light-kit",
+        "https://warp9racing.com/products/emoto-biglightkit"
+      ],
+      "notes": "Both pages say only \"Fits: Warp9 E-Moto Big Light Kit\"; no text names the Light Bee 2 (only a CCW SURLB2 tag), and the Big Light Kit itself is listed for the Light Bee, not the Light Bee 2 - verify before buying. Same rule as the SS 4.0 row (checked 2026-11-26)."
     }
   ]
 }

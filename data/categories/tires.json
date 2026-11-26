@@ -2609,6 +2609,16 @@
           "vendor": "Charged Cycle Works",
           "price_usd": 116.99,
           "buy_url": "https://chargedcycleworks.com/products/dunlop-at82-geomax-all-terrain-terrain-tire"
+        },
+        {
+          "vendor": "Warp 9 Racing",
+          "price_usd": 116.99,
+          "buy_url": "https://warp9racing.com/products/dunlop-geomax-at82-tire"
+        },
+        {
+          "buy_url": "https://gritshift.com/products/dunlop-geomax-at82-tire",
+          "price_usd": 143.95,
+          "vendor": "GritShift"
         }
       ],
       "weight_delta_kg": null,
@@ -3336,7 +3346,9 @@
           "buy_url": "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
         }
       ],
-      "image": null
+      "image": null,
+      "hidden": true,
+      "merged_into": "tire-kenda-k760-trakmaster"
     },
     {
       "id": "chargedcycleworks-dunlop-k990-tires-for-emoto",
@@ -4134,7 +4146,9 @@
           "price_usd": 143.95,
           "buy_url": "https://gritshift.com/products/dunlop-geomax-at82-tire"
         }
-      ]
+      ],
+      "hidden": true,
+      "merged_into": "tire-dunlop-at82-geomax-all-terrain-terrain-tire"
     },
     {
       "id": "gritshift-dunlop-geomax-mx14-rear-tire",
@@ -6148,7 +6162,8 @@
           "price_usd": 144.95,
           "buy_url": "https://lithiumpowersports.com/products/dunlop-geomax-enduro-en91-tire-bias-tt"
         }
-      ]
+      ],
+      "image": "img/parts/lithiumpowersports-dunlop-geomax-enduro-en91-tire-bias-tt.webp"
     },
     {
       "id": "lithiumpowersports-dunlop-geomax-mx14-off-road-motorcycle-tire-high-traction-durable-replacement",
@@ -6758,7 +6773,8 @@
           "price_usd": 75.0,
           "buy_url": "https://lithiumpowersports.com/products/tire-maxxcross-si-rear-90-100-14-49m-bias-tt"
         }
-      ]
+      ],
+      "image": "img/parts/lithiumpowersports-tire-maxxcross-si-rear-90-100-14-49m-bias-tt.webp"
     },
     {
       "id": "lithiumpowersports-tusk-ground-wire-aggressive-oem-replacement-tires-for-surron-segway-talaria",
@@ -6824,7 +6840,8 @@
           "price_usd": 44.88,
           "buy_url": "https://lithiumpowersports.com/products/tusk-recon-hybrid-aggressive-oem-replacement-tires-for-surron-segway-talaria"
         }
-      ]
+      ],
+      "image": "img/parts/lithiumpowersports-tusk-recon-hybrid-aggressive-oem-replacement-tires-for-surron-segway-talaria.webp"
     },
     {
       "id": "pinnedelectric-arctic-leopard-xe-pro-r-rear-tire-100-90-18",
@@ -8552,7 +8569,9 @@
           "price_usd": 143.95,
           "vendor": "GritShift"
         }
-      ]
+      ],
+      "hidden": true,
+      "merged_into": "tire-dunlop-at82-geomax-all-terrain-terrain-tire"
     },
     {
       "id": "warp9racing-dunlop-geomax-en91-tire",
@@ -8702,7 +8721,8 @@
           "price_usd": 57.99,
           "buy_url": "https://warp9racing.com/products/dunlop-geomax-mx54-tire"
         }
-      ]
+      ],
+      "image": "img/parts/warp9racing-dunlop-geomax-mx54-tire.webp"
     },
     {
       "id": "wiredwhips-bridgestone-battlecross-x30-rear-tire-100-100-18-altis-omega",
@@ -9278,7 +9298,8 @@
           "price_usd": 305.99,
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_street-tire-set"
         }
-      ]
+      ],
+      "image": "img/parts/wiredwhips-oem-soleil01-street-tire-set-14-f-12-r-soleil01-street-tires.webp"
     },
     {
       "id": "wiredwhips-pirelli-scorpion-mx32-front-tire-80-100-21-altis-omega",
@@ -11554,17 +11575,6 @@
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
-      "bike_id": "ultrabee",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://sur-ron.co.uk/ultra-bee-hp-t-24-5kw-my26/",
-        "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
-      ],
-      "notes": "Only the 19\" diameter matches; tire sizes 2.75-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-kenda-k270-dualsport",
       "bike_id": "ss20",
       "status": "verify",
       "required_adapters": null,
@@ -11572,37 +11582,6 @@
         "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
       ],
       "notes": "E Ride Pro lists 2.75-19 front with 2.75-19 or 3.0-18 rear, while dealers list 70/100-19 and 80/100-19: sources conflict - verify before buying (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-kenda-k270-dualsport",
-      "bike_id": "ss30",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/e-ride-pro-ss-3-0-16kw-72v-electric-dirt-bike"
-      ],
-      "notes": "Full size 2.75-19 exactly matches the stock front tire on the ss30 (spec: https://chargedcycleworks.com/products/e-ride-pro-ss-3-0-16kw-72v-electric-dirt-bike) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-kenda-k270-dualsport",
-      "bike_id": "ss40",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/e-ride-pro-4-0-18kw-72v-electric-dirt-bike"
-      ],
-      "notes": "Full size 2.75-19 exactly matches the stock front tire on the ss40 (spec: https://chargedcycleworks.com/products/e-ride-pro-4-0-18kw-72v-electric-dirt-bike) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-kenda-k270-dualsport",
-      "bike_id": "sr",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/e-ride-pro-sr-25kw-with-72v50ah-battery",
-        "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
-      ],
-      "notes": "Only the 19\" diameter matches; tire sizes 2.75-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
@@ -11635,28 +11614,6 @@
         "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
       ],
       "notes": "Talaria lists two tire setups (70/100-21 / 90/100-18 and 80/100-21 / 110/90-18) - verify before buying (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-kenda-k270-dualsport",
-      "bike_id": "bonnell-805rx",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://ridebonnell.com/products/805",
-        "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245",
-        "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
-      ],
-      "notes": "CCW lists 3.00x21 front and 3.50x18 rear (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)"
-    },
-    {
-      "product_id": "tire-kenda-k270-dualsport",
-      "bike_id": "storm-bee",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
-      ],
-      "notes": "CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; K270 comes in 3.00x21 (= 80/100-21 stock front) and 4.00x18 (= 100/90-18 stock rear) - 4.00x18 variant out of stock at CCW on 2026-11-11 (checked 2026-11-11). Live URL kenda-k270-dual-sport-40-dirt-60-road"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
@@ -11846,27 +11803,6 @@
         "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
       ],
       "notes": "K270 has no 19-inch variant at CCW (18/21 only); cannot match stock 19/19 wheels - verify (checked 2026-11-11)"
-    },
-    {
-      "product_id": "tire-kenda-k270-dualsport",
-      "bike_id": "ultrabee-21kw",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
-      ],
-      "notes": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)"
-    },
-    {
-      "product_id": "tire-kenda-k270-dualsport",
-      "bike_id": "yvolt-surge-v",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://electricrideco.com/products/y-volt-surge-v-electric-dirt-bike",
-        "https://www.revzilla.com/motorcycle/kenda-k270-tires?vehicle_id=5290&facet_ids%5B0%5D=1245"
-      ],
-      "notes": "Only the 19\" diameter matches; tire sizes 2.75-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)"
     },
     {
       "product_id": "tire-kenda-k270-dualsport",
@@ -13203,16 +13139,6 @@
     },
     {
       "product_id": "tire-dunlop-mx34",
-      "bike_id": "rtr-lite-2-0",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-dunlop-mx34",
       "bike_id": "rtr-sport",
       "status": "confirmed_direct_fit",
       "required_adapters": null,
@@ -13240,16 +13166,6 @@
         "https://electroandcompany.com/pages/etm-rtr-xl"
       ],
       "notes": "Full size 70/100-17 exactly matches the stock front tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-dunlop-mx34",
-      "bike_id": "rtr-xl-alpha",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires?facet_ids%5B0%5D=1310"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
     },
     {
       "product_id": "tire-dunlop-mx34",
@@ -13932,16 +13848,6 @@
     },
     {
       "product_id": "tire-pirelli-mx32-midsoft",
-      "bike_id": "rtr-lite-2-0",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-pirelli-mx32-midsoft",
       "bike_id": "rtr-sport",
       "status": "confirmed_direct_fit",
       "required_adapters": null,
@@ -13969,16 +13875,6 @@
         "https://electroandcompany.com/pages/etm-rtr-xl"
       ],
       "notes": "Full size 70/100-17 exactly matches the stock front tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-pirelli-mx32-midsoft",
-      "bike_id": "rtr-xl-alpha",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires?facet_ids%5B0%5D=1310"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
     },
     {
       "product_id": "tire-pirelli-mx32-midsoft",
@@ -14189,26 +14085,6 @@
     },
     {
       "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "bonnell-805rx",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://ridebonnell.com/products/805"
-      ],
-      "notes": "Full size 80/100-21 exactly matches the stock front tire on the bonnell-805rx (spec: https://ridebonnell.com/products/805) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "storm-bee",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://surron.ca/fr/pages/storm-bee"
-      ],
-      "notes": "Full size 80/100-21 exactly matches the stock front tire on the storm-bee (spec: https://surron.ca/fr/pages/storm-bee) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
       "bike_id": "arctic-xd",
       "status": "verify",
       "required_adapters": null,
@@ -14278,96 +14154,6 @@
         "https://79bike.com/products/gt"
       ],
       "notes": "Full size 70/100-19 exactly matches the stock front tire on the falcon-gt (spec: https://79bike.com/products/gt) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "rtr-lite",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/etm-rtr-lite-electric-pit-bike"
-      ],
-      "notes": "Full size 60/100-14 exactly matches the stock front tire on the rtr-lite (spec: https://chargedcycleworks.com/products/etm-rtr-lite-electric-pit-bike) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "rtr-lite-2-0",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "rtr-sport",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-      ],
-      "notes": "DOWNGRADED confirmed -> verify: CCW variants are 70/100-19, 70/100-17 and 100/90-19 only, no 14\" size for the stock 14\" front wheel, so the old diameter-match confirm was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "rtr-alpha",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-      ],
-      "notes": "DOWNGRADED confirmed -> verify: CCW variants are 70/100-19, 70/100-17 and 100/90-19 only, no 14\" size for the stock 14\" front wheel, so the old diameter-match confirm was wrong (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "rtr-xl",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://electroandcompany.com/pages/etm-rtr-xl"
-      ],
-      "notes": "Full size 70/100-17 exactly matches the stock front tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "rtr-xl-alpha",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires?vehicle_id=39127&facet_ids%5B0%5D=1138"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "yozma-in10",
-      "status": "not_compatible",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-      ],
-      "notes": "CCW offers 70/100-19, 70/100-17 and 100/90-19 only; no 14in or 12in size for the IN10 (stock 14in/12in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "yozma-in10-pro",
-      "status": "not_compatible",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-      ],
-      "notes": "Rear tire; CCW offers 70/100-19, 70/100-17 and 100/90-19 only - no 14in rear size for the IN10 Pro (stock 14in rear wheel), and the 70/100-17 variant is a rear tire, not a front fit. The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "tuttio-soleil01",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike"
-      ],
-      "notes": "Full size 60/100-14 exactly matches the stock front tire on the tuttio-soleil01 (spec: https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike) (checked 2026-11-12)"
     },
     {
       "product_id": "tire-kenda-k760-trakmaster",
@@ -15060,16 +14846,6 @@
     },
     {
       "product_id": "tire-maxxis-mxsi",
-      "bike_id": "rtr-xl-alpha",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-maxxis-mxsi",
       "bike_id": "yozma-in10",
       "status": "not_compatible",
       "required_adapters": null,
@@ -15108,16 +14884,6 @@
         "https://www.starkfuture.com/en-us/varg-ex"
       ],
       "notes": "Full size 80/100-21 exactly matches the stock front tire on the stark-vargex (spec: https://www.starkfuture.com/en-us/varg-ex) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-maxxis-mxsi",
-      "bike_id": "altis-sigma",
-      "status": "confirmed_direct_fit",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://www.altispowersports.com/products/altis-sigma"
-      ],
-      "notes": "Full size 70/100-19 exactly matches the stock front tire on the altis-sigma (spec: https://www.altispowersports.com/products/altis-sigma) (checked 2026-11-12)"
     },
     {
       "product_id": "tire-maxxis-mxsi",
@@ -18586,16 +18352,6 @@
     },
     {
       "product_id": "tire-tusk-t35-front-ccw",
-      "bike_id": "rtr-lite-2-0",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-tusk-t35-front-ccw",
       "bike_id": "rtr-sport",
       "status": "confirmed_direct_fit",
       "required_adapters": null,
@@ -18623,16 +18379,6 @@
         "https://electroandcompany.com/pages/etm-rtr-xl"
       ],
       "notes": "Full size 70/100-17 exactly matches the stock front tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-tusk-t35-front-ccw",
-      "bike_id": "rtr-xl-alpha",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
     },
     {
       "product_id": "tire-tusk-t35-front-ccw",
@@ -20004,16 +19750,6 @@
     },
     {
       "product_id": "tire-bridgestone-m203-ccw",
-      "bike_id": "rtr-lite-2-0",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-bridgestone-m203-ccw",
       "bike_id": "rtr-sport",
       "status": "confirmed_direct_fit",
       "required_adapters": null,
@@ -20041,16 +19777,6 @@
         "https://electroandcompany.com/pages/etm-rtr-xl"
       ],
       "notes": "Full size 70/100-17 exactly matches the stock front tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-bridgestone-m203-ccw",
-      "bike_id": "rtr-xl-alpha",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
     },
     {
       "product_id": "tire-bridgestone-m203-ccw",
@@ -20357,16 +20083,6 @@
     },
     {
       "product_id": "tire-bridgestone-m204-ccw",
-      "bike_id": "rtr-lite-2-0",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-bridgestone-m204-ccw",
       "bike_id": "rtr-sport",
       "status": "confirmed_direct_fit",
       "required_adapters": null,
@@ -20394,16 +20110,6 @@
         "https://electroandcompany.com/pages/etm-rtr-xl"
       ],
       "notes": "Full size 90/100-14 exactly matches the stock rear tire on the rtr-xl (spec: https://electroandcompany.com/pages/etm-rtr-xl) (checked 2026-11-12)"
-    },
-    {
-      "product_id": "tire-bridgestone-m204-ccw",
-      "bike_id": "rtr-xl-alpha",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire"
-      ],
-      "notes": "no reliable stock tire spec found - verify before buying (checked 2026-11-12)"
     },
     {
       "product_id": "tire-bridgestone-m204-ccw",
@@ -23559,26 +23265,6 @@
       "notes": "CCW ALXEPROR tag only; verify 21in front / 18in rear variant before buying (checked 2026-11-11)."
     },
     {
-      "product_id": "tire-kenda-k270-dualsport",
-      "bike_id": "arctic-leopard-xe-pro-r",
-      "status": "verify",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
-      ],
-      "notes": "2.75x21 / 3.00x21 front and 3.50x18 / 4.00x18 rear variants fit the XE Pro R 21/18in wheels (not stock metric sizes); CCW ALXEPROR tag only, XE Pro R not named - verify variant before buying (checked 2026-11-11)."
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "arctic-leopard-xe-pro-r",
-      "status": "not_compatible",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-      ],
-      "notes": "No 21in or 18in variant (70/100-19, 70/100-17, 100/90-19 only) - cannot mount on the XE Pro R 21/18in wheels (checked 2026-11-11)."
-    },
-    {
       "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
       "bike_id": "arctic-leopard-xe-pro-r",
       "status": "verify",
@@ -23899,26 +23585,6 @@
       "notes": "CCW tags it ZXE; 100/100-18 rear fits the stock 18in wheel but is wider than the stock 90/90-18 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tire-ve33-rear-tire"
     },
     {
-      "product_id": "tire-kenda-k270-dualsport",
-      "bike_id": "zero-xe",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
-      ],
-      "notes": "CCW search-by-bike (ZXE tag) lists this part for the Zero XE; offers 2.75x21 (= stock 70/100-21 front) and 3.50x18 for the stock 21/18in wheels; the 2.75x21 variant is currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "zero-xe",
-      "status": "not_compatible",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-      ],
-      "notes": "CCW listing offers only 70/100-19, 70/100-17 and 100/90-19 \u2014 no size fits the Zero XE 21/18in wheels (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-    },
-    {
       "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
       "bike_id": "zero-xe",
       "status": "verify",
@@ -24131,16 +23797,6 @@
       "required_adapters": null,
       "fitment_source_urls": [],
       "notes": "CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only; no 17in or 14in size for the XF. (checked 2026-11-11)"
-    },
-    {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "arctic-leopard-xf",
-      "status": "verify",
-      "required_adapters": null,
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-      ],
-      "notes": "Rear tire; CCW offers a 70/100-17 variant matching the XF front rim diameter, but it is a rear-pattern tire - verify before buying. (checked 2026-11-11)"
     },
     {
       "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
@@ -24973,16 +24629,6 @@
       "notes": "CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only \u2014 no 14-inch or 12-inch size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road"
     },
     {
-      "product_id": "tire-kenda-k760-trakmaster",
-      "bike_id": "rawrr-mantis-mini-r",
-      "status": "verify",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-      ],
-      "notes": "CCW offers 70/100-17, the R17 front size \u2014 fits only with the R17 upsizing kit; no 14-inch stock-front size. All variants currently out of stock at CCW (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260"
-    },
-    {
       "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
       "bike_id": "rawrr-mantis-mini-r",
       "status": "verify",
@@ -25181,16 +24827,6 @@
         "https://pinnedelectric.com/pages/rx"
       ],
       "notes": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)"
-    },
-    {
-      "product_id": "chargedcycleworks-kenda-k760-trakmaster-rear-tire-70-100-17",
-      "bike_id": "altis-delta",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://www.altispowersports.com/products/altis-delta-tires"
-      ],
-      "notes": "Exact stock front size 70/100-17 (stock spec: https://www.altispowersports.com/products/altis-delta-tires). (checked Nov 11, 2026)"
     },
     {
       "product_id": "chargedcycleworks-michelin-enduro-medium-tire",
@@ -25470,17 +25106,6 @@
         "https://www.supermach.com/products/sm62-electric-dirt-bike"
       ],
       "notes": "Exact stock rear size 90/100-16 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)"
-    },
-    {
-      "product_id": "gritshift-dunlop-geomax-at82-tire",
-      "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://gritshift.com/products/dunlop-geomax-at82-tire",
-        "https://arctic-leopard-usa.com/products/xd-pro"
-      ],
-      "notes": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
     },
     {
       "product_id": "gritshift-dunlop-geomax-mx14-rear-tire",
@@ -28006,39 +27631,6 @@
       "notes": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
     },
     {
-      "product_id": "warp9racing-dunlop-geomax-at82-tire",
-      "bike_id": "altis-omega",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://warp9racing.com/products/dunlop-geomax-at82-tire",
-        "https://www.altispowersports.com/products/altis-omega"
-      ],
-      "notes": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
-    },
-    {
-      "product_id": "warp9racing-dunlop-geomax-at82-tire",
-      "bike_id": "arctic-xd",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://warp9racing.com/products/dunlop-geomax-at82-tire",
-        "https://arctic-leopard-usa.com/products/xd-pro"
-      ],
-      "notes": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
-    },
-    {
-      "product_id": "warp9racing-dunlop-geomax-at82-tire",
-      "bike_id": "rerode-rx",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://warp9racing.com/products/dunlop-geomax-at82-tire",
-        "https://pinnedelectric.com/pages/rx"
-      ],
-      "notes": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)"
-    },
-    {
       "product_id": "warp9racing-dunlop-geomax-en91-tire",
       "bike_id": "arctic-xd",
       "status": "confirmed_direct_fit",
@@ -29135,6 +28727,494 @@
         "https://pinnedelectric.com/pages/rx"
       ],
       "notes": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "arctic-leopard-xe-pro-s",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://arctic-leopard-usa.com/pages/arctic-leopard-xe-pro-s"
+      ],
+      "notes": "Kenda lists the K760 in 70/100-19 FRONT and 90/100-16 REAR, both exact XE Pro S stock sizes (70/100-19 / 90/100-16, Arctic Leopard spec). CCW and RevZilla sell the 70/100-19; RevZilla sells the 90/100-16. Replaces the Nov 16 \"rear-pattern tire\" note: Kenda designates 70/100-19 as a front size (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "arctic-leopard-xe-pro-s-enduro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://arctic-leopard.com/produit/xe-pro-s-enduro/"
+      ],
+      "notes": "Front only: Kenda lists the K760 in 80/100-21 FRONT, the exact stock front size (80/100-21, Arctic Leopard spec), and RevZilla sells it (CCW does not). No 100/90-18 rear size exists. Replaces the old \"no 21in size\" not_compatible, which only looked at CCW (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://arctic-leopard-usa.com/pages/xe-pro-r"
+      ],
+      "notes": "Front only: Kenda lists the K760 in 80/100-21 FRONT, the exact stock front size (80/100-21, Arctic Leopard spec), and RevZilla sells it (CCW does not). No 100/90-18 rear size exists. Replaces the old \"no 21in size\" not_compatible, which only looked at CCW (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "arctic-leopard-xf",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://arctic-leopard.com/produit/xf-pro/"
+      ],
+      "notes": "Kenda lists the K760 in 70/100-17 FRONT and 90/100-14 REAR, both exact XF stock sizes (70/100-17 / 90/100-14). CCW and RevZilla sell the 70/100-17; RevZilla sells the 90/100-14 (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "rtr-sport",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://chargedcycleworks.com/products/etm-rtr-electric-pit-bike"
+      ],
+      "notes": "Rear: Kenda lists the K760 in 80/100-12 REAR, the exact stock rear size (stock 60/100-14 front / 80/100-12 rear), sold by RevZilla. Kenda also lists a 60/100-14 FRONT, but RevZilla labels that size \"Rear\", so use this listing for the rear tire (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "rtr-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://chargedcycleworks.com/products/etm-rtr-alpha-the-worlds-fastest-electric-pit-bike"
+      ],
+      "notes": "Rear: Kenda lists the K760 in 80/100-12 REAR, the exact stock rear size (stock 60/100-14 front / 80/100-12 rear), sold by RevZilla. Kenda also lists a 60/100-14 FRONT, but RevZilla labels that size \"Rear\", so use this listing for the rear tire (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "rtr-lite",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://chargedcycleworks.com/products/etm-rtr-lite-electric-pit-bike"
+      ],
+      "notes": "Rear: Kenda lists the K760 in 80/100-12 REAR, the exact stock rear size (stock 60/100-14 front / 80/100-12 rear), sold by RevZilla. Kenda also lists a 60/100-14 FRONT, but RevZilla labels that size \"Rear\", so use this listing for the rear tire (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "rtr-lite-2-0",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://electroandcompany.com/products/etm-rtr-lite-2-0"
+      ],
+      "notes": "Rear: Kenda lists the K760 in 80/100-12 REAR, the exact stock rear size (stock 60/100-14 front / 80/100-12 rear), sold by RevZilla. Kenda also lists a 60/100-14 FRONT, but RevZilla labels that size \"Rear\", so use this listing for the rear tire (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "tuttio-soleil01",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike"
+      ],
+      "notes": "Rear: Kenda lists the K760 in 80/100-12 REAR, the exact stock rear size (stock 60/100-14 front / 80/100-12 rear), sold by RevZilla. Kenda also lists a 60/100-14 FRONT, but RevZilla labels that size \"Rear\", so use this listing for the rear tire (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "rtr-xl",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://electroandcompany.com/pages/etm-rtr-xl"
+      ],
+      "notes": "Kenda lists the K760 in 70/100-17 FRONT and 90/100-14 REAR, both exact stock sizes (70/100-17 / 90/100-14, Electro & Co spec). CCW and RevZilla sell the 70/100-17; RevZilla sells the 90/100-14 (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "rtr-xl-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest"
+      ],
+      "notes": "Kenda lists the K760 in 70/100-17 FRONT and 90/100-14 REAR, both exact stock sizes (70/100-17 / 90/100-14, Electro & Co spec). CCW and RevZilla sell the 70/100-17; RevZilla sells the 90/100-14 (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "rawrr-mantis-mini-r",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://rawrr.co.nz/products/rawrr-mantis-mini-r"
+      ],
+      "notes": "Kenda lists a 60/100-14 FRONT K760, the exact Mini R stock front size, but the only store with that size (RevZilla) labels it \"Rear\" - verify the size and position before buying. No 2.75-12 rear size (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "yozma-in10",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://yozmasport.com/products/in-10"
+      ],
+      "notes": "No published full tire sizes for the IN10 on file (14in front / 12in rear only). The K760 does come in 60/100-14 and 80/100-12 (RevZilla), so the wheel diameters match - verify the exact size before buying. Replaces the old \"no 14in or 12in size\" not_compatible, which only looked at CCW (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "yozma-in10-pro",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
+        "https://www.yozmabike.com.au/products/in-10-pro"
+      ],
+      "notes": "No published full tire sizes for the IN10 Pro on file (17in front / 14in rear only). The K760 comes in 70/100-17 front and 90/100-14 rear sizes, so the wheel diameters match - verify the exact size before buying (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires"
+      ],
+      "notes": "CCW gives the Zero XE stock front as 70/100-21; the K760 21in sizes are 80/100-21 and 90/90-21 (RevZilla), and no Zero XE rear size is on file, so no exact match can be confirmed - verify. Replaces the old \"no 21in size\" not_compatible, which only looked at CCW (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://surron.ca/fr/pages/storm-bee"
+      ],
+      "notes": "Front only: Kenda lists the K760 in 80/100-21 FRONT, the exact stock front size, sold by RevZilla (CCW does not stock 21in). No 100/90-18 rear size (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k760-trakmaster",
+      "bike_id": "bonnell-805rx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.revzilla.com/motorcycle/kenda-k-760-trakmaster-ii-tires",
+        "https://ridebonnell.com/products/805"
+      ],
+      "notes": "Front only: Kenda lists the K760 in 80/100-21 FRONT, the exact stock front size, sold by RevZilla (CCW does not stock 21in). No 100/90-18 rear size (checked 2026-11-26)."
+    },
+    {
+      "product_id": "chargedcycleworks-kenda-k760-trakmaster-rear-tire-70-100-17",
+      "bike_id": "altis-delta",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260",
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k760-trakmaster/",
+        "https://www.altispowersports.com/products/altis-delta"
+      ],
+      "notes": "Front only: Kenda designates the K760 70/100-17 as a FRONT size (CCW titles the listing \"REAR\"), and it is the exact Altis Delta stock front size (Altis spec: 70/100-17 front, 90/100-14 rear) (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "ss30",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k270-dual-sport/",
+        "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road",
+        "https://www.revzilla.com/motorcycle/kenda-k270-tires",
+        "https://chargedcycleworks.com/products/e-ride-pro-ss-3-0-16kw-72v-electric-dirt-bike"
+      ],
+      "notes": "Kenda makes a 2.75-19 FRONT K270 (the stock front size), but neither store here sells it (CCW: 2.75-21, 3.00-21, 3.50-18, 4.00-18; RevZilla 18/21/14in sizes). The 18in rear sizes (3.50-18, 4.00-18, 100/90-18) are not the stock 3.00-18 - verify. The old \"2.75-19 exact match\" confirm was wrong (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "ss40",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k270-dual-sport/",
+        "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road",
+        "https://www.revzilla.com/motorcycle/kenda-k270-tires",
+        "https://chargedcycleworks.com/products/e-ride-pro-4-0-18kw-72v-electric-dirt-bike"
+      ],
+      "notes": "Kenda makes a 2.75-19 FRONT K270 (the stock front size), but neither store here sells it (CCW: 2.75-21, 3.00-21, 3.50-18, 4.00-18; RevZilla 18/21/14in sizes). The 18in rear sizes (3.50-18, 4.00-18, 100/90-18) are not the stock 3.00-18 - verify. The old \"2.75-19 exact match\" confirm was wrong (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "ultrabee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k270-dual-sport/",
+        "https://www.revzilla.com/motorcycle/kenda-k270-tires",
+        "https://sur-ron.co.uk/ultra-bee-hp-t-24-5kw-my26/"
+      ],
+      "notes": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "ultrabee-21kw",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k270-dual-sport/",
+        "https://www.revzilla.com/motorcycle/kenda-k270-tires",
+        "https://go4emobility.com/products/sur-ron-ultrabee-2025"
+      ],
+      "notes": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k270-dual-sport/",
+        "https://www.revzilla.com/motorcycle/kenda-k270-tires",
+        "https://chargedcycleworks.com/products/e-ride-pro-sr-25kw-with-72v50ah-battery"
+      ],
+      "notes": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "yvolt-surge-v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k270-dual-sport/",
+        "https://www.revzilla.com/motorcycle/kenda-k270-tires",
+        "https://electricrideco.com/products/y-volt-surge-v-electric-dirt-bike"
+      ],
+      "notes": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k270-dual-sport/",
+        "https://www.revzilla.com/motorcycle/kenda-k270-tires",
+        "https://surron.ca/fr/pages/storm-bee"
+      ],
+      "notes": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "bonnell-805rx",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k270-dual-sport/",
+        "https://www.revzilla.com/motorcycle/kenda-k270-tires",
+        "https://ridebonnell.com/products/805"
+      ],
+      "notes": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "arctic-leopard-xe-pro-s-enduro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k270-dual-sport/",
+        "https://www.revzilla.com/motorcycle/kenda-k270-tires",
+        "https://arctic-leopard.com/produit/xe-pro-s-enduro/"
+      ],
+      "notes": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "arctic-leopard-xe-pro-r",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k270-dual-sport/",
+        "https://www.revzilla.com/motorcycle/kenda-k270-tires",
+        "https://arctic-leopard-usa.com/pages/xe-pro-r"
+      ],
+      "notes": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-maxxis-mxsi",
+      "bike_id": "altis-sigma",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front",
+        "https://www.altispowersports.com/products/altis-sigma"
+      ],
+      "notes": "The 70/100-19 is sold as a REAR size (CCW \"Maxxcross Intermediate Rear Tire\"; RevZilla lists 70/100-19 under rear), so it does not match the Sigma 70/100-19 FRONT by position; no 90/100-18 rear size (Altis: 70/100-19 front, 90/100-18 rear) - verify (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-kenda-k270-dualsport",
+      "bike_id": "zero-xe",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road",
+        "https://powersports.kendatire.com/en-us/find-a-tire/motorcyclescooter/dual-sportadventure/k270-dual-sport/"
+      ],
+      "notes": "CCW lists this tire for the Zero XE (ZXE tag), but its 2.75x21 variant is an inch size, not the 70/100-21 stock front CCW names, and no Zero XE rear size is on file - inch sizes do not count as an exact match, so verify. The old \"2.75x21 = 70/100-21\" confirm was wrong (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-dunlop-mx34",
+      "bike_id": "rtr-lite-2-0",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-lite-2-0",
+        "https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires",
+        "https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires"
+      ],
+      "notes": "Sold in 60/100-14 and 80/100-12, both exact stock sizes (Electro & Co spec: RTR Lite 2.0 runs 60/100-14 front / 80/100-12 rear) (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-pirelli-mx32-midsoft",
+      "bike_id": "rtr-lite-2-0",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-lite-2-0",
+        "https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires"
+      ],
+      "notes": "Sold in 60/100-14 front and 80/100-12, both exact stock sizes (Electro & Co spec: RTR Lite 2.0 runs 60/100-14 front / 80/100-12 rear) (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-bridgestone-m203-ccw",
+      "bike_id": "rtr-lite-2-0",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-lite-2-0",
+        "https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate"
+      ],
+      "notes": "Front: sold in 60/100-14, the exact stock front size (Electro & Co spec: RTR Lite 2.0 runs 60/100-14 front / 80/100-12 rear) (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-bridgestone-m204-ccw",
+      "bike_id": "rtr-lite-2-0",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-lite-2-0",
+        "https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire"
+      ],
+      "notes": "Rear: sold in 80/100-12, the exact stock rear size (Electro & Co spec: RTR Lite 2.0 runs 60/100-14 front / 80/100-12 rear) (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-tusk-t35-front-ccw",
+      "bike_id": "rtr-lite-2-0",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-lite-2-0",
+        "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
+      ],
+      "notes": "Front: sold in 60/100-14, the exact stock front size (Electro & Co spec: RTR Lite 2.0 runs 60/100-14 front / 80/100-12 rear) (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-dunlop-mx34",
+      "bike_id": "rtr-xl-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest",
+        "https://chargedcycleworks.com/products/dunlop-mx34-geomax-soft-int-terrain-tires",
+        "https://www.revzilla.com/motorcycle/dunlop-geomax-mx34-tires"
+      ],
+      "notes": "Sold in 70/100-17 and 90/100-14, both exact stock sizes (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-pirelli-mx32-midsoft",
+      "bike_id": "rtr-xl-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest",
+        "https://www.revzilla.com/motorcycle/pirelli-scorpion-mxms-tires"
+      ],
+      "notes": "Sold in 70/100-17 front and 90/100-14 rear, both exact stock sizes (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-bridgestone-m203-ccw",
+      "bike_id": "rtr-xl-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest",
+        "https://chargedcycleworks.com/en-ca/products/bridgestone-m203-front-tire-soft-intermediate"
+      ],
+      "notes": "Front: sold in 70/100-17, the exact stock front size (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-bridgestone-m204-ccw",
+      "bike_id": "rtr-xl-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest",
+        "https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire"
+      ],
+      "notes": "Rear: sold in 90/100-14, the exact stock rear size (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-tusk-t35-front-ccw",
+      "bike_id": "rtr-xl-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest",
+        "https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire"
+      ],
+      "notes": "Front: sold in 70/100-17, the exact stock front size (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26)."
+    },
+    {
+      "product_id": "tire-maxxis-mxsi",
+      "bike_id": "rtr-xl-alpha",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest",
+        "https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front",
+        "https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires"
+      ],
+      "notes": "Sold in 70/100-17 and 90/100-14 rear, both exact stock sizes (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26)."
     }
   ]
 }
