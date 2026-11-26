@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Print top viewed bikes/parts and top clicked buy links from the
+"""Print top viewed bikes/parts, top clicked buy links, and buy clicks per
+part / store / bike from the
 ebpp_clicks Analytics Engine dataset (no personal data).
 
 Preferred (once Pages secrets are set):
@@ -83,11 +84,25 @@ LIMIT 25""")
     clicks = ae_sql(account, token, f"""SELECT blob1 AS host, blob2 AS path, SUM(_sample_interval) AS count
 FROM {DATASET}
 WHERE timestamp > NOW() - INTERVAL '{days}' DAY
-  AND index1 != 'view' AND blob1 != 'view'
+  AND index1 != 'view' AND index1 != 'buy' AND blob1 != 'view' AND blob1 != 'buy'
 GROUP BY blob1, blob2
 ORDER BY count DESC
 LIMIT 25""")
-    return {"ok": True, "days": days, "top_views": views, "top_bikes": bikes, "top_parts": parts, "top_buy_clicks": clicks}
+    def buy(expr, names):
+        cols = [c.strip() for c in expr.split(",")]
+        al = [n.strip() for n in names.split(",")]
+        sel = ", ".join(f"{c} AS {a}" for c, a in zip(cols, al))
+        rows = ae_sql(account, token, f"""SELECT {sel}, SUM(_sample_interval) AS clicks
+FROM {DATASET}
+WHERE timestamp > NOW() - INTERVAL '{days}' DAY
+  AND index1 = 'buy' AND blob1 = 'buy'
+GROUP BY {", ".join(cols)}
+ORDER BY clicks DESC
+LIMIT 50""")
+        return [{**{a: r.get(a) or "" for a in al}, "clicks": int(float(r.get("clicks") or 0))} for r in rows]
+    return {"ok": True, "days": days, "top_views": views, "top_bikes": bikes, "top_parts": parts, "top_buy_clicks": clicks,
+            "buy_clicks_by_part": buy("blob2", "part"), "buy_clicks_by_store": buy("blob3", "store"),
+            "buy_clicks_by_part_store": buy("blob2, blob3", "part, store"), "buy_clicks_by_bike": buy("blob4", "bike")}
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -116,7 +131,19 @@ def main():
     print_table("Top viewed pages", data.get("top_views") or [], "page", "kind")
     print_table("Top viewed bikes", data.get("top_bikes") or [], "page", "kind")
     print_table("Top viewed parts", data.get("top_parts") or [], "page", "kind")
-    print_table("Top clicked buy links", data.get("top_buy_clicks") or [], "host", "path")
+    print_table("Top clicked buy links (legacy host/path, track.js)", data.get("top_buy_clicks") or [], "host", "path")
+    def table2(title, rows, *keys):
+        print(f"\n{title}")
+        if not rows:
+            print("  (none yet)")
+            return
+        for r in rows:
+            label = "  ".join((r.get(k) or "(unmatched)") if k == keys[0] else (r.get(k) or "-") for k in keys)
+            print(f"  {r.get('clicks', 0):>6}  {label}")
+    table2("Buy clicks by part", data.get("buy_clicks_by_part"), "part")
+    table2("Buy clicks by store", data.get("buy_clicks_by_store"), "store")
+    table2("Buy clicks by part + store", data.get("buy_clicks_by_part_store"), "part", "store")
+    table2("Buy clicks by bike", data.get("buy_clicks_by_bike"), "bike")
 
 if __name__ == "__main__":
     main()
