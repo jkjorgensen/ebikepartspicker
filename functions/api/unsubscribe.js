@@ -1,7 +1,12 @@
-// Price-alert unsubscribe. Token is HMAC-signed (ALERT_RUN_TOKEN) so the URL cannot be guessed.
-// GET: delete the alert key and show a short confirmation page.
+// Alert unsubscribe. Token is HMAC-signed (ALERT_RUN_TOKEN) so the URL cannot be guessed.
+// Token targets:
+//   <bikeId>             legacy bike price alert link: deletes alert:<email>:<bike> (and w:<email>:bike_price:<bike>)
+//   w:<kind>[:<target>]  one watch from the merged signup: deletes w:<email>:<kind>[:<target>]
+//   *                    everything: sets sub:<email>.unsub_all and deletes all w:<email>:* and legacy alert:<email>:* keys
+// GET: unsubscribe and show a short confirmation page.
 // POST: one-click unsubscribe (RFC 8058); 200 with an empty body.
 import { readUnsubToken, alertKey } from '../_lib/unsub-token.js';
+import { subKey, kvGet, kvPut, kvListAll } from '../_lib/alerts.js';
 
 const page = (title, body) => new Response(`<!doctype html>
 <html lang="en"><head>
@@ -26,8 +31,22 @@ async function unsub(env, token) {
   if (!env.FORMS) return { ok: false, reason: 'storage' };
   const rec = await readUnsubToken(env.ALERT_RUN_TOKEN, token);
   if (!rec) return { ok: false, reason: 'invalid' };
-  await env.FORMS.delete(alertKey(rec.email, rec.bike));
-  return { ok: true, bike: rec.bike };
+  const email = rec.email, target = rec.bike;
+  if (target.startsWith('confirm:')) return { ok: false, reason: 'invalid' };
+  if (target === '*') {
+    const sub = await kvGet(env, subKey(email));
+    if (sub && !sub.unsub_all) { sub.unsub_all = true; sub.unsub_at = new Date().toISOString(); await kvPut(env, subKey(email), sub); }
+    for (const k of [...await kvListAll(env, `w:${email}:`), ...await kvListAll(env, `alert:${email}:`)]) await env.FORMS.delete(k.name);
+    return { ok: true, what: 'all' };
+  }
+  if (target.startsWith('w:')) {
+    await env.FORMS.delete(`w:${email}:${target.slice(2)}`);
+    if (target.startsWith('w:bike_price:')) await env.FORMS.delete(alertKey(email, target.slice(13)));
+    return { ok: true, what: 'one' };
+  }
+  await env.FORMS.delete(alertKey(email, target));
+  await env.FORMS.delete(`w:${email}:bike_price:${target}`);
+  return { ok: true, what: 'one' };
 }
 
 export async function onRequestGet({ request, env }) {
@@ -36,7 +55,10 @@ export async function onRequestGet({ request, env }) {
   if (!r.ok) {
     return page('Unsubscribe link invalid', '<p>This unsubscribe link is invalid or has already been used.</p><p><a href="https://ebikepartspicker.net/">Back to eBikePartsPicker</a></p>');
   }
-  return page('You are unsubscribed', '<p>You will no longer get price-alert emails for that bike from eBikePartsPicker.</p><p><a href="https://ebikepartspicker.net/">Back to eBikePartsPicker</a></p>');
+  const msg = r.what === 'all'
+    ? 'You will no longer get any alert emails from eBikePartsPicker.'
+    : 'You will no longer get that alert from eBikePartsPicker. Any other alerts you signed up for stay on, and every email has a link to stop them all.';
+  return page('You are unsubscribed', `<p>${msg}</p><p><a href="https://ebikepartspicker.net/">Back to eBikePartsPicker</a></p>`);
 }
 
 export async function onRequestPost({ request, env }) {
