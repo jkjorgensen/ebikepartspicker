@@ -725,6 +725,12 @@ def main() -> int:
                 return 3
             open(DATA_JS, "w", encoding="utf-8").write(new_text)
             log(f"applied updates to {nobj} part objects in data.js. Rebuild SEO pages before deploying.")
+            # keep data/parts.json (read by /api/alerts-run for price/stock alerts) in sync with data.js
+            try:
+                import subprocess
+                subprocess.run(["node", os.path.join(ROOT, "scripts", "build_parts_json.mjs")], check=True)
+            except Exception as e:  # never fail the stock refresh over this
+                log(f"warning: data/parts.json not regenerated ({e}); run: node scripts/build_parts_json.mjs")
         else:
             log("apply: no text changes")
     else:
