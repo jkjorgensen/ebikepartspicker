@@ -9,14 +9,14 @@ JS=r"""()=>{
    const parts=[];
    CATEGORIES.forEach(c=>c.options.forEach(o=>{ if(!o.pid||o.hidden) return; const f=checkFit(b.id,o); if(f.status!=='confirmed'&&f.status!=='requires_mod') return;
      const bp=best(o); parts.push({cat:c.id,pid:o.pid,name:o.name,status:f.status,note:(f.reasons||[''])[0],img:o.img||'',stock:o.stock||'',
-       price:bp?{v:bp.v,p:bp.p,url:bp.url,aff:!!bp.aff,chk:bp.chk||''}:null}); }));
+       price:bp?Object.assign({v:bp.v,p:bp.p,url:bp.url,aff:!!bp.aff,chk:bp.chk||''},bp.was!=null?{was:bp.was,wasChk:bp.wasChk||''}:{}):null}); }));
    out.bikes.push({id:b.id,name:b.name,price:b.price,src:b.src,msrp:b.msrp||null,srcUrl:b.srcUrl||'',srcChk:b.srcChk||'',weight:b.weight,kw:b.kw,size:b.size,sparse:!!b.sparse,parts});
  });
  GUIDES.forEach(g=>{const r=resolveGuide(g); if(r.issues.length) return;
    out.guides.push({bike:g.bike,tier:g.tier,name:g.name,blurb:g.blurb,pros:g.pros,cons:g.cons,power:g.power||null,
-     rows:r.rows.map(x=>({cat:x.cat.name,pid:x.opt.pid,name:x.opt.name,img:x.opt.img||'',p:x.bp.p,v:x.bp.v,url:x.bp.url,aff:!!x.bp.aff,chk:x.bp.chk}))});});
+     rows:r.rows.map(x=>Object.assign({cat:x.cat.name,pid:x.opt.pid,name:x.opt.name,img:x.opt.img||'',p:x.bp.p,v:x.bp.v,url:x.bp.url,aff:!!x.bp.aff,chk:x.bp.chk},x.bp.was!=null?{was:x.bp.was,wasChk:x.bp.wasChk||''}:{}))});});
  (window.POWER||[]).forEach(pw=>{const r=resolveGuide({bike:pw.bike,pids:pw.pids}); if(r.issues.length) return;
-   out.power.push({bike:pw.bike,title:pw.title||pw.name||'',rows:r.rows.map(x=>({cat:x.cat.name,name:x.opt.name,p:x.bp.p,v:x.bp.v,url:x.bp.url,aff:!!x.bp.aff,chk:x.bp.chk}))});});
+   out.power.push({bike:pw.bike,title:pw.title||pw.name||'',rows:r.rows.map(x=>Object.assign({cat:x.cat.name,name:x.opt.name,p:x.bp.p,v:x.bp.v,url:x.bp.url,aff:!!x.bp.aff,chk:x.bp.chk},x.bp.was!=null?{was:x.bp.was,wasChk:x.bp.wasChk||''}:{}))});});
  return out;}"""
 with sync_playwright() as p:
   b=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-sandbox']);pg=b.new_page()
