@@ -1588,7 +1588,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/chargedcycleworks-tmb-adjustable-footpeg-mounts-arctic-leopard-xe-pro-vetra.webp"
     },
     {
       "id": "pegs-warp9-zero-xe-elite-foot-pegs",
@@ -2834,36 +2834,6 @@
       "status": "verify"
     },
     {
-      "bike_id": "ss20",
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
-      ],
-      "notes": "From data.js likely list (no FITMENT note)",
-      "product_id": "warp9-pegs-lbx-ventus",
-      "required_adapters": null,
-      "status": "verify"
-    },
-    {
-      "bike_id": "ss30",
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
-      ],
-      "notes": "From data.js likely list (no FITMENT note)",
-      "product_id": "warp9-pegs-lbx-ventus",
-      "required_adapters": null,
-      "status": "verify"
-    },
-    {
-      "bike_id": "sr",
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway"
-      ],
-      "notes": "From data.js likely list (no FITMENT note)",
-      "product_id": "warp9-pegs-lbx-ventus",
-      "required_adapters": null,
-      "status": "verify"
-    },
-    {
       "product_id": "chargedcycleworks-warp9-foot-pegs-for-surron-segway",
       "bike_id": "lightbee2",
       "status": "confirmed_direct_fit",
@@ -3846,6 +3816,74 @@
         "https://chargedcycleworks.com/products/talaria-xxx-x3-oem-right-foot-peg-mount"
       ],
       "notes": "CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-xxx-x3-oem-right-foot-peg-mount"
+    },
+    {
+      "product_id": "warp9-pegs-lbx-ventus",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/warp-9-foot-pegs-e-bike",
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway",
+        "https://warp9racing.com/products/surron-foot-pegs"
+      ],
+      "notes": "GritShift fitment text names \"E Ride Pro-S / SS / 2.0 / 3.0 / 4.0 / SR\"; CCW title names the E Ride Pro and lists it for the 2.0 (tag ERPSS2); Warp 9 fitment says \"E-Ride Pro models\" (checked 2026-11-26)."
+    },
+    {
+      "product_id": "warp9-pegs-lbx-ventus",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/warp-9-foot-pegs-e-bike",
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway",
+        "https://warp9racing.com/products/surron-foot-pegs"
+      ],
+      "notes": "GritShift fitment text names \"E Ride Pro-S / SS / 2.0 / 3.0 / 4.0 / SR\"; CCW title names the E Ride Pro and lists it for the 3.0 (tag ERPSS3); Warp 9 fitment says \"E-Ride Pro models\" (checked 2026-11-26)."
+    },
+    {
+      "product_id": "warp9-pegs-lbx-ventus",
+      "bike_id": "sr",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/warp-9-foot-pegs-e-bike",
+        "https://chargedcycleworks.com/products/warp9-foot-pegs-for-surron-segway",
+        "https://warp9racing.com/products/surron-foot-pegs"
+      ],
+      "notes": "GritShift fitment text names \"E Ride Pro-S / SS / 2.0 / 3.0 / 4.0 / SR\"; CCW title names the E Ride Pro and lists it for the SR (tag ERPSR); Warp 9 fitment says \"E-Ride Pro models\" (checked 2026-11-26)."
+    },
+    {
+      "product_id": "warp9-pegs-lbx-ventus",
+      "bike_id": "falcon-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/warp-9-foot-pegs-e-bike",
+        "https://warp9racing.com/products/surron-foot-pegs"
+      ],
+      "notes": "GritShift fitment text names \"79Bike Falcon Pro / GT\"; Warp 9 fitment says \"79 Bike Falcon models\" (checked 2026-11-26)."
+    },
+    {
+      "product_id": "warp9-pegs-lbx-ventus",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://gritshift.com/products/warp-9-foot-pegs-e-bike",
+        "https://warp9racing.com/products/surron-foot-pegs"
+      ],
+      "notes": "GritShift fitment text names \"79Bike Falcon Pro / GT\"; Warp 9 fitment says \"79 Bike Falcon models\" (checked 2026-11-26)."
+    },
+    {
+      "product_id": "warp9-pegs-lbx-ventus",
+      "bike_id": "yvolt-surge-v",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://warp9racing.com/products/surron-foot-pegs"
+      ],
+      "notes": "Warp 9 (maker) listing names the \"Surge V\" (checked 2026-11-26)."
     }
   ]
 }

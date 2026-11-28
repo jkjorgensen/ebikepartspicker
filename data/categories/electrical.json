@@ -2701,7 +2701,9 @@
           "price_usd": 22.99,
           "buy_url": "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses"
         }
-      ]
+      ],
+      "hidden": true,
+      "merged_into": "chargedcycleworks-high-voltage-fuse-kit-replacement-fuses"
     },
     {
       "id": "revrides-altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports",
@@ -4626,16 +4628,6 @@
       "notes": "CCW fitment list names Arctic Leopard XE PRO / PRO S (checked 2026-11-11)."
     },
     {
-      "product_id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
-      "bike_id": "falcon-gt",
-      "status": "confirmed_direct_fit",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
-      ],
-      "notes": "CCW fitment text names the 79Bike Falcon GT (Ventus) (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
-    },
-    {
       "product_id": "chargedcycleworks-rawrr-mantis-mini-magnetic-switch",
       "bike_id": "rawrr-mantis-mini-r",
       "status": "confirmed_direct_fit",
@@ -4829,17 +4821,6 @@
         "https://gritshift.com/products/electro-co-razor-display-kit-ultimate-etm-2-0-extreme-kits"
       ],
       "notes": "Fitment list on product page names the bike: \"...r Kit Razor MX500 / MX650 / SX500 with E&amp;C V2 Fork Kit Tuttio Soleil 01 (order the Ultimate 3.0 option) NO...\" (checked Nov 11, 2026)"
-    },
-    {
-      "product_id": "gritshift-high-voltage-fuse-kit-replacement-fuses",
-      "bike_id": "rerode-rx",
-      "status": "verify",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://gritshift.com/products/high-voltage-fuse-kit-replacement-fuses",
-        "https://gritshift.com/collections/rerode-rx-parts"
-      ],
-      "notes": "WEAK: collection includes items that cannot fit (e.g. 19\" front tires on a 21\" bike) \u2014 Listed in GritShift \"ReRode RX Parts\" collection; product page does not name the RX. (checked Nov 11, 2026)"
     },
     {
       "product_id": "revrides-altis-delta-key-ignition-oem-ignition-switch-keys-by-altis-powersports",
@@ -5269,17 +5250,6 @@
     },
     {
       "product_id": "vtb-aetos-gen2-harness-kit",
-      "bike_id": "falcon-gt",
-      "status": "verify",
-      "required_adapters": [],
-      "fitment_source_urls": [
-        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits",
-        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
-      ],
-      "notes": "See data.js FITMENT (MUSE research corrections 2026-11-16)"
-    },
-    {
-      "product_id": "vtb-aetos-gen2-harness-kit",
       "bike_id": "ss40",
       "status": "verify",
       "required_adapters": [],
@@ -5608,6 +5578,87 @@
         "https://chargedcycleworks.com/products/nfc-sensor"
       ],
       "notes": "CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/nfc-sensor"
+    },
+    {
+      "product_id": "vtb-aetos-gen2-harness-kit",
+      "bike_id": "falcon-gt",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://tbelectricmoto.com/products/ventus-aetos-harness-kits",
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "TB Electric Moto (the store linked here) sells a 79Bike Falcon Pro variant and says it \"does not fit Falcon GT\". CCW sells a separate \"79 Bike Falcon GT\" variant - that is the \"Ventus VTB V9600 Gen.2 Wiring Harness 1.7\" listing. Do not buy the TB Electric Moto kit for a Falcon GT (checked 2026-11-26)."
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "bike_id": "ss20",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "CCW variant and fitment text \"Eride Pro 2.0/3.0/SR\" name the E Ride Pro SS 2.0; CCW search-by-bike tag ERPSS2. Pick the E-Ride Pro variant (checked 2026-11-26)."
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "bike_id": "ss30",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "CCW variant and fitment text \"Eride Pro 2.0/3.0/SR\" name the E Ride Pro SS 3.0; CCW search-by-bike tag ERPSS3. Pick the E-Ride Pro variant (checked 2026-11-26)."
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "bike_id": "lightbee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "CCW sells a \"Light Bee\" variant and its fitment text lists \"Light Bee\"; CCW search-by-bike tags SURLBX/SURLBS. Pick the Light Bee variant (checked 2026-11-26)."
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "bike_id": "mx4",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "CCW sells a \"Talaria Sting\" variant and its fitment text lists \"Talaria Sting\"; CCW search-by-bike tag TALMX4. Pick the Talaria Sting variant (checked 2026-11-26)."
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "bike_id": "mx5",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "CCW sells a \"Talaria Sting\" variant and its fitment text lists \"Talaria Sting\"; CCW search-by-bike tag TALMX5. Pick the Talaria Sting variant (checked 2026-11-26)."
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "bike_id": "falcon-gt",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "CCW sells a dedicated \"79 Bike Falcon GT\" variant and its fitment text names \"79 Bike Falcon GT (Ventus)\". Pick the Falcon GT variant (TB Electric Moto's 79Bike kit does not fit the GT) (checked 2026-11-26)."
+    },
+    {
+      "product_id": "chargedcycleworks-ventus-vtb-v9600-gen-2-wiring-harness-1-7",
+      "bike_id": "falcon-pro",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
+      ],
+      "notes": "CCW sells a \"79 Bike Falcon PRO\" variant and its fitment text names \"79 Bike Falcon PRO (Ventus)\". Pick the Falcon PRO variant (checked 2026-11-26)."
     }
   ]
 }

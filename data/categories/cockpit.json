@@ -625,7 +625,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/cockpit-bonnell-805-rx-grip-set.webp"
     },
     {
       "id": "cockpit-bonnell-805-rx-large-handlebar-pad",
@@ -1599,7 +1599,7 @@
       ],
       "last_checked": "2026-11-11",
       "notes": "CCW search-by-bike (Mantis X tag) lists this part for the Rawrr Mantis X (checked Nov 11, 2026).",
-      "image": null
+      "image": "img/parts/chargedcycleworks-warp9-transformer-direct-bar-mount-stem.webp"
     },
     {
       "id": "chargedcycleworks-kyvex-billet-bar-mount-riser",
@@ -1704,8 +1704,8 @@
       "is_upgrade": false,
       "source_urls": [
         "https://chargedcycleworks.com/products/arctic-leopard-xe-left-hand-control-oem",
-      "https://gritshift.com/products/oem-xe-pro-left-hand-control-switch"
-    ],
+        "https://gritshift.com/products/oem-xe-pro-left-hand-control-switch"
+      ],
       "last_checked": "2026-11-13",
       "notes": "CCW description names Arctic Leopard XE only; shared ALXEPRO list - verify S fitment before buying (checked 2026-11-11).",
       "image": null
@@ -4086,7 +4086,8 @@
           "price_usd": 21.99,
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_throttle-grip-cover"
         }
-      ]
+      ],
+      "image": "img/parts/wiredwhips-oem-soleil01-self-locking-silicone-throttle-grip-cover-soleil01-grip-cover.webp"
     },
     {
       "id": "wiredwhips-oem-soleil01-throttle-integrated-display-m-button-kh-tuttio-soleil01-throttle-kh",
@@ -4118,7 +4119,8 @@
           "price_usd": 210.99,
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_throttle-display-kh"
         }
-      ]
+      ],
+      "image": "img/parts/wiredwhips-oem-soleil01-throttle-integrated-display-m-button-kh-tuttio-soleil01-throttle-kh.webp"
     },
     {
       "id": "wiredwhips-oem-throttle-delta-delta-s",

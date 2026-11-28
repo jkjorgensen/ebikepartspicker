@@ -2965,8 +2965,8 @@
       "price_usd": 64.89,
       "source_urls": [
         "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars",
-      "https://gritshift.com/products/direct-mount-stem-riser-2-inch"
-    ],
+        "https://gritshift.com/products/direct-mount-stem-riser-2-inch"
+      ],
       "stock_status": "in_stock",
       "tier": "midrange",
       "vendor": "Charged Cycle Works",
@@ -3000,8 +3000,8 @@
       "price_usd": 79.99,
       "source_urls": [
         "https://chargedcycleworks.com/products/heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp",
-      "https://gritshift.com/products/gritshift-heavy-hitter-mx-direct-mount-riser"
-    ],
+        "https://gritshift.com/products/gritshift-heavy-hitter-mx-direct-mount-riser"
+      ],
       "stock_status": "in_stock",
       "tier": "midrange",
       "vendor": "Charged Cycle Works",
@@ -4190,7 +4190,8 @@
           "price_usd": 21.0,
           "buy_url": "https://warp9racing.com/products/ultra-bee-bar-pad"
         }
-      ]
+      ],
+      "image": "img/parts/warp9racing-ultra-bee-bar-pad.webp"
     },
     {
       "id": "warp9racing-warp-9-tapped-handlebars",
@@ -4415,7 +4416,8 @@
           "price_usd": 36.99,
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_handlebars-mount-assembly"
         }
-      ]
+      ],
+      "image": "img/parts/wiredwhips-oem-soleil01-handlebars-mount-assembly-soleil01-handlebars-mounts-screws.webp"
     },
     {
       "id": "wiredwhips-oem-soleil01-handlebars-mounts-soleil01-handlebars-mount-a-pair",

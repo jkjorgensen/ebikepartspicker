@@ -2851,8 +2851,8 @@
       "notes": "CCW title/variants name(s) komodo exactly (checked 2026-11-10)",
       "source_urls": [
         "https://chargedcycleworks.com/products/rfloxa-front-fork-suspension-kit-for-talaria-komodo-tk43",
-      "https://gritshift.com/products/rfloxa-tk43-front-fork-suspension-kit-talaria-komodo"
-    ],
+        "https://gritshift.com/products/rfloxa-tk43-front-fork-suspension-kit-talaria-komodo"
+      ],
       "last_checked": "2026-11-13",
       "vendors": [
         {
@@ -3138,8 +3138,8 @@
       "notes": "CCW fitment text name(s) ventus-evo exactly (checked 2026-11-10); CCW title/variants name(s) sr exactly (checked 2026-11-10)",
       "source_urls": [
         "https://chargedcycleworks.com/products/tech-suspension-e39-racing-kashima-fork",
-      "https://gritshift.com/products/tech-suspension-e39-racing-kashima-fork-e-moto"
-    ],
+        "https://gritshift.com/products/tech-suspension-e39-racing-kashima-fork-e-moto"
+      ],
       "last_checked": "2026-11-13",
       "vendors": [
         {
@@ -4368,7 +4368,8 @@
           "price_usd": 19.99,
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-fender-suspension-guard"
         }
-      ]
+      ],
+      "image": "img/parts/wiredwhips-oem-soleil01-rear-suspension-mud-dust-fender-soleil01-rear-fender-custom.webp"
     },
     {
       "id": "wiredwhips-oem-soleil01-rear-suspension-shock-soleil01-rear-suspension",
@@ -4520,7 +4521,8 @@
           "price_usd": 749.0,
           "buy_url": "https://chargedcycleworks.com/products/fastace-ahx12rv-gravitee-front-fork"
         }
-      ]
+      ],
+      "image": "img/parts/chargedcycleworks-fastace-ahx12rv-gravitee-front-fork.webp"
     },
     {
       "id": "chargedcycleworks-upgraded-kke-suspension-forks-for-surron-light-bee",

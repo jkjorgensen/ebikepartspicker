@@ -1597,8 +1597,8 @@
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
         "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade",
-      "https://gritshift.com/products/heavy-hitter-ultra-bee-rotor"
-    ],
+        "https://gritshift.com/products/heavy-hitter-ultra-bee-rotor"
+      ],
       "last_checked": "2026-11-13",
       "vendors": [
         {
@@ -1903,8 +1903,8 @@
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
         "https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper",
-      "https://gritshift.com/products/sur-ron-oem-rear-brake-caliper-ultra-bee"
-    ],
+        "https://gritshift.com/products/sur-ron-oem-rear-brake-caliper-ultra-bee"
+      ],
       "last_checked": "2026-11-10",
       "vendors": [
         {
@@ -3297,8 +3297,8 @@
       "notes": "ETM RTR Wave Rotors, sold individually. CCW search-by-bike (ETM RTR LITE tag) lists them for the ETM RTR Lite (checked Nov 11, 2026).",
       "source_urls": [
         "https://chargedcycleworks.com/products/etm-rtr-wave-rotors",
-      "https://gritshift.com/products/etm-rtr-wave-rotors"
-    ],
+        "https://gritshift.com/products/etm-rtr-wave-rotors"
+      ],
       "last_checked": "2026-11-13",
       "vendors": [
         {
@@ -5206,7 +5206,8 @@
           "price_usd": 12.99,
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_rear-caliper-bolt"
         }
-      ]
+      ],
+      "image": "img/parts/wiredwhips-oem-soleil01-rear-brake-caliper-mounting-bolt-soleil01-rear-brake-caliper-mounting-bolt.webp"
     },
     {
       "id": "wiredwhips-warp-9-titanium-rotor-bolts-6-bolt-pattern",
@@ -5362,7 +5363,8 @@
           "price_usd": 249.99,
           "buy_url": "https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee"
         }
-      ]
+      ],
+      "image": "img/parts/chargedcycleworks-hydraulic-brake-system-surron-light-bee.webp"
     },
     {
       "id": "chargedcycleworks-oem-brake-assembly-surron-light-bee",

@@ -3576,7 +3576,8 @@
           "price_usd": 115.49,
           "buy_url": "https://lithiumpowersports.com/products/mototec-72v-5000w-pro-dirt-bike-front-wheel-70-100-17"
         }
-      ]
+      ],
+      "image": "img/parts/lithiumpowersports-mototec-72v-5000w-pro-dirt-bike-front-wheel-70-100-17.webp"
     },
     {
       "id": "lithiumpowersports-mototec-72v-5000w-pro-dirt-bike-rear-wheel-90-100-14",
@@ -3609,7 +3610,8 @@
           "price_usd": 115.49,
           "buy_url": "https://lithiumpowersports.com/products/mototec-72v-5000w-pro-dirt-bike-rear-wheel-90-100-14"
         }
-      ]
+      ],
+      "image": "img/parts/lithiumpowersports-mototec-72v-5000w-pro-dirt-bike-rear-wheel-90-100-14.webp"
     },
     {
       "id": "mtnmotoworks-12-inch-supermoto-wheel-tire-set-standard-90-front-120-rear",
@@ -4793,7 +4795,8 @@
           "price_usd": 609.99,
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_supermoto-wheelset"
         }
-      ]
+      ],
+      "image": "img/parts/wiredwhips-oem-soleil01-12-supermoto-wheelset-kit-street-soleil01-wheelset-kit.webp"
     },
     {
       "id": "wiredwhips-oem-soleil01-axle-nut-m12-tuttio-soleil01-axle-nut",

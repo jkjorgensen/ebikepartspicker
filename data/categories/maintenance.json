@@ -647,7 +647,7 @@
         }
       ],
       "weight_delta_kg": null,
-      "image": null
+      "image": "img/parts/maintenance-bonnell-805-rx-seat-steering-lock-kit.webp"
     },
     {
       "id": "chargedcycleworks-bonnell-805-rx-battery-tray-foam",
@@ -838,8 +838,8 @@
       "notes": "CCW title/variants name(s) ultrabee exactly (checked 2026-11-10)",
       "source_urls": [
         "https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1",
-      "https://gritshift.com/products/ebmx-x-9000-controller-pro-mount-sur-ron-ultra-bee"
-    ],
+        "https://gritshift.com/products/ebmx-x-9000-controller-pro-mount-sur-ron-ultra-bee"
+      ],
       "last_checked": "2026-11-13",
       "vendors": [
         {

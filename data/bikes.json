@@ -352,7 +352,8 @@
         "weight_lb": null,
         "front_wheel_in": 14,
         "rear_wheel_in": 12,
-        "wheel_source_url": "https://radical-ebikes.com/products/etm-rtr-lite-60v-5kw-copy"
+        "wheel_source_url": "https://electroandcompany.com/products/etm-rtr-lite-2-0",
+        "wheel_note": "Electro & Co: RTR Lite 2.0 tires 60/100-14 front, 80/100-12 rear (checked 2026-11-26)"
       },
       "fitment_sparse": true,
       "size": "light"
@@ -416,7 +417,8 @@
         "weight_lb": 145,
         "front_wheel_in": 17,
         "rear_wheel_in": 14,
-        "wheel_source_url": "https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest"
+        "wheel_source_url": "https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest",
+        "wheel_note": "Electro & Co: RTR XL Alpha tires Kenda 70/100-17 front, 90/100-14 rear (checked 2026-11-26)"
       },
       "fitment_sparse": true,
       "size": "light"
