@@ -800,7 +800,7 @@
     },
     {
       "id": "talaria-xxx",
-      "image": "img/bikes/no-photo.webp",
+      "image": "img/bikes/talaria-xxx.webp",
       "name": "Talaria XXX (X3)",
       "price_source": "msrp",
       "price_usd": null,
@@ -815,7 +815,7 @@
         "rear_suspension": "single pivot (base model; the XXX Pro uses a linkage)",
         "spec_source_url": "https://lunacycle.com/XXX/"
       },
-      "notes": "Base XXX / X3 only (not the XXX Pro). Peak kW left blank: sources conflict (4.2 / 5.5 / 6.5 kW). Wheel sizes left blank: Luna lists 17/17, Talaria lists 19/17. No real unwatermarked photo yet (placeholder shown). Fitment: confirmed rows only from data/fitment-research-2026-11-22-segway-talaria-xxx.csv.",
+      "notes": "Base XXX / X3 only (not the XXX Pro). Peak kW left blank: sources conflict (4.2 / 5.5 / 6.5 kW). Wheel sizes left blank: Luna lists 17/17, Talaria lists 19/17. Photo: official Talaria UK X3 MX brochure side view (see img/bikes/SOURCES.md). Fitment: confirmed rows only from data/fitment-research-2026-11-22-segway-talaria-xxx.csv.",
       "fitment_sparse": true,
       "size": "light"
     }

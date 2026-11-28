@@ -57,7 +57,7 @@ var BIKES = [
   {id:'rawrr-mantis-mini-r', name:'Rawrr Mantis Mini R', price:2899, src:'msrp', weight:111, kw:4.5, size:'light', sparse:1},
   {id:'segway-x160', name:'Segway X160', price:null, src:'msrp', weight:105.8, kw:3, size:'light', sparse:1},
   {id:'segway-x260', name:'Segway X260', price:null, src:'msrp', weight:121.3, kw:5, size:'light', sparse:1},
-  {id:'talaria-xxx', name:'Talaria XXX (X3)', price:null, src:'msrp', weight:125, kw:null, size:'light', sparse:1, noPhoto:1},
+  {id:'talaria-xxx', name:'Talaria XXX (X3)', price:null, src:'msrp', weight:125, kw:null, size:'light', sparse:1},
 ];
 
 var FITMENT = {
