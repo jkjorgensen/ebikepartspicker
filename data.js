@@ -13260,7 +13260,7 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:51.49, url:'https://chargedcycleworks.com/products/kenda-k760-trakmaster-rear-tire-70-100x19-for-sur-ron-or-segway-x260', chk:'2026-11-26', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
-     fits:['arctic-xd','rawrr-mantis-72v','rawrr-mantis-x-pro','rerode-rx','supermach-sm62','altis-sigma','bonnell-805rx','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-x','rtr-lite','rtr-xl','stark-vargex','storm-bee','tuttio-soleil01','ventus-plus'], likely:['arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf','rawrr-mantis-mini-r','rtr-alpha','rtr-sport','ultrabee-21kw','komodo','rtr-lite-2-0','rtr-xl-alpha','sr','ss20','ss30','ss40','supermach-sm01','ultrabee','ventus-evo','yvolt-surge-v'], no:['arctic-leopard-xe-pro-r','yozma-in10','yozma-in10-pro'],
+     fits:['arctic-leopard-xe-pro-r','arctic-xd','rawrr-mantis-72v','rawrr-mantis-x-pro','rerode-rx','supermach-sm62','altis-sigma','bonnell-805rx','falcon-gt','falcon-pro','lightbee','mx4','mx5','rawrr-mantis-x','rtr-lite','rtr-xl','stark-vargex','storm-bee','tuttio-soleil01','ventus-plus'], likely:['yozma-in10','yozma-in10-pro','arctic-leopard-xe-pro-s-enduro','arctic-leopard-xf','rawrr-mantis-mini-r','rtr-alpha','rtr-sport','ultrabee-21kw','komodo','rtr-lite-2-0','rtr-xl-alpha','sr','ss20','ss30','ss40','supermach-sm01','ultrabee','ventus-evo','yvolt-surge-v'], no:[],
      badge:'Kenda', stock:'in_stock', stockChk:'2026-11-26', img:'img/parts/tire-kenda-k760-trakmaster.webp'
     },
     {name:'Bridgestone Battlecross X31 Tire', pid:'tire-bridgestone-x31', tier:'premium',
