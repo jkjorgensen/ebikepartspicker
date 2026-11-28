@@ -4436,6 +4436,225 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-talaria-throttle-extension-cable.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-dashboard-absorber",
+      "name": "Surron Storm Bee OEM Dashboard Absorber",
+      "brand": "Sur-Ron",
+      "category": "cockpit",
+      "price_usd": 1.2,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-absorber",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-absorber"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 1.2,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-absorber"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-dashboard-cpl",
+      "name": "Surron Storm Bee OEM Dashboard CPL.",
+      "brand": "Sur-Ron",
+      "category": "cockpit",
+      "price_usd": 187.34,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-cpl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-cpl"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 187.34,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-cpl"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-dashboard-inst-bracket",
+      "name": "Surron Storm Bee OEM Dashboard INST. Bracket",
+      "brand": "Sur-Ron",
+      "category": "cockpit",
+      "price_usd": 6.84,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-inst-bracket",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-inst-bracket"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 6.84,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-inst-bracket"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-dashboard",
+      "name": "Surron Storm Bee OEM Dashboard",
+      "brand": "Sur-Ron",
+      "category": "cockpit",
+      "price_usd": 163.63,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 163.63,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-key-switch-inst-bushing",
+      "name": "Surron Storm Bee OEM Key Switch INST. Bushing",
+      "brand": "Sur-Ron",
+      "category": "cockpit",
+      "price_usd": 0.65,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-key-switch-inst-bushing",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-key-switch-inst-bushing"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.65,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-key-switch-inst-bushing"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-key-switch-w-sl",
+      "name": "Surron Storm Bee OEM Key Switch w/SL",
+      "brand": "Sur-Ron",
+      "category": "cockpit",
+      "price_usd": 45.22,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-key-switch-w-sl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-key-switch-w-sl"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 45.22,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-key-switch-w-sl"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-key-switch-w-sl.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-ride-by-wire-throttle",
+      "name": "Surron Storm Bee OEM Ride-by-wire Throttle",
+      "brand": "Sur-Ron",
+      "category": "cockpit",
+      "price_usd": 89.99,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-ride-by-wire-throttle",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-ride-by-wire-throttle"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 89.99,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-ride-by-wire-throttle"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-ride-by-wire-throttle.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-side-stand-switch",
+      "name": "Surron Storm Bee OEM Side Stand Switch",
+      "brand": "Sur-Ron",
+      "category": "cockpit",
+      "price_usd": 12.92,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-switch",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-switch"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 12.92,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-switch"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-tilt-switch",
+      "name": "Surron Storm Bee OEM Tilt Switch",
+      "brand": "Sur-Ron",
+      "category": "cockpit",
+      "price_usd": 63.0,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-tilt-switch",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-tilt-switch"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 63.0,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-tilt-switch"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-tilt-switch.webp"
     }
   ],
   "compatibility": [
@@ -8166,6 +8385,96 @@
         "https://chargedcycleworks.com/products/talaria-throttle-extension-cable"
       ],
       "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-throttle-extension-cable"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-dashboard-absorber",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-absorber"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-dashboard-cpl",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-cpl"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-dashboard-inst-bracket",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-inst-bracket"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-dashboard",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-key-switch-inst-bushing",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-key-switch-inst-bushing"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-key-switch-w-sl",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-key-switch-w-sl"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-ride-by-wire-throttle",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-ride-by-wire-throttle"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-side-stand-switch",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-switch"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-tilt-switch",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-tilt-switch"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
     }
   ]
 }

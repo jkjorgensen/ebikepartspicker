@@ -1321,6 +1321,55 @@
                 "https://chargedcycleworks.com/products/ventus-41-kw-ultra-bee-motor"
           ],
           "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-encoder-motor",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-encoder-motor"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "ebmx-ap-x80-ultrabee",
+      "bike_id": "ultrabee",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-ap-x80-motor-for-surron-ultra-bee",
+        "https://darwinev.com/products/ebmx-ap-x80-motor-surron-ultra-bee",
+        "https://gritshift.com/products/ebmx-xub-80-motor-for-surron-ultra-bee",
+        "https://ebmx.com.au/product/apx80-surron-ultra-bee-motor/"
+      ],
+      "notes": "Not confirmed per variant: CCW, Darwin EV, GritShift and EBMX list the AP_X80 for the \"Sur-Ron Ultra Bee (2023 to current)\" without naming the 24.5kW model. Needs the EBMX X-9000 controller (EBMX: will not work with the OEM controller). The OEM battery is not powerful enough; an aftermarket battery is required (EBMX: 44-50 kW on 22S, 55-60 kW on 24S, up to 70 kW on 26S). Pre-order, ships early December. Prices: CCW $1,149 pre-order; Darwin EV $1,149 is a launch price ending Nov 30, 2026, regular $1,249; GritShift $1,249 (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "ebmx-ap-x80-ultrabee",
+      "bike_id": "ultrabee-21kw",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-ap-x80-motor-for-surron-ultra-bee",
+        "https://darwinev.com/products/ebmx-ap-x80-motor-surron-ultra-bee",
+        "https://gritshift.com/products/ebmx-xub-80-motor-for-surron-ultra-bee",
+        "https://ebmx.com.au/product/apx80-surron-ultra-bee-motor/"
+      ],
+      "notes": "Not confirmed per variant: CCW, Darwin EV, GritShift and EBMX list the AP_X80 for the \"Sur-Ron Ultra Bee (2023 to current)\" without naming the 21kW model. Needs the EBMX X-9000 controller (EBMX: will not work with the OEM controller). The OEM battery is not powerful enough; an aftermarket battery is required (EBMX: 44-50 kW on 22S, 55-60 kW on 24S, up to 70 kW on 26S). Pre-order, ships early December. Prices: CCW $1,149 pre-order; Darwin EV $1,149 is a launch price ending Nov 30, 2026, regular $1,249; GritShift $1,249 (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "ebmx-ap-x80-ultrabee",
+      "bike_id": "ultrabee-hd",
+      "status": "verify",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-ap-x80-motor-for-surron-ultra-bee",
+        "https://darwinev.com/products/ebmx-ap-x80-motor-surron-ultra-bee",
+        "https://gritshift.com/products/ebmx-xub-80-motor-for-surron-ultra-bee",
+        "https://ebmx.com.au/product/apx80-surron-ultra-bee-motor/"
+      ],
+      "notes": "Not confirmed per variant: CCW, Darwin EV, GritShift and EBMX list the AP_X80 for the \"Sur-Ron Ultra Bee (2023 to current)\" without naming the HD model. Needs the EBMX X-9000 controller (EBMX: will not work with the OEM controller). The OEM battery is not powerful enough; an aftermarket battery is required (EBMX: 44-50 kW on 22S, 55-60 kW on 24S, up to 70 kW on 26S). Pre-order, ships early December. Prices: CCW $1,149 pre-order; Darwin EV $1,149 is a launch price ending Nov 30, 2026, regular $1,249; GritShift $1,249 (checked Nov 28, 2026)"
     }
   ],
   "products": [
@@ -2829,6 +2878,68 @@
                       "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_motor-cover-screws"
                 }
           ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-encoder-motor",
+      "name": "Surron Storm Bee OEM Encoder Motor",
+      "brand": "Sur-Ron",
+      "category": "motor",
+      "price_usd": 2126.25,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-encoder-motor",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-encoder-motor"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 2126.25,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-encoder-motor"
+        }
+      ]
+    },
+    {
+      "id": "ebmx-ap-x80-ultrabee",
+      "name": "EBMX AP_X80 Motor for Sur-Ron Ultra Bee (pre-order)",
+      "brand": "EBMX",
+      "category": "motor",
+      "price_usd": 1149.0,
+      "vendor": "Charged Cycle Works",
+      "buy_url": "https://chargedcycleworks.com/products/ebmx-ap-x80-motor-for-surron-ultra-bee",
+      "tier": "performance",
+      "is_upgrade": true,
+      "stock_status": "preorder",
+      "notes": "70 kW peak, 115 Nm, 12 kg, IP67, 2-year warranty, replaces the XUB-80 (CCW/EBMX). Needs the EBMX X-9000 controller; OEM battery not powerful enough, aftermarket battery required. Darwin EV $1,149 is a launch price ending Nov 30, 2026 (regular $1,249); GritShift $1,249.",
+      "source_urls": [
+        "https://chargedcycleworks.com/products/ebmx-ap-x80-motor-for-surron-ultra-bee",
+        "https://darwinev.com/products/ebmx-ap-x80-motor-surron-ultra-bee",
+        "https://gritshift.com/products/ebmx-xub-80-motor-for-surron-ultra-bee",
+        "https://ebmx.com.au/product/apx80-surron-ultra-bee-motor/"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Charged Cycle Works",
+          "price_usd": 1149.0,
+          "buy_url": "https://chargedcycleworks.com/products/ebmx-ap-x80-motor-for-surron-ultra-bee"
+        },
+        {
+          "vendor": "Darwin EV",
+          "price_usd": 1149.0,
+          "buy_url": "https://darwinev.com/products/ebmx-ap-x80-motor-surron-ultra-bee"
+        },
+        {
+          "vendor": "GritShift",
+          "price_usd": 1249.0,
+          "buy_url": "https://gritshift.com/products/ebmx-xub-80-motor-for-surron-ultra-bee"
+        }
+      ],
+      "image": "img/parts/ebmx-ap-x80-ultrabee.webp"
     }
   ]
 }

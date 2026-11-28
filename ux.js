@@ -206,6 +206,16 @@ function maybeFirstVisit(){
   if(/^#\{|^#%7B/i.test(location.hash)) return; /* opened a shared build: don't interrupt */
   var fired = false;
   function go(){ if(fired) return; fired = true; cleanup();
+    /* Phones (Nov 28, audit item 19): on builder entry the card covered ~43% of a 390x844 screen over the
+       part slots. There it waits for the visitor's first tap instead, and re-arms if that tap opened a picker. */
+    if(window.matchMedia && window.matchMedia('(max-width: 600px)').matches && !onHome()){
+      var arm = function(){ document.addEventListener('pointerup', function once(){
+        setTimeout(function(){ if(myBike() || lsGet('pickDone',0)) return; if($('.modal-overlay:not([hidden])')) return arm(); show(); }, 900); }, { once: true, passive: true }); };
+      return arm();
+    }
+    show();
+  }
+  function show(){
     setTimeout(function(){ if(!myBike() && !lsGet('pickDone',0) && !$('[data-ux-pagebike]') && !/^\/parts\//.test(location.pathname) && !$('.modal-overlay:not([hidden])')) (IDX||typeof BIKES!=='undefined' ? Promise.resolve() : loadIndex()).then(function(){ openPicker(false); }); }, 900); }
   /* Home page: don't cover the hero intro. Wait until the visitor has scrolled past the hero
      (Popular bikes in view), or leaves the start page for the builder, or ~20s with no scrolling. */

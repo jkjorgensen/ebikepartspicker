@@ -1880,6 +1880,146 @@
         "https://chargedcycleworks.com/products/prickly-direct-mount-riser-surron"
       ],
       "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/prickly-direct-mount-riser-surron"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-handle-grip-left",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-left"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-handle-grip-right",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-right"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-handle-grip-set",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-set"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-handlebar-clamp-arch",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-clamp-arch"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-handlebar-clamp-cpl",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-clamp-cpl"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-handlebar-mount-cpl",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount-cpl"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-handlebar-mount-support",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount-support"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-handlebar-mount",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-handlebar-pad-cover-canvas",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad-cover-canvas"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-handlebar-pad-cpl",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad-cpl"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-handlebar-pad",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-handlebar",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-right-handlebar-control",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-right-handlebar-control"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-ultra-storm-bee-oem-throttle-w-grip",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-ultra-storm-bee-oem-throttle-w-grip"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
     }
   ],
   "products": [
@@ -4539,6 +4679,347 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-prickly-direct-mount-riser-surron.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-handle-grip-left",
+      "name": "Surron Storm Bee OEM Handle Grip LEFT",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 10.0,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-left",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-left"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 10.0,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-left"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-handle-grip-left.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-handle-grip-right",
+      "name": "Surron Storm Bee OEM Handle Grip RIGHT",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 10.0,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-right",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-right"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 10.0,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-right"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-handle-grip-right.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-handle-grip-set",
+      "name": "Surron Storm Bee OEM Handle Grip Set",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 20.0,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-set",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-set"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 20.0,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-set"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-handlebar-clamp-arch",
+      "name": "Surron Storm Bee OEM Handlebar Clamp Arch",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 7.3,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-clamp-arch",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-clamp-arch"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 7.3,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-clamp-arch"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-handlebar-clamp-arch.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-handlebar-clamp-cpl",
+      "name": "Surron Storm Bee OEM Handlebar Clamp CPL.",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 14.86,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-clamp-cpl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-clamp-cpl"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 14.86,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-clamp-cpl"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-handlebar-mount-cpl",
+      "name": "Surron Storm Bee OEM Handlebar Mount CPL.",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 85.6,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount-cpl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount-cpl"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 85.6,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount-cpl"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-handlebar-mount-support",
+      "name": "Surron Storm Bee OEM Handlebar Mount Support",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 5.95,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount-support",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount-support"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 5.95,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount-support"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-handlebar-mount",
+      "name": "Surron Storm Bee OEM Handlebar Mount",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 26.78,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 26.78,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-handlebar-pad-cover-canvas",
+      "name": "Surron Storm Bee OEM Handlebar Pad Cover Canvas",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 4.76,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad-cover-canvas",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad-cover-canvas"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 4.76,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad-cover-canvas"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-handlebar-pad-cpl",
+      "name": "Surron Storm Bee OEM Handlebar Pad CPL.",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 16.0,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad-cpl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad-cpl"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 16.0,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad-cpl"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-handlebar-pad-cpl.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-handlebar-pad",
+      "name": "Surron Storm Bee OEM Handlebar Pad",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 13.39,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 13.39,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-handlebar",
+      "name": "Surron Storm Bee OEM Handlebar",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 97.87,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 97.87,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-right-handlebar-control",
+      "name": "Surron Storm Bee OEM Right Handlebar Control",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 54.91,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-right-handlebar-control",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-right-handlebar-control"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 54.91,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-right-handlebar-control"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-right-handlebar-control.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-ultra-storm-bee-oem-throttle-w-grip",
+      "name": "Surron Ultra & Storm Bee OEM Throttle W/Grip",
+      "brand": "Sur-Ron",
+      "category": "handlebar",
+      "price_usd": 95.99,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-ultra-storm-bee-oem-throttle-w-grip",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-ultra-storm-bee-oem-throttle-w-grip"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 95.99,
+          "buy_url": "https://lithiumpowersports.com/products/surron-ultra-storm-bee-oem-throttle-w-grip"
+        }
+      ]
     }
   ]
 }

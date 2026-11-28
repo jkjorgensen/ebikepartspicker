@@ -1006,6 +1006,176 @@
           "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_smart-tail-light"
         }
       ]
+    },
+    {
+      "id": "lithiumpowersports-surron-light-ultra-storm-bee-oem-usb-cap",
+      "name": "Surron Light\\Ultra\\Storm Bee OEM USB Cap",
+      "brand": "Sur-Ron",
+      "category": "street",
+      "price_usd": 1.94,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-light-ultra-storm-bee-oem-usb-cap",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-light-ultra-storm-bee-oem-usb-cap"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 1.94,
+          "buy_url": "https://lithiumpowersports.com/products/surron-light-ultra-storm-bee-oem-usb-cap"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-light-ultra-storm-bee-oem-usb-cap.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-head-light-cover-plate",
+      "name": "Surron Storm Bee OEM Head Light Cover Plate",
+      "brand": "Sur-Ron",
+      "category": "street",
+      "price_usd": 6.14,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light-cover-plate",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light-cover-plate"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 6.14,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light-cover-plate"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-head-light-inst-bracket",
+      "name": "Surron Storm Bee OEM Head Light INST. Bracket",
+      "brand": "Sur-Ron",
+      "category": "street",
+      "price_usd": 6.46,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light-inst-bracket",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light-inst-bracket"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 6.46,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light-inst-bracket"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-head-light",
+      "name": "Surron Storm Bee OEM Head Light",
+      "brand": "Sur-Ron",
+      "category": "street",
+      "price_usd": 200.26,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 200.26,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-head-light.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-headlight-cover",
+      "name": "Surron Storm Bee OEM HeadLight Cover",
+      "brand": "Sur-Ron",
+      "category": "street",
+      "price_usd": 25.84,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-cover"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 25.84,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-cover"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-headlight-rubber-absorber-1",
+      "name": "Surron Storm Bee OEM HeadLight Rubber Absorber",
+      "brand": "Sur-Ron",
+      "category": "street",
+      "price_usd": 0.65,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-rubber-absorber-1",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-rubber-absorber-1"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.65,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-rubber-absorber-1"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-headlight-rubber-absorber",
+      "name": "Surron Storm Bee OEM HeadLight Rubber Absorber",
+      "brand": "Sur-Ron",
+      "category": "street",
+      "price_usd": 0.65,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-rubber-absorber",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-rubber-absorber"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.65,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-rubber-absorber"
+        }
+      ]
     }
   ],
   "compatibility": [
@@ -1530,6 +1700,76 @@
         "https://chargedcycleworks.com/products/tail-light-mounting-bracket"
       ],
       "notes": "Confirmed via CCW search-by-bike 2025 year tag (dealer fitment list, approved by Josh Nov 11). Likely fits both: CCW search-by-bike tags 2025 Ultra Bee; no MY25/MY26 change documented for this assembly. Product page names only \"Ultra Bee\". (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-light-ultra-storm-bee-oem-usb-cap",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-light-ultra-storm-bee-oem-usb-cap"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-head-light-cover-plate",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light-cover-plate"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-head-light-inst-bracket",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light-inst-bracket"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-head-light",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-headlight-cover",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-cover"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-headlight-rubber-absorber-1",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-rubber-absorber-1"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-headlight-rubber-absorber",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-rubber-absorber"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
     }
   ]
 }

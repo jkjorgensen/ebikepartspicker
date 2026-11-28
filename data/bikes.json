@@ -195,7 +195,15 @@
         "rear_wheel_in": 18,
         "wheel_source_url": "https://ridebonnell.com/products/805"
       },
-      "size": "mid"
+      "size": "mid",
+      "owner_reports": [
+        {
+          "date": "2026-11-27",
+          "kind": "range",
+          "source": "owner ride data point from Josh's Nov 28, 2026 brief",
+          "text": "Nov 27, 2026 owner ride, 28 miles with 40% battery remaining, good pace, mixed technical and flowy single track — about a 47-mile full-charge equivalent at that pace (28 divided by 0.6); dash reading, not a lab test."
+        }
+      ]
     },
     {
       "id": "storm-bee",

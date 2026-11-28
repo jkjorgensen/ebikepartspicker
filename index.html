@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>eBikePartsPicker — E-Moto Parts Builder & Bike Finder</title>
-<meta name="description" content="Free e-moto parts builder: 49 bikes and 2,107 parts with sourced fit statuses, checked prices, and retailer buy links. No sign-up.">
+<meta name="description" content="Free e-moto parts builder: 49 bikes and 2,588 parts with sourced fit statuses, checked prices, and retailer buy links. No sign-up.">
 <meta property="og:title" content="eBikePartsPicker — E-Moto Parts Builder">
 <meta property="og:description" content="Build your e-moto part by part. Compare real parts, prices, weight and power in one place.">
 <meta property="og:image" content="https://ebikepartspicker.net/img/bikes/og-ventus-plus.jpg">
@@ -14,7 +14,7 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"How do you confirm that a part fits?","acceptedAnswer":{"@type":"Answer","text":"Confirmed means a seller or manufacturer listing names this exact bike, or the site owner installed it on his own bike (marked owner-verified). Likely means there is a source that does not clearly name your exact model. See the fitment methodology page for every status."}},
 {"@type":"Question","name":"Do you sell the parts?","acceptedAnswer":{"@type":"Answer","text":"No. The site links to retailer product pages. Only Voro Motors bike buy buttons and Tuttio (tuttiosport.com) buy links are affiliate links. Other store links are ordinary links. Used listings are person-to-person; this site does not handle payments."}},
-{"@type":"Question","name":"How current are the prices?","acceptedAnswer":{"@type":"Answer","text":"Prices are estimates from retailer pages. Stock was last checked November 22, 2026. Always confirm price, stock, and fitment on the seller’s page before you buy."}},
+{"@type":"Question","name":"How current are the prices?","acceptedAnswer":{"@type":"Answer","text":"Prices are estimates from retailer pages. Stock was last checked November 28, 2026. Always confirm price, stock, and fitment on the seller’s page before you buy."}},
 {"@type":"Question","name":"How do I report a mistake or list a used part?","acceptedAnswer":{"@type":"Answer","text":"Use the Report a part form, or Sell a part on the Used Parts tab. Used-listing photos are emailed after you submit. Every used listing is checked and hand-approved before it goes live."}}
 ]}</script>
 <meta property="og:type" content="website">
@@ -48,7 +48,7 @@
   });
 })();
 </script>
-<link rel="stylesheet" href="styles.css?v=4.17.23">
+<link rel="stylesheet" href="styles.css?v=4.17.24">
 <link rel="stylesheet" href="motion.css?v=6.0.2">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,7 +65,7 @@
   <div class="eyebrow">The e-moto parts builder</div>
   <h1 class="display">Build your e-moto, <span>part by part.</span></h1>
   <p class="tagline">Real parts, real prices, real fitment. Free, no sign-up.</p>
-  <p class="home-intro">eBikePartsPicker is a free e-moto parts builder. It covers 49 bikes and 2,107 aftermarket parts in 23 categories. Every part has a fit status — Confirmed, Likely, Needs mod, Doesn’t fit, or Unknown — with a source. <a href="/fitment-methodology">How fitment is confirmed</a>. Stock was last checked <span id="homeCheckedDate">Nov 22, 2026</span>. Prices are estimates — verify price, stock and fitment with the seller before you buy.</p>
+  <p class="home-intro">eBikePartsPicker is a free e-moto parts builder. It covers 49 bikes and 2,588 aftermarket parts in 23 categories. Every part has a fit status — Confirmed, Likely, Needs mod, Doesn’t fit, or Unknown — with a source. <a href="/fitment-methodology">How fitment is confirmed</a>. Stock was last checked <span id="homeCheckedDate">Nov 28, 2026</span>. Prices are estimates — verify price, stock and fitment with the seller before you buy.</p>
     <div class="start-cta-row">
     <span class="havebike">Already have a bike?</span>
     <div class="combobox start-combo">
@@ -79,8 +79,8 @@
   </div>
   <div class="sizechips" id="startSizeChips" aria-label="Filter bikes by size"></div>
   <div class="stats">
-    <div class="stat"><strong id="statBikes">46</strong><small>bikes</small></div>
-    <div class="stat"><strong id="statParts">2019</strong><small>parts</small></div>
+    <div class="stat"><strong id="statBikes">49</strong><small>bikes</small></div>
+    <div class="stat"><strong id="statParts">2588</strong><small>parts</small></div>
     <div class="stat"><strong id="statCats">23</strong><small>categories</small></div>
   </div>
   <div class="hero-pin"><div class="herostage"><div class="hz-glow" aria-hidden="true"></div><img class="hero" id="heroImg" src="img/bikes/ventus-plus.webp?v=4.8.1" srcset="img/bikes/ventus-plus-800.webp?v=4.8.1 800w, img/bikes/ventus-plus.webp?v=4.8.1 1600w" sizes="(max-width: 900px) 100vw, 900px" decoding="async" alt="Ventus One Plus electric dirt bike" width="1600" height="1000" fetchpriority="high"><div class="hz-floor" aria-hidden="true"></div></div></div>
@@ -125,7 +125,7 @@
     </details>
     <details>
       <summary>How current are the prices?</summary>
-      <p>Prices are estimates from retailer pages. Stock was last checked Nov 22, 2026. Always confirm price, stock and fitment on the seller’s page before you buy.</p>
+      <p>Prices are estimates from retailer pages. Stock was last checked Nov 28, 2026. Always confirm price, stock and fitment on the seller’s page before you buy.</p>
     </details>
     <details>
       <summary>How do I report a mistake or list a used part?</summary>
@@ -199,7 +199,7 @@
             <button id="btnNext" class="cta">Next</button>
           </div>
         </div>
-        <p class="micro">Prices are estimates. Stock last checked <span id="checkedDate">Nov 22, 2026</span>. Verify before buying.</p>
+        <p class="micro">Prices are estimates. Stock last checked <span id="checkedDate">Nov 28, 2026</span>. Verify before buying.</p>
       </div>
     </div>
   </main>
@@ -373,16 +373,16 @@
 <label>Email<input type="email" name="email" required maxlength="200" autocomplete="email"></label>
 <input type="hidden" name="bike" id="alBike"><input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
 <button type="submit">Get alerts</button><p class="form-msg" role="status" aria-live="polite" style="grid-column:1/-1"></p></form></section>
-<script src="data.js?v=4.17.23" defer></script>
-<script src="upcoming.js?v=4.17.23" defer></script>
-<script src="builds.js?v=4.17.23" defer></script>
-<script src="buy.js?v=4.17.23" defer></script>
-<script src="ux.js?v=4.17.23" defer></script>
-<script src="app.js?v=4.17.23" defer></script>
-<script src="quiz.js?v=4.17.23" defer></script>
-<script src="compare.js?v=4.17.23" defer></script>
-<script src="used.js?v=4.17.23" defer></script>
-<script src="polish.js?v=3" defer></script>
+<script src="data.js?v=4.17.24" defer></script>
+<script src="upcoming.js?v=4.17.24" defer></script>
+<script src="builds.js?v=4.17.24" defer></script>
+<script src="buy.js?v=4.17.24" defer></script>
+<script src="ux.js?v=4.17.24" defer></script>
+<script src="app.js?v=4.17.24" defer></script>
+<script src="quiz.js?v=4.17.24" defer></script>
+<script src="compare.js?v=4.17.24" defer></script>
+<script src="used.js?v=4.17.24" defer></script>
+<script src="polish.js?v=4" defer></script>
 <script src="home.js?v=1" defer></script>
 <script src="vendor/gsap.min.js?v=3.15.1" defer></script>
 <script src="vendor/ScrollTrigger.min.js?v=3.15.1" defer></script>
