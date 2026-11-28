@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse,re
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.net'; V='4.17.24'; IMGV='4.5.0'; TODAY='2026-11-28'; STOCK_CHECKED='Nov 28, 2026'
+BASE='https://ebikepartspicker.net'; V='4.17.25'; IMGV='4.5.0'; TODAY='2026-11-28'; STOCK_CHECKED='Nov 28, 2026'
 # PWA service-worker registration snippet (plain string, NOT an f-string:
 # its braces would break the page() f-string below).
 SWREG="<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>"
@@ -19,6 +19,8 @@ def load_buy_urls():
   obj=re.sub(r',\s*}', '}', m.group(1), count=1)
   return json.loads(obj)
 BUY_URLS=load_buy_urls()
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+import seo_growth as G  # Nov 28: price-drop badges, partner buy buttons, bike FAQ/compare
 def bike_buy_html(bid, name):
   """Same markup as buy.js buyBikeEl(bid, name): .buybox/.buybtn, rel=sponsored + disclosure for affiliate/Voro links."""
   buy=BUY_URLS.get(bid)
@@ -157,7 +159,7 @@ def bike_price(b):
 def partrow(p,bid):
   pr=p['price']; img=img96(p["img"], f'{p["name"]} for the {BK[bid]["name"]}') if p['img'] else '<span class="sp-noimg"></span>'
   st='<span class="sp-mod">Requires modification</span>' if p['status']!='confirmed' else ('<span class="sp-uni">Universal fit</span>' if 'universal' in p.get('note','').lower() else '')
-  price=f'<span class="sp-price">{money(pr["p"])}</span><span class="sp-chk">{e(pr.get("v") or "")}{(", checked "+e(pr["chk"])) if pr.get("chk") else ""}</span>' if pr and pr.get('p') is not None else '<span class="sp-chk">Price not listed</span>'
+  price=f'<span class="sp-price">{money(pr["p"])}</span>{G.drop_html(pr,TODAY)}<span class="sp-chk">{e(pr.get("v") or "")}{(", checked "+e(pr["chk"])) if pr.get("chk") else ""}</span>' if pr and pr.get('p') is not None else '<span class="sp-chk">Price not listed</span>'
   return f'<li class="sp-row">{img}<div class="sp-info"><strong><a class="sp-pl" href="/parts/{e(p["cat"])}/{e(p["pid"])}/">{e(p["name"])}</a></strong>{st}<div>{price}</div></div><div class="sp-act">{buy(pr)}<a class="sp-open" href="{e(builder(bid,{p["cat"]:p["pid"]}))}">Add to build</a></div></li>'
 guides_by_bike={}
 for g in D['guides']: guides_by_bike.setdefault(g['bike'],[]).append(g)
@@ -182,6 +184,7 @@ for b in seo_bikes:
   spec=[('Price',bike_price(b))]+([('Peak power',f'{b["kw"]} kW')] if b.get('kw') else [])+([('Weight',f'{b["weight"]} lb')] if b.get('weight') else [])
   specs=''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k,v in spec)
   bikebuy=bike_buy_html(bid, b['name'])
+  faqh,faqld=G.bike_faq(b,D,ROOT,BUY_URLS,bike_price,{c['id']:c['name'] for c in D['cats']},lambda d: os.path.isdir(os.path.join(ROOT,'compare',d)),BASE)
   gl=''.join(f'<li><a href="/guides/{bid}-{g["tier"]}/">{e(b["name"])} {e(TIER.get(g["tier"],g["tier"]))} build</a></li>' for g in guides_by_bike.get(bid,[]))
   extra=(f'<h2>Build guides</h2><ul class="seo-links">{gl}</ul>' if gl else '')+(f'<p><a href="/power/#{bid}">Power upgrades for the {e(b["name"])}</a></p>' if bid in power_bikes else '')
   toc=' '.join(f'<a href="#{c["id"]}">{e(c["name"])}</a>' for c,_ in cats)
@@ -193,11 +196,11 @@ for b in seo_bikes:
 {owner_reports_html(bid)}{bikebuy}
 <p class="seo-cta"><a class="cta" href="{e(builder(bid))}">Build your {e(b['name'])}</a></p>
 {extra}<nav class="seo-toc">{toc}</nav>{secs}
-<p>{FM}<a href="/bikes/">All bikes</a></p>"""
+{faqh}{G.guide_bike_buy(b,BUY_URLS,bike_buy_html)}<p>{FM}<a href="/bikes/">All bikes</a></p>"""
   il={"@context":"https://schema.org","@type":"ItemList","name":f"{b['name']} upgrades and parts","numberOfItems":len(parts),"itemListElement":[{"@type":"ListItem","position":i+1,"name":p['name']} for i,p in enumerate(parts[:100])]}
   u=page(f'/bikes/{bid}/',f"{b['name']} Upgrades & Parts | Fit-Checked, Prices Checked | eBikePartsPicker",
     desc,
-    body,[('Home','/'),('Bikes','/bikes/'),(b['name'],f'/bikes/{bid}/')],(BASE+f'/img/og/{bid}.jpg' if pimg==bid else None),[il],preload=f'<link rel="preload" as="image" href="/img/bikes/{pimg}-800.webp?v={IMGV}" imagesrcset="/img/bikes/{pimg}-800.webp?v={IMGV} 800w, /img/bikes/{pimg}.webp?v={IMGV} 1600w" imagesizes="(max-width: 900px) 100vw, 720px" fetchpriority="high">',robots=('noindex,follow' if len(parts)<THIN else None))
+    body,[('Home','/'),('Bikes','/bikes/'),(b['name'],f'/bikes/{bid}/')],(BASE+f'/img/og/{bid}.jpg' if pimg==bid else None),[il]+([faqld] if faqld else []),preload=f'<link rel="preload" as="image" href="/img/bikes/{pimg}-800.webp?v={IMGV}" imagesrcset="/img/bikes/{pimg}-800.webp?v={IMGV} 800w, /img/bikes/{pimg}.webp?v={IMGV} 1600w" imagesizes="(max-width: 900px) 100vw, 720px" fetchpriority="high">',robots=('noindex,follow' if len(parts)<THIN else None))
   urls.append(u)
   if len(parts)<THIN: NOINDEX.add(u)
 # bikes index
@@ -207,7 +210,7 @@ urls.append(page('/bikes/','E-Moto Bikes: Upgrades & Parts by Model | eBikeParts
 # guides
 for g in D['guides']:
   b=BK[g['bike']]; tn=TIER.get(g['tier'],g['tier']); tot=sum(r['p'] for r in g['rows'])
-  rows=''.join(f'<li class="sp-row">'+(img96(r["img"], f'{r["name"]} for the {b["name"]}') if r['img'] else '<span class="sp-noimg"></span>')+f'<div class="sp-info"><span class="sp-cat">{e(r["cat"])}</span><strong>{e(r["name"])}</strong><div><span class="sp-price">{money(r["p"])}</span><span class="sp-chk">{e(r["v"])}, checked {e(r["chk"])}</span></div></div><div class="sp-act">{buy(r)}</div></li>' for r in g['rows'])
+  rows=''.join(f'<li class="sp-row">'+(img96(r["img"], f'{r["name"]} for the {b["name"]}') if r['img'] else '<span class="sp-noimg"></span>')+f'<div class="sp-info"><span class="sp-cat">{e(r["cat"])}</span><strong>{e(r["name"])}</strong><div><span class="sp-price">{money(r["p"])}</span>{G.drop_html(r,TODAY)}<span class="sp-chk">{e(r["v"])}, checked {e(r["chk"])}</span></div></div><div class="sp-act">{buy(r)}</div></li>' for r in g['rows'])
   sel={}
   for bb in D['bikes']:
     if bb['id']==b['id']:
@@ -219,7 +222,7 @@ for g in D['guides']:
   body=f"""<h1>{e(b['name'])} {e(tn)} build</h1><p class="seo-lede">{e(g['blurb'])} Every part is a confirmed fit for the {e(b['name'])} (the seller listing names it) and every price was checked on the retailer\u2019s page.</p>
 <ul class="sp-list">{rows}</ul>
 <p class="seo-total">Parts total: <strong>{money(tot)}</strong>{(' \u00b7 With the bike ('+e(bike_price(b))+'): <strong>'+money(tot+b['price'])+'</strong>') if b['price'] else ''}</p>
-<p class="seo-cta"><a class="cta" href="{e(builder(b['id'],sel))}">Customize this build</a>{(' <a class="sbuy sbuy-voro" href="'+e(b['srcUrl'])+'" rel="sponsored noopener" target="_blank">Buy the '+e(b['name'])+' at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure">(affiliate link)</a>') if b['src']=='voro' and b['srcUrl'] else ''}</p>{pw}
+<p class="seo-cta"><a class="cta" href="{e(builder(b['id'],sel))}">Customize this build</a>{(' <a class="sbuy sbuy-voro" href="'+e(b['srcUrl'])+'" rel="sponsored noopener" target="_blank">Buy the '+e(b['name'])+' at Voro Motors</a> <a class="sp-chk" href="/affiliate-disclosure">(affiliate link)</a>') if b['src']=='voro' and b['srcUrl'] and not G.is_aff_buy(BUY_URLS.get(b['id'])) else ''}</p>{G.guide_bike_buy(b,BUY_URLS,bike_buy_html)}{pw}
 <div class="seo-pc"><div><h2>Pros</h2><ul>{pc}</ul></div><div><h2>Cons</h2><ul>{cc}</ul></div></div>
 <p>More: <a href="/bikes/{b['id']}/">all {e(b['name'])} parts</a>{''.join(f' \u00b7 <a href="/guides/{b["id"]}-{o["tier"]}/">{e(TIER.get(o["tier"]))} build</a>' for o in guides_by_bike[b['id']] if o['tier']!=g['tier'])}</p>"""
   urls.append(page(f'/guides/{b["id"]}-{g["tier"]}/',f"{b['name']} {tn} Build: Parts List & Total ({money(tot)}) | eBikePartsPicker",
@@ -305,10 +308,10 @@ for c in SNAP['cats']:
     known=[o['pid'] and (lab,fmt(sp[k])) for k,lab,fmt in SPECL if sp.get(k) is not None]
     prs=[x for x in o['prices'] if x.get('p') is not None]
     lo=min(prs,key=lambda x:x['p']) if prs else None
-    keys=[('Category',e(c['name'])),('Brand',e(o.get('badge')) or 'Not verified'),('Lowest checked price',f'{money(lo["p"])} <span class="sp-chk">{e(lo["v"])}, checked {e(lo.get("chk") or "date not recorded")}</span>' if lo else 'Not verified'),('Stock',(e(STK.get(effective_stock(o),'Not verified'))+(f' <span class="sp-chk">checked {e(o["stockChk"])}</span>' if o.get('stockChk') else '')) if effective_stock(o) or o.get('stock') else 'Not verified')]+[(l,e(v)) for l,v in known]
+    keys=[('Category',e(c['name'])),('Brand',e(o.get('badge')) or 'Not verified'),('Lowest checked price',f'{money(lo["p"])} {G.drop_html(lo,TODAY)}<span class="sp-chk">{e(lo["v"])}, checked {e(lo.get("chk") or "date not recorded")}</span>' if lo else 'Not verified'),('Stock',(e(STK.get(effective_stock(o),'Not verified'))+(f' <span class="sp-chk">checked {e(o["stockChk"])}</span>' if o.get('stockChk') else '')) if effective_stock(o) or o.get('stock') else 'Not verified')]+[(l,e(v)) for l,v in known]
     dl=''.join(f'<div><dt>{l}</dt><dd>{v}</dd></div>' for l,v in keys)
     if not known: dl+='<div><dt>Weight &amp; power specs</dt><dd>Not verified</dd></div>'
-    rows=''.join(f'<tr><td>{e(x.get("v") or host(x.get("url","")))}</td><td class="pp-num">{money(x["p"]) if x.get("p") is not None else "Not verified"}</td><td>{e(x.get("chk") or "Not re-checked")}</td><td>{plain(x)}</td></tr>' for x in o['prices'])
+    rows=''.join(f'<tr><td>{e(x.get("v") or host(x.get("url","")))}</td><td class="pp-num">{money(x["p"]) if x.get("p") is not None else "Not verified"}{G.drop_html(x,TODAY)}</td><td>{e(x.get("chk") or "Not re-checked")}</td><td>{plain(x)}</td></tr>' for x in G.sort_offers(o['prices']))
     pt=f'<table class="pp-tab"><thead><tr><th>Store</th><th>Price</th><th>Checked</th><th></th></tr></thead><tbody>{rows}</tbody></table>' if rows else '<p class="seo-lede">No store price on file \u2014 Not verified.</p>'
     order=['confirmed','requires_mod','likely_verify','no_fit']
     fr=sorted([(k,v) for k,v in fit.items() if v in STL],key=lambda kv:(order.index(kv[1]),BN.get(kv[0],'')))
@@ -320,7 +323,7 @@ for c in SNAP['cats']:
     img=(f'<a class="pp-zoom" href="/{e(o["img"])}" data-ux-zoom><img src="/{e(o["img"])}" alt="{e(o["name"])}" width="560" height="560" fetchpriority="high"><span class="pp-zh" aria-hidden="true">Tap to zoom</span></a>') if o['img'] else '<div class="pp-noimg">No photo on file</div>'
     firstfit=[k for k,v in fit.items() if v=='confirmed']
     cta=f'<a class="pp-cta" href="{builder(firstfit[0],{c["id"]:o["pid"]})}">Add to a build \u2192</a>' if firstfit else ''
-    body=(f'<article class="pp" data-ux-part="{e(o["pid"])}" data-name="{e(o["name"])}" data-img="{e(o["img"])}" data-url="{path}"><div class="pp-top"><figure class="pp-fig">{img}</figure><div class="pp-head"><span class="sp-cat">{e(c["name"])}</span><h1>{e(o["name"])}</h1><div data-ux-partfit=\'{pf}\' hidden></div><dl class="pp-specs">{dl}</dl>{cta}</div></div>'
+    body=(f'<article class="pp" data-ux-part="{e(o["pid"])}" data-name="{e(o["name"])}" data-img="{e(o["img"])}" data-url="{path}"><div class="pp-top"><figure class="pp-fig">{img}</figure><div class="pp-head"><span class="sp-cat">{e(c["name"])}</span><h1>{e(o["name"])}</h1><div data-ux-partfit=\'{pf}\' hidden></div><dl class="pp-specs">{dl}</dl>{G.part_buy_cta(o,host)}{cta}</div></div>'
       f'<h2>Store prices</h2>{pt}<h2>Which bikes it fits</h2>{ftab}</article>')
     nfit=len(firstfit)
     desc=f"{o['name']}: {('confirmed to fit '+str(nfit)+' bike'+('s' if nfit!=1 else '')) if nfit else 'fitment not verified'}"+(f", from {money(lo['p'])} at {lo['v']} (checked {lo.get('chk') or SNAP.get('checked','')})" if lo else '')+'. Specs and store prices from seller listings.'

@@ -38,6 +38,24 @@ function best(opt){
   return pool.reduce(function(a,b){ return b.p < a.p ? b : a; });
 }
 
+/* "Price dropped" badge (Nov 28). Only from a real recorded drop: tools/stock_check.py
+   --apply-prices writes was/wasChk on an offer when the store's price fell below a
+   previously checked price. Shown for PRICE_DROP_DAYS after the new check. Static. */
+var PRICE_DROP_DAYS = 14;
+function priceDrop(pr){
+  if(!pr || pr.p==null || pr.was==null || !(pr.was > pr.p) || !pr.chk) return null;
+  if(stockAgeDays(pr.chk) > PRICE_DROP_DAYS) return null;
+  return {was: pr.was, wasChk: pr.wasChk || ''};
+}
+function dropBadge(pr){
+  var d = priceDrop(pr); if(!d) return null;
+  var s = document.createElement('span'); s.className = 'pdrop';
+  s.appendChild(document.createTextNode('Price dropped '));
+  var w = document.createElement('s'); w.className = 'pdrop-was'; w.textContent = money(d.was); s.appendChild(w);
+  s.title = 'Was ' + money(d.was) + (d.wasChk ? ' (checked ' + d.wasChk + ')' : '') + ', now ' + money(pr.p) + ' (checked ' + pr.chk + ') at ' + (pr.v || 'this store');
+  return s;
+}
+
 function isAff(p){
   if(!p) return false;
   if(typeof p==='string') return /sjv\.io/.test(p) || /[?&]ref=eejkbrkx(?:&|#|$)/.test(p);
@@ -175,6 +193,7 @@ function renderBuildSum(){
     chip.textContent = FIT_ICON[fr.status]+' '+FIT_LABEL[fr.status]; chip.title = fr.reasons[0];
     t.appendChild(chip);
     var pr = document.createElement('span'); pr.className='bsum-price'; pr.textContent = (bp && bp.p!=null) ? money(bp.p) : 'Price not verified';
+    var bdb = dropBadge(bp); if(bdb) pr.appendChild(bdb);
     var x = document.createElement('button'); x.type='button'; x.className='bsum-x'; x.textContent='\u00d7';
     x.setAttribute('aria-label','Remove '+o.name);
     x.addEventListener('click', function(){ var prev = state.sel[c.id]||0; state.sel[c.id]=0; render(); saveHash();
@@ -470,6 +489,7 @@ function armPreview(row, o){
 function optMeta(o, fl){
   var bp = best(o), parts = [];
   parts.push(bp ? money(bp.p) : 'Included');
+  var pd = priceDrop(bp); if(pd) parts.push('Price dropped (was '+money(pd.was)+')');
   if(o.wtKg!=null) parts.push((o.wtKg*2.20462).toFixed(1)+' lb');
   if(o.battKwh!=null) parts.push(o.battKwh.toFixed(2)+' kWh');
   if(o.battPeakKw!=null) parts.push(o.battPeakKw+' kW peak');
@@ -947,7 +967,7 @@ function renderPower(){
       var note=document.createElement('p'); note.className='pc-note'; note.textContent=x.fit.reasons[0]; n.appendChild(note);
       if(x.bp.url){ var bw=document.createElement('div'); bw.className='gp-buy'; var pa=document.createElement('a'); pa.className='rb'; pa.href=x.bp.url; pa.target='_blank';
         pa.rel='noopener'+(x.bp.aff?' sponsored':''); if(x.bp.aff) pa.className+=' rb-voro'; pa.textContent='Buy at '+x.bp.v; bw.appendChild(pa); n.appendChild(bw); }
-      var pr=document.createElement('span'); pr.className='gp-price'; pr.textContent=money(x.bp.p);
+      var pr=document.createElement('span'); pr.className='gp-price'; pr.textContent=money(x.bp.p); var xdb=dropBadge(x.bp); if(xdb) pr.appendChild(xdb);
       li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
     });
     card.appendChild(ul);
@@ -1002,7 +1022,7 @@ function guideCard(host, gd, r){
     var sm = document.createElement('small'); sm.textContent=x.cat.name; n.appendChild(sm);
     n.appendChild(document.createTextNode(x.opt.name));
     if(effectiveStock(x.opt)==='out_of_stock'){ var so=document.createElement('em'); so.className='gp-oos'; so.textContent=' \u00b7 out of stock at last check'; n.appendChild(so); }
-    var pr = document.createElement('span'); pr.className='gp-price'; pr.textContent=money(x.bp.p);
+    var pr = document.createElement('span'); pr.className='gp-price'; pr.textContent=money(x.bp.p); var xdb2=dropBadge(x.bp); if(xdb2) pr.appendChild(xdb2);
     if(x.bp.url){ var pa=document.createElement('a'); pa.className='rb'; pa.href=x.bp.url; pa.target='_blank';
       pa.rel='noopener'+(x.bp.aff?' sponsored':''); if(x.bp.aff) pa.className+=' rb-voro'; pa.textContent='Buy at '+x.bp.v; var bw=document.createElement('div'); bw.className='gp-buy'; bw.appendChild(pa); n.appendChild(bw); }
     li.appendChild(n); li.appendChild(pr); ul.appendChild(li);
@@ -1409,7 +1429,7 @@ function renderFeatBuild(host, fb){
     n.appendChild(meta);
     var pr = document.createElement('span'); pr.className='gp-price';
     if(bp && bp.p!=null){
-      sub += bp.p; pr.textContent = money(bp.p);
+      sub += bp.p; pr.textContent = money(bp.p); var fdb=dropBadge(bp); if(fdb) pr.appendChild(fdb);
       if(!bp.chk){ unver++; var nv=document.createElement('small'); nv.className='feat-nv'; nv.textContent='price not verified'; pr.appendChild(nv); }
       if(bp.url){ var bw=document.createElement('div'); bw.className='gp-buy'; var pa=document.createElement('a'); pa.className='rb';
         pa.href=bp.url; pa.target='_blank'; pa.rel='noopener'+(bp.aff?' sponsored':''); if(bp.aff) pa.className+=' rb-voro'; pa.textContent='Buy at '+bp.v; bw.appendChild(pa); n.appendChild(bw); }
