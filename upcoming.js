@@ -17,7 +17,7 @@ var UPCOMING = [
   {name:'Arctic Leopard XD Pro', bikeId:'arctic-xd', status:'preorder',
    date:'US: available Jan 2027 (Arctic Leopard USA). European launch at EICMA, Nov 3\u20138, 2026', price:6599,
    blurb:'35 kW, 800 N\u00b7m at the wheel, 74V 75\u201376Ah, 21/18\u2033 wheels, KYB 43 mm fork. $6,599 on the official US store and at Charged Cycle Works. Weight: 89 kg claimed globally; the US page says 95 kg.',
-   source:'https://arctic-leopard-usa.com/products/xd-pro'},
+   source:'https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro'},
   {name:'Ventus OB 1.0', bikeId:null, status:'announced',
    date:'Shown at EICMA, Nov 2026. US ETA late spring 2027 (Charged Cycle Works). Price TBA', price:null,
    blurb:'Claimed 45 kW peak, 5.2 kWh battery, direct-drive Ryuga Gen3 motor, Aetos Ultra Gen3 controller, RFloXa suspension, Brembo brakes and Excel rims. 21/18 wheels and ~205 lb were reported from the EICMA booth, not on a dealer page yet. The Ultimate Edition shown may differ from the US bike.',
