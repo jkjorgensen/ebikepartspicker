@@ -22655,12 +22655,13 @@
     {
       "product_id": "tire-bikemaster-tr6-inner-tubes",
       "bike_id": "stark-vargex",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": [],
       "fitment_source_urls": [
+        "https://starkfuture.com/products/stark-varg-ex",
         "https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
       ],
-      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front and 120/100-18 rear tube sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/bikemaster-tr6-inner-tubes"
+      "notes": "Stark's current Varg EX page lists 90/90-21 front and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); CCW tags it for the Varg EX and previously listed 80/100-21 front and 120/100-18 rear tube sizes, so the stock size is in conflict. Verify your bike's tire size before buying (checked 2026-11-28)"
     },
     {
       "product_id": "tire-dunlop-geomax-en91ex-gummy-tire",
@@ -22736,12 +22737,13 @@
     {
       "product_id": "tire-irc-tubes",
       "bike_id": "stark-vargex",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": [],
       "fitment_source_urls": [
+        "https://starkfuture.com/products/stark-varg-ex",
         "https://chargedcycleworks.com/products/irc-tubes"
       ],
-      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front tube size and 18 in rear sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/irc-tubes"
+      "notes": "Stark's current Varg EX page lists 90/90-21 front and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); CCW tags it for the Varg EX and previously listed the 80/100-21 front tube size and 18 in rear sizes, so the stock size is in conflict. Verify your bike's tire size before buying (checked 2026-11-28)"
     },
     {
       "product_id": "tire-kenda-k774-ibex-hybrid-sticky-front-tire",
@@ -22798,12 +22800,13 @@
     {
       "product_id": "tire-sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260",
       "bike_id": "stark-vargex",
-      "status": "confirmed_direct_fit",
+      "status": "verify",
       "required_adapters": [],
       "fitment_source_urls": [
+        "https://starkfuture.com/products/stark-varg-ex",
         "https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
       ],
-      "notes": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front and 120/100-18 rear tube sizes (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/sedona-heavy-duty-2mm-tube-for-sur-ron-or-segway-x-260"
+      "notes": "Stark's current Varg EX page lists 90/90-21 front and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); CCW tags it for the Varg EX and previously listed 80/100-21 front and 120/100-18 rear tube sizes, so the stock size is in conflict. Verify your bike's tire size before buying (checked 2026-11-28)"
     },
     {
       "product_id": "tire-tire-ve-33s-gekkota-rear-tire",
