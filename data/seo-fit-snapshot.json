@@ -466,9 +466,11 @@
       },
       {
        "v": "GritShift",
-       "p": 999.89,
+       "p": 949.9,
        "url": "https://gritshift.com/products/ebmx-sur-ron-lbx-xlb-60-core-motor-upgrade",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 999.89,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -639,9 +641,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 999,
+       "p": 861.75,
        "url": "https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 999,
+       "wasChk": "2026-10-15"
       },
       {
        "v": "TB Electric Moto",
@@ -651,9 +655,11 @@
       },
       {
        "v": "GritShift",
-       "p": 999.99,
+       "p": 949.99,
        "url": "https://gritshift.com/products/ebmx-talaria-sting-mx4-xlb-60-core-motor-upgrade",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 999.99,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -1185,9 +1191,11 @@
       },
       {
        "v": "Darwin EV",
-       "p": 950,
+       "p": 754,
        "url": "https://darwinev.com/products/torp-motor-tm25-sur-ron-light-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 950,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -1692,9 +1700,11 @@
       },
       {
        "v": "GritShift",
-       "p": 1249.89,
+       "p": 1187.4,
        "url": "https://gritshift.com/products/ebmx-xlb-60race-motor-upgrade",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 1249.89,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -1853,9 +1863,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 949,
+       "p": 861.75,
        "url": "https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-open-box",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 949,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -2754,9 +2766,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 96.99,
+       "p": 92.14,
        "url": "https://gritshift.com/products/ebmx-x-9000-qs138-race-harness",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 96.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -2994,9 +3008,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 172.89,
+       "p": 98.99,
        "url": "https://gritshift.com/products/heavy-hitter-qs165-60h-v3-billet-gear-box-cover",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 172.89,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -3234,9 +3250,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 139.89,
+       "p": 132.9,
        "url": "https://gritshift.com/products/x-9000-race-harness-for-qs138",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 139.89,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -4377,9 +4395,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 1164,
+       "p": 989.4,
        "url": "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=51161676349656",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 1164,
+       "wasChk": "2026-11-10"
       },
       {
        "v": "REV Rides",
@@ -4564,9 +4584,11 @@
       },
       {
        "v": "Darwin EV",
-       "p": 1295,
+       "p": 1054,
        "url": "https://darwinev.com/products/torp-tc1000-2-controller-sur-ron-light-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 1295,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -5408,9 +5430,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 1199,
+       "p": 1019.15,
        "url": "https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=50927732457688",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 1199,
+       "wasChk": "2026-10-18"
       },
       {
        "v": "REV Rides",
@@ -6300,9 +6324,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 34.99,
+       "p": 33.24,
        "url": "https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 34.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -6380,9 +6406,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 84.99,
+       "p": 80.74,
        "url": "https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 84.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -6460,9 +6488,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 39.99,
+       "p": 37.99,
        "url": "https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 39.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -6540,7 +6570,7 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 1099.99,
+       "p": 1105.8,
        "url": "https://gritshift.com/products/ebmx-x9000-v3-base-controller",
        "chk": "2026-11-28"
       }
@@ -8602,7 +8632,7 @@
       },
       {
        "v": "RFLOXA",
-       "p": 863,
+       "p": 899,
        "url": "https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload",
        "chk": "2026-11-28"
       }
@@ -11454,9 +11484,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 54.99,
+       "p": 41.24,
        "url": "https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 54.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -11535,9 +11567,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 49,
+       "p": 36.75,
        "url": "https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 49,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -11616,9 +11650,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 20.9,
+       "p": 15.68,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 20.9,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -17020,9 +17056,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 278,
+       "p": 208.5,
        "url": "https://chargedcycleworks.com/products/light-bee-kke-rear-shock-absorber-white-spring",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 278,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -17100,9 +17138,11 @@
      "prices": [
       {
        "v": "GoldenMotor.bike",
-       "p": 299.99,
+       "p": 269.99,
        "url": "https://goldenmotor.bike/collections/oem-talaria-sting-mx4-suspension/products/rear-shock-dnm-250x70mm-talaria-sting-mx3-mx4-sur-ron-segway-shorter",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 299.99,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -17181,9 +17221,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 979,
+       "p": 799,
        "url": "https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 979,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -17268,9 +17310,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 950,
+       "p": 807.5,
        "url": "https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 950,
+       "wasChk": "2026-10-15"
       },
       {
        "v": "TB Electric Moto",
@@ -17686,9 +17730,11 @@
      "prices": [
       {
        "v": "VORO Motors",
-       "p": 80,
+       "p": 63.95,
        "url": "https://voromotors.com/products/rear-suspension-shock-for-e-ride-pro-ss",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 80,
+       "wasChk": "2026-10-18"
       }
      ],
      "fit": {
@@ -17847,7 +17893,7 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 71.99,
+       "p": 79.99,
        "url": "https://chargedcycleworks.com/products/kke-500lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective",
        "chk": "2026-11-28"
       }
@@ -18741,9 +18787,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 950,
+       "p": 590.75,
        "url": "https://chargedcycleworks.com/products/ext-rea-mx-rear-shock-for-surron-ultra-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 950,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -20192,9 +20240,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 975,
+       "p": 799,
        "url": "https://chargedcycleworks.com/products/tech-rear-shock-for-talaria",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 975,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -20275,9 +20325,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 975,
+       "p": 799,
        "url": "https://chargedcycleworks.com/products/tech-er30-rear-shock-arctic-leopard-ex",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 975,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -24221,9 +24273,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 499,
+       "p": 374.25,
        "url": "https://chargedcycleworks.com/products/surron-oem-supermoto-wheelset",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 499,
+       "wasChk": "2026-10-27"
       }
      ],
      "fit": {
@@ -24865,9 +24919,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 299,
+       "p": 224.25,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-21-inch-front-wheel-cst-tire",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 299,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -25274,9 +25330,11 @@
       },
       {
        "v": "GritShift",
-       "p": 169.99,
+       "p": 161.49,
        "url": "https://gritshift.com/products/ebmx-competition-axle-axle-blocks-ultra-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 169.99,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -27304,9 +27362,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 940.98,
+       "p": 705.74,
        "url": "https://chargedcycleworks.com/products/ultra-bee-rear-wheel-rim-tire-assy-130-70-17",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 940.98,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -27547,9 +27607,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 4.99,
+       "p": 3.74,
        "url": "https://chargedcycleworks.com/products/front-wheel-axle-nut",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 4.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -27628,9 +27690,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 19.99,
+       "p": 14.99,
        "url": "https://chargedcycleworks.com/products/front-wheel-bushing",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 19.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -27709,9 +27773,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 7.99,
+       "p": 5.99,
        "url": "https://chargedcycleworks.com/products/ub-rear-wheel-axle-nut",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 7.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -28916,9 +28982,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 149,
+       "p": 119.2,
        "url": "https://chargedcycleworks.com/products/light-bee-12-9-cryo-rear-axle-by-warp-9",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 149,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -29801,9 +29869,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 53,
+       "p": 42.4,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-axle-blocks",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 53,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -30284,9 +30354,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 35,
+       "p": 28,
        "url": "https://chargedcycleworks.com/products/warp9-ultra-bee-wheel-bearing-kits",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 35,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -32858,7 +32930,7 @@
      "prices": [
       {
        "v": "MTN MotoWorks",
-       "p": 329.95,
+       "p": 359.95,
        "url": "https://mtnmotoworks.com/products/mtn-12-inch-supermoto-wheel-set",
        "chk": "2026-11-28"
       }
@@ -33178,9 +33250,11 @@
      "prices": [
       {
        "v": "MTN MotoWorks",
-       "p": 399.95,
+       "p": 379.95,
        "url": "https://mtnmotoworks.com/products/mtn-17-14-supermoto-wheel-tire-set",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 399.95,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -40081,9 +40155,11 @@
       },
       {
        "v": "Charged Cycle Works",
-       "p": 46,
+       "p": 36.8,
        "url": "https://chargedcycleworks.com/products/emoto-folding-brake-levers",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 46,
+       "wasChk": "2026-11-05"
       }
      ],
      "fit": {
@@ -40257,9 +40333,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 42,
+       "p": 33.6,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-260mm-front-brake-bracket",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 42,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -40339,9 +40417,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 250,
+       "p": 187.5,
        "url": "https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 250,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -40421,9 +40501,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 240,
+       "p": 180,
        "url": "https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 240,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -43752,15 +43834,19 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 49.99,
+       "p": 32.99,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 49.99,
+       "wasChk": "2026-11-10"
       },
       {
        "v": "GritShift",
-       "p": 49.99,
+       "p": 32.99,
        "url": "https://gritshift.com/products/heavy-hitter-ultra-bee-rotor",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 49.99,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -44253,9 +44339,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 8.99,
+       "p": 6.74,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-brake-lever-mount",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 8.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -44334,9 +44422,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 29,
+       "p": 21.75,
        "url": "https://chargedcycleworks.com/products/brake-pads-for-surron-ultra-bee-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 29,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -44415,9 +44505,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 44.99,
+       "p": 33.74,
        "url": "https://chargedcycleworks.com/products/ultra-bee-brake-disk-2403",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 44.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -44496,9 +44588,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 79.5,
+       "p": 59.63,
        "url": "https://chargedcycleworks.com/products/ultra-bee-front-brake-caliper-assy-2",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 79.5,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -44577,9 +44671,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 53,
+       "p": 39.75,
        "url": "https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line-copy",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 53,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -44658,9 +44754,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 298,
+       "p": 223.5,
        "url": "https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly-copy",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 298,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -44739,9 +44837,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 98,
+       "p": 73.5,
        "url": "https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 98,
+       "wasChk": "2026-11-10"
       },
       {
        "v": "GritShift",
@@ -44826,9 +44926,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 68,
+       "p": 51,
        "url": "https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 68,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -46441,9 +46543,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 46,
+       "p": 36.8,
        "url": "https://chargedcycleworks.com/products/warp9-ultra-bee-brake-lever",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 46,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -49818,9 +49922,11 @@
      "prices": [
       {
        "v": "Howling Moto",
-       "p": 179.99,
+       "p": 149.99,
        "url": "https://howlingmoto.com/products/tuttio-soleil-01-foot-brake-bracket",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 179.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -55045,9 +55151,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 249.99,
+       "p": 187.49,
        "url": "https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 249.99,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -55126,9 +55234,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 139,
+       "p": 104.25,
        "url": "https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 139,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -55207,9 +55317,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 301.6,
+       "p": 226.2,
        "url": "https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 301.6,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -55288,9 +55400,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 27.4,
+       "p": 20.55,
        "url": "https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 27.4,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -56089,9 +56203,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 33,
+       "p": 26.4,
        "url": "https://chargedcycleworks.com/products/warp9-220mm-brake-rotor-adapter-for-surron",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 33,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -56169,9 +56285,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 69,
+       "p": 55.2,
        "url": "https://chargedcycleworks.com/products/warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 69,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -56249,9 +56367,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 50,
+       "p": 40,
        "url": "https://chargedcycleworks.com/products/warp9-brake-levers-for-surron",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 50,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -59004,7 +59124,7 @@
      "prices": [
       {
        "v": "ECD Wraps",
-       "p": 175,
+       "p": 185,
        "url": "https://ecdwraps.com/products/79bike-ventusone-ridge",
        "chk": "2026-11-28"
       }
@@ -59575,9 +59695,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 13.5,
+       "p": 11.25,
        "url": "https://chargedcycleworks.com/products/light-bee-oem-battery-front-plate",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 13.5,
+       "wasChk": "2026-10-27"
       }
      ],
      "fit": {
@@ -61589,9 +61711,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 12,
+       "p": 9,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-side-plate-brackets",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 12,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -61911,9 +62035,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 139,
+       "p": 104.25,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 139,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -61992,9 +62118,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 10,
+       "p": 7.5,
        "url": "https://chargedcycleworks.com/products/hardware-kit-for-oem-ultra-bee-front-fender",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 10,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -62073,9 +62201,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 49.99,
+       "p": 37.49,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 49.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -62154,9 +62284,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 29.99,
+       "p": 22.49,
        "url": "https://chargedcycleworks.com/products/guard-board",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 29.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -62964,9 +63096,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 29,
+       "p": 21.75,
        "url": "https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 29,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -63127,9 +63261,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 39.99,
+       "p": 29.99,
        "url": "https://chargedcycleworks.com/products/rear-fender",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 39.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -63289,9 +63425,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 49.99,
+       "p": 37.49,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-front-fender",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 49.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -63370,9 +63508,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 12.99,
+       "p": 9.74,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 12.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -63451,9 +63591,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 24.99,
+       "p": 18.74,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-frame-shroud-left-right-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 24.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -63532,9 +63674,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 14.7,
+       "p": 11.03,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-guard-board-oem-black-white",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 14.7,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -63613,9 +63757,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 22.6,
+       "p": 16.95,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-handle-guard-mount-base-left-right-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 22.6,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -63694,9 +63840,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 28.8,
+       "p": 21.6,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-lower-side-panel-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 28.8,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -63775,9 +63923,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 16,
+       "p": 12,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-midshaft-guard-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 16,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -63856,9 +64006,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 16.99,
+       "p": 12.74,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender-cover-plate-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 16.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -63937,9 +64089,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 31,
+       "p": 23.25,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-rear-mud-flap-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 31,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -64018,9 +64172,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 8,
+       "p": 6,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-steering-block-left-right-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 8,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -64099,9 +64255,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 60.99,
+       "p": 45.74,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-subframe-fender-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 60.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -64180,9 +64338,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 12.99,
+       "p": 9.74,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-usb-decorative-cover-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 12.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -65001,9 +65161,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 34.99,
+       "p": 26.24,
        "url": "https://chargedcycleworks.com/products/surron-light-bee-front-fork-fender-water-transfer-printing-matte",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 34.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -65081,9 +65243,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 39.99,
+       "p": 29.99,
        "url": "https://chargedcycleworks.com/products/real-carbon-fiber-front-fender-type-1-talaria-surron-segway",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 39.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -65161,9 +65325,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 14.99,
+       "p": 11.24,
        "url": "https://chargedcycleworks.com/products/surron-light-bee-number-plate",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 14.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -71693,9 +71859,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 19.99,
+       "p": 14.99,
        "url": "https://chargedcycleworks.com/products/carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 19.99,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -71855,9 +72023,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 19.99,
+       "p": 14.99,
        "url": "https://chargedcycleworks.com/products/carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 19.99,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -71936,9 +72106,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 19.99,
+       "p": 14.99,
        "url": "https://chargedcycleworks.com/products/carbon-fiber-chain-guard-for-surron-light-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 19.99,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -72017,9 +72189,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 19.99,
+       "p": 14.99,
        "url": "https://chargedcycleworks.com/products/surron-light-bee-battery-cover-matte",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 19.99,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -72098,9 +72272,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 27.3,
+       "p": 20.48,
        "url": "https://chargedcycleworks.com/products/rear-shock-mudguard-surron-light-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 27.3,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -74754,7 +74930,7 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 2200,
+       "p": 2300,
        "url": "https://chargedcycleworks.com/products/ventus-battery-evo-gt-72v-50ah-surron-light-bee",
        "chk": "2026-11-28"
       }
@@ -75158,9 +75334,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 3499,
+       "p": 3099,
        "url": "https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 3499,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -75723,9 +75901,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 469,
+       "p": 366.75,
        "url": "https://chargedcycleworks.com/products/ultra-bee-oem-charger",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 469,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -75966,9 +76146,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 1995,
+       "p": 1496.25,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-74v-battery",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 1995,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -76047,9 +76229,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 41.99,
+       "p": 31.49,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 41.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -76128,9 +76312,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 124.99,
+       "p": 93.74,
        "url": "https://chargedcycleworks.com/products/ub-battery-power-cable",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 124.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -76209,9 +76395,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 8,
+       "p": 6,
        "url": "https://chargedcycleworks.com/products/ultra-bee-r-battery-protector",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 8,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -76290,9 +76478,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 29.99,
+       "p": 22.49,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-protective-of-battery-compartment",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 29.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -80133,9 +80323,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 38,
+       "p": 28.5,
        "url": "https://chargedcycleworks.com/products/surron-ub-oem-handlebar-riser",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 38,
+       "wasChk": "2026-10-27"
       }
      ],
      "fit": {
@@ -80878,9 +81070,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 34.99,
+       "p": 26.24,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 34.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -80959,9 +81153,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 99,
+       "p": 74.25,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-bar-mounts",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -81040,9 +81236,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 240,
+       "p": 180,
        "url": "https://chargedcycleworks.com/products/kke-ultra-bee-steering-stabilizer",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 240,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -81366,15 +81564,19 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 79.99,
+       "p": 68.89,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 79.99,
+       "wasChk": "2026-11-11"
       },
       {
        "v": "GritShift",
-       "p": 79.99,
+       "p": 68.89,
        "url": "https://gritshift.com/products/gritshift-heavy-hitter-mx-direct-mount-riser",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 79.99,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -81452,15 +81654,19 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 64.89,
+       "p": 55.89,
        "url": "https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 64.89,
+       "wasChk": "2026-11-11"
       },
       {
        "v": "GritShift",
-       "p": 64.89,
+       "p": 55.89,
        "url": "https://gritshift.com/products/direct-mount-stem-riser-2-inch",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 64.89,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -81541,9 +81747,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 24.99,
+       "p": 18.74,
        "url": "https://chargedcycleworks.com/products/surron-light-bee-stem-lift-kit",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 24.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -81621,9 +81829,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 119,
+       "p": 95.2,
        "url": "https://chargedcycleworks.com/products/warp9-altis-sigma-direct-bar-mount",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 119,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -86788,9 +86998,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 339,
+       "p": 254.25,
        "url": "https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 339,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -87680,9 +87892,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 408.5,
+       "p": 306.38,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-85v-15a-fast-charger-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 408.5,
+       "wasChk": "2026-10-27"
       }
      ],
      "fit": {
@@ -87761,9 +87975,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 299.99,
+       "p": 224.99,
        "url": "https://chargedcycleworks.com/products/lbx-charger-67-2v-10a-110v-10a",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 299.99,
+       "wasChk": "2026-10-27"
       }
      ],
      "fit": {
@@ -91855,7 +92071,7 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 29.99,
+       "p": 32.25,
        "url": "https://chargedcycleworks.com/products/gates-gt4-power-grip-belt",
        "chk": "2026-11-28"
       }
@@ -91937,9 +92153,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 39.89,
+       "p": 29.92,
        "url": "https://chargedcycleworks.com/products/gates-gt4-power-grip-belt-surron-ultra-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 39.89,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -93438,9 +93656,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 199.89,
+       "p": 170.89,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 199.89,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -94804,9 +95024,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 13.99,
+       "p": 12.99,
        "url": "https://gritshift.com/products/moose-racing-handlebar-grips-stealth-mx",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 13.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -101300,9 +101522,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 72.99,
+       "p": 69.34,
        "url": "https://gritshift.com/products/ebmx-x-9000-v2-colored-heat-sink",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 72.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -104720,9 +104944,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 119,
+       "p": 95.2,
        "url": "https://chargedcycleworks.com/products/ultra-bee-sprocket-drive-kit",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 119,
+       "wasChk": "2026-11-05"
       }
      ],
      "fit": {
@@ -106344,9 +106570,11 @@
       },
       {
        "v": "GritShift",
-       "p": 99.89,
+       "p": 94.9,
        "url": "https://gritshift.com/products/ebmx-competition-chain-guide-for-ultra-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 99.89,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -107165,9 +107393,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 208.5,
+       "p": 156.38,
        "url": "https://chargedcycleworks.com/products/center-shaft-sleeve-assembly",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 208.5,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -107246,9 +107476,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 10.99,
+       "p": 8.24,
        "url": "https://chargedcycleworks.com/products/ultra-bee-output-gear-cover",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 10.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -107327,9 +107559,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 53.99,
+       "p": 40.49,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-primary-drive-front-pulley",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 53.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -107408,9 +107642,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 16,
+       "p": 12,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-axle-chain-adjuster-block-left-right-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 16,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -107489,9 +107725,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 112.5,
+       "p": 84.38,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-primary-drive-rear-pulley-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 112.5,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -108384,9 +108622,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 99.89,
+       "p": 85.89,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 99.89,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -108951,15 +109191,19 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 129.99,
+       "p": 109.99,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 129.99,
+       "wasChk": "2026-11-10"
       },
       {
        "v": "GritShift",
-       "p": 129.99,
+       "p": 109.99,
        "url": "https://gritshift.com/products/520-primary-drive-ultra-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 129.99,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -109200,9 +109444,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 65,
+       "p": 52,
        "url": "https://chargedcycleworks.com/products/rawr-sigma-sprocket",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 65,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -110243,7 +110489,7 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 34.99,
+       "p": 39.99,
        "url": "https://gritshift.com/products/fire-power-420-standard-gold-chain-130-link",
        "chk": "2026-11-28"
       }
@@ -112323,9 +112569,11 @@
      "prices": [
       {
        "v": "Howling Moto",
-       "p": 54.99,
+       "p": 34.99,
        "url": "https://howlingmoto.com/products/tuttio-soleil-01-shift-lock",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 54.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -121100,9 +121348,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 19.99,
+       "p": 17.89,
        "url": "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 19.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -121183,15 +121433,19 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 19.89,
+       "p": 17.89,
        "url": "https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 19.89,
+       "wasChk": "2026-11-10"
       },
       {
        "v": "GritShift",
-       "p": 19.89,
+       "p": 17.89,
        "url": "https://gritshift.com/products/gritshift-halo-headlight-kill-switch",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 19.89,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -121354,9 +121608,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 41.99,
+       "p": 31.49,
        "url": "https://chargedcycleworks.com/products/ub-communication-cable",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 41.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -121435,9 +121691,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 137.99,
+       "p": 103.49,
        "url": "https://chargedcycleworks.com/products/surron-ub-oem-headlight",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 137.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -121516,9 +121774,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 29.99,
+       "p": 22.49,
        "url": "https://chargedcycleworks.com/products/surron-ub-oem-headlight-shroud",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 29.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -121678,9 +121938,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 49.99,
+       "p": 37.49,
        "url": "https://chargedcycleworks.com/products/headlight-cover",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 49.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -121759,9 +122021,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 39.2,
+       "p": 29.4,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-headlight-bracket-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 39.2,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -121840,9 +122104,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 21,
+       "p": 15.75,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-headlight-trim-block-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 21,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -122724,9 +122990,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 75.99,
+       "p": 56.99,
        "url": "https://chargedcycleworks.com/products/ultra-bee-left-hand-combination-switch-light-horn-asr",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 75.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -122805,9 +123073,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 117.99,
+       "p": 88.49,
        "url": "https://chargedcycleworks.com/products/ultra-bee-converter",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 117.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -122886,9 +123156,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 15,
+       "p": 11.25,
        "url": "https://chargedcycleworks.com/products/surron-ub-dashboard-bracket",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 15,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -122967,9 +123239,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 190.99,
+       "p": 143.24,
        "url": "https://chargedcycleworks.com/products/surron-ub-oem-dashboard",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 190.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -123048,9 +123322,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 64.99,
+       "p": 48.74,
        "url": "https://chargedcycleworks.com/products/ub-key-switch-set",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 64.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -123129,9 +123405,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 34,
+       "p": 25.5,
        "url": "https://chargedcycleworks.com/products/oem-ultra-bee-kickstand-switch",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 34,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -123210,9 +123488,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 70.99,
+       "p": 53.24,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-right-hand-3-combination-switch-my25",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 70.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -123291,9 +123571,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 70.99,
+       "p": 53.24,
        "url": "https://chargedcycleworks.com/products/ultra-bee-right-hand-3-combination-switch-s-d-e-control",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 70.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -125156,9 +125438,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 59.99,
+       "p": 56.99,
        "url": "https://gritshift.com/products/ebmx-display-case",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 59.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -125236,9 +125520,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 49.99,
+       "p": 47.49,
        "url": "https://gritshift.com/products/ebmx-x-9000-bluetooth-module",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 49.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -125316,9 +125602,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 84.99,
+       "p": 80.74,
        "url": "https://gritshift.com/products/ebmx-x-9000-v3-sw102-color-display",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 84.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -125396,9 +125684,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 189.89,
+       "p": 180.4,
        "url": "https://gritshift.com/products/ebmx-x9000v2-3-5-display-upgrade",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 189.89,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -126757,9 +127047,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 31.89,
+       "p": 29.89,
        "url": "https://gritshift.com/products/heavy-hitter-e-ride-mini-mod-ignition-cover",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 31.89,
+       "wasChk": "2026-11-17"
       }
      ],
      "fit": {
@@ -127642,9 +127934,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 55,
+       "p": 41.25,
        "url": "https://chargedcycleworks.com/products/surron-light-bee-oem-headlight",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 55,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -129817,9 +130111,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 42,
+       "p": 31.5,
        "url": "https://chargedcycleworks.com/products/skid-plate",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 42,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -130140,9 +130436,11 @@
      "prices": [
       {
        "v": "VORO Motors",
-       "p": 39.95,
+       "p": 31.95,
        "url": "https://voromotors.com/products/motor-skid-plate-for-e-ride-pro-ss",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 39.95,
+       "wasChk": "2026-10-18"
       }
      ],
      "fit": {
@@ -130221,9 +130519,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 7.99,
+       "p": 5.99,
        "url": "https://chargedcycleworks.com/products/surron-ub-oem-chain-guide",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 7.99,
+       "wasChk": "2026-10-27"
       }
      ],
      "fit": {
@@ -130302,9 +130602,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 8,
+       "p": 6,
        "url": "https://chargedcycleworks.com/products/ultra-bee-l-battery-protector",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 8,
+       "wasChk": "2026-10-27"
       }
      ],
      "fit": {
@@ -131842,9 +132144,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 24,
+       "p": 18,
        "url": "https://chargedcycleworks.com/products/surron-ub-oem-chain-guard",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 24,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -132247,15 +132551,19 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 219.99,
+       "p": 187.89,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 219.99,
+       "wasChk": "2026-11-10"
       },
       {
        "v": "GritShift",
-       "p": 219.99,
+       "p": 187.89,
        "url": "https://gritshift.com/products/heavy-hitter-skid-plate-e-ride",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 219.99,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -132417,9 +132725,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 45.99,
+       "p": 34.49,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 45.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -132821,9 +133131,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 49.99,
+       "p": 37.49,
        "url": "https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 49.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -132902,9 +133214,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 21,
+       "p": 15.75,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 21,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -132983,9 +133297,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 21,
+       "p": 15.75,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 21,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -133064,9 +133380,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 39.99,
+       "p": 29.99,
        "url": "https://chargedcycleworks.com/products/handle-cover",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 39.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -133226,9 +133544,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 24.99,
+       "p": 18.74,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 24.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -135084,9 +135404,11 @@
       },
       {
        "v": "Charged Cycle Works",
-       "p": 89.25,
+       "p": 66.94,
        "url": "https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 89.25,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -135331,9 +135653,11 @@
      "prices": [
       {
        "v": "VORO Motors",
-       "p": 59.95,
+       "p": 47.95,
        "url": "https://voromotors.com/products/rear-progression-triangle-for-e-ride-pro-ss",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 59.95,
+       "wasChk": "2026-10-18"
       }
      ],
      "fit": {
@@ -136543,15 +136867,19 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 169.99,
+       "p": 144.89,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 169.99,
+       "wasChk": "2026-11-11"
       },
       {
        "v": "GritShift",
-       "p": 169.99,
+       "p": 144.89,
        "url": "https://gritshift.com/products/heavy-hitter-titanium-linkage-upgrade",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 169.99,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -136631,15 +136959,19 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 99.89,
+       "p": 79.99,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 99.89,
+       "wasChk": "2026-11-10"
       },
       {
        "v": "GritShift",
-       "p": 99.89,
+       "p": 79.99,
        "url": "https://gritshift.com/products/heavy-hitter-ultra-bee-linkage",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 99.89,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -136718,9 +137050,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 89.99,
+       "p": 76.89,
        "url": "https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 89.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -137042,9 +137376,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 149,
+       "p": 119.2,
        "url": "https://chargedcycleworks.com/products/talaria-sting-titanium-linkage-bolts-by-warp9",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 149,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -141100,9 +141436,11 @@
       },
       {
        "v": "GritShift",
-       "p": 74.99,
+       "p": 71.24,
        "url": "https://gritshift.com/products/ebmx-x-9000-controller-pro-mount-sur-ron-ultra-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 74.99,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -141181,9 +141519,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 54.99,
+       "p": 46.89,
        "url": "https://chargedcycleworks.com/products/gritshift-billet-gear-box-breather-kit-v2",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 54.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -141424,9 +141764,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 64.99,
+       "p": 48.74,
        "url": "https://chargedcycleworks.com/products/bowl-set",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 64.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -141505,9 +141847,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 135,
+       "p": 101.25,
        "url": "https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 135,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -141586,9 +141930,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 5,
+       "p": 3.75,
        "url": "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 5,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -141667,9 +142013,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 4,
+       "p": 3,
        "url": "https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 4,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -141748,9 +142096,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 4.99,
+       "p": 3.74,
        "url": "https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 4.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -141829,9 +142179,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 6,
+       "p": 4.5,
        "url": "https://chargedcycleworks.com/products/ub-oem-steering-head-support",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 6,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -141910,9 +142262,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 6,
+       "p": 4.5,
        "url": "https://chargedcycleworks.com/products/ub-oem-steering-head-cover",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 6,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -142072,9 +142426,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 79.3,
+       "p": 59.48,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 79.3,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -142153,9 +142509,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 41.99,
+       "p": 31.49,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 41.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -142234,9 +142592,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 8,
+       "p": 6,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 8,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -143288,9 +143648,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 22,
+       "p": 17.6,
        "url": "https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 22,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -143532,9 +143894,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 8,
+       "p": 6.4,
        "url": "https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 8,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -144111,9 +144475,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 131,
+       "p": 104.8,
        "url": "https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 131,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -144605,9 +144971,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 10,
+       "p": 8,
        "url": "https://chargedcycleworks.com/products/stem-lock-spacer-kit",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 10,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -144770,9 +145138,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 139.99,
+       "p": 119.99,
        "url": "https://chargedcycleworks.com/products/tusk-adjustable-height-motorcycle-tire-changing-stand",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 139.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -144930,7 +145300,7 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 189.95,
+       "p": 260,
        "url": "https://chargedcycleworks.com/products/bike-lift-stand-by-drc",
        "chk": "2026-11-28"
       }
@@ -146056,9 +146426,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 16.89,
+       "p": 14.89,
        "url": "https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 16.89,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -146296,9 +146668,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 18.89,
+       "p": 14.89,
        "url": "https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 18.89,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -170500,9 +170874,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 61.63,
+       "p": 46.22,
        "url": "https://chargedcycleworks.com/products/surron-light-bee-oem-right-left-foot-peg-support-brackets",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 61.63,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -170580,9 +170956,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 50.99,
+       "p": 38.24,
        "url": "https://chargedcycleworks.com/products/left-footpeg-assembly",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 50.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -170661,9 +171039,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 111,
+       "p": 83.25,
        "url": "https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 111,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -170742,9 +171122,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 47.99,
+       "p": 35.99,
        "url": "https://chargedcycleworks.com/products/right-footpeg-assembly",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 47.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -171549,9 +171931,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 131,
+       "p": 104.8,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 131,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -171794,9 +172178,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 59.99,
+       "p": 55.87,
        "url": "https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 59.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -172208,9 +172594,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 147.6,
+       "p": 131.2,
        "url": "https://chargedcycleworks.com/products/stark-varg-elite-foot-pegs-by-warp9",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 147.6,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -172928,9 +173316,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 28.99,
+       "p": 24.89,
        "url": "https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 28.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -177612,9 +178002,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 104.99,
+       "p": 78.74,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 104.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -179297,9 +179689,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 59.89,
+       "p": 39.99,
        "url": "https://gritshift.com/products/heavy-hitter-ribbed-gripper-seat-cover-e-ride-pro",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 59.89,
+       "wasChk": "2026-11-17"
       }
      ],
      "fit": {
@@ -179457,9 +179851,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 47,
+       "p": 35.25,
        "url": "https://chargedcycleworks.com/products/replacement-seat-for-surron-and-segway-x160-x260",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 47,
+       "wasChk": "2026-11-22"
       }
      ],
      "fit": {
@@ -181240,9 +181636,11 @@
       },
       {
        "v": "GritShift",
-       "p": 19.99,
+       "p": 17.89,
        "url": "https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 19.99,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -181321,15 +181719,19 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 19.99,
+       "p": 17.89,
        "url": "https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 19.99,
+       "wasChk": "2026-10-27"
       },
       {
        "v": "GritShift",
-       "p": 19.99,
+       "p": 17.89,
        "url": "https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 19.99,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -181408,15 +181810,19 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 32.99,
+       "p": 28.89,
        "url": "https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 32.99,
+       "wasChk": "2026-10-27"
       },
       {
        "v": "GritShift",
-       "p": 32.99,
+       "p": 28.89,
        "url": "https://gritshift.com/products/talaria-blinder-led-light-bar-headlight",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 32.99,
+       "wasChk": "2026-11-13"
       }
      ],
      "fit": {
@@ -181737,9 +182143,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 16,
+       "p": 12,
        "url": "https://chargedcycleworks.com/products/tail-light-installation-decorative-block",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 16,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -181818,9 +182226,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 64.99,
+       "p": 48.74,
        "url": "https://chargedcycleworks.com/products/front-turn-lamp-pair",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 64.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -181899,9 +182309,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 27,
+       "p": 20.25,
        "url": "https://chargedcycleworks.com/products/tail-light-installation-cover",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 27,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -181980,9 +182392,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 69.99,
+       "p": 52.49,
        "url": "https://chargedcycleworks.com/products/tail-light-mounting-bracket",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 69.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -182061,9 +182475,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 64.99,
+       "p": 48.74,
        "url": "https://chargedcycleworks.com/products/rear-turn-lamp-pair",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 64.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -182142,9 +182558,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 48,
+       "p": 36,
        "url": "https://chargedcycleworks.com/products/surron-tail-light",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 48,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -184978,9 +185396,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 644.99,
+       "p": 483.74,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-carbon-black-without-bearings",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 644.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -185059,9 +185479,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 18,
+       "p": 13.5,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bearing",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 18,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -185140,9 +185562,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 9,
+       "p": 6.75,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 9,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -185221,7 +185645,7 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 2,
+       "p": 1.5,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing",
        "chk": "2026-11-28"
       }
@@ -185302,9 +185726,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 9.99,
+       "p": 7.49,
        "url": "https://chargedcycleworks.com/products/ub-pivot-bushing",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 9.99,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -185464,7 +185890,7 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 2.99,
+       "p": 2.24,
        "url": "https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt",
        "chk": "2026-11-28"
       }
@@ -185545,9 +185971,11 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 4,
+       "p": 3,
        "url": "https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-washer",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 4,
+       "wasChk": "2026-11-10"
       }
      ],
      "fit": {
@@ -185948,7 +186376,7 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 765.89,
+       "p": 759.99,
        "url": "https://gritshift.com/products/heavy-hitter-billet-swing-arm",
        "chk": "2026-11-28"
       }
@@ -186894,7 +187322,7 @@
       "yozma-in10": "Not compatible with this bike.",
       "yozma-in10-pro": "Not compatible with this bike.",
       "tuttio-soleil01": "Not compatible with this bike.",
-      "stark-vargex": "Stark lists more than one stock rear tire (XC 120/100-18, enduro 140/80-18) - verify before buying (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists stock tires 90/90-21 front and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); compare this tire's size with yours before buying - verify (checked 2026-11-28)",
       "ultrabee-21kw": "Full size 100/90-18 exactly matches the stock rear tire on the ultrabee-21kw (spec: https://go4emobility.com/products/sur-ron-ultrabee-2025) (checked 2026-11-12)",
       "yvolt-surge-v": "Full size 100/90-18 exactly matches the stock rear tire on the yvolt-surge-v (spec: https://electricrideco.com/products/y-volt-surge-v-electric-dirt-bike) (checked 2026-11-12)",
       "supermach-sm01": "Not compatible with this bike.",
@@ -187461,7 +187889,7 @@
       "yozma-in10": "CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only; no 14in or 12in size for the IN10 (stock 14in/12in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road",
       "yozma-in10-pro": "CCW offers 3.50x18, 4.00x18, 2.75x21 and 3.00x21 only; no 17in or 14in size for the IN10 Pro (stock 17in/14in wheels). Page text: requires 18/21 wheel upgrade. The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k270-dual-sport-40-dirt-60-road",
       "tuttio-soleil01": "Only the 14\" diameter matches; tire sizes 180/80-14 vs stock front 60/100-14 - verify before buying (checked 2026-11-12)",
-      "stark-vargex": "Only the 21\" diameter matches; tire sizes 2.75-21, 3.00-21, 3.25-21 vs stock front 80/100-21 - verify before buying (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists stock tires 90/90-21 front and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); compare this tire's size with yours before buying - verify (checked 2026-11-28)",
       "altis-sigma": "K270 has no 19-inch variant at CCW (18/21 only); cannot match stock 19/19 wheels - verify (checked 2026-11-11)",
       "ultrabee-21kw": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26).",
       "yvolt-surge-v": "Rear only: Kenda lists the K270 in 100/90-18 REAR (part 042701805C1), the exact stock rear size, and RevZilla sells it. The CCW inch sizes (3.00x21, 3.50x18, 4.00x18) are not metric stock sizes and do not count (checked 2026-11-26).",
@@ -187580,7 +188008,7 @@
       "yozma-in10": "Not compatible with this bike.",
       "yozma-in10-pro": "Front 90/90-21 only; rears 120/90-18, 130/90-17, 130/90-18, 140/80-18 - no 70/100-17 front or 90/100-14 rear for the IN10 Pro (stock 17in/14in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://www.rockymountainatvmc.com/tires-and-wheels/tusk-dsport%C2%AE-adventure-tire-p?v=18238",
       "tuttio-soleil01": "Not compatible with this bike.",
-      "stark-vargex": "Only the 21\" diameter matches; tire sizes 90/90-21 vs stock front 80/100-21 - verify before buying (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists 90/90-21 front and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex). This tire's 90/90-21 matches that front size, but our Nov 12 source listed an 80/100-21 front, so the stock size is in conflict - verify your bike's tire before buying (checked 2026-11-28)",
       "altis-sigma": "Not compatible with this bike.",
       "ultrabee-21kw": "Only the 18\" diameter matches; tire sizes 120/90-18, 130/90-18, 140/80-18 vs stock rear 100/90-18 - verify before buying (checked 2026-11-12)",
       "yvolt-surge-v": "Only the 18\" diameter matches; tire sizes 120/90-18, 130/90-18, 140/80-18 vs stock rear 100/90-18 - verify before buying (checked 2026-11-12)",
@@ -187637,7 +188065,7 @@
       "yozma-in10": "no_fit",
       "yozma-in10-pro": "no_fit",
       "tuttio-soleil01": "confirmed",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "confirmed",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
@@ -187700,7 +188128,7 @@
       "yozma-in10": "Single-size 70/100-19 front tire; no 14in or 12in size for the IN10 (stock 14in/12in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire",
       "yozma-in10-pro": "Single-size 70/100-19 front tire; no 17in or 14in size for the IN10 Pro (stock 17in/14in wheels). The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k785-millville-ii-front-tire",
       "tuttio-soleil01": "Full size 60/100-14 exactly matches the stock front tire on the tuttio-soleil01 (spec: https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike) (checked 2026-11-12)",
-      "stark-vargex": "Full size 80/100-21 exactly matches the stock front tire on the stark-vargex (spec: https://www.starkfuture.com/en-us/varg-ex) (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. Verify your bike's tire size before buying (checked 2026-11-28)",
       "altis-sigma": "Full size 70/100-19 exactly matches the stock front tire on the altis-sigma (spec: https://www.altispowersports.com/products/altis-sigma) (checked 2026-11-12)",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/90-19, 120/80-19, 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
@@ -187887,7 +188315,7 @@
       "yozma-in10": "confirmed",
       "yozma-in10-pro": "confirmed",
       "tuttio-soleil01": "confirmed",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "confirmed",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
@@ -187934,7 +188362,7 @@
       "komodo": "Talaria lists two tire setups (70/100-21 / 90/100-18 and 80/100-21 / 110/90-18) - verify before buying (checked 2026-11-12)",
       "bonnell-805rx": "CCW lists 80/100-21, 100/100-18 and 110/100-18 (stock sizes) for the Bonnell 805 RX (checked Nov 5, 2026)",
       "storm-bee": "Full size 80/100-21 exactly matches the stock front tire on the storm-bee (spec: https://surron.ca/fr/pages/storm-bee) (checked 2026-11-12)",
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "rawrr-mantis-72v": "Full size 70/100-19 exactly matches the stock front tire on the rawrr-mantis-72v (spec: https://rawrrmantis.com/products/rawrr-mantis-72v) (checked 2026-11-12)",
       "rawrr-mantis-x-pro": "Full size 70/100-19 exactly matches the stock front tire on the rawrr-mantis-x-pro (spec: https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro) (checked 2026-11-12)",
@@ -187950,7 +188378,7 @@
       "yozma-in10": "CCW search-by-bike (YZI10 tag) lists this part for the Yozma IN10; offers 60/100-14 front and 80/100-12 rear, both IN10 stock sizes. (checked 2026-11-11)",
       "yozma-in10-pro": "CCW search-by-bike (YZI10P tag) lists this part for the Yozma IN10 Pro; offers 70/100-17 and 90/100-14, both IN10 Pro stock sizes. (checked 2026-11-11)",
       "tuttio-soleil01": "Full size 60/100-14 exactly matches the stock front tire on the tuttio-soleil01 (spec: https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike) (checked 2026-11-12)",
-      "stark-vargex": "Full size 80/100-21 exactly matches the stock front tire on the stark-vargex (spec: https://www.starkfuture.com/en-us/varg-ex) (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. Verify your bike's tire size before buying (checked 2026-11-28)",
       "altis-sigma": "Full size 70/100-19 exactly matches the stock front tire on the altis-sigma (spec: https://www.altispowersports.com/products/altis-sigma) (checked 2026-11-12)",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/90-19, 120/80-19, 120/90-19, 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
@@ -188008,7 +188436,7 @@
       "yozma-in10": "unknown",
       "yozma-in10-pro": "unknown",
       "tuttio-soleil01": "unknown",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "likely_verify",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
@@ -188062,7 +188490,7 @@
       "rawrr-mantis-x": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/90-19, 120/80-19 vs stock front 70/100-19 - verify before buying (checked 2026-11-12)",
       "falcon-pro": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/90-19, 120/80-19 vs stock front 70/100-19 - verify before buying (checked 2026-11-12)",
       "falcon-gt": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/90-19, 120/80-19 vs stock front 70/100-19 - verify before buying (checked 2026-11-12)",
-      "stark-vargex": "Full size 80/100-21 exactly matches the stock front tire on the stark-vargex (spec: https://www.starkfuture.com/en-us/varg-ex) (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. Verify your bike's tire size before buying (checked 2026-11-28)",
       "altis-sigma": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/90-19, 120/80-19 vs stock front 70/100-19 - verify before buying (checked 2026-11-12)",
       "ultrabee-21kw": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/90-19, 120/80-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/90-19, 120/80-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
@@ -188113,7 +188541,7 @@
       "yozma-in10": "confirmed",
       "yozma-in10-pro": "confirmed",
       "tuttio-soleil01": "confirmed",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "confirmed",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
@@ -188176,7 +188604,7 @@
       "yozma-in10": "Offers Front 60/100-14 and Rear 80/100-12, both Yozma IN10 stock sizes (stock 14in/12in wheels). (checked 2026-11-11)",
       "yozma-in10-pro": "Offers Front 70/100-17 and Rear 90/100-14, both Yozma IN10 Pro stock sizes (stock 17in/14in wheels). (checked 2026-11-11)",
       "tuttio-soleil01": "Full size 60/100-14 exactly matches the stock front tire on the tuttio-soleil01 (spec: https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike) (checked 2026-11-12)",
-      "stark-vargex": "Full size 80/100-21 exactly matches the stock front tire on the stark-vargex (spec: https://www.starkfuture.com/en-us/varg-ex) (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. Verify your bike's tire size before buying (checked 2026-11-28)",
       "altis-sigma": "Full size 70/100-19 exactly matches the stock front tire on the altis-sigma (spec: https://www.altispowersports.com/products/altis-sigma) (checked 2026-11-12)",
       "ultrabee-21kw": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/85-19, 110/90-19, 120/80-19, 120/90-19, 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/85-19, 110/90-19, 120/80-19, 120/90-19, 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
@@ -188233,7 +188661,7 @@
       "yozma-in10": "likely_verify",
       "yozma-in10-pro": "likely_verify",
       "tuttio-soleil01": "confirmed",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "confirmed",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
@@ -188296,7 +188724,7 @@
       "yozma-in10": "No published full tire sizes for the IN10 on file (14in front / 12in rear only). The K760 does come in 60/100-14 and 80/100-12 (RevZilla), so the wheel diameters match - verify the exact size before buying. Replaces the old \"no 14in or 12in size\" not_compatible, which only looked at CCW (checked 2026-11-26).",
       "yozma-in10-pro": "No published full tire sizes for the IN10 Pro on file (17in front / 14in rear only). The K760 comes in 70/100-17 front and 90/100-14 rear sizes, so the wheel diameters match - verify the exact size before buying (checked 2026-11-26).",
       "tuttio-soleil01": "Rear: Kenda lists the K760 in 80/100-12 REAR, the exact stock rear size (stock 60/100-14 front / 80/100-12 rear), sold by RevZilla. Kenda also lists a 60/100-14 FRONT, but RevZilla labels that size \"Rear\", so use this listing for the rear tire (checked 2026-11-26).",
-      "stark-vargex": "Full size 80/100-21 exactly matches the stock front tire on the stark-vargex (spec: https://www.starkfuture.com/en-us/varg-ex) (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. Verify your bike's tire size before buying (checked 2026-11-28)",
       "altis-sigma": "Full size 70/100-19 exactly matches the stock front tire on the altis-sigma (spec: https://www.altispowersports.com/products/altis-sigma) (checked 2026-11-12)",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/90-19, 120/90-19, 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
@@ -188359,7 +188787,7 @@
       "yozma-in10": "no_fit",
       "yozma-in10-pro": "no_fit",
       "tuttio-soleil01": "no_fit",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "no_fit",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
@@ -188422,7 +188850,7 @@
       "yozma-in10": "Not compatible with this bike.",
       "yozma-in10-pro": "Not compatible with this bike.",
       "tuttio-soleil01": "Not compatible with this bike.",
-      "stark-vargex": "Full size 80/100-21 exactly matches the stock front tire on the stark-vargex (spec: https://www.starkfuture.com/en-us/varg-ex) (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. Verify your bike's tire size before buying (checked 2026-11-28)",
       "altis-sigma": "CCW carries this tire but does not list it for the Altis Sigma, and it is not the exact stock front size (70/100-19). Wheel-diameter match alone removed (checked 2026-11-12)",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 100/90-19, 110/90-19, 120/80-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
@@ -188484,7 +188912,7 @@
       "yozma-in10": "no_fit",
       "yozma-in10-pro": "confirmed",
       "tuttio-soleil01": "likely_verify",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "likely_verify",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
@@ -188547,7 +188975,7 @@
       "yozma-in10": "No 14in front or 12in rear size offered (Front 80/100-21, 70/100-17; Rear 110/100-18, 110/90-19, 120/80-19, 90/100-14); nothing fits the IN10 stock 14in/12in wheels. The old diameter-match confirm was wrong. (checked 2026-11-11). Live URL https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires?facet_ids[]=1010",
       "yozma-in10-pro": "Offers Front 70/100-17 and Rear 90/100-14, both Yozma IN10 Pro stock sizes (stock 17in/14in wheels). (checked 2026-11-11)",
       "tuttio-soleil01": "Only the 14\" diameter matches; tire sizes 90/100-14 vs stock front 60/100-14 - verify before buying (checked 2026-11-12)",
-      "stark-vargex": "Full size 80/100-21 exactly matches the stock front tire on the stark-vargex (spec: https://www.starkfuture.com/en-us/varg-ex) (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. Verify your bike's tire size before buying (checked 2026-11-28)",
       "altis-sigma": "The 70/100-19 is sold as a REAR size (CCW \"Maxxcross Intermediate Rear Tire\"; RevZilla lists 70/100-19 under rear), so it does not match the Sigma 70/100-19 FRONT by position; no 90/100-18 rear size (Altis: 70/100-19 front, 90/100-18 rear) - verify (checked 2026-11-26).",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 110/90-19, 120/80-19, 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
@@ -188672,7 +189100,7 @@
       "yozma-in10": "Not compatible with this bike.",
       "yozma-in10-pro": "Not compatible with this bike.",
       "tuttio-soleil01": "Not compatible with this bike.",
-      "stark-vargex": "Stark lists more than one stock rear tire (XC 120/100-18, enduro 140/80-18) - verify before buying (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists stock tires 90/90-21 front and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); compare this tire's size with yours before buying - verify (checked 2026-11-28)",
       "altis-sigma": "CCW carries this tire but does not list it for the Altis Sigma, and it is not the exact stock rear size. Wheel-diameter match alone removed (checked 2026-11-12)",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 18\" diameter matches; tire sizes 110/80-18, 120/80-18, 130/80-18, 140/80-18 vs stock rear 100/90-18 - verify before buying (checked 2026-11-12)",
@@ -188688,7 +189116,7 @@
      "prices": [
       {
        "v": "Surron Canada",
-       "p": 79,
+       "p": 109.99,
        "url": "https://surron.ca/products/light-bee-off-road-tire",
        "chk": "2026-11-28"
       }
@@ -188926,9 +189354,11 @@
      "prices": [
       {
        "v": "Ghostbikes",
-       "p": 99,
+       "p": 74.38,
        "url": "https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 99,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -189031,9 +189461,11 @@
      "prices": [
       {
        "v": "ELMOX",
-       "p": 58,
+       "p": 49.95,
        "url": "https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 58,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -189234,7 +189666,7 @@
       "komodo": "Talaria lists two tire setups (70/100-21 / 90/100-18 and 80/100-21 / 110/90-18) - verify before buying (checked 2026-11-12)",
       "bonnell-805rx": "CCW lists the 80/100-21 variant (stock front size) for the Bonnell 805 RX (checked Nov 5, 2026). All variants currently unavailable.",
       "storm-bee": "Only the 18\" diameter matches; tire sizes 90/100-18 vs stock rear 100/90-18 - verify before buying (checked 2026-11-12)",
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "rawrr-mantis-72v": "Full size 70/100-19 exactly matches the stock front tire on the rawrr-mantis-72v (spec: https://rawrrmantis.com/products/rawrr-mantis-72v) (checked 2026-11-12)",
       "rawrr-mantis-x-pro": "Full size 70/100-19 exactly matches the stock front tire on the rawrr-mantis-x-pro (spec: https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro) (checked 2026-11-12)",
@@ -189250,7 +189682,7 @@
       "yozma-in10": "Not compatible with this bike.",
       "yozma-in10-pro": "Not compatible with this bike.",
       "tuttio-soleil01": "Not compatible with this bike.",
-      "stark-vargex": "Stark lists more than one stock rear tire (XC 120/100-18, enduro 140/80-18) - verify before buying (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists stock tires 90/90-21 front and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); compare this tire's size with yours before buying - verify (checked 2026-11-28)",
       "altis-sigma": "Full size 70/100-19 exactly matches the stock front tire on the altis-sigma (spec: https://www.altispowersports.com/products/altis-sigma) (checked 2026-11-12)",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
@@ -189490,7 +189922,7 @@
       "yozma-in10": "Not compatible with this bike.",
       "yozma-in10-pro": "Not compatible with this bike.",
       "tuttio-soleil01": "Not compatible with this bike.",
-      "stark-vargex": "Stark lists more than one stock rear tire (XC 120/100-18, enduro 140/80-18) - verify before buying (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists stock tires 90/90-21 front and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); compare this tire's size with yours before buying - verify (checked 2026-11-28)",
       "altis-sigma": "Not compatible with this bike.",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 18\" diameter matches; tire sizes 100/100-18 vs stock rear 100/90-18 - verify before buying (checked 2026-11-12)",
@@ -189590,7 +190022,7 @@
       "komodo": "Not compatible with this bike.",
       "bonnell-805rx": "Not compatible with this bike.",
       "storm-bee": "Not compatible with this bike.",
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "rawrr-mantis-72v": "Full size 70/100-19 exactly matches the stock front tire on the rawrr-mantis-72v (spec: https://rawrrmantis.com/products/rawrr-mantis-72v) (checked 2026-11-12)",
       "rawrr-mantis-x-pro": "Full size 70/100-19 exactly matches the stock front tire on the rawrr-mantis-x-pro (spec: https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro) (checked 2026-11-12)",
@@ -189660,7 +190092,7 @@
       "yozma-in10": "confirmed",
       "yozma-in10-pro": "confirmed",
       "tuttio-soleil01": "confirmed",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "confirmed",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
@@ -189707,7 +190139,7 @@
       "komodo": "Talaria lists two tire setups (70/100-21 / 90/100-18 and 80/100-21 / 110/90-18) - verify before buying (checked 2026-11-12)",
       "bonnell-805rx": "CCW lists the 80/100-21 variant (stock front size) for the Bonnell 805 RX (checked Nov 5, 2026)",
       "storm-bee": "Full size 80/100-21 exactly matches the stock front tire on the storm-bee (spec: https://surron.ca/fr/pages/storm-bee) (checked 2026-11-12)",
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "rawrr-mantis-72v": "Full size 70/100-19 exactly matches the stock front tire on the rawrr-mantis-72v (spec: https://rawrrmantis.com/products/rawrr-mantis-72v) (checked 2026-11-12)",
       "rawrr-mantis-x-pro": "Full size 70/100-19 exactly matches the stock front tire on the rawrr-mantis-x-pro (spec: https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro) (checked 2026-11-12)",
@@ -189723,7 +190155,7 @@
       "yozma-in10": "CCW offers 60/100-14, the Yozma IN10 stock front size (stock 14in/12in wheels, 60/100-14 front / 80/100-12 rear). (checked 2026-11-11)",
       "yozma-in10-pro": "CCW offers 70/100-17, the Yozma IN10 Pro stock front size (stock 17in/14in wheels, 70/100-17 front / 90/100-14 rear). Front tire. (checked 2026-11-11)",
       "tuttio-soleil01": "Full size 60/100-14 exactly matches the stock front tire on the tuttio-soleil01 (spec: https://tuttiosport.com/products/tuttio-soleil01-with-headlight-electric-bike) (checked 2026-11-12)",
-      "stark-vargex": "Full size 80/100-21 exactly matches the stock front tire on the stark-vargex (spec: https://www.starkfuture.com/en-us/varg-ex) (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. Verify your bike's tire size before buying (checked 2026-11-28)",
       "altis-sigma": "Full size 70/100-19 exactly matches the stock front tire on the altis-sigma (spec: https://www.altispowersports.com/products/altis-sigma) (checked 2026-11-12)",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
@@ -190587,7 +191019,7 @@
       "yozma-in10": "no_fit",
       "yozma-in10-pro": "no_fit",
       "tuttio-soleil01": "no_fit",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "confirmed",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
@@ -190634,7 +191066,7 @@
       "komodo": "Talaria lists two tire setups (70/100-21 / 90/100-18 and 80/100-21 / 110/90-18) - verify before buying (checked 2026-11-12)",
       "bonnell-805rx": "CCW lists the 80/100-21 variant (stock front size) for the Bonnell 805 RX (checked Nov 5, 2026)",
       "storm-bee": "Full size 80/100-21 exactly matches the stock front tire on the storm-bee (spec: https://surron.ca/fr/pages/storm-bee) (checked 2026-11-12)",
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "rawrr-mantis-72v": "Full size 70/100-19 exactly matches the stock front tire on the rawrr-mantis-72v (spec: https://rawrrmantis.com/products/rawrr-mantis-72v) (checked 2026-11-12)",
       "rawrr-mantis-x-pro": "Full size 70/100-19 exactly matches the stock front tire on the rawrr-mantis-x-pro (spec: https://rawrrmantis.com/products/rawrr-mantis-electric-motorcycle-mantis-x-pro) (checked 2026-11-12)",
@@ -190650,7 +191082,7 @@
       "yozma-in10": "Not compatible with this bike.",
       "yozma-in10-pro": "Not compatible with this bike.",
       "tuttio-soleil01": "Not compatible with this bike.",
-      "stark-vargex": "Full size 80/100-21 exactly matches the stock front tire on the stark-vargex (spec: https://www.starkfuture.com/en-us/varg-ex) (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. Verify your bike's tire size before buying (checked 2026-11-28)",
       "altis-sigma": "Full size 70/100-19 exactly matches the stock front tire on the altis-sigma (spec: https://www.altispowersports.com/products/altis-sigma) (checked 2026-11-12)",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 100/90-19, 70/100-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
@@ -190771,7 +191203,7 @@
       "yozma-in10": "CCW search-by-bike (YZI10 tag) lists this part for the Yozma IN10; offers 2.75x14 front and 3.00x12 rear for the stock 14in/12in wheels. (checked 2026-11-11)",
       "yozma-in10-pro": "CCW search-by-bike (YZI10P tag) lists this part for the Yozma IN10 Pro; front-or-rear trials tire, offers 2.75x17 (= 70/100-17 stock front) and 2.75x14. (checked 2026-11-11)",
       "tuttio-soleil01": "Only the 14\" diameter matches; tire sizes 2.75-14 vs stock front 60/100-14 - verify before buying (checked 2026-11-12)",
-      "stark-vargex": "Only the 21\" diameter matches; tire sizes 2.75-21, 3.00-21 vs stock front 80/100-21 - verify before buying (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists stock tires 90/90-21 front and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); compare this tire's size with yours before buying - verify (checked 2026-11-28)",
       "altis-sigma": "Only the 19\" diameter matches; tire sizes 2.75-19, 3.50-19 vs stock front 70/100-19 - verify before buying (checked 2026-11-12)",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 19\" diameter matches; tire sizes 2.75-19, 3.50-19 vs stock front 80/100-19 - verify before buying (checked 2026-11-12)",
@@ -190890,7 +191322,7 @@
       "yozma-in10": "Not compatible with this bike.",
       "yozma-in10-pro": "Not compatible with this bike.",
       "tuttio-soleil01": "Not compatible with this bike.",
-      "stark-vargex": "Stark lists more than one stock rear tire (XC 120/100-18, enduro 140/80-18) - verify before buying (checked 2026-11-12)",
+      "stark-vargex": "Stark's current Varg EX page lists stock tires 90/90-21 front and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); compare this tire's size with yours before buying - verify (checked 2026-11-28)",
       "altis-sigma": "Not compatible with this bike.",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "yvolt-surge-v": "Only the 18\" diameter matches; tire sizes 110/100-18 vs stock rear 100/90-18 - verify before buying (checked 2026-11-12)",
@@ -192352,7 +192784,7 @@
      },
      "why": {
       "bonnell-805rx": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.",
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm01": "WEAK: SM01 spec sheet lists 80/100-19 for both front and rear - confirm rear size — Exact stock front size 80/100-19 (stock spec: https://www.supermach.com/products/sm01-6000-electric-off-road-vehicle). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
@@ -192561,7 +192993,7 @@
       "yozma-in10": "confirmed",
       "yozma-in10-pro": "confirmed",
       "tuttio-soleil01": "unknown",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "likely_verify",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
@@ -192596,7 +193028,7 @@
      },
      "why": {
       "bonnell-805rx": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.",
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "rawrr-mantis-72v": "CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers 70/100-19, the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires",
       "rawrr-mantis-x-pro": "CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires Stock-size variant(s): 70/100-19, 70/100-17.",
@@ -192607,7 +193039,7 @@
       "rtr-alpha": "CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha; offers the stock sizes 60/100-14 ($51.99) and 80/100-12 ($52.99), both in stock (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires",
       "yozma-in10": "CCW search-by-bike (YZI10 tag) lists this part for the Yozma IN10 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires. Stock-size variant(s): 60/100-14 and 80/100-12.",
       "yozma-in10-pro": "CCW search-by-bike (YZI10P tag) lists this part for the Yozma IN10 Pro; offers 70/100-17 and 90/100-14, both IN10 Pro stock sizes (stock 17in/14in wheels, 70/100-17 front / 90/100-14 rear). (checked 2026-11-11)",
-      "stark-vargex": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front size and a 120/90-18 rear (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/dunlop-mx54-geomax-soft-int-terrain-tires",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. CCW tags it for the Varg EX, but tags cover the Varg MX too. Verify your bike's tire size before buying (checked 2026-11-28)",
       "altis-sigma": "Altis Sigma wheels are 19in front with an 18in (Standard) or 16in (MX) rear per Altis; CCW does not name the Sigma - verify the tire size before buying (checked 2026-11-16).",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
@@ -192841,7 +193273,7 @@
       "yozma-in10": "unknown",
       "yozma-in10-pro": "unknown",
       "tuttio-soleil01": "unknown",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "likely_verify",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
@@ -192877,7 +193309,7 @@
      "why": {
       "bonnell-805rx": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.",
       "storm-bee": "CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; 80/100-21 is the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire",
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "rawrr-mantis-72v": "CCW search-by-bike (Rawrr Mantis collection) lists this part for the Rawrr Mantis; offers 70/100-19, the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire",
       "rawrr-mantis-x-pro": "CCW search-by-bike (Mantis X Pro tag) lists this part for the Rawrr Mantis X Pro (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire Stock-size variant(s): 70/100-19.",
@@ -192886,7 +193318,7 @@
       "rtr-lite": "CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite, but no stock-size variant is sold - verify fit/size before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire. Tire sizes 16/19/21 only; no 14in/12in variant.",
       "rtr-sport": "No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire",
       "rtr-alpha": "No 14\"/12\" sizes; stock wheels are 14\"/12\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire",
-      "stark-vargex": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k775-washougal-ii-front-tire",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. CCW tags it for the Varg EX, but tags cover the Varg MX too. Verify your bike's tire size before buying (checked 2026-11-28)",
       "altis-sigma": "70/100-19 and 100/90-19 variants available (stock 19-inch front wheel); CCW does not name the Altis Sigma - verify (checked 2026-11-11)",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
@@ -193356,7 +193788,7 @@
      },
      "why": {
       "bonnell-805rx": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 110/100-18, 80/100-21.",
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -193368,7 +193800,7 @@
      "prices": [
       {
        "v": "Charged Cycle Works",
-       "p": 99.88,
+       "p": 179.95,
        "url": "https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire",
        "chk": "2026-11-28"
       }
@@ -193522,7 +193954,7 @@
      },
      "why": {
       "bonnell-805rx": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026)",
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -194004,7 +194436,7 @@
       "yozma-in10": "unknown",
       "yozma-in10-pro": "unknown",
       "tuttio-soleil01": "unknown",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "unknown",
       "ultrabee-21kw": "likely_verify",
       "ultrabee-hd": "unknown",
@@ -194040,7 +194472,7 @@
      "why": {
       "bonnell-805rx": "Seller listing names the Bonnell 805 RX (checked Nov 5, 2026). Stock-size variant(s): 80/100-21.",
       "storm-bee": "CCW search-by-bike (SURST tag) lists this part for the Sur-Ron Storm Bee F; 80/100-21 is the exact stock front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire",
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "rawrr-mantis-72v": "No 19\" sizes (variants are 80/100-21, 90/100-16, 90/100-14 only); stock wheels are 19\"/19\" (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire",
       "rawrr-mantis-x-pro": "CCW search-by-bike (Mantis X Pro tag) lists this part, but no variant matches the stock tire sizes (70/100-19 front, 2.75-17 rear) - verify before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire",
@@ -194048,7 +194480,7 @@
       "rtr-lite": "CCW search-by-bike (ETM RTR LITE tag) lists this part for the ETM RTR Lite, but no stock-size variant is sold - verify fit/size before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire. 90/100-14 is a front-diameter match only (stock front 60/100-14); no exact stock size.",
       "rtr-sport": "CCW search-by-bike (ETM RTR SPORT tag) lists this part for the ETM RTR Sport; the 90/100-14 variant fits the stock 14\" front wheel (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire",
       "rtr-alpha": "CCW search-by-bike (ETM RTR ALPHA tag) lists this part for the ETM RTR Alpha; the 90/100-14 variant fits the stock 14\" front wheel but is not the stock 60/100-14 size - verify width/clearance before buying (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire",
-      "stark-vargex": "CCW search-by-bike (Varg EX tag) lists this part for the Stark Varg EX; offers the stock 80/100-21 front size (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. CCW tags it for the Varg EX, but tags cover the Varg MX too. Verify your bike's tire size before buying (checked 2026-11-28)",
       "ultrabee-21kw": "No variant in stock size (80/100-19 F, 100/90-18 R); diameter-only match not accepted. (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock rear size 90/100-16 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "zero-xe": "CCW tags it ZXE; 80/100-21 front fits the stock 21in front wheel but is wider than the stock 70/100-21 (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/kenda-k774-ibex-hybrid-sticky-front-tire",
@@ -195213,7 +195645,7 @@
       "yozma-in10": "unknown",
       "yozma-in10-pro": "unknown",
       "tuttio-soleil01": "unknown",
-      "stark-vargex": "confirmed",
+      "stark-vargex": "likely_verify",
       "altis-sigma": "unknown",
       "ultrabee-21kw": "unknown",
       "ultrabee-hd": "unknown",
@@ -195247,9 +195679,9 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
-      "stark-vargex": "CCW description: Perfect for the Stark Varg; offers the stock 80/100-21 front size and a 120/90-18 rear (checked 2026-11-11). Live URL https://chargedcycleworks.com/products/michelin-starcross-6-medium-hard-terrain-tire",
+      "stark-vargex": "Stark's current Varg EX page lists a 90/90-21 stock front tire and 140/80-18 rear (https://starkfuture.com/products/stark-varg-ex); this tire's 80/100-21 front size is not an exact stock match, so it is no longer listed as a confirmed fit. CCW tags it for the Varg EX, but tags cover the Varg MX too. Verify your bike's tire size before buying (checked 2026-11-28)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
     },
@@ -195572,7 +196004,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -195734,7 +196166,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -195896,7 +196328,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)"
      }
     },
     {
@@ -196057,7 +196489,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
@@ -196391,9 +196823,11 @@
      "prices": [
       {
        "v": "GritShift",
-       "p": 99.99,
+       "p": 96.89,
        "url": "https://gritshift.com/products/80-100-19-street-tire",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 99.99,
+       "wasChk": "2026-11-11"
       }
      ],
      "fit": {
@@ -196622,7 +197056,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -196704,7 +197138,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -196872,7 +197306,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -197275,7 +197709,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -197677,7 +198111,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -197919,7 +198353,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -198001,7 +198435,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -198243,7 +198677,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)"
      }
     },
     {
@@ -198549,7 +198983,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -198704,7 +199138,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -199028,7 +199462,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -199110,7 +199544,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -199192,7 +199626,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)"
      }
     },
     {
@@ -199272,7 +199706,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "supermach-sm62": "Exact stock rear size 90/100-16 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)"
      }
     },
@@ -199353,7 +199787,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
@@ -199436,7 +199870,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -199518,7 +199952,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "supermach-sm62": "Exact stock rear size 90/100-16 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)"
      }
     },
@@ -199599,7 +200033,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock rear size 90/100-16 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)",
@@ -199843,7 +200277,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)",
@@ -200008,7 +200442,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)"
      }
     },
     {
@@ -200088,7 +200522,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -200250,7 +200684,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -200332,7 +200766,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -200574,7 +201008,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -200656,7 +201090,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)"
      }
     },
     {
@@ -200736,7 +201170,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -200818,7 +201252,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)"
      }
     },
     {
@@ -200898,7 +201332,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)"
      }
     },
     {
@@ -201139,7 +201573,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)"
      }
     },
     {
@@ -201460,7 +201894,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -201623,7 +202057,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)"
      }
     },
     {
@@ -201865,7 +202299,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)",
@@ -202189,7 +202623,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -202271,7 +202705,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -202353,7 +202787,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -202516,7 +202950,7 @@
      },
      "why": {
       "storm-bee": "Lithium Powersports lists it as the Sur-Ron Storm Bee OEM front tire; exact stock front size for the Storm Bee F (80/100-21 front, 100/90-18 rear) (checked Nov 28, 2026)",
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -202599,7 +203033,7 @@
      },
      "why": {
       "storm-bee": "Lithium Powersports lists it as the Sur-Ron Storm Bee OEM front tire; exact stock front size for the Storm Bee F (80/100-21 front, 100/90-18 rear) (checked Nov 28, 2026)",
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -203911,7 +204345,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)",
@@ -203995,7 +204429,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)",
@@ -204721,7 +205155,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)"
      }
@@ -205927,7 +206361,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)",
@@ -206011,7 +206445,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)",
@@ -206095,7 +206529,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)",
@@ -206580,7 +207014,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)",
@@ -206664,7 +207098,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock front size 80/100-21 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)",
@@ -207071,7 +207505,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)"
      }
     },
     {
@@ -207151,7 +207585,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)"
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)"
      }
     },
     {
@@ -207231,7 +207665,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)",
@@ -207395,7 +207829,7 @@
       "battMaxKw": null
      },
      "why": {
-      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/xd-pro). (checked Nov 11, 2026)",
+      "arctic-xd": "Exact stock rear size 120/90-18 (stock spec: https://arctic-leopard-usa.com/products/pre-order-arctic-leopard-xd-pro). (checked Nov 28, 2026)",
       "rerode-rx": "Exact stock front size 80/100-21 (stock spec: https://pinnedelectric.com/pages/rx). (checked Nov 11, 2026)",
       "supermach-sm62": "Exact stock front size 70/100-19 (stock spec: https://www.supermach.com/products/sm62-electric-dirt-bike). (checked Nov 11, 2026)",
       "altis-omega": "Exact stock front size 80/100-21 (stock spec: https://www.altispowersports.com/products/altis-omega). (checked Nov 11, 2026)",
@@ -209743,9 +210177,11 @@
      "prices": [
       {
        "v": "Faster Minis",
-       "p": 399,
+       "p": 319.2,
        "url": "https://faster-minis.com/products/warp9-titanium-chassis-kit-surron-ultra-bee",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 399,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
@@ -210236,9 +210672,11 @@
      "prices": [
       {
        "v": "Titanium Surron",
-       "p": 29.99,
+       "p": 18.99,
        "url": "https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro",
-       "chk": "2026-11-28"
+       "chk": "2026-11-28",
+       "was": 29.99,
+       "wasChk": "2026-10-15"
       }
      ],
      "fit": {
