@@ -1,7 +1,7 @@
 """Generate static crawlable pages from the app data. Run: python scripts/seo_extract.py /tmp/seo.json && python scripts/build_seo.py /tmp/seo.json"""
 import json,sys,os,html,shutil,urllib.parse,re
 D=json.load(open(sys.argv[1])); ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE='https://ebikepartspicker.net'; V='4.17.23'; IMGV='4.5.0'; TODAY='2026-11-28'; STOCK_CHECKED='Nov 28, 2026'
+BASE='https://ebikepartspicker.net'; V='4.17.24'; IMGV='4.5.0'; TODAY='2026-11-28'; STOCK_CHECKED='Nov 28, 2026'
 # PWA service-worker registration snippet (plain string, NOT an f-string:
 # its braces would break the page() f-string below).
 SWREG="<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>"
@@ -53,6 +53,16 @@ def img96(src, alt):
   return f'<img src="/{e(thumb_src(src))}" alt="{e(alt)}" loading="lazy" decoding="async" width="96" height="96">'
 SNAP=json.load(open(os.path.join(ROOT,'data','seo-fit-snapshot.json')))
 FIT={o['pid']:o['fit'] for c in SNAP['cats'] for o in c['opts']}
+# Nov 28 audit P1 (1b): the "stock checked" date follows the newest per-part stockChk in the data
+# (written by tools/stock_check.py --apply), not a hand-edited constant. Synced into data.js and
+# index.html at the end of this script, so home, FAQ, FAQ schema, bike/category pages and part pages agree.
+def _last_stock_check():
+  from datetime import datetime
+  ds=sorted({o.get('stockChk') for c in SNAP['cats'] for o in c['opts'] if re.fullmatch(r'\d{4}-\d{2}-\d{2}',o.get('stockChk') or '')})
+  if not ds: return None
+  d=datetime.strptime(ds[-1],'%Y-%m-%d'); return d
+_lsc=_last_stock_check()
+if _lsc: STOCK_CHECKED=_lsc.strftime('%b ')+str(_lsc.day)+_lsc.strftime(', %Y')
 def fitattrs(pid):
   f=FIT.get(pid,{}); g=lambda st:' '.join(k for k,v in f.items() if v==st)
   return f' data-pid="{e(pid)}" data-fit="{g("confirmed")}" data-mod="{g("requires_mod")}" data-no="{g("no_fit")}"'
@@ -129,6 +139,14 @@ def page(path,title,desc,body,crumbs,img=None,ld_extra=None,preload='',robots=No
 """
   d=os.path.join(ROOT,path.strip('/')); os.makedirs(d,exist_ok=True); open(os.path.join(d,'index.html'),'w').write(out)
   return url
+# Owner ride reports (data/bikes.json "owner_reports"): shown verbatim as owner data points, never as specs.
+_BJ=json.load(open(os.path.join(ROOT,'data','bikes.json')))
+OWNER_REPORTS={b['id']:b.get('owner_reports') or [] for b in (_BJ['bikes'] if isinstance(_BJ,dict) else _BJ)}
+def owner_reports_html(bid):
+  rs=OWNER_REPORTS.get(bid) or []
+  if not rs: return ''
+  li=''.join(f'<li>{e(r["text"])}</li>' for r in rs)
+  return f'<section class="seo-owner"><h2>Owner range reports</h2><ul>{li}</ul><p class="sp-chk">Owner-reported, not a manufacturer spec or a lab test.</p></section>\n'
 urls=[]
 NOINDEX=set()
 THIN=10  # fewer confirmed+mod parts than this: noindex, omit from /bikes/ and the sitemap
@@ -167,12 +185,12 @@ for b in seo_bikes:
   gl=''.join(f'<li><a href="/guides/{bid}-{g["tier"]}/">{e(b["name"])} {e(TIER.get(g["tier"],g["tier"]))} build</a></li>' for g in guides_by_bike.get(bid,[]))
   extra=(f'<h2>Build guides</h2><ul class="seo-links">{gl}</ul>' if gl else '')+(f'<p><a href="/power/#{bid}">Power upgrades for the {e(b["name"])}</a></p>' if bid in power_bikes else '')
   toc=' '.join(f'<a href="#{c["id"]}">{e(c["name"])}</a>' for c,_ in cats)
-  secs=''.join(f'<section id="{c["id"]}"><h2>{e(c["name"])} for the {e(b["name"])}</h2><ul class="sp-list" data-ux-fitlist>{"".join(partrow(p,bid) for p in ps)}</ul></section>' for c,ps in cats)
+  secs=''.join(f'<section id="{c["id"]}" class="bk-sec" style="--n:{len(ps)}"><h2>{e(c["name"])} for the {e(b["name"])}</h2><ul class="sp-list" data-ux-fitlist>{"".join(partrow(p,bid) for p in ps)}</ul></section>' for c,ps in cats)
   body=f"""<h1>{e(b['name'])} upgrades &amp; parts</h1>
 <p class="seo-lede">{lede}</p>
 <figure class="seo-hero" data-ux-pagebike="{e(bid)}" data-name="{e(b['name'])}"><img src="/img/bikes/{pimg}-800.webp?v={IMGV}" srcset="/img/bikes/{pimg}-800.webp?v={IMGV} 800w, /img/bikes/{pimg}.webp?v={IMGV} 1600w" sizes="(max-width: 900px) 100vw, 720px" fetchpriority="high" decoding="async" alt="{e(b['name'])} electric dirt bike" width="1600" height="1000"></figure>
 <dl class="seo-specs">{specs}</dl>
-{bikebuy}
+{owner_reports_html(bid)}{bikebuy}
 <p class="seo-cta"><a class="cta" href="{e(builder(bid))}">Build your {e(b['name'])}</a></p>
 {extra}<nav class="seo-toc">{toc}</nav>{secs}
 <p>{FM}<a href="/bikes/">All bikes</a></p>"""
@@ -262,6 +280,22 @@ def plain(pr):
   vendor = pr.get('v') or host(pr.get('url',''))
   if pr.get('aff'): return f'<a class="sbuy sbuy-voro" href="{e(pr["url"])}" rel="sponsored noopener" target="_blank">View at {e(vendor)}</a> <a class="sp-chk" href="/affiliate-disclosure">(affiliate link)</a>'
   return f'<a class="sbuy" href="{e(pr["url"])}" rel="noopener" target="_blank">View at {e(vendor)}</a>'
+SCHEMA_AVAIL={'in_stock':'https://schema.org/InStock','out_of_stock':'https://schema.org/OutOfStock','preorder':'https://schema.org/PreOrder'}
+def product_ld(o,path,desc):
+  """Nov 28 audit P1 (1e): Product + AggregateOffer (product snippet). eBPP is a comparison site, not the
+  seller, so no plain Offer, no seller, no shippingDetails / hasMerchantReturnPolicy, no ratings.
+  Only checked store prices go in; availability only when the part-level stock flag is a real, recent value."""
+  prs=[x for x in o['prices'] if isinstance(x.get('p'),(int,float)) and x['p']>0 and x.get('url')]
+  if not prs: return None
+  lo=min(x['p'] for x in prs); hi=max(x['p'] for x in prs)
+  num=lambda v: int(v) if float(v).is_integer() else round(float(v),2)
+  agg={"@type":"AggregateOffer","priceCurrency":"USD","lowPrice":num(lo),"highPrice":num(hi),"offerCount":len(prs),"url":BASE+path}
+  av=SCHEMA_AVAIL.get(effective_stock(o))
+  if av: agg["availability"]=av
+  pr={"@context":"https://schema.org","@type":"Product","name":o['name'],"description":fit_desc(desc),"sku":o['pid'],"url":BASE+path,"offers":agg}
+  if o.get('img'): pr["image"]=BASE+'/'+o['img']
+  # no brand: the catalog badge field mixes brands, model names and category words, so it is not a reliable brand
+  return [pr]
 PARTURL={}
 for c in SNAP['cats']:
   for o in c['opts']:
@@ -290,7 +324,7 @@ for c in SNAP['cats']:
       f'<h2>Store prices</h2>{pt}<h2>Which bikes it fits</h2>{ftab}</article>')
     nfit=len(firstfit)
     desc=f"{o['name']}: {('confirmed to fit '+str(nfit)+' bike'+('s' if nfit!=1 else '')) if nfit else 'fitment not verified'}"+(f", from {money(lo['p'])} at {lo['v']} (checked {lo.get('chk') or SNAP.get('checked','')})" if lo else '')+'. Specs and store prices from seller listings.'
-    urls.append(page(path,f"{o['name']} \u2014 Fitment, Specs & Prices | eBikePartsPicker",desc,body,[('Home','/'),('Parts','/parts/')]+([(c['name'],f'/parts/{c["id"]}/')] if BASE+f'/parts/{c["id"]}/' in urls else [])+[(o['name'],path)],(BASE+'/'+o['img']) if o['img'] else None))
+    urls.append(page(path,f"{o['name']} \u2014 Fitment, Specs & Prices | eBikePartsPicker",desc,body,[('Home','/'),('Parts','/parts/')]+([(c['name'],f'/parts/{c["id"]}/')] if BASE+f'/parts/{c["id"]}/' in urls else [])+[(o['name'],path)],(BASE+'/'+o['img']) if o['img'] else None,ld_extra=product_ld(o,path,desc)))
 # search index for ux.js instant search (local JSON, real catalog data only)
 catpage={u.replace(BASE,'').strip('/').split('/')[-1] for u in cats_done}
 oncat={}
@@ -344,12 +378,34 @@ def _stamp_sw():
   _p=os.path.join(ROOT,'sw.js')
   _s=open(_p).read(); _o=_s
   _s=re.sub(r"const CACHE = 'ebpp-[^']*';","const CACHE = 'ebpp-"+V+"';",_s,count=1)
-  # Only stamp assets that track V. Leave ux.js (may have a -mN suffix) and
+  # Only stamp assets that track V (ux.js joined Nov 28: it changes with each release). Leave
   # any motion.js / vendor ?v= alone if they ever land in APP_SHELL.
-  for _name in ('styles.css', 'app.js'):
+  for _name in ('styles.css', 'app.js', 'ux.js'):
     _s=re.sub(r"/"+_name+r"\?v=[^']+", "/"+_name+"?v="+V, _s)
   if _s!=_o:
     open(_p,'w').write(_s); print('sw.js stamped to',V)
   else:
     print('sw.js already at',V)
 _stamp_sw()
+
+# Nov 28 audit P1 (1b): home page, FAQ text, FAQ schema and data.js follow the real last stock-check
+# date and the real catalog counts, so crawlers and no-JS readers never see stale placeholders.
+def _sync_home():
+  if not _lsc: print('no stockChk dates found; home date left as is'); return
+  longd=_lsc.strftime('%B ')+str(_lsc.day)+_lsc.strftime(', %Y')
+  nb=len(SNAP['bikes']); seen=set()
+  for c in SNAP['cats']:
+    for o in c['opts']: seen.add(o['pid'])
+  npart=len(seen); ncat=len(SNAP['cats'])
+  ip=os.path.join(ROOT,'index.html'); t=open(ip).read(); o=t
+  t=re.sub(r'(<span id="(?:homeCheckedDate|checkedDate)">)[^<]*(</span>)',lambda m:m.group(1)+STOCK_CHECKED+m.group(2),t)
+  t=re.sub(r'(Stock was last checked )([A-Z][a-z]+) \d{1,2}, \d{4}',lambda m:m.group(1)+(longd if len(m.group(2))>3 else STOCK_CHECKED),t)
+  t=re.sub(r'(<strong id="statBikes">)\d+(</strong>)',lambda m:m.group(1)+str(nb)+m.group(2),t)
+  t=re.sub(r'(<strong id="statParts">)\d+(</strong>)',lambda m:m.group(1)+str(npart)+m.group(2),t)
+  t=re.sub(r'(<strong id="statCats">)\d+(</strong>)',lambda m:m.group(1)+str(ncat)+m.group(2),t)
+  t=re.sub(r'\b\d+ bikes and [\d,]+ (aftermarket )?parts( in )?(\d+)?',lambda m:f'{nb} bikes and {npart:,} {m.group(1) or ""}parts'+(f' in {ncat}' if m.group(2) else ''),t)
+  if t!=o: open(ip,'w').write(t); print('index.html synced:',STOCK_CHECKED,nb,'bikes',npart,'parts',ncat,'categories')
+  dp=os.path.join(ROOT,'data.js'); d=open(dp).read()
+  d2=re.sub(r"var STOCK_CHECKED = '[^']*';","var STOCK_CHECKED = '"+STOCK_CHECKED+"';",d,count=1)
+  if d2!=d: open(dp,'w').write(d2); print('data.js STOCK_CHECKED ->',STOCK_CHECKED)
+_sync_home()

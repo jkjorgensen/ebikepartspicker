@@ -1219,6 +1219,36 @@
         "https://chargedcycleworks.com/products/kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective"
       ],
       "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-shock-absorber-kke",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-absorber-kke"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-shock-axle-bottom",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-axle-bottom"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-shock-axle-top",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-axle-top"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
     }
   ],
   "products": [
@@ -3085,6 +3115,79 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-shock-absorber-kke",
+      "name": "Surron Storm Bee OEM Shock Absorber KKE",
+      "brand": "Sur-Ron",
+      "category": "shock",
+      "price_usd": 458.85,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-absorber-kke",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-absorber-kke"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 458.85,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-absorber-kke"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-shock-absorber-kke.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-shock-axle-bottom",
+      "name": "Surron Storm Bee OEM Shock Axle BOTTOM",
+      "brand": "Sur-Ron",
+      "category": "shock",
+      "price_usd": 0.65,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-axle-bottom",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-axle-bottom"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.65,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-axle-bottom"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-shock-axle-top",
+      "name": "Surron Storm Bee OEM Shock Axle TOP",
+      "brand": "Sur-Ron",
+      "category": "shock",
+      "price_usd": 0.65,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-axle-top",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-axle-top"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.65,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-axle-top"
+        }
+      ]
     }
   ]
 }

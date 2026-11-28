@@ -5062,6 +5062,683 @@
           "buy_url": "https://chargedcycleworks.com/products/nfc-sensor-plastic-cover-talaria-xxx"
         }
       ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-decal-front-shroud-left",
+      "name": "Surron Storm Bee OEM Decal Front Shroud LEFT",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 14.21,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-front-shroud-left",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-front-shroud-left"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 14.21,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-front-shroud-left"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-decal-front-shroud-left.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-decal-front-shroud-right",
+      "name": "Surron Storm Bee OEM Decal Front Shroud RIGHT",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 14.21,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-front-shroud-right",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-front-shroud-right"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 14.21,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-front-shroud-right"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-decal-number-plate",
+      "name": "Surron Storm Bee OEM Decal Number Plate",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 10.34,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-number-plate",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-number-plate"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 10.34,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-number-plate"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-decal-set-sbf-yellow",
+      "name": "Surron Storm Bee OEM Decal Set SBF Yellow",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 138.89,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-set-sbf-yellow",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-set-sbf-yellow"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 138.89,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-set-sbf-yellow"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-decal-subframe-cover-left",
+      "name": "Surron Storm Bee OEM Decal Subframe Cover LEFT",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 10.34,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-subframe-cover-left",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-subframe-cover-left"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 10.34,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-subframe-cover-left"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-decal-subframe-cover-right",
+      "name": "Surron Storm Bee OEM Decal Subframe Cover RIGHT",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 10.34,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-subframe-cover-right",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-subframe-cover-right"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 10.34,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-subframe-cover-right"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-decal-tail-fender",
+      "name": "Surron Storm Bee OEM Decal Tail Fender",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 14.21,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-tail-fender",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-tail-fender"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 14.21,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-tail-fender"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-front-cover-left",
+      "name": "Surron Storm Bee OEM Front Cover LEFT",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 9.69,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-cover-left",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-cover-left"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 9.69,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-cover-left"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-front-cover-right",
+      "name": "Surron Storm Bee OEM Front Cover RIGHT",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 9.69,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-cover-right",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-cover-right"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 9.69,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-cover-right"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-front-fender-cpl",
+      "name": "Surron Storm Bee OEM Front Fender CPL.",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 41.34,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-fender-cpl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-fender-cpl"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 41.34,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-fender-cpl"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-front-fender",
+      "name": "Surron Storm Bee OEM Front Fender",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 38.76,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-fender",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-fender"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 38.76,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-fender"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-front-fender.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-front-number-plate-inst-bracket",
+      "name": "Surron Storm Bee OEM Front Number Plate INST. Bracket",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 0.4,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-number-plate-inst-bracket",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-number-plate-inst-bracket"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.4,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-number-plate-inst-bracket"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-front-number-plate",
+      "name": "Surron Storm Bee OEM Front Number Plate",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 8.55,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-number-plate",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-number-plate"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 8.55,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-number-plate"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-front-number-plate.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-front-shroud-buffer-foam",
+      "name": "Surron Storm Bee OEM Front Shroud Buffer Foam",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 0.65,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-buffer-foam",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-buffer-foam"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.65,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-buffer-foam"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-front-shroud-inner-left",
+      "name": "Surron Storm Bee OEM Front Shroud Inner LEFT",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 9.69,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-inner-left",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-inner-left"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 9.69,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-inner-left"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-front-shroud-inner-right",
+      "name": "Surron Storm Bee OEM Front Shroud Inner RIGHT",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 9.69,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-inner-right",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-inner-right"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 9.69,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-inner-right"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-front-shroud-left",
+      "name": "Surron Storm Bee OEM Front Shroud LEFT",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 16.15,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-left",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-left"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 16.15,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-left"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-front-shroud-right",
+      "name": "Surron Storm Bee OEM Front Shroud RIGHT",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 16.15,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-right",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-right"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 16.15,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-right"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-gps-cover",
+      "name": "Surron Storm Bee OEM GPS Cover",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 3.27,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-gps-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-gps-cover"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 3.27,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-gps-cover"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-ski-plate",
+      "name": "Surron Storm Bee OEM Ski Plate",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 38.11,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-ski-plate",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-ski-plate"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 38.11,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-ski-plate"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-ski-plate.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-subframe-cover-bracket-left",
+      "name": "Surron Storm Bee OEM Subframe Cover Bracket Left",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 10.98,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-bracket-left",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-bracket-left"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 10.98,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-bracket-left"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-subframe-cover-bracket-right",
+      "name": "Surron Storm Bee OEM Subframe Cover Bracket Right",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 10.98,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-bracket-right",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-bracket-right"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 10.98,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-bracket-right"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-subframe-cover-buffer-foam-ii",
+      "name": "Surron Storm Bee OEM Subframe Cover Buffer Foam II",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 0.97,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-buffer-foam-ii",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-buffer-foam-ii"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.97,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-buffer-foam-ii"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-subframe-cover-inst-bushing",
+      "name": "Surron Storm Bee OEM Subframe Cover INST. Bushing",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 0.4,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-inst-bushing",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-inst-bushing"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.4,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-inst-bushing"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-subframe-cover-left",
+      "name": "Surron Storm Bee OEM Subframe Cover LEFT",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 13.89,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-left",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-left"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 13.89,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-left"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-subframe-cover-right",
+      "name": "Surron Storm Bee OEM Subframe Cover RIGHT",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 13.89,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-right",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-right"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 13.89,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-right"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-tail-fender",
+      "name": "Surron Storm Bee OEM Tail Fender",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 37.79,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-tail-fender",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-tail-fender"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 37.79,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-tail-fender"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-tail-fender.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-terminal-box-cover",
+      "name": "Surron Storm Bee OEM Terminal Box Cover",
+      "brand": "Sur-Ron",
+      "category": "plastics",
+      "price_usd": 11.9,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-cover"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 11.9,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-cover"
+        }
+      ]
     }
   ],
   "compatibility": [
@@ -7571,6 +8248,286 @@
         "https://chargedcycleworks.com/products/nfc-sensor-plastic-cover-talaria-xxx"
       ],
       "notes": "CCW title names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/nfc-sensor-plastic-cover-talaria-xxx"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-decal-front-shroud-left",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-front-shroud-left"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-decal-front-shroud-right",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-front-shroud-right"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-decal-number-plate",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-number-plate"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-decal-set-sbf-yellow",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-set-sbf-yellow"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-decal-subframe-cover-left",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-subframe-cover-left"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-decal-subframe-cover-right",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-subframe-cover-right"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-decal-tail-fender",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-tail-fender"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-front-cover-left",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-cover-left"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-front-cover-right",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-cover-right"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-front-fender-cpl",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-fender-cpl"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-front-fender",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-fender"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-front-number-plate-inst-bracket",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-number-plate-inst-bracket"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-front-number-plate",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-number-plate"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-front-shroud-buffer-foam",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-buffer-foam"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-front-shroud-inner-left",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-inner-left"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-front-shroud-inner-right",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-inner-right"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-front-shroud-left",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-left"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-front-shroud-right",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-right"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-gps-cover",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-gps-cover"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-ski-plate",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-ski-plate"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-subframe-cover-bracket-left",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-bracket-left"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-subframe-cover-bracket-right",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-bracket-right"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-subframe-cover-buffer-foam-ii",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-buffer-foam-ii"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-subframe-cover-inst-bushing",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-inst-bushing"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-subframe-cover-left",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-left"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-subframe-cover-right",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-right"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-tail-fender",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-tail-fender"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-terminal-box-cover",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-cover"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
     }
   ]
 }

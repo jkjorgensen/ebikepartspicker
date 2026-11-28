@@ -718,6 +718,54 @@
           "buy_url": "https://wiredwhips.com/parts/altis-powersports_delta_charger"
         }
       ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-charging-cable",
+      "name": "Surron Storm Bee OEM Charging Cable",
+      "brand": "Sur-Ron",
+      "category": "chargers",
+      "price_usd": 111.44,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-charging-cable",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-charging-cable"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 111.44,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-charging-cable"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-storm-bee-charger-us",
+      "name": "Surron Storm Bee OEM Storm Bee Charger US",
+      "brand": "Sur-Ron",
+      "category": "chargers",
+      "price_usd": 354.38,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-charger-us",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-charger-us"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 354.38,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-charger-us"
+        }
+      ]
     }
   ],
   "compatibility": [
@@ -1113,6 +1161,26 @@
         "https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
       ],
       "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-oem-charger-us-canada-110v"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-charging-cable",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-charging-cable"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-storm-bee-charger-us",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-charger-us"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
     }
   ]
 }

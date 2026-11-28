@@ -3418,6 +3418,489 @@
           "buy_url": "https://chargedcycleworks.com/products/nfc-sensor"
         }
       ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-battery-discharge-plug-cap",
+      "name": "Surron Storm Bee OEM Battery Discharge Plug Cap",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 1.29,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-discharge-plug-cap",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-discharge-plug-cap"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 1.29,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-discharge-plug-cap"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-battery-power-cable",
+      "name": "Surron Storm Bee OEM Battery Power Cable",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 132.43,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-power-cable",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-power-cable"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 132.43,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-power-cable"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-battery-power-cable.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-cable-connector",
+      "name": "Surron Storm Bee OEM Cable Connector",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 4.28,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-connector",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-connector"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 4.28,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-connector"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-cable-tie-4150",
+      "name": "Surron Storm Bee OEM Cable Tie 4150",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 0.4,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-4150",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-4150"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.4,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-4150"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-cable-tie-8200",
+      "name": "Surron Storm Bee OEM Cable Tie 8200",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 0.4,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8200",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8200"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.4,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8200"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-cable-tie-8201",
+      "name": "Surron Storm Bee OEM Cable Tie 8200",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 0.4,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8201",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8201"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.4,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8201"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-cable-tie-8202",
+      "name": "Surron Storm Bee OEM Cable Tie 8200",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 0.4,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8202",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8202"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.4,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8202"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-charging-port-cap",
+      "name": "Surron Storm Bee OEM Charging Port Cap",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 1.94,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-charging-port-cap",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-charging-port-cap"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 1.94,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-charging-port-cap"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-charging-port-cap.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-frame-cable-holder",
+      "name": "Surron Storm Bee OEM Frame Cable Holder",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 2.26,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-cable-holder",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-cable-holder"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 2.26,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-cable-holder"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-lv-fuse-box-bracket",
+      "name": "Surron Storm Bee OEM LV Fuse Box Bracket",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 4.2,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-lv-fuse-box-bracket",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-lv-fuse-box-bracket"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 4.2,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-lv-fuse-box-bracket"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-main-cable-clamp",
+      "name": "Surron Storm Bee OEM Main Cable Clamp",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 0.4,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-main-cable-clamp",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-main-cable-clamp"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.4,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-main-cable-clamp"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-motor-encoder",
+      "name": "Surron Storm Bee OEM Motor Encoder",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 71.4,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-encoder",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-encoder"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 71.4,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-encoder"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-rear-wiring-harness",
+      "name": "Surron Storm Bee OEM REAR Wiring Harness",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 32.73,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wiring-harness",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wiring-harness"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 32.73,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wiring-harness"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-screw-plug",
+      "name": "Surron Storm Bee OEM Screw Plug",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 0.4,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-plug",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-plug"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 0.4,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-plug"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-speed-sensor-front-cpl",
+      "name": "Surron Storm Bee OEM Speed Sensor Front CPL.",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 62.77,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-front-cpl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-front-cpl"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 62.77,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-front-cpl"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-speed-sensor-front",
+      "name": "Surron Storm Bee OEM Speed Sensor Front",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 64.6,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-front",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-front"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 64.6,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-front"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-speed-sensor-rear-cpl",
+      "name": "Surron Storm Bee OEM Speed Sensor REAR CPL.",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 62.77,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-rear-cpl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-rear-cpl"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 62.77,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-rear-cpl"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-speed-sensor-rear",
+      "name": "Surron Storm Bee OEM Speed Sensor REAR",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 64.6,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-rear",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-rear"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 64.6,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-rear"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-usb-port-inst-cover",
+      "name": "Surron Storm Bee OEM USB port INST. Cover",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 12.92,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-usb-port-inst-cover",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-usb-port-inst-cover"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 12.92,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-usb-port-inst-cover"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-usb-port",
+      "name": "Surron Storm Bee OEM USB Port",
+      "brand": "Sur-Ron",
+      "category": "electrical",
+      "price_usd": 16.15,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-usb-port",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-usb-port"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 16.15,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-usb-port"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-usb-port.webp"
     }
   ],
   "compatibility": [
@@ -5659,6 +6142,206 @@
         "https://chargedcycleworks.com/products/ventus-vtb-v9600-gen-2-wiring-harness-1-7"
       ],
       "notes": "CCW sells a \"79 Bike Falcon PRO\" variant and its fitment text names \"79 Bike Falcon PRO (Ventus)\". Pick the Falcon PRO variant (checked 2026-11-26)."
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-battery-discharge-plug-cap",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-discharge-plug-cap"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-battery-power-cable",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-power-cable"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-cable-connector",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-connector"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-cable-tie-4150",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-4150"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-cable-tie-8200",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8200"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-cable-tie-8201",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8201"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-cable-tie-8202",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8202"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-charging-port-cap",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-charging-port-cap"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-frame-cable-holder",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-cable-holder"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-lv-fuse-box-bracket",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-lv-fuse-box-bracket"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-main-cable-clamp",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-main-cable-clamp"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-motor-encoder",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-encoder"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-rear-wiring-harness",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wiring-harness"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-screw-plug",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-plug"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-speed-sensor-front-cpl",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-front-cpl"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-speed-sensor-front",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-front"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-speed-sensor-rear-cpl",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-rear-cpl"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-speed-sensor-rear",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-rear"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-usb-port-inst-cover",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-usb-port-inst-cover"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-usb-port",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-usb-port"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
     }
   ]
 }

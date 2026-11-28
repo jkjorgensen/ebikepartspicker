@@ -1707,6 +1707,146 @@
         "https://chargedcycleworks.com/products/talaria-factory-fork-for-talaria-sur-ron-segway"
       ],
       "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/talaria-factory-fork-for-talaria-sur-ron-segway"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-decal-fork-protection-plate-left",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-fork-protection-plate-left"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-decal-fork-protection-plate-right",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-fork-protection-plate-right"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-fork-left-kke-cpl",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-left-kke-cpl"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-fork-left-kke",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-left-kke"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-fork-protection-plate-left",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-protection-plate-left"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-fork-protection-plate-right",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-protection-plate-right"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-fork-right-kke-cpl",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-right-kke-cpl"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-fork-right-kke",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-right-kke"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-triple-clamp-bottom-bracket",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-bottom-bracket"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-triple-clamp-bottom-set",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-bottom-set"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-triple-clamp-cable-protector",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-cable-protector"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-triple-clamp-cpl",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-cpl"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-triple-clamp-position-block",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-position-block"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-triple-clamp-top",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-top"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
     }
   ],
   "products": [
@@ -4573,6 +4713,343 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-talaria-factory-fork-for-talaria-sur-ron-segway.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-decal-fork-protection-plate-left",
+      "name": "Surron Storm Bee OEM Decal Fork protection Plate LEFT",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 10.34,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-fork-protection-plate-left",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-fork-protection-plate-left"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 10.34,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-fork-protection-plate-left"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-decal-fork-protection-plate-right",
+      "name": "Surron Storm Bee OEM Decal Fork protection Plate RIGHT",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 10.34,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-fork-protection-plate-right",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-fork-protection-plate-right"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 10.34,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-fork-protection-plate-right"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-fork-left-kke-cpl",
+      "name": "Surron Storm Bee OEM Fork LEFT KKE CPL.",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 622.13,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-left-kke-cpl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-left-kke-cpl"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 622.13,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-left-kke-cpl"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-fork-left-kke",
+      "name": "Surron Storm Bee OEM Fork LEFT KKE",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 399.0,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-left-kke",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-left-kke"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 399.0,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-left-kke"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-fork-protection-plate-left",
+      "name": "Surron Storm Bee OEM Fork protection Plate BLACK LEFT",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 16.47,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-protection-plate-left",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-protection-plate-left"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 16.47,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-protection-plate-left"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-fork-protection-plate-right",
+      "name": "Surron Storm Bee OEM Fork protection Plate RIGHT",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 16.47,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-protection-plate-right",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-protection-plate-right"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 16.47,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-protection-plate-right"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-fork-right-kke-cpl",
+      "name": "Surron Storm Bee OEM Fork RIGHT KKE CPL.",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 622.13,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-right-kke-cpl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-right-kke-cpl"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 622.13,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-right-kke-cpl"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-fork-right-kke",
+      "name": "Surron Storm Bee OEM Fork RIGHT KKE",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 399.0,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-right-kke",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-right-kke"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 399.0,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-right-kke"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-triple-clamp-bottom-bracket",
+      "name": "Surron Storm Bee OEM Triple Clamp Bottom Bracket",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 2.58,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-bottom-bracket",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-bottom-bracket"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 2.58,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-bottom-bracket"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-triple-clamp-bottom-set",
+      "name": "Surron Storm Bee OEM Triple Clamp Bottom Set",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 181.85,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-bottom-set",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-bottom-set"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 181.85,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-bottom-set"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-triple-clamp-bottom-set.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-triple-clamp-cable-protector",
+      "name": "Surron Storm Bee OEM Triple clamp Cable Protector",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 2.1,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-cable-protector",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-cable-protector"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 2.1,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-cable-protector"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-triple-clamp-cpl",
+      "name": "Surron Storm Bee OEM Triple Clamp CPL.",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 290.7,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-cpl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-cpl"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 290.7,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-cpl"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-triple-clamp-position-block",
+      "name": "Surron Storm Bee OEM Triple clamp Position Block",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 4.2,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-position-block",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-position-block"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 4.2,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-position-block"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-triple-clamp-top",
+      "name": "Surron Storm Bee OEM Triple Clamp Top",
+      "brand": "Sur-Ron",
+      "category": "fork",
+      "price_usd": 123.06,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-top",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-top"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 123.06,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-top"
+        }
+      ]
     }
   ]
 }

@@ -1,11 +1,11 @@
-/* eBikePartsPicker catalog. Catalog v4.17.20, last researched 2026-11-22.
+/* eBikePartsPicker catalog. Catalog v4.17.24, last researched 2026-11-28.
    49 bikes / 23 categories / 2120 parts (2107 listed, 13 hidden).
    Edited together with data/categories/*.json (no build-catalog script exists). After edits, regenerate static pages:
    python3 scripts/dump_snapshot.py && python3 scripts/seo_extract.py /tmp/seo.json && python3 scripts/build_seo.py /tmp/seo.json
    && python3 scripts/build_upgrades_vs.py && python3 scripts/build_og.py
    Bike prices: keep data/bikes.json price_usd in sync with BIKES[].price (price alerts read bikes.json). */
 
-var STOCK_CHECKED = 'Nov 22, 2026'; /* last daily store-page stock check (tools/stock_check.py). Does not by itself re-verify every listed price. */
+var STOCK_CHECKED = 'Nov 28, 2026'; /* last daily store-page stock check (tools/stock_check.py). Does not by itself re-verify every listed price. */
 var CHECKED = 'Oct 18, 2026'; /* original catalog price-research date; per-offer chk is the date on that retailer row */
 
 var BIKES = [
@@ -501,6 +501,23 @@ var CATEGORIES = [
      ],
      fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/wiredwhips-oem-soleil01-motor-side-cover-screws-soleil01-motor-side-cover-screws.webp'
     },
+    {name:'EBMX AP_X80 Motor for Sur-Ron Ultra Bee (pre-order)', pid:'ebmx-ap-x80-ultrabee', tier:'performance',
+     prices:[
+      {v:'Charged Cycle Works', p:1149, url:'https://chargedcycleworks.com/products/ebmx-ap-x80-motor-for-surron-ultra-bee', chk:'2026-11-28', stock:'preorder'},
+      {v:'Darwin EV', p:1149, url:'https://darwinev.com/products/ebmx-ap-x80-motor-surron-ultra-bee', chk:'2026-11-28', stock:'preorder'}, /* Black Friday launch price ending Nov 30, 2026; regular $1,249 */
+      {v:'GritShift', p:1249, url:'https://gritshift.com/products/ebmx-xub-80-motor-for-surron-ultra-bee', chk:'2026-11-28'},
+      /* AFFILIATE: replace with affiliate link */
+     ],
+     fits:[], likely:['ultrabee','ultrabee-21kw','ultrabee-hd'], no:[],
+     badge:'EBMX', motorPeakKw:70, wtKg:12, stock:'preorder', stockChk:'2026-11-28', img:'img/parts/ebmx-ap-x80-ultrabee.webp'
+    },
+    {name:'Surron Storm Bee OEM Encoder Motor', pid:'lithiumpowersports-surron-storm-bee-oem-encoder-motor', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2126.25, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-encoder-motor', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
 ]},
   {id:'controller', name:'Controller', blurb:'The controller is the brain — it meters power from the battery to the motor and sets how the bike feels.', tips:['Voltage range must cover your battery','Match phase amps to your motor — too small chokes it','Some bikes need a wiring harness adapter — check fitment','App and Bluetooth tuning varies a lot by brand'], options:[
     {name:'Stock controller', prices:[]},
@@ -846,6 +863,13 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/torp-tc500-controller', chk:'2026-11-28', stock:'out_of_stock'},
      ],
      fits:['segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-torp-tc500-controller.webp'
+    },
+    {name:'Surron Storm Bee OEM Storm Bee Encoder MCU', pid:'lithiumpowersports-surron-storm-bee-oem-storm-bee-encoder-mcu', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1890, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-encoder-mcu', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
     },
 ]},
   {id:'fork', name:'Fork', blurb:'Front suspension — dictates how the bike handles braking bumps, rocks, and landings.', tips:['Axle size and triple-clamp fitment must match your bike','Spring rate should suit your weight — ask the vendor','More travel isn\'t always better if the geometry suffers'], options:[
@@ -1548,6 +1572,104 @@ var CATEGORIES = [
      ],
      fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-talaria-factory-fork-for-talaria-sur-ron-segway.webp'
     },
+    {name:'Surron Storm Bee OEM Decal Fork protection Plate LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-decal-fork-protection-plate-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.34, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-fork-protection-plate-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Decal Fork protection Plate RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-decal-fork-protection-plate-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.34, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-fork-protection-plate-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Fork LEFT KKE', pid:'lithiumpowersports-surron-storm-bee-oem-fork-left-kke', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:399, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-left-kke', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Fork LEFT KKE CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-fork-left-kke-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:622.13, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-left-kke-cpl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Fork protection Plate BLACK LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-fork-protection-plate-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:16.47, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-protection-plate-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Fork protection Plate RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-fork-protection-plate-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:16.47, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-protection-plate-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Fork RIGHT KKE', pid:'lithiumpowersports-surron-storm-bee-oem-fork-right-kke', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:399, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-right-kke', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Fork RIGHT KKE CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-fork-right-kke-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:622.13, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-right-kke-cpl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triple Clamp Bottom Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-triple-clamp-bottom-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.58, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-bottom-bracket', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triple Clamp Bottom Set', pid:'lithiumpowersports-surron-storm-bee-oem-triple-clamp-bottom-set', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:181.85, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-bottom-set', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-triple-clamp-bottom-set.webp'
+    },
+    {name:'Surron Storm Bee OEM Triple clamp Cable Protector', pid:'lithiumpowersports-surron-storm-bee-oem-triple-clamp-cable-protector', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.1, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-cable-protector', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triple Clamp CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-triple-clamp-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:290.7, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triple clamp Position Block', pid:'lithiumpowersports-surron-storm-bee-oem-triple-clamp-position-block', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.2, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-position-block', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triple Clamp Top', pid:'lithiumpowersports-surron-storm-bee-oem-triple-clamp-top', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:123.06, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-top', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
 ]},
   {id:'shock', name:'Shock', blurb:'Rear suspension — traction and comfort over chatter.', tips:['Eye-to-eye length and stroke must match stock','Spring rate should suit your weight','Pairs with linkage choice on some bikes'], options:[
     {name:'Stock shock', prices:[]},
@@ -2011,6 +2133,27 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:['segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-kke-rear-absorber-suspension-shock-650ibs-spring-for-surron-light-bee-x-segway-collective.webp'
+    },
+    {name:'Surron Storm Bee OEM Shock Absorber KKE', pid:'lithiumpowersports-surron-storm-bee-oem-shock-absorber-kke', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:458.85, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-absorber-kke', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-shock-absorber-kke.webp'
+    },
+    {name:'Surron Storm Bee OEM Shock Axle BOTTOM', pid:'lithiumpowersports-surron-storm-bee-oem-shock-axle-bottom', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-axle-bottom', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Shock Axle TOP', pid:'lithiumpowersports-surron-storm-bee-oem-shock-axle-top', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-axle-top', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
     },
 ]},
   {id:'wheels', name:'Wheels', blurb:'Lighter, stronger wheels sharpen handling and acceleration — often the best-feeling upgrade per dollar.', tips:['Hub and axle size must match your bike','Check your brake rotor bolt pattern carries over','Spoked vs billet — weight vs strength tradeoff'], options:[
@@ -3288,6 +3431,195 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:602.78, url:'https://chargedcycleworks.com/products/talaria-supermoto-wheelset-17', chk:'2026-11-28', stock:'out_of_stock'},
      ],
      fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-talaria-supermoto-wheelset-17.webp'
+    },
+    {name:'Surron Storm Bee OEM Front Wheel 21in CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-front-wheel-21in-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:313.31, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-21in-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-front-wheel-21in-cpl.webp'
+    },
+    {name:'Surron Storm Bee OEM FRONT Wheel 21in Rim Band', pid:'lithiumpowersports-surron-storm-bee-oem-front-wheel-21in-rim-band', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.87, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-21in-rim-band', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM FRONT Wheel 21in Spokes Set', pid:'lithiumpowersports-surron-storm-bee-oem-front-wheel-21in-spokes-set', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-21in-spokes-set', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM FRONT Wheel 21in w/ MC Tire', pid:'lithiumpowersports-surron-storm-bee-oem-front-wheel-21in-w-mc-tire', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:365.66, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-21in-w-mc-tire', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM FRONT Wheel Axle', pid:'lithiumpowersports-surron-storm-bee-oem-front-wheel-axle', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:16.47, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-axle', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM FRONT Wheel Axle Nut', pid:'lithiumpowersports-surron-storm-bee-oem-front-wheel-axle-nut', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-axle-nut', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM FRONT Wheel Bearing', pid:'lithiumpowersports-surron-storm-bee-oem-front-wheel-bearing', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:8.2, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-bearing', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM FRONT Wheel Bushing LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-front-wheel-bushing-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.94, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-bushing-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-front-wheel-bushing-left.webp'
+    },
+    {name:'Surron Storm Bee OEM FRONT Wheel Bushing RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-front-wheel-bushing-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.79, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-bushing-right', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Wheel Hub', pid:'lithiumpowersports-surron-storm-bee-oem-front-wheel-hub', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:156.98, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-hub', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM FRONT Wheel Rim 21in', pid:'lithiumpowersports-surron-storm-bee-oem-front-wheel-rim-21in', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:136.26, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-rim-21in', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM FRONT Wheel Set 21in CPL. w/ MC Tire', pid:'lithiumpowersports-surron-storm-bee-oem-front-wheel-set-21in-cpl-w-mc-tire', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:475.1, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-set-21in-cpl-w-mc-tire', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel 18 Rim Band', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-18-rim-band', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.3, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-18-rim-band', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel 18in CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-18in-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:367.25, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-18in-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-rear-wheel-18in-cpl.webp'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel 18in w/ MX Tire CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-18in-w-mx-tyre-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:413.7, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-18in-w-mx-tyre-cpl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel Axle', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-axle', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:20.03, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-axle', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-rear-wheel-axle.webp'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel Bearing', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-bearing', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:7.14, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-bearing', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel Bushing LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-bushing-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.79, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-bushing-left', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel Bushing RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-bushing-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.79, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-bushing-right', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel Hub', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-hub', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:180.88, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-hub', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-rear-wheel-hub.webp'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel Nut', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-nut', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-nut', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel Rim 18in', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-rim-18in', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:160.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-rim-18in', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel Set 18in CPL. w/ MX Tire', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-set-18in-cpl-w-mx-tyre', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:593.66, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-set-18in-cpl-w-mx-tyre', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel Spokes Set 191 RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-spokes-set-191-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-spokes-set-191-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Wheel Spokes Set 198 LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wheel-spokes-set-198-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-spokes-set-198-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Rim Lock 1.6in', pid:'lithiumpowersports-surron-storm-bee-oem-rim-lock-1-6in', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:8.72, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rim-lock-1-6in', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Rim Lock 2.15in', pid:'lithiumpowersports-surron-storm-bee-oem-rim-lock-2-15in', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:9.69, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rim-lock-2-15in', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
     },
 ]},
   {id:'brakes', name:'Brakes', blurb:'As the bike gets faster, stopping matters more. Bigger rotors and better calipers transform confidence.', tips:['Rotor size changes may need a caliper relocation bracket','Match master cylinder to caliper','Pad compound: organic for feel, sintered for bite and life'], options:[
@@ -4764,6 +5096,167 @@ var CATEGORIES = [
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-warp9-brake-levers-for-surron.webp'
     },
+    {name:'Surron Storm Bee OEM Brake Lever', pid:'lithiumpowersports-surron-storm-bee-oem-brake-lever-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:14.86, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-brake-lever-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Brake Lever', pid:'lithiumpowersports-surron-storm-bee-oem-brake-lever', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:14.86, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-brake-lever', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Brake Caliper', pid:'lithiumpowersports-surron-storm-bee-oem-front-brake-caliper', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:158.27, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-caliper', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-front-brake-caliper.webp'
+    },
+    {name:'Surron Storm Bee OEM FRONT Brake Disc', pid:'lithiumpowersports-surron-storm-bee-oem-front-brake-disc', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:63.95, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-disc', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM FRONT Brake Hose', pid:'lithiumpowersports-surron-storm-bee-oem-front-brake-hose', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:56.53, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-hose', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-front-brake-hose.webp'
+    },
+    {name:'Surron Storm Bee OEM Front Brake Pad', pid:'lithiumpowersports-surron-storm-bee-oem-front-brake-pad', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:22.93, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-pad', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-front-brake-pad.webp'
+    },
+    {name:'Surron Storm Bee OEM Front Brake Switch', pid:'lithiumpowersports-surron-storm-bee-oem-front-brake-switch', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.76, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-switch', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Brake System', pid:'lithiumpowersports-surron-storm-bee-oem-front-brake-system', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:348.08, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-system', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Brake Top Clamp', pid:'lithiumpowersports-surron-storm-bee-oem-front-brake-top-clamp', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.26, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-top-clamp', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Brake Top INST. Washer', pid:'lithiumpowersports-surron-storm-bee-oem-front-brake-top-inst-washer', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.32, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-top-inst-washer', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Caliper INST. Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-front-caliper-inst-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:22.93, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-caliper-inst-bracket', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Brake Caliper', pid:'lithiumpowersports-surron-storm-bee-oem-rear-brake-caliper', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:148.58, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-caliper', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-rear-brake-caliper.webp'
+    },
+    {name:'Surron Storm Bee OEM REAR Brake Cylinder', pid:'lithiumpowersports-surron-storm-bee-oem-rear-brake-cylinder', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:93.67, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-cylinder', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Brake Disc', pid:'lithiumpowersports-surron-storm-bee-oem-rear-brake-disc', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:64.6, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-disc', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Brake Disc Protector', pid:'lithiumpowersports-surron-storm-bee-oem-rear-brake-disc-protector', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.46, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-disc-protector', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Brake Hose', pid:'lithiumpowersports-surron-storm-bee-oem-rear-brake-hose', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:56.53, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-hose', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-rear-brake-hose.webp'
+    },
+    {name:'Surron Storm Bee OEM REAR Brake Hose Clip', pid:'lithiumpowersports-surron-storm-bee-oem-rear-brake-hose-clip', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-hose-clip', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Brake Housing Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-rear-brake-housing-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.55, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-housing-bracket', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Brake Pad', pid:'lithiumpowersports-surron-storm-bee-oem-rear-brake-pad', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:22.93, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-pad', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-rear-brake-pad.webp'
+    },
+    {name:'Surron Storm Bee OEM REAR Brake Switch', pid:'lithiumpowersports-surron-storm-bee-oem-rear-brake-switch', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:5.17, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-switch', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Brake System', pid:'lithiumpowersports-surron-storm-bee-oem-rear-brake-system', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:279.13, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-system', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Caliper INST. Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-rear-caliper-inst-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:29.07, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-caliper-inst-bracket', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Caliper Protector', pid:'lithiumpowersports-surron-storm-bee-oem-rear-caliper-protector', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.2, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-caliper-protector', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
 ]},
   {id:'plastics', name:'Plastics', blurb:'Bodywork — the look of the bike plus roost protection.', tips:['Mounting is bike-specific — \'universal\' rarely is','Full kits look cleaner than piecing together','Graphics usually sold separately'], options:[
     {name:'Stock plastics', prices:[]},
@@ -6002,6 +6495,202 @@ var CATEGORIES = [
      ],
      fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-28'
     },
+    {name:'Surron Storm Bee OEM Decal Front Shroud LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-decal-front-shroud-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:14.21, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-front-shroud-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-decal-front-shroud-left.webp'
+    },
+    {name:'Surron Storm Bee OEM Decal Front Shroud RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-decal-front-shroud-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:14.21, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-front-shroud-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Decal Number Plate', pid:'lithiumpowersports-surron-storm-bee-oem-decal-number-plate', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.34, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-number-plate', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Decal Set SBF Yellow', pid:'lithiumpowersports-surron-storm-bee-oem-decal-set-sbf-yellow', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:138.89, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-set-sbf-yellow', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Decal Subframe Cover LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-decal-subframe-cover-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.34, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-subframe-cover-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Decal Subframe Cover RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-decal-subframe-cover-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.34, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-subframe-cover-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Decal Tail Fender', pid:'lithiumpowersports-surron-storm-bee-oem-decal-tail-fender', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:14.21, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-tail-fender', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Cover LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-front-cover-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:9.69, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-cover-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Cover RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-front-cover-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:9.69, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-cover-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Fender', pid:'lithiumpowersports-surron-storm-bee-oem-front-fender', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:38.76, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-fender', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-front-fender.webp'
+    },
+    {name:'Surron Storm Bee OEM Front Fender CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-front-fender-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:41.34, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-fender-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Number Plate', pid:'lithiumpowersports-surron-storm-bee-oem-front-number-plate', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:8.55, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-number-plate', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-front-number-plate.webp'
+    },
+    {name:'Surron Storm Bee OEM Front Number Plate INST. Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-front-number-plate-inst-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-number-plate-inst-bracket', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Shroud Buffer Foam', pid:'lithiumpowersports-surron-storm-bee-oem-front-shroud-buffer-foam', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-buffer-foam', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Shroud Inner LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-front-shroud-inner-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:9.69, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-inner-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Shroud Inner RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-front-shroud-inner-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:9.69, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-inner-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Shroud LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-front-shroud-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:16.15, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Front Shroud RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-front-shroud-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:16.15, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM GPS Cover', pid:'lithiumpowersports-surron-storm-bee-oem-gps-cover', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.27, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-gps-cover', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Ski Plate', pid:'lithiumpowersports-surron-storm-bee-oem-ski-plate', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:38.11, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-ski-plate', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-ski-plate.webp'
+    },
+    {name:'Surron Storm Bee OEM Subframe Cover Bracket Left', pid:'lithiumpowersports-surron-storm-bee-oem-subframe-cover-bracket-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.98, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-bracket-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Subframe Cover Bracket Right', pid:'lithiumpowersports-surron-storm-bee-oem-subframe-cover-bracket-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.98, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-bracket-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Subframe Cover Buffer Foam II', pid:'lithiumpowersports-surron-storm-bee-oem-subframe-cover-buffer-foam-ii', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.97, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-buffer-foam-ii', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Subframe Cover INST. Bushing', pid:'lithiumpowersports-surron-storm-bee-oem-subframe-cover-inst-bushing', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-inst-bushing', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Subframe Cover LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-subframe-cover-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:13.89, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Subframe Cover RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-subframe-cover-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:13.89, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Tail Fender', pid:'lithiumpowersports-surron-storm-bee-oem-tail-fender', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:37.79, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-tail-fender', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-tail-fender.webp'
+    },
+    {name:'Surron Storm Bee OEM Terminal Box Cover', pid:'lithiumpowersports-surron-storm-bee-oem-terminal-box-cover', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:11.9, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-cover', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
 ]},
   {id:'batteries', name:'Batteries', blurb:'Your fuel tank and your power ceiling. A weak battery chokes even the best motor and controller combo.', tips:['Continuous kW rating must meet what your controller pulls — check the Powertrain panel for bottlenecks','Voltage must match your controller\'s range','Confirm it physically fits your frame — sizes vary a lot','Swappable packs are convenient; fixed packs usually hold more capacity'], options:[
     {name:'Stock batteries', prices:[]},
@@ -6383,6 +7072,13 @@ var CATEGORIES = [
       {v:'Wired Whips', p:81.99, url:'https://wiredwhips.com/parts/tuttio_soleil01_battery-securing-clamp', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/wiredwhips-oem-soleil01-battery-securing-clamp-soleil01-battery-securing-clamp.webp'
+    },
+    {name:'Surron Storm Bee OEM Battery Pack (104V 53AH)', pid:'lithiumpowersports-surron-storm-bee-oem-battery-pack-104v-53ah', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3549, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-pack-104v-53ah', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
     },
 ]},
   {id:'handlebar', name:'Handlebar', blurb:'Your main control point — bend and rise change the whole riding position.', tips:['Bar diameter must match your clamps (7/8" vs 1-1/8")','Taller riders usually want more rise','Cut to width if they feel too wide'], options:[
@@ -6966,6 +7662,104 @@ var CATEGORIES = [
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-prickly-direct-mount-riser-surron.webp'
     },
+    {name:'Surron Storm Bee OEM Handle Grip LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-handle-grip-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-left', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-handle-grip-left.webp'
+    },
+    {name:'Surron Storm Bee OEM Handle Grip RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-handle-grip-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-handle-grip-right.webp'
+    },
+    {name:'Surron Storm Bee OEM Handle Grip Set', pid:'lithiumpowersports-surron-storm-bee-oem-handle-grip-set', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:20, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-set', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Handlebar', pid:'lithiumpowersports-surron-storm-bee-oem-handlebar', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:97.87, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Handlebar Clamp Arch', pid:'lithiumpowersports-surron-storm-bee-oem-handlebar-clamp-arch', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:7.3, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-clamp-arch', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-handlebar-clamp-arch.webp'
+    },
+    {name:'Surron Storm Bee OEM Handlebar Clamp CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-handlebar-clamp-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:14.86, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-clamp-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Handlebar Mount', pid:'lithiumpowersports-surron-storm-bee-oem-handlebar-mount', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:26.78, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Handlebar Mount CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-handlebar-mount-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:85.6, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Handlebar Mount Support', pid:'lithiumpowersports-surron-storm-bee-oem-handlebar-mount-support', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:5.95, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount-support', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Handlebar Pad', pid:'lithiumpowersports-surron-storm-bee-oem-handlebar-pad', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:13.39, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Handlebar Pad Cover Canvas', pid:'lithiumpowersports-surron-storm-bee-oem-handlebar-pad-cover-canvas', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.76, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad-cover-canvas', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Handlebar Pad CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-handlebar-pad-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:16, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-handlebar-pad-cpl.webp'
+    },
+    {name:'Surron Storm Bee OEM Right Handlebar Control', pid:'lithiumpowersports-surron-storm-bee-oem-right-handlebar-control', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:54.91, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-right-handlebar-control', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-right-handlebar-control.webp'
+    },
+    {name:'Surron Ultra & Storm Bee OEM Throttle W/Grip', pid:'lithiumpowersports-surron-ultra-storm-bee-oem-throttle-w-grip', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:95.99, url:'https://lithiumpowersports.com/products/surron-ultra-storm-bee-oem-throttle-w-grip', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
 ]},
   {id:'chargers', name:'Charger', blurb:'Faster charging means less downtime between rides.', tips:['Voltage must match your battery exactly','More amps = faster charging, but also more heat','Some fast chargers need 220V for full speed'], options:[
     {name:'Stock charger', prices:[]},
@@ -7127,6 +7921,20 @@ var CATEGORIES = [
       {v:'Wired Whips', p:365.99, url:'https://wiredwhips.com/parts/altis-powersports_delta_charger', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:[], likely:['altis-delta'], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/wiredwhips-oem-10a-charger-72v-delta-delta-s.webp'
+    },
+    {name:'Surron Storm Bee OEM Charging Cable', pid:'lithiumpowersports-surron-storm-bee-oem-charging-cable', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:111.44, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-charging-cable', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Storm Bee Charger US', pid:'lithiumpowersports-surron-storm-bee-oem-storm-bee-charger-us', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:354.38, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-charger-us', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
     },
 ]},
   {id:'cockpit', name:'Cockpit', blurb:'Grips, throttles, and displays — the details you touch every ride.', tips:['Throttle type must match your controller','Lock-on grips stay put; slip-ons are cheaper'], options:[
@@ -8112,6 +8920,69 @@ var CATEGORIES = [
      ],
      fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-talaria-throttle-extension-cable.webp'
     },
+    {name:'Surron Storm Bee OEM Dashboard', pid:'lithiumpowersports-surron-storm-bee-oem-dashboard', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:163.63, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Dashboard Absorber', pid:'lithiumpowersports-surron-storm-bee-oem-dashboard-absorber', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.2, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-absorber', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Dashboard CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-dashboard-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:187.34, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Dashboard INST. Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-dashboard-inst-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.84, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-inst-bracket', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Key Switch INST. Bushing', pid:'lithiumpowersports-surron-storm-bee-oem-key-switch-inst-bushing', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-key-switch-inst-bushing', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Key Switch w/SL', pid:'lithiumpowersports-surron-storm-bee-oem-key-switch-w-sl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:45.22, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-key-switch-w-sl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-key-switch-w-sl.webp'
+    },
+    {name:'Surron Storm Bee OEM Ride-by-wire Throttle', pid:'lithiumpowersports-surron-storm-bee-oem-ride-by-wire-throttle', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:89.99, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-ride-by-wire-throttle', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-ride-by-wire-throttle.webp'
+    },
+    {name:'Surron Storm Bee OEM Side Stand Switch', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand-switch', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:12.92, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-switch', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Tilt Switch', pid:'lithiumpowersports-surron-storm-bee-oem-tilt-switch', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:63, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-tilt-switch', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-tilt-switch.webp'
+    },
 ]},
   {id:'cooling', name:'Cooling', blurb:'High-power builds make serious heat. Cooling keeps your motor and controller alive when you\'re pushing hard.', tips:['Mostly needed above ~15 kW or for sustained high load','Check fitment against your specific motor'], options:[
     {name:'Stock cooling', prices:[]},
@@ -8153,6 +9024,125 @@ var CATEGORIES = [
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-ebmx-x-9000-v2-colored-heat-sink.webp'
+    },
+    {name:'Surron Storm Bee OEM LCS Fan Protector', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-fan-protector', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.38, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-fan-protector', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS Hose MCU In', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-hose-mcu-in', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.76, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-hose-mcu-in', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS Hose MCU Out', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-hose-mcu-out', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.76, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-hose-mcu-out', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS Hose Pump In', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-hose-pump-in', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.76, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-hose-pump-in', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS Hose Tank In', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-hose-tank-in', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.76, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-hose-tank-in', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS Ladder Type Cable Tie', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-ladder-type-cable-tie', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-ladder-type-cable-tie', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS MCU Cooling Pad', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-mcu-cooling-pad', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:49.09, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-mcu-cooling-pad', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS MCU Cooling Seal', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-mcu-cooling-seal', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.41, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-mcu-cooling-seal', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS Pump', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-pump', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:23.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-pump', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS Radiator', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-radiator', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:29.75, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-radiator', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS Radiator Fan', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-radiator-fan', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:34.21, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-radiator-fan', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS Tank', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-tank', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.41, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-tank', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS Tank Cap', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-tank-cap', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.38, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-tank-cap', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS Temperature Sensor', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-temperature-sensor', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:21.96, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-temperature-sensor', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LCS Temperature Sensor Plate', pid:'lithiumpowersports-surron-storm-bee-oem-lcs-temperature-sensor-plate', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.98, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-temperature-sensor-plate', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Liquid Cooling System(LCS) CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-liquid-cooling-systemlcs-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:263.88, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-liquid-cooling-systemlcs-cpl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Radiator Cap', pid:'lithiumpowersports-surron-storm-bee-oem-radiator-cap', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:7.75, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-radiator-cap', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
     },
 ]},
   {id:'drivetrain', name:'Drivetrain', blurb:'Chain or belt and sprockets — how power actually reaches the rear wheel.', tips:['Chain pitch must match front and rear sprockets','Gearing changes trade top speed for torque (and vice versa)','Belt drives are quieter but less tolerant of misalignment'], options:[
@@ -9276,6 +10266,209 @@ var CATEGORIES = [
      ],
      fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-warp9-aluminum-sprocket-for-surron-segway.webp'
     },
+    {name:'Surron Storm Bee OEM Chain 520-114Links', pid:'lithiumpowersports-surron-storm-bee-oem-chain-520-114links', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:190.89, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-520-114links', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Chain Adjuster LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-chain-adjuster-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.78, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-adjuster-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Chain Adjuster RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-chain-adjuster-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.78, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-adjuster-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Chain Guard', pid:'lithiumpowersports-surron-storm-bee-oem-chain-guard', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:16.15, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-guard', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-chain-guard.webp'
+    },
+    {name:'Surron Storm Bee OEM Chain Roller', pid:'lithiumpowersports-surron-storm-bee-oem-chain-roller-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:9.69, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-roller-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Chain Roller', pid:'lithiumpowersports-surron-storm-bee-oem-chain-roller', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:9.69, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-roller', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Chain Roller INST.Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-chain-roller-inst-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:5.17, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-roller-inst-bracket', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Chain Sliding Block', pid:'lithiumpowersports-surron-storm-bee-oem-chain-sliding-block', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.01, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-sliding-block', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-chain-sliding-block.webp'
+    },
+    {name:'Surron Storm Bee OEM Encoder Motor Reduction Gearbox 13T CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-encoder-motor-reduction-gearbox-13t-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1174.5, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-encoder-motor-reduction-gearbox-13t-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Main gear', pid:'lithiumpowersports-surron-storm-bee-oem-main-gear', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:40.05, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-main-gear', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Main gear Screw', pid:'lithiumpowersports-surron-storm-bee-oem-main-gear-screw', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-main-gear-screw', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Output Shaft', pid:'lithiumpowersports-surron-storm-bee-oem-output-shaft', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:76.16, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-output-shaft', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Output Shaft Bearing LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-output-shaft-bearing-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:14.21, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-output-shaft-bearing-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Output Shaft Bearing RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-output-shaft-bearing-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.66, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-output-shaft-bearing-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Output Shaft Gear', pid:'lithiumpowersports-surron-storm-bee-oem-output-shaft-gear-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:40.46, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-output-shaft-gear-1', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Output Shaft Gear', pid:'lithiumpowersports-surron-storm-bee-oem-output-shaft-gear', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:40.46, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-output-shaft-gear', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Output Sprocket 13T', pid:'lithiumpowersports-surron-storm-bee-oem-output-sprocket-13t', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:24.23, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-output-sprocket-13t', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Output Sprocket Bushing', pid:'lithiumpowersports-surron-storm-bee-oem-output-sprocket-bushing', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.58, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-output-sprocket-bushing', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Output Sprocket Cover', pid:'lithiumpowersports-surron-storm-bee-oem-output-sprocket-cover', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.46, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-output-sprocket-cover', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Output Sprocket Cover INST.Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-output-sprocket-cover-inst-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:5.81, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-output-sprocket-cover-inst-bracket', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Sprocket 52T', pid:'lithiumpowersports-surron-storm-bee-oem-rear-sprocket-52t', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:80.43, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-sprocket-52t', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Reduction Gearbox Cover', pid:'lithiumpowersports-surron-storm-bee-oem-reduction-gearbox-cover', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:119.51, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-reduction-gearbox-cover', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-reduction-gearbox-cover.webp'
+    },
+    {name:'Surron Storm Bee OEM Reduction Gearbox Logo Cap', pid:'lithiumpowersports-surron-storm-bee-oem-reduction-gearbox-logo-cap', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.23, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-reduction-gearbox-logo-cap', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Reduction Gearbox Main Body', pid:'lithiumpowersports-surron-storm-bee-oem-reduction-gearbox-main-body', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:367.5, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-reduction-gearbox-main-body', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Reduction Gearbox Position Pin', pid:'lithiumpowersports-surron-storm-bee-oem-reduction-gearbox-position-pin', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-reduction-gearbox-position-pin', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Transition Gear A', pid:'lithiumpowersports-surron-storm-bee-oem-transition-gear-a', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:82.71, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-transition-gear-a', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Transition Shaft', pid:'lithiumpowersports-surron-storm-bee-oem-transition-shaft', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:36.89, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-transition-shaft', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Transition Shaft Bearing LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-transition-shaft-bearing-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:16.15, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-transition-shaft-bearing-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Transition Shaft Bearing RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-transition-shaft-bearing-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.66, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-transition-shaft-bearing-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
 ]},
   {id:'electrical', name:'Electrical', blurb:'Dashboards, lights, and wiring that tie the build together.', tips:['Check voltage compatibility with your battery','Plug-and-play beats splicing — look for bike-specific kits'], options:[
     {name:'Stock electrical', prices:[]},
@@ -10137,6 +11330,146 @@ var CATEGORIES = [
      ],
      fits:['segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-replacement-wiring-loom-for-surron-light-bee.webp'
     },
+    {name:'Surron Storm Bee OEM Battery Discharge Plug Cap', pid:'lithiumpowersports-surron-storm-bee-oem-battery-discharge-plug-cap', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.29, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-discharge-plug-cap', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Power Cable', pid:'lithiumpowersports-surron-storm-bee-oem-battery-power-cable', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:132.43, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-power-cable', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-battery-power-cable.webp'
+    },
+    {name:'Surron Storm Bee OEM Cable Connector', pid:'lithiumpowersports-surron-storm-bee-oem-cable-connector', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.28, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-connector', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Cable Tie 4150', pid:'lithiumpowersports-surron-storm-bee-oem-cable-tie-4150', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-4150', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Cable Tie 8200', pid:'lithiumpowersports-surron-storm-bee-oem-cable-tie-8200', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8200', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Cable Tie 8200', pid:'lithiumpowersports-surron-storm-bee-oem-cable-tie-8201', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8201', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Cable Tie 8200', pid:'lithiumpowersports-surron-storm-bee-oem-cable-tie-8202', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8202', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Charging Port Cap', pid:'lithiumpowersports-surron-storm-bee-oem-charging-port-cap', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.94, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-charging-port-cap', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-charging-port-cap.webp'
+    },
+    {name:'Surron Storm Bee OEM Frame Cable Holder', pid:'lithiumpowersports-surron-storm-bee-oem-frame-cable-holder', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.26, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-cable-holder', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM LV Fuse Box Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-lv-fuse-box-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.2, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-lv-fuse-box-bracket', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Main Cable Clamp', pid:'lithiumpowersports-surron-storm-bee-oem-main-cable-clamp', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-main-cable-clamp', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Motor Encoder', pid:'lithiumpowersports-surron-storm-bee-oem-motor-encoder', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:71.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-encoder', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Wiring Harness', pid:'lithiumpowersports-surron-storm-bee-oem-rear-wiring-harness', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:32.73, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wiring-harness', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw Plug', pid:'lithiumpowersports-surron-storm-bee-oem-screw-plug', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-plug', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Speed Sensor Front', pid:'lithiumpowersports-surron-storm-bee-oem-speed-sensor-front', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:64.6, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-front', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Speed Sensor Front CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-speed-sensor-front-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:62.77, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-front-cpl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Speed Sensor REAR', pid:'lithiumpowersports-surron-storm-bee-oem-speed-sensor-rear', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:64.6, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-rear', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Speed Sensor REAR CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-speed-sensor-rear-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:62.77, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-rear-cpl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM USB Port', pid:'lithiumpowersports-surron-storm-bee-oem-usb-port', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:16.15, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-usb-port', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-usb-port.webp'
+    },
+    {name:'Surron Storm Bee OEM USB port INST. Cover', pid:'lithiumpowersports-surron-storm-bee-oem-usb-port-inst-cover', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:12.92, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-usb-port-inst-cover', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
 ]},
   {id:'guards', name:'Guards', blurb:'Cheap insurance — frame, rotor, and case protection that pays for itself the first crash.', tips:['Bike-specific fitment','Rotor guards need caliper clearance'], options:[
     {name:'Stock guards', prices:[]},
@@ -10599,6 +11932,34 @@ var CATEGORIES = [
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-heavy-hitter-surron-v2-skid-plate.webp'
     },
+    {name:'Surron Storm Bee OEM Frame Protector LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-frame-protector-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.66, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-protector-left', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Frame Protector RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-frame-protector-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.66, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-protector-right', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Splash Protector', pid:'lithiumpowersports-surron-storm-bee-oem-splash-protector', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:21.96, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-splash-protector', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-splash-protector.webp'
+    },
+    {name:'Surron Storm Bee OEM Splash Protector CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-splash-protector-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:21.42, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-splash-protector-cpl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
 ]},
   {id:'linkage', name:'Linkage', blurb:'Connects the shock to the swingarm and sets the leverage curve — subtle but noticeable.', tips:['Bike-specific fitment — no universal options','Usually chosen alongside the shock'], options:[
     {name:'Stock linkage', prices:[]},
@@ -10843,6 +12204,104 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:95, url:'https://chargedcycleworks.com/products/warp-9-cryo-hardened-linkage-bolts', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-warp-9-cryo-hardened-linkage-bolts.webp'
+    },
+    {name:'Surron Storm Bee OEM Link Rod', pid:'lithiumpowersports-surron-storm-bee-oem-link-rod', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:53.55, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-link-rod', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Link Rod Axle', pid:'lithiumpowersports-surron-storm-bee-oem-link-rod-axle', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.94, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-link-rod-axle', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Link Rod Bushing', pid:'lithiumpowersports-surron-storm-bee-oem-link-rod-bushing', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.87, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-link-rod-bushing', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Link Rod CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-link-rod-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:99.81, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-link-rod-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-link-rod-cpl.webp'
+    },
+    {name:'Surron Storm Bee OEM Seal Triangular Centilever', pid:'lithiumpowersports-surron-storm-bee-oem-seal-triangular-centilever', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.87, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-triangular-centilever', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triangular Centilever', pid:'lithiumpowersports-surron-storm-bee-oem-triangular-centilever', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:53.55, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triangular Centilever Axle BOTTOM', pid:'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-axle-bottom', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.94, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-axle-bottom', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triangular Centilever Axle TOP', pid:'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-axle-top', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.94, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-axle-top', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triangular Centilever Bearing A', pid:'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-bearing-a-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:13.09, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-bearing-a-1', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triangular Centilever Bearing A', pid:'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-bearing-a', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:13.09, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-bearing-a', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triangular Centilever Bearing B', pid:'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-bearing-b', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:9.52, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-bearing-b', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triangular Centilever Bushing A', pid:'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-bushing-a', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:7.14, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-bushing-a', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triangular Centilever Bushing B', pid:'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-bushing-b', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:7.44, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-bushing-b', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Triangular Centilever CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:210.6, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-triangular-centilever-cpl.webp'
     },
 ]},
   {id:'maintenance', name:'Maintenance', blurb:'Consumables and shop supplies to keep the build running.', tips:['Stock up on what wears: chains, brake pads, tires'], options:[
@@ -11703,6 +13162,1658 @@ var CATEGORIES = [
      ],
      fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-wheel-bearings.webp'
     },
+    {name:'Surron Storm Bee OEM 20A Convertor', pid:'lithiumpowersports-surron-storm-bee-oem-20a-convertor', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:83.98, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-20a-convertor', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM 3A Convertor', pid:'lithiumpowersports-surron-storm-bee-oem-3a-convertor', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:74.29, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-3a-convertor', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Front Support Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-battery-front-support-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:11.31, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-front-support-bracket', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Holder', pid:'lithiumpowersports-surron-storm-bee-oem-battery-holder', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.34, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-holder', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Holder Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-battery-holder-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:78.49, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-holder-bracket', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Holder Bracket CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-battery-holder-bracket-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:74.08, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-holder-bracket-cpl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Holder CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-battery-holder-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:15.47, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-holder-cpl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Lock Bracket Front CPL. 10453', pid:'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-front-cpl-10453', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:21.42, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-front-cpl-10453', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Lock Bracket Front LEFT 10453', pid:'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-front-left-10453', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.78, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-front-left-10453', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Lock Bracket Front RIGHT 10453', pid:'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-front-right-10453', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.78, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-front-right-10453', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Lock Bracket Rear Bushing 10453', pid:'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-rear-bushing-10453', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.97, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-rear-bushing-10453', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Lock Bracket Rear CPL. 10453', pid:'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-rear-cpl-10453', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:21.42, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-rear-cpl-10453', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Lock Bracket Rear LEFT 10453', pid:'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-rear-left-10453', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.78, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-rear-left-10453', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Lock Bracket Rear RIGHT 10453', pid:'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-rear-right-10453', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.78, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-rear-right-10453', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery REAR Support Plate', pid:'lithiumpowersports-surron-storm-bee-oem-battery-rear-support-plate', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:29.07, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-rear-support-plate', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Rubber Absorber', pid:'lithiumpowersports-surron-storm-bee-oem-battery-rubber-absorber', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.29, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-rubber-absorber', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Battery Side Support Block', pid:'lithiumpowersports-surron-storm-bee-oem-battery-side-support-block', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-side-support-block', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Bee Box', pid:'lithiumpowersports-surron-storm-bee-oem-bee-box', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:74.38, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-bee-box', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Bezel Dampner', pid:'lithiumpowersports-surron-storm-bee-oem-bezel-dampner', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-bezel-dampner', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Black Tie 4300', pid:'lithiumpowersports-surron-storm-bee-oem-black-tie-4300', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-black-tie-4300', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Bushing 31218 d6.5', pid:'lithiumpowersports-surron-storm-bee-oem-bushing-31218-d6-5', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.23, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-bushing-31218-d6-5', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Bushing 31218 d6.5', pid:'lithiumpowersports-surron-storm-bee-oem-bushing-31218-d6-6', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.23, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-bushing-31218-d6-6', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Bushing 31218 d6.5', pid:'lithiumpowersports-surron-storm-bee-oem-bushing-31218-d6-7', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.23, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-bushing-31218-d6-7', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Bushing 41476 d6.5', pid:'lithiumpowersports-surron-storm-bee-oem-bushing-41476-d6-5', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.23, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-bushing-41476-d6-5', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Conical Spring Washer', pid:'lithiumpowersports-surron-storm-bee-oem-conical-spring-washer-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.88, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-conical-spring-washer-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Conical Spring Washer', pid:'lithiumpowersports-surron-storm-bee-oem-conical-spring-washer', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.88, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-conical-spring-washer', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Doubleside Stick Pad', pid:'lithiumpowersports-surron-storm-bee-oem-doubleside-stick-pad', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-doubleside-stick-pad', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM GPS Buffer Foam', pid:'lithiumpowersports-surron-storm-bee-oem-gps-buffer-foam', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.89, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-gps-buffer-foam', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Left 4 Combination Control (NA)', pid:'lithiumpowersports-surron-storm-bee-oem-left-4-combination-control-na', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:64.6, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-left-4-combination-control-na', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-left-4-combination-control-na.webp'
+    },
+    {name:'Surron Storm Bee OEM MCU Cover LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-mcu-cover-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.2, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-mcu-cover-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM MCU Cover RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-mcu-cover-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:4.2, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-mcu-cover-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM MCU Hose Clamp', pid:'lithiumpowersports-surron-storm-bee-oem-mcu-hose-clamp', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.58, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-mcu-hose-clamp', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM MCU INST. Bracket Front', pid:'lithiumpowersports-surron-storm-bee-oem-mcu-inst-bracket-front', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.66, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-mcu-inst-bracket-front', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM MCU INST. Bracket REAR', pid:'lithiumpowersports-surron-storm-bee-oem-mcu-inst-bracket-rear', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:9.04, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-mcu-inst-bracket-rear', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Motor INST. Axle Front', pid:'lithiumpowersports-surron-storm-bee-oem-motor-inst-axle-front', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.46, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-inst-axle-front', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Motor INST. Axle REAR', pid:'lithiumpowersports-surron-storm-bee-oem-motor-inst-axle-rear', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.46, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-inst-axle-rear', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Motor INST. Bracket Front', pid:'lithiumpowersports-surron-storm-bee-oem-motor-inst-bracket-front', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:12.92, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-inst-bracket-front', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Motor INST. Bracket LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-motor-inst-bracket-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:14.54, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-inst-bracket-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Motor Side Cover', pid:'lithiumpowersports-surron-storm-bee-oem-motor-side-cover', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:11.95, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-side-cover', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-motor-side-cover.webp'
+    },
+    {name:'Surron Storm Bee OEM Nut B2003 M10', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m10-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m10-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2003 M10', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m10-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m10-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2003 M10', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m10-3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m10-3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2003 M10', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m10', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m10', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2003 M12', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m12-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m12-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2003 M12', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m12', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m12', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2003 M16', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m16', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m16', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2006 M10', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2006-m10', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2006-m10', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2008 M8', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2008-m8', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2008-m8', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2010 M3', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2010-m3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2010-m3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2012 M6', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2012-m6', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2012-m6', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2015 M6', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2015 M6', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2015 M6', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2015 M6', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-4', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-4', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2015 M6', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-5', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-5', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2015 M6', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-6', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-6', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2015 M6', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-7', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-7', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2015 M6', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-8', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-8', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2015 M6', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2015 M8', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m8', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m8', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut B2019 M8', pid:'lithiumpowersports-surron-storm-bee-oem-nut-b2019-m8', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2019-m8', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Nut FB02005 M10', pid:'lithiumpowersports-surron-storm-bee-oem-nut-fb02005-m10', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-fb02005-m10', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Owner Document Bag', pid:'lithiumpowersports-surron-storm-bee-oem-owner-document-bag', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:35.11, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-owner-document-bag', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Pin B4009 M6x14', pid:'lithiumpowersports-surron-storm-bee-oem-pin-b4009-m6x14', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-pin-b4009-m6x14', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Pivot Bushing', pid:'lithiumpowersports-surron-storm-bee-oem-pivot-bushing', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:9.04, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-pivot-bushing', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Pivot Needle Roller Bearing', pid:'lithiumpowersports-surron-storm-bee-oem-pivot-needle-roller-bearing', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:14.86, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-pivot-needle-roller-bearing', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Position Pin M6x25', pid:'lithiumpowersports-surron-storm-bee-oem-position-pin-m6x25-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-position-pin-m6x25-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Position Pin M6x25', pid:'lithiumpowersports-surron-storm-bee-oem-position-pin-m6x25', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-position-pin-m6x25', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Rivet R5085', pid:'lithiumpowersports-surron-storm-bee-oem-rivet-r5085', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rivet-r5085', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Rivet R6080', pid:'lithiumpowersports-surron-storm-bee-oem-rivet-r6080', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rivet-r6080', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Rubber Buffer Strip', pid:'lithiumpowersports-surron-storm-bee-oem-rubber-buffer-strip-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.58, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rubber-buffer-strip-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Rubber Buffer Strip', pid:'lithiumpowersports-surron-storm-bee-oem-rubber-buffer-strip', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.58, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rubber-buffer-strip', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Rubber Tie 1258', pid:'lithiumpowersports-surron-storm-bee-oem-rubber-tie-1258', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rubber-tie-1258', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-rubber-tie-1258.webp'
+    },
+    {name:'Surron Storm Bee OEM Screw B1002 M6x25', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1002-m6x25-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1002-m6x25-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1002 M6x25', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1002-m6x25', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1002-m6x25', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1004 M8x60', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1004-m8x60', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1004-m8x60', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1008 M5x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m5x12', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m5x12', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1008 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m6x12-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m6x12-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1008 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m6x12', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m6x12', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1008 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m6x16', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m6x16', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1008 M6x25', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m6x25-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m6x25-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1008 M6x25', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m6x25', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m6x25', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1008 M6x50', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m6x50', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m6x50', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1008 M8x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m8x12', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m8x12', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1008 M8x25', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m8x25-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m8x25-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1008 M8x25', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m8x25', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m8x25', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1008 M8x40', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m8x40', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m8x40', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B1010 M12x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b1010-m12x20', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1010-m12x20', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M4x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m4x12-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m4x12-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M4x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m4x12-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m4x12-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M4x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m4x12', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m4x12', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x12-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x12-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x12-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x12-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x12', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x12', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x16-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x16-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x16', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x16', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M6x30', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x30', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x30', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M6x35', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x35', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x35', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x12-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x12-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x12', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x12', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x16-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x16-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x16', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x16', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x20-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x20-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x20-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x20-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x20-3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x20-3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x20', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x20', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x30', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x30-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x30-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x30', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x30-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x30-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x30', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x30', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x30', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x35', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x35-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x35-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x35', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x35', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x35', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3001 M8x40', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x40', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x40', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M10x45', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m10x45', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m10x45', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M4x8', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m4x8', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m4x8', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M5x10', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m5x10-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m5x10-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M5x10', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m5x10-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m5x10-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M5x10', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m5x10', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m5x10', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M5x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m5x20', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m5x20', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x16-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x16-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x16-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x16-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x16-3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x16-3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x16', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x16', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M6x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x20-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x20-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M6x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x20-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x20-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M6x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x20-3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x20-3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M6x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x20-4', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x20-4', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M6x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x20', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x20', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3002 M6x25', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x25', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x25', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3003 M4x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3003-m4x16', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3003-m4x16', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3003 M5x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3003-m5x12', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3003-m5x12', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3003 M8x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3003-m8x16', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3003-m8x16', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3004 M4x10', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3004-m4x10', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3004-m4x10', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3006 ST42x35', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3006-st42x35', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3006-st42x35', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3009 ST42x8', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3009-st42x8', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3009-st42x8', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3010 M3x35', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3010-m3x35', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3010-m3x35', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw B3011 M4x15', pid:'lithiumpowersports-surron-storm-bee-oem-screw-b3011-m4x15', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3011-m4x15', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01001 M6x10', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x10-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x10-1', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01001 M6x10', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x10', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x10', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x12-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x12-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x12-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x12-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x12-3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x12-3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x12', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x12', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01001 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x16-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x16-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01001 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x16-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x16-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01001 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x16-3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x16-3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01001 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x16', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x16', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01001 M8', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m8', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m8', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01010 M12x25', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01010-m12x25-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.29, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01010-m12x25-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01010 M12x25', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01010-m12x25', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.29, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01010-m12x25', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB01011 M8x28', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb01011-m8x28', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01011-m8x28', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03-003 M4x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03-003-m4x20', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03-003-m4x20', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-10', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-10', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-11', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-11', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-12', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-12', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-4', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-4', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-5', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-5', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-6', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-6', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-7', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-7', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-8', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-8', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-9', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-9', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x12', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x16-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x16-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x16-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x16-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x16-3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x16-3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x16', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x16', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x20-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x20-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x20', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x20', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x30', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x30', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x30', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M6x35', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x35', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x35', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03001 M8x20', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m8x20', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m8x20', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03003 M4x13', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03003 M4x13', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-10', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-10', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03003 M4x13', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-11', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-11', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03003 M4x13', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03003 M4x13', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03003 M4x13', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-4', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-4', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03003 M4x13', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-5', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-5', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03003 M4x13', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-6', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-6', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03003 M4x13', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-7', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-7', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03003 M4x13', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-8', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-8', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03003 M4x13', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-9', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-9', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03003 M4x13', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Screw FB03010 M6x16', pid:'lithiumpowersports-surron-storm-bee-oem-screw-fb03010-m6x16', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03010-m6x16', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seal Ring B7001 d2027', pid:'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2027', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:7.14, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2027', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seal Ring B7001 d2032', pid:'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2032', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.84, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2032', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seal Ring B7001 d2635', pid:'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2635', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:7.44, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2635', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seal Ring B7001 d2637', pid:'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2637', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:7.75, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2637', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seal Ring B7001 d2837', pid:'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2837', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2837', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2837.webp'
+    },
+    {name:'Surron Storm Bee OEM Seal Ring B7001 d2845', pid:'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2845-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:9.37, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2845-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seal Ring B7001 d2845', pid:'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2845', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:9.37, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2845', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seal Ring B7001 d2858', pid:'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2858', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.66, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2858', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seal Ring B7001 d3047', pid:'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d3047', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:5.49, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d3047', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seal Ring B7002 d2518', pid:'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7002-d2518', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7002-d2518', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seal Ring B7002 d85', pid:'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7002-d85', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7002-d85', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Side Stand', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:32.73, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Side Stand /w screw', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand-w-screw', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:36.5, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-w-screw', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Side Stand Axle', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand-axle', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3.49, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-axle', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Side Stand Bracket Washer 1', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand-bracket-washer-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-bracket-washer-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Side Stand Bracket Washer 2', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand-bracket-washer-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-bracket-washer-2', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Side Stand CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:48.13, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Side Stand Rubber Strap', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand-rubber-strap', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.58, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-rubber-strap', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Side Stand Spring Screw', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand-spring-screw', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-spring-screw', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Side Stand Spring Set', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand-spring-set', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.6, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-spring-set', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Side Stand Tie Strap', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand-tie-strap', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-tie-strap', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Side Stand Washer 1', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand-washer-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-washer-1', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Side Stand Washer 2', pid:'lithiumpowersports-surron-storm-bee-oem-side-stand-washer-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-washer-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Split Pin', pid:'lithiumpowersports-surron-storm-bee-oem-split-pin-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-split-pin-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Split Pin', pid:'lithiumpowersports-surron-storm-bee-oem-split-pin', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-split-pin', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Stearing Head Gasket', pid:'lithiumpowersports-surron-storm-bee-oem-stearing-head-gasket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:3, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-stearing-head-gasket', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Steering Head Adjust Nut', pid:'lithiumpowersports-surron-storm-bee-oem-steering-head-adjust-nut', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.8, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-steering-head-adjust-nut', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Steering Head Nut', pid:'lithiumpowersports-surron-storm-bee-oem-steering-head-nut', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.58, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-steering-head-nut', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Storm Bee Frame', pid:'lithiumpowersports-surron-storm-bee-oem-storm-bee-frame', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1689.19, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-frame', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Storm Bee Subframe', pid:'lithiumpowersports-surron-storm-bee-oem-storm-bee-subframe', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:437, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-subframe', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Terminal Box CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-terminal-box-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:50.58, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-cpl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Terminal Box INST. Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-terminal-box-inst-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.84, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-inst-bracket', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Terminal Box Main Body', pid:'lithiumpowersports-surron-storm-bee-oem-terminal-box-main-body', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:20.83, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-main-body', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Terminal Box Seal', pid:'lithiumpowersports-surron-storm-bee-oem-terminal-box-seal', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:8.93, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-seal', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Thrust Needle Roller Bearing', pid:'lithiumpowersports-surron-storm-bee-oem-thrust-needle-roller-bearing', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:15.18, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-thrust-needle-roller-bearing', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Toolkit', pid:'lithiumpowersports-surron-storm-bee-oem-toolkit', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.78, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-toolkit', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-toolkit.webp'
+    },
+    {name:'Surron Storm Bee OEM Toolkit Bag', pid:'lithiumpowersports-surron-storm-bee-oem-toolkit-bag', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.25, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-toolkit-bag', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-toolkit-bag.webp'
+    },
+    {name:'Surron Storm Bee OEM U Clip Nut M5', pid:'lithiumpowersports-surron-storm-bee-oem-u-clip-nut-m5', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-u-clip-nut-m5', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM U Clip Nut M6', pid:'lithiumpowersports-surron-storm-bee-oem-u-clip-nut-m6-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-u-clip-nut-m6-1', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM U Clip Nut M6', pid:'lithiumpowersports-surron-storm-bee-oem-u-clip-nut-m6-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-u-clip-nut-m6-2', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM U Clip Nut M6', pid:'lithiumpowersports-surron-storm-bee-oem-u-clip-nut-m6', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-u-clip-nut-m6', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Washer B4001 d6', pid:'lithiumpowersports-surron-storm-bee-oem-washer-b4001-d6-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4001-d6-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Washer B4001 d6', pid:'lithiumpowersports-surron-storm-bee-oem-washer-b4001-d6', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4001-d6', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Washer B4001 d8', pid:'lithiumpowersports-surron-storm-bee-oem-washer-b4001-d8-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4001-d8-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Washer B4001 d8', pid:'lithiumpowersports-surron-storm-bee-oem-washer-b4001-d8', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4001-d8', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Washer B4003 d3', pid:'lithiumpowersports-surron-storm-bee-oem-washer-b4003-d3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4003-d3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Washer B4013 d10', pid:'lithiumpowersports-surron-storm-bee-oem-washer-b4013-d10-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4013-d10-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Washer B4013 d10', pid:'lithiumpowersports-surron-storm-bee-oem-washer-b4013-d10-2', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4013-d10-2', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Washer B4013 d10', pid:'lithiumpowersports-surron-storm-bee-oem-washer-b4013-d10-3', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4013-d10-3', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Washer B4013 d10', pid:'lithiumpowersports-surron-storm-bee-oem-washer-b4013-d10', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4013-d10', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
 ]},
   {id:'pegs', name:'Foot Pegs', blurb:'Wider, sharper pegs mean more control — especially standing up.', tips:['Mounts are bike-specific','Titanium saves weight; steel lasts longer'], options:[
     {name:'Stock foot pegs', prices:[]},
@@ -12310,6 +15421,76 @@ var CATEGORIES = [
      ],
      fits:['talaria-xxx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-talaria-xxx-x3-oem-right-foot-peg-mount.webp'
     },
+    {name:'Surron Storm Bee OEM Footpeg Bracket LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-footpeg-bracket-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:16.47, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-bracket-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-footpeg-bracket-left.webp'
+    },
+    {name:'Surron Storm Bee OEM Footpeg Bracket LEFT CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-footpeg-bracket-left-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:30.04, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-bracket-left-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Footpeg Bracket RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-footpeg-bracket-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:14.21, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-bracket-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-footpeg-bracket-right.webp'
+    },
+    {name:'Surron Storm Bee OEM Footpeg LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-footpeg-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.34, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Footpeg Pin', pid:'lithiumpowersports-surron-storm-bee-oem-footpeg-pin-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-pin-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Footpeg Pin', pid:'lithiumpowersports-surron-storm-bee-oem-footpeg-pin', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-pin', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Footpeg RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-footpeg-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.34, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Footpeg RIGHT CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-footpeg-right-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:27.46, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-right-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Return Spring Footpeg LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-return-spring-footpeg-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-return-spring-footpeg-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Return Spring Footpeg RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-return-spring-footpeg-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.4, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-return-spring-footpeg-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
 ]},
   {id:'seats', name:'Seats', blurb:'Where you spend the whole ride — comfort and control.', tips:['Tall seats help taller riders; standard keeps footing easy','Gripper covers for aggressive riding, smooth for moving around'], options:[
     {name:'Stock seats', prices:[]},
@@ -12671,6 +15852,83 @@ var CATEGORIES = [
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-replacement-seat-for-surron-and-segway-x160-x260.webp'
     },
+    {name:'Surron Storm Bee OEM Decal Seat Front Support Cover LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-decal-seat-front-support-cover-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.34, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-seat-front-support-cover-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Decal Seat Front Support Cover RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-decal-seat-front-support-cover-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:10.34, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-seat-front-support-cover-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seat Front Support Cover LEFT', pid:'lithiumpowersports-surron-storm-bee-oem-seat-front-support-cover-left', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.78, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-front-support-cover-left', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seat Front Support Cover RIGHT', pid:'lithiumpowersports-surron-storm-bee-oem-seat-front-support-cover-right', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.78, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-front-support-cover-right', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seat Front Support CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-seat-front-support-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:56.53, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-front-support-cpl', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seat Front Support Stand', pid:'lithiumpowersports-surron-storm-bee-oem-seat-front-support-stand', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:35.53, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-front-support-stand', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-seat-front-support-stand.webp'
+    },
+    {name:'Surron Storm Bee OEM Seat Locking Screw M10x1.25', pid:'lithiumpowersports-surron-storm-bee-oem-seat-locking-screw-m10x1-25', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.97, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-locking-screw-m10x1-25', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seat Rear Locking Bushing', pid:'lithiumpowersports-surron-storm-bee-oem-seat-rear-locking-bushing', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-rear-locking-bushing', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-seat-rear-locking-bushing.webp'
+    },
+    {name:'Surron Storm Bee OEM Seat Standard', pid:'lithiumpowersports-surron-storm-bee-oem-seat-standard', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:93.67, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-standard', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-seat-standard.webp'
+    },
+    {name:'Surron Storm Bee OEM Seat Standard CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-seat-standard-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:145.78, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-standard-cpl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Seat Standard w/ nut', pid:'lithiumpowersports-surron-storm-bee-oem-seat-standard-w-nut', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:94.96, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-standard-w-nut', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
 ]},
   {id:'street', name:'Street', blurb:'Lights, mirrors, and signals for road-legal riding where it\'s allowed.', tips:['Legality varies wildly by state — check yours','Wiring effort ranges from plug-and-play to a full afternoon'], options:[
     {name:'Stock street', prices:[]},
@@ -12906,6 +16164,55 @@ var CATEGORIES = [
      ],
      fits:[], likely:['tuttio-soleil01'], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/wiredwhips-oem-soleil01-smart-bike-tail-light-tuttio-smart-bike-tail-light.webp'
     },
+    {name:'Surron Light\\Ultra\\Storm Bee OEM USB Cap', pid:'lithiumpowersports-surron-light-ultra-storm-bee-oem-usb-cap', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.94, url:'https://lithiumpowersports.com/products/surron-light-ultra-storm-bee-oem-usb-cap', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-light-ultra-storm-bee-oem-usb-cap.webp'
+    },
+    {name:'Surron Storm Bee OEM Head Light', pid:'lithiumpowersports-surron-storm-bee-oem-head-light', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:200.26, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-head-light.webp'
+    },
+    {name:'Surron Storm Bee OEM Head Light Cover Plate', pid:'lithiumpowersports-surron-storm-bee-oem-head-light-cover-plate', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.14, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light-cover-plate', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Head Light INST. Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-head-light-inst-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:6.46, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light-inst-bracket', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM HeadLight Cover', pid:'lithiumpowersports-surron-storm-bee-oem-headlight-cover', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:25.84, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-cover', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM HeadLight Rubber Absorber', pid:'lithiumpowersports-surron-storm-bee-oem-headlight-rubber-absorber-1', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-rubber-absorber-1', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM HeadLight Rubber Absorber', pid:'lithiumpowersports-surron-storm-bee-oem-headlight-rubber-absorber', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:0.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-rubber-absorber', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
 ]},
   {id:'swingarm', name:'Swingarm', blurb:'A longer swingarm adds straight-line stability at speed.', tips:['Axle and linkage fitment are bike-specific','A longer arm usually means a longer chain','Check tire clearance'], options:[
     {name:'Stock swingarm', prices:[]},
@@ -13137,6 +16444,55 @@ var CATEGORIES = [
       {v:'Charged Cycle Works', p:789, url:'https://chargedcycleworks.com/products/ebmx-extended-swingarm', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ebmx-extended-swingarm.webp'
+    },
+    {name:'Surron Storm Bee OEM Chain Guide', pid:'lithiumpowersports-surron-storm-bee-oem-chain-guide', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:24.23, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-guide', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-chain-guide.webp'
+    },
+    {name:'Surron Storm Bee OEM Chain Guide INST. Bracket', pid:'lithiumpowersports-surron-storm-bee-oem-chain-guide-inst-bracket', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:2.58, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-guide-inst-bracket', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Chain Slider Guide', pid:'lithiumpowersports-surron-storm-bee-oem-chain-slider-guide', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:19.38, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-slider-guide', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Storm Bee Swingarm', pid:'lithiumpowersports-surron-storm-bee-oem-storm-bee-swingarm', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:590.63, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-swingarm', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Storm Bee Swingarm CPL.', pid:'lithiumpowersports-surron-storm-bee-oem-storm-bee-swingarm-cpl', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:585.38, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-swingarm-cpl', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Swingarm Inner Cover', pid:'lithiumpowersports-surron-storm-bee-oem-swingarm-inner-cover', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:1.29, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-swingarm-inner-cover', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM Swingarm Pivot', pid:'lithiumpowersports-surron-storm-bee-oem-swingarm-pivot', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:16.15, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-swingarm-pivot', chk:'2026-11-28', stock:'in_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'in_stock', stockChk:'2026-11-28'
     },
 ]},
   {id:'tires', name:'Tires & Tubes', blurb:'Traction. The right tire for your terrain matters more than most upgrades.', tips:['Size must match your rims','Soft-terrain, intermediate, and hard-pack tires are very different','DOT-rated if you ride street'], options:[
@@ -14469,25 +17825,25 @@ var CATEGORIES = [
      prices:[
       {v:'Lithium Powersports', p:100.78, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-mc-tyre-80-100-21', chk:'2026-11-28', stock:'in_stock'},
      ],
-     fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28'
+     fits:['altis-omega','arctic-xd','rerode-rx', 'storm-bee'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28'
     },
     {name:'Surron Storm Bee OEM FRONT MC Tire 80/100-21 CPL. (80/100-21 front)', pid:'lithiumpowersports-surron-storm-bee-oem-front-mc-tyre-80-100-21-cpl', tier:'OEM',
      prices:[
       {v:'Lithium Powersports', p:127.91, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-mc-tyre-80-100-21-cpl', chk:'2026-11-28', stock:'in_stock'},
      ],
-     fits:['altis-omega','arctic-xd','rerode-rx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28'
+     fits:['altis-omega','arctic-xd','rerode-rx', 'storm-bee'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28'
     },
     {name:'Surron OEM REAR MX Tire 100/90-18 (100/90-18 rear)', pid:'lithiumpowersports-surron-storm-bee-oem-rear-mx-tyre-100-90-18', tier:'OEM',
      prices:[
       {v:'Lithium Powersports', p:104.65, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-mx-tyre-100-90-18', chk:'2026-11-28', stock:'out_of_stock'},
      ],
-     fits:['altis-omega','rerode-rx'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-rear-mx-tyre-100-90-18.webp'
+     fits:['altis-omega','rerode-rx', 'storm-bee'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/lithiumpowersports-surron-storm-bee-oem-rear-mx-tyre-100-90-18.webp'
     },
     {name:'Surron Storm Bee OEM REAR MX Tire 100/90-18 CPL. (100/90-18 rear)', pid:'lithiumpowersports-surron-storm-bee-oem-rear-mx-tyre-100-90-18-cpl', tier:'OEM',
      prices:[
       {v:'Lithium Powersports', p:132.11, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-mx-tyre-100-90-18-cpl', chk:'2026-11-28', stock:'in_stock'},
      ],
-     fits:['altis-omega','rerode-rx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28'
+     fits:['altis-omega','rerode-rx', 'storm-bee'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28'
     },
     {name:'Surron Ultra Bee OEM Front MX Tire 80/100-19', pid:'lithiumpowersports-surron-ultra-bee-oem-front-mx-tyre-80-100-19', tier:'OEM',
      prices:[
@@ -15016,6 +18372,20 @@ var CATEGORIES = [
       {v:'Wired Whips', p:24.99, url:'https://wiredwhips.com/parts/altis-powersports_omega_tube-rear-90-90-18', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:[], likely:['altis-omega'], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/wiredwhips-rear-tube-90-90-18-altis-omega.webp'
+    },
+    {name:'Surron Storm Bee OEM FRONT Tire Inner Tube 80/100-21 (E4)', pid:'lithiumpowersports-surron-storm-bee-oem-front-tyre-inner-tube-80-100-21-e4', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:21.42, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-front-tyre-inner-tube-80-100-21-e4', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
+    },
+    {name:'Surron Storm Bee OEM REAR Tire Inner Tube 100/90-18 (E4)', pid:'lithiumpowersports-surron-storm-bee-oem-rear-tyre-inner-tube-100-90-18e4', tier:'OEM',
+     prices:[
+      {v:'Lithium Powersports', p:25, url:'https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-tyre-inner-tube-100-90-18e4', chk:'2026-11-28', stock:'out_of_stock'},
+     ],
+     fits:['storm-bee'], likely:[], no:[],
+     badge:'OEM', stock:'out_of_stock', stockChk:'2026-11-28'
     },
 ]},
   {id:'titanium', name:'Titanium Hardware', blurb:'Titanium bolt kits and hardware — shed grams and add color to your build.', tips:['Match thread pitch and length to your OEM bolts before ordering','Use anti-seize — titanium galls easily','Axle, brake and motor-mount bolts are safety-critical: follow torque specs','Anodized colors vary between batches — order kits together for a match'], options:[
@@ -21572,4 +24942,496 @@ Object.assign(FITMENT, { /* Nov 16 open items follow-up (checked 2026-11-26): VT
   'tire-bridgestone-m204-ccw|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Rear: sold in 90/100-14, the exact stock rear size (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26).',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://chargedcycleworks.com/products/bridgestone-m204-90-100x16-rear-tire']},
   'tire-tusk-t35-front-ccw|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Front: sold in 70/100-17, the exact stock front size (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26).',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://chargedcycleworks.com/products/tusk-soft-intermediate-terrain-front-21-tire']},
   'tire-maxxis-mxsi|rtr-xl-alpha':{s:'confirmed_direct_fit',n:'Sold in 70/100-17 and 90/100-14 rear, both exact stock sizes (Electro & Co spec: RTR XL Alpha runs Kenda 70/100-17 front / 90/100-14 rear) (checked 2026-11-26).',u:['https://electroandcompany.com/products/etm-rtr-xl-alpha-the-biggest-the-fastest-the-strongest','https://chargedcycleworks.com/products/maxxis-maxxcross-intermediate-tire-rear-or-front','https://www.revzilla.com/motorcycle/maxxis-maxxcross-mx-si-tires']},
+});
+
+// 2026-11-28: Lithium Powersports Sur-Ron Storm Bee OEM parts (/workspace/storm-bee-sources.csv, store pages re-read Nov 28);
+// road-legal-only, ABS/ASR and OEM supermoto wheel sets left out (Storm Bee F fit not confirmed). EBMX AP_X80: verify only on all three Ultra Bee pages.
+Object.assign(FITMENT, {
+  'lithiumpowersports-surron-storm-bee-oem-front-mc-tyre-80-100-21-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as the Sur-Ron Storm Bee OEM front tire; exact stock front size for the Storm Bee F (80/100-21 front, 100/90-18 rear) (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-mc-tyre-80-100-21-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-front-mc-tyre-80-100-21|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as the Sur-Ron Storm Bee OEM front tire; exact stock front size for the Storm Bee F (80/100-21 front, 100/90-18 rear) (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-mc-tyre-80-100-21']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-mx-tyre-100-90-18-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as the Sur-Ron Storm Bee OEM rear tire; exact stock rear size for the Storm Bee F (80/100-21 front, 100/90-18 rear) (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-mx-tyre-100-90-18-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-mx-tyre-100-90-18|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as the Sur-Ron Storm Bee OEM rear tire; exact stock rear size for the Storm Bee F (80/100-21 front, 100/90-18 rear) (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-mx-tyre-100-90-18']},
+  'ebmx-ap-x80-ultrabee|ultrabee':{s:'verify',n:'Not confirmed per variant: CCW, Darwin EV, GritShift and EBMX list the AP_X80 for the "Sur-Ron Ultra Bee (2023 to current)" without naming the 24.5kW model. Needs the EBMX X-9000 controller (EBMX: will not work with the OEM controller). The OEM battery is not powerful enough; an aftermarket battery is required (EBMX: 44-50 kW on 22S, 55-60 kW on 24S, up to 70 kW on 26S). Pre-order, ships early December. Prices: CCW $1,149 pre-order; Darwin EV $1,149 is a launch price ending Nov 30, 2026, regular $1,249; GritShift $1,249 (checked Nov 28, 2026)',u:['https://chargedcycleworks.com/products/ebmx-ap-x80-motor-for-surron-ultra-bee','https://darwinev.com/products/ebmx-ap-x80-motor-surron-ultra-bee','https://gritshift.com/products/ebmx-xub-80-motor-for-surron-ultra-bee','https://ebmx.com.au/product/apx80-surron-ultra-bee-motor/']},
+  'ebmx-ap-x80-ultrabee|ultrabee-21kw':{s:'verify',n:'Not confirmed per variant: CCW, Darwin EV, GritShift and EBMX list the AP_X80 for the "Sur-Ron Ultra Bee (2023 to current)" without naming the 21kW model. Needs the EBMX X-9000 controller (EBMX: will not work with the OEM controller). The OEM battery is not powerful enough; an aftermarket battery is required (EBMX: 44-50 kW on 22S, 55-60 kW on 24S, up to 70 kW on 26S). Pre-order, ships early December. Prices: CCW $1,149 pre-order; Darwin EV $1,149 is a launch price ending Nov 30, 2026, regular $1,249; GritShift $1,249 (checked Nov 28, 2026)',u:['https://chargedcycleworks.com/products/ebmx-ap-x80-motor-for-surron-ultra-bee','https://darwinev.com/products/ebmx-ap-x80-motor-surron-ultra-bee','https://gritshift.com/products/ebmx-xub-80-motor-for-surron-ultra-bee','https://ebmx.com.au/product/apx80-surron-ultra-bee-motor/']},
+  'ebmx-ap-x80-ultrabee|ultrabee-hd':{s:'verify',n:'Not confirmed per variant: CCW, Darwin EV, GritShift and EBMX list the AP_X80 for the "Sur-Ron Ultra Bee (2023 to current)" without naming the HD model. Needs the EBMX X-9000 controller (EBMX: will not work with the OEM controller). The OEM battery is not powerful enough; an aftermarket battery is required (EBMX: 44-50 kW on 22S, 55-60 kW on 24S, up to 70 kW on 26S). Pre-order, ships early December. Prices: CCW $1,149 pre-order; Darwin EV $1,149 is a launch price ending Nov 30, 2026, regular $1,249; GritShift $1,249 (checked Nov 28, 2026)',u:['https://chargedcycleworks.com/products/ebmx-ap-x80-motor-for-surron-ultra-bee','https://darwinev.com/products/ebmx-ap-x80-motor-surron-ultra-bee','https://gritshift.com/products/ebmx-xub-80-motor-for-surron-ultra-bee','https://ebmx.com.au/product/apx80-surron-ultra-bee-motor/']},
+  'lithiumpowersports-surron-light-ultra-storm-bee-oem-usb-cap|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-light-ultra-storm-bee-oem-usb-cap']},
+  'lithiumpowersports-surron-storm-bee-oem-head-light|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light']},
+  'lithiumpowersports-surron-storm-bee-oem-head-light-cover-plate|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light-cover-plate']},
+  'lithiumpowersports-surron-storm-bee-oem-head-light-inst-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-head-light-inst-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-headlight-cover|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-cover']},
+  'lithiumpowersports-surron-storm-bee-oem-headlight-rubber-absorber-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-rubber-absorber-1']},
+  'lithiumpowersports-surron-storm-bee-oem-headlight-rubber-absorber|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-headlight-rubber-absorber']},
+  'lithiumpowersports-surron-storm-bee-oem-20a-convertor|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-20a-convertor']},
+  'lithiumpowersports-surron-storm-bee-oem-3a-convertor|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-3a-convertor']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-front-support-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-front-support-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-holder|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-holder']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-holder-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-holder-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-holder-bracket-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-holder-bracket-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-holder-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-holder-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-front-cpl-10453|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-front-cpl-10453']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-front-left-10453|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-front-left-10453']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-front-right-10453|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-front-right-10453']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-rear-bushing-10453|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-rear-bushing-10453']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-rear-cpl-10453|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-rear-cpl-10453']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-rear-left-10453|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-rear-left-10453']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-lock-bracket-rear-right-10453|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-lock-bracket-rear-right-10453']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-rear-support-plate|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-rear-support-plate']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-rubber-absorber|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-rubber-absorber']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-side-support-block|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-side-support-block']},
+  'lithiumpowersports-surron-storm-bee-oem-bee-box|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-bee-box']},
+  'lithiumpowersports-surron-storm-bee-oem-bezel-dampner|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-bezel-dampner']},
+  'lithiumpowersports-surron-storm-bee-oem-black-tie-4300|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-black-tie-4300']},
+  'lithiumpowersports-surron-storm-bee-oem-bushing-31218-d6-5|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-bushing-31218-d6-5']},
+  'lithiumpowersports-surron-storm-bee-oem-bushing-31218-d6-6|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-bushing-31218-d6-6']},
+  'lithiumpowersports-surron-storm-bee-oem-bushing-31218-d6-7|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-bushing-31218-d6-7']},
+  'lithiumpowersports-surron-storm-bee-oem-bushing-41476-d6-5|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-bushing-41476-d6-5']},
+  'lithiumpowersports-surron-storm-bee-oem-conical-spring-washer-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-conical-spring-washer-1']},
+  'lithiumpowersports-surron-storm-bee-oem-conical-spring-washer|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-conical-spring-washer']},
+  'lithiumpowersports-surron-storm-bee-oem-doubleside-stick-pad|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-doubleside-stick-pad']},
+  'lithiumpowersports-surron-storm-bee-oem-gps-buffer-foam|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-gps-buffer-foam']},
+  'lithiumpowersports-surron-storm-bee-oem-left-4-combination-control-na|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-left-4-combination-control-na']},
+  'lithiumpowersports-surron-storm-bee-oem-mcu-cover-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-mcu-cover-left']},
+  'lithiumpowersports-surron-storm-bee-oem-mcu-cover-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-mcu-cover-right']},
+  'lithiumpowersports-surron-storm-bee-oem-mcu-hose-clamp|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-mcu-hose-clamp']},
+  'lithiumpowersports-surron-storm-bee-oem-mcu-inst-bracket-front|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-mcu-inst-bracket-front']},
+  'lithiumpowersports-surron-storm-bee-oem-mcu-inst-bracket-rear|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-mcu-inst-bracket-rear']},
+  'lithiumpowersports-surron-storm-bee-oem-motor-inst-axle-front|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-inst-axle-front']},
+  'lithiumpowersports-surron-storm-bee-oem-motor-inst-axle-rear|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-inst-axle-rear']},
+  'lithiumpowersports-surron-storm-bee-oem-motor-inst-bracket-front|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-inst-bracket-front']},
+  'lithiumpowersports-surron-storm-bee-oem-motor-inst-bracket-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-inst-bracket-left']},
+  'lithiumpowersports-surron-storm-bee-oem-motor-side-cover|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-side-cover']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m10-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m10-1']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m10-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m10-2']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m10-3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m10-3']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m10|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m10']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m12-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m12-1']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m12|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m12']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2003-m16|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2003-m16']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2006-m10|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2006-m10']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2008-m8|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2008-m8']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2010-m3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2010-m3']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2012-m6|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2012-m6']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-1']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-2']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-3']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-4|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-4']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-5|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-5']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-6|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-6']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-7|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-7']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6-8|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6-8']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m6|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m6']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2015-m8|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2015-m8']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-b2019-m8|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-b2019-m8']},
+  'lithiumpowersports-surron-storm-bee-oem-nut-fb02005-m10|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-nut-fb02005-m10']},
+  'lithiumpowersports-surron-storm-bee-oem-owner-document-bag|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-owner-document-bag']},
+  'lithiumpowersports-surron-storm-bee-oem-pin-b4009-m6x14|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-pin-b4009-m6x14']},
+  'lithiumpowersports-surron-storm-bee-oem-pivot-bushing|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-pivot-bushing']},
+  'lithiumpowersports-surron-storm-bee-oem-pivot-needle-roller-bearing|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-pivot-needle-roller-bearing']},
+  'lithiumpowersports-surron-storm-bee-oem-position-pin-m6x25-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-position-pin-m6x25-1']},
+  'lithiumpowersports-surron-storm-bee-oem-position-pin-m6x25|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-position-pin-m6x25']},
+  'lithiumpowersports-surron-storm-bee-oem-rivet-r5085|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rivet-r5085']},
+  'lithiumpowersports-surron-storm-bee-oem-rivet-r6080|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rivet-r6080']},
+  'lithiumpowersports-surron-storm-bee-oem-rubber-buffer-strip-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rubber-buffer-strip-1']},
+  'lithiumpowersports-surron-storm-bee-oem-rubber-buffer-strip|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rubber-buffer-strip']},
+  'lithiumpowersports-surron-storm-bee-oem-rubber-tie-1258|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rubber-tie-1258']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1002-m6x25-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1002-m6x25-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1002-m6x25|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1002-m6x25']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1004-m8x60|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1004-m8x60']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m5x12|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m5x12']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m6x12-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m6x12-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m6x12|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m6x12']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m6x16|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m6x16']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m6x25-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m6x25-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m6x25|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m6x25']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m6x50|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m6x50']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m8x12|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m8x12']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m8x25-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m8x25-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m8x25|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m8x25']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1008-m8x40|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1008-m8x40']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b1010-m12x20|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b1010-m12x20']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m4x12-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m4x12-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m4x12-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m4x12-2']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m4x12|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m4x12']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x12-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x12-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x12-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x12-2']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x12|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x12']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x16-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x16-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x16|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x16']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x30|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x30']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m6x35|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m6x35']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x12-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x12-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x12|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x12']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x16-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x16-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x16|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x16']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x20-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x20-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x20-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x20-2']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x20-3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x20-3']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x20|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x20']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x30-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x30-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x30-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x30-2']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x30|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x30']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x35-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x35-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x35|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x35']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3001-m8x40|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3001-m8x40']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m10x45|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m10x45']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m4x8|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m4x8']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m5x10-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m5x10-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m5x10-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m5x10-2']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m5x10|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m5x10']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m5x20|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m5x20']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x16-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x16-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x16-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x16-2']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x16-3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x16-3']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x16|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x16']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x20-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x20-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x20-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x20-2']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x20-3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x20-3']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x20-4|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x20-4']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x20|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x20']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3002-m6x25|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3002-m6x25']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3003-m4x16|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3003-m4x16']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3003-m5x12|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3003-m5x12']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3003-m8x16|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3003-m8x16']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3004-m4x10|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3004-m4x10']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3006-st42x35|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3006-st42x35']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3009-st42x8|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3009-st42x8']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3010-m3x35|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3010-m3x35']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-b3011-m4x15|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-b3011-m4x15']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x10-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x10-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x10|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x10']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x12-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x12-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x12-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x12-2']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x12-3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x12-3']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x12|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x12']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x16-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x16-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x16-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x16-2']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x16-3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x16-3']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m6x16|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m6x16']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01001-m8|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01001-m8']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01010-m12x25-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01010-m12x25-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01010-m12x25|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01010-m12x25']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb01011-m8x28|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb01011-m8x28']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03-003-m4x20|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03-003-m4x20']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-10|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-10']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-11|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-11']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-12|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-12']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-2']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-3']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-4|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-4']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-5|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-5']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-6|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-6']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-7|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-7']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-8|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-8']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12-9|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12-9']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x12|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x12']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x16-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x16-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x16-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x16-2']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x16-3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x16-3']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x16|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x16']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x20-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x20-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x20|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x20']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x30|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x30']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m6x35|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m6x35']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03001-m8x20|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03001-m8x20']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-1']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-10|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-10']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-11|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-11']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-2']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-3']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-4|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-4']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-5|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-5']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-6|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-6']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-7|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-7']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-8|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-8']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13-9|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13-9']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03003-m4x13|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03003-m4x13']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-fb03010-m6x16|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-fb03010-m6x16']},
+  'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2027|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2027']},
+  'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2032|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2032']},
+  'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2635|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2635']},
+  'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2637|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2637']},
+  'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2837|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2837']},
+  'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2845-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2845-1']},
+  'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2845|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2845']},
+  'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d2858|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d2858']},
+  'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7001-d3047|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7001-d3047']},
+  'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7002-d2518|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7002-d2518']},
+  'lithiumpowersports-surron-storm-bee-oem-seal-ring-b7002-d85|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-ring-b7002-d85']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand-w-screw|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-w-screw']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand-axle|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-axle']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand-bracket-washer-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-bracket-washer-1']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand-bracket-washer-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-bracket-washer-2']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand-rubber-strap|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-rubber-strap']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand-spring-screw|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-spring-screw']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand-spring-set|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-spring-set']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand-tie-strap|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-tie-strap']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand-washer-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-washer-1']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand-washer-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-washer-2']},
+  'lithiumpowersports-surron-storm-bee-oem-split-pin-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-split-pin-1']},
+  'lithiumpowersports-surron-storm-bee-oem-split-pin|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-split-pin']},
+  'lithiumpowersports-surron-storm-bee-oem-stearing-head-gasket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-stearing-head-gasket']},
+  'lithiumpowersports-surron-storm-bee-oem-steering-head-adjust-nut|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-steering-head-adjust-nut']},
+  'lithiumpowersports-surron-storm-bee-oem-steering-head-nut|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-steering-head-nut']},
+  'lithiumpowersports-surron-storm-bee-oem-storm-bee-frame|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-frame']},
+  'lithiumpowersports-surron-storm-bee-oem-storm-bee-subframe|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-subframe']},
+  'lithiumpowersports-surron-storm-bee-oem-terminal-box-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-terminal-box-inst-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-inst-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-terminal-box-main-body|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-main-body']},
+  'lithiumpowersports-surron-storm-bee-oem-terminal-box-seal|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-seal']},
+  'lithiumpowersports-surron-storm-bee-oem-thrust-needle-roller-bearing|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-thrust-needle-roller-bearing']},
+  'lithiumpowersports-surron-storm-bee-oem-toolkit|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-toolkit']},
+  'lithiumpowersports-surron-storm-bee-oem-toolkit-bag|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-toolkit-bag']},
+  'lithiumpowersports-surron-storm-bee-oem-u-clip-nut-m5|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-u-clip-nut-m5']},
+  'lithiumpowersports-surron-storm-bee-oem-u-clip-nut-m6-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-u-clip-nut-m6-1']},
+  'lithiumpowersports-surron-storm-bee-oem-u-clip-nut-m6-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-u-clip-nut-m6-2']},
+  'lithiumpowersports-surron-storm-bee-oem-u-clip-nut-m6|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-u-clip-nut-m6']},
+  'lithiumpowersports-surron-storm-bee-oem-washer-b4001-d6-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4001-d6-1']},
+  'lithiumpowersports-surron-storm-bee-oem-washer-b4001-d6|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4001-d6']},
+  'lithiumpowersports-surron-storm-bee-oem-washer-b4001-d8-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4001-d8-1']},
+  'lithiumpowersports-surron-storm-bee-oem-washer-b4001-d8|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4001-d8']},
+  'lithiumpowersports-surron-storm-bee-oem-washer-b4003-d3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4003-d3']},
+  'lithiumpowersports-surron-storm-bee-oem-washer-b4013-d10-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4013-d10-1']},
+  'lithiumpowersports-surron-storm-bee-oem-washer-b4013-d10-2|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4013-d10-2']},
+  'lithiumpowersports-surron-storm-bee-oem-washer-b4013-d10-3|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4013-d10-3']},
+  'lithiumpowersports-surron-storm-bee-oem-washer-b4013-d10|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-washer-b4013-d10']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-discharge-plug-cap|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-discharge-plug-cap']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-power-cable|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-power-cable']},
+  'lithiumpowersports-surron-storm-bee-oem-cable-connector|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-connector']},
+  'lithiumpowersports-surron-storm-bee-oem-cable-tie-4150|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-4150']},
+  'lithiumpowersports-surron-storm-bee-oem-cable-tie-8200|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8200']},
+  'lithiumpowersports-surron-storm-bee-oem-cable-tie-8201|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8201']},
+  'lithiumpowersports-surron-storm-bee-oem-cable-tie-8202|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-cable-tie-8202']},
+  'lithiumpowersports-surron-storm-bee-oem-charging-port-cap|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-charging-port-cap']},
+  'lithiumpowersports-surron-storm-bee-oem-frame-cable-holder|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-cable-holder']},
+  'lithiumpowersports-surron-storm-bee-oem-lv-fuse-box-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lv-fuse-box-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-main-cable-clamp|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-main-cable-clamp']},
+  'lithiumpowersports-surron-storm-bee-oem-motor-encoder|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-motor-encoder']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wiring-harness|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wiring-harness']},
+  'lithiumpowersports-surron-storm-bee-oem-screw-plug|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-screw-plug']},
+  'lithiumpowersports-surron-storm-bee-oem-speed-sensor-front|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-front']},
+  'lithiumpowersports-surron-storm-bee-oem-speed-sensor-front-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-front-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-speed-sensor-rear|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-rear']},
+  'lithiumpowersports-surron-storm-bee-oem-speed-sensor-rear-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-speed-sensor-rear-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-usb-port|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-usb-port']},
+  'lithiumpowersports-surron-storm-bee-oem-usb-port-inst-cover|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-usb-port-inst-cover']},
+  'lithiumpowersports-surron-storm-bee-oem-battery-pack-104v-53ah|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-pack-104v-53ah']},
+  'lithiumpowersports-surron-storm-bee-oem-brake-lever-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-brake-lever-1']},
+  'lithiumpowersports-surron-storm-bee-oem-brake-lever|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-brake-lever']},
+  'lithiumpowersports-surron-storm-bee-oem-front-brake-caliper|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-caliper']},
+  'lithiumpowersports-surron-storm-bee-oem-front-brake-disc|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-disc']},
+  'lithiumpowersports-surron-storm-bee-oem-front-brake-hose|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-hose']},
+  'lithiumpowersports-surron-storm-bee-oem-front-brake-pad|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-pad']},
+  'lithiumpowersports-surron-storm-bee-oem-front-brake-switch|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-switch']},
+  'lithiumpowersports-surron-storm-bee-oem-front-brake-system|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-system']},
+  'lithiumpowersports-surron-storm-bee-oem-front-brake-top-clamp|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-top-clamp']},
+  'lithiumpowersports-surron-storm-bee-oem-front-brake-top-inst-washer|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-brake-top-inst-washer']},
+  'lithiumpowersports-surron-storm-bee-oem-front-caliper-inst-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-caliper-inst-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-brake-caliper|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-caliper']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-brake-cylinder|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-cylinder']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-brake-disc|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-disc']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-brake-disc-protector|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-disc-protector']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-brake-hose|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-hose']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-brake-hose-clip|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-hose-clip']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-brake-housing-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-housing-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-brake-pad|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-pad']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-brake-switch|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-switch']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-brake-system|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-brake-system']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-caliper-inst-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-caliper-inst-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-caliper-protector|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-caliper-protector']},
+  'lithiumpowersports-surron-storm-bee-oem-chain-520-114links|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-520-114links']},
+  'lithiumpowersports-surron-storm-bee-oem-chain-adjuster-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-adjuster-left']},
+  'lithiumpowersports-surron-storm-bee-oem-chain-adjuster-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-adjuster-right']},
+  'lithiumpowersports-surron-storm-bee-oem-chain-guard|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-guard']},
+  'lithiumpowersports-surron-storm-bee-oem-chain-roller-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-roller-1']},
+  'lithiumpowersports-surron-storm-bee-oem-chain-roller|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-roller']},
+  'lithiumpowersports-surron-storm-bee-oem-chain-roller-inst-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-roller-inst-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-chain-sliding-block|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-sliding-block']},
+  'lithiumpowersports-surron-storm-bee-oem-encoder-motor-reduction-gearbox-13t-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-encoder-motor-reduction-gearbox-13t-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-main-gear|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-main-gear']},
+  'lithiumpowersports-surron-storm-bee-oem-main-gear-screw|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-main-gear-screw']},
+  'lithiumpowersports-surron-storm-bee-oem-output-shaft|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-output-shaft']},
+  'lithiumpowersports-surron-storm-bee-oem-output-shaft-bearing-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-output-shaft-bearing-left']},
+  'lithiumpowersports-surron-storm-bee-oem-output-shaft-bearing-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-output-shaft-bearing-right']},
+  'lithiumpowersports-surron-storm-bee-oem-output-shaft-gear-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-output-shaft-gear-1']},
+  'lithiumpowersports-surron-storm-bee-oem-output-shaft-gear|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-output-shaft-gear']},
+  'lithiumpowersports-surron-storm-bee-oem-output-sprocket-13t|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-output-sprocket-13t']},
+  'lithiumpowersports-surron-storm-bee-oem-output-sprocket-bushing|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-output-sprocket-bushing']},
+  'lithiumpowersports-surron-storm-bee-oem-output-sprocket-cover|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-output-sprocket-cover']},
+  'lithiumpowersports-surron-storm-bee-oem-output-sprocket-cover-inst-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-output-sprocket-cover-inst-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-sprocket-52t|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-sprocket-52t']},
+  'lithiumpowersports-surron-storm-bee-oem-reduction-gearbox-cover|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-reduction-gearbox-cover']},
+  'lithiumpowersports-surron-storm-bee-oem-reduction-gearbox-logo-cap|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-reduction-gearbox-logo-cap']},
+  'lithiumpowersports-surron-storm-bee-oem-reduction-gearbox-main-body|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-reduction-gearbox-main-body']},
+  'lithiumpowersports-surron-storm-bee-oem-reduction-gearbox-position-pin|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-reduction-gearbox-position-pin']},
+  'lithiumpowersports-surron-storm-bee-oem-transition-gear-a|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-transition-gear-a']},
+  'lithiumpowersports-surron-storm-bee-oem-transition-shaft|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-transition-shaft']},
+  'lithiumpowersports-surron-storm-bee-oem-transition-shaft-bearing-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-transition-shaft-bearing-left']},
+  'lithiumpowersports-surron-storm-bee-oem-transition-shaft-bearing-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-transition-shaft-bearing-right']},
+  'lithiumpowersports-surron-storm-bee-oem-chain-guide|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-guide']},
+  'lithiumpowersports-surron-storm-bee-oem-chain-guide-inst-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-guide-inst-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-chain-slider-guide|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-chain-slider-guide']},
+  'lithiumpowersports-surron-storm-bee-oem-storm-bee-swingarm|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-swingarm']},
+  'lithiumpowersports-surron-storm-bee-oem-storm-bee-swingarm-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-swingarm-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-swingarm-inner-cover|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-swingarm-inner-cover']},
+  'lithiumpowersports-surron-storm-bee-oem-swingarm-pivot|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-swingarm-pivot']},
+  'lithiumpowersports-surron-storm-bee-oem-charging-cable|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-charging-cable']},
+  'lithiumpowersports-surron-storm-bee-oem-storm-bee-charger-us|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-charger-us']},
+  'lithiumpowersports-surron-storm-bee-oem-dashboard|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard']},
+  'lithiumpowersports-surron-storm-bee-oem-dashboard-absorber|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-absorber']},
+  'lithiumpowersports-surron-storm-bee-oem-dashboard-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-dashboard-inst-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-dashboard-inst-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-key-switch-inst-bushing|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-key-switch-inst-bushing']},
+  'lithiumpowersports-surron-storm-bee-oem-key-switch-w-sl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-key-switch-w-sl']},
+  'lithiumpowersports-surron-storm-bee-oem-ride-by-wire-throttle|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-ride-by-wire-throttle']},
+  'lithiumpowersports-surron-storm-bee-oem-side-stand-switch|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-side-stand-switch']},
+  'lithiumpowersports-surron-storm-bee-oem-tilt-switch|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-tilt-switch']},
+  'lithiumpowersports-surron-storm-bee-oem-decal-fork-protection-plate-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-fork-protection-plate-left']},
+  'lithiumpowersports-surron-storm-bee-oem-decal-fork-protection-plate-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-fork-protection-plate-right']},
+  'lithiumpowersports-surron-storm-bee-oem-fork-left-kke|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-left-kke']},
+  'lithiumpowersports-surron-storm-bee-oem-fork-left-kke-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-left-kke-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-fork-protection-plate-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-protection-plate-left']},
+  'lithiumpowersports-surron-storm-bee-oem-fork-protection-plate-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-protection-plate-right']},
+  'lithiumpowersports-surron-storm-bee-oem-fork-right-kke|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-right-kke']},
+  'lithiumpowersports-surron-storm-bee-oem-fork-right-kke-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-fork-right-kke-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-triple-clamp-bottom-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-bottom-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-triple-clamp-bottom-set|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-bottom-set']},
+  'lithiumpowersports-surron-storm-bee-oem-triple-clamp-cable-protector|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-cable-protector']},
+  'lithiumpowersports-surron-storm-bee-oem-triple-clamp-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-triple-clamp-position-block|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-position-block']},
+  'lithiumpowersports-surron-storm-bee-oem-triple-clamp-top|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triple-clamp-top']},
+  'lithiumpowersports-surron-storm-bee-oem-decal-front-shroud-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-front-shroud-left']},
+  'lithiumpowersports-surron-storm-bee-oem-decal-front-shroud-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-front-shroud-right']},
+  'lithiumpowersports-surron-storm-bee-oem-decal-number-plate|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-number-plate']},
+  'lithiumpowersports-surron-storm-bee-oem-decal-set-sbf-yellow|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-set-sbf-yellow']},
+  'lithiumpowersports-surron-storm-bee-oem-decal-subframe-cover-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-subframe-cover-left']},
+  'lithiumpowersports-surron-storm-bee-oem-decal-subframe-cover-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-subframe-cover-right']},
+  'lithiumpowersports-surron-storm-bee-oem-decal-tail-fender|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-tail-fender']},
+  'lithiumpowersports-surron-storm-bee-oem-front-cover-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-cover-left']},
+  'lithiumpowersports-surron-storm-bee-oem-front-cover-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-cover-right']},
+  'lithiumpowersports-surron-storm-bee-oem-front-fender|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-fender']},
+  'lithiumpowersports-surron-storm-bee-oem-front-fender-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-fender-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-front-number-plate|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-number-plate']},
+  'lithiumpowersports-surron-storm-bee-oem-front-number-plate-inst-bracket|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-number-plate-inst-bracket']},
+  'lithiumpowersports-surron-storm-bee-oem-front-shroud-buffer-foam|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-buffer-foam']},
+  'lithiumpowersports-surron-storm-bee-oem-front-shroud-inner-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-inner-left']},
+  'lithiumpowersports-surron-storm-bee-oem-front-shroud-inner-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-inner-right']},
+  'lithiumpowersports-surron-storm-bee-oem-front-shroud-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-left']},
+  'lithiumpowersports-surron-storm-bee-oem-front-shroud-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-shroud-right']},
+  'lithiumpowersports-surron-storm-bee-oem-gps-cover|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-gps-cover']},
+  'lithiumpowersports-surron-storm-bee-oem-ski-plate|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-ski-plate']},
+  'lithiumpowersports-surron-storm-bee-oem-subframe-cover-bracket-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-bracket-left']},
+  'lithiumpowersports-surron-storm-bee-oem-subframe-cover-bracket-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-bracket-right']},
+  'lithiumpowersports-surron-storm-bee-oem-subframe-cover-buffer-foam-ii|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-buffer-foam-ii']},
+  'lithiumpowersports-surron-storm-bee-oem-subframe-cover-inst-bushing|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-inst-bushing']},
+  'lithiumpowersports-surron-storm-bee-oem-subframe-cover-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-left']},
+  'lithiumpowersports-surron-storm-bee-oem-subframe-cover-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-subframe-cover-right']},
+  'lithiumpowersports-surron-storm-bee-oem-tail-fender|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-tail-fender']},
+  'lithiumpowersports-surron-storm-bee-oem-terminal-box-cover|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-terminal-box-cover']},
+  'lithiumpowersports-surron-storm-bee-oem-decal-seat-front-support-cover-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-seat-front-support-cover-left']},
+  'lithiumpowersports-surron-storm-bee-oem-decal-seat-front-support-cover-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-decal-seat-front-support-cover-right']},
+  'lithiumpowersports-surron-storm-bee-oem-seat-front-support-cover-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-front-support-cover-left']},
+  'lithiumpowersports-surron-storm-bee-oem-seat-front-support-cover-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-front-support-cover-right']},
+  'lithiumpowersports-surron-storm-bee-oem-seat-front-support-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-front-support-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-seat-front-support-stand|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-front-support-stand']},
+  'lithiumpowersports-surron-storm-bee-oem-seat-locking-screw-m10x1-25|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-locking-screw-m10x1-25']},
+  'lithiumpowersports-surron-storm-bee-oem-seat-rear-locking-bushing|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-rear-locking-bushing']},
+  'lithiumpowersports-surron-storm-bee-oem-seat-standard|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-standard']},
+  'lithiumpowersports-surron-storm-bee-oem-seat-standard-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-standard-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-seat-standard-w-nut|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seat-standard-w-nut']},
+  'lithiumpowersports-surron-storm-bee-oem-encoder-motor|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-encoder-motor']},
+  'lithiumpowersports-surron-storm-bee-oem-footpeg-bracket-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-bracket-left']},
+  'lithiumpowersports-surron-storm-bee-oem-footpeg-bracket-left-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-bracket-left-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-footpeg-bracket-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-bracket-right']},
+  'lithiumpowersports-surron-storm-bee-oem-footpeg-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-left']},
+  'lithiumpowersports-surron-storm-bee-oem-footpeg-pin-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-pin-1']},
+  'lithiumpowersports-surron-storm-bee-oem-footpeg-pin|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-pin']},
+  'lithiumpowersports-surron-storm-bee-oem-footpeg-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-right']},
+  'lithiumpowersports-surron-storm-bee-oem-footpeg-right-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-footpeg-right-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-return-spring-footpeg-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-return-spring-footpeg-left']},
+  'lithiumpowersports-surron-storm-bee-oem-return-spring-footpeg-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-return-spring-footpeg-right']},
+  'lithiumpowersports-surron-storm-bee-oem-frame-protector-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-protector-left']},
+  'lithiumpowersports-surron-storm-bee-oem-frame-protector-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-protector-right']},
+  'lithiumpowersports-surron-storm-bee-oem-splash-protector|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-splash-protector']},
+  'lithiumpowersports-surron-storm-bee-oem-splash-protector-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-splash-protector-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-front-tyre-inner-tube-80-100-21-e4|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-tyre-inner-tube-80-100-21-e4']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-tyre-inner-tube-100-90-18e4|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-tyre-inner-tube-100-90-18e4']},
+  'lithiumpowersports-surron-storm-bee-oem-front-wheel-21in-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-21in-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-front-wheel-21in-rim-band|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-21in-rim-band']},
+  'lithiumpowersports-surron-storm-bee-oem-front-wheel-21in-spokes-set|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-21in-spokes-set']},
+  'lithiumpowersports-surron-storm-bee-oem-front-wheel-21in-w-mc-tire|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-21in-w-mc-tire']},
+  'lithiumpowersports-surron-storm-bee-oem-front-wheel-axle|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-axle']},
+  'lithiumpowersports-surron-storm-bee-oem-front-wheel-axle-nut|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-axle-nut']},
+  'lithiumpowersports-surron-storm-bee-oem-front-wheel-bearing|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-bearing']},
+  'lithiumpowersports-surron-storm-bee-oem-front-wheel-bushing-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-bushing-left']},
+  'lithiumpowersports-surron-storm-bee-oem-front-wheel-bushing-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-bushing-right']},
+  'lithiumpowersports-surron-storm-bee-oem-front-wheel-hub|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-hub']},
+  'lithiumpowersports-surron-storm-bee-oem-front-wheel-rim-21in|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-rim-21in']},
+  'lithiumpowersports-surron-storm-bee-oem-front-wheel-set-21in-cpl-w-mc-tire|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-front-wheel-set-21in-cpl-w-mc-tire']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-18-rim-band|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-18-rim-band']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-18in-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-18in-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-18in-w-mx-tyre-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-18in-w-mx-tyre-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-axle|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-axle']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-bearing|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-bearing']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-bushing-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-bushing-left']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-bushing-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-bushing-right']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-hub|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-hub']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-nut|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-nut']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-rim-18in|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-rim-18in']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-set-18in-cpl-w-mx-tyre|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-set-18in-cpl-w-mx-tyre']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-spokes-set-191-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-spokes-set-191-right']},
+  'lithiumpowersports-surron-storm-bee-oem-rear-wheel-spokes-set-198-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rear-wheel-spokes-set-198-left']},
+  'lithiumpowersports-surron-storm-bee-oem-rim-lock-1-6in|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rim-lock-1-6in']},
+  'lithiumpowersports-surron-storm-bee-oem-rim-lock-2-15in|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-rim-lock-2-15in']},
+  'lithiumpowersports-surron-storm-bee-oem-handle-grip-left|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-left']},
+  'lithiumpowersports-surron-storm-bee-oem-handle-grip-right|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-right']},
+  'lithiumpowersports-surron-storm-bee-oem-handle-grip-set|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-handle-grip-set']},
+  'lithiumpowersports-surron-storm-bee-oem-handlebar|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar']},
+  'lithiumpowersports-surron-storm-bee-oem-handlebar-clamp-arch|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-clamp-arch']},
+  'lithiumpowersports-surron-storm-bee-oem-handlebar-clamp-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-clamp-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-handlebar-mount|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount']},
+  'lithiumpowersports-surron-storm-bee-oem-handlebar-mount-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-handlebar-mount-support|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-mount-support']},
+  'lithiumpowersports-surron-storm-bee-oem-handlebar-pad|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad']},
+  'lithiumpowersports-surron-storm-bee-oem-handlebar-pad-cover-canvas|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad-cover-canvas']},
+  'lithiumpowersports-surron-storm-bee-oem-handlebar-pad-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-handlebar-pad-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-right-handlebar-control|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-right-handlebar-control']},
+  'lithiumpowersports-surron-ultra-storm-bee-oem-throttle-w-grip|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-ultra-storm-bee-oem-throttle-w-grip']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-fan-protector|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-fan-protector']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-hose-mcu-in|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-hose-mcu-in']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-hose-mcu-out|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-hose-mcu-out']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-hose-pump-in|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-hose-pump-in']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-hose-tank-in|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-hose-tank-in']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-ladder-type-cable-tie|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-ladder-type-cable-tie']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-mcu-cooling-pad|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-mcu-cooling-pad']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-mcu-cooling-seal|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-mcu-cooling-seal']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-pump|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-pump']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-radiator|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-radiator']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-radiator-fan|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-radiator-fan']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-tank|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-tank']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-tank-cap|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-tank-cap']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-temperature-sensor|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-temperature-sensor']},
+  'lithiumpowersports-surron-storm-bee-oem-lcs-temperature-sensor-plate|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-lcs-temperature-sensor-plate']},
+  'lithiumpowersports-surron-storm-bee-oem-liquid-cooling-systemlcs-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-liquid-cooling-systemlcs-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-radiator-cap|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-radiator-cap']},
+  'lithiumpowersports-surron-storm-bee-oem-link-rod|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-link-rod']},
+  'lithiumpowersports-surron-storm-bee-oem-link-rod-axle|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-link-rod-axle']},
+  'lithiumpowersports-surron-storm-bee-oem-link-rod-bushing|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-link-rod-bushing']},
+  'lithiumpowersports-surron-storm-bee-oem-link-rod-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-link-rod-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-seal-triangular-centilever|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-seal-triangular-centilever']},
+  'lithiumpowersports-surron-storm-bee-oem-triangular-centilever|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever']},
+  'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-axle-bottom|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-axle-bottom']},
+  'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-axle-top|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-axle-top']},
+  'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-bearing-a-1|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-bearing-a-1']},
+  'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-bearing-a|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-bearing-a']},
+  'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-bearing-b|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-bearing-b']},
+  'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-bushing-a|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-bushing-a']},
+  'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-bushing-b|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-bushing-b']},
+  'lithiumpowersports-surron-storm-bee-oem-triangular-centilever-cpl|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-triangular-centilever-cpl']},
+  'lithiumpowersports-surron-storm-bee-oem-shock-absorber-kke|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-absorber-kke']},
+  'lithiumpowersports-surron-storm-bee-oem-shock-axle-bottom|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-axle-bottom']},
+  'lithiumpowersports-surron-storm-bee-oem-shock-axle-top|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-shock-axle-top']},
+  'lithiumpowersports-surron-storm-bee-oem-storm-bee-encoder-mcu|storm-bee':{s:'confirmed_direct_fit',n:'Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)',u:['https://lithiumpowersports.com/products/surron-storm-bee-oem-storm-bee-encoder-mcu']},
 });

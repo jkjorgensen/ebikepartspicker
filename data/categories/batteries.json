@@ -1062,6 +1062,16 @@
                 "https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah"
           ],
           "notes": "Part touches a system Sur-Ron changed MY25\u2192MY26 (motor/MCU/battery/charge port/footpeg mount/linkage triangle/pulley); no variant named. (checked Nov 11, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-battery-pack-104v-53ah",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-pack-104v-53ah"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
     }
   ],
   "products": [
@@ -2709,6 +2719,30 @@
                       "buy_url": "https://wiredwhips.com/parts/tuttio_soleil01_battery-securing-clamp"
                 }
           ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-battery-pack-104v-53ah",
+      "name": "Surron Storm Bee OEM Battery Pack (104V 53AH)",
+      "brand": "Sur-Ron",
+      "category": "batteries",
+      "price_usd": 3549.0,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-pack-104v-53ah",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-pack-104v-53ah"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 3549.0,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-battery-pack-104v-53ah"
+        }
+      ]
     }
   ]
 }

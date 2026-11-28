@@ -32,7 +32,12 @@
     var notify = document.querySelector('.notify');
     var stats = [].slice.call(document.querySelectorAll('.stats .stat'));
     var nums = ['statBikes', 'statParts', 'statCats'].map(function (id) { return document.getElementById(id); });
-    var targets = null, statsLive = false;
+    var targets = null, statsLive = false, moDone = false;
+    /* motion.js adds html.mo-on when its GSAP story runs. Then it owns the hero glow/floor, the
+       Popular title words and the card reveals, so polish.js skips those branches (Nov 28 audit P1:
+       one owner per element, no per-frame layout reads fighting motion.js). Progress bar, stats,
+       volt band and notify stay here. */
+    var moOn = function () { return root.classList.contains('mo-on'); };
 
     function enable() {
       if (on || reduced()) return;
@@ -63,7 +68,8 @@
       /* hero accent sweep */
       root.style.setProperty('--sweep', (C(y / 260) * 100).toFixed(1) + '%');
       /* pinned hero: bike stays still; layered parallax on glow/floor only */
-      if (heroPin && hero) {
+      var mo = moOn();
+      if (heroPin && hero && !mo) {
         var r = heroPin.getBoundingClientRect(), span = Math.max(1, r.height - stage.offsetHeight);
         var p = C(-(r.top - parseFloat(getComputedStyle(stage).top)) / span), q = C((vh - r.top) / vh);
         if (glow) glow.style.transform = 'translate3d(' + ((p - 0.5) * -60).toFixed(1) + 'px,' + (p * 70).toFixed(1) + 'px,0) scale(' + (1 + p * 0.4).toFixed(3) + ')';
@@ -76,11 +82,20 @@
         nums.forEach(function (el, i) { if (el) el.textContent = sp >= 1 ? targets[i] : Math.round(targets[i] * ease(sp)); });
       }
       /* popular: pinned title (CSS sticky), words reveal, cards stagger */
+      if (mo) {
+        /* hand-off: park the CSS vars at fully shown once, so motion.js's inline styles fall back to visible */
+        if (!moDone) {
+          moDone = true;
+          if (popTitle) [].forEach.call(popTitle.querySelectorAll('.w'), function (w) { w.style.setProperty('--o', '1'); });
+          if (grid) [].forEach.call(grid.children, function (c) { c.style.setProperty('--o', '1'); });
+        }
+      } else {
       if (popTitle) words(popTitle, prog(popTitle, 0.95, 0.6));
       if (grid) {
         var cards = grid.children, cols = window.innerWidth < 700 ? 2 : 4;
         for (var k = 0; k < cards.length; k++)
           cards[k].style.setProperty('--o', ease(C(prog(cards[k], 1.02, 0.62) * 1.25 - (k % cols) * 0.12)).toFixed(3));
+      }
       }
       /* volt band: pinned, wipes open, then words reveal line by line */
       if (voltPin && volt) {
@@ -99,7 +114,9 @@
     if (mq && mq.addEventListener) mq.addEventListener('change', function () { reduced() ? disable() : enable(); req(); });
     window.addEventListener('scroll', req, { passive: true });
     window.addEventListener('resize', function () { vh = window.innerHeight; req(); }, { passive: true });
-    if (grid && 'MutationObserver' in window) new MutationObserver(req).observe(grid, { childList: true });
+    if (grid && 'MutationObserver' in window) new MutationObserver(function () { moDone = false; req(); }).observe(grid, { childList: true });
+    /* re-run once when motion.js toggles html.mo-on so the hand-off happens without waiting for a scroll */
+    if ('MutationObserver' in window) new MutationObserver(function () { moDone = false; req(); }).observe(root, { attributes: true, attributeFilter: ['class'] });
     frame();
   } catch (err) { document.documentElement.classList.remove('m-on'); }
 })();

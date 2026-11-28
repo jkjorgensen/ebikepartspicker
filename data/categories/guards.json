@@ -1925,6 +1925,103 @@
         }
       ],
       "image": "img/parts/chargedcycleworks-heavy-hitter-surron-v2-skid-plate.webp"
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-frame-protector-left",
+      "name": "Surron Storm Bee OEM Frame Protector LEFT",
+      "brand": "Sur-Ron",
+      "category": "guards",
+      "price_usd": 10.66,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-protector-left",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-protector-left"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 10.66,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-protector-left"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-frame-protector-right",
+      "name": "Surron Storm Bee OEM Frame Protector RIGHT",
+      "brand": "Sur-Ron",
+      "category": "guards",
+      "price_usd": 10.66,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-protector-right",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-protector-right"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 10.66,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-protector-right"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-splash-protector-cpl",
+      "name": "Surron Storm Bee OEM Splash Protector CPL.",
+      "brand": "Sur-Ron",
+      "category": "guards",
+      "price_usd": 21.42,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-splash-protector-cpl",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "out_of_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-splash-protector-cpl"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 21.42,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-splash-protector-cpl"
+        }
+      ]
+    },
+    {
+      "id": "lithiumpowersports-surron-storm-bee-oem-splash-protector",
+      "name": "Surron Storm Bee OEM Splash Protector",
+      "brand": "Sur-Ron",
+      "category": "guards",
+      "price_usd": 21.96,
+      "vendor": "Lithium Powersports",
+      "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-splash-protector",
+      "tier": "OEM",
+      "is_upgrade": false,
+      "stock_status": "in_stock",
+      "notes": "Added Nov 28, 2026 from the Lithium Powersports Storm Bee OEM parts source (/workspace/storm-bee-sources.csv)",
+      "source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-splash-protector"
+      ],
+      "last_checked": "2026-11-28",
+      "vendors": [
+        {
+          "vendor": "Lithium Powersports",
+          "price_usd": 21.96,
+          "buy_url": "https://lithiumpowersports.com/products/surron-storm-bee-oem-splash-protector"
+        }
+      ],
+      "image": "img/parts/lithiumpowersports-surron-storm-bee-oem-splash-protector.webp"
     }
   ],
   "compatibility": [
@@ -3055,6 +3152,46 @@
         "https://chargedcycleworks.com/products/heavy-hitter-surron-v2-skid-plate"
       ],
       "notes": "CCW fitment text names the exact model (CCW/seller fitment research, checked Nov 22, 2026). Live URL https://chargedcycleworks.com/products/heavy-hitter-surron-v2-skid-plate"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-frame-protector-left",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-protector-left"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-frame-protector-right",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-frame-protector-right"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-splash-protector-cpl",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-splash-protector-cpl"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
+    },
+    {
+      "product_id": "lithiumpowersports-surron-storm-bee-oem-splash-protector",
+      "bike_id": "storm-bee",
+      "status": "confirmed_direct_fit",
+      "required_adapters": [],
+      "fitment_source_urls": [
+        "https://lithiumpowersports.com/products/surron-storm-bee-oem-splash-protector"
+      ],
+      "notes": "Lithium Powersports lists it as a Sur-Ron Storm Bee OEM part: the product title names the Storm Bee (checked Nov 28, 2026)"
     }
   ]
 }
