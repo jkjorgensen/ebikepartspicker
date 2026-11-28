@@ -19,14 +19,23 @@ Usage (from the repo root, or with this path):
 
   python3 tools/stock_check.py --apply
       Same check, then surgically update data.js stock / stockChk and
-      per-offer stock fields. Does not change fitment, prices, or
-      protected files (track.js, forms.js, Google verification). After
+      per-offer stock fields, and offer prices where the store's own
+      product JSON gives one unambiguous price for that link (a ?variant=
+      id in the URL, or every variant at one price). A drop of at least
+      $1 and 2% from the previously checked price also writes
+      was:<old>, wasChk:'<old chk>' on the offer, which the site shows as
+      a "Price dropped" badge for 14 days. Use --no-prices to skip prices.
+      Never changes fitment or protected files (track.js, forms.js,
+      Google verification). After
       --apply, regenerate static pages:
 
         python3 scripts/dump_snapshot.py \\
           && python3 scripts/seo_extract.py /tmp/seo.json \\
           && python3 scripts/build_seo.py /tmp/seo.json \\
           && python3 scripts/build_upgrades_vs.py
+
+  python3 tools/stock_check.py --apply-prices
+      Prices only (no stock flag changes).
 
   python3 tools/stock_check.py --pids ebmx-xlb-60,ventus-ryuga-81kw
   python3 tools/stock_check.py --hosts gritshift.com
@@ -49,7 +58,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from html import unescape
 from typing import Optional
-from urllib.parse import urlparse, urlunparse
+from urllib.parse import urlparse, urlunparse, parse_qs
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_JS = os.path.join(ROOT, "data.js")
@@ -116,6 +125,39 @@ OUT_STOCK_TOKENS = (
 )
 
 
+# Store prices seen during the check (Nov 28 price-drop badges). Keyed by
+# (host without www., handle) -> {variant_id: price in dollars}. Only used to
+# record an observed price when it is unambiguous (see observed_price()).
+CATALOG_PRICES: dict = {}
+
+
+def _num(v):
+    try:
+        f = float(v)
+    except (TypeError, ValueError):
+        return None
+    return f if f > 0 else None
+
+
+def observed_price(url: str, variants: dict) -> Optional[float]:
+    """Price for this offer URL from a Shopify variant map, or None when it is
+    ambiguous. A ?variant= id in the URL picks that variant; otherwise every
+    variant must share one price. Never guesses between sizes or options."""
+    if not variants:
+        return None
+    try:
+        q = parse_qs(urlparse(url).query)
+    except Exception:
+        q = {}
+    vid = (q.get("variant") or [None])[0]
+    if vid and str(vid) in variants:
+        return variants[str(vid)]
+    prices = {v for v in variants.values() if v is not None}
+    if len(prices) == 1 and len([v for v in variants.values() if v is None]) == 0:
+        return prices.pop()
+    return None
+
+
 def shopify_catalog(host, delay=0.25):
     """Fetch /products.json pages for a Shopify host. Returns {handle: available}."""
     host = host.lower()
@@ -148,6 +190,11 @@ def shopify_catalog(host, delay=0.25):
                 avail = bool(p["available"]) or avail
             if handle:
                 out[handle] = avail
+                CATALOG_PRICES[(host, handle)] = {
+                    str(v.get("id")): _num(v.get("price"))
+                    for v in variants
+                    if isinstance(v, dict) and v.get("id") is not None
+                }
         page += 1
     return out
 
@@ -239,6 +286,28 @@ def parse_shopify_js(body: str) -> Optional[bool]:
     return None
 
 
+def shopify_js_variants(body: str) -> dict:
+    """{variant_id: price in dollars} from a Shopify /products/handle.js body
+    (prices there are integer cents). Empty dict when not parseable."""
+    try:
+        data = json.loads(body)
+    except Exception:
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    if "product" in data and isinstance(data["product"], dict):
+        data = data["product"]
+    out = {}
+    for v in data.get("variants") or []:
+        if not isinstance(v, dict) or v.get("id") is None:
+            continue
+        pr = v.get("price")
+        if isinstance(pr, int):
+            pr = pr / 100.0
+        out[str(v["id"])] = _num(pr)
+    return out
+
+
 def parse_jsonld(html: str) -> Optional[bool]:
     flags = []
     for m in re.finditer(
@@ -301,6 +370,7 @@ def check_url(url: str, delay: float) -> dict:
         "available": None,
         "error": None,
         "http": None,
+        "observed_price": None,
     }
     if not url or not url.startswith("http"):
         result["error"] = "no-url"
@@ -318,6 +388,7 @@ def check_url(url: str, delay: float) -> dict:
                 avail = parse_shopify_js(body)
                 if avail is not None:
                     result["available"] = avail
+                    result["observed_price"] = observed_price(url, shopify_js_variants(body))
                     return result
             # 404 .js does not prove OOS; fall through to HTML
         except Exception as e:
@@ -516,6 +587,70 @@ def apply_updates(text: str, updates: list[dict]) -> tuple[str, int]:
     return text, changed
 
 
+# A drop only earns the "Price dropped" badge (was/wasChk) when it is at least
+# this big. Smaller moves still update p/chk so the listed price stays true.
+DROP_MIN_USD = 1.0
+DROP_MIN_PCT = 0.02
+
+
+def price_changes(updates: list[dict]) -> list[dict]:
+    """Offers whose unambiguous observed store price differs from the listed p."""
+    out = []
+    seen = set()
+    for u in updates:
+        for c in u.get("checks") or []:
+            obs, old, url = c.get("observed_price"), c.get("listed_price"), c.get("url") or ""
+            if obs is None or not isinstance(old, (int, float)) or not url:
+                continue
+            if abs(obs - old) < 0.005:
+                continue
+            key = (u["pid"], url)
+            if key in seen:
+                continue
+            seen.add(key)
+            drop = (old - obs) >= max(DROP_MIN_USD, DROP_MIN_PCT * old)
+            out.append({"pid": u["pid"], "name": u.get("name"), "vendor": c.get("vendor"), "url": url,
+                        "old": old, "old_chk": c.get("listed_chk") or "", "new": round(obs, 2),
+                        "badge": bool(drop and c.get("listed_chk"))})
+    return out
+
+
+def _fmt_price(v: float) -> str:
+    v = round(float(v), 2)
+    return str(int(v)) if v.is_integer() else ("%.2f" % v).rstrip("0").rstrip(".")
+
+
+def apply_prices(text: str, changes: list[dict]) -> tuple[str, int]:
+    """Rewrite p (and chk) on matching offers. Drops with a previously checked
+    price get was:<old>, wasChk:'<old chk>' (the badge data); any other change
+    clears an older was/wasChk on that offer."""
+    n = 0
+    for ch in changes:
+        hits = list(iter_pid_hits(text, ch["pid"]))
+        for h in reversed(hits):
+            sp = object_span(text, h)
+            if not sp:
+                continue
+            start, end = sp
+            obj = text[start:end]
+            pat = re.compile(r"\{v:'((?:[^'\\]|\\.)*)', ?p:" + re.escape(_fmt_price(ch["old"])) + r"(?:\.0+)?, ?url:'" + re.escape(ch["url"]) + r"'([^{}]*)\}")
+            def repl(m, ch=ch):
+                rest = m.group(2)
+                rest = re.sub(r",\s*was:\s*[0-9.]+", "", rest)
+                rest = re.sub(r",\s*wasChk:\s*'[^']*'", "", rest)
+                if re.search(r"chk:\s*'[^']*'", rest):
+                    rest = re.sub(r"chk:\s*'[^']*'", f"chk:'{TODAY}'", rest, count=1)
+                else:
+                    rest = f", chk:'{TODAY}'" + rest
+                extra = f", was:{_fmt_price(ch['old'])}, wasChk:'{ch['old_chk']}'" if ch["badge"] else ""
+                return "{v:'" + m.group(1) + "', p:" + _fmt_price(ch["new"]) + ", url:'" + ch["url"] + "'" + rest + extra + "}"
+            obj2, k = pat.subn(repl, obj)
+            if k:
+                text = text[:start] + obj2 + text[end:]
+                n += k
+    return text, n
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--apply", action="store_true", help="Update data.js stock flags")
@@ -524,6 +659,10 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0, help="Max parts to check (0 = all)")
     ap.add_argument("--workers", type=int, default=6, help="Parallel fetches")
     ap.add_argument("--delay", type=float, default=0.12, help="Per-request delay in each worker (seconds)")
+    ap.add_argument("--apply-prices", action="store_true",
+                    help="Only update offer prices (not stock) from unambiguous store prices seen in this check")
+    ap.add_argument("--no-prices", action="store_true",
+                    help="With --apply, update stock flags only and leave prices alone")
     ap.add_argument("--hosts", default="", help="Comma-separated URL host filter, e.g. gritshift.com (default: all stores)")
     args = ap.parse_args()
 
@@ -604,6 +743,7 @@ def main() -> int:
                     "available": bool(cat[handle]),
                     "error": None,
                     "http": 200,
+                    "observed_price": observed_price(u, CATALOG_PRICES.get((h, handle)) or {}),
                 }
             else:
                 remaining.append(u)
@@ -655,6 +795,7 @@ def main() -> int:
             r["vendor"] = pr.get("v")
             r["listed_price"] = pr.get("p")
             r["listed_offer_stock"] = pr.get("stock") or ""
+            r["listed_chk"] = pr.get("chk") or ""
             checks.append(r)
         new_stock, reason = propose_part_stock(checks)
         current = p.get("stock") or ""
@@ -697,7 +838,10 @@ def main() -> int:
             mismatches.append(rec)
         updates.append(rec)
 
-    report = {"summary": summary, "mismatches": mismatches, "updates": updates}
+    changes = price_changes(updates)
+    summary["price_changes"] = len(changes)
+    summary["price_drops_badged"] = sum(1 for c in changes if c["badge"])
+    report = {"summary": summary, "mismatches": mismatches, "price_changes": changes, "updates": updates}
     os.makedirs(os.path.dirname(os.path.abspath(args.report)) or ".", exist_ok=True)
     with open(args.report, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2)
@@ -729,6 +873,13 @@ def main() -> int:
             log("apply: no text changes")
     else:
         log("dry run (no data.js changes). Re-run with --apply to update stock flags.")
+    log(f"price changes seen: {len(changes)} ({summary['price_drops_badged']} badge-worthy drops)")
+    if (args.apply or args.apply_prices) and not args.no_prices and changes:
+        text = open(DATA_JS, encoding="utf-8").read()
+        new_text, n = apply_prices(text, changes)
+        if new_text != text:
+            open(DATA_JS, "w", encoding="utf-8").write(new_text)
+            log(f"applied {n} price updates in data.js. Rebuild SEO pages before deploying.")
     return 0
 
 

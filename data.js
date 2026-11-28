@@ -148,7 +148,7 @@ var CATEGORIES = [
       {v:'Electric Cycle Rider', p:999.89, url:'https://parts.electriccyclerider.com/products/ebmx-xlb-60-core-motor-kit', chk:'2026-11-28', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
      
-      {v:'GritShift', p:999.89, url:'https://gritshift.com/products/ebmx-sur-ron-lbx-xlb-60-core-motor-upgrade', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:949.9, url:'https://gritshift.com/products/ebmx-sur-ron-lbx-xlb-60-core-motor-upgrade', chk:'2026-11-28', stock:'in_stock', was:999.89, wasChk:'2026-11-13'},
      ],
      fits:['lightbee','ss20','ss30','sr'], likely:['ss40','arctic-xd','bonnell-805rx','storm-bee','ultrabee','komodo','mx5','mx4','ventus-plus','ventus-evo'], no:[],
      badge:'XLB-60', motorKw:41, motorPeakKw:50, stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/ebmx-xlb-60.webp'
@@ -165,12 +165,12 @@ var CATEGORIES = [
     },
     {name:'EBMX XTA-60 Talaria Motor', pid:'ebmx-xta-60', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:999, url:'https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:861.75, url:'https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-kit', chk:'2026-11-28', stock:'in_stock', was:999, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
       {v:'TB Electric Moto', p:1034.1, url:'https://tbelectricmoto.com/products/ebmx-xta-60-upgraded-talaria-motor', chk:'2026-11-28', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      
-      {v:'GritShift', p:999.99, url:'https://gritshift.com/products/ebmx-talaria-sting-mx4-xlb-60-core-motor-upgrade', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:949.99, url:'https://gritshift.com/products/ebmx-talaria-sting-mx4-xlb-60-core-motor-upgrade', chk:'2026-11-28', stock:'in_stock', was:999.99, wasChk:'2026-11-13'},
      ],
      fits:['mx4','mx5'], likely:['lightbee','ultrabee','storm-bee','ventus-plus','ventus-evo','ss20','ss30','sr','komodo','bonnell-805rx','arctic-xd'], no:['ss40'],
      badge:'XTA-60', motorKw:40, motorPeakKw:40, stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/ebmx-xta-60.webp'
@@ -226,7 +226,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:915, url:'https://chargedcycleworks.com/products/torp-tm25-motor', chk:'2026-11-28', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'Darwin EV', p:950, url:'https://darwinev.com/products/torp-motor-tm25-sur-ron-light-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Darwin EV', p:754, url:'https://darwinev.com/products/torp-motor-tm25-sur-ron-light-bee', chk:'2026-11-28', stock:'in_stock', was:950, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ss30","ss40","sr","ss20","storm-bee","ultrabee","komodo","mx5","mx4","ventus-plus","ventus-evo"], no:[],
@@ -287,7 +287,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:1249, url:'https://chargedcycleworks.com/products/ebmx-xlb-60-race-motor-kit-air-cooled', chk:'2026-11-28', stock:'in_stock'},
      
-      {v:'GritShift', p:1249.89, url:'https://gritshift.com/products/ebmx-xlb-60race-motor-upgrade', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:1187.4, url:'https://gritshift.com/products/ebmx-xlb-60race-motor-upgrade', chk:'2026-11-28', stock:'in_stock', was:1249.89, wasChk:'2026-11-13'},
      ],
      fits:['sr','ss30'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ebmx-xlb-60-race-motor-kit-air-cooled.webp'
@@ -301,7 +301,7 @@ var CATEGORIES = [
     },
     {name:'EBMX XTA-60 Talaria Motor - Open Box', pid:'chargedcycleworks-ebmx-xta-60-talaria-motor-open-box', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:949, url:'https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-open-box', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:861.75, url:'https://chargedcycleworks.com/products/ebmx-xta-60-talaria-motor-open-box', chk:'2026-11-28', stock:'in_stock', was:949, wasChk:'2026-11-10'},
      ],
      fits:['mx5'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ebmx-xta-60-talaria-motor-open-box.webp'
@@ -385,7 +385,7 @@ var CATEGORIES = [
     },
     {name:'EBMX X9000 V2 Race Harness For QS138', pid:'gritshift-ebmx-x-9000-qs138-race-harness', tier:'midrange',
      prices:[
-      {v:'GritShift', p:96.99, url:'https://gritshift.com/products/ebmx-x-9000-qs138-race-harness', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:92.14, url:'https://gritshift.com/products/ebmx-x-9000-qs138-race-harness', chk:'2026-11-28', stock:'in_stock', was:96.99, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-ebmx-x-9000-qs138-race-harness.webp'
@@ -406,7 +406,7 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter QS165 60h V3 Billet Gear Box Cover', pid:'gritshift-heavy-hitter-qs165-60h-v3-billet-gear-box-cover', tier:'midrange',
      prices:[
-      {v:'GritShift', p:172.89, url:'https://gritshift.com/products/heavy-hitter-qs165-60h-v3-billet-gear-box-cover', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:98.99, url:'https://gritshift.com/products/heavy-hitter-qs165-60h-v3-billet-gear-box-cover', chk:'2026-11-28', stock:'in_stock', was:172.89, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-heavy-hitter-qs165-60h-v3-billet-gear-box-cover.webp'
     },
@@ -424,7 +424,7 @@ var CATEGORIES = [
     },
     {name:'EBMX X-9000 V3 Race Harness For QS138 Motor', pid:'gritshift-x-9000-race-harness-for-qs138', tier:'midrange',
      prices:[
-      {v:'GritShift', p:139.89, url:'https://gritshift.com/products/x-9000-race-harness-for-qs138', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:132.9, url:'https://gritshift.com/products/x-9000-race-harness-for-qs138', chk:'2026-11-28', stock:'in_stock', was:139.89, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-x-9000-race-harness-for-qs138.webp'
@@ -523,7 +523,7 @@ var CATEGORIES = [
     {name:'Stock controller', prices:[]},
     {name:'EBMX X-9000 V3', pid:'ebmx-x-9000-v3', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:1164, url:'https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=51161676349656', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:989.4, url:'https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=51161676349656', chk:'2026-11-28', stock:'in_stock', was:1164, wasChk:'2026-11-10'},
       /* AFFILIATE: replace with affiliate link */
       {v:'REV Rides', p:1164, url:'https://revrides.com/products/ebmx-x-9000-v3-controller', chk:'2026-11-28', stock:'out_of_stock'},
       /* AFFILIATE: replace with affiliate link */
@@ -545,7 +545,7 @@ var CATEGORIES = [
      prices:[
       {v:'TORP Motors', p:1295, url:'https://www.torpmotors.com/shop/tc1000-2x-controller-kit-for-surron-light-bee/', chk:'2026-11-28', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'Darwin EV', p:1295, url:'https://darwinev.com/products/torp-tc1000-2-controller-sur-ron-light-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Darwin EV', p:1054, url:'https://darwinev.com/products/torp-tc1000-2-controller-sur-ron-light-bee', chk:'2026-11-28', stock:'in_stock', was:1295, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['lightbee','mx4','mx5'], likely:['arctic-xd','bonnell-805rx','ss30','sr','ss20','komodo','ventus-plus','ventus-evo'], no:['ss40'],
@@ -643,7 +643,7 @@ var CATEGORIES = [
     },
     {name:'EBMX X-9000 V3 Controller Kit with Talaria MX3/MX4/MX5 Harness', pid:'ebmx-x9000-v3-kit-talaria', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:1199, url:'https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=50927732457688', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:1019.15, url:'https://chargedcycleworks.com/products/ebmx-x-9000-v3-kit?variant=50927732457688', chk:'2026-11-28', stock:'in_stock', was:1199, wasChk:'2026-10-18'},
       {v:'REV Rides', p:1199, url:'https://revrides.com/products/ebmx-x-9000-v3-controller-full-kit-sur-ron-talaria-e-ride-pro-altis-sigma?variant=50076992831778', chk:'2026-11-16', stock:'out_of_stock'},
      ],
      fits:["mx4","mx5"], likely:[], no:[],
@@ -730,28 +730,28 @@ var CATEGORIES = [
     },
     {name:'EBMX X-9000 Controller Thumb Throttle', pid:'gritshift-ebmx-x-9000-controller-thumb-throttle', tier:'budget',
      prices:[
-      {v:'GritShift', p:34.99, url:'https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:33.24, url:'https://gritshift.com/products/ebmx-x-9000-controller-thumb-throttle', chk:'2026-11-28', stock:'in_stock', was:34.99, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-ebmx-x-9000-controller-thumb-throttle.webp'
     },
     {name:'EBMX X-9000 V2 Controller SW102 Display for E-Motos', pid:'gritshift-ebmx-x-9000-v2-controller-sw102-display-e-moto', tier:'midrange',
      prices:[
-      {v:'GritShift', p:84.99, url:'https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:80.74, url:'https://gritshift.com/products/ebmx-x-9000-v2-controller-sw102-display-e-moto', chk:'2026-11-28', stock:'in_stock', was:84.99, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-ebmx-x-9000-v2-controller-sw102-display-e-moto.webp'
     },
     {name:'EBMX X-9000 V3 Controller 2-1 Harness', pid:'gritshift-ebmx-x-9000-v3-controller-2-1-harness', tier:'budget',
      prices:[
-      {v:'GritShift', p:39.99, url:'https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:37.99, url:'https://gritshift.com/products/ebmx-x-9000-v3-controller-2-1-harness', chk:'2026-11-28', stock:'in_stock', was:39.99, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-ebmx-x-9000-v3-controller-2-1-harness.webp'
     },
     {name:'EBMX X9000 V3 Base Controller', pid:'gritshift-ebmx-x9000-v3-base-controller', tier:'premium',
      prices:[
-      {v:'GritShift', p:1099.99, url:'https://gritshift.com/products/ebmx-x9000-v3-base-controller', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:1105.8, url:'https://gritshift.com/products/ebmx-x9000-v3-base-controller', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-ebmx-x9000-v3-base-controller.webp'
@@ -938,7 +938,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:899, url:'https://chargedcycleworks.com/products/rfloxa-hawk31-pro', chk:'2026-11-28', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'RFLOXA', p:863, url:'https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload', chk:'2026-11-28', stock:'in_stock'},
+      {v:'RFLOXA', p:899, url:'https://www.rflo-xa.com/products/rfloxa-hawk31pro-fcg31rvppro-228mm-travel-front-fork-for-surron-talaria-sting-light-bee-eridepross-spring-preload', chk:'2026-11-28', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['lightbee','mx4','ss20','ventus-plus', 'segway-x260', 'talaria-xxx'], likely:['rawrr-mantis-x'], no:[],
@@ -1203,21 +1203,21 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Fork Mud Guard Protector Set', pid:'chargedcycleworks-ub-l-front-fork-protector-cpl', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:54.99, url:'https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:41.24, url:'https://chargedcycleworks.com/products/ub-l-front-fork-protector-cpl', chk:'2026-11-28', stock:'in_stock', was:54.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ub-l-front-fork-protector-cpl.webp'
     },
     {name:'Surron Ultra Bee - OEM Fork Seal Replacement Kit', pid:'chargedcycleworks-ultra-bee-oem-seal-replacement-kit', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:49, url:'https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:36.75, url:'https://chargedcycleworks.com/products/ultra-bee-oem-seal-replacement-kit', chk:'2026-11-28', stock:'out_of_stock', was:49, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-oem-seal-replacement-kit.webp'
     },
     {name:'Surron Ultra Bee – Rear Fork Collision Block | OEM', pid:'chargedcycleworks-surron-ultra-bee-rear-fork-collision-block-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:20.9, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:15.68, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-fork-collision-block-oem', chk:'2026-11-28', stock:'in_stock', was:20.9, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-rear-fork-collision-block-oem.webp'
@@ -1683,7 +1683,7 @@ var CATEGORIES = [
     },
     {name:'OEM KKE Rear Shock (white spring)', pid:'oem-kke-white', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:278, url:'https://chargedcycleworks.com/products/light-bee-kke-rear-shock-absorber-white-spring', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:208.5, url:'https://chargedcycleworks.com/products/light-bee-kke-rear-shock-absorber-white-spring', chk:'2026-11-28', stock:'out_of_stock', was:278, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:[], no:[],
@@ -1691,7 +1691,7 @@ var CATEGORIES = [
     },
     {name:'DNM Rear Shock 250x70', pid:'dnm-250x70', tier:'budget',
      prices:[
-      {v:'GoldenMotor.bike', p:299.99, url:'https://goldenmotor.bike/collections/oem-talaria-sting-mx4-suspension/products/rear-shock-dnm-250x70mm-talaria-sting-mx3-mx4-sur-ron-segway-shorter', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GoldenMotor.bike', p:269.99, url:'https://goldenmotor.bike/collections/oem-talaria-sting-mx4-suspension/products/rear-shock-dnm-250x70mm-talaria-sting-mx3-mx4-sur-ron-segway-shorter', chk:'2026-11-28', stock:'in_stock', was:299.99, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["mx4"], likely:["mx5","lightbee"], no:[],
@@ -1699,7 +1699,7 @@ var CATEGORIES = [
     },
     {name:'TECH ER30 Rear Shock (283x80)', pid:'tech-er30-283', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:979, url:'https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:799, url:'https://chargedcycleworks.com/products/tech-rear-shock-for-surron-light-bee', chk:'2026-11-28', stock:'in_stock', was:979, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['lightbee','sr','ss20','ss30','ventus-plus','falcon-gt'], likely:['ventus-evo'], no:[],
@@ -1707,7 +1707,7 @@ var CATEGORIES = [
     },
     {name:'EXT Arma MX Rear Shock', pid:'ext-arma-mx', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:950, url:'https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:807.5, url:'https://chargedcycleworks.com/products/ext-arma-rear-shock-for-sur-ron', chk:'2026-11-28', stock:'in_stock', was:950, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
       {v:'TB Electric Moto', p:950, url:'https://tbelectricmoto.com/products/ext-arma', chk:'2026-11-28', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
@@ -1748,7 +1748,7 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM Rear Shock (E7025)", pid:'voro-eride-ss-rear-shock', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:80.0, url:'https://voromotors.com/products/rear-suspension-shock-for-e-ride-pro-ss', chk:'2026-11-28', stock:'in_stock'},
+      {v:'VORO Motors', p:63.95, url:'https://voromotors.com/products/rear-suspension-shock-for-e-ride-pro-ss', chk:'2026-11-28', stock:'in_stock', was:80, wasChk:'2026-10-18'},
      ],
      fits:['ss20','ss30'], likely:[], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/voro-eride-ss-rear-shock.webp'
@@ -1762,7 +1762,7 @@ var CATEGORIES = [
     },
     {name:'KKE 500LBS Rear Shock Spring for Ultra Bee', pid:'chargedcycleworks-kke-500lbs-rear-absorber-suspension-shock-spring-for', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:71.99, url:'https://chargedcycleworks.com/products/kke-500lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/kke-500lbs-rear-absorber-suspension-shock-spring-for-surron-ultra-bee-collective', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      badge:'Shock', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-kke-500lbs-rear-absorber-suspension-shock-spring-for.webp'
@@ -1841,7 +1841,7 @@ var CATEGORIES = [
     },
     {name:'EXT Rea MX Rear Shock for Surron Ultra Bee', pid:'chargedcycleworks-ext-rea-mx-rear-shock-for-surron-ultra-bee', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:950, url:'https://chargedcycleworks.com/products/ext-rea-mx-rear-shock-for-surron-ultra-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:590.75, url:'https://chargedcycleworks.com/products/ext-rea-mx-rear-shock-for-surron-ultra-bee', chk:'2026-11-28', stock:'in_stock', was:950, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ext-rea-mx-rear-shock-for-surron-ultra-bee.webp'
@@ -1967,14 +1967,14 @@ var CATEGORIES = [
     },
     {name:'TECH ER30 E-Moto Rear Shock (288 x 85mm)', pid:'chargedcycleworks-tech-rear-shock-for-talaria', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:975, url:'https://chargedcycleworks.com/products/tech-rear-shock-for-talaria', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:799, url:'https://chargedcycleworks.com/products/tech-rear-shock-for-talaria', chk:'2026-11-28', stock:'in_stock', was:975, wasChk:'2026-11-10'},
      ],
      fits:['mx5','ss30','ventus-plus','altis-sigma'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-tech-rear-shock-for-talaria.webp'
     },
     {name:'TECH ER30 E-Moto Rear Shock (310 x 85mm)', pid:'chargedcycleworks-tech-er30-rear-shock-arctic-leopard-ex', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:975, url:'https://chargedcycleworks.com/products/tech-er30-rear-shock-arctic-leopard-ex', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:799, url:'https://chargedcycleworks.com/products/tech-er30-rear-shock-arctic-leopard-ex', chk:'2026-11-28', stock:'in_stock', was:975, wasChk:'2026-11-10'},
      ],
      fits:['ventus-plus'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-tech-er30-rear-shock-arctic-leopard-ex.webp'
@@ -2332,7 +2332,7 @@ var CATEGORIES = [
     },
     {name:'OEM - Surron Light Bee - 17" Supermoto Wheelset (also fits, E Ride Pro, and Ventus One)', pid:'chargedcycleworks-surron-oem-supermoto-wheelset', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:499, url:'https://chargedcycleworks.com/products/surron-oem-supermoto-wheelset', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:374.25, url:'https://chargedcycleworks.com/products/surron-oem-supermoto-wheelset', chk:'2026-11-28', stock:'in_stock', was:499, wasChk:'2026-10-27'},
      ],
      fits:["lightbee", 'segway-x160', 'segway-x260'], likely:["ventus-plus"], no:[],
      badge:'Wheel', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-oem-supermoto-wheelset.webp'
@@ -2393,7 +2393,7 @@ var CATEGORIES = [
     },
     {name:'21" Front Wheel with CST Tire for Surron Ultra Bee', pid:'chargedcycleworks-surron-ultra-bee-21-inch-front-wheel-cst-tire', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:299, url:'https://chargedcycleworks.com/products/surron-ultra-bee-21-inch-front-wheel-cst-tire', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:224.25, url:'https://chargedcycleworks.com/products/surron-ultra-bee-21-inch-front-wheel-cst-tire', chk:'2026-11-28', stock:'out_of_stock', was:299, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-21-inch-front-wheel-cst-tire.webp'
@@ -2430,7 +2430,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:148.75, url:'https://chargedcycleworks.com/products/ebmx-competition-axle-axle-blocks-for-surron-ultra-bee', chk:'2026-11-28', stock:'in_stock'},
      
-      {v:'GritShift', p:169.99, url:'https://gritshift.com/products/ebmx-competition-axle-axle-blocks-ultra-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:161.49, url:'https://gritshift.com/products/ebmx-competition-axle-axle-blocks-ultra-bee', chk:'2026-11-28', stock:'in_stock', was:169.99, wasChk:'2026-11-13'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ebmx-competition-axle-axle-blocks-for-surron-ultra-bee.webp'
@@ -2605,7 +2605,7 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM 17" Supermoto Wheelset', pid:'chargedcycleworks-ultra-bee-rear-wheel-rim-tire-assy-130-70-17', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:940.98, url:'https://chargedcycleworks.com/products/ultra-bee-rear-wheel-rim-tire-assy-130-70-17', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:705.74, url:'https://chargedcycleworks.com/products/ultra-bee-rear-wheel-rim-tire-assy-130-70-17', chk:'2026-11-28', stock:'out_of_stock', was:940.98, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-rear-wheel-rim-tire-assy-130-70-17.webp'
@@ -2626,21 +2626,21 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Front Wheel Axle Nut', pid:'chargedcycleworks-front-wheel-axle-nut', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:4.99, url:'https://chargedcycleworks.com/products/front-wheel-axle-nut', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:3.74, url:'https://chargedcycleworks.com/products/front-wheel-axle-nut', chk:'2026-11-28', stock:'out_of_stock', was:4.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-front-wheel-axle-nut.webp'
     },
     {name:'Surron Ultra Bee - OEM Front Wheel Spacers', pid:'chargedcycleworks-front-wheel-bushing', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/front-wheel-bushing', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/front-wheel-bushing', chk:'2026-11-28', stock:'in_stock', was:19.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-front-wheel-bushing.webp'
     },
     {name:'Surron Ultra Bee - OEM Rear Axle Locking Nut', pid:'chargedcycleworks-ub-rear-wheel-axle-nut', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:7.99, url:'https://chargedcycleworks.com/products/ub-rear-wheel-axle-nut', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:5.99, url:'https://chargedcycleworks.com/products/ub-rear-wheel-axle-nut', chk:'2026-11-28', stock:'in_stock', was:7.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ub-rear-wheel-axle-nut.webp'
@@ -2745,7 +2745,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 12.9 Cryo Hardened Rear Axle (12mm)', pid:'chargedcycleworks-light-bee-12-9-cryo-rear-axle-by-warp-9', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:149, url:'https://chargedcycleworks.com/products/light-bee-12-9-cryo-rear-axle-by-warp-9', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:119.2, url:'https://chargedcycleworks.com/products/light-bee-12-9-cryo-rear-axle-by-warp-9', chk:'2026-11-28', stock:'in_stock', was:149, wasChk:'2026-11-10'},
      ],
      fits:['sr'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-light-bee-12-9-cryo-rear-axle-by-warp-9.webp'
@@ -2822,7 +2822,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 Surron Ultra Bee Axle Blocks', pid:'chargedcycleworks-surron-ultra-bee-axle-blocks', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:53, url:'https://chargedcycleworks.com/products/surron-ultra-bee-axle-blocks', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:42.4, url:'https://chargedcycleworks.com/products/surron-ultra-bee-axle-blocks', chk:'2026-11-28', stock:'in_stock', was:53, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-axle-blocks.webp'
@@ -2864,7 +2864,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 Ultra Bee Wheel Bearing Kits', pid:'chargedcycleworks-warp9-ultra-bee-wheel-bearing-kits', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:35, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-wheel-bearing-kits', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:28, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-wheel-bearing-kits', chk:'2026-11-28', stock:'in_stock', was:35, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-warp9-ultra-bee-wheel-bearing-kits.webp'
@@ -3084,7 +3084,7 @@ var CATEGORIES = [
     },
     {name:'12-Inch Supermoto Wheel & Tire Set | Wide 110 Front & 120 Rear', pid:'mtnmotoworks-mtn-12-inch-supermoto-wheel-set', tier:'premium',
      prices:[
-      {v:'MTN MotoWorks', p:329.95, url:'https://mtnmotoworks.com/products/mtn-12-inch-supermoto-wheel-set', chk:'2026-11-28', stock:'in_stock'},
+      {v:'MTN MotoWorks', p:359.95, url:'https://mtnmotoworks.com/products/mtn-12-inch-supermoto-wheel-set', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/mtnmotoworks-mtn-12-inch-supermoto-wheel-set.webp'
     },
@@ -3108,7 +3108,7 @@ var CATEGORIES = [
     },
     {name:'17/14-Inch Supermoto Wheel & Tire Set | Strike & Yozma', pid:'mtnmotoworks-mtn-17-14-supermoto-wheel-tire-set', tier:'premium',
      prices:[
-      {v:'MTN MotoWorks', p:399.95, url:'https://mtnmotoworks.com/products/mtn-17-14-supermoto-wheel-tire-set', chk:'2026-11-28', stock:'in_stock'},
+      {v:'MTN MotoWorks', p:379.95, url:'https://mtnmotoworks.com/products/mtn-17-14-supermoto-wheel-tire-set', chk:'2026-11-28', stock:'in_stock', was:399.95, wasChk:'2026-11-11'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/mtnmotoworks-mtn-17-14-supermoto-wheel-tire-set.webp'
     },
@@ -3700,7 +3700,7 @@ var CATEGORIES = [
      prices:[
       {v:'GritShift', p:46.89, url:'https://gritshift.com/products/warp-9-e-moto-folding-brake-levers-for-talaria-mx5-sigma-e-ride-pro', chk:'2026-11-28', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
-      {v:'Charged Cycle Works', p:46, url:'https://chargedcycleworks.com/products/emoto-folding-brake-levers', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:36.8, url:'https://chargedcycleworks.com/products/emoto-folding-brake-levers', chk:'2026-11-28', stock:'in_stock', was:46, wasChk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['bonnell-805rx','mx5','sr','ss30','altis-sigma'], likely:[], no:[],
@@ -3716,7 +3716,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 Surron Ultra Bee 260mm Front Brake Bracket', pid:'warp9-260mm-bracket-ultrabee', tier:'performance',
      prices:[
-      {v:'Charged Cycle Works', p:42, url:'https://chargedcycleworks.com/products/surron-ultra-bee-260mm-front-brake-bracket', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:33.6, url:'https://chargedcycleworks.com/products/surron-ultra-bee-260mm-front-brake-bracket', chk:'2026-11-28', stock:'in_stock', was:42, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
@@ -3724,7 +3724,7 @@ var CATEGORIES = [
     },
     {name:'Surron Light Bee | Talaria MX4 LBN "Ultra Bee" Brake Upgrade Kit', pid:'lbn-ultrab-bee-brake-kit', tier:'performance',
      prices:[
-      {v:'Charged Cycle Works', p:250, url:'https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:187.5, url:'https://chargedcycleworks.com/products/lbn-brake-upgrade-kit-small-emoto', chk:'2026-11-28', stock:'out_of_stock', was:250, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee","mx4"], likely:[], no:[],
@@ -3732,7 +3732,7 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Front Brake Assembly', pid:'ultrabee-oem-front-brake', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:240, url:'https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:180, url:'https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly', chk:'2026-11-28', stock:'out_of_stock', was:240, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
@@ -4030,9 +4030,9 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter Ultra Bee F/R Brake Rotor Upgrade', pid:'chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:32.99, url:'https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade', chk:'2026-11-28', stock:'in_stock', was:49.99, wasChk:'2026-11-10'},
      
-      {v:'GritShift', p:49.99, url:'https://gritshift.com/products/heavy-hitter-ultra-bee-rotor', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:32.99, url:'https://gritshift.com/products/heavy-hitter-ultra-bee-rotor', chk:'2026-11-28', stock:'in_stock', was:49.99, wasChk:'2026-11-13'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-heavy-hitter-ultra-bee-f-r-brake-rotor-upgrade.webp'
@@ -4074,49 +4074,49 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - Handlebar Upper Mount', pid:'chargedcycleworks-surron-ultra-bee-brake-lever-mount', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:8.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-brake-lever-mount', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:6.74, url:'https://chargedcycleworks.com/products/surron-ultra-bee-brake-lever-mount', chk:'2026-11-28', stock:'out_of_stock', was:8.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-brake-lever-mount.webp'
     },
     {name:'Surron Ultra Bee - OEM Brake Pads', pid:'chargedcycleworks-brake-pads-for-surron-ultra-bee-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:29, url:'https://chargedcycleworks.com/products/brake-pads-for-surron-ultra-bee-oem', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:21.75, url:'https://chargedcycleworks.com/products/brake-pads-for-surron-ultra-bee-oem', chk:'2026-11-28', stock:'out_of_stock', was:29, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-brake-pads-for-surron-ultra-bee-oem.webp'
     },
     {name:'Surron Ultra Bee - OEM Brake Rotor (240mm)', pid:'chargedcycleworks-ultra-bee-brake-disk-2403', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:44.99, url:'https://chargedcycleworks.com/products/ultra-bee-brake-disk-2403', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:33.74, url:'https://chargedcycleworks.com/products/ultra-bee-brake-disk-2403', chk:'2026-11-28', stock:'out_of_stock', was:44.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-brake-disk-2403.webp'
     },
     {name:'Surron Ultra Bee - OEM Front Brake Caliper', pid:'chargedcycleworks-ultra-bee-front-brake-caliper-assy-2', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:79.5, url:'https://chargedcycleworks.com/products/ultra-bee-front-brake-caliper-assy-2', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:59.63, url:'https://chargedcycleworks.com/products/ultra-bee-front-brake-caliper-assy-2', chk:'2026-11-28', stock:'out_of_stock', was:79.5, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-front-brake-caliper-assy-2.webp'
     },
     {name:'Surron Ultra Bee - OEM Front Brake Line', pid:'chargedcycleworks-oem-ultra-bee-rear-brake-line-copy', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:53, url:'https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line-copy', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:39.75, url:'https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line-copy', chk:'2026-11-28', stock:'out_of_stock', was:53, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-oem-ultra-bee-rear-brake-line-copy.webp'
     },
     {name:'Surron Ultra Bee - OEM Rear Brake Assembly', pid:'chargedcycleworks-ultra-bee-complete-front-brake-assembly-copy', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:298, url:'https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly-copy', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:223.5, url:'https://chargedcycleworks.com/products/ultra-bee-complete-front-brake-assembly-copy', chk:'2026-11-28', stock:'out_of_stock', was:298, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-complete-front-brake-assembly-copy.webp'
     },
     {name:'Surron Ultra Bee - OEM Rear Brake Caliper', pid:'chargedcycleworks-ultra-bee-rear-brake-caliper', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:98, url:'https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:73.5, url:'https://chargedcycleworks.com/products/ultra-bee-rear-brake-caliper', chk:'2026-11-28', stock:'out_of_stock', was:98, wasChk:'2026-11-10'},
      
       {v:'GritShift', p:82.50, url:'https://gritshift.com/products/sur-ron-oem-rear-brake-caliper-ultra-bee', chk:'2026-11-28', stock:'out_of_stock'},
      ],
@@ -4125,7 +4125,7 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Rear Brake Line', pid:'chargedcycleworks-oem-ultra-bee-rear-brake-line', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:68, url:'https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:51, url:'https://chargedcycleworks.com/products/oem-ultra-bee-rear-brake-line', chk:'2026-11-28', stock:'out_of_stock', was:68, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-oem-ultra-bee-rear-brake-line.webp'
@@ -4267,7 +4267,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 Ultra Bee Brake Lever', pid:'chargedcycleworks-warp9-ultra-bee-brake-lever', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:46, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-brake-lever', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:36.8, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-brake-lever', chk:'2026-11-28', stock:'in_stock', was:46, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-warp9-ultra-bee-brake-lever.webp'
@@ -4579,7 +4579,7 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil 01 Foot Brake Bracket', pid:'howlingmoto-tuttio-soleil-01-foot-brake-bracket', tier:'midrange',
      prices:[
-      {v:'Howling Moto', p:179.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-foot-brake-bracket', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Howling Moto', p:149.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-foot-brake-bracket', chk:'2026-11-28', stock:'out_of_stock', was:179.99, wasChk:'2026-11-11'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/howlingmoto-tuttio-soleil-01-foot-brake-bracket.webp'
@@ -5002,25 +5002,25 @@ var CATEGORIES = [
     },
     {name:'Surron Light Bee – Complete Hydraulic Brake System (2019-2024)', pid:'chargedcycleworks-hydraulic-brake-system-surron-light-bee', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:249.99, url:'https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:187.49, url:'https://chargedcycleworks.com/products/hydraulic-brake-system-surron-light-bee', chk:'2026-11-28', stock:'in_stock', was:249.99, wasChk:'2026-11-22'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-hydraulic-brake-system-surron-light-bee.webp'
     },
     {name:'Surron Light Bee – Front & Rear Brakes (2019-2024) | OEM', pid:'chargedcycleworks-oem-front-brake-assembly-surron-light-bee', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:139, url:'https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:104.25, url:'https://chargedcycleworks.com/products/oem-front-brake-assembly-surron-light-bee', chk:'2026-11-28', stock:'in_stock', was:139, wasChk:'2026-11-22'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-oem-front-brake-assembly-surron-light-bee.webp'
     },
     {name:'Surron Light Bee – Front & Rear Brakes 2025 | OEM', pid:'chargedcycleworks-oem-brake-assembly-surron-light-bee', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:301.6, url:'https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:226.2, url:'https://chargedcycleworks.com/products/oem-brake-assembly-surron-light-bee', chk:'2026-11-28', stock:'out_of_stock', was:301.6, wasChk:'2026-11-22'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-28'
     },
     {name:'Surron Light Bee – Wave Brake Rotor', pid:'chargedcycleworks-wave-brake-rotor-surron-light-bee', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:27.4, url:'https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:20.55, url:'https://chargedcycleworks.com/products/wave-brake-rotor-surron-light-bee', chk:'2026-11-28', stock:'in_stock', was:27.4, wasChk:'2026-11-22'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-wave-brake-rotor-surron-light-bee.webp'
     },
@@ -5080,19 +5080,19 @@ var CATEGORIES = [
     },
     {name:'Warp9 220mm FRONT Brake Rotor Adapter', pid:'chargedcycleworks-warp9-220mm-brake-rotor-adapter-for-surron', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:33, url:'https://chargedcycleworks.com/products/warp9-220mm-brake-rotor-adapter-for-surron', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:26.4, url:'https://chargedcycleworks.com/products/warp9-220mm-brake-rotor-adapter-for-surron', chk:'2026-11-28', stock:'in_stock', was:33, wasChk:'2026-11-22'},
      ],
      fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-warp9-220mm-brake-rotor-adapter-for-surron.webp'
     },
     {name:'Warp9 240mm Floating Brake Rotor (fits Warp9 v3 hubs ONLY)', pid:'chargedcycleworks-warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:69, url:'https://chargedcycleworks.com/products/warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:55.2, url:'https://chargedcycleworks.com/products/warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only', chk:'2026-11-28', stock:'in_stock', was:69, wasChk:'2026-11-22'},
      ],
      fits:['talaria-xxx'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-warp9-240mm-floating-brake-rotor-for-surron-and-segway-fits-warp9-v3-hubs-only.webp'
     },
     {name:'Warp9 Brake Levers for Surron LBX and Talaria MX3', pid:'chargedcycleworks-warp9-brake-levers-for-surron', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:50, url:'https://chargedcycleworks.com/products/warp9-brake-levers-for-surron', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:40, url:'https://chargedcycleworks.com/products/warp9-brake-levers-for-surron', chk:'2026-11-28', stock:'in_stock', was:50, wasChk:'2026-11-22'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-warp9-brake-levers-for-surron.webp'
     },
@@ -5342,7 +5342,7 @@ var CATEGORIES = [
     },
     {name:'ECD Customs RIDGE Frame Wrap — 79Bike / Ventus One+', pid:'ecd-wrap-ridge', tier:'mid',
      prices:[
-      {v:'ECD Wraps', p:175, url:'https://ecdwraps.com/products/79bike-ventusone-ridge', chk:'2026-11-28', stock:'in_stock'},
+      {v:'ECD Wraps', p:185, url:'https://ecdwraps.com/products/79bike-ventusone-ridge', chk:'2026-11-28', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["falcon-pro","falcon-gt","ventus-plus"], likely:[], no:[],
@@ -5396,7 +5396,7 @@ var CATEGORIES = [
     },
       {name:'Surron Light Bee - OEM Front Number Plate', pid:'chargedcycleworks-light-bee-oem-battery-front-plate', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:13.5, url:'https://chargedcycleworks.com/products/light-bee-oem-battery-front-plate', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:11.25, url:'https://chargedcycleworks.com/products/light-bee-oem-battery-front-plate', chk:'2026-11-28', stock:'in_stock', was:13.5, wasChk:'2026-10-27'},
      ],
      fits:["lightbee"], likely:[], no:[],
      badge:'Plastics', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-light-bee-oem-battery-front-plate.webp'
@@ -5585,7 +5585,7 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Side Plate Brackets', pid:'chargedcycleworks-surron-ultra-bee-oem-side-plate-brackets', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:12, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-side-plate-brackets', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:9, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-side-plate-brackets', chk:'2026-11-28', stock:'out_of_stock', was:12, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-side-plate-brackets.webp'
@@ -5613,28 +5613,28 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Carbon Black Plastics Kit', pid:'chargedcycleworks-surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:139, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:104.25, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards', chk:'2026-11-28', stock:'out_of_stock', was:139, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-black-carbon-plastics-kit-headlight-shroud-front-fender-skid-plate-brackets-brush-guards.webp'
     },
     {name:'Surron Ultra Bee - OEM Front Fender Hardware Kit', pid:'chargedcycleworks-hardware-kit-for-oem-ultra-bee-front-fender', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:10, url:'https://chargedcycleworks.com/products/hardware-kit-for-oem-ultra-bee-front-fender', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:7.5, url:'https://chargedcycleworks.com/products/hardware-kit-for-oem-ultra-bee-front-fender', chk:'2026-11-28', stock:'out_of_stock', was:10, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-hardware-kit-for-oem-ultra-bee-front-fender.webp'
     },
     {name:'Surron Ultra Bee - Simulated Carbon Fiber Rear Fender', pid:'chargedcycleworks-surron-ultra-bee-rear-fender', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:37.49, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender', chk:'2026-11-28', stock:'out_of_stock', was:49.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-rear-fender.webp'
     },
     {name:'Surron Ultra Bee - Simulated Carbon Fiber Side Plate Brackets', pid:'chargedcycleworks-guard-board', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/guard-board', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:22.49, url:'https://chargedcycleworks.com/products/guard-board', chk:'2026-11-28', stock:'out_of_stock', was:29.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-guard-board.webp'
@@ -5704,7 +5704,7 @@ var CATEGORIES = [
     },
     {name:'Surron Light Bee OEM Front Fender', pid:'chargedcycleworks-front-fender-for-talaria-oem-surron-oem-segway-x260', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:29, url:'https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:21.75, url:'https://chargedcycleworks.com/products/front-fender-for-talaria-oem-surron-oem-segway-x260', chk:'2026-11-28', stock:'in_stock', was:29, wasChk:'2026-11-10'},
      ],
      fits:['mx5','ventus-plus', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-front-fender-for-talaria-oem-surron-oem-segway-x260.webp'
@@ -5718,7 +5718,7 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Rear Fender', pid:'chargedcycleworks-rear-fender', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/rear-fender', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/rear-fender', chk:'2026-11-28', stock:'out_of_stock', was:39.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-rear-fender.webp'
@@ -5732,84 +5732,84 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - Simulated Carbon Fiber Front Fender', pid:'chargedcycleworks-surron-ultra-bee-front-fender', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-front-fender', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:37.49, url:'https://chargedcycleworks.com/products/surron-ultra-bee-front-fender', chk:'2026-11-28', stock:'out_of_stock', was:49.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-front-fender.webp'
     },
     {name:'Surron Ultra Bee – Battery Compartment Panels Left & Right | OEM Covers', pid:'chargedcycleworks-surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:12.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:9.74, url:'https://chargedcycleworks.com/products/surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem', chk:'2026-11-28', stock:'out_of_stock', was:12.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-battery-compartment-decorative-panels-left-right-oem.webp'
     },
     {name:'Surron Ultra Bee – Frame Shroud (Left / Right) | OEM', pid:'chargedcycleworks-surron-ultra-bee-frame-shroud-left-right-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:24.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-frame-shroud-left-right-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:18.74, url:'https://chargedcycleworks.com/products/surron-ultra-bee-frame-shroud-left-right-oem', chk:'2026-11-28', stock:'in_stock', was:24.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-frame-shroud-left-right-oem.webp'
     },
     {name:'Surron Ultra Bee – Guard Board – Black / White | OEM', pid:'chargedcycleworks-surron-ultra-bee-guard-board-oem-black-white', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:14.7, url:'https://chargedcycleworks.com/products/surron-ultra-bee-guard-board-oem-black-white', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:11.03, url:'https://chargedcycleworks.com/products/surron-ultra-bee-guard-board-oem-black-white', chk:'2026-11-28', stock:'in_stock', was:14.7, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-guard-board-oem-black-white.webp'
     },
     {name:'Surron Ultra Bee – Handle Guard Mount Base (Left / Right) | OEM', pid:'chargedcycleworks-surron-ultra-bee-handle-guard-mount-base-left-right-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:22.6, url:'https://chargedcycleworks.com/products/surron-ultra-bee-handle-guard-mount-base-left-right-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:16.95, url:'https://chargedcycleworks.com/products/surron-ultra-bee-handle-guard-mount-base-left-right-oem', chk:'2026-11-28', stock:'in_stock', was:22.6, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-handle-guard-mount-base-left-right-oem.webp'
     },
     {name:'Surron Ultra Bee – Left & Right Lower Side Panels | OEM', pid:'chargedcycleworks-surron-ultra-bee-lower-side-panel-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:28.8, url:'https://chargedcycleworks.com/products/surron-ultra-bee-lower-side-panel-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:21.6, url:'https://chargedcycleworks.com/products/surron-ultra-bee-lower-side-panel-oem', chk:'2026-11-28', stock:'in_stock', was:28.8, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-lower-side-panel-oem.webp'
     },
     {name:'Surron Ultra Bee – Midshaft Guard | OEM', pid:'chargedcycleworks-surron-ultra-bee-midshaft-guard-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:16, url:'https://chargedcycleworks.com/products/surron-ultra-bee-midshaft-guard-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:12, url:'https://chargedcycleworks.com/products/surron-ultra-bee-midshaft-guard-oem', chk:'2026-11-28', stock:'in_stock', was:16, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-midshaft-guard-oem.webp'
     },
     {name:'Surron Ultra Bee – Rear Fender Cover Plate | OEM', pid:'chargedcycleworks-surron-ultra-bee-rear-fender-cover-plate-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:16.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender-cover-plate-oem', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:12.74, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-fender-cover-plate-oem', chk:'2026-11-28', stock:'out_of_stock', was:16.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-rear-fender-cover-plate-oem.webp'
     },
     {name:'Surron Ultra Bee – Rear Mud Flap | OEM', pid:'chargedcycleworks-surron-ultra-bee-rear-mud-flap-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:31, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-mud-flap-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:23.25, url:'https://chargedcycleworks.com/products/surron-ultra-bee-rear-mud-flap-oem', chk:'2026-11-28', stock:'in_stock', was:31, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-rear-mud-flap-oem.webp'
     },
     {name:'Surron Ultra Bee – Steering Block (Left / Right) | OEM', pid:'chargedcycleworks-surron-ultra-bee-steering-block-left-right-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:8, url:'https://chargedcycleworks.com/products/surron-ultra-bee-steering-block-left-right-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:6, url:'https://chargedcycleworks.com/products/surron-ultra-bee-steering-block-left-right-oem', chk:'2026-11-28', stock:'in_stock', was:8, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-steering-block-left-right-oem.webp'
     },
     {name:'Surron Ultra Bee – Subframe Fender | OEM', pid:'chargedcycleworks-surron-ultra-bee-subframe-fender-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:60.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-subframe-fender-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:45.74, url:'https://chargedcycleworks.com/products/surron-ultra-bee-subframe-fender-oem', chk:'2026-11-28', stock:'in_stock', was:60.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-subframe-fender-oem.webp'
     },
     {name:'Surron Ultra Bee – USB Decorative Cover | OEM', pid:'chargedcycleworks-surron-ultra-bee-usb-decorative-cover-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:12.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-usb-decorative-cover-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:9.74, url:'https://chargedcycleworks.com/products/surron-ultra-bee-usb-decorative-cover-oem', chk:'2026-11-28', stock:'in_stock', was:12.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-usb-decorative-cover-oem.webp'
@@ -5881,21 +5881,21 @@ var CATEGORIES = [
     },
     {name:'Simulated Matte Carbon Fiber Front Fender - Type 1', pid:'chargedcycleworks-surron-light-bee-front-fork-fender-water-transfer-printing-matte', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:34.99, url:'https://chargedcycleworks.com/products/surron-light-bee-front-fork-fender-water-transfer-printing-matte', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:26.24, url:'https://chargedcycleworks.com/products/surron-light-bee-front-fork-fender-water-transfer-printing-matte', chk:'2026-11-28', stock:'out_of_stock', was:34.99, wasChk:'2026-11-11'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-light-bee-front-fork-fender-water-transfer-printing-matte.webp'
     },
     {name:'Simulated Carbon Fiber Front Fender - Type 1', pid:'chargedcycleworks-real-carbon-fiber-front-fender-type-1-talaria-surron-segway', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/real-carbon-fiber-front-fender-type-1-talaria-surron-segway', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/real-carbon-fiber-front-fender-type-1-talaria-surron-segway', chk:'2026-11-28', stock:'out_of_stock', was:39.99, wasChk:'2026-11-11'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-real-carbon-fiber-front-fender-type-1-talaria-surron-segway.webp'
     },
     {name:'ODI (Style) Front Number Plate for E-Moto', pid:'chargedcycleworks-surron-light-bee-number-plate', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/surron-light-bee-number-plate', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:11.24, url:'https://chargedcycleworks.com/products/surron-light-bee-number-plate', chk:'2026-11-28', stock:'out_of_stock', was:14.99, wasChk:'2026-11-11'},
      ],
      fits:['arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['falcon-pro'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-light-bee-number-plate.webp'
@@ -6455,7 +6455,7 @@ var CATEGORIES = [
     },
     {name:'Simulated Carbon Fiber Battery Compartment Lock Surround for Surron Light Bee', pid:'chargedcycleworks-carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee', chk:'2026-11-28', stock:'out_of_stock', was:19.99, wasChk:'2026-11-22'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-carbon-fiber-battery-compartment-lock-surround-for-surron-light-bee.webp'
     },
@@ -6467,25 +6467,25 @@ var CATEGORIES = [
     },
     {name:'Simulated Carbon Fiber Rear Wheel Fender / Mud Guard for Surron Light Bee', pid:'chargedcycleworks-carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee', chk:'2026-11-28', stock:'in_stock', was:19.99, wasChk:'2026-11-22'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-carbon-fiber-rear-wheel-fender-mud-guard-for-surron-light-bee.webp'
     },
     {name:'Surron Light Bee - Chain Guard', pid:'chargedcycleworks-carbon-fiber-chain-guard-for-surron-light-bee', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/carbon-fiber-chain-guard-for-surron-light-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/carbon-fiber-chain-guard-for-surron-light-bee', chk:'2026-11-28', stock:'in_stock', was:19.99, wasChk:'2026-11-22'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-carbon-fiber-chain-guard-for-surron-light-bee.webp'
     },
     {name:'Surron Light Bee - Simulated Carbon Fiber Battery Lid | Matte & Gloss', pid:'chargedcycleworks-surron-light-bee-battery-cover-matte', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/surron-light-bee-battery-cover-matte', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:14.99, url:'https://chargedcycleworks.com/products/surron-light-bee-battery-cover-matte', chk:'2026-11-28', stock:'in_stock', was:19.99, wasChk:'2026-11-22'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-light-bee-battery-cover-matte.webp'
     },
     {name:'Surron Light Bee – Rear Shock Mudguard | OEM', pid:'chargedcycleworks-rear-shock-mudguard-surron-light-bee', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:27.3, url:'https://chargedcycleworks.com/products/rear-shock-mudguard-surron-light-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:20.48, url:'https://chargedcycleworks.com/products/rear-shock-mudguard-surron-light-bee', chk:'2026-11-28', stock:'in_stock', was:27.3, wasChk:'2026-11-22'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28'
     },
@@ -6722,7 +6722,7 @@ var CATEGORIES = [
     },
     {name:'Ventus EVO GT 72V 50Ah Battery', pid:'ventus-evo-gt-72v', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:2200, url:'https://chargedcycleworks.com/products/ventus-battery-evo-gt-72v-50ah-surron-light-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:2300, url:'https://chargedcycleworks.com/products/ventus-battery-evo-gt-72v-50ah-surron-light-bee', chk:'2026-11-28', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:[], no:[],
@@ -6762,7 +6762,7 @@ var CATEGORIES = [
     },
     {name:'Ventus Ultra Bee Battery 96V 56AH', pid:'ventus-ultrabee-96v-56ah', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:3499, url:'https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:3099, url:'https://chargedcycleworks.com/products/ventus-ultra-bee-battery-96v-56ah', chk:'2026-11-28', stock:'out_of_stock', was:3499, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
@@ -6814,7 +6814,7 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM 110v Battery Charger', pid:'chargedcycleworks-ultra-bee-oem-charger', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:469, url:'https://chargedcycleworks.com/products/ultra-bee-oem-charger', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:366.75, url:'https://chargedcycleworks.com/products/ultra-bee-oem-charger', chk:'2026-11-28', stock:'in_stock', was:469, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-oem-charger.webp'
@@ -6835,35 +6835,35 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM 74v 55Ah battery', pid:'chargedcycleworks-surron-ultra-bee-oem-74v-battery', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:1995, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-74v-battery', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:1496.25, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-74v-battery', chk:'2026-11-28', stock:'out_of_stock', was:1995, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:[], no:['ultrabee-21kw'],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-74v-battery.webp'
     },
     {name:'Surron Ultra Bee - OEM Battery Lid', pid:'chargedcycleworks-surron-ultra-bee-battery-lid', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:41.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:31.49, url:'https://chargedcycleworks.com/products/surron-ultra-bee-battery-lid', chk:'2026-11-28', stock:'in_stock', was:41.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-battery-lid.webp'
     },
     {name:'Surron Ultra Bee - OEM Battery Power Cable', pid:'chargedcycleworks-ub-battery-power-cable', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:124.99, url:'https://chargedcycleworks.com/products/ub-battery-power-cable', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:93.74, url:'https://chargedcycleworks.com/products/ub-battery-power-cable', chk:'2026-11-28', stock:'in_stock', was:124.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ub-battery-power-cable.webp'
     },
     {name:'Surron Ultra Bee - OEM Right Battery Protector', pid:'chargedcycleworks-ultra-bee-r-battery-protector', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:8, url:'https://chargedcycleworks.com/products/ultra-bee-r-battery-protector', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:6, url:'https://chargedcycleworks.com/products/ultra-bee-r-battery-protector', chk:'2026-11-28', stock:'out_of_stock', was:8, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-r-battery-protector.webp'
     },
     {name:'Surron Ultra Bee - Simulated Carbon Fiber Battery Protector Handles', pid:'chargedcycleworks-surron-ultra-bee-protective-of-battery-compartment', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-protective-of-battery-compartment', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:22.49, url:'https://chargedcycleworks.com/products/surron-ultra-bee-protective-of-battery-compartment', chk:'2026-11-28', stock:'out_of_stock', was:29.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-protective-of-battery-compartment.webp'
@@ -7192,7 +7192,7 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Handle Bar Riser', pid:'chargedcycleworks-surron-ub-oem-handlebar-riser', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:38, url:'https://chargedcycleworks.com/products/surron-ub-oem-handlebar-riser', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:28.5, url:'https://chargedcycleworks.com/products/surron-ub-oem-handlebar-riser', chk:'2026-11-28', stock:'in_stock', was:38, wasChk:'2026-10-27'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      badge:'Handlebar', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ub-oem-handlebar-riser.webp'
@@ -7258,21 +7258,21 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - Handlebar Lower Mount', pid:'chargedcycleworks-surron-ultra-bee-handlebar-lower-mount', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:34.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:26.24, url:'https://chargedcycleworks.com/products/surron-ultra-bee-handlebar-lower-mount', chk:'2026-11-28', stock:'out_of_stock', was:34.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-handlebar-lower-mount.webp'
     },
     {name:'Surron Ultra Bee - OEM Bar Mount Assembly', pid:'chargedcycleworks-surron-ultra-bee-oem-bar-mounts', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-bar-mounts', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:74.25, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-bar-mounts', chk:'2026-11-28', stock:'in_stock', was:99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-bar-mounts.webp'
     },
     {name:'Surron Ultra Bee Steering Stabilizer', pid:'chargedcycleworks-kke-ultra-bee-steering-stabilizer', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:240, url:'https://chargedcycleworks.com/products/kke-ultra-bee-steering-stabilizer', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:180, url:'https://chargedcycleworks.com/products/kke-ultra-bee-steering-stabilizer', chk:'2026-11-28', stock:'in_stock', was:240, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-kke-ultra-bee-steering-stabilizer.webp'
@@ -7300,32 +7300,32 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter MX Direct Mount Riser Fat Bar 1 1/8" Clamp', pid:'chargedcycleworks-heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:68.89, url:'https://chargedcycleworks.com/products/heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp', chk:'2026-11-28', stock:'in_stock', was:79.99, wasChk:'2026-11-11'},
      
-      {v:'GritShift', p:79.99, url:'https://gritshift.com/products/gritshift-heavy-hitter-mx-direct-mount-riser', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:68.89, url:'https://gritshift.com/products/gritshift-heavy-hitter-mx-direct-mount-riser', chk:'2026-11-28', stock:'in_stock', was:79.99, wasChk:'2026-11-13'},
      ],
      fits:[], likely:['arctic-leopard-xe-pro-s-enduro'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-heavy-hitter-mx-direct-mount-riser-fat-bar-1-1-8-clamp.webp'
     },
     {name:'Heavy Hitter Direct Mount Stem Riser 2" Rise 31.8mm Bars', pid:'chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:64.89, url:'https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:55.89, url:'https://chargedcycleworks.com/products/gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars', chk:'2026-11-28', stock:'in_stock', was:64.89, wasChk:'2026-11-11'},
      
-      {v:'GritShift', p:64.89, url:'https://gritshift.com/products/direct-mount-stem-riser-2-inch', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:55.89, url:'https://gritshift.com/products/direct-mount-stem-riser-2-inch', chk:'2026-11-28', stock:'in_stock', was:64.89, wasChk:'2026-11-13'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x'], likely:['rawrr-mantis-72v','ss40'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-gritshift-direct-mount-stem-riser-for-e-bikes-2-rise-for-31-8mm-bars.webp'
     },
     {name:'Direct Mount Stem Lift Kit', pid:'chargedcycleworks-surron-light-bee-stem-lift-kit', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:24.99, url:'https://chargedcycleworks.com/products/surron-light-bee-stem-lift-kit', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:18.74, url:'https://chargedcycleworks.com/products/surron-light-bee-stem-lift-kit', chk:'2026-11-28', stock:'in_stock', was:24.99, wasChk:'2026-11-11'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-light-bee-stem-lift-kit.webp'
     },
     {name:'Warp9 Altis Sigma Direct Bar Mount', pid:'chargedcycleworks-warp9-altis-sigma-direct-bar-mount', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:119.0, url:'https://chargedcycleworks.com/products/warp9-altis-sigma-direct-bar-mount', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:95.2, url:'https://chargedcycleworks.com/products/warp9-altis-sigma-direct-bar-mount', chk:'2026-11-28', stock:'in_stock', was:119, wasChk:'2026-11-11'},
      ],
      fits:['altis-sigma'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-warp9-altis-sigma-direct-bar-mount.webp'
@@ -7765,7 +7765,7 @@ var CATEGORIES = [
     {name:'Stock charger', prices:[]},
     {name:'OEM 67.2V 10A Charger for Surron Light Bee', pid:'surron-lightbee-oem-charger', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:339, url:'https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:254.25, url:'https://chargedcycleworks.com/products/surron-light-bee-oem-67-2v-10a-charger', chk:'2026-11-28', stock:'in_stock', was:339, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["lightbee"], likely:["arctic-xd","bonnell-805rx","ventus-plus","ventus-evo"], no:[],
@@ -7846,14 +7846,14 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee – 85V 15A Fast Charger | OEM', pid:'chargedcycleworks-surron-ultra-bee-85v-15a-fast-charger-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:408.5, url:'https://chargedcycleworks.com/products/surron-ultra-bee-85v-15a-fast-charger-oem', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:306.38, url:'https://chargedcycleworks.com/products/surron-ultra-bee-85v-15a-fast-charger-oem', chk:'2026-11-28', stock:'out_of_stock', was:408.5, wasChk:'2026-10-27'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      badge:'Charger', stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-85v-15a-fast-charger-oem.webp'
     },
     {name:'Surron Light Bee - OEM Charger (110V US wall plug 10A)', pid:'chargedcycleworks-lbx-charger-67-2v-10a-110v-10a', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:299.99, url:'https://chargedcycleworks.com/products/lbx-charger-67-2v-10a-110v-10a', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:224.99, url:'https://chargedcycleworks.com/products/lbx-charger-67-2v-10a-110v-10a', chk:'2026-11-28', stock:'out_of_stock', was:299.99, wasChk:'2026-10-27'},
      ],
      fits:["lightbee"], likely:[], no:[],
      badge:'Charger', stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-lbx-charger-67-2v-10a-110v-10a.webp'
@@ -8218,14 +8218,14 @@ var CATEGORIES = [
     },
     {name:'Gates GT4 Power Grip Belt - Surron Light Bee', pid:'chargedcycleworks-gates-gt4-power-grip-belt', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/gates-gt4-power-grip-belt', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:32.25, url:'https://chargedcycleworks.com/products/gates-gt4-power-grip-belt', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:['ventus-plus', 'segway-x260', 'talaria-xxx'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-gates-gt4-power-grip-belt.webp'
     },
     {name:'Gates GT4 Power Grip Belt - Surron Ultra Bee', pid:'chargedcycleworks-gates-gt4-power-grip-belt-surron-ultra-bee', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:39.89, url:'https://chargedcycleworks.com/products/gates-gt4-power-grip-belt-surron-ultra-bee', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:29.92, url:'https://chargedcycleworks.com/products/gates-gt4-power-grip-belt-surron-ultra-bee', chk:'2026-11-28', stock:'out_of_stock', was:39.89, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-gates-gt4-power-grip-belt-surron-ultra-bee.webp'
@@ -8354,7 +8354,7 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter Titanium Direct Mount Riser', pid:'chargedcycleworks-heavy-hitter-titanium-direct-mount-riser', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:199.89, url:'https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:170.89, url:'https://chargedcycleworks.com/products/heavy-hitter-titanium-direct-mount-riser', chk:'2026-11-28', stock:'out_of_stock', was:199.89, wasChk:'2026-11-11'},
      ],
      fits:['rawrr-mantis-x','arctic-leopard-xe-pro-s-enduro', 'segway-x260'], likely:['rawrr-mantis-72v'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-heavy-hitter-titanium-direct-mount-riser.webp'
@@ -8468,7 +8468,7 @@ var CATEGORIES = [
     },
     {name:'Moose Racing Stealth MX Grips', pid:'gritshift-moose-racing-handlebar-grips-stealth-mx', tier:'budget',
      prices:[
-      {v:'GritShift', p:13.99, url:'https://gritshift.com/products/moose-racing-handlebar-grips-stealth-mx', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:12.99, url:'https://gritshift.com/products/moose-racing-handlebar-grips-stealth-mx', chk:'2026-11-28', stock:'in_stock', was:13.99, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Moose Racing', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-moose-racing-handlebar-grips-stealth-mx.webp'
@@ -9020,7 +9020,7 @@ var CATEGORIES = [
 
     {name:'EBMX Heatsink Replacement Cover For V2/V3 X9000', pid:'gritshift-ebmx-x-9000-v2-colored-heat-sink', tier:'midrange',
      prices:[
-      {v:'GritShift', p:72.99, url:'https://gritshift.com/products/ebmx-x-9000-v2-colored-heat-sink', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:69.34, url:'https://gritshift.com/products/ebmx-x-9000-v2-colored-heat-sink', chk:'2026-11-28', stock:'in_stock', was:72.99, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-ebmx-x-9000-v2-colored-heat-sink.webp'
@@ -9331,7 +9331,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 520 Primary Chain Drive Kit for Surron Ultra Bee', pid:'drivetrain-ultra-bee-sprocket-drive-kit', tier:'premium',
      prices:[
-      {v:'Charged Cycle Works', p:119, url:'https://chargedcycleworks.com/products/ultra-bee-sprocket-drive-kit', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:95.2, url:'https://chargedcycleworks.com/products/ultra-bee-sprocket-drive-kit', chk:'2026-11-28', stock:'in_stock', was:119, wasChk:'2026-11-05'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['bonnell-805rx'], likely:['ultrabee-21kw'], no:[],
@@ -9484,7 +9484,7 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:100, url:'https://chargedcycleworks.com/products/ebmx-competition-chain-guide-for-ultra-bee', chk:'2026-11-28', stock:'out_of_stock'},
      
-      {v:'GritShift', p:99.89, url:'https://gritshift.com/products/ebmx-competition-chain-guide-for-ultra-bee', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'GritShift', p:94.9, url:'https://gritshift.com/products/ebmx-competition-chain-guide-for-ultra-bee', chk:'2026-11-28', stock:'out_of_stock', was:99.89, wasChk:'2026-11-13'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ebmx-competition-chain-guide-for-ultra-bee.webp'
@@ -9556,35 +9556,35 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Jackshaft Assembly', pid:'chargedcycleworks-center-shaft-sleeve-assembly', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:208.5, url:'https://chargedcycleworks.com/products/center-shaft-sleeve-assembly', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:156.38, url:'https://chargedcycleworks.com/products/center-shaft-sleeve-assembly', chk:'2026-11-28', stock:'out_of_stock', was:208.5, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:[], no:['ultrabee-21kw'],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-center-shaft-sleeve-assembly.webp'
     },
     {name:'Surron Ultra Bee - OEM Motor Belt Cover', pid:'chargedcycleworks-ultra-bee-output-gear-cover', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:10.99, url:'https://chargedcycleworks.com/products/ultra-bee-output-gear-cover', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:8.24, url:'https://chargedcycleworks.com/products/ultra-bee-output-gear-cover', chk:'2026-11-28', stock:'out_of_stock', was:10.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-output-gear-cover.webp'
     },
     {name:'Surron Ultra Bee - OEM Primary Drive Front Pulley', pid:'chargedcycleworks-surron-ultra-bee-oem-primary-drive-front-pulley', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:53.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-primary-drive-front-pulley', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:40.49, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-primary-drive-front-pulley', chk:'2026-11-28', stock:'out_of_stock', was:53.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:[], no:['ultrabee-21kw'],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-primary-drive-front-pulley.webp'
     },
     {name:'Surron Ultra Bee – Axle Chain Adjuster Block (Left / Right) | OEM', pid:'chargedcycleworks-surron-ultra-bee-axle-chain-adjuster-block-left-right-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:16, url:'https://chargedcycleworks.com/products/surron-ultra-bee-axle-chain-adjuster-block-left-right-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:12, url:'https://chargedcycleworks.com/products/surron-ultra-bee-axle-chain-adjuster-block-left-right-oem', chk:'2026-11-28', stock:'in_stock', was:16, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-axle-chain-adjuster-block-left-right-oem.webp'
     },
     {name:'Surron Ultra Bee – Primary Drive Belt Rear Pulley (MY25) | OEM', pid:'chargedcycleworks-surron-ultra-bee-primary-drive-rear-pulley-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:112.5, url:'https://chargedcycleworks.com/products/surron-ultra-bee-primary-drive-rear-pulley-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:84.38, url:'https://chargedcycleworks.com/products/surron-ultra-bee-primary-drive-rear-pulley-oem', chk:'2026-11-28', stock:'in_stock', was:112.5, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-primary-drive-rear-pulley-oem.webp'
@@ -9661,7 +9661,7 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter 420 Primary O-Ring Chain Drive Conversion Kit', pid:'chargedcycleworks-heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:99.89, url:'https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:85.89, url:'https://chargedcycleworks.com/products/heavy-hitter-420-primary-o-ring-chain-drive-conversion-kit', chk:'2026-11-28', stock:'in_stock', was:99.89, wasChk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['falcon-gt','ss40', 'segway-x160', 'segway-x260'], likely:[], no:[],
@@ -9712,9 +9712,9 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter 520 Primary Drive Conversion OEM/EBMX Ultra Motors', pid:'chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:129.99, url:'https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:109.99, url:'https://chargedcycleworks.com/products/heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors', chk:'2026-11-28', stock:'in_stock', was:129.99, wasChk:'2026-11-10'},
      
-      {v:'GritShift', p:129.99, url:'https://gritshift.com/products/520-primary-drive-ultra-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:109.99, url:'https://gritshift.com/products/520-primary-drive-ultra-bee', chk:'2026-11-28', stock:'in_stock', was:129.99, wasChk:'2026-11-13'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-heavy-hitter-520-primary-drive-conversion-oem-ebmx-ultra-motors.webp'
@@ -9735,7 +9735,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 Sprocket – RAWRR Mantis / Altis Sigma', pid:'chargedcycleworks-rawr-sigma-sprocket', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:65.0, url:'https://chargedcycleworks.com/products/rawr-sigma-sprocket', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:52, url:'https://chargedcycleworks.com/products/rawr-sigma-sprocket', chk:'2026-11-28', stock:'in_stock', was:65, wasChk:'2026-11-11'},
      ],
      fits:['altis-sigma','rawrr-mantis-72v'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-rawr-sigma-sprocket.webp'
@@ -9826,7 +9826,7 @@ var CATEGORIES = [
     },
     {name:'Fire Power 420 Standard Gold Chain 130 Link', pid:'gritshift-fire-power-420-standard-gold-chain-130-link', tier:'budget',
      prices:[
-      {v:'GritShift', p:34.99, url:'https://gritshift.com/products/fire-power-420-standard-gold-chain-130-link', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:39.99, url:'https://gritshift.com/products/fire-power-420-standard-gold-chain-130-link', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-fire-power-420-standard-gold-chain-130-link.webp'
     },
@@ -9987,7 +9987,7 @@ var CATEGORIES = [
     },
     {name:'Tuttio Soleil 01 Shift Lock', pid:'howlingmoto-tuttio-soleil-01-shift-lock', tier:'midrange',
      prices:[
-      {v:'Howling Moto', p:54.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-shift-lock', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Howling Moto', p:34.99, url:'https://howlingmoto.com/products/tuttio-soleil-01-shift-lock', chk:'2026-11-28', stock:'in_stock', was:54.99, wasChk:'2026-11-11'},
      ],
      fits:['tuttio-soleil01'], likely:[], no:[],
      badge:'Tuttio', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/howlingmoto-tuttio-soleil-01-shift-lock.webp'
@@ -10740,16 +10740,16 @@ var CATEGORIES = [
     },
     {name:'GritShift Blazer LED Headlight for Sur Ron, Segway, & Talaria E-Bikes', pid:'chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:17.89, url:'https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes', chk:'2026-11-28', stock:'in_stock', was:19.99, wasChk:'2026-11-10'},
      ],
      fits:['sr','ventus-plus', 'segway-x160', 'segway-x260'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-gritshift-blazer-led-headlight-for-sur-ron-segway-talaria-e-bikes.webp'
     },
     {name:'GritShift Halo Headlight Kill Switch', pid:'chargedcycleworks-gritshift-halo-headlight-kill-switch', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:19.89, url:'https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:17.89, url:'https://chargedcycleworks.com/products/gritshift-halo-headlight-kill-switch', chk:'2026-11-28', stock:'in_stock', was:19.89, wasChk:'2026-11-10'},
      
-      {v:'GritShift', p:19.89, url:'https://gritshift.com/products/gritshift-halo-headlight-kill-switch', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:17.89, url:'https://gritshift.com/products/gritshift-halo-headlight-kill-switch', chk:'2026-11-28', stock:'in_stock', was:19.89, wasChk:'2026-11-13'},
      ],
      fits:['mx5','sr','ventus-plus', 'segway-x160', 'segway-x260'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-gritshift-halo-headlight-kill-switch.webp'
@@ -10763,21 +10763,21 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Communication Cable', pid:'chargedcycleworks-ub-communication-cable', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:41.99, url:'https://chargedcycleworks.com/products/ub-communication-cable', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:31.49, url:'https://chargedcycleworks.com/products/ub-communication-cable', chk:'2026-11-28', stock:'out_of_stock', was:41.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ub-communication-cable.webp'
     },
     {name:'Surron Ultra Bee - OEM Headlight', pid:'chargedcycleworks-surron-ub-oem-headlight', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:137.99, url:'https://chargedcycleworks.com/products/surron-ub-oem-headlight', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:103.49, url:'https://chargedcycleworks.com/products/surron-ub-oem-headlight', chk:'2026-11-28', stock:'in_stock', was:137.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ub-oem-headlight.webp'
     },
     {name:'Surron Ultra Bee - OEM Headlight Shroud - White / Black', pid:'chargedcycleworks-surron-ub-oem-headlight-shroud', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/surron-ub-oem-headlight-shroud', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:22.49, url:'https://chargedcycleworks.com/products/surron-ub-oem-headlight-shroud', chk:'2026-11-28', stock:'in_stock', was:29.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ub-oem-headlight-shroud.webp'
@@ -10791,21 +10791,21 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - Simulated Carbon Fiber Headlight Shroud', pid:'chargedcycleworks-headlight-cover', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/headlight-cover', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:37.49, url:'https://chargedcycleworks.com/products/headlight-cover', chk:'2026-11-28', stock:'out_of_stock', was:49.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-headlight-cover.webp'
     },
     {name:'Surron Ultra Bee – Headlight Bracket | OEM', pid:'chargedcycleworks-surron-ultra-bee-headlight-bracket-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:39.2, url:'https://chargedcycleworks.com/products/surron-ultra-bee-headlight-bracket-oem', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:29.4, url:'https://chargedcycleworks.com/products/surron-ultra-bee-headlight-bracket-oem', chk:'2026-11-28', stock:'out_of_stock', was:39.2, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-headlight-bracket-oem.webp'
     },
     {name:'Surron Ultra Bee – Headlight Trim Block | OEM', pid:'chargedcycleworks-surron-ultra-bee-headlight-trim-block-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:21, url:'https://chargedcycleworks.com/products/surron-ultra-bee-headlight-trim-block-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:15.75, url:'https://chargedcycleworks.com/products/surron-ultra-bee-headlight-trim-block-oem', chk:'2026-11-28', stock:'in_stock', was:21, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-headlight-trim-block-oem.webp'
@@ -10882,56 +10882,56 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM  Left-Hand Combination Switch', pid:'chargedcycleworks-ultra-bee-left-hand-combination-switch-light-horn-asr', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:75.99, url:'https://chargedcycleworks.com/products/ultra-bee-left-hand-combination-switch-light-horn-asr', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:56.99, url:'https://chargedcycleworks.com/products/ultra-bee-left-hand-combination-switch-light-horn-asr', chk:'2026-11-28', stock:'in_stock', was:75.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-left-hand-combination-switch-light-horn-asr.webp'
     },
     {name:'Surron Ultra Bee - OEM 12v DC Converter', pid:'chargedcycleworks-ultra-bee-converter', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:117.99, url:'https://chargedcycleworks.com/products/ultra-bee-converter', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:88.49, url:'https://chargedcycleworks.com/products/ultra-bee-converter', chk:'2026-11-28', stock:'in_stock', was:117.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-converter.webp'
     },
     {name:'Surron Ultra Bee - OEM Dashboard Bracket', pid:'chargedcycleworks-surron-ub-dashboard-bracket', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:15, url:'https://chargedcycleworks.com/products/surron-ub-dashboard-bracket', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:11.25, url:'https://chargedcycleworks.com/products/surron-ub-dashboard-bracket', chk:'2026-11-28', stock:'in_stock', was:15, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ub-dashboard-bracket.webp'
     },
     {name:'Surron Ultra Bee - OEM Dashboard Display', pid:'chargedcycleworks-surron-ub-oem-dashboard', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:190.99, url:'https://chargedcycleworks.com/products/surron-ub-oem-dashboard', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:143.24, url:'https://chargedcycleworks.com/products/surron-ub-oem-dashboard', chk:'2026-11-28', stock:'out_of_stock', was:190.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ub-oem-dashboard.webp'
     },
     {name:'Surron Ultra Bee - OEM Key Switch Set', pid:'chargedcycleworks-ub-key-switch-set', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:64.99, url:'https://chargedcycleworks.com/products/ub-key-switch-set', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:48.74, url:'https://chargedcycleworks.com/products/ub-key-switch-set', chk:'2026-11-28', stock:'out_of_stock', was:64.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ub-key-switch-set.webp'
     },
     {name:'Surron Ultra Bee - OEM Kickstand Switch', pid:'chargedcycleworks-oem-ultra-bee-kickstand-switch', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:34, url:'https://chargedcycleworks.com/products/oem-ultra-bee-kickstand-switch', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:25.5, url:'https://chargedcycleworks.com/products/oem-ultra-bee-kickstand-switch', chk:'2026-11-28', stock:'out_of_stock', was:34, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-oem-ultra-bee-kickstand-switch.webp'
     },
     {name:'Surron Ultra Bee - OEM Right 3 function Control Assembly (2025)', pid:'chargedcycleworks-surron-ultra-bee-oem-right-hand-3-combination-switch-my25', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:70.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-right-hand-3-combination-switch-my25', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:53.24, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-right-hand-3-combination-switch-my25', chk:'2026-11-28', stock:'out_of_stock', was:70.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-right-hand-3-combination-switch-my25.webp'
     },
     {name:'Surron Ultra Bee - OEM Right Hand 3 Combination Switch', pid:'chargedcycleworks-ultra-bee-right-hand-3-combination-switch-s-d-e-control', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:70.99, url:'https://chargedcycleworks.com/products/ultra-bee-right-hand-3-combination-switch-s-d-e-control', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:53.24, url:'https://chargedcycleworks.com/products/ultra-bee-right-hand-3-combination-switch-s-d-e-control', chk:'2026-11-28', stock:'in_stock', was:70.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:[], no:['ultrabee-21kw'],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-right-hand-3-combination-switch-s-d-e-control.webp'
@@ -11099,28 +11099,28 @@ var CATEGORIES = [
     },
     {name:'EBMX X9000 BC351 3.5" Display Case', pid:'gritshift-ebmx-display-case', tier:'midrange',
      prices:[
-      {v:'GritShift', p:59.99, url:'https://gritshift.com/products/ebmx-display-case', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:56.99, url:'https://gritshift.com/products/ebmx-display-case', chk:'2026-11-28', stock:'in_stock', was:59.99, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-ebmx-display-case.webp'
     },
     {name:'EBMX X-9000 Bluetooth Module', pid:'gritshift-ebmx-x-9000-bluetooth-module', tier:'budget',
      prices:[
-      {v:'GritShift', p:49.99, url:'https://gritshift.com/products/ebmx-x-9000-bluetooth-module', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:47.49, url:'https://gritshift.com/products/ebmx-x-9000-bluetooth-module', chk:'2026-11-28', stock:'in_stock', was:49.99, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-ebmx-x-9000-bluetooth-module.webp'
     },
     {name:'EBMX X-9000-V3 SW102 Color Display', pid:'gritshift-ebmx-x-9000-v3-sw102-color-display', tier:'midrange',
      prices:[
-      {v:'GritShift', p:84.99, url:'https://gritshift.com/products/ebmx-x-9000-v3-sw102-color-display', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:80.74, url:'https://gritshift.com/products/ebmx-x-9000-v3-sw102-color-display', chk:'2026-11-28', stock:'in_stock', was:84.99, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-ebmx-x-9000-v3-sw102-color-display.webp'
     },
     {name:'EBMX X9000 BC351 3.5" Color Display Upgrade', pid:'gritshift-ebmx-x9000v2-3-5-display-upgrade', tier:'midrange',
      prices:[
-      {v:'GritShift', p:189.89, url:'https://gritshift.com/products/ebmx-x9000v2-3-5-display-upgrade', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:180.4, url:'https://gritshift.com/products/ebmx-x9000v2-3-5-display-upgrade', chk:'2026-11-28', stock:'in_stock', was:189.89, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Ebmx', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-ebmx-x9000v2-3-5-display-upgrade.webp'
@@ -11239,7 +11239,7 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter E-Ride Painless Billet Ignition Cover', pid:'gritshift-heavy-hitter-e-ride-mini-mod-ignition-cover', tier:'midrange',
      prices:[
-      {v:'GritShift', p:31.89, url:'https://gritshift.com/products/heavy-hitter-e-ride-mini-mod-ignition-cover', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:29.89, url:'https://gritshift.com/products/heavy-hitter-e-ride-mini-mod-ignition-cover', chk:'2026-11-28', stock:'in_stock', was:31.89, wasChk:'2026-11-17'},
      ],
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-heavy-hitter-e-ride-mini-mod-ignition-cover.webp'
@@ -11308,7 +11308,7 @@ var CATEGORIES = [
     },
     {name:'Surron Light Bee - OEM Headlight', pid:'chargedcycleworks-surron-light-bee-oem-headlight', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:55, url:'https://chargedcycleworks.com/products/surron-light-bee-oem-headlight', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:41.25, url:'https://chargedcycleworks.com/products/surron-light-bee-oem-headlight', chk:'2026-11-28', stock:'in_stock', was:55, wasChk:'2026-11-22'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-light-bee-oem-headlight.webp'
     },
@@ -11498,7 +11498,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron Ultra Bee OEM Skid Plate', pid:'guards-ultrabee-skid', tier:'stock_replacement',
      prices:[
-      {v:'Charged Cycle Works', p:42, url:'https://chargedcycleworks.com/products/skid-plate', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:31.5, url:'https://chargedcycleworks.com/products/skid-plate', chk:'2026-11-28', stock:'in_stock', was:42, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:['arctic-xd','bonnell-805rx','komodo','mx5','storm-bee','ventus-evo','ventus-plus'], no:[],
@@ -11530,21 +11530,21 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM Motor Skid Plate (E7229)", pid:'voro-eride-ss-motor-skid-plate', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:39.95, url:'https://voromotors.com/products/motor-skid-plate-for-e-ride-pro-ss', chk:'2026-11-28', stock:'in_stock'},
+      {v:'VORO Motors', p:31.95, url:'https://voromotors.com/products/motor-skid-plate-for-e-ride-pro-ss', chk:'2026-11-28', stock:'in_stock', was:39.95, wasChk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/voro-eride-ss-motor-skid-plate.webp'
     },
       {name:'Surron Ultra Bee - OEM Lower Chain Guard', pid:'chargedcycleworks-surron-ub-oem-chain-guide', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:7.99, url:'https://chargedcycleworks.com/products/surron-ub-oem-chain-guide', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:5.99, url:'https://chargedcycleworks.com/products/surron-ub-oem-chain-guide', chk:'2026-11-28', stock:'in_stock', was:7.99, wasChk:'2026-10-27'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      badge:'Guard', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ub-oem-chain-guide.webp'
     },
     {name:'Surron Ultra Bee - OEM Left Battery Protector', pid:'chargedcycleworks-ultra-bee-l-battery-protector', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:8, url:'https://chargedcycleworks.com/products/ultra-bee-l-battery-protector', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:6, url:'https://chargedcycleworks.com/products/ultra-bee-l-battery-protector', chk:'2026-11-28', stock:'in_stock', was:8, wasChk:'2026-10-27'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      badge:'Guard', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-l-battery-protector.webp'
@@ -11686,7 +11686,7 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Upper Chain Guard', pid:'chargedcycleworks-surron-ub-oem-chain-guard', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:24, url:'https://chargedcycleworks.com/products/surron-ub-oem-chain-guard', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:18, url:'https://chargedcycleworks.com/products/surron-ub-oem-chain-guard', chk:'2026-11-28', stock:'in_stock', was:24, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ub-oem-chain-guard.webp'
@@ -11721,9 +11721,9 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter E-Ride Skid Plate', pid:'chargedcycleworks-heavy-hitter-e-ride-skid-plate', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:219.99, url:'https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:187.89, url:'https://chargedcycleworks.com/products/heavy-hitter-e-ride-skid-plate', chk:'2026-11-28', stock:'in_stock', was:219.99, wasChk:'2026-11-10'},
      
-      {v:'GritShift', p:219.99, url:'https://gritshift.com/products/heavy-hitter-skid-plate-e-ride', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:187.89, url:'https://gritshift.com/products/heavy-hitter-skid-plate-e-ride', chk:'2026-11-28', stock:'in_stock', was:219.99, wasChk:'2026-11-13'},
      ],
      fits:['sr','ss30','ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-heavy-hitter-e-ride-skid-plate.webp'
@@ -11737,7 +11737,7 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - Simulated Carbon Fiber Skid Plate', pid:'chargedcycleworks-surron-ultra-bee-frame-lower-guard', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:45.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:34.49, url:'https://chargedcycleworks.com/products/surron-ultra-bee-frame-lower-guard', chk:'2026-11-28', stock:'out_of_stock', was:45.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-frame-lower-guard.webp'
@@ -11772,28 +11772,28 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Hand Guard Assembly', pid:'chargedcycleworks-surron-ub-oem-hand-guard-assembly', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:49.99, url:'https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:37.49, url:'https://chargedcycleworks.com/products/surron-ub-oem-hand-guard-assembly', chk:'2026-11-28', stock:'in_stock', was:49.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ub-oem-hand-guard-assembly.webp'
     },
     {name:'Surron Ultra Bee - OEM Hand Guard Left (White)', pid:'chargedcycleworks-surron-ultra-bee-oem-hand-guard', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:21, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:15.75, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard', chk:'2026-11-28', stock:'out_of_stock', was:21, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-hand-guard.webp'
     },
     {name:'Surron Ultra Bee - OEM Hand Guard Right (White)', pid:'chargedcycleworks-surron-ultra-bee-oem-hand-guard-right-white', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:21, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:15.75, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-hand-guard-right-white', chk:'2026-11-28', stock:'out_of_stock', was:21, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-hand-guard-right-white.webp'
     },
     {name:'Surron Ultra Bee - Simulated Carbon Fiber Hand Guards', pid:'chargedcycleworks-handle-cover', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:39.99, url:'https://chargedcycleworks.com/products/handle-cover', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:29.99, url:'https://chargedcycleworks.com/products/handle-cover', chk:'2026-11-28', stock:'out_of_stock', was:39.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-handle-cover.webp'
@@ -11807,7 +11807,7 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee – Left and Right Hand Guard Windshield – Black | OEM', pid:'chargedcycleworks-surron-ultra-bee-hand-guards-black-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:24.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:18.74, url:'https://chargedcycleworks.com/products/surron-ultra-bee-hand-guards-black-oem', chk:'2026-11-28', stock:'in_stock', was:24.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-hand-guards-black-oem.webp'
@@ -11966,7 +11966,7 @@ var CATEGORIES = [
     {name:'EBMX Upgraded OEM Linkage for Sur-Ron Ultra Bee', pid:'linkage-ultrabeemx', tier:'premium',
      prices:[
       {v:'Charged Powersports', p:105, url:'https://chargedpowersports.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee', chk:'2026-11-28', stock:'out_of_stock'},
-      {v:'Charged Cycle Works', p:89.25, url:'https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:66.94, url:'https://chargedcycleworks.com/products/ebmx-upgraded-oem-linkage-for-surron-ultra-bee', chk:'2026-11-28', stock:'out_of_stock', was:89.25, wasChk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['ultrabee'], likely:['arctic-xd','bonnell-805rx','komodo','mx5','sr','ss20','ss30','storm-bee','ultrabee-21kw','ventus-evo','ventus-plus'], no:['zero-xe','ss40'],
@@ -11990,7 +11990,7 @@ var CATEGORIES = [
     },
     {name:"E Ride Pro SS OEM Rear Progression Triangle (E7026)", pid:'voro-eride-ss-progression-triangle', tier:'OEM',
      prices:[
-      {v:'VORO Motors', p:59.95, url:'https://voromotors.com/products/rear-progression-triangle-for-e-ride-pro-ss', chk:'2026-11-28', stock:'in_stock'},
+      {v:'VORO Motors', p:47.95, url:'https://voromotors.com/products/rear-progression-triangle-for-e-ride-pro-ss', chk:'2026-11-28', stock:'in_stock', was:59.95, wasChk:'2026-10-18'},
      ],
      fits:["ss20"], likely:["ss30"], no:[],
      badge:'OEM', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/voro-eride-ss-progression-triangle.webp'
@@ -12099,26 +12099,26 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter Titanium 1.5" Linkage Upgrade', pid:'chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:169.99, url:'https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:144.89, url:'https://chargedcycleworks.com/products/heavy-hitter-titanium-1-5-linkage-upgrade', chk:'2026-11-28', stock:'in_stock', was:169.99, wasChk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      
-      {v:'GritShift', p:169.99, url:'https://gritshift.com/products/heavy-hitter-titanium-linkage-upgrade', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:144.89, url:'https://gritshift.com/products/heavy-hitter-titanium-linkage-upgrade', chk:'2026-11-28', stock:'in_stock', was:169.99, wasChk:'2026-11-13'},
      ],
      fits:['falcon-gt', 'segway-x160', 'segway-x260'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-heavy-hitter-titanium-1-5-linkage-upgrade.webp'
     },
     {name:'Heavy Hitter Ultra Bee Linkage', pid:'chargedcycleworks-heavy-hitter-ultra-bee-linkage', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:99.89, url:'https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:79.99, url:'https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-linkage', chk:'2026-11-28', stock:'in_stock', was:99.89, wasChk:'2026-11-10'},
      
-      {v:'GritShift', p:99.89, url:'https://gritshift.com/products/heavy-hitter-ultra-bee-linkage', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:79.99, url:'https://gritshift.com/products/heavy-hitter-ultra-bee-linkage', chk:'2026-11-28', stock:'in_stock', was:99.89, wasChk:'2026-11-13'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-heavy-hitter-ultra-bee-linkage.webp'
     },
     {name:'Heavy Hitter Ultra Bee Triangle', pid:'chargedcycleworks-heavy-hitter-ultra-bee-triangle', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:89.99, url:'https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:76.89, url:'https://chargedcycleworks.com/products/heavy-hitter-ultra-bee-triangle', chk:'2026-11-28', stock:'in_stock', was:89.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-heavy-hitter-ultra-bee-triangle.webp'
@@ -12146,7 +12146,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 Talaria Sting Titanium Linkage Bolts', pid:'chargedcycleworks-talaria-sting-titanium-linkage-bolts-by-warp9', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:149, url:'https://chargedcycleworks.com/products/talaria-sting-titanium-linkage-bolts-by-warp9', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:119.2, url:'https://chargedcycleworks.com/products/talaria-sting-titanium-linkage-bolts-by-warp9', chk:'2026-11-28', stock:'in_stock', was:149, wasChk:'2026-11-10'},
      ],
      fits:['mx5'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-talaria-sting-titanium-linkage-bolts-by-warp9.webp'
@@ -12513,14 +12513,14 @@ var CATEGORIES = [
      prices:[
       {v:'Charged Cycle Works', p:75, url:'https://chargedcycleworks.com/products/pro-mount-for-x-9000-for-surron-ultra-bee-1', chk:'2026-11-28', stock:'in_stock'},
      
-      {v:'GritShift', p:74.99, url:'https://gritshift.com/products/ebmx-x-9000-controller-pro-mount-sur-ron-ultra-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:71.24, url:'https://gritshift.com/products/ebmx-x-9000-controller-pro-mount-sur-ron-ultra-bee', chk:'2026-11-28', stock:'in_stock', was:74.99, wasChk:'2026-11-13'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-pro-mount-for-x-9000-for-surron-ultra-bee-1.webp'
     },
     {name:'GritShift Billet Gear Box Breather Kit V2', pid:'chargedcycleworks-gritshift-billet-gear-box-breather-kit-v2', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:54.99, url:'https://chargedcycleworks.com/products/gritshift-billet-gear-box-breather-kit-v2', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:46.89, url:'https://chargedcycleworks.com/products/gritshift-billet-gear-box-breather-kit-v2', chk:'2026-11-28', stock:'in_stock', was:54.99, wasChk:'2026-11-10'},
      ],
      fits:['komodo'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-gritshift-billet-gear-box-breather-kit-v2.webp'
@@ -12541,49 +12541,49 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Headset Assembly', pid:'chargedcycleworks-bowl-set', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:64.99, url:'https://chargedcycleworks.com/products/bowl-set', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:48.74, url:'https://chargedcycleworks.com/products/bowl-set', chk:'2026-11-28', stock:'out_of_stock', was:64.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-bowl-set.webp'
     },
     {name:'Surron Ultra Bee - OEM Rear Rack', pid:'chargedcycleworks-surron-oem-ultra-bee-rear-rack', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:135, url:'https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:101.25, url:'https://chargedcycleworks.com/products/surron-oem-ultra-bee-rear-rack', chk:'2026-11-28', stock:'out_of_stock', was:135, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-oem-ultra-bee-rear-rack.webp'
     },
     {name:'Surron Ultra Bee - OEM Steering Head Adjust Nut', pid:'chargedcycleworks-ub-oem-steering-head-adjust-nut-1', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:5, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:3.75, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut-1', chk:'2026-11-28', stock:'out_of_stock', was:5, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ub-oem-steering-head-adjust-nut-1.webp'
     },
     {name:'Surron Ultra Bee - OEM Steering Head Gasket TOP', pid:'chargedcycleworks-ub-oem-steering-head-gasket-top', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:4, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:3, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-gasket-top', chk:'2026-11-28', stock:'out_of_stock', was:4, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ub-oem-steering-head-gasket-top.webp'
     },
     {name:'Surron Ultra Bee - OEM Steering Head Nut', pid:'chargedcycleworks-ub-oem-steering-head-adjust-nut', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:4.99, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:3.74, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-adjust-nut', chk:'2026-11-28', stock:'out_of_stock', was:4.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ub-oem-steering-head-adjust-nut.webp'
     },
     {name:'Surron Ultra Bee - OEM Steering Head Support', pid:'chargedcycleworks-ub-oem-steering-head-support', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:6, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-support', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:4.5, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-support', chk:'2026-11-28', stock:'out_of_stock', was:6, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ub-oem-steering-head-support.webp'
     },
     {name:'Surron Ultra Bee - OEM Top Steering Head Gasket / Cover', pid:'chargedcycleworks-ub-oem-steering-head-cover', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:6, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-cover', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:4.5, url:'https://chargedcycleworks.com/products/ub-oem-steering-head-cover', chk:'2026-11-28', stock:'out_of_stock', was:6, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ub-oem-steering-head-cover.webp'
@@ -12597,21 +12597,21 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee – Center Shaft Sleeve Assembly | OEM', pid:'chargedcycleworks-surron-ultra-bee-center-shaft-sleeve-assembly-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:79.3, url:'https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:59.48, url:'https://chargedcycleworks.com/products/surron-ultra-bee-center-shaft-sleeve-assembly-oem', chk:'2026-11-28', stock:'out_of_stock', was:79.3, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-center-shaft-sleeve-assembly-oem.webp'
     },
     {name:'Surron Ultra Bee – Kickstand | OEM', pid:'chargedcycleworks-surron-ultra-bee-kickstand-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:41.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:31.49, url:'https://chargedcycleworks.com/products/surron-ultra-bee-kickstand-oem', chk:'2026-11-28', stock:'in_stock', was:41.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-kickstand-oem.webp'
     },
     {name:'Surron Ultra Bee – Mid Shaft Bushing | OEM', pid:'chargedcycleworks-surron-ultra-bee-mid-shaft-bushing-oem', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:8, url:'https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:6, url:'https://chargedcycleworks.com/products/surron-ultra-bee-mid-shaft-bushing-oem', chk:'2026-11-28', stock:'in_stock', was:8, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-mid-shaft-bushing-oem.webp'
@@ -12702,7 +12702,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 Ultra Bee Steer Stops – Low Profile', pid:'chargedcycleworks-warp9-ultra-bee-steer-stops-low-profile', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:22, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:17.6, url:'https://chargedcycleworks.com/products/warp9-ultra-bee-steer-stops-low-profile', chk:'2026-11-28', stock:'out_of_stock', was:22, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-warp9-ultra-bee-steer-stops-low-profile.webp'
@@ -12723,7 +12723,7 @@ var CATEGORIES = [
     },
     {name:'Warp 9 Stemlock Replacement Bolt', pid:'maintenance-warp9-stemlock-replacement-bolt', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:8, url:'https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:6.4, url:'https://chargedcycleworks.com/products/steerlock-replacement-bolt-for-warp-9', chk:'2026-11-28', stock:'in_stock', was:8, wasChk:'2026-11-11'},
      ],
      fits:['ventus-evo','arctic-leopard-xe-pro-s','arctic-leopard-xe-pro-s-enduro'], likely:['arctic-leopard-xe-pro-r','arctic-leopard-xf'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/maintenance-warp9-stemlock-replacement-bolt.webp'
@@ -12772,7 +12772,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 Adjustable Spoke Torque Wrench Kit', pid:'chargedcycleworks-warp-9-torque-spoke-wrench', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:131.0, url:'https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:104.8, url:'https://chargedcycleworks.com/products/warp-9-torque-spoke-wrench', chk:'2026-11-28', stock:'in_stock', was:131, wasChk:'2026-11-11'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','stark-vargex'], likely:['altis-sigma'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-warp-9-torque-spoke-wrench.webp'
@@ -12814,7 +12814,7 @@ var CATEGORIES = [
     },
     {name:'Stem Spacer Kit', pid:'chargedcycleworks-warp9-stem-lock-spacer-kit', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:10, url:'https://chargedcycleworks.com/products/stem-lock-spacer-kit', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:8, url:'https://chargedcycleworks.com/products/stem-lock-spacer-kit', chk:'2026-11-28', stock:'in_stock', was:10, wasChk:'2026-11-11'},
      ],
      fits:['arctic-leopard-xe-pro-s-enduro','rawrr-mantis-x','rawrr-mantis-x-pro'], likely:['altis-sigma','rawrr-mantis-72v','rawrr-mantis-mini-r'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-warp9-stem-lock-spacer-kit.webp'
@@ -12829,7 +12829,7 @@ var CATEGORIES = [
     },
     {name:'Tusk Adjustable Height Motorcycle Tire Changing Stand', pid:'maintenance-tusk-tire-changing-stand', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:139.99, url:'https://chargedcycleworks.com/products/tusk-adjustable-height-motorcycle-tire-changing-stand', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:119.99, url:'https://chargedcycleworks.com/products/tusk-adjustable-height-motorcycle-tire-changing-stand', chk:'2026-11-28', stock:'in_stock', was:139.99, wasChk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
@@ -12845,7 +12845,7 @@ var CATEGORIES = [
     },
     {name:'DRC Bike Lift Stand', pid:'maintenance-drc-bike-lift-stand', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:189.95, url:'https://chargedcycleworks.com/products/bike-lift-stand-by-drc', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:260, url:'https://chargedcycleworks.com/products/bike-lift-stand-by-drc', chk:'2026-11-28', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
@@ -12947,7 +12947,7 @@ var CATEGORIES = [
     },
     {name:'Muc-Off Motorcycle Protectant Vanilla Scented', pid:'gritshift-muc-off-motorcycle-protectant-vanilla-scented', tier:'budget',
      prices:[
-      {v:'GritShift', p:16.89, url:'https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:14.89, url:'https://gritshift.com/products/muc-off-motorcycle-protectant-vanilla-scented', chk:'2026-11-28', stock:'in_stock', was:16.89, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-muc-off-motorcycle-protectant-vanilla-scented.webp'
@@ -12968,7 +12968,7 @@ var CATEGORIES = [
     },
     {name:'MUC-OFF Matt Finish Spray Detailer', pid:'gritshift-muc-off-usa-matt-finish-detailer-250ml-20004us', tier:'budget',
      prices:[
-      {v:'GritShift', p:18.89, url:'https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:14.89, url:'https://gritshift.com/products/muc-off-usa-matt-finish-detailer-250ml-20004us', chk:'2026-11-28', stock:'in_stock', was:18.89, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[],
      badge:'Muc-Off', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-muc-off-usa-matt-finish-detailer-250ml-20004us.webp'
@@ -15072,28 +15072,28 @@ var CATEGORIES = [
     },
     {name:'Surron Light Bee - OEM Right & Left Foot Peg Support Brackets', pid:'chargedcycleworks-surron-light-bee-oem-right-left-foot-peg-support-brackets', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:61.63, url:'https://chargedcycleworks.com/products/surron-light-bee-oem-right-left-foot-peg-support-brackets', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:46.22, url:'https://chargedcycleworks.com/products/surron-light-bee-oem-right-left-foot-peg-support-brackets', chk:'2026-11-28', stock:'out_of_stock', was:61.63, wasChk:'2026-11-10'},
      ],
      fits:['ventus-plus'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-light-bee-oem-right-left-foot-peg-support-brackets.webp'
     },
     {name:'Surron Ultra Bee - OEM Left Footpeg Assembly', pid:'chargedcycleworks-left-footpeg-assembly', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:50.99, url:'https://chargedcycleworks.com/products/left-footpeg-assembly', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:38.24, url:'https://chargedcycleworks.com/products/left-footpeg-assembly', chk:'2026-11-28', stock:'in_stock', was:50.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-left-footpeg-assembly.webp'
     },
     {name:'Surron Ultra Bee - OEM Passenger Footpeg Kit', pid:'chargedcycleworks-ultra-bee-passenger-footpeg-kit', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:111, url:'https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:83.25, url:'https://chargedcycleworks.com/products/ultra-bee-passenger-footpeg-kit', chk:'2026-11-28', stock:'in_stock', was:111, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ultra-bee-passenger-footpeg-kit.webp'
     },
     {name:'Surron Ultra Bee - OEM Right Footpeg Assembly', pid:'chargedcycleworks-right-footpeg-assembly', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:47.99, url:'https://chargedcycleworks.com/products/right-footpeg-assembly', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:35.99, url:'https://chargedcycleworks.com/products/right-footpeg-assembly', chk:'2026-11-28', stock:'in_stock', was:47.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-right-footpeg-assembly.webp'
@@ -15163,7 +15163,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 Surron Ultra Bee Elite Foot Pegs', pid:'chargedcycleworks-surron-ultra-bee-foot-pegs', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:131, url:'https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:104.8, url:'https://chargedcycleworks.com/products/surron-ultra-bee-foot-pegs', chk:'2026-11-28', stock:'in_stock', was:131, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:['ultrabee-21kw'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-foot-pegs.webp'
@@ -15184,7 +15184,7 @@ var CATEGORIES = [
     },
     {name:'Wide Foot Pegs for E-Moto', pid:'chargedcycleworks-cnc-aluminum-wide-foot-pegs', tier:'midrange',
      prices:[
-      {v:'Charged Cycle Works', p:59.99, url:'https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:55.87, url:'https://chargedcycleworks.com/products/cnc-aluminum-wide-foot-pegs', chk:'2026-11-28', stock:'in_stock', was:59.99, wasChk:'2026-11-10'},
      ],
      fits:['sr','ss30','ultrabee', 'segway-x160', 'segway-x260'], likely:['ultrabee-21kw'], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-cnc-aluminum-wide-foot-pegs.webp'
@@ -15219,7 +15219,7 @@ var CATEGORIES = [
     },
     {name:'Warp9 Stark Varg Elite Foot Pegs', pid:'pegs-warp9-elite-foot-pegs-stark-varg', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:147.6, url:'https://chargedcycleworks.com/products/stark-varg-elite-foot-pegs-by-warp9', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:131.2, url:'https://chargedcycleworks.com/products/stark-varg-elite-foot-pegs-by-warp9', chk:'2026-11-28', stock:'in_stock', was:147.6, wasChk:'2026-11-11'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['stark-vargex'], likely:[], no:[],
@@ -15286,7 +15286,7 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter Grappler Stainless Steel Foot Peg Cleat Kit', pid:'gritshift-replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler', tier:'budget',
      prices:[
-      {v:'GritShift', p:28.99, url:'https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:24.89, url:'https://gritshift.com/products/replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler', chk:'2026-11-28', stock:'in_stock', was:28.99, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['rerode-rx'], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-replacement-foot-peg-cleats-stainless-steel-heavy-hitter-grappler.webp'
     },
@@ -15690,7 +15690,7 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee – OEM Seat | High / Low', pid:'chargedcycleworks-surron-ultra-bee-oem-seat', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:104.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:78.74, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-seat', chk:'2026-11-28', stock:'out_of_stock', was:104.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee'], likely:[], no:['ultrabee-21kw'],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-seat.webp'
@@ -15834,7 +15834,7 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter Ribbed Gripper Seat Cover - E Ride Pro', pid:'gritshift-heavy-hitter-ribbed-gripper-seat-cover-e-ride-pro', tier:'midrange',
      prices:[
-      {v:'GritShift', p:59.89, url:'https://gritshift.com/products/heavy-hitter-ribbed-gripper-seat-cover-e-ride-pro', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:39.99, url:'https://gritshift.com/products/heavy-hitter-ribbed-gripper-seat-cover-e-ride-pro', chk:'2026-11-28', stock:'in_stock', was:59.89, wasChk:'2026-11-17'},
      ],
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-heavy-hitter-ribbed-gripper-seat-cover-e-ride-pro.webp'
@@ -15848,7 +15848,7 @@ var CATEGORIES = [
     },
     {name:'Surron Light Bee - OEM Seat', pid:'chargedcycleworks-replacement-seat-for-surron-and-segway-x160-x260', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:47, url:'https://chargedcycleworks.com/products/replacement-seat-for-surron-and-segway-x160-x260', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:35.25, url:'https://chargedcycleworks.com/products/replacement-seat-for-surron-and-segway-x160-x260', chk:'2026-11-28', stock:'in_stock', was:47, wasChk:'2026-11-22'},
      ],
      fits:['segway-x160', 'segway-x260'], likely:[], no:[], stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-replacement-seat-for-surron-and-segway-x160-x260.webp'
     },
@@ -16010,25 +16010,25 @@ var CATEGORIES = [
      prices:[
       {v:'TB Electric Moto', p:19, url:'https://tbelectricmoto.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-talaria-sting-mx4-r-only', chk:'2026-11-28', stock:'in_stock'},
      
-      {v:'GritShift', p:19.99, url:'https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:17.89, url:'https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4', chk:'2026-11-28', stock:'in_stock', was:19.99, wasChk:'2026-11-13'},
      ],
      fits:["mx5", "mx4"], likely:[], no:[],
      badge:'Street', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/tbelectricmoto-gritshift-blazer-led-headlight-for-talaria-mx4-talaria.webp'
     },
     {name:'GritShift Blazer LED Headlight for Talaria MX4/MX5', pid:'chargedcycleworks-gritshift-blazer-led-headlight-for-talaria-mx4-mx5', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:19.99, url:'https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:17.89, url:'https://chargedcycleworks.com/products/gritshift-blazer-led-headlight-for-talaria-mx4-mx5', chk:'2026-11-28', stock:'in_stock', was:19.99, wasChk:'2026-10-27'},
      
-      {v:'GritShift', p:19.99, url:'https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:17.89, url:'https://gritshift.com/products/gritshift-blazer-led-headlight-for-talaria-mx4', chk:'2026-11-28', stock:'in_stock', was:19.99, wasChk:'2026-11-13'},
      ],
      fits:["mx5", "mx4"], likely:[], no:[],
      badge:'Street', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-gritshift-blazer-led-headlight-for-talaria-mx4-mx5.webp'
     },
     {name:'GritShift Blinder LED Light Bar Headlight MX4/MX5', pid:'chargedcycleworks-gritshift-blinder-led-light-bar-headlight-mx4-mx5', tier:'budget',
      prices:[
-      {v:'Charged Cycle Works', p:32.99, url:'https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:28.89, url:'https://chargedcycleworks.com/products/gritshift-blinder-led-light-bar-headlight-mx4-mx5', chk:'2026-11-28', stock:'in_stock', was:32.99, wasChk:'2026-10-27'},
      
-      {v:'GritShift', p:32.99, url:'https://gritshift.com/products/talaria-blinder-led-light-bar-headlight', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:28.89, url:'https://gritshift.com/products/talaria-blinder-led-light-bar-headlight', chk:'2026-11-28', stock:'in_stock', was:32.99, wasChk:'2026-11-13'},
      ],
      fits:["mx5", "mx4"], likely:[], no:[],
      badge:'Street', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-gritshift-blinder-led-light-bar-headlight-mx4-mx5.webp'
@@ -16056,42 +16056,42 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - Blinker Kit Mount Cover', pid:'chargedcycleworks-tail-light-installation-decorative-block', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:16, url:'https://chargedcycleworks.com/products/tail-light-installation-decorative-block', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:12, url:'https://chargedcycleworks.com/products/tail-light-installation-decorative-block', chk:'2026-11-28', stock:'out_of_stock', was:16, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-tail-light-installation-decorative-block.webp'
     },
     {name:'Surron Ultra Bee - Front Turn Signals', pid:'chargedcycleworks-front-turn-lamp-pair', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:64.99, url:'https://chargedcycleworks.com/products/front-turn-lamp-pair', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:48.74, url:'https://chargedcycleworks.com/products/front-turn-lamp-pair', chk:'2026-11-28', stock:'out_of_stock', was:64.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-front-turn-lamp-pair.webp'
     },
     {name:'Surron Ultra Bee - Rear Blinker & License Plate Mounting Bracket', pid:'chargedcycleworks-tail-light-installation-cover', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:27, url:'https://chargedcycleworks.com/products/tail-light-installation-cover', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:20.25, url:'https://chargedcycleworks.com/products/tail-light-installation-cover', chk:'2026-11-28', stock:'out_of_stock', was:27, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-tail-light-installation-cover.webp'
     },
     {name:'Surron Ultra Bee - Rear Blinker Kit Mounting Bracket', pid:'chargedcycleworks-tail-light-mounting-bracket', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:69.99, url:'https://chargedcycleworks.com/products/tail-light-mounting-bracket', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:52.49, url:'https://chargedcycleworks.com/products/tail-light-mounting-bracket', chk:'2026-11-28', stock:'out_of_stock', was:69.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-tail-light-mounting-bracket.webp'
     },
     {name:'Surron Ultra Bee - Rear Turn Signals', pid:'chargedcycleworks-rear-turn-lamp-pair', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:64.99, url:'https://chargedcycleworks.com/products/rear-turn-lamp-pair', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:48.74, url:'https://chargedcycleworks.com/products/rear-turn-lamp-pair', chk:'2026-11-28', stock:'out_of_stock', was:64.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-rear-turn-lamp-pair.webp'
     },
     {name:'Surron Ultra Bee - Tail Light for Blinker Kit', pid:'chargedcycleworks-surron-tail-light', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:48, url:'https://chargedcycleworks.com/products/surron-tail-light', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:36, url:'https://chargedcycleworks.com/products/surron-tail-light', chk:'2026-11-28', stock:'out_of_stock', was:48, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-tail-light.webp'
@@ -16350,35 +16350,35 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Swingarm (Carbon Black, without bearings)', pid:'chargedcycleworks-surron-ultra-bee-oem-swingarm-carbon-black-without-bearings', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:644.99, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-carbon-black-without-bearings', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:483.74, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-carbon-black-without-bearings', chk:'2026-11-28', stock:'out_of_stock', was:644.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-carbon-black-without-bearings.webp'
     },
     {name:'Surron Ultra Bee - OEM Swingarm Bearing', pid:'chargedcycleworks-surron-ultra-bee-oem-swingarm-bearing', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:18, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bearing', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:13.5, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bearing', chk:'2026-11-28', stock:'out_of_stock', was:18, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-bearing.webp'
     },
     {name:'Surron Ultra Bee - OEM Swingarm Bottom Protection Block', pid:'chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:9, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:6.75, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block', chk:'2026-11-28', stock:'out_of_stock', was:9, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block.webp'
     },
     {name:'Surron Ultra Bee - OEM Swingarm Bottom Protection Block Bushing', pid:'chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:2, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:1.5, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing', chk:'2026-11-28', stock:'out_of_stock'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-bottom-protection-block-bushing.webp'
     },
     {name:'Surron Ultra Bee - OEM Swingarm Pivot Bushing', pid:'chargedcycleworks-ub-pivot-bushing', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:9.99, url:'https://chargedcycleworks.com/products/ub-pivot-bushing', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:7.49, url:'https://chargedcycleworks.com/products/ub-pivot-bushing', chk:'2026-11-28', stock:'out_of_stock', was:9.99, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ub-pivot-bushing.webp'
@@ -16392,14 +16392,14 @@ var CATEGORIES = [
     },
     {name:'Surron Ultra Bee - OEM Swingarm Pivot Shaft Axle Bolt', pid:'chargedcycleworks-ub-swingarm-pivot-shaft-bolt', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:2.99, url:'https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:2.24, url:'https://chargedcycleworks.com/products/ub-swingarm-pivot-shaft-bolt', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-ub-swingarm-pivot-shaft-bolt.webp'
     },
     {name:'Surron Ultra Bee - OEM Swingarm Washer', pid:'chargedcycleworks-surron-ultra-bee-oem-swingarm-washer', tier:'OEM',
      prices:[
-      {v:'Charged Cycle Works', p:4, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-washer', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'Charged Cycle Works', p:3, url:'https://chargedcycleworks.com/products/surron-ultra-bee-oem-swingarm-washer', chk:'2026-11-28', stock:'out_of_stock', was:4, wasChk:'2026-11-10'},
      ],
      fits:['ultrabee','ultrabee-21kw'], likely:[], no:[],
      stock:'out_of_stock', stockChk:'2026-11-28', img:'img/parts/chargedcycleworks-surron-ultra-bee-oem-swingarm-washer.webp'
@@ -16434,7 +16434,7 @@ var CATEGORIES = [
     },
     {name:'Heavy Hitter Rogue 2.5 Inch Extended E Ride Billet Swingarm', pid:'gritshift-heavy-hitter-billet-swing-arm', tier:'midrange',
      prices:[
-      {v:'GritShift', p:765.89, url:'https://gritshift.com/products/heavy-hitter-billet-swing-arm', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:759.99, url:'https://gritshift.com/products/heavy-hitter-billet-swing-arm', chk:'2026-11-28', stock:'in_stock'},
      ],
      fits:['ss40'], likely:[], no:[],
      stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-heavy-hitter-billet-swing-arm.webp'
@@ -16649,7 +16649,7 @@ var CATEGORIES = [
     },
     {name:'Sur-Ron 19" Off-Road Tire (OEM)', pid:'tire-surron-oem-19', tier:'OEM',
      prices:[
-      {v:'Surron Canada', p:79, url:'https://surron.ca/products/light-bee-off-road-tire', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Surron Canada', p:109.99, url:'https://surron.ca/products/light-bee-off-road-tire', chk:'2026-11-28', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['lightbee','altis-sigma','falcon-gt','falcon-pro','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','supermach-sm62','ventus-plus'], likely:['sr','ss20','ss30','ss40','supermach-sm01','ultrabee','ultrabee-21kw','ventus-evo','yvolt-surge-v'], no:['komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','stark-vargex'],
@@ -16665,7 +16665,7 @@ var CATEGORIES = [
     },
     {name:'CST CM713 80/100-19 Rear Tire (Talaria OEM)', pid:'tire-cst-cm713-80100-19', tier:'OEM',
      prices:[
-      {v:'Ghostbikes', p:99, url:'https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Ghostbikes', p:74.38, url:'https://www.ghostbikes.com/products/57383-tm00328800-cst-cm713-49m-tt-e-mark-mx-tyre-80100-19', chk:'2026-11-28', stock:'in_stock', was:99, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['mx4','mx5','rawrr-mantis-72v','supermach-sm01'], likely:['altis-sigma','falcon-pro','ss20'], no:['komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','stark-vargex'],
@@ -16673,7 +16673,7 @@ var CATEGORIES = [
     },
     {name:'CST OEM Off-Road Tire 70/100-19', pid:'tire-cst-oem-70100-19-eu', tier:'OEM',
      prices:[
-      {v:'ELMOX', p:58, url:'https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll', chk:'2026-11-28', stock:'out_of_stock'},
+      {v:'ELMOX', p:49.95, url:'https://elmox.de/en-pl/products/sur-ron-original-cst-offroad-reifen-19-zoll', chk:'2026-11-28', stock:'out_of_stock', was:58, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['lightbee','arctic-leopard-xe-pro-s','rfn-warrior-pro','altis-sigma','falcon-gt','falcon-pro','mx4','mx5','rawrr-mantis-72v','rawrr-mantis-x','rawrr-mantis-x-pro','supermach-sm62','ventus-plus'], likely:['sr','ss20','ss30','ss40','supermach-sm01','ultrabee','ultrabee-21kw','ventus-evo','yvolt-surge-v'], no:['komodo','bonnell-805rx','storm-bee','arctic-xd','rerode-rx','rtr-lite','rtr-lite-2-0','rtr-sport','rtr-alpha','rtr-xl','rtr-xl-alpha','yozma-in10','yozma-in10-pro','tuttio-soleil01','stark-vargex'],
@@ -17021,7 +17021,7 @@ var CATEGORIES = [
     },
     {name:'IRC VE33S Gekkota Gummy Tire 110/100x18', pid:'tire-tire-ve-33s-gekkota-rear-tire', tier:'mid',
      prices:[
-      {v:'Charged Cycle Works', p:99.88, url:'https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Charged Cycle Works', p:179.95, url:'https://chargedcycleworks.com/products/tire-ve-33s-gekkota-rear-tire', chk:'2026-11-28', stock:'in_stock'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:['bonnell-805rx'], likely:['stark-vargex','ultrabee-21kw','zero-xe'], no:[],
@@ -17304,7 +17304,7 @@ var CATEGORIES = [
     },
     {name:'Pivotrax Cyber 80/100-19 Street Tire', pid:'gritshift-80-100-19-street-tire', tier:'midrange',
      prices:[
-      {v:'GritShift', p:99.99, url:'https://gritshift.com/products/80-100-19-street-tire', chk:'2026-11-28', stock:'in_stock'},
+      {v:'GritShift', p:96.89, url:'https://gritshift.com/products/80-100-19-street-tire', chk:'2026-11-28', stock:'in_stock', was:99.99, wasChk:'2026-11-11'},
      ],
      fits:[], likely:['supermach-sm01'], no:[],
      badge:'Pivotrax', stock:'in_stock', stockChk:'2026-11-28', img:'img/parts/gritshift-80-100-19-street-tire.webp'
@@ -18440,7 +18440,7 @@ var CATEGORIES = [
     },
     {name:'Warp 9 Titanium Chassis Kit — Ultra Bee', pid:'warp9-chassis-kit-ultrabee', tier:'premium',
      prices:[
-      {v:'Faster Minis', p:399, url:'https://faster-minis.com/products/warp9-titanium-chassis-kit-surron-ultra-bee', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Faster Minis', p:319.2, url:'https://faster-minis.com/products/warp9-titanium-chassis-kit-surron-ultra-bee', chk:'2026-11-28', stock:'in_stock', was:399, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ultrabee"], likely:[], no:[],
@@ -18490,7 +18490,7 @@ var CATEGORIES = [
     },
     {name:'Titanium Motor Mount Bolt Kit — E-Ride Pro (4 pc)', pid:'ti-motor-bolts-erp', tier:'mid',
      prices:[
-      {v:'Titanium Surron', p:29.99, url:'https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro', chk:'2026-11-28', stock:'in_stock'},
+      {v:'Titanium Surron', p:18.99, url:'https://titaniumsurron.com/products/titanium-motor-bolts-e-ride-pro', chk:'2026-11-28', stock:'in_stock', was:29.99, wasChk:'2026-10-15'},
       /* AFFILIATE: replace with affiliate link */
      ],
      fits:["ss20","ss30"], likely:["sr"], no:[],
