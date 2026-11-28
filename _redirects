@@ -27,3 +27,40 @@
 /parts/controller/gritshift-ventus-vtb-aetos-pro-controller /parts/controller/vtb-aetos-pro/ 301
 /parts/tires/chargedcycleworks-kenda-k760-trakmaster-rear-tire/ /parts/tires/tire-kenda-k760-trakmaster/ 301
 /parts/tires/chargedcycleworks-kenda-k760-trakmaster-rear-tire /parts/tires/tire-kenda-k760-trakmaster/ 301
+
+# Search Console fix (Nov 28): no-slash and /index.html variants of every retired part URL, so none of them 404.
+/parts/cockpit/chargedcycleworks-e-ride-pro-oem-regen /parts/cockpit/ 301
+/parts/cockpit/chargedcycleworks-e-ride-pro-oem-regen/index.html /parts/cockpit/ 301
+/parts/maintenance/howlingmoto-sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-k /parts/maintenance/ 301
+/parts/maintenance/howlingmoto-sur-ron-light-bee-lbx-suspension-triangle-needle-bearing-k/index.html /parts/maintenance/ 301
+/parts/electrical/chargedcycleworks-e-ride-pro-oem-rengen-brake /parts/electrical/ 301
+/parts/electrical/chargedcycleworks-e-ride-pro-oem-rengen-brake/index.html /parts/electrical/ 301
+/parts/plastics/gritshift-dirtybike-long-rear-fender-talaria-sting-mx3-mx4 /parts/plastics/ 301
+/parts/plastics/gritshift-dirtybike-long-rear-fender-talaria-sting-mx3-mx4/index.html /parts/plastics/ 301
+/parts/brakes/tbelectricmoto-titanium-surron-ultra-bee-brake-reservoir-cap-bolts /parts/brakes/ 301
+/parts/brakes/tbelectricmoto-titanium-surron-ultra-bee-brake-reservoir-cap-bolts/index.html /parts/brakes/ 301
+/parts/shock/revrides-kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-u /parts/shock/ 301
+/parts/shock/revrides-kke-550lbs-rear-absorber-suspension-shock-spring-for-surron-u/index.html /parts/shock/ 301
+/parts/street/street-surron-oem-horn /parts/electrical/electrical-surron-horn/ 301
+/parts/street/street-surron-oem-horn/index.html /parts/electrical/electrical-surron-horn/ 301
+/parts/wheels/chargedcycleworks-ion-16-19-wheelset-for-e-ride-pro-3-0-sr /parts/wheels/ 301
+/parts/wheels/chargedcycleworks-ion-16-19-wheelset-for-e-ride-pro-3-0-sr/index.html /parts/wheels/ 301
+/parts/drivetrain/howlingmoto-final-drive-front-sprocket-14t-surron-lbx /parts/drivetrain/ 301
+/parts/drivetrain/howlingmoto-final-drive-front-sprocket-14t-surron-lbx/index.html /parts/drivetrain/ 301
+/parts/drivetrain/revrides-dirtybike-final-drive-front-sprocket-surron-lbx /parts/drivetrain/ 301
+/parts/drivetrain/revrides-dirtybike-final-drive-front-sprocket-surron-lbx/index.html /parts/drivetrain/ 301
+/parts/shock/chargedcycleworks-prickly-performance-linkage-e-ride-pro/index.html /parts/linkage/chargedcycleworks-prickly-performance-linkage-e-ride-pro/ 301
+/parts/electrical/gritshift-high-voltage-fuse-kit-replacement-fuses/index.html /parts/electrical/chargedcycleworks-high-voltage-fuse-kit-replacement-fuses/ 301
+/parts/tires/warp9racing-dunlop-geomax-at82-tire/index.html /parts/tires/tire-dunlop-at82-geomax-all-terrain-terrain-tire/ 301
+/parts/tires/gritshift-dunlop-geomax-at82-tire/index.html /parts/tires/tire-dunlop-at82-geomax-all-terrain-terrain-tire/ 301
+/parts/controller/chargedcycleworks-ventus-aetos-pro-controller/index.html /parts/controller/vtb-aetos-pro/ 301
+/parts/controller/gritshift-ventus-vtb-aetos-pro-controller/index.html /parts/controller/vtb-aetos-pro/ 301
+/parts/tires/chargedcycleworks-kenda-k760-trakmaster-rear-tire/index.html /parts/tires/tire-kenda-k760-trakmaster/ 301
+
+# /guides/ and /upgrades/ have no index page (only per-bike pages beneath them). Send the hubs to the bike list, which links the guides and upgrades.
+/guides/ /bikes/ 301
+/guides /bikes/ 301
+/guides/index.html /bikes/ 301
+/upgrades/ /bikes/ 301
+/upgrades /bikes/ 301
+/upgrades/index.html /bikes/ 301

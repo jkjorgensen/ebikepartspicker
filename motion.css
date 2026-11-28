@@ -89,3 +89,22 @@ html.mo-rm .mo-fd.mo-in{opacity:1;transition:opacity .45s cubic-bezier(.2,.7,.2,
   .mo-on .popular{margin-top:34px}
   .mo-glow,.mo-card,.mo-word,.mo-sweep,.mo-caps,.mo-rail,.mo-hint,.mo-marq,.mo-acc{display:none}
 }
+
+/* CLS fix (Nov 28): motion.js adds .mo-on a moment after first paint, and the hero used to jump from the
+   780px static card to the full-bleed sticky stage when it did (home CLS 0.09 at 1366px, 0.23 at 1920px).
+   These rules give the first paint the same box the .mo-on rules produce, for browsers that will run the
+   scroll-driven hero (motion allowed + JS on). They only reserve layout; nothing here animates, and
+   motion.js still drives every transform. `:root` raises specificity above styles.css's .m-on rules from polish.js.
+   Keep in sync with the .mo-on hero rules above. */
+@media (prefers-reduced-motion: no-preference) and (scripting: enabled) {
+  html:root .hero-pin{height:380vh;width:calc(100% + 48px);max-width:none;margin-top:0}
+  html:root .hero-pin .herostage{position:sticky;top:0;width:100%;height:100vh;height:100svh;aspect-ratio:auto;
+    border-radius:0;background:none;box-shadow:none;overflow:hidden;display:flex;align-items:center;justify-content:center;perspective:1100px}
+  html:root .hero-pin .herostage .hero{position:relative;z-index:3;width:min(780px,90vw);height:auto;aspect-ratio:16/10}
+  html:root .hz-glow{z-index:1}
+  html:root .hz-floor{z-index:2}
+}
+@media (prefers-reduced-motion: no-preference) and (scripting: enabled) and (max-width:779px) {
+  html:root .hero-pin{height:300vh}
+  html:root .popular{margin-top:-48vh}
+}
